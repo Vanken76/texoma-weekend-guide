@@ -10,13 +10,18 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <header>
       <p class="eyebrow">TWG Admin</p>
       <h1>Directory JSON Publisher</h1>
-      <p>
-        Paste the complete directory JSON below. Validate it before publishing.
-        Publishing will be connected in the next step.
-      </p>
+      <p>Paste the complete directory JSON, validate it, then publish it directly to GitHub.</p>
     </header>
 
     <div class="panel">
+      <label for="admin-key">Admin key</label>
+      <input
+        id="admin-key"
+        type="password"
+        autocomplete="current-password"
+        placeholder="Enter your private publishing key"
+      />
+
       <label for="json-input">Directory JSON</label>
       <textarea
         id="json-input"
@@ -42,20 +47,26 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
   <script>
     const input = document.querySelector("#json-input");
+    const adminKey = document.querySelector("#admin-key");
     const status = document.querySelector("#status");
     const checks = document.querySelector("#checks");
     const validateButton = document.querySelector("#validate");
     const loadButton = document.querySelector("#load-current");
+    const publishButton = document.querySelector("#publish");
 
     if (
       !(input instanceof HTMLTextAreaElement) ||
+      !(adminKey instanceof HTMLInputElement) ||
       !(status instanceof HTMLElement) ||
       !(checks instanceof HTMLUListElement) ||
       !(validateButton instanceof HTMLButtonElement) ||
-      !(loadButton instanceof HTMLButtonElement)
+      !(loadButton instanceof HTMLButtonElement) ||
+      !(publishButton instanceof HTMLButtonElement)
     ) {
       throw new Error("Directory publisher controls could not be initialized.");
     }
+
+    let validatedJson = null;
 
     const setResult = (message, items = [], valid = false) => {
       status.textContent = message;
@@ -70,6 +81,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     };
 
     const validateDirectory = () => {
+      validatedJson = null;
+      publishButton.disabled = true;
+
       try {
         const data = JSON.parse(input.value);
 
@@ -84,7 +98,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         const missingNames = data.businesses.filter(
           (business) => !business?.business_name || typeof business.business_name !== "string"
         );
-
         const missingSlugs = data.businesses.filter(
           (business) => !business?.slug || typeof business.slug !== "string"
         );
@@ -100,8 +113,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           .filter(([, count]) => count > 1)
           .map(([slug]) => slug);
 
-        const actualBusinessCount = data.businesses.length;
-        const actualPublishReadyCount = data.businesses.filter(
+        const businessCount = data.businesses.length;
+        const publishReadyCount = data.businesses.filter(
           (business) => business?.publish_ready === true
         ).length;
 
@@ -109,25 +122,27 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         if (missingNames.length) problems.push(`${missingNames.length} record(s) missing a business name.`);
         if (missingSlugs.length) problems.push(`${missingSlugs.length} record(s) missing a slug.`);
         if (duplicateSlugs.length) problems.push(`Duplicate slug(s): ${duplicateSlugs.join(", ")}`);
-        if (data.business_count !== actualBusinessCount) {
-          problems.push(`business_count says ${data.business_count}, but the array contains ${actualBusinessCount}.`);
+        if (data.business_count !== businessCount) {
+          problems.push(`business_count says ${data.business_count}, but the array contains ${businessCount}.`);
         }
-        if (data.publish_ready_count !== actualPublishReadyCount) {
+        if (data.publish_ready_count !== publishReadyCount) {
           problems.push(
-            `publish_ready_count says ${data.publish_ready_count}, but ${actualPublishReadyCount} records are publish-ready.`
+            `publish_ready_count says ${data.publish_ready_count}, but ${publishReadyCount} records are publish-ready.`
           );
         }
 
         if (problems.length) {
           setResult("The JSON parsed, but validation found problems.", problems, false);
-          return;
+          return false;
         }
 
+        validatedJson = data;
+        publishButton.disabled = false;
         setResult(
-          "Valid directory JSON. Ready for the publishing connection.",
+          "Valid directory JSON. It is ready to publish.",
           [
-            `${actualBusinessCount} total businesses`,
-            `${actualPublishReadyCount} publish-ready businesses`,
+            `${businessCount} total businesses`,
+            `${publishReadyCount} publish-ready businesses`,
             "No missing business names",
             "No missing slugs",
             "No duplicate slugs",
@@ -135,11 +150,18 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           ],
           true
         );
+        return true;
       } catch (error) {
         const message = error instanceof Error ? error.message : "Unknown validation error.";
         setResult(`Invalid JSON: ${message}`, [], false);
+        return false;
       }
     };
+
+    input.addEventListener("input", () => {
+      validatedJson = null;
+      publishButton.disabled = true;
+    });
 
     validateButton.addEventListener("click", validateDirectory);
 
@@ -161,6 +183,51 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         loadButton.textContent = "Load current JSON";
       }
     });
+
+    publishButton.addEventListener("click", async () => {
+      if (!validatedJson && !validateDirectory()) return;
+      if (!adminKey.value) {
+        setResult("Enter the admin key before publishing.", [], false);
+        return;
+      }
+
+      publishButton.disabled = true;
+      publishButton.textContent = "Publishing…";
+
+      try {
+        const response = await fetch("/api/publish-directory", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+            "x-admin-key": adminKey.value
+          },
+          body: JSON.stringify(validatedJson)
+        });
+
+        const result = await response.json();
+        if (!response.ok) {
+          const details = Array.isArray(result.problems) ? result.problems : [];
+          setResult(result.error || `Publishing failed with status ${response.status}.`, details, false);
+          return;
+        }
+
+        setResult(
+          result.message || "Directory published successfully.",
+          [
+            `${result.business_count} total businesses committed`,
+            `${result.publish_ready_count} publish-ready businesses committed`,
+            result.commit ? `GitHub commit: ${result.commit.slice(0, 7)}` : "GitHub commit created"
+          ],
+          true
+        );
+      } catch (error) {
+        const message = error instanceof Error ? error.message : "Unknown publishing error.";
+        setResult(`Publishing failed: ${message}`, [], false);
+      } finally {
+        publishButton.disabled = false;
+        publishButton.textContent = "Publish";
+      }
+    });
   </script>
 </BaseLayout>
 
@@ -171,20 +238,14 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     padding: 3rem 0 5rem;
   }
 
-  header {
-    margin-bottom: 1.5rem;
-  }
-
+  header { margin-bottom: 1.5rem; }
   .eyebrow {
     margin: 0 0 0.35rem;
     font-weight: 800;
     letter-spacing: 0.1em;
     text-transform: uppercase;
   }
-
-  h1 {
-    margin: 0 0 0.75rem;
-  }
+  h1 { margin: 0 0 0.75rem; }
 
   .panel {
     padding: 1.25rem;
@@ -195,17 +256,21 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
   label {
     display: block;
-    margin-bottom: 0.5rem;
+    margin: 0.9rem 0 0.5rem;
     font-weight: 800;
   }
 
-  textarea {
+  input, textarea {
     width: 100%;
-    min-height: 55vh;
     padding: 0.9rem;
-    resize: vertical;
     border: 1px solid rgba(255, 255, 255, 0.22);
     border-radius: 0.65rem;
+    font: inherit;
+  }
+
+  textarea {
+    min-height: 55vh;
+    resize: vertical;
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
     font-size: 0.82rem;
     line-height: 1.45;
@@ -244,38 +309,14 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     border-top: 1px solid rgba(255, 255, 255, 0.14);
   }
 
-  .results h2 {
-    margin: 0 0 0.5rem;
-    font-size: 1.05rem;
-  }
-
-  .results ul {
-    margin-bottom: 0;
-  }
-
-  .success {
-    font-weight: 800;
-  }
-
-  .error {
-    font-weight: 800;
-  }
+  .results h2 { margin: 0 0 0.5rem; font-size: 1.05rem; }
+  .results ul { margin-bottom: 0; }
+  .success, .error { font-weight: 800; }
 
   @media (max-width: 640px) {
-    .publisher {
-      padding-top: 1.5rem;
-    }
-
-    .panel {
-      padding: 0.85rem;
-    }
-
-    textarea {
-      min-height: 58vh;
-    }
-
-    .actions button {
-      flex: 1 1 100%;
-    }
+    .publisher { padding-top: 1.5rem; }
+    .panel { padding: 0.85rem; }
+    textarea { min-height: 58vh; }
+    .actions button { flex: 1 1 100%; }
   }
 </style>
