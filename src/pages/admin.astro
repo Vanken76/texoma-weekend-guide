@@ -1,0 +1,281 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Directory Publisher | Texoma Weekend Guide"
+  description="Private publishing utility for the Texoma Weekend Guide business directory."
+>
+  <section class="publisher">
+    <header>
+      <p class="eyebrow">TWG Admin</p>
+      <h1>Directory JSON Publisher</h1>
+      <p>
+        Paste the complete directory JSON below. Validate it before publishing.
+        Publishing will be connected in the next step.
+      </p>
+    </header>
+
+    <div class="panel">
+      <label for="json-input">Directory JSON</label>
+      <textarea
+        id="json-input"
+        spellcheck="false"
+        autocapitalize="off"
+        autocomplete="off"
+        placeholder='Paste the complete JSON here, beginning with { and ending with }'
+      ></textarea>
+
+      <div class="actions">
+        <button id="load-current" type="button" class="secondary">Load current JSON</button>
+        <button id="validate" type="button">Validate JSON</button>
+        <button id="publish" type="button" disabled>Publish</button>
+      </div>
+
+      <section id="results" class="results" aria-live="polite">
+        <h2>Validation status</h2>
+        <p id="status">Nothing has been validated yet.</p>
+        <ul id="checks"></ul>
+      </section>
+    </div>
+  </section>
+
+  <script>
+    const input = document.querySelector("#json-input");
+    const status = document.querySelector("#status");
+    const checks = document.querySelector("#checks");
+    const validateButton = document.querySelector("#validate");
+    const loadButton = document.querySelector("#load-current");
+
+    if (
+      !(input instanceof HTMLTextAreaElement) ||
+      !(status instanceof HTMLElement) ||
+      !(checks instanceof HTMLUListElement) ||
+      !(validateButton instanceof HTMLButtonElement) ||
+      !(loadButton instanceof HTMLButtonElement)
+    ) {
+      throw new Error("Directory publisher controls could not be initialized.");
+    }
+
+    const setResult = (message, items = [], valid = false) => {
+      status.textContent = message;
+      status.className = valid ? "success" : "error";
+      checks.replaceChildren();
+
+      for (const item of items) {
+        const li = document.createElement("li");
+        li.textContent = item;
+        checks.appendChild(li);
+      }
+    };
+
+    const validateDirectory = () => {
+      try {
+        const data = JSON.parse(input.value);
+
+        if (!data || typeof data !== "object" || Array.isArray(data)) {
+          throw new Error("The top level must be a JSON object.");
+        }
+
+        if (!Array.isArray(data.businesses)) {
+          throw new Error('The JSON must contain a "businesses" array.');
+        }
+
+        const missingNames = data.businesses.filter(
+          (business) => !business?.business_name || typeof business.business_name !== "string"
+        );
+
+        const missingSlugs = data.businesses.filter(
+          (business) => !business?.slug || typeof business.slug !== "string"
+        );
+
+        const slugCounts = new Map();
+        for (const business of data.businesses) {
+          if (typeof business?.slug === "string") {
+            slugCounts.set(business.slug, (slugCounts.get(business.slug) ?? 0) + 1);
+          }
+        }
+
+        const duplicateSlugs = [...slugCounts.entries()]
+          .filter(([, count]) => count > 1)
+          .map(([slug]) => slug);
+
+        const actualBusinessCount = data.businesses.length;
+        const actualPublishReadyCount = data.businesses.filter(
+          (business) => business?.publish_ready === true
+        ).length;
+
+        const problems = [];
+        if (missingNames.length) problems.push(`${missingNames.length} record(s) missing a business name.`);
+        if (missingSlugs.length) problems.push(`${missingSlugs.length} record(s) missing a slug.`);
+        if (duplicateSlugs.length) problems.push(`Duplicate slug(s): ${duplicateSlugs.join(", ")}`);
+        if (data.business_count !== actualBusinessCount) {
+          problems.push(`business_count says ${data.business_count}, but the array contains ${actualBusinessCount}.`);
+        }
+        if (data.publish_ready_count !== actualPublishReadyCount) {
+          problems.push(
+            `publish_ready_count says ${data.publish_ready_count}, but ${actualPublishReadyCount} records are publish-ready.`
+          );
+        }
+
+        if (problems.length) {
+          setResult("The JSON parsed, but validation found problems.", problems, false);
+          return;
+        }
+
+        setResult(
+          "Valid directory JSON. Ready for the publishing connection.",
+          [
+            `${actualBusinessCount} total businesses`,
+            `${actualPublishReadyCount} publish-ready businesses`,
+            "No missing business names",
+            "No missing slugs",
+            "No duplicate slugs",
+            "Stored counts match the records"
+          ],
+          true
+        );
+      } catch (error) {
+        const message = error instanceof Error ? error.message : "Unknown validation error.";
+        setResult(`Invalid JSON: ${message}`, [], false);
+      }
+    };
+
+    validateButton.addEventListener("click", validateDirectory);
+
+    loadButton.addEventListener("click", async () => {
+      loadButton.disabled = true;
+      loadButton.textContent = "Loading…";
+
+      try {
+        const response = await fetch("/data/local-business-directory.json", { cache: "no-store" });
+        if (!response.ok) throw new Error(`Request failed with status ${response.status}.`);
+        const data = await response.json();
+        input.value = JSON.stringify(data, null, 2);
+        validateDirectory();
+      } catch (error) {
+        const message = error instanceof Error ? error.message : "Unknown loading error.";
+        setResult(`Could not load the current directory: ${message}`, [], false);
+      } finally {
+        loadButton.disabled = false;
+        loadButton.textContent = "Load current JSON";
+      }
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  .publisher {
+    width: min(960px, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: 3rem 0 5rem;
+  }
+
+  header {
+    margin-bottom: 1.5rem;
+  }
+
+  .eyebrow {
+    margin: 0 0 0.35rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin: 0 0 0.75rem;
+  }
+
+  .panel {
+    padding: 1.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+  }
+
+  textarea {
+    width: 100%;
+    min-height: 55vh;
+    padding: 0.9rem;
+    resize: vertical;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 0.65rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.82rem;
+    line-height: 1.45;
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+
+  button {
+    min-height: 44px;
+    padding: 0.7rem 1rem;
+    border: 0;
+    border-radius: 0.6rem;
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  button.secondary {
+    background: transparent;
+    border: 1px solid currentColor;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.45;
+  }
+
+  .results {
+    margin-top: 1.25rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+  }
+
+  .results h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.05rem;
+  }
+
+  .results ul {
+    margin-bottom: 0;
+  }
+
+  .success {
+    font-weight: 800;
+  }
+
+  .error {
+    font-weight: 800;
+  }
+
+  @media (max-width: 640px) {
+    .publisher {
+      padding-top: 1.5rem;
+    }
+
+    .panel {
+      padding: 0.85rem;
+    }
+
+    textarea {
+      min-height: 58vh;
+    }
+
+    .actions button {
+      flex: 1 1 100%;
+    }
+  }
+</style>
