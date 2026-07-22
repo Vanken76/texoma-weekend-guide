@@ -1,0 +1,78 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <section>
+      <strong>Texoma Weekend Guide</strong>
+      <p>Discover Local. Make Memories.</p>
+    </section>
+
+    <section>
+      <strong>Connect</strong>
+      <p>
+        <a
+          href="https://www.facebook.com/TexomaWeekendGuide/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Facebook
+        </a>
+        <br />
+        <a
+          href="https://www.instagram.com/texomaweekendguide/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <strong>Event submissions</strong>
+      <p>
+        <a href="mailto:texomaweekendguide@gmail.com">
+          texomaweekendguide@gmail.com
+        </a>
+      </p>
+    </section>
+  </div>
+
+  <div class="container copyright">
+    © {new Date().getFullYear()} Texoma Weekend Guide.
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    padding: 3rem 0 1.5rem;
+    background: #103a58;
+    color: white;
+  }
+
+  .site-footer strong {
+    font-size: 1.05rem;
+  }
+
+  .site-footer a {
+    color: #fff0b9;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .copyright {
+    margin-top: 2rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 700px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+</style>

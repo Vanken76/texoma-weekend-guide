@@ -1,11 +1,242 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const roundups = (await getCollection("roundups")).sort(
+  (a, b) => b.data.startDate.valueOf() - a.data.startDate.valueOf()
+);
+
+const latestRoundup = roundups[0];
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<BaseLayout title="Texoma Weekend Guide | Discover Local. Make Memories.">
+  <section class="hero">
+    <div class="container hero-content">
+      <p class="eyebrow">Texas · Oklahoma · Lake Texoma</p>
+
+      <h1>
+        Discover Local.
+        <br />
+        Make Memories.
+      </h1>
+
+      <p class="hero-copy">
+        Your guide to events, live music, food, lake days, family fun,
+        and local businesses across Texoma.
+      </p>
+
+      <div class="button-row">
+        <a class="button" href="/roundups/">
+          See the Weekend Roundup
+        </a>
+
+        <a class="button secondary" href="/submit/">
+          Submit an Event
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Plan your weekend</p>
+        <h2>What’s happening around Texoma?</h2>
+
+        <p>
+          From Denison and Sherman to Durant, Gainesville, Bonham,
+          Lake Texoma, and the communities in between.
+        </p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature">
+          <span aria-hidden="true">🎶</span>
+          <h3>Live Music</h3>
+          <p>
+            Local performers, concerts, karaoke, open mics,
+            and nightlife.
+          </p>
+        </article>
+
+        <article class="feature">
+          <span aria-hidden="true">🎡</span>
+          <h3>Family Fun</h3>
+          <p>
+            Festivals, carnivals, markets, children’s events,
+            and free activities.
+          </p>
+        </article>
+
+        <article class="feature">
+          <span aria-hidden="true">🍽️</span>
+          <h3>Food & Local Stops</h3>
+          <p>
+            Restaurants, specials, fundraisers, small businesses,
+            and hidden gems.
+          </p>
+        </article>
+
+        <article class="feature">
+          <span aria-hidden="true">🌊</span>
+          <h3>Lake Days</h3>
+          <p>
+            Parks, outdoor programs, lake activities, trails,
+            and seasonal recreation.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  {latestRoundup && (
+    <section class="section latest">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Latest guide</p>
+          <h2>{latestRoundup.data.title}</h2>
+          <p>{latestRoundup.data.description}</p>
+        </div>
+
+        <article class="roundup-feature card">
+          <img
+            src={latestRoundup.data.image}
+            alt={latestRoundup.data.title}
+          />
+
+          <div class="card-content">
+            <h3>Start planning your Texoma weekend</h3>
+
+            <p>
+              Browse the latest roundup for events, live music,
+              family fun, food, and community activities.
+            </p>
+
+            <a
+              class="button"
+              href={`/roundups/${latestRoundup.id}/`}
+            >
+              Read the Roundup
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="container callout">
+      <p class="eyebrow">Organizers and local businesses</p>
+      <h2>Have something happening around Texoma?</h2>
+
+      <p>
+        Send the date, time, location, event details, flyer,
+        and official link. Submissions are free and considered
+        based on local relevance and available space.
+      </p>
+
+      <div class="button-row">
+        <a class="button secondary" href="/submit/">
+          Submit Your Event
+        </a>
+
+        <a
+          class="button secondary"
+          href="mailto:texomaweekendguide@gmail.com"
+        >
+          Email TWG
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    min-height: 670px;
+    display: flex;
+    align-items: center;
+    background:
+      linear-gradient(
+        90deg,
+        rgba(10, 42, 63, 0.95) 0%,
+        rgba(10, 42, 63, 0.78) 57%,
+        rgba(10, 42, 63, 0.32) 100%
+      ),
+      url("/images/banner.jpg") center / cover;
+    color: white;
+  }
+
+  .hero-content {
+    padding-block: 5rem;
+  }
+
+  .hero h1,
+  .hero p {
+    color: white;
+  }
+
+  .hero-copy {
+    max-width: 700px;
+    font-size: clamp(1.1rem, 2.4vw, 1.38rem);
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+
+  .feature {
+    padding: 1.5rem;
+    border: 1px solid #d7e0e4;
+    border-radius: 18px;
+    background: white;
+    box-shadow: var(--shadow);
+  }
+
+  .feature span {
+    font-size: 2rem;
+  }
+
+  .latest {
+    background: #e9f3f2;
+  }
+
+  .roundup-feature {
+    display: grid;
+    grid-template-columns: minmax(280px, 0.85fr) 1.15fr;
+  }
+
+  .roundup-feature img {
+    width: 100%;
+    height: 100%;
+    min-height: 390px;
+    object-fit: cover;
+  }
+
+  .roundup-feature .card-content {
+    align-self: center;
+    padding: 2.2rem;
+  }
+
+  @media (max-width: 820px) {
+    .feature-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .roundup-feature {
+      grid-template-columns: 1fr;
+    }
+
+    .roundup-feature img {
+      min-height: auto;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .feature-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

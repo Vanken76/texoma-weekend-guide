@@ -1,0 +1,69 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) =>
+    b.data.publishedDate.valueOf() -
+    a.data.publishedDate.valueOf()
+);
+---
+
+<BaseLayout
+  title="Local Guides and Stories | Texoma Weekend Guide"
+  description="Local guides, community stories, event highlights, lake-day ideas, food stops, and things to do across Texoma."
+>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Explore Texoma</p>
+      <h1>Local Guides & Stories</h1>
+
+      <p>
+        Useful ideas, community highlights,
+        and places worth discovering.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      {posts.length === 0 ? (
+        <div class="empty-state">
+          <h2>New local stories are coming soon.</h2>
+
+          <p>
+            We are building guides to events, food, lake days,
+            local businesses, and communities across Texoma.
+          </p>
+        </div>
+      ) : (
+        <div class="card-grid">
+          {posts.map((post) => (
+            <article class="card">
+              {post.data.image && (
+                <img
+                  class="card-image"
+                  src={post.data.image}
+                  alt={post.data.title}
+                />
+              )}
+
+              <div class="card-content">
+                <p class="eyebrow">{post.data.category}</p>
+                <h2>{post.data.title}</h2>
+                <p>{post.data.description}</p>
+
+                <a
+                  class="button"
+                  href={`/blog/${post.id}/`}
+                >
+                  Read More
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>

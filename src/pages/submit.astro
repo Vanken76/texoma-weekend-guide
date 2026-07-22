@@ -1,0 +1,126 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const subject = encodeURIComponent(
+  "Event Submission for Texoma Weekend Guide"
+);
+
+const body = encodeURIComponent(
+`Event name:
+
+Date:
+
+Start and end time:
+
+Venue:
+
+Street address:
+
+City and state:
+
+Event description:
+
+Admission or ticket price:
+
+Official event link:
+
+Organizer name:
+
+Organizer contact:
+
+Flyer link or attachment:
+
+Anything else TWG should know:
+`
+);
+
+const emailLink =
+  `mailto:texomaweekendguide@gmail.com?subject=${subject}&body=${body}`;
+---
+
+<BaseLayout
+  title="Submit an Event | Texoma Weekend Guide"
+  description="Submit a Texoma-area event to Texoma Weekend Guide for possible inclusion in social media coverage, the website, and the Weekend Roundup."
+>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Free local event submission</p>
+      <h1>Submit an Event</h1>
+      <p>Help us share what’s happening around Texoma.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container submission-grid">
+      <div>
+        <h2>What to include</h2>
+
+        <ul>
+          <li>Event name</li>
+          <li>Date and start/end times</li>
+          <li>Venue and complete address</li>
+          <li>Admission price or ticket details</li>
+          <li>Brief public description</li>
+          <li>Official event or organizer link</li>
+          <li>Flyer or promotional image</li>
+          <li>Organizer contact information</li>
+        </ul>
+
+        <div class="button-row">
+          <a class="button" href={emailLink}>
+            Email Your Submission
+          </a>
+
+          <a
+            class="button outline"
+            href="https://www.facebook.com/TexomaWeekendGuide/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Message TWG on Facebook
+          </a>
+        </div>
+      </div>
+
+      <aside class="callout">
+        <h2>Submission notes</h2>
+
+        <p>
+          Submission does not guarantee publication. Events may be
+          selected based on geographic relevance, timing, available
+          information, public interest, and available posting space.
+        </p>
+
+        <p>
+          Please send information early enough for people to make plans.
+          Thursday is the preferred deadline for Weekend Roundup
+          consideration.
+        </p>
+
+        <p>
+          Texoma Weekend Guide aims to cover communities and businesses
+          fairly without requiring paid placement.
+        </p>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .submission-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  li {
+    margin-bottom: 0.65rem;
+  }
+
+  @media (max-width: 800px) {
+    .submission-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

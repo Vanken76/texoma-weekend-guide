@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const roundups = await getCollection("roundups");
+
+  return roundups.map((roundup) => ({
+    params: {
+      slug: roundup.id
+    },
+    props: {
+      roundup
+    }
+  }));
+}
+
+const { roundup } = Astro.props;
+const { Content } = await render(roundup);
+---
+
+<BaseLayout
+  title={`${roundup.data.title} | Texoma Weekend Guide`}
+  description={roundup.data.description}
+  image={roundup.data.image}
+>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Texoma Weekend Roundup</p>
+      <h1>{roundup.data.title}</h1>
+      <p>{roundup.data.description}</p>
+    </div>
+  </section>
+
+  <article class="section">
+    <div class="container prose">
+      <img
+        src={roundup.data.image}
+        alt={roundup.data.title}
+      />
+
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,113 @@
+---
+const currentPath = Astro.url.pathname;
+
+const links = [
+  { href: "/", label: "Home" },
+  { href: "/roundups/", label: "Weekend Roundup" },
+  { href: "/businesses/", label: "Local Guides" },
+  { href: "/submit/", label: "Submit an Event" },
+  { href: "/about/", label: "About" }
+];
+
+function isActive(href: string) {
+  if (href === "/") {
+    return currentPath === "/";
+  }
+
+  return currentPath.startsWith(href);
+}
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="Texoma Weekend Guide home">
+      <img
+        src="/images/logo.jpg"
+        alt="Texoma Weekend Guide logo"
+        width="56"
+        height="56"
+      />
+      <span>Texoma Weekend Guide</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      {links.map((link) => (
+        <a
+          href={link.href}
+          class:list={{ active: isActive(link.href) }}
+        >
+          {link.label}
+        </a>
+      ))}
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    border-bottom: 1px solid #d7e0e4;
+    background: rgba(255, 249, 237, 0.97);
+    backdrop-filter: blur(10px);
+  }
+
+  .header-inner {
+    min-height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #103a58;
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+  .brand img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  nav a {
+    color: #103a58;
+    font-weight: 750;
+    text-decoration: none;
+  }
+
+  nav a:hover,
+  nav a.active {
+    color: #176f95;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+  }
+
+  @media (max-width: 850px) {
+    .header-inner {
+      align-items: flex-start;
+      flex-direction: column;
+      padding-block: 0.8rem;
+    }
+
+    nav {
+      gap: 0.75rem;
+      font-size: 0.92rem;
+    }
+  }
+</style>
+

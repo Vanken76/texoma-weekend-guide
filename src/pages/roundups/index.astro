@@ -1,0 +1,56 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const roundups = (await getCollection("roundups")).sort(
+  (a, b) => b.data.startDate.valueOf() - a.data.startDate.valueOf()
+);
+---
+
+<BaseLayout
+  title="Texoma Weekend Roundup | Texoma Weekend Guide"
+  description="Browse Texoma Weekend Guide roundups featuring live music, family events, food, festivals, lake activities, and community happenings."
+>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Plan ahead</p>
+      <h1>Weekend Roundups</h1>
+      <p>Find something worth leaving the house for.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      {roundups.length === 0 ? (
+        <div class="empty-state">
+          <h2>The next Weekend Roundup is coming soon.</h2>
+        </div>
+      ) : (
+        <div class="card-grid">
+          {roundups.map((roundup) => (
+            <article class="card">
+              <img
+                class="card-image"
+                src={roundup.data.image}
+                alt={roundup.data.title}
+              />
+
+              <div class="card-content">
+                <p class="eyebrow">Weekend Roundup</p>
+                <h2>{roundup.data.title}</h2>
+                <p>{roundup.data.description}</p>
+
+                <a
+                  class="button"
+                  href={`/roundups/${roundup.id}/`}
+                >
+                  Read Roundup
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>
