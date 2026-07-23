@@ -15,12 +15,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
     <section class="panel auth-panel">
       <label for="admin-key">Admin key</label>
-      <input
-        id="admin-key"
-        type="password"
-        autocomplete="current-password"
-        placeholder="Enter your private publishing key"
-      />
+      <input id="admin-key" type="password" autocomplete="current-password" placeholder="Enter your private publishing key" />
       <p class="helper">The key is saved only for this browser tab and clears when the tab closes.</p>
     </section>
 
@@ -32,14 +27,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       </div>
 
       <label for="json-input">Directory JSON</label>
-      <textarea
-        id="json-input"
-        class="code-input directory-input"
-        spellcheck="false"
-        autocapitalize="off"
-        autocomplete="off"
-        placeholder='Paste the complete JSON here, beginning with { and ending with }'
-      ></textarea>
+      <textarea id="json-input" class="code-input directory-input" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder='Paste the complete JSON here, beginning with { and ending with }'></textarea>
 
       <div class="actions">
         <button id="load-current" type="button" class="secondary">Load current JSON</button>
@@ -62,14 +50,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       </div>
 
       <label for="roundup-slug">Roundup slug</label>
-      <input
-        id="roundup-slug"
-        type="text"
-        spellcheck="false"
-        autocapitalize="off"
-        autocomplete="off"
-        placeholder="july-23-26-2026"
-      />
+      <input id="roundup-slug" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="july-23-26-2026" />
 
       <label for="roundup-image">Roundup image</label>
       <input id="roundup-image" type="file" accept="image/jpeg,image/png,image/webp" />
@@ -79,14 +60,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       </div>
 
       <label for="roundup-markdown">Roundup Markdown</label>
-      <textarea
-        id="roundup-markdown"
-        class="code-input roundup-input"
-        spellcheck="false"
-        autocapitalize="off"
-        autocomplete="off"
-        placeholder={'---\ntitle: "Texoma Weekend Roundup — July 23–26, 2026"\ndescription: "..."\nstartDate: 2026-07-23\nendDate: 2026-07-26\nimage: "/images/july-23-26-roundup.jpg"\nfeatured: true\n---\n\n## Thursday\n\nRoundup content...'}
-      ></textarea>
+      <textarea id="roundup-markdown" class="code-input roundup-input" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder={'---\ntitle: "Texoma Weekend Roundup — July 23–26, 2026"\ndescription: "..."\nstartDate: 2026-07-23\nendDate: 2026-07-26\nimage: "/images/july-23-26-roundup.jpg"\nfeatured: true\n---\n\n## Thursday\n\nRoundup content...'}></textarea>
 
       <div class="actions">
         <button id="validate-roundup" type="button">Validate Roundup</button>
@@ -151,6 +125,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     });
 
     let validatedJson = null;
+    let roundupValidated = false;
 
     const setResult = (statusElement, checksElement, message, items = [], valid = false) => {
       statusElement.textContent = message;
@@ -169,45 +144,25 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
       try {
         const data = JSON.parse(directoryInput.value);
-        if (!data || typeof data !== "object" || Array.isArray(data)) {
-          throw new Error("The top level must be a JSON object.");
-        }
-        if (!Array.isArray(data.businesses)) {
-          throw new Error('The JSON must contain a "businesses" array.');
-        }
+        if (!data || typeof data !== "object" || Array.isArray(data)) throw new Error("The top level must be a JSON object.");
+        if (!Array.isArray(data.businesses)) throw new Error('The JSON must contain a "businesses" array.');
 
-        const missingNames = data.businesses.filter(
-          (business) => !business?.business_name || typeof business.business_name !== "string"
-        );
-        const missingSlugs = data.businesses.filter(
-          (business) => !business?.slug || typeof business.slug !== "string"
-        );
+        const missingNames = data.businesses.filter((business) => !business?.business_name || typeof business.business_name !== "string");
+        const missingSlugs = data.businesses.filter((business) => !business?.slug || typeof business.slug !== "string");
         const slugCounts = new Map();
         for (const business of data.businesses) {
-          if (typeof business?.slug === "string") {
-            slugCounts.set(business.slug, (slugCounts.get(business.slug) ?? 0) + 1);
-          }
+          if (typeof business?.slug === "string") slugCounts.set(business.slug, (slugCounts.get(business.slug) ?? 0) + 1);
         }
-        const duplicateSlugs = [...slugCounts.entries()]
-          .filter(([, count]) => count > 1)
-          .map(([slug]) => slug);
+        const duplicateSlugs = [...slugCounts.entries()].filter(([, count]) => count > 1).map(([slug]) => slug);
         const businessCount = data.businesses.length;
-        const publishReadyCount = data.businesses.filter(
-          (business) => business?.publish_ready === true
-        ).length;
+        const publishReadyCount = data.businesses.filter((business) => business?.publish_ready === true).length;
 
         const problems = [];
         if (missingNames.length) problems.push(`${missingNames.length} record(s) missing a business name.`);
         if (missingSlugs.length) problems.push(`${missingSlugs.length} record(s) missing a slug.`);
         if (duplicateSlugs.length) problems.push(`Duplicate slug(s): ${duplicateSlugs.join(", ")}`);
-        if (data.business_count !== businessCount) {
-          problems.push(`business_count says ${data.business_count}, but the array contains ${businessCount}.`);
-        }
-        if (data.publish_ready_count !== publishReadyCount) {
-          problems.push(
-            `publish_ready_count says ${data.publish_ready_count}, but ${publishReadyCount} records are publish-ready.`
-          );
-        }
+        if (data.business_count !== businessCount) problems.push(`business_count says ${data.business_count}, but the array contains ${businessCount}.`);
+        if (data.publish_ready_count !== publishReadyCount) problems.push(`publish_ready_count says ${data.publish_ready_count}, but ${publishReadyCount} records are publish-ready.`);
 
         if (problems.length) {
           setResult(directoryStatus, directoryChecks, "The JSON parsed, but validation found problems.", problems, false);
@@ -216,20 +171,14 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
         validatedJson = data;
         publishDirectoryButton.disabled = false;
-        setResult(
-          directoryStatus,
-          directoryChecks,
-          "Valid directory JSON. It is ready to publish.",
-          [
-            `${businessCount} total businesses`,
-            `${publishReadyCount} publish-ready businesses`,
-            "No missing business names",
-            "No missing slugs",
-            "No duplicate slugs",
-            "Stored counts match the records"
-          ],
-          true
-        );
+        setResult(directoryStatus, directoryChecks, "Valid directory JSON. It is ready to publish.", [
+          `${businessCount} total businesses`,
+          `${publishReadyCount} publish-ready businesses`,
+          "No missing business names",
+          "No missing slugs",
+          "No duplicate slugs",
+          "Stored counts match the records"
+        ], true);
         return true;
       } catch (error) {
         const message = error instanceof Error ? error.message : "Unknown validation error.";
@@ -242,7 +191,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       validatedJson = null;
       publishDirectoryButton.disabled = true;
     });
-
     validateDirectoryButton.addEventListener("click", validateDirectory);
 
     loadDirectoryButton.addEventListener("click", async () => {
@@ -270,16 +218,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         adminKey.focus();
         return;
       }
-
       publishDirectoryButton.disabled = true;
       publishDirectoryButton.textContent = "Publishing…";
       try {
         const response = await fetch("/api/publish-directory", {
           method: "POST",
-          headers: {
-            "content-type": "application/json",
-            "x-admin-key": adminKey.value
-          },
+          headers: { "content-type": "application/json", "x-admin-key": adminKey.value },
           body: JSON.stringify(validatedJson)
         });
         const result = await response.json();
@@ -288,17 +232,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           setResult(directoryStatus, directoryChecks, result.error || `Publishing failed with status ${response.status}.`, details, false);
           return;
         }
-        setResult(
-          directoryStatus,
-          directoryChecks,
-          result.message || "Directory published successfully.",
-          [
-            `${result.business_count} total businesses committed`,
-            `${result.publish_ready_count} publish-ready businesses committed`,
-            result.commit ? `GitHub commit: ${result.commit.slice(0, 7)}` : "GitHub commit created"
-          ],
-          true
-        );
+        setResult(directoryStatus, directoryChecks, result.message || "Directory published successfully.", [
+          `${result.business_count} total businesses committed`,
+          `${result.publish_ready_count} publish-ready businesses committed`,
+          result.commit ? `GitHub commit: ${result.commit.slice(0, 7)}` : "GitHub commit created"
+        ], true);
       } catch (error) {
         const message = error instanceof Error ? error.message : "Unknown publishing error.";
         setResult(directoryStatus, directoryChecks, `Publishing failed: ${message}`, [], false);
@@ -308,7 +246,13 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       }
     });
 
+    const resetRoundupValidation = () => {
+      roundupValidated = false;
+      publishRoundupButton.disabled = true;
+    };
+
     roundupImage.addEventListener("change", () => {
+      resetRoundupValidation();
       const file = roundupImage.files?.[0];
       imagePreviewWrap.hidden = !file;
       if (!file) {
@@ -318,7 +262,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       }
       imagePreview.src = URL.createObjectURL(file);
       imageDetails.textContent = `${file.name} — ${(file.size / 1024 / 1024).toFixed(2)} MB`;
-      publishRoundupButton.disabled = true;
     });
 
     const frontmatterValue = (frontmatter, key) => {
@@ -327,17 +270,17 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     };
 
     const validateRoundup = () => {
-      publishRoundupButton.disabled = true;
+      resetRoundupValidation();
       const slug = roundupSlug.value.trim();
       const markdown = roundupMarkdown.value.trim();
       const file = roundupImage.files?.[0];
       const problems = [];
 
-      if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) {
-        problems.push("Slug must use lowercase letters, numbers, and single hyphens only.");
-      }
+      if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) problems.push("Slug must use lowercase letters, numbers, and single hyphens only.");
       if (!file) problems.push("Choose a roundup image.");
-      if (!markdown.startsWith("---\n")) problems.push("Markdown must begin with a frontmatter delimiter (---). ");
+      if (file && !["image/jpeg", "image/png", "image/webp"].includes(file.type)) problems.push("Image must be a JPG, PNG, or WebP file.");
+      if (file && file.size > 8 * 1024 * 1024) problems.push("Image must be 8 MB or smaller.");
+      if (!markdown.startsWith("---\n")) problems.push("Markdown must begin with a frontmatter delimiter (---).");
 
       const closingIndex = markdown.indexOf("\n---", 4);
       if (closingIndex < 0) problems.push("Markdown is missing the closing frontmatter delimiter.");
@@ -357,9 +300,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         if (!/^\d{4}-\d{2}-\d{2}$/.test(endDate)) problems.push("endDate must use YYYY-MM-DD.");
         if (startDate && endDate && endDate < startDate) problems.push("endDate cannot be before startDate.");
         if (!imagePath.startsWith("/images/")) problems.push('The image path must begin with "/images/".');
-        if (file && imagePath !== `/images/${file.name}`) {
-          problems.push(`Frontmatter image must be exactly /images/${file.name}.`);
-        }
+        if (file && imagePath !== `/images/${file.name}`) problems.push(`Frontmatter image must be exactly /images/${file.name}.`);
         if (!body) problems.push("The roundup body is empty.");
         if (!/^##\s+/m.test(body)) problems.push("The roundup body needs at least one ## section heading.");
       }
@@ -369,145 +310,110 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         return false;
       }
 
-      setResult(
-        roundupStatus,
-        roundupChecks,
-        "Valid roundup content. The publishing endpoint is the next step.",
-        [
-          `Slug: ${slug}`,
-          `Image: ${file.name}`,
-          "Required frontmatter is present",
-          "Dates are valid",
-          "Image path matches the selected file",
-          "Roundup body contains at least one section"
-        ],
-        true
-      );
+      roundupValidated = true;
+      publishRoundupButton.disabled = false;
+      setResult(roundupStatus, roundupChecks, "Valid roundup content. It is ready to publish.", [
+        `Slug: ${slug}`,
+        `Image: ${file.name}`,
+        "Required frontmatter is present",
+        "Dates are valid",
+        "Image path matches the selected file",
+        "Roundup body contains at least one section"
+      ], true);
       return true;
     };
 
-    roundupSlug.addEventListener("input", () => { publishRoundupButton.disabled = true; });
-    roundupMarkdown.addEventListener("input", () => { publishRoundupButton.disabled = true; });
+    roundupSlug.addEventListener("input", resetRoundupValidation);
+    roundupMarkdown.addEventListener("input", resetRoundupValidation);
     validateRoundupButton.addEventListener("click", validateRoundup);
 
-    publishRoundupButton.addEventListener("click", () => {
-      setResult(
-        roundupStatus,
-        roundupChecks,
-        "The Roundup Publisher interface is ready. The secure publishing endpoint still needs to be connected.",
-        [],
-        false
-      );
+    publishRoundupButton.addEventListener("click", async () => {
+      if (!roundupValidated && !validateRoundup()) return;
+      if (!adminKey.value) {
+        setResult(roundupStatus, roundupChecks, "Enter the admin key before publishing.", [], false);
+        adminKey.focus();
+        return;
+      }
+
+      const file = roundupImage.files?.[0];
+      if (!file) {
+        setResult(roundupStatus, roundupChecks, "Choose a roundup image before publishing.", [], false);
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append("slug", roundupSlug.value.trim());
+      formData.append("markdown", roundupMarkdown.value.trim());
+      formData.append("image", file, file.name);
+
+      publishRoundupButton.disabled = true;
+      publishRoundupButton.textContent = "Publishing…";
+
+      try {
+        const response = await fetch("/api/publish-roundup", {
+          method: "POST",
+          headers: { "x-admin-key": adminKey.value },
+          body: formData
+        });
+
+        let result;
+        try {
+          result = await response.json();
+        } catch {
+          throw new Error(`Publisher returned an unreadable response (${response.status}).`);
+        }
+
+        if (!response.ok) {
+          const details = Array.isArray(result.problems) ? result.problems : [];
+          setResult(roundupStatus, roundupChecks, result.error || `Publishing failed with status ${response.status}.`, details, false);
+          return;
+        }
+
+        roundupValidated = false;
+        setResult(roundupStatus, roundupChecks, result.message || "Roundup published successfully.", [
+          result.roundup_path ? `Roundup: ${result.roundup_path}` : `Roundup slug: ${roundupSlug.value.trim()}`,
+          result.image_path ? `Image: ${result.image_path}` : `Image: ${file.name}`,
+          result.roundup_commit ? `Roundup commit: ${result.roundup_commit.slice(0, 7)}` : "Roundup commit created",
+          result.image_commit ? `Image commit: ${result.image_commit.slice(0, 7)}` : "Image commit created"
+        ], true);
+      } catch (error) {
+        const message = error instanceof Error ? error.message : "Unknown publishing error.";
+        setResult(roundupStatus, roundupChecks, `Publishing failed: ${message}`, [], false);
+      } finally {
+        publishRoundupButton.disabled = !roundupValidated;
+        publishRoundupButton.textContent = "Publish Roundup";
+      }
     });
   </script>
 </BaseLayout>
 
 <style>
-  .publisher {
-    width: min(960px, calc(100% - 2rem));
-    margin: 0 auto;
-    padding: 3rem 0 5rem;
-  }
-
+  .publisher { width: min(960px, calc(100% - 2rem)); margin: 0 auto; padding: 3rem 0 5rem; }
   header { margin-bottom: 1.5rem; }
-  .eyebrow {
-    margin: 0 0 0.35rem;
-    font-weight: 800;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-  }
+  .eyebrow { margin: 0 0 0.35rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
   h1, h2, h3 { margin-top: 0; }
   h1 { margin-bottom: 0.75rem; }
   h2 { margin-bottom: 0.5rem; }
-
-  .panel {
-    padding: 1.25rem;
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.05);
-  }
-
+  .panel { padding: 1.25rem; border: 1px solid rgba(255, 255, 255, 0.16); border-radius: 1rem; background: rgba(255, 255, 255, 0.05); }
   .tool-panel { margin-top: 1.25rem; }
   .panel-heading { margin-bottom: 1rem; }
   .panel-heading p:last-child { margin-bottom: 0; }
-
-  label {
-    display: block;
-    margin: 0.9rem 0 0.5rem;
-    font-weight: 800;
-  }
-
-  input, textarea {
-    width: 100%;
-    padding: 0.9rem;
-    border: 1px solid rgba(255, 255, 255, 0.22);
-    border-radius: 0.65rem;
-    font: inherit;
-  }
-
-  .code-input {
-    resize: vertical;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    font-size: 0.82rem;
-    line-height: 1.45;
-  }
+  label { display: block; margin: 0.9rem 0 0.5rem; font-weight: 800; }
+  input, textarea { width: 100%; padding: 0.9rem; border: 1px solid rgba(255, 255, 255, 0.22); border-radius: 0.65rem; font: inherit; }
+  .code-input { resize: vertical; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.82rem; line-height: 1.45; }
   .directory-input { min-height: 55vh; }
   .roundup-input { min-height: 42vh; }
-
-  .helper {
-    margin: 0.5rem 0 0;
-    font-size: 0.9rem;
-    opacity: 0.78;
-  }
-
-  .image-preview-wrap {
-    margin-top: 0.8rem;
-    padding: 0.75rem;
-    border: 1px solid rgba(255, 255, 255, 0.14);
-    border-radius: 0.75rem;
-  }
-  .image-preview-wrap img {
-    display: block;
-    width: min(100%, 520px);
-    max-height: 320px;
-    object-fit: contain;
-    border-radius: 0.5rem;
-  }
-
-  .actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-    margin-top: 1rem;
-  }
-
-  button {
-    min-height: 44px;
-    padding: 0.7rem 1rem;
-    border: 0;
-    border-radius: 0.6rem;
-    font: inherit;
-    font-weight: 800;
-    cursor: pointer;
-  }
-  button.secondary {
-    background: transparent;
-    border: 1px solid currentColor;
-  }
-  button:disabled {
-    cursor: not-allowed;
-    opacity: 0.45;
-  }
-
-  .results {
-    margin-top: 1.25rem;
-    padding-top: 1rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.14);
-  }
+  .helper { margin: 0.5rem 0 0; font-size: 0.9rem; opacity: 0.78; }
+  .image-preview-wrap { margin-top: 0.8rem; padding: 0.75rem; border: 1px solid rgba(255, 255, 255, 0.14); border-radius: 0.75rem; }
+  .image-preview-wrap img { display: block; width: min(100%, 520px); max-height: 320px; object-fit: contain; border-radius: 0.5rem; }
+  .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; }
+  button { min-height: 44px; padding: 0.7rem 1rem; border: 0; border-radius: 0.6rem; font: inherit; font-weight: 800; cursor: pointer; }
+  button.secondary { background: transparent; border: 1px solid currentColor; }
+  button:disabled { cursor: not-allowed; opacity: 0.45; }
+  .results { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid rgba(255, 255, 255, 0.14); }
   .results h3 { margin-bottom: 0.5rem; font-size: 1.05rem; }
   .results ul { margin-bottom: 0; }
   .success, .error { font-weight: 800; }
-
   @media (max-width: 640px) {
     .publisher { padding-top: 1.5rem; }
     .panel { padding: 0.85rem; }
