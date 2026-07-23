@@ -5,7 +5,7 @@
   "generated_on": "2026-07-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 440,
+  "business_count": 439,
   "publish_ready_count": 100,
   "businesses": [
     {
@@ -12255,34 +12255,6 @@
       ],
       "verification_note": "Complete. Official sources confirm the Sherman location, TDLR license, contact information, office hours, and services. Texoma Driving School has operated since 1984 and offers teen and adult driver education, defensive driving, permit testing, and third-party Texas Class C road testing. No official Facebook or Instagram accounts were confidently verified. Monitor the official website and Google Business Profile for class schedules, enrollment dates, defensive-driving sessions, road-test availability, holiday closures, hiring, and driver-safety announcements.",
       "last_checked": "2026-07-22"
-    },
-    {
-      "slug": "texoma-educators-federal-credit-union",
-      "business_name": "Texoma Educators Federal Credit Union",
-      "directory_status": "candidate_needs_research",
-      "publish_ready": false,
-      "service_area_or_location": "Texoma area — verify",
-      "category": [
-        "Best of Texoma nominee — category unknown"
-      ],
-      "description": null,
-      "phone": null,
-      "email": null,
-      "website": null,
-      "facebook": null,
-      "instagram": null,
-      "hours": null,
-      "hours_note": null,
-      "event_venue": "unknown",
-      "recurring_events": "unknown",
-      "mine_for_events": false,
-      "event_mining_priority": "none",
-      "event_types": [],
-      "event_sources": [
-        "Herald Democrat Best of Texoma 2026 ballot"
-      ],
-      "verification_note": "Potential candidate mined from the Herald Democrat Best of Texoma 2026 ballot recording. Seen 1 time(s); source frames frame_0071.jpg–frame_0071.jpg. Verify official business name, location, category, active status, and official links before publication.",
-      "last_checked": "2026-07-19"
     },
     {
       "slug": "texoma-financial-services-tom",
