@@ -150,7 +150,9 @@ export const onRequestPost = async ({ request, env }) => {
   const markdownValue = form.get("markdown");
   const imageValue = form.get("image");
   const slug = typeof slugValue === "string" ? slugValue.trim() : "";
-  const markdown = typeof markdownValue === "string" ? markdownValue.trim() : "";
+  const markdown = typeof markdownValue === "string"
+    ? markdownValue.replace(/\r\n?/g, "\n").trim()
+    : "";
   const image = imageValue instanceof File ? imageValue : null;
 
   const problems = validateRoundup({ slug, markdown, image });
