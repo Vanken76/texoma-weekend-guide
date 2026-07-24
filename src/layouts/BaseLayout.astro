@@ -18,6 +18,7 @@ const {
 const siteURL = Astro.site ?? new URL("https://texomaweekendguide.com");
 const canonicalURL = new URL(Astro.url.pathname, siteURL);
 const socialImageURL = new URL(image, siteURL);
+const isEventAdmin = Astro.url.pathname === "/admin-events" || Astro.url.pathname === "/admin-events/";
 ---
 
 <!doctype html>
@@ -56,5 +57,6 @@ const socialImageURL = new URL(image, siteURL);
     </main>
 
     <Footer />
+    {isEventAdmin && <script src="/admin-events-publish-fix.js"></script>}
   </body>
 </html>
