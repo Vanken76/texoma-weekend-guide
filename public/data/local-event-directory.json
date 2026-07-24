@@ -12,8 +12,21 @@
     "target": "local_business_directory.businesses[].slug",
     "fallback_field": "venue_name"
   },
-  "allowed_statuses": ["draft", "upcoming", "recurring", "postponed", "canceled", "ended"],
-  "allowed_cost_types": ["free", "paid", "donation", "varies", "unknown"],
+  "allowed_statuses": [
+    "draft",
+    "upcoming",
+    "recurring",
+    "postponed",
+    "canceled",
+    "ended"
+  ],
+  "allowed_cost_types": [
+    "free",
+    "paid",
+    "donation",
+    "varies",
+    "unknown"
+  ],
   "event_record_template": {
     "event_slug": "",
     "event_name": "",
@@ -73,11 +86,23 @@
       "postal_code": null,
       "latitude": null,
       "longitude": null,
-      "categories": ["Live Music", "Birthday Celebration", "Nightlife"],
-      "tags": ["Margaritaville", "Greg Guymon", "live entertainment", "Denison"],
+      "categories": [
+        "Live Music",
+        "Birthday Celebration",
+        "Nightlife"
+      ],
+      "tags": [
+        "Margaritaville",
+        "Greg Guymon",
+        "live entertainment",
+        "Denison"
+      ],
       "cost_type": "paid",
       "cost_details": "Ages 21+: $10 cover; ages 18–20: $20 cover.",
-      "audience": ["Adults", "Ages 18+"],
+      "audience": [
+        "Adults",
+        "Ages 18+"
+      ],
       "age_restriction": "Ages 18+; age-based cover pricing applies.",
       "image_url": null,
       "official_url": null,
