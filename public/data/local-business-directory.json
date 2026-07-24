@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-07-22",
+  "generated_on": "2026-07-24",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 439,
-  "publish_ready_count": 100,
+  "business_count": 438,
+  "publish_ready_count": 101,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -12957,60 +12957,54 @@
       "last_checked": "2026-07-19"
     },
     {
-      "slug": "the-milieu",
-      "business_name": "The Milieu",
-      "directory_status": "candidate_needs_research",
-      "publish_ready": false,
-      "service_area_or_location": "Texoma area — verify",
-      "category": [
-        "Best of Texoma nominee — category unknown"
-      ],
-      "description": null,
-      "phone": null,
-      "email": null,
-      "website": null,
-      "facebook": null,
-      "instagram": null,
-      "hours": null,
-      "hours_note": null,
-      "event_venue": "unknown",
-      "recurring_events": "unknown",
-      "mine_for_events": false,
-      "event_mining_priority": "none",
-      "event_types": [],
-      "event_sources": [
-        "Herald Democrat Best of Texoma 2026 ballot"
-      ],
-      "verification_note": "Potential candidate mined from the Herald Democrat Best of Texoma 2026 ballot recording. Seen 2 time(s); source frames frame_0063.jpg–frame_0065.jpg. Verify official business name, location, category, active status, and official links before publication.",
-      "last_checked": "2026-07-19"
-    },
-    {
       "slug": "the-milieu-wine-bar",
       "business_name": "The Milieu Wine Bar",
-      "directory_status": "candidate_needs_research",
-      "publish_ready": false,
-      "service_area_or_location": "Texoma area — verify",
+      "directory_status": "complete_website_suspended",
+      "publish_ready": true,
+      "service_area_or_location": "218 W Houston St, Suite 100, Sherman, TX 75090",
       "category": [
-        "Best of Texoma nominee — category unknown"
+        "Wine Bar",
+        "Bar",
+        "Live Entertainment Venue",
+        "Event Venue",
+        "Nightlife"
       ],
-      "description": null,
-      "phone": null,
-      "email": null,
-      "website": null,
-      "facebook": null,
-      "instagram": null,
-      "hours": null,
-      "hours_note": null,
-      "event_venue": "unknown",
-      "recurring_events": "unknown",
-      "mine_for_events": false,
-      "event_mining_priority": "none",
-      "event_types": [],
+      "description": "A downtown Sherman wine bar offering wine, drinks, outdoor seating, a relaxed social atmosphere, and recurring community entertainment including comedy, workshops, book clubs, open-mic programming, and other special events.",
+      "phone": "903-546-5002",
+      "email": "info@themilieuwinebar.com",
+      "website": "https://themilieuwinebar.com",
+      "facebook": "https://www.facebook.com/share/1Cr9Y84psV/",
+      "instagram": "https://www.instagram.com/the_milieu_wine_bar/",
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "9:00 AM–9:00 PM",
+        "thursday": "4:00 PM–9:00 PM",
+        "friday": "4:00 PM–10:00 PM",
+        "saturday": "4:00 PM–10:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Hours were updated on the official Facebook page on July 24, 2026. The official website currently displays a hosting-account suspension notice; check Facebook for current hours, events, and holiday changes.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Standup Comedy",
+        "Workshops",
+        "Book Clubs",
+        "Open Mic Nights",
+        "Live Entertainment",
+        "Community Events",
+        "Special Events"
+      ],
       "event_sources": [
-        "Herald Democrat Best of Texoma 2026 ballot"
+        "Official Facebook page",
+        "Facebook Events"
       ],
-      "verification_note": "Potential candidate mined from the Herald Democrat Best of Texoma 2026 ballot recording. Seen 3 time(s); source frames frame_0063.jpg–frame_0109.jpg. Verify official business name, location, category, active status, and official links before publication.",
-      "last_checked": "2026-07-19"
+      "verification_note": "Verified through the official The Milieu Wine Bar Facebook page. The venue is active at 218 W Houston St, Suite 100, Sherman, TX 75090. The official page confirms the phone number, email address, Instagram handle, current hours, outdoor seating, and recurring Facebook Events. The official website currently displays a hosting-account suspension notice, so visitors should use Facebook for current hours, event schedules, and updates.",
+      "last_checked": "2026-07-24",
+      "slug_locked": true
     },
     {
       "slug": "the-owen-academy",
