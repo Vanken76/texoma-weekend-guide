@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "project": "Texoma Weekend Guide",
   "document_type": "local_event_directory",
-  "generated_on": "2026-07-25",
+  "generated_on": "2026-07-24",
   "timezone_default": "America/Chicago",
   "publication_rule": "Only records with publish_ready=true should appear in the public event directory.",
   "active_event_rule": "status in [upcoming, recurring] and either end_datetime is in the future, or end_datetime is null and the local event date has not passed",
@@ -78,7 +78,7 @@
       "end_datetime": null,
       "timezone": "America/Chicago",
       "status": "upcoming",
-      "venue_slug": "calhouns-2-0",
+      "venue_slug": null,
       "venue_name": "Calhoun's 2.0",
       "address": null,
       "city": "Denison",
@@ -104,7 +104,7 @@
         "Ages 18+"
       ],
       "age_restriction": "Ages 18+; age-based cover pricing applies.",
-      "image_url": null,
+      "image_url": "/images/events/greg-guymons-margaritaville-birthday-bash-2026-07-25.png",
       "official_url": null,
       "facebook_url": "https://www.facebook.com/Calhouns2.0/",
       "ticket_url": null,
@@ -114,9 +114,9 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Entered from the Texoma Weekend Roundup supplied by Eugene Clark. Doors open at 7:00 PM; the event ending time and exact street address were not stated. The venue_slug was verified against the Business Directory.",
-      "last_checked": "2026-07-25",
+      "last_checked": "2026-07-24",
       "created_on": "2026-07-25",
-      "updated_on": "2026-07-25"
+      "updated_on": "2026-07-24"
     }
   ]
 }
