@@ -3,6 +3,7 @@ const currentPath = Astro.url.pathname;
 
 const links = [
   { href: "/", label: "Home" },
+  { href: "/events/", label: "Events" },
   { href: "/roundups/", label: "Weekend Roundup" },
   { href: "/businesses/", label: "Local Guides" },
   { href: "/submit/", label: "Submit an Event" },
@@ -110,4 +111,3 @@ function isActive(href: string) {
     }
   }
 </style>
-
