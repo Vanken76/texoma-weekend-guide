@@ -1,0 +1,102 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const response = await fetch(new URL("/data/local-event-directory.json", Astro.site ?? Astro.url));
+const directory = response.ok ? await response.json() : { events: [] };
+const now = new Date();
+const events = (directory.events ?? [])
+  .filter((event) => event.publish_ready === true)
+  .filter((event) => ["upcoming", "recurring"].includes(event.status))
+  .filter((event) => {
+    if (event.end_datetime) return new Date(event.end_datetime) >= now;
+    if (event.start_datetime) {
+      const localDate = event.start_datetime.slice(0, 10);
+      const today = new Intl.DateTimeFormat("en-CA", {
+        timeZone: "America/Chicago",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+      }).format(now);
+      return localDate >= today;
+    }
+    return false;
+  })
+  .sort((a, b) => new Date(a.start_datetime).getTime() - new Date(b.start_datetime).getTime());
+
+const formatDate = (value) => new Intl.DateTimeFormat("en-US", {
+  timeZone: "America/Chicago",
+  weekday: "long",
+  month: "long",
+  day: "numeric",
+  year: "numeric"
+}).format(new Date(value));
+
+const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
+  timeZone: "America/Chicago",
+  hour: "numeric",
+  minute: "2-digit"
+}).format(new Date(value));
+---
+
+<BaseLayout
+  title="Events | Texoma Weekend Guide"
+  description="Browse upcoming events across Texoma, including live music, nightlife, family fun, community activities, and more."
+>
+  <section class="events-page container">
+    <header class="page-header">
+      <p class="eyebrow">Texoma Event Directory</p>
+      <h1>Upcoming Events</h1>
+      <p>Discover what is happening across Denison, Sherman, Lake Texoma, and the surrounding region.</p>
+    </header>
+
+    {events.length ? (
+      <div class="event-grid">
+        {events.map((event) => (
+          <article class="event-card">
+            <div class="event-date">
+              <strong>{formatDate(event.start_datetime)}</strong>
+              <span>{formatTime(event.start_datetime)}{event.end_datetime ? `–${formatTime(event.end_datetime)}` : ""}</span>
+            </div>
+            <h2>{event.event_name}</h2>
+            <p class="venue">{event.venue_name}{event.city ? ` · ${event.city}, ${event.state}` : ""}</p>
+            {event.description && <p>{event.description}</p>}
+            <dl>
+              {event.cost_details && <><dt>Admission</dt><dd>{event.cost_details}</dd></>}
+              {event.age_restriction && <><dt>Age</dt><dd>{event.age_restriction}</dd></>}
+            </dl>
+            {event.facebook_url && (
+              <a class="event-link" href={event.facebook_url} target="_blank" rel="noreferrer">View official event information</a>
+            )}
+          </article>
+        ))}
+      </div>
+    ) : (
+      <section class="empty-state">
+        <h2>No upcoming events are listed yet.</h2>
+        <p>Check the Weekend Roundup or submit an event for consideration.</p>
+        <div class="actions">
+          <a href="/roundups/">Weekend Roundup</a>
+          <a href="/submit/">Submit an Event</a>
+        </div>
+      </section>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .events-page { padding-block: 3rem 5rem; }
+  .page-header { max-width: 760px; margin-bottom: 2rem; }
+  .eyebrow { margin: 0 0 .4rem; color: #176f95; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; }
+  h1 { margin: 0 0 .75rem; color: #103a58; font-size: clamp(2.2rem, 7vw, 4.5rem); }
+  .event-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.25rem; }
+  .event-card { padding: 1.35rem; border: 1px solid #d7e0e4; border-radius: 1rem; background: #fffdf8; box-shadow: 0 12px 30px rgba(16,58,88,.08); }
+  .event-card h2 { margin: .8rem 0 .35rem; color: #103a58; }
+  .event-date { display: flex; flex-direction: column; gap: .2rem; color: #176f95; }
+  .venue { font-weight: 800; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: .35rem .75rem; margin: 1rem 0; }
+  dt { font-weight: 900; }
+  dd { margin: 0; }
+  .event-link, .actions a { display: inline-block; padding: .75rem 1rem; border-radius: .65rem; background: #176f95; color: white; font-weight: 900; text-decoration: none; }
+  .empty-state { padding: 2rem; border: 1px solid #d7e0e4; border-radius: 1rem; background: #fffdf8; }
+  .actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+</style>
