@@ -1,8 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import directory from "../../public/data/local-event-directory.json";
 
-const response = await fetch(new URL("/data/local-event-directory.json", Astro.site ?? Astro.url));
-const directory = response.ok ? await response.json() : { events: [] };
 const now = new Date();
 const events = (directory.events ?? [])
   .filter((event) => event.publish_ready === true)
