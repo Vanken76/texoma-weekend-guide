@@ -1,0 +1,238 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Event Admin | Texoma Weekend Guide" description="Private event publishing controls for Texoma Weekend Guide.">
+  <section class="publisher">
+    <header>
+      <p class="eyebrow">TWG Admin</p>
+      <h1>Event Directory Publisher</h1>
+      <p>Add or edit events from a phone, validate them, then publish directly to GitHub.</p>
+      <p><a href="/admin">← Return to main admin</a></p>
+    </header>
+
+    <section class="panel">
+      <label for="admin-key">Admin key</label>
+      <input id="admin-key" type="password" autocomplete="current-password" placeholder="Enter your private publishing key" />
+      <p class="helper">Saved only for this browser tab.</p>
+    </section>
+
+    <section class="panel tool-panel">
+      <div class="panel-heading">
+        <p class="eyebrow">Event Editor</p>
+        <h2>Create or update an event</h2>
+      </div>
+
+      <div class="grid">
+        <label>Event name<input id="event-name" type="text" /></label>
+        <label>Event slug<input id="event-slug" type="text" placeholder="event-name-2026-07-25" /></label>
+        <label>Start date and time<input id="start-datetime" type="datetime-local" /></label>
+        <label>End date and time (optional)<input id="end-datetime" type="datetime-local" /></label>
+        <label>Venue<select id="venue-select"><option value="">Load venues first</option></select></label>
+        <label>Venue name<input id="venue-name" type="text" /></label>
+        <label>City<input id="city" type="text" /></label>
+        <label>State<input id="state" type="text" value="TX" maxlength="2" /></label>
+        <label>Status<select id="status"><option>draft</option><option selected>upcoming</option><option>recurring</option><option>postponed</option><option>canceled</option><option>ended</option></select></label>
+        <label>Cost type<select id="cost-type"><option>unknown</option><option>free</option><option selected>paid</option><option>donation</option><option>varies</option></select></label>
+        <label>Cost details<input id="cost-details" type="text" /></label>
+        <label>Age restriction<input id="age-restriction" type="text" /></label>
+      </div>
+
+      <label for="description">Description</label>
+      <textarea id="description" rows="5"></textarea>
+      <label for="categories">Categories, separated by commas</label>
+      <input id="categories" type="text" />
+      <label for="tags">Tags, separated by commas</label>
+      <input id="tags" type="text" />
+      <label for="facebook-url">Facebook URL</label>
+      <input id="facebook-url" type="url" />
+      <label for="verification-note">Verification note</label>
+      <textarea id="verification-note" rows="3"></textarea>
+
+      <div class="checks-row">
+        <label><input id="featured" type="checkbox" /> Featured</label>
+        <label><input id="publish-ready" type="checkbox" checked /> Publish ready</label>
+        <label><input id="source-verified" type="checkbox" checked /> Source verified</label>
+      </div>
+
+      <div class="actions">
+        <button id="load-data" type="button" class="secondary">Load current events and venues</button>
+        <button id="save-event" type="button">Add/update event</button>
+        <button id="publish-events" type="button" disabled>Publish Event Directory</button>
+      </div>
+
+      <section class="results" aria-live="polite">
+        <h3>Event status</h3>
+        <p id="event-status">Load the current data to begin.</p>
+        <ul id="event-checks"></ul>
+      </section>
+    </section>
+
+    <section class="panel tool-panel">
+      <h2>Current events</h2>
+      <label for="event-picker">Select an event to edit</label>
+      <select id="event-picker"><option value="">No events loaded</option></select>
+    </section>
+  </section>
+
+  <script>
+    const $ = (selector) => document.querySelector(selector);
+    const adminKey = $("#admin-key");
+    const statusText = $("#event-status");
+    const statusList = $("#event-checks");
+    const publishButton = $("#publish-events");
+    const venueSelect = $("#venue-select");
+    const eventPicker = $("#event-picker");
+    let directory = null;
+    let businesses = [];
+
+    const savedKey = sessionStorage.getItem("twg-admin-key");
+    if (savedKey) adminKey.value = savedKey;
+    adminKey.addEventListener("input", () => adminKey.value ? sessionStorage.setItem("twg-admin-key", adminKey.value) : sessionStorage.removeItem("twg-admin-key"));
+
+    const splitList = (value) => value.split(",").map((item) => item.trim()).filter(Boolean);
+    const localIso = (value) => value ? `${value}:00-05:00` : null;
+    const localDate = () => new Intl.DateTimeFormat("en-CA", { timeZone: "America/Chicago", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+    const setResult = (message, items = [], good = false) => {
+      statusText.textContent = message;
+      statusText.className = good ? "success" : "error";
+      statusList.replaceChildren(...items.map((text) => { const li = document.createElement("li"); li.textContent = text; return li; }));
+    };
+    const slugify = (text) => text.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+    $("#event-name").addEventListener("blur", () => {
+      if (!$("#event-slug").value && $("#event-name").value && $("#start-datetime").value) {
+        $("#event-slug").value = `${slugify($("#event-name").value)}-${$("#start-datetime").value.slice(0, 10)}`;
+      }
+    });
+    venueSelect.addEventListener("change", () => {
+      const business = businesses.find((item) => item.slug === venueSelect.value);
+      if (business) {
+        $("#venue-name").value = business.business_name || "";
+        const location = business.service_area_or_location || "";
+        if (/Denison/i.test(location)) { $("#city").value = "Denison"; $("#state").value = "TX"; }
+      }
+    });
+
+    const refreshPickers = () => {
+      venueSelect.replaceChildren(new Option("No linked venue", ""), ...businesses.filter((b) => b.slug && b.business_name).sort((a,b) => a.business_name.localeCompare(b.business_name)).map((b) => new Option(b.business_name, b.slug)));
+      eventPicker.replaceChildren(new Option("Create a new event", ""), ...(directory?.events || []).map((e) => new Option(`${e.event_name} — ${e.start_datetime?.slice(0,10) || "no date"}`, e.event_slug)));
+    };
+
+    $("#load-data").addEventListener("click", async () => {
+      try {
+        const [eventResponse, businessResponse] = await Promise.all([
+          fetch("/data/local-event-directory.json", { cache: "no-store" }),
+          fetch("/data/local-business-directory.json", { cache: "no-store" })
+        ]);
+        if (!eventResponse.ok || !businessResponse.ok) throw new Error("One or both data files could not be loaded.");
+        directory = await eventResponse.json();
+        const businessDirectory = await businessResponse.json();
+        businesses = businessDirectory.businesses || [];
+        refreshPickers();
+        publishButton.disabled = false;
+        setResult("Current event and venue data loaded.", [`${directory.events?.length || 0} event(s)`, `${businesses.length} venue choices`], true);
+      } catch (error) { setResult(`Loading failed: ${error.message}`); }
+    });
+
+    eventPicker.addEventListener("change", () => {
+      const event = directory?.events?.find((item) => item.event_slug === eventPicker.value);
+      if (!event) return;
+      $("#event-name").value = event.event_name || "";
+      $("#event-slug").value = event.event_slug || "";
+      $("#start-datetime").value = event.start_datetime ? event.start_datetime.slice(0,16) : "";
+      $("#end-datetime").value = event.end_datetime ? event.end_datetime.slice(0,16) : "";
+      venueSelect.value = event.venue_slug || "";
+      $("#venue-name").value = event.venue_name || "";
+      $("#city").value = event.city || "";
+      $("#state").value = event.state || "";
+      $("#status").value = event.status || "draft";
+      $("#cost-type").value = event.cost_type || "unknown";
+      $("#cost-details").value = event.cost_details || "";
+      $("#age-restriction").value = event.age_restriction || "";
+      $("#description").value = event.description || "";
+      $("#categories").value = (event.categories || []).join(", ");
+      $("#tags").value = (event.tags || []).join(", ");
+      $("#facebook-url").value = event.facebook_url || "";
+      $("#verification-note").value = event.verification_note || "";
+      $("#featured").checked = event.featured === true;
+      $("#publish-ready").checked = event.publish_ready === true;
+      $("#source-verified").checked = event.source_verified === true;
+    });
+
+    $("#save-event").addEventListener("click", () => {
+      if (!directory) return setResult("Load the current data first.");
+      const slug = $("#event-slug").value.trim();
+      const name = $("#event-name").value.trim();
+      const start = $("#start-datetime").value;
+      const venueSlug = venueSelect.value || null;
+      const problems = [];
+      if (!name) problems.push("Event name is required.");
+      if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) problems.push("Event slug must use lowercase letters, numbers, and hyphens.");
+      if (!start) problems.push("Start date and time are required.");
+      if (venueSlug && !businesses.some((b) => b.slug === venueSlug)) problems.push("Selected venue slug does not exist in the Business Directory.");
+      if (problems.length) return setResult("Event validation found problems.", problems);
+
+      const today = localDate();
+      const old = directory.events.find((item) => item.event_slug === slug);
+      const event = {
+        event_slug: slug, event_name: name, description: $("#description").value.trim(),
+        start_datetime: localIso(start), end_datetime: localIso($("#end-datetime").value), timezone: "America/Chicago",
+        status: $("#status").value, venue_slug: venueSlug, venue_name: $("#venue-name").value.trim(), address: old?.address ?? null,
+        city: $("#city").value.trim(), state: $("#state").value.trim().toUpperCase(), postal_code: old?.postal_code ?? null,
+        latitude: old?.latitude ?? null, longitude: old?.longitude ?? null, categories: splitList($("#categories").value), tags: splitList($("#tags").value),
+        cost_type: $("#cost-type").value, cost_details: $("#cost-details").value.trim() || null, audience: old?.audience ?? [],
+        age_restriction: $("#age-restriction").value.trim() || null, image_url: old?.image_url ?? null, official_url: old?.official_url ?? null,
+        facebook_url: $("#facebook-url").value.trim() || null, ticket_url: old?.ticket_url ?? null, recurring: $("#status").value === "recurring",
+        recurrence_rule: old?.recurrence_rule ?? null, featured: $("#featured").checked, publish_ready: $("#publish-ready").checked,
+        source_verified: $("#source-verified").checked, verification_note: $("#verification-note").value.trim() || null,
+        last_checked: today, created_on: old?.created_on || today, updated_on: today
+      };
+      const index = directory.events.findIndex((item) => item.event_slug === slug);
+      if (index >= 0) directory.events[index] = event; else directory.events.push(event);
+      directory.event_count = directory.events.length;
+      directory.publish_ready_count = directory.events.filter((item) => item.publish_ready === true).length;
+      directory.generated_on = today;
+      refreshPickers();
+      eventPicker.value = slug;
+      publishButton.disabled = false;
+      setResult(index >= 0 ? "Event updated in memory. Publish to save it." : "Event added in memory. Publish to save it.", [`${directory.event_count} total event(s)`, `${directory.publish_ready_count} publish-ready event(s)`], true);
+    });
+
+    publishButton.addEventListener("click", async () => {
+      if (!directory) return setResult("Load the current data first.");
+      if (!adminKey.value) return setResult("Enter the admin key before publishing.");
+      publishButton.disabled = true;
+      publishButton.textContent = "Publishing…";
+      try {
+        const response = await fetch("/api/publish-events", { method: "POST", headers: { "content-type": "application/json", "x-admin-key": adminKey.value }, body: JSON.stringify(directory) });
+        const result = await response.json();
+        if (!response.ok) return setResult(result.error || "Publishing failed.", result.problems || []);
+        setResult(result.message || "Event Directory published.", [`${result.event_count} total event(s)`, `${result.publish_ready_count} publish-ready event(s)`, result.commit ? `GitHub commit: ${result.commit.slice(0,7)}` : "GitHub commit created"], true);
+      } catch (error) { setResult(`Publishing failed: ${error.message}`); }
+      finally { publishButton.disabled = false; publishButton.textContent = "Publish Event Directory"; }
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  .publisher { width: min(960px, calc(100% - 2rem)); margin: 0 auto; padding: 2rem 0 5rem; }
+  .eyebrow { margin: 0 0 .35rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+  h1,h2,h3 { margin-top: 0; }
+  .panel { padding: 1.1rem; border: 1px solid rgba(255,255,255,.16); border-radius: 1rem; background: rgba(255,255,255,.05); }
+  .tool-panel { margin-top: 1.25rem; }
+  label { display: block; margin: .8rem 0 .35rem; font-weight: 800; }
+  input,textarea,select { width: 100%; padding: .85rem; border: 1px solid rgba(255,255,255,.22); border-radius: .65rem; font: inherit; }
+  .grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 1rem; }
+  .checks-row { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; }
+  .checks-row label { display: flex; align-items: center; gap: .45rem; }
+  .checks-row input { width: auto; }
+  .actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }
+  button { min-height: 44px; padding: .7rem 1rem; border: 0; border-radius: .6rem; font: inherit; font-weight: 800; cursor: pointer; }
+  button.secondary { background: transparent; border: 1px solid currentColor; }
+  button:disabled { opacity: .45; cursor: not-allowed; }
+  .results { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,.14); }
+  .success,.error { font-weight: 800; }
+  .helper { opacity: .78; }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } .actions button { flex: 1 1 100%; } .panel { padding: .85rem; } }
+</style>
