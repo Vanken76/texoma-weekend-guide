@@ -7,7 +7,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <header>
       <p class="eyebrow">TWG Admin</p>
       <h1>Event Directory Publisher</h1>
-      <p>Add or edit events from a phone, validate them, then publish directly to GitHub.</p>
+      <p>Add or edit events from a phone, attach a flyer when available, then publish directly to GitHub.</p>
       <p><a href="/admin">← Return to main admin</a></p>
     </header>
 
@@ -40,6 +40,20 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
       <label for="description">Description</label>
       <textarea id="description" rows="5"></textarea>
+
+      <label for="event-flyer">Event flyer or promotional image (optional, strongly recommended)</label>
+      <input id="event-flyer" type="file" accept="image/jpeg,image/png,image/webp" />
+      <p class="helper">Upload the official flyer whenever one is available. JPG, PNG, or WebP, up to 8 MB.</p>
+      <div id="flyer-preview-wrap" class="image-preview-wrap" hidden>
+        <img id="flyer-preview" alt="Selected event flyer preview" />
+        <p id="flyer-details" class="helper"></p>
+      </div>
+      <div id="current-image-wrap" class="image-preview-wrap" hidden>
+        <p class="helper"><strong>Current event image</strong></p>
+        <img id="current-image" alt="Current event flyer" />
+        <label class="remove-image"><input id="remove-image" type="checkbox" /> Remove the current flyer from this event record</label>
+      </div>
+
       <label for="categories">Categories, separated by commas</label>
       <input id="categories" type="text" />
       <label for="tags">Tags, separated by commas</label>
@@ -83,8 +97,17 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     const publishButton = $("#publish-events");
     const venueSelect = $("#venue-select");
     const eventPicker = $("#event-picker");
+    const flyerInput = $("#event-flyer");
+    const flyerPreviewWrap = $("#flyer-preview-wrap");
+    const flyerPreview = $("#flyer-preview");
+    const flyerDetails = $("#flyer-details");
+    const currentImageWrap = $("#current-image-wrap");
+    const currentImage = $("#current-image");
+    const removeImage = $("#remove-image");
     let directory = null;
     let businesses = [];
+    let pendingFlyer = null;
+    let pendingFlyerPath = null;
 
     const savedKey = sessionStorage.getItem("twg-admin-key");
     if (savedKey) adminKey.value = savedKey;
@@ -99,12 +122,34 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       statusList.replaceChildren(...items.map((text) => { const li = document.createElement("li"); li.textContent = text; return li; }));
     };
     const slugify = (text) => text.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    const extensionFor = (file) => ({ "image/jpeg": "jpg", "image/png": "png", "image/webp": "webp" })[file.type] || "";
+
+    const clearFlyerSelection = () => {
+      flyerInput.value = "";
+      pendingFlyer = null;
+      pendingFlyerPath = null;
+      flyerPreviewWrap.hidden = true;
+      flyerPreview.removeAttribute("src");
+      flyerDetails.textContent = "";
+    };
+
+    flyerInput.addEventListener("change", () => {
+      const file = flyerInput.files?.[0] || null;
+      pendingFlyer = file;
+      pendingFlyerPath = null;
+      flyerPreviewWrap.hidden = !file;
+      if (!file) return;
+      flyerPreview.src = URL.createObjectURL(file);
+      flyerDetails.textContent = `${file.name} — ${(file.size / 1024 / 1024).toFixed(2)} MB`;
+      removeImage.checked = false;
+    });
 
     $("#event-name").addEventListener("blur", () => {
       if (!$("#event-slug").value && $("#event-name").value && $("#start-datetime").value) {
         $("#event-slug").value = `${slugify($("#event-name").value)}-${$("#start-datetime").value.slice(0, 10)}`;
       }
     });
+
     venueSelect.addEventListener("change", () => {
       const business = businesses.find((item) => item.slug === venueSelect.value);
       if (business) {
@@ -136,7 +181,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     });
 
     eventPicker.addEventListener("change", () => {
+      clearFlyerSelection();
+      removeImage.checked = false;
       const event = directory?.events?.find((item) => item.event_slug === eventPicker.value);
+      currentImageWrap.hidden = !event?.image_url;
+      if (event?.image_url) currentImage.src = event.image_url;
+      else currentImage.removeAttribute("src");
       if (!event) return;
       $("#event-name").value = event.event_name || "";
       $("#event-slug").value = event.event_slug || "";
@@ -167,14 +217,26 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       const start = $("#start-datetime").value;
       const venueSlug = venueSelect.value || null;
       const problems = [];
+      const warnings = [];
       if (!name) problems.push("Event name is required.");
       if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) problems.push("Event slug must use lowercase letters, numbers, and hyphens.");
       if (!start) problems.push("Start date and time are required.");
       if (venueSlug && !businesses.some((b) => b.slug === venueSlug)) problems.push("Selected venue slug does not exist in the Business Directory.");
+      if (pendingFlyer && !["image/jpeg", "image/png", "image/webp"].includes(pendingFlyer.type)) problems.push("Flyer must be a JPG, PNG, or WebP image.");
+      if (pendingFlyer && pendingFlyer.size > 8 * 1024 * 1024) problems.push("Flyer must be 8 MB or smaller.");
       if (problems.length) return setResult("Event validation found problems.", problems);
 
       const today = localDate();
       const old = directory.events.find((item) => item.event_slug === slug);
+      let imageUrl = old?.image_url ?? null;
+      if (removeImage.checked) imageUrl = null;
+      if (pendingFlyer) {
+        const extension = extensionFor(pendingFlyer);
+        imageUrl = `/images/events/${slug}.${extension}`;
+        pendingFlyerPath = `public${imageUrl}`;
+      }
+      if (!imageUrl) warnings.push("No flyer attached. Confirm that no official event flyer is available.");
+
       const event = {
         event_slug: slug, event_name: name, description: $("#description").value.trim(),
         start_datetime: localIso(start), end_datetime: localIso($("#end-datetime").value), timezone: "America/Chicago",
@@ -182,7 +244,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         city: $("#city").value.trim(), state: $("#state").value.trim().toUpperCase(), postal_code: old?.postal_code ?? null,
         latitude: old?.latitude ?? null, longitude: old?.longitude ?? null, categories: splitList($("#categories").value), tags: splitList($("#tags").value),
         cost_type: $("#cost-type").value, cost_details: $("#cost-details").value.trim() || null, audience: old?.audience ?? [],
-        age_restriction: $("#age-restriction").value.trim() || null, image_url: old?.image_url ?? null, official_url: old?.official_url ?? null,
+        age_restriction: $("#age-restriction").value.trim() || null, image_url: imageUrl, official_url: old?.official_url ?? null,
         facebook_url: $("#facebook-url").value.trim() || null, ticket_url: old?.ticket_url ?? null, recurring: $("#status").value === "recurring",
         recurrence_rule: old?.recurrence_rule ?? null, featured: $("#featured").checked, publish_ready: $("#publish-ready").checked,
         source_verified: $("#source-verified").checked, verification_note: $("#verification-note").value.trim() || null,
@@ -196,7 +258,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       refreshPickers();
       eventPicker.value = slug;
       publishButton.disabled = false;
-      setResult(index >= 0 ? "Event updated in memory. Publish to save it." : "Event added in memory. Publish to save it.", [`${directory.event_count} total event(s)`, `${directory.publish_ready_count} publish-ready event(s)`], true);
+      setResult(index >= 0 ? "Event updated in memory. Publish to save it." : "Event added in memory. Publish to save it.", [`${directory.event_count} total event(s)`, `${directory.publish_ready_count} publish-ready event(s)`, ...(imageUrl ? ["Event flyer attached"] : warnings)], true);
     });
 
     publishButton.addEventListener("click", async () => {
@@ -205,10 +267,17 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       publishButton.disabled = true;
       publishButton.textContent = "Publishing…";
       try {
-        const response = await fetch("/api/publish-events", { method: "POST", headers: { "content-type": "application/json", "x-admin-key": adminKey.value }, body: JSON.stringify(directory) });
+        const formData = new FormData();
+        formData.append("directory", JSON.stringify(directory));
+        if (pendingFlyer && pendingFlyerPath) {
+          formData.append("flyer", pendingFlyer, pendingFlyer.name);
+          formData.append("flyerPath", pendingFlyerPath);
+        }
+        const response = await fetch("/api/publish-events", { method: "POST", headers: { "x-admin-key": adminKey.value }, body: formData });
         const result = await response.json();
         if (!response.ok) return setResult(result.error || "Publishing failed.", result.problems || []);
-        setResult(result.message || "Event Directory published.", [`${result.event_count} total event(s)`, `${result.publish_ready_count} publish-ready event(s)`, result.commit ? `GitHub commit: ${result.commit.slice(0,7)}` : "GitHub commit created"], true);
+        setResult(result.message || "Event Directory published.", [`${result.event_count} total event(s)`, `${result.publish_ready_count} publish-ready event(s)`, result.image_path ? `Flyer: ${result.image_path}` : "No new flyer uploaded", result.commit ? `GitHub commit: ${result.commit.slice(0,7)}` : "GitHub commit created"], true);
+        clearFlyerSelection();
       } catch (error) { setResult(`Publishing failed: ${error.message}`); }
       finally { publishButton.disabled = false; publishButton.textContent = "Publish Event Directory"; }
     });
@@ -225,14 +294,21 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   input,textarea,select { width: 100%; padding: .85rem; border: 1px solid rgba(255,255,255,.22); border-radius: .65rem; font: inherit; }
   .grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 1rem; }
   .checks-row { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; }
-  .checks-row label { display: flex; align-items: center; gap: .45rem; }
-  .checks-row input { width: auto; }
+  .checks-row label,.remove-image { display: flex; align-items: center; gap: .5rem; }
+  .checks-row input,.remove-image input { width: auto; }
   .actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }
-  button { min-height: 44px; padding: .7rem 1rem; border: 0; border-radius: .6rem; font: inherit; font-weight: 800; cursor: pointer; }
+  button { min-height: 44px; padding: .75rem 1rem; border: 0; border-radius: .65rem; font: inherit; font-weight: 800; cursor: pointer; }
   button.secondary { background: transparent; border: 1px solid currentColor; }
-  button:disabled { opacity: .45; cursor: not-allowed; }
+  button:disabled { cursor: not-allowed; opacity: .45; }
+  .helper { margin: .4rem 0 0; font-size: .9rem; opacity: .78; }
+  .image-preview-wrap { margin-top: .8rem; padding: .75rem; border: 1px solid rgba(255,255,255,.14); border-radius: .75rem; }
+  .image-preview-wrap img { display: block; width: min(100%,520px); max-height: 420px; object-fit: contain; border-radius: .5rem; }
   .results { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,.14); }
   .success,.error { font-weight: 800; }
-  .helper { opacity: .78; }
-  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } .actions button { flex: 1 1 100%; } .panel { padding: .85rem; } }
+  @media (max-width: 700px) {
+    .publisher { padding-top: 1.25rem; }
+    .panel { padding: .85rem; }
+    .grid { grid-template-columns: 1fr; }
+    .actions button { flex: 1 1 100%; }
+  }
 </style>
