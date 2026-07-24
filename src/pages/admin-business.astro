@@ -1,0 +1,197 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Business Publisher | Texoma Weekend Guide"
+  description="Private single-business publishing utility for the Texoma Weekend Guide directory."
+>
+  <section class="publisher">
+    <header>
+      <p class="eyebrow">TWG Admin</p>
+      <h1>Single-Business Publisher</h1>
+      <p>Paste one business record. The publisher will load the current directory from GitHub, add or replace the matching slug, update the counts, and commit the complete directory automatically.</p>
+    </header>
+
+    <section class="panel auth-panel">
+      <label for="admin-key">Admin key</label>
+      <input id="admin-key" type="password" autocomplete="current-password" placeholder="Enter your private publishing key" />
+      <p class="helper">The key is saved only for this browser tab.</p>
+    </section>
+
+    <section class="panel tool-panel">
+      <label for="business-json">Business JSON</label>
+      <textarea id="business-json" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder='Paste one business object here, beginning with { and ending with }'></textarea>
+
+      <label for="remove-slugs">Old duplicate slug(s) to remove <span class="optional">optional</span></label>
+      <input id="remove-slugs" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="Example: the-milieu" />
+      <p class="helper">Separate multiple old slugs with commas. The new business slug will never be removed.</p>
+
+      <div class="actions">
+        <button id="validate" type="button">Validate Business</button>
+        <button id="publish" type="button" disabled>Publish Business</button>
+      </div>
+
+      <section class="results" aria-live="polite">
+        <h2>Business status</h2>
+        <p id="status">Nothing has been validated yet.</p>
+        <ul id="checks"></ul>
+      </section>
+    </section>
+  </section>
+
+  <script>
+    const adminKey = document.querySelector("#admin-key");
+    const businessInput = document.querySelector("#business-json");
+    const removeSlugsInput = document.querySelector("#remove-slugs");
+    const validateButton = document.querySelector("#validate");
+    const publishButton = document.querySelector("#publish");
+    const status = document.querySelector("#status");
+    const checks = document.querySelector("#checks");
+
+    if (
+      !(adminKey instanceof HTMLInputElement) ||
+      !(businessInput instanceof HTMLTextAreaElement) ||
+      !(removeSlugsInput instanceof HTMLInputElement) ||
+      !(validateButton instanceof HTMLButtonElement) ||
+      !(publishButton instanceof HTMLButtonElement) ||
+      !(status instanceof HTMLElement) ||
+      !(checks instanceof HTMLUListElement)
+    ) {
+      throw new Error("Business publisher controls could not be initialized.");
+    }
+
+    const savedKey = sessionStorage.getItem("twg-admin-key");
+    if (savedKey) adminKey.value = savedKey;
+    adminKey.addEventListener("input", () => {
+      if (adminKey.value) sessionStorage.setItem("twg-admin-key", adminKey.value);
+      else sessionStorage.removeItem("twg-admin-key");
+    });
+
+    let validatedBusiness = null;
+
+    const setResult = (message, items = [], valid = false) => {
+      status.textContent = message;
+      status.className = valid ? "success" : "error";
+      checks.replaceChildren();
+      for (const item of items) {
+        const li = document.createElement("li");
+        li.textContent = item;
+        checks.appendChild(li);
+      }
+    };
+
+    const validateBusiness = () => {
+      validatedBusiness = null;
+      publishButton.disabled = true;
+
+      try {
+        const business = JSON.parse(businessInput.value);
+        const problems = [];
+
+        if (!business || typeof business !== "object" || Array.isArray(business)) {
+          throw new Error("The business must be one JSON object, not an array or full directory.");
+        }
+        if (!business.business_name || typeof business.business_name !== "string") problems.push("business_name is required.");
+        if (!business.slug || typeof business.slug !== "string") problems.push("slug is required.");
+        else if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(business.slug)) problems.push("slug must use lowercase letters, numbers, and single hyphens only.");
+
+        if (problems.length) {
+          setResult("Business validation found problems.", problems, false);
+          return false;
+        }
+
+        validatedBusiness = business;
+        publishButton.disabled = false;
+        const oldSlugs = removeSlugsInput.value.split(",").map((slug) => slug.trim()).filter(Boolean);
+        setResult("Valid business JSON. It is ready to publish.", [
+          `Business: ${business.business_name}`,
+          `Slug: ${business.slug}`,
+          business.publish_ready === true ? "Publish-ready: yes" : "Publish-ready: no",
+          oldSlugs.length ? `Old slug(s) marked for removal: ${oldSlugs.join(", ")}` : "No old duplicate slugs marked for removal"
+        ], true);
+        return true;
+      } catch (error) {
+        const message = error instanceof Error ? error.message : "Unknown validation error.";
+        setResult(`Invalid JSON: ${message}`, [], false);
+        return false;
+      }
+    };
+
+    businessInput.addEventListener("input", () => {
+      validatedBusiness = null;
+      publishButton.disabled = true;
+    });
+    removeSlugsInput.addEventListener("input", () => {
+      if (validatedBusiness) validateBusiness();
+    });
+    validateButton.addEventListener("click", validateBusiness);
+
+    publishButton.addEventListener("click", async () => {
+      if (!validatedBusiness && !validateBusiness()) return;
+      if (!adminKey.value) {
+        setResult("Enter the admin key before publishing.", [], false);
+        adminKey.focus();
+        return;
+      }
+
+      const removeSlugs = removeSlugsInput.value.split(",").map((slug) => slug.trim()).filter(Boolean);
+      publishButton.disabled = true;
+      publishButton.textContent = "Publishing…";
+
+      try {
+        const response = await fetch("/api/publish-business", {
+          method: "POST",
+          headers: { "content-type": "application/json", "x-admin-key": adminKey.value },
+          body: JSON.stringify({ business: validatedBusiness, remove_slugs: removeSlugs })
+        });
+        const result = await response.json();
+        if (!response.ok) {
+          setResult(result.error || `Publishing failed with status ${response.status}.`, Array.isArray(result.problems) ? result.problems : [], false);
+          return;
+        }
+
+        setResult(result.message || "Business published successfully.", [
+          `${result.business_count} total businesses now stored`,
+          `${result.publish_ready_count} publish-ready businesses now stored`,
+          result.removed_count ? `${result.removed_count} old duplicate record(s) removed` : "No old duplicate records removed",
+          result.commit ? `GitHub commit: ${result.commit.slice(0, 7)}` : "GitHub commit created"
+        ], true);
+      } catch (error) {
+        const message = error instanceof Error ? error.message : "Unknown publishing error.";
+        setResult(`Publishing failed: ${message}`, [], false);
+      } finally {
+        publishButton.disabled = !validatedBusiness;
+        publishButton.textContent = "Publish Business";
+      }
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  .publisher { width: min(760px, calc(100% - 2rem)); margin: 0 auto; padding: 3rem 0 5rem; }
+  header { margin-bottom: 1.5rem; }
+  .eyebrow { margin: 0 0 0.35rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+  h1, h2 { margin-top: 0; }
+  h1 { margin-bottom: 0.75rem; }
+  .panel { padding: 1.25rem; border: 1px solid rgba(255, 255, 255, 0.16); border-radius: 1rem; background: rgba(255, 255, 255, 0.05); }
+  .tool-panel { margin-top: 1.25rem; }
+  label { display: block; margin: 0.9rem 0 0.5rem; font-weight: 800; }
+  input, textarea { width: 100%; padding: 0.9rem; border: 1px solid rgba(255, 255, 255, 0.22); border-radius: 0.65rem; font: inherit; }
+  textarea { min-height: 48vh; resize: vertical; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.82rem; line-height: 1.45; }
+  .helper { margin: 0.5rem 0 0; font-size: 0.9rem; opacity: 0.78; }
+  .optional { font-weight: 400; opacity: 0.7; }
+  .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; }
+  button { min-height: 44px; padding: 0.7rem 1rem; border: 0; border-radius: 0.6rem; font: inherit; font-weight: 800; cursor: pointer; }
+  button:disabled { cursor: not-allowed; opacity: 0.45; }
+  .results { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid rgba(255, 255, 255, 0.14); }
+  .results h2 { margin-bottom: 0.5rem; font-size: 1.05rem; }
+  .results ul { margin-bottom: 0; }
+  .success, .error { font-weight: 800; }
+  @media (max-width: 640px) {
+    .publisher { padding-top: 1.5rem; }
+    .panel { padding: 0.85rem; }
+    textarea { min-height: 58vh; }
+    .actions button { flex: 1 1 100%; }
+  }
+</style>
