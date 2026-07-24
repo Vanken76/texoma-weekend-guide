@@ -6,15 +6,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!publishButton || !saveButton || !flyerInput) return;
 
+  let allowPublish = false;
+
   publishButton.addEventListener("click", (event) => {
+    if (allowPublish) {
+      allowPublish = false;
+      return;
+    }
+
     const hasSelectedFlyer = flyerInput.files && flyerInput.files.length > 0;
     if (!hasSelectedFlyer) return;
 
+    event.preventDefault();
+    event.stopImmediatePropagation();
+
     saveButton.click();
 
-    if (statusText?.classList.contains("error")) {
-      event.preventDefault();
-      event.stopImmediatePropagation();
-    }
+    window.setTimeout(() => {
+      if (statusText?.classList.contains("error")) return;
+      allowPublish = true;
+      publishButton.click();
+    }, 0);
   }, true);
 });
