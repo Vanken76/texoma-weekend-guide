@@ -7,6 +7,7 @@ const links = [
   { href: "/roundups/", label: "Weekend Roundup" },
   { href: "/businesses/", label: "Businesses" },
   { href: "/submit/", label: "Submit an Event" },
+  { href: "/support/", label: "Support TWG" },
   { href: "/about/", label: "About" }
 ];
 
@@ -35,7 +36,7 @@ function isActive(href: string) {
       {links.map((link) => (
         <a
           href={link.href}
-          class:list={{ active: isActive(link.href) }}
+          class:list={{ active: isActive(link.href), support: link.href === "/support/" }}
         >
           {link.label}
         </a>
@@ -81,12 +82,27 @@ function isActive(href: string) {
   nav {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 1rem;
   }
 
   nav a {
     color: #103a58;
     font-weight: 750;
+    text-decoration: none;
+  }
+
+  nav a.support {
+    padding: 0.38rem 0.72rem;
+    border-radius: 999px;
+    background: #176f95;
+    color: white;
+  }
+
+  nav a.support:hover,
+  nav a.support.active {
+    background: #103a58;
+    color: white;
     text-decoration: none;
   }
 
