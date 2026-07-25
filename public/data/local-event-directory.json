@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "project": "Texoma Weekend Guide",
   "document_type": "local_event_directory",
-  "generated_on": "2026-07-24",
+  "generated_on": "2026-07-25",
   "timezone_default": "America/Chicago",
   "publication_rule": "Only records with publish_ready=true should appear in the public event directory.",
   "active_event_rule": "status in [upcoming, recurring] and either end_datetime is in the future, or end_datetime is null and the local event date has not passed",
@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 16,
-  "publish_ready_count": 16,
+  "event_count": 17,
+  "publish_ready_count": 17,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -884,6 +884,59 @@
       "last_checked": "2026-07-24",
       "created_on": "2026-07-24",
       "updated_on": "2026-07-24"
+    },
+    {
+      "event_slug": "random-saturday-series-at-pcp",
+      "event_name": "Random Saturday Series @ PCP",
+      "description": "Whether you're an experienced competitor or looking to jump into organized pinball, the Random Saturday Series at Pinball Collective of Pottsboro offers a full day of competitive fun.\n\nDoors open at 10:00 AM, registration begins at 11:00 AM, and tournament play starts at noon.\n\nThe event features group Match Play qualifying using a \"beat the clock\" format, followed by A and B Division finals. Cash prizes will be awarded to the top three finishers in each division, along with random door prizes.\n\nPre-registration through Match Play is recommended but is not required.",
+      "start_datetime": "2026-07-25T10:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slug": null,
+      "venue_name": "Pinball Collective of Pottsboro",
+      "address": null,
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": null,
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Games",
+        "Tournament",
+        "Competition",
+        "Indoor",
+        "Family Friendly"
+      ],
+      "tags": [
+        "pinball",
+        "pinball tournament",
+        "Pinball Collective of Pottsboro",
+        "PCP",
+        "IFPA",
+        "Match Play",
+        "Pottsboro",
+        "arcade",
+        "competition",
+        "Texoma"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$15 entry fee.  $1 to IFPA $10 to the prize fund $4 to Pinball Collective of Pottsboro",
+      "audience": [],
+      "age_restriction": "All Ages",
+      "image_url": "/images/events/random-saturday-series-at-pcp.png",
+      "official_url": null,
+      "facebook_url": "https://www.facebook.com/profile.php?id=61588877067504",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the official Facebook event and organizer page. Event takes place Saturday, July 25, 2026, at Pinball Collective of Pottsboro, 787 FM 996, Pottsboro, TX 75076. Doors open at 10:00 AM, registration begins at 11:00 AM, and tournament starts at 12:00 PM. Official event lists a $15 entry fee and Match Play registration.",
+      "last_checked": "2026-07-25",
+      "created_on": "2026-07-25",
+      "updated_on": "2026-07-25"
     }
   ]
 }
