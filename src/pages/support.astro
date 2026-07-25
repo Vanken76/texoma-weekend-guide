@@ -148,6 +148,50 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </div>
   </section>
 
+  <section class="section faq-section">
+    <div class="container">
+      <div class="section-heading centered">
+        <p class="eyebrow">Support FAQ</p>
+        <h2>Clear answers about supporting TWG</h2>
+      </div>
+
+      <div class="faq-grid">
+        <article class="faq-card">
+          <h3>Is Texoma Weekend Guide a nonprofit?</h3>
+          <p>
+            No. Texoma Weekend Guide is an independently owned community project.
+            It is not a registered nonprofit organization or a 501(c)(3) charitable organization.
+          </p>
+        </article>
+
+        <article class="faq-card">
+          <h3>Are contributions tax-deductible?</h3>
+          <p>
+            No. Voluntary support for Texoma Weekend Guide is not tax-deductible
+            and cannot be claimed as a charitable contribution.
+          </p>
+        </article>
+
+        <article class="faq-card">
+          <h3>What does support help pay for?</h3>
+          <p>
+            Support helps cover operating expenses such as website hosting, software,
+            equipment, travel, and the time spent researching, verifying, publishing,
+            and sharing local events and businesses.
+          </p>
+        </article>
+
+        <article class="faq-card">
+          <h3>Is standard promotion still free?</h3>
+          <p>
+            Yes. Standard event listings and local business promotion remain free.
+            Contributions are always voluntary and help Texoma Weekend Guide continue growing.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <section class="section">
     <div class="container thank-you">
       <p class="eyebrow">Thank you</p>
@@ -371,6 +415,26 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   .submit-button { border: 0; cursor: pointer; }
   .sent-message { padding: 0.9rem; border-radius: 10px; background: #dff6e4; color: #145b27; font-weight: 800; }
 
+  .faq-section { background: #fff9ed; }
+  .faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
+  .faq-card {
+    padding: 1.6rem;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: white;
+    box-shadow: var(--shadow);
+  }
+  .faq-card h3 {
+    margin-top: 0;
+    color: var(--navy);
+    font-size: 1.25rem;
+  }
+  .faq-card p { margin-bottom: 0; }
+
   .thank-you {
     padding: 2.5rem;
     border-radius: 26px;
@@ -386,7 +450,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   @media (max-width: 850px) {
     .hero-grid,
     .contact-grid,
-    .support-grid { grid-template-columns: 1fr; }
+    .support-grid,
+    .faq-grid { grid-template-columns: 1fr; }
     .scene { min-height: 320px; }
     .impact-strip { grid-template-columns: 1fr 1fr; }
   }
