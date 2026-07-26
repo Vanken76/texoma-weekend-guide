@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 19,
-  "publish_ready_count": 19,
+  "event_count": 20,
+  "publish_ready_count": 20,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -1043,6 +1043,45 @@
       "last_checked": "2026-07-25",
       "created_on": "2026-07-25",
       "updated_on": "2026-07-25"
+    },
+    {
+      "event_slug": "swing-rumba-dance-lessons-denison",
+      "event_name": "Swing & Rumba Dance Lessons",
+      "description": "Learn Swing and Rumba with instructor Bryce Greene at The Venue on Main in downtown Denison. No partner is required, and dancers of varying experience levels are welcome.",
+      "start_datetime": "2026-07-28T18:30:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slug": null,
+      "venue_name": "The Venue on Main",
+      "address": null,
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": null,
+      "latitude": null,
+      "longitude": null,
+      "categories": [],
+      "tags": [
+        "Dance Class"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$12",
+      "audience": [],
+      "age_restriction": "Not confirmed",
+      "image_url": "/images/events/swing-rumba-dance-lessons-denison.png",
+      "official_url": null,
+      "facebook_url": "https://www.facebook.com/share/193ooHQA7x/",
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "Weekly on Tuesdays",
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the official event information provided by Bryce Greene and The Venue on Main. Recurs every Tuesday at 6:30 PM. Cost is $12, payable by cash or Venmo. No partner is required. Reverify periodically for schedule or pricing changes.",
+      "last_checked": "2026-07-26",
+      "created_on": "2026-07-26",
+      "updated_on": "2026-07-26",
+      "active": true
     }
   ]
 }
