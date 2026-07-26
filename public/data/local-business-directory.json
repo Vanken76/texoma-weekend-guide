@@ -5,8 +5,8 @@
   "generated_on": "2026-07-26",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 440,
-  "publish_ready_count": 104,
+  "business_count": 441,
+  "publish_ready_count": 105,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -14578,6 +14578,70 @@
         "Live entertainment",
         "Private-event hosting",
         "Downtown Denison location"
+      ]
+    },
+    {
+      "slug": "34-chophouse-docs-lounge",
+      "business_name": "34 Chophouse & Doc's Lounge",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "331 W Main St, Denison, TX 75020",
+      "category": [
+        "Steakhouse",
+        "Fine Dining Restaurant",
+        "Lounge",
+        "Bar",
+        "Live Music Venue",
+        "Event Venue"
+      ],
+      "description": "34 Chophouse & Doc's Lounge is an upscale steakhouse, lounge, and entertainment destination in historic Downtown Denison. Inspired by Denison native Dwight D. Eisenhower, the 34th President of the United States, the restaurant offers steaks, seafood, fine dining, craft cocktails, private dining, happy hour, and regularly scheduled live music in Doc's Lounge.",
+      "phone": "903-462-0307",
+      "email": null,
+      "website": "https://34chophouse.com",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "Dining room: 5:00 PM–9:00 PM; Doc's Lounge: 4:00 PM–9:00 PM",
+        "tuesday": "Dining room: 5:00 PM–9:00 PM; Doc's Lounge: 4:00 PM–9:00 PM",
+        "wednesday": "Dining room: 5:00 PM–9:00 PM; Doc's Lounge: 4:00 PM–9:00 PM",
+        "thursday": "Dining room: 5:00 PM–9:00 PM; Doc's Lounge: 4:00 PM–9:00 PM",
+        "friday": "Dining room: 4:00 PM–10:00 PM; Doc's Lounge: 4:00 PM–11:00 PM",
+        "saturday": "Dining room: 4:00 PM–10:00 PM; Doc's Lounge: 4:00 PM–11:00 PM",
+        "sunday": "Dining room and Doc's Lounge: 4:00 PM–8:00 PM"
+      },
+      "hours_note": "Happy hour is generally offered Sunday through Friday from 4:00 PM to 6:00 PM. Regular live music is promoted for Thursday evenings and Friday and Saturday nights. Hours and entertainment schedules may change for holidays and special events.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Complete. Monitor the official website and social media for weekly live music, wine dinners, holiday dining events, seasonal menus, special dinners, happy-hour promotions, and Downtown Denison festival participation.",
+      "last_checked": "2026-07-26",
+      "event_types": [
+        "Live music",
+        "Happy hour",
+        "Wine dinners",
+        "Holiday dining events",
+        "Seasonal dining events",
+        "Special dinners",
+        "Downtown festivals",
+        "Private and public gatherings"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official social media",
+        "Downtown Denison event listings"
+      ],
+      "features": [
+        "Steakhouse",
+        "Fine dining",
+        "Craft cocktails",
+        "Full bar",
+        "Doc's Lounge",
+        "Live music",
+        "Private dining",
+        "Happy hour",
+        "Historic Downtown Denison location",
+        "Eisenhower-inspired theme"
       ]
     }
   ]
