@@ -7,11 +7,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const statusList = document.querySelector("#event-checks");
   const eventPicker = document.querySelector("#event-picker");
   const venueSelect = document.querySelector("#venue-select");
+  const venueNameInput = document.querySelector("#venue-name");
+  const cityInput = document.querySelector("#city");
+  const stateInput = document.querySelector("#state");
   const statusSelect = document.querySelector("#status");
   const checksRow = document.querySelector(".checks-row");
   const editorGrid = document.querySelector(".grid");
 
-  if (!publishButton || !saveButton || !flyerInput || !eventPicker || !venueSelect || !statusSelect || !checksRow || !editorGrid) return;
+  if (!publishButton || !saveButton || !flyerInput || !eventPicker || !venueSelect || !venueNameInput || !cityInput || !stateInput || !statusSelect || !checksRow || !editorGrid) return;
 
   let allowPublish = false;
   let eventDirectory = null;
@@ -36,15 +39,10 @@ document.addEventListener("DOMContentLoaded", () => {
   checksRow.prepend(recurringLabel);
 
   const addressLabel = document.createElement("label");
-  addressLabel.innerHTML = 'Event street address (optional)<input id="event-address" type="text" autocomplete="street-address" placeholder="Leave blank to use the selected venue address" />';
+  addressLabel.innerHTML = 'Street address <span class="helper" style="display:block;font-weight:400">Optional. Leave blank to use the linked venue address.</span><input id="event-address" type="text" autocomplete="street-address" placeholder="519 W. Main St." />';
 
   const postalLabel = document.createElement("label");
-  postalLabel.innerHTML = 'ZIP / postal code (optional)<input id="postal-code" type="text" autocomplete="postal-code" inputmode="numeric" maxlength="10" />';
-
-  const locationHelper = document.createElement("p");
-  locationHelper.className = "helper twg-location-helper";
-  locationHelper.textContent = "Use these fields when the venue has not been added yet or when this event uses a different address. A selected venue can fill them automatically when its directory record contains a complete location.";
-  locationHelper.style.gridColumn = "1 / -1";
+  postalLabel.innerHTML = 'ZIP code<input id="event-postal-code" type="text" inputmode="numeric" autocomplete="postal-code" maxlength="10" placeholder="75020" />';
 
   const recurrenceLabel = document.createElement("label");
   recurrenceLabel.id = "recurrence-rule-wrap";
@@ -54,14 +52,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const verifiedLabel = document.createElement("label");
   verifiedLabel.innerHTML = 'Last verified<input id="last-verified" type="date" />';
 
-  editorGrid.append(addressLabel, postalLabel, locationHelper, recurrenceLabel, verifiedLabel);
+  editorGrid.insertBefore(addressLabel, cityInput.closest("label"));
+  editorGrid.insertBefore(postalLabel, statusSelect.closest("label"));
+  editorGrid.append(recurrenceLabel, verifiedLabel);
 
   const recurringInput = document.querySelector("#recurring");
   const activeInput = document.querySelector("#active");
   const addressInput = document.querySelector("#event-address");
-  const postalInput = document.querySelector("#postal-code");
-  const cityInput = document.querySelector("#city");
-  const stateInput = document.querySelector("#state");
+  const postalInput = document.querySelector("#event-postal-code");
   const recurrenceInput = document.querySelector("#recurrence-rule");
   const lastVerifiedInput = document.querySelector("#last-verified");
 
@@ -77,19 +75,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  recurringInput.addEventListener("change", setRecurringVisibility);
-  statusSelect.addEventListener("change", () => {
-    if (statusSelect.value === "recurring") recurringInput.checked = true;
-    setRecurringVisibility();
-  });
-
   const parseBusinessLocation = (value = "") => {
     const location = value.trim();
     if (!location) return null;
-
-    const match = location.match(/^(.*?),\s*([^,]+),\s*([A-Z]{2})\s+(\d{5}(?:-\d{4})?)$/i);
+    const match = location.match(/^(.*),\s*([^,]+),\s*([A-Z]{2})\s+(\d{5}(?:-\d{4})?)$/i);
     if (!match) return { address: location, city: "", state: "", postalCode: "" };
-
     return {
       address: match[1].trim(),
       city: match[2].trim(),
@@ -101,15 +91,20 @@ document.addEventListener("DOMContentLoaded", () => {
   const applyVenueLocation = () => {
     const business = businessDirectory?.businesses?.find((item) => item.slug === venueSelect.value);
     if (!business) return;
-
+    venueNameInput.value = business.business_name || venueNameInput.value;
     const parsed = parseBusinessLocation(business.service_area_or_location || "");
     if (!parsed) return;
-
     addressInput.value = parsed.address || "";
     if (parsed.city) cityInput.value = parsed.city;
     if (parsed.state) stateInput.value = parsed.state;
     postalInput.value = parsed.postalCode || "";
   };
+
+  recurringInput.addEventListener("change", setRecurringVisibility);
+  statusSelect.addEventListener("change", () => {
+    if (statusSelect.value === "recurring") recurringInput.checked = true;
+    setRecurringVisibility();
+  });
 
   const refreshDirectoryCache = async () => {
     try {
