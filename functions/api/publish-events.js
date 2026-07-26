@@ -25,54 +25,40 @@ const bytesToBase64 = (bytes) => {
 
 const textToBase64 = (text) => bytesToBase64(new TextEncoder().encode(text));
 
-const validateEvents = (data) => {
-  const problems = [];
-  if (!data || typeof data !== "object" || Array.isArray(data)) return ["The top level must be a JSON object."];
-  if (!Array.isArray(data.events)) return ['The JSON must contain an "events" array.'];
-
-  const slugs = new Map();
-  for (const [index, event] of data.events.entries()) {
-    const prefix = `Event ${index + 1}`;
-    if (!event?.event_name || typeof event.event_name !== "string") problems.push(`${prefix} is missing an event name.`);
-    if (!event?.event_slug || typeof event.event_slug !== "string") problems.push(`${prefix} is missing an event slug.`);
-    else slugs.set(event.event_slug, (slugs.get(event.event_slug) || 0) + 1);
-    if (!event?.start_datetime || Number.isNaN(Date.parse(event.start_datetime))) problems.push(`${prefix} has an invalid start_datetime.`);
-    if (event?.end_datetime && Number.isNaN(Date.parse(event.end_datetime))) problems.push(`${prefix} has an invalid end_datetime.`);
-    if (event?.end_datetime && event?.start_datetime && Date.parse(event.end_datetime) < Date.parse(event.start_datetime)) problems.push(`${prefix} ends before it starts.`);
-    if (!ALLOWED_STATUSES.has(event?.status)) problems.push(`${prefix} has an invalid status.`);
-    if (!ALLOWED_COST_TYPES.has(event?.cost_type)) problems.push(`${prefix} has an invalid cost_type.`);
-    if (event?.image_url && !/^\/images\/events\/[a-z0-9-]+\.(jpg|png|webp)$/.test(event.image_url)) {
-      problems.push(`${prefix} has an invalid event image path.`);
-    }
-  }
-
-  const duplicates = [...slugs.entries()].filter(([, count]) => count > 1).map(([slug]) => slug);
-  if (duplicates.length) problems.push(`Duplicate event slug(s): ${duplicates.join(", ")}`);
-
-  const eventCount = data.events.length;
-  const readyCount = data.events.filter((event) => event?.publish_ready === true).length;
-  if (data.event_count !== eventCount) problems.push(`event_count says ${data.event_count}, but the array contains ${eventCount}.`);
-  if (data.publish_ready_count !== readyCount) problems.push(`publish_ready_count says ${data.publish_ready_count}, but ${readyCount} records are publish-ready.`);
-  return problems;
+const fromBase64 = (value) => {
+  const binary = atob(value.replace(/\n/g, ""));
+  const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
 };
 
 const githubHeaders = (token) => ({
   accept: "application/vnd.github+json",
   authorization: `Bearer ${token}`,
   "x-github-api-version": "2022-11-28",
-  "user-agent": "texoma-weekend-guide-publisher"
+  "user-agent": "texoma-weekend-guide-event-publisher"
 });
 
-const putGithubFile = async ({ token, path, content, message, binary = false }) => {
-  const headers = githubHeaders(token);
-  const current = await fetch(`https://api.github.com/repos/${REPOSITORY}/contents/${path}?ref=${BRANCH}`, { headers });
-  let sha;
-  if (current.ok) sha = (await current.json()).sha;
-  else if (current.status !== 404) throw new Error(`GitHub could not read ${path} (${current.status}).`);
+const validateEvent = (event) => {
+  const problems = [];
+  if (!event || typeof event !== "object" || Array.isArray(event)) {
+    return ["The submitted event must be one JSON object."];
+  }
+  if (!event.event_name || typeof event.event_name !== "string") problems.push("event_name is required.");
+  if (!event.event_slug || typeof event.event_slug !== "string") problems.push("event_slug is required.");
+  else if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(event.event_slug)) problems.push("event_slug must use lowercase letters, numbers, and single hyphens only.");
+  if (!event.start_datetime || Number.isNaN(Date.parse(event.start_datetime))) problems.push("start_datetime is required and must be a valid date and time.");
+  if (event.end_datetime && Number.isNaN(Date.parse(event.end_datetime))) problems.push("end_datetime must be null or a valid date and time.");
+  if (event.end_datetime && event.start_datetime && Date.parse(event.end_datetime) < Date.parse(event.start_datetime)) problems.push("end_datetime cannot be before start_datetime.");
+  if (!ALLOWED_STATUSES.has(event.status)) problems.push("status must be draft, upcoming, recurring, postponed, canceled, or ended.");
+  if (!ALLOWED_COST_TYPES.has(event.cost_type)) problems.push("cost_type must be free, paid, donation, varies, or unknown.");
+  if (event.image_url && !/^\/images\/events\/[a-z0-9-]+\.(jpg|png|webp)$/.test(event.image_url)) problems.push("image_url must use /images/events/event-slug.jpg, .png, or .webp.");
+  return problems;
+};
 
+const putGithubFile = async ({ token, path, content, message, sha, binary = false }) => {
   const response = await fetch(`https://api.github.com/repos/${REPOSITORY}/contents/${path}`, {
     method: "PUT",
-    headers: { ...headers, "content-type": "application/json" },
+    headers: { ...githubHeaders(token), "content-type": "application/json" },
     body: JSON.stringify({
       message,
       content: binary ? bytesToBase64(content) : textToBase64(content),
@@ -89,45 +75,97 @@ export const onRequestPost = async ({ request, env }) => {
   if (!env.ADMIN_KEY || !env.GITHUB_TOKEN) return jsonResponse({ error: "Publisher secrets are not configured in Cloudflare." }, 500);
   if (request.headers.get("x-admin-key") !== env.ADMIN_KEY) return jsonResponse({ error: "Incorrect admin key." }, 401);
 
-  let directory;
+  let event;
+  let removeSlugs = [];
   let flyer = null;
-  let flyerPath = null;
 
   try {
     const contentType = request.headers.get("content-type") || "";
     if (contentType.includes("multipart/form-data")) {
       const form = await request.formData();
-      directory = JSON.parse(String(form.get("directory") || ""));
+      event = JSON.parse(String(form.get("event") || ""));
+      removeSlugs = JSON.parse(String(form.get("remove_slugs") || "[]"));
       const candidate = form.get("flyer");
       if (candidate instanceof File && candidate.size > 0) flyer = candidate;
-      flyerPath = String(form.get("flyerPath") || "") || null;
     } else {
-      directory = JSON.parse(await request.text());
+      const payload = await request.json();
+      event = payload?.event ?? payload;
+      removeSlugs = payload?.remove_slugs ?? [];
     }
   } catch {
-    return jsonResponse({ error: "The submitted event content is not valid." }, 400);
+    return jsonResponse({ error: "The submitted event content is not valid JSON." }, 400);
   }
 
-  const problems = validateEvents(directory);
+  removeSlugs = Array.isArray(removeSlugs)
+    ? removeSlugs.filter((slug) => typeof slug === "string" && slug.trim()).map((slug) => slug.trim())
+    : [];
 
+  const problems = validateEvent(event);
+  let flyerPath = null;
   if (flyer) {
     if (!ALLOWED_IMAGE_TYPES.has(flyer.type)) problems.push("Flyer must be a JPG, PNG, or WebP image.");
     if (flyer.size > MAX_IMAGE_BYTES) problems.push("Flyer must be 8 MB or smaller.");
-    if (!flyerPath || !/^public\/images\/events\/[a-z0-9-]+\.(jpg|png|webp)$/.test(flyerPath)) problems.push("The flyer destination path is invalid.");
-    const expectedExtension = ALLOWED_IMAGE_TYPES.get(flyer.type);
-    if (flyerPath && expectedExtension && !flyerPath.endsWith(`.${expectedExtension}`)) problems.push("The flyer file type does not match its destination extension.");
+    const extension = ALLOWED_IMAGE_TYPES.get(flyer.type);
+    if (extension && event?.event_slug) {
+      flyerPath = `public/images/events/${event.event_slug}.${extension}`;
+      event.image_url = `/images/events/${event.event_slug}.${extension}`;
+    }
+  }
+  if (problems.length) return jsonResponse({ error: "Event validation failed.", problems }, 400);
+
+  const headers = githubHeaders(env.GITHUB_TOKEN);
+  const fileUrl = `https://api.github.com/repos/${REPOSITORY}/contents/${FILE_PATH}?ref=${BRANCH}`;
+  const currentResponse = await fetch(fileUrl, { headers });
+  if (!currentResponse.ok) return jsonResponse({ error: `GitHub could not read the current Event Directory (${currentResponse.status}).` }, 502);
+
+  const currentFile = await currentResponse.json();
+  let directory;
+  try {
+    directory = JSON.parse(fromBase64(currentFile.content));
+  } catch {
+    return jsonResponse({ error: "The current GitHub Event Directory could not be decoded." }, 502);
+  }
+  if (!Array.isArray(directory.events)) return jsonResponse({ error: "The current GitHub Event Directory does not contain an events array." }, 502);
+
+  const today = new Date().toISOString().slice(0, 10);
+  const existingIndex = directory.events.findIndex((record) => record?.event_slug === event.event_slug);
+  const previous = existingIndex >= 0 ? directory.events[existingIndex] : null;
+  event.created_on = event.created_on || previous?.created_on || today;
+  event.updated_on = today;
+  event.last_checked = event.last_checked || today;
+  event.timezone = event.timezone || "America/Chicago";
+  if (!flyer && event.image_url === undefined && previous?.image_url) event.image_url = previous.image_url;
+
+  let action = "added";
+  if (existingIndex >= 0) {
+    directory.events[existingIndex] = event;
+    action = "updated";
+  } else {
+    directory.events.push(event);
   }
 
-  if (problems.length) return jsonResponse({ error: "Validation failed.", problems }, 400);
+  const slugsToRemove = new Set(removeSlugs.filter((slug) => slug !== event.event_slug));
+  const beforeRemoval = directory.events.length;
+  directory.events = directory.events.filter((record) => !slugsToRemove.has(record?.event_slug));
+  const removedCount = beforeRemoval - directory.events.length;
+
+  directory.event_count = directory.events.length;
+  directory.publish_ready_count = directory.events.filter((record) => record?.publish_ready === true).length;
+  directory.generated_on = today;
 
   try {
     let imageCommit = null;
     if (flyer && flyerPath) {
+      let imageSha;
+      const imageRead = await fetch(`https://api.github.com/repos/${REPOSITORY}/contents/${flyerPath}?ref=${BRANCH}`, { headers });
+      if (imageRead.ok) imageSha = (await imageRead.json()).sha;
+      else if (imageRead.status !== 404) throw new Error(`GitHub could not read the flyer destination (${imageRead.status}).`);
       imageCommit = await putGithubFile({
         token: env.GITHUB_TOKEN,
         path: flyerPath,
         content: new Uint8Array(await flyer.arrayBuffer()),
-        message: `Publish event flyer ${new Date().toISOString()}`,
+        message: `Publish event flyer ${event.event_slug} ${new Date().toISOString()}`,
+        sha: imageSha,
         binary: true
       });
     }
@@ -136,17 +174,21 @@ export const onRequestPost = async ({ request, env }) => {
       token: env.GITHUB_TOKEN,
       path: FILE_PATH,
       content: `${JSON.stringify(directory, null, 2)}\n`,
-      message: `Publish event directory update ${new Date().toISOString()}`
+      message: `Publish event ${event.event_slug} ${new Date().toISOString()}`,
+      sha: currentFile.sha
     });
 
     return jsonResponse({
       success: true,
-      message: flyer ? "Event flyer and Event Directory committed to GitHub. Cloudflare deployment should begin automatically." : "Event Directory committed to GitHub. Cloudflare deployment should begin automatically.",
-      commit: directoryCommit,
-      image_commit: imageCommit,
-      image_path: flyerPath,
+      message: `${event.event_name} was ${action} in the Event Directory.`,
+      action,
+      slug: event.event_slug,
+      removed_count: removedCount,
       event_count: directory.event_count,
-      publish_ready_count: directory.publish_ready_count
+      publish_ready_count: directory.publish_ready_count,
+      image_path: flyerPath,
+      image_commit: imageCommit,
+      commit: directoryCommit
     });
   } catch (error) {
     return jsonResponse({ error: error instanceof Error ? error.message : "GitHub publishing failed." }, 502);
