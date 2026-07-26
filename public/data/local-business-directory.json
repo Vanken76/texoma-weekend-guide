@@ -5,8 +5,8 @@
   "generated_on": "2026-07-26",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 439,
-  "publish_ready_count": 103,
+  "business_count": 440,
+  "publish_ready_count": 104,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -14514,6 +14514,70 @@
         "Outdoor seating",
         "Family friendly",
         "Pet friendly"
+      ]
+    },
+    {
+      "slug": "homestead-winery",
+      "business_name": "Homestead Winery",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "220 W Main St, Denison, TX 75020",
+      "category": [
+        "Winery",
+        "Wine Bar",
+        "Tasting Room",
+        "Event Venue",
+        "Tourist Attraction"
+      ],
+      "description": "Homestead Winery is a longstanding North Texas winery with a downtown Denison tasting room inside the restored Star & State Theater building shared with Ivanhoe Ale Works. The tasting room offers Texas wines, wine tastings, community gatherings, live entertainment, art-related activities, seasonal celebrations, wine releases, and other special events in historic downtown Denison.",
+      "phone": "903-464-0030",
+      "email": null,
+      "website": "https://www.homesteadwinery.com",
+      "facebook": "https://www.facebook.com/HomesteadWinery",
+      "instagram": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "3:00 PM–9:00 PM",
+        "thursday": "3:00 PM–9:00 PM",
+        "friday": "11:00 AM–10:00 PM",
+        "saturday": "11:00 AM–10:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Hours may vary for festivals, holidays, private gatherings, and other special events.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Complete. Monitor the official website, Facebook page, Downtown Denison listings, and shared venue promotions with Ivanhoe Ale Works for wine tastings, Family Game Night, live entertainment, art activities, wine releases, seasonal celebrations, festivals, and other public events.",
+      "last_checked": "2026-07-26",
+      "event_types": [
+        "Wine tastings",
+        "Family Game Night",
+        "Live entertainment",
+        "Wine release events",
+        "Art events",
+        "Seasonal celebrations",
+        "Downtown festivals",
+        "Community gatherings",
+        "Special events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Facebook posts",
+        "Downtown Denison event listings",
+        "Ivanhoe Ale Works shared-venue promotions"
+      ],
+      "features": [
+        "Texas wines",
+        "Wine tastings",
+        "Tasting room",
+        "Historic venue",
+        "Shared location with Ivanhoe Ale Works",
+        "Community events",
+        "Live entertainment",
+        "Private-event hosting",
+        "Downtown Denison location"
       ]
     }
   ]
