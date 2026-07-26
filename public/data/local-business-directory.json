@@ -6,7 +6,7 @@
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
   "business_count": 439,
-  "publish_ready_count": 102,
+  "publish_ready_count": 103,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -7165,30 +7165,68 @@
     {
       "slug": "ivanhoe-ale-works",
       "business_name": "Ivanhoe Ale Works",
-      "directory_status": "candidate_needs_research",
-      "publish_ready": false,
-      "service_area_or_location": "Texoma area — verify",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "220 W Main St, Denison, TX 75020",
       "category": [
-        "Best of Texoma nominee — category unknown"
+        "Brewery",
+        "Taproom",
+        "Bar",
+        "Restaurant",
+        "Event Venue",
+        "Live Music Venue",
+        "Tourist Attraction"
       ],
-      "description": null,
-      "phone": null,
-      "email": null,
-      "website": null,
-      "facebook": null,
+      "description": "Ivanhoe Ale Works is a locally owned craft brewery and taproom located in the restored Star & State Theater in historic downtown Denison. Known as Texas' first 'brewinery,' it shares its historic venue with Homestead Winery, offering both craft beer and wine under one roof. Ivanhoe Ale Works regularly hosts live music, trivia, tabletop gaming, educational programs, community gatherings, seasonal celebrations, and other public events, making it one of the premier entertainment venues in downtown Denison.",
+      "phone": "903-464-0030",
+      "email": "info@ivanhoealeworks.com",
+      "website": "https://www.ivanhoealeworks.com",
+      "facebook": "https://www.facebook.com/IvanhoeAleWorks",
       "instagram": null,
-      "hours": null,
-      "hours_note": null,
-      "event_venue": "unknown",
-      "recurring_events": "unknown",
-      "mine_for_events": false,
-      "event_mining_priority": "none",
-      "event_types": [],
-      "event_sources": [
-        "Herald Democrat Best of Texoma 2026 ballot"
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "3:00 PM–9:00 PM",
+        "thursday": "3:00 PM–9:00 PM",
+        "friday": "3:00 PM–10:00 PM",
+        "saturday": "1:00 PM–10:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Hours may vary during special events and festivals.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Complete. Monitor the official website, Facebook page, and Downtown Denison event listings for live music, trivia, Dungeons & Dragons, Thirsty Thursdays, seasonal celebrations, educational programs, and other recurring public events.",
+      "last_checked": "2026-07-26",
+      "event_types": [
+        "Live music",
+        "Trivia nights",
+        "Dungeons & Dragons",
+        "Thirsty Thursdays",
+        "Seasonal celebrations",
+        "Community gatherings",
+        "Educational programs",
+        "Beer releases",
+        "Special events"
       ],
-      "verification_note": "Potential candidate mined from the Herald Democrat Best of Texoma 2026 ballot recording. Seen 2 time(s); source frames frame_0055.jpg–frame_0069.jpg. Verify official business name, location, category, active status, and official links before publication.",
-      "last_checked": "2026-07-19"
+      "event_sources": [
+        "Official website",
+        "Facebook posts",
+        "Downtown Denison event listings"
+      ],
+      "features": [
+        "Craft beer",
+        "Taproom",
+        "Restaurant",
+        "Historic venue",
+        "Shared location with Homestead Winery",
+        "Outdoor seating",
+        "Community events",
+        "Private events",
+        "Live entertainment",
+        "Downtown Denison location"
+      ]
     },
     {
       "slug": "jade-shafer-photography",
