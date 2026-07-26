@@ -12,11 +12,128 @@ const today = new Intl.DateTimeFormat("en-CA", {
 
 const isActive = (event) => event.active !== false;
 const isRecurring = (event) => event.recurring === true;
+
+const parseRule = (rule = "") => Object.fromEntries(
+  rule.split(";")
+    .map((part) => part.split("="))
+    .filter(([key, value]) => key && value)
+);
+
+const recurrenceEndDate = (event) => {
+  if (event.recurrence_end_date) return event.recurrence_end_date;
+  const until = parseRule(event.recurrence_rule).UNTIL;
+  if (!until || !/^\d{8}/.test(until)) return null;
+  return `${until.slice(0, 4)}-${until.slice(4, 6)}-${until.slice(6, 8)}`;
+};
+
 const isCurrent = (event) => {
   if (!isActive(event)) return false;
-  if (isRecurring(event)) return true;
+  if (isRecurring(event)) {
+    const endDate = recurrenceEndDate(event);
+    return !endDate || endDate >= today;
+  }
   if (event.end_datetime) return new Date(event.end_datetime) >= now;
   return Boolean(event.start_datetime && event.start_datetime.slice(0, 10) >= today);
+};
+
+const formatDate = (value) => new Intl.DateTimeFormat("en-US", {
+  timeZone: "America/Chicago",
+  weekday: "long",
+  month: "long",
+  day: "numeric",
+  year: "numeric"
+}).format(new Date(value));
+
+const formatDateOnly = (dateString) => new Intl.DateTimeFormat("en-US", {
+  timeZone: "UTC",
+  month: "long",
+  day: "numeric",
+  year: "numeric"
+}).format(new Date(`${dateString}T12:00:00Z`));
+
+const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
+  timeZone: "America/Chicago",
+  hour: "numeric",
+  minute: "2-digit"
+}).format(new Date(value));
+
+const dayNames = {
+  SU: "Sunday",
+  MO: "Monday",
+  TU: "Tuesday",
+  WE: "Wednesday",
+  TH: "Thursday",
+  FR: "Friday",
+  SA: "Saturday"
+};
+
+const dayCodesByNumber = ["SU", "MO", "TU", "WE", "TH", "FR", "SA"];
+
+const addUtcDays = (dateString, days) => {
+  const date = new Date(`${dateString}T12:00:00Z`);
+  date.setUTCDate(date.getUTCDate() + days);
+  return date.toISOString().slice(0, 10);
+};
+
+const getRecurrenceDetails = (event) => {
+  const rule = parseRule(event.recurrence_rule);
+  const startDate = event.recurrence_start_date || event.start_datetime?.slice(0, 10) || null;
+  const endDate = recurrenceEndDate(event);
+  const byDays = (rule.BYDAY || "")
+    .split(",")
+    .map((day) => day.trim())
+    .filter((day) => dayNames[day]);
+
+  const fallbackDay = startDate
+    ? dayCodesByNumber[new Date(`${startDate}T12:00:00Z`).getUTCDay()]
+    : null;
+  const activeDays = byDays.length ? byDays : (fallbackDay ? [fallbackDay] : []);
+
+  let frequencyText = "Ongoing schedule";
+  if (rule.FREQ === "WEEKLY" && activeDays.length) {
+    const names = activeDays.map((day) => dayNames[day]);
+    const joined = names.length === 1
+      ? names[0]
+      : `${names.slice(0, -1).join(", ")} and ${names.at(-1)}`;
+    frequencyText = `Every ${joined}`;
+  } else if (rule.FREQ === "DAILY") {
+    frequencyText = "Every day";
+  } else if (rule.FREQ === "MONTHLY") {
+    frequencyText = "Every month";
+  }
+
+  const rangeText = startDate && endDate
+    ? `${formatDateOnly(startDate)} – ${formatDateOnly(endDate)}`
+    : startDate
+      ? `Beginning ${formatDateOnly(startDate)}`
+      : endDate
+        ? `Through ${formatDateOnly(endDate)}`
+        : null;
+
+  const timeText = event.start_datetime
+    ? `${formatTime(event.start_datetime)}${event.end_datetime ? `–${formatTime(event.end_datetime)}` : ""}`
+    : null;
+
+  let nextDate = null;
+  if (startDate && activeDays.length && rule.FREQ === "WEEKLY") {
+    let candidate = today > startDate ? today : startDate;
+    for (let index = 0; index < 8; index += 1) {
+      if ((!endDate || candidate <= endDate) && activeDays.includes(
+        dayCodesByNumber[new Date(`${candidate}T12:00:00Z`).getUTCDay()]
+      )) {
+        nextDate = candidate;
+        break;
+      }
+      candidate = addUtcDays(candidate, 1);
+    }
+  }
+
+  return {
+    frequencyText,
+    rangeText,
+    timeText,
+    nextDateText: nextDate ? formatDateOnly(nextDate) : null
+  };
 };
 
 const events = (directory.events ?? [])
@@ -30,20 +147,6 @@ const events = (directory.events ?? [])
 
 const cities = [...new Set(events.map((event) => event.city).filter(Boolean))].sort();
 const categories = [...new Set(events.flatMap((event) => event.categories ?? []).filter(Boolean))].sort();
-
-const formatDate = (value) => new Intl.DateTimeFormat("en-US", {
-  timeZone: "America/Chicago",
-  weekday: "long",
-  month: "long",
-  day: "numeric",
-  year: "numeric"
-}).format(new Date(value));
-
-const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
-  timeZone: "America/Chicago",
-  hour: "numeric",
-  minute: "2-digit"
-}).format(new Date(value));
 ---
 
 <BaseLayout
@@ -112,6 +215,7 @@ const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
         <div id="event-grid" class="event-grid">
           {events.map((event) => {
             const recurring = isRecurring(event);
+            const recurrence = recurring ? getRecurrenceDetails(event) : null;
             const searchable = [
               event.event_name,
               event.description,
@@ -119,6 +223,7 @@ const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
               event.city,
               event.state,
               event.recurrence_rule,
+              recurrence?.frequencyText,
               ...(event.categories ?? []),
               ...(event.tags ?? [])
             ].filter(Boolean).join(" ").toLowerCase();
@@ -140,11 +245,16 @@ const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
                   </a>
                 )}
                 <div class="event-card-body">
-                  {recurring ? (
+                  {recurring && recurrence ? (
                     <div class="event-date recurring-date">
                       <strong>Recurring event</strong>
-                      <span>{event.recurrence_rule || "Ongoing schedule"}</span>
-                      {event.start_datetime && <small>Schedule originally listed from {formatDate(event.start_datetime)}</small>}
+                      <span class="recurrence-summary">
+                        {recurrence.frequencyText}{recurrence.rangeText ? ` • ${recurrence.rangeText}` : ""}
+                      </span>
+                      {recurrence.timeText && <span class="recurrence-time">{recurrence.timeText}</span>}
+                      {recurrence.nextDateText && (
+                        <small><b>Next date:</b> {recurrence.nextDateText}{recurrence.timeText ? ` • ${recurrence.timeText}` : ""}</small>
+                      )}
                     </div>
                   ) : (
                     <div class="event-date">
@@ -316,8 +426,10 @@ const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
   .flyer-link { display: block; background: #eef4f6; }
   .event-flyer { display: block; width: 100%; max-height: 520px; object-fit: contain; }
   .event-date { display: flex; flex-direction: column; gap: .2rem; color: #176f95; }
-  .recurring-date { color: #236b45; }
-  .recurring-date small { margin-top: .25rem; opacity: .8; }
+  .recurring-date { gap: .35rem; padding: .85rem 1rem; border-radius: .75rem; background: #eef8f1; color: #236b45; }
+  .recurrence-summary { overflow-wrap: anywhere; font-weight: 800; line-height: 1.35; }
+  .recurrence-time { font-size: 1.05rem; }
+  .recurring-date small { margin-top: .15rem; padding-top: .55rem; border-top: 1px solid rgba(35,107,69,.2); opacity: .9; }
   .venue { font-weight: 800; }
   dl { display: grid; grid-template-columns: max-content 1fr; gap: .35rem .75rem; margin: 1rem 0; }
   dt { font-weight: 900; }
