@@ -3,24 +3,30 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import directory from "../../public/data/local-event-directory.json";
 
 const now = new Date();
+const today = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "America/Chicago",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit"
+}).format(now);
+
+const isActive = (event) => event.active !== false;
+const isRecurring = (event) => event.recurring === true;
+const isCurrent = (event) => {
+  if (!isActive(event)) return false;
+  if (isRecurring(event)) return true;
+  if (event.end_datetime) return new Date(event.end_datetime) >= now;
+  return Boolean(event.start_datetime && event.start_datetime.slice(0, 10) >= today);
+};
+
 const events = (directory.events ?? [])
   .filter((event) => event.publish_ready === true)
   .filter((event) => ["upcoming", "recurring"].includes(event.status))
-  .filter((event) => {
-    if (event.end_datetime) return new Date(event.end_datetime) >= now;
-    if (event.start_datetime) {
-      const localDate = event.start_datetime.slice(0, 10);
-      const today = new Intl.DateTimeFormat("en-CA", {
-        timeZone: "America/Chicago",
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit"
-      }).format(now);
-      return localDate >= today;
-    }
-    return false;
-  })
-  .sort((a, b) => new Date(a.start_datetime).getTime() - new Date(b.start_datetime).getTime());
+  .filter(isCurrent)
+  .sort((a, b) => {
+    if (isRecurring(a) !== isRecurring(b)) return isRecurring(a) ? 1 : -1;
+    return new Date(a.start_datetime).getTime() - new Date(b.start_datetime).getTime();
+  });
 
 const cities = [...new Set(events.map((event) => event.city).filter(Boolean))].sort();
 const categories = [...new Set(events.flatMap((event) => event.categories ?? []).filter(Boolean))].sort();
@@ -42,7 +48,7 @@ const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
 
 <BaseLayout
   title="Events | Texoma Weekend Guide"
-  description="Browse and filter upcoming events across Texoma, including live music, nightlife, family fun, community activities, and more."
+  description="Browse and filter upcoming and recurring events across Texoma, including live music, nightlife, family fun, community activities, and more."
 >
   <section class="events-page container">
     <header class="page-header">
@@ -68,6 +74,7 @@ const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
                 <option value="tomorrow">Tomorrow</option>
                 <option value="weekend">This weekend</option>
                 <option value="seven-days">Next 7 days</option>
+                <option value="recurring">Recurring events</option>
               </select>
             </label>
 
@@ -104,25 +111,28 @@ const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
 
         <div id="event-grid" class="event-grid">
           {events.map((event) => {
+            const recurring = isRecurring(event);
             const searchable = [
               event.event_name,
               event.description,
               event.venue_name,
               event.city,
               event.state,
+              event.recurrence_rule,
               ...(event.categories ?? []),
               ...(event.tags ?? [])
             ].filter(Boolean).join(" ").toLowerCase();
 
             return (
               <article
-                class:list={["event-card", { "has-image": Boolean(event.image_url) }]}
+                class:list={["event-card", { "has-image": Boolean(event.image_url), recurring }]}
                 data-event-card
                 data-search={searchable}
                 data-date={event.start_datetime?.slice(0, 10) ?? ""}
                 data-city={(event.city ?? "").toLowerCase()}
                 data-categories={(event.categories ?? []).join("|").toLowerCase()}
                 data-cost={event.cost_type ?? "unknown"}
+                data-recurring={recurring ? "true" : "false"}
               >
                 {event.image_url && (
                   <a class="flyer-link" href={event.image_url} target="_blank" rel="noreferrer" aria-label={`Open flyer for ${event.event_name}`}>
@@ -130,16 +140,25 @@ const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
                   </a>
                 )}
                 <div class="event-card-body">
-                  <div class="event-date">
-                    <strong>{formatDate(event.start_datetime)}</strong>
-                    <span>{formatTime(event.start_datetime)}{event.end_datetime ? `–${formatTime(event.end_datetime)}` : ""}</span>
-                  </div>
+                  {recurring ? (
+                    <div class="event-date recurring-date">
+                      <strong>Recurring event</strong>
+                      <span>{event.recurrence_rule || "Ongoing schedule"}</span>
+                      {event.start_datetime && <small>Schedule originally listed from {formatDate(event.start_datetime)}</small>}
+                    </div>
+                  ) : (
+                    <div class="event-date">
+                      <strong>{formatDate(event.start_datetime)}</strong>
+                      <span>{formatTime(event.start_datetime)}{event.end_datetime ? `–${formatTime(event.end_datetime)}` : ""}</span>
+                    </div>
+                  )}
                   <h2>{event.event_name}</h2>
                   <p class="venue">{event.venue_name}{event.city ? ` · ${event.city}, ${event.state}` : ""}</p>
                   {event.description && <p>{event.description}</p>}
                   <dl>
                     {event.cost_details && <><dt>Admission</dt><dd>{event.cost_details}</dd></>}
                     {event.age_restriction && <><dt>Age</dt><dd>{event.age_restriction}</dd></>}
+                    {recurring && event.last_checked && <><dt>Verified</dt><dd>{event.last_checked}</dd></>}
                   </dl>
                   <div class="event-actions">
                     {event.image_url && <a class="secondary-link" href={event.image_url} target="_blank" rel="noreferrer">View full flyer</a>}
@@ -195,8 +214,10 @@ const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
       return chicagoDate(date);
     };
 
-    const matchesDate = (eventDate, selected) => {
+    const matchesDate = (eventDate, selected, recurring) => {
       if (selected === "all") return true;
+      if (selected === "recurring") return recurring;
+      if (recurring) return false;
       const today = chicagoDate();
       if (selected === "today") return eventDate === today;
       if (selected === "tomorrow") return eventDate === addDays(today, 1);
@@ -225,9 +246,10 @@ const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
         const city = card.dataset.city ?? "";
         const categories = card.dataset.categories ?? "";
         const cost = card.dataset.cost ?? "unknown";
+        const recurring = card.dataset.recurring === "true";
 
         const queryMatch = !query || search.includes(query);
-        const dateMatch = matchesDate(eventDate, selectedDate);
+        const dateMatch = matchesDate(eventDate, selectedDate, recurring);
         const cityMatch = selectedCity === "all" || city === selectedCity;
         const categoryMatch = selectedCategory === "all" || categories.split("|").includes(selectedCategory);
         const quickMatch = quickFilter === "all"
@@ -287,12 +309,15 @@ const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
   .clear-filters { border: 0; padding-inline: .35rem; background: transparent; text-decoration: underline; }
   .event-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.25rem; align-items: start; }
   .event-card { overflow: hidden; border: 1px solid #d7e0e4; border-radius: 1rem; background: #fffdf8; box-shadow: 0 12px 30px rgba(16,58,88,.08); }
+  .event-card.recurring { border-color: #75b798; }
   .event-card[hidden] { display: none; }
   .event-card-body { padding: 1.35rem; }
   .event-card h2 { margin: .8rem 0 .35rem; color: #103a58; }
   .flyer-link { display: block; background: #eef4f6; }
   .event-flyer { display: block; width: 100%; max-height: 520px; object-fit: contain; }
   .event-date { display: flex; flex-direction: column; gap: .2rem; color: #176f95; }
+  .recurring-date { color: #236b45; }
+  .recurring-date small { margin-top: .25rem; opacity: .8; }
   .venue { font-weight: 800; }
   dl { display: grid; grid-template-columns: max-content 1fr; gap: .35rem .75rem; margin: 1rem 0; }
   dt { font-weight: 900; }
