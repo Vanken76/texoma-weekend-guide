@@ -5,8 +5,8 @@
   "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 454,
-  "publish_ready_count": 118,
+  "business_count": 455,
+  "publish_ready_count": 119,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -15640,6 +15640,59 @@
       "verification_note": "Business information, phone number, address, hours, specialties, merchandise activity, and Facebook page were verified from the official Facebook page. Online merchandise ordering has not been confirmed.",
       "last_checked": "2026-07-27",
       "last_verified": "2026-07-27"
+    },
+    {
+      "slug": "omy-southern-pie",
+      "business_name": "O'My, Southern Pie",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "Home bakery in Denison, TX; serving Denison, Sherman, Whitesboro, Bonham, Pottsboro, and surrounding Texoma communities",
+      "category": [
+        "Bakery",
+        "Pie Shop",
+        "Home Bakery",
+        "Dessert Shop"
+      ],
+      "description": "O'My, Southern Pie is a mother-and-daughter home bakery in Denison offering Southern-style pies, cheesecakes, baked desserts, and select savory items. The bakery accepts advance orders and offers delivery and curbside pickup options. It does not currently maintain regular storefront hours. A future farm stand is planned, with operating hours to be announced.",
+      "phone": null,
+      "email": "omysouthernpie@gmail.com",
+      "website": null,
+      "facebook": "https://www.facebook.com/omysouthernpie",
+      "instagram": null,
+      "hours": null,
+      "hours_note": "Home bakery accepting orders without regular storefront hours. Future farm stand hours will be added when announced.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Public information was reviewed on July 27, 2026. The owner confirmed that O'My, Southern Pie is a home bakery in Denison, currently accepts orders, does not yet have regular operating hours, and plans to open a farm stand. Phone number, preferred ordering method, public address details, website or ordering link, and future farm stand hours remain pending owner confirmation.",
+      "last_checked": "2026-07-27",
+      "event_types": [
+        "Farm stand openings",
+        "Pop-up sales",
+        "Vendor appearances",
+        "Giveaways",
+        "Holiday preorder deadlines",
+        "Seasonal menu announcements",
+        "New product announcements"
+      ],
+      "event_sources": [
+        "Facebook posts",
+        "Owner updates"
+      ],
+      "features": [
+        "Mother-and-daughter-owned",
+        "Locally owned",
+        "Home bakery",
+        "Advance orders",
+        "Delivery",
+        "Curbside pickup",
+        "Custom orders",
+        "Pies",
+        "Cheesecakes",
+        "Southern desserts",
+        "Savory baked goods"
+      ]
     }
   ]
 }
