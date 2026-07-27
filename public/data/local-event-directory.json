@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 42,
-  "publish_ready_count": 42,
+  "event_count": 43,
+  "publish_ready_count": 43,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -2305,6 +2305,61 @@
       "image_alt": "Market Fun in the Sun at the Gainesville Texas Farmers Market",
       "verification_status": "verified",
       "verification_note": "Verified from the official Gainesville Texas Farmers Market Facebook page and City of Gainesville information. This occurrence is Saturday, August 8, 2026, from 9:00 AM to 1:00 PM at 215 W Elm Street. The official 2026 market schedule also lists March 14, April 11, May 9, June 13, July 11, October 24, November 14, and December 12. The dates follow a custom schedule and cannot currently be represented accurately by the site's recurrence-rule system.",
+      "last_checked": "2026-07-27",
+      "created_on": "2026-07-27",
+      "updated_on": "2026-07-27"
+    },
+    {
+      "event_slug": "jordan-davis-choctaw-grand-theater-2026-08-01",
+      "event_name": "Jordan Davis",
+      "description": "Award-winning country singer and songwriter Jordan Davis performs live at The Grand Theater at Choctaw Casino & Resort – Durant. Known for chart-topping songs including “Buy Dirt,” “Next Thing You Know,” “What My World Spins Around,” and “Tucson Too Late,” Davis brings his live show to Texoma for one night. Doors open at 6:30 PM, and the concert begins at 8:00 PM.",
+      "start_datetime": "2026-08-01T20:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slug": "the-grand-theater-choctaw-casino-resort-durant",
+      "venue_name": "The Grand Theater at Choctaw Casino & Resort – Durant",
+      "address": "4216 S Hwy 69/75",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Concert",
+        "Country Music"
+      ],
+      "tags": [
+        "Jordan Davis",
+        "country music",
+        "live music",
+        "concert",
+        "The Grand Theater",
+        "Choctaw Casino",
+        "Choctaw Casino Durant",
+        "Durant",
+        "Southern Oklahoma",
+        "Texoma",
+        "live entertainment"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ticket prices vary by seat and availability. Purchase through the official Ticketmaster listing.",
+      "audience": [
+        "General Public",
+        "Country Music Fans"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/jordan-davis-choctaw-grand-theater-2026-08-01.jpg",
+      "official_url": "https://www.choctawcasinos.com/events/jordan-davis/",
+      "facebook_url": null,
+      "ticket_url": "https://www.ticketmaster.com/jordan-davis-durant-oklahoma-08-01-2026/event/0C00642ECFF69985",
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified through the official Choctaw Casinos & Resorts event listing and Ticketmaster. The concert is scheduled for Saturday, August 1, 2026, at 8:00 PM at The Grand Theater in Durant. Doors open at 6:30 PM. The direct Ticketmaster event link is included. No ending time or age restriction was published, so end_datetime and age_restriction remain null. The supplied promotional image should be uploaded using the filename shown in image_url.",
       "last_checked": "2026-07-27",
       "created_on": "2026-07-27",
       "updated_on": "2026-07-27"
