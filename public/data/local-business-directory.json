@@ -5,8 +5,8 @@
   "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 441,
-  "publish_ready_count": 106,
+  "business_count": 442,
+  "publish_ready_count": 107,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -14697,6 +14697,83 @@
       "verified": true,
       "last_verified": "2026-07-26",
       "notes": "Community-supported 501(c)(3) volunteer fire department serving the Locust area. Board meetings are held the first Wednesday of each month and are open to the public."
+    },
+    {
+      "slug": "redrock-saloon",
+      "business_name": "RedRock Saloon",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "123 W Woodard St, Denison, TX 75021",
+      "category": [
+        "Honky-Tonk",
+        "Nightclub",
+        "Bar",
+        "Dance Hall",
+        "Live Music Venue",
+        "Event Venue"
+      ],
+      "description": "RedRock Saloon is an award-winning honky-tonk, nightclub, dance hall, and live music venue in Downtown Denison. The venue features one of the largest dance floors in Grayson County and regularly presents live bands, karaoke, trivia, dancing, themed entertainment, and special events. Food, beer, cocktails, wine, and other alcoholic beverages are available.",
+      "phone": "903-771-8257",
+      "email": "Redrockmgmtgroup@gmail.com",
+      "website": "https://redrock-saloon.com",
+      "facebook": "https://www.facebook.com/Redrocksaloontx",
+      "instagram": "https://www.instagram.com/redrock_saloon_denison_tx/",
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "6:00 PM–12:00 AM",
+        "wednesday": "Closed",
+        "thursday": "6:00 PM–2:00 AM",
+        "friday": "8:00 PM–2:00 AM",
+        "saturday": "8:00 PM–2:00 AM",
+        "sunday": "6:00 PM–12:00 AM"
+      },
+      "hours_note": "Hours may change for concerts, holidays, private functions, and special events. Check the official Facebook or Instagram account before visiting.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Complete. The permanent Facebook and Instagram URLs were verified directly from the business profiles. Monitor both social accounts and the official event page for live music, karaoke, trivia, themed nights, touring performers, dance events, and schedule changes.",
+      "last_checked": "2026-07-26",
+      "event_types": [
+        "Live music",
+        "Country music",
+        "Rock music",
+        "Touring bands",
+        "Karaoke nights",
+        "Trivia nights",
+        "Dance nights",
+        "Theme nights",
+        "Talent showcases",
+        "Holiday parties",
+        "Downtown events",
+        "Special events"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Official Instagram account",
+        "Official website",
+        "Official event page",
+        "Discover Denison"
+      ],
+      "features": [
+        "Award-winning music venue",
+        "Honky-tonk atmosphere",
+        "Large dance floor",
+        "Live music",
+        "Karaoke",
+        "Trivia",
+        "Dancing",
+        "Full bar",
+        "Beer",
+        "Cocktails",
+        "Wine",
+        "Food and pizza",
+        "Outdoor seating",
+        "Downtown Denison location",
+        "Group-friendly",
+        "Wheelchair-accessible entrance",
+        "Free street parking"
+      ]
     }
   ]
 }
