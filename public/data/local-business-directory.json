@@ -5,8 +5,8 @@
   "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 442,
-  "publish_ready_count": 106,
+  "business_count": 441,
+  "publish_ready_count": 105,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -822,61 +822,6 @@
       ],
       "verification_note": "Complete. Replaces the unresolved 24/7 Pristine Clean Best of Texoma candidate. Public business listings confirm the Durant location, phone number, operating hours, and active residential and commercial cleaning services. No official website was located, so monitor business listings, social media, and community announcements for updates.",
       "last_checked": "2026-07-21"
-    },
-    {
-      "slug": "34-chophouse-and-docs-lounge",
-      "business_name": "34 Chophouse & Doc's Lounge",
-      "directory_status": "complete",
-      "publish_ready": true,
-      "service_area_or_location": "331 W Main St, Denison, TX 75020",
-      "category": [
-        "Steakhouse",
-        "Fine Dining",
-        "Lounge",
-        "Cocktail Bar",
-        "Live Music Venue",
-        "Private Event Venue",
-        "Wine Bar"
-      ],
-      "description": "A locally owned upscale downtown Denison steakhouse inspired by Denison native and 34th U.S. President Dwight D. Eisenhower, featuring premium steaks, seafood, handcrafted cocktails, an extensive bourbon selection, and Doc's Lounge with recurring live music and private-event space.",
-      "phone": "903-462-0307",
-      "email": null,
-      "website": "https://34chophouse.com",
-      "facebook": "https://www.facebook.com/The34Chophouse/",
-      "instagram": "https://www.instagram.com/34chophouse/",
-      "hours": {
-        "monday": "Dinner 5:00 PM–9:00 PM; Lounge 4:00 PM–9:00 PM",
-        "tuesday": "Dinner 5:00 PM–9:00 PM; Lounge 4:00 PM–9:00 PM",
-        "wednesday": "Dinner 5:00 PM–9:00 PM; Lounge 4:00 PM–9:00 PM",
-        "thursday": "Dinner 5:00 PM–9:00 PM; Lounge 4:00 PM–9:00 PM",
-        "friday": "Dinner 4:00 PM–10:00 PM; Lounge 4:00 PM–11:00 PM",
-        "saturday": "Dinner 4:00 PM–10:00 PM; Lounge 4:00 PM–11:00 PM",
-        "sunday": "Dinner and Lounge 4:00 PM–8:00 PM"
-      },
-      "hours_note": "Happy hour Sun–Fri 4:00 PM–6:00 PM. Live music Thu 6:00 PM–8:00 PM and Fri–Sat 6:30 PM–9:30 PM.",
-      "event_venue": true,
-      "recurring_events": true,
-      "mine_for_events": true,
-      "event_mining_priority": "high",
-      "event_types": [
-        "Live music",
-        "Private events",
-        "Wine dinners",
-        "Bourbon tastings",
-        "Holiday dining",
-        "Seasonal menus",
-        "Chef specials",
-        "Charity events",
-        "Downtown collaborations"
-      ],
-      "event_sources": [
-        "Official website",
-        "Facebook",
-        "Instagram",
-        "Downtown Denison promotions"
-      ],
-      "verification_note": "Complete. Permanent high-priority event-mining source. Monitor the official website, Facebook and Instagram for live music, private events, wine or bourbon dinners, seasonal menus, holiday dining, chef specials, charity events and downtown collaborations. Duplicate ballot candidates merged into this canonical record.",
-      "last_checked": "2026-07-19"
     },
     {
       "slug": "livingston-hearing-aid-center-denison",
