@@ -5,8 +5,8 @@
   "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 445,
-  "publish_ready_count": 110,
+  "business_count": 446,
+  "publish_ready_count": 111,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -14994,6 +14994,84 @@
         "Touring performers",
         "Special-event hosting",
         "Denison location"
+      ]
+    },
+    {
+      "slug": "sherman-jazz-museum",
+      "business_name": "Sherman Jazz Museum",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "201 E Lamar St, Sherman, TX 75090",
+      "category": [
+        "Museum",
+        "Jazz Museum",
+        "Music Museum",
+        "Cultural Attraction",
+        "Educational Venue",
+        "Event Venue",
+        "Historic Building"
+      ],
+      "description": "Sherman Jazz Museum is a nonprofit cultural and educational museum dedicated to preserving, presenting, and celebrating the history of jazz. Located inside Sherman's historic former Masonic Lodge Temple, the museum features records, instruments, artwork, vintage recording equipment, and memorabilia connected with influential jazz musicians. It also hosts live performances, educational visits, tours, special exhibits, and jazz-related community programming.",
+      "phone": "817-946-4112",
+      "email": "shermanjazzmuseum@gmail.com",
+      "website": "https://shermanjazzmuseum.com",
+      "facebook": "https://www.facebook.com/Sherman-Jazz-Museum-268061593841/",
+      "instagram": "https://www.instagram.com/shermanjazzmuseum/",
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "Closed",
+        "thursday": "1:00 PM–5:00 PM",
+        "friday": "Closed",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Regular public hours are Thursday from 1:00 PM to 5:00 PM. The museum may close during January and August and may open at other times for scheduled tours, performances, educational visits, or special events. Check the official website or contact the museum before making a special trip.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Complete. The official website confirms the museum's address, phone number, regular public hours, nonprofit educational mission, collections, and event programming. The email address was confirmed directly, and the official Instagram account was verified from the provided profile. The building is not wheelchair accessible, and that limitation should remain clearly disclosed.",
+      "last_checked": "2026-07-26",
+      "event_types": [
+        "Live jazz performances",
+        "Sherman Jazz Classic",
+        "Museum tours",
+        "Educational programs",
+        "School visits",
+        "Special exhibits",
+        "Jazz-history programs",
+        "Guest musicians",
+        "Lectures and presentations",
+        "Community cultural events",
+        "Private events",
+        "Invitation-only events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Official Instagram account",
+        "Sherman Arts listings",
+        "City of Sherman event listings",
+        "Performer announcements",
+        "Community cultural calendars"
+      ],
+      "features": [
+        "Free admission",
+        "Jazz-history collection",
+        "Historic former Masonic Lodge Temple",
+        "Vintage records",
+        "Musical instruments",
+        "Jazz memorabilia",
+        "Vintage recording equipment",
+        "Music artwork",
+        "Trumpet Room performance space",
+        "Live jazz programming",
+        "Educational tours",
+        "School visits",
+        "Special exhibits",
+        "Nonprofit educational foundation",
+        "Not wheelchair accessible"
       ]
     }
   ]
