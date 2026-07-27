@@ -2,10 +2,10 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-07-26",
+  "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 441,
+  "business_count": 442,
   "publish_ready_count": 105,
   "businesses": [
     {
@@ -14643,6 +14643,68 @@
         "Historic Downtown Denison location",
         "Eisenhower-inspired theme"
       ]
+    },
+    {
+      "id": "locust-volunteer-fire-department",
+      "business_name": "Locust Volunteer Fire Department",
+      "slug": "locust-volunteer-fire-department",
+      "status": "active",
+      "featured": false,
+      "categories": [
+        "Fire Department",
+        "Emergency Services",
+        "Community Organization",
+        "Nonprofit Organization",
+        "Public Safety"
+      ],
+      "description": "Locust Volunteer Fire Department is a community-based nonprofit volunteer fire department serving the Locust community and surrounding Lake Texoma area near Pottsboro, Texas. The department provides fire suppression, emergency response, medical first response, public safety education, and community outreach while hosting annual fundraising events that support its mission and equipment needs. Established in 1971, the department responds to approximately 300 emergency calls each year.",
+      "short_description": "Volunteer fire department serving the Locust community and Lake Texoma area.",
+      "address": "116 Spincaster Lane",
+      "city": "Pottsboro",
+      "state": "TX",
+      "zip_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "phone": "(903) 786-4664",
+      "email": "Admin@LocustCVFD.org",
+      "website": "https://locustcvfd.org",
+      "facebook": null,
+      "hours": "Emergency response available 24/7. Administrative hours vary.",
+      "services": [
+        "Fire Suppression",
+        "Emergency Medical First Response",
+        "Brush & Wildland Fire Response",
+        "Public Safety Education",
+        "Volunteer Opportunities",
+        "Community Fundraising",
+        "Fire Prevention"
+      ],
+      "amenities": [
+        "Community Events",
+        "Accepts Donations",
+        "Volunteer Opportunities",
+        "Wheelchair Accessible Parking",
+        "Wheelchair Accessible Entrance"
+      ],
+      "tags": [
+        "Fire Department",
+        "Volunteer Fire Department",
+        "Emergency Services",
+        "Pottsboro",
+        "Lake Texoma",
+        "Public Safety",
+        "Community Organization",
+        "Nonprofit",
+        "Fundraiser"
+      ],
+      "annual_events": [
+        "Annual Fish Fry",
+        "Community Board Meetings"
+      ],
+      "image_url": "/images/businesses/locust-volunteer-fire-department.jpg",
+      "verified": true,
+      "last_verified": "2026-07-26",
+      "notes": "Community-supported 501(c)(3) volunteer fire department serving the Locust area. Board meetings are held the first Wednesday of each month and are open to the public."
     }
   ]
 }
