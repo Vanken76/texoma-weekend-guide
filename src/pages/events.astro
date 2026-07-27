@@ -222,6 +222,8 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
               event.venue_name,
               event.city,
               event.state,
+              event.organizer_name,
+              event.cost_details,
               event.recurrence_rule,
               recurrence?.frequencyText,
               ...(event.categories ?? []),
@@ -241,7 +243,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
               >
                 {event.image_url && (
                   <a class="flyer-link" href={event.image_url} target="_blank" rel="noreferrer" aria-label={`Open flyer for ${event.event_name}`}>
-                    <img class="event-flyer" src={event.image_url} alt={`${event.event_name} flyer`} loading="lazy" />
+                    <img class="event-flyer" src={event.image_url} alt={event.image_alt || `${event.event_name} flyer`} loading="lazy" />
                   </a>
                 )}
                 <div class="event-card-body">
@@ -262,17 +264,29 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
                       <span>{formatTime(event.start_datetime)}{event.end_datetime ? `–${formatTime(event.end_datetime)}` : ""}</span>
                     </div>
                   )}
+
                   <h2>{event.event_name}</h2>
                   <p class="venue">{event.venue_name}{event.city ? ` · ${event.city}, ${event.state}` : ""}</p>
                   {event.description && <p>{event.description}</p>}
+
                   <dl>
                     {event.cost_details && <><dt>Admission</dt><dd>{event.cost_details}</dd></>}
                     {event.age_restriction && <><dt>Age</dt><dd>{event.age_restriction}</dd></>}
+                    {event.organizer_name && <><dt>Organizer</dt><dd>{event.organizer_name}</dd></>}
                     {recurring && event.last_checked && <><dt>Verified</dt><dd>{event.last_checked}</dd></>}
                   </dl>
+
                   <div class="event-actions">
+                    {event.ticket_url && (
+                      <a class="ticket-link" href={event.ticket_url} target="_blank" rel="noopener noreferrer">
+                        Buy tickets
+                      </a>
+                    )}
                     {event.image_url && <a class="secondary-link" href={event.image_url} target="_blank" rel="noreferrer">View full flyer</a>}
                     {event.facebook_url && <a class="event-link" href={event.facebook_url} target="_blank" rel="noreferrer">Official event information</a>}
+                    {!event.facebook_url && event.official_url && event.official_url !== event.ticket_url && (
+                      <a class="event-link" href={event.official_url} target="_blank" rel="noreferrer">Official event information</a>
+                    )}
                   </div>
                 </div>
               </article>
@@ -435,8 +449,9 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
   dt { font-weight: 900; }
   dd { margin: 0; }
   .event-actions,.actions { display: flex; flex-wrap: wrap; gap: .75rem; }
-  .event-link,.secondary-link,.actions a { display: inline-block; padding: .75rem 1rem; border-radius: .65rem; font-weight: 900; text-decoration: none; }
+  .event-link,.secondary-link,.ticket-link,.actions a { display: inline-block; padding: .75rem 1rem; border-radius: .65rem; font-weight: 900; text-decoration: none; }
   .event-link,.actions a { background: #176f95; color: white; }
+  .ticket-link { background: #236b45; color: white; }
   .secondary-link { border: 1px solid #176f95; color: #176f95; background: transparent; }
   .empty-state { padding: 2rem; border: 1px solid #d7e0e4; border-radius: 1rem; background: #fffdf8; }
   @media (max-width: 850px) { .filter-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .search-field { grid-column: 1 / -1; } }
