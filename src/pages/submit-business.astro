@@ -1,0 +1,142 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const subject = encodeURIComponent(
+  "Business Submission for Texoma Weekend Guide"
+);
+
+const body = encodeURIComponent(
+`Business name:
+
+Owner or authorized contact name:
+
+Contact email:
+
+Contact phone:
+
+Street address (if applicable):
+
+City and state:
+
+Service area (if applicable):
+
+Business category:
+
+Short public description:
+
+Website:
+
+Facebook:
+
+Instagram or other social links:
+
+Current business hours:
+
+Upcoming events or recurring activities:
+
+Official logo link or attachment:
+
+Is this a new listing or a correction to an existing listing?
+
+Anything else TWG should know:
+
+Authorization confirmation:
+I confirm that I am authorized to submit this business information and any attached official logo for possible use on the Texoma Weekend Guide website and social media.
+`
+);
+
+const emailLink =
+  `mailto:texomaweekendguide@gmail.com?subject=${subject}&body=${body}`;
+---
+
+<BaseLayout
+  title="Submit a Business | Texoma Weekend Guide"
+  description="Submit a Texoma-area business for review and possible inclusion in the Texoma Weekend Guide Local Business Directory."
+>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Free local business submission</p>
+      <h1>Submit a Business</h1>
+      <p>Help local customers discover your business through the Texoma Weekend Guide directory.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container submission-grid">
+      <div>
+        <h2>What to include</h2>
+
+        <ul>
+          <li>Business name and category</li>
+          <li>Owner or authorized contact information</li>
+          <li>Complete address or service area</li>
+          <li>Short public description</li>
+          <li>Website and official social links</li>
+          <li>Current business hours</li>
+          <li>Upcoming events or recurring activities</li>
+          <li>Official business logo, if available</li>
+          <li>Any corrections needed on an existing listing</li>
+        </ul>
+
+        <div class="button-row">
+          <a class="button" href={emailLink}>
+            Email Your Submission
+          </a>
+
+          <a
+            class="button outline"
+            href="https://www.facebook.com/TexomaWeekendGuide/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Message TWG on Facebook
+          </a>
+        </div>
+      </div>
+
+      <aside class="callout">
+        <h2>Submission notes</h2>
+
+        <p>
+          Submissions are reviewed and independently verified before publication.
+          Submission does not guarantee inclusion in the directory.
+        </p>
+
+        <p>
+          Business owners may submit an official logo for possible inclusion on
+          their Texoma Weekend Guide business listing. By submitting a logo, you
+          confirm that you are authorized to provide it for this purpose.
+        </p>
+
+        <p>
+          Texoma Weekend Guide may contact you for clarification, corrections,
+          or additional information before a listing is published.
+        </p>
+
+        <p>
+          After your business is listed, you can also submit upcoming events
+          through the <a href="/submit/">event submission page</a>.
+        </p>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .submission-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  li {
+    margin-bottom: 0.65rem;
+  }
+
+  @media (max-width: 800px) {
+    .submission-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
