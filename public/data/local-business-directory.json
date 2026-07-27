@@ -5,8 +5,8 @@
   "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 450,
-  "publish_ready_count": 114,
+  "business_count": 451,
+  "publish_ready_count": 115,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -15316,6 +15316,95 @@
       "logo": null,
       "notes": "Permanent bookstore opening scheduled for August 15, 2026. Current Facebook page indicates the business is temporarily closed while preparing for the storefront opening. Hosts book clubs, craft classes, and community events, including activities at The George Tavern Party Room in Denison.",
       "last_verified": "2026-07-27"
+    },
+    {
+      "slug": "winstar-world-casino-resort",
+      "business_name": "WinStar World Casino & Resort",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": true,
+      "flagship": true,
+      "service_area_or_location": "777 Casino Ave, Thackerville, OK 73459",
+      "category": [
+        "Casino Resort",
+        "Casino",
+        "Hotel",
+        "Resort",
+        "Entertainment Destination",
+        "Tourist Attraction",
+        "Conference & Convention Center"
+      ],
+      "tags": [
+        "Casino",
+        "Hotel",
+        "Resort",
+        "Live Entertainment",
+        "Concerts",
+        "Gaming",
+        "Restaurants",
+        "Golf",
+        "Spa",
+        "Events",
+        "Texoma",
+        "Thackerville",
+        "Chickasaw Nation"
+      ],
+      "description": "WinStar World Casino & Resort is a major casino resort and entertainment destination in Thackerville, Oklahoma, just north of the Texas-Oklahoma border. Owned and operated by the Chickasaw Nation, the property features an expansive casino, hotel accommodations, restaurants and bars, championship golf, spa and pool amenities, shopping, convention facilities, and live entertainment. The resort is also home to Lucas Oil Live, a 6,500-seat venue hosting nationally touring concerts, comedy performances, and other major events.",
+      "phone": "866-946-7787",
+      "email": null,
+      "website": "https://www.winstar.com/",
+      "facebook": "https://www.facebook.com/WinStarWorldCasino",
+      "instagram": "https://www.instagram.com/winstarworldcasino/",
+      "youtube": null,
+      "tiktok": null,
+      "hours": {
+        "monday": "Open 24 Hours",
+        "tuesday": "Open 24 Hours",
+        "wednesday": "Open 24 Hours",
+        "thursday": "Open 24 Hours",
+        "friday": "Open 24 Hours",
+        "saturday": "Open 24 Hours",
+        "sunday": "Open 24 Hours"
+      },
+      "hours_note": "WinStar World Casino & Resort is open to the public 24 hours a day, 365 days a year. Individual restaurants, bars, entertainment venues, shops, hotel amenities, golf facilities, spa services, and other attractions maintain separate operating hours.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "very_high",
+      "event_types": [
+        "Concerts",
+        "Comedy Shows",
+        "Live Music",
+        "Casino Promotions",
+        "Golf Tournaments",
+        "Conventions",
+        "Conferences",
+        "Trade Shows",
+        "Weddings",
+        "Holiday Events",
+        "Resort Events",
+        "Special Events"
+      ],
+      "event_sources": [
+        "Official WinStar website",
+        "Official entertainment calendar",
+        "Official Facebook page",
+        "Official Instagram account",
+        "Lucas Oil Live event calendar",
+        "WinStar News and Media Hub"
+      ],
+      "parent_business": [],
+      "child_businesses": [
+        {
+          "slug": "lucas-oil-live",
+          "name": "Lucas Oil Live",
+          "relationship_note": "The primary concert and entertainment venue located within WinStar World Casino & Resort."
+        }
+      ],
+      "related_businesses": [],
+      "related_events": [],
+      "verification_note": "Core information verified through the official WinStar World Casino & Resort website. Continue monitoring the official entertainment calendar and social accounts for concerts, comedy shows, conventions, resort activities, promotions, and newly announced amenities or venues.",
+      "last_checked": "2026-07-27"
     }
   ]
 }
