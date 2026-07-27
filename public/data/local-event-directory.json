@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 36,
-  "publish_ready_count": 36,
+  "event_count": 37,
+  "publish_ready_count": 37,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -1978,6 +1978,61 @@
       "verification_note": "Verified from the official Facebook Event and Skatelands of America Facebook page. Event details, pricing, location, and organizer were confirmed. Skate rental is included with admission, and the event is promoted as family friendly.",
       "last_checked": "2026-07-26",
       "created_on": "2026-07-26",
+      "updated_on": "2026-07-27"
+    },
+    {
+      "id": "texoma-roller-derby-vs-north-texas-roller-derby-2026-08-02",
+      "event_name": "Texoma Roller Derby vs. North Texas Roller Derby",
+      "event_slug": "texoma-roller-derby-vs-north-texas-roller-derby-2026-08-02",
+      "status": "upcoming",
+      "active": true,
+      "publish_ready": true,
+      "featured": false,
+      "start_datetime": "2026-08-02T14:00:00-05:00",
+      "end_datetime": "2026-08-02T18:00:00-05:00",
+      "timezone": "America/Chicago",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "venue_name": "Fannin County Multipurpose Complex",
+      "address": "700 FM 87",
+      "city": "Bonham",
+      "state": "TX",
+      "zip_code": "75418",
+      "organizer_name": "Texoma Roller Derby",
+      "organizer_email": null,
+      "organizer_phone": null,
+      "categories": [
+        "Sports",
+        "Roller Derby",
+        "Family Friendly"
+      ],
+      "tags": [
+        "Texoma Roller Derby",
+        "North Texas Roller Derby",
+        "Fighting Unicorns",
+        "Bonham",
+        "Fannin County",
+        "Family Friendly",
+        "Indoor Sports"
+      ],
+      "description": "Texoma Roller Derby faces the Fighting Unicorns of North Texas Roller Derby at the Fannin County Multipurpose Complex in Bonham. Doors open at 2:00 p.m. and the first whistle is at 3:00 p.m. Food and drinks will be available at the venue.",
+      "cost_type": "paid",
+      "cost_details": "$15 in advance or $20 at the door. Children ages 5 and under are admitted free. Children ages 6 through 12 are $5.",
+      "ticket_url": "https://www.eventbrite.com/e/texoma-roller-derby-vs-north-texas-roller-derby-tickets-1992947827601",
+      "age_restriction": "All ages",
+      "family_friendly": true,
+      "indoor_outdoor": "indoor",
+      "website_url": null,
+      "facebook_url": "https://www.facebook.com/texomaderby",
+      "official_url": "https://www.eventbrite.com/e/texoma-roller-derby-vs-north-texas-roller-derby-tickets-1992947827601",
+      "image_url": "/images/events/texoma-roller-derby-vs-north-texas-roller-derby-2026-08-02.jpg",
+      "image_alt": "Texoma Roller Derby team members posing together ahead of their bout against North Texas Roller Derby",
+      "verification_status": "verified",
+      "verification_note": "The date, event hours, doors-open time, first-whistle time, venue, address, ticket prices, opponent, food availability, organizer Facebook page, and Eventbrite ticket link were verified from the official event information.",
+      "last_checked": "2026-07-27",
+      "created_on": "2026-07-27",
       "updated_on": "2026-07-27"
     }
   ]
