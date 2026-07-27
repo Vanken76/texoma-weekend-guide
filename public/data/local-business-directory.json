@@ -5,8 +5,8 @@
   "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 446,
-  "publish_ready_count": 111,
+  "business_count": 447,
+  "publish_ready_count": 112,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -15073,6 +15073,66 @@
         "Nonprofit educational foundation",
         "Not wheelchair accessible"
       ]
+    },
+    {
+      "slug": "902-bar-and-grill",
+      "business_name": "902 Bar & Grill",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "6546 FM 902, Suite 5, Gainesville, TX 76240",
+      "category": [
+        "Bar & Grill",
+        "American Restaurant",
+        "Live Music Venue",
+        "Karaoke Venue"
+      ],
+      "description": "A neighborhood bar and grill serving the Lake Kiowa and Gainesville area with American food, cold drinks, patio seating, live music, karaoke, daily specials, and other entertainment.",
+      "phone": "940-668-8024",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/902grill",
+      "instagram": "https://www.instagram.com/902barandgrill",
+      "hours": {
+        "monday": "11:00 AM–9:00 PM",
+        "tuesday": "11:00 AM–9:00 PM",
+        "wednesday": "11:00 AM–9:00 PM",
+        "thursday": "11:00 AM–9:00 PM",
+        "friday": "11:00 AM–10:00 PM",
+        "saturday": "11:00 AM–10:00 PM",
+        "sunday": "11:00 AM–9:00 PM"
+      },
+      "hours_note": "Check the official Facebook page for holiday hours, entertainment schedules, and special-event changes.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Live music",
+        "Patio music",
+        "Karaoke",
+        "Music trivia",
+        "Food specials",
+        "Holiday events",
+        "Community events"
+      ],
+      "event_sources": [
+        "Facebook posts",
+        "Instagram posts",
+        "Performer announcements",
+        "Community group posts"
+      ],
+      "features": [
+        "Full bar",
+        "American food",
+        "Outdoor patio",
+        "Live entertainment",
+        "Wednesday karaoke",
+        "Takeout",
+        "Pool table",
+        "Daily specials"
+      ],
+      "verification_note": "Facebook and Instagram were directly verified. The venue promotes live music and recurring karaoke every Wednesday from 7:00 PM to 10:00 PM. No official standalone website, public business email, or general age policy was listed. The business uses a Gainesville mailing address but is publicly promoted as being in the Lake Kiowa area.",
+      "last_checked": "2026-07-26"
     }
   ]
 }
