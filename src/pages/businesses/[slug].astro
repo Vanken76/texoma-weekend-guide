@@ -1,0 +1,235 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import directory from "../../../public/data/local-business-directory.json";
+
+export function getStaticPaths() {
+  return (directory.businesses ?? [])
+    .filter((business) => business.publish_ready === true && business.slug)
+    .map((business) => ({
+      params: { slug: business.slug },
+      props: { business }
+    }));
+}
+
+const { business } = Astro.props;
+
+const categories = Array.isArray(business.category)
+  ? business.category
+  : Array.isArray(business.categories)
+    ? business.categories
+    : business.category
+      ? [business.category]
+      : [];
+
+const tags = Array.isArray(business.tags) ? business.tags : [];
+const location = business.service_area_or_location || [
+  business.street_address || business.address,
+  business.city,
+  business.state,
+  business.zip_code || business.postal_code
+].filter(Boolean).join(", ");
+const mapUrl = location
+  ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(location)}`
+  : null;
+
+const image = business.image || business.image_url || business.logo || business.logo_url || null;
+const title = `${business.business_name} | Texoma Weekend Guide`;
+const description = business.description || business.short_description || `${business.business_name}, a local Texoma business.`;
+
+const statusLabels = {
+  complete: "Verified listing",
+  work_in_progress: "Listing in progress",
+  temporarily_closed: "Temporarily closed",
+  upcoming: "Opening soon",
+  active: "Open"
+};
+const statusKey = business.directory_status || business.status || "complete";
+const statusLabel = statusLabels[statusKey] || statusKey.replaceAll("_", " ");
+
+const formatDateOnly = (value) => value
+  ? new Intl.DateTimeFormat("en-US", {
+      timeZone: "UTC",
+      month: "long",
+      day: "numeric",
+      year: "numeric"
+    }).format(new Date(`${value}T12:00:00Z`))
+  : null;
+
+const hoursEntries = business.hours && typeof business.hours === "object"
+  ? Object.entries(business.hours)
+  : [];
+
+const socialLinks = [
+  ["Website", business.website],
+  ["Facebook", business.facebook],
+  ["Instagram", business.instagram],
+  ["YouTube", business.youtube],
+  ["TikTok", business.tiktok]
+].filter(([, url]) => Boolean(url));
+---
+
+<BaseLayout title={title} description={description} image={image || undefined}>
+  <article class="business-detail container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/directory/">Business Directory</a><span aria-hidden="true">›</span><span>{business.business_name}</span>
+    </nav>
+
+    <header class="business-hero">
+      <div class="hero-copy">
+        <div class="status-row">
+          <span class:list={["status", `status-${statusKey}`]}>{statusLabel}</span>
+          {business.featured && <span class="featured">Featured business</span>}
+        </div>
+
+        <h1>{business.business_name}</h1>
+        {categories.length > 0 && <p class="category-line">{categories.join(" · ")}</p>}
+        {location && <p class="location">{location}</p>}
+
+        <div class="primary-actions">
+          {business.website && <a class="button official" href={business.website} target="_blank" rel="noopener noreferrer">Visit website</a>}
+          {business.phone && <a class="button call" href={`tel:${business.phone}`}>Call {business.phone}</a>}
+          {mapUrl && <a class="button secondary" href={mapUrl} target="_blank" rel="noopener noreferrer">Get directions</a>}
+        </div>
+      </div>
+
+      {image && (
+        <div class="image-wrap">
+          <img src={image} alt={`${business.business_name} business image`} />
+        </div>
+      )}
+    </header>
+
+    <div class="detail-grid">
+      <section class="main-card">
+        <h2>About {business.business_name}</h2>
+        <p class="description">{description}</p>
+
+        {(categories.length > 0 || tags.length > 0) && (
+          <div class="tag-list" aria-label="Business categories">
+            {categories.map((category) => <span>{category}</span>)}
+            {tags.map((tag) => <span>{tag}</span>)}
+          </div>
+        )}
+
+        {hoursEntries.length > 0 && (
+          <section class="hours-section">
+            <h2>Hours</h2>
+            <dl class="hours-list">
+              {hoursEntries.map(([day, hours]) => (
+                <>
+                  <dt>{day.charAt(0).toUpperCase() + day.slice(1)}</dt>
+                  <dd>{hours}</dd>
+                </>
+              ))}
+            </dl>
+            {business.hours_note && <p class="note">{business.hours_note}</p>}
+          </section>
+        )}
+
+        <div class="share-block">
+          <h2>Share this business</h2>
+          <p>This listing has a permanent link you can send directly to friends, customers, or visitors.</p>
+          <button id="copy-business-link" type="button">Copy business link</button>
+          <span id="copy-status" aria-live="polite"></span>
+        </div>
+      </section>
+
+      <aside class="facts-card">
+        <h2>Business details</h2>
+        <dl>
+          {location && <><dt>Location</dt><dd>{location}</dd></>}
+          {business.phone && <><dt>Phone</dt><dd><a href={`tel:${business.phone}`}>{business.phone}</a></dd></>}
+          {business.email && <><dt>Email</dt><dd><a href={`mailto:${business.email}`}>{business.email}</a></dd></>}
+          {business.owner && <><dt>Owner</dt><dd>{business.owner}</dd></>}
+          {business.price_range && <><dt>Price range</dt><dd>{business.price_range}</dd></>}
+          {business.event_venue && <><dt>Events</dt><dd>{business.event_venue === true ? "Hosts events" : String(business.event_venue)}</dd></>}
+          {business.opening_date && <><dt>Opening date</dt><dd>{formatDateOnly(business.opening_date)}</dd></>}
+          {business.last_checked && <><dt>Last verified</dt><dd>{formatDateOnly(business.last_checked)}</dd></>}
+          {business.last_verified && <><dt>Last verified</dt><dd>{formatDateOnly(business.last_verified)}</dd></>}
+        </dl>
+
+        {socialLinks.length > 0 && (
+          <div class="links-block">
+            <h2>Official links</h2>
+            <ul>
+              {socialLinks.map(([label, url]) => (
+                <li><a href={url} target="_blank" rel="noopener noreferrer">{label}</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </aside>
+    </div>
+
+    <footer class="business-footer">
+      <a href="/directory/">← Browse all Texoma businesses</a>
+      <a href="/submit/">Submit an event</a>
+    </footer>
+  </article>
+
+  <script>
+    const copyButton = document.querySelector("#copy-business-link");
+    const copyStatus = document.querySelector("#copy-status");
+    copyButton?.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        if (copyStatus) copyStatus.textContent = "Link copied.";
+      } catch {
+        if (copyStatus) copyStatus.textContent = "Select the address bar to copy this page link.";
+      }
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  .business-detail { padding-block: 2rem 5rem; }
+  .breadcrumb { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: 1.5rem; color: #526470; }
+  .breadcrumb a { color: #176f95; font-weight: 800; }
+  .business-hero { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(280px, .8fr); gap: 2rem; align-items: start; }
+  .hero-copy { padding-block: 1rem; }
+  .status-row { display: flex; flex-wrap: wrap; gap: .55rem; margin-bottom: 1rem; }
+  .status,.featured { display: inline-flex; padding: .4rem .7rem; border-radius: 999px; font-size: .9rem; font-weight: 900; }
+  .status { background: #e8f4f8; color: #176f95; text-transform: capitalize; }
+  .status-temporarily_closed { background: #fff3cd; color: #755500; }
+  .status-upcoming { background: #e8f5ec; color: #236b45; }
+  .featured { background: #103a58; color: white; }
+  h1 { margin: 0 0 1rem; color: #103a58; font-size: clamp(2.35rem, 7vw, 4.8rem); line-height: 1.02; }
+  h2 { color: #103a58; }
+  .category-line { margin: 0 0 .65rem; color: #176f95; font-size: 1.12rem; font-weight: 850; }
+  .location { margin: 0 0 1.35rem; color: #293943; font-size: 1.08rem; font-weight: 700; }
+  .primary-actions { display: flex; flex-wrap: wrap; gap: .7rem; }
+  .button { display: inline-flex; align-items: center; min-height: 48px; padding: .75rem 1rem; border-radius: .7rem; font-weight: 900; text-decoration: none; }
+  .official { background: #176f95; color: white; }
+  .call { background: #236b45; color: white; }
+  .secondary { border: 1px solid #176f95; color: #176f95; background: white; }
+  .image-wrap { overflow: hidden; border: 1px solid #d7e0e4; border-radius: 1rem; background: #fffdf8; box-shadow: 0 14px 34px rgba(16,58,88,.1); }
+  .image-wrap img { display: block; width: 100%; max-height: 560px; object-fit: contain; background: #eef4f6; }
+  .detail-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(280px, .7fr); gap: 1.25rem; margin-top: 2rem; align-items: start; }
+  .main-card,.facts-card { padding: 1.5rem; border: 1px solid #d7e0e4; border-radius: 1rem; background: #fffdf8; box-shadow: 0 10px 26px rgba(16,58,88,.06); }
+  .main-card h2,.facts-card h2 { margin-top: 0; }
+  .description { font-size: 1.08rem; line-height: 1.7; white-space: pre-line; }
+  .tag-list { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.25rem; }
+  .tag-list span { padding: .4rem .65rem; border-radius: 999px; background: #e8f4f8; color: #176f95; font-size: .9rem; font-weight: 800; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: .6rem .8rem; margin: 0; }
+  dt { color: #103a58; font-weight: 900; }
+  dd { margin: 0; overflow-wrap: anywhere; }
+  dd a,.links-block a { color: #176f95; font-weight: 800; }
+  .hours-section,.share-block,.links-block { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #d7e0e4; }
+  .hours-list { max-width: 520px; }
+  .note { color: #526470; font-style: italic; }
+  .links-block ul { margin: 0; padding-left: 1.2rem; }
+  .share-block button { min-height: 44px; padding: .65rem .9rem; border: 0; border-radius: .65rem; background: #103a58; color: white; font: inherit; font-weight: 900; cursor: pointer; }
+  #copy-status { margin-left: .7rem; color: #236b45; font-weight: 800; }
+  .business-footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; margin-top: 1.5rem; }
+  .business-footer a { color: #176f95; font-weight: 900; }
+  @media (max-width: 800px) {
+    .business-hero,.detail-grid { grid-template-columns: 1fr; }
+    .hero-copy { padding-block: 0; }
+    h1 { font-size: clamp(2.25rem, 12vw, 3.6rem); }
+  }
+  @media (max-width: 520px) {
+    dl { grid-template-columns: 1fr; gap: .2rem; }
+    dd { margin-bottom: .75rem; }
+    .primary-actions .button { width: 100%; justify-content: center; }
+  }
+</style>
