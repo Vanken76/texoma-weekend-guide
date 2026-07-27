@@ -14670,7 +14670,8 @@
       "email": "Admin@LocustCVFD.org",
       "website": "https://locustcvfd.org",
       "facebook": null,
-      "hours": "Emergency response available 24/7. Administrative hours vary.",
+      "hours": {},
+      "hours_note": "Emergency response is available 24/7. Administrative hours vary.",
       "services": [
         "Fire Suppression",
         "Emergency Medical First Response",
