@@ -5,8 +5,8 @@
   "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 453,
-  "publish_ready_count": 117,
+  "business_count": 454,
+  "publish_ready_count": 118,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -15572,6 +15572,71 @@
       "admission_note": "Many community events are open to the public, but individual admission, age, membership and guest requirements may vary. Confirm details with the Post before attending.",
       "verification_note": "Address, phone number, email, website, Facebook page, operating hours, mission, Lake Texoma location and recurring event activity were verified through official VFW Post 7873 sources and the Pottsboro Area Chamber of Commerce. Monitor official pages for newly announced events, schedule changes, weather closures and updated hours.",
       "last_checked": "2026-07-27"
+    },
+    {
+      "slug": "the-salty-heifer-cafe",
+      "business_name": "The Salty Heifer Cafe",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "2418 W Morton St, Denison, TX 75020",
+      "category": [
+        "Cafe",
+        "Breakfast Restaurant",
+        "Lunch Restaurant",
+        "American Restaurant",
+        "Burger Restaurant"
+      ],
+      "tags": [
+        "breakfast",
+        "lunch",
+        "burgers",
+        "comfort food",
+        "homemade food",
+        "stuffed jalapeños",
+        "locally owned",
+        "family dining",
+        "Denison"
+      ],
+      "description": "A locally owned Denison breakfast-and-lunch cafe serving hearty comfort food, six-ounce hand-pattied burgers, homemade stuffed jalapeños, and its signature Breakfast Bomb made with sausage, egg, cheese, tater tots, and diced jalapeño.",
+      "phone": "903-421-2032",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/RedRiverCafe13",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "6:00 AM–2:00 PM",
+        "wednesday": "6:00 AM–2:00 PM",
+        "thursday": "6:00 AM–2:00 PM",
+        "friday": "6:00 AM–2:00 PM",
+        "saturday": "6:00 AM–2:00 PM",
+        "sunday": "7:00 AM–2:00 PM"
+      },
+      "hours_note": "Hours were listed on the official Facebook page and should be checked before visiting on holidays or special occasions.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "event_types": [
+        "Anniversary celebrations",
+        "Food specials",
+        "Seasonal menu announcements",
+        "Community promotions"
+      ],
+      "event_sources": [
+        "Facebook posts"
+      ],
+      "parent_business": [],
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_events": [],
+      "verification_note": "Business information, phone number, address, hours, specialties, and Facebook page were verified from the official Facebook page.",
+      "last_checked": "2026-07-27",
+      "last_verified": "2026-07-27"
     }
   ]
 }
