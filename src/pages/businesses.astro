@@ -35,11 +35,7 @@ const locations = [...new Set(
     <section class="controls" aria-label="Directory filters">
       <label>
         <span>Search</span>
-        <input
-          id="business-search"
-          type="search"
-          placeholder="Business, category, city, service..."
-        />
+        <input id="business-search" type="search" placeholder="Business, category, city, service..." />
       </label>
 
       <label>
@@ -73,9 +69,7 @@ const locations = [...new Set(
       <button id="clear-filters" type="button">Clear filters</button>
     </section>
 
-    <p id="result-count" class="result-count">
-      Showing {businesses.length} businesses
-    </p>
+    <p id="result-count" class="result-count">Showing {businesses.length} businesses</p>
 
     <section id="business-grid" class="business-grid">
       {businesses.map((business) => (
@@ -91,20 +85,15 @@ const locations = [...new Set(
             ...(business.category ?? [])
           ].filter(Boolean).join(" ").toLowerCase()}
         >
-          <h2>{business.business_name}</h2>
+          <h2><a class="business-name-link" href={`/businesses/${business.slug}/`}>{business.business_name}</a></h2>
 
           <p class="location">{business.service_area_or_location}</p>
-
           <p>{business.description}</p>
-
-          <p class="categories">
-            {business.category?.join(" · ")}
-          </p>
+          <p class="categories">{business.category?.join(" · ")}</p>
 
           {business.hours && Object.keys(business.hours).length > 0 && (
             <div class="business-hours">
               <h3>Hours</h3>
-
               <dl>
                 {Object.entries(business.hours).map(([day, hours]) => (
                   <>
@@ -116,42 +105,28 @@ const locations = [...new Set(
             </div>
           )}
 
-          {business.hours_note && (
-            <p class="notice">{business.hours_note}</p>
-          )}
+          {business.hours_note && <p class="notice">{business.hours_note}</p>}
 
           <div class="links">
+            <a class="details-link" href={`/businesses/${business.slug}/`}>View business details</a>
             {business.website && (
-              <a href={business.website} target="_blank" rel="noopener noreferrer">
-                Website
-              </a>
+              <a href={business.website} target="_blank" rel="noopener noreferrer">Website</a>
             )}
-
             {business.facebook && (
-              <a href={business.facebook} target="_blank" rel="noopener noreferrer">
-                Facebook
-              </a>
+              <a href={business.facebook} target="_blank" rel="noopener noreferrer">Facebook</a>
             )}
-
             {business.instagram && (
-              <a href={business.instagram} target="_blank" rel="noopener noreferrer">
-                Instagram
-              </a>
+              <a href={business.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
             )}
-
             {business.phone && typeof business.phone === "string" && (
-              <a href={`tel:${business.phone.replace(/[^\d+]/g, "")}`}>
-                {business.phone}
-              </a>
+              <a href={`tel:${business.phone.replace(/[^\d+]/g, "")}`}>{business.phone}</a>
             )}
           </div>
         </article>
       ))}
     </section>
 
-    <p id="no-results" class="no-results" hidden>
-      No businesses match those filters.
-    </p>
+    <p id="no-results" class="no-results" hidden>No businesses match those filters.</p>
   </main>
 
   <script>
@@ -163,7 +138,6 @@ const locations = [...new Set(
     const grid = document.querySelector("#business-grid");
     const resultCount = document.querySelector("#result-count");
     const noResults = document.querySelector("#no-results");
-
     const cards = Array.from(document.querySelectorAll(".business-card"));
 
     function updateDirectory() {
@@ -173,22 +147,10 @@ const locations = [...new Set(
       const sortValue = sortFilter.value;
 
       const visibleCards = cards.filter((card) => {
-        const matchesSearch =
-          !searchValue || card.dataset.search.includes(searchValue);
-
-        const matchesCategory =
-          !categoryValue ||
-          card.dataset.categories.split("|").includes(categoryValue);
-
-        const matchesLocation =
-          !locationValue ||
-          card.dataset.location === locationValue;
-
-        const visible =
-          matchesSearch &&
-          matchesCategory &&
-          matchesLocation;
-
+        const matchesSearch = !searchValue || card.dataset.search.includes(searchValue);
+        const matchesCategory = !categoryValue || card.dataset.categories.split("|").includes(categoryValue);
+        const matchesLocation = !locationValue || card.dataset.location === locationValue;
+        const visible = matchesSearch && matchesCategory && matchesLocation;
         card.hidden = !visible;
         return visible;
       });
@@ -196,17 +158,11 @@ const locations = [...new Set(
       visibleCards.sort((a, b) => {
         const nameA = a.dataset.name;
         const nameB = b.dataset.name;
-
-        return sortValue === "za"
-          ? nameB.localeCompare(nameA)
-          : nameA.localeCompare(nameB);
+        return sortValue === "za" ? nameB.localeCompare(nameA) : nameA.localeCompare(nameB);
       });
 
       visibleCards.forEach((card) => grid.appendChild(card));
-
-      resultCount.textContent =
-        `Showing ${visibleCards.length} ${visibleCards.length === 1 ? "business" : "businesses"}`;
-
+      resultCount.textContent = `Showing ${visibleCards.length} ${visibleCards.length === 1 ? "business" : "businesses"}`;
       noResults.hidden = visibleCards.length !== 0;
     }
 
@@ -227,154 +183,33 @@ const locations = [...new Set(
 </BaseLayout>
 
 <style>
-  .directory {
-    width: min(1200px, calc(100% - 2rem));
-    margin: 0 auto;
-    padding: 3rem 0 5rem;
-  }
-
-  .directory-header {
-    max-width: 820px;
-    margin-bottom: 2rem;
-  }
-
-  h1 {
-    margin: 0.25rem 0 1rem;
-  }
-
-  .eyebrow {
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-  }
-
-  .controls {
-    display: grid;
-    grid-template-columns: minmax(240px, 2fr) repeat(3, minmax(180px, 1fr)) auto;
-    gap: 1rem;
-    align-items: end;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border: 1px solid rgba(128, 128, 128, 0.35);
-    border-radius: 12px;
-  }
-
-  .controls label {
-    display: grid;
-    gap: 0.35rem;
-    font-weight: 700;
-  }
-
-  .controls input,
-  .controls select,
-  .controls button {
-    width: 100%;
-    min-height: 44px;
-    padding: 0.7rem 0.8rem;
-    border: 1px solid rgba(128, 128, 128, 0.5);
-    border-radius: 8px;
-    font: inherit;
-    background: inherit;
-    color: inherit;
-  }
-
-  .controls button {
-    cursor: pointer;
-    font-weight: 700;
-  }
-
-  .result-count {
-    margin: 0 0 1.25rem;
-    font-weight: 700;
-  }
-
-  .business-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-    gap: 1.25rem;
-  }
-
-  .business-card {
-    border: 1px solid rgba(128, 128, 128, 0.35);
-    border-radius: 12px;
-    padding: 1.5rem;
-  }
-
-  .business-card[hidden] {
-    display: none;
-  }
-
-  .business-card h2 {
-    margin-top: 0;
-  }
-
-  .location,
-  .categories {
-    font-weight: 600;
-  }
-
-  .business-hours {
-    margin-top: 1rem;
-    padding-top: 0.85rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.14);
-  }
-
-  .business-hours h3 {
-    margin: 0 0 0.55rem;
-    font-size: 1rem;
-  }
-
-  .business-hours dl {
-    display: grid;
-    grid-template-columns: minmax(90px, auto) 1fr;
-    gap: 0.3rem 0.8rem;
-    margin: 0;
-  }
-
-  .business-hours dt {
-    font-weight: 700;
-  }
-
-  .business-hours dd {
-    margin: 0;
-  }
-
-  .notice {
-    margin-top: 0.8rem;
-    font-style: italic;
-  }
-
-  .links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-    margin-top: 1rem;
-  }
-
-  .links a {
-    font-weight: 700;
-  }
-
-  .no-results {
-    padding: 2rem 0;
-    font-weight: 700;
-  }
-
-  @media (max-width: 1000px) {
-    .controls {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-
-  @media (max-width: 650px) {
-    .controls {
-      grid-template-columns: 1fr;
-    }
-
-    .business-grid {
-      grid-template-columns: 1fr;
-    }
-  }
+  .directory { width: min(1200px, calc(100% - 2rem)); margin: 0 auto; padding: 3rem 0 5rem; }
+  .directory-header { max-width: 820px; margin-bottom: 2rem; }
+  h1 { margin: 0.25rem 0 1rem; }
+  .eyebrow { font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
+  .controls { display: grid; grid-template-columns: minmax(240px, 2fr) repeat(3, minmax(180px, 1fr)) auto; gap: 1rem; align-items: end; margin-bottom: 1rem; padding: 1rem; border: 1px solid rgba(128, 128, 128, 0.35); border-radius: 12px; }
+  .controls label { display: grid; gap: 0.35rem; font-weight: 700; }
+  .controls input,.controls select,.controls button { width: 100%; min-height: 44px; padding: 0.7rem 0.8rem; border: 1px solid rgba(128, 128, 128, 0.5); border-radius: 8px; font: inherit; background: inherit; color: inherit; }
+  .controls button { cursor: pointer; font-weight: 700; }
+  .result-count { margin: 0 0 1.25rem; font-weight: 700; }
+  .business-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 1.25rem; }
+  .business-card { border: 1px solid rgba(128, 128, 128, 0.35); border-radius: 12px; padding: 1.5rem; }
+  .business-card[hidden] { display: none; }
+  .business-card h2 { margin-top: 0; }
+  .business-name-link { color: #103a58; text-decoration: none; }
+  .business-name-link:hover { color: #176f95; text-decoration: underline; }
+  .location,.categories { font-weight: 600; }
+  .business-hours { margin-top: 1rem; padding-top: 0.85rem; border-top: 1px solid rgba(255, 255, 255, 0.14); }
+  .business-hours h3 { margin: 0 0 0.55rem; font-size: 1rem; }
+  .business-hours dl { display: grid; grid-template-columns: minmax(90px, auto) 1fr; gap: 0.3rem 0.8rem; margin: 0; }
+  .business-hours dt { font-weight: 700; }
+  .business-hours dd { margin: 0; }
+  .notice { margin-top: 0.8rem; font-style: italic; }
+  .links { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; }
+  .links a { font-weight: 700; }
+  .details-link { padding: .45rem .7rem; border-radius: .55rem; background: #176f95; color: white; text-decoration: none; }
+  .details-link:hover { background: #103a58; color: white; }
+  .no-results { padding: 2rem 0; font-weight: 700; }
+  @media (max-width: 1000px) { .controls { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 650px) { .controls { grid-template-columns: 1fr; } .business-grid { grid-template-columns: 1fr; } }
 </style>
-
-
