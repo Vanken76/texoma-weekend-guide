@@ -5,8 +5,8 @@
   "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 442,
-  "publish_ready_count": 107,
+  "business_count": 443,
+  "publish_ready_count": 108,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -14773,6 +14773,75 @@
         "Group-friendly",
         "Wheelchair-accessible entrance",
         "Free street parking"
+      ]
+    },
+    {
+      "slug": "the-venue-on-main-denison",
+      "business_name": "The Venue on Main",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "519 W Main St, Suite 102, Denison, TX 75020",
+      "category": [
+        "Event Venue",
+        "Wedding Venue",
+        "Banquet Hall",
+        "Meeting Venue",
+        "Party Venue",
+        "Community Event Venue"
+      ],
+      "description": "The Venue on Main is a historic event venue located in Downtown Denison. The approximately 2,400-square-foot ballroom accommodates weddings, receptions, rehearsal dinners, showers, birthday parties, anniversaries, reunions, business meetings, fundraisers, holiday parties, dances, luncheons, community gatherings, and other private or public events. The venue offers an intimate downtown setting with space for approximately 90 guests.",
+      "phone": "903-624-1960",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/thevenueonmaindenison",
+      "instagram": null,
+      "hours": {},
+      "hours_note": "The venue operates primarily by reservation and scheduled event. Contact the business directly or check its official Facebook page for availability, tours, and upcoming events.",
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Complete. The permanent Facebook URL was verified directly from the business page. No official Instagram account was identified. Monitor Facebook and local Downtown Denison event listings for public markets, dances, fundraisers, community gatherings, expos, and other publicly accessible events held at the venue.",
+      "last_checked": "2026-07-26",
+      "event_types": [
+        "Weddings",
+        "Wedding receptions",
+        "Rehearsal dinners",
+        "Bridal showers",
+        "Baby showers",
+        "Engagement parties",
+        "Birthday parties",
+        "Anniversary celebrations",
+        "Reunions",
+        "Business meetings",
+        "Corporate events",
+        "Community meetings",
+        "Fundraisers",
+        "Holiday parties",
+        "Dances",
+        "Luncheons",
+        "Markets",
+        "Private celebrations",
+        "Special events"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Discover Denison",
+        "Downtown Denison event listings",
+        "Event organizer announcements"
+      ],
+      "features": [
+        "Historic Downtown Denison location",
+        "Approximately 2,400 square feet",
+        "Capacity of approximately 90 guests",
+        "Ballroom-style event space",
+        "Wedding and reception venue",
+        "Business meeting space",
+        "Private party venue",
+        "Community gathering space",
+        "Wheelchair accessible",
+        "Women-owned business",
+        "Established event venue"
       ]
     }
   ]
