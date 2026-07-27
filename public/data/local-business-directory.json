@@ -5,7 +5,7 @@
   "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 449,
+  "business_count": 450,
   "publish_ready_count": 114,
   "businesses": [
     {
@@ -15255,6 +15255,67 @@
       ],
       "verification_note": "Address, phone number, reservation email, official City of Bonham facility page, Facebook page, ownership, and event uses were verified from the official Facebook page and City of Bonham information. Regular public hours were not listed because the complex operates primarily around scheduled events and rentals.",
       "last_checked": "2026-07-27"
+    },
+    {
+      "id": "among-the-pages",
+      "business_name": "Among the Pages",
+      "slug": "among-the-pages",
+      "status": "temporarily_closed",
+      "featured": false,
+      "verified": true,
+      "categories": [
+        "Bookstore",
+        "Independent Bookstore",
+        "Shopping",
+        "Local Business"
+      ],
+      "tags": [
+        "Books",
+        "Romance",
+        "Fiction",
+        "Book Club",
+        "Craft Classes",
+        "Author Events",
+        "Downtown Durant",
+        "Durant OK",
+        "Texoma"
+      ],
+      "description": "Independent bookstore specializing in romance and fiction. Among the Pages offers carefully curated books, special orders, book clubs, craft classes, author events, and community gatherings. Originally launched as a pop-up bookstore before expanding into a permanent storefront in Downtown Durant.",
+      "short_description": "Independent romance and fiction bookstore opening soon in Downtown Durant.",
+      "street_address": "400 W. Main St.",
+      "city": "Durant",
+      "state": "OK",
+      "zip_code": "74701",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": null,
+      "email": null,
+      "website": "https://bookshop.org/shop/amongthepagesbooks",
+      "facebook": "https://www.facebook.com/profile.php?id=61578239519543",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "owner": "Schyler Adams",
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "Closed",
+        "thursday": "Closed",
+        "friday": "Closed",
+        "saturday": "10:00 AM - 4:00 PM",
+        "sunday": "Closed"
+      },
+      "opening_date": "2026-08-15",
+      "temporary_closure": true,
+      "price_range": null,
+      "wheelchair_accessible": null,
+      "pet_friendly": null,
+      "kid_friendly": true,
+      "image": null,
+      "logo": null,
+      "notes": "Permanent bookstore opening scheduled for August 15, 2026. Current Facebook page indicates the business is temporarily closed while preparing for the storefront opening. Hosts book clubs, craft classes, and community events, including activities at The George Tavern Party Room in Denison.",
+      "last_verified": "2026-07-27"
     }
   ]
 }
