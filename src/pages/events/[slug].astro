@@ -1,0 +1,258 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import directory from "../../../public/data/local-event-directory.json";
+
+export function getStaticPaths() {
+  return (directory.events ?? [])
+    .filter((event) => event.publish_ready === true && event.event_slug)
+    .map((event) => ({
+      params: { slug: event.event_slug },
+      props: { event }
+    }));
+}
+
+const { event } = Astro.props;
+
+const formatDate = (value) => value
+  ? new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/Chicago",
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+      year: "numeric"
+    }).format(new Date(value))
+  : null;
+
+const formatTime = (value) => value
+  ? new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/Chicago",
+      hour: "numeric",
+      minute: "2-digit"
+    }).format(new Date(value))
+  : null;
+
+const formatDateOnly = (value) => value
+  ? new Intl.DateTimeFormat("en-US", {
+      timeZone: "UTC",
+      month: "long",
+      day: "numeric",
+      year: "numeric"
+    }).format(new Date(`${value}T12:00:00Z`))
+  : null;
+
+const parseRule = (rule = "") => Object.fromEntries(
+  rule.split(";")
+    .map((part) => part.split("="))
+    .filter(([key, value]) => key && value)
+);
+
+const dayNames = {
+  SU: "Sunday",
+  MO: "Monday",
+  TU: "Tuesday",
+  WE: "Wednesday",
+  TH: "Thursday",
+  FR: "Friday",
+  SA: "Saturday"
+};
+
+const recurrenceSummary = (() => {
+  if (!event.recurring) return null;
+  const rule = parseRule(event.recurrence_rule);
+  const days = (rule.BYDAY || "")
+    .split(",")
+    .map((day) => day.trim())
+    .filter((day) => dayNames[day])
+    .map((day) => dayNames[day]);
+
+  let frequency = "Recurring event";
+  if (rule.FREQ === "WEEKLY" && days.length) {
+    frequency = days.length === 1
+      ? `Every ${days[0]}`
+      : `Every ${days.slice(0, -1).join(", ")} and ${days.at(-1)}`;
+  } else if (rule.FREQ === "DAILY") {
+    frequency = "Every day";
+  } else if (rule.FREQ === "MONTHLY") {
+    frequency = "Every month";
+  }
+
+  const start = event.recurrence_start_date || event.start_datetime?.slice(0, 10);
+  const until = event.recurrence_end_date || (/^\d{8}/.test(rule.UNTIL || "")
+    ? `${rule.UNTIL.slice(0, 4)}-${rule.UNTIL.slice(4, 6)}-${rule.UNTIL.slice(6, 8)}`
+    : null);
+
+  const range = start && until
+    ? `${formatDateOnly(start)} – ${formatDateOnly(until)}`
+    : start
+      ? `Beginning ${formatDateOnly(start)}`
+      : until
+        ? `Through ${formatDateOnly(until)}`
+        : null;
+
+  return { frequency, range };
+})();
+
+const statusLabels = {
+  upcoming: "Upcoming",
+  recurring: "Recurring",
+  postponed: "Postponed",
+  canceled: "Canceled",
+  ended: "Past event"
+};
+
+const statusLabel = statusLabels[event.status] || event.status;
+const location = [event.address, event.city, event.state, event.postal_code].filter(Boolean).join(", ");
+const mapUrl = location ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(location)}` : null;
+const officialUrl = event.facebook_url || event.official_url;
+const title = `${event.event_name} | Texoma Weekend Guide`;
+const description = event.description || `${event.event_name} at ${event.venue_name || "a Texoma venue"}.`;
+---
+
+<BaseLayout title={title} description={description} image={event.image_url || undefined}>
+  <article class="event-detail container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/events/">Events</a><span aria-hidden="true">›</span><span>{event.event_name}</span>
+    </nav>
+
+    <header class="event-hero">
+      <div class="hero-copy">
+        <div class="status-row">
+          <span class:list={["status", `status-${event.status}`]}>{statusLabel}</span>
+          {event.featured && <span class="featured">Featured event</span>}
+        </div>
+        <h1>{event.event_name}</h1>
+        <p class="when">
+          {event.recurring && recurrenceSummary ? (
+            <>
+              <strong>{recurrenceSummary.frequency}</strong>
+              {recurrenceSummary.range && <span>{recurrenceSummary.range}</span>}
+              {event.start_datetime && <span>{formatTime(event.start_datetime)}{event.end_datetime ? `–${formatTime(event.end_datetime)}` : ""}</span>}
+            </>
+          ) : (
+            <>
+              <strong>{formatDate(event.start_datetime)}</strong>
+              {event.start_datetime && <span>{formatTime(event.start_datetime)}{event.end_datetime ? `–${formatTime(event.end_datetime)}` : ""}</span>}
+            </>
+          )}
+        </p>
+        {event.venue_name && <p class="venue">{event.venue_name}{event.city ? ` · ${event.city}, ${event.state}` : ""}</p>}
+
+        <div class="primary-actions">
+          {event.ticket_url && <a class="button ticket" href={event.ticket_url} target="_blank" rel="noopener noreferrer">Buy tickets</a>}
+          {officialUrl && <a class="button official" href={officialUrl} target="_blank" rel="noopener noreferrer">Official event information</a>}
+          {mapUrl && <a class="button secondary" href={mapUrl} target="_blank" rel="noopener noreferrer">Get directions</a>}
+        </div>
+      </div>
+
+      {event.image_url && (
+        <a class="flyer-wrap" href={event.image_url} target="_blank" rel="noreferrer" aria-label={`View full flyer for ${event.event_name}`}>
+          <img src={event.image_url} alt={event.image_alt || `${event.event_name} flyer`} />
+          <span>View full flyer</span>
+        </a>
+      )}
+    </header>
+
+    <div class="detail-grid">
+      <section class="main-card">
+        <h2>About this event</h2>
+        {event.description && <p class="description">{event.description}</p>}
+
+        {(event.categories?.length || event.tags?.length) && (
+          <div class="tag-list" aria-label="Event categories">
+            {(event.categories ?? []).map((category) => <span>{category}</span>)}
+          </div>
+        )}
+
+        <div class="share-block">
+          <h2>Share this event</h2>
+          <p>This page has a permanent link you can send directly to friends, customers, or followers.</p>
+          <button id="copy-event-link" type="button">Copy event link</button>
+          <span id="copy-status" aria-live="polite"></span>
+        </div>
+      </section>
+
+      <aside class="facts-card">
+        <h2>Event details</h2>
+        <dl>
+          {event.cost_details && <><dt>Admission</dt><dd>{event.cost_details}</dd></>}
+          {event.age_restriction && <><dt>Age</dt><dd>{event.age_restriction}</dd></>}
+          {event.audience?.length > 0 && <><dt>Audience</dt><dd>{event.audience.join(", ")}</dd></>}
+          {event.organizer_name && <><dt>Organizer</dt><dd>{event.organizer_name}</dd></>}
+          {event.venue_name && <><dt>Venue</dt><dd>{event.venue_name}</dd></>}
+          {location && <><dt>Location</dt><dd>{location}</dd></>}
+          {event.last_checked && <><dt>Last verified</dt><dd>{formatDateOnly(event.last_checked)}</dd></>}
+        </dl>
+      </aside>
+    </div>
+
+    <footer class="event-footer">
+      <a href="/events/">← Browse all Texoma events</a>
+      <a href="/submit/">Submit an event</a>
+    </footer>
+  </article>
+
+  <script>
+    const copyButton = document.querySelector("#copy-event-link");
+    const copyStatus = document.querySelector("#copy-status");
+    copyButton?.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        if (copyStatus) copyStatus.textContent = "Link copied.";
+      } catch {
+        if (copyStatus) copyStatus.textContent = "Select the address bar to copy this page link.";
+      }
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  .event-detail { padding-block: 2rem 5rem; }
+  .breadcrumb { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: 1.5rem; color: #526470; }
+  .breadcrumb a { color: #176f95; font-weight: 800; }
+  .event-hero { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(280px, .8fr); gap: 2rem; align-items: start; }
+  .hero-copy { padding-block: 1rem; }
+  .status-row { display: flex; flex-wrap: wrap; gap: .55rem; margin-bottom: 1rem; }
+  .status,.featured { display: inline-flex; padding: .4rem .7rem; border-radius: 999px; font-size: .9rem; font-weight: 900; }
+  .status { background: #e8f4f8; color: #176f95; }
+  .status-recurring { background: #e8f5ec; color: #236b45; }
+  .status-postponed { background: #fff3cd; color: #755500; }
+  .status-canceled { background: #fde8e8; color: #9b1c1c; }
+  .status-ended { background: #edf0f2; color: #526470; }
+  .featured { background: #103a58; color: white; }
+  h1 { margin: 0 0 1rem; color: #103a58; font-size: clamp(2.35rem, 7vw, 4.8rem); line-height: 1.02; }
+  h2 { color: #103a58; }
+  .when { display: flex; flex-direction: column; gap: .25rem; margin: 0 0 1rem; color: #176f95; font-size: 1.15rem; }
+  .venue { margin-bottom: 1.35rem; color: #293943; font-size: 1.15rem; font-weight: 850; }
+  .primary-actions { display: flex; flex-wrap: wrap; gap: .7rem; }
+  .button { display: inline-flex; align-items: center; min-height: 48px; padding: .75rem 1rem; border-radius: .7rem; font-weight: 900; text-decoration: none; }
+  .ticket { background: #236b45; color: white; }
+  .official { background: #176f95; color: white; }
+  .secondary { border: 1px solid #176f95; color: #176f95; background: white; }
+  .flyer-wrap { overflow: hidden; display: block; border: 1px solid #d7e0e4; border-radius: 1rem; background: #fffdf8; box-shadow: 0 14px 34px rgba(16,58,88,.1); text-align: center; text-decoration: none; }
+  .flyer-wrap img { display: block; width: 100%; max-height: 680px; object-fit: contain; background: #eef4f6; }
+  .flyer-wrap span { display: block; padding: .8rem; color: #176f95; font-weight: 900; }
+  .detail-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(280px, .7fr); gap: 1.25rem; margin-top: 2rem; align-items: start; }
+  .main-card,.facts-card { padding: 1.5rem; border: 1px solid #d7e0e4; border-radius: 1rem; background: #fffdf8; box-shadow: 0 10px 26px rgba(16,58,88,.06); }
+  .main-card h2,.facts-card h2 { margin-top: 0; }
+  .description { font-size: 1.08rem; line-height: 1.7; white-space: pre-line; }
+  .tag-list { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.25rem; }
+  .tag-list span { padding: .4rem .65rem; border-radius: 999px; background: #e8f4f8; color: #176f95; font-size: .9rem; font-weight: 800; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: .6rem .8rem; margin: 0; }
+  dt { color: #103a58; font-weight: 900; }
+  dd { margin: 0; overflow-wrap: anywhere; }
+  .share-block { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #d7e0e4; }
+  .share-block button { min-height: 44px; padding: .65rem .9rem; border: 0; border-radius: .65rem; background: #103a58; color: white; font: inherit; font-weight: 900; cursor: pointer; }
+  #copy-status { margin-left: .7rem; color: #236b45; font-weight: 800; }
+  .event-footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; margin-top: 1.5rem; }
+  .event-footer a { color: #176f95; font-weight: 900; }
+  @media (max-width: 800px) {
+    .event-hero,.detail-grid { grid-template-columns: 1fr; }
+    .flyer-wrap { order: -1; }
+  }
+  @media (max-width: 520px) {
+    .event-detail { padding-top: 1rem; }
+    dl { grid-template-columns: 1fr; gap: .15rem; }
+    dd { margin-bottom: .65rem; }
+    .primary-actions .button { width: 100%; justify-content: center; }
+  }
+</style>
