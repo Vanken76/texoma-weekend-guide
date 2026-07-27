@@ -15597,6 +15597,7 @@
         "stuffed jalapeños",
         "locally owned",
         "family dining",
+        "branded merchandise",
         "Denison"
       ],
       "description": "A locally owned Denison breakfast-and-lunch cafe serving hearty comfort food, six-ounce hand-pattied burgers, homemade stuffed jalapeños, and its signature Breakfast Bomb made with sausage, egg, cheese, tater tots, and diced jalapeño.",
@@ -15617,6 +15618,7 @@
         "sunday": "7:00 AM–2:00 PM"
       },
       "hours_note": "Hours were listed on the official Facebook page and should be checked before visiting on holidays or special occasions.",
+      "merchandise_note": "The cafe has begun featuring branded merchandise, including sweatshirts. In-store availability appears likely; online ordering has not been confirmed.",
       "event_venue": false,
       "recurring_events": false,
       "mine_for_events": true,
@@ -15625,6 +15627,7 @@
         "Anniversary celebrations",
         "Food specials",
         "Seasonal menu announcements",
+        "Merchandise announcements",
         "Community promotions"
       ],
       "event_sources": [
@@ -15634,7 +15637,7 @@
       "child_businesses": [],
       "related_businesses": [],
       "related_events": [],
-      "verification_note": "Business information, phone number, address, hours, specialties, and Facebook page were verified from the official Facebook page.",
+      "verification_note": "Business information, phone number, address, hours, specialties, merchandise activity, and Facebook page were verified from the official Facebook page. Online merchandise ordering has not been confirmed.",
       "last_checked": "2026-07-27",
       "last_verified": "2026-07-27"
     }
