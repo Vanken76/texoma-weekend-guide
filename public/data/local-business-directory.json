@@ -5,8 +5,8 @@
   "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 455,
-  "publish_ready_count": 119,
+  "business_count": 456,
+  "publish_ready_count": 120,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -15693,6 +15693,100 @@
         "Southern desserts",
         "Savory baked goods"
       ]
+    },
+    {
+      "business_name": "MasterKey Ministries of Grayson County, Inc.",
+      "slug": "masterkey-ministries-of-grayson-county",
+      "status": "active",
+      "active": true,
+      "publish_ready": true,
+      "featured": false,
+      "primary_category": "Nonprofit Organization",
+      "categories": [
+        "Nonprofit Organization",
+        "Community Organization",
+        "Food Assistance",
+        "Family Services",
+        "Faith-Based Organization",
+        "Educational Services",
+        "Volunteer Organization",
+        "Charitable Organization"
+      ],
+      "description": "MasterKey Ministries of Grayson County, Inc. is a nonprofit, faith-based organization dedicated to strengthening families by helping them overcome physical, educational, and spiritual obstacles. The organization serves local families through food assistance, educational and empowerment programs, volunteer opportunities, community outreach, and faith-based support. Its programs are designed to meet immediate needs while helping individuals and families build resources for long-term stability and success.",
+      "short_description": "A faith-based Grayson County nonprofit providing food assistance, educational programs, family support, volunteer opportunities, and community outreach.",
+      "services": [
+        "Food assistance",
+        "Food distribution",
+        "Family support",
+        "MasterKey Academy educational programs",
+        "Getting Ahead empowerment program",
+        "Community outreach",
+        "Faith-based support",
+        "Volunteer opportunities",
+        "Donation opportunities"
+      ],
+      "programs": [
+        "MasterKey Food Assistance",
+        "MasterKey Academy",
+        "Getting Ahead in a Just-Gettin'-By World",
+        "Family empowerment programs",
+        "Community volunteer programs"
+      ],
+      "address": "209 S Heritage Parkway",
+      "city": "Sherman",
+      "state": "TX",
+      "zip_code": "75092",
+      "country": "United States",
+      "phone": "903-771-2816",
+      "email": "contact@masterkeyministries.org",
+      "website_url": "https://masterkeyministries.org",
+      "facebook_url": "https://www.facebook.com/MasterKeyMinistries",
+      "instagram_url": null,
+      "hours": {
+        "monday": "Program and volunteer hours vary",
+        "tuesday": "Program and volunteer hours vary",
+        "wednesday": "Program and volunteer hours vary",
+        "thursday": "Program and volunteer hours vary",
+        "friday": "Food distribution: 8:00 AM–10:30 AM at Harvest Time Church, 222 S Heritage Parkway",
+        "saturday": "Food distribution: 8:00 AM–10:30 AM at MasterKey Ministries, 209 S Heritage Parkway",
+        "sunday": "Closed"
+      },
+      "hours_note": "Office, program, volunteer, and food-distribution schedules vary. Contact MasterKey Ministries or visit the official website for current information before visiting.",
+      "service_area": [
+        "Sherman",
+        "Grayson County",
+        "North Texas"
+      ],
+      "family_friendly": true,
+      "wheelchair_accessible": null,
+      "veteran_owned": false,
+      "woman_owned": null,
+      "nonprofit": true,
+      "faith_based": true,
+      "tags": [
+        "Nonprofit",
+        "Food Pantry",
+        "Food Assistance",
+        "Family Support",
+        "Community Services",
+        "Volunteer",
+        "Education",
+        "MasterKey Academy",
+        "Getting Ahead",
+        "Faith-Based",
+        "Charity",
+        "Sherman",
+        "Grayson County",
+        "North Texas",
+        "Texoma"
+      ],
+      "seo_title": "MasterKey Ministries of Grayson County | Sherman, Texas",
+      "seo_description": "Learn about MasterKey Ministries of Grayson County, a Sherman nonprofit providing food assistance, educational programs, family support, volunteer opportunities, and community outreach.",
+      "verification_status": "verified",
+      "verification_note": "Contact information, address, mission, programs, food-distribution information, and organization details were verified through the official MasterKey Ministries website and Facebook page.",
+      "last_verified": "2026-07-27",
+      "created_on": "2026-07-27",
+      "updated_on": "2026-07-27"
     }
   ]
 }
