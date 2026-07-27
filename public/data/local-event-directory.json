@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 39,
-  "publish_ready_count": 39,
+  "event_count": 40,
+  "publish_ready_count": 40,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -2142,6 +2142,59 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified through the official WinStar event listing and the direct SeatGeek ticket listing. The event is scheduled for September 18, 2026 at 8:00 PM at Lucas Oil Live. Doors open approximately 90 minutes before showtime. No official ending time was published, so end_datetime remains null.",
+      "last_checked": "2026-07-27",
+      "created_on": "2026-07-27",
+      "updated_on": "2026-07-27"
+    },
+    {
+      "event_slug": "steak-night-vfw-post-7873-2026-07-31",
+      "event_name": "Steak Night at VFW Post 7873",
+      "description": "VFW Post 7873 is hosting Steak Night on Friday, July 31. Each $20 plate includes steak, a baked potato, salad and dessert. Dinner begins at 6:30 PM at the Lake Texoma VFW Post in Pottsboro.",
+      "start_datetime": "2026-07-31T18:30:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slug": "vfw-post-7873",
+      "venue_name": "VFW Post 7873",
+      "address": "250 VFW Drive",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Food & Dining",
+        "Community Events",
+        "Veterans Events"
+      ],
+      "tags": [
+        "Steak Night",
+        "VFW Post 7873",
+        "Pottsboro",
+        "Lake Texoma",
+        "Community Dinner",
+        "Veterans",
+        "Friday Night"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$20 per plate. The meal includes steak, a baked potato, salad and dessert.",
+      "audience": [
+        "Adults",
+        "Veterans",
+        "Military Families",
+        "Community Members"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/steak-night-vfw-post-7873-2026-07-31.jpg",
+      "official_url": "https://vfw7873.org/",
+      "facebook_url": "https://www.facebook.com/VFWPost7873",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the official VFW Post 7873 Facebook flyer. The flyer lists Friday, July 31 at 6:30 PM, with steak, baked potato, salad and dessert for $20 per plate. No ending time or advance ticket link was published.",
       "last_checked": "2026-07-27",
       "created_on": "2026-07-27",
       "updated_on": "2026-07-27"
