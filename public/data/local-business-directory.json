@@ -6,7 +6,7 @@
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
   "business_count": 442,
-  "publish_ready_count": 105,
+  "publish_ready_count": 106,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -14649,6 +14649,7 @@
       "business_name": "Locust Volunteer Fire Department",
       "slug": "locust-volunteer-fire-department",
       "status": "active",
+      "publish_ready": true,
       "featured": false,
       "categories": [
         "Fire Department",
