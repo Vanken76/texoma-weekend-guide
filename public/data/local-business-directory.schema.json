@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://texomaweekendguide.com/data/local-business-directory.schema.json",
+  "title": "Texoma Weekend Guide Local Business Directory",
+  "type": "object",
+  "required": ["businesses"],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "project": {
+      "type": "string"
+    },
+    "document_type": {
+      "type": "string"
+    },
+    "generated_on": {
+      "type": "string"
+    },
+    "source_workbook": {
+      "type": ["string", "null"]
+    },
+    "publication_rule": {
+      "type": "string"
+    },
+    "business_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "publish_ready_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "businesses": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/business"
+      }
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "relationshipReference": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Slug of the related business or event."
+        },
+        {
+          "type": "object",
+          "properties": {
+            "slug": { "type": ["string", "null"] },
+            "name": { "type": ["string", "null"] },
+            "business_name": { "type": ["string", "null"] },
+            "event_name": { "type": ["string", "null"] },
+            "title": { "type": ["string", "null"] },
+            "url": { "type": ["string", "null"] },
+            "note": { "type": ["string", "null"] },
+            "relationship_note": { "type": ["string", "null"] }
+          },
+          "additionalProperties": true
+        }
+      ]
+    },
+    "business": {
+      "type": "object",
+      "required": ["slug", "business_name", "publish_ready"],
+      "properties": {
+        "slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "business_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "directory_status": {
+          "type": ["string", "null"]
+        },
+        "publish_ready": {
+          "type": "boolean"
+        },
+        "featured": {
+          "type": "boolean",
+          "default": false,
+          "description": "Marks a business for ordinary editorial promotion or temporary featuring."
+        },
+        "flagship": {
+          "type": "boolean",
+          "default": false,
+          "description": "Marks a cornerstone Texoma destination or high-value directory anchor for priority placement, navigation, SEO, and future homepage modules. Use sparingly."
+        },
+        "service_area_or_location": {
+          "type": ["string", "null"]
+        },
+        "category": {
+          "oneOf": [
+            { "type": "string" },
+            {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          ]
+        },
+        "categories": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "description": {
+          "type": ["string", "null"]
+        },
+        "phone": {
+          "type": ["string", "null"]
+        },
+        "email": {
+          "type": ["string", "null"]
+        },
+        "website": {
+          "type": ["string", "null"]
+        },
+        "facebook": {
+          "type": ["string", "null"]
+        },
+        "instagram": {
+          "type": ["string", "null"]
+        },
+        "youtube": {
+          "type": ["string", "null"]
+        },
+        "tiktok": {
+          "type": ["string", "null"]
+        },
+        "hours": {
+          "type": ["object", "null"],
+          "additionalProperties": {
+            "type": ["string", "null"]
+          }
+        },
+        "hours_note": {
+          "type": ["string", "null"]
+        },
+        "event_venue": {},
+        "recurring_events": {},
+        "mine_for_events": {
+          "type": "boolean"
+        },
+        "event_mining_priority": {
+          "type": ["string", "null"]
+        },
+        "parent_business": {
+          "oneOf": [
+            { "$ref": "#/$defs/relationshipReference" },
+            {
+              "type": "array",
+              "items": { "$ref": "#/$defs/relationshipReference" }
+            }
+          ]
+        },
+        "child_businesses": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/relationshipReference" }
+        },
+        "related_businesses": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/relationshipReference" }
+        },
+        "related_events": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/relationshipReference" }
+        },
+        "last_checked": {
+          "type": ["string", "null"]
+        },
+        "last_verified": {
+          "type": ["string", "null"]
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}
