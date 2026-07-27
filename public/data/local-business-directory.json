@@ -5,8 +5,8 @@
   "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 452,
-  "publish_ready_count": 116,
+  "business_count": 453,
+  "publish_ready_count": 117,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -15491,6 +15491,86 @@
       "admission_note": "Events are generally open to all ages unless otherwise stated. Children older than 2 require a ticket, and guests under 18 must be accompanied by a parent or legal guardian.",
       "venue_policy_note": "No filming, cameras, smoking, outside food or beverages, or backpacks are permitted inside. Bag-size and inspection requirements apply. Policies can vary or change, so guests should review the official event page before attending.",
       "verification_note": "Venue capacity, club-level seating, location, parking, box-office information, accessibility details and general event policies were verified through official WinStar and Lucas Oil Live pages. Monitor the official entertainment calendar for newly announced performances, postponements, cancellations and policy changes.",
+      "last_checked": "2026-07-27"
+    },
+    {
+      "slug": "vfw-post-7873",
+      "business_name": "VFW Post 7873",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": true,
+      "flagship": false,
+      "service_area_or_location": "250 VFW Drive, Pottsboro, TX 75076",
+      "category": [
+        "Veterans Organization",
+        "Community Organization",
+        "Bar",
+        "Event Venue",
+        "Live Music Venue"
+      ],
+      "description": "VFW Post 7873 is a Veterans of Foreign Wars post, community gathering place and event venue located along the shoreline of Lake Texoma north of Pottsboro. The Post serves veterans, military families and the surrounding community while hosting meals, live entertainment, karaoke, games, fundraisers, holiday gatherings, veteran programs and other public activities. Its mission is to foster camaraderie among veterans of overseas conflicts, serve veterans and their communities, and advocate on behalf of all veterans.",
+      "phone": "903-786-2400",
+      "email": "info@vfw7873.org",
+      "website": "https://vfw7873.org/",
+      "facebook": "https://www.facebook.com/VFWPost7873",
+      "instagram": "https://www.instagram.com/laketexomavfwpost7873/",
+      "youtube": null,
+      "tiktok": null,
+      "hours": {
+        "monday": "3:00 PM–11:00 PM",
+        "tuesday": "3:00 PM–11:00 PM",
+        "wednesday": "3:00 PM–11:00 PM",
+        "thursday": "3:00 PM–11:00 PM",
+        "friday": "3:00 PM–12:00 AM",
+        "saturday": "10:00 AM–1:00 AM",
+        "sunday": "10:00 AM–11:00 PM"
+      },
+      "hours_note": "Happy hour is offered daily from 5:00 PM to 7:00 PM. Post and Auxiliary meetings are held on the third Saturday of each month at 11:00 AM, when the Post opens at 9:00 AM. Hours may vary for holidays, weather closures and special events.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "very_high",
+      "event_types": [
+        "Community Meals",
+        "Steak Nights",
+        "Live Music",
+        "Karaoke",
+        "Veterans Events",
+        "Fundraisers",
+        "Holiday Events",
+        "Game Nights",
+        "Shuffleboard Tournaments",
+        "Community Gatherings",
+        "Fitness Classes",
+        "Book Clubs",
+        "Bible Studies",
+        "Post and Auxiliary Meetings"
+      ],
+      "event_sources": [
+        "Official VFW Post 7873 website",
+        "Official VFW Post 7873 event calendar",
+        "Official VFW Post 7873 Facebook page",
+        "Official VFW Post 7873 Instagram account"
+      ],
+      "features": [
+        "Veteran service organization",
+        "Lake Texoma waterfront location",
+        "Public community events",
+        "Bar and canteen",
+        "Food nights",
+        "Live entertainment",
+        "Veteran and Auxiliary membership",
+        "Community fundraisers",
+        "Happy hour",
+        "Meeting and event space"
+      ],
+      "parent_business": [],
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_events": [],
+      "accessibility_note": null,
+      "admission_note": "Many community events are open to the public, but individual admission, age, membership and guest requirements may vary. Confirm details with the Post before attending.",
+      "verification_note": "Address, phone number, email, website, Facebook page, operating hours, mission, Lake Texoma location and recurring event activity were verified through official VFW Post 7873 sources and the Pottsboro Area Chamber of Commerce. Monitor official pages for newly announced events, schedule changes, weather closures and updated hours.",
       "last_checked": "2026-07-27"
     }
   ]
