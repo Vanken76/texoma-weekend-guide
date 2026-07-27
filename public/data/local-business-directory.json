@@ -5,8 +5,8 @@
   "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 448,
-  "publish_ready_count": 113,
+  "business_count": 449,
+  "publish_ready_count": 114,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -15197,6 +15197,64 @@
       ],
       "verification_note": "Business information, address, phone number, email, website, Facebook page, Instagram account, and public skating hours were verified from the business's official Facebook page, website, and Instagram. Skatelands of America regularly hosts themed events and community activities, making it a high-priority event source for the Texoma Weekend Guide.",
       "last_checked": "2026-07-26"
+    },
+    {
+      "slug": "fannin-county-multipurpose-complex",
+      "business_name": "Fannin County Multipurpose Complex",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "700 FM 87, Bonham, TX 75418",
+      "category": [
+        "Event Venue",
+        "Multipurpose Facility",
+        "Performance Venue",
+        "Conference Venue",
+        "Rodeo Venue"
+      ],
+      "description": "A City of Bonham-owned multipurpose event complex serving Bonham and Fannin County with space for conferences, trade shows, rodeos, concerts, sports, expos, community events, and other large gatherings.",
+      "phone": "903-583-7555",
+      "email": "reserve@cityofbonham.org",
+      "website": "https://www.cityofbonham.org/facilities/facility/details/Fannin-County-Multipurpose-Complex-8",
+      "facebook": "https://www.facebook.com/thefannincomplex",
+      "instagram": null,
+      "hours": {},
+      "hours_note": "Open for scheduled events, rentals, and administrative business. Public access varies by event; check the official website or Facebook page before visiting.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Concerts",
+        "Rodeos",
+        "Sports Events",
+        "Roller Derby",
+        "Trade Shows",
+        "Conferences",
+        "Expos",
+        "Festivals",
+        "Community Events",
+        "Private Rentals"
+      ],
+      "event_sources": [
+        "Facebook posts",
+        "Facebook events",
+        "City of Bonham website",
+        "Organizer announcements",
+        "Ticketing platforms"
+      ],
+      "features": [
+        "Large event facility",
+        "Indoor event space",
+        "Outdoor grounds",
+        "Conference space",
+        "Trade show space",
+        "Rodeo and livestock event capability",
+        "Concert venue",
+        "Sports event hosting",
+        "Public event rentals"
+      ],
+      "verification_note": "Address, phone number, reservation email, official City of Bonham facility page, Facebook page, ownership, and event uses were verified from the official Facebook page and City of Bonham information. Regular public hours were not listed because the complex operates primarily around scheduled events and rentals.",
+      "last_checked": "2026-07-27"
     }
   ]
 }
