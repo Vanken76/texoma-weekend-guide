@@ -5,8 +5,8 @@
   "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 447,
-  "publish_ready_count": 112,
+  "business_count": 448,
+  "publish_ready_count": 113,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -15132,6 +15132,70 @@
         "Daily specials"
       ],
       "verification_note": "Facebook and Instagram were directly verified. The venue promotes live music and recurring karaoke every Wednesday from 7:00 PM to 10:00 PM. No official standalone website, public business email, or general age policy was listed. The business uses a Gainesville mailing address but is publicly promoted as being in the Lake Kiowa area.",
+      "last_checked": "2026-07-26"
+    },
+    {
+      "slug": "skatelands-of-america",
+      "business_name": "Skatelands of America",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "2629 Woodlawn Blvd, Denison, TX 75020",
+      "category": [
+        "Roller Skating Rink",
+        "Family Entertainment Center",
+        "Party Venue",
+        "Event Venue"
+      ],
+      "description": "A family-friendly roller skating rink in Denison offering public skating sessions, birthday parties, themed skate nights, Christian Music Night, school events, fundraisers, and other community entertainment.",
+      "phone": "903-465-5010",
+      "email": "info@skatedenison.com",
+      "website": "https://skatelandsofamerica.com",
+      "facebook": "https://www.facebook.com/skatedenison",
+      "instagram": "https://www.instagram.com/skatedenison",
+      "hours": {
+        "monday": "12:30 PM–3:00 PM",
+        "tuesday": "Closed",
+        "wednesday": "Closed",
+        "thursday": "Closed",
+        "friday": "7:00 PM–10:00 PM",
+        "saturday": "2:00 PM–4:00 PM; 7:00 PM–10:00 PM",
+        "sunday": "2:00 PM–4:00 PM"
+      },
+      "hours_note": "Regular public skating hours vary throughout the week. Special events, themed skate nights, private parties, and holiday sessions may occur outside normal public hours. Check the official website or social media for the latest schedule.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Public Skating",
+        "Christian Music Night",
+        "Theme Nights",
+        "Holiday Events",
+        "Birthday Parties",
+        "School Events",
+        "Youth Group Events",
+        "Fundraisers",
+        "Private Parties",
+        "Community Events"
+      ],
+      "event_sources": [
+        "Facebook Events",
+        "Facebook Posts",
+        "Instagram Posts",
+        "Official Website"
+      ],
+      "features": [
+        "Roller skating",
+        "Family friendly",
+        "Birthday parties",
+        "Private party rentals",
+        "Theme nights",
+        "Christian music events",
+        "Group discounts",
+        "Skate rentals",
+        "Fundraising events"
+      ],
+      "verification_note": "Business information, address, phone number, email, website, Facebook page, Instagram account, and public skating hours were verified from the business's official Facebook page, website, and Instagram. Skatelands of America regularly hosts themed events and community activities, making it a high-priority event source for the Texoma Weekend Guide.",
       "last_checked": "2026-07-26"
     }
   ]
