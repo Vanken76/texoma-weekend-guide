@@ -5,8 +5,8 @@
   "generated_on": "2026-07-27",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 451,
-  "publish_ready_count": 115,
+  "business_count": 452,
+  "publish_ready_count": 116,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -15404,6 +15404,93 @@
       "related_businesses": [],
       "related_events": [],
       "verification_note": "Core information verified through the official WinStar World Casino & Resort website. Continue monitoring the official entertainment calendar and social accounts for concerts, comedy shows, conventions, resort activities, promotions, and newly announced amenities or venues.",
+      "last_checked": "2026-07-27"
+    },
+    {
+      "slug": "lucas-oil-live",
+      "business_name": "Lucas Oil Live",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": true,
+      "flagship": true,
+      "service_area_or_location": "777 Casino Ave, Thackerville, OK 73459",
+      "category": [
+        "Concert Venue",
+        "Live Music Venue",
+        "Entertainment Venue",
+        "Arena",
+        "Event Venue"
+      ],
+      "tags": [
+        "Concerts",
+        "Live Music",
+        "Comedy",
+        "National Touring Acts",
+        "Arena",
+        "Club Seating",
+        "WinStar",
+        "Thackerville",
+        "Texoma Events",
+        "Indoor Venue"
+      ],
+      "description": "Lucas Oil Live is a 6,500-seat indoor entertainment venue located within WinStar World Casino & Resort in Thackerville, Oklahoma. The venue hosts nationally touring musicians, major country, rock, pop and Latin performers, comedy shows, cultural productions and other large-scale entertainment events. Lucas Oil Live includes club-level seating with a private lounge, modern production equipment, accessible seating and convenient parking in the adjacent garage.",
+      "phone": "580-276-8510",
+      "email": null,
+      "website": "https://www.winstar.com/entertain/lucas-oil-live/",
+      "facebook": "https://www.facebook.com/WinStarWorldCasino",
+      "instagram": "https://www.instagram.com/winstarworldcasino/",
+      "youtube": null,
+      "tiktok": null,
+      "hours": {
+        "monday": "Event Schedule Only",
+        "tuesday": "Event Schedule Only",
+        "wednesday": "Event Schedule Only",
+        "thursday": "Box Office: 10:00 AM–10:00 PM",
+        "friday": "Box Office: 10:00 AM–11:00 PM",
+        "saturday": "Box Office: 10:00 AM–11:00 PM",
+        "sunday": "Event Schedule Only"
+      },
+      "hours_note": "Venue access and event times vary by performance. Doors commonly open 90 minutes before showtime. Box-office hours and policies may change, so guests should confirm details through the official event listing before traveling.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "very_high",
+      "event_types": [
+        "Concerts",
+        "Country Music",
+        "Rock Music",
+        "Pop Music",
+        "Latin Music",
+        "Tejano Music",
+        "Comedy Shows",
+        "Cultural Performances",
+        "Holiday Productions",
+        "Special Events"
+      ],
+      "event_sources": [
+        "Official Lucas Oil Live page",
+        "Official WinStar entertainment calendar",
+        "Official WinStar event listings",
+        "Official WinStar Facebook page",
+        "Official WinStar Instagram account",
+        "SeatGeek ticket listings"
+      ],
+      "parent_business": [
+        {
+          "slug": "winstar-world-casino-resort",
+          "name": "WinStar World Casino & Resort",
+          "relationship_note": "Lucas Oil Live is located within WinStar World Casino & Resort."
+        }
+      ],
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_events": [],
+      "venue_capacity": "More than 6,500 seats",
+      "parking": "Venue parking is available in the adjacent parking garage.",
+      "accessibility_note": "Accessible seating is available for guests with disabilities. Official event information states that wheelchair and companion seating quantities may be limited per transaction.",
+      "admission_note": "Events are generally open to all ages unless otherwise stated. Children older than 2 require a ticket, and guests under 18 must be accompanied by a parent or legal guardian.",
+      "venue_policy_note": "No filming, cameras, smoking, outside food or beverages, or backpacks are permitted inside. Bag-size and inspection requirements apply. Policies can vary or change, so guests should review the official event page before attending.",
+      "verification_note": "Venue capacity, club-level seating, location, parking, box-office information, accessibility details and general event policies were verified through official WinStar and Lucas Oil Live pages. Monitor the official entertainment calendar for newly announced performances, postponements, cancellations and policy changes.",
       "last_checked": "2026-07-27"
     }
   ]
