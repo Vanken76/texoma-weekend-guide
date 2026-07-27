@@ -1,0 +1,103 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const title = "Among the Pages | Texoma Weekend Guide";
+const description = "Independent romance and fiction bookstore opening August 15, 2026, in Downtown Durant, Oklahoma.";
+const location = "400 W. Main St., Durant, OK 74701";
+const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(location)}`;
+---
+
+<BaseLayout title={title} description={description}>
+  <article class="business-detail container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/businesses/">Business Directory</a><span aria-hidden="true">›</span><span>Among the Pages</span>
+    </nav>
+
+    <header class="business-hero">
+      <div>
+        <span class="status">Temporarily closed · Opening soon</span>
+        <h1>Among the Pages</h1>
+        <p class="category-line">Bookstore · Independent Bookstore · Shopping · Local Business</p>
+        <p class="location">{location}</p>
+        <div class="actions">
+          <a class="button" href="https://bookshop.org/shop/amongthepagesbooks" target="_blank" rel="noopener noreferrer">Visit website</a>
+          <a class="button secondary" href={mapUrl} target="_blank" rel="noopener noreferrer">Get directions</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="detail-grid">
+      <section class="card">
+        <h2>About Among the Pages</h2>
+        <p>Independent bookstore specializing in romance and fiction. Among the Pages offers carefully curated books, special orders, book clubs, craft classes, author events, and community gatherings. Originally launched as a pop-up bookstore before expanding into a permanent storefront in Downtown Durant.</p>
+
+        <h2>Hours</h2>
+        <dl>
+          <dt>Monday</dt><dd>Closed</dd>
+          <dt>Tuesday</dt><dd>Closed</dd>
+          <dt>Wednesday</dt><dd>Closed</dd>
+          <dt>Thursday</dt><dd>Closed</dd>
+          <dt>Friday</dt><dd>Closed</dd>
+          <dt>Saturday</dt><dd>10:00 AM–4:00 PM</dd>
+          <dt>Sunday</dt><dd>Closed</dd>
+        </dl>
+
+        <div class="share-block">
+          <h2>Share this business</h2>
+          <button id="copy-business-link" type="button">Copy business link</button>
+          <span id="copy-status" aria-live="polite"></span>
+        </div>
+      </section>
+
+      <aside class="card">
+        <h2>Business details</h2>
+        <dl>
+          <dt>Status</dt><dd>Preparing for permanent storefront opening</dd>
+          <dt>Opening date</dt><dd>August 15, 2026</dd>
+          <dt>Location</dt><dd>{location}</dd>
+          <dt>Owner</dt><dd>Schyler Adams</dd>
+          <dt>Facebook</dt><dd><a href="https://www.facebook.com/profile.php?id=61578239519543" target="_blank" rel="noopener noreferrer">Official Facebook page</a></dd>
+          <dt>Last verified</dt><dd>July 27, 2026</dd>
+        </dl>
+      </aside>
+    </div>
+  </article>
+
+  <script>
+    const copyButton = document.querySelector("#copy-business-link");
+    const copyStatus = document.querySelector("#copy-status");
+    copyButton?.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        if (copyStatus) copyStatus.textContent = "Link copied.";
+      } catch {
+        if (copyStatus) copyStatus.textContent = "Select the address bar to copy this page link.";
+      }
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  .business-detail { padding-block: 2rem 5rem; }
+  .breadcrumb { display:flex; flex-wrap:wrap; gap:.45rem; margin-bottom:1.5rem; }
+  .breadcrumb a, a { color:#176f95; font-weight:800; }
+  .business-hero { padding:1.5rem 0 2rem; }
+  .status { display:inline-flex; padding:.4rem .7rem; border-radius:999px; background:#fff3cd; color:#755500; font-weight:900; }
+  h1 { margin:.8rem 0 1rem; color:#103a58; font-size:clamp(2.35rem,7vw,4.8rem); line-height:1.02; }
+  h2 { color:#103a58; }
+  .category-line { color:#176f95; font-weight:850; }
+  .location { color:#293943; font-weight:700; }
+  .actions { display:flex; flex-wrap:wrap; gap:.7rem; margin-top:1.2rem; }
+  .button { display:inline-flex; padding:.75rem 1rem; border-radius:.7rem; background:#176f95; color:white; text-decoration:none; }
+  .secondary { border:1px solid #176f95; background:white; color:#176f95; }
+  .detail-grid { display:grid; grid-template-columns:minmax(0,1.3fr) minmax(280px,.7fr); gap:1.25rem; }
+  .card { padding:1.5rem; border:1px solid #d7e0e4; border-radius:1rem; background:#fffdf8; }
+  dl { display:grid; grid-template-columns:max-content 1fr; gap:.6rem .8rem; }
+  dt { color:#103a58; font-weight:900; }
+  dd { margin:0; overflow-wrap:anywhere; }
+  .share-block { margin-top:2rem; padding-top:1.5rem; border-top:1px solid #d7e0e4; }
+  button { min-height:44px; padding:.65rem .9rem; border:0; border-radius:.65rem; background:#103a58; color:white; font:inherit; font-weight:900; }
+  #copy-status { margin-left:.7rem; color:#236b45; font-weight:800; }
+  @media (max-width:800px) { .detail-grid { grid-template-columns:1fr; } }
+  @media (max-width:520px) { dl { grid-template-columns:1fr; gap:.2rem; } dd { margin-bottom:.75rem; } }
+</style>
