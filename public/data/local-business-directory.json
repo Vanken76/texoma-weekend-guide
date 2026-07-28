@@ -5,8 +5,8 @@
   "generated_on": "2026-07-28",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 467,
-  "publish_ready_count": 131,
+  "business_count": 468,
+  "publish_ready_count": 132,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16601,6 +16601,46 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Address, phone, email, website, and Facebook page verified from the official Van Alstyne Parks and Recreation Facebook page. Park hours and amenities were verified through the City of Van Alstyne facility listing.",
+      "last_checked": "2026-07-28"
+    },
+    {
+      "slug": "gainesville-texas-farmers-market",
+      "business_name": "Gainesville Texas Farmers Market",
+      "business_type": "Farmers Market and Event Venue",
+      "description": "Gainesville Texas Farmers Market is a downtown community market and outdoor event venue featuring local farmers, growers, makers, prepared-food vendors, food trucks, live music, and seasonal community programming. The venue also hosts concerts, festivals, car shows, school events, and other public gatherings throughout the year.",
+      "address": "215 W Elm Street",
+      "city": "Gainesville",
+      "state": "TX",
+      "postal_code": "76240",
+      "phone": "(940) 668-4530",
+      "email": "FarmersMarket@cogtx.org",
+      "website": "https://www.gainesville.tx.us/FarmersMarket",
+      "categories": [
+        "Farmers Market",
+        "Community Event Venue",
+        "Live Music Venue",
+        "Shopping",
+        "Food & Drink",
+        "Family Activities",
+        "Outdoors & Recreation"
+      ],
+      "amenities": [
+        "Outdoor Stage",
+        "Vendor Pavilion",
+        "Food Truck Area",
+        "Free Public Wi-Fi",
+        "Downtown Shopping Nearby",
+        "Restaurants Nearby"
+      ],
+      "hours": null,
+      "hours_note": "No regular daily public hours were published. Access and operating times vary by farmers market date, vendor schedule, and special event.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified through the official City of Gainesville Farmers Market page and city event listings. The city identifies the venue at 215 W Elm Street and confirms that it hosts farmers markets, live music, food trucks, Depot Day, Summer Sounds, seasonal markets, and other community events. Gainesville Parks and Recreation coordinates special-event and stage reservations.",
       "last_checked": "2026-07-28"
     }
   ]
