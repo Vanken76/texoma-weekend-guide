@@ -5,8 +5,8 @@
   "generated_on": "2026-07-28",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 463,
-  "publish_ready_count": 127,
+  "business_count": 464,
+  "publish_ready_count": 128,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16374,6 +16374,52 @@
         "https://www.facebook.com/SCPTheater"
       ],
       "verification_note": "Verified through the official Sherman Community Players website, Texas Historical Commission historical marker, and local venue listings. The venue is commonly referred to as Finley Playhouse, Finley Theater and Finley Cultural Center. Built in 1954 as Sherman Community Players' permanent home and remains the organization's primary mainstage theater.",
+      "last_checked": "2026-07-28"
+    },
+    {
+      "slug": "texoma-observer",
+      "business_name": "Texoma Observer",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "Denison, TX",
+      "category": [
+        "News & Media",
+        "Local Magazine",
+        "Community Resource",
+        "Advertising Services",
+        "Digital Publisher"
+      ],
+      "description": "Texoma Observer is a locally owned print and digital publication serving the Texoma region. The publication highlights local events, live music, restaurants, food and drink, new business openings, hidden gems, community organizations, and other positive local happenings throughout North Texas and Southern Oklahoma. In addition to publishing a monthly magazine, Texoma Observer maintains an online event directory, accepts community event submissions, offers email newsletters and weekend roundups, and provides affordable advertising opportunities for local businesses and organizations.",
+      "phone": null,
+      "email": "editor@texomaobserver.com",
+      "website": "https://www.texomaobserver.com",
+      "facebook": "https://www.facebook.com/TexomaObserver",
+      "instagram": null,
+      "hours": {},
+      "hours_note": "Online publication available 24 hours a day. New content, events, and the monthly digital issue are published regularly.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Community Events",
+        "Festivals",
+        "Live Music",
+        "Food & Drink",
+        "Business Grand Openings",
+        "Arts & Culture",
+        "Family Activities",
+        "Fundraisers",
+        "Markets",
+        "Seasonal Events",
+        "Community Announcements"
+      ],
+      "event_sources": [
+        "https://www.texomaobserver.com",
+        "https://www.texomaobserver.com/events",
+        "https://www.facebook.com/TexomaObserver"
+      ],
+      "verification_note": "Verified through the official Texoma Observer website and official Facebook page. The publication serves the Texoma region from Denison, Texas, publishes a monthly print and digital magazine, maintains an online event directory, accepts public event submissions, distributes a free email newsletter and weekend roundup, and promotes local businesses, restaurants, nonprofits, artists, and community organizations. No public business phone number or street address was listed on the official website.",
       "last_checked": "2026-07-28"
     }
   ]
