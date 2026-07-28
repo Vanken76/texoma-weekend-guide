@@ -6,7 +6,7 @@
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
   "business_count": 466,
-  "publish_ready_count": 129,
+  "publish_ready_count": 130,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16482,7 +16482,7 @@
     {
       "slug": "heyday-entertainment-denison",
       "business_name": "HeyDay Entertainment Denison",
-      "description": "HeyDay Entertainment Denison is a premier family entertainment center featuring bowling, laser tag, mini golf, an indoor ropes course, arcade games, HD Grill, DoubleDave's Pizzaworks, private event spaces, birthday parties, corporate events, and the 21+ Revolutions Lounge.",
+      "description": "HeyDay Entertainment Denison is a family entertainment center featuring bowling, laser tag, mini golf, an indoor ropes course, arcade games, dining, private event spaces, birthday parties, corporate events, and the 21+ Revolutions Lounge.",
       "short_description": "Family entertainment center with bowling, arcade, laser tag, mini golf, ropes course, dining, and private event spaces.",
       "website": "https://www.heydayfun.com/heyday-denison",
       "email": "contact@heydayfun.com",
@@ -16550,7 +16550,11 @@
         "Seasonal Promotions",
         "Live Entertainment",
         "Special Events"
-      ]
+      ],
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified through the official HeyDay website and the official Denison Facebook and Instagram profiles.",
+      "last_checked": "2026-07-28"
     }
   ]
 }
