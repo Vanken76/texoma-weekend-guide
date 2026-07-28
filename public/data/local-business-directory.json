@@ -5,8 +5,8 @@
   "generated_on": "2026-07-28",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 466,
-  "publish_ready_count": 130,
+  "business_count": 467,
+  "publish_ready_count": 131,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16554,6 +16554,51 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified through the official HeyDay website and the official Denison Facebook and Instagram profiles.",
+      "last_checked": "2026-07-28"
+    },
+    {
+      "slug": "central-social-district-park-van-alstyne",
+      "business_name": "Central Social District Park",
+      "business_type": "Park",
+      "description": "Central Social District Park is Van Alstyne's downtown community gathering space and outdoor event venue. The park features a splash pad, playground, public restrooms, picnic tables, open lawn space, a food truck area, and a performance stage. It hosts concerts, markets, festivals, family activities, and other community events throughout the year.",
+      "address": "215 E Van Alstyne Parkway",
+      "city": "Van Alstyne",
+      "state": "TX",
+      "postal_code": "75495",
+      "phone": "(903) 482-5426",
+      "website": "https://www.cityofvanalstyne.us/parksandrec",
+      "categories": [
+        "Park",
+        "Community Event Venue",
+        "Outdoors & Recreation",
+        "Family Activities"
+      ],
+      "amenities": [
+        "Splash Pad",
+        "Playground",
+        "Public Restrooms",
+        "Picnic Tables",
+        "Food Truck Area",
+        "Performance Stage",
+        "Open Lawn",
+        "Wheelchair Accessible"
+      ],
+      "hours": {
+        "monday": "06:00-22:00",
+        "tuesday": "06:00-22:00",
+        "wednesday": "06:00-22:00",
+        "thursday": "06:00-22:00",
+        "friday": "06:00-22:00",
+        "saturday": "06:00-22:00",
+        "sunday": "06:00-22:00"
+      },
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified through the City of Van Alstyne Parks and Recreation website and its facility listing. The facility listing reports daily operating hours of 6:00 AM to 10:00 PM.",
       "last_checked": "2026-07-28"
     }
   ]
