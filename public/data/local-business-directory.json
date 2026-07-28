@@ -235,48 +235,70 @@
     {
       "slug": "loft-tavern",
       "business_name": "Loft Tavern",
-      "directory_status": "complete",
-      "publish_ready": true,
-      "service_area_or_location": "107 W Grand St, Whitewright, TX 75491",
-      "category": [
+      "description": "Loft Tavern is a neighborhood restaurant, tavern, and entertainment venue in downtown Whitewright, Texas. It offers American comfort food, burgers, sandwiches, cocktails, beer, wine, weekly food and drink specials, karaoke, live music, and space for private events. The relaxed local atmosphere makes it a gathering place for meals, drinks, entertainment, and community events.",
+      "status": "active",
+      "primary_category": "Restaurant",
+      "categories": [
         "Restaurant",
         "Bar",
-        "Tavern"
+        "Tavern",
+        "Live Music Venue",
+        "Karaoke Venue",
+        "Entertainment Venue",
+        "Event Venue"
       ],
-      "description": "A neighborhood tavern in Whitewright serving food and cold drinks, with live music, online ordering, private parties, and event reservations.",
+      "tags": [
+        "Loft Tavern",
+        "Whitewright",
+        "restaurant",
+        "tavern",
+        "bar",
+        "karaoke",
+        "live music",
+        "cocktails",
+        "American food",
+        "chicken fried steak",
+        "nightlife",
+        "Grayson County",
+        "North Texas",
+        "Texoma"
+      ],
+      "address": "107 W Grand St",
+      "city": "Whitewright",
+      "state": "TX",
+      "postal_code": "75491",
+      "latitude": null,
+      "longitude": null,
       "phone": "903-364-5414",
       "email": null,
       "website": "https://lofttavern.com",
-      "facebook": "https://www.facebook.com/lofttaverntx",
-      "instagram": null,
+      "facebook_url": "https://www.facebook.com/lofttaverntx",
+      "instagram_url": null,
       "hours": {
-        "monday": "11:00 AM–9:00 PM",
-        "tuesday": "11:00 AM–9:00 PM",
-        "wednesday": "11:00 AM–9:00 PM",
-        "thursday": "11:00 AM–9:00 PM",
-        "friday": "11:00 AM–9:30 PM",
-        "saturday": "11:00 AM–9:30 PM",
-        "sunday": "11:00 AM–9:00 PM"
+        "monday": "11:00 AM–10:00 PM",
+        "tuesday": "11:00 AM–10:00 PM",
+        "wednesday": "11:00 AM–10:00 PM",
+        "thursday": "11:00 AM–10:00 PM",
+        "friday": "11:00 AM–12:00 AM",
+        "saturday": "11:00 AM–12:00 AM",
+        "sunday": "11:00 AM–10:00 PM"
       },
-      "hours_note": "Check official pages for holiday or event-related changes.",
-      "event_venue": true,
-      "recurring_events": true,
-      "mine_for_events": true,
-      "event_mining_priority": "high",
-      "event_types": [
-        "Live music",
-        "Private parties",
-        "Tavern events",
-        "Food and drink specials"
+      "price_range": "$$",
+      "audience": [
+        "General Public",
+        "Adults",
+        "Families",
+        "Live Music Fans",
+        "Karaoke Fans"
       ],
-      "event_sources": [
-        "Facebook posts",
-        "Facebook Events",
-        "Official website",
-        "Google Business updates"
-      ],
-      "verification_note": "Complete. Monitor official sources for live music, private events, specials, and schedule changes.",
-      "last_checked": "2026-07-19"
+      "image_url": "/images/businesses/loft-tavern.jpg",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified through the official Loft Tavern website, current online ordering page, current Facebook page, and current Thursday karaoke promotional post. The official website confirms the address, phone number, food and drink service, weekly specials, private-event availability, and online ordering. Current listings show hours of 11:00 AM to 10:00 PM Monday through Thursday and Sunday, and 11:00 AM to midnight Friday and Saturday. The current Facebook promotion states that karaoke is held Thursdays from 6:00 PM to 9:00 PM alongside the Thursday chicken-fried-steak special.",
+      "last_checked": "2026-07-28",
+      "created_on": "2026-07-28",
+      "updated_on": "2026-07-28"
     },
     {
       "slug": "luigis-italian-restaurant-denison",
