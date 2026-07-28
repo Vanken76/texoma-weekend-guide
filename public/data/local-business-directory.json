@@ -5,8 +5,8 @@
   "generated_on": "2026-07-28",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 469,
-  "publish_ready_count": 133,
+  "business_count": 470,
+  "publish_ready_count": 134,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16713,6 +16713,54 @@
       "source_verified": true,
       "verification_note": "Verified through the official Mill Creek Resort and Marina website and official Facebook page. Business name, address, phone number, email, website, Facebook page, and publicly listed office hours were confirmed.",
       "last_checked": "2026-07-28"
+    },
+    {
+      "slug": "durant-magnolia-farmers-market",
+      "business_name": "Durant Magnolia Farmers Market",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "Historic Market Square, corner of North 1st Avenue and Evergreen Street, Durant, OK 74701",
+      "category": [
+        "Farmers Market",
+        "Community Market",
+        "Event Venue"
+      ],
+      "description": "Durant Magnolia Farmers Market is a seasonal open-air market in Historic Market Square in downtown Durant. Local farmers, growers, makers and artisans offer seasonal produce, flowers, meats, eggs, baked goods, honey, jams, handmade products and other locally produced items. The market also hosts family-friendly activities, Kids Market dates and seasonal special events.",
+      "phone": "580-924-1550",
+      "email": "market@durantmainstreet.org",
+      "website": "https://www.durantmainstreet.org/magnoliafarmersmarket",
+      "facebook": "https://www.facebook.com/durantmagnoliafarmersmarket",
+      "instagram": null,
+      "hours": {},
+      "hours_note": "Seasonal market hours apply. In 2026, the market operates Saturdays from 8:00 AM–1:00 PM, April 18–October 31, and Wednesdays from 8:00 AM–12:00 PM, June 3–October 28. Dates may be canceled or relocated because of community events or inclement weather.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified from the official Durant Magnolia Farmers Market Facebook page and Durant Main Street website. Monitor official sources for seasonal dates, weather cancellations and special market events.",
+      "last_checked": "2026-07-28",
+      "event_types": [
+        "Farmers markets",
+        "Kids Market",
+        "Family activities",
+        "Seasonal community events"
+      ],
+      "event_sources": [
+        "Official Durant Main Street website",
+        "Official Durant Magnolia Farmers Market Facebook page"
+      ],
+      "features": [
+        "Fresh local produce",
+        "Locally raised meats and eggs",
+        "Flowers and plants",
+        "Baked goods",
+        "Local honey and preserves",
+        "Handmade goods",
+        "Family friendly",
+        "Kids Market",
+        "Outdoor market",
+        "Downtown location"
+      ]
     }
   ]
 }
