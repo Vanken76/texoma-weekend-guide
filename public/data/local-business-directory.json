@@ -5,8 +5,8 @@
   "generated_on": "2026-07-28",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 468,
-  "publish_ready_count": 132,
+  "business_count": 469,
+  "publish_ready_count": 133,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16641,6 +16641,77 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified through the official City of Gainesville Farmers Market page and city event listings. The city identifies the venue at 215 W Elm Street and confirms that it hosts farmers markets, live music, food trucks, Depot Day, Summer Sounds, seasonal markets, and other community events. Gainesville Parks and Recreation coordinates special-event and stage reservations.",
+      "last_checked": "2026-07-28"
+    },
+    {
+      "slug": "mill-creek-resort-and-marina",
+      "business_name": "Mill Creek Resort and Marina",
+      "description": "Mill Creek Resort and Marina is a full-service lakefront marina and resort on Lake Texoma in Pottsboro, Texas. The property offers boat slips, cabin rentals, RV accommodations, fuel services, fishing access, and hosts community events, fundraisers, tournaments, and seasonal activities throughout the year.",
+      "short_description": "Lake Texoma marina and resort offering cabins, RV sites, boat slips, lodging, and community event space.",
+      "website": "https://millcreekresortandmarina.com",
+      "email": "cabins@millcreekresortandmarina.com",
+      "phone": "(903) 786-2227",
+      "facebook": "https://www.facebook.com/millcreekresortandmarina",
+      "instagram": null,
+      "address": "512 Mill Creek Resort Rd",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "9:00 AM - 5:00 PM",
+        "thursday": "9:00 AM - 5:00 PM",
+        "friday": "9:00 AM - 5:00 PM",
+        "saturday": "9:00 AM - 5:00 PM",
+        "sunday": "9:00 AM - 3:00 PM"
+      },
+      "categories": [
+        "Marina",
+        "Resort",
+        "Campground",
+        "RV Park",
+        "Cabin Rentals",
+        "Boat Rentals",
+        "Event Venue"
+      ],
+      "features": [
+        "Boat Slips",
+        "Cabin Rentals",
+        "RV Sites",
+        "Fuel Dock",
+        "Boat Ramp",
+        "Fishing Access",
+        "Lakefront",
+        "Community Events",
+        "Fundraisers",
+        "Fishing Tournaments",
+        "Private Events"
+      ],
+      "price_range": "$$",
+      "kid_friendly": true,
+      "pet_friendly": true,
+      "wheelchair_accessible": true,
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Community Events",
+        "Fundraisers",
+        "Fishing Tournaments",
+        "Boat Shows",
+        "Holiday Celebrations",
+        "Live Music",
+        "Vendor Markets",
+        "Seasonal Events",
+        "Private Events",
+        "Charity Events"
+      ],
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified through the official Mill Creek Resort and Marina website and official Facebook page. Business name, address, phone number, email, website, Facebook page, and publicly listed office hours were confirmed.",
       "last_checked": "2026-07-28"
     }
   ]
