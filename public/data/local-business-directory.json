@@ -5,8 +5,8 @@
   "generated_on": "2026-07-28",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 462,
-  "publish_ready_count": 126,
+  "business_count": 463,
+  "publish_ready_count": 127,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16330,6 +16330,50 @@
         "https://www.facebook.com/SCPTheater"
       ],
       "verification_note": "Verified from the official Sherman Community Players website, official Theatricks information and official SCP social media. The official site identifies the venue as Honey McGee Playhouse at 313 Mulberry Street in Sherman. Current promotional materials sometimes use the alternate name Honey McGee Theater. The venue shares its public phone, email, website and social media with Sherman Community Players. No separate public operating hours or venue-specific social accounts were found.",
+      "last_checked": "2026-07-28"
+    },
+    {
+      "slug": "finley-playhouse",
+      "business_name": "Finley Playhouse",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "500 N. Elm Street, Sherman, TX 75090",
+      "category": [
+        "Performing Arts Theater",
+        "Community Theater",
+        "Event Venue",
+        "Live Entertainment",
+        "Historic Theater"
+      ],
+      "description": "Finley Playhouse, also known as the Finley Cultural Center or Finley Theater, is the primary mainstage performance venue for Sherman Community Players in downtown Sherman. Built in 1954 as the organization's permanent rehearsal and performance facility, the theater has hosted decades of live comedies, dramas, musicals, special performances, community events, and educational programming. Today it continues to serve as one of Texoma's premier community performing arts venues while sharing the campus with the Honey McGee Playhouse.",
+      "phone": "903-892-8818",
+      "email": "pam@scptheater.org",
+      "website": "https://www.scptheater.org",
+      "facebook": "https://www.facebook.com/SCPTheater",
+      "instagram": null,
+      "hours": {},
+      "hours_note": "Open for scheduled performances, rehearsals, auditions, rentals and special events. Contact the Sherman Community Players box office for current schedules.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Live Theater",
+        "Musicals",
+        "Comedies",
+        "Dramas",
+        "Mainstage Productions",
+        "Auditions",
+        "Fundraisers",
+        "Community Events",
+        "Performing Arts"
+      ],
+      "event_sources": [
+        "https://www.scptheater.org",
+        "https://www.scptheater.org/box-office/show-times-ticket-information/",
+        "https://www.facebook.com/SCPTheater"
+      ],
+      "verification_note": "Verified through the official Sherman Community Players website, Texas Historical Commission historical marker, and local venue listings. The venue is commonly referred to as Finley Playhouse, Finley Theater and Finley Cultural Center. Built in 1954 as Sherman Community Players' permanent home and remains the organization's primary mainstage theater.",
       "last_checked": "2026-07-28"
     }
   ]
