@@ -145,8 +145,8 @@ const description = event.description || `${event.event_name} at ${event.venue_n
 
         <div class="primary-actions">
           {event.ticket_url && <a class="button ticket" href={event.ticket_url} target="_blank" rel="noopener noreferrer">Buy tickets</a>}
-          {venueUrl && <a class="button venue-button" href={venueUrl}>View venue</a>}
           {officialUrl && <a class="button official" href={officialUrl} target="_blank" rel="noopener noreferrer">Official event information</a>}
+          {venueUrl && <a class="button venue-button" href={venueUrl}>View venue page</a>}
           {mapUrl && <a class="button secondary" href={mapUrl} target="_blank" rel="noopener noreferrer">Get directions</a>}
         </div>
       </div>
@@ -230,12 +230,12 @@ const description = event.description || `${event.event_name} at ${event.venue_n
   h2 { color: #103a58; }
   .when { display: flex; flex-direction: column; gap: .25rem; margin: 0 0 1rem; color: #176f95; font-size: 1.15rem; }
   .venue { margin-bottom: 1.35rem; color: #293943; font-size: 1.15rem; font-weight: 850; }
-  .venue a { color: inherit; font-weight: 900; text-decoration-thickness: 2px; text-underline-offset: .16em; }
+  .venue a,.facts-card a { color: #176f95; font-weight: 900; }
   .primary-actions { display: flex; flex-wrap: wrap; gap: .7rem; }
   .button { display: inline-flex; align-items: center; min-height: 48px; padding: .75rem 1rem; border-radius: .7rem; font-weight: 900; text-decoration: none; }
   .ticket { background: #236b45; color: white; }
-  .venue-button { background: #103a58; color: white; }
   .official { background: #176f95; color: white; }
+  .venue-button { background: #103a58; color: white; }
   .secondary { border: 1px solid #176f95; color: #176f95; background: white; }
   .flyer-wrap { overflow: hidden; display: block; border: 1px solid #d7e0e4; border-radius: 1rem; background: #fffdf8; box-shadow: 0 14px 34px rgba(16,58,88,.1); text-align: center; text-decoration: none; }
   .flyer-wrap img { display: block; width: 100%; max-height: 680px; object-fit: contain; background: #eef4f6; }
@@ -249,7 +249,6 @@ const description = event.description || `${event.event_name} at ${event.venue_n
   dl { display: grid; grid-template-columns: max-content 1fr; gap: .6rem .8rem; margin: 0; }
   dt { color: #103a58; font-weight: 900; }
   dd { margin: 0; overflow-wrap: anywhere; }
-  dd a { color: #176f95; font-weight: 850; }
   .share-block { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #d7e0e4; }
   .share-block button { min-height: 44px; padding: .65rem .9rem; border: 0; border-radius: .65rem; background: #103a58; color: white; font: inherit; font-weight: 900; cursor: pointer; }
   #copy-status { margin-left: .7rem; color: #236b45; font-weight: 800; }
