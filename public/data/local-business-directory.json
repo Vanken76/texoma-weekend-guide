@@ -5,8 +5,8 @@
   "generated_on": "2026-07-28",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 461,
-  "publish_ready_count": 125,
+  "business_count": 462,
+  "publish_ready_count": 126,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16286,6 +16286,51 @@
       "mine_for_events": true,
       "event_mining_priority": "high",
       "notes": "High-priority recurring venue for Texoma Weekend Guide. Monitor regularly for productions, auditions, workshops, youth theatre, fundraisers, benefit performances, and season announcements. Some youth productions and workshops are presented at the Honey McGee Playhouse while remaining official Sherman Community Players events."
+    },
+    {
+      "slug": "honey-mcgee-playhouse",
+      "business_name": "Honey McGee Playhouse",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "313 Mulberry Street, Sherman, TX 75090",
+      "category": [
+        "Performing Arts Theater",
+        "Community Theater",
+        "Children's Theater",
+        "Event Venue",
+        "Live Entertainment"
+      ],
+      "description": "Honey McGee Playhouse, also referred to as Honey McGee Theater, is an intimate performing arts venue operated as part of the Sherman Community Players theater complex in Sherman. It is the primary performance home of SCP's Theatricks children's theater program and hosts youth productions, acting workshops, Rising Stars educational sessions, auditions, community performances, dinner theater productions and other special events. The venue helps Sherman Community Players provide live theater and hands-on performing arts opportunities for children, teens and adults throughout the Texoma region.",
+      "phone": "903-892-8818",
+      "email": "pam@scptheater.org",
+      "website": "https://www.scptheater.org",
+      "facebook": "https://www.facebook.com/SCPTheater",
+      "instagram": null,
+      "hours": {},
+      "hours_note": "Open for scheduled performances, workshops, auditions and special events. Event times vary. Contact the Sherman Community Players box office for current schedules and ticket information.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Live Theater",
+        "Children's Theater",
+        "Dinner Theater",
+        "Comedy",
+        "Musicals",
+        "Youth Workshops",
+        "Acting Classes",
+        "Auditions",
+        "Performing Arts Programs",
+        "Community Events"
+      ],
+      "event_sources": [
+        "https://www.scptheater.org",
+        "https://www.scptheater.org/theatricks/",
+        "https://www.facebook.com/SCPTheater"
+      ],
+      "verification_note": "Verified from the official Sherman Community Players website, official Theatricks information and official SCP social media. The official site identifies the venue as Honey McGee Playhouse at 313 Mulberry Street in Sherman. Current promotional materials sometimes use the alternate name Honey McGee Theater. The venue shares its public phone, email, website and social media with Sherman Community Players. No separate public operating hours or venue-specific social accounts were found.",
+      "last_checked": "2026-07-28"
     }
   ]
 }
