@@ -5,8 +5,8 @@
   "generated_on": "2026-07-28",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 460,
-  "publish_ready_count": 124,
+  "business_count": 461,
+  "publish_ready_count": 125,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16188,6 +16188,104 @@
         "Indoor seating",
         "Event programming"
       ]
+    },
+    {
+      "slug": "sherman-community-players",
+      "business_name": "Sherman Community Players",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "500 N. Elm St., Sherman, TX 75090",
+      "category": [
+        "Performance Art Theatre",
+        "Live Theater",
+        "Community Theater",
+        "Event Venue",
+        "Entertainment Venue",
+        "Performing Arts",
+        "Nonprofit Organization"
+      ],
+      "description": "Sherman Community Players (SCP) is a nonprofit community theatre serving North Texas and Southern Oklahoma. Founded in 1950 with theatrical roots dating back to the 1920s, SCP has provided quality live theatrical entertainment and performing arts education for more than 76 seasons. The organization produces musicals, comedies, dramas, melodramas, dinner theatre, youth theatre productions, educational programs, auditions, workshops, and special performing arts events throughout the year.",
+      "phone": "903-892-8818",
+      "email": "pam@scptheater.org",
+      "website": "https://scptheater.org",
+      "facebook": "https://www.facebook.com/SCPTheater",
+      "hours": {
+        "monday": "8:00 AM - 2:00 PM",
+        "tuesday": "8:00 AM - 2:00 PM",
+        "wednesday": "8:00 AM - 2:00 PM",
+        "thursday": "8:00 AM - 2:00 PM",
+        "friday": "8:00 AM - 2:00 PM",
+        "saturday": "10:00 AM - 12:00 PM",
+        "sunday": "Closed"
+      },
+      "features": [
+        "Live Theatre",
+        "Mainstage Productions",
+        "Dinner Theatre",
+        "Musicals",
+        "Comedies",
+        "Dramas",
+        "Melodramas",
+        "Youth Theatre",
+        "Children's Theatre",
+        "Educational Outreach",
+        "Summer Workshops",
+        "Acting Workshops",
+        "Auditions",
+        "Volunteer Opportunities",
+        "Ticketed Performances",
+        "Season Memberships"
+      ],
+      "event_types": [
+        "Live Performances",
+        "Musicals",
+        "Plays",
+        "Dinner Theatre",
+        "Comedy",
+        "Drama",
+        "Children's Theatre",
+        "Youth Productions",
+        "Auditions",
+        "Workshops",
+        "Summer Camps",
+        "Fundraisers",
+        "Benefit Performances",
+        "Season Announcements"
+      ],
+      "keywords": [
+        "Sherman Community Players",
+        "SCP",
+        "Sherman Theater",
+        "Community Theatre",
+        "Live Theatre",
+        "Musicals",
+        "Plays",
+        "Dinner Theatre",
+        "Auditions",
+        "Youth Theatre",
+        "Performing Arts",
+        "Downtown Sherman",
+        "Texoma"
+      ],
+      "ownership": {
+        "nonprofit": true,
+        "locally_owned": true,
+        "incorporated": 1950,
+        "history": "The organization's theatrical roots trace back to the Little Theatre Movement of the 1920s. SCP has produced community theatre continuously since 1948 and incorporated as a nonprofit in 1950."
+      },
+      "staff": {
+        "executive_director": "Pamela Sanza"
+      },
+      "programs": [
+        "Mainstage",
+        "Theatricks Children's Theatre",
+        "Rising Stars",
+        "Summer Acting Workshops",
+        "Educational Outreach"
+      ],
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "notes": "High-priority recurring venue for Texoma Weekend Guide. Monitor regularly for productions, auditions, workshops, youth theatre, fundraisers, benefit performances, and season announcements. Some youth productions and workshops are presented at the Honey McGee Playhouse while remaining official Sherman Community Players events."
     }
   ]
 }
