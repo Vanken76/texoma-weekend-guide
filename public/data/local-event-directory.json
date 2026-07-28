@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 50,
-  "publish_ready_count": 50,
+  "event_count": 51,
+  "publish_ready_count": 51,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -2746,6 +2746,62 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified from the official Sherman Community Players Facebook post and event flyer. Classes meet Mondays and Thursdays from 5:00 PM to 6:00 PM, August 20 through October 22, 2026. Registration closes August 17. Two performances are scheduled for October 24, but their individual times were not published.",
+      "last_checked": "2026-07-28",
+      "created_on": "2026-07-28",
+      "updated_on": "2026-07-28"
+    },
+    {
+      "event_slug": "boeing-boeing-summer-benefit-dinner-theater-2026",
+      "event_name": "Boeing Boeing — Summer Benefit Dinner Theater",
+      "description": "Sherman Community Players presents its 2026 Summer Benefit Dinner Theater production of Boeing Boeing by Marc Camoletti, translated by Beverley Cross and Francis Evans. Enjoy a meal followed by a fast-paced comedy at Honey McGee Theater. Performances are scheduled for July 31, August 1, August 2, August 7, August 8, and August 9. Friday and Saturday performances begin at 7:00 PM, and Sunday performances begin at 1:30 PM. Sponsor tables are also available.",
+      "start_datetime": "2026-07-31T19:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slug": "sherman-community-players",
+      "venue_name": "Honey McGee Theater",
+      "address": "313 Mulberry Street",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Theater",
+        "Dinner Theater",
+        "Comedy",
+        "Performing Arts",
+        "Fundraiser"
+      ],
+      "tags": [
+        "Boeing Boeing",
+        "Sherman Community Players",
+        "SCP",
+        "Summer Benefit Dinner Theater",
+        "Marc Camoletti",
+        "Honey McGee Theater",
+        "live theater",
+        "comedy",
+        "Sherman"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Friday and Saturday performances: $75 per ticket. Sunday performances: $60 per ticket. Sponsor tables for eight are available for $1,000.",
+      "audience": [
+        "Adults",
+        "Theater Fans",
+        "Community Supporters"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/boeing-boeing-summer-benefit-dinner-theater-2026.jpg",
+      "official_url": "https://www.scptheater.org",
+      "facebook_url": "https://www.facebook.com/SCPTheater",
+      "ticket_url": "https://www.scptheater.org",
+      "recurring": true,
+      "recurrence_rule": "RDATE:20260731T190000,20260801T190000,20260802T133000,20260807T190000,20260808T190000,20260809T133000",
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from official Sherman Community Players posts and the official event flyer. Performances are July 31, August 1, August 2, August 7, August 8, and August 9, 2026. Friday and Saturday performances begin at 7:00 PM; Sunday performances begin at 1:30 PM. No performance ending times were published.",
       "last_checked": "2026-07-28",
       "created_on": "2026-07-28",
       "updated_on": "2026-07-28"
