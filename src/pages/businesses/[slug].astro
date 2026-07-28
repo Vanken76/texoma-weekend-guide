@@ -62,10 +62,10 @@ const hoursEntries = business.hours && typeof business.hours === "object"
 
 const socialLinks = [
   ["Website", business.website],
-  ["Facebook", business.facebook],
-  ["Instagram", business.instagram],
-  ["YouTube", business.youtube],
-  ["TikTok", business.tiktok]
+  ["Facebook", business.facebook_url || business.facebook],
+  ["Instagram", business.instagram_url || business.instagram],
+  ["YouTube", business.youtube_url || business.youtube],
+  ["TikTok", business.tiktok_url || business.tiktok]
 ].filter(([, url]) => Boolean(url));
 
 const toArray = (value) => Array.isArray(value) ? value : value ? [value] : [];
@@ -132,7 +132,7 @@ const hasRelationships = parentBusinesses.length > 0 || childBusinesses.length >
 
       {image && (
         <div class="image-wrap">
-          <img src={image} alt={`${business.business_name} business image`} />
+          <img src={image} alt={`${business.business_name} business image`} onerror="this.parentElement.remove()" />
         </div>
       )}
     </header>
