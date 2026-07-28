@@ -5,7 +5,7 @@
   "generated_on": "2026-07-28",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 465,
+  "business_count": 466,
   "publish_ready_count": 129,
   "businesses": [
     {
@@ -16478,6 +16478,79 @@
       ],
       "verification_note": "Verified through the official Schulman's Movie Bowl Grille Sherman website and official Facebook page. Confirmed address: 110 E FM 1417, Sherman, TX 75090. Offers movies, bowling, arcade, Billy's Grille restaurant, bar, rock wall, ropes course, Omni Arena, birthday parties, and recurring family entertainment programs including the annual Summer Movie Magic Club.",
       "last_checked": "2026-07-28"
+    },
+    {
+      "slug": "heyday-entertainment-denison",
+      "business_name": "HeyDay Entertainment Denison",
+      "description": "HeyDay Entertainment Denison is a premier family entertainment center featuring bowling, laser tag, mini golf, an indoor ropes course, arcade games, HD Grill, DoubleDave's Pizzaworks, private event spaces, birthday parties, corporate events, and the 21+ Revolutions Lounge.",
+      "short_description": "Family entertainment center with bowling, arcade, laser tag, mini golf, ropes course, dining, and private event spaces.",
+      "website": "https://www.heydayfun.com/heyday-denison",
+      "email": "contact@heydayfun.com",
+      "phone": "(903) 462-4010",
+      "facebook": "https://www.facebook.com/HeyDayDenison",
+      "instagram": "https://www.instagram.com/heydaydenison",
+      "address": "5002 Convention Way",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "country": "USA",
+      "hours": {
+        "monday": "11:00 AM - 11:00 PM",
+        "tuesday": "11:00 AM - 11:00 PM",
+        "wednesday": "11:00 AM - 11:00 PM",
+        "thursday": "11:00 AM - 11:00 PM",
+        "friday": "10:00 AM - 1:00 AM",
+        "saturday": "10:00 AM - 1:00 AM",
+        "sunday": "11:00 AM - 10:00 PM"
+      },
+      "categories": [
+        "Family Entertainment Center",
+        "Bowling Alley",
+        "Arcade",
+        "Laser Tag",
+        "Mini Golf",
+        "Ropes Course",
+        "Restaurant",
+        "Sports Bar",
+        "Event Venue"
+      ],
+      "features": [
+        "Bowling",
+        "Laser Tag",
+        "Arcade",
+        "Mini Golf",
+        "Indoor Ropes Course",
+        "HD Grill",
+        "DoubleDave's Pizzaworks",
+        "Revolutions Lounge",
+        "Private Event Rooms",
+        "Birthday Parties",
+        "Corporate Events",
+        "Fundraisers",
+        "Group Events"
+      ],
+      "price_range": "$$",
+      "kid_friendly": true,
+      "pet_friendly": false,
+      "wheelchair_accessible": true,
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Bowling Leagues",
+        "Trivia Nights",
+        "Holiday Events",
+        "Family Events",
+        "Community Events",
+        "Fundraisers",
+        "Corporate Events",
+        "Birthday Parties",
+        "Arcade Tournaments",
+        "Seasonal Promotions",
+        "Live Entertainment",
+        "Special Events"
+      ]
     }
   ]
 }
