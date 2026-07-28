@@ -16565,8 +16565,10 @@
       "city": "Van Alstyne",
       "state": "TX",
       "postal_code": "75495",
-      "phone": "(903) 482-5426",
-      "website": "https://www.cityofvanalstyne.us/parksandrec",
+      "phone": "(430) 262-9439",
+      "email": "khessel@cityofvanalstyne.us",
+      "website": "https://www.cityofvanalstyne.us",
+      "facebook_url": "https://www.facebook.com/vanalstyneparksandrecreation",
       "categories": [
         "Park",
         "Community Event Venue",
@@ -16598,7 +16600,7 @@
       "event_mining_priority": "high",
       "publish_ready": true,
       "source_verified": true,
-      "verification_note": "Verified through the City of Van Alstyne Parks and Recreation website and its facility listing. The facility listing reports daily operating hours of 6:00 AM to 10:00 PM.",
+      "verification_note": "Address, phone, email, website, and Facebook page verified from the official Van Alstyne Parks and Recreation Facebook page. Park hours and amenities were verified through the City of Van Alstyne facility listing.",
       "last_checked": "2026-07-28"
     }
   ]
