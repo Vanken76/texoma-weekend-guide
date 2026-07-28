@@ -5,8 +5,8 @@
   "generated_on": "2026-07-28",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 459,
-  "publish_ready_count": 123,
+  "business_count": 460,
+  "publish_ready_count": 124,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16123,6 +16123,71 @@
       "last_checked": "2026-07-27",
       "created_on": "2026-07-27",
       "updated_on": "2026-07-27"
+    },
+    {
+      "slug": "903-brewers",
+      "business_name": "903 Brewers",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "221 W. Houston St., Suite 100, Sherman, TX 75090",
+      "category": [
+        "Brewery",
+        "Restaurant",
+        "Bar",
+        "Live Music Venue",
+        "Event Venue"
+      ],
+      "description": "903 Brewers is a locally owned craft brewery, taproom, restaurant, and entertainment venue in downtown Sherman. Founded by Jeremy and Natalie Roberts, the brewery has produced award-winning craft beers since 2013 and serves a full restaurant menu featuring burgers, wings, pizza, sandwiches, salads, and other options. The downtown location hosts live entertainment, watch parties, trivia, bingo, brewery celebrations, seasonal gatherings, and other community events.",
+      "phone": "214-243-8090",
+      "email": "info@903brewers.com",
+      "website": "https://903brewers.com",
+      "facebook": "https://www.facebook.com/903Brewers",
+      "instagram": "https://www.instagram.com/903_brewers/",
+      "hours": {
+        "monday": "6:00 PM–9:30 PM",
+        "tuesday": "11:00 AM–9:00 PM",
+        "wednesday": "11:00 AM–9:00 PM",
+        "thursday": "11:00 AM–10:00 PM",
+        "friday": "11:00 AM–10:00 PM",
+        "saturday": "11:00 AM–10:00 PM",
+        "sunday": "11:00 AM–9:30 PM"
+      },
+      "hours_note": "Current Facebook hours were updated approximately three weeks before verification. The official website still displays older hours of Monday closed and Sunday 11:00 AM–6:00 PM.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Address, current hours, phone number, email, website, and Facebook URL were verified from the official Facebook page supplied on July 28, 2026. Business history, founders, brewery offerings, event activity, and Instagram account were verified through official 903 Brewers sources. The official website currently lists 903-487-0910 and older Monday and Sunday hours, while the more recently updated Facebook page lists 214-243-8090 and the hours recorded here. Monitor official Facebook and Instagram posts for current events and schedule changes.",
+      "last_checked": "2026-07-28",
+      "event_types": [
+        "Live music",
+        "Bingo",
+        "Trivia",
+        "Sports watch parties",
+        "Concert pre-parties",
+        "Brewery celebrations",
+        "Beer releases",
+        "Seasonal festivals",
+        "Community gatherings",
+        "Special dining events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Official Instagram account"
+      ],
+      "features": [
+        "Locally owned",
+        "Downtown Sherman location",
+        "Craft brewery",
+        "Taproom",
+        "Full-service restaurant",
+        "House-brewed craft beer",
+        "Award-winning beer",
+        "Live entertainment",
+        "Indoor seating",
+        "Event programming"
+      ]
     }
   ]
 }
