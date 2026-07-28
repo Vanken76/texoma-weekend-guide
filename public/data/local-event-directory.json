@@ -1830,6 +1830,7 @@
       "recurrence_start_date": null,
       "recurrence_end_date": null,
       "venue_name": "Mill Creek Resort and Marina",
+      "venue_slug": "mill-creek-resort-and-marina",
       "address": "512 Mill Creek Resort Rd",
       "city": "Pottsboro",
       "state": "TX",
