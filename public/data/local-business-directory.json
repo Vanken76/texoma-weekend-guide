@@ -5,8 +5,8 @@
   "generated_on": "2026-07-28",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 464,
-  "publish_ready_count": 128,
+  "business_count": 465,
+  "publish_ready_count": 129,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16420,6 +16420,63 @@
         "https://www.facebook.com/TexomaObserver"
       ],
       "verification_note": "Verified through the official Texoma Observer website and official Facebook page. The publication serves the Texoma region from Denison, Texas, publishes a monthly print and digital magazine, maintains an online event directory, accepts public event submissions, distributes a free email newsletter and weekend roundup, and promotes local businesses, restaurants, nonprofits, artists, and community organizations. No public business phone number or street address was listed on the official website.",
+      "last_checked": "2026-07-28"
+    },
+    {
+      "slug": "schulmans-movie-bowl-grille-sherman",
+      "business_name": "Schulman's Movie Bowl Grille - Sherman",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "Sherman, TX",
+      "category": [
+        "Movie Theater",
+        "Bowling Alley",
+        "Family Entertainment Center",
+        "Arcade",
+        "Restaurant",
+        "Bar",
+        "Event Venue"
+      ],
+      "description": "Schulman's Movie Bowl Grille - Sherman is a family entertainment destination featuring first-run movies, bowling, arcade games, Billy's Grille restaurant, a full-service bar, rock wall, ropes course, Omni Arena, birthday parties, corporate events, and year-round family entertainment. The venue regularly hosts recurring promotions, seasonal events, discount movie programs, and special family activities.",
+      "phone": "903-546-5280",
+      "email": "billy@moviebowlgrille.com",
+      "website": "https://www.moviebowlgrille.com/movie-theater/sherman",
+      "facebook": "https://www.facebook.com/moviebowlgrillesherman",
+      "instagram": null,
+      "hours": {
+        "monday": "10:30-23:00",
+        "tuesday": "10:30-23:00",
+        "wednesday": "10:30-23:00",
+        "thursday": "10:30-23:00",
+        "friday": "09:30-00:00",
+        "saturday": "09:30-00:00",
+        "sunday": "10:30-23:00"
+      },
+      "hours_note": "Hours may vary for holidays, special events, and movie schedules.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Movie Premieres",
+        "Kids Movies",
+        "Summer Movie Program",
+        "Bowling Specials",
+        "Arcade Events",
+        "Holiday Events",
+        "Family Activities",
+        "Community Events",
+        "Private Events",
+        "Birthday Parties",
+        "Corporate Events",
+        "Fundraisers"
+      ],
+      "event_sources": [
+        "https://www.moviebowlgrille.com/movie-theater/sherman",
+        "https://www.moviebowlgrille.com/movie-theater/sherman/events",
+        "https://www.facebook.com/moviebowlgrillesherman"
+      ],
+      "verification_note": "Verified through the official Schulman's Movie Bowl Grille Sherman website and official Facebook page. Confirmed address: 110 E FM 1417, Sherman, TX 75090. Offers movies, bowling, arcade, Billy's Grille restaurant, bar, rock wall, ropes course, Omni Arena, birthday parties, and recurring family entertainment programs including the annual Summer Movie Magic Club.",
       "last_checked": "2026-07-28"
     }
   ]
