@@ -1841,21 +1841,28 @@
         "Community Event",
         "Fundraiser",
         "Food & Drink",
+        "Live Music",
+        "Silent Auction",
         "Lake Texoma Event",
         "Family Friendly"
       ],
       "tags": [
         "Fish Fry",
+        "Fried Catfish",
+        "Chicken Tenders",
+        "Live Music",
+        "Silent Auction",
         "Locust Fire Department",
-        "Pottsboro",
-        "Lake Texoma",
+        "Volunteer Fire Department",
         "Community Fundraiser",
+        "Sponsorship Opportunities",
         "Mill Creek Marina",
-        "Volunteer Fire Department"
+        "Pottsboro",
+        "Lake Texoma"
       ],
-      "description": "The Locust Volunteer Fire Department Annual Fish Fry returns to Mill Creek Resort and Marina on Lake Texoma. This community fundraiser supports the volunteer fire department while bringing local residents and visitors together for an evening of food and fellowship.",
-      "cost_type": "unknown",
-      "cost_details": "Admission or plate pricing has not yet been announced.",
+      "description": "The Locust Volunteer Fire Department Annual Fish Fry returns to Mill Creek Resort and Marina on Lake Texoma. The meal includes fried catfish, chicken tenders for children, hushpuppies, sides, and all the fixings. The family-friendly fundraiser will also feature live music and a silent auction. Admission is $20 for adults and $10 for children. Proceeds and sponsorships support the department's firefighters, apparatus maintenance, and the purchase of essential equipment and gear.",
+      "cost_type": "paid",
+      "cost_details": "$20 for adults and $10 for children. The meal includes fried catfish, chicken tenders for children, hushpuppies, sides, and all the fixings.",
       "ticket_url": null,
       "age_restriction": "All ages",
       "family_friendly": true,
@@ -1866,10 +1873,10 @@
       "image_url": "/images/events/locust-fire-department-annual-fish-fry-2026.png",
       "image_alt": "Locust Fire Department Annual Fish Fry at Mill Creek Resort and Marina",
       "verification_status": "verified",
-      "verification_note": "Event date, start time, venue, address, and organizer were verified. Admission or plate pricing and an official end time were not published at the time of verification.",
-      "last_checked": "2026-07-26",
+      "verification_note": "The date, 5:00 PM start time, location, meal details, admission prices, live music, silent auction, family-friendly designation, and sponsorship opportunities were verified from official Locust CVFD Facebook posts and event flyers. Admission is $20 for adults and $10 for children. No official ending time was published.",
+      "last_checked": "2026-07-28",
       "created_on": "2026-07-27",
-      "updated_on": "2026-07-27"
+      "updated_on": "2026-07-28"
     },
     {
       "id": "902-bar-and-grill-karaoke-wednesday",
