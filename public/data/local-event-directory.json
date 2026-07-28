@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 44,
-  "publish_ready_count": 44,
+  "event_count": 45,
+  "publish_ready_count": 45,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -2417,6 +2417,60 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified through the official City of Gainesville Citizen Police Academy page and the Gainesville Police Department announcement. The academy begins Thursday, August 6, 2026, and includes one three-hour class each week for 10 weeks. The weekly meeting time has not been published. Because start_datetime is required by the TWG schema, midnight is used only as a date placeholder and must not be presented as the actual class time. The newer police department announcement extends the application deadline to Thursday, July 30, 2026, at 5:00 PM, superseding the July 27 deadline still displayed on the city webpage. The program is free and open to adults age 18 or older who live or work in the Cooke County area. The supplied promotional image should be uploaded using the filename shown in image_url.",
+      "last_checked": "2026-07-27",
+      "created_on": "2026-07-27",
+      "updated_on": "2026-07-28"
+    },
+    {
+      "event_slug": "free-square-dance-lessons-pacesetters-ballroom-2026",
+      "event_name": "Free Square Dance Lessons",
+      "description": "Learn to square dance in a fun, friendly atmosphere at Pacesetters Ballroom. Free lessons are open to beginners and experienced dancers alike. No partner is required, and everyone is welcome.",
+      "start_datetime": "2026-07-28T18:30:00-05:00",
+      "end_datetime": "2026-07-28T20:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slug": "pacesetters-ballroom",
+      "venue_name": "Pacesetters Ballroom",
+      "address": "13281 S Highway 377",
+      "city": "Madill",
+      "state": "OK",
+      "postal_code": "73446",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Dance",
+        "Classes",
+        "Community",
+        "Family Friendly"
+      ],
+      "tags": [
+        "square dance",
+        "dance lessons",
+        "Pacesetters Ballroom",
+        "Madill",
+        "Texoma",
+        "free event",
+        "community"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free admission.",
+      "audience": [
+        "General Public",
+        "Beginners",
+        "Adults",
+        "Families"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/free-square-dance-lessons-pacesetters-ballroom-2026.jpg",
+      "official_url": "http://pacesettersballroom.com",
+      "facebook_url": "https://www.facebook.com/profile.php?id=100069641033840",
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=TU",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the official Pacesetters Ballroom Facebook page and current promotional flyer. Lessons are held every Tuesday from 6:30 PM to 8:30 PM. The flyer states the lessons are free, no partner is required, and everyone is welcome. Event contact is Don Pittman at 580-795-7684.",
       "last_checked": "2026-07-27",
       "created_on": "2026-07-27",
       "updated_on": "2026-07-28"
