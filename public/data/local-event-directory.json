@@ -2839,7 +2839,8 @@
       "cost_type": "paid",
       "cost_details": "$1.75 admission. Doors open at 9:30 AM and showtime is 10:00 AM.",
       "audience": [
-        "Families"
+        "Families",
+        "Children"
       ],
       "age_restriction": "All Ages",
       "image_url": "/images/events/summer-movie-magic-club-2026-schulmans-sherman.jpg",
