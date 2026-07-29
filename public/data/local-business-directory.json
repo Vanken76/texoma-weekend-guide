@@ -5,8 +5,8 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 472,
-  "publish_ready_count": 136,
+  "business_count": 473,
+  "publish_ready_count": 137,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16817,6 +16817,40 @@
         "friday": "11:00 AM–12:00 AM",
         "saturday": "9:00 AM–12:00 AM"
       }
+    },
+    {
+      "slug": "wheeler-barbecue",
+      "business_name": "Wheeler Barbecue",
+      "directory_status": "active",
+      "publish_ready": true,
+      "service_area_or_location": "Denison, Texas",
+      "category": [
+        "Barbecue Restaurant",
+        "Restaurant",
+        "Food & Drink"
+      ],
+      "description": "Wheeler Barbecue is a family-owned restaurant in Denison serving traditional Texas barbecue with a focus on quality, attention to detail, and friendly service. The menu includes smoked meats, barbecue sandwiches, plates, sides, and rotating weekly specials.",
+      "address": "211 N Highway 75",
+      "city": "Denison",
+      "state": "TX",
+      "zip_code": "75020",
+      "phone": "903-462-0587",
+      "email": "info@wheelerbbq.com",
+      "website": "https://www.wheelerbbq.com",
+      "facebook": "https://www.facebook.com/wheelerbbq",
+      "instagram": "https://www.instagram.com/wheelerbarbecue",
+      "price_range": "$$",
+      "event_venue": true,
+      "hours": {
+        "sunday": "Closed",
+        "monday": "Closed",
+        "tuesday": "8:00 AM–8:00 PM",
+        "wednesday": "8:00 AM–8:00 PM",
+        "thursday": "8:00 AM–8:00 PM",
+        "friday": "8:00 AM–9:00 PM",
+        "saturday": "8:00 AM–9:00 PM"
+      },
+      "last_checked": "2026-07-28"
     }
   ]
 }
