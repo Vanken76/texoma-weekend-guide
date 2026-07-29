@@ -5,8 +5,8 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 488,
-  "publish_ready_count": 152,
+  "business_count": 489,
+  "publish_ready_count": 153,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -17906,6 +17906,82 @@
       "ownership": "City of Sherman",
       "reservation_required": true,
       "verification_note": "Verified through the City of Sherman. Kidd-Key Auditorium is a historic municipal performing arts venue established in 1938 with seating for more than 1,300 guests. It serves as the home of the Sherman Symphony Orchestra and hosts concerts, theatrical productions, community events, and touring performances.",
+      "last_checked": "2026-07-29"
+    },
+    {
+      "slug": "oliver-dewey-mayor-gazebo-stage",
+      "business_name": "Oliver Dewey Mayor Gazebo Stage",
+      "directory_status": "active",
+      "publish_ready": true,
+      "service_area_or_location": "Sherman, TX",
+      "category": [
+        "Outdoor Concert Venue",
+        "Live Music Venue",
+        "Event Venue",
+        "Festival Venue",
+        "Community Venue",
+        "Municipal Facility"
+      ],
+      "description": "The Oliver Dewey Mayor Gazebo Stage is the City of Sherman's premier outdoor performance venue, located on the Municipal Lawn adjacent to Kidd-Key Park and Kidd-Key Auditorium. The stage hosts the annual Hot Summer Nights concert series, Sherman Arts Festival, Hispanic Heritage Festival, Earth Day Festival, community celebrations, outdoor performances, ceremonies, and other public events throughout the year.",
+      "phone": "(903) 892-7234",
+      "email": "",
+      "website": "https://cityofsherman.com/872/Kidd-Key-Park-Gazebo-Stage",
+      "facebook": "",
+      "instagram": "",
+      "hours": {
+        "monday": "By Reservation",
+        "tuesday": "By Reservation",
+        "wednesday": "By Reservation",
+        "thursday": "By Reservation",
+        "friday": "By Reservation",
+        "saturday": "By Reservation",
+        "sunday": "By Reservation"
+      },
+      "hours_note": "Available by reservation through the City of Sherman. Public events and concerts are scheduled throughout the year.",
+      "address": {
+        "street": "405 N Rusk St",
+        "city": "Sherman",
+        "state": "TX",
+        "postal_code": "75090",
+        "country": "USA"
+      },
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "highest",
+      "event_types": [
+        "Concerts",
+        "Live Music",
+        "Festivals",
+        "Community Events",
+        "Arts Festivals",
+        "Holiday Celebrations",
+        "Cultural Festivals",
+        "Outdoor Movies",
+        "Ceremonies",
+        "Family Events"
+      ],
+      "event_sources": [
+        "City of Sherman",
+        "Sherman Tourism",
+        "Sherman Arts Festival",
+        "Hot Summer Nights",
+        "Community Organizations"
+      ],
+      "features": [
+        "Covered Gazebo Stage",
+        "Large Municipal Lawn",
+        "Outdoor Concert Space",
+        "Festival Grounds",
+        "Electrical Service Available",
+        "Adjacent Parking",
+        "Wheelchair Accessible",
+        "Adjacent to Kidd-Key Park",
+        "Adjacent to Kidd-Key Auditorium"
+      ],
+      "ownership": "City of Sherman",
+      "reservation_required": true,
+      "verification_note": "Verified through the City of Sherman as a separately reservable municipal venue. The Oliver Dewey Mayor Gazebo Stage serves as the primary outdoor entertainment venue for Hot Summer Nights, Sherman Arts Festival, Hispanic Heritage Festival, Earth Day Festival, and numerous other community events.",
       "last_checked": "2026-07-29"
     }
   ]
