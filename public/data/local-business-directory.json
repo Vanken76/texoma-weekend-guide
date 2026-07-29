@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-07-28",
+  "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 470,
-  "publish_ready_count": 134,
+  "business_count": 471,
+  "publish_ready_count": 135,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16761,6 +16761,31 @@
         "Outdoor market",
         "Downtown location"
       ]
+    },
+    {
+      "slug": "pottsboro-area-public-library",
+      "business_name": "Pottsboro Area Public Library",
+      "directory_status": "active",
+      "publish_ready": true,
+      "service_area_or_location": "Pottsboro, Texas",
+      "category": "Library",
+      "description": "The Pottsboro Area Public Library is a community hub for learning, technology, health resources, events, and social connection. The library offers books and digital resources, public computers and Wi-Fi, technology assistance, a Library of Things, a seed library, children’s and adult programming, and outreach services throughout the Pottsboro area.",
+      "address": "104 N. Main St.",
+      "city": "Pottsboro",
+      "state": "TX",
+      "zip_code": "75076",
+      "phone": "903-786-8274",
+      "email": "PottsboroLibrary@gmail.com",
+      "website": "https://pottsborolibrary.com/",
+      "hours": {
+        "sunday": "1:00 PM–5:00 PM",
+        "monday": "10:00 AM–5:00 PM",
+        "tuesday": "1:00 PM–7:00 PM",
+        "wednesday": "10:00 AM–5:00 PM",
+        "thursday": "1:00 PM–5:00 PM",
+        "friday": "Closed",
+        "saturday": "Closed"
+      }
     }
   ]
 }
