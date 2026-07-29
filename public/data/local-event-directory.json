@@ -2059,11 +2059,12 @@
       "recurrence_start_date": null,
       "recurrence_end_date": null,
       "venue_name": "The George Tavern Party Room",
+      "venue_slug": "the-george-tavern",
       "address": "101 E Main St, Suite 135",
       "city": "Denison",
       "state": "TX",
       "zip_code": "75021",
-      "organizer_name": "Among the Pages",
+      "organizer_name": "Among the Pages and Pen & Page Weathered Books",
       "organizer_email": null,
       "organizer_phone": null,
       "categories": [
@@ -2083,12 +2084,12 @@
         "Katy Depot",
         "Denison"
       ],
-      "description": "Among the Pages and Pen & Page Weathered Books present a Bookish Craft Club workshop where participants will create custom sprayed edges on a book. All materials are provided; attendees only need to bring a book. Hardcover books are recommended, although paperback books may also be used. Seating is limited.",
+      "description": "Among the Pages and Pen & Page Weathered Books present a Bookish Craft Club workshop where participants will create custom sprayed edges on a book. All craft supplies and step-by-step guidance are provided. Non-alcoholic drinks and appetizers are included, and the full George Tavern menu will be available for additional food and beverage purchases. Attendees should bring a book, with a hardback book preferred for the best results. The event is open to ages 18 and older, and seating is limited.",
       "cost_type": "paid",
       "cost_details": "$35 per person.",
       "ticket_url": null,
-      "age_restriction": null,
-      "family_friendly": true,
+      "age_restriction": "18+",
+      "family_friendly": false,
       "indoor_outdoor": "indoor",
       "website_url": "https://bookshop.org/shop/amongthepagesbooks",
       "facebook_url": "https://www.facebook.com/profile.php?id=61578239519543",
@@ -2096,10 +2097,10 @@
       "image_url": "/images/events/bookish-craft-club-sprayed-edges-denison-2026-07-30.jpg",
       "image_alt": "Bookish Craft Club sprayed-edges class flyer presented by Among the Pages and Pen & Page Weathered Books",
       "verification_status": "verified",
-      "verification_note": "The event date, time, venue, address, admission price, class description, materials information, limited seating, and participating businesses were verified from the official Among the Pages Facebook post and event flyer.",
-      "last_checked": "2026-07-27",
+      "verification_note": "The event date, time, George Tavern Party Room location, address, admission price, 18+ age restriction, class description, included supplies, step-by-step guidance, non-alcoholic drinks, appetizers, hardback-book recommendation, limited seating, and participating businesses were verified from the official Facebook event, organizer post, and event flyer.",
+      "last_checked": "2026-07-29",
       "created_on": "2026-07-27",
-      "updated_on": "2026-07-27"
+      "updated_on": "2026-07-29"
     },
     {
       "event_slug": "hank-williams-jr-lucas-oil-live-2026-09-18",
