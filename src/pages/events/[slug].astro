@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import directory from "../../../public/data/local-event-directory.json";
+import businessDirectory from "../../../public/data/local-business-directory.json";
 
 export function getStaticPaths() {
   return (directory.events ?? [])
@@ -12,6 +13,26 @@ export function getStaticPaths() {
 }
 
 const { event } = Astro.props;
+const businesses = businessDirectory.businesses ?? [];
+const businessBySlug = new Map(businesses.map((business) => [business.slug, business]));
+const toArray = (value) => Array.isArray(value) ? value : value ? [value] : [];
+const venueSlugs = [...new Set([
+  ...toArray(event.venue_slugs),
+  ...toArray(event.venue_slug),
+  ...toArray(event.secondary_venue_slugs)
+].filter(Boolean))];
+const linkedVenues = venueSlugs.map((slug) => {
+  const business = businessBySlug.get(slug);
+  return { slug, name: business?.business_name || slug, href: `/businesses/${slug}/` };
+});
+const hostBusiness = event.host_business_slug ? businessBySlug.get(event.host_business_slug) : null;
+const linkedPartners = toArray(event.partner_business_slugs).map((slug) => {
+  const business = businessBySlug.get(slug);
+  return { slug, name: business?.business_name || slug, href: `/businesses/${slug}/` };
+});
+const partnerNames = [...new Set([...toArray(event.partner_names), ...toArray(event.partner_organizations)].filter(Boolean))];
+const primaryVenue = linkedVenues[0] || null;
+const venueDisplayNames = linkedVenues.length ? linkedVenues.map((venue) => venue.name) : toArray(event.venue_name);
 
 const formatDate = (value) => value
   ? new Intl.DateTimeFormat("en-US", {
@@ -104,9 +125,8 @@ const statusLabel = statusLabels[event.status] || event.status;
 const location = [event.address, event.city, event.state, event.postal_code].filter(Boolean).join(", ");
 const mapUrl = location ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(location)}` : null;
 const officialUrl = event.facebook_url || event.official_url;
-const venueUrl = event.venue_slug ? `/businesses/${event.venue_slug}/` : null;
 const title = `${event.event_name} | Texoma Weekend Guide`;
-const description = event.description || `${event.event_name} at ${event.venue_name || "a Texoma venue"}.`;
+const description = event.description || `${event.event_name} at ${venueDisplayNames.join(" and ") || "a Texoma venue"}.`;
 ---
 
 <BaseLayout title={title} description={description} image={event.image_url || undefined}>
@@ -136,9 +156,11 @@ const description = event.description || `${event.event_name} at ${event.venue_n
             </>
           )}
         </p>
-        {event.venue_name && (
+        {venueDisplayNames.length > 0 && (
           <p class="venue">
-            {venueUrl ? <a href={venueUrl}>{event.venue_name}</a> : event.venue_name}
+            {linkedVenues.length > 0
+              ? linkedVenues.map((venue, index) => <>{index > 0 ? " · " : ""}<a href={venue.href}>{venue.name}</a></>)
+              : venueDisplayNames.join(" · ")}
             {event.city ? ` · ${event.city}, ${event.state}` : ""}
           </p>
         )}
@@ -146,7 +168,7 @@ const description = event.description || `${event.event_name} at ${event.venue_n
         <div class="primary-actions">
           {event.ticket_url && <a class="button ticket" href={event.ticket_url} target="_blank" rel="noopener noreferrer">Buy tickets</a>}
           {officialUrl && <a class="button official" href={officialUrl} target="_blank" rel="noopener noreferrer">Official event information</a>}
-          {venueUrl && <a class="button venue-button" href={venueUrl}>View venue page</a>}
+          {primaryVenue && <a class="button venue-button" href={primaryVenue.href}>View primary venue</a>}
           {mapUrl && <a class="button secondary" href={mapUrl} target="_blank" rel="noopener noreferrer">Get directions</a>}
         </div>
       </div>
@@ -184,8 +206,10 @@ const description = event.description || `${event.event_name} at ${event.venue_n
           {event.cost_details && <><dt>Admission</dt><dd>{event.cost_details}</dd></>}
           {event.age_restriction && <><dt>Age</dt><dd>{event.age_restriction}</dd></>}
           {event.audience?.length > 0 && <><dt>Audience</dt><dd>{event.audience.join(", ")}</dd></>}
-          {event.organizer_name && <><dt>Organizer</dt><dd>{event.organizer_name}</dd></>}
-          {event.venue_name && <><dt>Venue</dt><dd>{venueUrl ? <a href={venueUrl}>{event.venue_name}</a> : event.venue_name}</dd></>}
+          {(hostBusiness || event.organizer_name) && <><dt>Organizer</dt><dd>{hostBusiness ? <a href={`/businesses/${hostBusiness.slug}/`}>{hostBusiness.business_name}</a> : event.organizer_name}</dd></>}
+          {linkedPartners.length > 0 && <><dt>Partners</dt><dd>{linkedPartners.map((partner, index) => <>{index > 0 ? ", " : ""}<a href={partner.href}>{partner.name}</a></>)}</dd></>}
+          {partnerNames.length > 0 && <><dt>Other partners</dt><dd>{partnerNames.join(", ")}</dd></>}
+          {venueDisplayNames.length > 0 && <><dt>{venueDisplayNames.length > 1 ? "Venues" : "Venue"}</dt><dd>{linkedVenues.length > 0 ? linkedVenues.map((venue, index) => <>{index > 0 ? ", " : ""}<a href={venue.href}>{venue.name}</a></>) : venueDisplayNames.join(", ")}</dd></>}
           {location && <><dt>Location</dt><dd>{location}</dd></>}
           {event.last_checked && <><dt>Last verified</dt><dd>{formatDateOnly(event.last_checked)}</dd></>}
         </dl>
