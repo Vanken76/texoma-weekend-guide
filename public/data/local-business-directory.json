@@ -5,8 +5,8 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 485,
-  "publish_ready_count": 149,
+  "business_count": 486,
+  "publish_ready_count": 150,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -17695,6 +17695,69 @@
         "Meeting Space"
       ],
       "verification_note": "Verified through the official VFW Post 2772 website and official Facebook page. The official site lists the Sherman address, phone number, operating hours, public access, weekday kitchen hours, recurring Wednesday open mic nights, karaoke dates and other veterans and community events.",
+      "last_checked": "2026-07-29"
+    },
+    {
+      "slug": "lucy-kidd-key-park",
+      "business_name": "Lucy Kidd-Key Park",
+      "directory_status": "active",
+      "publish_ready": true,
+      "service_area_or_location": "Sherman, TX",
+      "category": [
+        "Park",
+        "Community Park",
+        "Event Venue",
+        "Outdoor Recreation"
+      ],
+      "description": "Lucy Kidd-Key Park is a public park in Sherman featuring green space, playgrounds, athletic facilities, and the adjacent Municipal Ballroom. The park regularly hosts festivals, community celebrations, nonprofit events, vendor markets, holiday activities, and family-friendly gatherings throughout the year.",
+      "phone": "(903) 892-7344",
+      "email": "",
+      "website": "https://www.shermantexas.gov",
+      "facebook": "",
+      "instagram": "",
+      "address": {
+        "street": "405 N Rusk St",
+        "city": "Sherman",
+        "state": "TX",
+        "postal_code": "75090",
+        "country": "USA"
+      },
+      "hours": {
+        "monday": "Open Daily",
+        "tuesday": "Open Daily",
+        "wednesday": "Open Daily",
+        "thursday": "Open Daily",
+        "friday": "Open Daily",
+        "saturday": "Open Daily",
+        "sunday": "Open Daily"
+      },
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Community Events",
+        "Festivals",
+        "Vendor Markets",
+        "Holiday Events",
+        "Family Activities",
+        "Charity Events",
+        "Outdoor Events"
+      ],
+      "event_sources": [
+        "City of Sherman",
+        "Official Facebook Pages",
+        "Community Organizations"
+      ],
+      "features": [
+        "Municipal Ballroom",
+        "Playground",
+        "Picnic Areas",
+        "Open Green Space",
+        "Outdoor Event Space",
+        "Parking"
+      ],
+      "verification_note": "Verified as a City of Sherman public park and event venue. Frequently used for community festivals, nonprofit events, and family activities.",
       "last_checked": "2026-07-29"
     }
   ]
