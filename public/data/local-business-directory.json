@@ -5,8 +5,8 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 482,
-  "publish_ready_count": 146,
+  "business_count": 483,
+  "publish_ready_count": 147,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -17498,6 +17498,69 @@
         "Downtown Denison",
         "Denison ISD Facility"
       ]
+    },
+    {
+      "slug": "vfw-post-1922-gainesville",
+      "business_name": "VFW Post 1922",
+      "directory_status": "active",
+      "publish_ready": true,
+      "service_area_or_location": "Gainesville, TX",
+      "category": [
+        "Veterans Organization",
+        "Nonprofit Organization",
+        "Community Organization",
+        "Event Venue"
+      ],
+      "description": "VFW Post 1922 is a Veterans of Foreign Wars post serving Gainesville and Cooke County. The post provides support and fellowship for veterans while also serving as a community gathering place that hosts live music, dances, karaoke, fundraisers, holiday celebrations, benefit events, and other public activities throughout the year.",
+      "phone": "(940) 665-9054",
+      "email": "",
+      "website": "",
+      "facebook": "https://www.facebook.com/profile.php?id=61577159529648",
+      "instagram": "",
+      "hours": {
+        "monday": "7:00 AM - 10:45 PM",
+        "tuesday": "7:00 AM - 10:45 PM",
+        "wednesday": "7:00 AM - 10:45 PM",
+        "thursday": "7:00 AM - 10:45 PM",
+        "friday": "7:00 AM - 11:45 PM",
+        "saturday": "7:00 AM - 12:30 AM",
+        "sunday": "12:00 PM - 10:45 PM"
+      },
+      "hours_note": "Hours should be verified before visiting as event schedules may affect operating times.",
+      "address": {
+        "street": "3332 N Grand Ave",
+        "city": "Gainesville",
+        "state": "TX",
+        "postal_code": "76240",
+        "country": "USA"
+      },
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Live Music",
+        "Karaoke",
+        "Community Events",
+        "Fundraisers",
+        "Veterans Events",
+        "Holiday Events",
+        "Dances",
+        "Benefit Events"
+      ],
+      "event_sources": [
+        "Official Facebook Page",
+        "VFW 1922 Canteen Facebook Group"
+      ],
+      "features": [
+        "Veteran Services",
+        "Community Gathering Space",
+        "Live Entertainment",
+        "Wheelchair Accessible",
+        "Meeting Space"
+      ],
+      "verification_note": "Business information verified through the official Facebook page, Texas VFW resources, and local business listings. Public event activity is promoted primarily through the official Facebook page and the VFW 1922 Canteen Facebook group.",
+      "last_checked": "2026-07-29"
     }
   ]
 }
