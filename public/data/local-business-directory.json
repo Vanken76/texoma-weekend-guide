@@ -5,8 +5,8 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 483,
-  "publish_ready_count": 147,
+  "business_count": 484,
+  "publish_ready_count": 148,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -17560,6 +17560,70 @@
         "Meeting Space"
       ],
       "verification_note": "Business information verified through the official Facebook page, Texas VFW resources, and local business listings. Public event activity is promoted primarily through the official Facebook page and the VFW 1922 Canteen Facebook group.",
+      "last_checked": "2026-07-29"
+    },
+    {
+      "slug": "vfw-1922-canteen",
+      "business_name": "VFW 1922 Canteen",
+      "directory_status": "active",
+      "publish_ready": true,
+      "service_area_or_location": "Gainesville, TX",
+      "category": [
+        "Bar",
+        "Event Venue",
+        "Live Music Venue",
+        "Community Venue"
+      ],
+      "description": "The VFW 1922 Canteen is the public social venue located inside VFW Post 1922 in Gainesville. The canteen regularly hosts live music, karaoke, dances, themed parties, fundraisers, benefit events, and other community gatherings while helping support the mission of the Veterans of Foreign Wars.",
+      "phone": "(940) 665-9054",
+      "email": "",
+      "website": "",
+      "facebook": "https://www.facebook.com/groups/61577159529648",
+      "instagram": "",
+      "hours": {
+        "monday": "7:00 AM - 10:45 PM",
+        "tuesday": "7:00 AM - 10:45 PM",
+        "wednesday": "7:00 AM - 10:45 PM",
+        "thursday": "7:00 AM - 10:45 PM",
+        "friday": "7:00 AM - 11:45 PM",
+        "saturday": "7:00 AM - 12:30 AM",
+        "sunday": "12:00 PM - 10:45 PM"
+      },
+      "hours_note": "Hours may vary depending on scheduled events and entertainment.",
+      "address": {
+        "street": "3332 N Grand Ave",
+        "city": "Gainesville",
+        "state": "TX",
+        "postal_code": "76240",
+        "country": "USA"
+      },
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "highest",
+      "event_types": [
+        "Live Music",
+        "Karaoke",
+        "Dances",
+        "Beach Parties",
+        "Benefit Events",
+        "Fundraisers",
+        "Holiday Events",
+        "Community Events"
+      ],
+      "event_sources": [
+        "VFW 1922 Canteen Facebook Group",
+        "Official VFW Post 1922 Facebook Page"
+      ],
+      "features": [
+        "Full Bar",
+        "Dance Floor",
+        "Live Entertainment",
+        "Community Gathering Space",
+        "Veteran Friendly",
+        "Wheelchair Accessible"
+      ],
+      "verification_note": "The canteen operates within VFW Post 1922 and serves as the primary public entertainment venue where recurring events are promoted through the VFW 1922 Canteen Facebook group and the official VFW Post 1922 Facebook page. Public reviews also describe it as a venue for music, dancing, and social events. 1",
       "last_checked": "2026-07-29"
     }
   ]
