@@ -63,7 +63,7 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 68,
+  "event_count": 69,
   "publish_ready_count": 67,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
@@ -3746,6 +3746,60 @@
       ],
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_name": "Grand Opening & Ribbon Cutting – Buxton Nook",
+      "event_slug": "grand-opening-ribbon-cutting-buxton-nook-2026-07-30",
+      "start_datetime": "2026-07-30T17:00:00-05:00",
+      "end_datetime": "2026-07-30T18:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "cost_type": "free",
+      "cost": "",
+      "summary": "Celebrate the grand opening of Buxton Nook's new Pottsboro location with the Pottsboro Area Chamber of Commerce. Meet the owners, tour the new shop, and help welcome one of Pottsboro's newest Chamber members.",
+      "description": "Join the Pottsboro Area Chamber of Commerce as they celebrate the grand opening and ribbon cutting for Buxton Nook at its new location. Community members are invited to meet the team, explore the beautiful new store, and show their support for this growing local business. The event is free and open to the public.",
+      "featured_image": "",
+      "address": "206 W FM 120",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "is_recurring": false,
+      "recurring_rule": "",
+      "facebook_event_url": "https://www.facebook.com/events/",
+      "website_url": "https://pottsborochamber.com",
+      "ticket_url": "https://pottsborochamber.com",
+      "contact_name": "Missy Weaver",
+      "contact_email": "",
+      "contact_phone": "",
+      "tags": [
+        "Pottsboro",
+        "Grand Opening",
+        "Ribbon Cutting",
+        "Chamber of Commerce",
+        "Shopping",
+        "Local Business"
+      ],
+      "seo_title": "Grand Opening & Ribbon Cutting – Buxton Nook | Texoma Weekend Guide",
+      "seo_description": "Celebrate the grand opening and ribbon cutting for Buxton Nook's new Pottsboro location on July 30, 2026 from 5:00–6:00 PM.",
+      "source": "Pottsboro Area Chamber of Commerce",
+      "verified": true,
+      "featured": false,
+      "venue_slugs": [
+        "buxton-nook"
+      ],
+      "categories": [
+        "Community",
+        "Grand Opening",
+        "Ribbon Cutting",
+        "Networking"
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "organizer_name": "Pottsboro Area Chamber of Commerce",
+      "image_url": "/images/events/grand-opening-ribbon-cutting-buxton-nook-2026-07-30.jpg",
+      "created_on": "2026-07-29",
+      "updated_on": "2026-07-29",
+      "last_checked": "2026-07-29"
     }
   ]
 }
