@@ -5,8 +5,8 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 475,
-  "publish_ready_count": 139,
+  "business_count": 476,
+  "publish_ready_count": 140,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16978,6 +16978,81 @@
         "Private Party Rooms",
         "Family Friendly",
         "Indoor"
+      ]
+    },
+    {
+      "slug": "denison-public-library",
+      "business_name": "Denison Public Library",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "300 W Gandy St, Denison, TX 75020",
+      "category": [
+        "Public Library",
+        "Education",
+        "Community Resource",
+        "Government",
+        "Event Venue"
+      ],
+      "description": "Denison Public Library is a public library and community learning center serving Denison and the surrounding area. The library connects people with books, information, technology, educational resources, and public programming for children, teens, adults, and families. Regular activities include story times, reading programs, workshops, educational presentations, book-related programs, crafts, and community events.",
+      "phone": "903-465-1797",
+      "email": "library@cityofdenison.com",
+      "website": "https://www.denisontx.gov/255/Library",
+      "facebook": "https://www.facebook.com/DenisonPublicLibrary",
+      "instagram": "",
+      "hours": {
+        "monday": "9:00 AM–5:00 PM",
+        "tuesday": "9:00 AM–7:00 PM",
+        "wednesday": "9:00 AM–5:00 PM",
+        "thursday": "9:00 AM–7:00 PM",
+        "friday": "9:00 AM–5:00 PM",
+        "saturday": "9:00 AM–1:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Hours may change for city holidays, weather closures, special programs, or other municipal schedule changes.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Address, phone number, email address, operating hours, official website, Facebook page, and public-programming role were verified using the City of Denison library information and the official Denison Public Library Facebook page. The library regularly promotes educational, literary, family, health, and community programs.",
+      "last_checked": "2026-07-29",
+      "event_types": [
+        "Children's Programs",
+        "Teen Programs",
+        "Adult Programs",
+        "Story Times",
+        "Book Clubs",
+        "Summer Reading Programs",
+        "Arts and Crafts",
+        "Educational Workshops",
+        "Lunch and Learn Programs",
+        "Health Presentations",
+        "Community Events",
+        "Holiday Programs"
+      ],
+      "event_sources": [
+        "https://www.facebook.com/DenisonPublicLibrary",
+        "https://www.denisontx.gov/255/Library"
+      ],
+      "features": [
+        "Books",
+        "Audiobooks",
+        "Digital Resources",
+        "Public Computers",
+        "Wi-Fi",
+        "Printing and Copying",
+        "Scanning",
+        "Research Assistance",
+        "Library Cards",
+        "Interlibrary Loan",
+        "Children's Programming",
+        "Teen Programming",
+        "Adult Programming",
+        "Summer Reading Program",
+        "Community Education",
+        "Public Events",
+        "Indoor",
+        "Family Friendly",
+        "Wheelchair Accessible"
       ]
     }
   ]
