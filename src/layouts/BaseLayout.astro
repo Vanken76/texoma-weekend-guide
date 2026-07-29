@@ -21,6 +21,7 @@ const socialImageURL = new URL(image, siteURL);
 const isEventAdmin = Astro.url.pathname === "/admin-events" || Astro.url.pathname === "/admin-events/";
 const isEventsPage = Astro.url.pathname === "/events" || Astro.url.pathname === "/events/";
 const isBusinessesPage = Astro.url.pathname === "/businesses" || Astro.url.pathname === "/businesses/";
+const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname === "/support/";
 ---
 
 <!doctype html>
@@ -64,5 +65,6 @@ const isBusinessesPage = Astro.url.pathname === "/businesses" || Astro.url.pathn
     {isEventsPage && <script is:inline src="/event-detail-links.js?v=1"></script>}
     {isEventsPage && <script is:inline src="/event-filter-links.js?v=2"></script>}
     {isBusinessesPage && <script is:inline src="/business-directory-among-the-pages-fix.js?v=1"></script>}
+    {isSupportPage && <script is:inline src="/support-listing-clarification.js?v=1"></script>}
   </body>
 </html>
