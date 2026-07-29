@@ -4,7 +4,7 @@
 
   const makeKey = (name, date) => `${String(name || "").trim().toLowerCase()}|${String(date || "").slice(0, 10)}`;
 
-  fetch("/data/local-event-directory.json")
+  fetch(`/data/local-event-directory.json?v=${Date.now()}`, { cache: "no-store" })
     .then((response) => {
       if (!response.ok) throw new Error("Unable to load event directory");
       return response.json();
@@ -31,7 +31,10 @@
         titleLink.className = "event-title-link";
         heading.replaceChildren(titleLink);
 
-        if (!actions.querySelector(".detail-link")) {
+        const existingDetailLink = actions.querySelector(".detail-link");
+        if (existingDetailLink) {
+          existingDetailLink.href = url;
+        } else {
           const detailLink = document.createElement("a");
           detailLink.href = url;
           detailLink.className = "detail-link";
