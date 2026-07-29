@@ -18034,7 +18034,7 @@
       "business_name": "Buxton Nook",
       "directory_status": "complete",
       "publish_ready": true,
-      "service_area_or_location": "111 E FM 120, Suite 101, Pottsboro, TX 75076",
+      "service_area_or_location": "206 W FM 120, Pottsboro, TX 75076",
       "category": [
         "Boutique",
         "Gift Shop",
@@ -18044,7 +18044,7 @@
         "Specialty Retail",
         "Event Venue"
       ],
-      "description": "A locally owned Pottsboro boutique and specialty shop offering fine jewelry, jewelry repairs and appraisals, books, loose-leaf teas, local honey, pantry goods, gifts, artwork, lake-life merchandise and seasonal items. Buxton Nook also hosts community activities including recurring story times and special shopping events.",
+      "description": "A locally owned Pottsboro boutique and specialty shop offering fine jewelry, jewelry repairs and appraisals, books, loose-leaf teas, local honey, pantry goods, gifts, artwork, lake-life merchandise and seasonal items. Buxton Nook also hosts community activities, recurring story times, shopping events and other special gatherings.",
       "phone": "903-717-0222",
       "email": null,
       "website": "https://buxtonnook.com",
@@ -18059,7 +18059,7 @@
         "saturday": "10:30 AM–2:00 PM",
         "sunday": "Closed"
       },
-      "hours_note": "Check the official website or Facebook page for holiday hours and special-event hours.",
+      "hours_note": "Buxton Nook is moving to its new location at 206 W FM 120. Verify regular hours after the grand opening and check the official website or Facebook page for updates.",
       "event_venue": true,
       "recurring_events": true,
       "mine_for_events": true,
@@ -18074,10 +18074,10 @@
       ],
       "event_sources": [
         "Official website",
-        "Pottsboro Area Chamber of Commerce calendar",
-        "Facebook posts"
+        "Official Facebook page",
+        "Pottsboro Area Chamber of Commerce calendar"
       ],
-      "verification_note": "Business details, hours, Facebook page and recurring story-time programming were verified through official Buxton Nook and Pottsboro Area Chamber of Commerce sources.",
+      "verification_note": "The Pottsboro Area Chamber of Commerce identifies 206 W FM 120 as Buxton Nook's new location for its July 30, 2026 grand opening and ribbon cutting. Previously published address information referred to the former location. Confirm regular operating hours after the move.",
       "last_checked": "2026-07-29"
     }
   ]
