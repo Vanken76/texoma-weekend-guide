@@ -5,8 +5,8 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 477,
-  "publish_ready_count": 141,
+  "business_count": 478,
+  "publish_ready_count": 142,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -17139,6 +17139,73 @@
         "Indoor",
         "Family Friendly",
         "Wheelchair Accessible"
+      ]
+    },
+    {
+      "slug": "the-barn-grill",
+      "business_name": "The Barn Grill",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "4906 FM 1417, Denison, TX 75020",
+      "category": [
+        "Restaurant",
+        "American Restaurant",
+        "Burger Restaurant",
+        "Breakfast Restaurant",
+        "Fast Casual"
+      ],
+      "description": "The Barn Grill is a locally owned restaurant serving Denison and the Texoma area with fresh, made-to-order comfort food. Known for its burgers, breakfast, Barn Fries, sandwiches, baskets, Tex-Mex favorites, and hand-spun shakes, The Barn Grill offers dine-in, drive-thru, takeout, and delivery in a family-friendly atmosphere.",
+      "phone": "903-786-9012",
+      "email": "",
+      "website": "https://www.thebarngrilltx.com",
+      "facebook": "https://www.facebook.com/profile.php?id=100090164114354",
+      "instagram": "",
+      "hours": {
+        "monday": "7:00 AM–8:00 PM",
+        "tuesday": "7:00 AM–8:00 PM",
+        "wednesday": "7:00 AM–8:00 PM",
+        "thursday": "7:00 AM–8:00 PM",
+        "friday": "7:00 AM–8:00 PM",
+        "saturday": "7:00 AM–8:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Hours are subject to change for holidays or special circumstances.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "verification_note": "Business information, address, phone number, website, menu offerings, and services were verified through the official Barn Grill website and the official Facebook page. While the restaurant maintains an Events section on its website, no regularly scheduled public events were identified during verification.",
+      "last_checked": "2026-07-29",
+      "event_types": [
+        "Food Specials",
+        "Holiday Specials",
+        "Community Promotions",
+        "Fundraisers",
+        "Seasonal Events"
+      ],
+      "event_sources": [
+        "https://www.thebarngrilltx.com/events",
+        "https://www.facebook.com/profile.php?id=100090164114354"
+      ],
+      "features": [
+        "Breakfast",
+        "Burgers",
+        "Barn Fries",
+        "Sandwiches",
+        "Baskets",
+        "Tex-Mex",
+        "Comfort Food",
+        "Hand-Spun Shakes",
+        "Dine-In",
+        "Drive-Thru",
+        "Takeout",
+        "Delivery",
+        "Family Friendly",
+        "Kids Menu",
+        "Made-to-Order Meals",
+        "Free Parking",
+        "Wheelchair Accessible",
+        "Locally Owned"
       ]
     }
   ]
