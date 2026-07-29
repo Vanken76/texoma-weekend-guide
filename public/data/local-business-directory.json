@@ -5,8 +5,8 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 480,
-  "publish_ready_count": 144,
+  "business_count": 481,
+  "publish_ready_count": 145,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -17328,6 +17328,84 @@
         "Upfront Pricing",
         "Locally Owned",
         "Serving Texoma"
+      ]
+    },
+    {
+      "slug": "forest-park-denison",
+      "business_name": "Forest Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "300 W Crawford St, Denison, TX 75020",
+      "category": [
+        "Park",
+        "Community Park",
+        "Outdoor Event Venue",
+        "Concert Venue",
+        "Festival Venue",
+        "Family Attraction",
+        "City Park"
+      ],
+      "description": "Forest Park is one of Denison's premier community gathering places and one of the city's primary outdoor event venues. Located just west of historic Downtown Denison, the park regularly hosts concerts, festivals, community celebrations, family activities, and other public events throughout the year, including the popular Music on Main concert series. The park features a seasonal splash pad, playground, gazebo, pavilion, paved walking path, open green space, picnic areas, and rentable facilities for private gatherings and community events.",
+      "phone": "903-465-2720",
+      "email": "",
+      "website": "https://www.denisontx.gov/Facilities/Facility/Details/Forest-Park-15",
+      "facebook": "https://www.facebook.com/DenisonParksandRec",
+      "instagram": "",
+      "hours": {
+        "monday": "5:00 AM - 11:00 PM",
+        "tuesday": "5:00 AM - 11:00 PM",
+        "wednesday": "5:00 AM - 11:00 PM",
+        "thursday": "5:00 AM - 11:00 PM",
+        "friday": "5:00 AM - 11:00 PM",
+        "saturday": "5:00 AM - 11:00 PM",
+        "sunday": "5:00 AM - 11:00 PM"
+      },
+      "hours_note": "Closing times do not apply during City of Denison Parks & Recreation sanctioned events or properly permitted activities.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "highest",
+      "verification_note": "Verified through the official City of Denison Parks & Recreation website, official Forest Park facility page, Discover Denison, and the official Denison Parks & Recreation Facebook page. Forest Park is one of Texoma Weekend Guide's primary event venues and regularly hosts Music on Main concerts, community festivals, holiday celebrations, and numerous public events.",
+      "last_checked": "2026-07-29",
+      "event_types": [
+        "Live Music",
+        "Concerts",
+        "Festivals",
+        "Holiday Celebrations",
+        "Community Events",
+        "Family Events",
+        "City Celebrations",
+        "Outdoor Movies",
+        "Public Gatherings",
+        "Special Events"
+      ],
+      "event_sources": [
+        "Official Website",
+        "Facebook"
+      ],
+      "features": [
+        "Music on Main Venue",
+        "Outdoor Concert Venue",
+        "Festival Grounds",
+        "Community Events",
+        "Gazebo",
+        "Pavilion",
+        "Splash Pad",
+        "Playground",
+        "Paved Walking Path",
+        "Open Green Space",
+        "Picnic Tables",
+        "Park Benches",
+        "Restrooms",
+        "Drinking Fountain",
+        "Electricity Available",
+        "Wheelchair Accessible",
+        "Gazebo Rentals",
+        "Pavilion Rentals",
+        "Family Friendly",
+        "Downtown Denison",
+        "City of Denison Park",
+        "Public Park"
       ]
     }
   ]
