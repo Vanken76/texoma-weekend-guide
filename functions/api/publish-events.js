@@ -9,6 +9,7 @@ const ALLOWED_IMAGE_TYPES = new Map([
   ["image/webp", "webp"]
 ]);
 const MAX_IMAGE_BYTES = 8 * 1024 * 1024;
+const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 const jsonResponse = (body, status = 200) => new Response(JSON.stringify(body), {
   status,
@@ -50,6 +51,45 @@ const githubJson = async (token, path, options = {}) => {
   return result;
 };
 
+const stringArray = (value) => Array.isArray(value)
+  ? [...new Set(value.filter((item) => typeof item === "string").map((item) => item.trim()).filter(Boolean))]
+  : typeof value === "string" && value.trim() ? [value.trim()] : [];
+
+const normalizeEvent = (submittedEvent) => {
+  const event = { ...submittedEvent };
+
+  event.venue_slugs = stringArray([
+    ...stringArray(event.venue_slugs),
+    ...stringArray(event.venue_slug),
+    ...stringArray(event.secondary_venue_slugs)
+  ]);
+
+  event.categories = stringArray([
+    ...stringArray(event.categories),
+    ...stringArray(event.event_category)
+  ]);
+
+  event.partner_business_slugs = stringArray(event.partner_business_slugs);
+  event.partner_names = stringArray([
+    ...stringArray(event.partner_names),
+    ...stringArray(event.partner_organizations)
+  ]);
+
+  if (!event.organizer_name && typeof event.host_name === "string") {
+    event.organizer_name = event.host_name.trim();
+  }
+
+  delete event.venue_slug;
+  delete event.secondary_venue_slugs;
+  delete event.event_category;
+  delete event.host_name;
+  delete event.partner_organizations;
+
+  return event;
+};
+
+const invalidSlugs = (values) => values.filter((slug) => !SLUG_PATTERN.test(slug));
+
 const validateEvent = (event) => {
   const problems = [];
   if (!event || typeof event !== "object" || Array.isArray(event)) {
@@ -57,12 +97,19 @@ const validateEvent = (event) => {
   }
   if (!event.event_name || typeof event.event_name !== "string") problems.push("event_name is required.");
   if (!event.event_slug || typeof event.event_slug !== "string") problems.push("event_slug is required.");
-  else if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(event.event_slug)) problems.push("event_slug must use lowercase letters, numbers, and single hyphens only.");
+  else if (!SLUG_PATTERN.test(event.event_slug)) problems.push("event_slug must use lowercase letters, numbers, and single hyphens only.");
   if (!event.start_datetime || Number.isNaN(Date.parse(event.start_datetime))) problems.push("start_datetime is required and must be a valid date and time.");
   if (event.end_datetime && Number.isNaN(Date.parse(event.end_datetime))) problems.push("end_datetime must be null or a valid date and time.");
   if (event.end_datetime && event.start_datetime && Date.parse(event.end_datetime) < Date.parse(event.start_datetime)) problems.push("end_datetime cannot be before start_datetime.");
   if (!ALLOWED_STATUSES.has(event.status)) problems.push("status must be draft, upcoming, recurring, postponed, canceled, or ended.");
   if (!ALLOWED_COST_TYPES.has(event.cost_type)) problems.push("cost_type must be free, paid, donation, varies, or unknown.");
+  if (!Array.isArray(event.venue_slugs) || event.venue_slugs.length === 0) problems.push("venue_slugs is required and must contain at least one venue slug.");
+  else if (invalidSlugs(event.venue_slugs).length) problems.push("Every venue_slugs value must use lowercase letters, numbers, and single hyphens only.");
+  if (event.host_business_slug && !SLUG_PATTERN.test(event.host_business_slug)) problems.push("host_business_slug must use lowercase letters, numbers, and single hyphens only.");
+  if (!Array.isArray(event.partner_business_slugs)) problems.push("partner_business_slugs must be an array when provided.");
+  else if (invalidSlugs(event.partner_business_slugs).length) problems.push("Every partner_business_slugs value must use lowercase letters, numbers, and single hyphens only.");
+  if (!Array.isArray(event.partner_names)) problems.push("partner_names must be an array when provided.");
+  if (!Array.isArray(event.categories)) problems.push("categories must be an array.");
   if (event.image_url && !/^\/images\/events\/[a-z0-9-]+\.(jpg|png|webp)$/.test(event.image_url)) problems.push("image_url must use /images/events/event-slug.jpg, .png, or .webp.");
   return problems;
 };
@@ -92,6 +139,7 @@ export const onRequestPost = async ({ request, env }) => {
     return jsonResponse({ error: "The submitted event content is not valid JSON." }, 400);
   }
 
+  event = normalizeEvent(event);
   removeSlugs = Array.isArray(removeSlugs)
     ? removeSlugs.filter((slug) => typeof slug === "string" && slug.trim()).map((slug) => slug.trim())
     : [];
