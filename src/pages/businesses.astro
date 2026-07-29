@@ -6,12 +6,22 @@ const jsonPath = new URL("public/data/local-business-directory.json", `file://${
 const raw = await fs.readFile(jsonPath, "utf-8");
 const directory = JSON.parse(raw);
 
+const toCategoryArray = (category) => {
+  if (Array.isArray(category)) return category.filter(Boolean);
+  if (typeof category === "string" && category.trim()) return [category.trim()];
+  return [];
+};
+
 const businesses = directory.businesses
   .filter((business) => business.publish_ready === true)
+  .map((business) => ({
+    ...business,
+    category: toCategoryArray(business.category)
+  }))
   .sort((a, b) => a.business_name.localeCompare(b.business_name));
 
 const categories = [...new Set(
-  businesses.flatMap((business) => business.category ?? [])
+  businesses.flatMap((business) => business.category)
 )].sort((a, b) => a.localeCompare(b));
 
 const locations = [...new Set(
@@ -77,19 +87,19 @@ const locations = [...new Set(
           class="business-card"
           data-name={business.business_name.toLowerCase()}
           data-location={(business.service_area_or_location ?? "").toLowerCase()}
-          data-categories={(business.category ?? []).join("|").toLowerCase()}
+          data-categories={business.category.join("|").toLowerCase()}
           data-search={[
             business.business_name,
             business.service_area_or_location,
             business.description,
-            ...(business.category ?? [])
+            ...business.category
           ].filter(Boolean).join(" ").toLowerCase()}
         >
           <h2><a class="business-name-link" href={`/businesses/${business.slug}/`}>{business.business_name}</a></h2>
 
           <p class="location">{business.service_area_or_location}</p>
           <p>{business.description}</p>
-          <p class="categories">{business.category?.join(" · ")}</p>
+          <p class="categories">{business.category.join(" · ")}</p>
 
           {business.hours && Object.keys(business.hours).length > 0 && (
             <div class="business-hours">
