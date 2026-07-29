@@ -5,8 +5,8 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 492,
-  "publish_ready_count": 155,
+  "business_count": 493,
+  "publish_ready_count": 156,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -18153,6 +18153,58 @@
       "longitude": "",
       "notes": "Founded in 1976. Located in the historic 1914 Carnegie Library building. Formerly known as the Red River Historical Museum. Houses more than 50,000 artifacts related to Grayson County and the Red River region.",
       "last_verified": "2026-07-29"
+    },
+    {
+      "slug": "rays-mercantile",
+      "business_name": "Ray's Mercantile",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "101 E Main St, Suite 113, Denison, TX 75021",
+      "category": [
+        "Boutique",
+        "Clothing Store",
+        "Gift Shop",
+        "Men's Clothing",
+        "Women's Clothing",
+        "Downtown Shopping"
+      ],
+      "description": "Ray's Mercantile is a locally owned boutique located inside the historic Katy Depot in downtown Denison. The shop features modern Texas-inspired apparel, western lifestyle clothing, accessories, gifts, home décor, and seasonal merchandise for both men and women.",
+      "phone": "580-775-7706",
+      "email": "info@raysmercantile.shop",
+      "website": "https://www.raysmercantile.shop",
+      "facebook": "https://www.facebook.com/RaysMercantiletx",
+      "instagram": "https://www.instagram.com/raysmercantile",
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "12:00 PM–6:00 PM",
+        "wednesday": "12:00 PM–6:00 PM",
+        "thursday": "12:00 PM–6:00 PM",
+        "friday": "12:00 PM–6:00 PM",
+        "saturday": "11:00 AM–6:00 PM",
+        "sunday": "1:00 PM–4:00 PM"
+      },
+      "hours_note": "Hours may be extended during downtown festivals and special events.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "event_types": [
+        "Store Anniversary",
+        "Customer Appreciation",
+        "Seasonal Shopping Events",
+        "Holiday Open House",
+        "Downtown Denison Events",
+        "Sidewalk Sales",
+        "Vendor Pop-ups"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Instagram",
+        "Discover Denison"
+      ],
+      "verification_note": "Located inside the historic Katy Depot in downtown Denison. Monitor social media for anniversary celebrations, downtown promotions, and seasonal shopping events.",
+      "last_checked": "2026-07-29"
     }
   ]
 }
