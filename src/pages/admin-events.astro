@@ -79,6 +79,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     const allowedStatuses = new Set(["draft", "upcoming", "recurring", "postponed", "canceled", "ended"]);
     const allowedCostTypes = new Set(["free", "paid", "donation", "varies", "unknown"]);
     const allowedImageTypes = new Set(["image/jpeg", "image/png", "image/webp"]);
+    const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
     const savedKey = sessionStorage.getItem("twg-admin-key");
     if (savedKey) adminKey.value = savedKey;
     adminKey.addEventListener("input", () => adminKey.value ? sessionStorage.setItem("twg-admin-key", adminKey.value) : sessionStorage.removeItem("twg-admin-key"));
@@ -96,6 +97,34 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     };
 
     const selectedFlyer = () => flyerInput.files?.[0] || null;
+    const stringArray = (value) => Array.isArray(value)
+      ? [...new Set(value.filter((item) => typeof item === "string").map((item) => item.trim()).filter(Boolean))]
+      : typeof value === "string" && value.trim() ? [value.trim()] : [];
+
+    const normalizeEvent = (submittedEvent) => {
+      const event = { ...submittedEvent };
+      event.venue_slugs = stringArray([
+        ...stringArray(event.venue_slugs),
+        ...stringArray(event.venue_slug),
+        ...stringArray(event.secondary_venue_slugs)
+      ]);
+      event.categories = stringArray([
+        ...stringArray(event.categories),
+        ...stringArray(event.event_category)
+      ]);
+      event.partner_business_slugs = stringArray(event.partner_business_slugs);
+      event.partner_names = stringArray([
+        ...stringArray(event.partner_names),
+        ...stringArray(event.partner_organizations)
+      ]);
+      if (!event.organizer_name && typeof event.host_name === "string") event.organizer_name = event.host_name.trim();
+      delete event.venue_slug;
+      delete event.secondary_venue_slugs;
+      delete event.event_category;
+      delete event.host_name;
+      delete event.partner_organizations;
+      return event;
+    };
 
     flyerInput.addEventListener("change", () => {
       validatedEvent = null;
@@ -115,18 +144,24 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       validatedEvent = null;
       publishButton.disabled = true;
       try {
-        const event = JSON.parse(eventInput.value);
+        const event = normalizeEvent(JSON.parse(eventInput.value));
         const problems = [];
         const warnings = [];
         if (!event || typeof event !== "object" || Array.isArray(event)) throw new Error("The event must be one JSON object, not an array or full directory.");
         if (!event.event_name || typeof event.event_name !== "string") problems.push("event_name is required.");
         if (!event.event_slug || typeof event.event_slug !== "string") problems.push("event_slug is required.");
-        else if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(event.event_slug)) problems.push("event_slug must use lowercase letters, numbers, and single hyphens only.");
+        else if (!slugPattern.test(event.event_slug)) problems.push("event_slug must use lowercase letters, numbers, and single hyphens only.");
         if (!event.start_datetime || Number.isNaN(Date.parse(event.start_datetime))) problems.push("start_datetime is required and must be valid.");
         if (event.end_datetime && Number.isNaN(Date.parse(event.end_datetime))) problems.push("end_datetime must be null or valid.");
         if (event.end_datetime && event.start_datetime && Date.parse(event.end_datetime) < Date.parse(event.start_datetime)) problems.push("end_datetime cannot be before start_datetime.");
         if (!allowedStatuses.has(event.status)) problems.push("status is invalid.");
         if (!allowedCostTypes.has(event.cost_type)) problems.push("cost_type is invalid.");
+        if (!Array.isArray(event.venue_slugs) || event.venue_slugs.length === 0) problems.push("venue_slugs is required and must contain at least one venue slug.");
+        else if (event.venue_slugs.some((slug) => !slugPattern.test(slug))) problems.push("Every venue_slugs value must be a valid slug.");
+        if (event.host_business_slug && !slugPattern.test(event.host_business_slug)) problems.push("host_business_slug is invalid.");
+        if (!Array.isArray(event.partner_business_slugs) || event.partner_business_slugs.some((slug) => !slugPattern.test(slug))) problems.push("partner_business_slugs must be an array of valid slugs.");
+        if (!Array.isArray(event.partner_names)) problems.push("partner_names must be an array.");
+        if (!Array.isArray(event.categories)) problems.push("categories must be an array.");
         if (event.image_url && !/^\/images\/events\/[a-z0-9-]+\.(jpg|png|webp)$/.test(event.image_url)) problems.push("image_url must use the /images/events/ folder.");
 
         const flyer = selectedFlyer();
@@ -140,12 +175,15 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         }
 
         validatedEvent = event;
+        eventInput.value = JSON.stringify(event, null, 2);
         publishButton.disabled = false;
         const oldSlugs = removeSlugsInput.value.split(",").map((slug) => slug.trim()).filter(Boolean);
         setResult("Valid event JSON. It is ready to publish.", [
           `Event: ${event.event_name}`,
           `Slug: ${event.event_slug}`,
           `Starts: ${event.start_datetime}`,
+          `Venue slug(s): ${event.venue_slugs.join(", ")}`,
+          event.host_business_slug ? `Host business: ${event.host_business_slug}` : (event.organizer_name ? `Organizer: ${event.organizer_name}` : "No linked host business"),
           event.publish_ready === true ? "Publish-ready: yes" : "Publish-ready: no",
           flyer ? `New flyer selected: ${flyer.name}` : (event.image_url ? `Existing image path: ${event.image_url}` : warnings[0]),
           oldSlugs.length ? `Old slug(s) marked for removal: ${oldSlugs.join(", ")}` : "No old duplicate slugs marked for removal"
