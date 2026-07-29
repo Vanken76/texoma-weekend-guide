@@ -2,16 +2,18 @@
   const cards = [...document.querySelectorAll("[data-event-card]")];
   if (!cards.length) return;
 
+  const makeKey = (name, date) => `${String(name || "").trim().toLowerCase()}|${String(date || "").slice(0, 10)}`;
+
   fetch("/data/local-event-directory.json")
     .then((response) => {
       if (!response.ok) throw new Error("Unable to load event directory");
       return response.json();
     })
     .then((directory) => {
-      const slugByName = new Map(
+      const slugByNameAndDate = new Map(
         (directory.events || [])
           .filter((event) => event.publish_ready === true && event.event_slug && event.event_name)
-          .map((event) => [event.event_name.trim().toLowerCase(), event.event_slug])
+          .map((event) => [makeKey(event.event_name, event.start_datetime), event.event_slug])
       );
 
       cards.forEach((card) => {
@@ -19,7 +21,7 @@
         const actions = card.querySelector(".event-actions");
         if (!heading || !actions) return;
 
-        const slug = slugByName.get(heading.textContent.trim().toLowerCase());
+        const slug = slugByNameAndDate.get(makeKey(heading.textContent, card.dataset.date));
         if (!slug) return;
 
         const url = `/events/${slug}/`;
