@@ -5,7 +5,7 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 491,
+  "business_count": 492,
   "publish_ready_count": 155,
   "businesses": [
     {
@@ -18079,6 +18079,80 @@
       ],
       "verification_note": "The Pottsboro Area Chamber of Commerce identifies 206 W FM 120 as Buxton Nook's new location for its July 30, 2026 grand opening and ribbon cutting. Previously published address information referred to the former location. Confirm regular operating hours after the move.",
       "last_checked": "2026-07-29"
+    },
+    {
+      "business_name": "The Sherman Museum",
+      "slug": "the-sherman-museum",
+      "description": "The Sherman Museum is a nonprofit history museum dedicated to preserving and sharing the history of Sherman, Grayson County, and the Red River region through exhibits, educational programs, community events, and special exhibitions. Housed in the historic 1914 Carnegie Library building, the museum serves as one of Texoma's premier cultural and historical attractions.",
+      "short_description": "Historic museum preserving the history of Sherman, Grayson County, and the Red River region.",
+      "business_type": "Museum",
+      "categories": [
+        "Museum",
+        "History Museum",
+        "Education",
+        "Attraction",
+        "Event Venue",
+        "Family Activities"
+      ],
+      "venue_types": [
+        "Museum",
+        "Educational Venue",
+        "Community Venue",
+        "Special Event Venue"
+      ],
+      "address": "301 S Walnut St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "country": "USA",
+      "phone": "(903) 893-7623",
+      "email": "theshermanmuseum@verizon.net",
+      "website": "https://theshermanmuseum.org",
+      "facebook": "https://www.facebook.com/profile.php?id=100069395228804",
+      "instagram": "",
+      "youtube": "",
+      "hours": {
+        "wednesday": "10:00 AM - 4:00 PM",
+        "thursday": "10:00 AM - 4:00 PM",
+        "friday": "10:00 AM - 4:00 PM",
+        "saturday": "10:00 AM - 4:00 PM",
+        "sunday": "Closed",
+        "monday": "Closed",
+        "tuesday": "Closed"
+      },
+      "price_range": "$",
+      "features": [
+        "Permanent exhibits",
+        "Rotating exhibits",
+        "Educational programs",
+        "Children's activities",
+        "School field trips",
+        "Gift shop",
+        "Historic building",
+        "Community events",
+        "Wheelchair accessible",
+        "Guided tours"
+      ],
+      "event_types": [
+        "Museum Programs",
+        "Educational Classes",
+        "Children's Activities",
+        "History Programs",
+        "Special Exhibits",
+        "Family Events",
+        "Community Events",
+        "Holiday Events"
+      ],
+      "parent_business_slug": "",
+      "status": "active",
+      "verified": true,
+      "featured": false,
+      "pet_friendly": false,
+      "kid_friendly": true,
+      "latitude": "",
+      "longitude": "",
+      "notes": "Founded in 1976. Located in the historic 1914 Carnegie Library building. Formerly known as the Red River Historical Museum. Houses more than 50,000 artifacts related to Grayson County and the Red River region.",
+      "last_verified": "2026-07-29"
     }
   ]
 }
