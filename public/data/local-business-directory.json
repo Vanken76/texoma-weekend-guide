@@ -5,8 +5,8 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 487,
-  "publish_ready_count": 151,
+  "business_count": 488,
+  "publish_ready_count": 152,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -17831,6 +17831,81 @@
       "ownership": "City of Sherman",
       "reservation_required": true,
       "verification_note": "Verified through the City of Sherman Municipal Ballroom rental page. The venue is one of the City's primary rentable event facilities, offering approximately 5,000 square feet of space for up to 350 guests and is available by reservation through the City.",
+      "last_checked": "2026-07-29"
+    },
+    {
+      "slug": "kidd-key-auditorium",
+      "business_name": "Kidd-Key Auditorium",
+      "directory_status": "active",
+      "publish_ready": true,
+      "service_area_or_location": "Sherman, TX",
+      "category": [
+        "Performing Arts Theater",
+        "Concert Venue",
+        "Live Music Venue",
+        "Theater",
+        "Event Venue",
+        "Historic Venue",
+        "Municipal Facility"
+      ],
+      "description": "Kidd-Key Auditorium is a historic City of Sherman performing arts venue that has served the community since 1938. Originally associated with Kidd-Key Women's College, the 1,300-seat auditorium now hosts concerts, symphony performances, theatrical productions, comedy shows, graduations, community events, religious gatherings, and touring entertainment throughout the Texoma region.",
+      "phone": "(903) 892-7234",
+      "email": "",
+      "website": "https://www.ci.sherman.tx.us/870/Kidd-Key-Auditorium",
+      "facebook": "",
+      "instagram": "",
+      "hours": {
+        "monday": "By Reservation",
+        "tuesday": "By Reservation",
+        "wednesday": "By Reservation",
+        "thursday": "By Reservation",
+        "friday": "By Reservation",
+        "saturday": "By Reservation",
+        "sunday": "By Reservation"
+      },
+      "hours_note": "Available by reservation through the City of Sherman. Performance schedules vary by event.",
+      "address": {
+        "street": "400 N Elm St",
+        "city": "Sherman",
+        "state": "TX",
+        "postal_code": "75090",
+        "country": "USA"
+      },
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "highest",
+      "event_types": [
+        "Concerts",
+        "Symphony Performances",
+        "Theater Productions",
+        "Comedy Shows",
+        "Community Events",
+        "Graduations",
+        "School Performances",
+        "Religious Events",
+        "Touring Productions",
+        "Special Events"
+      ],
+      "event_sources": [
+        "City of Sherman",
+        "Sherman Symphony Orchestra",
+        "Touring Promoters",
+        "Local Arts Organizations"
+      ],
+      "features": [
+        "Historic Performing Arts Venue",
+        "Over 1,300 Seats",
+        "Professional Stage",
+        "Dressing Rooms",
+        "Box Office",
+        "Wheelchair Accessible",
+        "Accessible Seating",
+        "Historic Architecture"
+      ],
+      "ownership": "City of Sherman",
+      "reservation_required": true,
+      "verification_note": "Verified through the City of Sherman. Kidd-Key Auditorium is a historic municipal performing arts venue established in 1938 with seating for more than 1,300 guests. It serves as the home of the Sherman Symphony Orchestra and hosts concerts, theatrical productions, community events, and touring performances.",
       "last_checked": "2026-07-29"
     }
   ]
