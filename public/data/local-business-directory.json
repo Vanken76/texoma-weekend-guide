@@ -5,8 +5,8 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 471,
-  "publish_ready_count": 135,
+  "business_count": 472,
+  "publish_ready_count": 136,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16785,6 +16785,37 @@
         "thursday": "1:00 PM–5:00 PM",
         "friday": "Closed",
         "saturday": "Closed"
+      }
+    },
+    {
+      "slug": "sloppy-joes-bar-and-grill-texas",
+      "business_name": "Sloppy Joe's Bar and Grill Texas",
+      "directory_status": "active",
+      "publish_ready": true,
+      "service_area_or_location": "Pottsboro, Texas",
+      "category": [
+        "Restaurant",
+        "Bar & Grill",
+        "Sports Bar",
+        "Live Music Venue"
+      ],
+      "description": "Sloppy Joe's Bar and Grill Texas is a locally owned restaurant and sports bar in Pottsboro featuring burgers, seafood, steaks, appetizers, full bar service, weekly specials, karaoke, trivia, and live music throughout the year. The venue is a popular gathering place near Lake Texoma for food, drinks, and entertainment.",
+      "address": "81750 N SH 289, Suite 122",
+      "city": "Pottsboro",
+      "state": "TX",
+      "zip_code": "75076",
+      "phone": "903-271-9489",
+      "email": "sloppyjoesbng@gmail.com",
+      "website": "https://sloppyjoestx.com",
+      "facebook": "https://www.facebook.com/profile.php?id=61572741520941",
+      "hours": {
+        "sunday": "9:00 AM–10:00 PM",
+        "monday": "11:00 AM–10:00 PM",
+        "tuesday": "11:00 AM–10:00 PM",
+        "wednesday": "11:00 AM–10:00 PM",
+        "thursday": "11:00 AM–10:00 PM",
+        "friday": "11:00 AM–12:00 AM",
+        "saturday": "9:00 AM–12:00 AM"
       }
     }
   ]
