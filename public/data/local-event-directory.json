@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 61,
-  "publish_ready_count": 61,
+  "event_count": 62,
+  "publish_ready_count": 62,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -3358,6 +3358,42 @@
       "last_checked": "2026-07-29",
       "created_on": "2026-07-29",
       "updated_on": "2026-07-29"
+    },
+    {
+      "id": "say-when-brewing-company-weekly-bingo",
+      "event_name": "Wednesday Bingo Night",
+      "event_slug": "say-when-brewing-company-weekly-bingo",
+      "status": "upcoming",
+      "active": true,
+      "publish_ready": true,
+      "featured": false,
+      "start_datetime": "2026-08-05T18:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=WE",
+      "recurrence_start_date": "2026-08-05",
+      "recurrence_end_date": null,
+      "venue_name": "Say When Brewing Company",
+      "venue_slug": "say-when-brewing-company",
+      "categories": [
+        "Games",
+        "Bingo",
+        "Nightlife",
+        "Food & Drink",
+        "Community Event"
+      ],
+      "description": "Join Say When Brewing Company every Wednesday evening for Bingo Night beginning at 6:00 PM. Enjoy craft beer, pizza, prizes, and a fun community atmosphere in historic downtown Denison.",
+      "cost_type": "free",
+      "cost_details": "No cover charge. Food and beverages available for purchase.",
+      "family_friendly": true,
+      "indoor_outdoor": "indoor",
+      "verification_status": "verified",
+      "verification_note": "Recurring Wednesday Bingo Night verified through multiple official Say When Brewing Company Facebook posts and venue event listings.",
+      "last_checked": "2026-07-29",
+      "created_on": "2026-07-29",
+      "updated_on": "2026-07-29",
+      "image_url": "/images/events/say-when-brewing-company-weekly-bingo.jpg"
     }
   ]
 }
