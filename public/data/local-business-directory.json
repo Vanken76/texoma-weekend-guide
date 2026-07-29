@@ -5,8 +5,8 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 473,
-  "publish_ready_count": 137,
+  "business_count": 474,
+  "publish_ready_count": 138,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -16852,6 +16852,65 @@
         "saturday": "8:00 AM–9:00 PM"
       },
       "last_checked": "2026-07-28"
+    },
+    {
+      "slug": "pen-page-weathered-books",
+      "business_name": "Pen & Page Weathered Books",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "607 W Main Street, Denison, TX 75020",
+      "category": [
+        "Independent Bookstore",
+        "Used Bookstore",
+        "Gift Shop",
+        "Record Store",
+        "Art Shop",
+        "Event Venue"
+      ],
+      "description": "Independent bookstore in historic downtown Denison offering new and previously loved books, bookish gifts, vinyl records, custom artwork, and community programming. Pen & Page Weathered Books regularly promotes book clubs, creative gatherings, and other in-store events.",
+      "phone": "430-202-0077",
+      "email": "watson.penandpage@gmail.com",
+      "website": "https://penandpageweatheredbooks.com",
+      "facebook": "https://www.facebook.com/penandpageweatheredbooks",
+      "instagram": "https://www.instagram.com/penandpageweatheredbooks",
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "10:00 AM–6:00 PM",
+        "wednesday": "10:00 AM–6:00 PM",
+        "thursday": "10:00 AM–6:00 PM",
+        "friday": "10:00 AM–6:00 PM",
+        "saturday": "10:00 AM–4:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Hours may vary for holidays, downtown events, and special programs. Check the official Facebook or Instagram page for current updates.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Complete. Business details and regular hours were verified from official social profiles. Monitor official Facebook, Instagram, and website listings for book clubs, workshops, special events, and schedule changes.",
+      "last_checked": "2026-07-29",
+      "event_types": [
+        "Book clubs",
+        "Creative workshops",
+        "Author and book events",
+        "Community gatherings",
+        "Special shopping events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Official Instagram account"
+      ],
+      "features": [
+        "New books",
+        "Previously loved books",
+        "Vinyl records",
+        "Bookish gifts",
+        "Custom artwork",
+        "Community events",
+        "Downtown Denison location",
+        "Locally owned"
+      ]
     }
   ]
 }
