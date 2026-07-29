@@ -67,6 +67,7 @@ const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname ==
     {isEventsPage && <script is:inline src="/event-filter-links.js?v=2"></script>}
     {isBusinessesPage && <script is:inline src="/business-directory-among-the-pages-fix.js?v=1"></script>}
     {(isBusinessesPage || isBusinessSection) && <script is:inline src="/business-facebook-overrides.js?v=1"></script>}
+    {isBusinessSection && <script is:inline src="/business-event-expiration.js?v=1"></script>}
     {isSupportPage && <script is:inline src="/support-listing-clarification.js?v=1"></script>}
   </body>
 </html>
