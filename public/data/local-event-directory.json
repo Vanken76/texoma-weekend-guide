@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 62,
-  "publish_ready_count": 62,
+  "event_count": 63,
+  "publish_ready_count": 63,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -3394,6 +3394,65 @@
       "created_on": "2026-07-29",
       "updated_on": "2026-07-29",
       "image_url": "/images/events/say-when-brewing-company-weekly-bingo.jpg"
+    },
+    {
+      "event_slug": "james-mickey-cheaney-memorial-8-ball-tournament",
+      "event_name": "James “Mickey” Cheaney Memorial 8-Ball Tournament",
+      "description": "Join VFW 1922 Canteen for a memorial 8-ball tournament celebrating the life of James “Mickey” Cheaney, his love for people, and his love of the game. The tournament will follow BCA rules and use a double-elimination format. Players must enter by 2:00 PM.",
+      "start_datetime": "2026-08-01T14:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slug": "vfw-1922-canteen",
+      "venue_name": "VFW 1922 Canteen",
+      "address": "3332 N Grand Ave",
+      "city": "Gainesville",
+      "state": "TX",
+      "postal_code": "76240",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Pool Tournament",
+        "Sports & Recreation",
+        "Community Event",
+        "Memorial Event"
+      ],
+      "tags": [
+        "Gainesville",
+        "VFW 1922 Canteen",
+        "James Mickey Cheaney",
+        "8-ball",
+        "pool tournament",
+        "billiards",
+        "BCA rules",
+        "double elimination",
+        "memorial tournament"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$20 entry fee per person.",
+      "audience": [
+        "Adults",
+        "Pool Players",
+        "Spectators"
+      ],
+      "age_restriction": null,
+      "organizer_name": "VFW 1922 Canteen",
+      "image_url": "/images/events/james-mickey-cheaney-memorial-8-ball-tournament.jpg",
+      "image_alt": "James “Mickey” Cheaney Memorial 8-Ball Tournament flyer featuring a pool player and an eight ball",
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the event flyer posted by a VFW 1922 Canteen group administrator. The flyer lists Saturday, August 1, 2026, entry by 2:00 PM, a $20 per-person entry fee, BCA rules, and a double-elimination format.",
+      "last_checked": "2026-07-29",
+      "created_on": "2026-07-29",
+      "updated_on": "2026-07-29"
     }
   ]
 }
