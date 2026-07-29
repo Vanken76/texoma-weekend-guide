@@ -17274,7 +17274,7 @@
         "Small-Business Services",
         "Custom Computers"
       ],
-      "description": "Tech Support for Life provides friendly, patient technology help for homes and small businesses across Texoma. Services include computer troubleshooting and maintenance, Wi-Fi and network support, device setup and training, virus and malware removal, scam and suspicious-message reviews, printer setup, account and password assistance, backups, data recovery support, remote troubleshooting, custom-built computers, and basic AI assistance for individuals and small businesses. Tech Support for Life focuses on clear explanations, honest recommendations, personal service, and practical solutions without jargon, pressure, or scams.",
+      "description": "Tech Support for Life (TSL) provides friendly, patient technology help for homes and small businesses across Texoma. TSL offers computer troubleshooting and maintenance, Wi-Fi and network support, device setup and training, virus and malware removal, scam and suspicious-message reviews, printer setup, account and password assistance, backups, data recovery support, remote troubleshooting, custom-built computers, and basic AI assistance for individuals and small businesses. TSL focuses on clear explanations, honest recommendations, personal service, and practical solutions without jargon, pressure, or scams.",
       "phone": "903-647-0050",
       "email": "techsupportforlife@gmail.com",
       "website": "https://techsupportforlife.com",
@@ -17286,11 +17286,12 @@
       "recurring_events": false,
       "mine_for_events": false,
       "event_mining_priority": "none",
-      "verification_note": "Business name, owner, service area, phone number, email address, website, Facebook page, service options, and business messaging were verified through official Tech Support for Life materials and established business information. Tech Support for Life is operated by Eugene Clark and provides local and remote technology assistance throughout the Texoma area.",
+      "verification_note": "Business name, owner, service area, phone number, email address, website, Facebook page, service options, and business messaging were verified through official Tech Support for Life materials. Tech Support for Life (TSL) is operated by Eugene Clark and provides local and remote technology assistance throughout the Texoma area.",
       "last_checked": "2026-07-29",
       "event_types": [],
       "event_sources": [],
       "features": [
+        "TSL",
         "Computer Troubleshooting",
         "Computer Repair and Maintenance",
         "Computer Tune-Ups",
