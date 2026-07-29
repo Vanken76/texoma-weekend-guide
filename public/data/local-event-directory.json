@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 70,
-  "publish_ready_count": 67,
+  "event_count": 71,
+  "publish_ready_count": 68,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -3859,6 +3859,66 @@
       "created_on": "2026-07-29",
       "updated_on": "2026-07-29",
       "last_checked": "2026-07-29"
+    },
+    {
+      "event_name": "Ray's 3rd Anniversary Celebration",
+      "event_slug": "rays-3rd-anniversary-celebration-2026-08-01",
+      "start_datetime": "2026-08-01T11:00:00-05:00",
+      "end_datetime": "2026-08-01T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "publish_ready": true,
+      "venue_slugs": [
+        "rays-mercantile"
+      ],
+      "host_business_slug": "rays-mercantile",
+      "organizer_name": "Ray's Mercantile",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "The George Tavern"
+      ],
+      "categories": [
+        "Anniversary Celebration",
+        "Shopping",
+        "Nightlife",
+        "Food and Drink",
+        "Community"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free admission. Merchandise and food from The George Tavern are available for purchase.",
+      "short_description": "Celebrate three years of Ray's Mercantile with shopping specials, vendors, giveaways, surprises and an evening Texas-inspired speakeasy.",
+      "description": "Ray's Mercantile is celebrating its third anniversary with a full day of shopping, vendors, giveaways and surprises. Beginning at 11:00 AM, guests can shop new arrivals, receive 30% off one item and enter a $250 giveaway. Beginning at 5:00 PM, the store transforms into Ray's Cocktail Club, a Texas-inspired speakeasy featuring a complimentary open bar and after-hours shopping. The George Tavern will serve its menu from the speakeasy throughout the evening.",
+      "location_name": "Ray's Mercantile",
+      "address": "101 E Main St, Suite 113",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75021",
+      "image_url": "/images/events/rays-3rd-anniversary-celebration-2026-08-01.jpg",
+      "website_url": "https://www.raysmercantile.shop",
+      "facebook_event_url": "",
+      "ticket_url": "",
+      "contact_name": "Ray's Mercantile",
+      "contact_email": "info@raysmercantile.shop",
+      "contact_phone": "",
+      "is_recurring": false,
+      "recurrence_rule": "",
+      "tags": [
+        "Ray's Mercantile",
+        "Downtown Denison",
+        "Katy Depot",
+        "Anniversary",
+        "Shopping",
+        "Giveaway",
+        "Vendors",
+        "Cocktail Club",
+        "Speakeasy",
+        "The George Tavern"
+      ],
+      "source_name": "Ray's Mercantile Facebook event",
+      "verified": true,
+      "last_checked": "2026-07-29",
+      "created_on": "2026-07-29",
+      "updated_on": "2026-07-29"
     }
   ]
 }
