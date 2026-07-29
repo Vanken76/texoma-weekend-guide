@@ -5,8 +5,8 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 486,
-  "publish_ready_count": 150,
+  "business_count": 487,
+  "publish_ready_count": 151,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -17758,6 +17758,79 @@
         "Parking"
       ],
       "verification_note": "Verified as a City of Sherman public park and event venue. Frequently used for community festivals, nonprofit events, and family activities.",
+      "last_checked": "2026-07-29"
+    },
+    {
+      "slug": "sherman-municipal-ballroom",
+      "business_name": "Sherman Municipal Ballroom",
+      "directory_status": "active",
+      "publish_ready": true,
+      "service_area_or_location": "Sherman, TX",
+      "category": [
+        "Event Venue",
+        "Banquet Hall",
+        "Wedding Venue",
+        "Meeting Venue",
+        "Community Venue",
+        "Municipal Facility"
+      ],
+      "description": "The Sherman Municipal Ballroom is a City of Sherman event venue located adjacent to Lucy Kidd-Key Park in the Municipal Building complex. With approximately 5,000 square feet of event space and seating for up to 350 guests, the ballroom hosts weddings, receptions, reunions, banquets, nonprofit fundraisers, community events, meetings, vendor expos and private celebrations throughout the year.",
+      "phone": "(903) 892-7234",
+      "email": "",
+      "website": "https://ci.sherman.tx.us/871/Municipal-Ballroom",
+      "facebook": "",
+      "instagram": "",
+      "hours": {
+        "monday": "By Reservation",
+        "tuesday": "By Reservation",
+        "wednesday": "By Reservation",
+        "thursday": "By Reservation",
+        "friday": "By Reservation",
+        "saturday": "By Reservation",
+        "sunday": "By Reservation"
+      },
+      "hours_note": "Available by reservation through the City of Sherman. Rental availability varies by date and event schedule.",
+      "address": {
+        "street": "405 N Rusk St",
+        "city": "Sherman",
+        "state": "TX",
+        "postal_code": "75090",
+        "country": "USA"
+      },
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Community Events",
+        "Banquets",
+        "Weddings",
+        "Receptions",
+        "Vendor Shows",
+        "Fundraisers",
+        "Meetings",
+        "Holiday Events",
+        "Private Parties",
+        "Nonprofit Events"
+      ],
+      "event_sources": [
+        "City of Sherman",
+        "Sherman Parks & Recreation",
+        "Venue Organizers"
+      ],
+      "features": [
+        "Indoor Event Space",
+        "Approximately 5,000 Square Feet",
+        "Capacity Up To 350 Guests",
+        "Commercial Kitchen Available",
+        "Projector Available",
+        "Wheelchair Accessible",
+        "Adjacent Parking",
+        "Adjacent to Lucy Kidd-Key Park"
+      ],
+      "ownership": "City of Sherman",
+      "reservation_required": true,
+      "verification_note": "Verified through the City of Sherman Municipal Ballroom rental page. The venue is one of the City's primary rentable event facilities, offering approximately 5,000 square feet of space for up to 350 guests and is available by reservation through the City.",
       "last_checked": "2026-07-29"
     }
   ]
