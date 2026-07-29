@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 72,
-  "publish_ready_count": 69,
+  "event_count": 73,
+  "publish_ready_count": 70,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -3969,6 +3969,64 @@
         "Misinformation",
         "Technology",
         "Free Lunch"
+      ],
+      "source_name": "Pottsboro Library Facebook post",
+      "verified": true,
+      "last_checked": "2026-07-29",
+      "created_on": "2026-07-29",
+      "updated_on": "2026-07-29"
+    },
+    {
+      "event_name": "Pottsboro Community Chat",
+      "event_slug": "pottsboro-community-chat-2026-08-11",
+      "start_datetime": "2026-08-11T08:15:00-05:00",
+      "end_datetime": "2026-08-11T09:15:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "publish_ready": true,
+      "venue_slugs": [
+        "pottsboro-area-library"
+      ],
+      "host_business_slug": "pottsboro-area-library",
+      "organizer_name": "Pottsboro Area Chamber of Commerce",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Pottsboro Area Library",
+        "City of Pottsboro"
+      ],
+      "categories": [
+        "Community",
+        "Government",
+        "Civic Engagement",
+        "Networking"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free to attend.",
+      "short_description": "Hear from the mayor, Chamber representatives and other local leaders during a community conversation about what is happening in Pottsboro.",
+      "description": "Join the Pottsboro Area Chamber of Commerce at the Pottsboro Area Library for an engaging conversation with community leaders. Attendees will hear from the mayor, Chamber representatives and other special guests about current developments and activities in Pottsboro. The event is sponsored by the Pottsboro Area Library, Pottsboro Area Chamber of Commerce and the City of Pottsboro.",
+      "location_name": "Pottsboro Area Library",
+      "address": "104 N Main St",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "image_url": "/images/events/pottsboro-community-chat-2026-08-11.jpg",
+      "website_url": "",
+      "facebook_event_url": "",
+      "ticket_url": "",
+      "contact_name": "Pottsboro Area Library",
+      "contact_email": "pottsborolibrary@gmail.com",
+      "contact_phone": "903-786-8274",
+      "is_recurring": false,
+      "recurrence_rule": "",
+      "tags": [
+        "Pottsboro",
+        "Community Chat",
+        "Pottsboro Area Chamber of Commerce",
+        "City of Pottsboro",
+        "Pottsboro Area Library",
+        "Mayor",
+        "Community Leaders",
+        "Civic Engagement"
       ],
       "source_name": "Pottsboro Library Facebook post",
       "verified": true,
