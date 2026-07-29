@@ -5,8 +5,8 @@
   "generated_on": "2026-07-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 490,
-  "publish_ready_count": 154,
+  "business_count": 491,
+  "publish_ready_count": 155,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -18028,6 +18028,57 @@
         "Denison ISD calendar",
         "Denison High School social media"
       ]
+    },
+    {
+      "slug": "buxton-nook",
+      "business_name": "Buxton Nook",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "111 E FM 120, Suite 101, Pottsboro, TX 75076",
+      "category": [
+        "Boutique",
+        "Gift Shop",
+        "Bookstore",
+        "Jewelry Store",
+        "Tea Shop",
+        "Specialty Retail",
+        "Event Venue"
+      ],
+      "description": "A locally owned Pottsboro boutique and specialty shop offering fine jewelry, jewelry repairs and appraisals, books, loose-leaf teas, local honey, pantry goods, gifts, artwork, lake-life merchandise and seasonal items. Buxton Nook also hosts community activities including recurring story times and special shopping events.",
+      "phone": "903-717-0222",
+      "email": null,
+      "website": "https://buxtonnook.com",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "10:30 AM–5:00 PM",
+        "wednesday": "10:30 AM–5:00 PM",
+        "thursday": "10:30 AM–5:00 PM",
+        "friday": "10:30 AM–5:00 PM",
+        "saturday": "10:30 AM–2:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Check the official website or Facebook page for holiday hours and special-event hours.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Story time",
+        "Ribbon cuttings",
+        "Grand openings",
+        "Shopping events",
+        "Book-related events",
+        "Community events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Pottsboro Area Chamber of Commerce calendar",
+        "Facebook posts"
+      ],
+      "verification_note": "Business details, hours and recurring story-time programming were verified through the official Buxton Nook website and Pottsboro Area Chamber of Commerce directory. Obtain and add the official Facebook URL when available.",
+      "last_checked": "2026-07-29"
     }
   ]
 }
