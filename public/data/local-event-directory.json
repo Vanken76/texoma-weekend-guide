@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 76,
-  "publish_ready_count": 73,
+  "event_count": 77,
+  "publish_ready_count": 74,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -4198,6 +4198,65 @@
       "verified": true,
       "last_checked": "2026-07-30",
       "created_on": "2026-07-30",
+      "updated_on": "2026-07-30"
+    },
+    {
+      "event_name": "Weekly Saturday Karaoke at Twisted Anchor Grill & Patio",
+      "event_slug": "weekly-saturday-karaoke-at-twisted-anchor-grill-and-patio",
+      "start_datetime": "2026-08-01T19:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "publish_ready": true,
+      "featured": false,
+      "venue_slugs": [
+        "twisted-anchor-grill-and-patio"
+      ],
+      "host_business_slug": "twisted-anchor-grill-and-patio",
+      "organizer_name": "Twisted Anchor Grill & Patio",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "categories": [
+        "Karaoke",
+        "Music",
+        "Nightlife",
+        "Food and Drink"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No cover charge or admission information was provided.",
+      "short_description": "Sing your favorites during weekly Saturday-night karaoke at Twisted Anchor Grill & Patio on Lake Texoma.",
+      "description": "Spend Saturday night singing your favorite songs during weekly karaoke at Twisted Anchor Grill & Patio near Buncombe Creek Marina on Lake Texoma. Karaoke begins at 7:00 PM, with food, cold drinks, lake views and plenty of good company available throughout the evening.",
+      "location_name": "Twisted Anchor Grill & Patio",
+      "address": "14554 Arrowhead Point Rd",
+      "city": "Kingston",
+      "state": "OK",
+      "postal_code": "73439",
+      "image_url": "/images/events/weekly-saturday-karaoke-at-twisted-anchor-grill-and-patio.png",
+      "website_url": "https://twistedanchorgrill.com",
+      "facebook_event_url": "",
+      "ticket_url": "",
+      "contact_name": "Twisted Anchor Grill & Patio",
+      "contact_email": "info@twistedanchorgrill.com",
+      "contact_phone": "580-565-3385",
+      "is_recurring": true,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=SA",
+      "tags": [
+        "Twisted Anchor Grill & Patio",
+        "Kingston",
+        "Lake Texoma",
+        "Buncombe Creek",
+        "Karaoke",
+        "Saturday Karaoke",
+        "Weekly Karaoke",
+        "Saturday Night",
+        "Food and Drink"
+      ],
+      "source_name": "Twisted Anchor Grill & Patio Facebook",
+      "verified": true,
+      "source_verified": true,
+      "last_checked": "2026-07-29",
+      "created_on": "2026-07-29",
       "updated_on": "2026-07-30"
     }
   ]
