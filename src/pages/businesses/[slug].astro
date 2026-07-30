@@ -85,7 +85,15 @@ const manualEvents = toArray(business.related_events ?? business.relatedEvents)
     return slug ? { event_slug: slug, event_name: raw.name || raw.event_name || raw.title || slug, note: raw.note || raw.relationship_note || null } : null;
   })
   .filter(Boolean);
-const matchedEvents = allEvents.filter((event) => event.publish_ready === true && event.venue_slug === business.slug);
+const matchedEvents = allEvents.filter((event) => {
+  if (event.publish_ready !== true) return false;
+  const venueSlugs = Array.isArray(event.venue_slugs)
+    ? event.venue_slugs
+    : event.venue_slug
+      ? [event.venue_slug]
+      : [];
+  return venueSlugs.includes(business.slug);
+});
 const venueEvents = Array.from(new Map([...matchedEvents, ...manualEvents].map((event) => [event.event_slug, event])).values())
   .sort((a, b) => {
     const recurringRank = (event) => event.status === "recurring" || event.recurring ? 0 : 1;
