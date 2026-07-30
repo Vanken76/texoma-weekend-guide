@@ -46,21 +46,30 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <div class="panel-heading">
         <p class="eyebrow">Roundup Publisher</p>
         <h2>Weekend Roundup</h2>
-        <p>Choose the roundup image, enter a slug, and paste the complete Markdown file.</p>
+        <p>Choose a primary roundup image, optionally choose a second image, enter a slug, and paste the complete Markdown file.</p>
       </div>
 
       <label for="roundup-slug">Roundup slug</label>
-      <input id="roundup-slug" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="july-23-26-2026" />
+      <input id="roundup-slug" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="july-30-august-2-2026" />
 
-      <label for="roundup-image">Roundup image</label>
-      <input id="roundup-image" type="file" accept="image/jpeg,image/png,image/webp" />
-      <div id="image-preview-wrap" class="image-preview-wrap" hidden>
-        <img id="image-preview" alt="Selected roundup image preview" />
-        <p id="image-details" class="helper"></p>
+      <label for="roundup-image-primary">Primary roundup image</label>
+      <input id="roundup-image-primary" type="file" accept="image/jpeg,image/png,image/webp" />
+      <p class="helper">This image must match the frontmatter <code>image:</code> path and will be used as the featured image.</p>
+      <div id="primary-preview-wrap" class="image-preview-wrap" hidden>
+        <img id="primary-preview" alt="Selected primary roundup image preview" />
+        <p id="primary-details" class="helper"></p>
+      </div>
+
+      <label for="roundup-image-secondary">Second roundup image (optional)</label>
+      <input id="roundup-image-secondary" type="file" accept="image/jpeg,image/png,image/webp" />
+      <p class="helper">When selected, the Markdown body must include <code>![...](/images/filename.png)</code> for this exact file.</p>
+      <div id="secondary-preview-wrap" class="image-preview-wrap" hidden>
+        <img id="secondary-preview" alt="Selected second roundup image preview" />
+        <p id="secondary-details" class="helper"></p>
       </div>
 
       <label for="roundup-markdown">Roundup Markdown</label>
-      <textarea id="roundup-markdown" class="code-input roundup-input" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder={'---\ntitle: "Texoma Weekend Roundup — July 23–26, 2026"\ndescription: "..."\nstartDate: 2026-07-23\nendDate: 2026-07-26\nimage: "/images/july-23-26-roundup.jpg"\nfeatured: true\n---\n\n## Thursday\n\nRoundup content...'}></textarea>
+      <textarea id="roundup-markdown" class="code-input roundup-input" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder={'---\ntitle: "Texoma Weekend Roundup — July 30–August 2, 2026"\ndescription: "..."\nstartDate: 2026-07-30\nendDate: 2026-08-02\nimage: "/images/july-30-august-2-2026-thursday-friday.png"\nfeatured: true\n---\n\n## Thursday and Friday\n\nRoundup content...\n\n## Saturday and Sunday\n\n![Saturday and Sunday roundup](/images/july-30-august-2-2026-saturday-sunday.png)'}></textarea>
 
       <div class="actions">
         <button id="validate-roundup" type="button">Validate Roundup</button>
@@ -76,46 +85,31 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   </section>
 
   <script>
-    const adminKey = document.querySelector("#admin-key");
-    const directoryInput = document.querySelector("#json-input");
-    const directoryStatus = document.querySelector("#directory-status");
-    const directoryChecks = document.querySelector("#directory-checks");
-    const validateDirectoryButton = document.querySelector("#validate-directory");
-    const loadDirectoryButton = document.querySelector("#load-current");
-    const publishDirectoryButton = document.querySelector("#publish-directory");
+    const get = (selector) => document.querySelector(selector);
+    const adminKey = get("#admin-key");
+    const directoryInput = get("#json-input");
+    const directoryStatus = get("#directory-status");
+    const directoryChecks = get("#directory-checks");
+    const validateDirectoryButton = get("#validate-directory");
+    const loadDirectoryButton = get("#load-current");
+    const publishDirectoryButton = get("#publish-directory");
 
-    const roundupSlug = document.querySelector("#roundup-slug");
-    const roundupImage = document.querySelector("#roundup-image");
-    const roundupMarkdown = document.querySelector("#roundup-markdown");
-    const imagePreviewWrap = document.querySelector("#image-preview-wrap");
-    const imagePreview = document.querySelector("#image-preview");
-    const imageDetails = document.querySelector("#image-details");
-    const validateRoundupButton = document.querySelector("#validate-roundup");
-    const publishRoundupButton = document.querySelector("#publish-roundup");
-    const roundupStatus = document.querySelector("#roundup-status");
-    const roundupChecks = document.querySelector("#roundup-checks");
+    const roundupSlug = get("#roundup-slug");
+    const primaryImageInput = get("#roundup-image-primary");
+    const secondaryImageInput = get("#roundup-image-secondary");
+    const roundupMarkdown = get("#roundup-markdown");
+    const validateRoundupButton = get("#validate-roundup");
+    const publishRoundupButton = get("#publish-roundup");
+    const roundupStatus = get("#roundup-status");
+    const roundupChecks = get("#roundup-checks");
 
-    if (
-      !(adminKey instanceof HTMLInputElement) ||
-      !(directoryInput instanceof HTMLTextAreaElement) ||
-      !(directoryStatus instanceof HTMLElement) ||
-      !(directoryChecks instanceof HTMLUListElement) ||
-      !(validateDirectoryButton instanceof HTMLButtonElement) ||
-      !(loadDirectoryButton instanceof HTMLButtonElement) ||
-      !(publishDirectoryButton instanceof HTMLButtonElement) ||
-      !(roundupSlug instanceof HTMLInputElement) ||
-      !(roundupImage instanceof HTMLInputElement) ||
-      !(roundupMarkdown instanceof HTMLTextAreaElement) ||
-      !(imagePreviewWrap instanceof HTMLElement) ||
-      !(imagePreview instanceof HTMLImageElement) ||
-      !(imageDetails instanceof HTMLElement) ||
-      !(validateRoundupButton instanceof HTMLButtonElement) ||
-      !(publishRoundupButton instanceof HTMLButtonElement) ||
-      !(roundupStatus instanceof HTMLElement) ||
-      !(roundupChecks instanceof HTMLUListElement)
-    ) {
-      throw new Error("Admin publisher controls could not be initialized.");
-    }
+    const required = [
+      adminKey, directoryInput, directoryStatus, directoryChecks,
+      validateDirectoryButton, loadDirectoryButton, publishDirectoryButton,
+      roundupSlug, primaryImageInput, secondaryImageInput, roundupMarkdown,
+      validateRoundupButton, publishRoundupButton, roundupStatus, roundupChecks
+    ];
+    if (required.some((item) => !item)) throw new Error("Admin publisher controls could not be initialized.");
 
     const savedKey = sessionStorage.getItem("twg-admin-key");
     if (savedKey) adminKey.value = savedKey;
@@ -141,7 +135,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     const validateDirectory = () => {
       validatedJson = null;
       publishDirectoryButton.disabled = true;
-
       try {
         const data = JSON.parse(directoryInput.value);
         if (!data || typeof data !== "object" || Array.isArray(data)) throw new Error("The top level must be a JSON object.");
@@ -156,7 +149,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         const duplicateSlugs = [...slugCounts.entries()].filter(([, count]) => count > 1).map(([slug]) => slug);
         const businessCount = data.businesses.length;
         const publishReadyCount = data.businesses.filter((business) => business?.publish_ready === true).length;
-
         const problems = [];
         if (missingNames.length) problems.push(`${missingNames.length} record(s) missing a business name.`);
         if (missingSlugs.length) problems.push(`${missingSlugs.length} record(s) missing a slug.`);
@@ -199,8 +191,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       try {
         const response = await fetch("/data/local-business-directory.json", { cache: "no-store" });
         if (!response.ok) throw new Error(`Request failed with status ${response.status}.`);
-        const data = await response.json();
-        directoryInput.value = JSON.stringify(data, null, 2);
+        directoryInput.value = JSON.stringify(await response.json(), null, 2);
         validateDirectory();
       } catch (error) {
         const message = error instanceof Error ? error.message : "Unknown loading error.";
@@ -228,8 +219,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         });
         const result = await response.json();
         if (!response.ok) {
-          const details = Array.isArray(result.problems) ? result.problems : [];
-          setResult(directoryStatus, directoryChecks, result.error || `Publishing failed with status ${response.status}.`, details, false);
+          setResult(directoryStatus, directoryChecks, result.error || `Publishing failed with status ${response.status}.`, Array.isArray(result.problems) ? result.problems : [], false);
           return;
         }
         setResult(directoryStatus, directoryChecks, result.message || "Directory published successfully.", [
@@ -251,35 +241,52 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       publishRoundupButton.disabled = true;
     };
 
-    roundupImage.addEventListener("change", () => {
-      resetRoundupValidation();
-      const file = roundupImage.files?.[0];
-      imagePreviewWrap.hidden = !file;
-      if (!file) {
-        imagePreview.removeAttribute("src");
-        imageDetails.textContent = "";
-        return;
-      }
-      imagePreview.src = URL.createObjectURL(file);
-      imageDetails.textContent = `${file.name} — ${(file.size / 1024 / 1024).toFixed(2)} MB`;
-    });
+    const wirePreview = (input, wrapSelector, imageSelector, detailsSelector) => {
+      const wrap = get(wrapSelector);
+      const image = get(imageSelector);
+      const details = get(detailsSelector);
+      input.addEventListener("change", () => {
+        resetRoundupValidation();
+        const file = input.files?.[0];
+        wrap.hidden = !file;
+        if (!file) {
+          image.removeAttribute("src");
+          details.textContent = "";
+          return;
+        }
+        image.src = URL.createObjectURL(file);
+        details.textContent = `${file.name} — ${(file.size / 1024 / 1024).toFixed(2)} MB`;
+      });
+    };
+
+    wirePreview(primaryImageInput, "#primary-preview-wrap", "#primary-preview", "#primary-details");
+    wirePreview(secondaryImageInput, "#secondary-preview-wrap", "#secondary-preview", "#secondary-details");
 
     const frontmatterValue = (frontmatter, key) => {
       const match = frontmatter.match(new RegExp(`^${key}:\\s*["']?(.+?)["']?\\s*$`, "m"));
       return match?.[1]?.trim() ?? "";
     };
 
+    const validateImage = (file, label, problems) => {
+      if (!file) return;
+      if (!["image/jpeg", "image/png", "image/webp"].includes(file.type)) problems.push(`${label} must be a JPG, PNG, or WebP file.`);
+      if (file.size > 8 * 1024 * 1024) problems.push(`${label} must be 8 MB or smaller.`);
+      if (!/^[a-zA-Z0-9][a-zA-Z0-9._-]*$/.test(file.name)) problems.push(`${label} filename may contain only letters, numbers, periods, underscores, and hyphens.`);
+    };
+
     const validateRoundup = () => {
       resetRoundupValidation();
       const slug = roundupSlug.value.trim();
       const markdown = roundupMarkdown.value.trim();
-      const file = roundupImage.files?.[0];
+      const primaryFile = primaryImageInput.files?.[0];
+      const secondaryFile = secondaryImageInput.files?.[0];
       const problems = [];
 
       if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) problems.push("Slug must use lowercase letters, numbers, and single hyphens only.");
-      if (!file) problems.push("Choose a roundup image.");
-      if (file && !["image/jpeg", "image/png", "image/webp"].includes(file.type)) problems.push("Image must be a JPG, PNG, or WebP file.");
-      if (file && file.size > 8 * 1024 * 1024) problems.push("Image must be 8 MB or smaller.");
+      if (!primaryFile) problems.push("Choose a primary roundup image.");
+      validateImage(primaryFile, "Primary image", problems);
+      validateImage(secondaryFile, "Second image", problems);
+      if (primaryFile && secondaryFile && primaryFile.name === secondaryFile.name) problems.push("The primary and second images must have different filenames.");
       if (!markdown.startsWith("---\n")) problems.push("Markdown must begin with a frontmatter delimiter (---).");
 
       const closingIndex = markdown.indexOf("\n---", 4);
@@ -299,8 +306,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         if (!/^\d{4}-\d{2}-\d{2}$/.test(startDate)) problems.push("startDate must use YYYY-MM-DD.");
         if (!/^\d{4}-\d{2}-\d{2}$/.test(endDate)) problems.push("endDate must use YYYY-MM-DD.");
         if (startDate && endDate && endDate < startDate) problems.push("endDate cannot be before startDate.");
-        if (!imagePath.startsWith("/images/")) problems.push('The image path must begin with "/images/".');
-        if (file && imagePath !== `/images/${file.name}`) problems.push(`Frontmatter image must be exactly /images/${file.name}.`);
+        if (primaryFile && imagePath !== `/images/${primaryFile.name}`) problems.push(`Frontmatter image must be exactly /images/${primaryFile.name}.`);
+        if (secondaryFile && !body.includes(`(/images/${secondaryFile.name})`)) problems.push(`Markdown body must include an image link ending in (/images/${secondaryFile.name}).`);
         if (!body) problems.push("The roundup body is empty.");
         if (!/^##\s+/m.test(body)) problems.push("The roundup body needs at least one ## section heading.");
       }
@@ -312,14 +319,16 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
       roundupValidated = true;
       publishRoundupButton.disabled = false;
-      setResult(roundupStatus, roundupChecks, "Valid roundup content. It is ready to publish.", [
+      const checks = [
         `Slug: ${slug}`,
-        `Image: ${file.name}`,
+        `Primary image: ${primaryFile.name}`,
+        secondaryFile ? `Second image: ${secondaryFile.name}` : "No second image selected",
         "Required frontmatter is present",
         "Dates are valid",
-        "Image path matches the selected file",
+        "Image paths match the selected files",
         "Roundup body contains at least one section"
-      ], true);
+      ];
+      setResult(roundupStatus, roundupChecks, "Valid roundup content. It is ready to publish.", checks, true);
       return true;
     };
 
@@ -335,47 +344,44 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         return;
       }
 
-      const file = roundupImage.files?.[0];
-      if (!file) {
-        setResult(roundupStatus, roundupChecks, "Choose a roundup image before publishing.", [], false);
-        return;
-      }
+      const primaryFile = primaryImageInput.files?.[0];
+      const secondaryFile = secondaryImageInput.files?.[0];
+      if (!primaryFile) return;
 
       const formData = new FormData();
       formData.append("slug", roundupSlug.value.trim());
       formData.append("markdown", roundupMarkdown.value.trim());
-      formData.append("image", file, file.name);
+      formData.append("image_primary", primaryFile, primaryFile.name);
+      if (secondaryFile) formData.append("image_secondary", secondaryFile, secondaryFile.name);
 
       publishRoundupButton.disabled = true;
       publishRoundupButton.textContent = "Publishing…";
-
       try {
         const response = await fetch("/api/publish-roundup", {
           method: "POST",
           headers: { "x-admin-key": adminKey.value },
           body: formData
         });
-
         let result;
         try {
           result = await response.json();
         } catch {
           throw new Error(`Publisher returned an unreadable response (${response.status}).`);
         }
-
         if (!response.ok) {
-          const details = Array.isArray(result.problems) ? result.problems : [];
-          setResult(roundupStatus, roundupChecks, result.error || `Publishing failed with status ${response.status}.`, details, false);
+          setResult(roundupStatus, roundupChecks, result.error || `Publishing failed with status ${response.status}.`, Array.isArray(result.problems) ? result.problems : [], false);
           return;
         }
-
         roundupValidated = false;
-        setResult(roundupStatus, roundupChecks, result.message || "Roundup published successfully.", [
-          result.roundup_path ? `Roundup: ${result.roundup_path}` : `Roundup slug: ${roundupSlug.value.trim()}`,
-          result.image_path ? `Image: ${result.image_path}` : `Image: ${file.name}`,
-          result.roundup_commit ? `Roundup commit: ${result.roundup_commit.slice(0, 7)}` : "Roundup commit created",
-          result.image_commit ? `Image commit: ${result.image_commit.slice(0, 7)}` : "Image commit created"
-        ], true);
+        const items = [
+          result.markdown_path ? `Roundup: ${result.markdown_path}` : `Roundup slug: ${roundupSlug.value.trim()}`,
+          result.primary_image_path ? `Primary image: ${result.primary_image_path}` : `Primary image: ${primaryFile.name}`,
+          result.markdown_commit ? `Roundup commit: ${result.markdown_commit.slice(0, 7)}` : "Roundup commit created",
+          result.primary_image_commit ? `Primary image commit: ${result.primary_image_commit.slice(0, 7)}` : "Primary image commit created"
+        ];
+        if (result.secondary_image_path) items.push(`Second image: ${result.secondary_image_path}`);
+        if (result.secondary_image_commit) items.push(`Second image commit: ${result.secondary_image_commit.slice(0, 7)}`);
+        setResult(roundupStatus, roundupChecks, result.message || "Roundup published successfully.", items, true);
       } catch (error) {
         const message = error instanceof Error ? error.message : "Unknown publishing error.";
         setResult(roundupStatus, roundupChecks, `Publishing failed: ${message}`, [], false);
@@ -400,9 +406,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   .panel-heading p:last-child { margin-bottom: 0; }
   label { display: block; margin: 0.9rem 0 0.5rem; font-weight: 800; }
   input, textarea { width: 100%; padding: 0.9rem; border: 1px solid rgba(255, 255, 255, 0.22); border-radius: 0.65rem; font: inherit; }
+  code { font-size: 0.9em; }
   .code-input { resize: vertical; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.82rem; line-height: 1.45; }
   .directory-input { min-height: 55vh; }
-  .roundup-input { min-height: 42vh; }
+  .roundup-input { min-height: 48vh; }
   .helper { margin: 0.5rem 0 0; font-size: 0.9rem; opacity: 0.78; }
   .image-preview-wrap { margin-top: 0.8rem; padding: 0.75rem; border: 1px solid rgba(255, 255, 255, 0.14); border-radius: 0.75rem; }
   .image-preview-wrap img { display: block; width: min(100%, 520px); max-height: 320px; object-fit: contain; border-radius: 0.5rem; }
@@ -418,7 +425,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     .publisher { padding-top: 1.5rem; }
     .panel { padding: 0.85rem; }
     .directory-input { min-height: 58vh; }
-    .roundup-input { min-height: 50vh; }
+    .roundup-input { min-height: 55vh; }
     .actions button { flex: 1 1 100%; }
   }
 </style>
