@@ -19,11 +19,9 @@ const jsonResponse = (body, status = 200) =>
 const bytesToBase64 = (bytes) => {
   let binary = "";
   const chunkSize = 0x8000;
-
   for (let i = 0; i < bytes.length; i += chunkSize) {
     binary += String.fromCharCode(...bytes.subarray(i, i + chunkSize));
   }
-
   return btoa(binary);
 };
 
@@ -35,27 +33,35 @@ const frontmatterValue = (frontmatter, key) => {
   return match?.[1]?.trim() ?? "";
 };
 
-const validateRoundup = ({ slug, markdown, image }) => {
+const validateImage = (image, label, problems, required = false) => {
+  if (!(image instanceof File)) {
+    if (required) problems.push(`Choose a ${label.toLowerCase()}.`);
+    return;
+  }
+
+  const extension = image.name.split(".").pop()?.toLowerCase() ?? "";
+  const allowedExtensions = ALLOWED_IMAGE_TYPES.get(image.type);
+  if (!allowedExtensions || !allowedExtensions.includes(extension)) {
+    problems.push(`${label} must be a JPG, PNG, or WebP file with a matching extension.`);
+  }
+  if (!/^[a-zA-Z0-9][a-zA-Z0-9._-]*$/.test(image.name)) {
+    problems.push(`${label} filename may contain only letters, numbers, periods, underscores, and hyphens.`);
+  }
+  if (image.size < 1) problems.push(`${label} is empty.`);
+  if (image.size > MAX_IMAGE_BYTES) problems.push(`${label} must be 8 MB or smaller.`);
+};
+
+const validateRoundup = ({ slug, markdown, primaryImage, secondaryImage }) => {
   const problems = [];
 
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) {
     problems.push("Slug must use lowercase letters, numbers, and single hyphens only.");
   }
 
-  if (!(image instanceof File)) {
-    problems.push("Choose a roundup image.");
-  } else {
-    const extension = image.name.split(".").pop()?.toLowerCase() ?? "";
-    const allowedExtensions = ALLOWED_IMAGE_TYPES.get(image.type);
-
-    if (!allowedExtensions || !allowedExtensions.includes(extension)) {
-      problems.push("The image must be a JPG, PNG, or WebP file with a matching extension.");
-    }
-    if (!/^[a-zA-Z0-9][a-zA-Z0-9._-]*$/.test(image.name)) {
-      problems.push("The image filename may contain only letters, numbers, periods, underscores, and hyphens.");
-    }
-    if (image.size < 1) problems.push("The selected image is empty.");
-    if (image.size > MAX_IMAGE_BYTES) problems.push("The image must be 8 MB or smaller.");
+  validateImage(primaryImage, "Primary image", problems, true);
+  validateImage(secondaryImage, "Second image", problems, false);
+  if (primaryImage instanceof File && secondaryImage instanceof File && primaryImage.name === secondaryImage.name) {
+    problems.push("The primary and second images must have different filenames.");
   }
 
   if (!markdown.startsWith("---\n")) {
@@ -82,8 +88,11 @@ const validateRoundup = ({ slug, markdown, image }) => {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(startDate)) problems.push("startDate must use YYYY-MM-DD.");
   if (!/^\d{4}-\d{2}-\d{2}$/.test(endDate)) problems.push("endDate must use YYYY-MM-DD.");
   if (startDate && endDate && endDate < startDate) problems.push("endDate cannot be before startDate.");
-  if (image instanceof File && imagePath !== `/images/${image.name}`) {
-    problems.push(`Frontmatter image must be exactly /images/${image.name}.`);
+  if (primaryImage instanceof File && imagePath !== `/images/${primaryImage.name}`) {
+    problems.push(`Frontmatter image must be exactly /images/${primaryImage.name}.`);
+  }
+  if (secondaryImage instanceof File && !body.includes(`(/images/${secondaryImage.name})`)) {
+    problems.push(`Markdown body must include an image link ending in (/images/${secondaryImage.name}).`);
   }
   if (!body) problems.push("The roundup body is empty.");
   if (!/^##\s+/m.test(body)) problems.push("The roundup body needs at least one ## section heading.");
@@ -115,11 +124,7 @@ const createGithubFile = async ({ path, content, message, headers }) => {
       ...headers,
       "content-type": "application/json"
     },
-    body: JSON.stringify({
-      message,
-      content,
-      branch: BRANCH
-    })
+    body: JSON.stringify({ message, content, branch: BRANCH })
   });
 
   const result = await response.json();
@@ -148,43 +153,52 @@ export const onRequestPost = async ({ request, env }) => {
 
   const slugValue = form.get("slug");
   const markdownValue = form.get("markdown");
-  const imageValue = form.get("image");
+  const primaryValue = form.get("image_primary") ?? form.get("image");
+  const secondaryValue = form.get("image_secondary");
   const slug = typeof slugValue === "string" ? slugValue.trim() : "";
   const markdown = typeof markdownValue === "string"
     ? markdownValue.replace(/\r\n?/g, "\n").trim()
     : "";
-  const image = imageValue instanceof File ? imageValue : null;
+  const primaryImage = primaryValue instanceof File ? primaryValue : null;
+  const secondaryImage = secondaryValue instanceof File && secondaryValue.size > 0 ? secondaryValue : null;
 
-  const problems = validateRoundup({ slug, markdown, image });
+  const problems = validateRoundup({ slug, markdown, primaryImage, secondaryImage });
   if (problems.length) {
     return jsonResponse({ error: "Validation failed.", problems }, 400);
   }
 
   const markdownPath = `src/content/roundups/${slug}.md`;
-  const imagePath = `public/images/${image.name}`;
+  const primaryImagePath = `public/images/${primaryImage.name}`;
+  const secondaryImagePath = secondaryImage ? `public/images/${secondaryImage.name}` : null;
+  const paths = [markdownPath, primaryImagePath, secondaryImagePath].filter(Boolean);
   const headers = githubHeaders(env.GITHUB_TOKEN);
 
   try {
-    const [markdownExists, imageExists] = await Promise.all([
-      fileExists(markdownPath, headers),
-      fileExists(imagePath, headers)
-    ]);
-
-    const conflicts = [];
-    if (markdownExists) conflicts.push(`A roundup already exists at ${markdownPath}.`);
-    if (imageExists) conflicts.push(`An image already exists at ${imagePath}.`);
+    const existence = await Promise.all(paths.map((path) => fileExists(path, headers)));
+    const conflicts = paths.filter((path, index) => existence[index]).map((path) => `A file already exists at ${path}.`);
     if (conflicts.length) {
       return jsonResponse({ error: "Publishing would overwrite an existing file.", problems: conflicts }, 409);
     }
 
     const now = new Date().toISOString();
-    const imageBytes = new Uint8Array(await image.arrayBuffer());
-    const imageResult = await createGithubFile({
-      path: imagePath,
-      content: bytesToBase64(imageBytes),
-      message: `Upload roundup image for ${slug} ${now}`,
+    const primaryBytes = new Uint8Array(await primaryImage.arrayBuffer());
+    const primaryResult = await createGithubFile({
+      path: primaryImagePath,
+      content: bytesToBase64(primaryBytes),
+      message: `Upload primary roundup image for ${slug} ${now}`,
       headers
     });
+
+    let secondaryResult = null;
+    if (secondaryImage && secondaryImagePath) {
+      const secondaryBytes = new Uint8Array(await secondaryImage.arrayBuffer());
+      secondaryResult = await createGithubFile({
+        path: secondaryImagePath,
+        content: bytesToBase64(secondaryBytes),
+        message: `Upload second roundup image for ${slug} ${now}`,
+        headers
+      });
+    }
 
     const markdownResult = await createGithubFile({
       path: markdownPath,
@@ -195,12 +209,16 @@ export const onRequestPost = async ({ request, env }) => {
 
     return jsonResponse({
       success: true,
-      message: "Roundup and image committed to GitHub. Cloudflare deployment should begin automatically.",
+      message: secondaryImage
+        ? "Roundup and both images committed to GitHub. Cloudflare deployment should begin automatically."
+        : "Roundup and image committed to GitHub. Cloudflare deployment should begin automatically.",
       slug,
       markdown_path: markdownPath,
-      image_path: imagePath,
-      image_commit: imageResult?.commit?.sha ?? null,
-      commit: markdownResult?.commit?.sha ?? null
+      primary_image_path: primaryImagePath,
+      secondary_image_path: secondaryImagePath,
+      markdown_commit: markdownResult?.commit?.sha ?? null,
+      primary_image_commit: primaryResult?.commit?.sha ?? null,
+      secondary_image_commit: secondaryResult?.commit?.sha ?? null
     });
   } catch (error) {
     const message = error instanceof Error ? error.message : "Unknown GitHub publishing error.";
