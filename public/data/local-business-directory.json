@@ -5,8 +5,8 @@
   "generated_on": "2026-07-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 496,
-  "publish_ready_count": 159,
+  "business_count": 497,
+  "publish_ready_count": 160,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -18421,6 +18421,123 @@
       ],
       "verification_note": "Information verified through the official Piner Middle School and Sherman ISD websites.",
       "last_checked": "2026-07-29"
+    },
+    {
+      "slug": "sugar-and-spice-cafe-pottsboro",
+      "business_name": "Sugar & Spice Cafe – Pottsboro",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "service_area_or_location": "Pottsboro, Texas",
+      "category": [
+        "Coffee Shop",
+        "Cafe",
+        "Breakfast",
+        "Bakery and Sweets",
+        "Restaurant"
+      ],
+      "description": "Sugar & Spice Cafe is a locally operated hometown coffee shop in Pottsboro offering specialty espresso drinks, flavored coffees, cold beverages, lemonades, energy spritzers, sweet tea, blended drinks and numerous sugar-free flavor options. Its food menu includes breakfast burritos, cinnamon rolls, muffins, croissants and other light breakfast and lunch choices. Customers can order ahead online for pickup.",
+      "short_description": "Hometown Pottsboro coffee shop serving specialty drinks, breakfast items, pastries and light eats.",
+      "address": "213 FM 120",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "phone": "903-647-3161",
+      "email": "shuvonn@sugarandspicecoffee.com",
+      "website": "https://sugarandspicecoffee.com",
+      "online_ordering_url": "https://www.toasttab.com/local/order/sugarandspicecoffee",
+      "facebook": "https://www.facebook.com/profile.php?id=100093037613281",
+      "instagram": "https://www.instagram.com/sugarandspicecafe2023/",
+      "hours": {
+        "monday": "7:00 AM–1:00 PM",
+        "tuesday": "7:00 AM–1:00 PM",
+        "wednesday": "7:00 AM–1:00 PM",
+        "thursday": "7:00 AM–1:00 PM",
+        "friday": "7:00 AM–1:00 PM",
+        "saturday": "7:30 AM–1:00 PM",
+        "sunday": "Closed"
+      },
+      "price_range": "$$",
+      "services": [
+        "Coffee",
+        "Espresso Drinks",
+        "Cold Drinks",
+        "Sugar-Free Drink Options",
+        "Breakfast",
+        "Light Lunch",
+        "Pastries",
+        "Takeout",
+        "Online Ordering"
+      ],
+      "amenities": [
+        "Order Ahead",
+        "Takeout"
+      ],
+      "menu_highlights": [
+        "Lattes",
+        "Caramel Macchiatos",
+        "Americanos",
+        "Breves",
+        "Cappuccinos",
+        "Energy Spritzers",
+        "Lemonades",
+        "Blended Drinks",
+        "Breakfast Burritos",
+        "Cinnamon Rolls",
+        "Muffins",
+        "Chicken Salad Croissants",
+        "Pimento Cheese Croissants"
+      ],
+      "family_friendly": true,
+      "pet_friendly": false,
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_brand": "Sugar & Spice Cafe",
+      "other_locations": [
+        {
+          "location_name": "Sugar & Spice Cafe – Denison",
+          "address": "2537 W Morton St",
+          "city": "Denison",
+          "state": "TX",
+          "postal_code": "75020",
+          "phone": "903-361-0036"
+        },
+        {
+          "location_name": "Sugar & Spice Cafe – Colbert",
+          "address": "313 Moore Ave",
+          "city": "Colbert",
+          "state": "OK",
+          "postal_code": "",
+          "relationship": "Franchise location"
+        }
+      ],
+      "tags": [
+        "Sugar & Spice Cafe",
+        "Pottsboro",
+        "Lake Texoma",
+        "Coffee",
+        "Espresso",
+        "Breakfast",
+        "Pastries",
+        "Cold Drinks",
+        "Sugar-Free Drinks",
+        "Local Coffee Shop",
+        "Online Ordering",
+        "Takeout"
+      ],
+      "verification_note": "Pottsboro address, telephone number, current hours and menu offerings verified through the business's active Toast ordering page. Website, email, social-media information and additional locations were confirmed from the business's Facebook information. Current ordering hours were used in place of older pinned Facebook and Chamber listings.",
+      "source_urls": [
+        "https://sugarandspicecoffee.com",
+        "https://www.toasttab.com/local/order/sugarandspicecoffee",
+        "https://www.facebook.com/profile.php?id=100093037613281",
+        "https://www.instagram.com/sugarandspicecafe2023/"
+      ],
+      "last_checked": "2026-07-29",
+      "created_on": "2026-07-29",
+      "updated_on": "2026-07-29"
     }
   ]
 }
