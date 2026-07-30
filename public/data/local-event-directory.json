@@ -4260,7 +4260,7 @@
       "updated_on": "2026-07-30"
     },
     {
-      "event_name": "Second Annual LRRETA’s “Swim With Your Horse” Campout",
+      "event_name": "Second Annual LRRETA's \"Swim With Your Horse\" Campout",
       "event_slug": "second-annual-lrretas-swim-with-your-horse-campout",
       "start_datetime": "2026-07-31T18:30:00-05:00",
       "end_datetime": "2026-08-02T12:00:00-05:00",
@@ -4271,6 +4271,8 @@
       "venue_slugs": [
         "platter-flats-campground"
       ],
+      "venue_name": "Platter Flats Campground",
+      "location_name": "Platter Flats Campground",
       "host_business_slug": "",
       "organizer_name": "Lake Ray Roberts Equestrian Trails Association",
       "partner_business_slugs": [],
@@ -4283,10 +4285,9 @@
         "Lake Activities"
       ],
       "cost_type": "varies",
-      "cost_details": "Participants must reserve and pay for their own campsite through Recreation.gov. A $5 contribution is suggested for Saturday evening’s hamburgers and hot dogs. Attendees should bring their own drinks and a side dish or snack to share.",
-      "short_description": "Enjoy a weekend of trail rides, lakeside horse swimming, camping and campfire fellowship during LRRETA’s second annual campout at Platter Flats on Lake Texoma.",
-      "description": "The Lake Ray Roberts Equestrian Trails Association presents its Second Annual “Swim With Your Horse” Campout at Platter Flats Campground on Lake Texoma. Spend the weekend riding scenic trails, swimming with your horse, relaxing beside the lake and gathering around the campfire with fellow equestrians.\n\nThe weekend begins Friday evening with an easy ride at 6:30 PM. Riders will meet at 9:00 AM Saturday and ride out at 9:30 AM. After the ride, participants can change into shorts and lake shoes and head into the water with their horses for a refreshing swim.\n\nA grill-night gathering will begin around 6:00 PM Saturday. Hamburgers and hot dogs will be provided for a suggested $5 contribution. Attendees should bring their own drinks and a side dish or snack to share.\n\nOn Sunday, riders will meet at 9:00 AM and ride out at 9:30 AM, followed by another opportunity to enjoy a lakeside swim with their horses before heading home.\n\nLRRETA will provide complimentary coffee and muffins on Saturday and Sunday mornings. Participants must reserve their own campsite through Recreation.gov. The host trailer and campfire will be at campsite A19, so attendees are encouraged to reserve nearby sites and email their campsite number to LRRETA2018@gmail.com.",
-      "location_name": "Platter Flats Campground",
+      "cost_details": "Participants must reserve and pay for their own campsite through Recreation.gov. A $5 suggested contribution helps cover Saturday evening's hamburgers and hot dogs. Bring your own drinks plus a side dish or snack to share.",
+      "short_description": "Spend the weekend trail riding, swimming with your horse, camping, and relaxing at Platter Flats Campground on Lake Texoma during LRRETA's Second Annual Swim With Your Horse Campout.",
+      "description": "Join the Lake Ray Roberts Equestrian Trails Association for the Second Annual 'Swim With Your Horse' Campout at Platter Flats Campground on Lake Texoma. The weekend features scenic trail rides, lakeside horse swimming, camping, campfire fellowship, and plenty of time to relax with fellow horse enthusiasts.\n\nFriday evening begins with an easy ride at 6:30 PM. Saturday riders meet at 9:00 AM and ride out at 9:30 AM before cooling off with a swim alongside their horses in Lake Texoma. Saturday evening includes a camp gathering around 6:00 PM with hamburgers and hot dogs provided for a suggested $5 contribution. Guests should bring their own drinks and a side dish or snack to share.\n\nSunday morning riders meet at 9:00 AM and depart at 9:30 AM for one final ride before enjoying another lakeside swim with their horses.\n\nParticipants must reserve their own campsite through Recreation.gov. The host trailer and campfire will be located at campsite A19. Complimentary coffee and muffins will be available Saturday and Sunday mornings. After reserving a campsite, participants should email their campsite number to LRRETA2018@gmail.com.",
       "address": "867 Trail Ride Rd",
       "city": "Platter",
       "state": "OK",
@@ -4302,21 +4303,19 @@
       "recurring": false,
       "recurrence_rule": "",
       "tags": [
-        "Lake Ray Roberts Equestrian Trails Association",
         "LRRETA",
+        "Lake Ray Roberts Equestrian Trails Association",
         "Platter Flats Campground",
         "Lake Texoma",
         "Platter",
         "Cartwright",
-        "Oklahoma",
-        "Swim With Your Horse",
         "Horse Campout",
-        "Equestrian Camping",
+        "Swim With Your Horse",
         "Trail Riding",
         "Horseback Riding",
-        "Lake Swimming",
-        "Campfire",
-        "Weekend Campout"
+        "Camping",
+        "Equestrian",
+        "Outdoor Recreation"
       ],
       "source_name": "Lake Ray Roberts Equestrian Trails Association Facebook Event",
       "verified": true,
