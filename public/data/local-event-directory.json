@@ -63,7 +63,7 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 81,
+  "event_count": 82,
   "publish_ready_count": 76,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
@@ -4535,6 +4535,64 @@
       "partner_business_slugs": [],
       "partner_names": [],
       "image_url": "/images/events/yoga-at-tanglewood-resort.png"
+    },
+    {
+      "event_name": "Live Music with Neely Rose at Stafford House Provisions",
+      "event_slug": "live-music-with-neely-rose-at-stafford-house-provisions-july-30-2026",
+      "start_datetime": "2026-07-30T18:00:00-05:00",
+      "end_datetime": "2026-07-30T21:00:00-05:00",
+      "status": "upcoming",
+      "cost_type": "unknown",
+      "cost_details": "No admission or cover information was provided. Food and drinks are available for purchase.",
+      "venue_name": "Stafford House Provisions",
+      "venue_slugs": [
+        "stafford-house-provisions"
+      ],
+      "address": "101 E Main St, Suite 100",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75021",
+      "country": "USA",
+      "category": [
+        "Live Music",
+        "Food & Drink",
+        "Nightlife"
+      ],
+      "short_description": "Enjoy an evening of live music by Neely Rose at Stafford House Provisions in downtown Denison.",
+      "description": "Neely Rose performs live at Stafford House Provisions, an elevated dining destination and cocktail lounge inside Denison’s historic Katy Depot. Guests can enjoy live music alongside dinner, wine, and handcrafted cocktails. Reservations are optional but may be helpful for dining.",
+      "performers": [
+        {
+          "name": "Neely Rose",
+          "type": "Musician"
+        }
+      ],
+      "family_friendly": true,
+      "age_restriction": "",
+      "reservation_required": false,
+      "reservation_recommended": true,
+      "reservation_phone": "903-462-0120",
+      "reservation_url": "https://www.opentable.com/r/stafford-house-provisions-denison",
+      "website": "https://staffordhouseprovisions.com",
+      "source_url": "",
+      "tags": [
+        "Neely Rose",
+        "Live Music",
+        "Stafford House Provisions",
+        "Downtown Denison",
+        "Katy Depot",
+        "Cocktail Lounge",
+        "Dinner and Music",
+        "Thursday Night"
+      ],
+      "notes": "Event information was provided through a public community-calendar listing. Verify whether there is a cover charge before publication if Stafford House Provisions posts additional details.",
+      "last_checked": "2026-07-29",
+      "created_on": "2026-07-29",
+      "updated_on": "2026-07-30",
+      "categories": [],
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/live-music-with-neely-rose-at-stafford-house-provisions-july-30-2026.png",
+      "timezone": "America/Chicago"
     }
   ]
 }
