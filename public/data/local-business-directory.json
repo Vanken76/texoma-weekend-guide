@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-07-29",
+  "generated_on": "2026-07-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 493,
-  "publish_ready_count": 156,
+  "business_count": 494,
+  "publish_ready_count": 157,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -18204,6 +18204,70 @@
         "Discover Denison"
       ],
       "verification_note": "Located inside the historic Katy Depot in downtown Denison. Monitor social media for anniversary celebrations, downtown promotions, and seasonal shopping events.",
+      "last_checked": "2026-07-29"
+    },
+    {
+      "slug": "twisted-anchor-grill-and-patio",
+      "business_name": "Twisted Anchor Grill & Patio",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "service_area_or_location": "14554 Arrowhead Point Rd, Kingston, OK 73439",
+      "category": [
+        "Restaurant",
+        "Bar & Grill",
+        "Bar",
+        "Live Music Venue",
+        "Event Venue",
+        "Patio Bar"
+      ],
+      "description": "Twisted Anchor Grill & Patio is a full-service lakeside restaurant, bar and live entertainment venue located near Buncombe Creek Marina on Lake Texoma in Kingston, Oklahoma. The venue serves breakfast, lunch and dinner, features a large outdoor patio overlooking the lake, regularly hosts live music and community events, and welcomes guests arriving by car or boat.",
+      "phone": "580-565-3385",
+      "email": "info@twistedanchorgrill.com",
+      "website": "https://twistedanchorgrill.com",
+      "facebook": "https://www.facebook.com/twistedanchorgrill",
+      "instagram": "https://www.instagram.com/twistedanchorgrill",
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "Closed",
+        "thursday": "5:00 AM–10:00 PM",
+        "friday": "5:00 AM–10:00 PM",
+        "saturday": "5:00 AM–10:00 PM",
+        "sunday": "5:00 AM–8:00 PM"
+      },
+      "hours_note": "Hours verified from the official website and Facebook page.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Live Music",
+        "Weekly Specials",
+        "Holiday Events",
+        "Community Events",
+        "Fundraisers",
+        "Sport Watch Parties"
+      ],
+      "event_sources": [
+        "Official Website",
+        "Official Facebook Page",
+        "Official Instagram"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Kingston",
+        "Oklahoma",
+        "Buncombe Creek Marina",
+        "Live Music",
+        "Restaurant",
+        "Patio",
+        "Bar",
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ],
+      "verification_note": "Verified using the official website, official Facebook page, official Instagram page, and publicly listed business information. Twisted Anchor hosts regular live music, weekly specials, and community events, making it a permanent event-mining source for Texoma Weekend Guide.",
       "last_checked": "2026-07-29"
     }
   ]
