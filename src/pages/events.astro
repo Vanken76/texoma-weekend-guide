@@ -118,7 +118,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
         <div id="event-grid" class="event-grid">
           {events.map((event) => {
             const recurring = isRecurring(event);
-            const searchable = [event.event_name, event.description, event.venue_name, event.city, event.state, event.organizer_name, event.cost_details, ...(event.categories ?? []), ...(event.tags ?? [])].filter(Boolean).join(" ").toLowerCase();
+            const searchable = [event.event_name, event.description, event.venue_name, event.address, event.city, event.state, event.organizer_name, event.cost_details, ...(event.categories ?? []), ...(event.tags ?? [])].filter(Boolean).join(" ").toLowerCase();
             return (
               <article class:list={["event-card", { "has-image": Boolean(event.image_url), recurring }]} data-event-card data-search={searchable} data-date={event.start_datetime?.slice(0, 10) ?? ""} data-city={(event.city ?? "").toLowerCase()} data-categories={(event.categories ?? []).join("|").toLowerCase()} data-cost={event.cost_type ?? "unknown"} data-recurring={recurring ? "true" : "false"}>
                 {event.image_url && <a class="flyer-link" href={event.image_url} target="_blank" rel="noreferrer"><img class="event-flyer" src={event.image_url} alt={event.image_alt || `${event.event_name} flyer`} loading="lazy" /></a>}
@@ -126,7 +126,6 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
                   <div class="event-date"><strong>{recurring ? "Recurring event" : formatDate(event.start_datetime)}</strong><span>{event.start_datetime ? formatTime(event.start_datetime) : ""}{event.end_datetime ? `–${formatTime(event.end_datetime)}` : ""}</span></div>
                   <h2>{event.event_name}</h2>
                   {(event.venue_name || event.city) && <p class="venue">{event.venue_name}{event.city ? `${event.venue_name ? " · " : ""}${event.city}, ${event.state}` : ""}</p>}
-                  {event.address && <p class="address">{event.address}{event.postal_code ? ` ${event.postal_code}` : ""}</p>}
                   {event.description && <p>{event.description}</p>}
                   <dl>
                     {event.cost_details && <><dt>Admission</dt><dd>{event.cost_details}</dd></>}
@@ -286,7 +285,6 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
   .event-flyer { display: block; width: 100%; max-height: 520px; object-fit: contain; }
   .event-date { display: flex; flex-direction: column; gap: .2rem; color: #176f95; }
   .venue { margin-bottom: .35rem; font-weight: 800; }
-  .address { margin-top: 0; }
   dl { display: grid; grid-template-columns: max-content 1fr; gap: .35rem .75rem; margin: 1rem 0; }
   dt { font-weight: 900; }
   dd { margin: 0; }
