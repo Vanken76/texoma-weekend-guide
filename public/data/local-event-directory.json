@@ -63,7 +63,7 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 80,
+  "event_count": 81,
   "publish_ready_count": 76,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
@@ -4462,6 +4462,79 @@
       "partner_business_slugs": [],
       "partner_names": [],
       "image_url": "/images/events/no-agenda-coffee-ladies-of-texoma.jpg"
+    },
+    {
+      "event_name": "Yoga at Tanglewood Resort",
+      "event_slug": "yoga-at-tanglewood-resort",
+      "status": "recurring",
+      "featured": false,
+      "start_datetime": "2026-07-30T09:00:00-05:00",
+      "end_datetime": "2026-07-30T10:00:00-05:00",
+      "timezone": "America/Chicago",
+      "recurrence": {
+        "frequency": "weekly",
+        "interval": 1,
+        "days_of_week": [
+          "wednesday",
+          "thursday",
+          "saturday"
+        ],
+        "start_time": "09:00",
+        "end_time": "10:00",
+        "end_date": null,
+        "recurrence_note": "Yoga is offered every Wednesday, Thursday and Saturday at 9:00 AM. Classes last approximately one hour."
+      },
+      "venue_name": "Tanglewood Resort on Lake Texoma",
+      "location_name": "Texoma Room at Tanglewood Resort",
+      "venue_slugs": [
+        "tanglewood-resort-on-lake-texoma"
+      ],
+      "address": "290 Tanglewood Cir",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "organizer": "Tanglewood Resort on Lake Texoma",
+      "category": [
+        "Health & Wellness",
+        "Yoga",
+        "Fitness"
+      ],
+      "description": "Start the day with a guided yoga class at Tanglewood Resort on Lake Texoma. Classes are held in the resort's Texoma Room and are open to resort members, overnight guests and members of the public. Walk-ins are welcome.",
+      "short_description": "A one-hour morning yoga class held in the Texoma Room at Tanglewood Resort.",
+      "cost_type": "varies",
+      "cost_details": "Free for Tanglewood Resort members and overnight guests. $5 for non-members.",
+      "registration_required": false,
+      "ticket_url": "",
+      "audience": [
+        "Adults",
+        "Resort Guests",
+        "Community Members"
+      ],
+      "family_friendly": true,
+      "age_restriction": "",
+      "accessibility_notes": "Contact the resort directly regarding specific accessibility accommodations.",
+      "tags": [
+        "Yoga",
+        "Tanglewood Resort",
+        "Pottsboro",
+        "Lake Texoma",
+        "Health and Wellness",
+        "Fitness Class",
+        "Morning Yoga",
+        "Weekly Event",
+        "Texoma Room"
+      ],
+      "source_type": "Official venue website",
+      "source_url": "https://www.tanglewoodresort.com/amenities",
+      "verification_note": "The official Tanglewood Resort website lists yoga at 9:00 AM every Wednesday, Thursday and Saturday in the Texoma Room. Classes last approximately one hour, are free for members and overnight guests, cost $5 for non-members, and accept walk-ins.",
+      "last_checked": "2026-07-29",
+      "created_on": "2026-07-29",
+      "updated_on": "2026-07-30",
+      "categories": [],
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/yoga-at-tanglewood-resort.png"
     }
   ]
 }
