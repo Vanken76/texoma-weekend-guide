@@ -5,8 +5,8 @@
   "generated_on": "2026-07-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 498,
-  "publish_ready_count": 161,
+  "business_count": 499,
+  "publish_ready_count": 162,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -18642,6 +18642,72 @@
         "Local Coffee Shop"
       ],
       "verification_note": "Location, phone number, hours, menu, and ordering information verified through the business's active Toast ordering system. General business information verified through the official website and Facebook page.",
+      "last_checked": "2026-07-29",
+      "created_on": "2026-07-29",
+      "updated_on": "2026-07-29"
+    },
+    {
+      "slug": "spill-the-beans-colbert",
+      "business_name": "Spill The Beans",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "service_area_or_location": "Colbert, Oklahoma",
+      "category": [
+        "Coffee Shop",
+        "Cafe",
+        "Breakfast",
+        "Restaurant"
+      ],
+      "description": "Spill The Beans is a locally owned coffee shop in downtown Colbert serving handcrafted espresso drinks, specialty coffees, dirty sodas, lemonades, breakfast items, pastries and light lunch options. The shop also features a welcoming atmosphere with retail and gift shopping.",
+      "short_description": "Community coffee shop serving specialty drinks, breakfast and light lunch in Colbert.",
+      "address": "313 Moore Ave",
+      "city": "Colbert",
+      "state": "OK",
+      "postal_code": "74733",
+      "country": "USA",
+      "phone": "580-296-2326",
+      "website": "https://www.toasttab.com/local/order/spill-the-beans-309-w-coleman-ave",
+      "hours": {
+        "monday": "6:30 AM–2:00 PM",
+        "tuesday": "6:30 AM–2:00 PM",
+        "wednesday": "6:30 AM–2:00 PM",
+        "thursday": "6:30 AM–2:00 PM",
+        "friday": "6:30 AM–2:00 PM",
+        "saturday": "7:30 AM–2:00 PM",
+        "sunday": "Closed"
+      },
+      "price_range": "$",
+      "services": [
+        "Coffee",
+        "Espresso Drinks",
+        "Dirty Sodas",
+        "Breakfast",
+        "Pastries",
+        "Takeout",
+        "Drive-Through"
+      ],
+      "amenities": [
+        "Drive-Through",
+        "Takeout",
+        "Free Parking"
+      ],
+      "family_friendly": true,
+      "pet_friendly": false,
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "tags": [
+        "Colbert",
+        "Coffee",
+        "Cafe",
+        "Breakfast",
+        "Dirty Sodas",
+        "Espresso",
+        "Oklahoma"
+      ],
+      "verification_note": "Former Sugar & Spice Cafe franchise location. Now operating as Spill The Beans with its own branding, menu, phone number and online ordering.",
       "last_checked": "2026-07-29",
       "created_on": "2026-07-29",
       "updated_on": "2026-07-29"
