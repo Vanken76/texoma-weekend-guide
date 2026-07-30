@@ -112,13 +112,13 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
             <button type="button" class="quick-filter" data-quick="family">Family</button>
             <button type="button" class="quick-filter" data-quick="nightlife">Nightlife</button>
           </div>
-          <div class="filter-summary"><strong id="result-count">{events.length} event{events.length === 1 ? "" : "s"}</strong><button id="clear-filters" type="button" class="clear-filters">Clear filters</button></div>
+          <div class="filter-summary"><strong id="result-count">{events.length} events</strong><button id="clear-filters" type="button" class="clear-filters">Clear filters</button></div>
         </section>
 
         <div id="event-grid" class="event-grid">
           {events.map((event) => {
             const recurring = isRecurring(event);
-            const searchable = [event.event_name, event.description, event.venue_name, event.address, event.city, event.state, event.organizer_name, event.cost_details, ...(event.categories ?? []), ...(event.tags ?? [])].filter(Boolean).join(" ").toLowerCase();
+            const searchable = [event.event_name, event.description, event.venue_name, event.city, event.state, event.organizer_name, event.cost_details, ...(event.categories ?? []), ...(event.tags ?? [])].filter(Boolean).join(" ").toLowerCase();
             return (
               <article class:list={["event-card", { "has-image": Boolean(event.image_url), recurring }]} data-event-card data-search={searchable} data-date={event.start_datetime?.slice(0, 10) ?? ""} data-city={(event.city ?? "").toLowerCase()} data-categories={(event.categories ?? []).join("|").toLowerCase()} data-cost={event.cost_type ?? "unknown"} data-recurring={recurring ? "true" : "false"}>
                 {event.image_url && <a class="flyer-link" href={event.image_url} target="_blank" rel="noreferrer"><img class="event-flyer" src={event.image_url} alt={event.image_alt || `${event.event_name} flyer`} loading="lazy" /></a>}
@@ -126,6 +126,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
                   <div class="event-date"><strong>{recurring ? "Recurring event" : formatDate(event.start_datetime)}</strong><span>{event.start_datetime ? formatTime(event.start_datetime) : ""}{event.end_datetime ? `–${formatTime(event.end_datetime)}` : ""}</span></div>
                   <h2>{event.event_name}</h2>
                   {(event.venue_name || event.city) && <p class="venue">{event.venue_name}{event.city ? `${event.venue_name ? " · " : ""}${event.city}, ${event.state}` : ""}</p>}
+                  {event.address && <p class="address">{event.address}{event.postal_code ? ` ${event.postal_code}` : ""}</p>}
                   {event.description && <p>{event.description}</p>}
                   <dl>
                     {event.cost_details && <><dt>Admission</dt><dd>{event.cost_details}</dd></>}
@@ -143,6 +144,13 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
             );
           })}
         </div>
+
+        <nav id="pagination" class="pagination" aria-label="Event pages" hidden>
+          <button id="previous-page" type="button">Previous</button>
+          <div id="page-numbers" class="page-numbers"></div>
+          <button id="next-page" type="button">Next</button>
+        </nav>
+
         <section id="no-results" class="empty-state" hidden><h2>No events match those filters.</h2><p>Try clearing one or more filters to see additional upcoming events.</p><button id="clear-empty" type="button">Show all events</button></section>
       </>
     ) : (
@@ -151,15 +159,22 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
   </section>
 
   <script>
+    const PAGE_SIZE = 20;
     const searchInput = document.querySelector("#event-search");
     const dateFilter = document.querySelector("#date-filter");
     const cityFilter = document.querySelector("#city-filter");
     const categoryFilter = document.querySelector("#category-filter");
     const resultCount = document.querySelector("#result-count");
     const noResults = document.querySelector("#no-results");
+    const pagination = document.querySelector("#pagination");
+    const previousPage = document.querySelector("#previous-page");
+    const nextPage = document.querySelector("#next-page");
+    const pageNumbers = document.querySelector("#page-numbers");
     const cards = [...document.querySelectorAll("[data-event-card]")];
     const quickButtons = [...document.querySelectorAll("[data-quick]")];
     let quickFilter = "all";
+    let currentPage = 1;
+
     const chicagoDate = (date = new Date()) => new Intl.DateTimeFormat("en-CA", { timeZone: "America/Chicago", year: "numeric", month: "2-digit", day: "2-digit" }).format(date);
     const addDays = (dateString, days) => { const date = new Date(`${dateString}T12:00:00`); date.setDate(date.getDate() + days); return chicagoDate(date); };
     const matchesDate = (eventDate, selected, recurring) => {
@@ -173,24 +188,79 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
       if (selected === "weekend") { const base = new Date(`${current}T12:00:00`); const friday = addDays(current, (5 - base.getDay() + 7) % 7); return eventDate >= friday && eventDate <= addDays(friday, 2); }
       return true;
     };
-    const applyFilters = () => {
+
+    const filteredCards = () => {
       const query = searchInput?.value.trim().toLowerCase() ?? "";
       const selectedDate = dateFilter?.value ?? "all";
       const selectedCity = cityFilter?.value ?? "all";
       const selectedCategory = categoryFilter?.value ?? "all";
-      let visible = 0;
-      cards.forEach((card) => {
-        const show = (!query || (card.dataset.search ?? "").includes(query)) && matchesDate(card.dataset.date ?? "", selectedDate, card.dataset.recurring === "true") && (selectedCity === "all" || card.dataset.city === selectedCity) && (selectedCategory === "all" || (card.dataset.categories ?? "").split("|").includes(selectedCategory)) && (quickFilter === "all" || (quickFilter === "free" && card.dataset.cost === "free") || (card.dataset.categories ?? "").includes(quickFilter) || (card.dataset.search ?? "").includes(quickFilter));
-        card.hidden = !show;
-        if (show) visible += 1;
+      return cards.filter((card) => {
+        const search = card.dataset.search ?? "";
+        const categories = card.dataset.categories ?? "";
+        return (!query || search.includes(query))
+          && matchesDate(card.dataset.date ?? "", selectedDate, card.dataset.recurring === "true")
+          && (selectedCity === "all" || card.dataset.city === selectedCity)
+          && (selectedCategory === "all" || categories.split("|").includes(selectedCategory))
+          && (quickFilter === "all" || (quickFilter === "free" && card.dataset.cost === "free") || categories.includes(quickFilter) || search.includes(quickFilter));
       });
-      if (resultCount) resultCount.textContent = `${visible} event${visible === 1 ? "" : "s"}`;
-      if (noResults) noResults.hidden = visible !== 0;
     };
-    [searchInput, dateFilter, cityFilter, categoryFilter].forEach((control) => control?.addEventListener(control === searchInput ? "input" : "change", applyFilters));
-    quickButtons.forEach((button) => button.addEventListener("click", () => { quickFilter = button.dataset.quick ?? "all"; quickButtons.forEach((item) => item.classList.toggle("active", item === button)); applyFilters(); }));
+
+    const renderPagination = (totalPages) => {
+      if (!pagination || !pageNumbers || !previousPage || !nextPage) return;
+      pagination.hidden = totalPages <= 1;
+      previousPage.disabled = currentPage === 1;
+      nextPage.disabled = currentPage === totalPages;
+      pageNumbers.innerHTML = "";
+      for (let page = 1; page <= totalPages; page += 1) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = String(page);
+        button.className = "page-number";
+        button.setAttribute("aria-label", `Go to page ${page}`);
+        if (page === currentPage) {
+          button.classList.add("active");
+          button.setAttribute("aria-current", "page");
+        }
+        button.addEventListener("click", () => {
+          currentPage = page;
+          applyFilters(false);
+          document.querySelector(".event-filters")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+        pageNumbers.appendChild(button);
+      }
+    };
+
+    const applyFilters = (resetPage = true) => {
+      if (resetPage) currentPage = 1;
+      const matches = filteredCards();
+      const totalPages = Math.max(1, Math.ceil(matches.length / PAGE_SIZE));
+      if (currentPage > totalPages) currentPage = totalPages;
+      const start = (currentPage - 1) * PAGE_SIZE;
+      const end = start + PAGE_SIZE;
+      const visibleSet = new Set(matches.slice(start, end));
+      cards.forEach((card) => { card.hidden = !visibleSet.has(card); });
+
+      if (resultCount) {
+        resultCount.textContent = matches.length
+          ? `Showing ${start + 1}–${Math.min(end, matches.length)} of ${matches.length} events`
+          : "0 events";
+      }
+      if (noResults) noResults.hidden = matches.length !== 0;
+      if (pagination) pagination.hidden = matches.length === 0 || totalPages <= 1;
+      renderPagination(totalPages);
+    };
+
+    [searchInput, dateFilter, cityFilter, categoryFilter].forEach((control) => control?.addEventListener(control === searchInput ? "input" : "change", () => applyFilters(true)));
+    quickButtons.forEach((button) => button.addEventListener("click", () => {
+      quickFilter = button.dataset.quick ?? "all";
+      quickButtons.forEach((item) => item.classList.toggle("active", item === button));
+      applyFilters(true);
+    }));
+    previousPage?.addEventListener("click", () => { if (currentPage > 1) { currentPage -= 1; applyFilters(false); document.querySelector(".event-filters")?.scrollIntoView({ behavior: "smooth", block: "start" }); } });
+    nextPage?.addEventListener("click", () => { const totalPages = Math.ceil(filteredCards().length / PAGE_SIZE); if (currentPage < totalPages) { currentPage += 1; applyFilters(false); document.querySelector(".event-filters")?.scrollIntoView({ behavior: "smooth", block: "start" }); } });
     document.querySelector("#clear-filters")?.addEventListener("click", () => location.reload());
     document.querySelector("#clear-empty")?.addEventListener("click", () => location.reload());
+    applyFilters(true);
   </script>
 </BaseLayout>
 
@@ -204,9 +274,9 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
   .event-filters label { display: grid; gap: .35rem; color: #103a58; font-weight: 800; }
   .event-filters input,.event-filters select { width: 100%; min-height: 46px; padding: .7rem .8rem; border: 1px solid #bfcdd4; border-radius: .65rem; background: white; color: #1f2933; font: inherit; }
   .quick-filters,.event-actions { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: 1rem; }
-  .quick-filter,.clear-filters,.empty-state button { min-height: 42px; padding: .6rem .9rem; border: 1px solid #176f95; border-radius: 999px; background: white; color: #176f95; font: inherit; font-weight: 850; cursor: pointer; }
-  .quick-filter.active { background: #176f95; color: white; }
-  .filter-summary { display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; }
+  .quick-filter,.clear-filters,.empty-state button,.pagination button { min-height: 42px; padding: .6rem .9rem; border: 1px solid #176f95; border-radius: 999px; background: white; color: #176f95; font: inherit; font-weight: 850; cursor: pointer; }
+  .quick-filter.active,.page-number.active { background: #176f95; color: white; }
+  .filter-summary { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1rem; }
   .event-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.25rem; align-items: start; }
   .event-card { overflow: hidden; border: 1px solid #d7e0e4; border-radius: 1rem; background: #fffdf8; box-shadow: 0 12px 30px rgba(16,58,88,.08); }
   .event-card[hidden] { display: none; }
@@ -216,6 +286,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
   .event-flyer { display: block; width: 100%; max-height: 520px; object-fit: contain; }
   .event-date { display: flex; flex-direction: column; gap: .2rem; color: #176f95; }
   .venue { margin-bottom: .35rem; font-weight: 800; }
+  .address { margin-top: 0; }
   dl { display: grid; grid-template-columns: max-content 1fr; gap: .35rem .75rem; margin: 1rem 0; }
   dt { font-weight: 900; }
   dd { margin: 0; }
@@ -223,7 +294,10 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
   .event-link { background: #176f95; color: white; }
   .ticket-link { background: #236b45; color: white; }
   .secondary-link { border: 1px solid #176f95; color: #176f95; }
+  .pagination { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: .6rem; margin-top: 2rem; }
+  .page-numbers { display: flex; flex-wrap: wrap; justify-content: center; gap: .45rem; }
+  .pagination button:disabled { cursor: not-allowed; opacity: .45; }
   .empty-state { padding: 2rem; border: 1px solid #d7e0e4; border-radius: 1rem; background: #fffdf8; }
   @media (max-width: 850px) { .filter-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .search-field { grid-column: 1 / -1; } }
-  @media (max-width: 560px) { .filter-grid { grid-template-columns: 1fr; } .search-field { grid-column: auto; } }
+  @media (max-width: 560px) { .filter-grid { grid-template-columns: 1fr; } .search-field { grid-column: auto; } .filter-summary { align-items: flex-start; } .pagination { align-items: stretch; } .page-numbers { order: 3; flex-basis: 100%; } }
 </style>
