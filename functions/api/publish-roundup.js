@@ -110,28 +110,35 @@ const githubHeaders = (token) => ({
 const githubFileUrl = (path) =>
   `https://api.github.com/repos/${REPOSITORY}/contents/${path}`;
 
-const fileExists = async (path, headers) => {
+const getExistingFileSha = async (path, headers) => {
   const response = await fetch(`${githubFileUrl(path)}?ref=${BRANCH}`, { headers });
-  if (response.status === 404) return false;
-  if (!response.ok) throw new Error(`GitHub could not check ${path} (${response.status}).`);
-  return true;
+  if (response.status === 404) return null;
+  const result = await response.json();
+  if (!response.ok) throw new Error(result?.message || `GitHub could not check ${path} (${response.status}).`);
+  return typeof result?.sha === "string" ? result.sha : null;
 };
 
-const createGithubFile = async ({ path, content, message, headers }) => {
+const upsertGithubFile = async ({ path, content, message, headers }) => {
+  const sha = await getExistingFileSha(path, headers);
   const response = await fetch(githubFileUrl(path), {
     method: "PUT",
     headers: {
       ...headers,
       "content-type": "application/json"
     },
-    body: JSON.stringify({ message, content, branch: BRANCH })
+    body: JSON.stringify({
+      message,
+      content,
+      branch: BRANCH,
+      ...(sha ? { sha } : {})
+    })
   });
 
   const result = await response.json();
   if (!response.ok) {
     throw new Error(result?.message || `GitHub rejected ${path} (${response.status}).`);
   }
-  return result;
+  return { result, updated: Boolean(sha) };
 };
 
 export const onRequestPost = async ({ request, env }) => {
@@ -170,55 +177,50 @@ export const onRequestPost = async ({ request, env }) => {
   const markdownPath = `src/content/roundups/${slug}.md`;
   const primaryImagePath = `public/images/${primaryImage.name}`;
   const secondaryImagePath = secondaryImage ? `public/images/${secondaryImage.name}` : null;
-  const paths = [markdownPath, primaryImagePath, secondaryImagePath].filter(Boolean);
   const headers = githubHeaders(env.GITHUB_TOKEN);
 
   try {
-    const existence = await Promise.all(paths.map((path) => fileExists(path, headers)));
-    const conflicts = paths.filter((path, index) => existence[index]).map((path) => `A file already exists at ${path}.`);
-    if (conflicts.length) {
-      return jsonResponse({ error: "Publishing would overwrite an existing file.", problems: conflicts }, 409);
-    }
-
     const now = new Date().toISOString();
     const primaryBytes = new Uint8Array(await primaryImage.arrayBuffer());
-    const primaryResult = await createGithubFile({
+    const primaryWrite = await upsertGithubFile({
       path: primaryImagePath,
       content: bytesToBase64(primaryBytes),
-      message: `Upload primary roundup image for ${slug} ${now}`,
+      message: `Publish primary roundup image for ${slug} ${now}`,
       headers
     });
 
-    let secondaryResult = null;
+    let secondaryWrite = null;
     if (secondaryImage && secondaryImagePath) {
       const secondaryBytes = new Uint8Array(await secondaryImage.arrayBuffer());
-      secondaryResult = await createGithubFile({
+      secondaryWrite = await upsertGithubFile({
         path: secondaryImagePath,
         content: bytesToBase64(secondaryBytes),
-        message: `Upload second roundup image for ${slug} ${now}`,
+        message: `Publish second roundup image for ${slug} ${now}`,
         headers
       });
     }
 
-    const markdownResult = await createGithubFile({
+    const markdownWrite = await upsertGithubFile({
       path: markdownPath,
       content: textToBase64(`${markdown}\n`),
       message: `Publish roundup ${slug} ${now}`,
       headers
     });
 
+    const updatedAny = primaryWrite.updated || secondaryWrite?.updated || markdownWrite.updated;
     return jsonResponse({
       success: true,
-      message: secondaryImage
-        ? "Roundup and both images committed to GitHub. Cloudflare deployment should begin automatically."
-        : "Roundup and image committed to GitHub. Cloudflare deployment should begin automatically.",
+      message: updatedAny
+        ? "Roundup files updated in GitHub. Cloudflare deployment should begin automatically."
+        : "Roundup files committed to GitHub. Cloudflare deployment should begin automatically.",
       slug,
       markdown_path: markdownPath,
       primary_image_path: primaryImagePath,
       secondary_image_path: secondaryImagePath,
-      markdown_commit: markdownResult?.commit?.sha ?? null,
-      primary_image_commit: primaryResult?.commit?.sha ?? null,
-      secondary_image_commit: secondaryResult?.commit?.sha ?? null
+      markdown_commit: markdownWrite.result?.commit?.sha ?? null,
+      primary_image_commit: primaryWrite.result?.commit?.sha ?? null,
+      secondary_image_commit: secondaryWrite?.result?.commit?.sha ?? null,
+      updated_existing: Boolean(updatedAny)
     });
   } catch (error) {
     const message = error instanceof Error ? error.message : "Unknown GitHub publishing error.";
