@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 75,
-  "publish_ready_count": 72,
+  "event_count": 76,
+  "publish_ready_count": 73,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -4141,6 +4141,62 @@
       "verified": true,
       "source_verified": true,
       "last_checked": "2026-07-29",
+      "created_on": "2026-07-30",
+      "updated_on": "2026-07-30"
+    },
+    {
+      "event_name": "Noah Coble Live at Twisted Anchor Grill & Patio",
+      "event_slug": "noah-coble-live-at-twisted-anchor-grill-and-patio-2026-07-31",
+      "start_datetime": "2026-07-31T19:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "publish_ready": true,
+      "featured": true,
+      "venue_slugs": [
+        "twisted-anchor-grill-and-patio"
+      ],
+      "host_business_slug": "twisted-anchor-grill-and-patio",
+      "organizer_name": "Twisted Anchor Grill & Patio",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "categories": [
+        "Live Music",
+        "Country Music",
+        "Food and Drink",
+        "Nightlife"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No cover charge or admission information was provided.",
+      "short_description": "Enjoy an evening of live music with Noah Coble at Twisted Anchor Grill & Patio overlooking Lake Texoma.",
+      "description": "Kick off your Friday night with live music from Noah Coble at Twisted Anchor Grill & Patio near Buncombe Creek Marina on Lake Texoma. Enjoy live entertainment, cold drinks, great food, lake views, and an evening on the patio. Music begins at 7:00 PM.",
+      "location_name": "Twisted Anchor Grill & Patio",
+      "address": "14554 Arrowhead Point Rd",
+      "city": "Kingston",
+      "state": "OK",
+      "postal_code": "73439",
+      "image_url": "/images/events/noah-coble-live-at-twisted-anchor-grill-and-patio-2026-07-31.jpg",
+      "website_url": "https://twistedanchorgrill.com",
+      "facebook_event_url": "",
+      "ticket_url": "",
+      "contact_name": "Twisted Anchor Grill & Patio",
+      "contact_email": "info@twistedanchorgrill.com",
+      "contact_phone": "580-565-3385",
+      "is_recurring": false,
+      "recurrence_rule": "",
+      "tags": [
+        "Noah Coble",
+        "Twisted Anchor Grill & Patio",
+        "Kingston",
+        "Lake Texoma",
+        "Buncombe Creek",
+        "Live Music",
+        "Friday Night",
+        "Patio Music"
+      ],
+      "source_name": "Twisted Anchor Grill & Patio Facebook",
+      "verified": true,
+      "last_checked": "2026-07-30",
       "created_on": "2026-07-30",
       "updated_on": "2026-07-30"
     }
