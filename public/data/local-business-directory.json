@@ -5,7 +5,7 @@
   "generated_on": "2026-07-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 504,
+  "business_count": 505,
   "publish_ready_count": 167,
   "businesses": [
     {
@@ -19142,6 +19142,92 @@
       "last_checked": "2026-07-30",
       "last_verified": "2026-07-30",
       "notes": "Verified Facebook business page. No publicly listed physical storefront, phone number, website, or regular business hours were found. Treated as a home-based food business similar to Oh My Southern Pie. Refer customers to the official Facebook page or email for current offerings and ordering."
+    },
+    {
+      "business_name": "The Island Bar & Grill Lake Texoma",
+      "slug": "the-island-bar-and-grill-lake-texoma",
+      "status": "active",
+      "featured": false,
+      "description": "Waterfront restaurant and bar located at Highport Marina on Lake Texoma offering American favorites, cocktails, outdoor seating, live music, and sunset views over the marina.",
+      "short_description": "Waterfront restaurant, bar, and live music venue at Highport Marina on Lake Texoma.",
+      "categories": [
+        "Restaurant",
+        "Bar",
+        "Live Music Venue",
+        "Nightlife",
+        "American Restaurant",
+        "Waterfront Dining"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Highport Marina",
+        "Waterfront",
+        "Outdoor Seating",
+        "Live Music",
+        "Cocktails",
+        "Burgers",
+        "Seafood",
+        "Sports Bar",
+        "Patio",
+        "Sunset Views",
+        "Pottsboro"
+      ],
+      "address": "120 Texoma Harbor Dr",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "phone": "903-786-7654",
+      "email": null,
+      "website": "https://highport.com/marina-services/food-and-beverage/",
+      "facebook": "https://www.facebook.com/TexomaIslandBarAndGrill",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "Closed",
+        "thursday": "4:30 PM - 10:00 PM",
+        "friday": "11:00 AM - 10:00 PM",
+        "saturday": "11:00 AM - 10:00 PM",
+        "sunday": "11:00 AM - 10:00 PM"
+      },
+      "price_range": "$$",
+      "features": [
+        "Outdoor Seating",
+        "Indoor Seating",
+        "Live Music",
+        "Full Bar",
+        "Beer",
+        "Cocktails",
+        "Takeout",
+        "Dine-In",
+        "Family Friendly",
+        "Boat Accessible",
+        "Marina Views",
+        "Waterfront Patio"
+      ],
+      "live_music": true,
+      "pet_friendly": true,
+      "kid_friendly": true,
+      "wheelchair_accessible": true,
+      "latitude": null,
+      "longitude": null,
+      "cover_image": null,
+      "logo": null,
+      "neighborhood": "Highport Marina",
+      "service_area": [
+        "Lake Texoma",
+        "Pottsboro",
+        "Preston Peninsula"
+      ],
+      "related_business_slugs": [
+        "highport-marina",
+        "schooners-breakfast-and-brunch"
+      ],
+      "notes": "Seasonal waterfront restaurant located inside Highport Marina. Regular live music on Thursdays, Fridays, Saturdays, and Sunday afternoons during the operating season.",
+      "last_verified": "2026-07-30"
     }
   ]
 }
