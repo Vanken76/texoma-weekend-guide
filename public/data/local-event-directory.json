@@ -63,7 +63,7 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 82,
+  "event_count": 83,
   "publish_ready_count": 76,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
@@ -4592,6 +4592,61 @@
       "partner_business_slugs": [],
       "partner_names": [],
       "image_url": "/images/events/live-music-with-neely-rose-at-stafford-house-provisions-july-30-2026.png",
+      "timezone": "America/Chicago"
+    },
+    {
+      "event_name": "Open Mic with Danny K at Sloppy Joe’s",
+      "event_slug": "open-mic-with-danny-k-at-sloppy-joes-july-30-2026",
+      "start_datetime": "2026-07-30T18:00:00-05:00",
+      "end_datetime": "2026-07-30T21:00:00-05:00",
+      "status": "upcoming",
+      "cost_type": "unknown",
+      "cost_details": "No cover charge or admission information was listed.",
+      "venue_name": "Sloppy Joe’s Bar & Grill",
+      "venue_slugs": [
+        "sloppy-joes-bar-and-grill"
+      ],
+      "address": "81750 N Hwy 289, Suite 122",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "category": [
+        "Live Music",
+        "Open Mic",
+        "Food & Drink",
+        "Nightlife"
+      ],
+      "short_description": "Join Danny K for an open mic night at Sloppy Joe’s Bar & Grill in Pottsboro.",
+      "description": "Danny K hosts an open mic night at Sloppy Joe’s Bar & Grill on Lake Texoma. Singers, musicians, and other performers are welcome to participate while guests enjoy food, drinks, and live entertainment.",
+      "performers": [
+        {
+          "name": "Danny K",
+          "type": "Host and Musician"
+        }
+      ],
+      "family_friendly": true,
+      "age_restriction": "",
+      "reservation_required": false,
+      "reservation_recommended": false,
+      "tags": [
+        "Danny K",
+        "Open Mic",
+        "Live Music",
+        "Sloppy Joe’s",
+        "Pottsboro",
+        "Lake Texoma",
+        "Thursday Night",
+        "Food and Drinks"
+      ],
+      "notes": "The public event listing did not provide admission or performer sign-up details.",
+      "last_checked": "2026-07-29",
+      "created_on": "2026-07-29",
+      "updated_on": "2026-07-30",
+      "categories": [],
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/open-mic-with-danny-k-at-sloppy-joes-july-30-2026.png",
       "timezone": "America/Chicago"
     }
   ]
