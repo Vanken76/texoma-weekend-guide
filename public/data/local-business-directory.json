@@ -5,8 +5,8 @@
   "generated_on": "2026-07-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 497,
-  "publish_ready_count": 160,
+  "business_count": 498,
+  "publish_ready_count": 161,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -18535,6 +18535,113 @@
         "https://www.facebook.com/profile.php?id=100093037613281",
         "https://www.instagram.com/sugarandspicecafe2023/"
       ],
+      "last_checked": "2026-07-29",
+      "created_on": "2026-07-29",
+      "updated_on": "2026-07-29"
+    },
+    {
+      "slug": "sugar-and-spice-cafe-denison",
+      "business_name": "Sugar & Spice Cafe – Denison",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "service_area_or_location": "Denison, Texas",
+      "category": [
+        "Coffee Shop",
+        "Cafe",
+        "Breakfast",
+        "Bakery and Sweets",
+        "Restaurant"
+      ],
+      "description": "Sugar & Spice Cafe – Denison is the Denison location of the locally owned Sugar & Spice Cafe family. The cafe serves handcrafted espresso drinks, specialty coffees, cold beverages, lemonades, energy spritzers, sweet tea, breakfast favorites, pastries and light lunch options. Guests can order ahead online for convenient pickup.",
+      "short_description": "Locally owned coffee shop serving specialty drinks, breakfast and pastries in Denison.",
+      "address": "2537 W Morton St",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "country": "USA",
+      "phone": "903-361-0036",
+      "email": "shuvonn@sugarandspicecoffee.com",
+      "website": "https://sugarandspicecoffee.com",
+      "online_ordering_url": "https://order.toasttab.com/online/sugar-and-spice-denison-2537-west-morton-street",
+      "facebook": "https://www.facebook.com/profile.php?id=100093037613281",
+      "instagram": "https://www.instagram.com/sugarandspicecafe2023/",
+      "hours": {
+        "monday": "6:30 AM–2:00 PM",
+        "tuesday": "6:30 AM–2:00 PM",
+        "wednesday": "6:30 AM–2:00 PM",
+        "thursday": "6:30 AM–2:00 PM",
+        "friday": "6:30 AM–2:00 PM",
+        "saturday": "7:00 AM–2:00 PM",
+        "sunday": "Closed"
+      },
+      "price_range": "$$",
+      "services": [
+        "Coffee",
+        "Espresso Drinks",
+        "Cold Drinks",
+        "Breakfast",
+        "Light Lunch",
+        "Pastries",
+        "Takeout",
+        "Online Ordering",
+        "Dine-In"
+      ],
+      "amenities": [
+        "Wi-Fi",
+        "Drive-Through",
+        "Order Ahead",
+        "Takeout",
+        "Dine-In",
+        "Free Parking"
+      ],
+      "menu_highlights": [
+        "Caramel Macchiato",
+        "Honey Bun Latte",
+        "Sugar & Spice & Everything Nice Latte",
+        "Vanilla Bliss Latte",
+        "Lavender Honey Bee Latte",
+        "Energy Spritzers",
+        "Breakfast Burritos",
+        "Ham & Cheese Croissant",
+        "Kolaches",
+        "Muffins",
+        "Oatmeal"
+      ],
+      "family_friendly": true,
+      "pet_friendly": true,
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_brand": "Sugar & Spice Cafe",
+      "other_locations": [
+        {
+          "location_name": "Sugar & Spice Cafe – Pottsboro",
+          "city": "Pottsboro",
+          "state": "TX"
+        },
+        {
+          "location_name": "Sugar & Spice Cafe – Colbert",
+          "city": "Colbert",
+          "state": "OK",
+          "relationship": "Franchise location"
+        }
+      ],
+      "tags": [
+        "Sugar & Spice Cafe",
+        "Denison",
+        "Coffee",
+        "Breakfast",
+        "Espresso",
+        "Cafe",
+        "Pastries",
+        "Energy Spritzers",
+        "Takeout",
+        "Drive-Through",
+        "Local Coffee Shop"
+      ],
+      "verification_note": "Location, phone number, hours, menu, and ordering information verified through the business's active Toast ordering system. General business information verified through the official website and Facebook page.",
       "last_checked": "2026-07-29",
       "created_on": "2026-07-29",
       "updated_on": "2026-07-29"
