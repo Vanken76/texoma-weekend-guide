@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 87,
-  "publish_ready_count": 80,
+  "event_count": 88,
+  "publish_ready_count": 81,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -4886,6 +4886,43 @@
       "last_checked": "2026-07-30",
       "created_on": "2026-07-30",
       "updated_on": "2026-07-30"
+    },
+    {
+      "event_name": "Jeff & Rae Band at Pacesetters Ballroom",
+      "event_slug": "jeff-and-rae-band-at-pacesetters-ballroom-2026-07-30",
+      "start_datetime": "2026-07-30T19:00:00-05:00",
+      "end_datetime": "2026-07-30T21:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "cost_type": "paid",
+      "cost_amount": 8,
+      "cost_description": "$8 admission",
+      "categories": [
+        "Live Music",
+        "Dancing",
+        "Nightlife"
+      ],
+      "venue_slugs": [
+        "pacesetters-ballroom"
+      ],
+      "organizer_name": "D&J Texoma Dance Ranch",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "description": "Enjoy an evening of live music and dancing with the Jeff & Rae Band at Pacesetters Ballroom at D&J Texoma Dance Ranch. The band performs from 7:00 to 9:30 p.m. Admission is $8, and a concession stand will be available. No drinking or smoking is permitted inside the building.",
+      "short_description": "Live music and dancing with the Jeff & Rae Band at Pacesetters Ballroom in Madill.",
+      "contact_phone": "405-642-2595",
+      "contact_phone_secondary": "580-795-7684",
+      "contact_email": "djtexomadanceranchrvpark@yahoo.com",
+      "host_business_slug": "pacesetters-ballroom",
+      "featured": false,
+      "publish_ready": true,
+      "source_url": "",
+      "ticket_url": "",
+      "image_url": "/images/events/jeff-and-rae-band-at-pacesetters-ballroom-2026-07-30.jpg",
+      "notes": "Concession stand available. No drinking or smoking inside the building.",
+      "created_on": "2026-07-30",
+      "updated_on": "2026-07-30",
+      "last_checked": "2026-07-30"
     }
   ]
 }
