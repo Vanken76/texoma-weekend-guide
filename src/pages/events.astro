@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import directory from "../../public/data/local-event-directory.json";
+import businessDirectory from "../../public/data/local-business-directory.json";
 
 const now = new Date();
 const today = new Intl.DateTimeFormat("en-CA", {
@@ -9,6 +10,30 @@ const today = new Intl.DateTimeFormat("en-CA", {
   month: "2-digit",
   day: "2-digit"
 }).format(now);
+
+const businesses = businessDirectory.businesses ?? [];
+const businessBySlug = new Map(businesses.map((business) => [business.slug, business]));
+const toArray = (value) => Array.isArray(value) ? value : value ? [value] : [];
+
+const getPrimaryVenueSlug = (event) => [
+  ...toArray(event.venue_slugs),
+  ...toArray(event.venue_slug),
+  ...toArray(event.host_business_slug)
+].find(Boolean) ?? null;
+
+const withVenueFallbacks = (event) => {
+  const venueSlug = getPrimaryVenueSlug(event);
+  const business = venueSlug ? businessBySlug.get(venueSlug) : null;
+
+  return {
+    ...event,
+    venue_name: event.venue_name || event.location_name || business?.business_name || "",
+    address: event.address || business?.address || null,
+    city: event.city || business?.city || "",
+    state: event.state || business?.state || "",
+    postal_code: event.postal_code || business?.postal_code || null
+  };
+};
 
 const isActive = (event) => event.active !== false;
 const isRecurring = (event) => event.recurring === true;
@@ -137,6 +162,7 @@ const getRecurrenceDetails = (event) => {
 };
 
 const events = (directory.events ?? [])
+  .map(withVenueFallbacks)
   .filter((event) => event.publish_ready === true)
   .filter((event) => ["upcoming", "recurring"].includes(event.status))
   .filter(isCurrent)
@@ -266,7 +292,12 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
                   )}
 
                   <h2>{event.event_name}</h2>
-                  <p class="venue">{event.venue_name}{event.city ? ` · ${event.city}, ${event.state}` : ""}</p>
+                  {(event.venue_name || event.city) && (
+                    <p class="venue">{event.venue_name}{event.city ? `${event.venue_name ? " · " : ""}${event.city}, ${event.state}` : ""}</p>
+                  )}
+                  {event.address && (
+                    <p class="address">{event.address}{event.postal_code ? ` ${event.postal_code}` : ""}</p>
+                  )}
                   {event.description && <p>{event.description}</p>}
 
                   <dl>
@@ -445,6 +476,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
   .recurrence-time { font-size: 1.05rem; }
   .recurring-date small { margin-top: .15rem; padding-top: .55rem; border-top: 1px solid rgba(35,107,69,.2); opacity: .9; }
   .venue { font-weight: 800; }
+  .address { margin-top: -.35rem; }
   dl { display: grid; grid-template-columns: max-content 1fr; gap: .35rem .75rem; margin: 1rem 0; }
   dt { font-weight: 900; }
   dd { margin: 0; }
