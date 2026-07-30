@@ -5,8 +5,8 @@
   "generated_on": "2026-07-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 495,
-  "publish_ready_count": 158,
+  "business_count": 496,
+  "publish_ready_count": 159,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -18365,6 +18365,61 @@
         "Outdoor Recreation"
       ],
       "verification_note": "Business information verified through the official Recreation.gov listing operated by the U.S. Army Corps of Engineers.",
+      "last_checked": "2026-07-29"
+    },
+    {
+      "slug": "piner-middle-school",
+      "business_name": "Piner Middle School",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "service_area_or_location": "Sherman, Texas",
+      "category": [
+        "Middle School",
+        "Public School",
+        "Education",
+        "Event Venue"
+      ],
+      "description": "Piner Middle School is a public middle school serving grades 6–8 in Sherman Independent School District. In addition to academics, the campus hosts student performances, band camps, concerts, athletic events, and other school and community activities throughout the year.",
+      "short_description": "Sherman ISD public middle school serving grades 6–8 and hosting student and community events.",
+      "address": "402 W Pecan St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75092",
+      "country": "USA",
+      "phone": "(903) 891-6470",
+      "email": "piner@shermanisd.net",
+      "website": "https://piner.shermanisd.net",
+      "facebook": "",
+      "instagram": "",
+      "operator": "Sherman Independent School District",
+      "hours": {
+        "office": "School office hours vary during the academic year."
+      },
+      "amenities": [
+        "Band Hall",
+        "Gymnasium",
+        "Athletic Facilities",
+        "Parking",
+        "Wheelchair Accessible"
+      ],
+      "pet_friendly": false,
+      "family_friendly": true,
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "tags": [
+        "Sherman ISD",
+        "Piner Middle School",
+        "Sherman",
+        "Education",
+        "Band",
+        "Fine Arts",
+        "Student Events",
+        "Middle School"
+      ],
+      "verification_note": "Information verified through the official Piner Middle School and Sherman ISD websites.",
       "last_checked": "2026-07-29"
     }
   ]
