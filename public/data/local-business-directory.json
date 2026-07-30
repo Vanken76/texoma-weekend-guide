@@ -5,8 +5,8 @@
   "generated_on": "2026-07-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 501,
-  "publish_ready_count": 164,
+  "business_count": 502,
+  "publish_ready_count": 165,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -18930,6 +18930,74 @@
         "H.O.G. Chapter Sponsor",
         "Community Events",
         "Group Rides"
+      ]
+    },
+    {
+      "slug": "horseshoe-bend-retreat",
+      "business_name": "Horseshoe Bend Retreat",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "4411 County Road 127, Whitesboro, TX 76273",
+      "category": [
+        "Retreat Center",
+        "Event Venue",
+        "Campground",
+        "Cabin Rentals",
+        "RV Park",
+        "Wedding Venue",
+        "Outdoor Recreation"
+      ],
+      "description": "Horseshoe Bend Retreat is a unique Red River destination near Whitesboro offering river floats, kayaking, paddleboarding, camping, cabins, RV sites, weddings, wellness retreats, corporate retreats, fishing, hiking, and special events. Located along the scenic Red River, the property features natural sandbars, river access, lodging, event space, and outdoor recreation for visitors throughout the Texoma region.",
+      "phone": "940-315-6988",
+      "email": "horseshoebendretreat@gmail.com",
+      "website": "https://www.hsbretreat.com",
+      "facebook": "https://www.facebook.com/HorseshoeBendRetreat",
+      "instagram": null,
+      "hours": {},
+      "hours_note": "Open by reservation. Hours vary depending on lodging, retreats, outdoor activities, and scheduled events.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Complete. Monitor the official website and Facebook page for river floats, kayak excursions, paddleboard events, Glow Parties, wellness retreats, weddings, live music, seasonal activities, and special events throughout the year. Also monitor booking pages for newly scheduled experiences and retreats. The property includes cabins, RV sites, tent camping, a large event lodge, Red River access, fishing, and outdoor recreation facilities. It is a major recurring-event venue in the Texoma area. 1",
+      "last_checked": "2026-07-30",
+      "event_types": [
+        "River Floats",
+        "Kayaking",
+        "Paddleboarding",
+        "Glow Parties",
+        "Camping Events",
+        "Wellness Retreats",
+        "Corporate Retreats",
+        "Wedding Events",
+        "Fishing Events",
+        "Outdoor Recreation",
+        "Community Events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "FareHarbor booking calendar"
+      ],
+      "features": [
+        "Red River Access",
+        "Natural Sandbars",
+        "Cabin Rentals",
+        "RV Sites",
+        "Primitive Camping",
+        "Wedding Venue",
+        "Corporate Retreats",
+        "Wellness Retreats",
+        "River Floats",
+        "Kayak Rentals",
+        "Paddleboard Rentals",
+        "Fishing",
+        "Event Lodge",
+        "Shuttle Service",
+        "Campfires",
+        "Wi-Fi",
+        "Showers",
+        "Restrooms"
       ]
     }
   ]
