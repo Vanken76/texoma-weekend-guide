@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 78,
-  "publish_ready_count": 75,
+  "event_count": 79,
+  "publish_ready_count": 76,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -4318,6 +4318,73 @@
         "Outdoor Recreation"
       ],
       "source_name": "Lake Ray Roberts Equestrian Trails Association Facebook Event",
+      "verified": true,
+      "source_verified": true,
+      "last_checked": "2026-07-29",
+      "created_on": "2026-07-29",
+      "updated_on": "2026-07-30"
+    },
+    {
+      "event_name": "Piner Band Camp – Sherman",
+      "event_slug": "piner-band-camp-sherman",
+      "start_datetime": "2026-07-30T09:00:00-05:00",
+      "end_datetime": "2026-07-31T12:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "publish_ready": true,
+      "featured": false,
+      "venue_slugs": [
+        "piner-middle-school"
+      ],
+      "venue_name": "Piner Middle School",
+      "location_name": "Piner Middle School",
+      "host_business_slug": "piner-middle-school",
+      "organizer_name": "Piner Middle School Band",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Sherman Independent School District"
+      ],
+      "categories": [
+        "Summer Camp",
+        "Music",
+        "Education",
+        "Youth Activities"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free for Piner Honors Band and Symphonic Band students.",
+      "short_description": "Piner Honors and Symphonic Band students are invited to a free two-day band camp from 9:00 AM to noon July 30–31.",
+      "description": "Piner Middle School invites Honors Band and Symphonic Band students to attend a free two-day band camp in Sherman. Camp will be held from 9:00 AM to noon on Thursday, July 30 and Friday, July 31. The camp gives participating students an opportunity to return to their instruments, rehearse together and prepare for the upcoming school year.",
+      "address": "402 W Pecan St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "image_url": "/images/events/piner-band-camp-sherman.png",
+      "website_url": "",
+      "facebook_event_url": "",
+      "ticket_url": "",
+      "contact_name": "Piner Middle School Band",
+      "contact_email": "",
+      "contact_phone": "",
+      "audience": [
+        "Piner Honors Band students",
+        "Piner Symphonic Band students"
+      ],
+      "is_recurring": false,
+      "recurring": false,
+      "recurrence_rule": "",
+      "tags": [
+        "Piner Middle School",
+        "Piner Band",
+        "Sherman ISD",
+        "Sherman",
+        "Band Camp",
+        "Summer Camp",
+        "Student Musicians",
+        "Middle School",
+        "Youth Music",
+        "Free Event"
+      ],
+      "source_name": "Sherman community event calendar and Piner Band announcement",
       "verified": true,
       "source_verified": true,
       "last_checked": "2026-07-29",
