@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "project": "Texoma Weekend Guide",
   "document_type": "local_event_directory",
-  "generated_on": "2026-07-29",
+  "generated_on": "2026-07-30",
   "timezone_default": "America/Chicago",
   "publication_rule": "Only records with publish_ready=true should appear in the public event directory.",
   "active_event_rule": "status in [upcoming, recurring] and either end_datetime is in the future, or end_datetime is null and the local event date has not passed",
@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 73,
-  "publish_ready_count": 70,
+  "event_count": 74,
+  "publish_ready_count": 71,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -4033,6 +4033,59 @@
       "last_checked": "2026-07-29",
       "created_on": "2026-07-29",
       "updated_on": "2026-07-29"
+    },
+    {
+      "event_name": "Oliver White Live at The George Tavern",
+      "event_slug": "oliver-white-live-at-the-george-tavern-2026-07-31",
+      "start_datetime": "2026-07-31T19:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "publish_ready": true,
+      "venue_slugs": [
+        "the-george-tavern"
+      ],
+      "host_business_slug": "the-george-tavern",
+      "organizer_name": "The George Tavern",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "categories": [
+        "Live Music",
+        "Music",
+        "Nightlife",
+        "Food and Drink"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No cover charge or admission information has been announced.",
+      "short_description": "Enjoy live music from Oliver White Friday evening at The George Tavern in downtown Sherman.",
+      "description": "Kick off the weekend with a live performance by Oliver White at The George Tavern. Guests can enjoy an evening of local music along with food, cocktails and cold drinks in downtown Sherman.",
+      "location_name": "The George Tavern",
+      "address": "",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "",
+      "image_url": "/images/events/oliver-white-live-at-the-george-tavern-2026-07-31.png",
+      "website_url": "",
+      "facebook_event_url": "",
+      "ticket_url": "",
+      "contact_name": "The George Tavern",
+      "contact_email": "",
+      "contact_phone": "",
+      "is_recurring": false,
+      "recurrence_rule": "",
+      "tags": [
+        "Oliver White",
+        "The George Tavern",
+        "Sherman",
+        "Live Music",
+        "Friday Night",
+        "Downtown Sherman"
+      ],
+      "source_name": "The George Tavern Facebook",
+      "verified": true,
+      "last_checked": "2026-07-29",
+      "created_on": "2026-07-30",
+      "updated_on": "2026-07-30"
     }
   ]
 }
