@@ -5,8 +5,8 @@
   "generated_on": "2026-07-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 502,
-  "publish_ready_count": 165,
+  "business_count": 503,
+  "publish_ready_count": 166,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -18999,6 +18999,86 @@
         "Showers",
         "Restrooms"
       ]
+    },
+    {
+      "slug": "vitinas-deli-and-boiler-room",
+      "business_name": "Vitina's Deli & Boiler Room",
+      "directory_status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "404 W Lamar St, Sherman, TX 75090",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant",
+        "Deli",
+        "Sandwich Shop",
+        "Coffee Shop",
+        "Breakfast Restaurant",
+        "Lunch Restaurant",
+        "Caterer"
+      ],
+      "tags": [
+        "locally owned",
+        "downtown Sherman",
+        "breakfast",
+        "lunch",
+        "sandwiches",
+        "fresh baked bread",
+        "homemade desserts",
+        "homemade soups",
+        "salads",
+        "specialty coffee",
+        "takeout",
+        "dine-in",
+        "catering",
+        "established 1987"
+      ],
+      "description": "Established in 1987, Vitina's Deli & Boiler Room is a locally owned downtown Sherman deli, sandwich shop, coffee bar, and breakfast and lunch restaurant. The menu features fresh-baked bread, more than 25 sandwich selections, made-to-order breakfast, homemade soups, pasta and potato salads, desserts, cookies, brewed tea, specialty coffees, and bottled drinks. Dine-in, takeout, and catering services are available.",
+      "phone": "903-892-6480",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/vitinasdelidelights",
+      "instagram": "https://www.instagram.com/vitinas_boiler_room/",
+      "youtube": null,
+      "tiktok": null,
+      "address": "404 W Lamar St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "county": "Grayson County",
+      "country": "United States",
+      "hours": {
+        "monday": "7:00 AM–3:00 PM",
+        "tuesday": "7:00 AM–3:00 PM",
+        "wednesday": "7:00 AM–3:00 PM",
+        "thursday": "7:00 AM–3:00 PM",
+        "friday": "7:00 AM–3:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Hours may change for holidays or special circumstances. Check the business's Facebook page for current updates.",
+      "price_range": "$",
+      "services": [
+        "Dine-in",
+        "Takeout",
+        "Breakfast",
+        "Lunch",
+        "Coffee",
+        "Catering"
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_events": [],
+      "established_year": 1987,
+      "last_checked": "2026-07-30",
+      "last_verified": "2026-07-30",
+      "notes": "Facebook identifies the business as a locally owned sub sandwich shop and coffee bar. No confirmed standalone official website or public business email was located. The Facebook page is the primary official online presence."
     }
   ]
 }
