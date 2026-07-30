@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 86,
-  "publish_ready_count": 79,
+  "event_count": 87,
+  "publish_ready_count": 80,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -4817,6 +4817,66 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified from the official Texoma Harley-Davidson Facebook event and promotional flyer. Event scheduled Friday, July 31, 2026, from 6:00 PM to 8:00 PM. Flyer advertises bike games, bike washes, complimentary food and drinks, live music, and a pizza oven giveaway. Everyone is welcome. 0",
+      "last_checked": "2026-07-30",
+      "created_on": "2026-07-30",
+      "updated_on": "2026-07-30"
+    },
+    {
+      "event_slug": "float-the-red-river-2026-08-01",
+      "event_name": "Float the Red River!",
+      "description": "Enjoy a multi-hour paddling excursion launching from the naturally salty sandbar at Horseshoe Bend Retreat. Participants may choose a 7-mile downstream paddle with shuttle service or one of three shorter 3-mile upstream paddles. The Red River route offers scenic riverbanks, natural sandbars, fossil-hunting opportunities, and options suitable for beginners through experienced paddlers. Advance reservations are required; no same-day bookings.",
+      "start_datetime": "2026-08-01T09:00:00-05:00",
+      "end_datetime": "2026-08-01T16:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "horseshoe-bend-retreat"
+      ],
+      "venue_name": "Horseshoe Bend Retreat",
+      "address": "4411 County Road 127",
+      "city": "Whitesboro",
+      "state": "TX",
+      "postal_code": "76273",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Outdoor Recreation",
+        "Family Friendly"
+      ],
+      "tags": [
+        "Red River",
+        "kayaking",
+        "paddleboarding",
+        "river float",
+        "sandbars",
+        "fossil hunting",
+        "Whitesboro",
+        "Horseshoe Bend Retreat"
+      ],
+      "cost_type": "varies",
+      "cost_details": "Paddleboard excursion package: $35. Inflatable Bote Deus kayak: $55. Waist-belt PFD rental: $10. Shuttle service: $13 cash and covers both directions. Primitive campsite booking, Pop Board demonstrations, and parking are listed as free. Advance booking is required.",
+      "audience": [
+        "family-friendly",
+        "outdoor enthusiasts"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "horseshoe-bend-retreat",
+      "organizer_name": "Horseshoe Bend Retreat",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/float-the-red-river-2026-08-01.png",
+      "image_alt": "Float the Red River outdoor paddling excursion at Horseshoe Bend Retreat.",
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the supplied official event listing. Scheduled Saturday, August 1, 2026, from 9:00 AM to 4:00 PM at Horseshoe Bend Retreat. Advance booking is required and same-day bookings are not accepted. The displayed Facebook event and FareHarbor URLs were truncated, so URL fields remain null rather than using incomplete links.",
       "last_checked": "2026-07-30",
       "created_on": "2026-07-30",
       "updated_on": "2026-07-30"
