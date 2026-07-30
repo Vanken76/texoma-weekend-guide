@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 85,
-  "publish_ready_count": 78,
+  "event_count": 86,
+  "publish_ready_count": 79,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -4758,6 +4758,68 @@
       "venue_slugs": [
         "moss-tire-and-repair"
       ]
+    },
+    {
+      "event_slug": "texoma-hd-bike-night-2026-07-31",
+      "event_name": "Texoma H-D: Bike Night",
+      "description": "Join Texoma Harley-Davidson for Bike Night featuring motorcycle games, bike washes, complimentary food and drinks, live music, and a drawing for a pizza oven. Riders and non-riders alike are welcome for an evening of motorcycles, community, and entertainment.",
+      "start_datetime": "2026-07-31T18:00:00-05:00",
+      "end_datetime": "2026-07-31T20:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "texoma-harley-davidson"
+      ],
+      "venue_name": "Texoma Harley-Davidson",
+      "address": "4000 N US Highway 75",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Bike Night",
+        "Community Event",
+        "Live Music"
+      ],
+      "tags": [
+        "Harley-Davidson",
+        "Motorcycles",
+        "Bike Night",
+        "Sherman",
+        "Texoma",
+        "Live Music",
+        "Free Food",
+        "Bike Games",
+        "Bike Wash"
+      ],
+      "cost_type": "free",
+      "cost_details": "Complimentary food and drinks.",
+      "audience": [
+        "All Ages",
+        "Motorcycle Enthusiasts"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "texoma-harley-davidson",
+      "organizer_name": "Texoma Harley-Davidson",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/texoma-hd-bike-night-2026-07-31.jpg",
+      "image_alt": "Texoma Harley-Davidson Bike Night promotional flyer featuring a red Harley-Davidson motorcycle.",
+      "official_url": "https://texomahd.com",
+      "facebook_url": "https://www.facebook.com/TexomaHarley",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the official Texoma Harley-Davidson Facebook event and promotional flyer. Event scheduled Friday, July 31, 2026, from 6:00 PM to 8:00 PM. Flyer advertises bike games, bike washes, complimentary food and drinks, live music, and a pizza oven giveaway. Everyone is welcome. 0",
+      "last_checked": "2026-07-30",
+      "created_on": "2026-07-30",
+      "updated_on": "2026-07-30"
     }
   ]
 }
