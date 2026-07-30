@@ -5,8 +5,8 @@
   "generated_on": "2026-07-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 503,
-  "publish_ready_count": 166,
+  "business_count": 504,
+  "publish_ready_count": 167,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -19079,6 +19079,69 @@
       "last_checked": "2026-07-30",
       "last_verified": "2026-07-30",
       "notes": "Facebook identifies the business as a locally owned sub sandwich shop and coffee bar. No confirmed standalone official website or public business email was located. The Facebook page is the primary official online presence."
+    },
+    {
+      "slug": "hills-kitchen",
+      "business_name": "Hills Kitchen",
+      "directory_status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Durant, OK",
+      "category": "Food Business",
+      "categories": [
+        "Food Business",
+        "Prepared Meals",
+        "Comfort Food",
+        "Catering",
+        "Meal Service",
+        "Home-Based Business"
+      ],
+      "tags": [
+        "Durant",
+        "Bryan County",
+        "homemade meals",
+        "comfort food",
+        "fresh ingredients",
+        "meal prep",
+        "sandwiches",
+        "local business",
+        "home-based"
+      ],
+      "description": "Hills Kitchen is a home-based food business serving the Durant, Oklahoma area with homemade comfort foods crafted from fresh ingredients. The business regularly shares freshly prepared meals and menu offerings through its verified Facebook page. Customers should contact Hills Kitchen directly through Facebook or email for current menus, ordering information, pickup, delivery availability, and scheduling.",
+      "phone": null,
+      "email": "hillaryriddlelopez@outlook.com",
+      "website": null,
+      "facebook": "https://www.facebook.com/profile.php?id=61590369693076",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "address": null,
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": null,
+      "county": "Bryan County",
+      "country": "United States",
+      "hours": null,
+      "hours_note": "Contact through Facebook or email for current menu, ordering, pickup, delivery, and availability.",
+      "price_range": null,
+      "services": [
+        "Prepared Meals",
+        "Comfort Food",
+        "Meal Orders",
+        "Catering"
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_events": [],
+      "last_checked": "2026-07-30",
+      "last_verified": "2026-07-30",
+      "notes": "Verified Facebook business page. No publicly listed physical storefront, phone number, website, or regular business hours were found. Treated as a home-based food business similar to Oh My Southern Pie. Refer customers to the official Facebook page or email for current offerings and ordering."
     }
   ]
 }
