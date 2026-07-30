@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 84,
-  "publish_ready_count": 77,
+  "event_count": 85,
+  "publish_ready_count": 78,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -4702,6 +4702,65 @@
       "updated_on": "2026-07-30",
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_slug": "cruise-the-strip-moss-tire-repair-2026-07-31",
+      "event_name": "Cruise the Strip",
+      "description": "Cruise the Strip brings back the feel of Texoma cruise nights with a casual evening for hot rods, classics, muscle cars, lifted and bagged trucks, imports, motorcycles, and any other vehicle participants are proud to drive. This is not a judged car show. There are no awards, no competition, and no entry fee. Attendees can walk around, meet other vehicle enthusiasts, swap stories, view the different builds, and show off their own rides. Organizers ask participants not to do burnouts, rev engines, or drive recklessly and to respect the surrounding neighborhood.",
+      "start_datetime": "2026-07-31T18:00:00-05:00",
+      "end_datetime": "2026-07-31T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "moss-tire-repair"
+      ],
+      "venue_name": "Moss Tire & Repair",
+      "address": "2440 Texoma Pkwy",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Automotive",
+        "Community Event"
+      ],
+      "tags": [
+        "cruise night",
+        "classic cars",
+        "hot rods",
+        "muscle cars",
+        "trucks",
+        "motorcycles",
+        "Sherman"
+      ],
+      "cost_type": "free",
+      "cost_details": "No entry fee.",
+      "audience": [
+        "All Ages",
+        "Automotive Enthusiasts"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "moss-tire-repair",
+      "organizer_name": "Moss Tire & Repair",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/cruise-the-strip-moss-tire-repair-2026-07-31.jpg",
+      "image_alt": null,
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Event date, time, location, admission details, vehicle information, and participant rules were verified from the published Texoma Observer event listing.",
+      "last_checked": "2026-07-30",
+      "created_on": "2026-07-30",
+      "updated_on": "2026-07-30"
     }
   ]
 }
