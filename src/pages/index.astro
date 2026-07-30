@@ -1,12 +1,70 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
+import eventDirectory from "../../public/data/local-event-directory.json";
 
 const roundups = (await getCollection("roundups")).sort(
   (a, b) => b.data.startDate.valueOf() - a.data.startDate.valueOf()
 );
 
 const latestRoundup = roundups[0];
+
+const now = new Date();
+const today = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "America/Chicago",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit"
+}).format(now);
+
+const parseRule = (rule = "") => Object.fromEntries(
+  rule.split(";").map((part) => part.split("=")).filter(([key, value]) => key && value)
+);
+
+const recurrenceEndDate = (event) => {
+  if (event.recurrence_end_date) return event.recurrence_end_date;
+  const until = parseRule(event.recurrence_rule).UNTIL;
+  if (!until || !/^\d{8}/.test(until)) return null;
+  return `${until.slice(0, 4)}-${until.slice(4, 6)}-${until.slice(6, 8)}`;
+};
+
+const isCurrent = (event) => {
+  if (event.active === false) return false;
+  if (event.recurring === true) {
+    const endDate = recurrenceEndDate(event);
+    return !endDate || endDate >= today;
+  }
+  if (event.end_datetime) return new Date(event.end_datetime) >= now;
+  return Boolean(event.start_datetime && event.start_datetime.slice(0, 10) >= today);
+};
+
+const events = (eventDirectory.events ?? [])
+  .filter((event) => event.publish_ready === true)
+  .filter((event) => ["upcoming", "recurring"].includes(event.status))
+  .filter(isCurrent);
+
+const includesTerm = (event, term) => [
+  ...(event.categories ?? []),
+  ...(event.tags ?? []),
+  ...(event.audience ?? [])
+].some((value) => String(value).toLowerCase().includes(term));
+
+const venueSlugs = new Set(
+  events.flatMap((event) => [
+    ...(Array.isArray(event.venue_slugs) ? event.venue_slugs : []),
+    event.venue_slug,
+    event.host_business_slug
+  ]).filter(Boolean)
+);
+
+const stats = [
+  { value: events.length, label: "Upcoming Events", href: "/events/" },
+  { value: events.filter((event) => event.cost_type === "free").length, label: "Free Events", href: "/events/?filter=free" },
+  { value: events.filter((event) => includesTerm(event, "live music")).length, label: "Live Music", href: "/events/?filter=live%20music" },
+  { value: events.filter((event) => includesTerm(event, "family")).length, label: "Family-Friendly", href: "/events/?filter=family" },
+  { value: events.filter((event) => event.recurring === true).length, label: "Recurring Events", href: "/events/?when=recurring" },
+  { value: venueSlugs.size, label: "Event Venues", href: "/businesses/" }
+];
 ---
 
 <BaseLayout title="Texoma Weekend Guide | Discover Local. Make Memories.">
@@ -33,6 +91,25 @@ const latestRoundup = roundups[0];
         <a class="button secondary" href="/submit/">
           Submit an Event
         </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="directory-stats" aria-labelledby="directory-stats-heading">
+    <div class="container">
+      <div class="stats-heading">
+        <p class="eyebrow">Explore what’s happening now</p>
+        <h2 id="directory-stats-heading">The Texoma calendar is growing</h2>
+        <p>Live totals from the current public event directory.</p>
+      </div>
+
+      <div class="stats-grid">
+        {stats.map((stat) => (
+          <a class="stat-card" href={stat.href} aria-label={`Browse ${stat.label}`}>
+            <strong>{stat.value}</strong>
+            <span>{stat.label}</span>
+          </a>
+        ))}
       </div>
     </div>
   </section>
@@ -181,6 +258,73 @@ const latestRoundup = roundups[0];
     font-size: clamp(1.1rem, 2.4vw, 1.38rem);
   }
 
+  .directory-stats {
+    padding: 3.5rem 0;
+    background: #e9f3f2;
+    border-bottom: 1px solid #d2e4e2;
+  }
+
+  .stats-heading {
+    max-width: 760px;
+    margin-bottom: 1.5rem;
+  }
+
+  .stats-heading h2 {
+    margin-bottom: 0.45rem;
+  }
+
+  .stats-heading p:last-child {
+    margin-bottom: 0;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 0.9rem;
+  }
+
+  .stat-card {
+    min-height: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px solid #c9dcda;
+    border-radius: 16px;
+    background: white;
+    color: #0a2a3f;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 8px 22px rgba(16, 58, 88, 0.08);
+    transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+  }
+
+  .stat-card:hover,
+  .stat-card:focus-visible {
+    transform: translateY(-3px);
+    border-color: #176f95;
+    box-shadow: 0 13px 30px rgba(16, 58, 88, 0.14);
+  }
+
+  .stat-card:focus-visible {
+    outline: 3px solid rgba(23, 111, 149, 0.3);
+    outline-offset: 3px;
+  }
+
+  .stat-card strong {
+    display: block;
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    line-height: 1;
+    color: #176f95;
+  }
+
+  .stat-card span {
+    margin-top: 0.55rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
   .feature-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -236,6 +380,12 @@ const latestRoundup = roundups[0];
     padding: 2.2rem;
   }
 
+  @media (max-width: 1050px) {
+    .stats-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
   @media (max-width: 820px) {
     .feature-grid {
       grid-template-columns: 1fr 1fr;
@@ -251,6 +401,14 @@ const latestRoundup = roundups[0];
   }
 
   @media (max-width: 540px) {
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stat-card {
+      min-height: 112px;
+    }
+
     .feature-grid {
       grid-template-columns: 1fr;
     }
