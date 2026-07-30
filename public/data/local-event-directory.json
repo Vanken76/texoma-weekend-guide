@@ -63,7 +63,7 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 79,
+  "event_count": 80,
   "publish_ready_count": 76,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
@@ -4390,6 +4390,78 @@
       "last_checked": "2026-07-29",
       "created_on": "2026-07-29",
       "updated_on": "2026-07-30"
+    },
+    {
+      "event_name": "No Agenda Coffee – Ladies of Texoma",
+      "event_slug": "no-agenda-coffee-ladies-of-texoma",
+      "status": "recurring",
+      "featured": false,
+      "start_datetime": "2026-07-30T08:00:00-05:00",
+      "end_datetime": "2026-07-30T10:00:00-05:00",
+      "timezone": "America/Chicago",
+      "recurrence": {
+        "frequency": "weekly",
+        "interval": 1,
+        "days_of_week": [
+          "thursday"
+        ],
+        "start_time": "08:00",
+        "end_time": "10:00",
+        "end_date": null,
+        "recurrence_note": "Meets every Thursday from 8:00 AM to 10:00 AM."
+      },
+      "venue_name": "Sugar & Spice Cafe – Denison",
+      "location_name": "Sugar & Spice Cafe – Denison",
+      "venue_slugs": [
+        "sugar-and-spice-cafe-denison"
+      ],
+      "address": "2537 W Morton St",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "country": "USA",
+      "organizer": "Ladies of Texoma",
+      "category": [
+        "Community",
+        "Social Gathering",
+        "Women",
+        "Coffee",
+        "Networking"
+      ],
+      "description": "No Agenda Coffee is a relaxed weekly gathering hosted by Ladies of Texoma. Women are invited to come when they can and leave when they need to. There are no sales pitches, products or formal business agenda—the gathering is focused on women encouraging and supporting one another over coffee.",
+      "short_description": "A relaxed weekly coffee meetup for women focused on friendship, encouragement and mutual support.",
+      "cost_type": "free",
+      "cost_details": "No admission fee. Attendees may purchase their own food and drinks from the cafe.",
+      "registration_required": false,
+      "ticket_url": "",
+      "audience": [
+        "Women",
+        "Adults"
+      ],
+      "family_friendly": false,
+      "age_restriction": "Designed for adult women.",
+      "tags": [
+        "Ladies of Texoma",
+        "No Agenda Coffee",
+        "Denison",
+        "Women",
+        "Coffee Meetup",
+        "Community",
+        "Friendship",
+        "Support",
+        "Weekly Event",
+        "Thursday Morning"
+      ],
+      "source_type": "Organizer event listing",
+      "source_url": "",
+      "verification_note": "The organizer listing identifies this as a weekly Thursday gathering from 8:00 AM to 10:00 AM at Sugar & Spice Cafe, 2537 W Morton St in Denison. The July 30, 2026 occurrence was used as the initial start date.",
+      "last_checked": "2026-07-29",
+      "created_on": "2026-07-29",
+      "updated_on": "2026-07-30",
+      "categories": [],
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/no-agenda-coffee-ladies-of-texoma.jpg"
     }
   ]
 }
