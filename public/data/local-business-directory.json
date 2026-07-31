@@ -5,8 +5,8 @@
   "generated_on": "2026-07-31",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 507,
-  "publish_ready_count": 171,
+  "business_count": 508,
+  "publish_ready_count": 172,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -19364,6 +19364,57 @@
         "https://www.denisontx.gov/485/Senior-Programs"
       ],
       "verification_note": "Verified July 31, 2026 from the City of Denison Parks & Recreation website. The center offers free senior programming including games, chair volleyball, wellness classes, Lunch & Learn events, community activities, and facility rentals. The facility also serves as a Meals on Wheels congregate meal site. 1",
+      "last_checked": "2026-07-31"
+    },
+    {
+      "slug": "grayson-county-health-clinic",
+      "business_name": "Grayson County Health Clinic",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "809 Gallagher Dr, Suite D, Sherman, TX 75090",
+      "category": [
+        "Family Medicine Practice",
+        "Primary Care Clinic",
+        "Community Health Clinic",
+        "Women's Health Clinic",
+        "Pediatric Clinic",
+        "Preventive Care",
+        "Healthcare Services"
+      ],
+      "description": "Grayson County Health Clinic provides affordable primary and preventive healthcare for Grayson County residents, with an emphasis on serving people who may otherwise have limited access to medical care. Services include comprehensive family medicine, chronic-disease management, acute care, women's health, family planning, pediatric care, vaccinations, sports physicals, well-child visits, minor office procedures and referrals for additional care. The clinic accepts several Medicaid-managed health plans and offers income-based sliding-scale services for qualifying uninsured patients, along with medication assistance, discounted laboratory work, counseling resources and eligible women's health assistance.",
+      "phone": "903-771-2846",
+      "email": "graysonclinic@graysonclinic.com",
+      "website": "https://www.graysonclinic.com",
+      "facebook": "https://www.facebook.com/graysonclinic",
+      "instagram": null,
+      "hours": {
+        "monday": "7:00 AM–7:00 PM",
+        "tuesday": "7:00 AM–7:00 PM",
+        "wednesday": "7:00 AM–5:00 PM",
+        "thursday": "7:00 AM–5:00 PM",
+        "friday": "8:00 AM–5:00 PM",
+        "saturday": "8:00 AM–12:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Appointments are recommended. Patients needing an urgent appointment should call the clinic directly. Hours and provider availability may vary around holidays.",
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "event_types": [
+        "Community Health Events",
+        "Health Screenings",
+        "Vaccination Clinics",
+        "Patient Education",
+        "Women's Health Programs",
+        "Family Health Programs",
+        "Community Outreach"
+      ],
+      "event_sources": [
+        "https://www.facebook.com/graysonclinic",
+        "https://www.graysonclinic.com"
+      ],
+      "verification_note": "Verified July 31, 2026 using the official Grayson County Health Clinic website and official Facebook page information supplied by Eugene. Official sources confirm the clinic name, Sherman address, phone number, email address, current operating hours, family medicine, primary care, women's health, pediatric care, vaccinations, chronic-disease management, sliding-scale services and assistance resources. The clinic states that it has served underserved Grayson County residents since opening in 2013.",
       "last_checked": "2026-07-31"
     }
   ]
