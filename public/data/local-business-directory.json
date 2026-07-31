@@ -5,7 +5,7 @@
   "generated_on": "2026-07-31",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 508,
+  "business_count": 509,
   "publish_ready_count": 172,
   "businesses": [
     {
@@ -19416,6 +19416,62 @@
       ],
       "verification_note": "Verified July 31, 2026 using the official Grayson County Health Clinic website and official Facebook page information supplied by Eugene. Official sources confirm the clinic name, Sherman address, phone number, email address, current operating hours, family medicine, primary care, women's health, pediatric care, vaccinations, chronic-disease management, sliding-scale services and assistance resources. The clinic states that it has served underserved Grayson County residents since opening in 2013.",
       "last_checked": "2026-07-31"
+    },
+    {
+      "business_name": "Trace Time Productions",
+      "slug": "trace-time-productions",
+      "status": "active",
+      "featured": false,
+      "categories": [
+        "Entertainment",
+        "Comedy",
+        "Event Production",
+        "Event Services",
+        "Party Entertainment",
+        "Live Entertainment"
+      ],
+      "description": "Trace Time Productions is a Sherman-based entertainment company producing live comedy shows, game shows, speed dating events, and other live experiences throughout Texoma. The company also partners with venues, businesses, festivals, and private organizations to produce custom entertainment events.",
+      "short_description": "Sherman-based producer of live comedy shows, game shows, speed dating, and special events throughout Texoma.",
+      "address": "",
+      "city": "Sherman",
+      "state": "TX",
+      "zip": "",
+      "country": "USA",
+      "phone": "(757) 775-7297",
+      "email": "tracetimeproductions@gmail.com",
+      "website": "https://tracetimeproductions.com",
+      "facebook": "https://www.facebook.com/profile.php?id=61563791076384",
+      "instagram": "",
+      "youtube": "",
+      "tiktok": "",
+      "hours": "By event",
+      "price_range": "$$",
+      "services": [
+        "Live Comedy Shows",
+        "Comedy Event Production",
+        "Game Shows",
+        "Speed Dating Events",
+        "Private Events",
+        "Corporate Entertainment",
+        "Festival Entertainment",
+        "Venue Partnerships",
+        "Event Hosting"
+      ],
+      "keywords": [
+        "Comedy",
+        "Live Entertainment",
+        "Sherman",
+        "Texoma",
+        "Stand-up Comedy",
+        "Game Shows",
+        "Speed Dating",
+        "Party Entertainment",
+        "Event Production"
+      ],
+      "veteran_owned": false,
+      "woman_owned": false,
+      "locally_owned": true,
+      "notes": "Website launched in 2026. Produces recurring comedy shows and other live entertainment events across Texoma. Website also includes booking inquiries for businesses and organizations."
     }
   ]
 }
