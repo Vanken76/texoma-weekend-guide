@@ -6,7 +6,7 @@
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
   "business_count": 509,
-  "publish_ready_count": 172,
+  "publish_ready_count": 173,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -19418,60 +19418,48 @@
       "last_checked": "2026-07-31"
     },
     {
-      "business_name": "Trace Time Productions",
       "slug": "trace-time-productions",
-      "status": "active",
-      "featured": false,
-      "categories": [
-        "Entertainment",
-        "Comedy",
-        "Event Production",
-        "Event Services",
-        "Party Entertainment",
-        "Live Entertainment"
+      "business_name": "Trace Time Productions",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "Sherman, TX — serving Texoma and surrounding areas",
+      "category": [
+        "Event Production Company",
+        "Party Entertainment Service",
+        "Comedy Producer",
+        "Live Entertainment",
+        "Event Host"
       ],
-      "description": "Trace Time Productions is a Sherman-based entertainment company producing live comedy shows, game shows, speed dating events, and other live experiences throughout Texoma. The company also partners with venues, businesses, festivals, and private organizations to produce custom entertainment events.",
-      "short_description": "Sherman-based producer of live comedy shows, game shows, speed dating, and special events throughout Texoma.",
-      "address": "",
-      "city": "Sherman",
-      "state": "TX",
-      "zip": "",
-      "country": "USA",
-      "phone": "(757) 775-7297",
+      "description": "A Sherman-based entertainment production company creating live comedy shows, interactive game shows, speed-dating events and other in-person experiences throughout Texoma. Founded and hosted by Trace Rossi, Trace Time Productions works with bars, restaurants, theaters, festivals, businesses and private organizations to produce events ranging from intimate venue shows to larger theater productions featuring regional and national talent.",
+      "phone": "757-775-7297",
       "email": "tracetimeproductions@gmail.com",
       "website": "https://tracetimeproductions.com",
       "facebook": "https://www.facebook.com/profile.php?id=61563791076384",
-      "instagram": "",
-      "youtube": "",
-      "tiktok": "",
-      "hours": "By event",
-      "price_range": "$$",
-      "services": [
-        "Live Comedy Shows",
-        "Comedy Event Production",
-        "Game Shows",
-        "Speed Dating Events",
-        "Private Events",
-        "Corporate Entertainment",
-        "Festival Entertainment",
-        "Venue Partnerships",
-        "Event Hosting"
-      ],
-      "keywords": [
-        "Comedy",
-        "Live Entertainment",
-        "Sherman",
-        "Texoma",
-        "Stand-up Comedy",
+      "instagram": null,
+      "hours": null,
+      "hours_note": "Available by inquiry and according to scheduled event dates. Contact Trace Time Productions directly for booking availability.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Stand-Up Comedy",
+        "Comedy Shows",
         "Game Shows",
         "Speed Dating",
-        "Party Entertainment",
-        "Event Production"
+        "Interactive Entertainment",
+        "Corporate Events",
+        "Private Parties",
+        "Festival Entertainment",
+        "Theater Productions"
       ],
-      "veteran_owned": false,
-      "woman_owned": false,
-      "locally_owned": true,
-      "notes": "Website launched in 2026. Produces recurring comedy shows and other live entertainment events across Texoma. Website also includes booking inquiries for businesses and organizations."
+      "event_sources": [
+        "https://tracetimeproductions.com",
+        "https://www.facebook.com/profile.php?id=61563791076384",
+        "https://www.eventbrite.com/o/trace-time-productions-60754061173"
+      ],
+      "verification_note": "Verified July 31, 2026 using the official Trace Time Productions website, official Facebook page information supplied by Eugene, Eventbrite organizer listings and the Downtown Sherman Now member directory. Official sources identify Trace Time Productions as a Sherman-based live entertainment producer founded and hosted by Trace Rossi, producing stand-up comedy and other interactive events throughout Texoma. No public street address or regular storefront hours were published.",
+      "last_checked": "2026-07-31"
     }
   ]
 }
