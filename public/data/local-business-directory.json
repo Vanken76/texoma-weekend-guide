@@ -5,8 +5,8 @@
   "generated_on": "2026-07-31",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 506,
-  "publish_ready_count": 170,
+  "business_count": 507,
+  "publish_ready_count": 171,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -19315,6 +19315,55 @@
         "https://www.instagram.com/eatatthepoint/"
       ],
       "verification_note": "Verified July 31, 2026 from The Point Restaurant's official website, official Facebook page information supplied by Eugene, and Grandpappy Point Resort & Marina. The official website confirms the address, phone number, email, current weekly hours, waterfront dining, American, seafood and Southern menu focus, Saturday breakfast buffet, Sunday breakfast and brunch schedule, live entertainment and private-event availability.",
+      "last_checked": "2026-07-31"
+    },
+    {
+      "slug": "denison-senior-citizens-center",
+      "business_name": "Denison Senior Citizens Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "531 W Chestnut St, Denison, TX 75020",
+      "category": [
+        "Senior Center",
+        "Community Center",
+        "Event Venue",
+        "Government Organization"
+      ],
+      "description": "The Denison Senior Citizens Center is a City of Denison community facility offering recreation, wellness, educational programs, games, fitness classes, Lunch & Learn events, social activities, and community gathering space for active adults ages 55 and older. The center also serves as a Meals on Wheels of Texoma congregate meal location and offers rentable meeting spaces for community events and private gatherings.",
+      "phone": "903-465-2720",
+      "email": "parksandrec@denisontx.gov",
+      "website": "https://www.denisontx.gov/284/Senior-Citizens-Center",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "7:00 AM–1:00 PM",
+        "tuesday": "7:00 AM–1:00 PM",
+        "wednesday": "7:00 AM–1:00 PM",
+        "thursday": "7:00 AM–1:00 PM",
+        "friday": "7:00 AM–1:00 PM",
+        "saturday": "7:00 AM–1:00 PM",
+        "sunday": "7:00 AM–1:00 PM"
+      },
+      "hours_note": "Program schedules and facility rental hours vary. Contact the center or City of Denison Parks & Recreation for current activity schedules and reservations.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Fitness Classes",
+        "Chair Volleyball",
+        "Lunch & Learn",
+        "Games",
+        "Educational Programs",
+        "Health Programs",
+        "Community Meetings",
+        "Senior Activities"
+      ],
+      "event_sources": [
+        "https://www.denisontx.gov/284/Senior-Citizens-Center",
+        "https://www.denisontx.gov/485/Senior-Programs"
+      ],
+      "verification_note": "Verified July 31, 2026 from the City of Denison Parks & Recreation website. The center offers free senior programming including games, chair volleyball, wellness classes, Lunch & Learn events, community activities, and facility rentals. The facility also serves as a Meals on Wheels congregate meal site. 1",
       "last_checked": "2026-07-31"
     }
   ]
