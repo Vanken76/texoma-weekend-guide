@@ -6,7 +6,7 @@
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
   "business_count": 506,
-  "publish_ready_count": 169,
+  "publish_ready_count": 170,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -6320,30 +6320,60 @@
     {
       "slug": "grandpappy-point-resort-and-marina",
       "business_name": "Grandpappy Point Resort & Marina",
-      "directory_status": "candidate_needs_research",
-      "publish_ready": false,
-      "service_area_or_location": "Texoma area — verify",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "132 Grandpappy Dr, Denison, TX 75020",
       "category": [
-        "Best of Texoma nominee — category unknown"
+        "Marina",
+        "Resort",
+        "Resort Hotel",
+        "Cabin Rental",
+        "Vacation Rental",
+        "RV Park",
+        "Campground",
+        "Boat Slip Rental",
+        "Boat Storage",
+        "Boat Dealer",
+        "Boat Rental",
+        "Boat Service",
+        "Marine Supply",
+        "Fuel Dock",
+        "Event Venue",
+        "Lake Texoma Attraction"
       ],
-      "description": null,
-      "phone": null,
-      "email": null,
-      "website": null,
-      "facebook": null,
+      "description": "Grandpappy Point Resort & Marina is a full-service, family-friendly marina and waterfront resort on Lake Texoma in Denison, Texas. The 180-acre property features more than 700 boat slips across 30+ boathouses, cabins, RV and camping accommodations, yacht sales, boat rentals, fuel dock services, marine repair and parts, event facilities, and waterfront dining at The Point Restaurant. Guests can enjoy boating, fishing, live music, lakefront events, and overnight stays year-round.",
+      "phone": "903-465-6330",
+      "email": "contact@grandpappy.com",
+      "website": "https://www.grandpappy.com",
+      "facebook": "https://www.facebook.com/grandpappymarina",
       "instagram": null,
       "hours": null,
-      "hours_note": null,
-      "event_venue": "unknown",
-      "recurring_events": "unknown",
-      "mine_for_events": false,
-      "event_mining_priority": "none",
-      "event_types": [],
-      "event_sources": [
-        "Herald Democrat Best of Texoma 2026 ballot"
+      "hours_note": "Hours vary by department. Marina office, lodging, restaurant, fuel dock, yacht sales, and service department maintain separate schedules. Contact the marina or visit the website for current operating hours.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Live Music",
+        "Lake Events",
+        "Fishing Tournaments",
+        "Boating Events",
+        "Holiday Events",
+        "Restaurant Events",
+        "Community Events",
+        "Private Parties",
+        "Corporate Events",
+        "Wedding Events"
       ],
-      "verification_note": "Potential candidate mined from the Herald Democrat Best of Texoma 2026 ballot recording. Seen 2 time(s); source frames frame_0184.jpg–frame_0186.jpg. Verify official business name, location, category, active status, and official links before publication.",
-      "last_checked": "2026-07-19"
+      "event_sources": [
+        "https://www.facebook.com/grandpappymarina",
+        "https://www.grandpappy.com",
+        "https://www.grandpappy.com/blog-pages/blog",
+        "https://www.eatatthepoint.com"
+      ],
+      "verification_note": "Verified July 31, 2026 using the official Grandpappy Point Resort & Marina website, official Facebook page, and business information. Property includes over 180 acres, 700+ slips, 30+ boathouses, cabins, RV and camping accommodations, yacht sales, boat rentals, fuel dock, service department, The Point Restaurant, Cedar Lounge event space, and additional Lake Texoma amenities. 1",
+      "last_checked": "2026-07-31",
+      "slug_locked": true
     },
     {
       "slug": "gray-oak-family-dental-jenna-hibbs",
