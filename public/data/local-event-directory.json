@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 96,
-  "publish_ready_count": 89,
+  "event_count": 97,
+  "publish_ready_count": 90,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -5383,6 +5383,65 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified July 31, 2026 from the official event post and flyer published by The Point Restaurant. The event is scheduled for Saturday, August 1, 2026, from 6:00 PM to 9:00 PM on the patio. The source identifies Greg Guymon and Lanny as the performers and describes the music as live country music. No admission price, cover charge or ticket link was published.",
+      "last_checked": "2026-07-31",
+      "created_on": "2026-07-31",
+      "updated_on": "2026-07-31",
+      "partner_business_slugs": [],
+      "partner_names": []
+    },
+    {
+      "event_slug": "august-senior-dance-denison-2026-08-01",
+      "event_name": "August Senior Dance",
+      "description": "Enjoy an evening of live music, dancing, fellowship and a potluck dinner at the Denison Senior Citizens Center. Guests are invited to bring their dancing shoes and join the community for a fun Saturday evening.",
+      "start_datetime": "2026-08-01T17:00:00-05:00",
+      "end_datetime": "2026-08-01T20:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "denison-senior-citizens-center"
+      ],
+      "venue_name": "Denison Senior Citizens Center",
+      "address": "531 W Chestnut St",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Senior Activities",
+        "Dance",
+        "Live Music",
+        "Community",
+        "Food & Drink"
+      ],
+      "tags": [
+        "August Senior Dance",
+        "senior dance",
+        "live music",
+        "potluck dinner",
+        "fellowship",
+        "dancing",
+        "Denison Senior Citizens Center",
+        "Denison Parks and Recreation",
+        "Meals on Wheels Texoma"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$5 admission per person.",
+      "audience": [
+        "Seniors",
+        "Older Adults"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/august-senior-dance-denison-2026-08-01.jpg",
+      "official_url": "https://www.denisontx.gov/284/Senior-Citizens-Center",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified July 31, 2026 from the official Denison Parks & Recreation Facebook post and event flyer. The August Senior Dance is scheduled for Saturday, August 1, 2026, from 5:00 PM to 8:00 PM at the Denison Senior Citizens Center. Admission is $5 per person and the event includes live music, a potluck dinner, fellowship and dancing.",
       "last_checked": "2026-07-31",
       "created_on": "2026-07-31",
       "updated_on": "2026-07-31",
