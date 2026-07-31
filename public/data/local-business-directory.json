@@ -5,8 +5,8 @@
   "generated_on": "2026-07-31",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 509,
-  "publish_ready_count": 173,
+  "business_count": 510,
+  "publish_ready_count": 174,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -19459,6 +19459,46 @@
         "https://www.eventbrite.com/o/trace-time-productions-60754061173"
       ],
       "verification_note": "Verified July 31, 2026 using the official Trace Time Productions website, official Facebook page information supplied by Eugene, Eventbrite organizer listings and the Downtown Sherman Now member directory. Official sources identify Trace Time Productions as a Sherman-based live entertainment producer founded and hosted by Trace Rossi, producing stand-up comedy and other interactive events throughout Texoma. No public street address or regular storefront hours were published.",
+      "last_checked": "2026-07-31"
+    },
+    {
+      "slug": "tv-munson-vinita-museum",
+      "business_name": "T.V. Munson Vinita Museum",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "530 W Hanna St, Denison, TX 75020",
+      "category": [
+        "Museum",
+        "History Museum",
+        "Historic Site",
+        "Tourist Attraction",
+        "Event Venue"
+      ],
+      "description": "The T.V. Munson Vinita Museum preserves the legacy of internationally renowned viticulturist Thomas Volney 'T.V.' Munson, whose research with native American grape rootstocks helped save the French wine industry from the phylloxera epidemic. Located in the historic Vinita House in Denison, the museum features exhibits on Munson's life, scientific achievements, and lasting impact on viticulture. The museum is a featured stop during the annual T.V. Munson Wine Walk and offers tours by appointment through the Grayson College Foundation.",
+      "phone": "903-463-8766",
+      "email": "foundation@grayson.edu",
+      "website": "https://discoverdenison.com/business/t-v-munson-vinita-house/",
+      "facebook": null,
+      "instagram": null,
+      "hours": null,
+      "hours_note": "Tours are available by appointment through the Grayson College Foundation. The museum is also open during select community events including the annual T.V. Munson Wine Walk.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Museum Tours",
+        "Historic Tours",
+        "Educational Programs",
+        "Community Events",
+        "Wine Walk",
+        "Heritage Events"
+      ],
+      "event_sources": [
+        "https://discoverdenison.com/business/t-v-munson-vinita-house/",
+        "https://discoverdenison.com/event/t-v-munson-wine-walk-2026/"
+      ],
+      "verification_note": "Verified July 31, 2026 using Discover Denison's official business listing and T.V. Munson Wine Walk information. The museum is located in the historic Vinita House at 530 W Hanna St., Denison, and tours are coordinated through the Grayson College Foundation. The museum serves as a featured stop during the annual T.V. Munson Wine Walk.",
       "last_checked": "2026-07-31"
     }
   ]
