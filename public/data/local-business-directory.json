@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-07-30",
+  "generated_on": "2026-07-31",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 505,
-  "publish_ready_count": 168,
+  "business_count": 506,
+  "publish_ready_count": 169,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -19232,6 +19232,60 @@
       "last_checked": "2026-07-30",
       "last_verified": "2026-07-30",
       "notes": "Facebook describes the business as a seasonal/weekend restaurant located in Highport Marina on Lake Texoma."
+    },
+    {
+      "slug": "the-point-restaurant",
+      "business_name": "The Point Restaurant",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "1711 Harbor Rd, Denison, TX 75020 — located at Grandpappy Point Resort & Marina on Lake Texoma",
+      "category": [
+        "American Restaurant",
+        "Waterfront Restaurant",
+        "Seafood Restaurant",
+        "Southern Restaurant",
+        "Breakfast Restaurant",
+        "Brunch Restaurant",
+        "Bar",
+        "Live Music Venue",
+        "Event Venue"
+      ],
+      "description": "A year-round waterfront restaurant at Grandpappy Point Resort & Marina overlooking Lake Texoma. The Point serves traditional American food with seafood and Southern favorites, including burgers, fried catfish, chicken-fried steak, prime rib, breakfast and Sunday brunch offerings. Guests can dine indoors or on the lakeside patio, enjoy recurring live music and special events, and reserve The Parlor Room for private parties, rehearsal dinners, company gatherings and other occasions.",
+      "phone": "903-464-0989",
+      "email": "dylan@grandpappy.com",
+      "website": "https://www.eatatthepoint.com",
+      "facebook": "https://www.facebook.com/eatatthepoint",
+      "instagram": "https://www.instagram.com/eatatthepoint/",
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "Closed",
+        "thursday": "11:00 AM–9:00 PM",
+        "friday": "11:00 AM–10:00 PM",
+        "saturday": "7:00 AM–10:00 PM",
+        "sunday": "10:00 AM–8:00 PM"
+      },
+      "hours_note": "Saturday Early Risers breakfast buffet is served from 7:00 AM to 10:30 AM. On Sunday, breakfast and a limited lunch menu are available from 10:00 AM to 1:00 PM, followed by the full menu from 1:00 PM to 8:00 PM. Holiday and special-event hours may vary.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Live Music",
+        "Breakfast Buffet",
+        "Brunch",
+        "Food Specials",
+        "Holiday Events",
+        "Community Events",
+        "Private Events"
+      ],
+      "event_sources": [
+        "https://www.eatatthepoint.com/calendar",
+        "https://www.facebook.com/eatatthepoint",
+        "https://www.instagram.com/eatatthepoint/"
+      ],
+      "verification_note": "Verified July 31, 2026 from The Point Restaurant's official website, official Facebook page information supplied by Eugene, and Grandpappy Point Resort & Marina. The official website confirms the address, phone number, email, current weekly hours, waterfront dining, American, seafood and Southern menu focus, Saturday breakfast buffet, Sunday breakfast and brunch schedule, live entertainment and private-event availability.",
+      "last_checked": "2026-07-31"
     }
   ]
 }
