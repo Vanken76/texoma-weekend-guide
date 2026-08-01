@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 109,
-  "publish_ready_count": 102,
+  "event_count": 110,
+  "publish_ready_count": 103,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -6197,6 +6197,66 @@
       "partner_business_slugs": [],
       "partner_names": [
         "Aubrey Lynn"
+      ]
+    },
+    {
+      "event_slug": "cars-and-coffee-sherman",
+      "event_name": "Cars & Coffee - Sherman",
+      "description": "Cars & Coffee - Sherman brings local automotive enthusiasts together at the Grayson County Courthouse on the second Saturday of every month. All makes and models are welcome, and there is no registration fee. The meetup runs from 8:00 AM to 10:00 AM and is hosted by Driven Legacy.",
+      "start_datetime": "2026-08-08T08:00:00-05:00",
+      "end_datetime": "2026-08-08T10:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_name": "Grayson County Courthouse",
+      "address": "100 W Houston St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Car Show",
+        "Community Event"
+      ],
+      "tags": [
+        "Cars & Coffee",
+        "Driven Legacy",
+        "car meet",
+        "automotive",
+        "all makes and models",
+        "downtown Sherman",
+        "Grayson County Courthouse",
+        "Sherman"
+      ],
+      "cost_type": "free",
+      "cost_details": "No registration fee.",
+      "audience": [
+        "all-ages",
+        "car enthusiasts"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Driven Legacy",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/cars-and-coffee-sherman.jpg",
+      "image_alt": "Cars and Coffee Sherman featuring a variety of vehicles at the Grayson County Courthouse.",
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=MONTHLY;BYDAY=2SA",
+      "recurrence_start_date": "2026-08-08",
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 1, 2026, from the official Facebook event created by Driven Legacy. The listing confirms the Grayson County Courthouse location, 8:00–10:00 AM schedule, no registration fee, all makes and models welcome, and recurrence on the second Saturday of every month. No direct Facebook event URL was provided in the available screenshots.",
+      "last_checked": "2026-08-01",
+      "created_on": "2026-08-01",
+      "updated_on": "2026-08-01",
+      "venue_slugs": [
+        "grayson-county-courthouse"
       ]
     }
   ]
