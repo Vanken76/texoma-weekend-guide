@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 548,
-  "publish_ready_count": 212,
+  "business_count": 549,
+  "publish_ready_count": 213,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -21841,6 +21841,52 @@
         "Current business listings"
       ],
       "verification_note": "Verified August 1, 2026, using current public restaurant listings and a firsthand Gainesville community recommendation. The recommendation specifically praised the street tacos, longtime staff relationships, and employees remembering regular customers' orders. No clearly verified official website, Facebook page, Instagram account, or public email address was confirmed.",
+      "last_checked": "2026-08-01"
+    },
+    {
+      "slug": "downtown-sanger-farmers-market",
+      "business_name": "Downtown Sanger Farmers Market",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "307 Bolivar St, Sanger, TX 76266",
+      "category": [
+        "Farmers Market",
+        "Event Venue",
+        "Community Organization",
+        "Shopping"
+      ],
+      "description": "Downtown Sanger Farmers Market is a recurring community farmers market operated by The Farmer's Wife North TX. The market features local farmers, ranchers, bakers, growers, artisans, food vendors, handmade goods, live music, seasonal events, and family-friendly activities throughout the market season.",
+      "phone": "940-206-2707",
+      "email": "amber@thefarmerswifemarkets.com",
+      "website": "https://www.thefarmerswifemarkets.com/aboutdsfarmersmarket",
+      "facebook": "https://www.facebook.com/profile.php?id=100088718678593",
+      "instagram": "https://www.instagram.com/ds_farmersmarket",
+      "hours": {
+        "notes": "Recurring market. Event hours vary by season and special market. See official event schedule."
+      },
+      "hours_note": "Typically operates first and third weekends during market season with seasonal schedule adjustments.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Farmers Markets",
+        "Vendor Markets",
+        "Moonlight Markets",
+        "Live Music",
+        "Seasonal Festivals",
+        "Holiday Markets",
+        "Community Events",
+        "Educational Programs",
+        "Plant Sales",
+        "Small Business Events"
+      ],
+      "event_sources": [
+        "Official Website",
+        "Facebook",
+        "Instagram"
+      ],
+      "verification_note": "Verified August 1, 2026. Official website, Facebook, Instagram, email, phone, and physical location confirmed. This venue hosts numerous recurring and seasonal events and should be monitored regularly for individual event listings.",
       "last_checked": "2026-08-01"
     }
   ]
