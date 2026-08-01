@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 536,
-  "publish_ready_count": 200,
+  "business_count": 537,
+  "publish_ready_count": 201,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -21025,6 +21025,69 @@
         "Secure access",
         "Parking",
         "Worldwide club access"
+      ]
+    },
+    {
+      "slug": "dieter-bros-restaurant-lindsay",
+      "business_name": "Dieter Bros Restaurant",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "401 US Highway 82, Lindsay, TX 76250",
+      "category": [
+        "Restaurant",
+        "Barbecue Restaurant",
+        "American Restaurant",
+        "Pizza Restaurant",
+        "Family Restaurant"
+      ],
+      "description": "Dieter Bros Restaurant is a longtime family-friendly restaurant in Lindsay serving Texas barbecue, burgers, pizza, chicken fried steak, catfish, sandwiches, German sausage, homemade sides, and daily specials. Known for generous portions, friendly service, and hometown hospitality, it has become a favorite dining destination for both Cooke County residents and visitors.",
+      "phone": "940-665-5253",
+      "email": null,
+      "website": "http://www.dieterbrosbbq.com/",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "10:30 AM - 9:00 PM",
+        "tuesday": "10:30 AM - 9:00 PM",
+        "wednesday": "10:30 AM - 9:00 PM",
+        "thursday": "10:30 AM - 9:00 PM",
+        "friday": "10:30 AM - 9:30 PM",
+        "saturday": "10:30 AM - 9:30 PM",
+        "sunday": "11:00 AM - 9:00 PM"
+      },
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026 using the official Dieter Bros website and current public business listings.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Holiday specials",
+        "Community fundraisers",
+        "Benefit meals",
+        "Seasonal promotions",
+        "Customer appreciation events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Community announcements"
+      ],
+      "features": [
+        "Texas barbecue",
+        "Pizza",
+        "Burgers",
+        "Chicken fried steak",
+        "Catfish",
+        "German sausage",
+        "German potato salad",
+        "Daily specials",
+        "Family friendly",
+        "Dine-in",
+        "Takeout",
+        "Children's menu",
+        "Wheelchair accessible",
+        "Parking available"
       ]
     }
   ]
