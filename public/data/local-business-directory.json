@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 545,
-  "publish_ready_count": 209,
+  "business_count": 546,
+  "publish_ready_count": 210,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -21651,6 +21651,69 @@
         "Fair pricing",
         "Locally recommended",
         "Strong customer service"
+      ]
+    },
+    {
+      "slug": "dry-clean-super-center-gainesville",
+      "business_name": "Dry Clean Super Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "1001 E California St, Gainesville, TX 76240",
+      "category": [
+        "Dry Cleaner",
+        "Laundry Service",
+        "Alterations",
+        "Clothing Care"
+      ],
+      "description": "Dry Clean Super Center is a Gainesville dry-cleaning and laundry business offering professional garment care, wash-and-fold service, alterations, heavy-starch jeans, same-day weekday service for qualifying early drop-offs, and an after-hours drop box. The business is locally recommended for friendly, personal customer service and staff who take time to know customers and address their concerns.",
+      "phone": "940-665-0048",
+      "email": null,
+      "website": "https://www.drycleansupercentergainesvilletx.com",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "7:00 AM–7:00 PM",
+        "tuesday": "7:00 AM–7:00 PM",
+        "wednesday": "7:00 AM–7:00 PM",
+        "thursday": "7:00 AM–7:00 PM",
+        "friday": "7:00 AM–7:00 PM",
+        "saturday": "7:00 AM–2:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Some third-party listings show a later Saturday opening time. Call before making a special trip. Same-day weekday service may be available for qualifying items dropped off before 9:00 AM.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "verification_note": "Verified August 1, 2026, using the official business website, current public business listings, and a direct community recommendation from an employee. Sources confirm the Gainesville address, phone number, dry-cleaning and laundry services, alterations, wash-and-fold service, same-day weekday service, heavy-starch jeans, after-hours drop access, and strong customer-service focus. No verified official Facebook page, Instagram account, public email address, or pickup-and-delivery program was confirmed.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Clothing-care promotions",
+        "Prom and formalwear promotions",
+        "Wedding-garment promotions",
+        "Uniform discounts",
+        "Seasonal cleaning specials",
+        "Community-service offers",
+        "Holiday-hour announcements"
+      ],
+      "event_sources": [
+        "Official website",
+        "Business announcements",
+        "Community announcements"
+      ],
+      "features": [
+        "Dry cleaning",
+        "Laundry service",
+        "Wash-and-fold service",
+        "Alterations",
+        "Heavy-starch jeans",
+        "Same-day weekday service",
+        "After-hours drop box",
+        "Formalwear cleaning",
+        "Wedding-garment care",
+        "Uniform cleaning",
+        "Locally recommended",
+        "Personal customer service"
       ]
     }
   ]
