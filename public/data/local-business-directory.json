@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 537,
-  "publish_ready_count": 201,
+  "business_count": 538,
+  "publish_ready_count": 202,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -21088,6 +21088,80 @@
         "Children's menu",
         "Wheelchair accessible",
         "Parking available"
+      ]
+    },
+    {
+      "slug": "ebbtide-club-and-sports-grill",
+      "business_name": "EbbTide Club and Sports Grill",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "301 N Commerce St, Gainesville, TX 76240",
+      "category": [
+        "Sports Bar",
+        "American Restaurant",
+        "Bar",
+        "Nightlife Venue",
+        "Entertainment Venue",
+        "Event Venue"
+      ],
+      "description": "EbbTide Club and Sports Grill is a downtown Gainesville sports bar, restaurant, and entertainment venue serving burgers, wings, tacos, quesadillas, seafood, sandwiches, cocktails, draft beer, and other bar favorites. The venue features televisions for sports, pool tables, darts, shuffleboard, a jukebox, karaoke, recurring specials, and late-night entertainment.",
+      "phone": "940-580-3060",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/EbbTideClub",
+      "instagram": null,
+      "hours": {
+        "monday": "2:00 PM–2:00 AM",
+        "tuesday": "2:00 PM–2:00 AM",
+        "wednesday": "2:00 PM–2:00 AM",
+        "thursday": "2:00 PM–2:00 AM",
+        "friday": "2:00 PM–2:00 AM",
+        "saturday": "2:00 PM–2:00 AM",
+        "sunday": "11:00 AM–2:00 AM"
+      },
+      "hours_note": "Late-night hours and entertainment schedules may vary. Public listings indicate guests under 21 may be allowed earlier in the day, with age restrictions applying later at night. Check the official Facebook page or call before visiting.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified August 1, 2026, using the official EbbTide Club Facebook page and current business listings. Sources confirm the downtown Gainesville address, phone number, late-night hours, food and drink service, sports viewing, pool tables, darts, shuffleboard, karaoke, recurring promotions, and community activity. No reliable standalone official website was confirmed.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Karaoke",
+        "Sports watch parties",
+        "Pool tournaments",
+        "Dart tournaments",
+        "Live entertainment",
+        "Food and drink specials",
+        "Holiday parties",
+        "Community fundraisers",
+        "Customer appreciation events"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Business announcements",
+        "Community event posts"
+      ],
+      "features": [
+        "Sports bar",
+        "American food",
+        "Burgers",
+        "Wings",
+        "Tacos",
+        "Quesadillas",
+        "Seafood",
+        "Sandwiches",
+        "Cocktails",
+        "Draft beer",
+        "Sports televisions",
+        "Pool tables",
+        "Darts",
+        "Shuffleboard",
+        "Jukebox",
+        "Karaoke",
+        "Late-night hours",
+        "Dine-in",
+        "Takeout"
       ]
     }
   ]
