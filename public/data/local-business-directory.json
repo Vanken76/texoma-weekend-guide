@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 511,
-  "publish_ready_count": 175,
+  "business_count": 512,
+  "publish_ready_count": 176,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -19551,6 +19551,67 @@
         "Volunteer opportunities",
         "Donations accepted",
         "Community events"
+      ]
+    },
+    {
+      "slug": "howe-community-library",
+      "business_name": "Howe Community Library",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "315 S Collins Fwy, Howe, TX 75459",
+      "category": [
+        "Public Library",
+        "Library",
+        "Community Resource",
+        "Event Venue",
+        "Education"
+      ],
+      "description": "Howe Community Library is a unique public and school library operated through a partnership between the City of Howe and Howe Independent School District. The library serves community residents as well as Howe ISD students by providing books, technology, educational resources, research assistance, public programming, literacy activities, and community events throughout the year.",
+      "phone": "903-745-4050",
+      "email": "",
+      "website": "https://www.howeisd.net/page/howe-community-library",
+      "facebook": "https://www.facebook.com/HoweISD",
+      "instagram": "https://www.instagram.com/howeisd",
+      "hours": {
+        "monday": "8:30 AM - 5:00 PM",
+        "tuesday": "8:30 AM - 5:00 PM",
+        "wednesday": "8:30 AM - 5:00 PM",
+        "thursday": "8:30 AM - 5:00 PM",
+        "friday": "8:30 AM - 5:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Summer and holiday hours may vary.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified through Howe ISD and the Howe Community Library official information. The library regularly hosts educational programs, reading initiatives, children's activities, community events, and public outreach.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Children's programs",
+        "Storytime",
+        "School supply giveaways",
+        "Summer reading",
+        "Educational workshops",
+        "Community meetings",
+        "Literacy events"
+      ],
+      "event_sources": [
+        "Howe ISD website",
+        "Howe ISD Facebook",
+        "Library announcements"
+      ],
+      "features": [
+        "Public library",
+        "Children's section",
+        "Public computers",
+        "Internet access",
+        "Research assistance",
+        "Educational programming",
+        "Community events",
+        "Accessible entrance",
+        "Accessible parking"
       ]
     }
   ]
