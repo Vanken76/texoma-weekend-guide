@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 99,
-  "publish_ready_count": 92,
+  "event_count": 100,
+  "publish_ready_count": 93,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -5565,6 +5565,64 @@
       "venue_slugs": [
         "tv-munson-vinita-museum"
       ],
+      "partner_business_slugs": [],
+      "partner_names": []
+    },
+    {
+      "event_slug": "back-to-school-supply-community-resource-giveaway-bonham-2026-08-01",
+      "event_name": "Back to School Supply & Community Resource Giveaway",
+      "description": "The Fannin County Children's Center hosts its annual Back to School Supply & Community Resource Giveaway to help local families prepare for the upcoming school year. Families can receive free backpacks and school supplies while supplies last, connect with community resource organizations, and access free haircuts for students.",
+      "start_datetime": "2026-08-01T08:30:00-05:00",
+      "end_datetime": "2026-08-01T12:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "roy-v-floyd-community-center"
+      ],
+      "venue_name": "Roy V. Floyd Community Center",
+      "address": "1100 W 5th St",
+      "city": "Bonham",
+      "state": "TX",
+      "postal_code": "75418",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Community",
+        "Family",
+        "Education",
+        "Children"
+      ],
+      "tags": [
+        "Back to School",
+        "Free School Supplies",
+        "Backpacks",
+        "Community Resources",
+        "Free Haircuts",
+        "Bonham",
+        "Fannin County"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free admission. Backpacks, school supplies, and other services are available while supplies last.",
+      "audience": [
+        "Families",
+        "Students",
+        "Children"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/back-to-school-supply-community-resource-giveaway-bonham-2026-08-01.png",
+      "official_url": "https://www.fanninccc.org",
+      "facebook_url": "https://www.facebook.com/Fannin.County.Childrens.Center/",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Event date and time were identified from the promotional school-supply-event graphic. The event location was verified as Roy V. Floyd Community Center, 1100 W 5th St in Bonham. Free items and services are available while supplies last.",
+      "last_checked": "2026-08-01",
+      "created_on": "2026-08-01",
+      "updated_on": "2026-08-01",
+      "host_business_slug": "fannin-county-childrens-center",
       "partner_business_slugs": [],
       "partner_names": []
     }
