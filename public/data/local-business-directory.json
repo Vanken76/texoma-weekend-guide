@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 525,
-  "publish_ready_count": 189,
+  "business_count": 526,
+  "publish_ready_count": 190,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20332,6 +20332,65 @@
         "County government offices",
         "Community gathering space",
         "Recurring public events"
+      ]
+    },
+    {
+      "slug": "eggsquisite-cafe-sherman",
+      "business_name": "Eggsquisite Cafe Sherman",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "3811 N US Highway 75, Sherman, TX 75090",
+      "category": [
+        "Breakfast Restaurant",
+        "Brunch Restaurant",
+        "Cafe",
+        "Restaurant"
+      ],
+      "description": "Eggsquisite Cafe Sherman is a breakfast, brunch, and lunch restaurant serving omelets, skillets, crepes, pancakes, waffles, French toast, sandwiches, salads, coffee, and other morning and midday favorites in a family-friendly setting.",
+      "phone": "903-771-4201",
+      "email": "eggsquisitecafe@gmail.com",
+      "website": "https://www.eggsquisitecafe.com",
+      "facebook": "https://www.facebook.com/eggsquisite.cafe.sherman",
+      "instagram": null,
+      "hours": {
+        "monday": "7:00 AM–2:30 PM",
+        "tuesday": "7:00 AM–2:30 PM",
+        "wednesday": "7:00 AM–2:30 PM",
+        "thursday": "7:00 AM–2:30 PM",
+        "friday": "7:00 AM–2:30 PM",
+        "saturday": "7:00 AM–2:30 PM",
+        "sunday": "7:00 AM–2:30 PM"
+      },
+      "hours_note": "Open daily for breakfast, brunch, and lunch. Holiday hours may vary.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the official Eggsquisite Cafe website, the official Sherman Facebook page, and the current business listing. The sources confirm the Sherman location, phone number, email address, website, Facebook page, and daily hours of 7:00 AM–2:30 PM.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Holiday specials",
+        "Food promotions",
+        "Community promotions",
+        "Seasonal menu features"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page"
+      ],
+      "features": [
+        "Breakfast",
+        "Brunch",
+        "Lunch",
+        "Coffee",
+        "Omelets",
+        "Skillets",
+        "Crepes",
+        "Pancakes",
+        "Waffles",
+        "Family-friendly dining",
+        "Dine-in",
+        "Takeout"
       ]
     }
   ]
