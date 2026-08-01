@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "project": "Texoma Weekend Guide",
   "document_type": "local_event_directory",
-  "generated_on": "2026-07-31",
+  "generated_on": "2026-08-01",
   "timezone_default": "America/Chicago",
   "publication_rule": "Only records with publish_ready=true should appear in the public event directory.",
   "active_event_rule": "status in [upcoming, recurring] and either end_datetime is in the future, or end_datetime is null and the local event date has not passed",
@@ -5514,11 +5514,7 @@
       "end_datetime": "2026-09-05T17:00:00-05:00",
       "timezone": "America/Chicago",
       "status": "upcoming",
-      "venue_slugs": [
-        "downtown-denison",
-        "tv-munson-vinita-museum"
-      ],
-      "venue_name": "Downtown Denison & T.V. Munson Vinita Museum",
+      "venue_name": "T.V. Munson Vinita Museum",
       "address": "530 W Hanna St",
       "city": "Denison",
       "state": "TX",
@@ -5562,10 +5558,13 @@
       "featured": true,
       "publish_ready": true,
       "source_verified": true,
-      "verification_note": "Verified July 31, 2026 from the official Downtown Denison Facebook event, official event flyer, and Discover Denison event listing. The official Facebook event and flyer identify Saturday, September 5, 2026, from 11:00 AM–5:00 PM as the correct event date. Wine Walk tickets include wine tastings, a scavenger hunt, and a Vinita Museum tour.",
+      "verification_note": "Verified July 31, 2026 from the official Downtown Denison Facebook event, official event flyer, and Discover Denison event listing. The official Facebook event and flyer identify Saturday, September 5, 2026, from 11:00 AM–5:00 PM as the correct event date. Wine Walk tickets include wine tastings, a scavenger hunt, and a Vinita Museum tour. Downtown Denison is the broader event district; the linked directory venue is the T.V. Munson Vinita Museum.",
       "last_checked": "2026-07-31",
       "created_on": "2026-07-31",
-      "updated_on": "2026-07-31",
+      "updated_on": "2026-08-01",
+      "venue_slugs": [
+        "tv-munson-vinita-museum"
+      ],
       "partner_business_slugs": [],
       "partner_names": []
     }
