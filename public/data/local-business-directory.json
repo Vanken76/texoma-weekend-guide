@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 535,
-  "publish_ready_count": 199,
+  "business_count": 536,
+  "publish_ready_count": 200,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20957,6 +20957,74 @@
         "Dine-in",
         "Takeout",
         "Family friendly"
+      ]
+    },
+    {
+      "slug": "anytime-fitness-gainesville",
+      "business_name": "Anytime Fitness Gainesville",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "905 E US Highway 82, Suite 105, Gainesville, TX 76240",
+      "category": [
+        "Fitness Center",
+        "Gym",
+        "Personal Training",
+        "Health and Wellness"
+      ],
+      "description": "Anytime Fitness Gainesville is a locally owned fitness center offering secure 24-hour member access, strength and cardio equipment, free weights, functional training areas, personal training, personalized fitness plans, body-composition scans, private showers and restrooms, tanning, and access to participating Anytime Fitness clubs worldwide. The Gainesville location is owned by Julie Hibbard and serves members at a wide range of fitness levels.",
+      "phone": "940-665-6500",
+      "email": null,
+      "website": "https://www.anytimefitness.com/locations/gainesville-texas-2723/",
+      "facebook": "https://www.facebook.com/207824909259144",
+      "instagram": null,
+      "hours": {
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours",
+        "sunday": "Open 24 hours"
+      },
+      "hours_note": "Members have secure 24-hour access. Staffed and office hours may be limited and are not currently published on the official location page.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified August 1, 2026, using the official Anytime Fitness Gainesville location page and a direct public comment from owner Julie Hibbard. Official sources confirm the Gainesville address, phone number, ownership, 24-hour member access, personal training, fitness planning, strength and cardio equipment, free weights, functional training, body-composition scans, private showers and restrooms, tanning, parking, and worldwide club access.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Fitness challenges",
+        "Group workouts",
+        "Open houses",
+        "Membership promotions",
+        "Charity workouts",
+        "Wellness events",
+        "Community partnerships",
+        "Member appreciation events"
+      ],
+      "event_sources": [
+        "Official Anytime Fitness location page",
+        "Official Facebook page",
+        "Owner announcements",
+        "Community announcements"
+      ],
+      "features": [
+        "Locally owned",
+        "24-hour member access",
+        "Personal training",
+        "Personalized fitness plans",
+        "Strength equipment",
+        "Cardio equipment",
+        "Free weights",
+        "Functional training equipment",
+        "Body-composition scans",
+        "Private showers",
+        "Private restrooms",
+        "Tanning",
+        "Secure access",
+        "Parking",
+        "Worldwide club access"
       ]
     }
   ]
