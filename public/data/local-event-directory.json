@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 100,
-  "publish_ready_count": 93,
+  "event_count": 101,
+  "publish_ready_count": 94,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -5625,6 +5625,72 @@
       "host_business_slug": "fannin-county-childrens-center",
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_slug": "sherman-isd-back-to-school-bash-sherman-2026-08-01",
+      "event_name": "Sherman ISD Back to School Bash",
+      "description": "Sherman ISD families are invited to prepare for the new school year at the Sherman ISD Back to School Bash, presented in partnership with Cook Children's. The free event will offer 1,000 backpacks with school supplies, free haircuts, community resources, family assistance and other services while supplies last. The Boys & Girls Club of Sherman and additional community organizations will also provide support. Attendees should park near the Competition Gym on the west side of Sherman High School.",
+      "start_datetime": "2026-08-01T10:00:00-05:00",
+      "end_datetime": "2026-08-01T13:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "sherman-high-school"
+      ],
+      "venue_name": "Sherman High School",
+      "address": "2907 W Travis St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75092",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Community",
+        "Family",
+        "Education",
+        "Children"
+      ],
+      "tags": [
+        "Back to School",
+        "Free Backpacks",
+        "Free School Supplies",
+        "Free Haircuts",
+        "Community Resources",
+        "Sherman ISD",
+        "Sherman",
+        "Grayson County"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free admission. Backpacks, school supplies, haircuts and other services are available while supplies last.",
+      "audience": [
+        "Families",
+        "Students",
+        "Children",
+        "Sherman ISD Families"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/sherman-isd-back-to-school-bash-sherman-2026-08-01.png",
+      "official_url": "https://www.shermanisd.net/newsroom/~board/homepage/post/back-to-school-bash-26",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified through Sherman ISD. The event is Saturday, August 1, 2026, from 10:00 AM to 1:00 PM at Sherman High School. Sherman ISD states that 1,000 backpacks and school-supply sets, free haircuts, community resources and additional assistance will be available while supplies last. Attendees should park near the Competition Gym on the west side of the school.",
+      "last_checked": "2026-08-01",
+      "created_on": "2026-08-01",
+      "updated_on": "2026-08-01",
+      "host_business_slug": "sherman-isd",
+      "partner_business_slugs": [
+        "cook-childrens",
+        "boys-and-girls-club-of-sherman"
+      ],
+      "partner_names": [
+        "Cook Children's",
+        "Boys & Girls Club of Sherman"
+      ]
     }
   ]
 }
