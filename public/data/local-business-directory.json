@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 544,
-  "publish_ready_count": 208,
+  "business_count": 545,
+  "publish_ready_count": 209,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -21587,6 +21587,70 @@
         "Parking",
         "Wheelchair accessible",
         "Gender-neutral restrooms"
+      ]
+    },
+    {
+      "slug": "hogans-jif-e-lube-2",
+      "business_name": "Hogan's Jif-E-Lube #2",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "812 N Grand Ave, Gainesville, TX 76240",
+      "category": [
+        "Oil Change Service",
+        "Auto Repair Shop",
+        "Automotive Maintenance",
+        "Vehicle Inspection Station"
+      ],
+      "description": "Hogan's Jif-E-Lube #2 is a longtime Gainesville automotive service shop providing oil changes, vehicle inspections, routine maintenance, tune-ups, air-conditioning service, transmission-related service, differential service, and four-wheel-drive repair. The locally recommended shop is known for fast, friendly service, experienced employees, fair pricing, and strong customer care.",
+      "phone": "940-665-1069",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "8:00 AM–5:00 PM",
+        "tuesday": "8:00 AM–5:00 PM",
+        "wednesday": "8:00 AM–5:00 PM",
+        "thursday": "8:00 AM–5:00 PM",
+        "friday": "8:00 AM–5:00 PM",
+        "saturday": "8:00 AM–2:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Holiday hours may vary. Call before making a special trip.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "verification_note": "Verified August 1, 2026, using current public business listings, Better Business Bureau information, customer-review listings, and a community recommendation received by Texoma Weekend Guide. Sources confirm the Gainesville address, phone number, hours, automotive services, and longstanding reputation for fast, honest, customer-focused service. No clearly verified official website, Facebook page, or public email address was found.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Oil-change promotions",
+        "Vehicle inspection promotions",
+        "Seasonal maintenance offers",
+        "Automotive service discounts",
+        "Community discounts",
+        "Customer appreciation promotions"
+      ],
+      "event_sources": [
+        "Business announcements",
+        "Community announcements",
+        "Current business listings"
+      ],
+      "features": [
+        "Serving Gainesville since 1985",
+        "Oil changes",
+        "Vehicle inspections",
+        "Routine automotive maintenance",
+        "Tune-ups",
+        "Air-conditioning service",
+        "Transmission-related service",
+        "Differential service",
+        "Four-wheel-drive repair",
+        "Fast service",
+        "Experienced staff",
+        "Fair pricing",
+        "Locally recommended",
+        "Strong customer service"
       ]
     }
   ]
