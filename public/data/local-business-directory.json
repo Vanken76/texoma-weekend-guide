@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 538,
-  "publish_ready_count": 202,
+  "business_count": 539,
+  "publish_ready_count": 203,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -21162,6 +21162,79 @@
         "Late-night hours",
         "Dine-in",
         "Takeout"
+      ]
+    },
+    {
+      "slug": "trails-inn-restaurant",
+      "business_name": "Trails Inn Restaurant",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "3007 US Highway 82, Gainesville, TX 76240",
+      "category": [
+        "Breakfast Restaurant",
+        "Lunch Restaurant",
+        "Diner",
+        "American Restaurant",
+        "Family Restaurant"
+      ],
+      "description": "Trails Inn Restaurant is a longtime Gainesville breakfast and lunch spot serving home-style American food in a relaxed hometown atmosphere. The menu includes breakfast plates, omelets, skillets, biscuits and gravy, pancakes, waffles, burgers, sandwiches, wraps, salads, chicken-fried steak, meatloaf, daily specials, and children's meals.",
+      "phone": "940-668-8325",
+      "email": "andy@trailsinnrestaurant.com",
+      "website": "https://trailsinnrestaurant.com",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "5:30 AM–3:00 PM",
+        "tuesday": "5:30 AM–3:00 PM",
+        "wednesday": "5:30 AM–3:00 PM",
+        "thursday": "5:30 AM–3:00 PM",
+        "friday": "5:30 AM–3:00 PM",
+        "saturday": "5:30 AM–3:00 PM",
+        "sunday": "5:30 AM–3:00 PM"
+      },
+      "hours_note": "Open daily for breakfast and lunch. Holiday hours may vary, so check the official website or call before making a special trip.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the official Trails Inn Restaurant website and current restaurant listings. The official website confirms the Gainesville address, phone number, email address, daily hours, breakfast and lunch service, and broad home-style menu. Monitor official sources for holiday meals, daily specials, community promotions, and schedule changes.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Holiday dining",
+        "Daily food specials",
+        "Community promotions",
+        "Customer appreciation events",
+        "Seasonal menu promotions"
+      ],
+      "event_sources": [
+        "Official website",
+        "Business announcements",
+        "Community posts"
+      ],
+      "features": [
+        "Breakfast",
+        "Lunch",
+        "Home-style cooking",
+        "Omelets",
+        "Skillets",
+        "Biscuits and gravy",
+        "Pancakes",
+        "Waffles",
+        "Chicken-fried steak",
+        "Chicken-fried chicken",
+        "Meatloaf",
+        "Burgers",
+        "Sandwiches",
+        "Wraps",
+        "Salads",
+        "Daily specials",
+        "Children's menu",
+        "Vegetarian options",
+        "Dine-in",
+        "Takeout",
+        "Delivery",
+        "Family friendly",
+        "Wi-Fi"
       ]
     }
   ]
