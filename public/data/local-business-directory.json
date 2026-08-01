@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 552,
-  "publish_ready_count": 216,
+  "business_count": 553,
+  "publish_ready_count": 217,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -22117,6 +22117,68 @@
         "Respirator-fit testing",
         "Job-placement assessments",
         "Occupational medicine"
+      ]
+    },
+    {
+      "slug": "tias-tex-mex-bbq",
+      "business_name": "Tia's Tex-Mex BBQ",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "401 N Frontage Rd, Valley View, TX 76272",
+      "category": [
+        "Tex-Mex Restaurant",
+        "Barbecue Restaurant",
+        "Mexican Restaurant",
+        "Catering"
+      ],
+      "description": "Tia's Tex-Mex BBQ is a Valley View restaurant combining smoked Texas barbecue with Tex-Mex favorites. The menu includes brisket tacos, quesadillas, taco salads, queso, homemade salsa, barbecue plates, desserts, and other casual dining options. Customers frequently praise the quick service, friendly staff, and distinctive combination of barbecue and Mexican flavors.",
+      "phone": "940-300-5843",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/p/Tias-Tex-Mex-BBQ-100088730991806/",
+      "instagram": null,
+      "hours": {
+        "notes": "Current listings generally show service from 11:00 AM to 9:00 PM. Confirm the daily schedule through the official Facebook page or by phone."
+      },
+      "hours_note": "Daily hours were not conclusively verified from an official source. Call or check the official Facebook page before making a special trip.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the official Facebook page, Gainesville Area Chamber information, current restaurant listings, regional event coverage, and a Gainesville-area community recommendation. Sources confirm the Valley View address, phone number, Tex-Mex and barbecue offerings, catering, dine-in and takeout service, and reputation for quick service and friendly staff. No separate official website or conclusively verified daily hours were found.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Food specials",
+        "Catering promotions",
+        "Festival appearances",
+        "Community fundraisers",
+        "Holiday promotions",
+        "Customer appreciation events"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Business announcements",
+        "Community announcements",
+        "Festival listings"
+      ],
+      "features": [
+        "Tex-Mex cuisine",
+        "Texas barbecue",
+        "Brisket tacos",
+        "Quesadillas",
+        "Taco salads",
+        "Queso",
+        "Homemade salsa",
+        "Barbecue plates",
+        "Desserts",
+        "Dine-in",
+        "Takeout",
+        "Delivery",
+        "Drive-through",
+        "Catering",
+        "Quick service",
+        "Locally recommended",
+        "Family friendly"
       ]
     }
   ]
