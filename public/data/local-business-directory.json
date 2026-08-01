@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 514,
-  "publish_ready_count": 178,
+  "business_count": 515,
+  "publish_ready_count": 179,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -19718,6 +19718,71 @@
         "Open green space",
         "Accessible parking",
         "Accessible entrance"
+      ]
+    },
+    {
+      "slug": "roy-v-floyd-community-center",
+      "business_name": "Roy V. Floyd Community Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "1100 W 5th St, Bonham, TX 75418",
+      "category": [
+        "Community Center",
+        "Civic Center",
+        "Event Venue",
+        "Meeting Venue",
+        "Banquet Hall"
+      ],
+      "description": "Roy V. Floyd Community Center is a City of Bonham-owned civic facility serving as one of the community's primary indoor event venues. Formerly known as the Bonham Armory or West Bonham Armory Civic Center, the facility hosts community resource fairs, nonprofit events, fundraisers, elections, meetings, banquets, trade shows, educational programs, and private rentals throughout the year.",
+      "phone": "903-583-7555",
+      "email": "reserve@cityofbonham.org",
+      "website": "https://cityofbonham.org/Facilities/Facility/Details/Roy-V-Floyd-Community-Center-7",
+      "facebook": "https://www.facebook.com/CityofBonham",
+      "instagram": "",
+      "hours": {
+        "monday": "8:00 AM - 11:59 PM",
+        "tuesday": "8:00 AM - 11:59 PM",
+        "wednesday": "8:00 AM - 11:59 PM",
+        "thursday": "8:00 AM - 11:59 PM",
+        "friday": "8:00 AM - 11:59 PM",
+        "saturday": "8:00 AM - 11:59 PM",
+        "sunday": "8:00 AM - 11:59 PM"
+      },
+      "hours_note": "Available by reservation through the City of Bonham. Closed on Thanksgiving and Christmas; other holidays are available for full-day rentals only.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified through the City of Bonham facilities directory. The venue accommodates up to 300 guests and is a primary location for community events, nonprofit programs, elections, and public gatherings.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Community resource fairs",
+        "School supply events",
+        "Fundraisers",
+        "Community meetings",
+        "Banquets",
+        "Trade shows",
+        "Vendor events",
+        "Public elections",
+        "Educational programs",
+        "Nonprofit events"
+      ],
+      "event_sources": [
+        "City of Bonham Community Calendar",
+        "City of Bonham Facilities",
+        "Community organizations"
+      ],
+      "features": [
+        "5,280-square-foot facility",
+        "Capacity up to 300 guests",
+        "Commercial kitchen",
+        "PA system",
+        "Tables and chairs included",
+        "Parking",
+        "Restrooms",
+        "Accessible entrance",
+        "Accessible parking",
+        "City-owned facility"
       ]
     }
   ]
