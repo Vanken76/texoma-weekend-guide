@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 530,
-  "publish_ready_count": 194,
+  "business_count": 531,
+  "publish_ready_count": 195,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20639,6 +20639,72 @@
         "Party platters",
         "Wheelchair accessible",
         "Community support"
+      ]
+    },
+    {
+      "slug": "feras-italian-restaurant",
+      "business_name": "Fera's Italian Restaurant",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "300 I-35, Gainesville, TX 76240",
+      "category": [
+        "Italian Restaurant",
+        "Restaurant",
+        "Catering"
+      ],
+      "description": "Fera's Italian Restaurant is a family-friendly Gainesville restaurant serving homemade Italian favorites including pasta, lasagna, chicken Parmesan, chicken Marsala, fettuccine Alfredo, seafood dishes, fresh rolls, salads, desserts, beer, and wine. The restaurant offers dine-in service, takeout, catering, vegetarian options, and a children's menu.",
+      "phone": "940-665-7551",
+      "email": null,
+      "website": "https://ferasrestaurant.com",
+      "facebook": "https://www.facebook.com/FerasRestaurant",
+      "instagram": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "11:00 AM–9:00 PM",
+        "wednesday": "11:00 AM–9:00 PM",
+        "thursday": "11:00 AM–9:00 PM",
+        "friday": "11:00 AM–9:00 PM",
+        "saturday": "11:00 AM–9:00 PM",
+        "sunday": "11:00 AM–9:00 PM"
+      },
+      "hours_note": "Holiday hours may vary. Check the official website or Facebook page before making a special trip.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the official Fera's Italian Restaurant website, official Facebook page, and current restaurant listings. Sources confirm the Gainesville location, phone number, hours, Italian menu, dine-in and takeout service, catering, beer and wine, vegetarian options, children's menu, and wheelchair accessibility.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Holiday dining",
+        "Food promotions",
+        "Special dinners",
+        "Community fundraisers",
+        "Seasonal menu promotions"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Business announcements"
+      ],
+      "features": [
+        "Homemade Italian cuisine",
+        "Pasta",
+        "Lasagna",
+        "Chicken Parmesan",
+        "Chicken Marsala",
+        "Fettuccine Alfredo",
+        "Seafood dishes",
+        "Fresh rolls",
+        "Salads",
+        "Desserts",
+        "Beer and wine",
+        "Vegetarian options",
+        "Children's menu",
+        "Dine-in",
+        "Takeout",
+        "Catering",
+        "Wheelchair accessible",
+        "Family friendly"
       ]
     }
   ]
