@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 533,
-  "publish_ready_count": 197,
+  "business_count": 534,
+  "publish_ready_count": 198,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20825,6 +20825,73 @@
         "Dine-in",
         "Takeout",
         "Family friendly"
+      ]
+    },
+    {
+      "slug": "smokehouse-bbq-lindsay",
+      "business_name": "Smokehouse BBQ",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "307 US Highway 82, Lindsay, TX 76250",
+      "category": [
+        "Barbecue Restaurant",
+        "Restaurant",
+        "Catering"
+      ],
+      "description": "Smokehouse BBQ is a longtime family-owned Texas barbecue restaurant in Lindsay serving slow-smoked brisket, ribs, sausage, turkey, ham, catfish, homemade sides, desserts, and signature barbecue sauce. The restaurant offers dine-in, takeout, drive-through service, catering, and banquet facilities for groups and special events.",
+      "phone": "940-665-9052",
+      "email": null,
+      "website": "https://smokehousebbqlindsay.com",
+      "facebook": "https://www.facebook.com/SmokehouseBBQLindsay",
+      "instagram": null,
+      "hours": {
+        "monday": "10:30 AM–9:00 PM",
+        "tuesday": "10:30 AM–9:00 PM",
+        "wednesday": "10:30 AM–9:00 PM",
+        "thursday": "10:30 AM–9:00 PM",
+        "friday": "10:30 AM–9:30 PM",
+        "saturday": "10:30 AM–9:30 PM",
+        "sunday": "11:00 AM–9:00 PM"
+      },
+      "hours_note": "Holiday hours may vary. Check the official website or Facebook page before visiting.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the official Smokehouse BBQ website, official Facebook page, and current business listings. Confirmed the Lindsay location, address, phone number, operating hours, family ownership, Texas barbecue menu, catering services, drive-through, banquet room, and community presence.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Holiday specials",
+        "Community fundraisers",
+        "Live music",
+        "Seasonal food specials",
+        "Catering promotions",
+        "Community events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Business announcements"
+      ],
+      "features": [
+        "Family-owned",
+        "Texas barbecue",
+        "Slow-smoked brisket",
+        "Ribs",
+        "Sausage",
+        "Turkey",
+        "Ham",
+        "Catfish",
+        "Homemade sides",
+        "Homemade desserts",
+        "Signature BBQ sauce",
+        "Drive-through",
+        "Dine-in",
+        "Takeout",
+        "Catering",
+        "Banquet room",
+        "Family friendly",
+        "Wheelchair accessible"
       ]
     }
   ]
