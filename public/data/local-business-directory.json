@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 532,
-  "publish_ready_count": 196,
+  "business_count": 533,
+  "publish_ready_count": 197,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20766,6 +20766,65 @@
         "Dentures",
         "Teeth whitening",
         "Emergency dental care"
+      ]
+    },
+    {
+      "slug": "asian-fusion-gainesville",
+      "business_name": "Asian Fusion",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "1800 W US Highway 82, Gainesville, TX 76240",
+      "category": [
+        "Asian Restaurant",
+        "Chinese Restaurant",
+        "Japanese Restaurant",
+        "Sushi Restaurant",
+        "Thai Restaurant"
+      ],
+      "description": "Asian Fusion is a Gainesville restaurant serving a wide variety of Asian cuisine including Chinese, Japanese, Thai, sushi, hibachi, noodle dishes, and specialty rolls. The restaurant offers dine-in, takeout, and a family-friendly atmosphere with an extensive menu.",
+      "phone": "940-580-3088",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/AsianFusionGainesvilleTX",
+      "instagram": null,
+      "hours": {
+        "monday": "11:00 AM–9:30 PM",
+        "tuesday": "11:00 AM–9:30 PM",
+        "wednesday": "11:00 AM–9:30 PM",
+        "thursday": "11:00 AM–9:30 PM",
+        "friday": "11:00 AM–10:00 PM",
+        "saturday": "11:00 AM–10:00 PM",
+        "sunday": "11:00 AM–9:30 PM"
+      },
+      "hours_note": "Hours may vary on holidays.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using current business listings and the official Facebook page. The business offers Chinese, Japanese, Thai, sushi, and hibachi cuisine with dine-in and takeout service.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Holiday specials",
+        "Food promotions",
+        "Seasonal menu items",
+        "Community events"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Business announcements"
+      ],
+      "features": [
+        "Chinese cuisine",
+        "Japanese cuisine",
+        "Thai cuisine",
+        "Sushi",
+        "Hibachi",
+        "Specialty rolls",
+        "Lunch specials",
+        "Dinner",
+        "Dine-in",
+        "Takeout",
+        "Family friendly"
       ]
     }
   ]
