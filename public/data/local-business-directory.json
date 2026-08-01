@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-07-31",
+  "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 510,
-  "publish_ready_count": 174,
+  "business_count": 511,
+  "publish_ready_count": 175,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -19500,6 +19500,58 @@
       ],
       "verification_note": "Verified July 31, 2026 using Discover Denison's official business listing and T.V. Munson Wine Walk information. The museum is located in the historic Vinita House at 530 W Hanna St., Denison, and tours are coordinated through the Grayson College Foundation. The museum serves as a featured stop during the annual T.V. Munson Wine Walk.",
       "last_checked": "2026-07-31"
+    },
+    {
+      "slug": "fannin-county-childrens-center",
+      "business_name": "Fannin County Children's Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "112 W 5th St, Bonham, TX 75418",
+      "category": [
+        "Nonprofit Organization",
+        "Children's Advocacy Center",
+        "Family Services",
+        "Community Organization",
+        "Event Venue"
+      ],
+      "description": "Fannin County Children's Center is a nonprofit organization promoting safety and improving the lives of abused and neglected children throughout Fannin County. The center operates Children's Advocacy Center and Court Appointed Special Advocates programs, provides trauma-focused support and family resources, and coordinates community initiatives including school-supply assistance, child-abuse prevention activities, volunteer opportunities, donation drives and fundraising events.",
+      "phone": "903-583-4339",
+      "email": "info@fanninccc.org",
+      "website": "https://www.fanninccc.org",
+      "facebook": "https://www.facebook.com/Fannin.County.Childrens.Center/",
+      "instagram": "https://www.instagram.com/fanninccc/",
+      "hours": {},
+      "hours_note": "Administrative and program hours were not clearly published. Contact the center or check its official website and social media before visiting.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Complete. Address, phone number, email, website and official social-media accounts were verified through official sources and Texas CASA. Monitor official channels for school-supply programs, fundraisers, prevention activities, volunteer opportunities and schedule changes.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "School-supply drives",
+        "Back-to-school assistance",
+        "Fundraisers",
+        "Child-abuse prevention events",
+        "Volunteer opportunities",
+        "Donation drives",
+        "Holiday assistance programs",
+        "Community outreach events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Official Instagram account"
+      ],
+      "features": [
+        "Children's Advocacy Center services",
+        "CASA program",
+        "Trauma-focused support",
+        "Family resources",
+        "Volunteer opportunities",
+        "Donations accepted",
+        "Community events"
+      ]
     }
   ]
 }
