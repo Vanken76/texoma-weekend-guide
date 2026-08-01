@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 526,
-  "publish_ready_count": 190,
+  "business_count": 527,
+  "publish_ready_count": 191,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20391,6 +20391,68 @@
         "Family-friendly dining",
         "Dine-in",
         "Takeout"
+      ]
+    },
+    {
+      "slug": "bella-vita-kingston",
+      "business_name": "Bella Vita",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "1625 US-70 E, Kingston, OK 73439",
+      "category": [
+        "Italian Restaurant",
+        "Restaurant",
+        "Bar",
+        "Catering"
+      ],
+      "description": "Bella Vita is an Italian restaurant in Kingston, Oklahoma, serving pasta, seafood, steaks, appetizers, desserts, cocktails, and other Italian favorites in a relaxed gathering place near Lake Texoma. The restaurant offers dine-in service, takeout, catering, a full bar, and lunch specials on select weekdays.",
+      "phone": "580-565-5026",
+      "email": "bellavitakingston@gmail.com",
+      "website": "https://www.bellavitakingston.com",
+      "facebook": "https://www.facebook.com/profile.php?id=61562808843340",
+      "instagram": "https://www.instagram.com/bellavita_kingston",
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "11:00 AM–9:00 PM",
+        "wednesday": "11:00 AM–9:00 PM",
+        "thursday": "11:00 AM–9:00 PM",
+        "friday": "11:00 AM–9:00 PM",
+        "saturday": "11:00 AM–9:00 PM",
+        "sunday": "11:00 AM–9:00 PM"
+      },
+      "hours_note": "Lunch specials are offered Tuesday through Friday from 11:00 AM to 2:00 PM. Holiday hours may vary.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the official Bella Vita website, official Facebook page, official Instagram account, and the Town of Kingston business directory. Monitor official social media for dinners, holiday promotions, live entertainment, and other special events.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Holiday dining",
+        "Special dinners",
+        "Food and drink promotions",
+        "Live entertainment",
+        "Community events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Official Instagram account"
+      ],
+      "features": [
+        "Italian cuisine",
+        "Pasta",
+        "Seafood",
+        "Steaks",
+        "Desserts",
+        "Full bar",
+        "Cocktails",
+        "Lunch specials",
+        "Dine-in",
+        "Takeout",
+        "Catering",
+        "Wheelchair accessible",
+        "Parking available"
       ]
     }
   ]
