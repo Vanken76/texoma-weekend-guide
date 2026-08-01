@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 516,
-  "publish_ready_count": 180,
+  "business_count": 517,
+  "publish_ready_count": 181,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -19830,6 +19830,77 @@
         "Family assistance",
         "Faith-based service",
         "Partnership events"
+      ]
+    },
+    {
+      "slug": "fletcher-ace-hardware-pottsboro",
+      "business_name": "Fletcher Ace Hardware",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "512 W FM 120, Pottsboro, TX 75076",
+      "category": [
+        "Hardware Store",
+        "Home Improvement Store",
+        "Paint Store",
+        "Tool Store",
+        "Garden Center",
+        "Fishing Supply Store"
+      ],
+      "description": "Fletcher Ace Hardware is a locally owned Ace Hardware store serving Pottsboro, Lake Texoma, and surrounding communities. The store offers hardware, tools, paint, lawn and garden supplies, outdoor living products, fishing gear, grills, gifts, and home improvement products while actively supporting local schools, youth sports, nonprofits, and community events.",
+      "phone": "903-419-1040",
+      "email": "pottsboro@fletcherhardware.com",
+      "website": "https://www.acehardware.com/store-details/18076",
+      "facebook": "https://www.facebook.com/FletcherAceHardware",
+      "instagram": "https://www.instagram.com/fletcheracehardware",
+      "hours": {
+        "monday": "7:30 AM - 6:30 PM",
+        "tuesday": "7:30 AM - 6:30 PM",
+        "wednesday": "7:30 AM - 6:30 PM",
+        "thursday": "7:30 AM - 6:30 PM",
+        "friday": "7:30 AM - 6:30 PM",
+        "saturday": "8:00 AM - 6:00 PM",
+        "sunday": "10:00 AM - 5:00 PM"
+      },
+      "hours_note": "Hours verified through the official Ace Hardware store listing and may change on holidays.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified through the official Ace Hardware store page and Fletcher Ace Hardware's official social media accounts. The store regularly supports community fundraisers, nonprofit organizations, youth sports teams, seasonal events, customer appreciation events, and local vendor activities.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Community fundraisers",
+        "Youth sports fundraisers",
+        "Vendor events",
+        "Customer appreciation events",
+        "Holiday events",
+        "Seasonal promotions",
+        "Grand openings",
+        "Community outreach"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Official Instagram",
+        "Official Ace Hardware website"
+      ],
+      "features": [
+        "Ace Rewards",
+        "Benjamin Moore Paint",
+        "STIHL Dealer",
+        "Big Green Egg Dealer",
+        "Traeger Grills",
+        "YETI Products",
+        "Fishing Supplies",
+        "Lawn & Garden",
+        "Outdoor Living",
+        "Key Cutting",
+        "Glass Cutting",
+        "Paint Color Matching",
+        "Propane Exchange",
+        "Assembly Services",
+        "Delivery Available",
+        "Curbside Pickup",
+        "In-Store Pickup"
       ]
     }
   ]
