@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 549,
-  "publish_ready_count": 213,
+  "business_count": 550,
+  "publish_ready_count": 214,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -21888,6 +21888,76 @@
       ],
       "verification_note": "Verified August 1, 2026. Official website, Facebook, Instagram, email, phone, and physical location confirmed. This venue hosts numerous recurring and seasonal events and should be monitored regularly for individual event listings.",
       "last_checked": "2026-08-01"
+    },
+    {
+      "slug": "tacos-locos-durant",
+      "business_name": "Tacos Locos",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "1255 N Washington Ave, Durant, OK 74701",
+      "category": [
+        "Mexican Restaurant",
+        "Taco Restaurant",
+        "Breakfast Restaurant",
+        "Restaurant"
+      ],
+      "description": "Tacos Locos is a locally recommended Durant restaurant serving authentic Mexican and street-style food in a casual, family-friendly setting. The menu includes tacos, birria tacos, burritos, breakfast burritos and tacos, tortas, quesadillas, enchiladas, carne asada, chilaquiles, menudo, aguas frescas, desserts, and other traditional dishes. Customers praise the generous portions, friendly service, good value, and the business's support for the local community.",
+      "phone": "580-745-8114",
+      "email": null,
+      "website": "https://www.tacoslocosok.com",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "9:00 AM–8:00 PM",
+        "tuesday": "9:00 AM–8:00 PM",
+        "wednesday": "9:00 AM–8:00 PM",
+        "thursday": "9:00 AM–8:00 PM",
+        "friday": "9:00 AM–8:00 PM",
+        "saturday": "9:00 AM–6:00 PM",
+        "sunday": "10:00 AM–4:00 PM"
+      },
+      "hours_note": "Holiday hours may vary. Check the official website or call before making a special trip.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the official Tacos Locos website, current restaurant listings, public menu information, and a Durant community recommendation received by Texoma Weekend Guide. Sources confirm the Durant address, phone number, current hours, online ordering, Mexican and street-style menu, breakfast offerings, carryout service, and strong local reputation. The community recommendation specifically praised the food, friendly staff, and support for the Durant community. No exact official Facebook or Instagram URL was confirmed.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Food specials",
+        "Holiday promotions",
+        "Community fundraisers",
+        "Seasonal menu promotions",
+        "Customer appreciation events",
+        "Community outreach"
+      ],
+      "event_sources": [
+        "Official website",
+        "Business announcements",
+        "Community recommendations"
+      ],
+      "features": [
+        "Authentic Mexican food",
+        "Street tacos",
+        "Birria tacos",
+        "Breakfast tacos",
+        "Breakfast burritos",
+        "Burritos",
+        "Tortas",
+        "Quesadillas",
+        "Enchiladas",
+        "Carne asada",
+        "Chilaquiles",
+        "Menudo",
+        "Aguas frescas",
+        "Desserts",
+        "Generous portions",
+        "Online ordering",
+        "Carryout",
+        "Family friendly",
+        "Locally recommended",
+        "Community involvement"
+      ]
     }
   ]
 }
