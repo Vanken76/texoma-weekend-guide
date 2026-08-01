@@ -63,7 +63,7 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 110,
+  "event_count": 111,
   "publish_ready_count": 103,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
@@ -6258,6 +6258,58 @@
       "venue_slugs": [
         "grayson-county-courthouse"
       ]
+    },
+    {
+      "event_name": "DJ Tweak Karaoke",
+      "event_slug": "dj-tweak-karaoke-redrock-saloon-denison-2026-08-01",
+      "start_datetime": "2026-08-01T20:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "recurring": {
+        "is_recurring": true,
+        "frequency": "weekly",
+        "by_day": [
+          "SA"
+        ]
+      },
+      "category": [
+        "Karaoke",
+        "Nightlife",
+        "Live Entertainment",
+        "Music"
+      ],
+      "cost_type": "free",
+      "cost": null,
+      "description": "Join DJ Tweak every Saturday night for karaoke at RedRock Saloon in downtown Denison. Grab the mic, sing your favorite songs, and enjoy a fun night out with no cover charge.",
+      "short_description": "Saturday night karaoke with DJ Tweak. No cover.",
+      "facebook_event_url": null,
+      "source_url": "https://www.facebook.com/RedRockSaloonDenisonTx",
+      "image_source": "Official RedRock Saloon Facebook flyer",
+      "featured": false,
+      "all_ages": false,
+      "family_friendly": false,
+      "indoor": true,
+      "tags": [
+        "karaoke",
+        "dj tweak",
+        "redrock saloon",
+        "denison",
+        "nightlife",
+        "free",
+        "weekly"
+      ],
+      "notes": "Official RedRock Saloon recurring Saturday karaoke hosted by DJ Tweak. Begins at 8:00 PM each Saturday. No cover charge.",
+      "venue_slugs": [
+        "redrock-saloon-denison"
+      ],
+      "categories": [],
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/dj-tweak-karaoke-redrock-saloon-denison-2026-08-01.png",
+      "created_on": "2026-08-01",
+      "updated_on": "2026-08-01",
+      "last_checked": "2026-08-01"
     }
   ]
 }
