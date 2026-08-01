@@ -20072,17 +20072,15 @@
       "service_area_or_location": "84 Turner Ln, Gainesville, TX 76240",
       "category": [
         "Farm",
+        "Family Farm",
+        "Livestock Farm",
         "Agritourism",
-        "Farm Store",
-        "Country Store",
-        "Meat Market",
-        "Family Attraction",
-        "Event Venue"
+        "Farm Store"
       ],
-      "description": "Christian Family Farms is a family-owned working farm and self-serve country store in Gainesville. The farm raises its own beef, pork, chicken, and lamb while also offering products from other local producers, including produce, baked goods, dairy products, candies, ice cream, and specialty foods. The honor-system farm store is open daily, and the farm periodically hosts community activities and seasonal events.",
-      "phone": "940-284-4033",
+      "description": "Christian Family Farms is a family-owned farm in Cooke County offering farm-raised beef, pork, chicken, lamb, fresh eggs, dairy products, and other locally produced foods. The property features a self-service honor-system farm store that is open around the clock and serves as the primary production location for the Christian Family Farms operation.",
+      "phone": "(940) 284-4033",
       "email": null,
-      "website": "https://www.christianfamilyfarms.com",
+      "website": "https://christianfamilyfarms.com",
       "facebook": "https://www.facebook.com/christianfamilyfarms",
       "instagram": null,
       "hours": {
@@ -20094,36 +20092,35 @@
         "saturday": "Open 24 Hours",
         "sunday": "Open 24 Hours"
       },
-      "hours_note": "The self-serve honor-system farm store is open 24 hours a day.",
+      "hours_note": "Self-service honor-system farm store available 24/7.",
       "event_venue": true,
       "recurring_events": true,
       "mine_for_events": true,
       "event_mining_priority": "high",
-      "verification_note": "Verified August 1, 2026, through the official Christian Family Farms website, Gainesville Area Chamber of Commerce, and Google Business Profile. The farm at 84 Turner Lane operates a 24-hour honor-system farm store and raises beef, pork, chicken, and lamb while carrying products from other local producers. A separate downtown Gainesville retail location exists and should be maintained as its own business listing rather than merged with the farm. 1",
+      "verification_note": "Verified August 2026 using the official Facebook page, Google Business Profile, and the official Christian Family Farms website.",
       "last_checked": "2026-08-01",
       "event_types": [
-        "Seasonal farm events",
-        "Farm tours",
-        "Community events",
-        "Holiday events",
-        "Educational events"
+        "Seasonal Events",
+        "Farm Tours",
+        "Holiday Events",
+        "Special Farm Events",
+        "Educational Events"
       ],
       "event_sources": [
-        "Official website",
-        "Official Facebook page",
-        "Google Business Profile"
+        "Official Facebook Page",
+        "Official Website"
       ],
       "features": [
-        "24-hour honor-system farm store",
+        "Family-owned farm",
+        "Honor-system farm store",
         "Farm-raised beef",
         "Farm-raised pork",
         "Farm-raised chicken",
         "Farm-raised lamb",
-        "Local produce",
-        "Baked goods",
-        "Dairy products",
-        "Ice cream",
-        "Supporting local producers"
+        "Fresh eggs",
+        "Local dairy products",
+        "Local foods",
+        "Agritourism"
       ]
     }
   ]
