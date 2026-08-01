@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 523,
-  "publish_ready_count": 187,
+  "business_count": 524,
+  "publish_ready_count": 188,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20223,6 +20223,60 @@
         "Family friendly",
         "Reservations accepted",
         "Happy hour"
+      ]
+    },
+    {
+      "slug": "villegas-panaderia-and-mexican-restaurant",
+      "business_name": "Villegas Panaderia & Mexican Restaurant",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "510 S 9th Ave, Durant, OK 74701",
+      "category": [
+        "Mexican Restaurant",
+        "Bakery",
+        "Restaurant"
+      ],
+      "description": "Villegas Panaderia & Mexican Restaurant is a family-owned Durant favorite serving authentic Mexican cuisine, fresh baked goods, oversized fajitas, combination plates, tacos, burritos, enchiladas, homemade desserts, and traditional Mexican beverages. The restaurant has been serving the Durant community since 2003 and is well known for generous portions, friendly service, and authentic flavors.",
+      "phone": "(580) 920-0915",
+      "email": null,
+      "website": "https://villegasdurant.com",
+      "facebook": "https://www.facebook.com/VillegasRestaurantBakery",
+      "instagram": null,
+      "hours": {
+        "monday": "11:00 AM–9:00 PM",
+        "tuesday": "11:00 AM–9:00 PM",
+        "wednesday": "11:00 AM–9:00 PM",
+        "thursday": "11:00 AM–9:00 PM",
+        "friday": "11:00 AM–10:00 PM",
+        "saturday": "11:00 AM–10:00 PM",
+        "sunday": "11:00 AM–9:00 PM"
+      },
+      "hours_note": null,
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, through the official Villegas website, Google Business Profile, and public business listings. Open since 2003 and known for authentic Mexican cuisine and an on-site bakery. 1",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Holiday specials",
+        "Food promotions",
+        "Community events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page"
+      ],
+      "features": [
+        "Authentic Mexican cuisine",
+        "Bakery",
+        "Fresh tortillas",
+        "Oversized fajitas",
+        "Homemade desserts",
+        "Takeout",
+        "Dine-in",
+        "Family owned",
+        "Established 2003"
       ]
     }
   ]
