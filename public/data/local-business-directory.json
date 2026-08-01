@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 517,
-  "publish_ready_count": 181,
+  "business_count": 518,
+  "publish_ready_count": 182,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -19901,6 +19901,61 @@
         "Delivery Available",
         "Curbside Pickup",
         "In-Store Pickup"
+      ]
+    },
+    {
+      "slug": "pinball-collective-of-pottsboro",
+      "business_name": "Pinball Collective of Pottsboro",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "787 FM 996, Pottsboro, TX 75076",
+      "category": [
+        "Pinball Club",
+        "Arcade",
+        "Entertainment Venue",
+        "Event Venue",
+        "Sports and Recreation"
+      ],
+      "description": "Pinball Collective of Pottsboro is a local pinball club and competitive-play venue featuring a collection of classic and modern pinball machines. The club hosts Tuesday evening play, league activities, IFPA-sanctioned tournaments, and special competitive pinball events for players throughout Texoma and North Texas.",
+      "phone": "903-271-5377",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/profile.php?id=61588877067504",
+      "instagram": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "5:00 PM–12:00 AM",
+        "wednesday": "Closed",
+        "thursday": "Closed",
+        "friday": "Closed",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Regular hours are currently listed for Tuesday evenings only. Special tournaments and other events may take place outside the posted schedule. Check the official Facebook page for current access information, tournament details, and schedule changes before visiting.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified August 1, 2026, using the business-maintained Google listing and official Facebook page. The Google listing confirms the business name, address at 787 FM 996 in Pottsboro, phone number, Tuesday hours of 5:00 PM–12:00 AM, and Facebook as its primary web presence. Regional competitive-pinball listings confirm league activity and IFPA-sanctioned tournaments.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Pinball tournaments",
+        "League nights",
+        "Competitive pinball",
+        "Tuesday night pinball",
+        "Special pinball events"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Google Business Profile",
+        "IFPA tournament listings",
+        "Regional pinball league announcements"
+      ],
+      "features": [
+        "Classic and modern pinball machines",
+        "IFPA-sanctioned competition",
+        "Tuesday evening play",
+        "Competitive pinball community"
       ]
     }
   ]
