@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 539,
-  "publish_ready_count": 203,
+  "business_count": 540,
+  "publish_ready_count": 204,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -21235,6 +21235,72 @@
         "Delivery",
         "Family friendly",
         "Wi-Fi"
+      ]
+    },
+    {
+      "slug": "asian-gourmet-durant",
+      "business_name": "Asian Gourmet",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "2824 W University Blvd, Suite 106, Durant, OK 74701",
+      "category": [
+        "Chinese Restaurant",
+        "Asian Restaurant",
+        "Restaurant"
+      ],
+      "description": "Asian Gourmet is a locally recommended Durant restaurant serving Chinese and Asian cuisine for lunch and dinner. The menu includes combination plates, lo mein, fried rice, dumplings, General Tso's chicken, Mongolian beef, Szechuan dishes, soups, appetizers, and lunch specials. The restaurant offers dine-in, pickup, takeout, and delivery and is praised locally for consistent food, generous portions, friendly service, and support for the community.",
+      "phone": "580-924-6688",
+      "email": null,
+      "website": "https://www.asiangourmetok.com",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "11:00 AM–8:30 PM",
+        "tuesday": "11:00 AM–8:30 PM",
+        "wednesday": "11:00 AM–8:30 PM",
+        "thursday": "11:00 AM–8:30 PM",
+        "friday": "11:00 AM–8:30 PM",
+        "saturday": "Closed",
+        "sunday": "12:00 PM–8:00 PM"
+      },
+      "hours_note": "Holiday hours may vary. The restaurant is closed on Saturdays.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the official Asian Gourmet website and current business listings. Sources confirm the Durant address, phone number, current hours, Chinese and Asian menu, lunch specials, dine-in service, pickup, takeout, and delivery. The recommendation received through the Texoma Weekend Guide community post also received seven endorsements and specifically praised the restaurant's food and community involvement.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Community fundraisers",
+        "Holiday specials",
+        "Food promotions",
+        "Seasonal menu promotions",
+        "Community outreach"
+      ],
+      "event_sources": [
+        "Official website",
+        "Business announcements",
+        "Community recommendations"
+      ],
+      "features": [
+        "Chinese cuisine",
+        "Asian cuisine",
+        "Lunch specials",
+        "Combination plates",
+        "Lo mein",
+        "Fried rice",
+        "Dumplings",
+        "General Tso's chicken",
+        "Mongolian beef",
+        "Szechuan dishes",
+        "Soups",
+        "Dine-in",
+        "Pickup",
+        "Takeout",
+        "Delivery",
+        "Generous portions",
+        "Community involvement",
+        "Locally recommended"
       ]
     }
   ]
