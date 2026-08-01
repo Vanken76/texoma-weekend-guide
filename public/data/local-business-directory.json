@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 524,
-  "publish_ready_count": 188,
+  "business_count": 525,
+  "publish_ready_count": 189,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20277,6 +20277,61 @@
         "Dine-in",
         "Family owned",
         "Established 2003"
+      ]
+    },
+    {
+      "slug": "grayson-county-courthouse",
+      "business_name": "Grayson County Courthouse",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "100 W Houston St, Sherman, TX 75090",
+      "category": [
+        "Government Building",
+        "Courthouse",
+        "Historic Landmark",
+        "Event Venue"
+      ],
+      "description": "The Grayson County Courthouse serves as the seat of county government and is one of Sherman's most recognizable historic landmarks. Located in the heart of downtown Sherman, the courthouse square regularly hosts community gatherings, public ceremonies, seasonal celebrations, and recurring events such as Cars & Coffee. It remains a central gathering place for residents and visitors throughout Texoma.",
+      "phone": "(903) 813-4200",
+      "email": null,
+      "website": "https://www.co.grayson.tx.us",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "8:00 AM–5:00 PM",
+        "tuesday": "8:00 AM–5:00 PM",
+        "wednesday": "8:00 AM–5:00 PM",
+        "thursday": "8:00 AM–5:00 PM",
+        "friday": "8:00 AM–5:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Individual county offices may maintain different public hours.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the official Grayson County website. The courthouse is located at 100 W Houston Street in downtown Sherman and serves as the county seat while also functioning as a prominent community gathering place for recurring public events.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Cars & Coffee",
+        "Community Gatherings",
+        "Public Ceremonies",
+        "Holiday Celebrations",
+        "Downtown Events",
+        "Veterans Events"
+      ],
+      "event_sources": [
+        "Official Grayson County website",
+        "Community organizations",
+        "Event organizers"
+      ],
+      "features": [
+        "Historic courthouse",
+        "Downtown Sherman landmark",
+        "County government offices",
+        "Community gathering space",
+        "Recurring public events"
       ]
     }
   ]
