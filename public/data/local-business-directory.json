@@ -17847,75 +17847,57 @@
     {
       "slug": "sherman-municipal-ballroom",
       "business_name": "Sherman Municipal Ballroom",
-      "directory_status": "active",
+      "directory_status": "complete",
       "publish_ready": true,
-      "service_area_or_location": "Sherman, TX",
+      "service_area_or_location": "405 N Rusk St, Sherman, TX 75090",
       "category": [
         "Event Venue",
-        "Banquet Hall",
-        "Wedding Venue",
-        "Meeting Venue",
+        "Ballroom",
         "Community Venue",
-        "Municipal Facility"
+        "Meeting Venue",
+        "Wedding Venue"
       ],
-      "description": "The Sherman Municipal Ballroom is a City of Sherman event venue located adjacent to Lucy Kidd-Key Park in the Municipal Building complex. With approximately 5,000 square feet of event space and seating for up to 350 guests, the ballroom hosts weddings, receptions, reunions, banquets, nonprofit fundraisers, community events, meetings, vendor expos and private celebrations throughout the year.",
-      "phone": "(903) 892-7234",
+      "description": "Sherman Municipal Ballroom is a city-owned event venue located in downtown Sherman inside the Municipal Building complex. The approximately 5,000-square-foot facility accommodates up to 350 guests and is regularly used for weddings, reunions, banquets, fundraisers, nonprofit events, community gatherings, meetings, dances, and public events throughout the year.",
+      "phone": "903-892-7234",
       "email": "",
-      "website": "https://ci.sherman.tx.us/871/Municipal-Ballroom",
+      "website": "https://www.ci.sherman.tx.us/871/Municipal-Ballroom",
       "facebook": "",
       "instagram": "",
-      "hours": {
-        "monday": "By Reservation",
-        "tuesday": "By Reservation",
-        "wednesday": "By Reservation",
-        "thursday": "By Reservation",
-        "friday": "By Reservation",
-        "saturday": "By Reservation",
-        "sunday": "By Reservation"
-      },
-      "hours_note": "Available by reservation through the City of Sherman. Rental availability varies by date and event schedule.",
-      "address": {
-        "street": "405 N Rusk St",
-        "city": "Sherman",
-        "state": "TX",
-        "postal_code": "75090",
-        "country": "USA"
-      },
+      "hours": {},
+      "hours_note": "Available by reservation. Contact the City of Sherman for availability and rental information.",
       "event_venue": true,
       "recurring_events": true,
       "mine_for_events": true,
       "event_mining_priority": "high",
+      "verification_note": "Verified through the City of Sherman. The venue is one of the city's primary rentable event facilities and may be reserved up to 18 months in advance.",
+      "last_checked": "2026-08-01",
       "event_types": [
-        "Community Events",
+        "Community events",
+        "Fundraisers",
+        "School events",
         "Banquets",
+        "Award ceremonies",
         "Weddings",
         "Receptions",
-        "Vendor Shows",
-        "Fundraisers",
         "Meetings",
-        "Holiday Events",
-        "Private Parties",
-        "Nonprofit Events"
+        "Nonprofit events",
+        "Vendor fairs"
       ],
       "event_sources": [
-        "City of Sherman",
-        "Sherman Parks & Recreation",
-        "Venue Organizers"
+        "City of Sherman Event Venues",
+        "City of Sherman Parks & Recreation",
+        "Community organizations"
       ],
       "features": [
-        "Indoor Event Space",
-        "Approximately 5,000 Square Feet",
-        "Capacity Up To 350 Guests",
-        "Commercial Kitchen Available",
-        "Projector Available",
-        "Wheelchair Accessible",
-        "Adjacent Parking",
-        "Adjacent to Lucy Kidd-Key Park"
-      ],
-      "ownership": "City of Sherman",
-      "reservation_required": true,
-      "verification_note": "Verified through the City of Sherman Municipal Ballroom rental page. The venue is one of the City's primary rentable event facilities, offering approximately 5,000 square feet of space for up to 350 guests and is available by reservation through the City.",
-      "last_checked": "2026-07-29"
+        "Capacity up to 350 guests",
+        "Approximately 5,000 square feet",
+        "Commercial kitchen available",
+        "Downtown location",
+        "Accessible entrance",
+        "Accessible parking",
+        "City-owned facility",
+        "Available for private and nonprofit rentals"
+      ]
     },
     {
       "slug": "kidd-key-auditorium",
