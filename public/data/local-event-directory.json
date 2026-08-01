@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 104,
-  "publish_ready_count": 97,
+  "event_count": 105,
+  "publish_ready_count": 98,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -5868,6 +5868,71 @@
       "host_business_slug": "beyond-the-walls-outreach",
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_slug": "stuff-the-bus-back-to-school-event-pottsboro-2026-08-11",
+      "event_name": "Stuff The Bus Back to School Event",
+      "description": "Stuff The Bus Pottsboro brings the community together for a free, family-friendly back-to-school celebration at Friendship Park. Children and other family members can receive a free book, enjoy complimentary food and activities, and celebrate the community's support for local students. This event marks the culmination of the annual school-supply drive rather than serving as the primary supply drop-off location.",
+      "start_datetime": "2026-08-11T16:00:00-05:00",
+      "end_datetime": "2026-08-11T19:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "friendship-park-pottsboro"
+      ],
+      "venue_name": "Friendship Park",
+      "address": "520 FM 120",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Community",
+        "Family",
+        "Education",
+        "Children"
+      ],
+      "tags": [
+        "Stuff the Bus",
+        "Back to School",
+        "School Supply Drive",
+        "Free Books",
+        "Free Food",
+        "Family Activities",
+        "Friendship Park",
+        "Pottsboro",
+        "Grayson County"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free admission. The event includes free books, food and family activities.",
+      "audience": [
+        "Families",
+        "Students",
+        "Children",
+        "Community Members"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/stuff-the-bus-back-to-school-event-pottsboro-2026-08-11.png",
+      "official_url": "https://www.pottsborochamber.com/events/details/stuff-the-bus-back-to-school-event-08-11-2026-14660",
+      "facebook_url": "https://www.facebook.com/events/956079407204076/",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified through the Pottsboro Area Chamber of Commerce event calendar and the public Stuff the Bus 2026 event announcement. The event is Tuesday, August 11, 2026, from 4:00 PM to 7:00 PM at Friendship Park. The official Chamber listing uses 520 FM 120 for the park. The event includes free books, food and family activities and is the culmination of the community school-supply drive.",
+      "last_checked": "2026-08-01",
+      "created_on": "2026-08-01",
+      "updated_on": "2026-08-01",
+      "host_business_slug": "pottsboro-area-public-library",
+      "partner_business_slugs": [
+        "pottsboro-independent-school-district"
+      ],
+      "partner_names": [
+        "Pottsboro Independent School District"
+      ]
     }
   ]
 }
