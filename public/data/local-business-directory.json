@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 515,
-  "publish_ready_count": 179,
+  "business_count": 516,
+  "publish_ready_count": 180,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -19783,6 +19783,53 @@
         "Accessible entrance",
         "Accessible parking",
         "City-owned facility"
+      ]
+    },
+    {
+      "slug": "beyond-the-walls-outreach",
+      "business_name": "Beyond the Walls Outreach",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "Sherman, TX",
+      "category": [
+        "Nonprofit Organization",
+        "Community Organization",
+        "Faith-Based Organization",
+        "Community Outreach"
+      ],
+      "description": "Beyond the Walls Outreach is a Sherman-based faith-driven community organization dedicated to serving families throughout Texoma. The organization hosts outreach events, school supply drives, back-to-school programs, resource fairs, and other initiatives designed to meet practical needs while strengthening the local community through partnerships and volunteer service.",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "facebook": "https://www.facebook.com/BeyondTheWallsOutreach",
+      "instagram": "",
+      "hours": {},
+      "hours_note": "Organization operates primarily through scheduled outreach events and community programs.",
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified through the organization's public Facebook presence and community event announcements. Beyond the Walls Outreach regularly partners with local organizations to host outreach initiatives, including annual Back to School Bash events.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Back to School Bash",
+        "School supply giveaways",
+        "Community outreach",
+        "Resource fairs",
+        "Family events",
+        "Holiday outreach",
+        "Volunteer opportunities"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Community event announcements"
+      ],
+      "features": [
+        "Community outreach",
+        "Volunteer opportunities",
+        "Family assistance",
+        "Faith-based service",
+        "Partnership events"
       ]
     }
   ]
