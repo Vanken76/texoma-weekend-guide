@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 528,
-  "publish_ready_count": 192,
+  "business_count": 529,
+  "publish_ready_count": 193,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20510,6 +20510,69 @@
         "Seasonal food specials",
         "Locally recommended",
         "Longtime Gainesville business"
+      ]
+    },
+    {
+      "slug": "hungry-hippo-sub-shop",
+      "business_name": "Hungry Hippo Sub Shop",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "112 N Commerce St, Gainesville, TX 76240",
+      "category": [
+        "Sandwich Shop",
+        "Delicatessen",
+        "Restaurant",
+        "Catering"
+      ],
+      "description": "Hungry Hippo Sub Shop is a longtime locally owned sandwich shop in historic downtown Gainesville serving made-to-order sub sandwiches, wraps, salads, and other lunch favorites. Known for generous portions, freshly sliced meats and cheeses, friendly service, distinctive hippo-themed décor, and its signature Hippo's Delight, the restaurant offers dine-in, takeout, delivery, and catering.",
+      "phone": "940-665-0025",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/The-Hungry-Hippo-Sub-Shop-155587837846256",
+      "instagram": null,
+      "hours": {
+        "monday": "10:30 AM–3:00 PM",
+        "tuesday": "10:30 AM–3:00 PM",
+        "wednesday": "10:30 AM–3:00 PM",
+        "thursday": "10:30 AM–3:00 PM",
+        "friday": "10:30 AM–3:00 PM",
+        "saturday": "11:00 AM–2:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current listings show limited lunch hours. Holiday hours and occasional schedule changes may vary, so check the official Facebook page or call before making a special trip.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the Gainesville Area Chamber of Commerce directory, current restaurant listings, the business Facebook page, and current ordering information. Sources confirm the business name, historic downtown Gainesville location, address, phone number, lunch hours, catering, dine-in and takeout service, and sandwich-and-salad menu. Monitor the official Facebook page for promotions, holiday hours, community involvement, and special announcements.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Food promotions",
+        "Holiday specials",
+        "Anniversary promotions",
+        "Community fundraisers",
+        "Downtown Gainesville promotions"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Gainesville Area Chamber of Commerce",
+        "Business announcements"
+      ],
+      "features": [
+        "Locally owned",
+        "Historic downtown location",
+        "Made-to-order sub sandwiches",
+        "Freshly sliced meats and cheeses",
+        "Wraps",
+        "Salads",
+        "Hippo's Delight",
+        "Generous portions",
+        "Dine-in",
+        "Takeout",
+        "Delivery",
+        "Catering",
+        "Family friendly",
+        "Wheelchair accessible"
       ]
     }
   ]
