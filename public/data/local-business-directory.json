@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 554,
-  "publish_ready_count": 218,
+  "business_count": 555,
+  "publish_ready_count": 219,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -22256,6 +22256,74 @@
         "Farm calls",
         "Equine emergency services",
         "Animal shelter support"
+      ]
+    },
+    {
+      "slug": "the-boat-yard-mead",
+      "business_name": "The Boat Yard",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "1116 Streetman Rd, Mead, OK 73449",
+      "category": [
+        "Bar",
+        "Restaurant",
+        "Pool Hall",
+        "Nightlife Venue",
+        "Entertainment Venue",
+        "Event Venue"
+      ],
+      "description": "The Boat Yard is a smoke-free bar, restaurant, pool hall, and entertainment venue in Mead near Durant and Lake Texoma. The venue offers a full bar, casual food, pool tables, shuffleboard, cornhole, sports viewing, karaoke, live music, recurring pool events, holiday parties, and other nightlife activities.",
+      "phone": "580-768-8163",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": "https://www.instagram.com/theboatyard580",
+      "hours": {
+        "notes": "Current day-by-day operating hours were not conclusively verified. Check the official social page or call before visiting."
+      },
+      "hours_note": "Entertainment schedules and closing times may vary by day and event. Call 580-768-8163 or check @theboatyard580 for current hours and event details.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified August 1, 2026, using current public business listings, event listings, customer reviews, and the direct outreach from owner Carrie Scott. Sources confirm the Mead address, phone number, social handle, smoke-free atmosphere, food and bar service, pool tables, shuffleboard, cornhole, karaoke, live music, pool events, and holiday entertainment. The exact official Facebook URL, public email address, and complete weekly hours were not conclusively verified.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Live music",
+        "Karaoke",
+        "Pool tournaments",
+        "Pool league events",
+        "Holiday parties",
+        "Sports watch parties",
+        "Drink specials",
+        "Food specials",
+        "Customer appreciation events",
+        "Community events"
+      ],
+      "event_sources": [
+        "Official social-media announcements",
+        "Business announcements",
+        "Performer event listings",
+        "Community event posts"
+      ],
+      "features": [
+        "Smoke-free indoor environment",
+        "Full bar",
+        "Casual food",
+        "Wings",
+        "Sliders",
+        "Nachos",
+        "Specialty drinks",
+        "Pool tables",
+        "Shuffleboard",
+        "Cornhole",
+        "Sports televisions",
+        "Karaoke",
+        "Live music",
+        "Recurring pool events",
+        "Late-night entertainment",
+        "Locally owned",
+        "Near Durant and Lake Texoma"
       ]
     }
   ]
