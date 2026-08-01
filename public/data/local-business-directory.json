@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 521,
-  "publish_ready_count": 185,
+  "business_count": 522,
+  "publish_ready_count": 186,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20121,6 +20121,54 @@
         "Local dairy products",
         "Local foods",
         "Agritourism"
+      ]
+    },
+    {
+      "slug": "cbj-tire-battery",
+      "business_name": "CBJ Tire & Battery Inc.",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "710 Summitt Ave, Gainesville, TX 76240",
+      "category": [
+        "Tire Shop",
+        "Auto Repair",
+        "Wheel Alignment",
+        "Battery Store",
+        "Automotive Service"
+      ],
+      "description": "CBJ Tire & Battery Inc. is a long-established locally owned tire and automotive service shop in Gainesville, Texas. The business specializes in new tires, wheel alignments, tire repair, batteries, and light automotive repair. CBJ has earned a reputation for honest service, fair pricing, and fast turnaround, making it a trusted choice for generations of North Texas drivers.",
+      "phone": "(940) 665-3722",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "8:00 AM - 5:00 PM",
+        "tuesday": "8:00 AM - 5:00 PM",
+        "wednesday": "8:00 AM - 5:00 PM",
+        "thursday": "8:00 AM - 5:00 PM",
+        "friday": "8:00 AM - 5:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": null,
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "verification_note": "Verified August 2026 using Google Business Profile and multiple business listings.",
+      "last_checked": "2026-08-01",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "New tires",
+        "Used tires",
+        "Wheel alignments",
+        "Flat repairs",
+        "Battery replacement",
+        "Light automotive repair",
+        "Locally owned",
+        "Long-established business"
       ]
     }
   ]
