@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 519,
-  "publish_ready_count": 183,
+  "business_count": 520,
+  "publish_ready_count": 184,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20002,6 +20002,66 @@
         "Tire replacement",
         "Multiple price options",
         "Locally recommended"
+      ]
+    },
+    {
+      "slug": "moo-and-bray-farm",
+      "business_name": "Moo & Bray Farm",
+      "directory_status": "complete_by_appointment",
+      "publish_ready": true,
+      "service_area_or_location": "931 County Road 1255, Whitesboro, TX 76273",
+      "category": [
+        "Farm",
+        "Agritourism",
+        "Family Attraction",
+        "Animal Experience",
+        "Farm Tours",
+        "Farm Stay",
+        "Event Venue"
+      ],
+      "description": "Moo & Bray Farm is a family-friendly working farm near Whitesboro offering private farm tours and interactive visits with Scottish Highland cattle, miniature donkeys, alpacas, horses, pigs, a yak, a large tortoise, and other animals. The farm also hosts Highland cow paint parties, an annual open house, family photo sessions, and other special events. Overnight accommodations are available through the Big Red Barn & Bed farm stay, and the property also offers large-animal layover and boarding facilities.",
+      "phone": "951-201-7315",
+      "email": "anamome@aol.com",
+      "website": "https://www.moobray.com/",
+      "facebook": null,
+      "instagram": null,
+      "hours": null,
+      "hours_note": "Farm tours and animal visits are available by appointment only. Call 951-201-7315 to schedule a visit. Special-event dates and farm-access hours may vary.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified August 1, 2026, through the official Moo & Bray Farm website, the Whitesboro Chamber of Commerce membership directory, and current farm-directory listings. The official website confirms appointment-only farm tours, phone number 951-201-7315, email address anamome@aol.com, Highland cattle and miniature donkey experiences, Highland cow paint parties, an annual open house, family photography opportunities, the Big Red Barn & Bed farm stay, and large-animal layover facilities. The street address of 931 County Road 1255, Whitesboro, TX 76273 is confirmed by the Whitesboro Chamber of Commerce and supporting farm listings. The chamber also publishes an alternate phone number of 940-443-5033. The official website links to Facebook and Instagram, but the direct profile URLs were not exposed clearly enough to verify without guessing.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Farm tours",
+        "Animal encounters",
+        "Highland cow paint parties",
+        "Annual open house",
+        "Family photo sessions",
+        "Seasonal farm events",
+        "Educational farm experiences",
+        "Special animal events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official social-media links",
+        "Whitesboro Chamber of Commerce",
+        "Farm event announcements"
+      ],
+      "features": [
+        "Scottish Highland cattle",
+        "Miniature donkeys",
+        "Alpacas",
+        "Horses",
+        "Kunekune pigs",
+        "Yak",
+        "Sulcata tortoise",
+        "Interactive animal visits",
+        "Private farm tours",
+        "Big Red Barn & Bed farm stay",
+        "Large-animal layover facilities",
+        "Pet-friendly lodging with pets kept on leash"
       ]
     }
   ]
