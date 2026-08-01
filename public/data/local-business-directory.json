@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 553,
-  "publish_ready_count": 217,
+  "business_count": 554,
+  "publish_ready_count": 218,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -22179,6 +22179,83 @@
         "Quick service",
         "Locally recommended",
         "Family friendly"
+      ]
+    },
+    {
+      "slug": "independence-equine-small-animal-clinic",
+      "business_name": "Independence Equine & Small Animal Clinic",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "3709 US Highway 82, Gainesville, TX 76240",
+      "category": [
+        "Veterinary Clinic",
+        "Equine Veterinarian",
+        "Small Animal Veterinarian",
+        "Animal Hospital"
+      ],
+      "description": "Independence Equine & Small Animal Clinic is a Gainesville veterinary practice providing care for horses, dogs, and cats, with limited farm-call services for deer. The clinic offers preventive and wellness care, diagnostics, surgery, dentistry, pharmacy services, behavioral counseling, equine lameness evaluations, mobile imaging, reproductive care, Coggins testing, endoscopy, gastroscopy, pre-purchase exams, farm calls, and equine emergency services.",
+      "phone": "940-668-8282",
+      "email": "independenceanimal@yahoo.com",
+      "website": "https://independenceanimal.com",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "8:00 AM–5:00 PM",
+        "tuesday": "8:00 AM–5:00 PM",
+        "wednesday": "8:00 AM–5:00 PM",
+        "thursday": "8:00 AM–5:00 PM",
+        "friday": "8:00 AM–5:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Appointments are recommended. Equine emergency services and farm-call availability may differ from regular clinic hours.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the official Independence Equine & Small Animal Clinic website and a detailed Gainesville community recommendation. Official sources confirm the Gainesville address, phone number, email address, weekday hours, service area, care for horses, dogs, and cats, limited deer farm calls, small-animal medical services, equine diagnostics, reproductive care, farm calls, and equine emergency services. The clinic also supports Noah's Ark Animal Shelter through donated healthcare and spay-neuter services.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Vaccination clinics",
+        "Equine health seminars",
+        "Animal wellness events",
+        "Adoption partnerships",
+        "Seasonal animal-safety programs",
+        "Community outreach",
+        "Clinic announcements"
+      ],
+      "event_sources": [
+        "Official website",
+        "Clinic announcements",
+        "Community announcements",
+        "Animal shelter partnerships"
+      ],
+      "features": [
+        "Equine veterinary care",
+        "Small-animal veterinary care",
+        "Horse care",
+        "Dog care",
+        "Cat care",
+        "Limited deer farm calls",
+        "Preventive care",
+        "Wellness exams",
+        "Diagnostics",
+        "Surgery",
+        "Dentistry",
+        "Pharmacy services",
+        "Behavioral counseling",
+        "Lameness evaluations",
+        "Mobile imaging",
+        "Regenerative therapies",
+        "Pre-purchase exams",
+        "Equine reproductive care",
+        "Coggins testing",
+        "Vaccination programs",
+        "Endoscopy",
+        "Gastroscopy",
+        "Farm calls",
+        "Equine emergency services",
+        "Animal shelter support"
       ]
     }
   ]
