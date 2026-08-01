@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 522,
-  "publish_ready_count": 186,
+  "business_count": 523,
+  "publish_ready_count": 187,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20169,6 +20169,60 @@
         "Light automotive repair",
         "Locally owned",
         "Long-established business"
+      ]
+    },
+    {
+      "slug": "el-kanelo-mexican-restaurant-and-bar-durant",
+      "business_name": "El Kanelo Mexican Restaurant & Bar",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "729 N 1st Ave, Durant, OK 74701",
+      "category": [
+        "Mexican Restaurant",
+        "Restaurant",
+        "Bar"
+      ],
+      "description": "El Kanelo Mexican Restaurant & Bar is a family-friendly Mexican restaurant in Durant serving traditional favorites, fajitas, enchiladas, burritos, tacos, seafood dishes, fresh tortillas, and a full bar featuring margaritas, cocktails, beer, and other beverages. It offers dine-in, takeout, and delivery service and is a popular local dining destination in Bryan County.",
+      "phone": "(580) 745-8034",
+      "email": null,
+      "website": "https://elkanelomexicanrestaurantbarok.com",
+      "facebook": "https://www.facebook.com/kanelo13",
+      "instagram": null,
+      "hours": {
+        "monday": "11:00 AM–9:00 PM",
+        "tuesday": "11:00 AM–9:00 PM",
+        "wednesday": "11:00 AM–9:00 PM",
+        "thursday": "11:00 AM–9:00 PM",
+        "friday": "11:00 AM–10:00 PM",
+        "saturday": "11:00 AM–10:00 PM",
+        "sunday": "11:00 AM–9:00 PM"
+      },
+      "hours_note": null,
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the official El Kanelo website, official Facebook page, and Google Business Profile. The Durant location at 729 N 1st Ave is established, offers dine-in, takeout, delivery, and a full bar, and has operated since 2018.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Holiday specials",
+        "Food promotions",
+        "Community events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page"
+      ],
+      "features": [
+        "Full bar",
+        "Margaritas",
+        "Fresh tortillas",
+        "Delivery",
+        "Takeout",
+        "Dine-in",
+        "Family friendly",
+        "Reservations accepted",
+        "Happy hour"
       ]
     }
   ]
