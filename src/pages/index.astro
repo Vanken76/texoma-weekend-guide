@@ -49,6 +49,33 @@ const includesTerm = (event, term) => [
   ...(event.audience ?? [])
 ].some((value) => String(value).toLowerCase().includes(term));
 
+const isJulianEvent = (event) => {
+  const searchable = [
+    event.event_name,
+    event.description,
+    ...(event.tags ?? [])
+  ].filter(Boolean).join(" ").toLowerCase();
+  return searchable.includes("julian the entertainer");
+};
+
+const julianFeaturedEvents = events
+  .filter(isJulianEvent)
+  .sort((a, b) => new Date(a.start_datetime).valueOf() - new Date(b.start_datetime).valueOf())
+  .slice(0, 4);
+
+const formatEventDate = (value) => new Intl.DateTimeFormat("en-US", {
+  timeZone: "America/Chicago",
+  weekday: "short",
+  month: "short",
+  day: "numeric"
+}).format(new Date(value));
+
+const formatEventTime = (value) => new Intl.DateTimeFormat("en-US", {
+  timeZone: "America/Chicago",
+  hour: "numeric",
+  minute: "2-digit"
+}).format(new Date(value));
+
 const venueSlugs = new Set(
   events.flatMap((event) => [
     ...(Array.isArray(event.venue_slugs) ? event.venue_slugs : []),
@@ -71,29 +98,53 @@ const stats = [
   <section class="hero">
     <div class="container hero-content">
       <p class="eyebrow">Texas · Oklahoma · Lake Texoma</p>
-
-      <h1>
-        Discover Local.
-        <br />
-        Make Memories.
-      </h1>
-
+      <h1>Discover Local.<br />Make Memories.</h1>
       <p class="hero-copy">
         Your guide to events, live music, food, lake days, family fun,
         and local businesses across Texoma.
       </p>
-
       <div class="button-row">
-        <a class="button" href="/roundups/">
-          See the Weekend Roundup
-        </a>
-
-        <a class="button secondary" href="/submit/">
-          Submit an Event
-        </a>
+        <a class="button" href="/roundups/">See the Weekend Roundup</a>
+        <a class="button secondary" href="/submit/">Submit an Event</a>
       </div>
     </div>
   </section>
+
+  {julianFeaturedEvents.length > 0 && (
+    <section class="sponsored-section" aria-labelledby="sponsored-heading">
+      <div class="container">
+        <div class="sponsored-heading">
+          <div>
+            <p class="sponsor-label">Featured local entertainer · Sponsored</p>
+            <h2 id="sponsored-heading">Julian the Entertainer</h2>
+            <p>Karaoke nights and appearances across Sherman, Pottsboro, and Lake Texoma.</p>
+          </div>
+          <a class="button" href="/events/?filter=Julian%20the%20Entertainer">See Julian’s Events</a>
+        </div>
+
+        <div class="sponsored-grid">
+          {julianFeaturedEvents.map((event) => (
+            <article class="sponsored-card">
+              {event.image_url && (
+                <a href={`/events/${event.event_slug}/`} tabindex="-1" aria-hidden="true">
+                  <img src={event.image_url} alt="" loading="lazy" />
+                </a>
+              )}
+              <div class="sponsored-card-content">
+                <span class="featured-badge">Featured</span>
+                <h3><a href={`/events/${event.event_slug}/`}>{event.event_name}</a></h3>
+                <p class="event-meta">
+                  {formatEventDate(event.start_datetime)} · {formatEventTime(event.start_datetime)}
+                </p>
+                <p>{event.venue_name || event.location_name || event.city}</p>
+                <a class="event-link" href={`/events/${event.event_slug}/`}>View event details →</a>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 
   <section class="directory-stats" aria-labelledby="directory-stats-heading">
     <div class="container">
@@ -102,12 +153,10 @@ const stats = [
         <h2 id="directory-stats-heading">The Texoma calendar is growing</h2>
         <p>Live totals from the current public event directory.</p>
       </div>
-
       <div class="stats-grid">
         {stats.map((stat) => (
           <a class="stat-card" href={stat.href} aria-label={`Browse ${stat.label}`}>
-            <strong>{stat.value}</strong>
-            <span>{stat.label}</span>
+            <strong>{stat.value}</strong><span>{stat.label}</span>
           </a>
         ))}
       </div>
@@ -119,49 +168,13 @@ const stats = [
       <div class="section-heading">
         <p class="eyebrow">Plan your weekend</p>
         <h2>What’s happening around Texoma?</h2>
-
-        <p>
-          From Denison and Sherman to Durant, Gainesville, Bonham,
-          Lake Texoma, and the communities in between.
-        </p>
+        <p>From Denison and Sherman to Durant, Gainesville, Bonham, Lake Texoma, and the communities in between.</p>
       </div>
-
       <div class="feature-grid">
-        <a class="feature" href="/events/?filter=live%20music" aria-label="Browse live music events">
-          <span aria-hidden="true">🎶</span>
-          <h3>Live Music</h3>
-          <p>
-            Local performers, concerts, karaoke, open mics,
-            and nightlife.
-          </p>
-        </a>
-
-        <a class="feature" href="/events/?filter=family" aria-label="Browse family fun events">
-          <span aria-hidden="true">🎡</span>
-          <h3>Family Fun</h3>
-          <p>
-            Festivals, carnivals, markets, children’s events,
-            and free activities.
-          </p>
-        </a>
-
-        <a class="feature" href="/events/?filter=food" aria-label="Browse food and local events">
-          <span aria-hidden="true">🍽️</span>
-          <h3>Food & Local Stops</h3>
-          <p>
-            Restaurants, specials, fundraisers, small businesses,
-            and hidden gems.
-          </p>
-        </a>
-
-        <a class="feature" href="/events/?filter=lake" aria-label="Browse lake and outdoor events">
-          <span aria-hidden="true">🌊</span>
-          <h3>Lake Days</h3>
-          <p>
-            Parks, outdoor programs, lake activities, trails,
-            and seasonal recreation.
-          </p>
-        </a>
+        <a class="feature" href="/events/?filter=live%20music" aria-label="Browse live music events"><span aria-hidden="true">🎶</span><h3>Live Music</h3><p>Local performers, concerts, karaoke, open mics, and nightlife.</p></a>
+        <a class="feature" href="/events/?filter=family" aria-label="Browse family fun events"><span aria-hidden="true">🎡</span><h3>Family Fun</h3><p>Festivals, carnivals, markets, children’s events, and free activities.</p></a>
+        <a class="feature" href="/events/?filter=food" aria-label="Browse food and local events"><span aria-hidden="true">🍽️</span><h3>Food & Local Stops</h3><p>Restaurants, specials, fundraisers, small businesses, and hidden gems.</p></a>
+        <a class="feature" href="/events/?filter=lake" aria-label="Browse lake and outdoor events"><span aria-hidden="true">🌊</span><h3>Lake Days</h3><p>Parks, outdoor programs, lake activities, trails, and seasonal recreation.</p></a>
       </div>
     </div>
   </section>
@@ -174,27 +187,12 @@ const stats = [
           <h2>{latestRoundup.data.title}</h2>
           <p>{latestRoundup.data.description}</p>
         </div>
-
         <article class="roundup-feature card">
-          <img
-            src={latestRoundup.data.image}
-            alt={latestRoundup.data.title}
-          />
-
+          <img src={latestRoundup.data.image} alt={latestRoundup.data.title} />
           <div class="card-content">
             <h3>Start planning your Texoma weekend</h3>
-
-            <p>
-              Browse the latest roundup for events, live music,
-              family fun, food, and community activities.
-            </p>
-
-            <a
-              class="button"
-              href={`/roundups/${latestRoundup.id}/`}
-            >
-              Read the Roundup
-            </a>
+            <p>Browse the latest roundup for events, live music, family fun, food, and community activities.</p>
+            <a class="button" href={`/roundups/${latestRoundup.id}/`}>Read the Roundup</a>
           </div>
         </article>
       </div>
@@ -205,212 +203,55 @@ const stats = [
     <div class="container callout">
       <p class="eyebrow">Organizers and local businesses</p>
       <h2>Have something happening around Texoma?</h2>
-
-      <p>
-        Send the date, time, location, event details, flyer,
-        and official link. Submissions are free and considered
-        based on local relevance and available space.
-      </p>
-
+      <p>Send the date, time, location, event details, flyer, and official link. Submissions are free and considered based on local relevance and available space.</p>
       <div class="button-row">
-        <a class="button secondary" href="/submit/">
-          Submit Your Event
-        </a>
-
-        <a
-          class="button secondary"
-          href="mailto:texomaweekendguide@gmail.com"
-        >
-          Email TWG
-        </a>
+        <a class="button secondary" href="/submit/">Submit Your Event</a>
+        <a class="button secondary" href="mailto:texomaweekendguide@gmail.com">Email TWG</a>
       </div>
     </div>
   </section>
 </BaseLayout>
 
 <style>
-  .hero {
-    min-height: 670px;
-    display: flex;
-    align-items: center;
-    background:
-      linear-gradient(
-        90deg,
-        rgba(10, 42, 63, 0.95) 0%,
-        rgba(10, 42, 63, 0.78) 57%,
-        rgba(10, 42, 63, 0.32) 100%
-      ),
-      url("/images/banner.jpg") center / cover;
-    color: white;
-  }
+  .hero { min-height: 670px; display: flex; align-items: center; background: linear-gradient(90deg, rgba(10,42,63,.95) 0%, rgba(10,42,63,.78) 57%, rgba(10,42,63,.32) 100%), url("/images/banner.jpg") center / cover; color: white; }
+  .hero-content { padding-block: 5rem; }
+  .hero h1, .hero p { color: white; }
+  .hero-copy { max-width: 700px; font-size: clamp(1.1rem, 2.4vw, 1.38rem); }
 
-  .hero-content {
-    padding-block: 5rem;
-  }
+  .sponsored-section { padding: 3.4rem 0; background: linear-gradient(135deg, #071f32, #0d4f69); color: white; border-top: 5px solid #e5b94c; border-bottom: 5px solid #e5b94c; }
+  .sponsored-section h2, .sponsored-section p { color: white; }
+  .sponsored-heading { display: flex; align-items: end; justify-content: space-between; gap: 1.5rem; margin-bottom: 1.5rem; }
+  .sponsor-label { margin: 0 0 .35rem; color: #ffe08a !important; font-size: .82rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+  .sponsored-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; }
+  .sponsored-card { overflow: hidden; border: 1px solid rgba(255,255,255,.24); border-radius: 18px; background: white; color: #0a2a3f; box-shadow: 0 14px 34px rgba(0,0,0,.24); }
+  .sponsored-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+  .sponsored-card-content { padding: 1.15rem; }
+  .sponsored-card-content h3 { margin: .45rem 0; font-size: 1.1rem; }
+  .sponsored-card-content h3 a { color: #0a2a3f; text-decoration: none; }
+  .sponsored-card-content p { color: #425563; margin: .3rem 0; }
+  .featured-badge { display: inline-block; padding: .25rem .55rem; border-radius: 999px; background: #e5b94c; color: #071f32; font-size: .72rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; }
+  .event-meta { font-weight: 800; color: #176f95 !important; }
+  .event-link { display: inline-block; margin-top: .7rem; font-weight: 800; color: #176f95; }
 
-  .hero h1,
-  .hero p {
-    color: white;
-  }
+  .directory-stats { padding: 3.5rem 0; background: #e9f3f2; border-bottom: 1px solid #d2e4e2; }
+  .stats-heading { max-width: 760px; margin-bottom: 1.5rem; }
+  .stats-heading h2 { margin-bottom: .45rem; }
+  .stats-heading p:last-child { margin-bottom: 0; }
+  .stats-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: .9rem; }
+  .stat-card { min-height: 128px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 1rem; border: 1px solid #c9dcda; border-radius: 16px; background: white; color: #0a2a3f; text-align: center; text-decoration: none; box-shadow: 0 8px 22px rgba(16,58,88,.08); transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease; }
+  .stat-card:hover, .stat-card:focus-visible { transform: translateY(-3px); border-color: #176f95; box-shadow: 0 13px 30px rgba(16,58,88,.14); }
+  .stat-card strong { display: block; font-size: clamp(2rem,4vw,2.75rem); line-height: 1; color: #176f95; }
+  .stat-card span { margin-top: .55rem; font-weight: 700; line-height: 1.2; }
+  .feature-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; }
+  .feature { display: block; padding: 1.5rem; border: 1px solid #d7e0e4; border-radius: 18px; background: white; color: inherit; text-decoration: none; box-shadow: var(--shadow); transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease; }
+  .feature:hover, .feature:focus-visible { transform: translateY(-3px); border-color: #176f95; box-shadow: 0 14px 34px rgba(16,58,88,.14); }
+  .feature span { font-size: 2rem; }
+  .latest { background: #e9f3f2; }
+  .roundup-feature { display: grid; grid-template-columns: minmax(280px,.85fr) 1.15fr; }
+  .roundup-feature img { width: 100%; height: 100%; min-height: 390px; object-fit: cover; }
+  .roundup-feature .card-content { align-self: center; padding: 2.2rem; }
 
-  .hero-copy {
-    max-width: 700px;
-    font-size: clamp(1.1rem, 2.4vw, 1.38rem);
-  }
-
-  .directory-stats {
-    padding: 3.5rem 0;
-    background: #e9f3f2;
-    border-bottom: 1px solid #d2e4e2;
-  }
-
-  .stats-heading {
-    max-width: 760px;
-    margin-bottom: 1.5rem;
-  }
-
-  .stats-heading h2 {
-    margin-bottom: 0.45rem;
-  }
-
-  .stats-heading p:last-child {
-    margin-bottom: 0;
-  }
-
-  .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 0.9rem;
-  }
-
-  .stat-card {
-    min-height: 128px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    border: 1px solid #c9dcda;
-    border-radius: 16px;
-    background: white;
-    color: #0a2a3f;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: 0 8px 22px rgba(16, 58, 88, 0.08);
-    transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
-  }
-
-  .stat-card:hover,
-  .stat-card:focus-visible {
-    transform: translateY(-3px);
-    border-color: #176f95;
-    box-shadow: 0 13px 30px rgba(16, 58, 88, 0.14);
-  }
-
-  .stat-card:focus-visible {
-    outline: 3px solid rgba(23, 111, 149, 0.3);
-    outline-offset: 3px;
-  }
-
-  .stat-card strong {
-    display: block;
-    font-size: clamp(2rem, 4vw, 2.75rem);
-    line-height: 1;
-    color: #176f95;
-  }
-
-  .stat-card span {
-    margin-top: 0.55rem;
-    font-weight: 700;
-    line-height: 1.2;
-  }
-
-  .feature-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-  }
-
-  .feature {
-    display: block;
-    padding: 1.5rem;
-    border: 1px solid #d7e0e4;
-    border-radius: 18px;
-    background: white;
-    color: inherit;
-    text-decoration: none;
-    box-shadow: var(--shadow);
-    transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
-  }
-
-  .feature:hover,
-  .feature:focus-visible {
-    transform: translateY(-3px);
-    border-color: #176f95;
-    box-shadow: 0 14px 34px rgba(16, 58, 88, 0.14);
-  }
-
-  .feature:focus-visible {
-    outline: 3px solid rgba(23, 111, 149, 0.3);
-    outline-offset: 3px;
-  }
-
-  .feature span {
-    font-size: 2rem;
-  }
-
-  .latest {
-    background: #e9f3f2;
-  }
-
-  .roundup-feature {
-    display: grid;
-    grid-template-columns: minmax(280px, 0.85fr) 1.15fr;
-  }
-
-  .roundup-feature img {
-    width: 100%;
-    height: 100%;
-    min-height: 390px;
-    object-fit: cover;
-  }
-
-  .roundup-feature .card-content {
-    align-self: center;
-    padding: 2.2rem;
-  }
-
-  @media (max-width: 1050px) {
-    .stats-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  @media (max-width: 820px) {
-    .feature-grid {
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .roundup-feature {
-      grid-template-columns: 1fr;
-    }
-
-    .roundup-feature img {
-      min-height: auto;
-    }
-  }
-
-  @media (max-width: 540px) {
-    .stats-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .stat-card {
-      min-height: 112px;
-    }
-
-    .feature-grid {
-      grid-template-columns: 1fr;
-    }
-  }
+  @media (max-width: 1050px) { .stats-grid { grid-template-columns: repeat(3,1fr); } .sponsored-grid { grid-template-columns: repeat(2,1fr); } }
+  @media (max-width: 820px) { .sponsored-heading { align-items: flex-start; flex-direction: column; } .feature-grid { grid-template-columns: 1fr 1fr; } .roundup-feature { grid-template-columns: 1fr; } .roundup-feature img { min-height: auto; } }
+  @media (max-width: 540px) { .sponsored-grid { grid-template-columns: 1fr; } .stats-grid { grid-template-columns: repeat(2,1fr); } .stat-card { min-height: 112px; } .feature-grid { grid-template-columns: 1fr; } }
 </style>
