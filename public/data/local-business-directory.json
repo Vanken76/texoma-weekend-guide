@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 541,
-  "publish_ready_count": 205,
+  "business_count": 542,
+  "publish_ready_count": 206,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -21364,6 +21364,76 @@
         "Community collaborations",
         "Historic local bar",
         "Established in 1947 according to the business"
+      ]
+    },
+    {
+      "slug": "bolt-auto-care",
+      "business_name": "Bolt Auto Care",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "505 N Grand Ave, Gainesville, TX 76240",
+      "category": [
+        "Auto Repair Shop",
+        "Tire Shop",
+        "Oil Change Service",
+        "Automotive Maintenance"
+      ],
+      "description": "Bolt Auto Care is a full-service automotive repair and maintenance shop serving Gainesville and the surrounding area. Services include oil changes, tires, wheel alignments, brakes, air-conditioning service, engine and transmission repair, computer diagnostics, steering and suspension work, cooling-system service, batteries, scheduled maintenance, and electric and hybrid vehicle service. The shop also offers online appointment scheduling, digital inspections, warranties, and a vehicle-maintenance membership program.",
+      "phone": "940-668-8417",
+      "email": "service@boltautocare.com",
+      "website": "https://www.boltautocare.com",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "8:00 AM–6:00 PM",
+        "tuesday": "8:00 AM–6:00 PM",
+        "wednesday": "8:00 AM–6:00 PM",
+        "thursday": "8:00 AM–6:00 PM",
+        "friday": "8:00 AM–6:00 PM",
+        "saturday": "8:00 AM–3:00 PM",
+        "sunday": "9:00 AM–4:00 PM"
+      },
+      "hours_note": "Appointments can be scheduled online. Holiday hours may vary, so check the official website or call before making a special trip.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the official Bolt Auto Care website, current Gainesville business listings, and a community recommendation received by Texoma Weekend Guide. Sources confirm the Gainesville address, phone number, email address, current hours, and automotive services including transmission repair, tires, air-conditioning service, oil changes, brakes, alignments, diagnostics, scheduled maintenance, and electric and hybrid vehicle service.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Seasonal vehicle inspections",
+        "Automotive service promotions",
+        "Tire promotions",
+        "Maintenance membership offers",
+        "Community discounts",
+        "Customer appreciation events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Business announcements",
+        "Community announcements"
+      ],
+      "features": [
+        "Locally recommended",
+        "Serving Gainesville since 2004",
+        "Oil changes",
+        "Tire sales and service",
+        "Wheel alignments",
+        "Brake service",
+        "Air-conditioning service",
+        "Engine repair",
+        "Transmission repair",
+        "Computer diagnostics",
+        "Steering and suspension service",
+        "Cooling-system service",
+        "Battery service",
+        "Scheduled maintenance",
+        "Electric vehicle service",
+        "Hybrid vehicle service",
+        "Digital vehicle inspections",
+        "Online appointment scheduling",
+        "Repair warranties",
+        "Maintenance membership program"
       ]
     }
   ]
