@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 108,
-  "publish_ready_count": 101,
+  "event_count": 109,
+  "publish_ready_count": 102,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -6137,6 +6137,66 @@
       ],
       "partner_names": [
         "Fletcher Ace Hardware"
+      ]
+    },
+    {
+      "event_slug": "aubrey-lynn-live-at-calhouns-2-0-denison-2026-08-01",
+      "event_name": "Aubrey Lynn Live at Calhoun's 2.0",
+      "description": "Aubrey Lynn brings live country music to Calhoun's 2.0 in Denison for a Saturday-night performance. Doors open at 7:00 PM. Admission is $10 for guests ages 21 and older and $20 for guests ages 18–20.",
+      "start_datetime": "2026-08-01T19:00:00-05:00",
+      "end_datetime": "2026-08-02T02:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "calhouns-2-0"
+      ],
+      "venue_name": "Calhoun's 2.0",
+      "address": null,
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": null,
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Country Music",
+        "Nightlife"
+      ],
+      "tags": [
+        "Aubrey Lynn",
+        "Calhoun's 2.0",
+        "Live Country Music",
+        "Country Music",
+        "Saturday Night",
+        "Dance Hall",
+        "Denison",
+        "Grayson County"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$10 cover for ages 21 and older. $20 cover for ages 18–20.",
+      "audience": [
+        "Adults",
+        "Country Music Fans",
+        "Live Music Fans"
+      ],
+      "age_restriction": "18+",
+      "image_url": "/images/events/aubrey-lynn-live-at-calhouns-2-0-denison-2026-08-01.jpg",
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the official Calhoun's 2.0 Facebook promotional post published August 1, 2026. The post confirms Aubrey Lynn, Saturday night, doors opening at 7:00 PM, an 18+ age restriction, and cover charges of $10 for ages 21+ and $20 for ages 18–20. The 2:00 AM end time reflects the venue's Saturday closing time rather than a separately published performance end time.",
+      "last_checked": "2026-08-01",
+      "created_on": "2026-08-01",
+      "updated_on": "2026-08-01",
+      "host_business_slug": "calhouns-2-0",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Aubrey Lynn"
       ]
     }
   ]
