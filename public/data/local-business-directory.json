@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 534,
-  "publish_ready_count": 198,
+  "business_count": 535,
+  "publish_ready_count": 199,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20892,6 +20892,71 @@
         "Banquet room",
         "Family friendly",
         "Wheelchair accessible"
+      ]
+    },
+    {
+      "slug": "asian-gourmet-whitesboro",
+      "business_name": "Asian Gourmet",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "810 N Union St, Suite 301, Whitesboro, TX 76273",
+      "category": [
+        "Chinese Restaurant",
+        "Asian Restaurant",
+        "Restaurant"
+      ],
+      "description": "Asian Gourmet is a family-friendly restaurant in Whitesboro serving Chinese and broader Asian cuisine for lunch and dinner. Its extensive menu includes combination plates, fried rice, lo mein, chow mein, soups, seafood, vegetarian dishes, pad Thai, Thai curries, appetizers, and party trays. Dine-in and takeout are available.",
+      "phone": "903-564-9777",
+      "email": null,
+      "website": "https://asiangourmetwhitesboro.com",
+      "facebook": "https://www.facebook.com/pages/Asian-Gourmet/296233553760983",
+      "instagram": null,
+      "hours": {
+        "monday": "11:00 AM–9:00 PM",
+        "tuesday": "11:00 AM–9:00 PM",
+        "wednesday": "11:00 AM–9:00 PM",
+        "thursday": "11:00 AM–9:00 PM",
+        "friday": "11:00 AM–9:30 PM",
+        "saturday": "Closed",
+        "sunday": "12:00 PM–8:30 PM"
+      },
+      "hours_note": "Holiday hours may vary. The restaurant is closed on Saturdays.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the official Asian Gourmet website, current restaurant listings, and the business's Facebook listing. The official website confirms the Whitesboro address, phone number, current weekly hours, online ordering, and availability of party trays. Monitor official sources for community fundraisers, holiday promotions, food specials, and schedule changes.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Community fundraisers",
+        "Holiday specials",
+        "Food promotions",
+        "Seasonal menu promotions",
+        "Community outreach"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Business announcements"
+      ],
+      "features": [
+        "Chinese cuisine",
+        "Asian cuisine",
+        "Lunch",
+        "Dinner",
+        "Combination plates",
+        "Fried rice",
+        "Lo mein",
+        "Soups",
+        "Seafood",
+        "Pad Thai",
+        "Thai curries",
+        "Vegetarian options",
+        "Children's options",
+        "Party trays",
+        "Dine-in",
+        "Takeout",
+        "Family friendly"
       ]
     }
   ]
