@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 529,
-  "publish_ready_count": 193,
+  "business_count": 530,
+  "publish_ready_count": 194,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20573,6 +20573,72 @@
         "Catering",
         "Family friendly",
         "Wheelchair accessible"
+      ]
+    },
+    {
+      "slug": "moms-donut-shop",
+      "business_name": "Mom's Donut Shop",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "718 N Grand Ave, Gainesville, TX 76240",
+      "category": [
+        "Donut Shop",
+        "Bakery",
+        "Breakfast Restaurant",
+        "Lunch Restaurant",
+        "Sandwich Shop"
+      ],
+      "description": "Mom's Donut Shop is a longtime family-owned Gainesville bakery serving more than 40 varieties of donuts along with breakfast sandwiches, croissant sandwiches, salads, lunch items, desserts, party platters, and coffee. The shop is known for early-morning service, a drive-through, community involvement, and support for local organizations and first responders.",
+      "phone": "940-665-1863",
+      "email": "chris@momsdonut.com",
+      "website": "https://momsdonut.com",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "4:00 AM–2:00 PM",
+        "wednesday": "4:00 AM–2:00 PM",
+        "thursday": "4:00 AM–2:00 PM",
+        "friday": "4:00 AM–2:00 PM",
+        "saturday": "4:00 AM–2:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Holiday hours may vary. The shop opens early Tuesday through Saturday.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using the official Mom's Donut Shop website and current business listings. Sources confirm the address, phone number, email address, operating hours, family ownership, extensive donut selection, breakfast and lunch menu, drive-through, delivery, catering trays, and community involvement.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Seasonal promotions",
+        "Holiday specials",
+        "Children's promotions",
+        "Community fundraisers",
+        "First responder promotions",
+        "Food specials"
+      ],
+      "event_sources": [
+        "Official website",
+        "Business social-media posts",
+        "Community announcements"
+      ],
+      "features": [
+        "Family-owned bakery",
+        "More than 40 donut varieties",
+        "Breakfast sandwiches",
+        "Croissant sandwiches",
+        "Lunch menu",
+        "Salads",
+        "Desserts",
+        "Coffee",
+        "Drive-through",
+        "Takeout",
+        "Delivery",
+        "Catering trays",
+        "Party platters",
+        "Wheelchair accessible",
+        "Community support"
       ]
     }
   ]
