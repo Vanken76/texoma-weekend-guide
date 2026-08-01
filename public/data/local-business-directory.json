@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 527,
-  "publish_ready_count": 191,
+  "business_count": 528,
+  "publish_ready_count": 192,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20453,6 +20453,63 @@
         "Catering",
         "Wheelchair accessible",
         "Parking available"
+      ]
+    },
+    {
+      "slug": "scivallys-grocery",
+      "business_name": "Scivally's Grocery",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "2808 E US Highway 82, Gainesville, TX 76240",
+      "category": [
+        "Grocery Store",
+        "Supermarket",
+        "Meat Market",
+        "Produce Market"
+      ],
+      "description": "Scivally's Grocery is a longtime family-owned hometown grocery store in Gainesville known for its full-service fresh meat counter, produce, everyday groceries, weekly advertisements, seasonal specials, and friendly local service.",
+      "phone": "940-665-4891",
+      "email": null,
+      "website": "http://scivally.com",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "7:00 AM–7:00 PM",
+        "tuesday": "7:00 AM–7:00 PM",
+        "wednesday": "7:00 AM–7:00 PM",
+        "thursday": "7:00 AM–7:00 PM",
+        "friday": "7:00 AM–7:00 PM",
+        "saturday": "7:00 AM–7:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current social listings show Monday through Saturday hours of 7:00 AM–7:00 PM, while some third-party directories still show an 8:00 AM opening. Call before making a special trip.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 1, 2026, using current business and social listings. Sources consistently confirm the business name, address at 2808 E US Highway 82 in Gainesville, phone number 940-665-4891, Sunday closure, family-owned grocery-store identity, fresh meat counter, and regular weekly advertisements and product specials. A direct official Facebook URL was not reliably exposed, so it has been left null rather than guessed.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Weekly sales",
+        "Seasonal promotions",
+        "Holiday specials",
+        "Food promotions",
+        "Community promotions"
+      ],
+      "event_sources": [
+        "Official website",
+        "Business social-media posts",
+        "Current business listings"
+      ],
+      "features": [
+        "Family-owned grocery store",
+        "Fresh meat counter",
+        "Custom meat cutting and wrapping",
+        "Fresh produce",
+        "Weekly advertisements",
+        "Seasonal food specials",
+        "Locally recommended",
+        "Longtime Gainesville business"
       ]
     }
   ]
