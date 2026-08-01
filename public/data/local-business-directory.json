@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 542,
-  "publish_ready_count": 206,
+  "business_count": 543,
+  "publish_ready_count": 207,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -21434,6 +21434,82 @@
         "Online appointment scheduling",
         "Repair warranties",
         "Maintenance membership program"
+      ]
+    },
+    {
+      "slug": "lavender-ridge-farms",
+      "business_name": "Lavender Ridge Farms",
+      "directory_status": "complete_seasonal",
+      "publish_ready": true,
+      "service_area_or_location": "2391 County Road 178, Gainesville, TX 76240",
+      "category": [
+        "Farm",
+        "Agritourism",
+        "Family Attraction",
+        "Cafe",
+        "Gift Shop",
+        "Garden Center",
+        "Event Venue"
+      ],
+      "description": "Lavender Ridge Farms is a family-owned seasonal agritourism destination near Gainesville featuring lavender and perennial gardens, rescued farm animals, an outdoor cafe, garden center, gift shop, handmade lavender products, birdwatching, and seasonal farm activities. The cafe serves fresh lunch options and lavender-inspired food and drinks, while the farm offers free admission and parking during its regular season.",
+      "phone": "940-665-6938",
+      "email": "info@lavenderridgefarms.com",
+      "website": "https://www.lavenderridgefarms.com",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "Closed",
+        "thursday": "Closed",
+        "friday": "9:00 AM–5:00 PM",
+        "saturday": "9:00 AM–5:00 PM",
+        "sunday": "9:00 AM–5:00 PM"
+      },
+      "hours_note": "Seasonal operation, generally March through October. The farm and gift shop are open Friday through Sunday from 9:00 AM to 5:00 PM. Cafe hours are Friday through Sunday from 10:30 AM to 3:30 PM. The online store remains available year-round. Weather, bloom conditions, and special events may affect access and hours.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified August 1, 2026, using the official Lavender Ridge Farms website. Official information confirms the Gainesville-area address, phone number, email address, seasonal schedule, cafe hours, free admission and parking, gardens, rescued farm animals, gift shop, garden center, lavender products, outdoor cafe, accessibility details, and seasonal lavender-cutting activities. The farm also reports that it does not expect a lavender bloom during the 2026 season because of the mild winter.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Seasonal farm activities",
+        "Lavender cutting",
+        "Workshops",
+        "Plant sales",
+        "Holiday shopping events",
+        "Vendor events",
+        "Food and drink specials",
+        "Family activities",
+        "Garden events",
+        "Agritourism events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official social-media announcements",
+        "Farm event announcements"
+      ],
+      "features": [
+        "Family-owned farm",
+        "Seasonal agritourism",
+        "Lavender gardens",
+        "Perennial gardens",
+        "Rescued farm animals",
+        "Outdoor cafe",
+        "Lavender-inspired food and drinks",
+        "Vegetarian options",
+        "Vegan options",
+        "Gift shop",
+        "Garden center",
+        "Handmade lavender products",
+        "Birdwatching",
+        "Seasonal lavender cutting",
+        "Free admission",
+        "Free parking",
+        "Wheelchair-accessible cafe, gift shop, and restroom",
+        "Online store",
+        "No pets permitted"
       ]
     }
   ]
