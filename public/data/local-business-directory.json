@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 547,
-  "publish_ready_count": 211,
+  "business_count": 548,
+  "publish_ready_count": 212,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -21796,6 +21796,52 @@
         "Wholesale frozen treats",
         "Family friendly"
       ]
+    },
+    {
+      "slug": "mi-casa-mexican-restaurant-gainesville",
+      "business_name": "Mi Casa Mexican Restaurant",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "908 E US Highway 82, Gainesville, TX 76240",
+      "category": [
+        "Mexican Restaurant",
+        "Tex-Mex Restaurant",
+        "Restaurant"
+      ],
+      "description": "Mi Casa Mexican Restaurant is a locally owned Gainesville restaurant serving traditional Mexican and Tex-Mex favorites in a casual, family-friendly setting. Local customers praise its friendly staff, familiar service, and street tacos, with longtime patrons noting that employees remember their regular orders.",
+      "phone": "940-580-7062",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "monday": "11:00 AM–8:00 PM",
+        "tuesday": "11:00 AM–8:00 PM",
+        "wednesday": "11:00 AM–8:00 PM",
+        "thursday": "11:00 AM–8:00 PM",
+        "friday": "11:00 AM–8:00 PM",
+        "saturday": "11:00 AM–8:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Holiday hours may vary. Call before making a special trip.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "event_types": [
+        "Food specials",
+        "Holiday dining",
+        "Seasonal promotions",
+        "Community fundraisers",
+        "Customer appreciation promotions"
+      ],
+      "event_sources": [
+        "Business announcements",
+        "Community recommendations",
+        "Current business listings"
+      ],
+      "verification_note": "Verified August 1, 2026, using current public restaurant listings and a firsthand Gainesville community recommendation. The recommendation specifically praised the street tacos, longtime staff relationships, and employees remembering regular customers' orders. No clearly verified official website, Facebook page, Instagram account, or public email address was confirmed.",
+      "last_checked": "2026-08-01"
     }
   ]
 }
