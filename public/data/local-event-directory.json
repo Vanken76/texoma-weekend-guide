@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 113,
-  "publish_ready_count": 106,
+  "event_count": 114,
+  "publish_ready_count": 107,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -6454,6 +6454,76 @@
       "updated_on": "2026-08-01",
       "venue_slugs": [
         "downtown-sanger-farmers-market"
+      ]
+    },
+    {
+      "event_slug": "back-to-school-potluck-dinner-dance-madill-2026-08-01",
+      "event_name": "Back to School Potluck Dinner Dance",
+      "description": "Celebrate back-to-school season with a family-friendly potluck dinner and dance at Pacesetters Ballroom. Guests are encouraged to bring a potluck dish to share. Dinner and DJ music begin at 6:30 PM, followed by live music from The Jeff & Rae Band from 7:00 PM to 9:30 PM. Kids ages 15 and younger receive free admission.",
+      "start_datetime": "2026-08-01T18:30:00-05:00",
+      "end_datetime": "2026-08-01T21:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_name": "Pacesetters Ballroom",
+      "address": "13281 Highway 377 S",
+      "city": "Madill",
+      "state": "OK",
+      "postal_code": null,
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Dance",
+        "Live Music",
+        "Family Event",
+        "Community Event",
+        "Food"
+      ],
+      "tags": [
+        "Back to School",
+        "Potluck Dinner",
+        "Dance",
+        "The Jeff & Rae Band",
+        "DJ Music",
+        "Pacesetters Ballroom",
+        "Madill",
+        "Family Friendly",
+        "Southern Oklahoma"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$8 per person for guests older than 15. Kids ages 15 and younger are admitted free.",
+      "audience": [
+        "Families",
+        "Children",
+        "Adults",
+        "Dancers",
+        "Live Music Fans",
+        "Community Members"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "pacesetters-ballroom",
+      "organizer_name": "D&J Texoma Dance Ranch",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "The Jeff & Rae Band"
+      ],
+      "image_url": "/images/events/back-to-school-potluck-dinner-dance-madill-2026-08-01.jpg",
+      "image_alt": "Back to School Potluck Dinner Dance flyer for Pacesetters Ballroom featuring The Jeff & Rae Band on August 1, 2026.",
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 1, 2026, from an official promotional flyer shared by D&J Texoma Dance Ranch. The flyer confirms the event date, Pacesetters Ballroom location, $8 admission for guests older than 15, free admission for children ages 15 and younger, potluck dinner beginning at 6:30 PM, DJ music from 6:30 PM to 7:00 PM, and live music by The Jeff & Rae Band from 7:00 PM to 9:30 PM.",
+      "last_checked": "2026-08-01",
+      "created_on": "2026-08-01",
+      "updated_on": "2026-08-01",
+      "venue_slugs": [
+        "pacesetters-ballroom"
       ]
     }
   ]
