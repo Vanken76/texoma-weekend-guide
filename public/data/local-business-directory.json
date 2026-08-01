@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 531,
-  "publish_ready_count": 195,
+  "business_count": 532,
+  "publish_ready_count": 196,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20705,6 +20705,67 @@
         "Catering",
         "Wheelchair accessible",
         "Family friendly"
+      ]
+    },
+    {
+      "slug": "red-river-family-dental",
+      "business_name": "Red River Family Dental",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "501 N Grand Ave, Gainesville, TX 76240",
+      "category": [
+        "Dentist",
+        "Family Dentistry",
+        "Cosmetic Dentistry",
+        "Dental Clinic"
+      ],
+      "description": "Red River Family Dental is a Gainesville dental practice providing preventive, restorative, cosmetic, and emergency dental care for adults and children. Services include routine exams and cleanings, crowns and bridges, dental implants, root canals, dentures, Invisalign, teeth whitening, and treatment for urgent dental concerns.",
+      "phone": "940-665-0711",
+      "email": null,
+      "website": "https://www.redriverfamilydental.com",
+      "facebook": "https://www.facebook.com/RedRiverFamilyDental",
+      "instagram": null,
+      "hours": {
+        "monday": "8:00 AM–5:00 PM",
+        "tuesday": "8:00 AM–5:00 PM",
+        "wednesday": "8:00 AM–5:00 PM",
+        "thursday": "8:00 AM–5:00 PM",
+        "friday": "8:00 AM–1:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Appointments are recommended. Office and holiday hours may vary, so call or check the official website before visiting.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "verification_note": "Verified August 1, 2026, using the official Red River Family Dental website, official Facebook page, and current business listings. Sources confirm the Gainesville address, phone number, office hours, family and cosmetic dentistry services, dental implants, Invisalign, crowns and bridges, root canals, dentures, teeth whitening, preventive care, and emergency dental services.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Community health events",
+        "School supply drives",
+        "Dental education events",
+        "Free or reduced-cost dental programs",
+        "Holiday community outreach"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Community announcements"
+      ],
+      "features": [
+        "Family dentistry",
+        "Children's dentistry",
+        "Preventive dental care",
+        "Dental exams and cleanings",
+        "Cosmetic dentistry",
+        "Dental implants",
+        "Invisalign",
+        "Crowns and bridges",
+        "Root canal treatment",
+        "Dentures",
+        "Teeth whitening",
+        "Emergency dental care"
       ]
     }
   ]
