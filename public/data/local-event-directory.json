@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 112,
-  "publish_ready_count": 105,
+  "event_count": 113,
+  "publish_ready_count": 106,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -6385,6 +6385,75 @@
         "CJK Karaoke",
         "Cory James",
         "Karlyn"
+      ]
+    },
+    {
+      "event_slug": "cars-and-cowboys-sanger-2026-08-29",
+      "event_name": "Cars & Cowboys",
+      "description": "Time Machine Car Shows presents Cars & Cowboys in downtown Sanger. The family-friendly event will shut down the square for a car show alongside the Downtown Sanger Farmers Market. The Top 30 show includes awards for the top 30 vehicles, dash plaques for the first 30 registered participants, and seven Best of Show awards: Best Car, Best Truck, Best Interior, Best Paint, Best Engine, People's Choice, and the North Texas Trinity Cowboy Church Pick. Visitors can also enjoy the farmers market and nearby local dining.",
+      "start_datetime": "2026-08-29T08:00:00-05:00",
+      "end_datetime": "2026-08-29T13:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_name": "Downtown Sanger Farmers Market",
+      "address": "307 Bolivar St",
+      "city": "Sanger",
+      "state": "TX",
+      "postal_code": "76266",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Car Show",
+        "Farmers Market",
+        "Family Event",
+        "Community Event"
+      ],
+      "tags": [
+        "Cars & Cowboys",
+        "Time Machine Car Shows",
+        "Downtown Sanger",
+        "Sanger",
+        "Top 30 Car Show",
+        "Awards",
+        "Farmers Market",
+        "Family Friendly",
+        "North Texas"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No spectator admission price or vehicle-registration fee was confirmed in the published event information.",
+      "audience": [
+        "Families",
+        "Children",
+        "Car Enthusiasts",
+        "Farmers Market Shoppers",
+        "Community Members"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Time Machine Car Shows",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Downtown Sanger Farmers Market",
+        "North Texas Trinity Cowboy Church"
+      ],
+      "image_url": "/images/events/cars-and-cowboys-sanger-2026-08-29.jpg",
+      "image_alt": "Cars & Cowboys promotional image featuring Time Machine Car Shows trophies and a red branded vehicle.",
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 1, 2026, from the official Facebook event hosted by Time Machine Car Shows and the organizer's published event calendar. The event is scheduled for Saturday, August 29, 2026, from 8:00 AM to 1:00 PM at Downtown Sanger Farmers Market. The event description confirms the Top 30 awards, dash plaques for the first 30 registered vehicles, seven Best of Show awards, family-friendly attendance, and an onsite farmers market. No confirmed spectator admission price or registration fee was published.",
+      "last_checked": "2026-08-01",
+      "created_on": "2026-08-01",
+      "updated_on": "2026-08-01",
+      "venue_slugs": [
+        "downtown-sanger-farmers-market"
       ]
     }
   ]
