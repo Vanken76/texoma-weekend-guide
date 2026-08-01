@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 512,
-  "publish_ready_count": 176,
+  "business_count": 513,
+  "publish_ready_count": 177,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -19610,6 +19610,68 @@
         "Research assistance",
         "Educational programming",
         "Community events",
+        "Accessible entrance",
+        "Accessible parking"
+      ]
+    },
+    {
+      "slug": "forest-avenue-baptist-church",
+      "business_name": "Forest Avenue Baptist Church",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "106 W Forest Ave, Sherman, TX 75090",
+      "category": [
+        "Church",
+        "Baptist Church",
+        "Community Organization",
+        "Event Venue",
+        "Nonprofit Organization"
+      ],
+      "description": "Forest Avenue Baptist Church is a Southern Baptist congregation in the heart of Sherman dedicated to loving God, loving people, and making disciples. The church offers weekly worship services, Bible studies, ministries for children, youth, and adults, and regularly hosts community outreach events including school supply drives, seasonal programs, and family activities.",
+      "phone": "903-892-3506",
+      "email": "forestavenuebaptistchurch@gmail.com",
+      "website": "https://forestavenuebaptist.com",
+      "facebook": "https://www.facebook.com/ForestAvenueChurch",
+      "instagram": "",
+      "hours": {
+        "monday": "9:00 AM - 4:00 PM",
+        "tuesday": "9:00 AM - 4:00 PM",
+        "wednesday": "9:00 AM - 4:00 PM",
+        "thursday": "9:00 AM - 4:00 PM",
+        "friday": "Closed",
+        "saturday": "Closed",
+        "sunday": "9:30 AM - 12:00 PM"
+      },
+      "hours_note": "Office hours are Monday through Thursday. Worship services are Sundays at 10:45 AM, Sunday School at 9:30 AM, and Wednesday ministries begin at 6:00 PM.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified through the church's official website and contact information. The church regularly hosts worship services, Bible studies, children's ministries, youth programs, outreach activities, and community events.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Community outreach",
+        "School supply drives",
+        "Vacation Bible School",
+        "Holiday events",
+        "Bible studies",
+        "Children's ministry",
+        "Youth ministry",
+        "Family events",
+        "Special worship services"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Church calendar"
+      ],
+      "features": [
+        "Children's ministry",
+        "Youth ministry",
+        "Adult Bible studies",
+        "Sunday School",
+        "Community outreach",
+        "Livestream worship",
         "Accessible entrance",
         "Accessible parking"
       ]
