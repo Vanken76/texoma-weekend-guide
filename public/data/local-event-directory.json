@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 103,
-  "publish_ready_count": 96,
+  "event_count": 104,
+  "publish_ready_count": 97,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -5807,6 +5807,65 @@
       "created_on": "2026-08-01",
       "updated_on": "2026-08-01",
       "host_business_slug": "forest-avenue-baptist-church",
+      "partner_business_slugs": [],
+      "partner_names": []
+    },
+    {
+      "event_slug": "back-to-school-bash-beyond-the-walls-outreach-sherman-2026-08-09",
+      "event_name": "Back to School Bash",
+      "description": "Beyond the Walls Outreach is hosting a free Back to School Bash to help local students and families prepare for the new school year. Families can enjoy a community-focused afternoon while receiving school supplies and connecting with local resources. Supplies are available while they last.",
+      "start_datetime": "2026-08-09T14:00:00-05:00",
+      "end_datetime": "2026-08-09T16:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "sherman-municipal-ballroom"
+      ],
+      "venue_name": "Sherman Municipal Ballroom",
+      "address": "405 N Rusk St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Community",
+        "Family",
+        "Education",
+        "Children",
+        "Nonprofit"
+      ],
+      "tags": [
+        "Back to School",
+        "Back to School Bash",
+        "School Supplies",
+        "Beyond the Walls Outreach",
+        "Sherman Municipal Ballroom",
+        "Sherman",
+        "Grayson County"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free admission. School supplies and community resources available while supplies last.",
+      "audience": [
+        "Families",
+        "Students",
+        "Children"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/back-to-school-bash-beyond-the-walls-outreach-sherman-2026-08-09.png",
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the organizer's published community event flyer. Event scheduled for Sunday, August 9, 2026, from 2:00 PM to 4:00 PM at Sherman Municipal Ballroom.",
+      "last_checked": "2026-08-01",
+      "created_on": "2026-08-01",
+      "updated_on": "2026-08-01",
+      "host_business_slug": "beyond-the-walls-outreach",
       "partner_business_slugs": [],
       "partner_names": []
     }
