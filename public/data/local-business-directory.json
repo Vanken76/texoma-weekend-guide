@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 546,
-  "publish_ready_count": 210,
+  "business_count": 547,
+  "publish_ready_count": 211,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -21714,6 +21714,87 @@
         "Uniform cleaning",
         "Locally recommended",
         "Personal customer service"
+      ]
+    },
+    {
+      "slug": "happys-sip-and-dip",
+      "business_name": "Happy's Sip and Dip",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "3812 E US Highway 82, Gainesville, TX 76240",
+      "category": [
+        "Ice Cream Shop",
+        "Dessert Shop",
+        "Restaurant",
+        "Family Attraction",
+        "Event Venue"
+      ],
+      "description": "Happy's Sip and Dip is a family-owned Gainesville ice cream and dessert shop specializing in premium homemade ice cream made in small batches with distinctive flavors and mix-ins. The menu also includes soft serve, shakes, malts, sundaes, ice cream sandwiches, Liege waffles, frozen drinks, strawberries and cream, Dole Whip, cakes, pup cups, take-home pints, waffle sandwiches, chili dogs, tacos, Frito pie, and homemade chili.",
+      "phone": "940-727-9499",
+      "email": null,
+      "website": "https://happyssipanddip.com",
+      "facebook": "https://www.facebook.com/happyssipanddip",
+      "instagram": null,
+      "hours": {
+        "monday": "11:00 AM–9:00 PM",
+        "tuesday": "11:00 AM–9:00 PM",
+        "wednesday": "11:00 AM–9:00 PM",
+        "thursday": "11:00 AM–9:00 PM",
+        "friday": "11:00 AM–10:00 PM",
+        "saturday": "11:00 AM–10:00 PM",
+        "sunday": "12:00 PM–9:00 PM"
+      },
+      "hours_note": "Holiday and seasonal hours may vary. Check the official website or Facebook page before making a special trip.",
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified August 1, 2026, using the official Happy's Sip and Dip website, official Facebook page, current online ordering information, and a community recommendation received by Texoma Weekend Guide. Official sources confirm the Gainesville address, current phone number, hours, family ownership, homemade small-batch ice cream, broad dessert and food menu, online ordering, pickup, delivery, gift cards, and wholesale Frozen Sips program. Some third-party listings still show an older phone number, but the current official website lists 940-727-9499.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "New flavor launches",
+        "Seasonal dessert promotions",
+        "Family events",
+        "School fundraisers",
+        "Community fundraisers",
+        "Anniversary celebrations",
+        "Holiday specials",
+        "Community collaborations",
+        "Customer appreciation events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Business announcements",
+        "Community event posts"
+      ],
+      "features": [
+        "Family owned",
+        "Homemade small-batch ice cream",
+        "Soft serve",
+        "Shakes",
+        "Malts",
+        "Sundaes",
+        "Ice cream sandwiches",
+        "Liege waffles",
+        "Frozen drinks",
+        "Strawberries and cream",
+        "Dole Whip",
+        "Ice cream cakes",
+        "Pup cups",
+        "Take-home pints",
+        "Waffle sandwiches",
+        "Chili dogs",
+        "Tacos",
+        "Frito pie",
+        "Homemade chili",
+        "Dine-in",
+        "Pickup",
+        "Delivery",
+        "Online ordering",
+        "Gift cards",
+        "Wholesale frozen treats",
+        "Family friendly"
       ]
     }
   ]
