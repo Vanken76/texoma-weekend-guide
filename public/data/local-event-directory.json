@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 105,
-  "publish_ready_count": 98,
+  "event_count": 106,
+  "publish_ready_count": 99,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -5940,6 +5940,71 @@
       ],
       "partner_names": [
         "Pottsboro Independent School District"
+      ]
+    },
+    {
+      "event_slug": "3dubbz-dynasty-bake-sale-fundraiser-pottsboro-2026-08-01",
+      "event_name": "3Dubbz Dynasty Bake Sale Fundraiser",
+      "description": "Support the 3Dubbz Dynasty youth flag football program during a community bake sale fundraiser at Fletcher Ace Hardware in Pottsboro. Stop by for homemade baked goods and ice-cold beverages while helping local athletes raise funds for their upcoming season.",
+      "start_datetime": "2026-08-01T08:30:00-05:00",
+      "end_datetime": "2026-08-01T11:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "fletcher-ace-hardware-pottsboro"
+      ],
+      "venue_name": "Fletcher Ace Hardware",
+      "address": "512 W FM 120",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Community",
+        "Fundraiser",
+        "Youth Sports",
+        "Food & Drink"
+      ],
+      "tags": [
+        "3Dubbz Dynasty",
+        "Bake Sale",
+        "Fundraiser",
+        "Youth Football",
+        "Flag Football",
+        "Pottsboro",
+        "Fletcher Ace Hardware",
+        "Community",
+        "Baked Goods",
+        "Cold Drinks"
+      ],
+      "cost_type": "varies",
+      "cost_details": "No admission charge. Baked goods and cold beverages are available for purchase, with proceeds benefiting the 3Dubbz Dynasty youth flag football program.",
+      "audience": [
+        "Families",
+        "Community Members",
+        "Youth Sports Supporters"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/3dubbz-dynasty-bake-sale-fundraiser-pottsboro-2026-08-01.png",
+      "official_url": null,
+      "facebook_url": "https://www.facebook.com/3DubbzDynasty",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the official 3Dubbz Dynasty Facebook page on August 1, 2026. The fundraiser is being held at Fletcher Ace Hardware in Pottsboro and runs until 11:30 AM. The team is selling baked goods and cold beverages to raise funds for the youth flag football program.",
+      "last_checked": "2026-08-01",
+      "created_on": "2026-08-01",
+      "updated_on": "2026-08-01",
+      "host_business_slug": "3dubbz-dynasty",
+      "partner_business_slugs": [
+        "fletcher-ace-hardware-pottsboro"
+      ],
+      "partner_names": [
+        "Fletcher Ace Hardware"
       ]
     }
   ]
