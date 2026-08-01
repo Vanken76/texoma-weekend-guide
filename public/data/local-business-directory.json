@@ -5,8 +5,8 @@
   "generated_on": "2026-08-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 540,
-  "publish_ready_count": 204,
+  "business_count": 541,
+  "publish_ready_count": 205,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -21301,6 +21301,69 @@
         "Generous portions",
         "Community involvement",
         "Locally recommended"
+      ]
+    },
+    {
+      "slug": "the-red-star-hugo",
+      "business_name": "The Red Star",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "1414 E Jackson St, Hugo, OK 74743",
+      "category": [
+        "Bar",
+        "Pool Hall",
+        "Nightlife Venue",
+        "Entertainment Venue",
+        "Event Venue"
+      ],
+      "description": "The Red Star is a longtime neighborhood bar, pool hall, and entertainment venue in Hugo, Oklahoma. Open daily with late-night hours, the venue features pool tables, sports televisions, bar seating, outdoor seating, live entertainment, community collaborations, and recurring nightlife activities. The business describes itself as Oklahoma's third-oldest bar, established in 1947.",
+      "phone": "580-969-9104",
+      "email": "theredstarbarllc@gmail.com",
+      "website": null,
+      "facebook": "https://www.facebook.com/theredstarinhugo",
+      "instagram": null,
+      "hours": {
+        "monday": "12:00 PM–2:00 AM",
+        "tuesday": "12:00 PM–2:00 AM",
+        "wednesday": "12:00 PM–2:00 AM",
+        "thursday": "12:00 PM–2:00 AM",
+        "friday": "12:00 PM–2:00 AM",
+        "saturday": "12:00 PM–2:00 AM",
+        "sunday": "12:00 PM–2:00 AM"
+      },
+      "hours_note": "Open daily with late-night hours. Entertainment schedules and holiday hours may vary, so check the official Facebook page before visiting.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified August 1, 2026, using the official Facebook page and current public business listings. Sources confirm the Hugo address, phone number, email address, daily noon-to-2:00 AM hours, pool tables, outdoor seating, nightlife activity, and use as a live-entertainment venue. The claim that it is Oklahoma's third-oldest bar and was established in 1947 is self-reported by the business.",
+      "last_checked": "2026-08-01",
+      "event_types": [
+        "Live music",
+        "Pool tournaments",
+        "Karaoke",
+        "Holiday parties",
+        "Drink specials",
+        "Small-business spotlights",
+        "Community fundraisers",
+        "Customer appreciation events"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Business announcements",
+        "Community event listings"
+      ],
+      "features": [
+        "Pool tables",
+        "Pool and billiards",
+        "Sports televisions",
+        "Bar seating",
+        "Outdoor seating",
+        "Late-night hours",
+        "Live entertainment",
+        "Community collaborations",
+        "Historic local bar",
+        "Established in 1947 according to the business"
       ]
     }
   ]
