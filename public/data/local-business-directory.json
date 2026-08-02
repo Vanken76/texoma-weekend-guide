@@ -5,8 +5,8 @@
   "generated_on": "2026-08-02",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 569,
-  "publish_ready_count": 233,
+  "business_count": 570,
+  "publish_ready_count": 234,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -24115,6 +24115,119 @@
         "Local maker products",
         "Downtown Gainesville storefront",
         "Seasonal shopping events"
+      ]
+    },
+    {
+      "slug": "el-patio-escondido-van-alstyne",
+      "business_name": "El Patio Escondido Mexican Restaurant",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "495 W Van Alstyne Pkwy, Van Alstyne, TX 75495",
+      "category": [
+        "Tex-Mex Restaurant",
+        "Mexican Restaurant",
+        "Restaurant",
+        "Live Music Venue"
+      ],
+      "tags": [
+        "Family Owned",
+        "Tex-Mex",
+        "Enchiladas",
+        "Tacos",
+        "Fajitas",
+        "Margaritas",
+        "Online Ordering",
+        "Takeout",
+        "Weekly Specials",
+        "Live Music",
+        "Kids Eat Free",
+        "Van Alstyne"
+      ],
+      "description": "El Patio Escondido Mexican Restaurant is a family-owned Tex-Mex restaurant in Van Alstyne serving enchiladas, tacos, fajitas, burritos, chile rellenos, queso, guacamole, combination plates, desserts and margaritas. The restaurant offers dine-in service, takeout, online ordering and recurring weekly food and entertainment specials.",
+      "why_visit": "Visit El Patio Escondido for traditional Tex-Mex favorites, affordable pricing and a long-running local restaurant experience. Weekly specials, live music and family-oriented promotions provide additional reasons to visit throughout the week.",
+      "why_its_unique": "El Patio Escondido carries forward a family restaurant tradition dating to 1974 and combines established Tex-Mex recipes with recurring live music and weekly dining specials in Van Alstyne.",
+      "phone": "903-482-5588",
+      "email": "elpatioescondido@yahoo.com",
+      "website": "https://elpatioescondido.com",
+      "facebook": "https://www.facebook.com/ElPatioEscondido",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
+        "wednesday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
+        "thursday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
+        "friday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
+        "saturday": "11:00 AM - 8:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current hours are based on the restaurant's official website and may differ from older hours still displayed on Facebook. Verify holiday and special-event hours before visiting.",
+      "at_a_glance": {
+        "average_visit": "1-2 hours",
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Dine-in service",
+        "Takeout",
+        "Online ordering",
+        "Full food menu",
+        "Margaritas",
+        "Weekly dining specials",
+        "Recurring live music",
+        "Children's promotion"
+      ],
+      "good_to_know": [
+        "The restaurant is closed Sunday and Monday.",
+        "Tuesday through Friday service is divided into lunch and dinner periods.",
+        "Tuesday nights feature live music.",
+        "A cheese enchilada special is offered on Wednesdays.",
+        "Children age 10 and younger eat free on Thursdays under the restaurant's current promotion.",
+        "The official website currently uses elpatioescondido.com, although the Facebook page may still display an older .net address."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified August 2, 2026, using the official El Patio Escondido website and official Facebook page. The official website was treated as authoritative for current hours, menu information and recurring weekly promotions because the Facebook hours were last updated approximately five years ago.",
+      "last_checked": "2026-08-02",
+      "event_types": [
+        "Live music",
+        "Weekly food specials",
+        "Family dining promotions",
+        "Holiday dining events",
+        "Community events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Official Facebook posts"
+      ],
+      "features": [
+        "Family-owned restaurant",
+        "Established family tradition",
+        "Traditional Tex-Mex menu",
+        "Weekly live music",
+        "Online ordering",
+        "Affordable dining"
       ]
     }
   ]
