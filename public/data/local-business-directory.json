@@ -5,8 +5,8 @@
   "generated_on": "2026-08-02",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 571,
-  "publish_ready_count": 235,
+  "business_count": 572,
+  "publish_ready_count": 236,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -24349,6 +24349,74 @@
         "Mobile maintenance",
         "24-hour roadside assistance"
       ]
+    },
+    {
+      "business_name": "Waterloo Lake Pavilion",
+      "slug": "waterloo-lake-pavilion-denison",
+      "publish_ready": true,
+      "business_status": "active",
+      "featured": false,
+      "categories": [
+        "Park",
+        "Event Venue",
+        "Picnic Area",
+        "Pavilion"
+      ],
+      "description": "Covered pavilion at Waterloo Lake Regional Park available to reserve for birthday parties, family reunions, picnics, and other gatherings. Located next to the playground with scenic lake views.",
+      "short_description": "Reservable lakeside pavilion at Waterloo Lake Regional Park.",
+      "website": "https://denison.recdesk.com/Community/Facility/Detail?facilityId=7",
+      "facebook_url": "",
+      "instagram_url": "",
+      "phone": "903-465-2720",
+      "email": "parksandrec@cityofdenison.com",
+      "address": "1101 Waterloo Lake Drive",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "country": "United States",
+      "latitude": null,
+      "longitude": null,
+      "hours": {
+        "monday": "7:00 AM - 9:00 PM",
+        "tuesday": "7:00 AM - 9:00 PM",
+        "wednesday": "7:00 AM - 9:00 PM",
+        "thursday": "7:00 AM - 9:00 PM",
+        "friday": "7:00 AM - 9:00 PM",
+        "saturday": "7:00 AM - 9:00 PM",
+        "sunday": "7:00 AM - 9:00 PM"
+      },
+      "amenities": [
+        "Covered Pavilion",
+        "9 Picnic Tables",
+        "Seats Approximately 72",
+        "Electricity",
+        "Lighting",
+        "Playground Nearby",
+        "Lake Views",
+        "Picnic Area",
+        "Fishing Nearby",
+        "Walking Trails",
+        "Restrooms Nearby"
+      ],
+      "reservation_required": true,
+      "reservation_notes": "Online reservations may be made up to 8 days in advance. Current-week reservations must be arranged through Denison Parks & Recreation by Tuesday at 5:00 PM.",
+      "rental_time_blocks": [
+        "7:00 AM - 11:00 AM",
+        "12:00 PM - 4:00 PM",
+        "5:00 PM - 9:00 PM"
+      ],
+      "resident_fee": "$40 per 4-hour block",
+      "nonresident_fee": "$60 per 4-hour block",
+      "deposit": "$50 refundable",
+      "good_to_know": [
+        "Alcohol is not permitted in City of Denison parks.",
+        "Reservations are recommended for weekends.",
+        "Located inside Waterloo Lake Regional Park."
+      ],
+      "images": [],
+      "logo": "",
+      "notes": "",
+      "verified": true
     }
   ]
 }
