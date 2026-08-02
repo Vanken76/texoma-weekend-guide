@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "project": "Texoma Weekend Guide",
   "document_type": "local_event_directory",
-  "generated_on": "2026-08-01",
+  "generated_on": "2026-08-02",
   "timezone_default": "America/Chicago",
   "publication_rule": "Only records with publish_ready=true should appear in the public event directory.",
   "active_event_rule": "status in [upcoming, recurring] and either end_datetime is in the future, or end_datetime is null and the local event date has not passed",
@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 114,
-  "publish_ready_count": 107,
+  "event_count": 115,
+  "publish_ready_count": 108,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -6525,6 +6525,72 @@
       "venue_slugs": [
         "pacesetters-ballroom"
       ]
+    },
+    {
+      "event_name": "After Dark Foam Party",
+      "event_slug": "after-dark-foam-party-mead-2026-09-05",
+      "status": "upcoming",
+      "publish_ready": true,
+      "start_datetime": "2026-09-05T20:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "time_note": "The flyer does not list an exact start or end time. An estimated 8:00 PM start is being used based on the after-dark promotion. Confirm the official time with The Boat Yard before attending.",
+      "venue_slugs": [
+        "the-boat-yard-mead"
+      ],
+      "host_business_slug": "the-boat-yard-mead",
+      "organizer_name": "The Boat Yard",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "venue_name": "The Boat Yard",
+      "street_address": "1116 Streetman Rd",
+      "city": "Mead",
+      "state": "OK",
+      "postal_code": "73449",
+      "service_area_or_location": "1116 Streetman Rd, Mead, OK 73449",
+      "categories": [
+        "Foam Party",
+        "Nightlife",
+        "Music",
+        "Adult Event",
+        "Party"
+      ],
+      "tags": [
+        "Foam Party",
+        "After Dark",
+        "21+",
+        "Adults Only",
+        "Nightlife",
+        "Music",
+        "Dancing",
+        "Late Night",
+        "Outdoor Entertainment",
+        "The Boat Yard",
+        "Mead",
+        "Lake Texoma",
+        "Bryan County"
+      ],
+      "description": "Get wet, get wild, and stay late during The Boat Yard's After Dark Foam Party in Mead. The Boat Yard will bring the foam for a high-energy night featuring loud music, good vibes, dancing, and plenty of opportunities to get soaked. Guests should dress for water and foam. The Boat Yard is an adults-only venue for guests ages 21 and older.",
+      "short_description": "The Boat Yard brings the foam, loud music, dancing, and late-night fun to Mead during this adults-only After Dark Foam Party.",
+      "cost_type": "unknown",
+      "cost_details": "Admission pricing was not listed on the promotional flyer. Contact The Boat Yard for current admission information.",
+      "age_restriction": "21+",
+      "family_friendly": false,
+      "adult_only": true,
+      "phone": "580-768-8163",
+      "website": null,
+      "facebook_event_url": null,
+      "ticket_url": null,
+      "source_url": null,
+      "source_name": "Promotional flyer provided by The Boat Yard",
+      "source_type": "Business-provided flyer",
+      "verification_note": "Event date, venue, address, phone number, and foam-party details were confirmed from the promotional flyer provided by The Boat Yard. The flyer does not state an exact start time, end time, or admission price. The 8:00 PM start time is an estimated placeholder based on the event being promoted as an after-dark party and should be confirmed with the venue.",
+      "last_checked": "2026-08-01",
+      "featured": false,
+      "recurring": false,
+      "image_url": "/images/events/after-dark-foam-party-mead-2026-09-05.png",
+      "created_on": "2026-08-02",
+      "updated_on": "2026-08-02"
     }
   ]
 }
