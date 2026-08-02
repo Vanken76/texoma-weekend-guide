@@ -22273,12 +22273,14 @@
         "Entertainment Venue",
         "Event Venue"
       ],
-      "description": "The Boat Yard is an adults-only bar, restaurant, pool hall, and entertainment venue in Mead near Durant and Lake Texoma. The venue offers signature drinks, elevated bar food, karaoke anytime, live entertainment, free pool, weekly pool tournaments, cornhole, horseshoes, other yard games, outdoor seating, and a dog-friendly atmosphere. Visitors are also welcome to paint the outdoor boats, creating a unique Cadillac Ranch-style attraction with boats.",
+      "description": "The Boat Yard is an adults-only bar, restaurant, pool hall, and entertainment venue in Mead near Durant and Lake Texoma. The venue offers signature drinks, a full food menu, karaoke anytime, live entertainment, free pool, weekly pool tournaments, cornhole, horseshoes, other yard games, outdoor seating, and a dog-friendly atmosphere. Visitors are also welcome to paint the outdoor boats, creating a unique Cadillac Ranch-style attraction with boats.",
       "phone": "580-768-8163",
       "email": "theboatyard580@gmail.com",
       "website": null,
       "facebook": "https://www.facebook.com/profile.php?id=61575916911215",
       "instagram": "https://www.instagram.com/theboatyard580",
+      "logo_url": "/images/businesses/the-boat-yard-mead-logo.jpg",
+      "logo_alt": "The Boat Yard logo",
       "hours": {
         "monday": "12:00 PM - 12:00 AM",
         "tuesday": "12:00 PM - 12:00 AM",
@@ -22293,7 +22295,7 @@
       "recurring_events": true,
       "mine_for_events": true,
       "event_mining_priority": "high",
-      "verification_note": "Updated August 1, 2026 using information provided directly by owner Carrie Scott and confirmed through the official Boat Yard Facebook page. Confirmed details include the Mead address, phone number, email address, official social-media accounts, current operating hours, 21-and-older policy, dog-friendly outdoor seating, karaoke anytime, free pool, weekly pool tournaments, live entertainment, food and drink service, yard games, and the paint-the-boats attraction.",
+      "verification_note": "Updated August 1, 2026, using information provided directly by owner Carrie Scott and confirmed through The Boat Yard's official Facebook and Instagram accounts. Confirmed details include the Mead address, phone number, email address, operating hours, 21-and-older policy, dog-friendly outdoor seating, karaoke anytime, free pool, weekly pool tournaments, live entertainment, food and drink service, yard games, and the paint-the-boats attraction.",
       "last_checked": "2026-08-01",
       "event_types": [
         "Live music",
@@ -22321,7 +22323,6 @@
         "Dog friendly",
         "Outdoor seating",
         "Signature drinks",
-        "Elevated bar food",
         "Full food menu",
         "Karaoke anytime",
         "Live entertainment",
