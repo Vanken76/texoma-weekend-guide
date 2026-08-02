@@ -22331,7 +22331,7 @@
       "mine_for_events": true,
       "event_mining_priority": "high",
       "verification_note": "Updated August 1, 2026, using information provided directly by owner Carrie Scott and confirmed through The Boat Yard's official Facebook and Instagram accounts. Confirmed details include the Mead address, phone number, email address, operating hours, 21-and-older policy, dog-friendly outdoor seating, karaoke anytime, free pool, weekly pool tournaments, live entertainment, food and drink service, sports viewing, yard games, and the interactive paintable boats attraction inspired by Cadillac Ranch near Amarillo.",
-      "last_checked": "2026-08-01",
+      "last_checked": "2026-08-02",
       "event_types": [
         "Live music",
         "Karaoke",
@@ -22378,6 +22378,33 @@
         "Public art photo opportunity",
         "Near Durant",
         "Near Lake Texoma"
+      ],
+      "gallery": [
+        {
+          "url": "/images/businesses/the-boat-yard-mead/gallery-1785635476473-1.jpg",
+          "alt": "The Boat Yard photo 1",
+          "caption": "The Boat Yard’s interactive paintable boats glow after dark, creating a one-of-a-kind photo stop inspired by Cadillac Ranch."
+        },
+        {
+          "url": "/images/businesses/the-boat-yard-mead/gallery-1785635476473-2.jpg",
+          "alt": "The Boat Yard photo 2",
+          "caption": null
+        },
+        {
+          "url": "/images/businesses/the-boat-yard-mead/gallery-1785635476473-3.jpg",
+          "alt": "The Boat Yard photo 3",
+          "caption": null
+        },
+        {
+          "url": "/images/businesses/the-boat-yard-mead/gallery-1785635476473-4.jpg",
+          "alt": "The Boat Yard photo 4",
+          "caption": null
+        },
+        {
+          "url": "/images/businesses/the-boat-yard-mead/gallery-1785635476473-5.jpg",
+          "alt": "The Boat Yard photo 5",
+          "caption": null
+        }
       ]
     }
   ]
