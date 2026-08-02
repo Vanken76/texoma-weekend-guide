@@ -10,7 +10,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <header>
       <p class="eyebrow">TWG Admin</p>
       <h1>Single-Business Publisher</h1>
-      <p>Paste one business record. The publisher will load the current directory from GitHub, add or replace the matching slug, update the counts, and commit the complete directory automatically.</p>
+      <p>Paste one business record, optionally attach its official logo, then validate and publish. The publisher adds or replaces the matching slug in the directory and stores the logo with the website files.</p>
     </header>
 
     <section class="panel auth-panel">
@@ -22,6 +22,17 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <section class="panel tool-panel">
       <label for="business-json">Business JSON</label>
       <textarea id="business-json" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder='Paste one business object here, beginning with { and ending with }'></textarea>
+
+      <label for="business-logo">Business logo <span class="optional">optional</span></label>
+      <input id="business-logo" type="file" accept="image/jpeg,image/png,image/webp" />
+      <p class="helper">JPG, PNG, or WebP. Maximum 4 MB. The file will be saved as <code>/images/businesses/[slug]-logo.ext</code> and its URL will be added to the business record automatically.</p>
+      <div id="logo-preview-wrap" class="logo-preview-wrap" hidden>
+        <img id="logo-preview" alt="Selected business logo preview" />
+        <div>
+          <p id="logo-name" class="logo-name"></p>
+          <button id="clear-logo" class="secondary-action" type="button">Remove selected logo</button>
+        </div>
+      </div>
 
       <label for="remove-slugs">Old duplicate slug(s) to remove <span class="optional">optional</span></label>
       <input id="remove-slugs" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="Example: the-milieu" />
@@ -43,6 +54,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   <script>
     const adminKey = document.querySelector("#admin-key");
     const businessInput = document.querySelector("#business-json");
+    const logoInput = document.querySelector("#business-logo");
+    const logoPreviewWrap = document.querySelector("#logo-preview-wrap");
+    const logoPreview = document.querySelector("#logo-preview");
+    const logoName = document.querySelector("#logo-name");
+    const clearLogoButton = document.querySelector("#clear-logo");
     const removeSlugsInput = document.querySelector("#remove-slugs");
     const validateButton = document.querySelector("#validate");
     const publishButton = document.querySelector("#publish");
@@ -52,6 +68,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     if (
       !(adminKey instanceof HTMLInputElement) ||
       !(businessInput instanceof HTMLTextAreaElement) ||
+      !(logoInput instanceof HTMLInputElement) ||
+      !(logoPreviewWrap instanceof HTMLElement) ||
+      !(logoPreview instanceof HTMLImageElement) ||
+      !(logoName instanceof HTMLElement) ||
+      !(clearLogoButton instanceof HTMLButtonElement) ||
       !(removeSlugsInput instanceof HTMLInputElement) ||
       !(validateButton instanceof HTMLButtonElement) ||
       !(publishButton instanceof HTMLButtonElement) ||
@@ -61,6 +82,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       throw new Error("Business publisher controls could not be initialized.");
     }
 
+    const MAX_LOGO_BYTES = 4 * 1024 * 1024;
+    const ALLOWED_LOGO_TYPES = new Set(["image/jpeg", "image/png", "image/webp"]);
     const savedKey = sessionStorage.getItem("twg-admin-key");
     if (savedKey) adminKey.value = savedKey;
     adminKey.addEventListener("input", () => {
@@ -69,6 +92,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     });
 
     let validatedBusiness = null;
+    let selectedLogo = null;
+    let previewUrl = null;
 
     const setResult = (message, items = [], valid = false) => {
       status.textContent = message;
@@ -80,6 +105,62 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         checks.appendChild(li);
       }
     };
+
+    const invalidate = () => {
+      validatedBusiness = null;
+      publishButton.disabled = true;
+    };
+
+    const clearLogo = () => {
+      selectedLogo = null;
+      logoInput.value = "";
+      if (previewUrl) URL.revokeObjectURL(previewUrl);
+      previewUrl = null;
+      logoPreview.removeAttribute("src");
+      logoName.textContent = "";
+      logoPreviewWrap.hidden = true;
+      invalidate();
+    };
+
+    const validateLogoFile = (file) => {
+      if (!ALLOWED_LOGO_TYPES.has(file.type)) return "Logo must be a JPG, PNG, or WebP image.";
+      if (file.size > MAX_LOGO_BYTES) return "Logo must be 4 MB or smaller.";
+      return null;
+    };
+
+    const fileToBase64 = (file) => new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const result = typeof reader.result === "string" ? reader.result : "";
+        const commaIndex = result.indexOf(",");
+        if (commaIndex < 0) reject(new Error("The logo could not be encoded."));
+        else resolve(result.slice(commaIndex + 1));
+      };
+      reader.onerror = () => reject(new Error("The logo could not be read."));
+      reader.readAsDataURL(file);
+    });
+
+    logoInput.addEventListener("change", () => {
+      const file = logoInput.files?.[0] || null;
+      if (!file) {
+        clearLogo();
+        return;
+      }
+      const problem = validateLogoFile(file);
+      if (problem) {
+        clearLogo();
+        setResult(problem, [], false);
+        return;
+      }
+      selectedLogo = file;
+      if (previewUrl) URL.revokeObjectURL(previewUrl);
+      previewUrl = URL.createObjectURL(file);
+      logoPreview.src = previewUrl;
+      logoName.textContent = `${file.name} · ${(file.size / 1024).toFixed(0)} KB`;
+      logoPreviewWrap.hidden = false;
+      invalidate();
+    });
+    clearLogoButton.addEventListener("click", clearLogo);
 
     const validateBusiness = () => {
       validatedBusiness = null;
@@ -95,6 +176,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         if (!business.business_name || typeof business.business_name !== "string") problems.push("business_name is required.");
         if (!business.slug || typeof business.slug !== "string") problems.push("slug is required.");
         else if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(business.slug)) problems.push("slug must use lowercase letters, numbers, and single hyphens only.");
+        if (business.publish_ready !== true) problems.push("publish_ready must be true before publishing.");
+        if (selectedLogo) {
+          const logoProblem = validateLogoFile(selectedLogo);
+          if (logoProblem) problems.push(logoProblem);
+        }
 
         if (problems.length) {
           setResult("Business validation found problems.", problems, false);
@@ -104,12 +190,14 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         validatedBusiness = business;
         publishButton.disabled = false;
         const oldSlugs = removeSlugsInput.value.split(",").map((slug) => slug.trim()).filter(Boolean);
-        setResult("Valid business JSON. It is ready to publish.", [
+        const items = [
           `Business: ${business.business_name}`,
           `Slug: ${business.slug}`,
-          business.publish_ready === true ? "Publish-ready: yes" : "Publish-ready: no",
+          "Publish-ready: yes",
+          selectedLogo ? `Logo selected: ${selectedLogo.name}` : business.logo_url ? `Existing logo retained: ${business.logo_url}` : "No logo selected",
           oldSlugs.length ? `Old slug(s) marked for removal: ${oldSlugs.join(", ")}` : "No old duplicate slugs marked for removal"
-        ], true);
+        ];
+        setResult("Valid business JSON. It is ready to publish.", items, true);
         return true;
       } catch (error) {
         const message = error instanceof Error ? error.message : "Unknown validation error.";
@@ -118,10 +206,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       }
     };
 
-    businessInput.addEventListener("input", () => {
-      validatedBusiness = null;
-      publishButton.disabled = true;
-    });
+    businessInput.addEventListener("input", invalidate);
     removeSlugsInput.addEventListener("input", () => {
       if (validatedBusiness) validateBusiness();
     });
@@ -137,13 +222,20 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
       const removeSlugs = removeSlugsInput.value.split(",").map((slug) => slug.trim()).filter(Boolean);
       publishButton.disabled = true;
-      publishButton.textContent = "Publishing…";
+      publishButton.textContent = selectedLogo ? "Uploading logo and publishing…" : "Publishing…";
 
       try {
+        const logo = selectedLogo ? {
+          name: selectedLogo.name,
+          type: selectedLogo.type,
+          size: selectedLogo.size,
+          data: await fileToBase64(selectedLogo)
+        } : null;
+
         const response = await fetch("/api/publish-business", {
           method: "POST",
           headers: { "content-type": "application/json", "x-admin-key": adminKey.value },
-          body: JSON.stringify({ business: validatedBusiness, remove_slugs: removeSlugs })
+          body: JSON.stringify({ business: validatedBusiness, remove_slugs: removeSlugs, logo })
         });
         const result = await response.json();
         if (!response.ok) {
@@ -151,9 +243,16 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           return;
         }
 
+        if (result.logo_url) {
+          validatedBusiness.logo_url = result.logo_url;
+          validatedBusiness.logo_alt = `${validatedBusiness.business_name} logo`;
+          businessInput.value = JSON.stringify(validatedBusiness, null, 2);
+        }
+
         setResult(result.message || "Business published successfully.", [
           `${result.business_count} total businesses now stored`,
           `${result.publish_ready_count} publish-ready businesses now stored`,
+          result.logo_url ? `Logo saved: ${result.logo_url}` : "No new logo uploaded",
           result.removed_count ? `${result.removed_count} old duplicate record(s) removed` : "No old duplicate records removed",
           result.commit ? `GitHub commit: ${result.commit.slice(0, 7)}` : "GitHub commit created"
         ], true);
@@ -178,9 +277,16 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   .tool-panel { margin-top: 1.25rem; }
   label { display: block; margin: 0.9rem 0 0.5rem; font-weight: 800; }
   input, textarea { width: 100%; padding: 0.9rem; border: 1px solid rgba(255, 255, 255, 0.22); border-radius: 0.65rem; font: inherit; }
+  input[type="file"] { padding: 0.65rem; }
   textarea { min-height: 48vh; resize: vertical; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.82rem; line-height: 1.45; }
+  code { font-size: 0.86em; }
   .helper { margin: 0.5rem 0 0; font-size: 0.9rem; opacity: 0.78; }
   .optional { font-weight: 400; opacity: 0.7; }
+  .logo-preview-wrap { display: flex; gap: 1rem; align-items: center; margin-top: 0.85rem; padding: 0.8rem; border: 1px solid rgba(255,255,255,.16); border-radius: .75rem; }
+  .logo-preview-wrap[hidden] { display: none; }
+  .logo-preview-wrap img { width: 112px; height: 112px; object-fit: contain; border-radius: .5rem; background: white; }
+  .logo-name { margin: 0 0 .65rem; font-weight: 800; overflow-wrap: anywhere; }
+  .secondary-action { background: transparent; border: 1px solid rgba(255,255,255,.25); color: inherit; }
   .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; }
   button { min-height: 44px; padding: 0.7rem 1rem; border: 0; border-radius: 0.6rem; font: inherit; font-weight: 800; cursor: pointer; }
   button:disabled { cursor: not-allowed; opacity: 0.45; }
@@ -193,5 +299,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     .panel { padding: 0.85rem; }
     textarea { min-height: 58vh; }
     .actions button { flex: 1 1 100%; }
+    .logo-preview-wrap { align-items: flex-start; }
+    .logo-preview-wrap img { width: 88px; height: 88px; }
   }
 </style>
