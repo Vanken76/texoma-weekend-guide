@@ -5,8 +5,8 @@
   "generated_on": "2026-08-02",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 564,
-  "publish_ready_count": 228,
+  "business_count": 565,
+  "publish_ready_count": 229,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -23753,6 +23753,61 @@
         "Event hosting",
         "Locally operated"
       ]
+    },
+    {
+      "business_name": "Herald Democrat",
+      "slug": "herald-democrat-sherman",
+      "description": "The Herald Democrat is the primary daily newspaper serving Sherman, Denison, Grayson County, and the greater Texoma region. Founded from the merger of the Sherman Democrat and the Denison Herald, it provides local news, sports, business coverage, opinion, obituaries, public notices, community events, and digital editions.",
+      "short_description": "Texoma's local daily newspaper serving Sherman, Denison, and Grayson County.",
+      "categories": [
+        "Newspaper",
+        "Media Company",
+        "News Organization"
+      ],
+      "address": "603 S Sam Rayburn Fwy",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "country": "US",
+      "phone": "(903) 893-8181",
+      "email": "",
+      "website": "https://www.heralddemocrat.com",
+      "facebook": "",
+      "instagram": "",
+      "youtube": "",
+      "x": "",
+      "tiktok": "",
+      "hours": {
+        "monday": "09:00-17:00",
+        "tuesday": "09:00-17:00",
+        "wednesday": "09:00-17:00",
+        "thursday": "09:00-17:00",
+        "friday": "09:00-17:00",
+        "saturday": "",
+        "sunday": ""
+      },
+      "price_range": "",
+      "features": [
+        "Local News",
+        "Sports Coverage",
+        "Community Events",
+        "Opinion",
+        "Obituaries",
+        "Classifieds",
+        "Public Notices",
+        "Digital Edition"
+      ],
+      "service_area": [
+        "Sherman",
+        "Denison",
+        "Grayson County",
+        "Fannin County",
+        "Texoma"
+      ],
+      "publish_ready": true,
+      "featured": false,
+      "verified": true,
+      "status": "active"
     }
   ]
 }
