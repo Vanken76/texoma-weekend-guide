@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 119,
-  "publish_ready_count": 112,
+  "event_count": 120,
+  "publish_ready_count": 113,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -6827,6 +6827,67 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified from the official Facebook event created by The Boat Yard and the supplied official event artwork. Limestone is scheduled to make its debut appearance at The Boat Yard on August 15, 2026, from 9:00 PM until midnight. No admission price was published. The Boat Yard is a 21-and-older venue.",
+      "last_checked": "2026-08-02",
+      "created_on": "2026-08-02",
+      "updated_on": "2026-08-02"
+    },
+    {
+      "event_slug": "boats-and-bikes-2026-08-09",
+      "event_name": "Boats and Bikes",
+      "description": "Boats and Bikes returns to The Boat Yard on the second Sunday of the month. Guests can enjoy free pool and backyard games, and bikers receive 20% off food-menu items from 2:00 PM to 6:00 PM.",
+      "start_datetime": "2026-08-09T14:00:00-05:00",
+      "end_datetime": "2026-08-09T18:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "the-boat-yard-mead"
+      ],
+      "venue_name": "The Boat Yard",
+      "address": "1116 Streetman Rd",
+      "city": "Mead",
+      "state": "OK",
+      "postal_code": "73449",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Motorcycle Event",
+        "Community Event"
+      ],
+      "tags": [
+        "Boats and Bikes",
+        "Motorcycles",
+        "Bikers",
+        "Free Pool",
+        "Backyard Games",
+        "Food Special",
+        "Second Sunday",
+        "Mead",
+        "Lake Texoma"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "Free pool and backyard games are available. Bikers receive 20% off food-menu items from 2:00 PM to 6:00 PM. No admission price was published.",
+      "audience": [
+        "Adults",
+        "Motorcycle Riders"
+      ],
+      "age_restriction": "21+",
+      "host_business_slug": "the-boat-yard-mead",
+      "organizer_name": "The Boat Yard",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/boats-and-bikes-2026-08-09.jpg",
+      "image_alt": "Boats and Bikes event flyer featuring several styles of motorcycles and The Boat Yard logo, with event hours from 2:00 PM to 6:00 PM.",
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=MONTHLY;BYDAY=2SU",
+      "recurrence_start_date": "2026-08-09",
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the official Facebook event created by The Boat Yard and the supplied official event artwork. Boats and Bikes is held on the second Sunday of the month. The August event is scheduled for August 9, 2026, from 2:00 PM to 6:00 PM at 1116 Streetman Rd in Mead, Oklahoma. The event description confirms free pool and backyard games and a 20% food-menu discount for bikers. No admission price was published.",
       "last_checked": "2026-08-02",
       "created_on": "2026-08-02",
       "updated_on": "2026-08-02"
