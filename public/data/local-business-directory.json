@@ -5,8 +5,8 @@
   "generated_on": "2026-08-02",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 562,
-  "publish_ready_count": 226,
+  "business_count": 563,
+  "publish_ready_count": 227,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -23600,6 +23600,52 @@
         "Savory breakfast items",
         "Early opening",
         "Popular local morning stop"
+      ]
+    },
+    {
+      "business_name": "Island View Park",
+      "slug": "island-view-park-pottsboro",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "categories": [
+        "Park",
+        "Beach",
+        "Tourist Attraction",
+        "Outdoor Recreation",
+        "Family Attraction",
+        "Picnic Area",
+        "Lake Access"
+      ],
+      "short_description": "Lake Texoma's popular sandy beach destination offering day-use access, swimming, picnic areas, kayak and paddleboard rentals, and covered shelters.",
+      "description": "Island View Park is a day-use recreation area on Lake Texoma near Pottsboro, Texas. Visitors can enjoy a sandy beach, swimming, picnic areas, covered shelters with BBQ grills, kayak and paddleboard rentals, and convenient lake access. Open daily year-round, it's a favorite destination for families, locals, and visitors looking to spend a day on Lake Texoma.",
+      "address": "87426 Preston Bend Rd",
+      "city": "Pottsboro",
+      "state": "TX",
+      "zip": "75076",
+      "phone": "(903) 419-1008",
+      "email": "info@islandviewtexoma.com",
+      "website": "https://islandviewtexoma.com",
+      "facebook": "https://www.facebook.com/islandviewtexoma",
+      "hours": "Daily 9:00 AM - Sunset",
+      "price_range": "$",
+      "features": [
+        "Sandy beach",
+        "Swimming",
+        "Lake access",
+        "Picnic area",
+        "Covered picnic shelters",
+        "BBQ grills",
+        "Kayak rentals",
+        "Paddleboard rentals",
+        "Family friendly",
+        "Annual passes available"
+      ],
+      "notes": [
+        "Day-use park.",
+        "Children age 7 and under admitted free.",
+        "No lifeguard on duty; swim at your own risk.",
+        "Picnic shelters available by reservation."
       ]
     }
   ]
