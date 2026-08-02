@@ -5,8 +5,8 @@
   "generated_on": "2026-08-02",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 573,
-  "publish_ready_count": 237,
+  "business_count": 574,
+  "publish_ready_count": 238,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -24576,6 +24576,122 @@
         "Reservable event facilities",
         "Accessible walking paths",
         "Family-friendly outdoor recreation"
+      ]
+    },
+    {
+      "slug": "texoma-great-outdoors-gordonville",
+      "business_name": "Texoma Great Outdoors",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "32248 US Highway 377, Gordonville, TX 76245; serving the Lake Texoma region in Texas and Oklahoma",
+      "category": [
+        "Event Planner",
+        "Travel Company",
+        "Tourism Service",
+        "Family Gathering Planner"
+      ],
+      "tags": [
+        "Event Planning",
+        "Lake Texoma",
+        "Fishing Trips",
+        "Family Outings",
+        "Family Reunions",
+        "Group Gatherings",
+        "Lodging Coordination",
+        "Fishing Guide Referrals",
+        "Boat Rentals",
+        "Casino Trips",
+        "Restaurant Recommendations",
+        "Texas",
+        "Oklahoma",
+        "Mary Bubbly"
+      ],
+      "description": "Texoma Great Outdoors is a Lake Texoma event- and outing-planning service led by Mary Bubbly. The business helps individuals, families and groups organize fishing trips, family outings, reunions, parties and other gatherings around the lake. Planning assistance may include coordinating lodging, fishing guides, boat rentals, dining, entertainment and other regional activities based on the needs of each group.",
+      "why_visit": "Use Texoma Great Outdoors when you want help organizing a Lake Texoma trip, party, fishing excursion, reunion or group outing without having to research and coordinate every detail yourself. The service is especially useful for visitors who are unfamiliar with the lake or need help connecting multiple activities, accommodations and local providers.",
+      "why_its_unique": "Texoma Great Outdoors combines local Lake Texoma knowledge with personalized event and trip planning. Rather than operating as one attraction or venue, it helps guests build complete experiences by connecting lodging, fishing, boating, dining, casino trips and family activities across both the Texas and Oklahoma sides of the lake.",
+      "phone": "214-783-0252",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/TexomaGo",
+      "instagram": "https://www.instagram.com/lake_texoma_great_outdoors/",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": "Texoma Great Outdoors logo",
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Planning and booking availability varies by event, trip and season. Contact Texoma Great Outdoors directly to discuss dates, group size, services and availability.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Personalized event planning",
+        "Fishing-trip planning",
+        "Family-outing planning",
+        "Family-reunion planning",
+        "Group-gathering coordination",
+        "Lodging recommendations and coordination",
+        "Fishing-guide referrals",
+        "Boat-rental assistance",
+        "Restaurant recommendations",
+        "Casino-trip planning",
+        "Lake Texoma destination guidance",
+        "Texas and Oklahoma regional planning"
+      ],
+      "good_to_know": [
+        "Services are customized to the type and size of the gathering.",
+        "Contact the business directly for pricing, availability and booking requirements.",
+        "The service covers destinations and activities on both sides of Lake Texoma.",
+        "Texoma Great Outdoors also promotes regional attractions, marinas, events and outdoor destinations through its social-media channels.",
+        "Mary Bubbly is the primary public-facing planner and contact associated with the business.",
+        "Specific vendors, lodging, guides and activities may vary according to availability and the client's preferences."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified August 2, 2026, using the official Texoma Great Outdoors Facebook page, official Instagram profile and supplied screenshots from the business's social-media profiles. The official profiles describe event planning, fishing trips, family gatherings and reunions around Lake Texoma. Public posts also show the business organizing and promoting multi-day events and regional outings. Standard business hours, a standalone website and a public email address were not verified, so they were not invented. 0",
+      "last_checked": "2026-08-02",
+      "event_types": [
+        "Private parties",
+        "Family reunions",
+        "Family outings",
+        "Fishing trips",
+        "Group lake trips",
+        "Birthday celebrations",
+        "Outdoor gatherings",
+        "Lake Texoma destination events",
+        "Multi-day social events"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Official Facebook posts and videos",
+        "Official Instagram profile"
+      ],
+      "features": [
+        "Locally operated",
+        "Personalized Lake Texoma planning",
+        "Cross-state Texas and Oklahoma coverage",
+        "Fishing and boating coordination",
+        "Family and group-event planning",
+        "Regional tourism promotion",
+        "Local destination knowledge"
       ]
     }
   ]
