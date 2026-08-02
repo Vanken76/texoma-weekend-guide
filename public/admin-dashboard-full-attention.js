@@ -18,22 +18,30 @@
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 
+  let eventDataPromise;
+  const loadEvents = () => {
+    if (!eventDataPromise) {
+      eventDataPromise = fetch("/data/local-event-directory.json", { cache: "no-store" })
+        .then((response) => response.ok ? response.json() : Promise.reject(new Error("Event data unavailable")));
+    }
+    return eventDataPromise;
+  };
+
   async function enhance() {
     const grid = document.querySelector("#attention-grid");
-    if (!grid) return;
+    if (!grid) return false;
+
+    const target = [...grid.querySelectorAll(".attention-card")]
+      .find((card) => card.textContent.includes("Active events missing venue slug"));
+    if (!target) return false;
+    if (target.querySelector(".full-issue-list")) return true;
 
     try {
-      const response = await fetch("/data/local-event-directory.json", { cache: "no-store" });
-      if (!response.ok) return;
-      const data = await response.json();
+      const data = await loadEvents();
       const now = new Date();
       const missing = (Array.isArray(data.events) ? data.events : [])
         .filter((event) => isActiveEvent(event, now) && !String(event.venue_slug ?? "").trim())
         .sort((a, b) => String(a.event_name ?? "").localeCompare(String(b.event_name ?? "")));
-
-      const cards = [...grid.querySelectorAll(".attention-card")];
-      const target = cards.find((card) => card.textContent.includes("Active events missing venue slug"));
-      if (!target) return;
 
       const listItems = missing.map((event) => {
         const name = escapeHtml(event.event_name || "Unnamed event");
@@ -45,14 +53,34 @@
       }).join("");
 
       const existingList = target.querySelector("ul");
-      if (existingList) {
-        existingList.outerHTML = `<details class="full-issue-list" open><summary>Show all ${missing.length} events</summary><ul>${listItems}</ul></details>`;
-      }
+      if (!existingList) return false;
+      existingList.outerHTML = `<details class="full-issue-list" open><summary>All ${missing.length} events missing venue slugs</summary><ul>${listItems}</ul></details>`;
+      return true;
     } catch {
-      // Leave the original dashboard card intact if enhancement fails.
+      return false;
     }
   }
 
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", enhance);
-  else enhance();
+  function start() {
+    if (enhance()) return;
+    const grid = document.querySelector("#attention-grid");
+    if (!grid) return;
+
+    const observer = new MutationObserver(async () => {
+      if (await enhance()) observer.disconnect();
+    });
+    observer.observe(grid, { childList: true, subtree: true });
+
+    let attempts = 0;
+    const retry = setInterval(async () => {
+      attempts += 1;
+      if (await enhance() || attempts >= 20) {
+        clearInterval(retry);
+        observer.disconnect();
+      }
+    }, 250);
+  }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start, { once: true });
+  else start();
 })();
