@@ -218,3 +218,217 @@ li {
     padding: 3rem 0;
   }
 }
+
+/* Admin dashboard mobile polish */
+@media (max-width: 760px) {
+  .dashboard-shell {
+    width: min(100% - 1rem, 1440px) !important;
+    padding: 0.75rem 0 3rem !important;
+  }
+
+  .dashboard-header {
+    gap: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .dashboard-header h1 {
+    font-size: clamp(2rem, 10vw, 2.85rem) !important;
+    line-height: 1.02 !important;
+  }
+
+  .dashboard-header > div > p:last-child {
+    font-size: 0.98rem !important;
+    line-height: 1.45 !important;
+  }
+
+  .admin-links {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    width: 100% !important;
+    gap: 0.55rem !important;
+  }
+
+  .admin-links a {
+    min-height: 46px !important;
+    padding: 0.65rem 0.7rem !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 0.92rem !important;
+  }
+
+  .admin-links a:last-child {
+    grid-column: 1 / -1 !important;
+  }
+
+  .section-heading,
+  .panel-heading {
+    gap: 0.5rem !important;
+    margin-bottom: 0.8rem !important;
+  }
+
+  .section-heading h2,
+  .panel-heading h2 {
+    font-size: clamp(1.65rem, 8vw, 2.25rem) !important;
+    line-height: 1.08 !important;
+  }
+
+  .timestamp {
+    margin: 0 !important;
+    font-size: 0.8rem !important;
+  }
+
+  .metric-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 0.65rem !important;
+  }
+
+  .metric-card {
+    min-height: 120px !important;
+    padding: 0.9rem !important;
+    border-radius: 16px !important;
+    background: linear-gradient(150deg, #0d4e55, #15776f) !important;
+    color: #fff !important;
+    box-shadow: 0 7px 18px rgb(13 78 85 / 18%) !important;
+  }
+
+  .metric-card p {
+    margin: 0 !important;
+    color: #fff !important;
+    font-size: 0.8rem !important;
+    line-height: 1.25 !important;
+  }
+
+  .metric-card strong {
+    margin: auto 0 0.2rem !important;
+    color: #fff !important;
+    font-size: clamp(1.9rem, 10vw, 2.55rem) !important;
+  }
+
+  .metric-card span {
+    color: #fff !important;
+    font-size: 0.72rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .split-grid {
+    gap: 0.9rem !important;
+  }
+
+  .panel {
+    padding: 1rem !important;
+    border-radius: 16px !important;
+  }
+
+  .compact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 0.6rem !important;
+  }
+
+  .compact-card {
+    min-height: 94px !important;
+    padding: 0.75rem !important;
+  }
+
+  .compact-card span {
+    font-size: 0.76rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .compact-card strong {
+    font-size: 1.65rem !important;
+    line-height: 1 !important;
+  }
+
+  .attention-grid {
+    gap: 0.65rem !important;
+  }
+
+  .attention-card {
+    min-height: 0 !important;
+    padding: 0.85rem !important;
+  }
+
+  .attention-card > div {
+    align-items: flex-start !important;
+    gap: 0.45rem !important;
+  }
+
+  .attention-card strong {
+    flex: 0 0 auto !important;
+    font-size: 1.5rem !important;
+    line-height: 1.15 !important;
+  }
+
+  .attention-card span {
+    line-height: 1.25 !important;
+    font-size: 0.9rem !important;
+  }
+
+  .attention-card ul {
+    margin-top: 0.5rem !important;
+    padding-left: 1.2rem !important;
+    font-size: 0.84rem !important;
+  }
+
+  .pill {
+    font-size: 0.78rem !important;
+  }
+
+  .table-wrap {
+    width: 100% !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  .table-wrap table {
+    min-width: 560px !important;
+    font-size: 0.82rem !important;
+  }
+
+  #city-table table,
+  #category-table table {
+    min-width: 0 !important;
+    table-layout: fixed !important;
+  }
+
+  #city-table th:first-child,
+  #city-table td:first-child,
+  #category-table th:first-child,
+  #category-table td:first-child {
+    width: 70% !important;
+  }
+
+  #city-table th:last-child,
+  #city-table td:last-child,
+  #category-table th:last-child,
+  #category-table td:last-child {
+    width: 30% !important;
+  }
+
+  th {
+    padding: 0.55rem 0.45rem !important;
+    font-size: 0.68rem !important;
+  }
+
+  td {
+    padding: 0.62rem 0.45rem !important;
+    line-height: 1.35 !important;
+    overflow-wrap: anywhere !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .metric-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .metric-card {
+    min-height: 104px !important;
+  }
+
+  .compact-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
