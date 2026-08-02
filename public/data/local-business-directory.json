@@ -22274,7 +22274,7 @@
         "Event Venue",
         "Local Attraction"
       ],
-      "description": "The Boat Yard is an adults-only bar, restaurant, pool hall, entertainment venue, and local attraction in Mead near Durant and Lake Texoma. The venue offers signature drinks, a full food menu, karaoke anytime, live entertainment, free pool, weekly pool tournaments, cornhole, horseshoes, other yard games, outdoor seating, and a dog-friendly atmosphere. One of its most distinctive features is a row of upright boats inspired by Cadillac Ranch near Amarillo. Guests are welcome to paint the boats, creating an interactive, constantly changing public art display and photo stop.",
+      "description": "The Boat Yard is an adults-only bar, restaurant, pool hall, entertainment venue, and local attraction in Mead near Durant and Lake Texoma. Guests can enjoy signature drinks, a full food menu, karaoke anytime, live entertainment, free pool, weekly pool tournaments, cornhole, horseshoes, outdoor yard games, and a relaxed, dog-friendly atmosphere with outdoor seating. One of its most distinctive features is a row of upright boats inspired by Cadillac Ranch near Amarillo. Visitors are encouraged to paint the boats, creating an interactive, ever-changing public art display and unique photo opportunity.",
       "phone": "580-768-8163",
       "email": "theboatyard580@gmail.com",
       "website": null,
@@ -22282,6 +22282,7 @@
       "instagram": "https://www.instagram.com/theboatyard580",
       "logo_url": "/images/businesses/the-boat-yard-mead-logo.jpg",
       "logo_alt": "The Boat Yard logo",
+      "pet_friendly": true,
       "hours": {
         "monday": "12:00 PM - 12:00 AM",
         "tuesday": "12:00 PM - 12:00 AM",
@@ -22296,8 +22297,8 @@
       "recurring_events": true,
       "mine_for_events": true,
       "event_mining_priority": "high",
-      "verification_note": "Updated August 1, 2026, using information provided directly by owner Carrie Scott and confirmed through The Boat Yard's official Facebook and Instagram accounts. Confirmed details include the Mead address, phone number, email address, operating hours, 21-and-older policy, dog-friendly outdoor seating, karaoke anytime, free pool, weekly pool tournaments, live entertainment, food and drink service, yard games, and the interactive paint-the-boats attraction inspired by Cadillac Ranch near Amarillo.",
-      "last_checked": "2026-08-02",
+      "verification_note": "Updated August 1, 2026, using information provided directly by owner Carrie Scott and confirmed through The Boat Yard's official Facebook and Instagram accounts. Confirmed details include the Mead address, phone number, email address, operating hours, 21-and-older policy, dog-friendly outdoor seating, karaoke anytime, free pool, weekly pool tournaments, live entertainment, food and drink service, yard games, and the interactive paintable boats attraction inspired by Cadillac Ranch near Amarillo.",
+      "last_checked": "2026-08-01",
       "event_types": [
         "Live music",
         "Karaoke",
@@ -22322,6 +22323,7 @@
         "Adults only",
         "21 and older",
         "Dog friendly",
+        "Pet Friendly",
         "Outdoor seating",
         "Signature drinks",
         "Full food menu",
@@ -22335,36 +22337,9 @@
         "Yard games",
         "Interactive paintable boats",
         "Cadillac Ranch-inspired attraction",
-        "Public art photo stop",
+        "Public art photo opportunity",
         "Smoke-free indoor environment",
         "Near Durant and Lake Texoma"
-      ],
-      "gallery": [
-        {
-          "url": "/images/businesses/the-boat-yard-mead/gallery-1785632868791-1.jpg",
-          "alt": "The Boat Yard photo 1",
-          "caption": null
-        },
-        {
-          "url": "/images/businesses/the-boat-yard-mead/gallery-1785632868791-2.jpg",
-          "alt": "The Boat Yard photo 2",
-          "caption": null
-        },
-        {
-          "url": "/images/businesses/the-boat-yard-mead/gallery-1785632868791-3.jpg",
-          "alt": "The Boat Yard photo 3",
-          "caption": null
-        },
-        {
-          "url": "/images/businesses/the-boat-yard-mead/gallery-1785632868791-4.jpg",
-          "alt": "The Boat Yard photo 4",
-          "caption": null
-        },
-        {
-          "url": "/images/businesses/the-boat-yard-mead/gallery-1785632868791-5.jpg",
-          "alt": "The Boat Yard photo 5",
-          "caption": null
-        }
       ]
     }
   ]
