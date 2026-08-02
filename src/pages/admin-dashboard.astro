@@ -1,0 +1,458 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Admin Dashboard | Texoma Weekend Guide"
+  description="Live directory metrics and data-quality dashboard for Texoma Weekend Guide."
+>
+  <main class="dashboard-shell">
+    <header class="dashboard-header">
+      <div>
+        <p class="eyebrow">TWG Admin</p>
+        <h1>Directory Dashboard</h1>
+        <p>Live counts, coverage, workload, and data-quality checks calculated directly from the published business and event directories.</p>
+      </div>
+      <nav class="admin-links" aria-label="Admin tools">
+        <a href="/admin">Full publisher</a>
+        <a href="/admin-business">Business publisher</a>
+        <a href="/admin-events">Event publisher</a>
+      </nav>
+    </header>
+
+    <section id="loading" class="notice">Loading current directory data…</section>
+    <section id="error" class="notice error" hidden></section>
+
+    <div id="dashboard" hidden>
+      <section aria-labelledby="headline-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">At a glance</p>
+            <h2 id="headline-title">Current directory health</h2>
+          </div>
+          <p id="generated-time" class="timestamp"></p>
+        </div>
+        <div id="headline-cards" class="metric-grid"></div>
+      </section>
+
+      <section class="split-grid">
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Movement</p>
+              <h2>This week</h2>
+            </div>
+          </div>
+          <div id="weekly-cards" class="compact-grid"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Publishing</p>
+              <h2>Record status</h2>
+            </div>
+          </div>
+          <div id="status-cards" class="compact-grid"></div>
+        </article>
+      </section>
+
+      <section class="panel danger-panel" aria-labelledby="attention-title">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Quality control</p>
+            <h2 id="attention-title">Needs attention</h2>
+          </div>
+          <span id="attention-total" class="pill"></span>
+        </div>
+        <div id="attention-grid" class="attention-grid"></div>
+      </section>
+
+      <section class="split-grid">
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Coverage</p>
+              <h2>Events by city</h2>
+            </div>
+          </div>
+          <div id="city-table" class="table-wrap"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Coverage</p>
+              <h2>Events by category</h2>
+            </div>
+          </div>
+          <div id="category-table" class="table-wrap"></div>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Venue depth</p>
+            <h2>Active events per venue</h2>
+          </div>
+          <span id="venue-summary" class="pill"></span>
+        </div>
+        <div id="venue-table" class="table-wrap"></div>
+      </section>
+
+      <section class="split-grid">
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Upcoming</p>
+              <h2>Next 14 days</h2>
+            </div>
+          </div>
+          <div id="upcoming-table" class="table-wrap"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Maintenance</p>
+              <h2>Oldest business checks</h2>
+            </div>
+          </div>
+          <div id="stale-table" class="table-wrap"></div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const DAY = 86_400_000;
+    const now = new Date();
+    const weekAgo = new Date(now.getTime() - 7 * DAY);
+    const inTwoDays = new Date(now.getTime() + 2 * DAY);
+    const inFourteenDays = new Date(now.getTime() + 14 * DAY);
+    const staleCutoff = new Date(now.getTime() - 180 * DAY);
+
+    const $ = (selector) => document.querySelector(selector);
+    const text = (value) => String(value ?? "").trim();
+    const array = (value) => Array.isArray(value) ? value : value ? [value] : [];
+    const date = (value) => {
+      if (!value) return null;
+      const parsed = new Date(value);
+      return Number.isNaN(parsed.getTime()) ? null : parsed;
+    };
+    const escapeHtml = (value) => text(value)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+    const formatDate = (value) => {
+      const parsed = value instanceof Date ? value : date(value);
+      return parsed ? parsed.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : "Unknown";
+    };
+    const formatDateTime = (value) => {
+      const parsed = value instanceof Date ? value : date(value);
+      return parsed ? parsed.toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : "Unknown";
+    };
+    const countBy = (items, getter) => {
+      const counts = new Map();
+      for (const item of items) {
+        for (const raw of array(getter(item))) {
+          const key = text(raw) || "Unspecified";
+          counts.set(key, (counts.get(key) ?? 0) + 1);
+        }
+      }
+      return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    };
+    const unique = (items) => [...new Set(items.filter(Boolean))];
+    const hasUsableHours = (business) => business?.hours && typeof business.hours === "object" && !Array.isArray(business.hours) && Object.keys(business.hours).length > 0;
+    const venueKey = (event) => text(event.venue_slug) || text(event.venue_name).toLowerCase();
+    const venueLabel = (event) => text(event.venue_name) || text(event.venue_slug) || "Unspecified venue";
+
+    function isActiveEvent(event) {
+      if (!event || event.publish_ready !== true || !["upcoming", "recurring"].includes(event.status)) return false;
+      const end = date(event.end_datetime);
+      if (end) return end >= now;
+      const start = date(event.start_datetime);
+      if (!start) return false;
+      if (event.status === "recurring" || event.recurring === true) return true;
+      const localEndOfDay = new Date(start);
+      localEndOfDay.setHours(23, 59, 59, 999);
+      return localEndOfDay >= now;
+    }
+
+    const metricCard = (label, value, detail = "", tone = "") => `
+      <article class="metric-card ${tone}">
+        <p>${escapeHtml(label)}</p>
+        <strong>${escapeHtml(value)}</strong>
+        ${detail ? `<span>${escapeHtml(detail)}</span>` : ""}
+      </article>`;
+
+    const compactCard = (label, value, detail = "") => `
+      <div class="compact-card">
+        <span>${escapeHtml(label)}</span>
+        <strong>${escapeHtml(value)}</strong>
+        ${detail ? `<small>${escapeHtml(detail)}</small>` : ""}
+      </div>`;
+
+    function renderTable(target, headers, rows, emptyMessage = "No matching records.") {
+      const element = $(target);
+      if (!rows.length) {
+        element.innerHTML = `<p class="empty">${escapeHtml(emptyMessage)}</p>`;
+        return;
+      }
+      element.innerHTML = `
+        <table>
+          <thead><tr>${headers.map((header) => `<th>${escapeHtml(header)}</th>`).join("")}</tr></thead>
+          <tbody>${rows.map((row) => `<tr>${row.map((cell) => `<td>${cell}</td>`).join("")}</tr>`).join("")}</tbody>
+        </table>`;
+    }
+
+    function attentionCard(title, count, examples, severity = "warn") {
+      const list = examples.slice(0, 6).map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+      return `
+        <article class="attention-card ${severity}">
+          <div><strong>${escapeHtml(count)}</strong><span>${escapeHtml(title)}</span></div>
+          ${list ? `<ul>${list}</ul>` : '<p class="clear">No problems found.</p>'}
+        </article>`;
+    }
+
+    async function loadJson(url) {
+      const response = await fetch(url, { cache: "no-store" });
+      if (!response.ok) throw new Error(`${url} returned ${response.status}`);
+      const raw = await response.text();
+      if (!raw.trim()) return {};
+      return JSON.parse(raw);
+    }
+
+    async function initialize() {
+      try {
+        const [businessData, eventData] = await Promise.all([
+          loadJson("/data/local-business-directory.json"),
+          loadJson("/data/local-event-directory.json")
+        ]);
+
+        const businesses = array(businessData.businesses);
+        const events = array(eventData.events);
+        const activeEvents = events.filter(isActiveEvent);
+        const activeVenueKeys = unique(activeEvents.map(venueKey));
+        const activeVenueMap = new Map();
+        for (const event of activeEvents) {
+          const key = venueKey(event) || "unspecified";
+          const current = activeVenueMap.get(key) ?? { name: venueLabel(event), slug: text(event.venue_slug), city: text(event.city), count: 0 };
+          current.count += 1;
+          if (!current.city) current.city = text(event.city);
+          activeVenueMap.set(key, current);
+        }
+
+        const publishedBusinesses = businesses.filter((business) => business?.publish_ready === true);
+        const recurringEvents = activeEvents.filter((event) => event.status === "recurring" || event.recurring === true);
+        const upcomingEvents = activeEvents.filter((event) => event.status === "upcoming" && event.recurring !== true);
+        const activeCities = unique(activeEvents.map((event) => text(event.city))).length;
+        const averageEventsPerVenue = activeVenueKeys.length ? activeEvents.length / activeVenueKeys.length : 0;
+
+        const eventsAddedThisWeek = events.filter((event) => {
+          const created = date(event.created_on) || date(event.updated_on);
+          return created && created >= weekAgo && created <= now;
+        });
+        const eventsExpiredThisWeek = events.filter((event) => {
+          const end = date(event.end_datetime);
+          return end && end >= weekAgo && end < now;
+        });
+        const businessesCheckedThisWeek = businesses.filter((business) => {
+          const checked = date(business.last_checked);
+          return checked && checked >= weekAgo && checked <= now;
+        });
+
+        $("#headline-cards").innerHTML = [
+          metricCard("Active events", activeEvents.length, `${recurringEvents.length} recurring`),
+          metricCard("Active venues", activeVenueKeys.length, `${averageEventsPerVenue.toFixed(2)} events per venue`),
+          metricCard("Published businesses", publishedBusinesses.length, `${businesses.length} total records`),
+          metricCard("Cities represented", activeCities, "Active event coverage"),
+          metricCard("Upcoming one-time", upcomingEvents.length, "Currently visible"),
+          metricCard("Recurring events", recurringEvents.length, "Currently visible")
+        ].join("");
+
+        $("#weekly-cards").innerHTML = [
+          compactCard("Events added", eventsAddedThisWeek.length),
+          compactCard("Events expired", eventsExpiredThisWeek.length),
+          compactCard("Net event change", eventsAddedThisWeek.length - eventsExpiredThisWeek.length),
+          compactCard("Businesses checked", businessesCheckedThisWeek.length)
+        ].join("");
+
+        const draftEvents = events.filter((event) => event.status === "draft").length;
+        const endedEvents = events.filter((event) => event.status === "ended").length;
+        const unpublishedEvents = events.filter((event) => event.publish_ready !== true).length;
+        const unpublishedBusinesses = businesses.filter((business) => business.publish_ready !== true).length;
+        $("#status-cards").innerHTML = [
+          compactCard("Event records", events.length),
+          compactCard("Business records", businesses.length),
+          compactCard("Draft events", draftEvents),
+          compactCard("Ended events", endedEvents),
+          compactCard("Unpublished events", unpublishedEvents),
+          compactCard("Unpublished businesses", unpublishedBusinesses)
+        ].join("");
+
+        const businessSlugs = new Set(businesses.map((business) => text(business.slug)).filter(Boolean));
+        const missingVenue = activeEvents.filter((event) => !text(event.venue_slug));
+        const brokenVenueLinks = activeEvents.filter((event) => text(event.venue_slug) && !businessSlugs.has(text(event.venue_slug)));
+        const missingFacebook = publishedBusinesses.filter((business) => !text(business.facebook));
+        const missingWebsite = publishedBusinesses.filter((business) => !text(business.website));
+        const missingHours = publishedBusinesses.filter((business) => !hasUsableHours(business));
+        const missingLocation = publishedBusinesses.filter((business) => !text(business.service_area_or_location));
+        const missingVerification = publishedBusinesses.filter((business) => !text(business.last_checked) || !text(business.verification_note));
+        const malformedHours = publishedBusinesses.filter((business) => business.hours && (typeof business.hours !== "object" || Array.isArray(business.hours)));
+        const expiringSoon = activeEvents.filter((event) => {
+          const end = date(event.end_datetime) || date(event.start_datetime);
+          return end && end >= now && end <= inTwoDays && event.status !== "recurring";
+        });
+        const staleBusinesses = publishedBusinesses.filter((business) => {
+          const checked = date(business.last_checked);
+          return !checked || checked < staleCutoff;
+        });
+
+        const slugCounts = countBy(businesses, (business) => text(business.slug));
+        const duplicateBusinesses = slugCounts.filter(([slug, count]) => slug !== "Unspecified" && count > 1);
+        const eventSlugCounts = countBy(events, (event) => text(event.event_slug));
+        const duplicateEvents = eventSlugCounts.filter(([slug, count]) => slug !== "Unspecified" && count > 1);
+
+        const attentionItems = [
+          ["Active events missing venue slug", missingVenue, (item) => item.event_name],
+          ["Broken venue relationships", brokenVenueLinks, (item) => `${item.event_name} → ${item.venue_slug}`],
+          ["Businesses missing Facebook", missingFacebook, (item) => item.business_name],
+          ["Businesses missing website", missingWebsite, (item) => item.business_name],
+          ["Businesses missing hours", missingHours, (item) => item.business_name],
+          ["Malformed business hours", malformedHours, (item) => item.business_name],
+          ["Businesses missing location", missingLocation, (item) => item.business_name],
+          ["Businesses missing verification", missingVerification, (item) => item.business_name],
+          ["Businesses stale 180+ days", staleBusinesses, (item) => item.business_name],
+          ["Events ending within 48 hours", expiringSoon, (item) => item.event_name]
+        ];
+        const problemTotal = attentionItems.reduce((sum, [, items]) => sum + items.length, 0) + duplicateBusinesses.length + duplicateEvents.length;
+        $("#attention-total").textContent = `${problemTotal} flagged items`;
+        $("#attention-grid").innerHTML = attentionItems.map(([title, items, labeler]) =>
+          attentionCard(title, items.length, items.map(labeler), items.length ? "warn" : "good")
+        ).join("") +
+          attentionCard("Duplicate business slugs", duplicateBusinesses.length, duplicateBusinesses.map(([slug, count]) => `${slug} (${count})`), duplicateBusinesses.length ? "bad" : "good") +
+          attentionCard("Duplicate event slugs", duplicateEvents.length, duplicateEvents.map(([slug, count]) => `${slug} (${count})`), duplicateEvents.length ? "bad" : "good");
+
+        renderTable("#city-table", ["City", "Active events"], countBy(activeEvents, (event) => text(event.city)).slice(0, 20).map(([label, count]) => [escapeHtml(label), `<strong>${count}</strong>`]));
+        renderTable("#category-table", ["Category", "Active events"], countBy(activeEvents, (event) => event.categories).slice(0, 20).map(([label, count]) => [escapeHtml(label), `<strong>${count}</strong>`]));
+
+        const venueRows = [...activeVenueMap.values()]
+          .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+          .map((venue) => [
+            venue.slug ? `<a href="/businesses/${encodeURIComponent(venue.slug)}/">${escapeHtml(venue.name)}</a>` : escapeHtml(venue.name),
+            escapeHtml(venue.city || "—"),
+            `<strong>${venue.count}</strong>`
+          ]);
+        $("#venue-summary").textContent = `${activeVenueKeys.length} venues • ${averageEventsPerVenue.toFixed(2)} avg.`;
+        renderTable("#venue-table", ["Venue", "City", "Active events"], venueRows);
+
+        const upcomingRows = activeEvents
+          .filter((event) => {
+            const start = date(event.start_datetime);
+            return start && start >= now && start <= inFourteenDays;
+          })
+          .sort((a, b) => date(a.start_datetime) - date(b.start_datetime))
+          .slice(0, 40)
+          .map((event) => [
+            text(event.event_slug) ? `<a href="/events/${encodeURIComponent(event.event_slug)}/">${escapeHtml(event.event_name)}</a>` : escapeHtml(event.event_name),
+            escapeHtml(formatDateTime(event.start_datetime)),
+            escapeHtml(venueLabel(event)),
+            escapeHtml(text(event.city) || "—")
+          ]);
+        renderTable("#upcoming-table", ["Event", "Starts", "Venue", "City"], upcomingRows, "No events are scheduled in the next 14 days.");
+
+        const staleRows = [...publishedBusinesses]
+          .sort((a, b) => {
+            const aDate = date(a.last_checked)?.getTime() ?? 0;
+            const bDate = date(b.last_checked)?.getTime() ?? 0;
+            return aDate - bDate;
+          })
+          .slice(0, 30)
+          .map((business) => [
+            text(business.slug) ? `<a href="/businesses/${encodeURIComponent(business.slug)}/">${escapeHtml(business.business_name)}</a>` : escapeHtml(business.business_name),
+            escapeHtml(formatDate(business.last_checked)),
+            escapeHtml(text(business.directory_status) || "—")
+          ]);
+        renderTable("#stale-table", ["Business", "Last checked", "Status"], staleRows);
+
+        $("#generated-time").textContent = `Calculated ${now.toLocaleString("en-US")}`;
+        $("#loading").hidden = true;
+        $("#dashboard").hidden = false;
+      } catch (error) {
+        $("#loading").hidden = true;
+        const message = error instanceof Error ? error.message : "Unknown dashboard error.";
+        $("#error").textContent = `Dashboard could not load: ${message}`;
+        $("#error").hidden = false;
+      }
+    }
+
+    initialize();
+  </script>
+
+  <style>
+    :global(body) { background: #f2f7f6; }
+    .dashboard-shell { width: min(1440px, calc(100% - 2rem)); margin: 0 auto; padding: 2rem 0 5rem; color: #102f36; }
+    .dashboard-header { display: flex; justify-content: space-between; gap: 2rem; align-items: end; margin-bottom: 1.5rem; }
+    .dashboard-header h1 { margin: .15rem 0 .45rem; font-size: clamp(2rem, 5vw, 3.6rem); line-height: 1; color: #0d3440; }
+    .dashboard-header p { margin: 0; max-width: 760px; }
+    .eyebrow { color: #15776f; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; font-size: .75rem; }
+    .admin-links { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .55rem; }
+    .admin-links a { color: #0d4e55; background: white; border: 1px solid #bfd6d2; border-radius: 999px; padding: .65rem .9rem; font-weight: 700; text-decoration: none; }
+    .admin-links a:hover { border-color: #15776f; }
+    .notice { border-radius: 14px; padding: 1rem 1.15rem; background: #fff; border: 1px solid #cfe0dd; }
+    .notice.error { background: #fff4f2; border-color: #e0a29a; color: #7e2118; }
+    section + section { margin-top: 1.25rem; }
+    .section-heading, .panel-heading { display: flex; justify-content: space-between; gap: 1rem; align-items: center; margin-bottom: 1rem; }
+    .section-heading h2, .panel-heading h2 { margin: .1rem 0 0; color: #0d3440; }
+    .timestamp { color: #547078; font-size: .9rem; }
+    .metric-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: .85rem; }
+    .metric-card { min-height: 135px; background: linear-gradient(150deg, #0d4e55, #15776f); color: white; padding: 1.1rem; border-radius: 18px; box-shadow: 0 8px 22px rgb(13 78 85 / 14%); display: flex; flex-direction: column; }
+    .metric-card p { margin: 0; font-weight: 700; opacity: .86; }
+    .metric-card strong { display: block; margin: auto 0 .2rem; font-size: clamp(2rem, 4vw, 3rem); line-height: 1; }
+    .metric-card span { font-size: .82rem; opacity: .8; }
+    .split-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+    .panel { background: white; border: 1px solid #d3e2df; border-radius: 18px; padding: 1.2rem; box-shadow: 0 5px 18px rgb(12 58 65 / 6%); }
+    .danger-panel { border-color: #d8c6a2; }
+    .compact-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .7rem; }
+    .compact-card { border: 1px solid #d5e3e0; background: #f8fbfa; border-radius: 13px; padding: .85rem; display: flex; flex-direction: column; min-height: 90px; }
+    .compact-card span { color: #547078; font-size: .85rem; }
+    .compact-card strong { font-size: 1.8rem; margin-top: auto; color: #0d4e55; }
+    .compact-card small { color: #70878c; }
+    .pill { display: inline-flex; border-radius: 999px; background: #e3f1ee; color: #0d5e5a; padding: .45rem .7rem; font-size: .82rem; font-weight: 800; }
+    .attention-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .75rem; }
+    .attention-card { border: 1px solid #ead8ab; background: #fffbef; border-radius: 14px; padding: .9rem; min-height: 135px; }
+    .attention-card.bad { border-color: #e3aba4; background: #fff3f1; }
+    .attention-card.good { border-color: #b9d9cc; background: #f2fbf7; }
+    .attention-card > div { display: flex; align-items: baseline; gap: .55rem; }
+    .attention-card strong { font-size: 1.7rem; color: #76480a; }
+    .attention-card.bad strong { color: #9a2c22; }
+    .attention-card.good strong { color: #146448; }
+    .attention-card span { font-weight: 800; }
+    .attention-card ul { padding-left: 1rem; margin: .65rem 0 0; color: #5a5150; font-size: .78rem; }
+    .attention-card .clear { margin: .65rem 0 0; color: #39715e; font-size: .82rem; }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+    th { color: #547078; font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; text-align: left; border-bottom: 2px solid #d5e3e0; padding: .65rem .55rem; }
+    td { border-bottom: 1px solid #e2ecea; padding: .7rem .55rem; vertical-align: top; }
+    td:last-child, th:last-child { text-align: right; }
+    td a { color: #0a6765; font-weight: 750; text-decoration: none; }
+    td a:hover { text-decoration: underline; }
+    .empty { color: #657b80; font-style: italic; }
+    @media (max-width: 1150px) {
+      .metric-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .attention-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 760px) {
+      .dashboard-shell { width: min(100% - 1rem, 1440px); padding-top: 1rem; }
+      .dashboard-header, .section-heading, .panel-heading { align-items: flex-start; flex-direction: column; }
+      .admin-links { justify-content: flex-start; }
+      .metric-grid, .split-grid, .attention-grid { grid-template-columns: 1fr; }
+      .compact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .metric-card { min-height: 115px; }
+    }
+  </style>
+</BaseLayout>
