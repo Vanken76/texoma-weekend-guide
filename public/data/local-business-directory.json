@@ -23757,7 +23757,7 @@
     {
       "business_name": "Herald Democrat",
       "slug": "herald-democrat-sherman",
-      "description": "The Herald Democrat is the primary daily newspaper serving Sherman, Denison, Grayson County, and the greater Texoma region. Founded from the merger of the Sherman Democrat and the Denison Herald, it provides local news, sports, business coverage, opinion, obituaries, public notices, community events, and digital editions.",
+      "description": "The Herald Democrat is the primary daily newspaper serving Sherman, Denison, Grayson County, and the greater Texoma region. It provides local news, sports, business coverage, opinion, obituaries, public notices, community events, and digital editions.",
       "short_description": "Texoma's local daily newspaper serving Sherman, Denison, and Grayson County.",
       "categories": [
         "Newspaper",
@@ -23772,7 +23772,7 @@
       "phone": "(903) 893-8181",
       "email": "",
       "website": "https://www.heralddemocrat.com",
-      "facebook": "",
+      "facebook": "https://www.facebook.com/HDTexoma",
       "instagram": "",
       "youtube": "",
       "x": "",
@@ -23789,12 +23789,12 @@
       "price_range": "",
       "features": [
         "Local News",
-        "Sports Coverage",
+        "Sports",
         "Community Events",
         "Opinion",
         "Obituaries",
-        "Classifieds",
         "Public Notices",
+        "Classifieds",
         "Digital Edition"
       ],
       "service_area": [
