@@ -19,7 +19,6 @@ const siteURL = Astro.site ?? new URL("https://texomaweekendguide.com");
 const canonicalURL = new URL(Astro.url.pathname, siteURL);
 const socialImageURL = new URL(image, siteURL);
 const isEventAdmin = Astro.url.pathname === "/admin-events" || Astro.url.pathname === "/admin-events/";
-const isBusinessAdmin = Astro.url.pathname === "/admin-business" || Astro.url.pathname === "/admin-business/";
 const isEventsPage = Astro.url.pathname === "/events" || Astro.url.pathname === "/events/";
 const isBusinessesPage = Astro.url.pathname === "/businesses" || Astro.url.pathname === "/businesses/";
 const isBusinessSection = Astro.url.pathname.startsWith("/businesses/");
@@ -30,40 +29,28 @@ const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname ==
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-    />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
     <link rel="icon" type="image/jpeg" href="/images/logo.jpg" />
-
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Texoma Weekend Guide" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={socialImageURL} />
     <meta property="og:url" content={canonicalURL} />
-
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={socialImageURL} />
-
     <title>{title}</title>
   </head>
 
   <body>
     <Header />
-
-    <main>
-      <slot />
-    </main>
-
+    <main><slot /></main>
     <Footer />
     {isEventAdmin && <script is:inline src="/admin-events-publish-fix.js?v=6"></script>}
-    {isBusinessAdmin && <script is:inline src="/admin-business-gallery.js?v=1"></script>}
     {isEventsPage && <script is:inline src="/event-address-display.js?v=2"></script>}
     {isEventsPage && <script is:inline src="/event-detail-links.js?v=3"></script>}
     {isEventsPage && <script is:inline src="/event-filter-links.js?v=2"></script>}
