@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 122,
-  "publish_ready_count": 115,
+  "event_count": 123,
+  "publish_ready_count": 116,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -7025,6 +7025,67 @@
       "last_checked": "2026-08-02",
       "created_on": "2026-08-02",
       "updated_on": "2026-08-02"
+    },
+    {
+      "event_slug": "weekly-9-ball-tournament-the-boat-yard-mead",
+      "event_name": "Weekly 9-Ball Tournament at The Boat Yard",
+      "description": "Join The Boat Yard every Wednesday at 8:00 PM for its weekly 9-ball tournament featuring cash prizes. Guests can also enjoy $1 wings all day and karaoke during the evening. Contact The Boat Yard directly for entry fees, registration details, tournament format, and prize amounts.",
+      "start_datetime": "2026-08-05T20:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "the-boat-yard-mead"
+      ],
+      "venue_name": "The Boat Yard",
+      "address": "1116 Streetman Rd",
+      "city": "Mead",
+      "state": "OK",
+      "postal_code": "73449",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Pool Tournament",
+        "Bar Games",
+        "Nightlife",
+        "Food & Drink"
+      ],
+      "tags": [
+        "9-ball",
+        "pool tournament",
+        "cash prizes",
+        "$1 wings",
+        "karaoke",
+        "Wednesday",
+        "The Boat Yard",
+        "Mead",
+        "Lake Texoma"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "Tournament entry fee and prize amounts have not been published. Wings are $1 each all day every Wednesday.",
+      "audience": [
+        "Adults",
+        "Pool Players",
+        "Nightlife"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/weekly-9-ball-tournament-the-boat-yard-mead.jpg",
+      "official_url": null,
+      "facebook_url": "https://www.facebook.com/theboatyard580",
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "RRULE:FREQ=WEEKLY;BYDAY=WE",
+      "recurrence_start_date": "2026-08-05",
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from multiple official Facebook posts by The Boat Yard. The weekly 9-ball tournament begins every Wednesday at 8:00 PM and features cash prizes. The venue also advertises $1 wings all day Wednesday and karaoke. No ending time, entry fee, registration procedure, tournament format, prize amounts, or age restriction were published.",
+      "last_checked": "2026-08-02",
+      "created_on": "2026-08-02",
+      "updated_on": "2026-08-02",
+      "partner_business_slugs": [],
+      "partner_names": []
     }
   ]
 }
