@@ -5,8 +5,8 @@
   "generated_on": "2026-08-02",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 566,
-  "publish_ready_count": 230,
+  "business_count": 567,
+  "publish_ready_count": 231,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -23861,6 +23861,78 @@
       "seo_description": "Discover Tallow & Tortilla in Durant, Oklahoma. Serving breakfast tacos, burritos, brunch and lunch in downtown Durant.",
       "logo_url": "",
       "hero_image_url": ""
+    },
+    {
+      "business_name": "Goodies On Commerce",
+      "slug": "goodies-on-commerce-gainesville-tx",
+      "description": "Locally owned casual fine dining restaurant in historic downtown Gainesville serving breakfast, lunch, dinner, coffee, desserts, charcuterie, catering, and chef specials in a welcoming atmosphere.",
+      "short_description": "Downtown Gainesville restaurant serving breakfast, lunch, dinner, coffee, desserts, and catering.",
+      "business_categories": [
+        "Restaurant",
+        "Breakfast Restaurant",
+        "Brunch Restaurant",
+        "Lunch Restaurant",
+        "Dinner Restaurant",
+        "Cafe",
+        "Coffee Shop",
+        "Caterer"
+      ],
+      "website": "https://goodiesoncommerce.com",
+      "facebook": "https://www.facebook.com/goodiesoncommerce",
+      "instagram": "https://www.instagram.com/goodiesoncommerce",
+      "email": "foodies@goodiesoncommerce.com",
+      "phone": "(940) 242-1123",
+      "address": "111 N Commerce St",
+      "city": "Gainesville",
+      "state": "TX",
+      "postal_code": "76240",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "hours": {
+        "monday": "08:00-21:00",
+        "tuesday": "08:00-21:00",
+        "wednesday": "08:00-21:00",
+        "thursday": "08:00-21:00",
+        "friday": "08:00-22:00",
+        "saturday": "08:00-22:00",
+        "sunday": "Closed"
+      },
+      "price_range": "$$",
+      "service_area": [
+        "Gainesville",
+        "Cooke County",
+        "North Texas"
+      ],
+      "features": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Coffee",
+        "Desserts",
+        "Charcuterie",
+        "Catering",
+        "Outdoor Seating",
+        "Takeout",
+        "Online Ordering",
+        "Downtown Location"
+      ],
+      "tags": [
+        "restaurant",
+        "breakfast",
+        "brunch",
+        "lunch",
+        "dinner",
+        "coffee",
+        "desserts",
+        "catering",
+        "charcuterie",
+        "gainesville",
+        "cooke-county"
+      ],
+      "featured": false,
+      "publish_ready": true,
+      "status": "active"
     }
   ]
 }
