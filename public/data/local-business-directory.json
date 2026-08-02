@@ -5,8 +5,8 @@
   "generated_on": "2026-08-02",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 565,
-  "publish_ready_count": 229,
+  "business_count": 566,
+  "publish_ready_count": 230,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -23808,6 +23808,59 @@
       "featured": false,
       "verified": true,
       "status": "active"
+    },
+    {
+      "business_name": "Tallow & Tortilla",
+      "slug": "tallow-tortilla-durant-ok",
+      "description": "Locally owned breakfast, brunch, and lunch restaurant in downtown Durant specializing in breakfast tacos, burritos, brunch favorites, and fresh Mexican-inspired cuisine.",
+      "short_description": "Breakfast tacos, burritos, brunch, and lunch in downtown Durant.",
+      "business_categories": [
+        "Restaurant",
+        "Breakfast Restaurant",
+        "Brunch Restaurant",
+        "Mexican Restaurant",
+        "Tex-Mex Restaurant"
+      ],
+      "address1": "101 E Main Street",
+      "address2": "",
+      "city": "Durant",
+      "state": "OK",
+      "zip": "74701",
+      "country": "US",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "facebook": "https://www.facebook.com/TallowAndTortilla",
+      "instagram": "https://www.instagram.com/tallowandtortilla/",
+      "youtube": "",
+      "tiktok": "",
+      "x": "",
+      "threads": "",
+      "linkedin": "",
+      "hours": {
+        "monday": "05:00-14:00",
+        "tuesday": "05:00-14:00",
+        "wednesday": "05:00-14:00",
+        "thursday": "05:00-14:00",
+        "friday": "05:00-14:00",
+        "saturday": "09:00-15:00",
+        "sunday": "09:00-15:00"
+      },
+      "price_range": "$$",
+      "publish_ready": true,
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "pet_friendly": false,
+      "kid_friendly": true,
+      "wheelchair_accessible": false,
+      "latitude": null,
+      "longitude": null,
+      "notes": "Grand opening August 3, 2026. Located in historic downtown Durant. Breakfast tacos and burritos served daily with brunch and lunch offerings.",
+      "seo_title": "Tallow & Tortilla | Durant, OK | Texoma Weekend Guide",
+      "seo_description": "Discover Tallow & Tortilla in Durant, Oklahoma. Serving breakfast tacos, burritos, brunch and lunch in downtown Durant.",
+      "logo_url": "",
+      "hero_image_url": ""
     }
   ]
 }
