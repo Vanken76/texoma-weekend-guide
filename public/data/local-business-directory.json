@@ -5,8 +5,8 @@
   "generated_on": "2026-08-02",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 575,
-  "publish_ready_count": 239,
+  "business_count": 576,
+  "publish_ready_count": 240,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -24836,6 +24836,105 @@
         "American Legion Riders",
         "RV spaces with utility hookups",
         "Veterans and military-family support"
+      ]
+    },
+    {
+      "slug": "handels-homemade-ice-cream-prosper",
+      "business_name": "Handel's Homemade Ice Cream - Prosper",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "201 W Frontier Pkwy, Suite 50, Prosper, TX 75078",
+      "category": [
+        "Ice Cream Shop",
+        "Dessert Shop"
+      ],
+      "tags": [
+        "Prosper",
+        "Homemade Ice Cream",
+        "Desserts",
+        "Milkshakes",
+        "Sundaes",
+        "Family Friendly",
+        "Takeout",
+        "Frozen Treats"
+      ],
+      "description": "Handel's Homemade Ice Cream serves fresh, handmade ice cream prepared in small batches using recipes that date back to 1945. The Prosper location offers dozens of rotating flavors, hand-dipped cones, sundaes, shakes, hurricanes, banana splits, pints, quarts and seasonal specialties in a family-friendly setting.",
+      "why_visit": "Whether you're cooling off after a day around Prosper or looking for a dessert destination, Handel's offers a large selection of premium homemade ice cream with rotating flavors and generous portions.",
+      "why_its_unique": "Founded in Youngstown, Ohio in 1945, Handel's still makes its ice cream fresh on-site and rotates from a library of more than 100 flavors throughout the year.",
+      "phone": "469-715-3413",
+      "email": null,
+      "website": "https://handelsicecream.com/store/prosper/",
+      "facebook": "https://www.facebook.com/handels.prosper",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": "Handel's Homemade Ice Cream logo",
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM - 10:00 PM",
+        "tuesday": "11:00 AM - 10:00 PM",
+        "wednesday": "11:00 AM - 10:00 PM",
+        "thursday": "11:00 AM - 10:00 PM",
+        "friday": "11:00 AM - 11:00 PM",
+        "saturday": "11:00 AM - 11:00 PM",
+        "sunday": "11:00 AM - 10:00 PM"
+      },
+      "hours_note": "Hours verified from the official Handel's Prosper location page. Holiday hours may vary.",
+      "at_a_glance": {
+        "average_visit": "20-45 minutes",
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Fresh homemade ice cream",
+        "Rotating flavor selection",
+        "Ice cream cones",
+        "Cups",
+        "Milkshakes",
+        "Sundaes",
+        "Banana splits",
+        "Hurricanes",
+        "Pints and quarts",
+        "Takeout"
+      ],
+      "good_to_know": [
+        "Flavors rotate daily.",
+        "Seasonal flavors are offered throughout the year.",
+        "Pints and quarts are available to take home.",
+        "Check the official website for today's flavor lineup."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "verification_note": "Verified from the official Handel's Prosper location page and official Facebook page. Opened June 2025.",
+      "last_checked": "2026-08-02",
+      "event_types": [],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page"
+      ],
+      "features": [
+        "Homemade ice cream",
+        "National brand",
+        "Family friendly",
+        "Fresh made daily",
+        "Rotating flavors"
       ]
     }
   ]
