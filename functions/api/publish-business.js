@@ -1,6 +1,8 @@
 const REPOSITORY = "Vanken76/texoma-weekend-guide";
 const FILE_PATH = "public/data/local-business-directory.json";
+const LOGO_DIRECTORY = "public/images/businesses";
 const BRANCH = "main";
+const MAX_LOGO_BYTES = 4 * 1024 * 1024;
 
 const jsonResponse = (body, status = 200) =>
   new Response(JSON.stringify(body), {
@@ -43,6 +45,69 @@ const validateBusiness = (business) => {
   return problems;
 };
 
+const validateLogo = (logo) => {
+  if (!logo) return [];
+  const problems = [];
+  const allowedTypes = new Set(["image/jpeg", "image/png", "image/webp"]);
+  if (!allowedTypes.has(logo.type)) problems.push("Logo must be a JPG, PNG, or WebP image.");
+  if (!logo.data || typeof logo.data !== "string") problems.push("Logo image data is missing.");
+  if (!Number.isFinite(logo.size) || logo.size <= 0) problems.push("Logo file size is invalid.");
+  if (logo.size > MAX_LOGO_BYTES) problems.push("Logo must be 4 MB or smaller.");
+  return problems;
+};
+
+const extensionForType = (type) => ({
+  "image/jpeg": "jpg",
+  "image/png": "png",
+  "image/webp": "webp"
+}[type] || null);
+
+const githubHeadersFor = (token) => ({
+  accept: "application/vnd.github+json",
+  authorization: `Bearer ${token}`,
+  "x-github-api-version": "2022-11-28",
+  "user-agent": "texoma-weekend-guide-business-publisher"
+});
+
+const upsertLogo = async ({ business, logo, githubHeaders }) => {
+  if (!logo) return null;
+  const extension = extensionForType(logo.type);
+  if (!extension) throw new Error("Unsupported logo file type.");
+
+  const imagePath = `${LOGO_DIRECTORY}/${business.slug}-logo.${extension}`;
+  const apiUrl = `https://api.github.com/repos/${REPOSITORY}/contents/${imagePath}`;
+  const currentResponse = await fetch(`${apiUrl}?ref=${BRANCH}`, { headers: githubHeaders });
+  let existingSha = null;
+  if (currentResponse.ok) {
+    const current = await currentResponse.json();
+    existingSha = current.sha || null;
+  } else if (currentResponse.status !== 404) {
+    throw new Error(`GitHub could not check the current logo (${currentResponse.status}).`);
+  }
+
+  const body = {
+    message: `Upload business logo ${business.slug} ${new Date().toISOString()}`,
+    content: logo.data.replace(/\s/g, ""),
+    branch: BRANCH
+  };
+  if (existingSha) body.sha = existingSha;
+
+  const uploadResponse = await fetch(apiUrl, {
+    method: "PUT",
+    headers: { ...githubHeaders, "content-type": "application/json" },
+    body: JSON.stringify(body)
+  });
+  const uploadResult = await uploadResponse.json();
+  if (!uploadResponse.ok) {
+    throw new Error(uploadResult?.message || `GitHub rejected the logo upload (${uploadResponse.status}).`);
+  }
+
+  return {
+    path: `/${imagePath.replace(/^public\//, "")}`,
+    commit: uploadResult?.commit?.sha ?? null
+  };
+};
+
 export const onRequestPost = async ({ request, env }) => {
   if (!env.ADMIN_KEY || !env.GITHUB_TOKEN) {
     return jsonResponse({ error: "Publisher secrets are not configured in Cloudflare." }, 500);
@@ -61,21 +126,28 @@ export const onRequestPost = async ({ request, env }) => {
   }
 
   const business = payload?.business ?? payload;
+  const logo = payload?.logo || null;
   const removeSlugs = Array.isArray(payload?.remove_slugs)
     ? payload.remove_slugs.filter((slug) => typeof slug === "string" && slug.trim()).map((slug) => slug.trim())
     : [];
 
-  const problems = validateBusiness(business);
+  const problems = [...validateBusiness(business), ...validateLogo(logo)];
   if (problems.length) {
     return jsonResponse({ error: "Business validation failed.", problems }, 400);
   }
 
-  const githubHeaders = {
-    accept: "application/vnd.github+json",
-    authorization: `Bearer ${env.GITHUB_TOKEN}`,
-    "x-github-api-version": "2022-11-28",
-    "user-agent": "texoma-weekend-guide-business-publisher"
-  };
+  const githubHeaders = githubHeadersFor(env.GITHUB_TOKEN);
+  let logoResult = null;
+  try {
+    logoResult = await upsertLogo({ business, logo, githubHeaders });
+  } catch (error) {
+    return jsonResponse({ error: error instanceof Error ? error.message : "Logo upload failed." }, 502);
+  }
+
+  if (logoResult) {
+    business.logo_url = logoResult.path;
+    business.logo_alt = `${business.business_name} logo`;
+  }
 
   const fileUrl = `https://api.github.com/repos/${REPOSITORY}/contents/${FILE_PATH}?ref=${BRANCH}`;
   const currentResponse = await fetch(fileUrl, { headers: githubHeaders });
@@ -140,6 +212,8 @@ export const onRequestPost = async ({ request, env }) => {
     removed_count: removedCount,
     business_count: directory.business_count,
     publish_ready_count: directory.publish_ready_count,
+    logo_url: logoResult?.path ?? business.logo_url ?? null,
+    logo_commit: logoResult?.commit ?? null,
     commit: updateResult?.commit?.sha ?? null
   });
 };
