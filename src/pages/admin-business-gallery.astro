@@ -1,0 +1,241 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Business Gallery Admin | Texoma Weekend Guide" description="Private business photo-gallery manager.">
+  <section class="gallery-admin">
+    <header>
+      <p class="eyebrow">TWG Admin</p>
+      <h1>Business Gallery Manager</h1>
+      <p>Manage business photos separately from the business publisher. Enter a business slug to load its current gallery, add photos, remove individual photos, or clear the gallery.</p>
+    </header>
+
+    <section class="panel">
+      <label for="admin-key">Admin key</label>
+      <input id="admin-key" type="password" autocomplete="current-password" placeholder="Enter your private publishing key" />
+
+      <label for="business-slug">Business slug</label>
+      <div class="slug-row">
+        <input id="business-slug" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="Example: the-boat-yard-mead" />
+        <button id="load-gallery" type="button">Load gallery</button>
+      </div>
+
+      <section id="current-section" class="current-section" hidden>
+        <div class="current-heading">
+          <div>
+            <h2 id="business-name">Current gallery</h2>
+            <p id="gallery-count"></p>
+          </div>
+          <button id="clear-gallery" class="danger" type="button">Clear entire gallery</button>
+        </div>
+        <div id="current-gallery" class="current-gallery"></div>
+      </section>
+
+      <hr />
+
+      <label for="gallery-files">Add gallery photos</label>
+      <input id="gallery-files" type="file" accept="image/jpeg,image/png,image/webp" multiple />
+      <p class="helper">Choose up to 12 JPG, PNG, or WebP files, maximum 4 MB each.</p>
+      <div id="new-previews" class="new-previews"></div>
+
+      <label class="check-row"><input id="replace-gallery" type="checkbox" /> Replace the existing gallery instead of adding to it</label>
+      <button id="upload-gallery" type="button">Upload selected photos</button>
+
+      <section class="results" aria-live="polite">
+        <h2>Status</h2>
+        <p id="status">Enter a slug and load its gallery.</p>
+        <ul id="problems"></ul>
+      </section>
+    </section>
+  </section>
+
+  <script>
+    const keyInput = document.querySelector("#admin-key");
+    const slugInput = document.querySelector("#business-slug");
+    const loadButton = document.querySelector("#load-gallery");
+    const currentSection = document.querySelector("#current-section");
+    const businessName = document.querySelector("#business-name");
+    const galleryCount = document.querySelector("#gallery-count");
+    const currentGallery = document.querySelector("#current-gallery");
+    const clearGalleryButton = document.querySelector("#clear-gallery");
+    const filesInput = document.querySelector("#gallery-files");
+    const newPreviews = document.querySelector("#new-previews");
+    const replaceInput = document.querySelector("#replace-gallery");
+    const uploadButton = document.querySelector("#upload-gallery");
+    const status = document.querySelector("#status");
+    const problems = document.querySelector("#problems");
+
+    if (!(keyInput instanceof HTMLInputElement) || !(slugInput instanceof HTMLInputElement) || !(loadButton instanceof HTMLButtonElement) || !(currentSection instanceof HTMLElement) || !(businessName instanceof HTMLElement) || !(galleryCount instanceof HTMLElement) || !(currentGallery instanceof HTMLElement) || !(clearGalleryButton instanceof HTMLButtonElement) || !(filesInput instanceof HTMLInputElement) || !(newPreviews instanceof HTMLElement) || !(replaceInput instanceof HTMLInputElement) || !(uploadButton instanceof HTMLButtonElement) || !(status instanceof HTMLElement) || !(problems instanceof HTMLUListElement)) throw new Error("Gallery admin controls could not be initialized.");
+
+    const MAX_BYTES = 4 * 1024 * 1024;
+    const ALLOWED = new Set(["image/jpeg", "image/png", "image/webp"]);
+    const savedKey = sessionStorage.getItem("twg-admin-key");
+    if (savedKey) keyInput.value = savedKey;
+    keyInput.addEventListener("input", () => keyInput.value ? sessionStorage.setItem("twg-admin-key", keyInput.value) : sessionStorage.removeItem("twg-admin-key"));
+
+    let currentItems = [];
+    let selectedFiles = [];
+    let previewUrls = [];
+
+    const setStatus = (message, items = [], good = false) => {
+      status.textContent = message;
+      status.className = good ? "success" : "error";
+      problems.replaceChildren();
+      for (const item of items) {
+        const li = document.createElement("li");
+        li.textContent = item;
+        problems.appendChild(li);
+      }
+    };
+
+    const validSlug = () => /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slugInput.value.trim());
+    const requireBasics = () => {
+      if (!keyInput.value) { setStatus("Enter the admin key."); keyInput.focus(); return false; }
+      if (!validSlug()) { setStatus("Enter a valid lowercase business slug."); slugInput.focus(); return false; }
+      return true;
+    };
+
+    const renderCurrent = () => {
+      currentGallery.replaceChildren();
+      galleryCount.textContent = `${currentItems.length} photo${currentItems.length === 1 ? "" : "s"}`;
+      clearGalleryButton.disabled = currentItems.length === 0;
+      if (!currentItems.length) {
+        const empty = document.createElement("p");
+        empty.textContent = "No gallery photos yet.";
+        currentGallery.appendChild(empty);
+        return;
+      }
+      currentItems.forEach((item, index) => {
+        const url = typeof item === "string" ? item : item.url;
+        const caption = typeof item === "object" ? item.caption : null;
+        const card = document.createElement("article");
+        card.className = "photo-card";
+        const img = document.createElement("img");
+        img.src = url;
+        img.alt = typeof item === "object" && item.alt ? item.alt : `Gallery photo ${index + 1}`;
+        const text = document.createElement("p");
+        text.textContent = caption || url;
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "danger";
+        button.textContent = "Remove photo";
+        button.addEventListener("click", async () => {
+          if (!confirm("Remove this photo from the gallery and delete its file?")) return;
+          await updateGallery({ action: "delete", url });
+        });
+        card.append(img, text, button);
+        currentGallery.appendChild(card);
+      });
+    };
+
+    const loadGallery = async () => {
+      if (!requireBasics()) return;
+      loadButton.disabled = true;
+      setStatus("Loading gallery…", [], true);
+      try {
+        const response = await fetch(`/api/publish-business-gallery?slug=${encodeURIComponent(slugInput.value.trim())}`, { headers: { "x-admin-key": keyInput.value } });
+        const result = await response.json();
+        if (!response.ok) { setStatus(result.error || "Gallery could not be loaded.", result.problems || []); return; }
+        currentItems = Array.isArray(result.gallery) ? result.gallery : [];
+        businessName.textContent = `${result.business_name} gallery`;
+        currentSection.hidden = false;
+        renderCurrent();
+        setStatus("Gallery loaded.", [], true);
+      } catch (error) { setStatus(`Gallery load failed: ${error instanceof Error ? error.message : "Unknown error."}`); }
+      finally { loadButton.disabled = false; }
+    };
+
+    const updateGallery = async (payload) => {
+      if (!requireBasics()) return false;
+      try {
+        const response = await fetch("/api/publish-business-gallery", {
+          method: "POST",
+          headers: { "content-type": "application/json", "x-admin-key": keyInput.value },
+          body: JSON.stringify({ slug: slugInput.value.trim(), ...payload })
+        });
+        const result = await response.json();
+        if (!response.ok) { setStatus(result.error || "Gallery update failed.", result.problems || []); return false; }
+        currentItems = Array.isArray(result.gallery) ? result.gallery : currentItems;
+        currentSection.hidden = false;
+        renderCurrent();
+        setStatus(result.message || "Gallery updated.", [], true);
+        return true;
+      } catch (error) { setStatus(`Gallery update failed: ${error instanceof Error ? error.message : "Unknown error."}`); return false; }
+    };
+
+    const fileToBase64 = (file) => new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const value = typeof reader.result === "string" ? reader.result : "";
+        const comma = value.indexOf(",");
+        comma >= 0 ? resolve(value.slice(comma + 1)) : reject(new Error("Image encoding failed."));
+      };
+      reader.onerror = () => reject(new Error("Image reading failed."));
+      reader.readAsDataURL(file);
+    });
+
+    filesInput.addEventListener("change", () => {
+      previewUrls.forEach((url) => URL.revokeObjectURL(url));
+      previewUrls = [];
+      selectedFiles = Array.from(filesInput.files || []);
+      newPreviews.replaceChildren();
+      const issues = [];
+      if (selectedFiles.length > 12) issues.push("Choose no more than 12 photos at once.");
+      selectedFiles.forEach((file, index) => {
+        if (!ALLOWED.has(file.type)) issues.push(`${file.name} is not JPG, PNG, or WebP.`);
+        if (file.size > MAX_BYTES) issues.push(`${file.name} is larger than 4 MB.`);
+        const card = document.createElement("article");
+        card.className = "new-card";
+        const url = URL.createObjectURL(file);
+        previewUrls.push(url);
+        const img = document.createElement("img");
+        img.src = url;
+        img.alt = `Selected photo ${index + 1}`;
+        const input = document.createElement("input");
+        input.type = "text";
+        input.placeholder = "Optional caption";
+        input.dataset.captionIndex = String(index);
+        card.append(img, input);
+        newPreviews.appendChild(card);
+      });
+      if (issues.length) setStatus("Selected photos have problems.", issues);
+      else if (selectedFiles.length) setStatus(`${selectedFiles.length} photo${selectedFiles.length === 1 ? "" : "s"} selected.`, [], true);
+    });
+
+    uploadButton.addEventListener("click", async () => {
+      if (!requireBasics()) return;
+      if (!selectedFiles.length) { setStatus("Select at least one photo."); return; }
+      const issues = selectedFiles.flatMap((file) => [!ALLOWED.has(file.type) ? `${file.name} has an unsupported format.` : null, file.size > MAX_BYTES ? `${file.name} is larger than 4 MB.` : null].filter(Boolean));
+      if (selectedFiles.length > 12) issues.push("Choose no more than 12 photos at once.");
+      if (issues.length) { setStatus("Selected photos have problems.", issues); return; }
+      if (replaceInput.checked && currentItems.length && !confirm("Replace the entire current gallery with these selected photos? Existing gallery files will be deleted.")) return;
+      uploadButton.disabled = true;
+      setStatus("Uploading photos…", [], true);
+      try {
+        const captions = Array.from(newPreviews.querySelectorAll("input[data-caption-index]")).map((input) => input instanceof HTMLInputElement ? input.value.trim() : "");
+        const images = await Promise.all(selectedFiles.map(async (file, index) => ({ name: file.name, type: file.type, size: file.size, data: await fileToBase64(file), caption: captions[index] || null })));
+        const ok = await updateGallery({ action: "upload", images, replace_gallery: replaceInput.checked });
+        if (ok) {
+          filesInput.value = "";
+          selectedFiles = [];
+          previewUrls.forEach((url) => URL.revokeObjectURL(url));
+          previewUrls = [];
+          newPreviews.replaceChildren();
+          replaceInput.checked = false;
+        }
+      } finally { uploadButton.disabled = false; }
+    });
+
+    clearGalleryButton.addEventListener("click", async () => {
+      if (!currentItems.length) return;
+      if (!confirm("Delete every photo in this business gallery? This cannot be undone from the admin page.")) return;
+      await updateGallery({ action: "clear" });
+    });
+    loadButton.addEventListener("click", loadGallery);
+    slugInput.addEventListener("keydown", (event) => { if (event.key === "Enter") loadGallery(); });
+  </script>
+</BaseLayout>
+
+<style>
+  .gallery-admin{width:min(1000px,calc(100% - 2rem));margin:0 auto;padding:3rem 0 5rem}.eyebrow{font-weight:800;letter-spacing:.1em;text-transform:uppercase}.panel{padding:1.25rem;border:1px solid rgba(255,255,255,.16);border-radius:1rem;background:rgba(255,255,255,.05)}label{display:block;margin:1rem 0 .5rem;font-weight:800}input,button{min-height:44px;padding:.75rem;border-radius:.65rem;font:inherit}input{width:100%;border:1px solid rgba(255,255,255,.22)}button{border:0;font-weight:800;cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed}.slug-row{display:grid;grid-template-columns:1fr auto;gap:.75rem}.current-section{margin-top:1.5rem}.current-heading{display:flex;justify-content:space-between;gap:1rem;align-items:center}.current-gallery,.new-previews{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1rem;margin-top:1rem}.photo-card,.new-card{padding:.8rem;border:1px solid rgba(255,255,255,.16);border-radius:.8rem}.photo-card img,.new-card img{display:block;width:100%;height:180px;object-fit:cover;border-radius:.55rem;background:#fff}.photo-card p{overflow-wrap:anywhere}.new-card input{margin-top:.7rem}.danger{background:#8f2430;color:#fff}.check-row{display:flex;gap:.65rem;align-items:center}.check-row input{width:auto}.helper{opacity:.78}.results{margin-top:1.5rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,.14)}.success,.error{font-weight:800}hr{margin:2rem 0;border:0;border-top:1px solid rgba(255,255,255,.14)}@media(max-width:650px){.slug-row{grid-template-columns:1fr}.current-heading{align-items:flex-start;flex-direction:column}.current-gallery,.new-previews{grid-template-columns:1fr}}
+</style>
