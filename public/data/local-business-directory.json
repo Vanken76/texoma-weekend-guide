@@ -5,8 +5,8 @@
   "generated_on": "2026-08-02",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 561,
-  "publish_ready_count": 225,
+  "business_count": 562,
+  "publish_ready_count": 226,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -23507,6 +23507,99 @@
         "Group dining",
         "Catering",
         "Denison location"
+      ]
+    },
+    {
+      "slug": "hot-n-creamy-donuts-sherman",
+      "business_name": "Hot n Creamy Donuts of Sherman",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "717 W Lamar St, Sherman, TX 75092",
+      "category": [
+        "Donut Shop",
+        "Bakery",
+        "Breakfast Restaurant"
+      ],
+      "tags": [
+        "Donuts",
+        "Breakfast",
+        "Pastries",
+        "Piggies",
+        "Kolaches",
+        "Croissant Sandwiches",
+        "Grab and Go",
+        "Early Morning",
+        "Locally Popular"
+      ],
+      "description": "Hot n Creamy Donuts of Sherman is a local donut and breakfast shop serving fresh handmade donuts, pastries, piggies and other convenient morning favorites. Located on West Lamar Street, the shop opens before sunrise and regularly draws a busy morning crowd.",
+      "why_visit": "Stop in for fresh donuts, pastries and savory breakfast options from an established Sherman shop that is especially convenient for early risers and customers looking for a quick morning meal.",
+      "why_its_unique": "Hot n Creamy Donuts is one of the most visibly popular donut shops in the Sherman-Denison area, with a parking lot that is frequently packed while the business is open.",
+      "phone": "903-893-1061",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/hotncreamydonuts/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "4:30 AM - 12:00 PM",
+        "tuesday": "4:30 AM - 12:00 PM",
+        "wednesday": "4:30 AM - 12:00 PM",
+        "thursday": "4:30 AM - 12:00 PM",
+        "friday": "4:30 AM - 12:00 PM",
+        "saturday": "4:30 AM - 12:00 PM",
+        "sunday": "4:30 AM - 12:00 PM"
+      },
+      "hours_note": "Published hours indicate daily morning service. Holiday hours may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Fresh handmade donuts",
+        "Sweet and savory breakfast choices",
+        "Early-morning hours",
+        "Quick breakfast stop"
+      ],
+      "good_to_know": [
+        "The parking lot is frequently busy during morning hours.",
+        "Arriving earlier may provide the best selection.",
+        "Holiday hours and product availability may vary."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "verification_note": "Official Facebook page confirms the Sherman business and describes fresh handmade donuts and piggies served daily. Address, telephone number and daily hours were cross-checked against current public business listings. Morning popularity is based on repeated local observation.",
+      "last_checked": "2026-08-02",
+      "event_types": [],
+      "event_sources": [
+        "Official Facebook page"
+      ],
+      "features": [
+        "Fresh handmade donuts",
+        "Breakfast pastries",
+        "Savory breakfast items",
+        "Early opening",
+        "Popular local morning stop"
       ]
     }
   ]
