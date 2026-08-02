@@ -19,6 +19,8 @@ const siteURL = Astro.site ?? new URL("https://texomaweekendguide.com");
 const canonicalURL = new URL(Astro.url.pathname, siteURL);
 const socialImageURL = new URL(image, siteURL);
 const isEventAdmin = Astro.url.pathname === "/admin-events" || Astro.url.pathname === "/admin-events/";
+const isBusinessAdmin = Astro.url.pathname === "/admin-business" || Astro.url.pathname === "/admin-business/";
+const isBusinessGalleryAdmin = Astro.url.pathname === "/admin-business-gallery" || Astro.url.pathname === "/admin-business-gallery/";
 const isEventsPage = Astro.url.pathname === "/events" || Astro.url.pathname === "/events/";
 const isBusinessesPage = Astro.url.pathname === "/businesses" || Astro.url.pathname === "/businesses/";
 const isBusinessSection = Astro.url.pathname.startsWith("/businesses/");
@@ -51,6 +53,8 @@ const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname ==
     <main><slot /></main>
     <Footer />
     {isEventAdmin && <script is:inline src="/admin-events-publish-fix.js?v=6"></script>}
+    {isBusinessAdmin && <script is:inline src="/business-publisher-media-preserve.js?v=1"></script>}
+    {isBusinessGalleryAdmin && <script is:inline src="/admin-business-gallery.js?v=2"></script>}
     {isEventsPage && <script is:inline src="/event-address-display.js?v=2"></script>}
     {isEventsPage && <script is:inline src="/event-detail-links.js?v=3"></script>}
     {isEventsPage && <script is:inline src="/event-filter-links.js?v=2"></script>}
@@ -58,7 +62,7 @@ const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname ==
     {isBusinessesPage && <script is:inline src="/business-amenities-filter.js?v=1"></script>}
     {(isBusinessesPage || isBusinessSection) && <script is:inline src="/business-facebook-overrides.js?v=1"></script>}
     {isBusinessSection && <script is:inline src="/business-event-expiration.js?v=1"></script>}
-    {isBusinessSection && <script is:inline src="/business-gallery.js?v=1"></script>}
+    {isBusinessSection && <script is:inline src="/business-gallery.js?v=2"></script>}
     {isBusinessSection && <script is:inline src="/business-premium-details.js?v=1"></script>}
     {isSupportPage && <script is:inline src="/support-listing-clarification.js?v=1"></script>}
   </body>
