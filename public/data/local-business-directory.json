@@ -5,8 +5,8 @@
   "generated_on": "2026-08-02",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 568,
-  "publish_ready_count": 232,
+  "business_count": 569,
+  "publish_ready_count": 233,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -23997,6 +23997,115 @@
       "featured": false,
       "publish_ready": true,
       "status": "active"
+    },
+    {
+      "slug": "saige-bow-co-gainesville",
+      "business_name": "Saige Bow & Co.",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "104 E Elm St, Gainesville, TX 76240",
+      "category": [
+        "Children's Boutique",
+        "Clothing Store",
+        "Gift Shop",
+        "Boutique"
+      ],
+      "tags": [
+        "Handmade Clothing",
+        "Hair Bows",
+        "Children's Apparel",
+        "Western Wear",
+        "Accessories",
+        "Gifts",
+        "Local Makers",
+        "Downtown Gainesville",
+        "In-Store Shopping",
+        "Shop Local"
+      ],
+      "description": "Saige Bow & Co. is a Gainesville boutique specializing in handmade children's clothing and hair bows, along with apparel, accessories, gifts and products from local makers. The downtown storefront offers a rotating selection of distinctive handmade and western-inspired merchandise for children and families.",
+      "why_visit": "Visit Saige Bow & Co. to shop handmade children's clothing, bows, accessories and unique gifts that are difficult to find at large retail stores. The shop is especially useful for parents looking for distinctive outfits, school spirit items and locally made products.",
+      "why_its_unique": "Saige Bow & Co. combines its own handmade children's clothing and bow designs with merchandise from other small makers, creating a locally focused boutique with a strong western and community style.",
+      "phone": null,
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/profile.php?id=100089139866730",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": "Saige Bow & Co. circular logo with pink script lettering",
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "10:00 AM - 5:30 PM",
+        "thursday": "10:00 AM - 5:30 PM",
+        "friday": "10:00 AM - 5:30 PM",
+        "saturday": "11:00 AM - 2:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Hours were updated on the official Facebook page approximately one month before verification. Follow the page for temporary schedule changes, pop-ups and special shopping events.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Handmade children's clothing",
+        "Handmade hair bows",
+        "Children's accessories",
+        "Western-inspired apparel",
+        "Gift items",
+        "Products from local makers",
+        "Seasonal merchandise",
+        "In-store shopping"
+      ],
+      "good_to_know": [
+        "The current Facebook About section and recent business posts list the storefront at 104 E Elm St in Gainesville.",
+        "The selection changes frequently as new handmade products and vendor merchandise arrive.",
+        "Follow the official Facebook page for weekly hours, sales, special events and pop-up offerings."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified August 2, 2026, using the official Facebook page, current Facebook About information, recent official posts and third-party maker posts identifying the Gainesville storefront. Current address is 104 E Elm St. An older May 2025 grand-opening event listed 108 E Elm St, so the current official page and recent posts were treated as authoritative.",
+      "last_checked": "2026-08-02",
+      "event_types": [
+        "Grand openings",
+        "Seasonal shopping events",
+        "Sales and happy hours",
+        "Vendor pop-ups",
+        "Bouquet bars",
+        "Community shopping events"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Official Facebook posts",
+        "Facebook Events"
+      ],
+      "features": [
+        "Locally operated",
+        "Handmade merchandise",
+        "Children's boutique",
+        "Local maker products",
+        "Downtown Gainesville storefront",
+        "Seasonal shopping events"
+      ]
     }
   ]
 }
