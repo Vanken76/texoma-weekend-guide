@@ -5,8 +5,8 @@
   "generated_on": "2026-08-02",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 563,
-  "publish_ready_count": 227,
+  "business_count": 564,
+  "publish_ready_count": 228,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -23646,6 +23646,112 @@
         "Children age 7 and under admitted free.",
         "No lifeguard on duty; swim at your own risk.",
         "Picnic shelters available by reservation."
+      ]
+    },
+    {
+      "slug": "copacetic-cowboy-denison",
+      "business_name": "Copacetic Cowboy",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "120 S Burnett Ave, Suites 100-102, Denison, TX 75020",
+      "category": [
+        "Cocktail Lounge",
+        "Cocktail Bar",
+        "Bar",
+        "Restaurant",
+        "Nightlife"
+      ],
+      "tags": [
+        "Craft Cocktails",
+        "Mocktails",
+        "Wine",
+        "Champagne",
+        "Beer",
+        "Downtown Denison",
+        "Historic Downtown",
+        "Date Night",
+        "Speakeasy Style",
+        "Small Plates"
+      ],
+      "description": "Copacetic Cowboy is a cocktail lounge in Historic Downtown Denison serving handcrafted cocktails, mocktails, champagne, wine, beer and elevated bar bites in a relaxed, upscale atmosphere. The lounge is a popular destination for date nights, evenings out, and downtown gatherings.",
+      "why_visit": "Visit Copacetic Cowboy for handcrafted cocktails, an inviting atmosphere, and a unique downtown Denison experience that combines creative drinks with quality food in a stylish setting.",
+      "why_its_unique": "Copacetic Cowboy blends a modern cocktail lounge with a speakeasy-inspired atmosphere in the heart of Historic Downtown Denison while offering specialty cocktails and seasonal experiences.",
+      "phone": "940-202-9029",
+      "email": "criggs@champagnecharliesdenison.com",
+      "website": null,
+      "facebook": "https://www.facebook.com/CopaceticCowboy",
+      "instagram": "https://www.instagram.com/copacetic_cowboy",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": "Copacetic Cowboy logo",
+      "price_range": "$$",
+      "family_friendly": false,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "4:00 PM - 12:00 AM",
+        "wednesday": "4:00 PM - 12:00 AM",
+        "thursday": "4:00 PM - 12:00 AM",
+        "friday": "4:00 PM - 12:00 AM",
+        "saturday": "4:00 PM - 12:00 AM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Business announced new Tuesday through Saturday hours beginning August 4, 2026. Verify holiday and special event hours before visiting.",
+      "at_a_glance": {
+        "average_visit": "1-2 hours",
+        "price_range": "$$",
+        "family_friendly": false,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Craft cocktails",
+        "Mocktails",
+        "Wine",
+        "Beer",
+        "Champagne",
+        "Food menu",
+        "Indoor seating",
+        "Historic Downtown location"
+      ],
+      "good_to_know": [
+        "Located in Historic Downtown Denison.",
+        "Hours may change for special events.",
+        "Follow the official Facebook page for upcoming events and announcements."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified from the official Facebook page and public business information. Business announced updated operating hours effective August 4, 2026.",
+      "last_checked": "2026-08-02",
+      "event_types": [
+        "Live Music",
+        "Cocktail Specials",
+        "Holiday Events",
+        "Community Events",
+        "Themed Nights"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Official Instagram"
+      ],
+      "features": [
+        "Craft cocktails",
+        "Downtown destination",
+        "Event hosting",
+        "Locally operated"
       ]
     }
   ]
