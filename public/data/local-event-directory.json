@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 117,
-  "publish_ready_count": 110,
+  "event_count": 118,
+  "publish_ready_count": 111,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -6711,6 +6711,65 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified from the official Facebook event created by The Boat Yard and the supplied official event artwork. The event is scheduled for September 19, 2026, from 9:00 PM until midnight at 1116 Streetman Rd in Mead, Oklahoma. The venue states that the live entertainment is free.",
+      "last_checked": "2026-08-02",
+      "created_on": "2026-08-02",
+      "updated_on": "2026-08-02"
+    },
+    {
+      "event_slug": "labor-day-weekend-water-battle-2026-09-04",
+      "event_name": "Labor Day Weekend Water Battle",
+      "description": "Close out the summer season with a nighttime water battle at The Boat Yard in Mead. Guests can bring their own water soakers, form a team or compete solo, and try to be the final team standing. The event begins after dark and is promoted as an evening of water-gun battles, good vibes and plenty of soaking.",
+      "start_datetime": "2026-09-04T22:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-boat-yard-mead"
+      ],
+      "venue_name": "The Boat Yard",
+      "address": "1116 Streetman Rd",
+      "city": "Mead",
+      "state": "OK",
+      "postal_code": "73449",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Nightlife",
+        "Community Event"
+      ],
+      "tags": [
+        "Labor Day Weekend",
+        "Water Battle",
+        "Water Guns",
+        "Outdoor Activity",
+        "After Dark",
+        "Mead",
+        "Lake Texoma",
+        "Team Competition"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "Adults"
+      ],
+      "age_restriction": "21+",
+      "host_business_slug": "the-boat-yard-mead",
+      "organizer_name": "The Boat Yard",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/labor-day-weekend-water-battle-2026-09-04.jpg",
+      "image_alt": "Colorful Nighttime Water Battle flyer from The Boat Yard showing water guns, splashing water and text inviting guests to bring their squad and water soaker.",
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the official Facebook event created by The Boat Yard and the supplied official event artwork. The event begins at 10:00 PM on September 4, 2026, at 1116 Streetman Rd in Mead, Oklahoma. No ending time or admission price was published. The Boat Yard is a 21-and-older venue.",
       "last_checked": "2026-08-02",
       "created_on": "2026-08-02",
       "updated_on": "2026-08-02"
