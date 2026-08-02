@@ -5,8 +5,8 @@
   "generated_on": "2026-08-02",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 567,
-  "publish_ready_count": 231,
+  "business_count": 568,
+  "publish_ready_count": 232,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -23929,6 +23929,70 @@
         "charcuterie",
         "gainesville",
         "cooke-county"
+      ],
+      "featured": false,
+      "publish_ready": true,
+      "status": "active"
+    },
+    {
+      "business_name": "Giddy-Up Coffee Co.",
+      "slug": "giddy-up-coffee-co-whitesboro-tx",
+      "description": "Locally owned coffee shop in Whitesboro serving handcrafted espresso drinks, coffee, Lotus energy drinks, smoothies, refreshers, teas, and seasonal specialty beverages in a welcoming community atmosphere.",
+      "short_description": "Locally owned drive-thru coffee shop in Whitesboro.",
+      "business_categories": [
+        "Coffee Shop",
+        "Cafe",
+        "Drive-Thru Coffee"
+      ],
+      "website": "",
+      "facebook": "https://www.facebook.com/GiddyUpCoffeeCo",
+      "instagram": "",
+      "email": "",
+      "phone": "(903) 651-3763",
+      "address": "545 US-377 Suite 101",
+      "city": "Whitesboro",
+      "state": "TX",
+      "postal_code": "76273",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "hours": {
+        "monday": "07:00-17:00",
+        "tuesday": "07:00-17:00",
+        "wednesday": "07:00-17:00",
+        "thursday": "07:00-17:00",
+        "friday": "07:00-17:00",
+        "saturday": "07:00-17:00",
+        "sunday": "Closed"
+      },
+      "price_range": "$",
+      "service_area": [
+        "Whitesboro",
+        "Grayson County",
+        "Texoma"
+      ],
+      "features": [
+        "Espresso Drinks",
+        "Coffee",
+        "Lotus Energy Drinks",
+        "Smoothies",
+        "Refreshers",
+        "Tea",
+        "Drive-Thru",
+        "Takeout",
+        "Locally Owned"
+      ],
+      "tags": [
+        "coffee",
+        "espresso",
+        "latte",
+        "lotus",
+        "smoothies",
+        "refreshers",
+        "drive-thru",
+        "whitesboro",
+        "grayson-county",
+        "texoma"
       ],
       "featured": false,
       "publish_ready": true,
