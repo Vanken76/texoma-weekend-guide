@@ -5,7 +5,7 @@
   const explicitEventVenueOverrides = {
     "country-line-dance-class-mckinney": "the-dance-collective-mckinney",
     "two-step-in-mckinney": "the-dance-collective-mckinney",
-    "swing-rumba-dance-lessons": "the-dance-collective-mckinney"
+    "swing-rumba-dance-lessons": "the-venue-on-main"
   };
 
   const formatDate = (value) => value
