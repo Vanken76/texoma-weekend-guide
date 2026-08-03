@@ -21,48 +21,87 @@
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 
-  let eventDataPromise;
-  const loadEvents = () => {
-    if (!eventDataPromise) {
-      eventDataPromise = fetch("/data/local-event-directory.json", { cache: "no-store" })
-        .then((response) => response.ok ? response.json() : Promise.reject(new Error("Event data unavailable")));
+  const venueSlugs = (event) => {
+    const values = [];
+    if (Array.isArray(event?.venue_slugs)) values.push(...event.venue_slugs);
+    if (typeof event?.venue_slug === "string") values.push(event.venue_slug);
+    return [...new Set(values.map((value) => String(value ?? "").trim()).filter(Boolean))];
+  };
+
+  let dataPromise;
+  const loadData = () => {
+    if (!dataPromise) {
+      dataPromise = Promise.all([
+        fetch("/data/local-event-directory.json", { cache: "no-store" }).then((response) => response.ok ? response.json() : Promise.reject(new Error("Event data unavailable"))),
+        fetch("/data/local-business-directory.json", { cache: "no-store" }).then((response) => response.ok ? response.json() : Promise.reject(new Error("Business data unavailable")))
+      ]);
     }
-    return eventDataPromise;
+    return dataPromise;
+  };
+
+  const replaceCard = (card, title, items, itemRenderer) => {
+    const count = items.length;
+    const heading = card.querySelector(":scope > div");
+    if (heading) heading.innerHTML = `<strong>${count}</strong><span>${escapeHtml(title)}</span>`;
+
+    card.querySelectorAll("ul, .full-issue-list, .clear").forEach((element) => element.remove());
+
+    if (!count) {
+      const clear = document.createElement("p");
+      clear.className = "clear";
+      clear.textContent = "No problems found.";
+      card.appendChild(clear);
+      return;
+    }
+
+    const details = document.createElement("details");
+    details.className = "full-issue-list";
+    details.open = false;
+    details.innerHTML = `<summary>Show all ${count}</summary><ul>${items.map(itemRenderer).join("")}</ul>`;
+    card.appendChild(details);
   };
 
   async function enhance() {
     const grid = document.querySelector("#attention-grid");
     if (!grid) return false;
 
-    const target = [...grid.querySelectorAll(".attention-card")]
-      .find((card) => card.textContent.includes("Active events missing venue slug"));
-    if (!target) return false;
+    const cards = [...grid.querySelectorAll(".attention-card")];
+    const missingCard = cards.find((card) => card.textContent.includes("Active events missing venue slug"));
+    const brokenCard = cards.find((card) => card.textContent.includes("Broken venue relationships"));
+    if (!missingCard || !brokenCard) return false;
 
     try {
-      const data = await loadEvents();
+      const [eventData, businessData] = await loadData();
       const now = new Date();
-      const missing = (Array.isArray(data.events) ? data.events : [])
-        .filter((event) => isActiveEvent(event, now) && !String(event.venue_slug ?? "").trim())
+      const events = Array.isArray(eventData.events) ? eventData.events : [];
+      const businesses = Array.isArray(businessData.businesses) ? businessData.businesses : [];
+      const businessSlugs = new Set(businesses.map((business) => String(business?.slug ?? "").trim()).filter(Boolean));
+      const activeEvents = events.filter((event) => isActiveEvent(event, now));
+
+      const missing = activeEvents
+        .filter((event) => venueSlugs(event).length === 0)
         .sort((a, b) => String(a.event_name ?? "").localeCompare(String(b.event_name ?? "")));
 
-      const listItems = missing.map((event) => {
+      const broken = activeEvents
+        .map((event) => ({ event, invalid: venueSlugs(event).filter((slug) => !businessSlugs.has(slug)) }))
+        .filter((item) => item.invalid.length > 0)
+        .sort((a, b) => String(a.event.event_name ?? "").localeCompare(String(b.event.event_name ?? "")));
+
+      replaceCard(missingCard, "Active events missing venue relationship", missing, (event) => {
         const name = escapeHtml(event.event_name || "Unnamed event");
         const venue = escapeHtml(event.venue_name || "Unspecified venue");
         const city = escapeHtml(event.city || "Unknown city");
         const slug = String(event.event_slug || "").trim();
         const label = slug ? `<a href="/events/${encodeURIComponent(slug)}/">${name}</a>` : name;
         return `<li>${label}<small>${venue} • ${city}</small></li>`;
-      }).join("");
+      });
 
-      target.querySelectorAll(".full-issue-list").forEach((element) => element.remove());
-      const existingList = target.querySelector("ul");
-      if (existingList) existingList.remove();
+      replaceCard(brokenCard, "Broken venue relationships", broken, ({ event, invalid }) => {
+        const name = escapeHtml(event.event_name || "Unnamed event");
+        const bad = escapeHtml(invalid.join(", "));
+        return `<li>${name}<small>${bad}</small></li>`;
+      });
 
-      const details = document.createElement("details");
-      details.className = "full-issue-list";
-      details.open = false;
-      details.innerHTML = `<summary>All ${missing.length} events missing venue slugs</summary><ul>${listItems}</ul>`;
-      target.appendChild(details);
       return true;
     } catch {
       return false;
