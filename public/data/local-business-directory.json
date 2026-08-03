@@ -5,8 +5,8 @@
   "generated_on": "2026-08-03",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 585,
-  "publish_ready_count": 249,
+  "business_count": 586,
+  "publish_ready_count": 250,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -26829,6 +26829,75 @@
         "Telehealth available",
         "Accepting new patients"
       ]
+    },
+    {
+      "slug": "the-finley-502",
+      "business_name": "The Finley 502",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "service_area_or_location": "502 N Elm St, Sherman, TX 75090",
+      "category": [
+        "Event Venue",
+        "Reception Venue",
+        "Wedding Venue",
+        "Meeting Venue",
+        "Banquet Hall",
+        "Community Venue",
+        "Conference Center"
+      ],
+      "description": "The Finley 502 is an upscale event and reception venue located in historic downtown Sherman. Operated by Sherman Service League, the venue hosts weddings, receptions, business meetings, networking events, nonprofit fundraisers, community gatherings, and private celebrations in an elegant setting adjacent to the Finley Playhouse.",
+      "why_visit": "Whether you're attending a Sherman Chamber networking event, planning a wedding reception, hosting a business meeting, or celebrating a special occasion, The Finley 502 offers an elegant, flexible downtown venue with modern amenities, tables, chairs, kitchen access, and a welcoming atmosphere.",
+      "why_its_unique": "The Finley 502 combines the charm of historic downtown Sherman with a versatile event space designed for both professional and personal gatherings. It regularly serves as the home of recurring Sherman Chamber of Commerce networking events while also hosting weddings, nonprofit fundraisers, receptions, and private celebrations throughout the year.",
+      "phone": "903-771-9206",
+      "email": "finleyreceptionroom@gmail.com",
+      "website": "https://www.shermanserviceleague.com/the-finley",
+      "facebook": "https://www.facebook.com/finley502",
+      "instagram": "",
+      "hours": {},
+      "hours_note": "Open by reservation and scheduled events. Contact the venue for availability, tours, and rental pricing.",
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Business Networking",
+        "Chamber Events",
+        "Community Events",
+        "Fundraisers",
+        "Wedding Receptions",
+        "Wedding Ceremonies",
+        "Bridal Showers",
+        "Baby Showers",
+        "Private Parties",
+        "Corporate Meetings",
+        "Banquets",
+        "Nonprofit Events"
+      ],
+      "event_sources": [
+        "Official Website",
+        "Official Facebook",
+        "Sherman Chamber of Commerce",
+        "Sherman Service League"
+      ],
+      "features": [
+        "Historic downtown Sherman location",
+        "Elegant reception hall",
+        "Seats up to 64 guests",
+        "Standing capacity up to 150 guests",
+        "Grand piano",
+        "Tables included",
+        "Chairs included",
+        "Kitchen access",
+        "Private event rentals",
+        "Wedding receptions",
+        "Business meetings",
+        "Networking venue",
+        "Community gatherings",
+        "Nonprofit fundraisers",
+        "Corporate events"
+      ],
+      "verification_note": "Complete. Verified August 2026 using the official Finley 502 website, official Facebook page, Sherman Service League information, and Sherman Chamber of Commerce recurring events. The Finley 502 is a separate venue from the Finley Playhouse at 500 N Elm Street.",
+      "last_checked": "2026-08-03"
     }
   ]
 }
