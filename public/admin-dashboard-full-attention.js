@@ -31,9 +31,16 @@
   let dataPromise;
   const loadData = () => {
     if (!dataPromise) {
+      const fresh = Date.now();
       dataPromise = Promise.all([
-        fetch("/data/local-event-directory.json", { cache: "no-store" }).then((response) => response.ok ? response.json() : Promise.reject(new Error("Event data unavailable"))),
-        fetch("/data/local-business-directory.json", { cache: "no-store" }).then((response) => response.ok ? response.json() : Promise.reject(new Error("Business data unavailable")))
+        fetch(`/data/local-event-directory.json?fresh=${fresh}`, {
+          cache: "no-store",
+          headers: { "Cache-Control": "no-cache" }
+        }).then((response) => response.ok ? response.json() : Promise.reject(new Error("Event data unavailable"))),
+        fetch(`/data/local-business-directory.json?fresh=${fresh}`, {
+          cache: "no-store",
+          headers: { "Cache-Control": "no-cache" }
+        }).then((response) => response.ok ? response.json() : Promise.reject(new Error("Business data unavailable")))
       ]);
     }
     return dataPromise;
@@ -66,7 +73,7 @@
     if (!grid) return false;
 
     const cards = [...grid.querySelectorAll(".attention-card")];
-    const missingCard = cards.find((card) => card.textContent.includes("Active events missing venue slug"));
+    const missingCard = cards.find((card) => card.textContent.includes("Active events missing venue slug") || card.textContent.includes("Active events missing venue relationship"));
     const brokenCard = cards.find((card) => card.textContent.includes("Broken venue relationships"));
     if (!missingCard || !brokenCard) return false;
 
