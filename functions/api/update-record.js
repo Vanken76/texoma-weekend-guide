@@ -35,6 +35,12 @@ const toBase64 = (text) => {
   return btoa(binary);
 };
 
+const decodeBase64Utf8 = (content) => {
+  const normalized = String(content || "").replace(/\n/g, "");
+  const bytes = Uint8Array.from(atob(normalized), (c) => c.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+};
+
 const validSlug = (value) => typeof value === "string" && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(value);
 
 const githubHeadersFor = (token) => ({
@@ -48,16 +54,52 @@ const loadDirectory = async (config, githubHeaders) => {
   const fileUrl = `https://api.github.com/repos/${REPOSITORY}/contents/${config.path}?ref=${BRANCH}`;
   const currentResponse = await fetch(fileUrl, { headers: githubHeaders });
   if (!currentResponse.ok) {
-    return { error: jsonResponse({ error: `GitHub could not read the current directory file (${currentResponse.status}).` }, 502) };
+    const detail = await currentResponse.text().catch(() => "");
+    return { error: jsonResponse({
+      error: `GitHub could not read the current directory file (${currentResponse.status}).`,
+      detail: detail.slice(0, 300)
+    }, 502) };
   }
 
   const currentFile = await currentResponse.json();
   try {
-    const decoded = Uint8Array.from(atob(currentFile.content.replace(/\n/g, "")), (c) => c.charCodeAt(0));
-    const directory = JSON.parse(new TextDecoder().decode(decoded));
+    let text;
+
+    // GitHub's Contents API omits file content once a file grows beyond its
+    // inline-content limit. In that case, fetch the associated Git blob.
+    if (typeof currentFile.content === "string" && currentFile.content.trim()) {
+      text = decodeBase64Utf8(currentFile.content);
+    } else if (currentFile.git_url) {
+      const blobResponse = await fetch(currentFile.git_url, { headers: githubHeaders });
+      if (!blobResponse.ok) {
+        const detail = await blobResponse.text().catch(() => "");
+        return { error: jsonResponse({
+          error: `GitHub could not read the directory blob (${blobResponse.status}).`,
+          detail: detail.slice(0, 300)
+        }, 502) };
+      }
+      const blob = await blobResponse.json();
+      if (blob.encoding !== "base64" || typeof blob.content !== "string") {
+        return { error: jsonResponse({ error: "GitHub returned the directory blob in an unsupported format." }, 502) };
+      }
+      text = decodeBase64Utf8(blob.content);
+    } else if (currentFile.download_url) {
+      const rawResponse = await fetch(currentFile.download_url, { cache: "no-store" });
+      if (!rawResponse.ok) {
+        return { error: jsonResponse({ error: `GitHub could not download the directory file (${rawResponse.status}).` }, 502) };
+      }
+      text = await rawResponse.text();
+    } else {
+      return { error: jsonResponse({ error: "GitHub returned directory metadata without readable file content." }, 502) };
+    }
+
+    const directory = JSON.parse(text);
     return { currentFile, directory };
-  } catch {
-    return { error: jsonResponse({ error: "The current directory file could not be decoded." }, 502) };
+  } catch (error) {
+    return { error: jsonResponse({
+      error: "The current directory file could not be decoded.",
+      detail: error instanceof Error ? error.message : "Unknown decoding error"
+    }, 502) };
   }
 };
 
@@ -74,7 +116,16 @@ const saveDirectory = async (config, directory, currentFile, githubHeaders, mess
     })
   });
 
-  const result = await updateResponse.json();
+  let result = {};
+  try {
+    result = await updateResponse.json();
+  } catch {
+    const text = await updateResponse.text().catch(() => "");
+    return { error: jsonResponse({
+      error: `GitHub returned an unreadable response while saving (${updateResponse.status}).`,
+      detail: text.slice(0, 300)
+    }, 502) };
+  }
   if (!updateResponse.ok) {
     return { error: jsonResponse({ error: result?.message || `GitHub rejected the update (${updateResponse.status}).` }, 502) };
   }
@@ -91,7 +142,7 @@ const authorize = (request, env) => {
   return null;
 };
 
-const deleteRecord = async ({ request, env, payload }) => {
+const deleteRecord = async ({ env, payload }) => {
   const { record_type: recordType, slug } = payload ?? {};
   const config = CONFIG[recordType];
   if (!config) return jsonResponse({ error: "record_type must be business or event." }, 400);
@@ -127,65 +178,72 @@ const deleteRecord = async ({ request, env, payload }) => {
 };
 
 export const onRequestPost = async ({ request, env }) => {
-  const authError = authorize(request, env);
-  if (authError) return authError;
-
-  let payload;
   try {
-    payload = await request.json();
-  } catch {
-    return jsonResponse({ error: "The submitted content is not valid JSON." }, 400);
+    const authError = authorize(request, env);
+    if (authError) return authError;
+
+    let payload;
+    try {
+      payload = await request.json();
+    } catch {
+      return jsonResponse({ error: "The submitted content is not valid JSON." }, 400);
+    }
+
+    if (payload?.action === "delete") {
+      return deleteRecord({ env, payload });
+    }
+
+    const { record_type: recordType, original_slug: originalSlug, record } = payload ?? {};
+    const config = CONFIG[recordType];
+    if (!config) return jsonResponse({ error: "record_type must be business or event." }, 400);
+    if (!validSlug(originalSlug)) return jsonResponse({ error: "A valid original_slug is required." }, 400);
+    if (!record || typeof record !== "object" || Array.isArray(record)) {
+      return jsonResponse({ error: "record must be one JSON object." }, 400);
+    }
+
+    const newSlug = record[config.slugKey];
+    const recordName = record[config.nameKey];
+    const problems = [];
+    if (!validSlug(newSlug)) problems.push(`${config.slugKey} must use lowercase letters, numbers, and single hyphens only.`);
+    if (!recordName || typeof recordName !== "string") problems.push(`${config.nameKey} is required.`);
+    if (problems.length) return jsonResponse({ error: "Validation failed.", problems }, 400);
+
+    const githubHeaders = githubHeadersFor(env.GITHUB_TOKEN);
+    const loaded = await loadDirectory(config, githubHeaders);
+    if (loaded.error) return loaded.error;
+    const { currentFile, directory } = loaded;
+
+    const records = directory[config.arrayKey];
+    if (!Array.isArray(records)) return jsonResponse({ error: `Directory is missing ${config.arrayKey}.` }, 502);
+
+    const index = records.findIndex((item) => item?.[config.slugKey] === originalSlug);
+    if (index < 0) return jsonResponse({ error: `No ${recordType} record was found for ${originalSlug}.` }, 404);
+
+    const duplicateIndex = records.findIndex((item, itemIndex) => itemIndex !== index && item?.[config.slugKey] === newSlug);
+    if (duplicateIndex >= 0) return jsonResponse({ error: `Another record already uses the slug ${newSlug}.` }, 409);
+
+    records[index] = record;
+    directory[config.countKey] = records.length;
+    directory.publish_ready_count = records.filter((item) => item?.publish_ready === true).length;
+    directory.generated_on = new Date().toISOString().slice(0, 10);
+
+    const saved = await saveDirectory(config, directory, currentFile, githubHeaders, `Update ${recordType} record ${originalSlug}`);
+    if (saved.error) return saved.error;
+
+    return jsonResponse({
+      success: true,
+      message: `${recordName} was saved. Cloudflare deployment should begin automatically.`,
+      record_type: recordType,
+      original_slug: originalSlug,
+      slug: newSlug,
+      commit: saved.result?.commit?.sha ?? null
+    });
+  } catch (error) {
+    return jsonResponse({
+      error: "Record operation failed unexpectedly.",
+      detail: error instanceof Error ? error.message : "Unknown server error"
+    }, 500);
   }
-
-  if (payload?.action === "delete") {
-    return deleteRecord({ request, env, payload });
-  }
-
-  const { record_type: recordType, original_slug: originalSlug, record } = payload ?? {};
-  const config = CONFIG[recordType];
-  if (!config) return jsonResponse({ error: "record_type must be business or event." }, 400);
-  if (!validSlug(originalSlug)) return jsonResponse({ error: "A valid original_slug is required." }, 400);
-  if (!record || typeof record !== "object" || Array.isArray(record)) {
-    return jsonResponse({ error: "record must be one JSON object." }, 400);
-  }
-
-  const newSlug = record[config.slugKey];
-  const recordName = record[config.nameKey];
-  const problems = [];
-  if (!validSlug(newSlug)) problems.push(`${config.slugKey} must use lowercase letters, numbers, and single hyphens only.`);
-  if (!recordName || typeof recordName !== "string") problems.push(`${config.nameKey} is required.`);
-  if (problems.length) return jsonResponse({ error: "Validation failed.", problems }, 400);
-
-  const githubHeaders = githubHeadersFor(env.GITHUB_TOKEN);
-  const loaded = await loadDirectory(config, githubHeaders);
-  if (loaded.error) return loaded.error;
-  const { currentFile, directory } = loaded;
-
-  const records = directory[config.arrayKey];
-  if (!Array.isArray(records)) return jsonResponse({ error: `Directory is missing ${config.arrayKey}.` }, 502);
-
-  const index = records.findIndex((item) => item?.[config.slugKey] === originalSlug);
-  if (index < 0) return jsonResponse({ error: `No ${recordType} record was found for ${originalSlug}.` }, 404);
-
-  const duplicateIndex = records.findIndex((item, itemIndex) => itemIndex !== index && item?.[config.slugKey] === newSlug);
-  if (duplicateIndex >= 0) return jsonResponse({ error: `Another record already uses the slug ${newSlug}.` }, 409);
-
-  records[index] = record;
-  directory[config.countKey] = records.length;
-  directory.publish_ready_count = records.filter((item) => item?.publish_ready === true).length;
-  directory.generated_on = new Date().toISOString().slice(0, 10);
-
-  const saved = await saveDirectory(config, directory, currentFile, githubHeaders, `Update ${recordType} record ${originalSlug}`);
-  if (saved.error) return saved.error;
-
-  return jsonResponse({
-    success: true,
-    message: `${recordName} was saved. Cloudflare deployment should begin automatically.`,
-    record_type: recordType,
-    original_slug: originalSlug,
-    slug: newSlug,
-    commit: saved.result?.commit?.sha ?? null
-  });
 };
 
 export const onRequestDelete = async ({ request, env }) => {
@@ -198,7 +256,7 @@ export const onRequestDelete = async ({ request, env }) => {
   } catch {
     return jsonResponse({ error: "The submitted content is not valid JSON." }, 400);
   }
-  return deleteRecord({ request, env, payload });
+  return deleteRecord({ env, payload });
 };
 
 export const onRequest = async ({ request, env }) => {
