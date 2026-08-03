@@ -5,8 +5,8 @@
   "generated_on": "2026-08-03",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 579,
-  "publish_ready_count": 243,
+  "business_count": 580,
+  "publish_ready_count": 244,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -25473,6 +25473,117 @@
         "Performance and recital opportunities",
         "Studio rental available",
         "McKinney performing-arts programming"
+      ]
+    },
+    {
+      "slug": "gainesville-police-department",
+      "business_name": "Gainesville Police Department",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Steven K. Fleming Public Safety Center, 201 Santa Fe St, Gainesville, TX 76240",
+      "category": [
+        "Police Department",
+        "Government Agency",
+        "Public Safety",
+        "Community Organization"
+      ],
+      "tags": [
+        "Gainesville",
+        "Cooke County",
+        "Law Enforcement",
+        "Public Safety",
+        "Emergency Services",
+        "Community Policing",
+        "Citizens Police Academy",
+        "Crime Prevention",
+        "Community Education",
+        "Government Services"
+      ],
+      "description": "The Gainesville Police Department provides law-enforcement and public-safety services for Gainesville, Texas. Operating from the Steven K. Fleming Public Safety Center, the department serves the community through patrol, criminal investigations, communications, crime prevention, public education and community-engagement programs. The department also offers the Gainesville Citizens Police Academy, which gives participants an educational look at police operations and strengthens communication between residents and local law enforcement.",
+      "why_visit": "Residents can contact the Gainesville Police Department for non-emergency police assistance, public-safety information, crime-prevention resources and community programs. The department's Citizens Police Academy provides an opportunity to learn directly about local law-enforcement operations and community policing.",
+      "why_its_unique": "In addition to providing around-the-clock public-safety services, the department maintains active community outreach through educational programs, public events and the Gainesville Citizens Police Academy.",
+      "phone": "940-668-7777",
+      "email": "socialmedia@gvps.org",
+      "website": "https://www.gainesville.tx.us/114/Police",
+      "facebook": "https://www.facebook.com/GTPolice",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": "Gainesville Texas Police Department official badge logo",
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Police and emergency-response services operate 24 hours a day. Call 911 for emergencies. Published administrative or public-lobby hours were not confirmed; call 940-668-7777 before visiting for non-emergency business.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "24-hour police response",
+        "Non-emergency police assistance",
+        "Crime tips line",
+        "Community policing programs",
+        "Citizens Police Academy",
+        "Crime-prevention education",
+        "Public-safety information",
+        "Community outreach"
+      ],
+      "good_to_know": [
+        "Call 911 for emergencies.",
+        "The police department's non-emergency number is 940-668-7777.",
+        "The Crime Tips Line is 940-612-0000.",
+        "The department is located inside the Steven K. Fleming Public Safety Center.",
+        "Administrative or public-lobby hours were not confirmed; call before visiting for routine business.",
+        "The email address socialmedia@gvps.org is published for social-media contact and may not be appropriate for emergency or time-sensitive police reports.",
+        "The department offers a Citizens Police Academy and participates in community education and public events."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified August 2, 2026, using the official City of Gainesville Police Department website and the official Gainesville Texas Police Department Facebook page. Confirmed details include the Steven K. Fleming Public Safety Center at 201 Santa Fe St, Gainesville, TX 76240; non-emergency phone 940-668-7777; Crime Tips Line 940-612-0000; official website; official Facebook presence; and social-media email socialmedia@gvps.org. Police response is available around the clock, but specific administrative or public-lobby hours were not confirmed and therefore remain variable.",
+      "last_checked": "2026-08-02",
+      "event_types": [
+        "Citizens Police Academy sessions",
+        "Community policing events",
+        "Public-safety presentations",
+        "Crime-prevention programs",
+        "National Night Out activities",
+        "Community meetings",
+        "Recruitment events",
+        "Public education programs"
+      ],
+      "event_sources": [
+        "Official City of Gainesville Police Department website",
+        "Official Gainesville Texas Police Department Facebook page",
+        "Official City of Gainesville announcements"
+      ],
+      "features": [
+        "Municipal law-enforcement agency",
+        "24-hour public-safety response",
+        "Patrol services",
+        "Criminal investigations",
+        "Police communications",
+        "Community policing",
+        "Citizens Police Academy",
+        "Crime-prevention education",
+        "Community outreach",
+        "Public-safety programs"
       ]
     }
   ]
