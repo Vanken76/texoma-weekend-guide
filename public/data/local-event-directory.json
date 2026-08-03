@@ -7172,19 +7172,19 @@
         "Food & Drink"
       ],
       "tags": [
-        "Paint party",
-        "Guided painting",
+        "Paint Party",
+        "Painting Class",
         "The Painted Easel",
         "Casa Romo Cocina Mexicana",
         "Ardmore",
         "Downtown Ardmore",
-        "Beginner friendly",
-        "Canvas painting",
-        "Porch decor",
-        "Creative workshop"
+        "Canvas Painting",
+        "Porch Sign",
+        "Creative Workshop",
+        "Beginner Friendly"
       ],
       "cost_type": "paid",
-      "cost_details": "11-by-14-inch project: $40 plus tax. Three-foot porch project: $50 plus tax. Paint, brushes, an apron and step-by-step instruction are included. Food and beverages are purchased separately.",
+      "cost_details": "11×14 project: $40 plus tax. 3-foot porch project: $50 plus tax. Paint, brushes, apron, and step-by-step instruction are included. Food and beverages are not included.",
       "audience": [
         "Adults",
         "Teens",
@@ -7197,11 +7197,9 @@
       "partner_business_slugs": [
         "casa-romo-cocina-mexicana"
       ],
-      "partner_names": [
-        "Casa Romo Cocina Mexicana"
-      ],
+      "partner_names": [],
       "image_url": "/images/events/casa-romo-august-3rd-paint-party-2026-08-03.jpg",
-      "image_alt": "Paint-party flyer for The Painted Easel at Casa Romo Cocina Mexicana featuring goat, duck and welcome-sign project options.",
+      "image_alt": "Paint Party flyer for The Painted Easel at Casa Romo Cocina Mexicana featuring goat, duck and porch sign painting options.",
       "official_url": "https://facebook.com/events/s/casa-romo-august-3rd-paint-par/1562715652046325/",
       "facebook_url": "https://facebook.com/events/s/casa-romo-august-3rd-paint-par/1562715652046325/",
       "ticket_url": null,
@@ -7212,7 +7210,7 @@
       "featured": false,
       "publish_ready": true,
       "source_verified": true,
-      "verification_note": "Verified August 3, 2026 from the official Facebook event and event flyer published by The Painted Easel. The event is scheduled for 6:30-8:30 PM at Casa Romo Cocina Mexicana, 120 W Main St in Ardmore. The flyer confirms an 11-by-14-inch project for $40 plus tax or a 3-foot porch project for $50 plus tax. Pre-drawn artwork, paint, brushes, an apron and step-by-step instruction are included. Reservations are made by texting code CR3 to 940-210-4824. Food and beverages are purchased separately and are not included in the paint fee.",
+      "verification_note": "Verified August 3, 2026 using the official Facebook event and flyer from The Painted Easel. Event is scheduled for 6:30–8:30 PM at Casa Romo Cocina Mexicana, 120 W Main St., Ardmore, OK. Reservations by texting code CR3 to 940-210-4824. Paint, brushes, apron, and step-by-step instruction included. Food and beverages are purchased separately.",
       "last_checked": "2026-08-03",
       "created_on": "2026-08-03",
       "updated_on": "2026-08-03"
