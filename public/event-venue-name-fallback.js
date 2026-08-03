@@ -9,6 +9,12 @@
   const eventSlug = location.pathname.match(/^\/events\/([^/]+)\/?$/)?.[1];
   if (!eventSlug) return;
 
+  const explicitEventVenueOverrides = {
+    "country-line-dance-class-mckinney": "the-dance-collective-mckinney",
+    "two-step-in-mckinney": "the-dance-collective-mckinney",
+    "swing-rumba-dance-lessons": "the-dance-collective-mckinney"
+  };
+
   Promise.all([
     fetch("/data/local-event-directory.json", { cache: "no-store" }).then((response) => response.json()),
     fetch("/data/local-business-directory.json", { cache: "no-store" }).then((response) => response.json())
@@ -16,21 +22,36 @@
     const event = (eventData.events || []).find((item) => item?.event_slug === eventSlug);
     if (!event) return;
 
+    const businesses = businessData.businesses || [];
     const explicitSlugs = [
       ...(Array.isArray(event.venue_slugs) ? event.venue_slugs : []),
       ...(event.venue_slug ? [event.venue_slug] : []),
       ...(Array.isArray(event.secondary_venue_slugs) ? event.secondary_venue_slugs : [])
     ].filter(Boolean);
-    if (explicitSlugs.length) return;
 
-    const venueName = Array.isArray(event.venue_name) ? event.venue_name[0] : event.venue_name;
-    if (!venueName) return;
+    const overrideSlug = explicitEventVenueOverrides[eventSlug];
+    let business = overrideSlug
+      ? businesses.find((item) => item?.slug === overrideSlug && item?.publish_ready === true)
+      : null;
 
-    const business = (businessData.businesses || []).find((item) =>
-      item?.publish_ready === true && normalize(item.business_name) === normalize(venueName)
-    );
+    if (!business && explicitSlugs.length) {
+      business = businesses.find((item) => explicitSlugs.includes(item?.slug) && item?.publish_ready === true);
+    }
+
+    if (!business) {
+      const venueName = Array.isArray(event.venue_name) ? event.venue_name[0] : event.venue_name;
+      if (!venueName) return;
+      const normalizedVenue = normalize(venueName);
+      business = businesses.find((item) => {
+        if (item?.publish_ready !== true) return false;
+        const normalizedBusiness = normalize(item.business_name);
+        return normalizedBusiness === normalizedVenue ||
+          normalizedVenue.startsWith(`${normalizedBusiness} `) ||
+          normalizedBusiness.startsWith(`${normalizedVenue} `);
+      });
+    }
+
     if (!business?.slug) return;
-
     const href = `/businesses/${business.slug}/`;
 
     const venueLine = document.querySelector(".event-hero .venue");
