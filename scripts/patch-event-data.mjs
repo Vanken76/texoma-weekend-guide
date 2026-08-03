@@ -71,7 +71,15 @@ for (const event of directory.events) {
     event.updated_on = "2026-07-30";
   }
 
-  const patch = venueRelationshipPatches.get(event.event_slug);
+  let patch = venueRelationshipPatches.get(event.event_slug);
+
+  if (event.event_name === "Wednesday Night Karaoke" && event.venue_name === "902 Bar & Grill") {
+    patch = {
+      venue_slug: "902-bar-and-grill",
+      venue_name: "902 Bar & Grill"
+    };
+  }
+
   if (!patch) continue;
 
   if (event.venue_slug !== patch.venue_slug) {
