@@ -5,8 +5,8 @@
   "generated_on": "2026-08-03",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 580,
-  "publish_ready_count": 244,
+  "business_count": 581,
+  "publish_ready_count": 245,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -25584,6 +25584,112 @@
         "Crime-prevention education",
         "Community outreach",
         "Public-safety programs"
+      ]
+    },
+    {
+      "slug": "first-convenience-bank-sherman",
+      "business_name": "First Convenience Bank – Sherman",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Inside Walmart, 401 E US Hwy 82, Sherman, TX 75092",
+      "category": [
+        "Bank",
+        "Financial Services",
+        "ATM"
+      ],
+      "tags": [
+        "Sherman",
+        "First Convenience Bank",
+        "First National Bank Texas",
+        "In-Store Bank",
+        "Walmart",
+        "Personal Banking",
+        "Business Banking",
+        "ATM",
+        "Coin Machine",
+        "Extended Hours"
+      ],
+      "description": "First Convenience Bank – Sherman is an in-store banking branch located inside Walmart at 401 E US Hwy 82. First Convenience Bank is affiliated with First National Bank Texas and offers personal and business banking services, checking and savings accounts, certificates of deposit, card products, consumer and business lending services, mortgages, and access to online and mobile banking. This location also provides an ATM and coin machine.",
+      "why_visit": "This branch allows customers to handle many routine banking needs while shopping at Walmart. Its extended weekday and Saturday lobby hours may be useful for customers who cannot visit a traditional bank during standard business hours.",
+      "why_its_unique": "The Sherman location combines an in-store bank branch, ATM and coin machine at one Walmart location and operates later on Thursdays and Fridays than many traditional bank offices.",
+      "phone": "800-903-7490",
+      "email": null,
+      "website": "https://www.1stnb.com/sherman",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "10:00 AM - 6:00 PM",
+        "tuesday": "10:00 AM - 6:00 PM",
+        "wednesday": "10:00 AM - 6:00 PM",
+        "thursday": "10:00 AM - 7:00 PM",
+        "friday": "10:00 AM - 7:00 PM",
+        "saturday": "10:00 AM - 5:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Published lobby hours may change for federal holidays, severe weather or host-store schedule changes. Confirm current availability before making a special trip.",
+      "at_a_glance": {
+        "average_visit": "Varies by banking service",
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "In-store banking branch",
+        "ATM",
+        "Coin machine",
+        "Personal banking",
+        "Business banking",
+        "Online banking",
+        "Mobile banking",
+        "Saturday lobby hours",
+        "Extended Thursday and Friday hours"
+      ],
+      "good_to_know": [
+        "The branch is located inside Walmart.",
+        "The published branch phone number is the shared customer-service number 800-903-7490.",
+        "An ATM and coin machine are listed for this location.",
+        "Specific transaction availability, account requirements, fees and lending decisions vary by product.",
+        "Banking hours may differ from Walmart store hours.",
+        "First Convenience Bank is affiliated with First National Bank Texas."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "verification_note": "Verified August 2, 2026, using the official First National Bank Texas and First Convenience Bank Sherman branch page. The official listing confirms the Walmart host location, address, shared phone number, branch status, ATM, coin machine and lobby hours. No reliable local-branch Facebook page or public email address was confirmed.",
+      "last_checked": "2026-08-02",
+      "event_types": [],
+      "event_sources": [
+        "Official First National Bank Texas and First Convenience Bank branch page"
+      ],
+      "features": [
+        "First Convenience Bank branch",
+        "Affiliate of First National Bank Texas",
+        "Located inside Walmart",
+        "ATM available",
+        "Coin machine available",
+        "Extended banking hours",
+        "Saturday lobby service",
+        "Personal and business banking services",
+        "Digital banking access"
       ]
     }
   ]
