@@ -5,8 +5,8 @@
   "generated_on": "2026-08-03",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 586,
-  "publish_ready_count": 250,
+  "business_count": 585,
+  "publish_ready_count": 249,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -754,48 +754,6 @@
       ],
       "verification_note": "Complete with temporary-closure status. Keep on the permanent high-priority event-mining list. Do not publish fixed operating hours until the venue officially announces them. Monitor closely for reopening information, concert announcements, family programming, karaoke, movie nights, and special community events.",
       "last_checked": "2026-07-19"
-    },
-    {
-      "slug": "1st-national-bank-texas",
-      "business_name": "1st National Bank Texas",
-      "directory_status": "complete_multi_location",
-      "publish_ready": true,
-      "service_area_or_location": "Texoma-area branch network — branch location and hours vary",
-      "category": [
-        "Bank",
-        "Financial Institution",
-        "Personal Banking",
-        "Business Banking",
-        "Mortgage Services"
-      ],
-      "description": "A Texas-based financial institution offering personal and business banking, checking and savings accounts, lending, mortgage services, debit cards, online banking, and other financial services through its branch network.",
-      "phone": null,
-      "email": null,
-      "website": "https://www.1stnb.com",
-      "facebook": null,
-      "instagram": null,
-      "hours": null,
-      "hours_note": "Branch addresses, phone numbers, lobby hours, and drive-through hours vary by location. Use the official branch locator before visiting.",
-      "event_venue": false,
-      "recurring_events": false,
-      "mine_for_events": true,
-      "event_mining_priority": "medium",
-      "event_types": [
-        "Financial literacy workshops",
-        "Community outreach",
-        "Small-business seminars",
-        "Hiring events",
-        "Holiday banking hours",
-        "Community sponsorships"
-      ],
-      "event_sources": [
-        "Official website",
-        "Official branch announcements",
-        "Community partner announcements",
-        "Herald Democrat Best of Texoma ballot"
-      ],
-      "verification_note": "Complete as a multi-location canonical business record. The Best of Texoma ballot entry combined the bank with individual nominee Addison Hooker. The published business name is 1st National Bank Texas; Addison Hooker is retained only as source metadata. Branch-specific address, phone, and hours should be added or split into separate location records when the exact nominated Texoma branch is confirmed.",
-      "last_checked": "2026-07-21"
     },
     {
       "slug": "24-7-pristine-clean",
