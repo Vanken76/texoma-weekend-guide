@@ -91,6 +91,41 @@ const authorize = (request, env) => {
   return null;
 };
 
+const deleteRecord = async ({ request, env, payload }) => {
+  const { record_type: recordType, slug } = payload ?? {};
+  const config = CONFIG[recordType];
+  if (!config) return jsonResponse({ error: "record_type must be business or event." }, 400);
+  if (!validSlug(slug)) return jsonResponse({ error: "A valid slug is required." }, 400);
+
+  const githubHeaders = githubHeadersFor(env.GITHUB_TOKEN);
+  const loaded = await loadDirectory(config, githubHeaders);
+  if (loaded.error) return loaded.error;
+  const { currentFile, directory } = loaded;
+
+  const records = directory[config.arrayKey];
+  if (!Array.isArray(records)) return jsonResponse({ error: `Directory is missing ${config.arrayKey}.` }, 502);
+
+  const index = records.findIndex((item) => item?.[config.slugKey] === slug);
+  if (index < 0) return jsonResponse({ error: `No ${recordType} record was found for ${slug}.` }, 404);
+
+  const [removed] = records.splice(index, 1);
+  const recordName = removed?.[config.nameKey] || slug;
+  directory[config.countKey] = records.length;
+  directory.publish_ready_count = records.filter((item) => item?.publish_ready === true).length;
+  directory.generated_on = new Date().toISOString().slice(0, 10);
+
+  const saved = await saveDirectory(config, directory, currentFile, githubHeaders, `Delete ${recordType} record ${slug}`);
+  if (saved.error) return saved.error;
+
+  return jsonResponse({
+    success: true,
+    message: `${recordName} was deleted. Cloudflare deployment should begin automatically.`,
+    record_type: recordType,
+    slug,
+    commit: saved.result?.commit?.sha ?? null
+  });
+};
+
 export const onRequestPost = async ({ request, env }) => {
   const authError = authorize(request, env);
   if (authError) return authError;
@@ -100,6 +135,10 @@ export const onRequestPost = async ({ request, env }) => {
     payload = await request.json();
   } catch {
     return jsonResponse({ error: "The submitted content is not valid JSON." }, 400);
+  }
+
+  if (payload?.action === "delete") {
+    return deleteRecord({ request, env, payload });
   }
 
   const { record_type: recordType, original_slug: originalSlug, record } = payload ?? {};
@@ -159,39 +198,7 @@ export const onRequestDelete = async ({ request, env }) => {
   } catch {
     return jsonResponse({ error: "The submitted content is not valid JSON." }, 400);
   }
-
-  const { record_type: recordType, slug } = payload ?? {};
-  const config = CONFIG[recordType];
-  if (!config) return jsonResponse({ error: "record_type must be business or event." }, 400);
-  if (!validSlug(slug)) return jsonResponse({ error: "A valid slug is required." }, 400);
-
-  const githubHeaders = githubHeadersFor(env.GITHUB_TOKEN);
-  const loaded = await loadDirectory(config, githubHeaders);
-  if (loaded.error) return loaded.error;
-  const { currentFile, directory } = loaded;
-
-  const records = directory[config.arrayKey];
-  if (!Array.isArray(records)) return jsonResponse({ error: `Directory is missing ${config.arrayKey}.` }, 502);
-
-  const index = records.findIndex((item) => item?.[config.slugKey] === slug);
-  if (index < 0) return jsonResponse({ error: `No ${recordType} record was found for ${slug}.` }, 404);
-
-  const [removed] = records.splice(index, 1);
-  const recordName = removed?.[config.nameKey] || slug;
-  directory[config.countKey] = records.length;
-  directory.publish_ready_count = records.filter((item) => item?.publish_ready === true).length;
-  directory.generated_on = new Date().toISOString().slice(0, 10);
-
-  const saved = await saveDirectory(config, directory, currentFile, githubHeaders, `Delete ${recordType} record ${slug}`);
-  if (saved.error) return saved.error;
-
-  return jsonResponse({
-    success: true,
-    message: `${recordName} was deleted. Cloudflare deployment should begin automatically.`,
-    record_type: recordType,
-    slug,
-    commit: saved.result?.commit?.sha ?? null
-  });
+  return deleteRecord({ request, env, payload });
 };
 
 export const onRequest = async ({ request, env }) => {
