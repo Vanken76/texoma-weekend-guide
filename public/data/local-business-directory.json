@@ -5,8 +5,8 @@
   "generated_on": "2026-08-03",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 585,
-  "publish_ready_count": 249,
+  "business_count": 586,
+  "publish_ready_count": 250,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -26503,6 +26503,102 @@
         "Extended banking hours",
         "Saturday lobby service",
         "Digital banking access"
+      ]
+    },
+    {
+      "slug": "family-1st-care-gainesville",
+      "business_name": "Family 1st Care",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "2024 W US Highway 82, Gainesville, TX 76240",
+      "category": [
+        "Primary Care Clinic",
+        "Family Medicine",
+        "Medical Clinic",
+        "Healthcare",
+        "Occupational Medicine"
+      ],
+      "tags": [
+        "Primary Care",
+        "Family Medicine",
+        "Telehealth",
+        "Wellness Exams",
+        "DOT Physicals",
+        "Occupational Medicine",
+        "Accepting New Patients",
+        "Gainesville",
+        "Cooke County"
+      ],
+      "description": "Family 1st Care is an independent primary care clinic serving Gainesville and Cooke County. The clinic provides comprehensive healthcare for children and adults including preventive care, wellness exams, sick visits, chronic disease management, occupational medicine, telehealth, weight management, and select in-office procedures.",
+      "why_visit": "Patients receive personalized local healthcare from an independent clinic offering a broad range of family medicine services without needing to travel outside the area.",
+      "why_its_unique": "A locally focused independent practice providing family medicine, occupational medicine, telehealth, and wellness services under one roof.",
+      "phone": "940-641-3440",
+      "email": null,
+      "website": "https://family1stcare.com",
+      "facebook": "https://www.facebook.com/family1stcaregainesville",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "8:00 AM - 5:30 PM",
+        "tuesday": "8:00 AM - 5:30 PM",
+        "wednesday": "8:00 AM - 5:30 PM",
+        "thursday": "8:00 AM - 5:30 PM",
+        "friday": "8:00 AM - 5:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Hours may vary for holidays. Verify before visiting.",
+      "at_a_glance": {
+        "average_visit": "30-60 minutes",
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": true,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Wheelchair Accessible",
+        "Telehealth Appointments",
+        "Primary Care",
+        "Occupational Medicine",
+        "Wellness Exams"
+      ],
+      "good_to_know": [
+        "Accepting new patients.",
+        "Offers telehealth appointments.",
+        "Provides DOT and employment physicals.",
+        "Serves Gainesville and surrounding Cooke County communities."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "verification_note": "Verified from the official website and official Facebook page.",
+      "last_checked": "2026-08-03",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Locally owned",
+        "Independent medical clinic",
+        "Family medicine",
+        "Occupational medicine",
+        "Telehealth available",
+        "Accepting new patients"
       ]
     }
   ]
