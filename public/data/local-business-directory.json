@@ -14570,48 +14570,101 @@
       "category": [
         "Animal Hospital",
         "Veterinarian",
-        "Pet Wellness",
-        "Pet Surgery",
-        "Pet Dentistry",
-        "Vaccinations",
-        "Diagnostic Services"
+        "Pet Care",
+        "Emergency Veterinary Referral",
+        "Pet Wellness"
       ],
-      "description": "A full-service independent veterinary hospital serving Denison and surrounding Texoma communities with preventive care, diagnostics, surgery, dentistry, wellness programs, nutrition counseling and medical care for dogs and cats.",
+      "tags": [
+        "Veterinarian",
+        "Animal Hospital",
+        "Dogs",
+        "Cats",
+        "Vaccinations",
+        "Wellness Exams",
+        "Dental Care",
+        "Surgery",
+        "Spay and Neuter",
+        "Microchipping",
+        "Parasite Prevention",
+        "X-Ray",
+        "Laboratory",
+        "Travel Certificates",
+        "Denison",
+        "Grayson County"
+      ],
+      "description": "Animal Hospital of Denison is a full-service veterinary hospital providing wellness, preventive, medical, surgical, dental and diagnostic care for dogs and cats. The clinic offers compassionate care, preventive health programs, laboratory services, radiology, surgery, travel certificates and end-of-life services while serving Denison and surrounding Texoma communities.",
+      "why_visit": [
+        "Full-service veterinary care in downtown Denison.",
+        "Accepting new clients.",
+        "Preventive, medical, surgical and dental services in one location.",
+        "Experienced veterinary team with modern diagnostic equipment.",
+        "Offers wellness plans and travel health certificates."
+      ],
+      "why_its_unique": [
+        "Combines routine wellness care with advanced diagnostics and surgery.",
+        "Provides both domestic and international pet travel certificates.",
+        "Long-established veterinary practice serving the Denison area."
+      ],
+      "at_a_glance": [
+        "Accepting new clients",
+        "Dogs and cats",
+        "Wellness exams",
+        "Vaccinations",
+        "Dental care",
+        "Surgery",
+        "Radiology",
+        "Laboratory diagnostics",
+        "Microchipping",
+        "Travel certificates"
+      ],
+      "amenities": [
+        "Appointments",
+        "Preventive care",
+        "Digital radiography",
+        "Dental radiography",
+        "In-house laboratory",
+        "Microchipping",
+        "Wellness plans",
+        "Prescription services"
+      ],
+      "good_to_know": [
+        "Closed daily from 12:15 PM to 1:15 PM for lunch.",
+        "After-hours emergencies are referred to Grayson County Animal Emergency Clinic.",
+        "Call ahead for appointments and travel certificates."
+      ],
+      "family_friendly": true,
+      "pet_friendly": true,
+      "dog_friendly": true,
       "phone": "903-465-1055",
-      "email": null,
+      "email": "",
       "website": "https://www.animalhospitalofdenison.com",
-      "facebook": null,
-      "instagram": null,
+      "facebook": "https://www.facebook.com/animalhospitalofdenison",
+      "instagram": "",
       "hours": {
-        "monday": "7:30 AM–12:15 PM; 1:15 PM–5:30 PM",
-        "tuesday": "7:30 AM–12:15 PM; 1:15 PM–5:30 PM",
-        "wednesday": "7:30 AM–12:15 PM; 1:15 PM–5:30 PM",
-        "thursday": "7:30 AM–12:15 PM; 1:15 PM–5:30 PM",
-        "friday": "7:30 AM–12:15 PM; 1:15 PM–5:30 PM",
+        "monday": "7:30 AM-12:15 PM, 1:15 PM-5:30 PM",
+        "tuesday": "7:30 AM-12:15 PM, 1:15 PM-5:30 PM",
+        "wednesday": "7:30 AM-12:15 PM, 1:15 PM-5:30 PM",
+        "thursday": "7:30 AM-12:15 PM, 1:15 PM-5:30 PM",
+        "friday": "7:30 AM-12:15 PM, 1:15 PM-5:30 PM",
         "saturday": "Closed",
         "sunday": "Closed"
       },
-      "hours_note": "Verify holiday hours and appointment availability through the official website.",
+      "hours_note": "Closed daily from 12:15 PM to 1:15 PM. Verify holiday hours before visiting.",
       "event_venue": false,
       "recurring_events": false,
       "mine_for_events": true,
       "event_mining_priority": "medium",
       "event_types": [
-        "Vaccination clinics",
-        "Pet wellness education",
-        "Community outreach",
-        "Pet adoption partnerships",
-        "Hiring announcements",
-        "Holiday hours",
-        "Pet health awareness campaigns"
+        "Vaccination Clinic",
+        "Pet Wellness",
+        "Pet Health"
       ],
       "event_sources": [
-        "Official website",
-        "Official clinic announcements",
-        "Community partner announcements"
+        "Official Website",
+        "Facebook"
       ],
-      "verification_note": "Complete. Canonical successor to the former Austin Street Animal Hospital name; replace any legacy placeholder with this record.",
-      "last_checked": "2026-07-20"
+      "verification_note": "Complete. Canonical record updated to current premium business schema using official website and official Facebook.",
+      "last_checked": "2026-08-03"
     },
     {
       "slug": "texas-b-cattle-company",
