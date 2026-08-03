@@ -1,4 +1,7 @@
 (() => {
+  if (window.__twgAdminAttentionLoaded) return;
+  window.__twgAdminAttentionLoaded = true;
+
   const isActiveEvent = (event, now) => {
     if (!event || event.publish_ready !== true || !["upcoming", "recurring"].includes(event.status)) return false;
     const end = event.end_datetime ? new Date(event.end_datetime) : null;
@@ -34,7 +37,6 @@
     const target = [...grid.querySelectorAll(".attention-card")]
       .find((card) => card.textContent.includes("Active events missing venue slug"));
     if (!target) return false;
-    if (target.querySelector(".full-issue-list")) return true;
 
     try {
       const data = await loadEvents();
@@ -52,9 +54,15 @@
         return `<li>${label}<small>${venue} • ${city}</small></li>`;
       }).join("");
 
+      target.querySelectorAll(".full-issue-list").forEach((element) => element.remove());
       const existingList = target.querySelector("ul");
-      if (!existingList) return false;
-      existingList.outerHTML = `<details class="full-issue-list" open><summary>All ${missing.length} events missing venue slugs</summary><ul>${listItems}</ul></details>`;
+      if (existingList) existingList.remove();
+
+      const details = document.createElement("details");
+      details.className = "full-issue-list";
+      details.open = false;
+      details.innerHTML = `<summary>All ${missing.length} events missing venue slugs</summary><ul>${listItems}</ul>`;
+      target.appendChild(details);
       return true;
     } catch {
       return false;
@@ -68,21 +76,12 @@
       if (await enhance()) observer.disconnect();
     });
 
-    const observeWhenReady = () => {
-      const grid = document.querySelector("#attention-grid");
-      if (grid) {
-        observer.observe(grid, { childList: true, subtree: true });
-        return true;
-      }
-      return false;
-    };
-
-    observeWhenReady();
+    const grid = document.querySelector("#attention-grid");
+    if (grid) observer.observe(grid, { childList: true, subtree: true });
 
     let attempts = 0;
     const retry = setInterval(async () => {
       attempts += 1;
-      if (!document.querySelector("#attention-grid")) observeWhenReady();
       if (await enhance() || attempts >= 40) {
         clearInterval(retry);
         observer.disconnect();
