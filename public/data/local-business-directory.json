@@ -5,8 +5,8 @@
   "generated_on": "2026-08-03",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 586,
-  "publish_ready_count": 250,
+  "business_count": 587,
+  "publish_ready_count": 251,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -26898,6 +26898,124 @@
       ],
       "verification_note": "Complete. Verified August 2026 using the official Finley 502 website, official Facebook page, Sherman Service League information, and Sherman Chamber of Commerce recurring events. The Finley 502 is a separate venue from the Finley Playhouse at 500 N Elm Street.",
       "last_checked": "2026-08-03"
+    },
+    {
+      "slug": "la-mesa-mexican-restaurante-cantina",
+      "business_name": "La Mesa Mexican Restaurante & Cantina",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "2124 Texoma Pkwy, Sherman, TX 75090",
+      "category": [
+        "Mexican Restaurant",
+        "Tex-Mex Restaurant",
+        "Cantina",
+        "Family Restaurant"
+      ],
+      "tags": [
+        "Family Owned",
+        "Longtime Local Business",
+        "Tex-Mex",
+        "Margaritas",
+        "Full Bar",
+        "Lunch Specials",
+        "Children's Menu",
+        "Online Ordering",
+        "Delivery",
+        "Private Events"
+      ],
+      "description": "La Mesa Mexican Restaurante & Cantina is a family-owned Sherman restaurant that has served the community since 1985. Located on Texoma Parkway, La Mesa offers a broad menu of classic Tex-Mex favorites, including fajitas, enchiladas, tacos, burritos, chimichangas, quesadillas, combination dinners, salads, American selections, children's meals, desserts, and lunch specials. The restaurant is especially known for generous portions, signature margaritas, house hot sauce, queso, fajitas, and longtime local recognition.",
+      "why_visit": "Visit La Mesa for a familiar, casual Tex-Mex meal with a large menu that works well for families, groups, lunch outings, and diners who want plenty of choices. Guests can order classic combination plates, sizzling fajitas, enchiladas, brisket dishes, vegetarian selections, children's meals, margaritas, and other cantina drinks, with pickup and delivery also available.",
+      "why_its_unique": "La Mesa has been part of the Sherman dining landscape since 1985, giving it more than four decades of local history. Its official Facebook page states that it has been recognized as Texoma's Best Mexican Restaurant since 2003 and has also received recognition for its salsa and fajitas. Its combination of longevity, family ownership, expansive menu, generous portions, house hot sauce, and signature margaritas distinguishes it from newer chain-style Tex-Mex options.",
+      "phone": "903-892-1644",
+      "email": "shermanlamesa@gmail.com",
+      "website": "https://www.shermanlamesa.com",
+      "facebook": "https://www.facebook.com/lamesasherman",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM - 9:00 PM",
+        "tuesday": "11:00 AM - 9:00 PM",
+        "wednesday": "11:00 AM - 9:00 PM",
+        "thursday": "11:00 AM - 9:00 PM",
+        "friday": "11:00 AM - 9:00 PM",
+        "saturday": "11:00 AM - 9:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Closed Sundays. Holiday hours may vary. Verify current hours before making a special trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full Tex-Mex menu",
+        "Full bar and margarita menu",
+        "Children's menu",
+        "Senior menu options",
+        "Lunch specials",
+        "Vegetarian selections",
+        "Online pickup ordering",
+        "Local delivery ordering",
+        "Private-event inquiries",
+        "Family dining"
+      ],
+      "good_to_know": [
+        "The restaurant is closed on Sundays.",
+        "Lunch specials are served from 11:00 AM to 5:00 PM on operating days.",
+        "The menu includes Tex-Mex dishes, American selections, children's meals, vegetarian options, desserts, and alcoholic beverages.",
+        "Pickup and delivery ordering are available through links on the official website.",
+        "The restaurant accepts private-event inquiries.",
+        "Local award statements are claims published by the business on its official Facebook page and have not been independently audited by Texoma Weekend Guide."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Complete. Verified August 3, 2026, using the official La Mesa website, current menu, hours and location page, private-events link, online-ordering options, and official Facebook page supplied by the business. Official sources confirm operation since 1985, family ownership, current contact information, hours, menu offerings, full bar, children's menu, lunch specials, pickup, delivery, and private-event availability. Monitor official Facebook posts for promotions, holiday meals, limited-time specials, and public events.",
+      "last_checked": "2026-08-03",
+      "event_types": [
+        "Restaurant promotions",
+        "Holiday dining",
+        "Limited-time menu specials",
+        "Private events",
+        "Community dining events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page"
+      ],
+      "features": [
+        "Family owned and operated",
+        "Serving Sherman since 1985",
+        "Longtime local Tex-Mex restaurant",
+        "Known for margaritas and house hot sauce",
+        "Broad Tex-Mex menu",
+        "Generous portions",
+        "Fajitas and combination dinners",
+        "Brisket and seafood selections",
+        "Children's and senior menu options",
+        "Full cantina drink menu",
+        "Online pickup and delivery",
+        "Private-event availability"
+      ]
     }
   ]
 }
