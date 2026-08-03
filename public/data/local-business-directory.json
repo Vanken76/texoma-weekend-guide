@@ -5,8 +5,8 @@
   "generated_on": "2026-08-03",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 586,
-  "publish_ready_count": 250,
+  "business_count": 585,
+  "publish_ready_count": 249,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -22332,76 +22332,6 @@
         "Drive-up return and pickup window",
         "Free library cards for eligible residents",
         "Wheelchair accessible"
-      ]
-    },
-    {
-      "slug": "family-1st-care",
-      "business_name": "Family 1st Care",
-      "directory_status": "complete",
-      "publish_ready": true,
-      "service_area_or_location": "2024 W Highway 82, Gainesville, TX 76240",
-      "category": [
-        "Family Medicine",
-        "Primary Care Clinic",
-        "Medical Clinic",
-        "Occupational Health"
-      ],
-      "description": "Family 1st Care is a locally owned Gainesville primary-care and family-medicine practice serving patients across a wide range of ages and health needs. Services include preventive care, chronic-disease management, weight-loss care, minor procedures, video visits, cosmetic treatments, and occupational-health services such as DOT physicals, drug and alcohol testing, pulmonary-function testing, respirator-fit testing, and job-placement assessments.",
-      "phone": "940-641-3440",
-      "email": null,
-      "website": "https://family1stcare.com",
-      "facebook": null,
-      "instagram": null,
-      "hours": {
-        "monday": "8:00 AM–5:30 PM",
-        "tuesday": "8:00 AM–5:30 PM",
-        "wednesday": "8:00 AM–5:30 PM",
-        "thursday": "8:00 AM–5:30 PM",
-        "friday": "8:00 AM–5:00 PM",
-        "saturday": "Closed",
-        "sunday": "Closed"
-      },
-      "hours_note": "Appointments are recommended. Holiday and provider hours may vary, so check the official website or call before visiting.",
-      "event_venue": false,
-      "recurring_events": false,
-      "mine_for_events": true,
-      "event_mining_priority": "medium",
-      "verification_note": "Verified August 1, 2026, using the official Family 1st Care website, current Gainesville Chamber information, and a direct community recommendation from co-owner Rachel Bowles. Official sources confirm the current Gainesville address, phone number, hours, local ownership, family-medicine and primary-care services, occupational-health services, video visits, weight-loss care, minor procedures, and cosmetic treatments. Some older listings still show the former Hospital Boulevard address and should not be used.",
-      "last_checked": "2026-08-01",
-      "event_types": [
-        "Health screenings",
-        "Vaccination announcements",
-        "Wellness programs",
-        "Community health outreach",
-        "Occupational-health events",
-        "Clinic promotions",
-        "Health education events"
-      ],
-      "event_sources": [
-        "Official website",
-        "Business announcements",
-        "Community announcements",
-        "Owner and provider posts"
-      ],
-      "features": [
-        "Locally owned",
-        "Family medicine",
-        "Primary care",
-        "Preventive care",
-        "Chronic-disease management",
-        "Weight-loss care",
-        "Minor procedures",
-        "Video visits",
-        "Botox",
-        "Dermal fillers",
-        "DOT physicals",
-        "Non-DOT physicals",
-        "Drug testing",
-        "Alcohol testing",
-        "Pulmonary-function testing",
-        "Respirator-fit testing",
-        "Job-placement assessments",
-        "Occupational medicine"
       ]
     },
     {
