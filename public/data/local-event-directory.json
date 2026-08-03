@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "project": "Texoma Weekend Guide",
   "document_type": "local_event_directory",
-  "generated_on": "2026-08-02",
+  "generated_on": "2026-08-03",
   "timezone_default": "America/Chicago",
   "publication_rule": "Only records with publish_ready=true should appear in the public event directory.",
   "active_event_rule": "status in [upcoming, recurring] and either end_datetime is in the future, or end_datetime is null and the local event date has not passed",
@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 123,
-  "publish_ready_count": 116,
+  "event_count": 124,
+  "publish_ready_count": 117,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -7086,6 +7086,67 @@
       "updated_on": "2026-08-02",
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_slug": "plug-in-texoma-business-before-hours",
+      "event_name": "Plug-In Texoma Business Before Hours",
+      "description": "Plug-In Texoma Business Before Hours is the Sherman Chamber of Commerce's weekly morning networking event for local business professionals, entrepreneurs, nonprofit leaders, and community members. Attendees can enjoy coffee, introduce themselves and their businesses, make meaningful local connections, and learn more about the Sherman-area business community. The second Tuesday of each month includes a New Member Spotlight featuring newer Chamber members.",
+      "start_datetime": "2026-08-04T08:00:00-05:00",
+      "end_datetime": "2026-08-04T09:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "the-finley-502"
+      ],
+      "venue_name": "The Finley 502",
+      "address": "502 N Elm St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Business Networking",
+        "Community"
+      ],
+      "tags": [
+        "Sherman Chamber of Commerce",
+        "morning networking",
+        "business professionals",
+        "entrepreneurs",
+        "coffee",
+        "New Member Spotlight",
+        "weekly event"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "Business professionals",
+        "Entrepreneurs",
+        "Nonprofit leaders",
+        "Community members"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Sherman Chamber of Commerce",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/plug-in-texoma-business-before-hours.jpg",
+      "image_alt": null,
+      "official_url": "https://www.shermanchamber.us/event-detail/uXGqtGVVASD4KpETolxxyg2/plug-in-texoma-networking-breakfast",
+      "facebook_url": "https://www.facebook.com/events/2358805911199136/",
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=TU",
+      "recurrence_start_date": "2026-08-04",
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 3, 2026 using the official Sherman Chamber of Commerce event listing and official Facebook event. Held every Tuesday from 8:00 AM to 9:00 AM at The Finley 502. The second Tuesday of each month includes a New Member Spotlight. No admission price was published, so cost_type remains unknown.",
+      "last_checked": "2026-08-03",
+      "created_on": "2026-08-03",
+      "updated_on": "2026-08-03"
     }
   ]
 }
