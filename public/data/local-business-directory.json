@@ -1371,52 +1371,82 @@
       "business_name": "Agápē Aesthetics & Wellness",
       "directory_status": "complete_appointment_based",
       "publish_ready": true,
-      "service_area_or_location": "1800 Teague Dr, Suite 209, Sherman, TX 75090 — serving Sherman and the greater Texoma area",
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "1800 Teague Dr, Suite 209, Sherman, TX 75090",
       "category": [
         "Medical Spa",
-        "Facial Spa",
-        "Skin Care Clinic",
         "Aesthetics",
-        "Wellness",
-        "Weight Loss & Wellness",
-        "Anti-Aging Treatments"
+        "Wellness Clinic",
+        "Skin Care Clinic"
       ],
-      "description": "A locally owned Sherman aesthetics and wellness practice offering customized facials, Hydrafacial treatments, microneedling, dermaplaning, chemical peels, anti-aging injectables, wellness services, functional-health programs, and personalized skincare in a private appointment-based setting.",
+      "tags": [
+        "Locally Owned",
+        "Appointment Required",
+        "Medical Aesthetics",
+        "Skin Health",
+        "Sherman TX"
+      ],
+      "description": "Agápē Aesthetics & Wellness is a locally owned Sherman medical aesthetics practice offering personalized skin-health and wellness services in a private, appointment-based setting. Treatments focus on helping clients achieve healthy, natural-looking results through customized care.",
+      "why_visit": "Visit for individualized aesthetic and skin-health treatments from a local practitioner who emphasizes personalized care and scheduled appointments.",
+      "why_its_unique": "The practice combines medical aesthetics with individualized wellness consultations in an appointment-only environment.",
       "phone": "903-356-8592",
       "email": "info@spaagape.com",
       "website": "https://spaagape.com",
-      "facebook": null,
-      "instagram": null,
-      "hours": {
-        "monday": "7:00 AM–7:00 PM — appointment based",
-        "tuesday": "7:00 AM–7:00 PM — appointment based",
-        "wednesday": "7:00 AM–7:00 PM — appointment based",
-        "thursday": "7:00 AM–7:00 PM — appointment based",
-        "friday": "7:00 AM–7:00 PM — appointment based",
-        "saturday": "7:00 AM–7:00 PM — appointment based",
-        "sunday": "7:00 AM–7:00 PM — appointment based"
+      "facebook": "https://www.facebook.com/wonderfully.taylord",
+      "instagram": "https://www.instagram.com/wonderfullytaylord",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": "Agápē Aesthetics & Wellness logo",
+      "price_range": null,
+      "family_friendly": false,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Appointment-based business. Schedule through the official website, Facebook, or Instagram. Hours may vary.",
+      "at_a_glance": {
+        "average_visit": "30–90 minutes",
+        "price_range": null,
+        "family_friendly": false,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
       },
-      "hours_note": "Appointment based. Confirm availability through the official booking system before visiting.",
+      "amenities": [
+        "Private appointments",
+        "Skin health consultations",
+        "Medical aesthetic treatments"
+      ],
+      "good_to_know": [
+        "Appointments are recommended.",
+        "Contact the practice directly for current treatment availability.",
+        "Follow the official social media accounts for updates and announcements."
+      ],
       "event_venue": false,
       "recurring_events": false,
-      "mine_for_events": true,
-      "event_mining_priority": "medium",
-      "event_types": [
-        "Seasonal skincare education",
-        "Wellness workshops",
-        "New treatment launches",
-        "Client appreciation",
-        "Holiday specials",
-        "Community collaborations"
-      ],
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "verification_note": "Verified from the official website and the practitioner's official Facebook and Instagram presence.",
+      "last_checked": "2026-08-03",
+      "event_types": [],
       "event_sources": [
         "Official website",
-        "Official booking site",
-        "Official social channels",
-        "Community announcements"
+        "Official Facebook profile",
+        "Official Instagram"
       ],
-      "verification_note": "Complete with appointment-based hours. Official business sources confirm the Sherman location, locally owned independent operation, contact information, and aesthetics and wellness services. Monitor official sources for seasonal skincare education, new services, promotions, client-appreciation events, workshops, and community collaborations.",
-      "last_checked": "2026-07-20"
+      "features": [
+        "Locally owned",
+        "Appointment based",
+        "Medical aesthetics",
+        "Skin wellness"
+      ]
     },
     {
       "slug": "albertsons-sherman-taylor-street",
