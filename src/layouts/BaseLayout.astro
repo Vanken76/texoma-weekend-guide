@@ -23,6 +23,7 @@ const isBusinessAdmin = Astro.url.pathname === "/admin-business" || Astro.url.pa
 const isBusinessGalleryAdmin = Astro.url.pathname === "/admin-business-gallery" || Astro.url.pathname === "/admin-business-gallery/";
 const isAdminDashboard = Astro.url.pathname === "/admin-dashboard" || Astro.url.pathname === "/admin-dashboard/";
 const isEventsPage = Astro.url.pathname === "/events" || Astro.url.pathname === "/events/";
+const isEventDetail = /^\/events\/[^/]+\/?$/.test(Astro.url.pathname);
 const isBusinessesPage = Astro.url.pathname === "/businesses" || Astro.url.pathname === "/businesses/";
 const isBusinessSection = Astro.url.pathname.startsWith("/businesses/");
 const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname === "/support/";
@@ -61,6 +62,7 @@ const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname ==
     {isEventsPage && <script is:inline src="/event-address-display.js?v=2"></script>}
     {isEventsPage && <script is:inline src="/event-detail-links.js?v=3"></script>}
     {isEventsPage && <script is:inline src="/event-filter-links.js?v=2"></script>}
+    {isEventDetail && <script is:inline src="/event-venue-name-fallback.js?v=1"></script>}
     {isBusinessesPage && <script is:inline src="/business-directory-among-the-pages-fix.js?v=1"></script>}
     {isBusinessesPage && <script is:inline src="/business-amenities-filter.js?v=1"></script>}
     {(isBusinessesPage || isBusinessSection) && <script is:inline src="/business-facebook-overrides.js?v=1"></script>}
