@@ -24,7 +24,12 @@
     deleteButton.type = "button";
     deleteButton.textContent = "Delete Record";
     deleteButton.style.background = "#9f2f27";
+    deleteButton.style.color = "white";
     deleteButton.style.marginLeft = "auto";
+    deleteButton.style.border = "0";
+    deleteButton.style.borderRadius = ".65rem";
+    deleteButton.style.padding = ".72rem 1rem";
+    deleteButton.style.fontWeight = "800";
     actions.appendChild(deleteButton);
 
     const setStatus = (message, details = [], ok = false) => {
@@ -44,6 +49,15 @@
         return slugControl.value.trim();
       }
       return queryInput.value.trim().replace(/^.*\//, "").replace(/\/+$/, "");
+    };
+
+    const readJsonResponse = async (response) => {
+      const text = await response.text();
+      try {
+        return JSON.parse(text);
+      } catch {
+        throw new Error(`Server returned ${response.status} ${response.statusText || ""} instead of JSON.`.trim());
+      }
     };
 
     deleteButton.addEventListener("click", async () => {
@@ -73,11 +87,11 @@
       deleteButton.textContent = "Deleting…";
       try {
         const response = await fetch("/api/update-record", {
-          method: "DELETE",
+          method: "POST",
           headers: { "content-type": "application/json", "x-admin-key": adminKey.value },
-          body: JSON.stringify({ record_type: recordType, slug })
+          body: JSON.stringify({ action: "delete", record_type: recordType, slug })
         });
-        const result = await response.json();
+        const result = await readJsonResponse(response);
         if (!response.ok) {
           setStatus(result.error || `Delete failed with status ${response.status}.`);
           return;
