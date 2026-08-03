@@ -1,0 +1,436 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Record Editor | Texoma Weekend Guide"
+  description="Private universal editor for Texoma Weekend Guide business, venue, and event records."
+>
+  <main class="editor-shell">
+    <header class="page-header">
+      <p class="eyebrow">TWG Admin</p>
+      <h1>Universal Record Editor</h1>
+      <p>Paste a business, venue, or event slug—or a full TWG URL. The editor finds the record, separates every property into an editable field, and saves only that record.</p>
+    </header>
+
+    <section class="panel">
+      <label for="admin-key">Admin key</label>
+      <input id="admin-key" type="password" autocomplete="current-password" placeholder="Enter your private publishing key" />
+
+      <label for="record-query">Slug or TWG URL</label>
+      <div class="lookup-row">
+        <input id="record-query" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="Example: the-venue-on-main-denison" />
+        <button id="find-record" type="button">Find Record</button>
+      </div>
+      <p class="helper">Searches both business/venue records and event records. A full <code>/businesses/...</code> or <code>/events/...</code> URL is accepted.</p>
+    </section>
+
+    <section id="match-panel" class="panel" hidden>
+      <h2>Matches</h2>
+      <div id="matches"></div>
+    </section>
+
+    <section id="record-panel" class="panel" hidden>
+      <div class="record-heading">
+        <div>
+          <p id="record-type" class="eyebrow"></p>
+          <h2 id="record-title">Loaded record</h2>
+          <p id="record-source" class="helper"></p>
+        </div>
+        <a id="public-link" class="public-link" href="#" target="_blank" rel="noopener">Open public page</a>
+      </div>
+
+      <div id="fields" class="fields"></div>
+
+      <section class="changes-box">
+        <h3>Changes</h3>
+        <ul id="changes"><li>No changes yet.</li></ul>
+      </section>
+
+      <div class="actions">
+        <button id="reset-record" class="secondary" type="button">Reset Changes</button>
+        <button id="save-record" type="button" disabled>Validate & Save</button>
+      </div>
+    </section>
+
+    <section class="panel results" aria-live="polite">
+      <h2>Status</h2>
+      <p id="status">No record loaded.</p>
+      <ul id="status-details"></ul>
+    </section>
+  </main>
+
+  <script>
+    const adminKey = document.querySelector("#admin-key");
+    const queryInput = document.querySelector("#record-query");
+    const findButton = document.querySelector("#find-record");
+    const matchPanel = document.querySelector("#match-panel");
+    const matchesWrap = document.querySelector("#matches");
+    const recordPanel = document.querySelector("#record-panel");
+    const recordTypeLabel = document.querySelector("#record-type");
+    const recordTitle = document.querySelector("#record-title");
+    const recordSource = document.querySelector("#record-source");
+    const publicLink = document.querySelector("#public-link");
+    const fieldsWrap = document.querySelector("#fields");
+    const changesList = document.querySelector("#changes");
+    const resetButton = document.querySelector("#reset-record");
+    const saveButton = document.querySelector("#save-record");
+    const status = document.querySelector("#status");
+    const statusDetails = document.querySelector("#status-details");
+
+    if (!(adminKey instanceof HTMLInputElement) || !(queryInput instanceof HTMLInputElement) ||
+        !(findButton instanceof HTMLButtonElement) || !(matchPanel instanceof HTMLElement) ||
+        !(matchesWrap instanceof HTMLElement) || !(recordPanel instanceof HTMLElement) ||
+        !(recordTypeLabel instanceof HTMLElement) || !(recordTitle instanceof HTMLElement) ||
+        !(recordSource instanceof HTMLElement) || !(publicLink instanceof HTMLAnchorElement) ||
+        !(fieldsWrap instanceof HTMLElement) || !(changesList instanceof HTMLUListElement) ||
+        !(resetButton instanceof HTMLButtonElement) || !(saveButton instanceof HTMLButtonElement) ||
+        !(status instanceof HTMLElement) || !(statusDetails instanceof HTMLUListElement)) {
+      throw new Error("Record editor controls could not be initialized.");
+    }
+
+    const savedKey = sessionStorage.getItem("twg-admin-key");
+    if (savedKey) adminKey.value = savedKey;
+    adminKey.addEventListener("input", () => {
+      if (adminKey.value) sessionStorage.setItem("twg-admin-key", adminKey.value);
+      else sessionStorage.removeItem("twg-admin-key");
+    });
+
+    let directories = null;
+    let current = null;
+    let originalRecord = null;
+
+    const setStatus = (message, details = [], ok = false) => {
+      status.textContent = message;
+      status.className = ok ? "success" : "error";
+      statusDetails.replaceChildren();
+      for (const detail of details) {
+        const li = document.createElement("li");
+        li.textContent = detail;
+        statusDetails.appendChild(li);
+      }
+    };
+
+    const normalizeQuery = (value) => {
+      const trimmed = value.trim();
+      if (!trimmed) return "";
+      try {
+        const url = new URL(trimmed);
+        const parts = url.pathname.split("/").filter(Boolean);
+        return parts.at(-1) || "";
+      } catch {
+        return trimmed.replace(/^\/+|\/+$/g, "");
+      }
+    };
+
+    const loadDirectories = async () => {
+      if (directories) return directories;
+      const stamp = Date.now();
+      const [businessResponse, eventResponse] = await Promise.all([
+        fetch(`/data/local-business-directory.json?v=${stamp}`, { cache: "no-store" }),
+        fetch(`/data/local-event-directory.json?v=${stamp}`, { cache: "no-store" })
+      ]);
+      if (!businessResponse.ok || !eventResponse.ok) throw new Error("One or both directory files could not be loaded.");
+      directories = {
+        business: await businessResponse.json(),
+        event: await eventResponse.json()
+      };
+      return directories;
+    };
+
+    const findMatches = (slug) => {
+      const found = [];
+      const businesses = directories?.business?.businesses ?? [];
+      const events = directories?.event?.events ?? [];
+      for (const record of businesses) {
+        if (record?.slug === slug) found.push({ type: "business", record });
+      }
+      for (const record of events) {
+        if (record?.event_slug === slug) found.push({ type: "event", record });
+      }
+      return found;
+    };
+
+    const scalarInput = (key, value) => {
+      if (typeof value === "boolean") {
+        const select = document.createElement("select");
+        select.dataset.key = key;
+        for (const optionValue of ["true", "false"]) {
+          const option = document.createElement("option");
+          option.value = optionValue;
+          option.textContent = optionValue;
+          option.selected = String(value) === optionValue;
+          select.appendChild(option);
+        }
+        return select;
+      }
+
+      const input = document.createElement("input");
+      input.dataset.key = key;
+      input.type = typeof value === "number" ? "number" : "text";
+      input.value = value == null ? "" : String(value);
+      input.dataset.originalType = value === null ? "null" : typeof value;
+      return input;
+    };
+
+    const complexInput = (key, value) => {
+      const textarea = document.createElement("textarea");
+      textarea.dataset.key = key;
+      textarea.dataset.complex = "true";
+      textarea.spellcheck = false;
+      textarea.value = JSON.stringify(value, null, 2);
+      return textarea;
+    };
+
+    const renderFields = () => {
+      fieldsWrap.replaceChildren();
+      if (!current) return;
+
+      for (const [key, value] of Object.entries(current.record)) {
+        const group = document.createElement("div");
+        group.className = "field-group";
+        const label = document.createElement("label");
+        label.textContent = key;
+        label.htmlFor = `field-${key}`;
+        const input = value && typeof value === "object" ? complexInput(key, value) : scalarInput(key, value);
+        input.id = `field-${key}`;
+        input.addEventListener("input", updateChanges);
+        input.addEventListener("change", updateChanges);
+        group.append(label, input);
+        fieldsWrap.appendChild(group);
+      }
+    };
+
+    const readRecord = () => {
+      const output = {};
+      for (const control of fieldsWrap.querySelectorAll("input, textarea, select")) {
+        if (!(control instanceof HTMLInputElement || control instanceof HTMLTextAreaElement || control instanceof HTMLSelectElement)) continue;
+        const key = control.dataset.key;
+        if (!key) continue;
+        if (control.dataset.complex === "true") {
+          output[key] = JSON.parse(control.value || "null");
+        } else if (control instanceof HTMLSelectElement) {
+          output[key] = control.value === "true";
+        } else {
+          const originalType = control.dataset.originalType;
+          if (originalType === "number") output[key] = control.value === "" ? null : Number(control.value);
+          else if (originalType === "null") output[key] = control.value === "" ? null : control.value;
+          else output[key] = control.value;
+        }
+      }
+      return output;
+    };
+
+    const changedKeys = () => {
+      if (!originalRecord) return [];
+      let edited;
+      try { edited = readRecord(); } catch { return ["Invalid JSON field"]; }
+      return Object.keys(edited).filter((key) => JSON.stringify(edited[key]) !== JSON.stringify(originalRecord[key]));
+    };
+
+    function updateChanges() {
+      const keys = changedKeys();
+      changesList.replaceChildren();
+      if (!keys.length) {
+        const li = document.createElement("li");
+        li.textContent = "No changes yet.";
+        changesList.appendChild(li);
+        saveButton.disabled = true;
+        return;
+      }
+      for (const key of keys) {
+        const li = document.createElement("li");
+        li.textContent = key;
+        changesList.appendChild(li);
+      }
+      saveButton.disabled = false;
+    }
+
+    const loadRecord = (match) => {
+      current = { type: match.type, record: structuredClone(match.record) };
+      originalRecord = structuredClone(match.record);
+      const slugKey = match.type === "business" ? "slug" : "event_slug";
+      const nameKey = match.type === "business" ? "business_name" : "event_name";
+      const slug = match.record[slugKey];
+      recordTypeLabel.textContent = match.type === "business" ? "Business / venue record" : "Event record";
+      recordTitle.textContent = match.record[nameKey] || slug;
+      recordSource.textContent = match.type === "business" ? "Local Business Directory" : "Local Event Directory";
+      publicLink.href = match.type === "business" ? `/businesses/${slug}/` : `/events/${slug}/`;
+      renderFields();
+      updateChanges();
+      matchPanel.hidden = true;
+      recordPanel.hidden = false;
+      setStatus(`${recordTitle.textContent} loaded.`, ["Edit any field below, then validate and save."], true);
+    };
+
+    const renderMatches = (matches) => {
+      matchesWrap.replaceChildren();
+      for (const match of matches) {
+        const slugKey = match.type === "business" ? "slug" : "event_slug";
+        const nameKey = match.type === "business" ? "business_name" : "event_name";
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "match-button";
+        button.textContent = `${match.type === "business" ? "Business / venue" : "Event"}: ${match.record[nameKey] || match.record[slugKey]}`;
+        button.addEventListener("click", () => loadRecord(match));
+        matchesWrap.appendChild(button);
+      }
+      matchPanel.hidden = false;
+    };
+
+    const findRecord = async () => {
+      const slug = normalizeQuery(queryInput.value);
+      if (!slug) {
+        setStatus("Enter a slug or TWG URL.");
+        queryInput.focus();
+        return;
+      }
+      findButton.disabled = true;
+      findButton.textContent = "Searching…";
+      try {
+        await loadDirectories();
+        const matches = findMatches(slug);
+        if (!matches.length) {
+          recordPanel.hidden = true;
+          matchPanel.hidden = true;
+          setStatus(`No business or event record was found for ${slug}.`);
+          return;
+        }
+        if (matches.length === 1) loadRecord(matches[0]);
+        else {
+          renderMatches(matches);
+          setStatus(`${matches.length} records use that slug. Choose the one to edit.`, [], true);
+        }
+      } catch (error) {
+        setStatus(error instanceof Error ? error.message : "The directories could not be loaded.");
+      } finally {
+        findButton.disabled = false;
+        findButton.textContent = "Find Record";
+      }
+    };
+
+    findButton.addEventListener("click", findRecord);
+    queryInput.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") findRecord();
+    });
+
+    resetButton.addEventListener("click", () => {
+      if (!originalRecord || !current) return;
+      current.record = structuredClone(originalRecord);
+      renderFields();
+      updateChanges();
+      setStatus("Changes reset.", [], true);
+    });
+
+    saveButton.addEventListener("click", async () => {
+      if (!current || !originalRecord) return;
+      if (!adminKey.value) {
+        setStatus("Enter the admin key before saving.");
+        adminKey.focus();
+        return;
+      }
+
+      let edited;
+      try {
+        edited = readRecord();
+      } catch (error) {
+        setStatus(`A JSON field is invalid: ${error instanceof Error ? error.message : "unknown error"}`);
+        return;
+      }
+
+      const slugKey = current.type === "business" ? "slug" : "event_slug";
+      const nameKey = current.type === "business" ? "business_name" : "event_name";
+      const originalSlug = originalRecord[slugKey];
+      const newSlug = edited[slugKey];
+      if (!edited[nameKey]) {
+        setStatus(`${nameKey} is required.`);
+        return;
+      }
+      if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(newSlug || "")) {
+        setStatus(`${slugKey} must use lowercase letters, numbers, and single hyphens only.`);
+        return;
+      }
+      if (newSlug !== originalSlug && !confirm(`Change slug from ${originalSlug} to ${newSlug}? Existing links may break.`)) return;
+
+      const keys = changedKeys();
+      if (!keys.length) return;
+      if (!confirm(`Save ${keys.length} changed field${keys.length === 1 ? "" : "s"} for ${edited[nameKey]}?`)) return;
+
+      saveButton.disabled = true;
+      saveButton.textContent = "Saving…";
+      try {
+        const response = await fetch("/api/update-record", {
+          method: "POST",
+          headers: { "content-type": "application/json", "x-admin-key": adminKey.value },
+          body: JSON.stringify({ record_type: current.type, original_slug: originalSlug, record: edited })
+        });
+        const result = await response.json();
+        if (!response.ok) {
+          setStatus(result.error || `Save failed with status ${response.status}.`, Array.isArray(result.problems) ? result.problems : []);
+          return;
+        }
+        current.record = structuredClone(edited);
+        originalRecord = structuredClone(edited);
+        directories = null;
+        queryInput.value = result.slug;
+        recordTitle.textContent = edited[nameKey];
+        publicLink.href = current.type === "business" ? `/businesses/${result.slug}/` : `/events/${result.slug}/`;
+        updateChanges();
+        setStatus(result.message || "Record saved.", [
+          `Changed fields: ${keys.join(", ")}`,
+          result.commit ? `GitHub commit: ${result.commit.slice(0, 7)}` : "GitHub commit created"
+        ], true);
+      } catch (error) {
+        setStatus(`Save failed: ${error instanceof Error ? error.message : "unknown error"}`);
+      } finally {
+        saveButton.textContent = "Validate & Save";
+        saveButton.disabled = changedKeys().length === 0;
+      }
+    });
+
+    const params = new URLSearchParams(location.search);
+    const initialSlug = params.get("slug") || params.get("url");
+    if (initialSlug) {
+      queryInput.value = initialSlug;
+      findRecord();
+    }
+  </script>
+</BaseLayout>
+
+<style>
+  .editor-shell { width: min(900px, calc(100% - 2rem)); margin: 0 auto; padding: 2.5rem 0 5rem; }
+  .page-header { margin-bottom: 1.5rem; }
+  .eyebrow { margin: 0 0 .35rem; font-weight: 850; letter-spacing: .1em; text-transform: uppercase; color: #16766f; }
+  h1, h2, h3 { margin-top: 0; }
+  .panel { margin-top: 1.25rem; padding: 1.25rem; border: 1px solid #cbd9d7; border-radius: 1rem; background: rgba(255,255,255,.72); }
+  label { display: block; margin: .9rem 0 .45rem; font-weight: 800; overflow-wrap: anywhere; }
+  input, textarea, select { width: 100%; padding: .85rem; border: 1px solid #aebfbd; border-radius: .65rem; background: white; color: #12333b; font: inherit; }
+  textarea { min-height: 9rem; resize: vertical; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: .82rem; line-height: 1.45; }
+  .lookup-row { display: grid; grid-template-columns: 1fr auto; gap: .75rem; }
+  button, .public-link { min-height: 44px; padding: .72rem 1rem; border: 0; border-radius: .65rem; background: #197ba0; color: white; font: inherit; font-weight: 800; cursor: pointer; text-decoration: none; }
+  button:disabled { opacity: .45; cursor: not-allowed; }
+  .secondary { background: transparent; color: #123f56; border: 1px solid #8ca8ac; }
+  .helper { margin: .45rem 0 0; opacity: .76; }
+  .record-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; }
+  .public-link { display: inline-flex; align-items: center; white-space: nowrap; background: #124765; }
+  .fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 1rem; }
+  .field-group:has(textarea) { grid-column: 1 / -1; }
+  .changes-box { margin-top: 1.25rem; padding: 1rem; border-radius: .8rem; background: #eef7f5; }
+  .changes-box h3 { margin-bottom: .5rem; }
+  .changes-box ul { margin-bottom: 0; }
+  .actions { display: flex; gap: .75rem; margin-top: 1rem; }
+  .match-button { display: block; width: 100%; margin-top: .65rem; text-align: left; }
+  .results ul { margin-bottom: 0; }
+  .success, .error { font-weight: 800; }
+  [hidden] { display: none !important; }
+  @media (max-width: 700px) {
+    .editor-shell { padding-top: 1.25rem; }
+    .panel { padding: .9rem; }
+    .lookup-row, .fields { grid-template-columns: 1fr; }
+    .field-group:has(textarea) { grid-column: auto; }
+    .record-heading { display: block; }
+    .public-link { margin-top: .75rem; }
+    .actions { flex-direction: column; }
+    .actions button { width: 100%; }
+  }
+</style>
