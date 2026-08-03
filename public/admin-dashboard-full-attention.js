@@ -61,20 +61,29 @@
     }
   }
 
-  function start() {
-    if (enhance()) return;
-    const grid = document.querySelector("#attention-grid");
-    if (!grid) return;
+  async function start() {
+    if (await enhance()) return;
 
     const observer = new MutationObserver(async () => {
       if (await enhance()) observer.disconnect();
     });
-    observer.observe(grid, { childList: true, subtree: true });
+
+    const observeWhenReady = () => {
+      const grid = document.querySelector("#attention-grid");
+      if (grid) {
+        observer.observe(grid, { childList: true, subtree: true });
+        return true;
+      }
+      return false;
+    };
+
+    observeWhenReady();
 
     let attempts = 0;
     const retry = setInterval(async () => {
       attempts += 1;
-      if (await enhance() || attempts >= 20) {
+      if (!document.querySelector("#attention-grid")) observeWhenReady();
+      if (await enhance() || attempts >= 40) {
         clearInterval(retry);
         observer.disconnect();
       }
