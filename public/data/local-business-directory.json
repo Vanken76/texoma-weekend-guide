@@ -25906,13 +25906,13 @@
       ]
     },
     {
-      "slug": "first-convenience-bank-frisco-preston-road",
-      "business_name": "First Convenience Bank – Frisco Preston Road",
+      "slug": "first-convenience-bank-eldorado-frisco",
+      "business_name": "First Convenience Bank – Eldorado Frisco",
       "directory_status": "complete",
       "publish_ready": true,
       "featured": false,
       "flagship": false,
-      "service_area_or_location": "Inside Walmart, 8555 Preston Rd, Frisco, TX 75034",
+      "service_area_or_location": "Inside Walmart, 12220 FM 423, Frisco, TX 75034",
       "category": [
         "Bank",
         "Financial Services",
@@ -25920,7 +25920,8 @@
       ],
       "tags": [
         "Frisco",
-        "Preston Road",
+        "Eldorado",
+        "FM 423",
         "First Convenience Bank",
         "First National Bank Texas",
         "In-Store Bank",
@@ -25930,12 +25931,12 @@
         "ATM",
         "Extended Hours"
       ],
-      "description": "First Convenience Bank – Frisco Preston Road is an in-store banking branch located inside Walmart at 8555 Preston Rd. First Convenience Bank is affiliated with First National Bank Texas and offers personal and business banking services, checking and savings accounts, certificates of deposit, card products, consumer and business lending services, mortgages, and access to online and mobile banking. An ATM is also available at this location.",
-      "why_visit": "This branch provides routine banking services and ATM access while customers are shopping at Walmart. Extended Thursday and Friday hours and Saturday lobby service may be helpful for customers with weekday scheduling limitations.",
-      "why_its_unique": "This is the First Convenience Bank location on Preston Road in Frisco, distinguishing it from the separate Eldorado branch on FM 423.",
+      "description": "First Convenience Bank – Eldorado Frisco is an in-store banking branch located inside Walmart at 12220 FM 423. First Convenience Bank is affiliated with First National Bank Texas and offers personal and business banking services, checking and savings accounts, certificates of deposit, card products, consumer and business lending services, mortgages, and access to online and mobile banking. An ATM is also available at this location.",
+      "why_visit": "This branch provides banking and ATM access inside the Walmart on FM 423. Its extended Thursday and Friday hours and Saturday lobby schedule provide additional flexibility for customers.",
+      "why_its_unique": "This is the Eldorado-area First Convenience Bank location on FM 423, separate from the bank's Preston Road Walmart branch in Frisco.",
       "phone": "800-903-7490",
       "email": null,
-      "website": "https://www.1stnb.com/frisco",
+      "website": "https://www.1stnb.com/eldorado",
       "facebook": null,
       "instagram": null,
       "youtube": null,
@@ -25981,8 +25982,8 @@
         "Extended Thursday and Friday hours"
       ],
       "good_to_know": [
-        "The branch is located inside Walmart at 8555 Preston Rd.",
-        "Frisco also has a separate First Convenience Bank branch inside Walmart on FM 423.",
+        "The branch is located inside Walmart at 12220 FM 423.",
+        "Frisco also has a separate First Convenience Bank branch inside Walmart on Preston Road.",
         "The published branch phone number is the shared customer-service number 800-903-7490.",
         "An ATM is listed for this location.",
         "A coin machine is not listed on the official branch page.",
@@ -25992,7 +25993,7 @@
       "recurring_events": false,
       "mine_for_events": false,
       "event_mining_priority": "low",
-      "verification_note": "Verified August 2, 2026, using the official First National Bank Texas and First Convenience Bank Frisco branch page. The official listing confirms the Walmart host location, Preston Road address, shared phone number, branch status, ATM and lobby hours. No reliable local-branch Facebook page or public email address was confirmed.",
+      "verification_note": "Verified August 2, 2026, using the official First National Bank Texas and First Convenience Bank Eldorado branch page. The official listing confirms the Walmart host location, FM 423 address, shared phone number, branch status, ATM and lobby hours. No reliable local-branch Facebook page or public email address was confirmed.",
       "last_checked": "2026-08-02",
       "event_types": [],
       "event_sources": [
@@ -26002,7 +26003,7 @@
         "First Convenience Bank branch",
         "Affiliate of First National Bank Texas",
         "Located inside Walmart",
-        "Preston Road location",
+        "Eldorado and FM 423 location",
         "ATM available",
         "Extended banking hours",
         "Saturday lobby service",
