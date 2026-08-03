@@ -13,8 +13,32 @@ const sloppyJoesSlugs = new Set([
 
 const duplicateDannySlug = "open-mic-with-danny-k-at-sloppy-joes-july-30-2026";
 const canonicalDannySlug = "open-mic-with-danny-k-at-sloppy-joes-2026-07-30";
-const venueSlug = "sloppy-joes-bar-and-grill-texas";
-const venueName = "Sloppy Joe’s Bar and Grill Texas";
+const sloppyJoesVenueSlug = "sloppy-joes-bar-and-grill-texas";
+const sloppyJoesVenueName = "Sloppy Joe’s Bar and Grill Texas";
+
+const venueRelationshipPatches = new Map([
+  [
+    "country-line-dance-class-mckinney",
+    {
+      venue_slug: "the-dance-collective-mckinney",
+      venue_name: "The Dance Collective McKinney"
+    }
+  ],
+  [
+    "two-step-in-mckinney",
+    {
+      venue_slug: "the-dance-collective-mckinney",
+      venue_name: "The Dance Collective McKinney"
+    }
+  ],
+  [
+    "swing-rumba-dance-lessons-denison",
+    {
+      venue_slug: "the-venue-on-main-denison",
+      venue_name: "The Venue on Main"
+    }
+  ]
+]);
 
 let changed = false;
 
@@ -23,29 +47,49 @@ directory.events = (directory.events ?? []).filter((event) => event.event_slug !
 if (directory.events.length !== originalEventCount) changed = true;
 
 for (const event of directory.events) {
-  if (!sloppyJoesSlugs.has(event.event_slug)) continue;
+  if (sloppyJoesSlugs.has(event.event_slug)) {
+    if (event.venue_slug !== sloppyJoesVenueSlug) {
+      event.venue_slug = sloppyJoesVenueSlug;
+      changed = true;
+    }
 
-  if (event.venue_slug !== venueSlug) {
-    event.venue_slug = venueSlug;
+    if (!Array.isArray(event.venue_slugs) || event.venue_slugs.length !== 1 || event.venue_slugs[0] !== sloppyJoesVenueSlug) {
+      event.venue_slugs = [sloppyJoesVenueSlug];
+      changed = true;
+    }
+
+    if (event.venue_name !== sloppyJoesVenueName) {
+      event.venue_name = sloppyJoesVenueName;
+      changed = true;
+    }
+
+    if (event.event_slug === canonicalDannySlug && event.publish_ready !== true) {
+      event.publish_ready = true;
+      changed = true;
+    }
+
+    event.updated_on = "2026-07-30";
+  }
+
+  const patch = venueRelationshipPatches.get(event.event_slug);
+  if (!patch) continue;
+
+  if (event.venue_slug !== patch.venue_slug) {
+    event.venue_slug = patch.venue_slug;
     changed = true;
   }
 
-  if (!Array.isArray(event.venue_slugs) || event.venue_slugs.length !== 1 || event.venue_slugs[0] !== venueSlug) {
-    event.venue_slugs = [venueSlug];
+  if (!Array.isArray(event.venue_slugs) || event.venue_slugs.length !== 1 || event.venue_slugs[0] !== patch.venue_slug) {
+    event.venue_slugs = [patch.venue_slug];
     changed = true;
   }
 
-  if (event.venue_name !== venueName) {
-    event.venue_name = venueName;
+  if (event.venue_name !== patch.venue_name) {
+    event.venue_name = patch.venue_name;
     changed = true;
   }
 
-  if (event.event_slug === canonicalDannySlug && event.publish_ready !== true) {
-    event.publish_ready = true;
-    changed = true;
-  }
-
-  event.updated_on = "2026-07-30";
+  event.updated_on = "2026-08-02";
 }
 
 if (directory.event_count !== directory.events.length) {
@@ -61,7 +105,7 @@ if (directory.publish_ready_count !== publishReadyCount) {
 
 if (changed) {
   fs.writeFileSync(filePath, `${JSON.stringify(directory, null, 2)}\n`);
-  console.log("Patched Sloppy Joe’s event venue relationships and removed the duplicate Danny K event.");
+  console.log("Patched event venue relationships and removed the duplicate Danny K event.");
 } else {
-  console.log("Sloppy Joe’s event venue relationships already patched.");
+  console.log("Event venue relationships already patched.");
 }
