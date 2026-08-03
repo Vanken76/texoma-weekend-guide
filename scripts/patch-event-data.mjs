@@ -37,6 +37,13 @@ const venueRelationshipPatches = new Map([
       venue_slug: "the-venue-on-main-denison",
       venue_name: "The Venue on Main"
     }
+  ],
+  [
+    "pottsboro-community-chat-2026-08-11",
+    {
+      venue_slug: "pottsboro-area-public-library",
+      venue_name: "Pottsboro Area Public Library"
+    }
   ]
 ]);
 
