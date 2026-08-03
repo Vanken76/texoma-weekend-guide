@@ -2,11 +2,20 @@
   const businessSlug = location.pathname.match(/^\/businesses\/([^/]+)\/?$/)?.[1];
   if (!businessSlug) return;
 
+  const normalize = (value) => String(value ?? "")
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+
   const explicitEventVenueOverrides = {
-    "country-line-dance-class-mckinney": "the-dance-collective-mckinney",
-    "two-step-in-mckinney": "the-dance-collective-mckinney",
-    "swing-rumba-dance-lessons-denison": "the-venue-on-main"
+    "country-line-dance-class-mckinney": { slug: "the-dance-collective-mckinney", name: "The Dance Collective" },
+    "two-step-in-mckinney": { slug: "the-dance-collective-mckinney", name: "The Dance Collective" },
+    "swing-rumba-dance-lessons-denison": { name: "The Venue on Main" }
   };
+
+  const currentBusinessName = document.querySelector(".business-hero h1")?.textContent?.trim() || "";
 
   const formatDate = (value) => value
     ? new Intl.DateTimeFormat("en-US", {
@@ -36,7 +45,14 @@
           ...(event.venue_slug ? [event.venue_slug] : []),
           ...(Array.isArray(event.secondary_venue_slugs) ? event.secondary_venue_slugs : [])
         ].filter(Boolean);
-        return slugs.includes(businessSlug) || explicitEventVenueOverrides[event.event_slug] === businessSlug;
+
+        const override = explicitEventVenueOverrides[event.event_slug];
+        const overrideMatches = Boolean(override) && (
+          (override.slug && override.slug === businessSlug) ||
+          (override.name && normalize(override.name) === normalize(currentBusinessName))
+        );
+
+        return slugs.includes(businessSlug) || overrideMatches;
       });
 
       if (!matchedEvents.length) return;
@@ -53,8 +69,7 @@
         section = document.createElement("section");
         section.className = "events-section";
         const heading = document.createElement("h2");
-        const businessName = document.querySelector(".business-hero h1")?.textContent?.trim() || "this venue";
-        heading.textContent = `Events at ${businessName}`;
+        heading.textContent = `Events at ${currentBusinessName || "this venue"}`;
         list = document.createElement("div");
         list.className = "event-list";
         section.append(heading, list);
