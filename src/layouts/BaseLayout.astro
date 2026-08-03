@@ -21,7 +21,6 @@ const socialImageURL = new URL(image, siteURL);
 const isEventAdmin = Astro.url.pathname === "/admin-events" || Astro.url.pathname === "/admin-events/";
 const isBusinessAdmin = Astro.url.pathname === "/admin-business" || Astro.url.pathname === "/admin-business/";
 const isBusinessGalleryAdmin = Astro.url.pathname === "/admin-business-gallery" || Astro.url.pathname === "/admin-business-gallery/";
-const isAdminDashboard = Astro.url.pathname === "/admin-dashboard" || Astro.url.pathname === "/admin-dashboard/";
 const isEventsPage = Astro.url.pathname === "/events" || Astro.url.pathname === "/events/";
 const isBusinessesPage = Astro.url.pathname === "/businesses" || Astro.url.pathname === "/businesses/";
 const isBusinessSection = Astro.url.pathname.startsWith("/businesses/");
@@ -56,7 +55,6 @@ const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname ==
     {isEventAdmin && <script is:inline src="/admin-events-publish-fix.js?v=6"></script>}
     {isBusinessAdmin && <script is:inline src="/business-publisher-media-preserve.js?v=1"></script>}
     {isBusinessGalleryAdmin && <script is:inline src="/admin-business-gallery.js?v=2"></script>}
-    {isAdminDashboard && <script is:inline src="/admin-dashboard-full-attention.js?v=3"></script>}
     {isEventsPage && <script is:inline src="/event-address-display.js?v=2"></script>}
     {isEventsPage && <script is:inline src="/event-detail-links.js?v=3"></script>}
     {isEventsPage && <script is:inline src="/event-filter-links.js?v=2"></script>}
