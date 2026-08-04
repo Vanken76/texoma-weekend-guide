@@ -12,13 +12,13 @@ Examples:
 - `State of Texas` is a separate government organization.
 - `Sherman` is a geographic city.
 - `City of Sherman` is a separate municipal organization.
-- `Texoma` is a cross-state region overlay, not a state or county.
+- `Texoma` is a cross-state regional overlay, not a state or county.
 
 ## Directory shape
 
 ```json
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0.1",
   "last_updated": "YYYY-MM-DD",
   "entities": []
 }
@@ -27,8 +27,6 @@ Examples:
 Each record in `entities` uses the shared fields below, plus fields appropriate to its `entity_type`.
 
 ## Allowed entity types
-
-Initial supported values:
 
 - `country`
 - `state`
@@ -40,77 +38,77 @@ Initial supported values:
 
 Future types may be added only through schema governance.
 
-## Required fields for every geography entity
+## Required fields
 
 | Field | Type | Rule |
 |---|---|---|
-| `entity_type` | string | Required. Must be one allowed geography type. |
-| `name` | string | Required canonical geographic name. Do not prepend government labels unless they are part of the place's actual name. |
-| `slug` | string | Required. Lowercase letters, numbers, and single hyphens only. Globally unique within the geography directory. |
-| `status` | string | Required. Initial allowed values: `active`, `inactive`, `planned`, `archived`. |
+| `entity_type` | string | Required. Must be an allowed geography type. |
+| `name` | string | Required canonical geographic name. Do not prepend government labels unless part of the place's actual name. |
+| `slug` | string | Required. Lowercase letters, numbers, and single hyphens only. Globally unique in the geography directory. |
+| `status` | string | Required: `active`, `inactive`, `planned`, or `archived`. |
 | `publish_ready` | boolean | Required. Must be `true` before public publishing. |
-| `country_slug` | string or null | Required for all entities except a top-level country. |
-| `description` | string | Required editorial introduction suitable for the public page. |
+| `description` | string | Required public-page introduction. |
 | `last_verified` | string | Required ISO date, `YYYY-MM-DD`. |
 | `sources` | array | Required. One or more source objects supporting researched facts. |
 
-## Canonical relationship fields
+## Canonical relationships
 
 Relationships are stored once and reverse views are derived.
 
 | Field | Type | Use |
 |---|---|---|
-| `parent_slug` | string or null | Immediate geographic parent where one exists. Example: a county's parent state. |
-| `state_slug` | string or null | Canonical state relationship for counties, cities, districts, and features. |
-| `county_slug` | string or null | Canonical county relationship for cities, districts, and features when applicable. |
-| `city_slug` | string or null | Canonical city relationship for districts and local features when applicable. |
-| `region_slugs` | array of strings | Zero or more overlapping named regions such as `texoma` or `lake-texoma`. |
-| `related_geography_slugs` | array of strings | Optional explicit non-hierarchical relationships when they cannot be derived. |
+| `country_slug` | string or null | Required for all entities except a top-level country. |
+| `parent_slug` | string or null | Immediate geographic parent when one exists. |
+| `state_slug` | string or null | State relationship for counties, cities, districts, and features. |
+| `county_slug` | string or null | County relationship for cities, districts, and features when applicable. |
+| `city_slug` | string or null | City relationship for districts and local features when applicable. |
+| `region_slugs` | array of strings | Overlapping named regions such as `texoma` or `lake-texoma`. |
+| `related_geography_slugs` | array of strings | Optional explicit non-hierarchical relationships that cannot be derived. |
 
-Do not store manually maintained child arrays such as every city in a state or every business in a city. Child lists and counts must be derived from canonical relationships.
+Do not store manually maintained arrays of every child city, business, venue, attraction, or event. Child lists and counts are derived from canonical relationships.
 
 ## Coverage fields
 
 | Field | Type | Rule |
 |---|---|---|
-| `coverage_level` | string | Allowed: `core`, `regional`, `destination`, `reference`, `outside`. |
-| `within_twg_service_area` | boolean | Whether the place is eligible under the normal TWG coverage policy. |
-| `coverage_notes` | string or null | Explains special boundary or editorial treatment. |
+| `coverage_level` | string | `core`, `regional`, `destination`, `reference`, or `outside`. |
+| `within_twg_service_area` | boolean | Whether the place is eligible under normal TWG coverage policy. |
+| `coverage_notes` | string or null | Boundary or editorial-treatment notes. |
 
-Coverage is editorial policy and must remain separate from political geography.
+Coverage is editorial policy and remains separate from political geography.
 
 ## Location and map fields
 
 | Field | Type | Rule |
 |---|---|---|
-| `latitude` | number or null | Geographic center, representative point, or verified feature coordinate. |
+| `latitude` | number or null | Representative point or verified feature coordinate. |
 | `longitude` | number or null | Must be supplied with latitude. |
-| `coordinate_source` | string or null | Allowed: `manual`, `official`, `geocoded`, `imported`. |
-| `coordinate_status` | string | Allowed: `missing`, `unverified`, `verified`, `rejected`. |
-| `coordinate_verified_at` | string or null | ISO date. Required when status is `verified`. |
-| `coordinate_verified_by` | string or null | Required when status is `verified`. |
-| `coordinate_note` | string or null | Optional placement or correction note. |
-| `boundary_source_url` | string or null | Official GIS or boundary source when available. |
-| `boundary_reference` | string or null | Future polygon or GIS identifier. |
+| `coordinate_source` | string or null | `manual`, `official`, `geocoded`, or `imported`. |
+| `coordinate_status` | string | `missing`, `unverified`, `verified`, or `rejected`. |
+| `coordinate_verified_at` | string or null | ISO date; required when verified. |
+| `coordinate_verified_by` | string or null | Required when verified. |
+| `coordinate_note` | string or null | Placement or correction note. |
+| `boundary_source_url` | string or null | Official GIS or boundary source. |
+| `boundary_reference` | string or null | Polygon, GIS, or boundary identifier. |
 
-Latitude and longitude must be numeric, supplied together, and within valid ranges. Public maps may use only valid coordinate pairs with `coordinate_status: "verified"`.
+Public maps may use only valid coordinate pairs with `coordinate_status: "verified"`.
 
-## Identity and government-reference fields
-
-These describe the place. They do not turn the place into the government organization.
+## Identity and government references
 
 | Field | Type | Use |
 |---|---|---|
-| `abbreviation` | string or null | Example: `TX`. |
-| `official_name` | string or null | Official geographic name when it differs from `name`. Do not use this to store a separate government's identity. |
+| `abbreviation` | string or null | Postal or common abbreviation. |
+| `official_name` | string or null | Official geographic name when different from `name`. |
 | `capital_city_slug` | string or null | State or country capital relationship. |
 | `largest_city_slug` | string or null | State or country largest-city relationship. |
 | `government_organization_slug` | string or null | Link to the separate government organization record. |
-| `official_website_url` | string or null | Official geographic/government reference URL. The organization remains separate. |
+| `official_website_url` | string or null | Official reference URL. |
+
+A place and its government remain separate entities.
 
 ## Facts and statistics
 
-Time-sensitive values must include their year and source.
+Time-sensitive values must include year, type, and source.
 
 ```json
 "population": {
@@ -121,7 +119,7 @@ Time-sensitive values must include their year and source.
 }
 ```
 
-Recommended shared facts:
+Recommended shared facts include:
 
 - `population`
 - `area_total_sq_mi`
@@ -131,34 +129,24 @@ Recommended shared facts:
 - `incorporated_date`
 - `admission_date`
 - `admission_order`
+- `former_status`
+- `nickname`
+- `motto`
 - `time_zones`
 - `postal_codes`
 - `fips_code`
 - `highest_point`
 - `lowest_point`
+- `county_count`
 
 Only fields relevant to the entity type should be populated.
 
-## State-specific fields
+## Official symbols
 
-Recommended for `entity_type: "state"`:
-
-- `abbreviation`
-- `capital_city_slug`
-- `largest_city_slug`
-- `admission_date`
-- `admission_order`
-- `former_status`
-- `nickname`
-- `motto`
-- `state_symbols`
-- `county_count`
-- `time_zones`
-
-Example state symbols shape:
+`official_symbols` is the canonical generic field for recognized symbols of any geographic entity. It replaces the earlier state-only `state_symbols` concept.
 
 ```json
-"state_symbols": {
+"official_symbols": {
   "flag_name": "",
   "seal_name": "",
   "flower": "",
@@ -175,43 +163,35 @@ Example state symbols shape:
 }
 ```
 
-## City-specific fields
+Rules:
 
-Recommended for `entity_type: "city"`:
+1. Populate only symbols that are officially recognized or reliably sourced for that entity.
+2. Keys are extensible but should use stable lowercase snake_case names.
+3. Empty symbols are omitted rather than stored as blank strings.
+4. `official_symbols` stores factual names and labels, not media files.
+5. Flag, seal, emblem, flower, bird, and similar images belong in role-based `media` assets with source and usage metadata.
+6. The field may be used by countries, states, counties, cities, regions, districts, or geographic features when applicable.
+7. Existing draft objects using `state_symbols` must be normalized to `official_symbols` before publishing.
 
-- `state_slug`
-- `county_slug`
-- `region_slugs`
-- `population`
-- `founded_date`
-- `incorporated_date`
-- `postal_codes`
-- `fips_code`
-- `coverage_level`
-- `nearby_city_slugs`
-- `district_slugs` only when a district cannot be derived by its own `city_slug`
+## Type-specific guidance
 
-Do not store arrays of every event, business, restaurant, venue, or attraction. Those are derived from their canonical `city_slug` relationships.
+### State
 
-## Region-specific fields
+Recommended fields include `abbreviation`, `capital_city_slug`, `largest_city_slug`, `admission_date`, `admission_order`, `former_status`, `nickname`, `motto`, `official_symbols`, `county_count`, and `time_zones`.
 
-Regions may overlap states, counties, cities, and other regions.
+### City
 
-Recommended for `entity_type: "region"`:
+Recommended fields include `state_slug`, `county_slug`, `region_slugs`, `population`, `founded_date`, `incorporated_date`, `postal_codes`, `fips_code`, `coverage_level`, `nearby_city_slugs`, and `official_symbols` when officially recognized.
 
-- `region_type`
-- `state_slugs`
-- `county_slugs` only when explicitly governed and not safely derivable
-- `coverage_level`
-- `editorial_boundary_description`
-- `boundary_source_url`
-- `boundary_reference`
+Do not store arrays of every event, business, restaurant, venue, or attraction. Those are derived from canonical `city_slug` relationships.
 
-Examples include `texoma`, `lake-texoma`, and future tourism or natural regions.
+### Region
+
+Regions may overlap states, counties, cities, and other regions. Recommended fields include `region_type`, `state_slugs`, `coverage_level`, `editorial_boundary_description`, `boundary_source_url`, `boundary_reference`, and `official_symbols` only when the region has reliably sourced recognized symbols.
 
 ## Media assets
 
-Geographic entities use role-based asset objects rather than unstructured image URLs.
+Geographic entities use role-based asset objects:
 
 ```json
 "media": {
@@ -250,22 +230,22 @@ Initial `usage_status` values:
 - `review-required`
 - `restricted`
 
-Official seals and emblems must not be assumed freely usable. Their usage status must be reviewed separately from flags and general editorial photography.
+Official seals and emblems must not be assumed freely usable. Their usage status is reviewed separately from flags and editorial photography.
 
-## Public-page content fields
+## Public-page content
 
 | Field | Type | Use |
 |---|---|---|
-| `short_description` | string or null | Compact card/search summary. |
+| `short_description` | string or null | Compact card or search summary. |
 | `description` | string | Full editorial introduction. |
-| `history_summary` | string or null | Brief, sourced history. |
+| `history_summary` | string or null | Brief sourced history. |
 | `visitor_summary` | string or null | Practical relevance for travelers and residents. |
 | `featured` | boolean | Editorial feature control. |
 | `display_order` | number or null | Optional curated ordering. |
-| `seo_title` | string or null | Optional override. |
-| `seo_description` | string or null | Optional override. |
+| `seo_title` | string or null | Optional page-title override. |
+| `seo_description` | string or null | Optional search-description override. |
 
-Public pages should derive related events, businesses, venues, restaurants, parks, attractions, lodging, and category totals from canonical relationships.
+Public pages derive related events, businesses, venues, restaurants, parks, attractions, lodging, and category totals from canonical relationships.
 
 ## Source objects
 
@@ -280,7 +260,7 @@ Public pages should derive related events, businesses, venues, restaurants, park
 }
 ```
 
-Allowed initial `source_type` values:
+Initial `source_type` values:
 
 - `official`
 - `census`
@@ -292,19 +272,20 @@ Allowed initial `source_type` values:
 
 ## Validation rules
 
-1. `entity_type`, `name`, `slug`, `status`, `publish_ready`, `description`, `last_verified`, and `sources` are required.
+1. Required identity, publishing, description, verification, and source fields must be present.
 2. Slugs must be lowercase and hyphenated.
-3. Parent and relationship slugs must resolve to published or recognized geography records before public publishing.
-4. A city must have `state_slug`; a county must have `state_slug`; a state must have `country_slug`.
+3. Parent and relationship slugs must resolve before public publishing.
+4. A city requires `state_slug`; a county requires `state_slug`; a state requires `country_slug`.
 5. `region_slugs` may cross state and county boundaries.
-6. `coverage_level` must not alter political relationships.
-7. Latitude and longitude must be supplied together and pass numeric range validation.
-8. `coordinate_status: "verified"` requires a valid pair, verification date, and verifier.
-9. Population and other changing statistics require year, type, and source.
-10. Official media require source and usage-status metadata.
-11. Government organizations must remain separate linked entities.
-12. Derived child lists must not be manually duplicated in geography records.
+6. Coverage fields do not alter political relationships.
+7. Latitude and longitude must be supplied together and pass range validation.
+8. Verified coordinates require a valid pair, verification date, and verifier.
+9. Changing statistics require year, type, and source.
+10. Official media require source and usage metadata.
+11. Government organizations remain separate linked entities.
+12. Derived child lists must not be duplicated in geography records.
+13. `state_symbols` is deprecated and must be normalized to `official_symbols`.
 
-## Initial Texas object
+## Initial implementation
 
-Texas will be the first state record created against this schema. Oklahoma will follow when needed. Sherman will be the first city record after its parent county relationship is available or deliberately marked as planned.
+Texas is the first state record created against this schema. Oklahoma follows when needed. Sherman is the first city record after its parent county relationship is available or deliberately marked as planned.
