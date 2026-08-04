@@ -2,6 +2,15 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import directory from "../../../public/data/local-event-directory.json";
 import businessDirectory from "../../../public/data/local-business-directory.json";
+import {
+  buildBusinessIndex,
+  getEventVenueSlugs,
+  getEventsAtVenue,
+  isRecurringEvent,
+  parseRecurrenceRule,
+  resolveEventLocation,
+  toArray
+} from "../../utils/eventDirectory.js";
 
 export function getStaticPaths() {
   return (directory.events ?? [])
@@ -13,14 +22,11 @@ export function getStaticPaths() {
 }
 
 const { event } = Astro.props;
+const allEvents = directory.events ?? [];
 const businesses = businessDirectory.businesses ?? [];
-const businessBySlug = new Map(businesses.map((business) => [business.slug, business]));
-const toArray = (value) => Array.isArray(value) ? value : value ? [value] : [];
-const venueSlugs = [...new Set([
-  ...toArray(event.venue_slugs),
-  ...toArray(event.venue_slug),
-  ...toArray(event.secondary_venue_slugs)
-].filter(Boolean))];
+const businessBySlug = buildBusinessIndex(businesses);
+const venueSlugs = getEventVenueSlugs(event);
+const resolvedLocation = resolveEventLocation(event, businessBySlug);
 const linkedVenues = venueSlugs.map((slug) => {
   const business = businessBySlug.get(slug);
   return { slug, name: business?.business_name || slug, href: `/businesses/${slug}/` };
@@ -32,7 +38,15 @@ const linkedPartners = toArray(event.partner_business_slugs).map((slug) => {
 });
 const partnerNames = [...new Set([...toArray(event.partner_names), ...toArray(event.partner_organizations)].filter(Boolean))];
 const primaryVenue = linkedVenues[0] || null;
-const venueDisplayNames = linkedVenues.length ? linkedVenues.map((venue) => venue.name) : toArray(event.venue_name);
+const venueDisplayNames = linkedVenues.length ? linkedVenues.map((venue) => venue.name) : toArray(resolvedLocation.venueName || event.venue_name);
+
+const relatedVenueEvents = primaryVenue
+  ? getEventsAtVenue(allEvents, primaryVenue.slug)
+      .filter((candidate) => candidate.event_slug !== event.event_slug)
+  : [];
+const relatedVenuePreview = relatedVenueEvents.slice(0, 4);
+const showRelatedVenueEvents = relatedVenuePreview.length > 0;
+const showAllVenueEvents = relatedVenueEvents.length > 4;
 
 const formatDate = (value) => value
   ? new Intl.DateTimeFormat("en-US", {
@@ -41,6 +55,15 @@ const formatDate = (value) => value
       month: "long",
       day: "numeric",
       year: "numeric"
+    }).format(new Date(value))
+  : null;
+
+const formatCompactDate = (value) => value
+  ? new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/Chicago",
+      weekday: "short",
+      month: "short",
+      day: "numeric"
     }).format(new Date(value))
   : null;
 
@@ -61,12 +84,6 @@ const formatDateOnly = (value) => value
     }).format(new Date(`${value}T12:00:00Z`))
   : null;
 
-const parseRule = (rule = "") => Object.fromEntries(
-  rule.split(";")
-    .map((part) => part.split("="))
-    .filter(([key, value]) => key && value)
-);
-
 const dayNames = {
   SU: "Sunday",
   MO: "Monday",
@@ -78,8 +95,8 @@ const dayNames = {
 };
 
 const recurrenceSummary = (() => {
-  if (!event.recurring) return null;
-  const rule = parseRule(event.recurrence_rule);
+  if (!isRecurringEvent(event)) return null;
+  const rule = parseRecurrenceRule(event.recurrence_rule);
   const days = (rule.BYDAY || "")
     .split(",")
     .map((day) => day.trim())
@@ -122,8 +139,8 @@ const statusLabels = {
 };
 
 const statusLabel = statusLabels[event.status] || event.status;
-const location = [event.address, event.city, event.state, event.postal_code].filter(Boolean).join(", ");
-const mapUrl = location ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(location)}` : null;
+const location = resolvedLocation.locationText;
+const mapUrl = resolvedLocation.mapUrl;
 const officialUrl = event.facebook_url || event.official_url;
 const title = `${event.event_name} | Texoma Weekend Guide`;
 const description = event.description || `${event.event_name} at ${venueDisplayNames.join(" and ") || "a Texoma venue"}.`;
@@ -143,7 +160,7 @@ const description = event.description || `${event.event_name} at ${venueDisplayN
         </div>
         <h1>{event.event_name}</h1>
         <p class="when">
-          {event.recurring && recurrenceSummary ? (
+          {isRecurringEvent(event) && recurrenceSummary ? (
             <>
               <strong>{recurrenceSummary.frequency}</strong>
               {recurrenceSummary.range && <span>{recurrenceSummary.range}</span>}
@@ -161,7 +178,7 @@ const description = event.description || `${event.event_name} at ${venueDisplayN
             {linkedVenues.length > 0
               ? linkedVenues.map((venue, index) => <>{index > 0 ? " · " : ""}<a href={venue.href}>{venue.name}</a></>)
               : venueDisplayNames.join(" · ")}
-            {event.city ? ` · ${event.city}, ${event.state}` : ""}
+            {resolvedLocation.city ? ` · ${resolvedLocation.city}, ${resolvedLocation.state}` : ""}
           </p>
         )}
 
@@ -215,6 +232,34 @@ const description = event.description || `${event.event_name} at ${venueDisplayN
         </dl>
       </aside>
     </div>
+
+    {showRelatedVenueEvents && primaryVenue && (
+      <section class="related-events" aria-labelledby="related-events-heading">
+        <div class="related-heading-row">
+          <div>
+            <p class="related-eyebrow">Keep exploring</p>
+            <h2 id="related-events-heading">More Events at {primaryVenue.name}</h2>
+          </div>
+          {showAllVenueEvents && <a class="view-all-link" href={primaryVenue.href}>View all events at {primaryVenue.name}</a>}
+        </div>
+        <div class="related-event-grid">
+          {relatedVenuePreview.map((relatedEvent) => (
+            <article class="related-event-card">
+              {relatedEvent.image_url && (
+                <a class="related-image" href={`/events/${relatedEvent.event_slug}/`} aria-label={`View ${relatedEvent.event_name}`}>
+                  <img src={relatedEvent.image_url} alt={relatedEvent.image_alt || `${relatedEvent.event_name} flyer`} loading="lazy" />
+                </a>
+              )}
+              <div class="related-event-body">
+                <p class="related-date">{isRecurringEvent(relatedEvent) ? "Recurring event" : formatCompactDate(relatedEvent.start_datetime)}</p>
+                <h3><a href={`/events/${relatedEvent.event_slug}/`}>{relatedEvent.event_name}</a></h3>
+                {relatedEvent.start_datetime && <p class="related-time">{formatTime(relatedEvent.start_datetime)}{relatedEvent.end_datetime ? `–${formatTime(relatedEvent.end_datetime)}` : ""}</p>}
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
 
     <footer class="event-footer">
       <a href="/events/">← Browse all Texoma events</a>
@@ -276,11 +321,34 @@ const description = event.description || `${event.event_name} at ${venueDisplayN
   .share-block { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #d7e0e4; }
   .share-block button { min-height: 44px; padding: .65rem .9rem; border: 0; border-radius: .65rem; background: #103a58; color: white; font: inherit; font-weight: 900; cursor: pointer; }
   #copy-status { margin-left: .7rem; color: #236b45; font-weight: 800; }
+  .related-events { margin-top: 2rem; padding: 1.5rem; border: 1px solid #d7e0e4; border-radius: 1rem; background: #fffdf8; box-shadow: 0 10px 26px rgba(16,58,88,.06); }
+  .related-heading-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
+  .related-heading-row h2 { margin: 0; }
+  .related-eyebrow { margin: 0 0 .25rem; color: #176f95; font-size: .82rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
+  .view-all-link { color: #176f95; font-weight: 900; text-align: right; }
+  .related-event-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .9rem; }
+  .related-event-card { overflow: hidden; border: 1px solid #d7e0e4; border-radius: .8rem; background: white; }
+  .related-image { display: block; aspect-ratio: 16 / 10; background: #eef4f6; }
+  .related-image img { width: 100%; height: 100%; object-fit: cover; }
+  .related-event-body { padding: .9rem; }
+  .related-date { margin: 0 0 .3rem; color: #236b45; font-size: .8rem; font-weight: 900; letter-spacing: .03em; text-transform: uppercase; }
+  .related-event-card h3 { margin: 0; font-size: 1rem; line-height: 1.25; }
+  .related-event-card h3 a { color: #103a58; text-decoration: none; }
+  .related-event-card h3 a:hover,.related-event-card h3 a:focus { text-decoration: underline; }
+  .related-time { margin: .45rem 0 0; color: #526470; font-size: .9rem; }
   .event-footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; margin-top: 1.5rem; }
   .event-footer a { color: #176f95; font-weight: 900; }
+  @media (max-width: 950px) {
+    .related-event-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
   @media (max-width: 800px) {
     .event-hero,.detail-grid { grid-template-columns: 1fr; }
     .flyer-wrap { order: -1; }
+  }
+  @media (max-width: 600px) {
+    .related-heading-row { align-items: flex-start; flex-direction: column; }
+    .view-all-link { text-align: left; }
+    .related-event-grid { grid-template-columns: 1fr; }
   }
   @media (max-width: 520px) {
     .event-detail { padding-top: 1rem; }
