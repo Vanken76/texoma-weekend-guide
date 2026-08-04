@@ -1,0 +1,249 @@
+/* Event directory view modes and compact event-detail hero. */
+
+.view-mode-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: .75rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.view-mode-label {
+  margin: 0;
+  color: #526470;
+  font-size: .92rem;
+  font-weight: 750;
+}
+
+.view-mode-toggle {
+  display: inline-flex;
+  padding: .22rem;
+  border: 1px solid #bfcdd4;
+  border-radius: 999px;
+  background: #fffdf8;
+}
+
+.view-mode-toggle button {
+  min-height: 40px;
+  padding: .55rem .85rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: #176f95;
+  font: inherit;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.view-mode-toggle button[aria-pressed="true"] {
+  background: #176f95;
+  color: white;
+}
+
+/* Existing card view remains unchanged unless compact mode is selected. */
+.event-grid.compact-view {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .7rem;
+}
+
+.event-grid.compact-view .event-card {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  min-height: 138px;
+  border-radius: .8rem;
+  box-shadow: 0 7px 18px rgba(16,58,88,.06);
+}
+
+.event-grid.compact-view .flyer-link {
+  height: 100%;
+  min-height: 138px;
+}
+
+.event-grid.compact-view .event-flyer {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: cover;
+}
+
+.event-grid.compact-view .event-card-body {
+  display: grid;
+  align-content: center;
+  padding: .9rem 1rem;
+}
+
+.event-grid.compact-view .event-date {
+  display: flex;
+  flex-flow: row wrap;
+  gap: .2rem .65rem;
+  align-items: baseline;
+  font-size: .9rem;
+}
+
+.event-grid.compact-view .event-card h2 {
+  margin: .25rem 0 .2rem;
+  font-size: 1.14rem;
+  line-height: 1.25;
+}
+
+.event-grid.compact-view .venue {
+  margin: 0;
+  color: #526470;
+  font-size: .92rem;
+}
+
+.event-grid.compact-view .event-card-body > p:not(.venue),
+.event-grid.compact-view .event-card-body > dl,
+.event-grid.compact-view .event-actions {
+  display: none;
+}
+
+.event-grid.compact-view .event-card:not(.has-image) {
+  grid-template-columns: 1fr;
+}
+
+/* Smaller, simpler event-page hero. Core facts appear sooner. */
+.event-detail .event-hero {
+  grid-template-columns: minmax(0, 1.45fr) minmax(220px, .55fr);
+  gap: 1.25rem;
+  padding: 1rem;
+  border: 1px solid #d7e0e4;
+  border-radius: 1rem;
+  background: #fffdf8;
+  box-shadow: 0 10px 26px rgba(16,58,88,.06);
+}
+
+.event-detail .hero-copy {
+  padding: .2rem 0;
+}
+
+.event-detail .status-row {
+  margin-bottom: .65rem;
+}
+
+.event-detail h1 {
+  margin-bottom: .7rem;
+  font-size: clamp(2rem, 5.5vw, 3.65rem);
+  line-height: 1.04;
+}
+
+.event-detail .when {
+  margin-bottom: .65rem;
+  font-size: 1.05rem;
+}
+
+.event-detail .venue {
+  margin-bottom: .9rem;
+  font-size: 1.02rem;
+}
+
+.event-detail .primary-actions {
+  gap: .5rem;
+}
+
+.event-detail .button {
+  min-height: 44px;
+  padding: .62rem .85rem;
+  font-size: .92rem;
+}
+
+.event-detail .flyer-wrap {
+  align-self: stretch;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  max-height: 360px;
+  box-shadow: none;
+}
+
+.event-detail .flyer-wrap img {
+  width: 100%;
+  height: 100%;
+  max-height: 310px;
+  object-fit: cover;
+}
+
+.event-detail .flyer-wrap span {
+  padding: .55rem;
+  font-size: .9rem;
+}
+
+@media (max-width: 800px) {
+  .event-detail .event-hero {
+    grid-template-columns: minmax(0, 1fr) 140px;
+    align-items: stretch;
+  }
+
+  .event-detail .flyer-wrap {
+    order: initial;
+    max-height: 230px;
+  }
+
+  .event-detail .flyer-wrap img {
+    max-height: 185px;
+  }
+}
+
+@media (max-width: 600px) {
+  .view-mode-row {
+    align-items: stretch;
+  }
+
+  .view-mode-toggle {
+    width: 100%;
+  }
+
+  .view-mode-toggle button {
+    flex: 1;
+  }
+
+  .event-grid.compact-view .event-card {
+    grid-template-columns: 108px minmax(0, 1fr);
+    min-height: 108px;
+  }
+
+  .event-grid.compact-view .flyer-link {
+    min-height: 108px;
+  }
+
+  .event-grid.compact-view .event-card-body {
+    padding: .7rem .8rem;
+  }
+
+  .event-grid.compact-view .event-date {
+    display: grid;
+    gap: .05rem;
+    font-size: .78rem;
+  }
+
+  .event-grid.compact-view .event-card h2 {
+    margin-top: .15rem;
+    font-size: 1rem;
+  }
+
+  .event-grid.compact-view .venue {
+    font-size: .82rem;
+  }
+
+  .event-detail .event-hero {
+    grid-template-columns: 1fr;
+    padding: .9rem;
+  }
+
+  .event-detail .flyer-wrap {
+    order: -1;
+    width: min(100%, 420px);
+    max-height: 220px;
+    margin-inline: auto;
+  }
+
+  .event-detail .flyer-wrap img {
+    max-height: 175px;
+    object-fit: contain;
+  }
+
+  .event-detail h1 {
+    font-size: clamp(1.85rem, 10vw, 2.65rem);
+  }
+}
