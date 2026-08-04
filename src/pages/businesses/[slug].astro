@@ -2,6 +2,12 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import directory from "../../../public/data/local-business-directory.json";
 import eventDirectory from "../../../public/data/local-event-directory.json";
+import {
+  getCurrentEvents,
+  getEventsAtVenue,
+  isRecurringEvent,
+  toArray
+} from "../../utils/eventDirectory.js";
 
 export function getStaticPaths() {
   return (directory.businesses ?? [])
@@ -62,7 +68,6 @@ const socialLinks = [
   ["TikTok", business.tiktok_url || business.tiktok]
 ].filter(([, url]) => Boolean(url));
 
-const toArray = (value) => Array.isArray(value) ? value : value ? [value] : [];
 const businessBySlug = new Map(allBusinesses.map((item) => [item.slug, item]));
 const normalizeBusinessReference = (reference) => {
   if (!reference) return null;
@@ -77,30 +82,23 @@ const parentBusinesses = toArray(business.parent_business ?? business.parentBusi
 const childBusinesses = toArray(business.child_businesses ?? business.childBusinesses).map(normalizeBusinessReference).filter(Boolean);
 const relatedBusinesses = toArray(business.related_businesses ?? business.relatedBusinesses).map(normalizeBusinessReference).filter(Boolean);
 
-const manualEvents = toArray(business.related_events ?? business.relatedEvents)
+const manualEventReferences = toArray(business.related_events ?? business.relatedEvents)
   .map((reference) => {
     if (!reference) return null;
     const raw = typeof reference === "string" ? { slug: reference } : reference;
     const slug = raw.slug || raw.event_slug || null;
-    return slug ? { event_slug: slug, event_name: raw.name || raw.event_name || raw.title || slug, note: raw.note || raw.relationship_note || null } : null;
+    return slug ? { event_slug: slug, note: raw.note || raw.relationship_note || null } : null;
   })
   .filter(Boolean);
-const matchedEvents = allEvents.filter((event) => {
-  if (event.publish_ready !== true) return false;
-  const venueSlugs = Array.isArray(event.venue_slugs)
-    ? event.venue_slugs
-    : event.venue_slug
-      ? [event.venue_slug]
-      : [];
-  return venueSlugs.includes(business.slug);
-});
-const venueEvents = Array.from(new Map([...matchedEvents, ...manualEvents].map((event) => [event.event_slug, event])).values())
-  .sort((a, b) => {
-    const recurringRank = (event) => event.status === "recurring" || event.recurring ? 0 : 1;
-    const rankDifference = recurringRank(a) - recurringRank(b);
-    if (rankDifference !== 0) return rankDifference;
-    return new Date(a.start_datetime || "9999-12-31").getTime() - new Date(b.start_datetime || "9999-12-31").getTime();
-  });
+const manualEventNotes = new Map(manualEventReferences.map((reference) => [reference.event_slug, reference.note]));
+const currentEvents = getCurrentEvents(allEvents);
+const matchedEvents = getEventsAtVenue(allEvents, business.slug);
+const manualEvents = currentEvents
+  .filter((event) => manualEventNotes.has(event.event_slug))
+  .map((event) => ({ ...event, note: manualEventNotes.get(event.event_slug) || event.note || null }));
+const venueEvents = getCurrentEvents(
+  Array.from(new Map([...matchedEvents, ...manualEvents].map((event) => [event.event_slug, event])).values())
+);
 const hasRelationships = parentBusinesses.length > 0 || childBusinesses.length > 0 || relatedBusinesses.length > 0;
 ---
 
@@ -138,9 +136,9 @@ const hasRelationships = parentBusinesses.length > 0 || childBusinesses.length >
               {venueEvents.map((event) => (
                 <article class="event-card">
                   <div>
-                    <p class="event-status">{event.status === "recurring" || event.recurring ? "Recurring event" : "Upcoming event"}</p>
+                    <p class="event-status">{isRecurringEvent(event) ? "Recurring event" : "Upcoming event"}</p>
                     <h3><a href={`/events/${event.event_slug}/`}>{event.event_name}</a></h3>
-                    {event.start_datetime && <p>{event.status === "recurring" || event.recurring ? "Begins " : ""}{formatEventDate(event.start_datetime)} · {formatEventTime(event.start_datetime)}</p>}
+                    {event.start_datetime && <p>{isRecurringEvent(event) ? "Begins " : ""}{formatEventDate(event.start_datetime)} · {formatEventTime(event.start_datetime)}</p>}
                     {event.note && <p class="note">{event.note}</p>}
                   </div>
                   <a class="event-link" href={`/events/${event.event_slug}/`}>View event</a>
