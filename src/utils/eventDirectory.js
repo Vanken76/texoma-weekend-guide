@@ -1,3 +1,5 @@
+import { chooseCoordinatePair } from "./locationCoordinates.js";
+
 const DEFAULT_TIME_ZONE = "America/Chicago";
 const PUBLIC_CURRENT_STATUSES = new Set(["upcoming", "recurring"]);
 
@@ -91,8 +93,7 @@ export const resolveEventLocation = (event = {}, businessIndexOrBusinesses = new
     primaryVenue?.postal_code,
     primaryVenue?.zip_code
   );
-  const latitude = firstValue(event.latitude, primaryVenue?.latitude);
-  const longitude = firstValue(event.longitude, primaryVenue?.longitude);
+  const coordinates = chooseCoordinatePair(event, primaryVenue);
   const venueName = firstValue(
     event.venue_name,
     event.location_name,
@@ -109,8 +110,10 @@ export const resolveEventLocation = (event = {}, businessIndexOrBusinesses = new
     city: city || "",
     state: state || "",
     postalCode,
-    latitude,
-    longitude,
+    latitude: coordinates.latitude,
+    longitude: coordinates.longitude,
+    coordinates,
+    mapReady: coordinates.usableForMap,
     locationText,
     mapUrl: locationText
       ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(locationText)}`
@@ -130,6 +133,9 @@ export const withResolvedEventLocation = (event = {}, businessIndexOrBusinesses 
     postal_code: location.postalCode,
     latitude: location.latitude,
     longitude: location.longitude,
+    coordinate_status: location.coordinates.status,
+    coordinate_source: location.coordinates.source,
+    map_ready: location.mapReady,
     resolved_location: location
   };
 };
