@@ -25,6 +25,7 @@ const isAdminDashboard = Astro.url.pathname === "/admin-dashboard" || Astro.url.
 const isAdminRecord = Astro.url.pathname === "/admin-record" || Astro.url.pathname === "/admin-record/";
 const isEventsPage = Astro.url.pathname === "/events" || Astro.url.pathname === "/events/";
 const isEventDetail = /^\/events\/[^/]+\/?$/.test(Astro.url.pathname);
+const isEventExperience = isEventsPage || isEventDetail;
 const isBusinessesPage = Astro.url.pathname === "/businesses" || Astro.url.pathname === "/businesses/";
 const isBusinessSection = Astro.url.pathname.startsWith("/businesses/");
 const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname === "/support/";
@@ -38,6 +39,7 @@ const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname ==
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
     <link rel="icon" type="image/jpeg" href="/images/logo.jpg" />
+    {isEventExperience && <link rel="stylesheet" href="/event-experience.css?v=1" />}
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Texoma Weekend Guide" />
     <meta property="og:title" content={title} />
@@ -64,6 +66,7 @@ const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname ==
     {isEventsPage && <script is:inline src="/event-address-display.js?v=2"></script>}
     {isEventsPage && <script is:inline src="/event-detail-links.js?v=3"></script>}
     {isEventsPage && <script is:inline src="/event-filter-links.js?v=2"></script>}
+    {isEventsPage && <script is:inline src="/event-directory-view.js?v=1"></script>}
     {isEventDetail && <script is:inline src="/event-venue-name-fallback.js?v=4"></script>}
     {isBusinessesPage && <script is:inline src="/business-directory-among-the-pages-fix.js?v=1"></script>}
     {isBusinessesPage && <script is:inline src="/business-amenities-filter.js?v=1"></script>}
