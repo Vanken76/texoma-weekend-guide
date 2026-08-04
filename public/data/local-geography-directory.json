@@ -1,7 +1,196 @@
 {
   "schema_version": "1.0.1",
-  "generated_on": "2026-08-03",
-  "entity_count": 0,
-  "publish_ready_count": 0,
-  "entities": []
+  "generated_on": "2026-08-04",
+  "entity_count": 1,
+  "publish_ready_count": 1,
+  "entities": [
+    {
+      "entity_type": "state",
+      "name": "Texas",
+      "official_name": "Texas",
+      "slug": "texas",
+      "status": "active",
+      "publish_ready": true,
+      "country_slug": "united-states",
+      "parent_slug": "united-states",
+      "region_slugs": [
+        "texoma",
+        "north-texas"
+      ],
+      "related_geography_slugs": [
+        "lake-texoma"
+      ],
+      "coverage_level": "regional",
+      "within_twg_service_area": true,
+      "coverage_notes": "TWG covers the Texoma portion of Texas and selected regional destinations. The routine southern boundary is US-380.",
+      "description": "Texas is the second-largest U.S. state by both area and population. Texoma Weekend Guide focuses on the North Texas and Texoma portions of the state while connecting visitors with covered cities, communities, events, businesses, venues, attractions, parks, restaurants, lakes, lodging and other regional destinations.",
+      "short_description": "The Lone Star State and the Texas half of the Texoma region.",
+      "history_summary": "Formerly the Republic of Texas, Texas joined the United States on December 29, 1845, becoming the 28th state.",
+      "visitor_summary": "Explore Texas cities, events, businesses, venues, restaurants, attractions, parks, lakes, lodging and destinations represented within the Texoma Weekend Guide coverage area.",
+      "abbreviation": "TX",
+      "fips_code": "48",
+      "nickname": "The Lone Star State",
+      "motto": "Friendship",
+      "admission_date": "1845-12-29",
+      "admission_order": 28,
+      "former_status": "Republic of Texas",
+      "capital_city_slug": "austin-tx",
+      "largest_city_slug": "houston-tx",
+      "county_count": 254,
+      "population": {
+        "value": 31709821,
+        "year": 2025,
+        "type": "estimate",
+        "source_url": "https://www.census.gov/quickfacts/fact/table/TX/PST045225"
+      },
+      "area_total_sq_mi": 268596,
+      "area_land_sq_mi": 261231.71,
+      "area_water_sq_mi": 7364.29,
+      "highest_point": {
+        "name": "Guadalupe Peak",
+        "elevation_ft": 8749,
+        "source_url": "https://www.nps.gov/gumo/learn/nature/guadalupe-peak.htm"
+      },
+      "lowest_point": {
+        "name": "Gulf of Mexico",
+        "elevation_ft": 0
+      },
+      "time_zones": [
+        "America/Chicago",
+        "America/Denver"
+      ],
+      "official_symbols": {
+        "flag_name": "Lone Star Flag",
+        "seal_name": "Great Seal of Texas",
+        "flower": "Bluebonnet",
+        "bird": "Northern Mockingbird",
+        "tree": "Pecan",
+        "song": "Texas, Our Texas",
+        "large_mammal": "Texas Longhorn",
+        "small_mammal": "Nine-banded Armadillo",
+        "flying_mammal": "Mexican Free-tailed Bat",
+        "insect": "Monarch Butterfly",
+        "sport": "Rodeo",
+        "musical_instrument": "Guitar",
+        "music": "Western Swing"
+      },
+      "latitude": 31,
+      "longitude": -99,
+      "coordinate_source": "manual",
+      "coordinate_status": "unverified",
+      "coordinate_verified_at": null,
+      "coordinate_verified_by": null,
+      "coordinate_note": "Approximate representative center point for the state. Must be checked before use as a verified public map coordinate.",
+      "boundary_source_url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html",
+      "boundary_reference": null,
+      "government_organization_slug": "state-of-texas",
+      "official_website_url": "https://www.texas.gov/",
+      "featured": true,
+      "display_order": 1,
+      "seo_title": "Texas | Texoma Weekend Guide",
+      "seo_description": "Discover Texas cities, events, businesses, venues, restaurants, attractions, parks, lakes and destinations represented by Texoma Weekend Guide.",
+      "last_verified": "2026-08-03",
+      "sources": [
+        {
+          "source_type": "census",
+          "source_name": "U.S. Census Bureau",
+          "source_url": "https://www.census.gov/quickfacts/fact/table/TX/PST045225",
+          "supports": [
+            "population",
+            "area"
+          ],
+          "last_checked": "2026-08-03",
+          "notes": "Population estimate and geographic statistics."
+        },
+        {
+          "source_type": "government-archive",
+          "source_name": "Texas State Library and Archives Commission",
+          "source_url": "https://www.tsl.texas.gov/ref/abouttx/",
+          "supports": [
+            "statehood",
+            "history",
+            "nickname",
+            "motto",
+            "official_symbols",
+            "flag"
+          ],
+          "last_checked": "2026-08-03",
+          "notes": "Official Texas history, symbols and reference information."
+        },
+        {
+          "source_type": "official",
+          "source_name": "Texas.gov",
+          "source_url": "https://www.texas.gov/",
+          "supports": [
+            "official_website"
+          ],
+          "last_checked": "2026-08-03",
+          "notes": "Official State of Texas government website."
+        },
+        {
+          "source_type": "official",
+          "source_name": "Guadalupe Mountains National Park",
+          "source_url": "https://www.nps.gov/gumo/learn/nature/guadalupe-peak.htm",
+          "supports": [
+            "highest_point"
+          ],
+          "last_checked": "2026-08-03",
+          "notes": "Official National Park Service information for Guadalupe Peak."
+        }
+      ],
+      "media": {
+        "gallery": [],
+        "hero_primary": {
+          "url": "/images/geography/texas-hero-primary.png",
+          "alt_text": "Texas Longhorn standing in a field of bluebonnets at sunset with the Texas flag in the background",
+          "source_name": "OpenAI image generation",
+          "source_url": "",
+          "credit": "Generated with OpenAI for Texoma Weekend Guide",
+          "usage_status": "owned",
+          "usage_notes": "Original AI-generated artwork created specifically for the Texoma Weekend Guide Texas page. Not a documentary photograph of a specific Texas location.",
+          "last_verified": "2026-08-03"
+        },
+        "hero_secondary": {
+          "url": "/images/geography/texas-hero-secondary.png",
+          "alt_text": "Downtown Dallas skyline at dusk featuring Bank of America Plaza, Fountain Place, and the city's illuminated skyscrapers.",
+          "source_name": "OpenAI Image Generation",
+          "source_url": "",
+          "credit": "Generated with OpenAI for Texoma Weekend Guide",
+          "usage_status": "owned",
+          "usage_notes": "",
+          "last_verified": "2026-08-03"
+        },
+        "seal": {
+          "url": "/images/geography/texas-seal.png",
+          "alt_text": "Official Great Seal of the State of Texas featuring a five-pointed star surrounded by oak and olive branches.",
+          "source_name": "State of Texas",
+          "source_url": "https://www.texas.gov",
+          "credit": "State of Texas",
+          "usage_status": "official-government-source",
+          "usage_notes": "",
+          "last_verified": "2026-08-03"
+        },
+        "flag": {
+          "url": "/images/geography/texas-flag.png",
+          "alt_text": "Official Lone Star Flag of the State of Texas featuring a single white star on a blue vertical field with horizontal white and red stripes.",
+          "source_name": "OpenAI Image Generation",
+          "source_url": "",
+          "credit": "Created for Texoma Weekend Guide using OpenAI Image Generation.",
+          "usage_status": "owned",
+          "usage_notes": "",
+          "last_verified": "2026-08-03"
+        },
+        "outline": {
+          "url": "/images/geography/texas-outline.png",
+          "alt_text": "Solid black silhouette of the State of Texas centered on a white background.",
+          "source_name": "OpenAI Image Generation",
+          "source_url": "",
+          "credit": "Created for Texoma Weekend Guide using OpenAI Image Generation.",
+          "usage_status": "owned",
+          "usage_notes": "",
+          "last_verified": "2026-08-03"
+        }
+      }
+    }
+  ]
 }
