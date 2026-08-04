@@ -1,0 +1,427 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Geography Publisher | Texoma Weekend Guide"
+  description="Private geography publishing utility for states, counties, cities, regions, and geographic features."
+>
+  <section class="publisher">
+    <header>
+      <p class="eyebrow">TWG Admin</p>
+      <h1>Geography Publisher</h1>
+      <p>Paste one canonical geography object, attach any official or editorial media, validate it, and publish it to the geography directory.</p>
+    </header>
+
+    <section class="panel auth-panel">
+      <label for="admin-key">Admin key</label>
+      <input id="admin-key" type="password" autocomplete="current-password" placeholder="Enter your private publishing key" />
+      <p class="helper">The key is saved only for this browser tab.</p>
+    </section>
+
+    <section class="panel tool-panel">
+      <label for="geography-json">Geography JSON</label>
+      <textarea id="geography-json" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder='Paste one geography object here, beginning with { and ending with }'></textarea>
+
+      <div class="actions top-actions">
+        <button id="format-json" class="secondary-action" type="button">Format JSON</button>
+        <button id="validate" type="button">Validate Geography</button>
+      </div>
+
+      <section class="media-section" aria-labelledby="media-heading">
+        <div class="section-heading-row">
+          <div>
+            <h2 id="media-heading">Media assets</h2>
+            <p class="helper">Add any combination of primary hero, secondary hero, official logo, seal, flag, outline map, gallery images, thumbnail, or social preview. Video is stored as a sourced URL in the JSON object.</p>
+          </div>
+          <button id="add-media" class="secondary-action" type="button">Add image</button>
+        </div>
+        <div id="media-list"></div>
+      </section>
+
+      <label for="remove-slugs">Old duplicate slug(s) to remove <span class="optional">optional</span></label>
+      <input id="remove-slugs" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="Separate multiple old slugs with commas" />
+
+      <div class="actions publish-actions">
+        <button id="publish" type="button" disabled>Publish Geography</button>
+      </div>
+
+      <section class="results" aria-live="polite">
+        <h2>Geography status</h2>
+        <p id="status">Nothing has been validated yet.</p>
+        <ul id="checks"></ul>
+      </section>
+    </section>
+  </section>
+
+  <template id="media-row-template">
+    <article class="media-row">
+      <div class="media-row-head">
+        <strong class="media-number">Image</strong>
+        <button class="remove-media secondary-action" type="button">Remove</button>
+      </div>
+      <div class="media-grid">
+        <label>
+          Asset role
+          <select class="media-role">
+            <option value="hero_primary">Primary hero</option>
+            <option value="hero_secondary">Secondary hero</option>
+            <option value="official_logo">Official logo</option>
+            <option value="seal">Official seal or emblem</option>
+            <option value="flag">Flag</option>
+            <option value="outline">Outline map</option>
+            <option value="gallery">Gallery image</option>
+            <option value="thumbnail">Thumbnail</option>
+            <option value="social">Social preview image</option>
+          </select>
+        </label>
+        <label>
+          Image file
+          <input class="media-file" type="file" accept="image/jpeg,image/png,image/webp" />
+        </label>
+        <label class="full-width">
+          Alt text
+          <input class="media-alt" type="text" placeholder="Describe the image for someone who cannot see it" />
+        </label>
+        <label>
+          Source name
+          <input class="media-source-name" type="text" placeholder="Agency, photographer, archive, or owner" />
+        </label>
+        <label>
+          Source URL
+          <input class="media-source-url" type="url" placeholder="https://..." />
+        </label>
+        <label>
+          Image credit
+          <input class="media-credit" type="text" placeholder="Credit line, when required" />
+        </label>
+        <label>
+          Usage / license status
+          <select class="media-usage">
+            <option value="">Select status</option>
+            <option value="owned">Owned</option>
+            <option value="licensed">Licensed</option>
+            <option value="public-domain">Public domain</option>
+            <option value="official-government-source">Official government source</option>
+            <option value="permission-granted">Permission granted</option>
+            <option value="review-required">Review required</option>
+            <option value="restricted">Restricted</option>
+          </select>
+        </label>
+        <label class="full-width">
+          Usage notes
+          <textarea class="media-usage-notes" rows="2" placeholder="Restrictions, attribution requirements, approval notes, or license details"></textarea>
+        </label>
+        <label>
+          Last verified
+          <input class="media-verified" type="date" />
+        </label>
+      </div>
+      <div class="preview-wrap" hidden>
+        <img class="media-preview" alt="Selected geography image preview" />
+        <p class="media-file-name"></p>
+      </div>
+    </article>
+  </template>
+
+  <script>
+    const adminKey = document.querySelector("#admin-key");
+    const geographyInput = document.querySelector("#geography-json");
+    const removeSlugsInput = document.querySelector("#remove-slugs");
+    const formatButton = document.querySelector("#format-json");
+    const validateButton = document.querySelector("#validate");
+    const publishButton = document.querySelector("#publish");
+    const addMediaButton = document.querySelector("#add-media");
+    const mediaList = document.querySelector("#media-list");
+    const mediaTemplate = document.querySelector("#media-row-template");
+    const status = document.querySelector("#status");
+    const checks = document.querySelector("#checks");
+
+    if (!(adminKey instanceof HTMLInputElement) || !(geographyInput instanceof HTMLTextAreaElement) ||
+        !(removeSlugsInput instanceof HTMLInputElement) || !(formatButton instanceof HTMLButtonElement) ||
+        !(validateButton instanceof HTMLButtonElement) || !(publishButton instanceof HTMLButtonElement) ||
+        !(addMediaButton instanceof HTMLButtonElement) || !(mediaList instanceof HTMLElement) ||
+        !(mediaTemplate instanceof HTMLTemplateElement) || !(status instanceof HTMLElement) ||
+        !(checks instanceof HTMLUListElement)) {
+      throw new Error("Geography publisher controls could not be initialized.");
+    }
+
+    const ENTITY_TYPES = new Set(["country", "state", "county", "city", "region", "district", "geographic_feature"]);
+    const STATUSES = new Set(["active", "inactive", "planned", "archived"]);
+    const COVERAGE = new Set(["core", "regional", "destination", "reference", "outside"]);
+    const ALLOWED_TYPES = new Set(["image/jpeg", "image/png", "image/webp"]);
+    const MAX_FILE_BYTES = 8 * 1024 * 1024;
+    const today = new Date().toISOString().slice(0, 10);
+
+    const savedKey = sessionStorage.getItem("twg-admin-key");
+    if (savedKey) adminKey.value = savedKey;
+    adminKey.addEventListener("input", () => {
+      if (adminKey.value) sessionStorage.setItem("twg-admin-key", adminKey.value);
+      else sessionStorage.removeItem("twg-admin-key");
+    });
+
+    let validatedEntity = null;
+    let previewUrls = [];
+
+    const setResult = (message, items = [], valid = false) => {
+      status.textContent = message;
+      status.className = valid ? "success" : "error";
+      checks.replaceChildren();
+      for (const item of items) {
+        const li = document.createElement("li");
+        li.textContent = item;
+        checks.appendChild(li);
+      }
+    };
+
+    const invalidate = () => {
+      validatedEntity = null;
+      publishButton.disabled = true;
+    };
+
+    const renumberMedia = () => {
+      [...mediaList.querySelectorAll(".media-row")].forEach((row, index) => {
+        const label = row.querySelector(".media-number");
+        if (label) label.textContent = `Image ${index + 1}`;
+      });
+    };
+
+    const addMediaRow = () => {
+      const fragment = mediaTemplate.content.cloneNode(true);
+      const row = fragment.querySelector(".media-row");
+      if (!(row instanceof HTMLElement)) return;
+      const fileInput = row.querySelector(".media-file");
+      const previewWrap = row.querySelector(".preview-wrap");
+      const preview = row.querySelector(".media-preview");
+      const fileName = row.querySelector(".media-file-name");
+      const verified = row.querySelector(".media-verified");
+      const removeButton = row.querySelector(".remove-media");
+      if (verified instanceof HTMLInputElement) verified.value = today;
+
+      row.addEventListener("input", invalidate);
+      row.addEventListener("change", invalidate);
+      if (fileInput instanceof HTMLInputElement) {
+        fileInput.addEventListener("change", () => {
+          const file = fileInput.files?.[0] || null;
+          if (!(previewWrap instanceof HTMLElement) || !(preview instanceof HTMLImageElement) || !(fileName instanceof HTMLElement)) return;
+          if (!file) { previewWrap.hidden = true; preview.removeAttribute("src"); fileName.textContent = ""; return; }
+          const url = URL.createObjectURL(file);
+          previewUrls.push(url);
+          preview.src = url;
+          preview.alt = "Selected geography image preview";
+          fileName.textContent = `${file.name} · ${(file.size / 1024).toFixed(0)} KB`;
+          previewWrap.hidden = false;
+        });
+      }
+      if (removeButton instanceof HTMLButtonElement) {
+        removeButton.addEventListener("click", () => { row.remove(); renumberMedia(); invalidate(); });
+      }
+      mediaList.appendChild(fragment);
+      renumberMedia();
+      invalidate();
+    };
+
+    addMediaButton.addEventListener("click", addMediaRow);
+
+    const validateEntity = (entity) => {
+      const problems = [];
+      if (!entity || typeof entity !== "object" || Array.isArray(entity)) return ["The geography record must be one JSON object."];
+      if (!ENTITY_TYPES.has(entity.entity_type)) problems.push("entity_type is invalid.");
+      if (!entity.name || typeof entity.name !== "string") problems.push("name is required.");
+      if (!entity.slug || typeof entity.slug !== "string") problems.push("slug is required.");
+      else if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(entity.slug)) problems.push("slug must use lowercase letters, numbers, and single hyphens only.");
+      if (!STATUSES.has(entity.status)) problems.push("status is invalid.");
+      if (entity.publish_ready !== true) problems.push("publish_ready must be true.");
+      if (!entity.description || typeof entity.description !== "string") problems.push("description is required.");
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(entity.last_verified || "")) problems.push("last_verified must be YYYY-MM-DD.");
+      if (!Array.isArray(entity.sources) || entity.sources.length === 0) problems.push("sources must contain at least one source object.");
+      if (!COVERAGE.has(entity.coverage_level)) problems.push("coverage_level is invalid.");
+      if (typeof entity.within_twg_service_area !== "boolean") problems.push("within_twg_service_area must be true or false.");
+      if (entity.entity_type !== "country" && !entity.country_slug) problems.push("country_slug is required for non-country records.");
+      if (entity.entity_type === "county" && !entity.state_slug) problems.push("A county requires state_slug.");
+      if (entity.entity_type === "city" && !entity.state_slug) problems.push("A city requires state_slug.");
+      if (entity.state_symbols && !entity.official_symbols) problems.push("Use official_symbols instead of deprecated state_symbols.");
+      return problems;
+    };
+
+    const collectMedia = () => {
+      const uploads = [];
+      const problems = [];
+      const rows = [...mediaList.querySelectorAll(".media-row")];
+      rows.forEach((row, index) => {
+        const getInput = (selector) => row.querySelector(selector);
+        const fileInput = getInput(".media-file");
+        const role = getInput(".media-role");
+        const alt = getInput(".media-alt");
+        const sourceName = getInput(".media-source-name");
+        const sourceUrl = getInput(".media-source-url");
+        const credit = getInput(".media-credit");
+        const usage = getInput(".media-usage");
+        const notes = getInput(".media-usage-notes");
+        const verified = getInput(".media-verified");
+        const file = fileInput instanceof HTMLInputElement ? fileInput.files?.[0] || null : null;
+        if (!file) { problems.push(`Image ${index + 1} requires a file.`); return; }
+        if (!ALLOWED_TYPES.has(file.type)) problems.push(`Image ${index + 1} must be JPG, PNG, or WebP.`);
+        if (file.size > MAX_FILE_BYTES) problems.push(`Image ${index + 1} must be 8 MB or smaller.`);
+        const altText = alt instanceof HTMLInputElement ? alt.value.trim() : "";
+        const usageStatus = usage instanceof HTMLSelectElement ? usage.value : "";
+        if (!altText) problems.push(`Image ${index + 1} requires alt text.`);
+        if (!usageStatus) problems.push(`Image ${index + 1} requires a usage/license status.`);
+        uploads.push({
+          role: role instanceof HTMLSelectElement ? role.value : "gallery",
+          file,
+          alt_text: altText,
+          source_name: sourceName instanceof HTMLInputElement ? sourceName.value.trim() : "",
+          source_url: sourceUrl instanceof HTMLInputElement ? sourceUrl.value.trim() : "",
+          credit: credit instanceof HTMLInputElement ? credit.value.trim() : "",
+          usage_status: usageStatus,
+          usage_notes: notes instanceof HTMLTextAreaElement ? notes.value.trim() : "",
+          last_verified: verified instanceof HTMLInputElement ? verified.value : today
+        });
+      });
+      return { uploads, problems };
+    };
+
+    const fileToBase64 = (file) => new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const result = typeof reader.result === "string" ? reader.result : "";
+        const comma = result.indexOf(",");
+        if (comma < 0) reject(new Error("An image could not be encoded."));
+        else resolve(result.slice(comma + 1));
+      };
+      reader.onerror = () => reject(new Error("An image could not be read."));
+      reader.readAsDataURL(file);
+    });
+
+    const validateAll = () => {
+      invalidate();
+      try {
+        const entity = JSON.parse(geographyInput.value);
+        const entityProblems = validateEntity(entity);
+        const { uploads, problems: mediaProblems } = collectMedia();
+        const problems = [...entityProblems, ...mediaProblems];
+        if (problems.length) { setResult("Geography validation found problems.", problems, false); return false; }
+        validatedEntity = entity;
+        publishButton.disabled = false;
+        setResult("Valid geography object. It is ready to publish.", [
+          `Name: ${entity.name}`,
+          `Type: ${entity.entity_type}`,
+          `Slug: ${entity.slug}`,
+          `Media files selected: ${uploads.length}`,
+          entity.media?.video?.url || entity.media?.video_url ? "Video reference present in JSON" : "No video reference in JSON"
+        ], true);
+        return true;
+      } catch (error) {
+        setResult(`Invalid JSON: ${error instanceof Error ? error.message : "Unknown parsing error."}`, [], false);
+        return false;
+      }
+    };
+
+    geographyInput.addEventListener("input", invalidate);
+    removeSlugsInput.addEventListener("input", invalidate);
+    validateButton.addEventListener("click", validateAll);
+    formatButton.addEventListener("click", () => {
+      try { geographyInput.value = JSON.stringify(JSON.parse(geographyInput.value), null, 2); invalidate(); }
+      catch (error) { setResult(`Cannot format invalid JSON: ${error instanceof Error ? error.message : "Unknown parsing error."}`, [], false); }
+    });
+
+    publishButton.addEventListener("click", async () => {
+      if (!validatedEntity && !validateAll()) return;
+      if (!adminKey.value) { setResult("Enter the admin key before publishing.", [], false); adminKey.focus(); return; }
+      const { uploads, problems } = collectMedia();
+      if (problems.length) { setResult("Media validation found problems.", problems, false); return; }
+
+      publishButton.disabled = true;
+      publishButton.textContent = uploads.length ? "Uploading media and publishing…" : "Publishing…";
+      try {
+        const encodedUploads = [];
+        for (const upload of uploads) {
+          encodedUploads.push({
+            role: upload.role,
+            name: upload.file.name,
+            type: upload.file.type,
+            size: upload.file.size,
+            data: await fileToBase64(upload.file),
+            alt_text: upload.alt_text,
+            source_name: upload.source_name,
+            source_url: upload.source_url,
+            credit: upload.credit,
+            usage_status: upload.usage_status,
+            usage_notes: upload.usage_notes,
+            last_verified: upload.last_verified
+          });
+        }
+        const removeSlugs = removeSlugsInput.value.split(",").map((slug) => slug.trim()).filter(Boolean);
+        const response = await fetch("/api/publish-geography", {
+          method: "POST",
+          headers: { "content-type": "application/json", "x-admin-key": adminKey.value },
+          body: JSON.stringify({ entity: validatedEntity, uploads: encodedUploads, remove_slugs: removeSlugs })
+        });
+        const result = await response.json();
+        if (!response.ok) { setResult(result.error || `Publishing failed with status ${response.status}.`, Array.isArray(result.problems) ? result.problems : [], false); return; }
+        if (result.entity) {
+          validatedEntity = result.entity;
+          geographyInput.value = JSON.stringify(result.entity, null, 2);
+        }
+        setResult(result.message || "Geography published successfully.", [
+          `${result.entity_count} total geography records`,
+          `${result.publish_ready_count} publish-ready records`,
+          `${result.uploaded_media_count} media file(s) uploaded`,
+          result.removed_count ? `${result.removed_count} old duplicate record(s) removed` : "No old duplicate records removed",
+          result.commit ? `GitHub commit: ${result.commit.slice(0, 7)}` : "GitHub commit created"
+        ], true);
+      } catch (error) {
+        setResult(`Publishing failed: ${error instanceof Error ? error.message : "Unknown publishing error."}`, [], false);
+      } finally {
+        publishButton.disabled = !validatedEntity;
+        publishButton.textContent = "Publish Geography";
+      }
+    });
+
+    addMediaRow();
+  </script>
+</BaseLayout>
+
+<style>
+  .publisher { width: min(920px, calc(100% - 2rem)); margin: 0 auto; padding: 3rem 0 5rem; }
+  header { margin-bottom: 1.5rem; }
+  .eyebrow { margin: 0 0 .35rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+  h1, h2 { margin-top: 0; }
+  .panel { padding: 1.25rem; border: 1px solid rgba(255,255,255,.16); border-radius: 1rem; background: rgba(255,255,255,.05); }
+  .tool-panel { margin-top: 1.25rem; }
+  label { display: block; margin: .9rem 0 .5rem; font-weight: 800; }
+  input, textarea, select { width: 100%; padding: .85rem; border: 1px solid rgba(255,255,255,.22); border-radius: .65rem; font: inherit; }
+  textarea { resize: vertical; }
+  #geography-json { min-height: 52vh; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: .82rem; line-height: 1.45; }
+  .helper { margin: .45rem 0 0; font-size: .9rem; opacity: .8; }
+  .optional { font-weight: 400; opacity: .7; }
+  .actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }
+  button { min-height: 44px; padding: .7rem 1rem; border: 0; border-radius: .6rem; font: inherit; font-weight: 800; cursor: pointer; }
+  button:disabled { cursor: not-allowed; opacity: .45; }
+  .secondary-action { background: transparent; border: 1px solid rgba(255,255,255,.25); color: inherit; }
+  .media-section { margin-top: 1.75rem; padding-top: 1.4rem; border-top: 1px solid rgba(255,255,255,.14); }
+  .section-heading-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; }
+  .section-heading-row h2 { margin-bottom: .25rem; }
+  .media-row { margin-top: 1rem; padding: 1rem; border: 1px solid rgba(255,255,255,.16); border-radius: .8rem; }
+  .media-row-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+  .media-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 1rem; }
+  .full-width { grid-column: 1 / -1; }
+  .preview-wrap { display: flex; align-items: center; gap: 1rem; margin-top: 1rem; }
+  .preview-wrap[hidden] { display: none; }
+  .media-preview { width: 140px; height: 100px; object-fit: contain; border-radius: .5rem; background: white; }
+  .media-file-name { overflow-wrap: anywhere; font-weight: 700; }
+  .results { margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,.14); }
+  .results h2 { margin-bottom: .5rem; font-size: 1.05rem; }
+  .success, .error { font-weight: 800; }
+  @media (max-width: 700px) {
+    .publisher { padding-top: 1.5rem; }
+    .panel { padding: .85rem; }
+    .media-grid { grid-template-columns: 1fr; }
+    .full-width { grid-column: auto; }
+    .section-heading-row { display: block; }
+    .section-heading-row button { margin-top: .8rem; width: 100%; }
+    .actions button { flex: 1 1 100%; }
+    .media-preview { width: 100px; height: 80px; }
+  }
+</style>
