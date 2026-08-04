@@ -1,0 +1,170 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import geographyDirectory from "../../../public/data/local-geography-directory.json";
+import businessDirectory from "../../../public/data/local-business-directory.json";
+import eventDirectory from "../../../public/data/local-event-directory.json";
+
+export function getStaticPaths() {
+  return (geographyDirectory.entities ?? [])
+    .filter((entity) => entity.publish_ready === true && entity.entity_type === "state" && entity.slug)
+    .map((entity) => ({ params: { slug: entity.slug }, props: { entity } }));
+}
+
+const { entity } = Astro.props;
+const media = entity.media ?? {};
+const symbols = entity.official_symbols ?? {};
+const heroPrimary = media.hero_primary ?? null;
+const heroSecondary = media.hero_secondary ?? null;
+const officialAssets = [
+  ["State flag", media.flag],
+  ["State seal", media.seal],
+  ["State outline", media.outline]
+].filter(([, asset]) => asset?.url);
+
+const formatNumber = (value) => Number.isFinite(value) ? new Intl.NumberFormat("en-US").format(value) : null;
+const formatDate = (value) => value
+  ? new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "long", day: "numeric", year: "numeric" }).format(new Date(`${value}T12:00:00Z`))
+  : null;
+const titleCase = (value) => String(value || "").replaceAll("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+
+const stateCodes = new Set([entity.abbreviation, entity.name].filter(Boolean).map((value) => String(value).toLowerCase()));
+const businesses = (businessDirectory.businesses ?? []).filter((business) => {
+  if (business.publish_ready !== true) return false;
+  const values = [business.state, business.state_abbreviation, business.state_name, business.state_slug]
+    .filter(Boolean)
+    .map((value) => String(value).toLowerCase());
+  return values.some((value) => stateCodes.has(value) || value === entity.slug);
+});
+const businessSlugs = new Set(businesses.map((business) => business.slug).filter(Boolean));
+const events = (eventDirectory.events ?? []).filter((event) => {
+  if (event.publish_ready !== true) return false;
+  const values = [event.state, event.state_abbreviation, event.state_name, event.state_slug]
+    .filter(Boolean)
+    .map((value) => String(value).toLowerCase());
+  if (values.some((value) => stateCodes.has(value) || value === entity.slug)) return true;
+  return businessSlugs.has(event.venue_slug) || businessSlugs.has(event.primary_venue_slug);
+});
+
+const symbolEntries = Object.entries(symbols).filter(([, value]) => value !== null && value !== undefined && value !== "");
+const sourceEntries = Array.isArray(entity.sources) ? entity.sources.filter((source) => source?.source_name) : [];
+const timeZoneLabels = (entity.time_zones ?? []).map((zone) => zone === "America/Chicago" ? "Central Time" : zone === "America/Denver" ? "Mountain Time" : zone);
+const pageTitle = entity.seo_title || `${entity.name} | Texoma Weekend Guide`;
+const pageDescription = entity.seo_description || entity.short_description || entity.description;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription} image={heroPrimary?.url || undefined}>
+  <article class="geography-page">
+    <header class="state-hero">
+      {heroPrimary?.url && (
+        <img class="hero-image" src={heroPrimary.url} alt={heroPrimary.alt_text || `${entity.name} landscape`} />
+      )}
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><span>States</span><span>›</span><span>{entity.name}</span></nav>
+        <p class="eyebrow">{entity.nickname || `${entity.name} state guide`}</p>
+        <h1>{entity.name}</h1>
+        {entity.short_description && <p class="hero-summary">{entity.short_description}</p>}
+        <div class="hero-actions">
+          <a class="button primary" href="#explore">Explore {entity.name}</a>
+          {entity.official_website_url && <a class="button ghost" href={entity.official_website_url} target="_blank" rel="noopener noreferrer">Official state website</a>}
+        </div>
+      </div>
+    </header>
+
+    <main class="container content-wrap">
+      <section class="intro-grid">
+        <div class="intro-copy card">
+          <p class="section-label">About {entity.name}</p>
+          <h2>{entity.visitor_summary || `Discover ${entity.name}`}</h2>
+          <p>{entity.description}</p>
+          {entity.history_summary && <p>{entity.history_summary}</p>}
+          {entity.coverage_notes && <div class="coverage-note"><strong>TWG coverage:</strong> {entity.coverage_notes}</div>}
+        </div>
+
+        <aside class="quick-facts card">
+          <h2>Texas at a glance</h2>
+          <dl>
+            {entity.abbreviation && <><dt>Abbreviation</dt><dd>{entity.abbreviation}</dd></>}
+            {entity.capital_city_slug && <><dt>Capital</dt><dd>{titleCase(entity.capital_city_slug.replace(/-[a-z]{2}$/, ""))}</dd></>}
+            {entity.largest_city_slug && <><dt>Largest city</dt><dd>{titleCase(entity.largest_city_slug.replace(/-[a-z]{2}$/, ""))}</dd></>}
+            {entity.admission_date && <><dt>Statehood</dt><dd>{formatDate(entity.admission_date)} · {entity.admission_order ? `${entity.admission_order}th state` : ""}</dd></>}
+            {entity.motto && <><dt>Motto</dt><dd>{entity.motto}</dd></>}
+            {entity.population?.value && <><dt>Population</dt><dd>{formatNumber(entity.population.value)} <small>({entity.population.year} {entity.population.type})</small></dd></>}
+            {entity.area_total_sq_mi && <><dt>Total area</dt><dd>{formatNumber(entity.area_total_sq_mi)} sq. mi.</dd></>}
+            {entity.county_count && <><dt>Counties</dt><dd>{formatNumber(entity.county_count)}</dd></>}
+            {timeZoneLabels.length > 0 && <><dt>Time zones</dt><dd>{timeZoneLabels.join(" and ")}</dd></>}
+          </dl>
+        </aside>
+      </section>
+
+      {officialAssets.length > 0 && (
+        <section class="official-section">
+          <div class="section-heading"><p class="section-label">Official identity</p><h2>Flag, seal and state outline</h2></div>
+          <div class="official-grid">
+            {officialAssets.map(([label, asset]) => (
+              <figure class="official-card card">
+                <div class="asset-frame"><img src={asset.url} alt={asset.alt_text || label} /></div>
+                <figcaption><strong>{label}</strong>{asset.credit && <span>{asset.credit}</span>}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <section class="facts-grid">
+        <div class="card">
+          <p class="section-label">Official symbols</p>
+          <h2>Symbols of {entity.name}</h2>
+          <dl class="symbol-list">
+            {symbolEntries.map(([key, value]) => <><dt>{titleCase(key.replace(/_name$/, ""))}</dt><dd>{value}</dd></>)}
+          </dl>
+        </div>
+        <div class="card">
+          <p class="section-label">Geography</p>
+          <h2>Land and landmarks</h2>
+          <dl class="symbol-list">
+            {entity.area_land_sq_mi && <><dt>Land area</dt><dd>{formatNumber(entity.area_land_sq_mi)} sq. mi.</dd></>}
+            {entity.area_water_sq_mi && <><dt>Water area</dt><dd>{formatNumber(entity.area_water_sq_mi)} sq. mi.</dd></>}
+            {entity.highest_point?.name && <><dt>Highest point</dt><dd>{entity.highest_point.name}{entity.highest_point.elevation_ft ? ` · ${formatNumber(entity.highest_point.elevation_ft)} ft.` : ""}</dd></>}
+            {entity.lowest_point?.name && <><dt>Lowest point</dt><dd>{entity.lowest_point.name}{Number.isFinite(entity.lowest_point.elevation_ft) ? ` · ${formatNumber(entity.lowest_point.elevation_ft)} ft.` : ""}</dd></>}
+            {entity.former_status && <><dt>Former status</dt><dd>{entity.former_status}</dd></>}
+          </dl>
+        </div>
+      </section>
+
+      {heroSecondary?.url && (
+        <figure class="secondary-hero card">
+          <img src={heroSecondary.url} alt={heroSecondary.alt_text || `${entity.name} cityscape`} />
+          <figcaption>{heroSecondary.credit || `Another view of ${entity.name}`}</figcaption>
+        </figure>
+      )}
+
+      <section id="explore" class="explore-section">
+        <div class="section-heading"><p class="section-label">Explore through TWG</p><h2>Discover more across {entity.name}</h2><p>{entity.visitor_summary}</p></div>
+        <div class="stat-grid">
+          <a class="stat-card" href="/events/"><strong>{formatNumber(events.length) || "0"}</strong><span>published events</span></a>
+          <a class="stat-card" href="/directory/"><strong>{formatNumber(businesses.length) || "0"}</strong><span>businesses and venues</span></a>
+          <div class="stat-card"><strong>{entity.region_slugs?.length || 0}</strong><span>linked regions</span></div>
+          <div class="stat-card"><strong>{entity.related_geography_slugs?.length || 0}</strong><span>related destinations</span></div>
+        </div>
+        <div class="browse-links">
+          <a href="/events/">Browse events</a>
+          <a href="/directory/">Browse businesses</a>
+          <a href="/weekend-roundup/">See the Weekend Roundup</a>
+        </div>
+      </section>
+
+      {sourceEntries.length > 0 && (
+        <section class="sources card">
+          <h2>Sources and verification</h2>
+          <ul>{sourceEntries.map((source) => <li>{source.source_url ? <a href={source.source_url} target="_blank" rel="noopener noreferrer">{source.source_name}</a> : source.source_name}{source.notes && <span> — {source.notes}</span>}</li>)}</ul>
+          {entity.last_verified && <p class="verified">Last verified {formatDate(entity.last_verified)}.</p>}
+        </section>
+      )}
+    </main>
+  </article>
+</BaseLayout>
+
+<style>
+  .geography-page{background:#f7f3ea;color:#24333c;min-height:100vh}.state-hero{position:relative;min-height:clamp(470px,68vh,760px);display:flex;align-items:end;overflow:hidden;background:#103a58}.hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,24,37,.12) 15%,rgba(6,24,37,.82) 100%)}.hero-content{position:relative;z-index:1;padding-block:2rem 4rem;color:white}.breadcrumb{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2rem;font-weight:750}.breadcrumb a{color:white}.eyebrow,.section-label{margin:0 0 .55rem;color:#48a9bd;font-size:.83rem;font-weight:950;letter-spacing:.12em;text-transform:uppercase}.state-hero h1{margin:0;font-size:clamp(4rem,15vw,9rem);line-height:.85;letter-spacing:-.055em}.hero-summary{max-width:760px;margin:1.2rem 0 0;font-size:clamp(1.15rem,2.2vw,1.55rem);line-height:1.5}.hero-actions{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.6rem}.button{display:inline-flex;align-items:center;min-height:48px;padding:.75rem 1rem;border-radius:.75rem;font-weight:900;text-decoration:none}.button.primary{background:#1d87a4;color:white}.button.ghost{border:1px solid rgba(255,255,255,.65);background:rgba(255,255,255,.1);color:white}.content-wrap{padding-block:2.5rem 5rem}.intro-grid,.facts-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(300px,.65fr);gap:1.25rem}.facts-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:1.25rem}.card{border:1px solid #d8e0df;border-radius:1.05rem;background:#fffdf8;box-shadow:0 12px 30px rgba(16,58,88,.07)}.intro-copy,.quick-facts,.facts-grid>.card,.sources{padding:clamp(1.25rem,3vw,2rem)}h2{margin:.1rem 0 1rem;color:#103a58;font-size:clamp(1.7rem,3.5vw,2.55rem);line-height:1.1}.intro-copy>p:not(.section-label){font-size:1.08rem;line-height:1.75}.coverage-note{margin-top:1.25rem;padding:1rem;border-left:5px solid #1d87a4;background:#edf7f8;border-radius:.55rem}.quick-facts dl,.symbol-list{display:grid;grid-template-columns:minmax(120px,.7fr) minmax(0,1.3fr);gap:.75rem 1rem;margin:0}.quick-facts dt,.symbol-list dt{font-weight:900;color:#103a58}.quick-facts dd,.symbol-list dd{margin:0;overflow-wrap:anywhere}.quick-facts small{color:#5e7078}.official-section,.explore-section{margin-top:3.5rem}.section-heading{max-width:780px;margin-bottom:1.35rem}.section-heading>p:not(.section-label){line-height:1.65}.official-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.official-card{overflow:hidden;margin:0}.asset-frame{height:260px;display:grid;place-items:center;padding:1rem;background:white}.asset-frame img{max-width:100%;max-height:100%;object-fit:contain}.official-card figcaption{display:flex;flex-direction:column;gap:.25rem;padding:1rem;border-top:1px solid #d8e0df}.official-card figcaption span{font-size:.85rem;color:#687981}.secondary-hero{margin:3.5rem 0 0;overflow:hidden}.secondary-hero img{display:block;width:100%;max-height:620px;object-fit:cover}.secondary-hero figcaption{padding:.8rem 1rem;color:#687981;font-size:.9rem}.stat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}.stat-card{display:flex;flex-direction:column;gap:.35rem;padding:1.25rem;border-radius:1rem;background:#103a58;color:white;text-decoration:none}.stat-card strong{font-size:2.2rem;line-height:1}.stat-card span{color:#d6edf2;font-weight:750}.browse-links{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1rem}.browse-links a{padding:.75rem 1rem;border:1px solid #176f95;border-radius:.7rem;color:#176f95;font-weight:900;text-decoration:none;background:white}.sources{margin-top:3.5rem}.sources ul{padding-left:1.2rem}.sources li+li{margin-top:.75rem}.sources a{color:#176f95;font-weight:800}.verified{color:#687981;font-style:italic}@media(max-width:850px){.intro-grid,.facts-grid{grid-template-columns:1fr}.official-grid{grid-template-columns:1fr 1fr}.stat-grid{grid-template-columns:1fr 1fr}.asset-frame{height:220px}}@media(max-width:560px){.hero-content{padding-bottom:2.7rem}.official-grid,.stat-grid{grid-template-columns:1fr}.quick-facts dl,.symbol-list{grid-template-columns:1fr;gap:.2rem}.quick-facts dd,.symbol-list dd{margin-bottom:.65rem}.asset-frame{height:240px}}
+</style>
