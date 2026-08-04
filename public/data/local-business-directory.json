@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-03",
+  "generated_on": "2026-08-04",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 589,
-  "publish_ready_count": 253,
+  "business_count": 590,
+  "publish_ready_count": 254,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -27301,6 +27301,112 @@
         "Venue partnerships across North Texas and Southern Oklahoma",
         "Advance text-code reservation system",
         "Lake-themed and locally inspired projects"
+      ]
+    },
+    {
+      "slug": "lakeway-christian-community-resale-barn",
+      "business_name": "Lakeway Christian Community Resale Barn",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "518 W FM 120, Pottsboro, TX 75076",
+      "category": [
+        "Thrift Store",
+        "Nonprofit Organization",
+        "Donation Center",
+        "Community Assistance Organization",
+        "Furniture Store"
+      ],
+      "tags": [
+        "Shop Local",
+        "Nonprofit",
+        "Community Support",
+        "Donations Accepted",
+        "Furniture",
+        "Clothing",
+        "Household Goods"
+      ],
+      "description": "Lakeway Christian Community Resale Barn is a nonprofit thrift store and donation center in Pottsboro. The store offers donated clothing, furniture, appliances, jewelry, toys, home décor and other household goods, with proceeds supporting programs that provide food, clothing, rent, utility, prescription and other emergency assistance to neighbors in need throughout Grayson County.",
+      "why_visit": "Visit to browse an ever-changing selection of affordable furniture, clothing, appliances, home furnishings, toys and other donated goods while directly supporting local families experiencing hardship.",
+      "why_its_unique": "Purchases and donations help fund a long-established local nonprofit that has served Grayson County since 1996 through both immediate emergency assistance and longer-term support programs.",
+      "phone": "903-786-2402",
+      "email": "info@lakewayresalebarn.org",
+      "website": "https://lakewayresalebarn.org/",
+      "facebook": "https://www.facebook.com/LakewayResaleBarn",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": "Lakeway Christian Community Resale Barn logo",
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "9:00 AM - 5:00 PM",
+        "tuesday": "9:00 AM - 5:00 PM",
+        "wednesday": "9:00 AM - 5:00 PM",
+        "thursday": "9:00 AM - 5:00 PM",
+        "friday": "9:00 AM - 5:00 PM",
+        "saturday": "10:00 AM - 4:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Store and donation-center hours may change for holidays, special sales or temporary donation-capacity closures. Check the official Facebook page for current announcements.",
+      "at_a_glance": {
+        "average_visit": "30-60 minutes",
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Thrift shopping",
+        "Furniture and home furnishings",
+        "Clothing and accessories",
+        "Appliances",
+        "Toys and children's items",
+        "Household goods",
+        "Donation center",
+        "Community assistance programs"
+      ],
+      "good_to_know": [
+        "Inventory changes regularly because merchandise is donated.",
+        "Special percentage-off sales are announced through the official Facebook page.",
+        "Purchases help fund food, rent, utilities, prescriptions, clothing and other assistance for Grayson County residents.",
+        "Donation intake may temporarily close when storage capacity is full.",
+        "Contact the organization directly for assistance-program eligibility and application requirements."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Complete. Address, phone, email, website, mission, history, merchandise categories and current weekly hours were verified from the official website and Facebook presence. Monitor Facebook for one-day sales, seasonal assistance programs, donation-center closures and community campaigns.",
+      "last_checked": "2026-08-04",
+      "event_types": [
+        "One-day sales",
+        "Seasonal assistance programs",
+        "Donation drives",
+        "Community fundraising campaigns"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page"
+      ],
+      "features": [
+        "Established in 1996",
+        "Nonprofit thrift store",
+        "Community-funded assistance programs",
+        "Furniture and appliance selection",
+        "Donation-supported inventory",
+        "Serves Grayson County residents"
       ]
     }
   ]
