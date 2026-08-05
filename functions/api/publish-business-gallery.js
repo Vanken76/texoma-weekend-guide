@@ -25,7 +25,8 @@ const toBase64 = (text) => {
 };
 
 const fromBase64 = (value) => {
-  const binary = atob(value.replace(/\n/g, ""));
+  const normalized = String(value || "").replace(/\n/g, "");
+  const binary = atob(normalized);
   const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
   return new TextDecoder().decode(bytes);
 };
@@ -44,18 +45,62 @@ const githubHeadersFor = (token) => ({
 });
 
 const authorize = (request, env) => {
-  if (!env.ADMIN_KEY || !env.GITHUB_TOKEN) return { error: jsonResponse({ error: "Publisher secrets are not configured in Cloudflare." }, 500) };
+  if (!env.ADMIN_KEY || !env.GITHUB_TOKEN) {
+    return { error: jsonResponse({ error: "Publisher secrets are not configured in Cloudflare." }, 500) };
+  }
   const suppliedKey = request.headers.get("x-admin-key");
-  if (!suppliedKey || suppliedKey !== env.ADMIN_KEY) return { error: jsonResponse({ error: "Incorrect admin key." }, 401) };
+  if (!suppliedKey || suppliedKey !== env.ADMIN_KEY) {
+    return { error: jsonResponse({ error: "Incorrect admin key." }, 401) };
+  }
   return { githubHeaders: githubHeadersFor(env.GITHUB_TOKEN) };
 };
 
 const readDirectory = async (githubHeaders) => {
   const url = `https://api.github.com/repos/${REPOSITORY}/contents/${DIRECTORY_PATH}?ref=${BRANCH}`;
   const response = await fetch(url, { headers: githubHeaders });
-  if (!response.ok) throw new Error(`GitHub could not read the current directory file (${response.status}).`);
+  if (!response.ok) {
+    const detail = await response.text().catch(() => "");
+    throw new Error(`GitHub could not read the current directory file (${response.status}). ${detail.slice(0, 200)}`.trim());
+  }
+
   const file = await response.json();
-  return { file, directory: JSON.parse(fromBase64(file.content)) };
+  let text;
+
+  if (typeof file.content === "string" && file.content.trim()) {
+    text = fromBase64(file.content);
+  } else if (file.git_url) {
+    const blobResponse = await fetch(file.git_url, { headers: githubHeaders });
+    if (!blobResponse.ok) {
+      const detail = await blobResponse.text().catch(() => "");
+      throw new Error(`GitHub could not read the directory blob (${blobResponse.status}). ${detail.slice(0, 200)}`.trim());
+    }
+    const blob = await blobResponse.json();
+    if (blob.encoding !== "base64" || typeof blob.content !== "string") {
+      throw new Error("GitHub returned the directory blob in an unsupported format.");
+    }
+    text = fromBase64(blob.content);
+  } else if (file.download_url) {
+    const rawResponse = await fetch(file.download_url, { cache: "no-store" });
+    if (!rawResponse.ok) {
+      throw new Error(`GitHub could not download the directory file (${rawResponse.status}).`);
+    }
+    text = await rawResponse.text();
+  } else {
+    throw new Error("GitHub returned directory metadata without readable file content.");
+  }
+
+  let directory;
+  try {
+    directory = JSON.parse(text);
+  } catch (error) {
+    throw new Error(`The business directory could not be decoded: ${error instanceof Error ? error.message : "Unknown JSON error"}`);
+  }
+
+  if (!Array.isArray(directory.businesses)) {
+    throw new Error("The business directory does not contain a businesses array.");
+  }
+
+  return { file, directory };
 };
 
 const writeDirectory = async ({ directory, fileSha, githubHeaders, message }) => {
@@ -70,7 +115,14 @@ const writeDirectory = async ({ directory, fileSha, githubHeaders, message }) =>
       branch: BRANCH
     })
   });
-  const result = await response.json();
+
+  const raw = await response.text();
+  let result = {};
+  try {
+    result = raw ? JSON.parse(raw) : {};
+  } catch {
+    throw new Error(`GitHub returned an unreadable response while saving the gallery (${response.status}).`);
+  }
   if (!response.ok) throw new Error(result?.message || "GitHub rejected the gallery directory update.");
   return result?.commit?.sha ?? null;
 };
@@ -102,7 +154,11 @@ const deleteRepoImage = async ({ url, githubHeaders, slug }) => {
   const response = await fetch(apiUrl, {
     method: "DELETE",
     headers: { ...githubHeaders, "content-type": "application/json" },
-    body: JSON.stringify({ message: `Delete gallery photo for ${slug} ${new Date().toISOString()}`, sha: file.sha, branch: BRANCH })
+    body: JSON.stringify({
+      message: `Delete gallery photo for ${slug} ${new Date().toISOString()}`,
+      sha: file.sha,
+      branch: BRANCH
+    })
   });
   const result = await response.json();
   if (!response.ok) throw new Error(result?.message || `GitHub could not delete ${url}.`);
@@ -115,9 +171,10 @@ export const onRequestGet = async ({ request, env }) => {
   const url = new URL(request.url);
   const slug = (url.searchParams.get("slug") || "").trim();
   if (!validateSlug(slug)) return jsonResponse({ error: "A valid business slug is required." }, 400);
+
   try {
     const { directory } = await readDirectory(auth.githubHeaders);
-    const business = directory.businesses?.find((record) => record?.slug === slug);
+    const business = directory.businesses.find((record) => record?.slug === slug);
     if (!business) return jsonResponse({ error: `No business with slug ${slug} was found.` }, 404);
     return jsonResponse({
       success: true,
@@ -126,16 +183,22 @@ export const onRequestGet = async ({ request, env }) => {
       gallery: Array.isArray(business.gallery) ? business.gallery : []
     });
   } catch (error) {
-    return jsonResponse({ error: error instanceof Error ? error.message : "Gallery lookup failed." }, 502);
+    return jsonResponse({
+      error: error instanceof Error ? error.message : "Gallery lookup failed."
+    }, 502);
   }
 };
 
 export const onRequestPost = async ({ request, env }) => {
   const auth = authorize(request, env);
   if (auth.error) return auth.error;
+
   let payload;
-  try { payload = await request.json(); }
-  catch { return jsonResponse({ error: "The submitted content is not valid JSON." }, 400); }
+  try {
+    payload = await request.json();
+  } catch {
+    return jsonResponse({ error: "The submitted content is not valid JSON." }, 400);
+  }
 
   const slug = typeof payload?.slug === "string" ? payload.slug.trim() : "";
   const action = payload?.action || "upload";
@@ -143,7 +206,7 @@ export const onRequestPost = async ({ request, env }) => {
 
   try {
     const { file, directory } = await readDirectory(auth.githubHeaders);
-    const business = directory.businesses?.find((record) => record?.slug === slug);
+    const business = directory.businesses.find((record) => record?.slug === slug);
     if (!business) return jsonResponse({ error: `No business with slug ${slug} was found.` }, 404);
     const existingGallery = Array.isArray(business.gallery) ? business.gallery : [];
 
@@ -151,10 +214,17 @@ export const onRequestPost = async ({ request, env }) => {
       const targetUrl = typeof payload?.url === "string" ? payload.url : "";
       if (!targetUrl) return jsonResponse({ error: "A gallery photo URL is required." }, 400);
       const nextGallery = existingGallery.filter((item) => (typeof item === "string" ? item : item?.url) !== targetUrl);
-      if (nextGallery.length === existingGallery.length) return jsonResponse({ error: "That photo is not in this business gallery." }, 404);
+      if (nextGallery.length === existingGallery.length) {
+        return jsonResponse({ error: "That photo is not in this business gallery." }, 404);
+      }
       await deleteRepoImage({ url: targetUrl, githubHeaders: auth.githubHeaders, slug });
       business.gallery = nextGallery;
-      const commit = await writeDirectory({ directory, fileSha: file.sha, githubHeaders: auth.githubHeaders, message: `Remove business gallery photo ${slug} ${new Date().toISOString()}` });
+      const commit = await writeDirectory({
+        directory,
+        fileSha: file.sha,
+        githubHeaders: auth.githubHeaders,
+        message: `Remove business gallery photo ${slug} ${new Date().toISOString()}`
+      });
       return jsonResponse({ success: true, message: "Gallery photo removed.", gallery: nextGallery, gallery_count: nextGallery.length, commit });
     }
 
@@ -164,7 +234,12 @@ export const onRequestPost = async ({ request, env }) => {
         if (url) await deleteRepoImage({ url, githubHeaders: auth.githubHeaders, slug });
       }
       business.gallery = [];
-      const commit = await writeDirectory({ directory, fileSha: file.sha, githubHeaders: auth.githubHeaders, message: `Clear business gallery ${slug} ${new Date().toISOString()}` });
+      const commit = await writeDirectory({
+        directory,
+        fileSha: file.sha,
+        githubHeaders: auth.githubHeaders,
+        message: `Clear business gallery ${slug} ${new Date().toISOString()}`
+      });
       return jsonResponse({ success: true, message: "Business gallery cleared.", gallery: [], gallery_count: 0, commit });
     }
 
@@ -193,7 +268,11 @@ export const onRequestPost = async ({ request, env }) => {
       const uploadResponse = await fetch(uploadUrl, {
         method: "PUT",
         headers: { ...auth.githubHeaders, "content-type": "application/json" },
-        body: JSON.stringify({ message: `Upload gallery photo for ${slug} ${new Date().toISOString()}`, content: image.data.replace(/\s/g, ""), branch: BRANCH })
+        body: JSON.stringify({
+          message: `Upload gallery photo for ${slug} ${new Date().toISOString()}`,
+          content: image.data.replace(/\s/g, ""),
+          branch: BRANCH
+        })
       });
       const uploadResult = await uploadResponse.json();
       if (!uploadResponse.ok) throw new Error(uploadResult?.message || `GitHub rejected gallery photo ${index + 1}.`);
@@ -207,15 +286,38 @@ export const onRequestPost = async ({ request, env }) => {
 
     business.gallery = replaceGallery ? uploaded : [...existingGallery, ...uploaded];
     business.last_checked = new Date().toISOString().slice(0, 10);
-    const commit = await writeDirectory({ directory, fileSha: file.sha, githubHeaders: auth.githubHeaders, message: `Update business gallery ${slug} ${new Date().toISOString()}` });
-    return jsonResponse({ success: true, message: `${uploaded.length} gallery photo${uploaded.length === 1 ? "" : "s"} added to ${business.business_name}.`, slug, uploaded, gallery: business.gallery, gallery_count: business.gallery.length, commit });
+    const commit = await writeDirectory({
+      directory,
+      fileSha: file.sha,
+      githubHeaders: auth.githubHeaders,
+      message: `Update business gallery ${slug} ${new Date().toISOString()}`
+    });
+    return jsonResponse({
+      success: true,
+      message: `${uploaded.length} gallery photo${uploaded.length === 1 ? "" : "s"} added to ${business.business_name}.`,
+      slug,
+      uploaded,
+      gallery: business.gallery,
+      gallery_count: business.gallery.length,
+      commit
+    });
   } catch (error) {
-    return jsonResponse({ error: error instanceof Error ? error.message : "Gallery update failed." }, 502);
+    return jsonResponse({
+      error: error instanceof Error ? error.message : "Gallery update failed."
+    }, 502);
   }
 };
 
-export const onRequest = async ({ request, env }) => {
-  if (request.method === "GET") return onRequestGet({ request, env });
-  if (request.method === "POST") return onRequestPost({ request, env });
-  return jsonResponse({ error: "Method not allowed." }, 405);
+export const onRequest = async (context) => {
+  try {
+    const { request } = context;
+    if (request.method === "GET") return onRequestGet(context);
+    if (request.method === "POST") return onRequestPost(context);
+    return jsonResponse({ error: "Method not allowed." }, 405);
+  } catch (error) {
+    return jsonResponse({
+      error: "Gallery operation failed unexpectedly.",
+      detail: error instanceof Error ? error.message : "Unknown server error"
+    }, 500);
+  }
 };
