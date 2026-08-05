@@ -5,8 +5,8 @@
   "generated_on": "2026-08-05",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 595,
-  "publish_ready_count": 259,
+  "business_count": 596,
+  "publish_ready_count": 260,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -28435,6 +28435,111 @@
         "Nothing on the traditional deli menu is fried",
         "Outdoor area",
         "Potential after-hours private-party space"
+      ]
+    },
+    {
+      "slug": "the-salty-heifer-cafe-denison",
+      "business_name": "The Salty Heifer Cafe",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": true,
+      "flagship": false,
+      "profile_level": "spotlight",
+      "spotlight_reason": "Selected as a TWG Business Spotlight for its locally owned atmosphere, strong community engagement, and reputation as one of Denison's favorite breakfast and lunch destinations.",
+      "promotion_start_date": "2026-08-05",
+      "promotion_end_date": null,
+      "service_area_or_location": "2418 W Morton St, Denison, TX 75020",
+      "category": [
+        "Restaurant",
+        "Cafe",
+        "Breakfast Restaurant",
+        "Lunch Restaurant",
+        "American Restaurant"
+      ],
+      "tags": [
+        "Locally Owned",
+        "Breakfast",
+        "Lunch",
+        "Comfort Food",
+        "Daily Specials",
+        "Coffee",
+        "Burgers",
+        "Family Friendly",
+        "Denison"
+      ],
+      "description": "The Salty Heifer Cafe is a locally owned restaurant in Denison, Texas, serving hearty homestyle breakfasts, satisfying lunches, burgers, sandwiches, fresh coffee, and daily specials in a welcoming atmosphere. Known for generous portions and friendly service, it's a favorite stop for both locals and visitors looking for classic comfort food.",
+      "why_visit": "Whether you're craving a hearty breakfast before work or a relaxing lunch with friends, The Salty Heifer Cafe offers homemade comfort food, friendly service, and a welcoming small-town atmosphere.",
+      "why_its_unique": "A locally owned Denison favorite known for generous portions, homestyle cooking, and genuine Texas hospitality.",
+      "phone": "(903) 421-2032",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/thesaltyheifercafe",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "6:00 AM - 1:30 PM",
+        "wednesday": "6:00 AM - 1:30 PM",
+        "thursday": "6:00 AM - 1:30 PM",
+        "friday": "6:00 AM - 1:30 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Hours should be verified periodically using the business's official Facebook page.",
+      "at_a_glance": {
+        "average_visit": "45-60 minutes",
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Dine-In",
+        "Takeout",
+        "Breakfast",
+        "Lunch",
+        "Coffee",
+        "Daily Specials",
+        "Comfort Food",
+        "Family Friendly"
+      ],
+      "good_to_know": [
+        "Breakfast and lunch only.",
+        "Popular local destination.",
+        "Follow the official Facebook page for specials and announcements.",
+        "Hours may vary on holidays."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "verification_note": "Business information verified from official and public sources. Continue monitoring Facebook for menu, hours, and special announcements.",
+      "last_checked": "2026-08-05",
+      "event_types": [],
+      "event_sources": [
+        "Official Facebook Page"
+      ],
+      "features": [
+        "Locally Owned",
+        "TWG Business Spotlight",
+        "Breakfast",
+        "Lunch",
+        "Comfort Food",
+        "Community Favorite"
       ]
     }
   ]
