@@ -4,7 +4,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <BaseLayout
   title="Support Texoma Weekend Guide"
-  description="Help Texoma Weekend Guide continue providing free event listings, local business promotion, and community coverage across Texoma."
+  description="Help Texoma Weekend Guide keep basic business and community event listings free while continuing to grow local coverage across Texoma."
 >
   <section class="support-hero">
     <div class="container hero-grid">
@@ -13,22 +13,23 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <h1>Support Local.<br />Support TWG.</h1>
         <p class="hero-copy">
           Texoma Weekend Guide helps people discover events, entertainment,
-          activities, and local businesses across our community.
+          activities, venues, and local businesses across our community.
         </p>
         <p class="promise">
-          Standard event listings and local business promotion remain free.
-          Voluntary contributions help keep the guide growing.
+          Basic business listings and community event listings remain free.
+          Voluntary support helps keep the guide available, useful, and growing.
         </p>
       </div>
 
-      <div class="scene" aria-hidden="true">
-        <div class="sun"></div>
-        <div class="lake"></div>
-        <div class="hills hill-one"></div>
-        <div class="hills hill-two"></div>
-        <div class="road"></div>
-        <div class="sailboat">⛵</div>
-        <div class="star">★</div>
+      <div class="mission-card">
+        <p class="card-label">The difference is simple</p>
+        <h2>Support keeps the guide growing. Advertising buys additional visibility.</h2>
+        <p>
+          Community support is voluntary and helps fund the overall project.
+          Businesses that want featured placement, dedicated promotion, custom graphics,
+          Story reminders, and other enhanced exposure can choose optional paid advertising.
+        </p>
+        <a class="button advertise-button" href="/advertise/">View Advertising Options</a>
       </div>
     </div>
   </section>
@@ -40,51 +41,52 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <h2>Make a voluntary contribution</h2>
         <p>
           Every contribution helps cover the time and tools required to research,
-          publish, maintain, and expand Texoma Weekend Guide.
+          verify, publish, maintain, and expand Texoma Weekend Guide.
         </p>
       </div>
 
       <div class="support-grid">
-        <article class="support-card cashapp">
+        <article class="support-card">
           <div class="payment-icon" aria-hidden="true">$</div>
           <div>
             <p class="card-label">Cash App</p>
             <h3>$TexomaWeekendGuide</h3>
-            <p>Send support through the established TWG Cash App account.</p>
-            <a
-              class="button payment-button"
-              href="https://cash.app/$TexomaWeekendGuide"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Open Cash App
-            </a>
+            <p>Send voluntary support through the established TWG Cash App account.</p>
+            <a class="button payment-button" href="https://cash.app/$TexomaWeekendGuide" target="_blank" rel="noopener noreferrer">Open Cash App</a>
           </div>
         </article>
 
-        <article class="support-card venmo">
+        <article class="support-card">
           <div class="payment-icon venmo-icon" aria-hidden="true">V</div>
           <div>
             <p class="card-label">Venmo</p>
             <h3>@TexomaWeekendGuide</h3>
             <p>Use the verified Texoma Weekend Guide business profile on Venmo.</p>
-            <a
-              class="button payment-button venmo-button"
-              href="https://venmo.com/u/TexomaWeekendGuide"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Open Venmo
-            </a>
+            <a class="button payment-button venmo-button" href="https://venmo.com/u/TexomaWeekendGuide" target="_blank" rel="noopener noreferrer">Open Venmo</a>
           </div>
         </article>
       </div>
 
       <div class="impact-strip">
-        <div><span>📅</span><strong>Find Events</strong></div>
-        <div><span>📍</span><strong>Explore Places</strong></div>
-        <div><span>🏪</span><strong>Support Local</strong></div>
+        <div><span>📅</span><strong>Keep Listings Free</strong></div>
+        <div><span>🔎</span><strong>Improve Local Discovery</strong></div>
+        <div><span>🏪</span><strong>Support Local Businesses</strong></div>
         <div><span>🤝</span><strong>Build Community</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section ways-section">
+    <div class="container">
+      <div class="section-heading centered">
+        <p class="eyebrow">Support is more than money</p>
+        <h2>Other ways to help Texoma Weekend Guide</h2>
+      </div>
+      <div class="ways-grid">
+        <article><span>📣</span><h3>Share our posts</h3><p>Help useful event and business information reach more people.</p></article>
+        <article><span>📅</span><h3>Submit events</h3><p>Send complete, accurate details so the community calendar stays useful.</p></article>
+        <article><span>🏪</span><h3>Suggest businesses</h3><p>Help us find local places and services that should be included.</p></article>
+        <article><span>💬</span><h3>Tell people about TWG</h3><p>Word of mouth helps the guide become a stronger regional resource.</p></article>
       </div>
     </div>
   </section>
@@ -95,54 +97,30 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <p class="eyebrow">Prefer another method?</p>
         <h2>Send us a message</h2>
         <p>
-          Some people prefer not to use Cash App or Venmo. Use this form to ask
-          about another contribution method, including options that can be shared privately.
+          Use this form to ask about another way to support the project.
+          Advertising questions should be submitted through the dedicated
+          <a href="/advertise/">Advertise page</a> so they can be handled separately.
         </p>
         <p class="privacy-note">
           Never send banking details, passwords, PINs, or other sensitive information through this form.
         </p>
       </div>
 
-      <form
-        class="contact-form"
-        action="https://formsubmit.co/texomaweekendguide@gmail.com"
-        method="POST"
-      >
-        <input type="hidden" name="_subject" value="TWG Support or Donation Question" />
+      <form class="contact-form" action="https://formsubmit.co/texomaweekendguide@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="TWG Support or Contribution Question" />
         <input type="hidden" name="_template" value="table" />
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_next" value="https://texomaweekendguide.com/support/?sent=true" />
 
-        <label>
-          Name
-          <input name="name" type="text" autocomplete="name" required />
-        </label>
-
-        <label>
-          Email address
-          <input name="email" type="email" autocomplete="email" required />
-        </label>
-
-        <label>
-          Preferred reply method
+        <label>Name<input name="name" type="text" autocomplete="name" required /></label>
+        <label>Email address<input name="email" type="email" autocomplete="email" required /></label>
+        <label>Preferred reply method
           <select name="preferred_reply">
-            <option>Email</option>
-            <option>Phone call</option>
-            <option>Text message</option>
-            <option>Facebook Messenger</option>
+            <option>Email</option><option>Phone call</option><option>Text message</option><option>Facebook Messenger</option>
           </select>
         </label>
-
-        <label>
-          Phone number <span>(optional)</span>
-          <input name="phone" type="tel" autocomplete="tel" />
-        </label>
-
-        <label>
-          Message
-          <textarea name="message" rows="5" required>I would like information about another way to support Texoma Weekend Guide.</textarea>
-        </label>
-
+        <label>Phone number <span>(optional)</span><input name="phone" type="tel" autocomplete="tel" /></label>
+        <label>Message<textarea name="message" rows="5" required>I would like information about another way to support Texoma Weekend Guide.</textarea></label>
         <button class="button submit-button" type="submit">Send Message</button>
       </form>
     </div>
@@ -157,36 +135,28 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
       <div class="faq-grid">
         <article class="faq-card">
-          <h3>Is Texoma Weekend Guide a nonprofit?</h3>
-          <p>
-            No. Texoma Weekend Guide is an independently owned community project.
-            It is not a registered nonprofit organization or a 501(c)(3) charitable organization.
-          </p>
+          <h3>Are basic listings still free?</h3>
+          <p>Yes. Basic local business listings and community event listings remain free. Free inclusion is not conditioned on making a contribution or purchasing advertising.</p>
         </article>
-
+        <article class="faq-card">
+          <h3>Then what is paid advertising?</h3>
+          <p>Paid advertising is optional enhanced promotion, such as featured placement, dedicated social posts, Story reminders, custom graphics, expanded photos, and priority promotional attention.</p>
+        </article>
+        <article class="faq-card">
+          <h3>Is Texoma Weekend Guide a nonprofit?</h3>
+          <p>No. Texoma Weekend Guide is an independently owned community project, not a registered nonprofit or 501(c)(3) charitable organization.</p>
+        </article>
         <article class="faq-card">
           <h3>Are contributions tax-deductible?</h3>
-          <p>
-            No. Voluntary support for Texoma Weekend Guide is not tax-deductible
-            and cannot be claimed as a charitable contribution.
-          </p>
+          <p>No. Voluntary support is not tax-deductible and cannot be claimed as a charitable contribution.</p>
         </article>
-
         <article class="faq-card">
           <h3>What does support help pay for?</h3>
-          <p>
-            Support helps cover operating expenses such as website hosting, software,
-            equipment, travel, and the time spent researching, verifying, publishing,
-            and sharing local events and businesses.
-          </p>
+          <p>Support helps cover website hosting, software, equipment, travel, and the time spent researching, verifying, publishing, maintaining, and sharing local information.</p>
         </article>
-
         <article class="faq-card">
-          <h3>Is standard promotion still free?</h3>
-          <p>
-            Yes. Standard event listings and local business promotion remain free.
-            Contributions are always voluntary and help Texoma Weekend Guide continue growing.
-          </p>
+          <h3>Where do businesses ask about advertising?</h3>
+          <p>Visit the <a href="/advertise/">Advertise With Texoma Weekend Guide</a> page for campaign details and the advertising inquiry form.</p>
         </article>
       </div>
     </div>
@@ -197,8 +167,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <p class="eyebrow">Thank you</p>
       <h2>Your support keeps Texoma connected.</h2>
       <p>
-        Whether you contribute, share a post, submit an event, or tell someone about
-        the guide, you are helping build a stronger local resource.
+        Whether you contribute, share a post, submit an event, suggest a business,
+        or tell someone about the guide, you are helping build a stronger local resource.
       </p>
     </div>
   </section>
@@ -214,252 +184,50 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 </script>
 
 <style>
-  .support-hero {
-    position: relative;
-    overflow: hidden;
-    padding: 5rem 0;
-    background:
-      linear-gradient(110deg, rgba(255, 249, 237, 0.98), rgba(230, 244, 247, 0.9)),
-      radial-gradient(circle at 15% 80%, #f5a623 0 7%, transparent 7.5%);
-  }
-
-  .support-hero::after {
-    content: "";
-    position: absolute;
-    inset: auto 0 0;
-    height: 18px;
-    background: var(--navy);
-  }
-
-  .hero-grid {
-    display: grid;
-    grid-template-columns: 1.05fr 0.95fr;
-    align-items: center;
-    gap: 3rem;
-  }
-
-  .support-hero h1 {
-    margin-bottom: 1rem;
-    color: var(--navy);
-    font-size: clamp(3rem, 8vw, 6.5rem);
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-  }
-
-  .hero-copy {
-    max-width: 720px;
-    color: var(--teal);
-    font-size: clamp(1.25rem, 2.6vw, 1.75rem);
-    font-weight: 800;
-  }
-
-  .promise {
-    max-width: 700px;
-    padding-left: 1rem;
-    border-left: 5px solid var(--gold);
-    color: var(--navy);
-    font-weight: 700;
-  }
-
-  .light {
-    color: var(--blue);
-  }
-
-  .scene {
-    position: relative;
-    min-height: 390px;
-    overflow: hidden;
-    border: 8px solid white;
-    border-radius: 40px;
-    background: linear-gradient(#adddf1 0 47%, #4aa7bd 47% 72%, #327c4c 72%);
-    box-shadow: var(--shadow);
-  }
-
-  .sun {
-    position: absolute;
-    left: 8%;
-    top: 35%;
-    width: 95px;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    background: #f5a623;
-  }
-
-  .lake {
-    position: absolute;
-    inset: 49% 0 18%;
-    background: repeating-linear-gradient(0deg, transparent 0 18px, rgba(255,255,255,.35) 19px 21px);
-  }
-
-  .hills {
-    position: absolute;
-    bottom: 22%;
-    width: 72%;
-    height: 90px;
-    border-radius: 50% 50% 0 0;
-    background: #245f46;
-  }
-
-  .hill-one { left: -20%; transform: rotate(4deg); }
-  .hill-two { right: -18%; transform: rotate(-5deg); }
-
-  .road {
-    position: absolute;
-    left: 36%;
-    bottom: -8%;
-    width: 30%;
-    height: 48%;
-    border: 7px solid white;
-    border-top-width: 2px;
-    background: #2f3a40;
-    clip-path: polygon(43% 0, 57% 0, 100% 100%, 0 100%);
-  }
-
-  .sailboat {
-    position: absolute;
-    right: 18%;
-    top: 48%;
-    font-size: 4rem;
-  }
-
-  .star {
-    position: absolute;
-    right: 8%;
-    top: 7%;
-    color: #f08b18;
-    font-size: 3.2rem;
-    text-shadow: 0 0 0 white, 0 0 6px white;
-  }
-
-  .centered {
-    margin-inline: auto;
-    text-align: center;
-  }
-
-  .support-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-  }
-
-  .support-card {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 1.3rem;
-    padding: 2rem;
-    border: 1px solid var(--border);
-    border-radius: 24px;
-    background: white;
-    box-shadow: var(--shadow);
-  }
-
-  .payment-icon {
-    display: grid;
-    width: 72px;
-    height: 72px;
-    place-items: center;
-    border-radius: 18px;
-    background: #00d632;
-    color: white;
-    font-size: 2.8rem;
-    font-weight: 900;
-  }
-
+  .support-hero { padding: 5rem 0; background: linear-gradient(110deg, rgba(255,249,237,.98), rgba(230,244,247,.95)); border-bottom: 16px solid var(--navy); }
+  .hero-grid, .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+  .support-hero h1 { margin-bottom: 1rem; color: var(--navy); font-size: clamp(3rem, 8vw, 6.5rem); letter-spacing: -.04em; text-transform: uppercase; }
+  .hero-copy { color: var(--teal); font-size: clamp(1.25rem, 2.6vw, 1.75rem); font-weight: 800; }
+  .promise { padding-left: 1rem; border-left: 5px solid var(--gold); color: var(--navy); font-weight: 700; }
+  .light { color: var(--blue); }
+  .mission-card { padding: 2rem; border-radius: 28px; background: var(--navy); color: white; box-shadow: var(--shadow); }
+  .mission-card h2, .mission-card p { color: white; }
+  .advertise-button { margin-top: .6rem; background: #d97706; border-color: #d97706; }
+  .centered { margin-inline: auto; text-align: center; }
+  .support-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+  .support-card { display: grid; grid-template-columns: auto 1fr; gap: 1.3rem; padding: 2rem; border: 1px solid var(--border); border-radius: 24px; background: white; box-shadow: var(--shadow); }
+  .payment-icon { display: grid; width: 72px; height: 72px; place-items: center; border-radius: 18px; background: #00d632; color: white; font-size: 2.8rem; font-weight: 900; }
   .venmo-icon { background: #1683e2; font-style: italic; }
   .card-label { margin: 0; color: var(--muted); font-weight: 800; text-transform: uppercase; }
-  .support-card h3 { margin: 0.2rem 0 0.55rem; font-size: clamp(1.45rem, 3vw, 2rem); overflow-wrap: anywhere; }
-  .payment-button { margin-top: 0.5rem; background: #00b82b; border-color: #00b82b; }
+  .support-card h3 { margin: .2rem 0 .55rem; overflow-wrap: anywhere; }
+  .payment-button { margin-top: .5rem; background: #00b82b; border-color: #00b82b; }
   .venmo-button { background: #1683e2; border-color: #1683e2; }
-
-  .impact-strip {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    margin-top: 2rem;
-    padding: 1.3rem;
-    border-radius: 22px;
-    background: var(--navy);
-    color: white;
-  }
-
-  .impact-strip div { display: flex; align-items: center; justify-content: center; gap: 0.6rem; text-align: center; }
+  .impact-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: 2rem; padding: 1.3rem; border-radius: 22px; background: var(--navy); color: white; }
+  .impact-strip div { display: flex; align-items: center; justify-content: center; gap: .6rem; text-align: center; }
   .impact-strip span { font-size: 1.7rem; }
-
+  .ways-section { background: #fff9ed; }
+  .ways-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+  .ways-grid article { padding: 1.4rem; border: 1px solid var(--border); border-radius: 18px; background: white; }
+  .ways-grid span { font-size: 2rem; }
+  .ways-grid h3 { color: var(--navy); }
   .alt-section { background: #e9f3f2; }
-  .contact-grid { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 3rem; align-items: start; }
-  .privacy-note { padding: 1rem; border-left: 4px solid var(--gold); background: white; font-size: 0.95rem; }
-
-  .contact-form {
-    display: grid;
-    gap: 1rem;
-    padding: 1.6rem;
-    border-radius: 22px;
-    background: white;
-    box-shadow: var(--shadow);
-  }
-
-  .contact-form label { display: grid; gap: 0.35rem; color: var(--navy); font-weight: 800; }
-  .contact-form label span { color: var(--muted); font-size: 0.9rem; font-weight: 500; }
-  .contact-form input,
-  .contact-form select,
-  .contact-form textarea {
-    width: 100%;
-    padding: 0.8rem;
-    border: 1px solid #aebdc5;
-    border-radius: 10px;
-    background: white;
-    color: var(--ink);
-    font: inherit;
-  }
+  .contact-grid { align-items: start; }
+  .privacy-note { padding: 1rem; border-left: 4px solid var(--gold); background: white; font-size: .95rem; }
+  .contact-form { display: grid; gap: 1rem; padding: 1.6rem; border-radius: 22px; background: white; box-shadow: var(--shadow); }
+  .contact-form label { display: grid; gap: .35rem; color: var(--navy); font-weight: 800; }
+  .contact-form label span { color: var(--muted); font-size: .9rem; font-weight: 500; }
+  .contact-form input, .contact-form select, .contact-form textarea { width: 100%; padding: .8rem; border: 1px solid #aebdc5; border-radius: 10px; background: white; color: var(--ink); font: inherit; }
   .contact-form textarea { resize: vertical; }
   .submit-button { border: 0; cursor: pointer; }
-  .sent-message { padding: 0.9rem; border-radius: 10px; background: #dff6e4; color: #145b27; font-weight: 800; }
-
+  .sent-message { padding: .9rem; border-radius: 10px; background: #dff6e4; color: #145b27; font-weight: 800; }
   .faq-section { background: #fff9ed; }
-  .faq-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.25rem;
-  }
-  .faq-card {
-    padding: 1.6rem;
-    border: 1px solid var(--border);
-    border-radius: 20px;
-    background: white;
-    box-shadow: var(--shadow);
-  }
-  .faq-card h3 {
-    margin-top: 0;
-    color: var(--navy);
-    font-size: 1.25rem;
-  }
+  .faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  .faq-card { padding: 1.6rem; border: 1px solid var(--border); border-radius: 20px; background: white; box-shadow: var(--shadow); }
+  .faq-card h3 { margin-top: 0; color: var(--navy); }
   .faq-card p { margin-bottom: 0; }
-
-  .thank-you {
-    padding: 2.5rem;
-    border-radius: 26px;
-    background: var(--navy);
-    color: white;
-    text-align: center;
-    box-shadow: var(--shadow);
-  }
-  .thank-you h2,
-  .thank-you p { color: white; }
+  .thank-you { padding: 2.5rem; border-radius: 26px; background: var(--navy); color: white; text-align: center; box-shadow: var(--shadow); }
+  .thank-you h2, .thank-you p { color: white; }
   .thank-you p { max-width: 760px; margin-inline: auto; }
-
-  @media (max-width: 850px) {
-    .hero-grid,
-    .contact-grid,
-    .support-grid,
-    .faq-grid { grid-template-columns: 1fr; }
-    .scene { min-height: 320px; }
-    .impact-strip { grid-template-columns: 1fr 1fr; }
-  }
-
-  @media (max-width: 520px) {
-    .support-hero { padding: 3.5rem 0; }
-    .scene { min-height: 260px; }
-    .support-card { grid-template-columns: 1fr; }
-    .impact-strip { grid-template-columns: 1fr; }
-  }
+  @media (max-width: 900px) { .hero-grid, .contact-grid, .support-grid, .faq-grid { grid-template-columns: 1fr; } .ways-grid { grid-template-columns: 1fr 1fr; } .impact-strip { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 540px) { .support-hero { padding: 3.5rem 0; } .support-card { grid-template-columns: 1fr; } .ways-grid, .impact-strip { grid-template-columns: 1fr; } }
 </style>
