@@ -18,6 +18,7 @@ const {
 const siteURL = Astro.site ?? new URL("https://texomaweekendguide.com");
 const canonicalURL = new URL(Astro.url.pathname, siteURL);
 const socialImageURL = new URL(image, siteURL);
+const isHomePage = Astro.url.pathname === "/";
 const isEventAdmin = Astro.url.pathname === "/admin-events" || Astro.url.pathname === "/admin-events/";
 const isBusinessAdmin = Astro.url.pathname === "/admin-business" || Astro.url.pathname === "/admin-business/";
 const isBusinessGalleryAdmin = Astro.url.pathname === "/admin-business-gallery" || Astro.url.pathname === "/admin-business-gallery/";
@@ -75,6 +76,7 @@ const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname ==
     {isBusinessSection && <script is:inline src="/business-event-name-fallback.js?v=5"></script>}
     {isBusinessSection && <script is:inline src="/business-gallery.js?v=2"></script>}
     {isBusinessSection && <script is:inline src="/business-premium-details.js?v=1"></script>}
+    {(isHomePage || isBusinessSection) && <script is:inline src="/business-profile-levels.js?v=1"></script>}
     {isSupportPage && <script is:inline src="/support-listing-clarification.js?v=1"></script>}
   </body>
 </html>
