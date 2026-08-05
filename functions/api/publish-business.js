@@ -4,30 +4,35 @@ const LOGO_DIRECTORY = "public/images/businesses";
 const BRANCH = "main";
 const MAX_LOGO_BYTES = 4 * 1024 * 1024;
 
-const jsonResponse = (body, status = 200) =>
-  new Response(JSON.stringify(body), {
-    status,
-    headers: {
-      "content-type": "application/json; charset=utf-8",
-      "cache-control": "no-store"
-    }
-  });
+const jsonResponse = (body, status = 200) => new Response(JSON.stringify(body), {
+  status,
+  headers: {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "no-store"
+  }
+});
 
 const toBase64 = (text) => {
   const bytes = new TextEncoder().encode(text);
   let binary = "";
-  const chunkSize = 0x8000;
-  for (let i = 0; i < bytes.length; i += chunkSize) {
-    binary += String.fromCharCode(...bytes.subarray(i, i + chunkSize));
+  for (let index = 0; index < bytes.length; index += 0x8000) {
+    binary += String.fromCharCode(...bytes.subarray(index, index + 0x8000));
   }
   return btoa(binary);
 };
 
-const fromBase64 = (value) => {
-  const binary = atob(value.replace(/\n/g, ""));
-  const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
+const decodeBase64Utf8 = (content) => {
+  const normalized = String(content || "").replace(/\n/g, "");
+  const bytes = Uint8Array.from(atob(normalized), (character) => character.charCodeAt(0));
   return new TextDecoder().decode(bytes);
 };
+
+const githubHeadersFor = (token) => ({
+  accept: "application/vnd.github+json",
+  authorization: `Bearer ${token}`,
+  "x-github-api-version": "2022-11-28",
+  "user-agent": "texoma-weekend-guide-business-publisher"
+});
 
 const validateBusiness = (business) => {
   const problems = [];
@@ -62,12 +67,60 @@ const extensionForType = (type) => ({
   "image/webp": "webp"
 }[type] || null);
 
-const githubHeadersFor = (token) => ({
-  accept: "application/vnd.github+json",
-  authorization: `Bearer ${token}`,
-  "x-github-api-version": "2022-11-28",
-  "user-agent": "texoma-weekend-guide-business-publisher"
-});
+const readJsonSafely = async (response) => {
+  const text = await response.text();
+  try {
+    return text ? JSON.parse(text) : {};
+  } catch {
+    throw new Error(`GitHub returned an unreadable response (${response.status}).`);
+  }
+};
+
+const loadDirectory = async (githubHeaders) => {
+  const fileUrl = `https://api.github.com/repos/${REPOSITORY}/contents/${FILE_PATH}?ref=${BRANCH}`;
+  const response = await fetch(fileUrl, { headers: githubHeaders });
+  if (!response.ok) {
+    throw new Error(`GitHub could not read the current directory file (${response.status}).`);
+  }
+
+  const currentFile = await readJsonSafely(response);
+  let text = "";
+
+  if (typeof currentFile.content === "string" && currentFile.content.trim()) {
+    text = decodeBase64Utf8(currentFile.content);
+  } else if (currentFile.git_url) {
+    const blobResponse = await fetch(currentFile.git_url, { headers: githubHeaders });
+    if (!blobResponse.ok) {
+      throw new Error(`GitHub could not read the business directory blob (${blobResponse.status}).`);
+    }
+    const blob = await readJsonSafely(blobResponse);
+    if (blob.encoding !== "base64" || typeof blob.content !== "string") {
+      throw new Error("GitHub returned the business directory blob in an unsupported format.");
+    }
+    text = decodeBase64Utf8(blob.content);
+  } else if (currentFile.download_url) {
+    const rawResponse = await fetch(currentFile.download_url, { cache: "no-store" });
+    if (!rawResponse.ok) {
+      throw new Error(`GitHub could not download the business directory (${rawResponse.status}).`);
+    }
+    text = await rawResponse.text();
+  } else {
+    throw new Error("GitHub returned business-directory metadata without readable file content.");
+  }
+
+  let directory;
+  try {
+    directory = JSON.parse(text);
+  } catch {
+    throw new Error("The current GitHub business directory could not be decoded.");
+  }
+
+  if (!Array.isArray(directory.businesses)) {
+    throw new Error("The current GitHub directory does not contain a businesses array.");
+  }
+
+  return { currentFile, directory };
+};
 
 const upsertLogo = async ({ business, logo, githubHeaders }) => {
   if (!logo) return null;
@@ -78,9 +131,9 @@ const upsertLogo = async ({ business, logo, githubHeaders }) => {
   const apiUrl = `https://api.github.com/repos/${REPOSITORY}/contents/${imagePath}`;
   const currentResponse = await fetch(`${apiUrl}?ref=${BRANCH}`, { headers: githubHeaders });
   let existingSha = null;
+
   if (currentResponse.ok) {
-    const current = await currentResponse.json();
-    existingSha = current.sha || null;
+    existingSha = (await readJsonSafely(currentResponse)).sha || null;
   } else if (currentResponse.status !== 404) {
     throw new Error(`GitHub could not check the current logo (${currentResponse.status}).`);
   }
@@ -97,24 +150,22 @@ const upsertLogo = async ({ business, logo, githubHeaders }) => {
     headers: { ...githubHeaders, "content-type": "application/json" },
     body: JSON.stringify(body)
   });
-  const uploadResult = await uploadResponse.json();
+  const uploadResult = await readJsonSafely(uploadResponse);
   if (!uploadResponse.ok) {
     throw new Error(uploadResult?.message || `GitHub rejected the logo upload (${uploadResponse.status}).`);
   }
 
   return {
     path: `/${imagePath.replace(/^public\//, "")}`,
-    commit: uploadResult?.commit?.sha ?? null
+    commit: uploadResult?.commit?.sha || null
   };
 };
 
-export const onRequestPost = async ({ request, env }) => {
+const handlePost = async ({ request, env }) => {
   if (!env.ADMIN_KEY || !env.GITHUB_TOKEN) {
     return jsonResponse({ error: "Publisher secrets are not configured in Cloudflare." }, 500);
   }
-
-  const suppliedKey = request.headers.get("x-admin-key");
-  if (!suppliedKey || suppliedKey !== env.ADMIN_KEY) {
+  if (request.headers.get("x-admin-key") !== env.ADMIN_KEY) {
     return jsonResponse({ error: "Incorrect admin key." }, 401);
   }
 
@@ -137,40 +188,23 @@ export const onRequestPost = async ({ request, env }) => {
   }
 
   const githubHeaders = githubHeadersFor(env.GITHUB_TOKEN);
-  let logoResult = null;
-  try {
-    logoResult = await upsertLogo({ business, logo, githubHeaders });
-  } catch (error) {
-    return jsonResponse({ error: error instanceof Error ? error.message : "Logo upload failed." }, 502);
+  const { currentFile, directory } = await loadDirectory(githubHeaders);
+
+  const existingIndex = directory.businesses.findIndex((record) => record?.slug === business.slug);
+  const existing = existingIndex >= 0 ? directory.businesses[existingIndex] : null;
+  if (existing) {
+    for (const field of ["gallery", "logo_url", "logo_alt", "image", "image_url", "image_alt"]) {
+      if (!(field in business) && field in existing) business[field] = existing[field];
+    }
   }
 
+  const logoResult = await upsertLogo({ business, logo, githubHeaders });
   if (logoResult) {
     business.logo_url = logoResult.path;
     business.logo_alt = `${business.business_name} logo`;
   }
 
-  const fileUrl = `https://api.github.com/repos/${REPOSITORY}/contents/${FILE_PATH}?ref=${BRANCH}`;
-  const currentResponse = await fetch(fileUrl, { headers: githubHeaders });
-  if (!currentResponse.ok) {
-    return jsonResponse({ error: `GitHub could not read the current directory file (${currentResponse.status}).` }, 502);
-  }
-
-  const currentFile = await currentResponse.json();
-  let directory;
-  try {
-    directory = JSON.parse(fromBase64(currentFile.content));
-  } catch {
-    return jsonResponse({ error: "The current GitHub directory file could not be decoded." }, 502);
-  }
-
-  if (!Array.isArray(directory.businesses)) {
-    return jsonResponse({ error: "The current GitHub directory does not contain a businesses array." }, 502);
-  }
-
-  const slugsToRemove = new Set(removeSlugs.filter((slug) => slug !== business.slug));
-  const existingIndex = directory.businesses.findIndex((record) => record?.slug === business.slug);
   let action = "added";
-
   if (existingIndex >= 0) {
     directory.businesses[existingIndex] = business;
     action = "updated";
@@ -178,6 +212,7 @@ export const onRequestPost = async ({ request, env }) => {
     directory.businesses.push(business);
   }
 
+  const slugsToRemove = new Set(removeSlugs.filter((slug) => slug !== business.slug));
   const beforeRemoval = directory.businesses.length;
   directory.businesses = directory.businesses.filter((record) => !slugsToRemove.has(record?.slug));
   const removedCount = beforeRemoval - directory.businesses.length;
@@ -186,22 +221,19 @@ export const onRequestPost = async ({ request, env }) => {
   directory.publish_ready_count = directory.businesses.filter((record) => record?.publish_ready === true).length;
   directory.generated_on = new Date().toISOString().slice(0, 10);
 
-  const formattedJson = `${JSON.stringify(directory, null, 2)}\n`;
-  const now = new Date().toISOString();
   const updateResponse = await fetch(`https://api.github.com/repos/${REPOSITORY}/contents/${FILE_PATH}`, {
     method: "PUT",
     headers: { ...githubHeaders, "content-type": "application/json" },
     body: JSON.stringify({
-      message: `Publish business ${business.slug} ${now}`,
-      content: toBase64(formattedJson),
+      message: `Publish business ${business.slug} ${new Date().toISOString()}`,
+      content: toBase64(`${JSON.stringify(directory, null, 2)}\n`),
       sha: currentFile.sha,
       branch: BRANCH
     })
   });
-
-  const updateResult = await updateResponse.json();
+  const updateResult = await readJsonSafely(updateResponse);
   if (!updateResponse.ok) {
-    return jsonResponse({ error: updateResult?.message || `GitHub rejected the update (${updateResponse.status}).` }, 502);
+    throw new Error(updateResult?.message || `GitHub rejected the directory update (${updateResponse.status}).`);
   }
 
   return jsonResponse({
@@ -218,7 +250,18 @@ export const onRequestPost = async ({ request, env }) => {
   });
 };
 
-export const onRequest = async ({ request, env }) => {
-  if (request.method === "POST") return onRequestPost({ request, env });
+export const onRequestPost = async (context) => {
+  try {
+    return await handlePost(context);
+  } catch (error) {
+    return jsonResponse({
+      error: "Business publishing failed.",
+      detail: error instanceof Error ? error.message : "Unknown server error."
+    }, 500);
+  }
+};
+
+export const onRequest = async (context) => {
+  if (context.request.method === "POST") return onRequestPost(context);
   return jsonResponse({ error: "Method not allowed." }, 405);
 };
