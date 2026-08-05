@@ -59,8 +59,7 @@ const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname ==
     <main><slot /></main>
     <Footer />
     {isEventAdmin && <script is:inline src="/admin-events-publish-fix.js?v=6"></script>}
-    {isBusinessAdmin && <script is:inline src="/business-publisher-media-preserve.js?v=1"></script>}
-    {isBusinessAdmin && <script is:inline src="/business-publisher-directory-fallback.js?v=1"></script>}
+    {isBusinessAdmin && <script is:inline src="/business-publisher-media-preserve.js?v=2"></script>}
     {isBusinessGalleryAdmin && <script is:inline src="/admin-business-gallery.js?v=4"></script>}
     {isAdminDashboard && <script is:inline src="/admin-dashboard-full-attention.js?v=6"></script>}
     {isAdminRecord && <script is:inline src="/admin-record-delete.js?v=1"></script>}
