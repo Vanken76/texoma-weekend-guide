@@ -8,6 +8,7 @@ const links = [
   { href: "/businesses/", label: "Businesses" },
   { href: "/submit/", label: "Submit an Event" },
   { href: "/submit-business/", label: "Submit a Business" },
+  { href: "/advertise/", label: "Advertise" },
   { href: "/support/", label: "Support TWG" },
   { href: "/about/", label: "About" }
 ];
@@ -37,7 +38,11 @@ function isActive(href: string) {
       {links.map((link) => (
         <a
           href={link.href}
-          class:list={{ active: isActive(link.href), support: link.href === "/support/" }}
+          class:list={{
+            active: isActive(link.href),
+            advertise: link.href === "/advertise/",
+            support: link.href === "/support/"
+          }}
         >
           {link.label}
         </a>
@@ -93,11 +98,26 @@ function isActive(href: string) {
     text-decoration: none;
   }
 
+  nav a.advertise,
   nav a.support {
     padding: 0.38rem 0.72rem;
     border-radius: 999px;
-    background: #176f95;
     color: white;
+  }
+
+  nav a.advertise {
+    background: #d97706;
+  }
+
+  nav a.support {
+    background: #176f95;
+  }
+
+  nav a.advertise:hover,
+  nav a.advertise.active {
+    background: #a84f04;
+    color: white;
+    text-decoration: none;
   }
 
   nav a.support:hover,
