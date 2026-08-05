@@ -1,0 +1,194 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Admin Diagnostics | Texoma Weekend Guide"
+  description="Read-only health checks for Texoma Weekend Guide publishing systems."
+>
+  <main class="diagnostics-shell">
+    <header class="diagnostics-header">
+      <div>
+        <p class="eyebrow">TWG Admin</p>
+        <h1>Publishing Diagnostics</h1>
+        <p>Read-only checks for directory files, API response types, file sizes, and record counts. These tests do not publish or delete anything.</p>
+      </div>
+      <nav class="admin-links" aria-label="Admin tools">
+        <a href="/admin-dashboard/">Dashboard</a>
+        <a href="/admin-business/">Business publisher</a>
+        <a href="/admin-business-gallery/">Business gallery</a>
+        <a href="/admin-events/">Event publisher</a>
+      </nav>
+    </header>
+
+    <section class="control-panel">
+      <button id="run-all" type="button">Run All Diagnostics</button>
+      <p id="summary" aria-live="polite">No tests run yet.</p>
+    </section>
+
+    <section id="results" class="results-grid" aria-live="polite"></section>
+
+    <section class="playbook">
+      <h2>DOCTYPE / invalid JSON checklist</h2>
+      <ol>
+        <li>Check whether the GitHub commit or uploaded file already exists before retrying.</li>
+        <li>If an image commit exists but no directory commit exists, the image succeeded and the failure happened afterward.</li>
+        <li>Check the exact HTTP status, content type, and response preview below.</li>
+        <li>For large directories, verify the publisher supports GitHub blob and download fallbacks instead of relying only on inline content.</li>
+        <li>Do not add routes, redirects, or browser patches until the failing step is proven.</li>
+      </ol>
+      <p>Permanent playbook: <code>docs/publishing-troubleshooting.md</code></p>
+    </section>
+  </main>
+
+  <script>
+    const tests = [
+      { id: "business-data", label: "Business directory", kind: "directory", url: "/data/local-business-directory.json", arrayKey: "businesses" },
+      { id: "event-data", label: "Event directory", kind: "directory", url: "/data/local-event-directory.json", arrayKey: "events" },
+      { id: "business-api", label: "Business publisher API", kind: "api", url: "/api/publish-business" },
+      { id: "gallery-api", label: "Business gallery API", kind: "api", url: "/api/publish-business-gallery" },
+      { id: "event-api", label: "Event publisher API", kind: "api", url: "/api/publish-events" },
+      { id: "directory-api", label: "Directory publisher API", kind: "api", url: "/api/publish-directory" },
+      { id: "roundup-api", label: "Roundup publisher API", kind: "api", url: "/api/publish-roundup" }
+    ];
+
+    const results = document.querySelector("#results");
+    const summary = document.querySelector("#summary");
+    const runAll = document.querySelector("#run-all");
+
+    const escapeHtml = (value) => String(value ?? "")
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+
+    const formatBytes = (bytes) => {
+      if (!Number.isFinite(bytes)) return "Unknown";
+      if (bytes < 1024) return `${bytes} B`;
+      if (bytes < 1024 ** 2) return `${(bytes / 1024).toFixed(1)} KB`;
+      return `${(bytes / 1024 ** 2).toFixed(2)} MB`;
+    };
+
+    function card(test) {
+      return `<article class="diagnostic-card pending" id="${test.id}">
+        <div class="card-heading"><h2>${escapeHtml(test.label)}</h2><span>Pending</span></div>
+        <dl><dt>URL</dt><dd><code>${escapeHtml(test.url)}</code></dd></dl>
+      </article>`;
+    }
+
+    function updateCard(test, result) {
+      const element = document.querySelector(`#${test.id}`);
+      if (!element) return;
+      const tone = result.ok ? "pass" : "fail";
+      const details = Object.entries(result.details || {}).map(([key, value]) => `
+        <dt>${escapeHtml(key)}</dt><dd>${key === "Response preview" ? `<pre>${escapeHtml(value)}</pre>` : escapeHtml(value)}</dd>`).join("");
+      element.className = `diagnostic-card ${tone}`;
+      element.innerHTML = `
+        <div class="card-heading"><h2>${escapeHtml(test.label)}</h2><span>${result.ok ? "PASS" : "FAIL"}</span></div>
+        <dl><dt>URL</dt><dd><code>${escapeHtml(test.url)}</code></dd>${details}</dl>`;
+    }
+
+    async function runDirectory(test) {
+      const started = performance.now();
+      const response = await fetch(`${test.url}?diagnostic=${Date.now()}`, { cache: "no-store" });
+      const type = response.headers.get("content-type") || "unknown";
+      const text = await response.text();
+      let parsed = null;
+      let parseError = null;
+      try { parsed = JSON.parse(text); } catch (error) { parseError = error instanceof Error ? error.message : "Unknown parse error"; }
+      const records = Array.isArray(parsed?.[test.arrayKey]) ? parsed[test.arrayKey] : null;
+      const ok = response.ok && type.includes("application/json") && records !== null;
+      return {
+        ok,
+        details: {
+          "HTTP status": `${response.status} ${response.statusText}`.trim(),
+          "Content type": type,
+          "File size": formatBytes(new TextEncoder().encode(text).length),
+          "Record count": records === null ? "Unavailable" : records.length,
+          "Generated on": parsed?.generated_on || "Not supplied",
+          "Duration": `${Math.round(performance.now() - started)} ms`,
+          ...(parseError ? { "Parse error": parseError, "Response preview": text.slice(0, 240) } : {})
+        }
+      };
+    }
+
+    async function runApi(test) {
+      const started = performance.now();
+      const response = await fetch(`${test.url}?diagnostic=${Date.now()}`, { method: "GET", cache: "no-store" });
+      const type = response.headers.get("content-type") || "unknown";
+      const text = await response.text();
+      let parsed = null;
+      try { parsed = JSON.parse(text); } catch { /* diagnostic below */ }
+      const json = type.includes("application/json") && parsed && typeof parsed === "object";
+      const expectedStatus = response.status === 405 || response.status === 400 || response.status === 401;
+      return {
+        ok: json && expectedStatus,
+        details: {
+          "HTTP status": `${response.status} ${response.statusText}`.trim(),
+          "Content type": type,
+          "JSON response": json ? "Yes" : "No",
+          "Expected read-only rejection": expectedStatus ? "Yes" : "No",
+          "Message": parsed?.error || parsed?.message || "No JSON message",
+          "Duration": `${Math.round(performance.now() - started)} ms`,
+          ...(!json ? { "Response preview": text.slice(0, 240) } : {})
+        }
+      };
+    }
+
+    async function runTest(test) {
+      try {
+        return test.kind === "directory" ? await runDirectory(test) : await runApi(test);
+      } catch (error) {
+        return {
+          ok: false,
+          details: {
+            "Network error": error instanceof Error ? error.message : "Unknown error"
+          }
+        };
+      }
+    }
+
+    async function runDiagnostics() {
+      runAll.disabled = true;
+      runAll.textContent = "Running…";
+      summary.textContent = "Running read-only diagnostics…";
+      results.innerHTML = tests.map(card).join("");
+      const completed = [];
+      for (const test of tests) {
+        const result = await runTest(test);
+        completed.push(result);
+        updateCard(test, result);
+      }
+      const passed = completed.filter((result) => result.ok).length;
+      summary.textContent = `${passed} of ${completed.length} checks passed. ${completed.length - passed} need attention.`;
+      runAll.disabled = false;
+      runAll.textContent = "Run All Diagnostics";
+    }
+
+    runAll?.addEventListener("click", runDiagnostics);
+    results.innerHTML = tests.map(card).join("");
+  </script>
+
+  <style>
+    .diagnostics-shell{width:min(1180px,calc(100% - 2rem));margin:2rem auto 4rem;color:#103a58}
+    .diagnostics-header{display:flex;justify-content:space-between;gap:1.5rem;align-items:flex-start;padding:1.5rem;border-radius:1rem;background:#fff9ed;border:1px solid #d7e0e4}
+    .diagnostics-header h1{margin:.2rem 0 .5rem;font-size:clamp(2rem,5vw,3.4rem)}
+    .eyebrow{margin:0;text-transform:uppercase;letter-spacing:.12em;font-weight:900;color:#176f95}
+    .admin-links{display:flex;flex-wrap:wrap;gap:.65rem}
+    .admin-links a,.control-panel button{padding:.7rem 1rem;border-radius:.7rem;text-decoration:none;font-weight:850;border:0;background:#176f95;color:#fff}
+    .control-panel{margin:1rem 0;padding:1rem 1.25rem;display:flex;gap:1rem;align-items:center;flex-wrap:wrap;background:#eef7f8;border-radius:.9rem}
+    .control-panel p{margin:0;font-weight:800}
+    .results-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem}
+    .diagnostic-card{padding:1rem;border-radius:.9rem;border:2px solid #cbd5e1;background:#fff}
+    .diagnostic-card.pass{border-color:#15803d;background:#f0fdf4}
+    .diagnostic-card.fail{border-color:#b91c1c;background:#fff1f2}
+    .card-heading{display:flex;justify-content:space-between;gap:1rem;align-items:center}
+    .card-heading h2{font-size:1.1rem;margin:0}.card-heading span{font-weight:950}
+    dl{display:grid;grid-template-columns:minmax(110px,.7fr) minmax(0,1.3fr);gap:.45rem .75rem;margin:1rem 0 0}
+    dt{font-weight:850}dd{margin:0;overflow-wrap:anywhere}pre{white-space:pre-wrap;margin:0;font-size:.78rem}
+    .playbook{margin-top:1.2rem;padding:1.25rem;border-radius:.9rem;background:#fff9ed;border:1px solid #d7e0e4}
+    .playbook h2{margin-top:0}.playbook li{margin:.45rem 0}
+    @media(max-width:720px){.diagnostics-header{flex-direction:column}dl{grid-template-columns:1fr}.admin-links a{width:100%;text-align:center}}
+  </style>
+</BaseLayout>
