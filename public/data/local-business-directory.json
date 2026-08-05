@@ -5,8 +5,8 @@
   "generated_on": "2026-08-05",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 595,
-  "publish_ready_count": 259,
+  "business_count": 596,
+  "publish_ready_count": 260,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -28245,6 +28245,113 @@
         "Family-friendly dining",
         "Online ordering",
         "Dine-in and takeout"
+      ]
+    },
+    {
+      "slug": "leidys-kitchen-sherman",
+      "business_name": "Leidy's Kitchen",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "4800 Texoma Pkwy, Suite B704, Sherman, TX 75090",
+      "category": [
+        "Mexican Restaurant",
+        "Salvadoran Restaurant",
+        "Breakfast Restaurant",
+        "Caterer"
+      ],
+      "tags": [
+        "Sherman",
+        "Texoma Parkway",
+        "Family Owned",
+        "Mexican Food",
+        "Salvadoran Food",
+        "Pupusas",
+        "Breakfast",
+        "Tacos",
+        "Birria",
+        "Catering"
+      ],
+      "description": "Leidy's Kitchen is a locally owned family restaurant in Sherman serving authentic Mexican and Salvadoran cuisine. The menu features handmade pupusas, tacos, birria, fajitas, tortas, breakfast favorites, traditional desserts, and house specialties prepared fresh daily. Catering is also available for private parties, business events, weddings, quinceañeras, churches, and community gatherings.",
+      "why_visit": "Visit for authentic home-style Mexican and Salvadoran cooking, generous portions, friendly service, and unique dishes that are difficult to find elsewhere in Texoma.",
+      "why_its_unique": "One of the few restaurants in the Texoma area serving both authentic Mexican cuisine and traditional Salvadoran specialties such as handmade pupusas alongside a full breakfast and catering menu.",
+      "phone": "903-422-0123",
+      "email": "leidyskitchen.tx@gmail.com",
+      "website": "https://www.leidyskitchen.com",
+      "facebook": "https://www.facebook.com/leidyskitchen",
+      "instagram": "https://www.instagram.com/leidyskitchen",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$",
+      "family_friendly": true,
+      "pet_friendly": false,
+      "dog_friendly": false,
+      "hours": {
+        "monday": "10:00 AM - 8:00 PM",
+        "tuesday": "10:00 AM - 8:00 PM",
+        "wednesday": "Closed",
+        "thursday": "10:00 AM - 8:00 PM",
+        "friday": "10:00 AM - 8:00 PM",
+        "saturday": "10:00 AM - 8:00 PM",
+        "sunday": "10:00 AM - 4:00 PM"
+      },
+      "hours_note": "Breakfast is served daily from 10:00 AM until noon. Hours may vary on holidays.",
+      "at_a_glance": {
+        "average_visit": "45-60 minutes",
+        "price_range": "$$",
+        "family_friendly": true,
+        "pet_friendly": false,
+        "dog_friendly": false,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": true,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Dine-in",
+        "Takeout",
+        "Online Ordering",
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Catering",
+        "Wheelchair Accessible"
+      ],
+      "good_to_know": [
+        "Breakfast served daily until noon.",
+        "Offers authentic Salvadoran pupusas.",
+        "Weekend menudo and birria specialties.",
+        "Available for catering and special events."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "verification_note": "Verified using the official website, official Facebook page, and current business listings. Monitor for recurring food specials and future events.",
+      "last_checked": "2026-08-05",
+      "event_types": [
+        "Food Specials",
+        "Community Events",
+        "Holiday Promotions"
+      ],
+      "event_sources": [
+        "Official Website",
+        "Official Facebook Page"
+      ],
+      "features": [
+        "Family Owned",
+        "Authentic Mexican Cuisine",
+        "Authentic Salvadoran Cuisine",
+        "Handmade Pupusas",
+        "Breakfast Served Daily",
+        "Catering Available",
+        "Online Ordering"
       ]
     }
   ]
