@@ -1,3 +1,8 @@
+import {
+  onRequestGet as handleGalleryGet,
+  onRequestPost as handleGalleryPost
+} from "./publish-business-gallery.js";
+
 const REPOSITORY = "Vanken76/texoma-weekend-guide";
 const FILE_PATH = "public/data/local-business-directory.json";
 const LOGO_DIRECTORY = "public/images/businesses";
@@ -108,7 +113,20 @@ const upsertLogo = async ({ business, logo, githubHeaders }) => {
   };
 };
 
+export const onRequestGet = async ({ request, env }) => {
+  const requestUrl = new URL(request.url);
+  if (requestUrl.searchParams.get("mode") === "gallery") {
+    return handleGalleryGet({ request, env });
+  }
+  return jsonResponse({ error: "Method not allowed." }, 405);
+};
+
 export const onRequestPost = async ({ request, env }) => {
+  const requestUrl = new URL(request.url);
+  if (requestUrl.searchParams.get("mode") === "gallery") {
+    return handleGalleryPost({ request, env });
+  }
+
   if (!env.ADMIN_KEY || !env.GITHUB_TOKEN) {
     return jsonResponse({ error: "Publisher secrets are not configured in Cloudflare." }, 500);
   }
@@ -218,6 +236,8 @@ export const onRequestPost = async ({ request, env }) => {
   });
 };
 
-export const onRequest = async ({ request }) => {
-  if (request.method !== "POST") return jsonResponse({ error: "Method not allowed." }, 405);
+export const onRequest = async (context) => {
+  if (context.request.method === "GET") return onRequestGet(context);
+  if (context.request.method === "POST") return onRequestPost(context);
+  return jsonResponse({ error: "Method not allowed." }, 405);
 };
