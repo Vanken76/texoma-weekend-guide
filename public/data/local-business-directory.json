@@ -5,8 +5,8 @@
   "generated_on": "2026-08-05",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 596,
-  "publish_ready_count": 260,
+  "business_count": 595,
+  "publish_ready_count": 259,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -32,51 +32,6 @@
       "event_mining_priority": "high",
       "verification_note": "Follow up after opening for grand-opening date, regular hours, amenities, menu, and an updated Google listing.",
       "last_checked": "2026-07-19"
-    },
-    {
-      "slug": "leidys-kitchen",
-      "business_name": "Leidy's Kitchen",
-      "directory_status": "complete",
-      "publish_ready": true,
-      "service_area_or_location": "4800 Texoma Pkwy B704, Sherman, TX 75090",
-      "category": [
-        "Mexican Restaurant",
-        "Salvadoran Restaurant",
-        "Catering"
-      ],
-      "description": "A family-owned Mexican and Salvadoran restaurant in Sherman serving street-style tacos, handmade pupusas, fajitas, chilaquiles, quesadillas and house specialties made with fresh ingredients and bold flavors.",
-      "phone": "903-422-0123",
-      "email": "leidyskitchen.tx@gmail.com",
-      "website": "https://www.leidyskitchen.com",
-      "facebook": "https://www.facebook.com/leidyskitchen/",
-      "instagram": "https://www.instagram.com/leidys.kitchen/",
-      "hours": {
-        "monday": "10:00 AM–8:00 PM",
-        "tuesday": "10:00 AM–8:00 PM",
-        "wednesday": "10:00 AM–8:00 PM",
-        "thursday": "10:00 AM–8:00 PM",
-        "friday": "10:00 AM–8:00 PM",
-        "saturday": "10:00 AM–8:00 PM",
-        "sunday": "10:00 AM–4:00 PM"
-      },
-      "hours_note": null,
-      "event_venue": true,
-      "recurring_events": true,
-      "mine_for_events": true,
-      "event_mining_priority": "high",
-      "verification_note": "Complete. Monitor official pages for specials, catering and community events.",
-      "last_checked": "2026-07-19",
-      "event_types": [
-        "Taco Tuesday",
-        "Food specials",
-        "Catering",
-        "Community events"
-      ],
-      "event_sources": [
-        "Official website",
-        "Facebook posts",
-        "Instagram posts"
-      ]
     },
     {
       "slug": "pen-and-page-weathered-books",
