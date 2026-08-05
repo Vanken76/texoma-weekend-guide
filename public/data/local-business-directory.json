@@ -5,8 +5,8 @@
   "generated_on": "2026-08-05",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 595,
-  "publish_ready_count": 259,
+  "business_count": 596,
+  "publish_ready_count": 260,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -28384,6 +28384,125 @@
         "Waterfront restaurant and bar",
         "Private-event space",
         "Lake Texoma destination"
+      ]
+    },
+    {
+      "slug": "vitinas-deli-and-boiler-room",
+      "business_name": "Vitina's Deli & Boiler Room",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "404 W Lamar St, Sherman, TX 75090",
+      "category": [
+        "Restaurant",
+        "Deli",
+        "Sandwich Shop",
+        "Coffee Shop",
+        "Breakfast Restaurant",
+        "Lunch Restaurant"
+      ],
+      "tags": [
+        "Locally Owned",
+        "Downtown Sherman",
+        "Breakfast",
+        "Lunch",
+        "Fresh-Baked Bread",
+        "Homemade Desserts",
+        "Specialty Coffee",
+        "Dine-In",
+        "Takeout",
+        "Call-In Orders"
+      ],
+      "description": "Established in 1987, Vitina's Deli & Boiler Room is a locally owned sandwich shop, deli, and coffee bar in downtown Sherman. The restaurant serves made-to-order breakfast, fresh-baked bread, more than 25 sandwich selections, homemade soups, pasta salad, potato salad, desserts, cookies, brewed tea, specialty coffee drinks, and bottled beverages. Nothing on the traditional deli menu is fried. Dine-in, takeout, and call-in ordering are available.",
+      "why_visit": "Visit for a locally made breakfast or lunch featuring fresh-baked bread, a broad sandwich selection, homemade sides and desserts, and specialty coffee in a longtime downtown Sherman establishment.",
+      "why_its_unique": "Vitina's has served Sherman since 1987 and combines a traditional neighborhood deli with made-to-order breakfast, fresh-baked bread, homemade desserts, specialty coffee, and a distinctive historic downtown setting.",
+      "phone": "903-892-6480",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/vitinasdelidelights",
+      "instagram": "https://www.instagram.com/vitinas_boiler_room/",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "7:00 AM - 3:00 PM",
+        "tuesday": "7:00 AM - 3:00 PM",
+        "wednesday": "7:00 AM - 3:00 PM",
+        "thursday": "7:00 AM - 3:00 PM",
+        "friday": "7:00 AM - 3:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Hours may vary for holidays or special circumstances. Check the official Facebook page for current updates before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Dine-in",
+        "Takeout",
+        "Call-in ordering",
+        "Breakfast",
+        "Lunch",
+        "Fresh-baked bread",
+        "Made-to-order eggs",
+        "Specialty coffee",
+        "Homemade soups",
+        "Homemade sides",
+        "Homemade desserts",
+        "Outdoor area"
+      ],
+      "good_to_know": [
+        "Open for breakfast and lunch Monday through Friday.",
+        "The restaurant closes at 3:00 PM and is closed Saturday and Sunday.",
+        "The menu includes more than 25 sandwich selections.",
+        "Nothing on the traditional deli menu is fried.",
+        "Call-in orders are welcome.",
+        "The location may be available for private after-hours gatherings; contact the business directly for current details.",
+        "Check the official Facebook page for daily specials, holiday hours, and schedule updates."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "verification_note": "Complete. Current business name, address, phone number, Facebook page, Instagram account, weekday hours, locally owned deli and coffee-bar identity, menu focus, establishment year, outdoor area, and potential after-hours private-party use were verified from the business's current social profiles and established Sherman business and downtown directories. No standalone official website or public email address was confirmed.",
+      "last_checked": "2026-08-05",
+      "event_types": [
+        "Private parties",
+        "After-hours gatherings"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Official Instagram account"
+      ],
+      "features": [
+        "Locally owned",
+        "Established in 1987",
+        "Downtown Sherman location",
+        "Fresh-baked bread",
+        "More than 25 sandwich selections",
+        "Made-to-order breakfast",
+        "Homemade soups, sides, and desserts",
+        "Specialty coffee",
+        "Nothing on the traditional deli menu is fried",
+        "Outdoor area",
+        "Potential after-hours private-party space"
       ]
     }
   ]
