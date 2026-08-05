@@ -5,8 +5,8 @@
   "generated_on": "2026-08-05",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 595,
-  "publish_ready_count": 259,
+  "business_count": 596,
+  "publish_ready_count": 260,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -28166,6 +28166,130 @@
         "Texoma and North Texas service area",
         "Community-event organizer",
         "Youth-focused nonprofit organization"
+      ]
+    },
+    {
+      "slug": "abbys-restaurant-howe",
+      "business_name": "Abby's Restaurant",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "110 E Haning St, Howe, TX 75459",
+      "category": [
+        "American Restaurant",
+        "Comfort Food Restaurant",
+        "Family Restaurant",
+        "Burger Restaurant"
+      ],
+      "tags": [
+        "Howe",
+        "Family Owned",
+        "Home Cooking",
+        "American Food",
+        "Comfort Food",
+        "Chicken-Fried Steak",
+        "Chicken-Fried Chicken",
+        "Catfish",
+        "Burgers",
+        "Sandwiches",
+        "Steak",
+        "Loaded Baked Potatoes",
+        "Salads",
+        "Soups",
+        "Lunch Specials",
+        "Kids Menu",
+        "Desserts",
+        "Dine-In",
+        "Takeout",
+        "Online Ordering"
+      ],
+      "description": "Abby's Restaurant is a family-owned restaurant in downtown Howe serving home-cooked American comfort food in a welcoming, casual setting. The menu includes chicken-fried steak, chicken-fried chicken, catfish, burgers, sandwiches, steaks, loaded baked potatoes, salads, soups, wraps, appetizers, kids meals, desserts and rotating lunch specials.",
+      "why_visit": "Visit Abby's Restaurant for generous portions of familiar home-style food, friendly local service and a menu with options for the entire family. It is a convenient choice for lunch during the week, with extended dinner hours on Thursday and Friday.",
+      "why_its_unique": "Abby's combines a small-town, family-owned atmosphere with a broad comfort-food menu built around home-cooked favorites. Its downtown Howe location and strong local following make it a community go-to rather than a chain dining experience.",
+      "phone": "903-487-8860",
+      "email": "abbysrestaurant@yahoo.com",
+      "website": "https://order.peppr.com/online/abbys-restaurant",
+      "facebook": "https://www.facebook.com/abbysrestauranthowetx",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM - 2:00 PM",
+        "tuesday": "11:00 AM - 2:00 PM",
+        "wednesday": "11:00 AM - 2:00 PM",
+        "thursday": "11:00 AM - 8:00 PM",
+        "friday": "11:00 AM - 8:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Published hours are Monday through Wednesday from 11:00 AM to 2:00 PM and Thursday and Friday from 11:00 AM to 8:00 PM. Closed Saturday and Sunday. Holiday hours and temporary schedule changes may vary; confirm through the official Facebook page or by phone.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Dine-In",
+        "Takeout",
+        "Online Ordering",
+        "Home-Cooked Meals",
+        "Lunch Specials",
+        "Kids Menu",
+        "Wheelchair Accessibility",
+        "Street Parking"
+      ],
+      "good_to_know": [
+        "Abby's Restaurant is located in downtown Howe at 110 E Haning Street.",
+        "The restaurant is open for lunch Monday through Friday, with extended dinner hours Thursday and Friday.",
+        "Online ordering is available through Peppr.",
+        "The menu includes chicken-fried steak, chicken-fried chicken, catfish, burgers, steaks, sandwiches, wraps, salads, soups, loaded baked potatoes, appetizers, kids meals and desserts.",
+        "The restaurant is family-owned and promotes home-cooked American meals.",
+        "Parking is primarily available along nearby downtown streets.",
+        "Call ahead or check the official Facebook page for holiday hours, daily specials and temporary schedule changes."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "verification_note": "Complete. Business identity, address, phone number, email, Facebook page, online-ordering link, menu focus and current operating hours were verified through official business information and current restaurant listings. Monitor the official Facebook page for holiday meals, daily specials, fundraisers, community partnerships and schedule changes.",
+      "last_checked": "2026-08-05",
+      "event_types": [
+        "Holiday meals",
+        "Restaurant specials",
+        "Fundraiser nights",
+        "Community partnerships",
+        "Limited-time menus"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Official online-ordering menu"
+      ],
+      "features": [
+        "Family-owned restaurant",
+        "Home-cooked American comfort food",
+        "Downtown Howe location",
+        "Chicken-fried steak and chicken",
+        "Catfish and burgers",
+        "Lunch specials",
+        "Family-friendly dining",
+        "Online ordering",
+        "Dine-in and takeout"
       ]
     }
   ]
