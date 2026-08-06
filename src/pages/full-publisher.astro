@@ -1,0 +1,221 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Full Publisher | Texoma Weekend Guide" description="Publish a complete Texoma Weekend Guide roundup with multiple images.">
+  <main class="publisher">
+    <header>
+      <p class="eyebrow">TWG Admin</p>
+      <h1>Full Publisher</h1>
+      <p>Select all roundup images together. The first selected image is the featured image.</p>
+    </header>
+
+    <section class="panel">
+      <label for="admin-key">Admin key</label>
+      <input id="admin-key" type="password" autocomplete="current-password" placeholder="Enter your private publishing key" />
+
+      <label for="roundup-slug">Roundup slug</label>
+      <input id="roundup-slug" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="texoma-weekend-roundup-august-6-9-2026" />
+
+      <label for="roundup-images">Roundup images</label>
+      <input id="roundup-images" type="file" accept="image/jpeg,image/png,image/webp" multiple />
+      <p class="helper">Choose Thursday, Friday, Saturday, and Sunday together. The first file must match the frontmatter <code>image:</code> path. Every additional filename must appear in a Markdown image link.</p>
+      <div id="image-list" class="image-list"></div>
+
+      <label for="roundup-markdown">Roundup Markdown</label>
+      <textarea id="roundup-markdown" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder={'---\ntitle: "Texoma Weekend Roundup — August 6–9, 2026"\ndescription: "..."\nstartDate: 2026-08-06\nendDate: 2026-08-09\nimage: "/images/thursday-file.png"\nfeatured: true\n---\n\n## Thursday\n\n![Thursday roundup](/images/thursday-file.png)\n\n## Friday\n\n![Friday roundup](/images/friday-file.png)'}></textarea>
+
+      <div class="actions">
+        <button id="validate" type="button">Validate Roundup</button>
+        <button id="publish" type="button" disabled>Publish Roundup</button>
+      </div>
+
+      <section class="results" aria-live="polite">
+        <h2>Status</h2>
+        <p id="status">Nothing has been validated yet.</p>
+        <ul id="checks"></ul>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    const get = (selector) => document.querySelector(selector);
+    const adminKey = get("#admin-key");
+    const slugInput = get("#roundup-slug");
+    const imagesInput = get("#roundup-images");
+    const markdownInput = get("#roundup-markdown");
+    const imageList = get("#image-list");
+    const validateButton = get("#validate");
+    const publishButton = get("#publish");
+    const status = get("#status");
+    const checks = get("#checks");
+
+    let validated = false;
+    const reset = () => { validated = false; publishButton.disabled = true; };
+    const setResult = (message, items = [], valid = false) => {
+      status.textContent = message;
+      status.className = valid ? "success" : "error";
+      checks.replaceChildren();
+      for (const item of items) {
+        const li = document.createElement("li");
+        li.textContent = item;
+        checks.appendChild(li);
+      }
+    };
+
+    const savedKey = sessionStorage.getItem("twg-admin-key");
+    if (savedKey) adminKey.value = savedKey;
+    adminKey.addEventListener("input", () => {
+      if (adminKey.value) sessionStorage.setItem("twg-admin-key", adminKey.value);
+      else sessionStorage.removeItem("twg-admin-key");
+    });
+
+    const selectedImages = () => Array.from(imagesInput.files ?? []);
+    const renderImages = () => {
+      reset();
+      imageList.replaceChildren();
+      selectedImages().forEach((file, index) => {
+        const row = document.createElement("div");
+        row.className = "image-row";
+        const img = document.createElement("img");
+        img.src = URL.createObjectURL(file);
+        img.alt = `Preview of ${file.name}`;
+        const text = document.createElement("p");
+        text.textContent = `${index === 0 ? "Featured" : `Image ${index + 1}`}: ${file.name} — ${(file.size / 1024 / 1024).toFixed(2)} MB`;
+        row.append(img, text);
+        imageList.appendChild(row);
+      });
+    };
+
+    imagesInput.addEventListener("change", renderImages);
+    slugInput.addEventListener("input", reset);
+    markdownInput.addEventListener("input", reset);
+
+    const frontmatterValue = (frontmatter, key) => {
+      const match = frontmatter.match(new RegExp(`^${key}:\\s*["']?(.+?)["']?\\s*$`, "m"));
+      return match?.[1]?.trim() ?? "";
+    };
+
+    const validate = () => {
+      reset();
+      const slug = slugInput.value.trim();
+      const markdown = markdownInput.value.replace(/\r\n?/g, "\n").trim();
+      const images = selectedImages();
+      const problems = [];
+
+      if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) problems.push("Slug must use lowercase letters, numbers, and single hyphens only.");
+      if (!images.length) problems.push("Choose at least one roundup image.");
+      if (images.length > 12) problems.push("Choose no more than 12 images.");
+
+      const names = new Set();
+      images.forEach((file, index) => {
+        const label = index === 0 ? "Primary image" : `Image ${index + 1}`;
+        if (!["image/jpeg", "image/png", "image/webp"].includes(file.type)) problems.push(`${label} must be JPG, PNG, or WebP.`);
+        if (file.size > 8 * 1024 * 1024) problems.push(`${label} must be 8 MB or smaller.`);
+        if (!/^[a-zA-Z0-9][a-zA-Z0-9._-]*$/.test(file.name)) problems.push(`${label} filename contains unsupported characters.`);
+        if (names.has(file.name)) problems.push(`Duplicate filename: ${file.name}.`);
+        names.add(file.name);
+      });
+
+      if (!markdown.startsWith("---\n")) problems.push("Markdown must begin with ---.");
+      const closingIndex = markdown.indexOf("\n---", 4);
+      if (closingIndex < 0) problems.push("Markdown is missing its closing frontmatter delimiter.");
+
+      if (!problems.length) {
+        const frontmatter = markdown.slice(4, closingIndex);
+        const body = markdown.slice(closingIndex + 4).trim();
+        const imagePath = frontmatterValue(frontmatter, "image");
+        if (!frontmatterValue(frontmatter, "title")) problems.push("Frontmatter is missing title.");
+        if (!frontmatterValue(frontmatter, "description")) problems.push("Frontmatter is missing description.");
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(frontmatterValue(frontmatter, "startDate"))) problems.push("startDate must use YYYY-MM-DD.");
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(frontmatterValue(frontmatter, "endDate"))) problems.push("endDate must use YYYY-MM-DD.");
+        if (images[0] && imagePath !== `/images/${images[0].name}`) problems.push(`Frontmatter image must be exactly /images/${images[0].name}.`);
+        images.slice(1).forEach((file) => {
+          if (!body.includes(`(/images/${file.name})`)) problems.push(`Markdown must contain (/images/${file.name}).`);
+        });
+        if (!/^##\s+/m.test(body)) problems.push("Roundup body needs at least one ## heading.");
+      }
+
+      if (problems.length) {
+        setResult("Roundup validation found problems.", problems, false);
+        return false;
+      }
+
+      validated = true;
+      publishButton.disabled = false;
+      setResult("Valid roundup. It is ready to publish.", [
+        `Slug: ${slug}`,
+        `${images.length} image(s) selected`,
+        `Featured image: ${images[0].name}`,
+        "All additional image paths appear in the Markdown"
+      ], true);
+      return true;
+    };
+
+    validateButton.addEventListener("click", validate);
+    publishButton.addEventListener("click", async () => {
+      if (!validated && !validate()) return;
+      if (!adminKey.value) {
+        setResult("Enter the admin key before publishing.", [], false);
+        adminKey.focus();
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append("slug", slugInput.value.trim());
+      formData.append("markdown", markdownInput.value.replace(/\r\n?/g, "\n").trim());
+      selectedImages().forEach((file) => formData.append("images", file, file.name));
+
+      publishButton.disabled = true;
+      publishButton.textContent = "Publishing…";
+      try {
+        const response = await fetch("/api/publish-roundup", {
+          method: "POST",
+          headers: { "x-admin-key": adminKey.value },
+          body: formData
+        });
+        const result = await response.json();
+        if (!response.ok) {
+          setResult(result.error || `Publishing failed with status ${response.status}.`, Array.isArray(result.problems) ? result.problems : [], false);
+          return;
+        }
+        validated = false;
+        setResult(result.message || "Roundup published successfully.", [
+          `Roundup: ${result.markdown_path}`,
+          ...(Array.isArray(result.image_paths) ? result.image_paths.map((path) => `Image: ${path}`) : []),
+          result.markdown_commit ? `Final commit: ${result.markdown_commit.slice(0, 7)}` : "GitHub commit created"
+        ], true);
+      } catch (error) {
+        setResult(`Publishing failed: ${error instanceof Error ? error.message : "Unknown error."}`, [], false);
+      } finally {
+        publishButton.textContent = "Publish Roundup";
+        publishButton.disabled = !validated;
+      }
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  .publisher { width: min(960px, calc(100% - 2rem)); margin: 0 auto; padding: 3rem 0 5rem; }
+  .eyebrow { margin: 0 0 .35rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+  .panel { margin-top: 1.25rem; padding: 1.25rem; border: 1px solid rgba(255,255,255,.16); border-radius: 1rem; background: rgba(255,255,255,.05); }
+  label { display: block; margin: .9rem 0 .5rem; font-weight: 800; }
+  input, textarea { width: 100%; padding: .9rem; border: 1px solid rgba(255,255,255,.22); border-radius: .65rem; font: inherit; }
+  textarea { min-height: 52vh; resize: vertical; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: .82rem; line-height: 1.45; }
+  .helper { margin: .5rem 0 0; font-size: .9rem; opacity: .8; }
+  .image-list { display: grid; gap: .75rem; margin-top: .8rem; }
+  .image-row { display: grid; grid-template-columns: 100px 1fr; gap: .8rem; align-items: center; padding: .65rem; border: 1px solid rgba(255,255,255,.14); border-radius: .75rem; }
+  .image-row img { width: 100px; height: 100px; object-fit: contain; border-radius: .45rem; }
+  .actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }
+  button { min-height: 44px; padding: .7rem 1rem; border: 0; border-radius: .6rem; font: inherit; font-weight: 800; cursor: pointer; }
+  button:disabled { cursor: not-allowed; opacity: .45; }
+  .results { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,.14); }
+  .success, .error { font-weight: 800; }
+  @media (max-width: 640px) {
+    .publisher { padding-top: 1.5rem; }
+    .panel { padding: .85rem; }
+    .actions button { flex: 1 1 100%; }
+    .image-row { grid-template-columns: 72px 1fr; }
+    .image-row img { width: 72px; height: 72px; }
+  }
+</style>
