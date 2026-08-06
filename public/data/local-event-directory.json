@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 131,
-  "publish_ready_count": 124,
+  "event_count": 132,
+  "publish_ready_count": 125,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -7651,6 +7651,84 @@
       "host_business_slug": "pickles-and-pottery-sherman",
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_slug": "joint-ribbon-cutting-woodland-cottages-sherman-2026-08-13",
+      "event_name": "Joint Ribbon Cutting: Woodland Cottages",
+      "description": "The Denison, Sherman and Pottsboro Area Chambers of Commerce will hold a joint ribbon-cutting ceremony welcoming Woodland Cottages to their chamber communities. The public event will take place at Woodland Cottages Senior Living Sherman on West Houston Street.",
+      "start_datetime": "2026-08-13T15:00:00-05:00",
+      "end_datetime": "2026-08-13T16:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "woodland-cottages-senior-living-sherman"
+      ],
+      "venue_name": "Woodland Cottages Senior Living Sherman",
+      "address": "3306 W Houston St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75092",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Ribbon Cuttings",
+        "Business Events",
+        "Community Events",
+        "Chamber Events",
+        "Networking"
+      ],
+      "tags": [
+        "Sherman",
+        "Woodland Cottages",
+        "Woodland Cottages Senior Living",
+        "Ribbon Cutting",
+        "Joint Ribbon Cutting",
+        "Denison Area Chamber of Commerce",
+        "Sherman Chamber of Commerce",
+        "Pottsboro Area Chamber of Commerce",
+        "Chamber Event",
+        "Business Community",
+        "Senior Living",
+        "Retirement Community",
+        "Networking",
+        "Community Welcome"
+      ],
+      "cost_type": "free",
+      "cost_details": "No admission charge was published for the ribbon-cutting ceremony.",
+      "audience": [
+        "community members",
+        "business owners",
+        "chamber members",
+        "local professionals",
+        "senior-living supporters",
+        "all ages"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/joint-ribbon-cutting-woodland-cottages-sherman-2026-08-13.jpg",
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 6, 2026, from the official Facebook event and promotional flyer published for the joint ribbon cutting. The event is scheduled for Thursday, August 13, 2026, at 3:00 PM at Woodland Cottages Senior Living Sherman, 3306 W Houston St, Sherman, Texas. The event description invites the public to join the Denison, Sherman and Pottsboro Area Chambers of Commerce as they welcome Woodland Cottages to their chamber communities. No formal ending time was published, so a one-hour event window is used for calendar display.",
+      "last_checked": "2026-08-06",
+      "created_on": "2026-08-06",
+      "updated_on": "2026-08-06",
+      "organizer_name": "Denison Area Chamber of Commerce",
+      "image_alt": "Joint ribbon-cutting invitation for Woodland Cottages in Sherman on August 13, 2026",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": "woodland-cottages-senior-living-sherman",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Denison Area Chamber of Commerce",
+        "Sherman Chamber of Commerce",
+        "Pottsboro Area Chamber of Commerce",
+        "Woodland Cottages Senior Living Sherman"
+      ]
     }
   ]
 }
