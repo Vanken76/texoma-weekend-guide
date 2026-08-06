@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 136,
-  "publish_ready_count": 129,
+  "event_count": 137,
+  "publish_ready_count": 130,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -8014,6 +8014,71 @@
       "image_alt": "Promotional image for Wonho performing at The Grand Theater at Choctaw Casino & Resort – Durant on August 7, 2026.",
       "recurrence_start_date": null,
       "recurrence_end_date": null
+    },
+    {
+      "event_slug": "kane-brown-choctaw-grand-theater-2026-08-08",
+      "event_name": "Kane Brown",
+      "description": "Kane Brown performs live at The Grand Theater at Choctaw Casino & Resort – Durant on Saturday, August 8, 2026. The multi-platinum country singer-songwriter brings his blend of contemporary country, pop and R&B influences to Durant for an evening of chart-topping songs and high-energy live entertainment. Doors open at 6:30 PM, and the concert begins at 8:00 PM.",
+      "start_datetime": "2026-08-08T20:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-grand-theater-choctaw-casino-resort-durant"
+      ],
+      "venue_name": "The Grand Theater at Choctaw Casino & Resort – Durant",
+      "address": "3735 Choctaw Rd",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Concerts"
+      ],
+      "tags": [
+        "Kane Brown",
+        "Country Music",
+        "Contemporary Country",
+        "Live Music",
+        "Concert",
+        "The High Road",
+        "Choctaw Grand Theater",
+        "Choctaw Casino",
+        "Durant",
+        "Oklahoma",
+        "Saturday Night"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Reserved tickets are required. Ticket prices and availability vary by seating section. Ticketmaster is the official ticketing agent for Choctaw Casinos & Resorts.",
+      "audience": [
+        "country music fans",
+        "concertgoers",
+        "Kane Brown fans",
+        "live entertainment audiences"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/kane-brown-choctaw-grand-theater-2026-08-08.jpg",
+      "official_url": "https://www.choctawcasinos.com/events/kane-brown/",
+      "facebook_url": "https://fb.me/e/afrWLASTh",
+      "ticket_url": "https://www.ticketmaster.com/kane-brown-durant-oklahoma-08-08-2026/event/0C006351F9A86EAD",
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 6, 2026, through the official Choctaw Casinos & Resorts event listing, the official Ticketmaster event page and the official Facebook event. Kane Brown is scheduled to perform Saturday, August 8, 2026, at The Grand Theater at Choctaw Casino & Resort – Durant. Doors open at 6:30 PM, and showtime is 8:00 PM. Ticketmaster is identified by Choctaw Casinos & Resorts as its official ticketing agent.",
+      "last_checked": "2026-08-06",
+      "created_on": "2026-08-06",
+      "updated_on": "2026-08-06",
+      "organizer_name": "Choctaw Casinos & Resorts",
+      "image_alt": "Kane Brown concert promotion for August 8, 2026, at The Grand Theater at Choctaw Casino & Resort – Durant",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": null,
+      "partner_business_slugs": [],
+      "partner_names": []
     }
   ]
 }
