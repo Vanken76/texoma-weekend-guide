@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "project": "Texoma Weekend Guide",
   "document_type": "local_event_directory",
-  "generated_on": "2026-08-05",
+  "generated_on": "2026-08-06",
   "timezone_default": "America/Chicago",
   "publication_rule": "Only records with publish_ready=true should appear in the public event directory.",
   "active_event_rule": "status in [upcoming, recurring] and either end_datetime is in the future, or end_datetime is null and the local event date has not passed",
@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 127,
-  "publish_ready_count": 120,
+  "event_count": 128,
+  "publish_ready_count": 121,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -7346,6 +7346,86 @@
       "host_business_slug": "calhouns-2-0",
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_slug": "red-river-rumble-durant-2026-08-08",
+      "event_name": "Red River Rumble",
+      "description": "Borderline Boxing Club presents the Red River Rumble, an Oklahoma-versus-Texas amateur boxing showdown at the Durant Multi-Sports Complex. The newly published fight card features 28 scheduled bouts and 56 athletes competing across weight classes ranging from 62 pounds to 180 pounds. After months of training, sacrifice and preparation, fighters from both sides of the Red River will step into the ring for an evening built around competitive matchups, regional pride and community support. The card builds toward a 180-pound closing showdown between Oklahoma red-corner fighter William Beckley and Texas blue-corner fighter Ronald Sango. The USA Boxing-sanctioned event also features live entertainment, merchandise and apparel vendors, food trucks, a beer garden hosted by Red Barn Saloon, premium ringside seating and limited VIP table availability.",
+      "start_datetime": "2026-08-08T17:00:00-05:00",
+      "end_datetime": "2026-08-08T23:55:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "durant-multi-sports-complex"
+      ],
+      "venue_name": "Durant Multi-Sports Complex",
+      "address": "1920 OK-78",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Sports",
+        "Boxing",
+        "Amateur Sports",
+        "Family Entertainment"
+      ],
+      "tags": [
+        "Durant",
+        "Bryan County",
+        "Red River Rumble",
+        "Borderline Boxing Club",
+        "Oklahoma vs Texas",
+        "Amateur Boxing",
+        "USA Boxing",
+        "Live Boxing",
+        "Combat Sports",
+        "28 Bouts",
+        "56 Fighters",
+        "William Beckley",
+        "Ronald Sango",
+        "Food Trucks",
+        "Merchandise Vendors",
+        "Beer Garden",
+        "VIP Seating",
+        "Regional Sports",
+        "Durant Multi-Sports Complex"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "Tickets are required, but current prices were not published in the supplied event materials. General event information, premium ringside seating and limited VIP table availability are available through Borderline Boxing Club.",
+      "audience": [
+        "Boxing fans",
+        "Sports fans",
+        "Families",
+        "Community supporters",
+        "Oklahoma and Texas fight teams"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "borderline-boxing-club-durant",
+      "organizer_name": "Borderline Boxing Club",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Red Barn Saloon",
+        "USA Boxing",
+        "Millions PPV"
+      ],
+      "image_url": "/images/events/red-river-rumble-durant-2026-08-08.jpg",
+      "image_alt": "Red River Rumble Oklahoma versus Texas amateur boxing fight card featuring 28 scheduled bouts on August 8, 2026, at Durant Multi-Sports Complex",
+      "official_url": "https://borderlineboxing.com/",
+      "facebook_url": null,
+      "ticket_url": "https://borderlineboxing.com/",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 5, 2026, using the official Borderline Boxing Club website, the official Facebook event screenshots and the newly published Red River Rumble fight-card flyer. The Facebook event confirms Saturday, August 8, 2026, from 5:00 PM to 11:55 PM at Durant Multi-Sports Complex. The updated fight card lists 28 bouts and 56 fighters, superseding the earlier official website estimate of 20 to 25 bouts. The final scheduled matchup is Oklahoma fighter William Beckley versus Texas fighter Ronald Sango at 180 pounds. The official website confirms USA Boxing sanction ID 927840, live entertainment, family-friendly atmosphere, merchandise vendors, food trucks, a beer garden hosted by Red Barn Saloon, premium ringside seating and limited VIP tables. Ticket prices were not published and were not invented.",
+      "last_checked": "2026-08-05",
+      "created_on": "2026-08-05",
+      "updated_on": "2026-08-06"
     }
   ]
 }
