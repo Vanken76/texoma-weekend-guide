@@ -1,6 +1,7 @@
 const REPOSITORY = "Vanken76/texoma-weekend-guide";
 const BRANCH = "main";
 const MAX_IMAGE_BYTES = 8 * 1024 * 1024;
+const MAX_IMAGES = 12;
 const ALLOWED_IMAGE_TYPES = new Map([
   ["image/jpeg", ["jpg", "jpeg"]],
   ["image/png", ["png"]],
@@ -25,20 +26,18 @@ const bytesToBase64 = (bytes) => {
   return btoa(binary);
 };
 
-const textToBase64 = (text) =>
-  bytesToBase64(new TextEncoder().encode(text));
+const textToBase64 = (text) => bytesToBase64(new TextEncoder().encode(text));
 
 const frontmatterValue = (frontmatter, key) => {
   const match = frontmatter.match(new RegExp(`^${key}:\\s*["']?(.+?)["']?\\s*$`, "m"));
   return match?.[1]?.trim() ?? "";
 };
 
-const validateImage = (image, label, problems, required = false) => {
+const validateImage = (image, label, problems) => {
   if (!(image instanceof File)) {
-    if (required) problems.push(`Choose a ${label.toLowerCase()}.`);
+    problems.push(`${label} is missing.`);
     return;
   }
-
   const extension = image.name.split(".").pop()?.toLowerCase() ?? "";
   const allowedExtensions = ALLOWED_IMAGE_TYPES.get(image.type);
   if (!allowedExtensions || !allowedExtensions.includes(extension)) {
@@ -51,24 +50,25 @@ const validateImage = (image, label, problems, required = false) => {
   if (image.size > MAX_IMAGE_BYTES) problems.push(`${label} must be 8 MB or smaller.`);
 };
 
-const validateRoundup = ({ slug, markdown, primaryImage, secondaryImage }) => {
+const validateRoundup = ({ slug, markdown, images }) => {
   const problems = [];
-
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) {
     problems.push("Slug must use lowercase letters, numbers, and single hyphens only.");
   }
+  if (!images.length) problems.push("Choose at least one roundup image.");
+  if (images.length > MAX_IMAGES) problems.push(`Choose no more than ${MAX_IMAGES} images.`);
 
-  validateImage(primaryImage, "Primary image", problems, true);
-  validateImage(secondaryImage, "Second image", problems, false);
-  if (primaryImage instanceof File && secondaryImage instanceof File && primaryImage.name === secondaryImage.name) {
-    problems.push("The primary and second images must have different filenames.");
-  }
+  const names = new Set();
+  images.forEach((image, index) => {
+    validateImage(image, index === 0 ? "Primary image" : `Image ${index + 1}`, problems);
+    if (names.has(image.name)) problems.push(`Duplicate image filename: ${image.name}.`);
+    names.add(image.name);
+  });
 
   if (!markdown.startsWith("---\n")) {
     problems.push("Markdown must begin with a frontmatter delimiter (---).");
     return problems;
   }
-
   const closingIndex = markdown.indexOf("\n---", 4);
   if (closingIndex < 0) {
     problems.push("Markdown is missing the closing frontmatter delimiter.");
@@ -88,15 +88,18 @@ const validateRoundup = ({ slug, markdown, primaryImage, secondaryImage }) => {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(startDate)) problems.push("startDate must use YYYY-MM-DD.");
   if (!/^\d{4}-\d{2}-\d{2}$/.test(endDate)) problems.push("endDate must use YYYY-MM-DD.");
   if (startDate && endDate && endDate < startDate) problems.push("endDate cannot be before startDate.");
-  if (primaryImage instanceof File && imagePath !== `/images/${primaryImage.name}`) {
+
+  const primaryImage = images[0];
+  if (primaryImage && imagePath !== `/images/${primaryImage.name}`) {
     problems.push(`Frontmatter image must be exactly /images/${primaryImage.name}.`);
   }
-  if (secondaryImage instanceof File && !body.includes(`(/images/${secondaryImage.name})`)) {
-    problems.push(`Markdown body must include an image link ending in (/images/${secondaryImage.name}).`);
+  for (const image of images.slice(1)) {
+    if (!body.includes(`(/images/${image.name})`)) {
+      problems.push(`Markdown body must include an image link ending in (/images/${image.name}).`);
+    }
   }
   if (!body) problems.push("The roundup body is empty.");
   if (!/^##\s+/m.test(body)) problems.push("The roundup body needs at least one ## section heading.");
-
   return problems;
 };
 
@@ -107,8 +110,7 @@ const githubHeaders = (token) => ({
   "user-agent": "texoma-weekend-guide-publisher"
 });
 
-const githubFileUrl = (path) =>
-  `https://api.github.com/repos/${REPOSITORY}/contents/${path}`;
+const githubFileUrl = (path) => `https://api.github.com/repos/${REPOSITORY}/contents/${path}`;
 
 const getExistingFileSha = async (path, headers) => {
   const response = await fetch(`${githubFileUrl(path)}?ref=${BRANCH}`, { headers });
@@ -122,22 +124,11 @@ const upsertGithubFile = async ({ path, content, message, headers }) => {
   const sha = await getExistingFileSha(path, headers);
   const response = await fetch(githubFileUrl(path), {
     method: "PUT",
-    headers: {
-      ...headers,
-      "content-type": "application/json"
-    },
-    body: JSON.stringify({
-      message,
-      content,
-      branch: BRANCH,
-      ...(sha ? { sha } : {})
-    })
+    headers: { ...headers, "content-type": "application/json" },
+    body: JSON.stringify({ message, content, branch: BRANCH, ...(sha ? { sha } : {}) })
   });
-
   const result = await response.json();
-  if (!response.ok) {
-    throw new Error(result?.message || `GitHub rejected ${path} (${response.status}).`);
-  }
+  if (!response.ok) throw new Error(result?.message || `GitHub rejected ${path} (${response.status}).`);
   return { result, updated: Boolean(sha) };
 };
 
@@ -145,11 +136,8 @@ export const onRequestPost = async ({ request, env }) => {
   if (!env.ADMIN_KEY || !env.GITHUB_TOKEN) {
     return jsonResponse({ error: "Publisher secrets are not configured in Cloudflare." }, 500);
   }
-
   const suppliedKey = request.headers.get("x-admin-key");
-  if (!suppliedKey || suppliedKey !== env.ADMIN_KEY) {
-    return jsonResponse({ error: "Incorrect admin key." }, 401);
-  }
+  if (!suppliedKey || suppliedKey !== env.ADMIN_KEY) return jsonResponse({ error: "Incorrect admin key." }, 401);
 
   let form;
   try {
@@ -160,44 +148,36 @@ export const onRequestPost = async ({ request, env }) => {
 
   const slugValue = form.get("slug");
   const markdownValue = form.get("markdown");
-  const primaryValue = form.get("image_primary") ?? form.get("image");
-  const secondaryValue = form.get("image_secondary");
   const slug = typeof slugValue === "string" ? slugValue.trim() : "";
-  const markdown = typeof markdownValue === "string"
-    ? markdownValue.replace(/\r\n?/g, "\n").trim()
-    : "";
-  const primaryImage = primaryValue instanceof File ? primaryValue : null;
-  const secondaryImage = secondaryValue instanceof File && secondaryValue.size > 0 ? secondaryValue : null;
+  const markdown = typeof markdownValue === "string" ? markdownValue.replace(/\r\n?/g, "\n").trim() : "";
 
-  const problems = validateRoundup({ slug, markdown, primaryImage, secondaryImage });
-  if (problems.length) {
-    return jsonResponse({ error: "Validation failed.", problems }, 400);
+  let images = form.getAll("images").filter((value) => value instanceof File && value.size > 0);
+  if (!images.length) {
+    const legacyPrimary = form.get("image_primary") ?? form.get("image");
+    const legacySecondary = form.get("image_secondary");
+    images = [legacyPrimary, legacySecondary].filter((value) => value instanceof File && value.size > 0);
   }
 
+  const problems = validateRoundup({ slug, markdown, images });
+  if (problems.length) return jsonResponse({ error: "Validation failed.", problems }, 400);
+
   const markdownPath = `src/content/roundups/${slug}.md`;
-  const primaryImagePath = `public/images/${primaryImage.name}`;
-  const secondaryImagePath = secondaryImage ? `public/images/${secondaryImage.name}` : null;
   const headers = githubHeaders(env.GITHUB_TOKEN);
 
   try {
     const now = new Date().toISOString();
-    const primaryBytes = new Uint8Array(await primaryImage.arrayBuffer());
-    const primaryWrite = await upsertGithubFile({
-      path: primaryImagePath,
-      content: bytesToBase64(primaryBytes),
-      message: `Publish primary roundup image for ${slug} ${now}`,
-      headers
-    });
-
-    let secondaryWrite = null;
-    if (secondaryImage && secondaryImagePath) {
-      const secondaryBytes = new Uint8Array(await secondaryImage.arrayBuffer());
-      secondaryWrite = await upsertGithubFile({
-        path: secondaryImagePath,
-        content: bytesToBase64(secondaryBytes),
-        message: `Publish second roundup image for ${slug} ${now}`,
+    const imageResults = [];
+    for (let index = 0; index < images.length; index += 1) {
+      const image = images[index];
+      const path = `public/images/${image.name}`;
+      const bytes = new Uint8Array(await image.arrayBuffer());
+      const write = await upsertGithubFile({
+        path,
+        content: bytesToBase64(bytes),
+        message: `Publish roundup image ${index + 1} for ${slug} ${now}`,
         headers
       });
+      imageResults.push({ path, commit: write.result?.commit?.sha ?? null, updated: write.updated });
     }
 
     const markdownWrite = await upsertGithubFile({
@@ -207,7 +187,7 @@ export const onRequestPost = async ({ request, env }) => {
       headers
     });
 
-    const updatedAny = primaryWrite.updated || secondaryWrite?.updated || markdownWrite.updated;
+    const updatedAny = markdownWrite.updated || imageResults.some((item) => item.updated);
     return jsonResponse({
       success: true,
       message: updatedAny
@@ -215,11 +195,11 @@ export const onRequestPost = async ({ request, env }) => {
         : "Roundup files committed to GitHub. Cloudflare deployment should begin automatically.",
       slug,
       markdown_path: markdownPath,
-      primary_image_path: primaryImagePath,
-      secondary_image_path: secondaryImagePath,
       markdown_commit: markdownWrite.result?.commit?.sha ?? null,
-      primary_image_commit: primaryWrite.result?.commit?.sha ?? null,
-      secondary_image_commit: secondaryWrite?.result?.commit?.sha ?? null,
+      image_paths: imageResults.map((item) => item.path),
+      image_commits: imageResults.map((item) => item.commit),
+      primary_image_path: imageResults[0]?.path ?? null,
+      primary_image_commit: imageResults[0]?.commit ?? null,
       updated_existing: Boolean(updatedAny)
     });
   } catch (error) {
@@ -229,7 +209,5 @@ export const onRequestPost = async ({ request, env }) => {
 };
 
 export const onRequest = async ({ request }) => {
-  if (request.method !== "POST") {
-    return jsonResponse({ error: "Method not allowed." }, 405);
-  }
+  if (request.method !== "POST") return jsonResponse({ error: "Method not allowed." }, 405);
 };
