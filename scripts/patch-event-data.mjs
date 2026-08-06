@@ -64,6 +64,57 @@ const normalizeRecurrenceRule = (value) => {
 const isMachineReadableRule = (value) =>
   typeof value === "string" && /^FREQ=(DAILY|WEEKLY|MONTHLY|YEARLY)(;[A-Z]+=[^;]+)*$/.test(value);
 
+const chicagoDate = (date = new Date()) => new Intl.DateTimeFormat("en-CA", {
+  timeZone: "America/Chicago",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit"
+}).format(date);
+
+const dayCodeByIndex = ["SU", "MO", "TU", "WE", "TH", "FR", "SA"];
+const dateOnly = (value) => typeof value === "string" ? value.slice(0, 10) : "";
+
+const shiftIsoDate = (value, days) => {
+  if (!value || !days) return value;
+  const match = String(value).match(/^(\d{4})-(\d{2})-(\d{2})(T.*)$/);
+  if (!match) return value;
+  const date = new Date(`${match[1]}-${match[2]}-${match[3]}T12:00:00Z`);
+  date.setUTCDate(date.getUTCDate() + days);
+  return `${date.toISOString().slice(0, 10)}${match[4]}`;
+};
+
+const rollWeeklyEventForward = (event) => {
+  const rule = Object.fromEntries(
+    String(event.recurrence_rule ?? "").split(";").map((part) => part.split("=")).filter(([key, value]) => key && value)
+  );
+  if (rule.FREQ !== "WEEKLY" || !event.start_datetime) return false;
+
+  const currentDate = chicagoDate();
+  const startDate = dateOnly(event.start_datetime);
+  if (!startDate || startDate >= currentDate) return false;
+
+  const allowedDays = (rule.BYDAY ?? dayCodeByIndex[new Date(`${startDate}T12:00:00Z`).getUTCDay()]).split(",");
+  const interval = Math.max(1, Number.parseInt(rule.INTERVAL ?? "1", 10) || 1);
+  const original = new Date(`${startDate}T12:00:00Z`);
+  let candidate = new Date(`${currentDate}T12:00:00Z`);
+
+  for (let offset = 0; offset < 370; offset += 1) {
+    const candidateDate = candidate.toISOString().slice(0, 10);
+    const daysApart = Math.round((candidate.getTime() - original.getTime()) / 86400000);
+    const dayCode = dayCodeByIndex[candidate.getUTCDay()];
+    if (daysApart >= 0 && allowedDays.includes(dayCode) && Math.floor(daysApart / 7) % interval === 0) {
+      const shiftDays = Math.round((candidate.getTime() - original.getTime()) / 86400000);
+      event.start_datetime = shiftIsoDate(event.start_datetime, shiftDays);
+      if (event.end_datetime) event.end_datetime = shiftIsoDate(event.end_datetime, shiftDays);
+      event.updated_on = currentDate;
+      return true;
+    }
+    candidate.setUTCDate(candidate.getUTCDate() + 1);
+  }
+
+  return false;
+};
+
 const venueRelationshipPatches = new Map([
   ["country-line-dance-class-mckinney", { venue_slug: "the-dance-collective-mckinney", venue_name: "The Dance Collective McKinney" }],
   ["two-step-in-mckinney", { venue_slug: "the-dance-collective-mckinney", venue_name: "The Dance Collective McKinney" }],
@@ -73,6 +124,7 @@ const venueRelationshipPatches = new Map([
 
 let changed = false;
 const normalizedRecurring = [];
+const rolledRecurring = [];
 const recurringWarnings = [];
 
 const originalEventCount = Array.isArray(directory.events) ? directory.events.length : 0;
@@ -98,6 +150,16 @@ for (const event of directory.events) {
       event.recurrence_rule = normalizedRule;
       event.updated_on = "2026-08-06";
       normalizedRecurring.push(event.event_slug);
+      changed = true;
+    }
+
+    if (event.event_slug === "karaoke-night-julian-tower-whiskey-bar-pottsboro" && event.city !== "Pottsboro") {
+      event.city = "Pottsboro";
+      changed = true;
+    }
+
+    if (isMachineReadableRule(event.recurrence_rule) && rollWeeklyEventForward(event)) {
+      rolledRecurring.push(event.event_slug);
       changed = true;
     }
 
@@ -161,7 +223,7 @@ if (directory.publish_ready_count !== publishReadyCount) {
 
 if (changed) {
   fs.writeFileSync(filePath, `${JSON.stringify(directory, null, 2)}\n`);
-  console.log(`Patched event data. Normalized ${normalizedRecurring.length} recurring rule(s).`);
+  console.log(`Patched event data. Normalized ${normalizedRecurring.length} recurring rule(s); rolled ${rolledRecurring.length} recurring event(s) forward.`);
 } else {
   console.log("Event data already patched.");
 }
