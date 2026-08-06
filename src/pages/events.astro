@@ -4,12 +4,13 @@ import directory from "../../public/data/local-event-directory.json";
 import businessDirectory from "../../public/data/local-business-directory.json";
 
 const now = new Date();
-const today = new Intl.DateTimeFormat("en-CA", {
+const chicagoDate = (date = new Date()) => new Intl.DateTimeFormat("en-CA", {
   timeZone: "America/Chicago",
   year: "numeric",
   month: "2-digit",
   day: "2-digit"
-}).format(now);
+}).format(date);
+const today = chicagoDate(now);
 
 const businesses = businessDirectory.businesses ?? [];
 const businessBySlug = new Map(businesses.map((business) => [business.slug, business]));
@@ -36,9 +37,16 @@ const withVenueFallbacks = (event) => {
 
 const isRecurring = (event) => event.recurring === true;
 const isActive = (event) => event.active !== false;
+const normalizeRule = (rule = "") => String(rule ?? "").trim().replace(/^RRULE:/i, "");
 const parseRule = (rule = "") => Object.fromEntries(
-  String(rule ?? "").split(";").map((part) => part.split("=")).filter(([key, value]) => key && value)
+  normalizeRule(rule).split(";").map((part) => part.split("=")).filter(([key, value]) => key && value)
 );
+const addDays = (dateString, days) => {
+  const date = new Date(`${dateString}T12:00:00`);
+  date.setDate(date.getDate() + days);
+  return chicagoDate(date);
+};
+const dayCode = (dateString) => ["SU", "MO", "TU", "WE", "TH", "FR", "SA"][new Date(`${dateString}T12:00:00`).getDay()];
 
 const recurrenceEndDate = (event) => {
   if (event.recurrence_end_date) return event.recurrence_end_date;
@@ -47,12 +55,58 @@ const recurrenceEndDate = (event) => {
   return `${until.slice(0, 4)}-${until.slice(4, 6)}-${until.slice(6, 8)}`;
 };
 
+const rdates = (rule = "") => {
+  const value = normalizeRule(rule).startsWith("RDATE:") ? normalizeRule(rule).slice(6) : "";
+  return value.split(",").map((entry) => entry.slice(0, 8)).filter(/^\d{8}$/).map((entry) => `${entry.slice(0, 4)}-${entry.slice(4, 6)}-${entry.slice(6, 8)}`);
+};
+
+const occursOn = (eventDate, targetDate, recurrenceRule, recurrenceEnd) => {
+  if (!eventDate || targetDate < eventDate || (recurrenceEnd && targetDate > recurrenceEnd)) return false;
+  const normalized = normalizeRule(recurrenceRule);
+  if (normalized.startsWith("RDATE:")) return rdates(recurrenceRule).includes(targetDate);
+
+  const rule = parseRule(recurrenceRule);
+  const frequency = rule.FREQ;
+  if (!frequency) return targetDate === eventDate;
+
+  const interval = Math.max(1, Number.parseInt(rule.INTERVAL ?? "1", 10) || 1);
+  const start = new Date(`${eventDate}T12:00:00`);
+  const target = new Date(`${targetDate}T12:00:00`);
+  const daysApart = Math.round((target.getTime() - start.getTime()) / 86400000);
+
+  if (frequency === "DAILY") return daysApart % interval === 0;
+  if (frequency === "WEEKLY") {
+    const allowedDays = (rule.BYDAY ?? dayCode(eventDate)).split(",");
+    return allowedDays.includes(dayCode(targetDate)) && Math.floor(daysApart / 7) % interval === 0;
+  }
+  if (frequency === "MONTHLY") {
+    const monthsApart = (target.getFullYear() - start.getFullYear()) * 12 + target.getMonth() - start.getMonth();
+    const allowedMonthDays = (rule.BYMONTHDAY ?? String(start.getDate())).split(",").map(Number);
+    return monthsApart >= 0 && monthsApart % interval === 0 && allowedMonthDays.includes(target.getDate());
+  }
+  if (frequency === "YEARLY") {
+    const yearsApart = target.getFullYear() - start.getFullYear();
+    return yearsApart >= 0 && yearsApart % interval === 0 && target.getMonth() === start.getMonth() && target.getDate() === start.getDate();
+  }
+  return targetDate === eventDate;
+};
+
+const nextOccurrenceDate = (event, fromDate = today) => {
+  const eventDate = event.start_datetime?.slice(0, 10) ?? "";
+  if (!eventDate) return null;
+  if (!isRecurring(event)) return eventDate >= fromDate ? eventDate : null;
+
+  const endDate = recurrenceEndDate(event);
+  const scanEnd = endDate && endDate < addDays(fromDate, 730) ? endDate : addDays(fromDate, 730);
+  for (let date = fromDate; date <= scanEnd; date = addDays(date, 1)) {
+    if (occursOn(eventDate, date, event.recurrence_rule ?? "", endDate ?? "")) return date;
+  }
+  return null;
+};
+
 const isCurrent = (event) => {
   if (!isActive(event)) return false;
-  if (isRecurring(event)) {
-    const endDate = recurrenceEndDate(event);
-    return !endDate || endDate >= today;
-  }
+  if (isRecurring(event)) return Boolean(nextOccurrenceDate(event));
   if (event.end_datetime) return new Date(event.end_datetime) >= now;
   return Boolean(event.start_datetime && event.start_datetime.slice(0, 10) >= today);
 };
@@ -63,7 +117,7 @@ const formatDate = (value) => new Intl.DateTimeFormat("en-US", {
   month: "long",
   day: "numeric",
   year: "numeric"
-}).format(new Date(value));
+}).format(new Date(`${value.slice(0, 10)}T12:00:00`));
 
 const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
   timeZone: "America/Chicago",
@@ -76,8 +130,11 @@ const events = (directory.events ?? [])
   .filter((event) => event.publish_ready === true)
   .filter((event) => ["upcoming", "recurring"].includes(event.status))
   .filter(isCurrent)
+  .map((event) => ({ ...event, next_occurrence_date: nextOccurrenceDate(event) }))
+  .filter((event) => Boolean(event.next_occurrence_date))
   .sort((a, b) => {
-    if (isRecurring(a) !== isRecurring(b)) return isRecurring(a) ? 1 : -1;
+    const dateComparison = a.next_occurrence_date.localeCompare(b.next_occurrence_date);
+    if (dateComparison !== 0) return dateComparison;
     return new Date(a.start_datetime).getTime() - new Date(b.start_datetime).getTime();
   });
 
@@ -125,6 +182,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
                 data-event-card
                 data-search={searchable}
                 data-date={event.start_datetime?.slice(0, 10) ?? ""}
+                data-next-date={event.next_occurrence_date ?? ""}
                 data-city={(event.city ?? "").toLowerCase()}
                 data-categories={(event.categories ?? []).join("|").toLowerCase()}
                 data-cost={event.cost_type ?? "unknown"}
@@ -134,7 +192,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
               >
                 {event.image_url && <a class="flyer-link" href={event.image_url} target="_blank" rel="noreferrer"><img class="event-flyer" src={event.image_url} alt={event.image_alt || `${event.event_name} flyer`} loading="lazy" /></a>}
                 <div class="event-card-body">
-                  <div class="event-date"><strong>{recurring ? "Recurring event" : formatDate(event.start_datetime)}</strong><span>{event.start_datetime ? formatTime(event.start_datetime) : ""}{event.end_datetime ? `–${formatTime(event.end_datetime)}` : ""}</span></div>
+                  <div class="event-date"><strong>{recurring ? `Recurring · Next ${formatDate(event.next_occurrence_date)}` : formatDate(event.start_datetime)}</strong><span>{event.start_datetime ? formatTime(event.start_datetime) : ""}{event.end_datetime ? `–${formatTime(event.end_datetime)}` : ""}</span></div>
                   <h2>{event.event_name}</h2>
                   {(event.venue_name || event.city) && <p class="venue">{event.venue_name}{event.city ? `${event.venue_name ? " · " : ""}${event.city}, ${event.state}` : ""}</p>}
                   {event.description && <p>{event.description}</p>}
@@ -187,18 +245,23 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
 
     const chicagoDate = (date = new Date()) => new Intl.DateTimeFormat("en-CA", { timeZone: "America/Chicago", year: "numeric", month: "2-digit", day: "2-digit" }).format(date);
     const addDays = (dateString, days) => { const date = new Date(`${dateString}T12:00:00`); date.setDate(date.getDate() + days); return chicagoDate(date); };
-    const parseRule = (rule = "") => Object.fromEntries(String(rule ?? "").split(";").map((part) => part.split("=")).filter(([key, value]) => key && value));
+    const normalizeRule = (rule = "") => String(rule ?? "").trim().replace(/^RRULE:/i, "");
+    const parseRule = (rule = "") => Object.fromEntries(normalizeRule(rule).split(";").map((part) => part.split("=")).filter(([key, value]) => key && value));
     const dayCode = (dateString) => ["SU", "MO", "TU", "WE", "TH", "FR", "SA"][new Date(`${dateString}T12:00:00`).getDay()];
 
     const occursOn = (eventDate, targetDate, recurrenceRule, recurrenceEnd) => {
       if (!eventDate || targetDate < eventDate || (recurrenceEnd && targetDate > recurrenceEnd)) return false;
+      const normalized = normalizeRule(recurrenceRule);
+      if (normalized.startsWith("RDATE:")) {
+        return normalized.slice(6).split(",").map((entry) => entry.slice(0, 8)).map((entry) => `${entry.slice(0, 4)}-${entry.slice(4, 6)}-${entry.slice(6, 8)}`).includes(targetDate);
+      }
       const rule = parseRule(recurrenceRule);
-      const frequency = rule.FREQ ?? "WEEKLY";
+      const frequency = rule.FREQ;
+      if (!frequency) return targetDate === eventDate;
       const interval = Math.max(1, Number.parseInt(rule.INTERVAL ?? "1", 10) || 1);
       const start = new Date(`${eventDate}T12:00:00`);
       const target = new Date(`${targetDate}T12:00:00`);
       const daysApart = Math.round((target.getTime() - start.getTime()) / 86400000);
-
       if (frequency === "DAILY") return daysApart % interval === 0;
       if (frequency === "WEEKLY") {
         const allowedDays = (rule.BYDAY ?? dayCode(eventDate)).split(",");
@@ -269,15 +332,8 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
         button.textContent = String(page);
         button.className = "page-number";
         button.setAttribute("aria-label", `Go to page ${page}`);
-        if (page === currentPage) {
-          button.classList.add("active");
-          button.setAttribute("aria-current", "page");
-        }
-        button.addEventListener("click", () => {
-          currentPage = page;
-          applyFilters(false);
-          document.querySelector(".event-filters")?.scrollIntoView({ behavior: "smooth", block: "start" });
-        });
+        if (page === currentPage) { button.classList.add("active"); button.setAttribute("aria-current", "page"); }
+        button.addEventListener("click", () => { currentPage = page; applyFilters(false); document.querySelector(".event-filters")?.scrollIntoView({ behavior: "smooth", block: "start" }); });
         pageNumbers.appendChild(button);
       }
     };
@@ -291,23 +347,14 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
       const end = start + PAGE_SIZE;
       const visibleSet = new Set(matches.slice(start, end));
       cards.forEach((card) => { card.hidden = !visibleSet.has(card); });
-
-      if (resultCount) {
-        resultCount.textContent = matches.length
-          ? `Showing ${start + 1}–${Math.min(end, matches.length)} of ${matches.length} events`
-          : "0 events";
-      }
+      if (resultCount) resultCount.textContent = matches.length ? `Showing ${start + 1}–${Math.min(end, matches.length)} of ${matches.length} events` : "0 events";
       if (noResults) noResults.hidden = matches.length !== 0;
       if (pagination) pagination.hidden = matches.length === 0 || totalPages <= 1;
       renderPagination(totalPages);
     };
 
     [searchInput, dateFilter, cityFilter, categoryFilter].forEach((control) => control?.addEventListener(control === searchInput ? "input" : "change", () => applyFilters(true)));
-    quickButtons.forEach((button) => button.addEventListener("click", () => {
-      quickFilter = button.dataset.quick ?? "all";
-      quickButtons.forEach((item) => item.classList.toggle("active", item === button));
-      applyFilters(true);
-    }));
+    quickButtons.forEach((button) => button.addEventListener("click", () => { quickFilter = button.dataset.quick ?? "all"; quickButtons.forEach((item) => item.classList.toggle("active", item === button)); applyFilters(true); }));
     previousPage?.addEventListener("click", () => { if (currentPage > 1) { currentPage -= 1; applyFilters(false); document.querySelector(".event-filters")?.scrollIntoView({ behavior: "smooth", block: "start" }); } });
     nextPage?.addEventListener("click", () => { const totalPages = Math.ceil(filteredCards().length / PAGE_SIZE); if (currentPage < totalPages) { currentPage += 1; applyFilters(false); document.querySelector(".event-filters")?.scrollIntoView({ behavior: "smooth", block: "start" }); } });
     document.querySelector("#clear-filters")?.addEventListener("click", () => location.reload());
