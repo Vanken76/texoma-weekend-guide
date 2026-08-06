@@ -5,8 +5,8 @@
   "generated_on": "2026-08-06",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 605,
-  "publish_ready_count": 269,
+  "business_count": 606,
+  "publish_ready_count": 270,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -30159,6 +30159,98 @@
         "Supplier and travel-industry relationships",
         "Personalized itinerary assistance",
         "Potential community and chamber event host"
+      ]
+    },
+    {
+      "slug": "magnolia-cafe-albion",
+      "business_name": "Magnolia Cafe",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "901 N Orange St, Albion, IN 46701",
+      "category": [
+        "Restaurant",
+        "American Restaurant",
+        "Family Restaurant",
+        "Cafe",
+        "Breakfast Restaurant"
+      ],
+      "tags": [
+        "Breakfast",
+        "Comfort Food",
+        "Daily Specials",
+        "Family Dining",
+        "Homestyle Cooking",
+        "Dine-In",
+        "Takeout"
+      ],
+      "description": "Magnolia Cafe is a casual, family-style restaurant in Albion, Indiana, offering homemade daily specials and familiar American comfort food in a friendly, welcoming atmosphere. The restaurant provides dine-in and takeout service and asks parties of six or more to call ahead so the staff can prepare for the group.",
+      "why_visit": "Visit Magnolia Cafe for a relaxed local dining experience centered on homemade daily specials, hearty comfort food and friendly service. It is suited to everyday meals, breakfast outings and casual gatherings with family or friends.",
+      "why_its_unique": "Magnolia Cafe combines the feel of a small-town family restaurant with rotating homemade daily specials and a strong emphasis on familiar, filling meals rather than a standardized chain-restaurant experience.",
+      "phone": "260-502-1629",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/profile.php?id=61572294715470",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Current operating hours were not reliably published in the sources reviewed. Confirm hours directly with the restaurant before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Dine-in service",
+        "Takeout service",
+        "Homemade daily specials",
+        "Group dining with advance notice"
+      ],
+      "good_to_know": [
+        "Parties of six or more are asked to call ahead so the restaurant can prepare.",
+        "Daily specials may change, so contact the restaurant or check its Facebook page for current offerings.",
+        "Current operating hours should be confirmed before visiting."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "verification_note": "Business identity, address, phone number, Facebook page, dine-in and takeout service, homemade daily specials and the call-ahead request for groups of six or more were verified from the official Facebook information supplied by Eugene and current online business listings. Exact hours, menu, prices, ownership, accessibility and other amenities remain unverified and can be updated after the in-person visit.",
+      "last_checked": "2026-08-06",
+      "event_types": [],
+      "event_sources": [
+        "Official Facebook page",
+        "SHOPNoble business listing"
+      ],
+      "features": [
+        "Locally operated restaurant",
+        "Homemade daily specials",
+        "American comfort food",
+        "Casual family-style dining",
+        "Dine-in service",
+        "Takeout service",
+        "Call-ahead accommodation for larger groups"
       ]
     }
   ]
