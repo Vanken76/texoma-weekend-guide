@@ -15,6 +15,7 @@ const duplicateDannySlug = "open-mic-with-danny-k-at-sloppy-joes-july-30-2026";
 const canonicalDannySlug = "open-mic-with-danny-k-at-sloppy-joes-2026-07-30";
 const sloppyJoesVenueSlug = "sloppy-joes-bar-and-grill-texas";
 const sloppyJoesVenueName = "Sloppy Joe’s Bar and Grill Texas";
+const towerWhiskeyKaraokeSlug = "karaoke-night-julian-tower-whiskey-bar-pottsboro";
 
 const venueRelationshipPatches = new Map([
   [
@@ -54,6 +55,30 @@ directory.events = (directory.events ?? []).filter((event) => event.event_slug !
 if (directory.events.length !== originalEventCount) changed = true;
 
 for (const event of directory.events) {
+  if (event.event_slug === towerWhiskeyKaraokeSlug) {
+    if (event.recurrence_rule !== "FREQ=WEEKLY;BYDAY=FR") {
+      event.recurrence_rule = "FREQ=WEEKLY;BYDAY=FR";
+      changed = true;
+    }
+    if (event.status !== "recurring") {
+      event.status = "recurring";
+      changed = true;
+    }
+    if (event.recurring !== true) {
+      event.recurring = true;
+      changed = true;
+    }
+    if (event.active !== true) {
+      event.active = true;
+      changed = true;
+    }
+    if (event.publish_ready !== true) {
+      event.publish_ready = true;
+      changed = true;
+    }
+    event.updated_on = "2026-08-06";
+  }
+
   if (sloppyJoesSlugs.has(event.event_slug)) {
     if (event.venue_slug !== sloppyJoesVenueSlug) {
       event.venue_slug = sloppyJoesVenueSlug;
@@ -120,7 +145,7 @@ if (directory.publish_ready_count !== publishReadyCount) {
 
 if (changed) {
   fs.writeFileSync(filePath, `${JSON.stringify(directory, null, 2)}\n`);
-  console.log("Patched event venue relationships and removed the duplicate Danny K event.");
+  console.log("Patched event venue relationships, normalized recurring rules, and removed the duplicate Danny K event.");
 } else {
-  console.log("Event venue relationships already patched.");
+  console.log("Event data already patched.");
 }
