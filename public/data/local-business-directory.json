@@ -5,8 +5,8 @@
   "generated_on": "2026-08-06",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 601,
-  "publish_ready_count": 265,
+  "business_count": 602,
+  "publish_ready_count": 266,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -29393,6 +29393,107 @@
         "Active tenant recruitment",
         "West Sherman location",
         "Local nostalgia and community history"
+      ]
+    },
+    {
+      "slug": "westwood-market",
+      "business_name": "Westwood Market",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Westwood Village, 220 Sunset Blvd, Sherman, TX 75092",
+      "category": [
+        "Farmers Market",
+        "Vendor Market",
+        "Community Market",
+        "Shopping Event Organizer"
+      ],
+      "tags": [
+        "Sherman",
+        "Westwood Village",
+        "Vendor Market",
+        "Local Vendors",
+        "Small Business",
+        "Shopping",
+        "Monthly Market",
+        "Community",
+        "Craft Vendors",
+        "Food Vendors"
+      ],
+      "description": "Westwood Market is a monthly community vendor market held at Westwood Village in Sherman, Texas. The market brings together local vendors, makers, artists, small businesses and shoppers for a family-friendly shopping experience featuring a variety of locally owned businesses and unique products.",
+      "why_visit": "Browse a rotating selection of local vendors while supporting small businesses in one convenient location. Each monthly market offers a different mix of shopping opportunities and community engagement.",
+      "why_its_unique": "Unlike a traditional retail center, Westwood Market transforms Westwood Village into a community marketplace where independent vendors and local entrepreneurs can showcase their products directly to the public.",
+      "phone": null,
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/profile.php?id=61583714146060",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": "Westwood Market logo",
+      "price_range": "Free admission",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Westwood Market is a recurring monthly event rather than a business with regular operating hours. Each market has its own published schedule.",
+      "at_a_glance": {
+        "average_visit": "1-3 hours",
+        "price_range": "Free admission",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Local vendors",
+        "Small business shopping",
+        "Free parking",
+        "Accessible parking",
+        "Family-friendly atmosphere",
+        "Outdoor shopping"
+      ],
+      "good_to_know": [
+        "Hosted at Westwood Village in Sherman.",
+        "The market is held approximately once each month.",
+        "Vendor participation varies from event to event.",
+        "Check the Westwood Market Facebook page for upcoming market dates and vendor announcements."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified through the official Westwood Market Facebook page. The organization describes itself as a monthly vendor market located at Westwood Village in Sherman. Individual monthly events should be entered separately and linked back to this organizer.",
+      "last_checked": "2026-08-05",
+      "event_types": [
+        "Monthly Vendor Market",
+        "Holiday Markets",
+        "Seasonal Markets",
+        "Community Shopping Events",
+        "Small Business Events"
+      ],
+      "event_sources": [
+        "Official Westwood Market Facebook page"
+      ],
+      "features": [
+        "Monthly vendor market",
+        "Supports local businesses",
+        "Rotating vendors",
+        "Community shopping",
+        "Family-friendly",
+        "Westwood Village location"
       ]
     }
   ]
