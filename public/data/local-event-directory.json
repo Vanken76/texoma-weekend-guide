@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 133,
-  "publish_ready_count": 126,
+  "event_count": 134,
+  "publish_ready_count": 127,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -7810,6 +7810,77 @@
       "partner_names": [
         "Sherman Chamber of Commerce",
         "Travel Partners and Gateway Travel"
+      ]
+    },
+    {
+      "event_slug": "iron-mang-and-mistress-of-puppets-black-sabbath-ozzy-metallica-tribute-denison-2026-08-08",
+      "event_name": "IRON MANG & Mistress of Puppets – Black Sabbath/Ozzy Tribute & Metallica Tribute",
+      "description": "Prepare for a night of legendary heavy metal at Kiotee Club with a double-feature tribute concert. The evening begins with Mistress of Puppets, an all-female Metallica tribute delivering the speed, precision and power of Metallica's biggest songs. IRON MANG follows with an authentic tribute to Ozzy Osbourne and the classic Ozzy-era Black Sabbath catalog, recreating the sound and energy of heavy metal's pioneers for a full night of live music.",
+      "start_datetime": "2026-08-08T21:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "kiotee-club"
+      ],
+      "venue_name": "Kiotee Club",
+      "address": "623 S Mirick Ave",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Concerts",
+        "Tribute Bands",
+        "Nightlife"
+      ],
+      "tags": [
+        "Denison",
+        "Kiotee Club",
+        "Live Music",
+        "Heavy Metal",
+        "Metallica",
+        "Black Sabbath",
+        "Ozzy Osbourne",
+        "Tribute Band",
+        "IRON MANG",
+        "Mistress of Puppets",
+        "Rock Concert",
+        "Nightlife"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No admission price or cover charge was published in the official event announcement.",
+      "audience": [
+        "adults",
+        "rock fans",
+        "metal fans",
+        "concertgoers"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/iron-mang-and-mistress-of-puppets-black-sabbath-ozzy-metallica-tribute-denison-2026-08-08.jpg",
+      "official_url": null,
+      "facebook_url": "https://fb.me/e/7Fk0rmNTV",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 6, 2026, from the official Facebook event hosted by Kiotee Club. The event is scheduled for Saturday, August 8, 2026, beginning at 9:00 PM at Kiotee Club in Denison. The official description identifies Mistress of Puppets as an all-female Metallica tribute and IRON MANG as an Ozzy Osbourne and Black Sabbath tribute performing a double-feature concert. No cover charge, ticket link, age restriction or published ending time was provided.",
+      "last_checked": "2026-08-06",
+      "created_on": "2026-08-06",
+      "updated_on": "2026-08-06",
+      "organizer_name": "Kiotee Club",
+      "image_alt": "Promotional graphic for the IRON MANG and Mistress of Puppets tribute concert at Kiotee Club in Denison",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": "kiotee-club",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "IRON MANG",
+        "Mistress of Puppets"
       ]
     }
   ]
