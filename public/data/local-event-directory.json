@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 129,
-  "publish_ready_count": 122,
+  "event_count": 130,
+  "publish_ready_count": 123,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -7507,6 +7507,75 @@
       "recurrence_start_date": null,
       "recurrence_end_date": null,
       "host_business_slug": null,
+      "partner_business_slugs": [],
+      "partner_names": []
+    },
+    {
+      "event_slug": "august-westwood-market-sherman-2026-08-29",
+      "event_name": "August's Westwood Market",
+      "description": "Westwood Market returns to historic Westwood Village for its August monthly vendor market. Shoppers can browse a varied selection of local vendors, makers, small businesses and specialty sellers during a three-hour community market in Sherman. Vendor participation and available products may vary for each monthly occurrence.",
+      "start_datetime": "2026-08-29T11:00:00-05:00",
+      "end_datetime": "2026-08-29T14:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "westwood-village-sherman"
+      ],
+      "venue_name": "Westwood Village",
+      "address": "220 Sunset Blvd",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75092",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Vendor Markets",
+        "Shopping",
+        "Community Events",
+        "Family Friendly"
+      ],
+      "tags": [
+        "Sherman",
+        "Westwood Village",
+        "Westwood Market",
+        "Vendor Market",
+        "Monthly Market",
+        "Local Vendors",
+        "Small Businesses",
+        "Makers",
+        "Shopping",
+        "Shop Local",
+        "Community Market",
+        "Family Friendly"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No admission price was published in the supplied official event information. Purchases from individual vendors are priced separately.",
+      "audience": [
+        "families",
+        "local shoppers",
+        "small-business supporters",
+        "market visitors",
+        "all ages"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/august-westwood-market-sherman-2026-08-29.jpg",
+      "official_url": null,
+      "facebook_url": "https://fb.me/e/8lMdN93Hb",
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 5, 2026, from the official Facebook event hosted by Westwood Market. The event is scheduled for Saturday, August 29, 2026, from 11:00 AM to 2:00 PM at Westwood Village, 220 Sunset Blvd in Sherman. The organizer identifies Westwood Market as a once-a-month vendor market, but no dependable recurring pattern such as a specific Saturday of each month was confirmed. Future occurrences should therefore be entered separately as their dates are officially announced.",
+      "last_checked": "2026-08-05",
+      "created_on": "2026-08-05",
+      "updated_on": "2026-08-06",
+      "organizer_name": "Westwood Market",
+      "image_alt": "Westwood Village sign promoting August's Westwood Market in Sherman on August 29, 2026",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": "westwood-market",
       "partner_business_slugs": [],
       "partner_names": []
     }
