@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 134,
-  "publish_ready_count": 127,
+  "event_count": 135,
+  "publish_ready_count": 128,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -7881,6 +7881,81 @@
       "partner_names": [
         "IRON MANG",
         "Mistress of Puppets"
+      ]
+    },
+    {
+      "event_slug": "ballroom-beats-live-musical-entertainment-and-dance-sherman-2026-08-15",
+      "event_name": "Ballroom Beats! Live Musical Entertainment & Dance",
+      "description": "Enjoy an evening of live music and dancing with the Spare Change Band at the Sherman Municipal Ballroom. Presented by the Sherman Senior Activity Center, the event includes live musical entertainment, food, refreshing drinks and plenty of room for dancing. Admission is free.",
+      "start_datetime": "2026-08-15T18:00:00-05:00",
+      "end_datetime": "2026-08-15T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "sherman-municipal-ballroom"
+      ],
+      "venue_name": "Sherman Municipal Ballroom",
+      "address": "405 N Rusk St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Dances",
+        "Senior Activities",
+        "Community Events"
+      ],
+      "tags": [
+        "Sherman",
+        "Sherman Municipal Ballroom",
+        "Sherman Senior Activity Center",
+        "Sherman Senior Center",
+        "Ballroom Beats",
+        "Spare Change Band",
+        "Live Music",
+        "Dance",
+        "Dancing",
+        "Senior Activities",
+        "Adults 50 Plus",
+        "Community Event",
+        "Free Admission",
+        "Food",
+        "Drinks"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free entry.",
+      "audience": [
+        "adults 50 and older",
+        "senior adults",
+        "dancers",
+        "live-music fans",
+        "community members"
+      ],
+      "age_restriction": "Presented by the Sherman Senior Activity Center for active adults age 50 and older.",
+      "image_url": "/images/events/ballroom-beats-live-musical-entertainment-and-dance-sherman-2026-08-15.jpg",
+      "official_url": null,
+      "facebook_url": "https://facebook.com/events/s/ballroom-beats-live-musical-en/1521336982870151/",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 6, 2026, from the official Facebook event hosted by the Sherman Senior Center and the official promotional flyer. Ballroom Beats! is scheduled for Saturday, August 15, 2026, from 6:00 PM to 9:00 PM at the Sherman Municipal Ballroom, 405 N Rusk St in Sherman. The Spare Change Band will provide live musical entertainment, and the announcement promotes food, refreshing drinks and dancing. Admission is free. The Sherman Senior Activity Center identifies its programming as serving active adults age 50 and older.",
+      "last_checked": "2026-08-06",
+      "created_on": "2026-08-06",
+      "updated_on": "2026-08-06",
+      "organizer_name": "Sherman Senior Activity Center",
+      "image_alt": "Ballroom Beats promotional flyer featuring the Spare Change Band at Sherman Municipal Ballroom on August 15, 2026",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": "sherman-municipal-ballroom",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Sherman Senior Activity Center",
+        "Spare Change Band"
       ]
     }
   ]
