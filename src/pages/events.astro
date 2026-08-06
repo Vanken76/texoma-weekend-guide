@@ -37,7 +37,7 @@ const withVenueFallbacks = (event) => {
 const isRecurring = (event) => event.recurring === true;
 const isActive = (event) => event.active !== false;
 const parseRule = (rule = "") => Object.fromEntries(
-  rule.split(";").map((part) => part.split("=")).filter(([key, value]) => key && value)
+  String(rule ?? "").split(";").map((part) => part.split("=")).filter(([key, value]) => key && value)
 );
 
 const recurrenceEndDate = (event) => {
@@ -120,7 +120,18 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
             const recurring = isRecurring(event);
             const searchable = [event.event_name, event.description, event.venue_name, event.address, event.city, event.state, event.organizer_name, event.cost_details, ...(event.categories ?? []), ...(event.tags ?? [])].filter(Boolean).join(" ").toLowerCase();
             return (
-              <article class:list={["event-card", { "has-image": Boolean(event.image_url), recurring }]} data-event-card data-search={searchable} data-date={event.start_datetime?.slice(0, 10) ?? ""} data-city={(event.city ?? "").toLowerCase()} data-categories={(event.categories ?? []).join("|").toLowerCase()} data-cost={event.cost_type ?? "unknown"} data-recurring={recurring ? "true" : "false"}>
+              <article
+                class:list={["event-card", { "has-image": Boolean(event.image_url), recurring }]}
+                data-event-card
+                data-search={searchable}
+                data-date={event.start_datetime?.slice(0, 10) ?? ""}
+                data-city={(event.city ?? "").toLowerCase()}
+                data-categories={(event.categories ?? []).join("|").toLowerCase()}
+                data-cost={event.cost_type ?? "unknown"}
+                data-recurring={recurring ? "true" : "false"}
+                data-recurrence-rule={event.recurrence_rule ?? ""}
+                data-recurrence-end={recurrenceEndDate(event) ?? ""}
+              >
                 {event.image_url && <a class="flyer-link" href={event.image_url} target="_blank" rel="noreferrer"><img class="event-flyer" src={event.image_url} alt={event.image_alt || `${event.event_name} flyer`} loading="lazy" /></a>}
                 <div class="event-card-body">
                   <div class="event-date"><strong>{recurring ? "Recurring event" : formatDate(event.start_datetime)}</strong><span>{event.start_datetime ? formatTime(event.start_datetime) : ""}{event.end_datetime ? `–${formatTime(event.end_datetime)}` : ""}</span></div>
@@ -176,15 +187,57 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
 
     const chicagoDate = (date = new Date()) => new Intl.DateTimeFormat("en-CA", { timeZone: "America/Chicago", year: "numeric", month: "2-digit", day: "2-digit" }).format(date);
     const addDays = (dateString, days) => { const date = new Date(`${dateString}T12:00:00`); date.setDate(date.getDate() + days); return chicagoDate(date); };
-    const matchesDate = (eventDate, selected, recurring) => {
+    const parseRule = (rule = "") => Object.fromEntries(String(rule ?? "").split(";").map((part) => part.split("=")).filter(([key, value]) => key && value));
+    const dayCode = (dateString) => ["SU", "MO", "TU", "WE", "TH", "FR", "SA"][new Date(`${dateString}T12:00:00`).getDay()];
+
+    const occursOn = (eventDate, targetDate, recurrenceRule, recurrenceEnd) => {
+      if (!eventDate || targetDate < eventDate || (recurrenceEnd && targetDate > recurrenceEnd)) return false;
+      const rule = parseRule(recurrenceRule);
+      const frequency = rule.FREQ ?? "WEEKLY";
+      const interval = Math.max(1, Number.parseInt(rule.INTERVAL ?? "1", 10) || 1);
+      const start = new Date(`${eventDate}T12:00:00`);
+      const target = new Date(`${targetDate}T12:00:00`);
+      const daysApart = Math.round((target.getTime() - start.getTime()) / 86400000);
+
+      if (frequency === "DAILY") return daysApart % interval === 0;
+      if (frequency === "WEEKLY") {
+        const allowedDays = (rule.BYDAY ?? dayCode(eventDate)).split(",");
+        return allowedDays.includes(dayCode(targetDate)) && Math.floor(daysApart / 7) % interval === 0;
+      }
+      if (frequency === "MONTHLY") {
+        const monthsApart = (target.getFullYear() - start.getFullYear()) * 12 + target.getMonth() - start.getMonth();
+        const allowedMonthDays = (rule.BYMONTHDAY ?? String(start.getDate())).split(",").map(Number);
+        return monthsApart >= 0 && monthsApart % interval === 0 && allowedMonthDays.includes(target.getDate());
+      }
+      if (frequency === "YEARLY") {
+        const yearsApart = target.getFullYear() - start.getFullYear();
+        return yearsApart >= 0 && yearsApart % interval === 0 && target.getMonth() === start.getMonth() && target.getDate() === start.getDate();
+      }
+      return targetDate === eventDate;
+    };
+
+    const rangeContainsOccurrence = (card, rangeStart, rangeEnd) => {
+      const eventDate = card.dataset.date ?? "";
+      if (card.dataset.recurring !== "true") return eventDate >= rangeStart && eventDate <= rangeEnd;
+      for (let date = rangeStart; date <= rangeEnd; date = addDays(date, 1)) {
+        if (occursOn(eventDate, date, card.dataset.recurrenceRule ?? "", card.dataset.recurrenceEnd ?? "")) return true;
+      }
+      return false;
+    };
+
+    const matchesDate = (card, selected) => {
       if (selected === "all") return true;
+      const recurring = card.dataset.recurring === "true";
       if (selected === "recurring") return recurring;
-      if (recurring) return false;
       const current = chicagoDate();
-      if (selected === "today") return eventDate === current;
-      if (selected === "tomorrow") return eventDate === addDays(current, 1);
-      if (selected === "seven-days") return eventDate >= current && eventDate <= addDays(current, 6);
-      if (selected === "weekend") { const base = new Date(`${current}T12:00:00`); const friday = addDays(current, (5 - base.getDay() + 7) % 7); return eventDate >= friday && eventDate <= addDays(friday, 2); }
+      if (selected === "today") return rangeContainsOccurrence(card, current, current);
+      if (selected === "tomorrow") { const tomorrow = addDays(current, 1); return rangeContainsOccurrence(card, tomorrow, tomorrow); }
+      if (selected === "seven-days") return rangeContainsOccurrence(card, current, addDays(current, 6));
+      if (selected === "weekend") {
+        const base = new Date(`${current}T12:00:00`);
+        const friday = addDays(current, (5 - base.getDay() + 7) % 7);
+        return rangeContainsOccurrence(card, friday, addDays(friday, 2));
+      }
       return true;
     };
 
@@ -197,7 +250,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
         const search = card.dataset.search ?? "";
         const categories = card.dataset.categories ?? "";
         return (!query || search.includes(query))
-          && matchesDate(card.dataset.date ?? "", selectedDate, card.dataset.recurring === "true")
+          && matchesDate(card, selectedDate)
           && (selectedCity === "all" || card.dataset.city === selectedCity)
           && (selectedCategory === "all" || categories.split("|").includes(selectedCategory))
           && (quickFilter === "all" || (quickFilter === "free" && card.dataset.cost === "free") || categories.includes(quickFilter) || search.includes(quickFilter));
