@@ -615,6 +615,23 @@
         "Outdoor seating",
         "Food available",
         "Historic Texoma venue revival"
+      ],
+      "gallery": [
+        {
+          "url": "/images/businesses/calhouns-2-0/live-band-stage.jpg",
+          "alt": "Live band performing on the Calhoun's 2.0 stage in Denison, Texas",
+          "caption": "Live music at Calhoun's 2.0 beneath the venue's glowing stage sign."
+        },
+        {
+          "url": "/images/businesses/calhouns-2-0/packed-dance-floor.jpg",
+          "alt": "Crowd filling the dance floor at Calhoun's 2.0 in Denison, Texas",
+          "caption": "A packed dance floor shows the scale of a busy night at Calhoun's 2.0."
+        },
+        {
+          "url": "/images/businesses/calhouns-2-0/line-dancing.jpg",
+          "alt": "Guests line dancing at Calhoun's 2.0 in Denison, Texas",
+          "caption": "Line dancing is one of the signature weekly experiences at Calhoun's 2.0."
+        }
       ]
     },
     {
