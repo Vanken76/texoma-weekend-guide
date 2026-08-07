@@ -29,17 +29,8 @@ jobs:
           if import_line not in state:
               state = state.replace(import_anchor, import_anchor + '\n' + import_line, 1)
 
-          old = '''const businesses = (businessDirectory.businesses ?? []).filter((business) => {
-  if (business.publish_ready !== true) return false;
-  const values = [business.state, business.state_abbreviation, business.state_name, business.state_slug]
-    .filter(Boolean)
-    .map((value) => String(value).toLowerCase());
-  return values.some((value) => stateCodes.has(value) || value === entity.slug);
-});'''
-          new = '''const targetBusinessState = businessStateCode({ state: entity.abbreviation || entity.name || entity.slug });
-const businesses = (businessDirectory.businesses ?? []).filter((business) =>
-  business.publish_ready === true && businessStateCode(business) === targetBusinessState
-);'''
+          old = 'const businesses = (businessDirectory.businesses ?? []).filter((business) => {\n  if (business.publish_ready !== true) return false;\n  const values = [business.state, business.state_abbreviation, business.state_name, business.state_slug]\n    .filter(Boolean)\n    .map((value) => String(value).toLowerCase());\n  return values.some((value) => stateCodes.has(value) || value === entity.slug);\n});'
+          new = 'const targetBusinessState = businessStateCode({ state: entity.abbreviation || entity.name || entity.slug });\nconst businesses = (businessDirectory.businesses ?? []).filter((business) =>\n  business.publish_ready === true && businessStateCode(business) === targetBusinessState\n);'
           assert state.count(old) == 1
           state = state.replace(old, new, 1)
           state_path.write_text(state)
@@ -52,11 +43,8 @@ const businesses = (businessDirectory.businesses ?? []).filter((business) =>
           if import_line not in text:
               text = text.replace(import_anchor, import_anchor + '\n' + import_line, 1)
 
-          old = '''    card_image: business.image || business.image_url || business.logo || business.logo_url || null,
-    card_image_alt: business.image_alt || business.logo_alt || `${business.business_name} logo`'''
-          new = '''    card_image: business.image || business.image_url || business.logo || business.logo_url || null,
-    card_image_alt: business.image_alt || business.logo_alt || `${business.business_name} logo`,
-    card_state: businessStateCode(business)'''
+          old = '    card_image: business.image || business.image_url || business.logo || business.logo_url || null,\n    card_image_alt: business.image_alt || business.logo_alt || `${business.business_name} logo`'
+          new = '    card_image: business.image || business.image_url || business.logo || business.logo_url || null,\n    card_image_alt: business.image_alt || business.logo_alt || `${business.business_name} logo`,\n    card_state: businessStateCode(business)'
           assert text.count(old) == 1
           text = text.replace(old, new, 1)
 
