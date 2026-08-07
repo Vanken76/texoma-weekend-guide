@@ -6150,7 +6150,7 @@
       "start_datetime": "2026-08-01T19:00:00-05:00",
       "end_datetime": "2026-08-02T02:00:00-05:00",
       "timezone": "America/Chicago",
-      "status": "upcoming",
+      "status": "ended",
       "venue_slugs": [
         "calhouns-2-0"
       ],
@@ -6193,10 +6193,10 @@
       "featured": false,
       "publish_ready": true,
       "source_verified": true,
-      "verification_note": "Verified from the official Calhoun's 2.0 Facebook promotional post published August 1, 2026. The post confirms Aubrey Lynn, Saturday night, doors opening at 7:00 PM, an 18+ age restriction, and cover charges of $10 for ages 21+ and $20 for ages 18–20. The 2:00 AM end time reflects the venue's Saturday closing time rather than a separately published performance end time.",
+      "verification_note": "Verified from the official Calhoun's 2.0 Facebook promotional post published August 1, 2026. The post confirms Aubrey Lynn, Saturday night, doors opening at 7:00 PM, an 18+ age restriction, and cover charges of $10 for ages 21+ and $20 for ages 18–20. The 2:00 AM end time reflects the venue's Saturday closing time rather than a separately published performance end time. Marked ended on August 7, 2026 after its scheduled August 2, 2026 2:00 AM end time passed.",
       "last_checked": "2026-08-01",
       "created_on": "2026-08-01",
-      "updated_on": "2026-08-01",
+      "updated_on": "2026-08-07",
       "host_business_slug": "calhouns-2-0",
       "partner_business_slugs": [],
       "partner_names": [
