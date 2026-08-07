@@ -84,6 +84,55 @@
   };
 
   const currentBusinessName = document.querySelector(".business-hero h1")?.textContent?.trim() || "";
+  const now = new Date();
+
+  const getLocalDateKey = (date = new Date()) => {
+    const parts = new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/Chicago",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit"
+    }).formatToParts(date);
+    const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+    return `${values.year}-${values.month}-${values.day}`;
+  };
+
+  const today = getLocalDateKey(now);
+
+  const parseRule = (rule = "") => Object.fromEntries(
+    String(rule)
+      .replace(/^RRULE:/i, "")
+      .split(";")
+      .map((part) => part.split("="))
+      .filter(([key, value]) => key && value)
+  );
+
+  const recurrenceEndDate = (event) => {
+    if (event.recurrence_end_date) return event.recurrence_end_date;
+    const until = parseRule(event.recurrence_rule).UNTIL;
+    if (!until || !/^\d{8}/.test(until)) return null;
+    return `${until.slice(0, 4)}-${until.slice(4, 6)}-${until.slice(6, 8)}`;
+  };
+
+  const isCurrentEvent = (event) => {
+    if (!event || event.publish_ready !== true || event.active === false || !event.event_slug) return false;
+    if (!["upcoming", "recurring"].includes(event.status)) return false;
+
+    if (event.status === "recurring" || event.recurring === true) {
+      const endDate = recurrenceEndDate(event);
+      return !endDate || endDate >= today;
+    }
+
+    if (event.end_datetime) {
+      const end = new Date(event.end_datetime);
+      return !Number.isNaN(end.getTime()) && end >= now;
+    }
+
+    const startDate = typeof event.start_datetime === "string"
+      ? event.start_datetime.slice(0, 10)
+      : null;
+    return Boolean(startDate && startDate >= today);
+  };
 
   const formatDate = (value) => value
     ? new Intl.DateTimeFormat("en-US", {
@@ -107,7 +156,8 @@
     .then((response) => response.json())
     .then((eventData) => {
       const matchedEvents = (eventData.events || []).filter((event) => {
-        if (event?.publish_ready !== true || !event?.event_slug) return false;
+        if (!isCurrentEvent(event)) return false;
+
         const slugs = [
           ...(Array.isArray(event.venue_slugs) ? event.venue_slugs : []),
           ...(event.venue_slug ? [event.venue_slug] : []),
