@@ -77,8 +77,8 @@
       "start_datetime": "2026-07-25T19:00:00-05:00",
       "end_datetime": null,
       "timezone": "America/Chicago",
-      "status": "upcoming",
-      "venue_slug": null,
+      "status": "ended",
+      "venue_slug": "calhouns-2-0",
       "venue_name": "Calhoun's 2.0",
       "address": null,
       "city": "Denison",
@@ -113,10 +113,11 @@
       "featured": true,
       "publish_ready": true,
       "source_verified": true,
-      "verification_note": "Entered from the Texoma Weekend Roundup supplied by Eugene Clark. Doors open at 7:00 PM; the event ending time and exact street address were not stated. The venue_slug was verified against the Business Directory.",
-      "last_checked": "2026-07-24",
+      "verification_note": "Entered from the Texoma Weekend Roundup supplied by Eugene Clark. Doors open at 7:00 PM; the event ending time and exact street address were not stated. The venue_slug was verified against the Business Directory. Marked ended on August 7, 2026 during Calhoun's 2.0 event-directory cleanup because the one-time event date had passed.",
+      "last_checked": "2026-08-07",
       "created_on": "2026-07-25",
-      "updated_on": "2026-07-24"
+      "updated_on": "2026-08-07",
+      "host_business_slug": "calhouns-2-0"
     },
     {
       "event_slug": "mike-tele-tuck-live-2026-07-24",
@@ -125,8 +126,8 @@
       "start_datetime": "2026-07-24T19:00:00-05:00",
       "end_datetime": null,
       "timezone": "America/Chicago",
-      "status": "upcoming",
-      "venue_slug": null,
+      "status": "ended",
+      "venue_slug": "calhouns-2-0",
       "venue_name": "Calhoun's 2.0",
       "address": null,
       "city": "Denison",
@@ -159,10 +160,11 @@
       "featured": true,
       "publish_ready": true,
       "source_verified": true,
-      "verification_note": "Entered from the Texoma Weekend Roundup. Doors open at 7:00 PM. The event ending time was not published. Cover pricing and kitchen hours were supplied by the venue post.",
-      "last_checked": "2026-07-24",
+      "verification_note": "Entered from the Texoma Weekend Roundup. Doors open at 7:00 PM. The event ending time was not published. Cover pricing and kitchen hours were supplied by the venue post. Marked ended on August 7, 2026 during Calhoun's 2.0 event-directory cleanup because the one-time event date had passed.",
+      "last_checked": "2026-08-07",
       "created_on": "2026-07-24",
-      "updated_on": "2026-07-24"
+      "updated_on": "2026-08-07",
+      "host_business_slug": "calhouns-2-0"
     },
     {
       "event_slug": "erica-lederman-standup-comedy-2026-07-25",
