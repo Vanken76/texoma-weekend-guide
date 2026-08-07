@@ -1,0 +1,92 @@
+name: Fix visible state event filter
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Make state filtering visible and clearable
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('src/pages/events.astro')
+          text = path.read_text()
+
+          old = '<label>City<select id="city-filter"><option value="all">All cities</option>{cities.map((city) => <option value={city.toLowerCase()}>{city}</option>)}</select></label>\n            <label>Category<select id="category-filter"><option value="all">All categories</option>{categories.map((category) => <option value={category.toLowerCase()}>{category}</option>)}</select></label>'
+          new = '<label>City<select id="city-filter"><option value="all">All cities</option>{cities.map((city) => <option value={city.toLowerCase()}>{city}</option>)}</select></label>\n            <label>State<select id="state-filter"><option value="all">All states</option><option value="tx">Texas</option><option value="ok">Oklahoma</option></select></label>\n            <label>Category<select id="category-filter"><option value="all">All categories</option>{categories.map((category) => <option value={category.toLowerCase()}>{category}</option>)}</select></label>'
+          assert text.count(old) == 1, f'filter markup target count: {text.count(old)}'
+          text = text.replace(old, new, 1)
+
+          old = '    const cityFilter = document.querySelector("#city-filter");\n    const categoryFilter = document.querySelector("#category-filter");'
+          new = '    const cityFilter = document.querySelector("#city-filter");\n    const stateFilter = document.querySelector("#state-filter");\n    const categoryFilter = document.querySelector("#category-filter");'
+          assert text.count(old) == 1, f'state control target count: {text.count(old)}'
+          text = text.replace(old, new, 1)
+
+          old = '    const requestedState = normalizeState(new URLSearchParams(window.location.search).get("state") ?? "");\n    let quickFilter = "all";'
+          new = '    const requestedState = normalizeState(new URLSearchParams(window.location.search).get("state") ?? "");\n    if (stateFilter && ["tx", "ok"].includes(requestedState)) stateFilter.value = requestedState;\n    let quickFilter = "all";'
+          assert text.count(old) == 1, f'preselect state target count: {text.count(old)}'
+          text = text.replace(old, new, 1)
+
+          old = '      const selectedCity = cityFilter?.value ?? "all";\n      const selectedCategory = categoryFilter?.value ?? "all";'
+          new = '      const selectedCity = cityFilter?.value ?? "all";\n      const selectedState = stateFilter?.value ?? "all";\n      const selectedCategory = categoryFilter?.value ?? "all";'
+          assert text.count(old) == 1, f'selected state target count: {text.count(old)}'
+          text = text.replace(old, new, 1)
+
+          old = '          && (selectedCity === "all" || card.dataset.city === selectedCity)\n          && (!requestedState || normalizeState(card.dataset.state ?? "") === requestedState)\n          && (selectedCategory === "all" || categories.split("|").includes(selectedCategory))'
+          new = '          && (selectedCity === "all" || card.dataset.city === selectedCity)\n          && (selectedState === "all" || normalizeState(card.dataset.state ?? "") === selectedState)\n          && (selectedCategory === "all" || categories.split("|").includes(selectedCategory))'
+          assert text.count(old) == 1, f'visible state filter target count: {text.count(old)}'
+          text = text.replace(old, new, 1)
+
+          old = '    [searchInput, dateFilter, cityFilter, categoryFilter].forEach((control) => control?.addEventListener(control === searchInput ? "input" : "change", () => applyFilters(true)));'
+          new = '    [searchInput, dateFilter, cityFilter, stateFilter, categoryFilter].forEach((control) => control?.addEventListener(control === searchInput ? "input" : "change", () => applyFilters(true)));'
+          assert text.count(old) == 1, f'filter listeners target count: {text.count(old)}'
+          text = text.replace(old, new, 1)
+
+          old = '    document.querySelector("#clear-filters")?.addEventListener("click", () => location.reload());\n    document.querySelector("#clear-empty")?.addEventListener("click", () => location.reload());\n    applyFilters(true);'
+          new = '\n'.join([
+              '    const clearFilters = () => {',
+              '      if (searchInput) searchInput.value = "";',
+              '      if (dateFilter) dateFilter.value = "all";',
+              '      if (cityFilter) cityFilter.value = "all";',
+              '      if (stateFilter) stateFilter.value = "all";',
+              '      if (categoryFilter) categoryFilter.value = "all";',
+              '      quickFilter = "all";',
+              '      quickButtons.forEach((item) => item.classList.toggle("active", item.dataset.quick === "all"));',
+              '      history.replaceState({}, "", window.location.pathname);',
+              '      applyFilters(true);',
+              '    };',
+              '    document.querySelector("#clear-filters")?.addEventListener("click", clearFilters);',
+              '    document.querySelector("#clear-empty")?.addEventListener("click", clearFilters);',
+              '    applyFilters(true);'
+          ])
+          assert text.count(old) == 1, f'clear filters target count: {text.count(old)}'
+          text = text.replace(old, new, 1)
+
+          old = '  .filter-grid { display: grid; grid-template-columns: minmax(220px,2fr) repeat(3,minmax(150px,1fr)); gap: .85rem; align-items: end; }'
+          new = '  .filter-grid { display: grid; grid-template-columns: minmax(220px,2fr) repeat(4,minmax(140px,1fr)); gap: .85rem; align-items: end; }'
+          assert text.count(old) == 1, f'filter grid target count: {text.count(old)}'
+          text = text.replace(old, new, 1)
+
+          path.write_text(text)
+          PY
+
+      - name: Commit fix and remove temporary workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/fix-visible-state-filter.yml
+          git add src/pages/events.astro
+          git commit -m "Show and clear event state filter"
+          git push origin main
