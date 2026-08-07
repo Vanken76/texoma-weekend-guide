@@ -1,0 +1,76 @@
+name: Install Calhoun's 2.0 photo gallery
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/install-calhouns-gallery.yml
+
+permissions:
+  contents: write
+
+jobs:
+  install-gallery:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Decode selected Calhoun's photos
+        run: |
+          set -euo pipefail
+          mkdir -p public/images/businesses/calhouns-2-0
+          base64 -d .github/tmp/calhouns-gallery/live-band-stage.b64 > public/images/businesses/calhouns-2-0/live-band-stage.jpg
+          base64 -d .github/tmp/calhouns-gallery/packed-dance-floor.b64 > public/images/businesses/calhouns-2-0/packed-dance-floor.jpg
+          base64 -d .github/tmp/calhouns-gallery/line-dancing.b64 > public/images/businesses/calhouns-2-0/line-dancing.jpg
+          test -s public/images/businesses/calhouns-2-0/live-band-stage.jpg
+          test -s public/images/businesses/calhouns-2-0/packed-dance-floor.jpg
+          test -s public/images/businesses/calhouns-2-0/line-dancing.jpg
+
+      - name: Add gallery records and captions
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('public/data/local-business-directory.json')
+          directory = json.loads(path.read_text(encoding='utf-8'))
+          business = next((item for item in directory.get('businesses', []) if item.get('slug') == 'calhouns-2-0'), None)
+          if business is None:
+              raise SystemExit("Calhoun's 2.0 business record not found")
+
+          business['gallery'] = [
+              {
+                  'url': '/images/businesses/calhouns-2-0/live-band-stage.jpg',
+                  'alt': "Live band performing on the Calhoun's 2.0 stage in Denison, Texas",
+                  'caption': "Live music at Calhoun's 2.0 beneath the venue's glowing stage sign."
+              },
+              {
+                  'url': '/images/businesses/calhouns-2-0/packed-dance-floor.jpg',
+                  'alt': "Crowd filling the dance floor at Calhoun's 2.0 in Denison, Texas",
+                  'caption': "A packed dance floor shows the scale of a busy night at Calhoun's 2.0."
+              },
+              {
+                  'url': '/images/businesses/calhouns-2-0/line-dancing.jpg',
+                  'alt': "Guests line dancing at Calhoun's 2.0 in Denison, Texas",
+                  'caption': "Line dancing is one of the signature weekly experiences at Calhoun's 2.0."
+              }
+          ]
+          business['last_checked'] = '2026-08-07'
+          path.write_text(json.dumps(directory, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+          PY
+
+      - name: Remove temporary installer files
+        run: |
+          rm -rf .github/tmp/calhouns-gallery
+          rm .github/workflows/install-calhouns-gallery.yml
+
+      - name: Commit actual gallery update
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/local-business-directory.json public/images/businesses/calhouns-2-0 .github/tmp/calhouns-gallery .github/workflows/install-calhouns-gallery.yml
+          git commit -m "Add Calhoun's 2.0 photo gallery"
+          git push
