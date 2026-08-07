@@ -21,9 +21,9 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p public/images/businesses/calhouns-2-0
-          base64 -d .github/tmp/calhouns-gallery/live-band-stage.b64 > public/images/businesses/calhouns-2-0/live-band-stage.jpg
-          base64 -d .github/tmp/calhouns-gallery/packed-dance-floor.b64 > public/images/businesses/calhouns-2-0/packed-dance-floor.jpg
-          base64 -d .github/tmp/calhouns-gallery/line-dancing.b64 > public/images/businesses/calhouns-2-0/line-dancing.jpg
+          cat .github/tmp/calhouns-gallery/live-band-stage.part* | base64 -d > public/images/businesses/calhouns-2-0/live-band-stage.jpg
+          cat .github/tmp/calhouns-gallery/packed-dance-floor.part* | base64 -d > public/images/businesses/calhouns-2-0/packed-dance-floor.jpg
+          cat .github/tmp/calhouns-gallery/line-dancing.part* | base64 -d > public/images/businesses/calhouns-2-0/line-dancing.jpg
           test -s public/images/businesses/calhouns-2-0/live-band-stage.jpg
           test -s public/images/businesses/calhouns-2-0/packed-dance-floor.jpg
           test -s public/images/businesses/calhouns-2-0/line-dancing.jpg
@@ -71,6 +71,6 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/local-business-directory.json public/images/businesses/calhouns-2-0 .github/tmp/calhouns-gallery .github/workflows/install-calhouns-gallery.yml
+          git add -A
           git commit -m "Add Calhoun's 2.0 photo gallery"
           git push
