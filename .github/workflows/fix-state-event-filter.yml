@@ -1,0 +1,78 @@
+name: Fix state event filtering
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Add state-aware event links and filtering
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          events_path = Path('src/pages/events.astro')
+          events = events_path.read_text()
+
+          old = '                data-city={(event.city ?? "").toLowerCase()}\n                data-categories={(event.categories ?? []).join("|").toLowerCase()}'
+          new = '                data-city={(event.city ?? "").toLowerCase()}\n                data-state={(event.state ?? "").toLowerCase()}\n                data-categories={(event.categories ?? []).join("|").toLowerCase()}'
+          assert events.count(old) == 1, f'data-state insertion target count: {events.count(old)}'
+          events = events.replace(old, new, 1)
+
+          old = '    const quickButtons = [...document.querySelectorAll("[data-quick]")];\n    let quickFilter = "all";'
+          new = '''    const quickButtons = [...document.querySelectorAll("[data-quick]")];
+    const normalizeState = (value = "") => {
+      const state = String(value ?? "").trim().toLowerCase();
+      if (state === "texas") return "tx";
+      if (state === "oklahoma") return "ok";
+      return state;
+    };
+    const requestedState = normalizeState(new URLSearchParams(window.location.search).get("state") ?? "");
+    let quickFilter = "all";'''
+          assert events.count(old) == 1, f'URL state insertion target count: {events.count(old)}'
+          events = events.replace(old, new, 1)
+
+          old = '          && (selectedCity === "all" || card.dataset.city === selectedCity)\n          && (selectedCategory === "all" || categories.split("|").includes(selectedCategory))'
+          new = '          && (selectedCity === "all" || card.dataset.city === selectedCity)\n          && (!requestedState || normalizeState(card.dataset.state ?? "") === requestedState)\n          && (selectedCategory === "all" || categories.split("|").includes(selectedCategory))'
+          assert events.count(old) == 1, f'state filter target count: {events.count(old)}'
+          events = events.replace(old, new, 1)
+          events_path.write_text(events)
+
+          state_path = Path('src/pages/states/[slug].astro')
+          state = state_path.read_text()
+
+          old = 'const pageDescription = entity.seo_description || entity.short_description || entity.description;\n---'
+          new = 'const pageDescription = entity.seo_description || entity.short_description || entity.description;\nconst eventHref = `/events/?state=${encodeURIComponent(String(entity.abbreviation || entity.name || entity.slug).toLowerCase())}`;\n---'
+          assert state.count(old) == 1, f'eventHref insertion target count: {state.count(old)}'
+          state = state.replace(old, new, 1)
+
+          old = '<a class="stat-card" href="/events/"><strong>{formatNumber(events.length) || "0"}</strong><span>published events</span></a>'
+          new = '<a class="stat-card" href={eventHref}><strong>{formatNumber(events.length) || "0"}</strong><span>published events</span></a>'
+          assert state.count(old) == 1, f'stat event link target count: {state.count(old)}'
+          state = state.replace(old, new, 1)
+
+          old = '<a href="/events/">Browse events</a>'
+          new = '<a href={eventHref}>Browse events</a>'
+          assert state.count(old) == 1, f'browse event link target count: {state.count(old)}'
+          state = state.replace(old, new, 1)
+          state_path.write_text(state)
+          PY
+
+      - name: Commit fix and remove temporary workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/fix-state-event-filter.yml
+          git add src/pages/events.astro 'src/pages/states/[slug].astro'
+          git commit -m "Filter state landing event links by state"
+          git push origin main
