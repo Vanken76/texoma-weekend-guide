@@ -432,3 +432,37 @@ li {
     grid-template-columns: 1fr 1fr !important;
   }
 }
+
+/* State landing page hero contrast */
+.geography-page .state-hero .hero-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(6, 24, 37, 0.28) 0%,
+    rgba(6, 24, 37, 0.5) 48%,
+    rgba(6, 24, 37, 0.86) 100%
+  ) !important;
+}
+
+.geography-page .state-hero h1 {
+  color: #fff9ed !important;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.72) !important;
+}
+
+.geography-page .state-hero .breadcrumb,
+.geography-page .state-hero .breadcrumb a,
+.geography-page .state-hero .hero-summary {
+  color: #ffffff !important;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.72) !important;
+}
+
+.geography-page .state-hero .eyebrow {
+  color: #72d4df !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.72) !important;
+}
+
+@media (max-width: 560px) {
+  .geography-page .state-hero h1 {
+    font-size: clamp(3.6rem, 18vw, 5.4rem) !important;
+    line-height: 0.92 !important;
+  }
+}
