@@ -1,0 +1,97 @@
+name: Cleanup Calhoun's past events
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/cleanup-calhouns-past-events.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Expire stale Calhoun's one-time events
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime
+          from pathlib import Path
+
+          path = Path('public/data/local-event-directory.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          now = datetime.fromisoformat('2026-08-07T11:26:00-05:00')
+          today = '2026-08-07'
+          changed = []
+
+          def norm(value):
+              return ''.join(ch.lower() for ch in str(value or '') if ch.isalnum())
+
+          for event in data.get('events', []):
+              venue_slugs = event.get('venue_slugs') if isinstance(event.get('venue_slugs'), list) else []
+              venue_match = (
+                  event.get('venue_slug') == 'calhouns-2-0'
+                  or 'calhouns-2-0' in venue_slugs
+                  or event.get('host_business_slug') == 'calhouns-2-0'
+                  or norm(event.get('venue_name')) in {'calhouns20', 'calhoons20'}
+              )
+              if not venue_match:
+                  continue
+              if event.get('status') != 'upcoming' or event.get('recurring') is True:
+                  continue
+
+              past = False
+              end_value = event.get('end_datetime')
+              if isinstance(end_value, str) and end_value:
+                  try:
+                      past = datetime.fromisoformat(end_value) < now
+                  except ValueError:
+                      pass
+              if not past:
+                  start_value = event.get('start_datetime')
+                  if isinstance(start_value, str) and len(start_value) >= 10:
+                      past = start_value[:10] < today
+
+              if not past:
+                  continue
+
+              event['status'] = 'ended'
+              event['last_checked'] = today
+              event['updated_on'] = today
+              if event.get('host_business_slug') in (None, ''):
+                  event['host_business_slug'] = 'calhouns-2-0'
+              if event.get('venue_slug') in (None, '') and norm(event.get('venue_name')) in {'calhouns20', 'calhoons20'}:
+                  event['venue_slug'] = 'calhouns-2-0'
+
+              note = event.get('verification_note') or ''
+              cleanup_note = 'Marked ended on August 7, 2026 during Calhoun\'s 2.0 event-directory cleanup because the one-time event date had passed.'
+              if cleanup_note not in note:
+                  event['verification_note'] = f'{note} {cleanup_note}'.strip()
+              changed.append(event.get('event_slug'))
+
+          if not changed:
+              print('No stale Calhoun events required changes.')
+              raise SystemExit(0)
+
+          data['generated_on'] = today
+          path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+          print('Expired:', *changed, sep='\n- ')
+          PY
+
+      - name: Commit cleanup
+        run: |
+          if git diff --quiet -- public/data/local-event-directory.json; then
+            echo 'No data changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/local-event-directory.json
+          git commit -m "Expire stale Calhoun's events"
+          git push
