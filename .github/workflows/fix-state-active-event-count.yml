@@ -17,122 +17,27 @@ jobs:
           ref: main
 
       - name: Make state event count match active event directory
+        env:
+          OLD_BLOCK_B64: Y29uc3QgYnVzaW5lc3NTbHVncyA9IG5ldyBTZXQoYnVzaW5lc3Nlcy5tYXAoKGJ1c2luZXNzKSA9PiBidXNpbmVzcy5zbHVnKS5maWx0ZXIoQm9vbGVhbikpOwpjb25zdCBldmVudHMgPSAoZXZlbnREaXJlY3RvcnkuZXZlbnRzID8/IFtdKS5maWx0ZXIoKGV2ZW50KSA9PiB7CiAgaWYgKGV2ZW50LnB1Ymxpc2hfcmVhZHkgIT09IHRydWUpIHJldHVybiBmYWxzZTsKICBjb25zdCB2YWx1ZXMgPSBbZXZlbnQuc3RhdGUsIGV2ZW50LnN0YXRlX2FiYnJldmlhdGlvbiwgZXZlbnQuc3RhdGVfbmFtZSwgZXZlbnQuc3RhdGVfc2x1Z10KICAgIC5maWx0ZXIoQm9vbGVhbikKICAgIC5tYXAoKHZhbHVlKSA9PiBTdHJpbmcodmFsdWUpLnRvTG93ZXJDYXNlKCkpOwogIGlmICh2YWx1ZXMuc29tZSgodmFsdWUpID0+IHN0YXRlQ29kZXMuaGFzKHZhbHVlKSB8fCB2YWx1ZSA9PT0gZW50aXR5LnNsdWcpKSByZXR1cm4gdHJ1ZTsKICByZXR1cm4gYnVzaW5lc3NTbHVncy5oYXMoZXZlbnQudmVudWVfc2x1ZykgfHwgYnVzaW5lc3NTbHVncy5oYXMoZXZlbnQucHJpbWFyeV92ZW51ZV9zbHVnKTsKfSk7Cg==
+          NEW_BLOCK_B64: Y29uc3QgYnVzaW5lc3NTbHVncyA9IG5ldyBTZXQoYnVzaW5lc3Nlcy5tYXAoKGJ1c2luZXNzKSA9PiBidXNpbmVzcy5zbHVnKS5maWx0ZXIoQm9vbGVhbikpOwpjb25zdCBzdGF0ZUV2ZW50cyA9IChldmVudERpcmVjdG9yeS5ldmVudHMgPz8gW10pLmZpbHRlcigoZXZlbnQpID0+IHsKICBpZiAoZXZlbnQucHVibGlzaF9yZWFkeSAhPT0gdHJ1ZSkgcmV0dXJuIGZhbHNlOwogIGNvbnN0IHZhbHVlcyA9IFtldmVudC5zdGF0ZSwgZXZlbnQuc3RhdGVfYWJicmV2aWF0aW9uLCBldmVudC5zdGF0ZV9uYW1lLCBldmVudC5zdGF0ZV9zbHVnXQogICAgLmZpbHRlcihCb29sZWFuKQogICAgLm1hcCgdmFsdWUpID0+IFN0cmluZyh2YWx1ZSkudG9Mb3dlckNhc2UoKSk7CiAgaWYgKHZhbHVlcy5zb21lKCh2YWx1ZSkgPT4gc3RhdGVDb2Rlcy5oYXModmFsdWUpIHx8IHZhbHVlID09PSBlbnRpdHkuc2x1ZykpIHJldHVybiB0cnVlOwogIHJldHVybiBidXNpbmVzc1NsdWdzLmhhcyhldmVudC52ZW51ZV9zbHVnKSB8fCBidXNpbmVzc1NsdWdzLmhhcyhldmVudC5wcmltYXJ5X3ZlbnVlX3NsdWcpOwp9KTsKCmNvbnN0IG5vdyA9IG5ldyBEYXRlKCk7CmNvbnN0IGNoaWNhZ29EYXRlID0gKGRhdGUgPSBuZXcgRGF0ZSgpKSA9PiBuZXcgSW50bC5EYXRlVGltZUZvcm1hdCgiZW4tQ0EiLCB7CiAgdGltZVpvbmU6ICJBbWVyaWNhL0NoaWNhZ28iLAogIHllYXI6ICJudW1lcmljIiwKICBtb250aDogIjItZGlnaXQiLAogIGRheTogIjItZGlnaXQiCn0pLmZvcm1hdChkYXRlKTsKY29uc3QgdG9kYXkgPSBjaGljYWdvRGF0ZShub3cpOwpjb25zdCBpc1JlY3VycmluZyA9IChldmVudCkgPT4gZXZlbnQucmVjdXJyaW5nID09PSB0cnVlOwpjb25zdCBpc0FjdGl2ZSA9IChldmVudCkgPT4gZXZlbnQuYWN0aXZlICE9PSBmYWxzZTsKY29uc3Qgbm9ybWFsaXplUnVsZSA9IChydWxlID0gIiIpID0+IFN0cmluZyhydWxlID8/ICIiKS50cmltKCkucmVwbGFjZSgvXlJSVUxFOi9pLCAiIik7CmNvbnN0IHBhcnNlUnVsZSA9IChydWxlID0gIiIpID0+IE9iamVjdC5mcm9tRW50cmllcygKICBub3JtYWxpemVSdWxlKHJ1bGUpLnNwbGl0KCI7IikubWFwKChwYXJ0KSA9PiBwYXJ0LnNwbGl0KCI9IikpLmZpbHRlcigoW2tleSwgdmFsdWVdKSA9PiBrZXkgJiYgdmFsdWUpCik7CmNvbnN0IGFkZERheXMgPSAoZGF0ZVN0cmluZywgZGF5cykgPT4gewogIGNvbnN0IGRhdGUgPSBuZXcgRGF0ZShgJHtkYXRlU3RyaW5nfVQxMjowMDowMGApOwogIGRhdGUuc2V0RGF0ZShkYXRlLmdldERhdGUoKSArIGRheXMpOwogIHJldHVybiBjaGljYWdvRGF0ZShkYXRlKTsKfTsKY29uc3QgZGF5Q29kZSA9IChkYXRlU3RyaW5nKSA9PiBbIlNVIiwgIk1PIiwgIlRVIiwgIldFIiwgIlRIIiwgIkZSIiwgIlNBIl1bbmV3IERhdGUoYCR7ZGF0ZVN0cmluZ31UMTI6MDA6MDBgKS5nZXREYXkoKV07CmNvbnN0IHJlY3VycmVuY2VFbmREYXRlID0gKGV2ZW50KSA9PiB7CiAgaWYgKGV2ZW50LnJlY3VycmVuY2VfZW5kX2RhdGUpIHJldHVybiBldmVudC5yZWN1cnJlbmNlX2VuZF9kYXRlOwogIGNvbnN0IHVudGlsID0gcGFyc2VSdWxlKGV2ZW50LnJlY3VycmVuY2VfcnVsZSkuVU5USUw7CiAgaWYgKCF1bnRpbCB8fCAhL15cZHs4fS8udGVzdCh1bnRpbCkpIHJldHVybiBudWxsOwogIHJldHVybiBgJHt1bnRpbC5zbGljZSgwLCA0KX0tJHt1bnRpbC5zbGljZSg0LCA2KX0tJHt1bnRpbC5zbGljZSg2LCA4KX1gOwp9Owpjb25zdCByZGF0ZXMgPSAocnVsZSA9ICIiKSA9PiB7CiAgY29uc3QgdmFsdWUgPSBub3JtYWxpemVSdWxlKHJ1bGUpLnN0YXJ0c1dpdGgoIlJEQVRFOiIpID8gbm9ybWFsaXplUnVsZShydWxlKS5zbGljZSg2KSA6ICIiOwogIHJldHVybiB2YWx1ZS5zcGxpdCgiLCIpLm1hcCgoZW50cnkpID0+IGVudHJ5LnNsaWNlKDAsIDgpKS5maWx0ZXIoL15cZHs4fSQvKS5tYXAoKGVudHJ5KSA9PiBgJHtlbnRyeS5zbGljZSgwLCA0KX0tJHtlbnRyeS5zbGljZSg0LCA2KX0tJHtlbnRyeS5zbGljZSg2LCA4KX1gKTsKfTsKY29uc3Qgb2NjdXJzT24gPSAoZXZlbnREYXRlLCB0YXJnZXREYXRlLCByZWN1cnJlbmNlUnVsZSwgcmVjdXJyZW5jZUVuZCkgPT4gewogIGlmICghZXZlbnREYXRlIHx8IHRhcmdldERhdGUgPCBldmVudERhdGUgfHwgKHJlY3VycmVuY2VFbmQgJiYgdGFyZ2V0RGF0ZSA+IHJlY3VycmVuY2VFbmQpKSByZXR1cm4gZmFsc2U7CiAgY29uc3Qgbm9ybWFsaXplZCA9IG5vcm1hbGl6ZVJ1bGUocmVjdXJyZW5jZVJ1bGUpOwogIGlmIChub3JtYWxpemVkLnN0YXJ0c1dpdGgoIlJEQVRFOiIpKSByZXR1cm4gcmRhdGVzKHJlY3VycmVuY2VSdWxlKS5pbmNsdWRlcyh0YXJnZXREYXRlKTsKICBjb25zdCBydWxlID0gcGFyc2VSdWxlKHJlY3VycmVuY2VSdWxlKTsKICBjb25zdCBmcmVxdWVuY3kgPSBydWxlLkZSRVE7CiAgaWYgKCFmcmVxdWVuY3kpIHJldHVybiB0YXJnZXREYXRlID09PSBldmVudERhdGU7CiAgY29uc3QgaW50ZXJ2YWwgPSBNYXRoLm1heCgxLCBOdW1iZXIucGFyc2VJbnQocnVsZS5JTlRFUlZBTCA/PyAiMSIsIDEwKSB8fCAxKTsKICBjb25zdCBzdGFydCA9IG5ldyBEYXRlKGAke2V2ZW50RGF0ZX1UMTI6MDA6MDBgKTsKICBjb25zdCB0YXJnZXQgPSBuZXcgRGF0ZShgJHt0YXJnZXREYXRlfVQxMjowMDowMGApOwogIGNvbnN0IGRheXNBcGFydCA9IE1hdGgucm91bmQoKHRhcmdldC5nZXRUaW1lKCkgLSBzdGFydC5nZXRUaW1lKCkpIC8gODY0MDAwMDApOwogIGlmIChmcmVxdWVuY3kgPT09ICJEQUlMWSIpIHJldHVybiBkYXlzQXBhcnQgJSBpbnRlcnZhbCA9PT0gMDsKICBpZiAoZnJlcXVlbmN5ID09PSAiV0VFS0xZIikgewogICAgY29uc3QgYWxsb3dlZERheXMgPSAocnVsZS5CWURBWSA/PyBkYXlDb2RlKGV2ZW50RGF0ZSkpLnNwbGl0KCIsIik7CiAgICByZXR1cm4gYWxsb3dlZERheXMuaW5jbHVkZXMoZGF5Q29kZSh0YXJnZXREYXRlKSkgJiYgTWF0aC5mbG9vcihkYXlzQXBhcnQgLyA3KSAlIGludGVydmFsID09PSAwOwogIH0KICBpZiAoZnJlcXVlbmN5ID09PSAiTU9OVEhMWSIpIHsKICAgIGNvbnN0IG1vbnRoc0FwYXJ0ID0gKHRhcmdldC5nZXRGdWxsWWVhcigpIC0gc3RhcnQuZ2V0RnVsbFllYXIoKSkgKiAxMiArIHRhcmdldC5nZXRNb250aCgpIC0gc3RhcnQuZ2V0TW9udGgoKTsKICAgIGNvbnN0IGFsbG93ZWRNb250aERheXMgPSAocnVsZS5CWU1PTlRIREFZID8/IFN0cmluZyhzdGFydC5nZXREYXRlKCkpKS5zcGxpdCgiLCIpLm1hcChOdW1iZXIpOwogICAgcmV0dXJuIG1vbnRoc0FwYXJ0ID49IDAgJiYgbW9udGhzQXBhcnQgJSBpbnRlcnZhbCA9PT0gMCAmJiBhbGxvd2VkTW9udGhEYXlzLmluY2x1ZGVzKHRhcmdldC5nZXREYXRlKCkpOwogIH0KICBpZiAoZnJlcXVlbmN5ID09PSAiWUVBUkxZIikgewogICAgY29uc3QgeWVhcnNBcGFydCA9IHRhcmdldC5nZXRGdWxsWWVhcigpIC0gc3RhcnQuZ2V0RnVsbFllYXIoKTsKICAgIHJldHVybiB5ZWFyc0FwYXJ0ID49IDAgJiYgeWVhcnNBcGFydCAlIGludGVydmFsID09PSAwICYmIHRhcmdldC5nZXRNb250aCgpID09PSBzdGFydC5nZXRNb250aCgpICYmIHRhcmdldC5nZXREYXRlKCkgPT09IHN0YXJ0LmdldERhdGUoKTsKICB9CiAgcmV0dXJuIHRhcmdldERhdGUgPT09IGV2ZW50RGF0ZTsKfTsKY29uc3QgbmV4dE9jY3VycmVuY2VEYXRlID0gKGV2ZW50LCBmcm9tRGF0ZSA9IHRvZGF5KSA9PiB7CiAgY29uc3QgZXZlbnREYXRlID0gZXZlbnQuc3RhcnRfZGF0ZXRpbWU/LnNsaWNlKDAsIDEwKSA/PyAiIjsKICBpZiAoIWV2ZW50RGF0ZSkgcmV0dXJuIG51bGw7CiAgaWYgKCFpc1JlY3VycmluZyhldmVudCkpIHJldHVybiBldmVudERhdGUgPj0gZnJvbURhdGUgPyBldmVudERhdGUgOiBudWxsOwogIGNvbnN0IGVuZERhdGUgPSByZWN1cnJlbmNlRW5kRGF0ZShldmVudCk7CiAgY29uc3Qgc2NhbkVuZCA9IGVuZERhdGUgJiYgZW5kRGF0ZSA8IGFkZERheXMoZnJvbURhdGUsIDczMCkgPyBlbmREYXRlIDogYWRkRGF5cyhmcm9tRGF0ZSwgNzMwKTsKICBmb3IgKGxldCBkYXRlID0gZnJvbURhdGU7IGRhdGUgPD0gc2NhbkVuZDsgZGF0ZSA9IGFkZERheXMoZGF0ZSwgMSkpIHsKICAgIGlmIChvY2N1cnNPbihldmVudERhdGUsIGRhdGUsIGV2ZW50LnJlY3VycmVuY2VfcnVsZSA/PyAiIiwgZW5kRGF0ZSA/PyAiIikpIHJldHVybiBkYXRlOwogIH0KICByZXR1cm4gbnVsbDsKfTsKY29uc3QgaXNDdXJyZW50RXZlbnQgPSAoZXZlbnQpID0+IHsKICBpZiAoIWlzQWN0aXZlKGV2ZW50KSkgcmV0dXJuIGZhbHNlOwogIGlmIChpc1JlY3VycmluZyhldmVudCkpIHJldHVybiBCb29sZWFuKG5leHRPY2N1cnJlbmNlRGF0ZShldmVudCkpOwogIGlmIChldmVudC5lbmRfZGF0ZXRpbWUpIHJldHVybiBuZXcgRGF0ZShldmVudC5lbmRfZGF0ZXRpbWUpID49IG5vdzsKICByZXR1cm4gQm9vbGVhbihldmVudC5zdGFydF9kYXRldGltZSAmJiBldmVudC5zdGFydF9kYXRldGltZS5zbGljZSgwLCAxMCkgPj0gdG9kYXkpOwp9Owpjb25zdCBldmVudHMgPSBzdGF0ZUV2ZW50cwogIC5maWx0ZXIoKGV2ZW50KSA9PiBbInVwY29taW5nIiwgInJlY3VycmluZyJdLmluY2x1ZGVzKGV2ZW50LnN0YXR1cykpCiAgLmZpbHRlcihpc0N1cnJlbnRFdmVudCk7Cg==
         run: |
           python - <<'PY'
+          import base64
+          import os
           from pathlib import Path
 
           path = Path('src/pages/states/[slug].astro')
           text = path.read_text()
-
-          old = '''const businessSlugs = new Set(businesses.map((business) => business.slug).filter(Boolean));
-const events = (eventDirectory.events ?? []).filter((event) => {
-  if (event.publish_ready !== true) return false;
-  const values = [event.state, event.state_abbreviation, event.state_name, event.state_slug]
-    .filter(Boolean)
-    .map((value) => String(value).toLowerCase());
-  if (values.some((value) => stateCodes.has(value) || value === entity.slug)) return true;
-  return businessSlugs.has(event.venue_slug) || businessSlugs.has(event.primary_venue_slug);
-});
-'''
-
-          new = '''const businessSlugs = new Set(businesses.map((business) => business.slug).filter(Boolean));
-const stateEvents = (eventDirectory.events ?? []).filter((event) => {
-  if (event.publish_ready !== true) return false;
-  const values = [event.state, event.state_abbreviation, event.state_name, event.state_slug]
-    .filter(Boolean)
-    .map((value) => String(value).toLowerCase());
-  if (values.some((value) => stateCodes.has(value) || value === entity.slug)) return true;
-  return businessSlugs.has(event.venue_slug) || businessSlugs.has(event.primary_venue_slug);
-});
-
-const now = new Date();
-const chicagoDate = (date = new Date()) => new Intl.DateTimeFormat("en-CA", {
-  timeZone: "America/Chicago",
-  year: "numeric",
-  month: "2-digit",
-  day: "2-digit"
-}).format(date);
-const today = chicagoDate(now);
-const isRecurring = (event) => event.recurring === true;
-const isActive = (event) => event.active !== false;
-const normalizeRule = (rule = "") => String(rule ?? "").trim().replace(/^RRULE:/i, "");
-const parseRule = (rule = "") => Object.fromEntries(
-  normalizeRule(rule).split(";").map((part) => part.split("=")).filter(([key, value]) => key && value)
-);
-const addDays = (dateString, days) => {
-  const date = new Date(`${dateString}T12:00:00`);
-  date.setDate(date.getDate() + days);
-  return chicagoDate(date);
-};
-const dayCode = (dateString) => ["SU", "MO", "TU", "WE", "TH", "FR", "SA"][new Date(`${dateString}T12:00:00`).getDay()];
-const recurrenceEndDate = (event) => {
-  if (event.recurrence_end_date) return event.recurrence_end_date;
-  const until = parseRule(event.recurrence_rule).UNTIL;
-  if (!until || !/^\\d{8}/.test(until)) return null;
-  return `${until.slice(0, 4)}-${until.slice(4, 6)}-${until.slice(6, 8)}`;
-};
-const rdates = (rule = "") => {
-  const value = normalizeRule(rule).startsWith("RDATE:") ? normalizeRule(rule).slice(6) : "";
-  return value.split(",").map((entry) => entry.slice(0, 8)).filter(/^\\d{8}$/).map((entry) => `${entry.slice(0, 4)}-${entry.slice(4, 6)}-${entry.slice(6, 8)}`);
-};
-const occursOn = (eventDate, targetDate, recurrenceRule, recurrenceEnd) => {
-  if (!eventDate || targetDate < eventDate || (recurrenceEnd && targetDate > recurrenceEnd)) return false;
-  const normalized = normalizeRule(recurrenceRule);
-  if (normalized.startsWith("RDATE:")) return rdates(recurrenceRule).includes(targetDate);
-  const rule = parseRule(recurrenceRule);
-  const frequency = rule.FREQ;
-  if (!frequency) return targetDate === eventDate;
-  const interval = Math.max(1, Number.parseInt(rule.INTERVAL ?? "1", 10) || 1);
-  const start = new Date(`${eventDate}T12:00:00`);
-  const target = new Date(`${targetDate}T12:00:00`);
-  const daysApart = Math.round((target.getTime() - start.getTime()) / 86400000);
-  if (frequency === "DAILY") return daysApart % interval === 0;
-  if (frequency === "WEEKLY") {
-    const allowedDays = (rule.BYDAY ?? dayCode(eventDate)).split(",");
-    return allowedDays.includes(dayCode(targetDate)) && Math.floor(daysApart / 7) % interval === 0;
-  }
-  if (frequency === "MONTHLY") {
-    const monthsApart = (target.getFullYear() - start.getFullYear()) * 12 + target.getMonth() - start.getMonth();
-    const allowedMonthDays = (rule.BYMONTHDAY ?? String(start.getDate())).split(",").map(Number);
-    return monthsApart >= 0 && monthsApart % interval === 0 && allowedMonthDays.includes(target.getDate());
-  }
-  if (frequency === "YEARLY") {
-    const yearsApart = target.getFullYear() - start.getFullYear();
-    return yearsApart >= 0 && yearsApart % interval === 0 && target.getMonth() === start.getMonth() && target.getDate() === start.getDate();
-  }
-  return targetDate === eventDate;
-};
-const nextOccurrenceDate = (event, fromDate = today) => {
-  const eventDate = event.start_datetime?.slice(0, 10) ?? "";
-  if (!eventDate) return null;
-  if (!isRecurring(event)) return eventDate >= fromDate ? eventDate : null;
-  const endDate = recurrenceEndDate(event);
-  const scanEnd = endDate && endDate < addDays(fromDate, 730) ? endDate : addDays(fromDate, 730);
-  for (let date = fromDate; date <= scanEnd; date = addDays(date, 1)) {
-    if (occursOn(eventDate, date, event.recurrence_rule ?? "", endDate ?? "")) return date;
-  }
-  return null;
-};
-const isCurrentEvent = (event) => {
-  if (!isActive(event)) return false;
-  if (isRecurring(event)) return Boolean(nextOccurrenceDate(event));
-  if (event.end_datetime) return new Date(event.end_datetime) >= now;
-  return Boolean(event.start_datetime && event.start_datetime.slice(0, 10) >= today);
-};
-const events = stateEvents
-  .filter((event) => ["upcoming", "recurring"].includes(event.status))
-  .filter(isCurrentEvent);
-'''
-
+          old = base64.b64decode(os.environ['OLD_BLOCK_B64']).decode()
+          new = base64.b64decode(os.environ['NEW_BLOCK_B64']).decode()
           assert text.count(old) == 1, f'event count block target count: {text.count(old)}'
-          text = text.replace(old, new, 1)
-          path.write_text(text)
+          path.write_text(text.replace(old, new, 1))
           PY
 
       - name: Commit fix and remove temporary workflow
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+Vanken76@users.noreply.github.com"
           git rm .github/workflows/fix-state-active-event-count.yml
           git add 'src/pages/states/[slug].astro'
           git commit -m "Count only active events on state pages"
