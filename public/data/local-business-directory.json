@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-06",
+  "generated_on": "2026-08-07",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 607,
-  "publish_ready_count": 271,
+  "business_count": 608,
+  "publish_ready_count": 272,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -30404,6 +30404,119 @@
         "Kids menu",
         "Takeout and delivery",
         "Long Monday-through-Saturday hours"
+      ]
+    },
+    {
+      "slug": "cosmic-hippie-boutique",
+      "business_name": "Cosmic Hippie Boutique",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "20233 US Hwy 377, Whitesboro, TX 76273",
+      "category": [
+        "Boutique",
+        "Women's Clothing Store",
+        "Gift Shop"
+      ],
+      "tags": [
+        "Women's Fashion",
+        "Shoes",
+        "Jewelry",
+        "Accessories",
+        "Home Decor",
+        "Bohemian Style",
+        "Statement Fashion",
+        "Online Shopping",
+        "Local Pickup",
+        "Locally Owned",
+        "Regional Pop-Ups",
+        "Round Top"
+      ],
+      "description": "A colorful, personality-driven women's boutique on US 377 in Whitesboro carrying clothing, shoes, jewelry, accessories, gifts and home decor. Cosmic Hippie pairs its physical storefront with a large online shop and local pickup, and the brand also appears at regional pop-ups and community shopping events.",
+      "why_visit": "Go for bold, expressive boutique fashion rather than basic mall staples: flowy dresses, statement footwear, colorful tops, denim, jewelry and giftable accessories, with the option to browse online before making the drive.",
+      "why_its_unique": "Cosmic Hippie builds its identity around colorful, free-spirited statement fashion and carries premium apparel, footwear and jewelry alongside smaller accessories and gifts. Its reach extends beyond the Whitesboro storefront through Round Top pop-ups and community collaborations.",
+      "phone": "903-209-8367",
+      "email": "goodvibesjenn@gmail.com",
+      "website": "https://shopcosmichippie.com",
+      "facebook": "https://www.facebook.com/profile.php?id=100092274240492",
+      "instagram": "https://www.instagram.com/shopcosmichippie/",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$-$$$",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "10:00 AM - 5:00 PM",
+        "wednesday": "10:00 AM - 5:00 PM",
+        "thursday": "10:00 AM - 5:00 PM",
+        "friday": "10:00 AM - 5:00 PM",
+        "saturday": "10:00 AM - 3:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current map listings show Tuesday-Friday 10:00 AM-5:00 PM and Saturday 10:00 AM-3:00 PM. The official Facebook page still lists Tuesday closed and says its hours were updated about three years ago, so Tuesday hours should be confirmed before a special trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$$-$$$",
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "In-store shopping",
+        "Online shopping",
+        "Local pickup"
+      ],
+      "good_to_know": [
+        "Local pickup is available through the online store at the Whitesboro location.",
+        "The online catalog ranges from lower-cost accessories to premium apparel, jewelry and footwear, so prices vary widely by item.",
+        "Tuesday hours conflict between the older Facebook schedule and current map listings; verify Tuesday before making a special trip."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Complete. Address and phone are confirmed by current business listings and the Whitesboro Chamber; merchandise, online ordering and local pickup are confirmed by the official store. The official Facebook page supplied current contact details but shows an older Tuesday-closed schedule that conflicts with newer map listings. Cosmic Hippie has hosted a community Sip & Shop at the Whitesboro store and maintains a regional pop-up presence, including Round Top. Monitor the official website, Facebook, Instagram and regional event partners for pop-ups, shopping nights, collaborations and schedule changes.",
+      "last_checked": "2026-08-07",
+      "event_types": [
+        "Sip & shop",
+        "Boutique shopping events",
+        "Pop-ups",
+        "Fashion events",
+        "Community fundraisers"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Official Instagram account",
+        "Official website",
+        "Junior League of Grayson County event calendar",
+        "Zapp Hall / Round Top announcements"
+      ],
+      "features": [
+        "Locally owned boutique",
+        "Women's clothing",
+        "Shoes",
+        "Jewelry and accessories",
+        "Gifts and home decor",
+        "Online shopping",
+        "Local pickup",
+        "Regional pop-up presence",
+        "Community event participation"
       ]
     }
   ]
