@@ -50,6 +50,7 @@ const sourceEntries = Array.isArray(entity.sources) ? entity.sources.filter((sou
 const timeZoneLabels = (entity.time_zones ?? []).map((zone) => zone === "America/Chicago" ? "Central Time" : zone === "America/Denver" ? "Mountain Time" : zone);
 const pageTitle = entity.seo_title || `${entity.name} | Texoma Weekend Guide`;
 const pageDescription = entity.seo_description || entity.short_description || entity.description;
+const eventHref = `/events/?state=${encodeURIComponent(String(entity.abbreviation || entity.name || entity.slug).toLowerCase())}`;
 ---
 
 <BaseLayout title={pageTitle} description={pageDescription} image={heroPrimary?.url || undefined}>
@@ -142,13 +143,13 @@ const pageDescription = entity.seo_description || entity.short_description || en
       <section id="explore" class="explore-section">
         <div class="section-heading"><p class="section-label">Explore through TWG</p><h2>Discover more across {entity.name}</h2><p>{entity.visitor_summary}</p></div>
         <div class="stat-grid">
-          <a class="stat-card" href="/events/"><strong>{formatNumber(events.length) || "0"}</strong><span>published events</span></a>
+          <a class="stat-card" href={eventHref}><strong>{formatNumber(events.length) || "0"}</strong><span>published events</span></a>
           <a class="stat-card" href="/directory/"><strong>{formatNumber(businesses.length) || "0"}</strong><span>businesses and venues</span></a>
           <div class="stat-card"><strong>{entity.region_slugs?.length || 0}</strong><span>linked regions</span></div>
           <div class="stat-card"><strong>{entity.related_geography_slugs?.length || 0}</strong><span>related destinations</span></div>
         </div>
         <div class="browse-links">
-          <a href="/events/">Browse events</a>
+          <a href={eventHref}>Browse events</a>
           <a href="/directory/">Browse businesses</a>
           <a href="/weekend-roundup/">See the Weekend Roundup</a>
         </div>

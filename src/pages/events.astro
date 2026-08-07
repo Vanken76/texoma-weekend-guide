@@ -184,6 +184,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
                 data-date={event.start_datetime?.slice(0, 10) ?? ""}
                 data-next-date={event.next_occurrence_date ?? ""}
                 data-city={(event.city ?? "").toLowerCase()}
+                data-state={(event.state ?? "").toLowerCase()}
                 data-categories={(event.categories ?? []).join("|").toLowerCase()}
                 data-cost={event.cost_type ?? "unknown"}
                 data-recurring={recurring ? "true" : "false"}
@@ -240,6 +241,13 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
     const pageNumbers = document.querySelector("#page-numbers");
     const cards = [...document.querySelectorAll("[data-event-card]")];
     const quickButtons = [...document.querySelectorAll("[data-quick]")];
+    const normalizeState = (value = "") => {
+      const state = String(value ?? "").trim().toLowerCase();
+      if (state === "texas") return "tx";
+      if (state === "oklahoma") return "ok";
+      return state;
+    };
+    const requestedState = normalizeState(new URLSearchParams(window.location.search).get("state") ?? "");
     let quickFilter = "all";
     let currentPage = 1;
 
@@ -315,6 +323,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
         return (!query || search.includes(query))
           && matchesDate(card, selectedDate)
           && (selectedCity === "all" || card.dataset.city === selectedCity)
+          && (!requestedState || normalizeState(card.dataset.state ?? "") === requestedState)
           && (selectedCategory === "all" || categories.split("|").includes(selectedCategory))
           && (quickFilter === "all" || (quickFilter === "free" && card.dataset.cost === "free") || categories.includes(quickFilter) || search.includes(quickFilter));
       });
