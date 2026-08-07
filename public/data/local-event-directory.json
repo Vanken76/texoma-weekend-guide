@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 139,
-  "publish_ready_count": 132,
+  "event_count": 140,
+  "publish_ready_count": 133,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -8211,6 +8211,78 @@
       "partner_business_slugs": [],
       "partner_names": [
         "Bulletproof PTX"
+      ]
+    },
+    {
+      "event_slug": "calhouns-2-0-3-year-anniversary-bash-2026-08-15",
+      "event_name": "Calhoun's 2.0 3-Year Anniversary Bash",
+      "description": "Celebrate Calhoun's 2.0's 3-Year Anniversary with a Black, White & Boots All Night celebration in Denison. Doors open at 6:00 PM for an evening of live country music, dancing and anniversary festivities. Taylor Walker opens with an acoustic performance, followed by full-band performances from Lane Bricker and Billie Jo Jones. Sazón Urban will be on-site serving food throughout the evening, and guests are encouraged to dress in black and white attire with their favorite boots.",
+      "start_datetime": "2026-08-15T19:00:00-05:00",
+      "end_datetime": "2026-08-16T02:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "calhouns-2-0"
+      ],
+      "venue_name": "Calhoun's 2.0",
+      "address": "4801 S. State Hwy 91",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Country Music",
+        "Nightlife",
+        "Anniversary Celebration"
+      ],
+      "tags": [
+        "Calhoun's 2.0",
+        "3-Year Anniversary",
+        "Black White and Boots",
+        "Billie Jo Jones",
+        "Lane Bricker",
+        "Taylor Walker",
+        "Sazón Urban",
+        "live country music",
+        "live bands",
+        "acoustic music",
+        "dancing",
+        "Saturday night",
+        "Denison"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ages 21+: $10 cover. Ages 18–20: $20 cover.",
+      "audience": [
+        "Adults",
+        "Ages 18+"
+      ],
+      "age_restriction": "18+",
+      "image_url": "/images/events/calhouns-2-0-3-year-anniversary-bash-2026-08-15.jpg",
+      "image_alt": "Black-and-white promotional flyer for Calhoun's 2.0 3-Year Anniversary Bash on Saturday, August 15, featuring Billie Jo Jones, Lane Bricker and acoustic opener Taylor Walker.",
+      "official_url": null,
+      "facebook_url": "https://facebook.com/events/s/3-yr-anniversary-bash-2-full-b/1726416055326031/",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 7, 2026 from the official Facebook Event published by Calhoun's 2.0 and the official promotional materials. The event is scheduled for Saturday, August 15, 2026, from 7:00 PM to 2:00 AM at Calhoun's 2.0, 4801 S. State Hwy 91 in Denison. Doors open at 6:00 PM. Taylor Walker is the acoustic opener, with full-band performances by Lane Bricker and Billie Jo Jones. Sazón Urban is scheduled to serve food on-site. The theme is Black, White & Boots All Night. Admission is $10 for guests age 21 and older and $20 for guests ages 18–20. The event is 18+.",
+      "last_checked": "2026-08-07",
+      "created_on": "2026-08-07",
+      "updated_on": "2026-08-07",
+      "organizer_name": "Calhoun's 2.0",
+      "host_business_slug": "calhouns-2-0",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Billie Jo Jones",
+        "Lane Bricker",
+        "Taylor Walker",
+        "Sazón Urban"
       ]
     }
   ]
