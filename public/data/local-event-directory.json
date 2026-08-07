@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "project": "Texoma Weekend Guide",
   "document_type": "local_event_directory",
-  "generated_on": "2026-08-06",
+  "generated_on": "2026-08-07",
   "timezone_default": "America/Chicago",
   "publication_rule": "Only records with publish_ready=true should appear in the public event directory.",
   "active_event_rule": "status in [upcoming, recurring] and either end_datetime is in the future, or end_datetime is null and the local event date has not passed",
@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 137,
-  "publish_ready_count": 130,
+  "event_count": 138,
+  "publish_ready_count": 131,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -8083,6 +8083,70 @@
       "host_business_slug": null,
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_slug": "greg-guymon-live-at-calhouns-2-0-2026-08-07",
+      "event_name": "Greg Guymon Live at Calhoun's 2.0",
+      "description": "Kick off the weekend with live country music from Greg Guymon at Calhoun's 2.0 in Denison. Doors open at 7:00 PM for a night of country music, dancing and honky-tonk fun. Guests celebrating an August birthday receive free admission when they notify the door host at entry and show a valid ID.",
+      "start_datetime": "2026-08-07T19:00:00-05:00",
+      "end_datetime": "2026-08-08T02:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "calhouns-2-0"
+      ],
+      "venue_name": "Calhoun's 2.0",
+      "address": "4801 S. State Hwy 91",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Country Music",
+        "Nightlife"
+      ],
+      "tags": [
+        "Greg Guymon",
+        "live country music",
+        "country music",
+        "honky-tonk",
+        "dancing",
+        "Friday night",
+        "Calhoun's 2.0",
+        "Denison",
+        "August birthday special"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ages 21+: $10 cover. Ages 18–20: $20 cover. Guests with an August birthday receive free admission when they tell the door host at entry and show a valid ID.",
+      "audience": [
+        "Adults",
+        "Ages 18+"
+      ],
+      "age_restriction": "18+",
+      "image_url": "/images/events/greg-guymon-live-at-calhouns-2-0-2026-08-07.jpg",
+      "image_alt": "Greg Guymon promotional flyer for his Friday, August 7 live performance at Calhoun's 2.0 in Denison, with doors opening at 7 PM and age-based cover prices.",
+      "official_url": null,
+      "facebook_url": "https://facebook.com/events/s/greg-guymon/1008129432042488/",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 7, 2026 from the official Facebook Event published by Calhoun's 2.0 and the official promotional flyer. The event is Friday, August 7, 2026, from 7:00 PM to 2:00 AM at Calhoun's 2.0, 4801 S. State Hwy 91 in Denison. Admission is $10 for ages 21+ and $20 for ages 18–20. Guests celebrating an August birthday receive free admission when they notify the door host at entry and present valid ID. The event is 18+.",
+      "last_checked": "2026-08-07",
+      "created_on": "2026-08-07",
+      "updated_on": "2026-08-07",
+      "organizer_name": "Calhoun's 2.0",
+      "host_business_slug": "calhouns-2-0",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Greg Guymon"
+      ]
     }
   ]
 }
