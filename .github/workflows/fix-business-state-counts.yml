@@ -1,0 +1,100 @@
+name: Fix business state counts
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Patch state business detection
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          state_path = Path('src/pages/states/[slug].astro')
+          state = state_path.read_text()
+          import_anchor = 'import eventDirectory from "../../../public/data/local-event-directory.json";'
+          import_line = 'import { businessStateCode } from "../../utils/businessState.js";'
+          assert state.count(import_anchor) == 1
+          if import_line not in state:
+              state = state.replace(import_anchor, import_anchor + '\n' + import_line, 1)
+
+          old = '''const businesses = (businessDirectory.businesses ?? []).filter((business) => {
+  if (business.publish_ready !== true) return false;
+  const values = [business.state, business.state_abbreviation, business.state_name, business.state_slug]
+    .filter(Boolean)
+    .map((value) => String(value).toLowerCase());
+  return values.some((value) => stateCodes.has(value) || value === entity.slug);
+});'''
+          new = '''const targetBusinessState = businessStateCode({ state: entity.abbreviation || entity.name || entity.slug });
+const businesses = (businessDirectory.businesses ?? []).filter((business) =>
+  business.publish_ready === true && businessStateCode(business) === targetBusinessState
+);'''
+          assert state.count(old) == 1
+          state = state.replace(old, new, 1)
+          state_path.write_text(state)
+
+          business_path = Path('src/pages/businesses.astro')
+          text = business_path.read_text()
+          import_anchor = 'import fs from "node:fs/promises";'
+          import_line = 'import { businessStateCode } from "../utils/businessState.js";'
+          assert text.count(import_anchor) == 1
+          if import_line not in text:
+              text = text.replace(import_anchor, import_anchor + '\n' + import_line, 1)
+
+          old = '''    card_image: business.image || business.image_url || business.logo || business.logo_url || null,
+    card_image_alt: business.image_alt || business.logo_alt || `${business.business_name} logo`'''
+          new = '''    card_image: business.image || business.image_url || business.logo || business.logo_url || null,
+    card_image_alt: business.image_alt || business.logo_alt || `${business.business_name} logo`,
+    card_state: businessStateCode(business)'''
+          assert text.count(old) == 1
+          text = text.replace(old, new, 1)
+
+          old = 'data-state={String(business.state_abbreviation || business.state || business.state_name || business.state_slug || "").toLowerCase()}'
+          new = 'data-state={business.card_state}'
+          assert text.count(old) == 1
+          text = text.replace(old, new, 1)
+          business_path.write_text(text)
+          PY
+
+      - name: Audit state counts
+        run: |
+          node --input-type=module - <<'NODE'
+          import fs from 'node:fs';
+          import { businessStateCode } from './src/utils/businessState.js';
+          const directory = JSON.parse(fs.readFileSync('./public/data/local-business-directory.json', 'utf8'));
+          const published = (directory.businesses ?? []).filter((business) => business.publish_ready === true);
+          const counts = published.reduce((acc, business) => {
+            const code = businessStateCode(business) || 'unknown';
+            acc[code] = (acc[code] || 0) + 1;
+            return acc;
+          }, {});
+          console.log(`Published businesses: ${published.length}`);
+          console.log(`Texas: ${counts.tx || 0}`);
+          console.log(`Oklahoma: ${counts.ok || 0}`);
+          console.log(`Unknown/other: ${published.length - (counts.tx || 0) - (counts.ok || 0)}`);
+          NODE
+
+      - name: Verify production build
+        run: |
+          npm clean-install --progress=false
+          npm run build
+
+      - name: Commit fix and remove temporary workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/fix-business-state-counts.yml
+          git add src/pages/businesses.astro 'src/pages/states/[slug].astro'
+          git commit -m "Fix Texas business counts and filtering"
+          git push origin main
