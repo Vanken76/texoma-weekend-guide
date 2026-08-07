@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 140,
-  "publish_ready_count": 133,
+  "event_count": 141,
+  "publish_ready_count": 134,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -8283,6 +8283,71 @@
         "Lane Bricker",
         "Taylor Walker",
         "Sazón Urban"
+      ]
+    },
+    {
+      "event_slug": "april-n-smith-full-band-calhouns-2-0-2026-08-21",
+      "event_name": "April N. Smith — Full Band",
+      "description": "April N. Smith brings her full band to Calhoun's 2.0 in Denison for a Friday night of live country music, powerhouse vocals, dancing and high-energy entertainment. Doors open at 7:00 PM, with the Facebook event listing the performance at 9:00 PM. Guests can enjoy Calhoun's large dance floor, pool tables, darts, cornhole, Giant Connect 4 and Mega Jenga, with a DJ playing before and after the band. The kitchen is scheduled to remain open until 11:00 PM.",
+      "start_datetime": "2026-08-21T21:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "calhouns-2-0"
+      ],
+      "venue_name": "Calhoun's 2.0",
+      "address": "4801 S. State Hwy 91",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Country Music",
+        "Nightlife"
+      ],
+      "tags": [
+        "April N. Smith",
+        "full band",
+        "live country music",
+        "country music",
+        "dancing",
+        "two-step",
+        "line dancing",
+        "Friday night",
+        "Calhoun's 2.0",
+        "Denison"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ages 21+: $10 cover. Ages 18–20: $20 cover.",
+      "audience": [
+        "Adults",
+        "Ages 18+"
+      ],
+      "age_restriction": "18+",
+      "image_url": "/images/events/april-n-smith-full-band-calhouns-2-0-2026-08-21.jpg",
+      "image_alt": "Promotional image for April N. Smith's full-band performance at Calhoun's 2.0 in Denison on Friday, August 21, 2026, featuring April N. Smith seated against a dramatic fiery background with the words Into the Fire.",
+      "official_url": null,
+      "facebook_url": "https://facebook.com/events/s/calhouns-20-full-band/1063514856138581/",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 7, 2026 from the official Facebook Event jointly published by April N. Smith and Calhoun's 2.0 and the supplied official event details. The event is Friday, August 21, 2026 at Calhoun's 2.0, 4801 S. State Hwy 91 in Denison. Doors open at 7:00 PM and the Facebook event lists the full-band performance at 9:00 PM. Admission is $10 for guests age 21 and older and $20 for guests ages 18–20. The event is 18+. The venue states that a DJ will play before and after the band and that the kitchen will remain open until 11:00 PM. No event ending time was published, so end_datetime is intentionally null.",
+      "last_checked": "2026-08-07",
+      "created_on": "2026-08-07",
+      "updated_on": "2026-08-07",
+      "organizer_name": "April N. Smith and Calhoun's 2.0",
+      "host_business_slug": "calhouns-2-0",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "April N. Smith"
       ]
     }
   ]
