@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import fs from "node:fs/promises";
+import { businessStateCode } from "../utils/businessState.js";
 
 const jsonPath = new URL("public/data/local-business-directory.json", `file://${process.cwd()}/`);
 const raw = await fs.readFile(jsonPath, "utf-8");
@@ -18,7 +19,8 @@ const businesses = directory.businesses
     ...business,
     category: toCategoryArray(business.category),
     card_image: business.image || business.image_url || business.logo || business.logo_url || null,
-    card_image_alt: business.image_alt || business.logo_alt || `${business.business_name} logo`
+    card_image_alt: business.image_alt || business.logo_alt || `${business.business_name} logo`,
+    card_state: businessStateCode(business)
   }))
   .sort((a, b) => a.business_name.localeCompare(b.business_name));
 
@@ -57,7 +59,7 @@ const states = [["tx", "Texas"], ["ok", "Oklahoma"]];
           class:list={["business-card", business.card_image && "has-image"]}
           data-name={business.business_name.toLowerCase()}
           data-location={(business.service_area_or_location ?? "").toLowerCase()}
-          data-state={String(business.state_abbreviation || business.state || business.state_name || business.state_slug || "").toLowerCase()}
+          data-state={business.card_state}
           data-categories={business.category.join("|").toLowerCase()}
           data-search={[business.business_name, business.service_area_or_location, business.description, ...business.category].filter(Boolean).join(" ").toLowerCase()}
         >

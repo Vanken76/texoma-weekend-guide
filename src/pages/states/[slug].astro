@@ -3,6 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import geographyDirectory from "../../../public/data/local-geography-directory.json";
 import businessDirectory from "../../../public/data/local-business-directory.json";
 import eventDirectory from "../../../public/data/local-event-directory.json";
+import { businessStateCode } from "../../utils/businessState.js";
 
 export function getStaticPaths() {
   return (geographyDirectory.entities ?? [])
@@ -29,13 +30,10 @@ const titleCase = (value) => String(value || "").replaceAll("_", " ").replace(/\
 const geographyLabel = (value) => titleCase(String(value || "").replaceAll("-", " "));
 
 const stateCodes = new Set([entity.abbreviation, entity.name].filter(Boolean).map((value) => String(value).toLowerCase()));
-const businesses = (businessDirectory.businesses ?? []).filter((business) => {
-  if (business.publish_ready !== true) return false;
-  const values = [business.state, business.state_abbreviation, business.state_name, business.state_slug]
-    .filter(Boolean)
-    .map((value) => String(value).toLowerCase());
-  return values.some((value) => stateCodes.has(value) || value === entity.slug);
-});
+const targetBusinessState = businessStateCode({ state: entity.abbreviation || entity.name || entity.slug });
+const businesses = (businessDirectory.businesses ?? []).filter((business) =>
+  business.publish_ready === true && businessStateCode(business) === targetBusinessState
+);
 const businessSlugs = new Set(businesses.map((business) => business.slug).filter(Boolean));
 const stateEvents = (eventDirectory.events ?? []).filter((event) => {
   if (event.publish_ready !== true) return false;
