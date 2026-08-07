@@ -75,7 +75,7 @@ const recurrenceEndDate = (event) => {
 
 const rdates = (rule = "") => {
   const value = normalizeRule(rule).startsWith("RDATE:") ? normalizeRule(rule).slice(6) : "";
-  return value.split(",").map((entry) => entry.slice(0, 8)).filter(/^\d{8}$/).map((entry) => `${entry.slice(0, 4)}-${entry.slice(4, 6)}-${entry.slice(6, 8)}`);
+  return value.split(",").map((entry) => entry.slice(0, 8)).filter((entry) => /^\d{8}$/.test(entry)).map((entry) => `${entry.slice(0, 4)}-${entry.slice(4, 6)}-${entry.slice(6, 8)}`);
 };
 
 const occursOn = (eventDate, targetDate, recurrenceRule, recurrenceEnd) => {
