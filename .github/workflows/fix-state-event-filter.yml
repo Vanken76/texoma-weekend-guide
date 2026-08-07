@@ -30,15 +30,17 @@ jobs:
           events = events.replace(old, new, 1)
 
           old = '    const quickButtons = [...document.querySelectorAll("[data-quick]")];\n    let quickFilter = "all";'
-          new = '''    const quickButtons = [...document.querySelectorAll("[data-quick]")];
-    const normalizeState = (value = "") => {
-      const state = String(value ?? "").trim().toLowerCase();
-      if (state === "texas") return "tx";
-      if (state === "oklahoma") return "ok";
-      return state;
-    };
-    const requestedState = normalizeState(new URLSearchParams(window.location.search).get("state") ?? "");
-    let quickFilter = "all";'''
+          new = '\n'.join([
+              '    const quickButtons = [...document.querySelectorAll("[data-quick]")];',
+              '    const normalizeState = (value = "") => {',
+              '      const state = String(value ?? "").trim().toLowerCase();',
+              '      if (state === "texas") return "tx";',
+              '      if (state === "oklahoma") return "ok";',
+              '      return state;',
+              '    };',
+              '    const requestedState = normalizeState(new URLSearchParams(window.location.search).get("state") ?? "");',
+              '    let quickFilter = "all";'
+          ])
           assert events.count(old) == 1, f'URL state insertion target count: {events.count(old)}'
           events = events.replace(old, new, 1)
 
