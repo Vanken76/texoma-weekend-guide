@@ -35,7 +35,7 @@ jobs:
           text = path.read_text()
 
           old = 'const locations = [...new Set(businesses.map((business) => business.service_area_or_location).filter(Boolean))]\n  .sort((a, b) => a.localeCompare(b));'
-          new = old + '\nconst states = [\n  ["tx", "Texas"],\n  ["ok", "Oklahoma"]\n];'
+          new = old + '\nconst states = [["tx", "Texas"], ["ok", "Oklahoma"]];'
           assert text.count(old) == 1
           text = text.replace(old, new, 1)
 
@@ -55,17 +55,20 @@ jobs:
           text = text.replace(old, new, 1)
 
           old = '    const cards = Array.from(document.querySelectorAll(".business-card"));\n\n    function updateDirectory() {'
-          new = '''    const cards = Array.from(document.querySelectorAll(".business-card"));
-    const normalizeState = (value = "") => {
-      const state = String(value ?? "").trim().toLowerCase();
-      if (state === "texas") return "tx";
-      if (state === "oklahoma") return "ok";
-      return state;
-    };
-    const requestedState = normalizeState(new URLSearchParams(window.location.search).get("state") ?? "");
-    if (stateFilter && ["tx", "ok"].includes(requestedState)) stateFilter.value = requestedState;
-
-    function updateDirectory() {'''
+          lines = [
+            '    const cards = Array.from(document.querySelectorAll(".business-card"));',
+            '    const normalizeState = (value = "") => {',
+            '      const state = String(value ?? "").trim().toLowerCase();',
+            '      if (state === "texas") return "tx";',
+            '      if (state === "oklahoma") return "ok";',
+            '      return state;',
+            '    };',
+            '    const requestedState = normalizeState(new URLSearchParams(window.location.search).get("state") ?? "");',
+            '    if (stateFilter && ["tx", "ok"].includes(requestedState)) stateFilter.value = requestedState;',
+            '',
+            '    function updateDirectory() {'
+          ]
+          new = '\n'.join(lines)
           assert text.count(old) == 1
           text = text.replace(old, new, 1)
 
@@ -90,7 +93,6 @@ jobs:
           text = text.replace(old, new, 1)
 
           old = '    clearButton.addEventListener("click", () => {'
-          # Add initial render before clear handler so query-state is applied immediately.
           new = '    updateDirectory();\n\n    clearButton.addEventListener("click", () => {'
           assert text.count(old) == 1
           text = text.replace(old, new, 1)
