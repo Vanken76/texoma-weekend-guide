@@ -26,6 +26,7 @@ const categories = [...new Set(businesses.flatMap((business) => business.categor
   .sort((a, b) => a.localeCompare(b));
 const locations = [...new Set(businesses.map((business) => business.service_area_or_location).filter(Boolean))]
   .sort((a, b) => a.localeCompare(b));
+const states = [["tx", "Texas"], ["ok", "Oklahoma"]];
 ---
 
 <BaseLayout
@@ -43,6 +44,7 @@ const locations = [...new Set(businesses.map((business) => business.service_area
       <label><span>Search</span><input id="business-search" type="search" placeholder="Business, category, city, service..." /></label>
       <label><span>Category</span><select id="category-filter"><option value="">All categories</option>{categories.map((category) => <option value={category.toLowerCase()}>{category}</option>)}</select></label>
       <label><span>Location</span><select id="location-filter"><option value="">All locations</option>{locations.map((location) => <option value={location.toLowerCase()}>{location}</option>)}</select></label>
+      <label><span>State</span><select id="state-filter"><option value="">All states</option>{states.map(([value, label]) => <option value={value}>{label}</option>)}</select></label>
       <label><span>Sort</span><select id="sort-filter"><option value="az">Name: A–Z</option><option value="za">Name: Z–A</option></select></label>
       <button id="clear-filters" type="button">Clear filters</button>
     </section>
@@ -55,6 +57,7 @@ const locations = [...new Set(businesses.map((business) => business.service_area
           class:list={["business-card", business.card_image && "has-image"]}
           data-name={business.business_name.toLowerCase()}
           data-location={(business.service_area_or_location ?? "").toLowerCase()}
+          data-state={String(business.state_abbreviation || business.state || business.state_name || business.state_slug || "").toLowerCase()}
           data-categories={business.category.join("|").toLowerCase()}
           data-search={[business.business_name, business.service_area_or_location, business.description, ...business.category].filter(Boolean).join(" ").toLowerCase()}
         >
@@ -98,22 +101,33 @@ const locations = [...new Set(businesses.map((business) => business.service_area
     const searchInput = document.querySelector("#business-search");
     const categoryFilter = document.querySelector("#category-filter");
     const locationFilter = document.querySelector("#location-filter");
+    const stateFilter = document.querySelector("#state-filter");
     const sortFilter = document.querySelector("#sort-filter");
     const clearButton = document.querySelector("#clear-filters");
     const grid = document.querySelector("#business-grid");
     const resultCount = document.querySelector("#result-count");
     const noResults = document.querySelector("#no-results");
     const cards = Array.from(document.querySelectorAll(".business-card"));
+    const normalizeState = (value = "") => {
+      const state = String(value ?? "").trim().toLowerCase();
+      if (state === "texas") return "tx";
+      if (state === "oklahoma") return "ok";
+      return state;
+    };
+    const requestedState = normalizeState(new URLSearchParams(window.location.search).get("state") ?? "");
+    if (stateFilter && ["tx", "ok"].includes(requestedState)) stateFilter.value = requestedState;
 
     function updateDirectory() {
       const searchValue = searchInput.value.trim().toLowerCase();
       const categoryValue = categoryFilter.value;
       const locationValue = locationFilter.value;
+      const stateValue = stateFilter?.value ?? "";
       const sortValue = sortFilter.value;
       const visibleCards = cards.filter((card) => {
         const visible = (!searchValue || card.dataset.search.includes(searchValue)) &&
           (!categoryValue || card.dataset.categories.split("|").includes(categoryValue)) &&
-          (!locationValue || card.dataset.location === locationValue);
+          (!locationValue || card.dataset.location === locationValue) &&
+          (!stateValue || normalizeState(card.dataset.state ?? "") === stateValue);
         card.hidden = !visible;
         return visible;
       });
@@ -126,12 +140,17 @@ const locations = [...new Set(businesses.map((business) => business.service_area
     searchInput.addEventListener("input", updateDirectory);
     categoryFilter.addEventListener("change", updateDirectory);
     locationFilter.addEventListener("change", updateDirectory);
+    stateFilter?.addEventListener("change", updateDirectory);
     sortFilter.addEventListener("change", updateDirectory);
+    updateDirectory();
+
     clearButton.addEventListener("click", () => {
       searchInput.value = "";
       categoryFilter.value = "";
       locationFilter.value = "";
+      if (stateFilter) stateFilter.value = "";
       sortFilter.value = "az";
+      history.replaceState({}, "", window.location.pathname);
       updateDirectory();
       searchInput.focus();
     });
@@ -139,5 +158,5 @@ const locations = [...new Set(businesses.map((business) => business.service_area
 </BaseLayout>
 
 <style>
-  .directory{width:min(1200px,calc(100% - 2rem));margin:0 auto;padding:3rem 0 5rem}.directory-header{max-width:820px;margin-bottom:2rem}h1{margin:.25rem 0 1rem}.eyebrow{font-weight:700;text-transform:uppercase;letter-spacing:.08em}.controls{display:grid;grid-template-columns:minmax(240px,2fr) repeat(3,minmax(180px,1fr)) auto;gap:1rem;align-items:end;margin-bottom:1rem;padding:1rem;border:1px solid rgba(128,128,128,.35);border-radius:12px}.controls label{display:grid;gap:.35rem;font-weight:700}.controls input,.controls select,.controls button{width:100%;min-height:44px;padding:.7rem .8rem;border:1px solid rgba(128,128,128,.5);border-radius:8px;font:inherit;background:inherit;color:inherit}.controls button{cursor:pointer;font-weight:700}.result-count{margin:0 0 1.25rem;font-weight:700}.business-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:1.25rem}.business-card{overflow:hidden;border:1px solid rgba(128,128,128,.35);border-radius:12px;background:#fffdf8}.business-card[hidden]{display:none}.card-image{display:block;width:100%;aspect-ratio:16/9;background:#eef4f6;border-bottom:1px solid rgba(128,128,128,.25)}.card-image img{display:block;width:100%;height:100%;object-fit:contain}.card-content{padding:1.5rem}.business-card h2{margin-top:0}.business-name-link{color:#103a58;text-decoration:none}.business-name-link:hover{color:#176f95;text-decoration:underline}.location,.categories{font-weight:600}.business-hours{margin-top:1rem;padding-top:.85rem;border-top:1px solid rgba(128,128,128,.25)}.business-hours h3{margin:0 0 .55rem;font-size:1rem}.business-hours dl{display:grid;grid-template-columns:minmax(90px,auto) 1fr;gap:.3rem .8rem;margin:0}.business-hours dt{font-weight:700}.business-hours dd{margin:0}.notice{margin-top:.8rem;font-style:italic}.links{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1rem}.links a{font-weight:700}.details-link{padding:.45rem .7rem;border-radius:.55rem;background:#176f95;color:#fff;text-decoration:none}.details-link:hover{background:#103a58;color:#fff}.no-results{padding:2rem 0;font-weight:700}@media(max-width:1000px){.controls{grid-template-columns:1fr 1fr}}@media(max-width:650px){.controls{grid-template-columns:1fr}.business-grid{grid-template-columns:1fr}.card-image{aspect-ratio:4/3}}
+  .directory{width:min(1200px,calc(100% - 2rem));margin:0 auto;padding:3rem 0 5rem}.directory-header{max-width:820px;margin-bottom:2rem}h1{margin:.25rem 0 1rem}.eyebrow{font-weight:700;text-transform:uppercase;letter-spacing:.08em}.controls{display:grid;grid-template-columns:minmax(240px,2fr) repeat(4,minmax(160px,1fr)) auto;gap:1rem;align-items:end;margin-bottom:1rem;padding:1rem;border:1px solid rgba(128,128,128,.35);border-radius:12px}.controls label{display:grid;gap:.35rem;font-weight:700}.controls input,.controls select,.controls button{width:100%;min-height:44px;padding:.7rem .8rem;border:1px solid rgba(128,128,128,.5);border-radius:8px;font:inherit;background:inherit;color:inherit}.controls button{cursor:pointer;font-weight:700}.result-count{margin:0 0 1.25rem;font-weight:700}.business-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:1.25rem}.business-card{overflow:hidden;border:1px solid rgba(128,128,128,.35);border-radius:12px;background:#fffdf8}.business-card[hidden]{display:none}.card-image{display:block;width:100%;aspect-ratio:16/9;background:#eef4f6;border-bottom:1px solid rgba(128,128,128,.25)}.card-image img{display:block;width:100%;height:100%;object-fit:contain}.card-content{padding:1.5rem}.business-card h2{margin-top:0}.business-name-link{color:#103a58;text-decoration:none}.business-name-link:hover{color:#176f95;text-decoration:underline}.location,.categories{font-weight:600}.business-hours{margin-top:1rem;padding-top:.85rem;border-top:1px solid rgba(128,128,128,.25)}.business-hours h3{margin:0 0 .55rem;font-size:1rem}.business-hours dl{display:grid;grid-template-columns:minmax(90px,auto) 1fr;gap:.3rem .8rem;margin:0}.business-hours dt{font-weight:700}.business-hours dd{margin:0}.notice{margin-top:.8rem;font-style:italic}.links{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1rem}.links a{font-weight:700}.details-link{padding:.45rem .7rem;border-radius:.55rem;background:#176f95;color:#fff;text-decoration:none}.details-link:hover{background:#103a58;color:#fff}.no-results{padding:2rem 0;font-weight:700}@media(max-width:1000px){.controls{grid-template-columns:1fr 1fr}}@media(max-width:650px){.controls{grid-template-columns:1fr}.business-grid{grid-template-columns:1fr}.card-image{aspect-ratio:4/3}}
 </style>
