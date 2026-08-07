@@ -142,6 +142,10 @@ const pageTitle = entity.seo_title || `${entity.name} | Texoma Weekend Guide`;
 const pageDescription = entity.seo_description || entity.short_description || entity.description;
 const eventHref = `/events/?state=${encodeURIComponent(String(entity.abbreviation || entity.name || entity.slug).toLowerCase())}`;
 const businessHref = `/businesses/?state=${encodeURIComponent(String(entity.abbreviation || entity.name || entity.slug).toLowerCase())}`;
+const relatedDestinationSlugs = entity.related_geography_slugs ?? [];
+const relatedDestinationHref = relatedDestinationSlugs.length === 1 && businessSlugs.has(relatedDestinationSlugs[0])
+  ? `/businesses/${relatedDestinationSlugs[0]}/`
+  : null;
 ---
 
 <BaseLayout title={pageTitle} description={pageDescription} image={heroPrimary?.url || undefined}>
@@ -237,7 +241,11 @@ const businessHref = `/businesses/?state=${encodeURIComponent(String(entity.abbr
           <a class="stat-card" href={eventHref}><strong>{formatNumber(events.length) || "0"}</strong><span>published events</span></a>
           <a class="stat-card" href={businessHref}><strong>{formatNumber(businesses.length) || "0"}</strong><span>businesses and venues</span></a>
           <div class="stat-card geography-stat"><strong>{(entity.region_slugs ?? []).map(geographyLabel).join(" · ") || "None"}</strong><span>TWG coverage regions</span></div>
-          <div class="stat-card geography-stat"><strong>{(entity.related_geography_slugs ?? []).map(geographyLabel).join(" · ") || "None"}</strong><span>related destinations</span></div>
+          {relatedDestinationHref ? (
+            <a class="stat-card geography-stat" href={relatedDestinationHref}><strong>{relatedDestinationSlugs.map(geographyLabel).join(" · ") || "None"}</strong><span>related destination</span></a>
+          ) : (
+            <div class="stat-card geography-stat"><strong>{relatedDestinationSlugs.map(geographyLabel).join(" · ") || "None"}</strong><span>related destinations</span></div>
+          )}
         </div>
         <div class="browse-links">
           <a href={eventHref}>Browse events</a>
