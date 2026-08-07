@@ -1,0 +1,1 @@
+Force rebuild so the August 1 Aubrey Lynn event is rendered as a past event after its status was changed to ended.
