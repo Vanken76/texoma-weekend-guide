@@ -1,0 +1,139 @@
+name: Fix state active event count
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Make state event count match active event directory
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('src/pages/states/[slug].astro')
+          text = path.read_text()
+
+          old = '''const businessSlugs = new Set(businesses.map((business) => business.slug).filter(Boolean));
+const events = (eventDirectory.events ?? []).filter((event) => {
+  if (event.publish_ready !== true) return false;
+  const values = [event.state, event.state_abbreviation, event.state_name, event.state_slug]
+    .filter(Boolean)
+    .map((value) => String(value).toLowerCase());
+  if (values.some((value) => stateCodes.has(value) || value === entity.slug)) return true;
+  return businessSlugs.has(event.venue_slug) || businessSlugs.has(event.primary_venue_slug);
+});
+'''
+
+          new = '''const businessSlugs = new Set(businesses.map((business) => business.slug).filter(Boolean));
+const stateEvents = (eventDirectory.events ?? []).filter((event) => {
+  if (event.publish_ready !== true) return false;
+  const values = [event.state, event.state_abbreviation, event.state_name, event.state_slug]
+    .filter(Boolean)
+    .map((value) => String(value).toLowerCase());
+  if (values.some((value) => stateCodes.has(value) || value === entity.slug)) return true;
+  return businessSlugs.has(event.venue_slug) || businessSlugs.has(event.primary_venue_slug);
+});
+
+const now = new Date();
+const chicagoDate = (date = new Date()) => new Intl.DateTimeFormat("en-CA", {
+  timeZone: "America/Chicago",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit"
+}).format(date);
+const today = chicagoDate(now);
+const isRecurring = (event) => event.recurring === true;
+const isActive = (event) => event.active !== false;
+const normalizeRule = (rule = "") => String(rule ?? "").trim().replace(/^RRULE:/i, "");
+const parseRule = (rule = "") => Object.fromEntries(
+  normalizeRule(rule).split(";").map((part) => part.split("=")).filter(([key, value]) => key && value)
+);
+const addDays = (dateString, days) => {
+  const date = new Date(`${dateString}T12:00:00`);
+  date.setDate(date.getDate() + days);
+  return chicagoDate(date);
+};
+const dayCode = (dateString) => ["SU", "MO", "TU", "WE", "TH", "FR", "SA"][new Date(`${dateString}T12:00:00`).getDay()];
+const recurrenceEndDate = (event) => {
+  if (event.recurrence_end_date) return event.recurrence_end_date;
+  const until = parseRule(event.recurrence_rule).UNTIL;
+  if (!until || !/^\\d{8}/.test(until)) return null;
+  return `${until.slice(0, 4)}-${until.slice(4, 6)}-${until.slice(6, 8)}`;
+};
+const rdates = (rule = "") => {
+  const value = normalizeRule(rule).startsWith("RDATE:") ? normalizeRule(rule).slice(6) : "";
+  return value.split(",").map((entry) => entry.slice(0, 8)).filter(/^\\d{8}$/).map((entry) => `${entry.slice(0, 4)}-${entry.slice(4, 6)}-${entry.slice(6, 8)}`);
+};
+const occursOn = (eventDate, targetDate, recurrenceRule, recurrenceEnd) => {
+  if (!eventDate || targetDate < eventDate || (recurrenceEnd && targetDate > recurrenceEnd)) return false;
+  const normalized = normalizeRule(recurrenceRule);
+  if (normalized.startsWith("RDATE:")) return rdates(recurrenceRule).includes(targetDate);
+  const rule = parseRule(recurrenceRule);
+  const frequency = rule.FREQ;
+  if (!frequency) return targetDate === eventDate;
+  const interval = Math.max(1, Number.parseInt(rule.INTERVAL ?? "1", 10) || 1);
+  const start = new Date(`${eventDate}T12:00:00`);
+  const target = new Date(`${targetDate}T12:00:00`);
+  const daysApart = Math.round((target.getTime() - start.getTime()) / 86400000);
+  if (frequency === "DAILY") return daysApart % interval === 0;
+  if (frequency === "WEEKLY") {
+    const allowedDays = (rule.BYDAY ?? dayCode(eventDate)).split(",");
+    return allowedDays.includes(dayCode(targetDate)) && Math.floor(daysApart / 7) % interval === 0;
+  }
+  if (frequency === "MONTHLY") {
+    const monthsApart = (target.getFullYear() - start.getFullYear()) * 12 + target.getMonth() - start.getMonth();
+    const allowedMonthDays = (rule.BYMONTHDAY ?? String(start.getDate())).split(",").map(Number);
+    return monthsApart >= 0 && monthsApart % interval === 0 && allowedMonthDays.includes(target.getDate());
+  }
+  if (frequency === "YEARLY") {
+    const yearsApart = target.getFullYear() - start.getFullYear();
+    return yearsApart >= 0 && yearsApart % interval === 0 && target.getMonth() === start.getMonth() && target.getDate() === start.getDate();
+  }
+  return targetDate === eventDate;
+};
+const nextOccurrenceDate = (event, fromDate = today) => {
+  const eventDate = event.start_datetime?.slice(0, 10) ?? "";
+  if (!eventDate) return null;
+  if (!isRecurring(event)) return eventDate >= fromDate ? eventDate : null;
+  const endDate = recurrenceEndDate(event);
+  const scanEnd = endDate && endDate < addDays(fromDate, 730) ? endDate : addDays(fromDate, 730);
+  for (let date = fromDate; date <= scanEnd; date = addDays(date, 1)) {
+    if (occursOn(eventDate, date, event.recurrence_rule ?? "", endDate ?? "")) return date;
+  }
+  return null;
+};
+const isCurrentEvent = (event) => {
+  if (!isActive(event)) return false;
+  if (isRecurring(event)) return Boolean(nextOccurrenceDate(event));
+  if (event.end_datetime) return new Date(event.end_datetime) >= now;
+  return Boolean(event.start_datetime && event.start_datetime.slice(0, 10) >= today);
+};
+const events = stateEvents
+  .filter((event) => ["upcoming", "recurring"].includes(event.status))
+  .filter(isCurrentEvent);
+'''
+
+          assert text.count(old) == 1, f'event count block target count: {text.count(old)}'
+          text = text.replace(old, new, 1)
+          path.write_text(text)
+          PY
+
+      - name: Commit fix and remove temporary workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/fix-state-active-event-count.yml
+          git add 'src/pages/states/[slug].astro'
+          git commit -m "Count only active events on state pages"
+          git push origin main
