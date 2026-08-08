@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 630,
-  "publish_ready_count": 294,
+  "business_count": 631,
+  "publish_ready_count": 295,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -36532,6 +36532,379 @@
           "source_url": "https://texomaconnect.com/lake-texoma-travel-guide/casey-boes-lake-texoma-striper-guide-service/",
           "source_type": "secondary",
           "supports": "Independent confirmation of Mill Creek Marina relationship, address, phone, website, equipment and fish-cleaning service."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "capn-tim-guide-service",
+      "business_name": "Cap'n Tim Guide Service",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Mill Creek Resort & Marina, 512 Mill Creek Resort Rd, Pottsboro, TX 75076 — private Lake Texoma striper fishing charters, instructional trips and scenic tours",
+      "primary_category": "Fishing Guide",
+      "category": [
+        "Fishing Guide",
+        "Striper Fishing Guide",
+        "Fishing Charter",
+        "Scenic Tour",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Fishing Guide",
+        "Striped Bass Fishing",
+        "Lake Texoma Fishing",
+        "Fishing Charter",
+        "Artificial Lure Fishing",
+        "Fishing Instruction",
+        "Educational Fishing Trips",
+        "Scenic Boat Tours",
+        "Family Fishing",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Cap'n Tim Guide Service",
+        "Captain Tim Guide Service",
+        "Timothy Smith",
+        "Timothy H. Smith",
+        "Capt. Tim Smith",
+        "Lake Texoma",
+        "Mill Creek Resort & Marina",
+        "Mill Creek Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Striper Guide",
+        "Striped Bass",
+        "Artificial Lures",
+        "Swimbaits",
+        "Topwater",
+        "Slabs",
+        "Deadsticking",
+        "Fishing Instruction",
+        "Educational Trips",
+        "Scenic Tours",
+        "Family Fishing",
+        "Striper Express",
+        "Falcon Striper Deluxe"
+      ],
+      "description": "Cap'n Tim Guide Service is Capt. Timothy Smith's independent Lake Texoma fishing and sightseeing business operating from Mill Creek Resort & Marina in Pottsboro, Texas. Tim specializes in private striped-bass trips using artificial lures and also offers educational fishing sessions for boat owners who want to improve their Lake Texoma skills, along with private scenic tours of the lake. His fishing trips emphasize hands-on casting, seasonal lure techniques and instruction for anglers of varying experience levels. Tim also continues to guide as part of the Striper Express team, while Cap'n Tim Guide Service maintains its own website, booking channels, business identity and government guide listing.",
+      "short_description": "Capt. Timothy Smith's independent Mill Creek-based Lake Texoma striper guide, instructional fishing and scenic-tour service.",
+      "why_visit": "Cap'n Tim Guide Service works particularly well for guests who want to actively fish rather than simply ride along. Tim focuses on lure fishing, teaches technique, welcomes families and beginners, and offers dedicated educational trips for anglers who already own a boat but want to better understand Lake Texoma's fish patterns and electronics.",
+      "why_its_unique": "Tim combines conventional private striper charters with dedicated educational trips and scenic Lake Texoma tours. He also has a longstanding professional relationship with Striper Express while maintaining Cap'n Tim Guide Service as a separately licensed and independently bookable business.",
+      "operating_address": "512 Mill Creek Resort Rd",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "business_address": "225 Sidewinder Cir, Pottsboro, TX 75076",
+      "address_note": "Current charter and booking sources identify 512 Mill Creek Resort Rd as Cap'n Tim Guide Service's operating/departure location. The Pottsboro Area Chamber of Commerce separately lists 225 Sidewinder Cir for the business. TWG should present Mill Creek as the visitor-facing operating location and avoid representing Sidewinder Circle as the charter departure point.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-327-6345",
+      "email": null,
+      "website": "https://www.capntimguideservice.com/",
+      "booking_url": "https://www.capntimguideservice.com/lake-texoma-fishing-tours-charter-rates",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "twitter": null,
+      "tiktok": null,
+      "social_note": "The official website displays a Facebook follow icon, but a confidently verified public Facebook profile URL was not recovered during TWG's current research pass. No Facebook URL should be invented from the icon alone.",
+      "hours": null,
+      "hours_note": "Cap'n Tim Guide Service operates by reservation. Current local business data lists 7:00 AM–4:00 PM daily, but trip start times vary significantly by season and conditions, so TWG should emphasize reservation-based scheduling rather than treat those hours as rigid charter departure times.",
+      "price_range": "$$$",
+      "pricing_note": "Current direct-booking prices were verified from Cap'n Tim Guide Service's official 2026 trip page. Third-party booking channels may charge different prices.",
+      "current_direct_rates": {
+        "spring_summer_half_day_striper_trip": {
+          "price": "$600",
+          "duration": "4 hours",
+          "capacity": "Up to 4 guests"
+        },
+        "winter_half_day_striper_trip": {
+          "price": "$600",
+          "duration": "4 hours",
+          "capacity": "Up to 4 guests"
+        },
+        "educational_trip": {
+          "price": "$300 per person",
+          "duration": "2–3 hours"
+        },
+        "winter_educational_trip": {
+          "starting_price": "$300",
+          "duration": "2–3 hours"
+        },
+        "scenic_tour": {
+          "starting_price": "$300",
+          "duration": "2–3 hours"
+        }
+      },
+      "third_party_pricing_note": "FishingBooker currently advertises a four-hour private trip for up to four guests at $650 and educational trips from $275 per person. Because booking-channel prices can differ, TWG should treat the official Cap'n Tim website as the primary rate source and advise visitors to compare the final booking price.",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "owner_operator": {
+        "name": "Timothy Smith",
+        "government_name_display": "Timothy H. Smith",
+        "public_title": "Captain Timothy Smith",
+        "role": "Owner / fishing guide / tour captain"
+      },
+      "experience": {
+        "lake_texoma_fishing": "Approximately 35 years according to Timothy Smith's current FishingBooker biography",
+        "full_time_guiding": "Approximately 6 years according to his current FishingBooker biography",
+        "estimated_annual_trips": "Approximately 150 trips per year according to his current FishingBooker biography",
+        "striper_express_relationship_since": 2012,
+        "note": "Striper Express's current guide roster says Timothy Smith has guided with Bill and Chris Carey since 2012."
+      },
+      "guide_license": {
+        "current_odwc_verification": true,
+        "odwc_business_name": "Cap'n Tim Guide Service",
+        "odwc_contact": "903-327-6345",
+        "odwc_name": "Timothy H. Smith",
+        "note": "The Oklahoma Department of Wildlife Conservation currently includes Cap'n Tim Guide Service in its known licensed fishing-guide directory."
+      },
+      "target_species": [
+        "Striped Bass"
+      ],
+      "waters_guided": [
+        "Lake Texoma"
+      ],
+      "fishing_style": {
+        "artificial_lures_only": true,
+        "instruction_focused": true,
+        "live_bait": false
+      },
+      "fishing_methods": [
+        "Swimbaits",
+        "Topwater lures",
+        "Slab fishing",
+        "Deadsticking",
+        "Casting",
+        "Spinning",
+        "Light tackle",
+        "Heavy tackle"
+      ],
+      "seasonal_methods": {
+        "spring": [
+          "Swimbaits",
+          "Topwater lures"
+        ],
+        "summer": [
+          "Swimbaits",
+          "Slabs"
+        ],
+        "fall": [
+          "Swimbaits",
+          "Topwater lures"
+        ],
+        "winter": [
+          "Deadsticking",
+          "Artificial lures"
+        ]
+      },
+      "fishing_trip": {
+        "private": true,
+        "duration": "4 hours",
+        "maximum_guests_per_primary_trip": 4,
+        "gear_provided": true,
+        "fish_cleaning": true,
+        "fish_filleting": true,
+        "catch_bagged": true
+      },
+      "boats": {
+        "published_fleet": "Two 23-foot Falcon Striper Deluxe boats",
+        "primary_trip_boat": "23-foot Falcon",
+        "maximum_guests_per_boat": 4,
+        "electronics": [
+          "Humminbird Helix 12",
+          "Lowrance HDS 12",
+          "GPS/Navionics mapping",
+          "Spot-lock trolling motor"
+        ],
+        "note": "Timothy Smith's current FishingBooker biography says he owns two 23-foot Falcon Striper Deluxe boats. Cap'n Tim's direct booking page describes the trip vessel as a 23-foot Falcon for up to four guests."
+      },
+      "fishing_equipment": [
+        "TFO spinning rods",
+        "Medium and medium-heavy spinning rods",
+        "Pflueger reels",
+        "Pro Qualifier reels",
+        "Power Pro Slick fishing line",
+        "Swimbaits",
+        "Topwater lures",
+        "Slabs",
+        "Deadsticking tackle"
+      ],
+      "trip_inclusions": [
+        "Captain / professional fishing guide",
+        "23-foot Falcon boat",
+        "Rods",
+        "Reels",
+        "Fishing tackle",
+        "Artificial lures",
+        "Fishing instruction",
+        "Fish cleaning",
+        "Fish filleting",
+        "Bagging of cleaned catch",
+        "Required onboard safety equipment"
+      ],
+      "guest_should_bring": [
+        "Current Lake Texoma fishing license when fishing",
+        "Sunglasses",
+        "Hat",
+        "Non-spray sunscreen",
+        "Bottled water",
+        "Snacks",
+        "Optional cooler"
+      ],
+      "alcohol_policy": "FishingBooker currently says moderate alcohol is permitted but hard liquor and glass bottles should be avoided.",
+      "children": {
+        "welcome": true,
+        "life_jackets_required": true,
+        "instruction_available": true,
+        "note": "Current first-party and booking sources actively promote the trips as family-friendly and suitable for children."
+      },
+      "educational_trips": {
+        "available": true,
+        "duration": "2–3 hours",
+        "intended_for": "Anglers and boat owners who want to learn to fish Lake Texoma more effectively",
+        "topics": [
+          "Locating striped bass",
+          "Seasonal fish patterns",
+          "Lure selection",
+          "Lure presentation",
+          "Reading electronics",
+          "Cold-water patterns"
+        ]
+      },
+      "scenic_tours": {
+        "available": true,
+        "duration": "2–3 hours",
+        "highlights": [
+          "Lake Texoma islands",
+          "Sandy beaches",
+          "Marinas",
+          "Wildlife",
+          "Lake scenery"
+        ],
+        "fishing_experience_required": false
+      },
+      "seasonal_schedule_note": "The current official website contains conflicting August language. One portion says trips are scheduled beginning the second week of August, while another says Cap'n Tim does not fish during August due to heat and low striped-bass productivity. TWG should not publish a definitive August closure or operating schedule until Tim confirms it directly.",
+      "striper_express_relationship": {
+        "current": true,
+        "relationship_type": "Independent guide business whose owner also guides with Striper Express",
+        "since": 2012,
+        "note": "Striper Express currently lists Capt. Tim Smith as a Striper Express guide. Cap'n Tim Guide Service's own current booking information says customers may book directly, through FishingBooker or through Striper Express. The evidence supports maintaining Cap'n Tim Guide Service as its own TWG entity while linking it sideways to Striper Express rather than making it a child of Striper Express."
+      },
+      "services": [
+        "Private Lake Texoma striper charters",
+        "Artificial-lure fishing",
+        "Spring and summer striper trips",
+        "Winter striper trips",
+        "Fishing instruction",
+        "Educational fishing trips",
+        "Electronics instruction",
+        "Seasonal-pattern instruction",
+        "Family fishing trips",
+        "Children's fishing trips",
+        "Scenic Lake Texoma tours",
+        "Fish cleaning",
+        "Fish filleting"
+      ],
+      "good_to_know": [
+        "Cap'n Tim Guide Service is an independently branded and currently bookable fishing-guide business.",
+        "Capt. Timothy Smith operates the business.",
+        "The current ODWC guide directory identifies him as Timothy H. Smith.",
+        "The current business phone number is 903-327-6345.",
+        "Current charter listings use 512 Mill Creek Resort Rd as the guest-facing operating location.",
+        "The Pottsboro Area Chamber separately lists 225 Sidewinder Cir as the business address.",
+        "Cap'n Tim specializes in artificial-lure striped-bass fishing.",
+        "The current private fishing trips are designed for up to four guests.",
+        "Current direct-booking half-day fishing trips are four hours and advertised at $600.",
+        "Educational fishing sessions and scenic tours are also offered.",
+        "Fishing tackle and artificial lures are provided.",
+        "Fish cleaning, filleting and bagging are included.",
+        "Tim's current FishingBooker biography says he owns two 23-foot Falcon Striper Deluxe boats.",
+        "Tim has fished Lake Texoma for approximately 35 years according to his current booking biography.",
+        "He says he guides roughly 150 trips per year.",
+        "Striper Express currently identifies Tim as one of its professional guides and says he has guided with the operation since 2012.",
+        "Cap'n Tim Guide Service can currently be booked independently despite Tim's continuing Striper Express relationship.",
+        "Cap'n Tim's own site says bookings may be made directly, through FishingBooker or through Striper Express.",
+        "The Oklahoma Department of Wildlife Conservation currently lists Cap'n Tim Guide Service at 903-327-6345 among its known licensed fishing guides.",
+        "No current official email address was confidently verified.",
+        "A Facebook icon appears on the official website, but TWG did not recover a sufficiently verified public Facebook URL.",
+        "Current official website language about August scheduling is internally inconsistent; visitors should confirm August availability directly.",
+        "Prices may differ between direct booking and third-party booking channels."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "mill-creek-resort-and-marina",
+        "business_name": "Mill Creek Resort & Marina",
+        "relationship_note": "Cap'n Tim Guide Service currently operates Lake Texoma trips from the Mill Creek Resort & Marina area at 512 Mill Creek Resort Rd."
+      },
+      "child_businesses": [],
+      "related_businesses": [
+        {
+          "slug": "striper-express",
+          "business_name": "Striper Express",
+          "relationship_note": "Capt. Timothy Smith operates Cap'n Tim Guide Service independently while also serving as a current Striper Express guide. Cap'n Tim trips may also be booked through Striper Express."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Cap'n Tim Guide Service is based in Pottsboro, Texas, and operates on Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Fully verified August 8, 2026 using Cap'n Tim Guide Service's current official website and 2026 trip/rate pages, the current Oklahoma Department of Wildlife Conservation known licensed fishing-guide directory, the Pottsboro Area Chamber of Commerce directory, current FishingBooker and Guidesly booking profiles, current local business information and Striper Express's current guide roster. Cap'n Tim Guide Service is clearly an independent public business: it maintains its own 2026 website and booking inventory, ODWC separately lists Cap'n Tim Guide Service at 903-327-6345 under Timothy H. Smith, and current booking channels list the business independently. At the same time, Striper Express currently lists Capt. Tim Smith as one of its guides and says he has guided with the operation since 2012. Cap'n Tim's own website states that customers may book directly, through FishingBooker or through Striper Express. TWG therefore treats Cap'n Tim Guide Service as a Mill Creek child and Striper Express as a related business rather than making Cap'n Tim subordinate to Striper Express. Current direct prices and trip offerings were taken from Cap'n Tim's first-party site; third-party rates may differ. Current first-party language concerning August scheduling conflicts internally, so no definitive August operating rule is being published.",
+      "sources": [
+        {
+          "source_name": "Cap'n Tim Guide Service — Official Website",
+          "source_url": "https://www.capntimguideservice.com/",
+          "source_type": "official"
+        },
+        {
+          "source_name": "Cap'n Tim Guide Service — Trips & Rates",
+          "source_url": "https://www.capntimguideservice.com/lake-texoma-fishing-tours-charter-rates",
+          "source_type": "official"
+        },
+        {
+          "source_name": "Oklahoma Department of Wildlife Conservation — Fishing Guides",
+          "source_url": "https://www.wildlifedepartment.com/fishing/fishing-guides",
+          "source_type": "government"
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Cap'n Tim Guide Service",
+          "source_url": "https://www.pottsborochamber.com/list/search?o=alpha&sa=true",
+          "source_type": "institutional"
+        },
+        {
+          "source_name": "FishingBooker — Cap'n Tim Guide Service",
+          "source_url": "https://fishingbooker.com/charters/view/41280",
+          "source_type": "booking_platform"
+        },
+        {
+          "source_name": "FishingBooker — Timothy Smith",
+          "source_url": "https://fishingbooker.com/profile/view/1618318",
+          "source_type": "booking_platform"
+        },
+        {
+          "source_name": "Striper Express — Guide Team",
+          "source_url": "https://striperexpress.com/about-us/",
+          "source_type": "official_related"
         }
       ],
       "last_checked": "2026-08-08",
