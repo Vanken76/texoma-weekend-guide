@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 614,
-  "publish_ready_count": 278,
+  "business_count": 615,
+  "publish_ready_count": 279,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -31809,6 +31809,275 @@
           "source_url": "https://www.grandpappy.com/amenity/four-seasons",
           "source_type": "official",
           "supports": "Independent-business status and operating relationship with Grandpappy Point Resort & Marina."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "freedom-boat-club-lake-texoma-grandpappy-point",
+      "business_name": "Freedom Boat Club — Lake Texoma - Grandpappy Point",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "132 Grandpappy Dr., Denison, TX 75020 — inside Grandpappy Point Resort & Marina on Lake Texoma",
+      "primary_category": "Boat Club",
+      "category": [
+        "Boat Club",
+        "Membership Boating",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Boat Club",
+        "Membership Boating",
+        "Recreational Boating",
+        "Fishing Boats",
+        "Pontoon Boats",
+        "Water Recreation",
+        "Boating Instruction"
+      ],
+      "tags": [
+        "Freedom Boat Club",
+        "Freedom Boat Club of Texoma",
+        "Lake Texoma",
+        "Grandpappy Point Resort & Marina",
+        "Denison",
+        "Texas",
+        "Grayson County",
+        "Boat Club",
+        "Membership Boating",
+        "Boat Membership",
+        "Boating",
+        "Pontoon",
+        "Tritoon",
+        "Fishing",
+        "Family Boating",
+        "Boating Training",
+        "Captain Training",
+        "Reciprocal Boating",
+        "Boat Reservations",
+        "Lake Recreation"
+      ],
+      "description": "Freedom Boat Club — Lake Texoma - Grandpappy Point is a membership-based boating club operating from Grandpappy Point Resort & Marina in Denison, Texas. Instead of owning, storing and maintaining a personal boat, members reserve boats from the club fleet while Freedom Boat Club handles maintenance, cleaning, repairs, insurance and storage. Membership also includes unlimited training from qualified captains, dockside support and reciprocal boating access through Freedom Boat Club's worldwide network. The Grandpappy Point fleet currently includes boats suited to cruising, fishing and general recreation on Lake Texoma.",
+      "short_description": "Membership boat club inside Grandpappy Point Resort & Marina offering maintained boats, reservations, captain training and reciprocal access to Freedom Boat Club locations worldwide.",
+      "why_visit": "Freedom Boat Club offers a way to boat regularly on Lake Texoma without purchasing, maintaining, storing or insuring a personal boat. Members reserve a boat, arrive at the marina and use a professionally maintained fleet with dockside support.",
+      "why_its_unique": "Unlike conventional boat rentals, Freedom Boat Club operates on a membership model that combines ongoing local boat access with professional training and reciprocal access to hundreds of Freedom Boat Club locations around the world.",
+      "address": "132 Grandpappy Dr.",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "888-781-7363",
+      "phone_note": "Current official Freedom Boat Club general contact number. The Grandpappy Point location page directs prospective members to its location-specific inquiry form.",
+      "email": null,
+      "website": "https://www.freedomboatclub.com/franchises/north-texas-adventures/grandpappy-point-marina",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "hours": null,
+      "hours_note": "Location-specific operating hours are not currently published on the official Grandpappy Point club page. Members reserve boats through Freedom Boat Club's reservation system. Contact the club for current dock and operating schedules.",
+      "price_range": null,
+      "pricing_note": "Freedom Boat Club uses a membership model with a one-time initiation fee and monthly dues. Exact pricing varies by membership plan and current promotion and is not published on the Grandpappy Point location page.",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "at_a_glance": {
+        "average_visit": "Half-day or full-day boating outing",
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true,
+        "reservations_recommended": true,
+        "free_wifi": null,
+        "boat_parking": true,
+        "rv_parking": true,
+        "waterfront": true,
+        "lake_view": true
+      },
+      "membership_model": {
+        "membership_required": true,
+        "one_time_entry_fee": true,
+        "monthly_dues": true,
+        "public_pricing": false,
+        "rolling_reservations_allowed": 4,
+        "advance_booking_window": "Up to 6 months",
+        "reciprocal_locations": "450+ worldwide",
+        "unlimited_training": true
+      },
+      "current_local_fleet": [
+        {
+          "model": "2025 Regal LS2 (R2)",
+          "length": "22 ft",
+          "max_passengers": 11,
+          "horsepower": "200 HP"
+        },
+        {
+          "model": "2025 Tritoon (H15)",
+          "length": "23 ft",
+          "max_passengers": 12,
+          "horsepower": "150 HP",
+          "notes": "Official fleet listing labels this boat pet- and fishing-friendly."
+        },
+        {
+          "model": "2025 Tritoon (H16)",
+          "length": "23 ft",
+          "max_passengers": 12,
+          "horsepower": "150 HP",
+          "notes": "Official fleet listing labels this boat pet- and fishing-friendly."
+        },
+        {
+          "model": "2025 Sea Ray S22 Outboard",
+          "length": "23 ft",
+          "max_passengers": 12,
+          "horsepower": "250 HP"
+        },
+        {
+          "model": "2026 Crestliner (C1)",
+          "length": "22 ft",
+          "max_passengers": 10,
+          "horsepower": "250 HP"
+        }
+      ],
+      "services": [
+        "Membership boating",
+        "Boat reservations",
+        "Recreational boating",
+        "Fishing boat access",
+        "Pontoon and tritoon access",
+        "Cruising boat access",
+        "Unlimited member boating training",
+        "On-water captain instruction",
+        "Dockside support",
+        "Reciprocal club access"
+      ],
+      "membership_benefits": [
+        "Maintained boat fleet",
+        "Boat cleaning handled by club",
+        "Boat maintenance handled by club",
+        "Boat repair handled by club",
+        "Boat insurance handled by club",
+        "Boat storage handled by club",
+        "Unlimited training from qualified captains",
+        "On-water instruction",
+        "Concierge-style dockside support",
+        "Worldwide reciprocal boating access",
+        "Online reservation system"
+      ],
+      "amenities": [
+        "Five-boat current local fleet",
+        "Cruising boats",
+        "Fishing-capable boats",
+        "Recreational boats",
+        "Pet-friendly boats available in current fleet",
+        "Fishing-friendly boats available in current fleet",
+        "Dock Store nearby",
+        "The Point Restaurant nearby",
+        "Cabins nearby",
+        "Fuel Dock nearby",
+        "RV and camping sites nearby"
+      ],
+      "good_to_know": [
+        "Freedom Boat Club operates inside Grandpappy Point Resort & Marina on Lake Texoma.",
+        "This is a membership boat club rather than a conventional hourly or daily boat-rental operation.",
+        "Members pay a one-time initiation fee and monthly dues based on their membership plan.",
+        "Exact membership pricing and promotions must be obtained directly from the club.",
+        "Members currently may keep up to four rolling boat reservations on the books.",
+        "Reservations may currently be made up to six months in advance.",
+        "Freedom Boat Club provides unlimited member training from qualified captains, including on-water instruction.",
+        "The club handles boat maintenance, cleaning, repairs, insurance and storage.",
+        "Freedom currently advertises reciprocal access to more than 450 club locations worldwide.",
+        "The current Grandpappy Point fleet contains five boats.",
+        "Two current tritoons are specifically labeled pet- and fishing-friendly.",
+        "Fleet composition changes over time, so check the current official location page before planning around a particular boat.",
+        "Grandpappy Point provides nearby dining, cabins, fuel, dock-store access and RV/camping facilities.",
+        "A secondary 2023 report states that the Lake Texoma Freedom Boat Club location opened in summer 2023; TWG has not independently confirmed that opening date from a current first-party Freedom source."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "event_types": [
+        "Boat club open houses",
+        "Membership events",
+        "Boating demonstrations",
+        "Boating education",
+        "Member gatherings",
+        "Promotional boating events"
+      ],
+      "event_sources": [
+        "Freedom Boat Club Grandpappy Point location page",
+        "Freedom Boat Club announcements",
+        "Grandpappy Point Resort & Marina",
+        "Freedom Boat Club social media"
+      ],
+      "parent_business": {
+        "slug": "grandpappy-point-resort-marina-denison",
+        "business_name": "Grandpappy Point Resort & Marina",
+        "relationship_note": "Freedom Boat Club's Lake Texoma location operates from Grandpappy Point Resort & Marina."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Freedom Boat Club — Lake Texoma - Grandpappy Point is located in Denison, Texas."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 using Freedom Boat Club's current official Lake Texoma - Grandpappy Point location page and Grandpappy Point Resort & Marina's official Freedom Boat Club and amenities pages. The official Freedom location page confirms the Grandpappy Point location, membership-based boating model, current five-boat fleet, worldwide reciprocal-access network, unlimited training, member reservation rules and the fact that Freedom handles maintenance, cleaning, repair, insurance and storage. Grandpappy Point independently confirms that Freedom Boat Club operates at the marina. Exact local membership prices and location operating hours are not currently published and therefore are not being inferred. A secondary North Texas report states that the Lake Texoma location officially opened in summer 2023, but TWG is preserving that only as a historical note rather than an independently verified establishment date.",
+      "sources": [
+        {
+          "source_name": "Freedom Boat Club — Lake Texoma - Grandpappy Point",
+          "source_url": "https://www.freedomboatclub.com/franchises/north-texas-adventures/grandpappy-point-marina",
+          "source_type": "official",
+          "supports": "Location identity, membership model, member benefits, current fleet, reservation system, training, reciprocal access and pricing structure."
+        },
+        {
+          "source_name": "Freedom Boat Club",
+          "source_url": "https://www.freedomboatclub.com/",
+          "source_type": "official",
+          "supports": "Freedom Boat Club operating model, fleet maintenance, training and worldwide membership network."
+        },
+        {
+          "source_name": "Grandpappy Point Resort & Marina — Freedom Boat Club",
+          "source_url": "https://www.grandpappy.com/amenity/freedom-boat-club",
+          "source_type": "official",
+          "supports": "Independent confirmation that Freedom Boat Club operates inside Grandpappy Point Resort & Marina."
+        },
+        {
+          "source_name": "Grandpappy Point Resort & Marina — Amenities",
+          "source_url": "https://www.grandpappy.com/amenities",
+          "source_type": "official",
+          "supports": "Freedom Boat Club's status as a named Grandpappy Point amenity/operation."
+        },
+        {
+          "source_name": "Grandpappy Point Resort & Marina — Contact",
+          "source_url": "https://www.grandpappy.com/contact-pages/contact",
+          "source_type": "official",
+          "supports": "Grandpappy Point street address in Denison."
+        },
+        {
+          "source_name": "North Texas e-News — Freedom Boat Club Lake Texoma Opening",
+          "source_url": "https://www.ntxe-news.com/cgi-bin/artman/exec/view.cgi?archive=94&num=135043&printer=1",
+          "source_type": "secondary",
+          "supports": "Reported summer 2023 opening of the Lake Texoma location and historical location contact information."
         }
       ],
       "last_checked": "2026-08-08",
