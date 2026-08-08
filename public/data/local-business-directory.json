@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 612,
-  "publish_ready_count": 276,
+  "business_count": 613,
+  "publish_ready_count": 277,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -31315,6 +31315,248 @@
           "source_url": "https://highport.com/",
           "source_type": "official",
           "supports": "Plano Marine yacht-sales relationship within Highport Marina."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "texoma-striper-kings",
+      "business_name": "Texoma Striper Kings",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "132 Grandpappy Dr., Boathouse 31, Stalls 11R and 12R, Denison, TX 75020 — inside Grandpappy Point Resort & Marina on Lake Texoma",
+      "primary_category": "Fishing Guide Service",
+      "category": [
+        "Fishing Guide Service",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Fishing Guide Service",
+        "Fishing Charter",
+        "Striped Bass Fishing",
+        "Outdoor Recreation",
+        "Lake Texoma Experience"
+      ],
+      "tags": [
+        "Texoma Striper Kings",
+        "Lake Texoma",
+        "Grandpappy Point Resort & Marina",
+        "Denison",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Striper Fishing",
+        "Striped Bass",
+        "Artificial Lures",
+        "Guided Fishing",
+        "Family Fishing",
+        "Corporate Groups",
+        "Beginner Friendly",
+        "Fishing Trips",
+        "Outdoor Adventure",
+        "Boating",
+        "Fish Cleaning",
+        "Coy Devoll"
+      ],
+      "description": "Texoma Striper Kings is a full-time Lake Texoma striped-bass fishing guide service operating from Grandpappy Point Resort & Marina in Denison, Texas. Led by longtime professional angler Coy Devoll, the service specializes in guided striper trips using artificial lures rather than live bait. Trips are designed for experienced anglers and first-time fishermen alike and include professional guidance, rods, reels, artificial lures, life jackets, modern fish-finding technology, marina golf-cart pickup and cleaning, filleting and bagging of the day's catch. Texoma Striper Kings also accommodates larger family and corporate groups.",
+      "short_description": "Full-time Lake Texoma striper guide service inside Grandpappy Point Resort & Marina specializing in artificial-lure fishing trips.",
+      "why_visit": "Texoma Striper Kings offers a turnkey Lake Texoma fishing experience for both beginners and experienced anglers. Gear is supplied, the guide helps guests learn the techniques, transportation from the marina parking area to the dock is provided, and the catch is cleaned and packaged after the trip.",
+      "why_its_unique": "The service distinguishes itself by fishing exclusively with artificial lures and combining decades of professional angling experience with modern sonar technology. Rather than simply putting guests on fish, the guide emphasizes teaching anglers how to cast, retrieve and actively fish for Lake Texoma striped bass.",
+      "address": "132 Grandpappy Dr., Boathouse 31, Stalls 11R and 12R",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-816-2853",
+      "email": "texomastriperkings@gmail.com",
+      "website": "https://www.texomastriperkings.com/",
+      "facebook": "https://www.facebook.com/texomastriperkings",
+      "instagram": "https://www.instagram.com/texomastriperkings/",
+      "youtube": null,
+      "tiktok": null,
+      "founder": "Coy Devoll",
+      "guide": "Coy Devoll",
+      "history_note": "Coy Devoll's official biography states that he first fished Lake Texoma in 2015 and later started Texoma Striper Kings after deciding to fish the lake full time. An exact business founding date was not verified.",
+      "hours": null,
+      "hours_note": "Guided trips operate by reservation and availability rather than standard storefront hours. Contact Texoma Striper Kings to schedule a trip.",
+      "price_range": "$$$",
+      "current_rates": {
+        "1_to_3_anglers_weekday": "$500",
+        "1_to_3_anglers_weekend": "$600",
+        "4_anglers_weekday": "$625",
+        "4_anglers_weekend": "$725",
+        "5_anglers_weekday": "$750",
+        "5_anglers_weekend": "$850",
+        "6_anglers_weekday": "$875",
+        "6_anglers_weekend": "$975"
+      },
+      "rates_note": "Rates were verified from the current official rates page on August 8, 2026. Large corporate and family groups can be accommodated with additional boats; additional rates may apply. Verify pricing and availability when booking.",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "at_a_glance": {
+        "average_visit": "Approximately 4–6 hours",
+        "price_range": "$$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true,
+        "reservations_recommended": true,
+        "free_wifi": false,
+        "boat_parking": true,
+        "rv_parking": null,
+        "waterfront": true,
+        "lake_view": true
+      },
+      "services": [
+        "Guided Lake Texoma striped-bass fishing",
+        "Artificial-lure fishing",
+        "Beginner fishing instruction",
+        "Professional angling guidance",
+        "Family fishing trips",
+        "Corporate group fishing trips",
+        "Large-group fishing trips",
+        "Multi-day trip assistance",
+        "Fish cleaning",
+        "Fish filleting",
+        "Catch bagging"
+      ],
+      "trip_includes": [
+        "Fishing boat",
+        "Professional guide",
+        "Rods",
+        "Reels",
+        "Artificial lures",
+        "Life jackets",
+        "Modern fish-finding electronics",
+        "Golf-cart pickup from vehicle to dock",
+        "Catch cleaning",
+        "Catch filleting",
+        "Catch bagging"
+      ],
+      "fishing_style": [
+        "Artificial lures only",
+        "Striped bass",
+        "Active casting and retrieving",
+        "Guided instruction"
+      ],
+      "amenities": [
+        "Marina golf-cart pickup",
+        "Fishing equipment provided",
+        "Life jackets provided",
+        "Fish cleaning included",
+        "Humminbird Helix sonar",
+        "MEGA Imaging",
+        "Side Imaging",
+        "Down Imaging",
+        "Grandpappy Point cabin lodging nearby"
+      ],
+      "good_to_know": [
+        "Texoma Striper Kings is located inside Grandpappy Point Resort & Marina at Boathouse 31, Stalls 11R and 12R.",
+        "Trips are by reservation rather than regular walk-in business hours.",
+        "Standard guided trips generally last approximately 4 to 6 hours.",
+        "Rods, reels, artificial lures and life jackets are supplied.",
+        "The service fishes with artificial lures rather than live bait.",
+        "Golf-cart pickup from your vehicle to the dock is included.",
+        "The day's catch can be cleaned, filleted and bagged after the trip.",
+        "Beginners are welcome and the guide provides casting and retrieval instruction.",
+        "Guests should bring preferred snacks and drinks, sunscreen, sunglasses and weather-appropriate clothing and footwear.",
+        "Fishing-license requirements depend on current Texas/Oklahoma rules, age and residency. A Lake Texoma license is available for fishing both states' portions of the lake; confirm current requirements before the trip.",
+        "Large family and corporate groups can be accommodated with additional boats.",
+        "Multi-day trips can be arranged, with cabins available nearby through Grandpappy Point Resort & Marina."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "grandpappy-point-resort-marina-denison",
+        "business_name": "Grandpappy Point Resort & Marina",
+        "relationship_note": "Texoma Striper Kings operates from Boathouse 31 inside Grandpappy Point Resort & Marina."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Texoma Striper Kings is based in Denison, Texas."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 using the official Texoma Striper Kings website, current rates, location, FAQ, guide biography and official Grandpappy Point Resort & Marina information. Texoma Striper Kings identifies itself as a full-time Lake Texoma fishing guide service located inside Grandpappy Point Resort & Marina at 132 Grandpappy Dr., Boathouse 31, Stalls 11R and 12R in Denison. The business is led by Coy Devoll and specializes in artificial-lure striped-bass fishing. The official site confirms phone, email, Facebook, Instagram, trip inclusions, group capabilities and current published pricing. Grandpappy Point independently lists Texoma Striper Kings as an on-site operation. Fishing-license information on TWG should defer to current Texas Parks & Wildlife and Oklahoma Department of Wildlife Conservation regulations rather than relying solely on age language currently displayed on the business website.",
+      "sources": [
+        {
+          "source_name": "Texoma Striper Kings",
+          "source_url": "https://www.texomastriperkings.com/",
+          "source_type": "official",
+          "supports": "Business identity, fishing specialty, website, address, phone, Facebook and Instagram."
+        },
+        {
+          "source_name": "Texoma Striper Kings — About",
+          "source_url": "https://www.texomastriperkings.com/about",
+          "source_type": "official",
+          "supports": "Full-time guide status, professional experience, artificial-lure specialty, Grandpappy Point relationship, equipment, instruction and fish cleaning."
+        },
+        {
+          "source_name": "Texoma Striper Kings — Meet Your Guide",
+          "source_url": "https://www.texomastriperkings.com/meet-your-guide",
+          "source_type": "official",
+          "supports": "Coy Devoll identity, professional fishing background and business origin story."
+        },
+        {
+          "source_name": "Texoma Striper Kings — Rates",
+          "source_url": "https://www.texomastriperkings.com/rates",
+          "source_type": "official",
+          "supports": "Current trip pricing, trip length, supplied equipment, fish cleaning and large-group availability."
+        },
+        {
+          "source_name": "Texoma Striper Kings — Location",
+          "source_url": "https://www.texomastriperkings.com/location",
+          "source_type": "official",
+          "supports": "Grandpappy Point location and Denison address."
+        },
+        {
+          "source_name": "Texoma Striper Kings — Contact",
+          "source_url": "https://www.texomastriperkings.com/contact-us",
+          "source_type": "official",
+          "supports": "Email, phone and detailed boathouse/stall address."
+        },
+        {
+          "source_name": "Texoma Striper Kings — FAQ",
+          "source_url": "https://www.texomastriperkings.com/faq",
+          "source_type": "official",
+          "supports": "Trip duration, provided equipment, recommended guest supplies and multi-day-trip information."
+        },
+        {
+          "source_name": "Grandpappy Point Resort & Marina — Amenities",
+          "source_url": "https://www.grandpappy.com/amenities",
+          "source_type": "official",
+          "supports": "Independent confirmation that Texoma Striper Kings operates at Grandpappy Point."
+        },
+        {
+          "source_name": "Texas Parks & Wildlife — Lake Texoma License",
+          "source_url": "https://tpwd.texas.gov/regulations/outdoor-annual/licenses/fishing-licenses-stamps-tags-packages/fishing-licenses-and-packages",
+          "source_type": "government",
+          "supports": "Current Lake Texoma fishing-license availability and cross-border validity."
         }
       ],
       "last_checked": "2026-08-08",
