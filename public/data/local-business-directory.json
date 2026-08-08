@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 625,
-  "publish_ready_count": 289,
+  "business_count": 626,
+  "publish_ready_count": 290,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -34828,6 +34828,276 @@
           "source_url": "https://wildlifedepartment.com/fishing/fishing-guides",
           "source_type": "government",
           "supports": "Current known licensed-guide listing for Capt. Steve Barnes Guide Service and matching 940-841-0910 phone number."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "texoma-striper-fishing",
+      "business_name": "Texoma Striper Fishing",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Lighthouse Marina, 300 Lighthouse Drive, Pottsboro, TX 75076 — independent Lake Texoma striped-bass fishing charter operated by Capt. John Brett",
+      "primary_category": "Fishing Guide",
+      "category": [
+        "Fishing Guide",
+        "Striper Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Fishing Guide",
+        "Striped Bass Fishing",
+        "Lake Texoma Fishing",
+        "Fishing Charter",
+        "Guided Fishing Trips",
+        "Family Fishing",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Texoma Striper Fishing",
+        "Captain John Brett",
+        "Capt. John Brett",
+        "John Brett",
+        "Lake Texoma",
+        "Lighthouse Resort & Marina",
+        "Lighthouse Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Striper Guide",
+        "Striped Bass",
+        "Fishing Charter",
+        "Lake Texoma Fishing",
+        "Live Bait",
+        "Artificial Lures",
+        "Family Fishing",
+        "Beginner Fishing",
+        "SportCraft",
+        "Yamaha"
+      ],
+      "description": "Texoma Striper Fishing is Capt. John Brett's professional Lake Texoma striped-bass fishing charter operating from Lighthouse Marina in Pottsboro, Texas. Brett brings more than 40 years of striped-bass fishing experience in salt and freshwater and offers guided morning trips for novice and experienced anglers alike. Trips are conducted aboard a 26-foot SportCraft center-console boat powered by a 300-horsepower Yamaha outboard. Fishing tackle, live bait, artificial lures, required onboard safety equipment and fish filleting and bagging are provided.",
+      "short_description": "Capt. John Brett's Lake Texoma striper charter offering guided morning trips from Lighthouse Marina with bait, tackle and fish cleaning included.",
+      "why_visit": "Texoma Striper Fishing is designed to make Lake Texoma striper fishing accessible even to visitors who arrive without fishing equipment or prior experience. Capt. John provides the boat, fishing gear, bait, instruction and fish-cleaning service, while larger family and corporate groups can be coordinated with additional licensed guides.",
+      "why_its_unique": "John Brett's striped-bass experience began on the Atlantic coast before he relocated to Texas and adopted Lake Texoma as his home water. His background includes decades of saltwater and freshwater striped-bass fishing, and his current service combines that experience with a large, deep-sided center-console boat designed originally for rough saltwater conditions.",
+      "address": "300 Lighthouse Drive",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "address_note": "Lighthouse Resort & Marina currently lists Capt. John Brett among the independent professional guides operating from Lighthouse Marina. Older online directories may still show a previous Little Mineral Marina location; TWG is using the current Lighthouse operating relationship.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-786-9279",
+      "email": "jbrett1201@gmail.com",
+      "website": "https://texomastriperfishing.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "hours": null,
+      "hours_note": "Fishing trips operate by reservation. The current official website primarily advertises morning fishing trips rather than conventional storefront hours.",
+      "price_range": "$$$",
+      "pricing_note": "Current published pricing was verified August 8, 2026 from the official Texoma Striper Fishing website and should be reconfirmed when booking.",
+      "current_rates": {
+        "trip_duration": "4 to 4.5 hours",
+        "two_people": "$400",
+        "each_additional_person": "$100",
+        "maximum_guests_per_primary_boat": 6,
+        "children_under_8": "Free with a paid adult",
+        "deposit": "$100 per boat"
+      },
+      "payment_methods": [
+        "Cash",
+        "Mastercard",
+        "Visa",
+        "American Express",
+        "Discover"
+      ],
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "guide": {
+        "name": "John Brett",
+        "title": "Captain",
+        "specialty": "Striped bass",
+        "experience_note": "John's current biography says he has more than 40 years of boating and striped-bass fishing experience in salt and freshwater. He began fishing for striped bass as a child on Cape Cod, later fished and chartered in New England waters, and eventually made Lake Texoma his primary fishery.",
+        "coast_guard_licensed": true,
+        "texas_guide_license_claim": true,
+        "oklahoma_guide_license_verified": true,
+        "oklahoma_license_note": "The Oklahoma Department of Wildlife Conservation currently lists Texoma Striper Fishing at 903-786-9279 among its known licensed fishing guides for Lake Texoma."
+      },
+      "target_species": [
+        "Striped Bass"
+      ],
+      "waters_guided": [
+        "Lake Texoma"
+      ],
+      "fishing_methods": [
+        "Live bait",
+        "Artificial lures",
+        "Trolling",
+        "Anchored fishing",
+        "Light tackle"
+      ],
+      "current_boat": {
+        "make": "SportCraft",
+        "type": "Center Console",
+        "length": "26 feet",
+        "engine": "300 HP Yamaha outboard",
+        "features": [
+          "Deep-sided hull",
+          "Closed transom",
+          "Small privacy cabin beneath center console",
+          "Anchoring system",
+          "VHF radio",
+          "Two Lowrance GPS/fishfinder units",
+          "Underwater sounding system",
+          "Porta-potti available upon request",
+          "U.S. Coast Guard-required safety equipment"
+        ]
+      },
+      "trip_inclusions": [
+        "Professional guide",
+        "Boat",
+        "Fishing tackle",
+        "Rods and reels",
+        "Live bait",
+        "Artificial lures",
+        "Life jackets and required safety equipment",
+        "Fishing instruction",
+        "Fish cleaning",
+        "Fish filleting",
+        "Fish bagging"
+      ],
+      "guest_should_bring": [
+        "Appropriate current fishing license unless legally exempt",
+        "Snacks",
+        "Beverages",
+        "Small cooler for food, drinks and cleaned fish",
+        "Sunglasses",
+        "Sunscreen",
+        "Hat or cap",
+        "Rain gear when appropriate",
+        "Weather-appropriate clothing",
+        "Tennis shoes, sneakers or boat shoes"
+      ],
+      "footwear_note": "The current official site specifically asks guests not to wear hard-soled dress shoes, work boots, cowboy boots or similar footwear aboard the boat because of deck marking and slipping concerns.",
+      "license_note": "The official Texoma Striper Fishing website currently states that everyone age 16 and older needs a Lake Texoma license. Current Texas Parks & Wildlife rules instead generally exempt persons under age 17 from fishing-license requirements. The current Lake Texoma fishing license costs $12 and allows fishing in both Texas and Oklahoma waters of Lake Texoma without additional Texas or Oklahoma fishing licenses, subject to current exemptions and rules. TWG should defer to current TPWD and ODWC regulations rather than the website's static age statement.",
+      "current_lake_texoma_striper_regulation_note": "Current Lake Texoma striped-bass and hybrid striped-bass regulations provide a combined daily bag of 10, with only two fish 20 inches or longer allowed to be retained per day. Regulations can change and should always be checked before fishing.",
+      "group_capacity": {
+        "primary_boat": "Up to 6 passengers plus captain",
+        "larger_groups": "Additional U.S. Coast Guard-licensed guides and boats can be arranged for family, corporate and other groups larger than six."
+      },
+      "cancellation_policy": {
+        "deposit": "$100 per boat",
+        "deposit_refundable": false,
+        "transferable": true,
+        "transfer_deadline": "At least 7 days before the scheduled trip",
+        "no_show_fee": "$50 per person",
+        "note": "Current published booking terms should be reconfirmed when reserving."
+      },
+      "booking_note": "The current website recommends planning approximately two weeks ahead during the prime May, June and July season.",
+      "services": [
+        "Professional Lake Texoma fishing guide service",
+        "Striped-bass fishing charters",
+        "Morning fishing trips",
+        "Private fishing trips",
+        "Family fishing trips",
+        "Beginner fishing instruction",
+        "Corporate and large-group fishing coordination",
+        "Live-bait fishing",
+        "Artificial-lure fishing",
+        "Fish cleaning",
+        "Fish filleting and bagging"
+      ],
+      "good_to_know": [
+        "Texoma Striper Fishing is operated by Capt. John Brett.",
+        "Lighthouse Resort & Marina currently lists Capt. John Brett as an independent fishing guide operating from Lighthouse Marina.",
+        "The current phone number is 903-786-9279.",
+        "The current email is jbrett1201@gmail.com.",
+        "The official website is texomastriperfishing.com.",
+        "The Oklahoma Department of Wildlife Conservation currently lists Texoma Striper Fishing at 903-786-9279 among its known licensed fishing guides for Lake Texoma.",
+        "John's current website identifies him as a U.S. Coast Guard-licensed captain and as licensed to guide in Texas and Oklahoma.",
+        "John specializes in Lake Texoma striped bass.",
+        "The current official site advertises 4- to 4.5-hour morning trips.",
+        "Current published pricing is $400 for two people plus $100 for each additional guest up to six.",
+        "Children under age 8 currently fish free with a paid adult under the guide's published pricing policy.",
+        "A $100 per-boat deposit is currently required.",
+        "The current primary boat is a 26-foot SportCraft center console powered by a 300 HP Yamaha outboard.",
+        "Fishing tackle, bait, lures and rods and reels are provided.",
+        "Fish are filleted and bagged after the trip.",
+        "The service is beginner- and family-friendly and provides fishing instruction.",
+        "Larger groups can be coordinated using additional licensed guides.",
+        "Older online listings may show John Brett operating from Little Mineral Marina. Lighthouse currently lists him among the guides operating from Lighthouse Marina.",
+        "The official guide website's statement that everyone age 16 and older requires the $12 Texoma license does not match current Texas Parks & Wildlife age-exemption language. TWG should direct visitors to current regulations.",
+        "Current Lake Texoma regulations, license requirements, rates and booking policies should be checked before the trip."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "lighthouse-resort-marina",
+        "business_name": "Lighthouse Resort & Marina",
+        "relationship_note": "Texoma Striper Fishing, operated by Capt. John Brett, currently operates from Lighthouse Marina as an independent professional fishing-guide business."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Texoma Striper Fishing operates from Lighthouse Marina in Pottsboro, Texas, and guides fishing trips on Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 using the current official Texoma Striper Fishing website, current Lighthouse Resort & Marina professional-guide directory, current Oklahoma Department of Wildlife Conservation known licensed fishing-guide directory and current Texas Parks & Wildlife Lake Texoma licensing and fishing-regulation information. Lighthouse currently lists Capt. John Brett at 903-786-9279, jbrett1201@gmail.com and texomastriperfishing.com among the independent professional guides operating from Lighthouse Marina. John's official site confirms the Texoma Striper Fishing brand, Lake Texoma striped-bass specialty, current published rates, trip duration, 26-foot SportCraft with 300 HP Yamaha outboard, supplied tackle/bait/lures, fish-cleaning service and family/beginner-friendly operation. Oklahoma's current guide directory independently lists Texoma Striper Fishing at the same phone number for Lake Texoma. Current TPWD information confirms the $12 Lake Texoma license and current license exemptions and therefore supersedes the guide website's static statement that everyone age 16 and older needs the license. No current official Facebook, Instagram, YouTube or TikTok account was confidently verified.",
+      "sources": [
+        {
+          "source_name": "Texoma Striper Fishing",
+          "source_url": "https://texomastriperfishing.com/",
+          "source_type": "official",
+          "supports": "Current business identity, phone, email, striper specialty, trip format, rates, boat, fishing methods, equipment, inclusions, booking policies and Capt. John Brett biography."
+        },
+        {
+          "source_name": "Texoma Striper Fishing — About",
+          "source_url": "https://texomastriperfishing.com/about/",
+          "source_type": "official",
+          "supports": "John Brett biography, striped-bass experience, boating background and licensing claims."
+        },
+        {
+          "source_name": "Lighthouse Resort & Marina — Professional Guide Service",
+          "source_url": "https://lighthouseresort.com/professional-guide-service/",
+          "source_type": "official",
+          "supports": "Current Lighthouse Marina relationship, John Brett name, phone, email, website and independent-business status."
+        },
+        {
+          "source_name": "Oklahoma Department of Wildlife Conservation — Fishing Guides",
+          "source_url": "https://www.wildlifedepartment.com/fishing/fishing-guides",
+          "source_type": "government",
+          "supports": "Current known licensed-guide listing for Texoma Striper Fishing at 903-786-9279 for Lake Texoma."
+        },
+        {
+          "source_name": "Texas Parks & Wildlife — Fishing Licenses and Packages",
+          "source_url": "https://tpwd.texas.gov/regulations/outdoor-annual/licenses/fishing-licenses-stamps-tags-packages/fishing-licenses-and-packages",
+          "source_type": "government",
+          "supports": "Current Lake Texoma fishing-license price, validity and age/exemption rules."
+        },
+        {
+          "source_name": "Texas Parks & Wildlife — Lake Texoma Fishing Regulations",
+          "source_url": "https://tpwd.texas.gov/fishboat/fish/action/fishregs2.php?water=0723",
+          "source_type": "government",
+          "supports": "Current Lake Texoma striped-bass and hybrid striped-bass bag, size and possession regulations."
         }
       ],
       "last_checked": "2026-08-08",
