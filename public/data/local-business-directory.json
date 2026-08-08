@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 624,
-  "publish_ready_count": 288,
+  "business_count": 625,
+  "publish_ready_count": 289,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -34563,6 +34563,271 @@
           "source_url": "https://boatplanet.com/pro/north-texas-guide-service",
           "source_type": "secondary",
           "supports": "North Texas Guide Service as a Pottsboro fishing-charter business."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "capt-steve-barnes-lake-texoma-striper-guide",
+      "business_name": "Capt. Steve Barnes Lake Texoma Striper Guide",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Lighthouse Marina, Boathouse #3, 300 Lighthouse Drive, Pottsboro, TX 75076 — professional Lake Texoma striped-bass fishing guide",
+      "primary_category": "Fishing Guide",
+      "category": [
+        "Fishing Guide",
+        "Striper Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Fishing Guide",
+        "Striped Bass Fishing",
+        "Lake Texoma Fishing",
+        "Guided Fishing Trips",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Capt. Steve Barnes",
+        "Captain Steve Barnes",
+        "Capt Steve",
+        "Capt. Steve Barnes Guide Service",
+        "Lake Texoma Striper Guide",
+        "TX Fishing Guide",
+        "Lake Texoma",
+        "Lighthouse Resort & Marina",
+        "Lighthouse Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Striper Guide",
+        "Striped Bass",
+        "Texoma Fishing",
+        "Fishing Charter",
+        "Professional Fishing Guide",
+        "Live Bait",
+        "Artificial Lures",
+        "Family Fishing",
+        "Group Fishing Trips",
+        "Ameracat"
+      ],
+      "description": "Capt. Steve Barnes Lake Texoma Striper Guide is a full-time professional fishing-guide service operating from Lighthouse Marina in Pottsboro, Texas. Barnes has guided professionally since 1994 and moved his guiding operation to Lake Texoma in 2001. He specializes in Lake Texoma striped-bass trips using live bait and artificial techniques according to season and conditions. Current trips run until the fishing limit is reached or for up to five hours, with bait, tackle, quality fishing gear and fish cleaning and bagging included. Barnes can accommodate larger parties by arranging additional boats and guides when needed.",
+      "short_description": "Full-time Lake Texoma striper guide operating from Lighthouse Marina, guiding professionally since 1994.",
+      "why_visit": "Capt. Steve offers a highly established Lake Texoma fishing operation with decades of guiding experience, a large well-equipped boat, supplied fishing gear and bait, fish-cleaning service and the ability to coordinate larger groups.",
+      "why_its_unique": "Steve Barnes began professionally guiding in Texas in 1994 and moved his operation to Lake Texoma in 2001. His current operation combines decades of experience with a 27-foot catamaran equipped with twin modern outboards and advanced marine electronics.",
+      "address": "300 Lighthouse Drive, Boathouse #3",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "address_note": "Fishing trips depart from Lighthouse Marina Boathouse #3. Steve Barnes' current published mailing address is 141 S. Meadowbrook Dr., Pottsboro, TX 75076.",
+      "mailing_address": "141 S. Meadowbrook Dr.",
+      "mailing_city": "Pottsboro",
+      "mailing_state": "TX",
+      "mailing_postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "phone": "940-841-0910",
+      "email": "captsteve@txfishingguide.com",
+      "website": "https://txfishingguide.com/",
+      "facebook": "https://www.facebook.com/CaptSteveBarnes",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "hours": null,
+      "hours_note": "Fishing trips are reservation-based. Morning and afternoon guided trips are offered according to availability and seasonal fishing conditions.",
+      "price_range": "$$$",
+      "pricing_note": "Current prices were verified August 8, 2026 from Capt. Steve's official website and are time-sensitive.",
+      "current_rates": {
+        "monday_through_thursday": "$150 per person",
+        "monday_through_thursday_minimum": "$600 per trip",
+        "friday_through_sunday": "$200 per person",
+        "major_holidays": "$200 per person",
+        "weekend_and_holiday_minimum": "$800 per trip",
+        "deposit": "$200 per boat",
+        "credit_card_fee": "3%"
+      },
+      "payment_methods": [
+        "Cash",
+        "Debit card",
+        "Major credit cards"
+      ],
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "guide": {
+        "name": "Steve Barnes",
+        "professional_guiding_since": 1994,
+        "lake_texoma_guiding_since": 2001,
+        "origin_note": "Barnes' current biography says he grew up in Wichita Falls, Texas, began guiding for striped bass in 1994 on Lake Kemp and the Wichita River, later guided Possum Kingdom Lake, and moved his guiding operation to Lake Texoma in March 2001.",
+        "licensed_and_insured": true,
+        "current_oklahoma_license_verification": "Capt. Steve Barnes Guide Service currently appears in the Oklahoma Department of Wildlife Conservation's known licensed fishing-guide directory.",
+        "coast_guard_note": "Barnes' current official website identifies him as a U.S. Coast Guard licensed charter captain and publishes license number 1528455."
+      },
+      "target_species": [
+        "Striped Bass"
+      ],
+      "primary_specialty": "Lake Texoma striped bass",
+      "fishing_methods": [
+        "Live shad",
+        "Artificial lures",
+        "Swimbaits",
+        "Slabs",
+        "Topwater fishing",
+        "Deadsticking",
+        "Trolling"
+      ],
+      "fishing_method_note": "Methods vary with season, water conditions and fish behavior. Capt. Steve's current and historical fishing reports document use of both live bait and multiple artificial-lure techniques.",
+      "trip_duration": "Until the legal fishing limit is reached or up to 5 hours",
+      "trip_times": [
+        "Morning trips",
+        "Afternoon trips"
+      ],
+      "group_capacity": {
+        "standard_note": "The primary vessel accommodates guide parties appropriate to the vessel's legal capacity.",
+        "large_groups": "Additional boats and guides can be arranged for groups larger than eight."
+      },
+      "current_primary_boat": {
+        "year": 2013,
+        "make": "Ameracat",
+        "length": "27 feet",
+        "engines": "Twin 2024 Mercury 225 hp outboards",
+        "electronics": [
+          "Simrad electronics",
+          "Sonar",
+          "Structure scan",
+          "Autopilot"
+        ],
+        "trolling_motor": "Motorguide Xi5",
+        "fishing_gear": "Quality Shimano rods and reels"
+      },
+      "trip_inclusions": [
+        "Professional fishing guide",
+        "Boat",
+        "Fuel",
+        "Striper bait",
+        "Fishing tackle",
+        "Quality rods and reels",
+        "Fishing gear",
+        "Fish cleaning",
+        "Fish filleting",
+        "Fish bagging"
+      ],
+      "guest_should_bring": [
+        "Current required Lake Texoma fishing license",
+        "Food",
+        "Drinks",
+        "Cooler up to approximately 90 quarts",
+        "No glass containers",
+        "Warm clothing when appropriate",
+        "Rain gear",
+        "Sun protection",
+        "Life jackets for young children when appropriate"
+      ],
+      "cancellation_policy": {
+        "standard_notice": "14 days",
+        "deposit": "$200 per boat",
+        "deposit_refund": "Deposits are nonrefundable unless the trip is cancelled by Capt. Steve.",
+        "rescheduling_note": "For cancellations inside 14 days, Capt. Steve's current policy says the trip may be moved without losing the deposit if the original date can be rebooked.",
+        "deposit_expiration": "Deposits must currently be used before the end of the year."
+      },
+      "services": [
+        "Professional fishing guide service",
+        "Lake Texoma striper trips",
+        "Private guided fishing trips",
+        "Morning fishing trips",
+        "Afternoon fishing trips",
+        "Large-group fishing coordination",
+        "Additional guide and boat coordination",
+        "Bait and fishing tackle",
+        "Fish cleaning",
+        "Fish filleting and bagging"
+      ],
+      "good_to_know": [
+        "Capt. Steve Barnes currently operates from Lighthouse Marina Boathouse #3.",
+        "The current fishing-trip departure address is 300 Lighthouse Drive in Pottsboro.",
+        "Steve's current phone number is 940-841-0910.",
+        "His current email is captsteve@txfishingguide.com.",
+        "His official website is txfishingguide.com.",
+        "His official website links to facebook.com/CaptSteveBarnes.",
+        "Barnes has professionally guided since 1994.",
+        "He moved his fishing-guide operation to Lake Texoma in March 2001.",
+        "The business specializes in Lake Texoma striped-bass fishing.",
+        "Trips currently continue until the legal fishing limit is reached or for up to five hours.",
+        "Bait, tackle, rods and reels are supplied.",
+        "Fish are cleaned, filleted and bagged after the trip.",
+        "The current primary boat is a 27-foot 2013 Ameracat powered by twin 2024 Mercury 225-horsepower outboards.",
+        "The boat carries Simrad electronics, sonar, structure scan, autopilot and a Motorguide Xi5 trolling motor.",
+        "Current weekday pricing is $150 per person with a $600 minimum.",
+        "Current Friday-through-Sunday and major-holiday pricing is $200 per person with an $800 minimum.",
+        "A $200 deposit per boat is currently required.",
+        "Debit and credit-card transactions currently carry a 3% fee.",
+        "Additional boats and guides can be arranged for groups larger than eight.",
+        "The Oklahoma Department of Wildlife Conservation currently lists Capt. Steve Barnes Guide Service among its known licensed fishing guides.",
+        "Lighthouse Resort & Marina independently lists Capt. Steve Barnes as one of the professional guide businesses operating from Lighthouse Marina.",
+        "Lighthouse explicitly states that the guides in its program are separate entities and are not directly affiliated with Lighthouse Resort & Marina or Texoma Destinations.",
+        "Current fishing regulations and license requirements should always be verified before the trip rather than relying on static directory text."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "lighthouse-resort-marina",
+        "business_name": "Lighthouse Resort & Marina",
+        "relationship_note": "Capt. Steve Barnes Lake Texoma Striper Guide operates from Lighthouse Marina Boathouse #3 as an independent professional fishing-guide business."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Capt. Steve Barnes' guide service is based in Pottsboro, Texas, and operates on Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 using the current official Capt. Steve Lake Texoma Striper Guide website, current trip and booking pages, current Lighthouse Resort & Marina professional-guide directory and the current Oklahoma Department of Wildlife Conservation known licensed fishing-guide directory. Current first-party information confirms 940-841-0910, captsteve@txfishingguide.com, Lighthouse Marina Boathouse #3 departure location, guiding since 1994, Lake Texoma operation since March 2001, current rates, five-hour maximum trip format, included bait and gear, fish cleaning and bagging, large-group coordination and the current 27-foot Ameracat with twin 2024 Mercury 225 outboards. Oklahoma's current guide directory independently lists Capt. Steve Barnes Guide Service at the same phone number. Lighthouse independently lists Steve as an operating guide and states that its guides are separate businesses. Current official Facebook link verified through txfishingguide.com. No current official Instagram, YouTube or TikTok account was confidently verified.",
+      "sources": [
+        {
+          "source_name": "Capt. Steve Lake Texoma Striper Guide",
+          "source_url": "https://txfishingguide.com/",
+          "source_type": "official",
+          "supports": "Business identity, contact information, history, rates, boat details, fishing specialty, trip inclusions, licensing claims and official Facebook link."
+        },
+        {
+          "source_name": "Capt. Steve — Lake Texoma Striper Trips",
+          "source_url": "https://txfishingguide.com/trips-and-charters/lake-texoma-striper-trips/",
+          "source_type": "official",
+          "supports": "Current pricing, trip duration, Lighthouse Boathouse #3 departure location, equipment, group accommodation, guest preparation and cancellation policy."
+        },
+        {
+          "source_name": "Capt. Steve — Booking",
+          "source_url": "https://txfishingguide.com/booknow/",
+          "source_type": "official",
+          "supports": "Current booking process, phone, email and mailing address."
+        },
+        {
+          "source_name": "Lighthouse Resort & Marina — Professional Guide Service",
+          "source_url": "https://lighthouseresort.com/professional-guide-service/",
+          "source_type": "official",
+          "supports": "Current Steve Barnes Lighthouse Marina relationship, phone, email, website and independent-business status."
+        },
+        {
+          "source_name": "Oklahoma Department of Wildlife Conservation — Fishing Guides",
+          "source_url": "https://wildlifedepartment.com/fishing/fishing-guides",
+          "source_type": "government",
+          "supports": "Current known licensed-guide listing for Capt. Steve Barnes Guide Service and matching 940-841-0910 phone number."
         }
       ],
       "last_checked": "2026-08-08",
