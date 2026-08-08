@@ -11,11 +11,70 @@
     const recordTitle = document.querySelector("#record-title");
     const status = document.querySelector("#status");
     const statusDetails = document.querySelector("#status-details");
+    const fieldsWrap = document.querySelector("#fields");
+    const saveButton = document.querySelector("#save-record");
 
     if (!(actions instanceof HTMLElement) || !(adminKey instanceof HTMLInputElement) ||
         !(queryInput instanceof HTMLInputElement) || !(recordPanel instanceof HTMLElement) ||
         !(recordTypeLabel instanceof HTMLElement) || !(recordTitle instanceof HTMLElement) ||
-        !(status instanceof HTMLElement) || !(statusDetails instanceof HTMLUListElement)) return false;
+        !(status instanceof HTMLElement) || !(statusDetails instanceof HTMLUListElement) ||
+        !(fieldsWrap instanceof HTMLElement) || !(saveButton instanceof HTMLButtonElement)) return false;
+
+    if (!document.querySelector("#add-record-property")) {
+      const addPropertyButton = document.createElement("button");
+      addPropertyButton.id = "add-record-property";
+      addPropertyButton.type = "button";
+      addPropertyButton.textContent = "Add Property";
+      addPropertyButton.className = "secondary";
+      actions.insertBefore(addPropertyButton, saveButton);
+
+      addPropertyButton.addEventListener("click", () => {
+        if (recordPanel.hidden) return;
+        const key = prompt("Property name to add (example: related_geography):")?.trim() || "";
+        if (!key) return;
+        if (!/^[A-Za-z_][A-Za-z0-9_]*$/.test(key)) {
+          setStatus("Property name must use letters, numbers, and underscores and cannot start with a number.");
+          return;
+        }
+        if (fieldsWrap.querySelector(`[data-key="${CSS.escape(key)}"]`)) {
+          setStatus(`${key} already exists on this record. Edit the existing field instead.`);
+          return;
+        }
+
+        const defaultValue = key === "related_geography"
+          ? '[\n  {\n    "slug": "texas",\n    "name": "Texas",\n    "entity_type": "state",\n    "relationship_note": "Lake Texoma spans the Texas-Oklahoma border."\n  }\n]'
+          : "[]";
+        const raw = prompt("Enter the initial value as valid JSON:", defaultValue);
+        if (raw === null) return;
+
+        let parsed;
+        try {
+          parsed = JSON.parse(raw);
+        } catch {
+          setStatus("The new property value must be valid JSON.");
+          return;
+        }
+
+        const group = document.createElement("div");
+        group.className = "field-group";
+        const label = document.createElement("label");
+        label.textContent = key;
+        label.htmlFor = `field-${key}`;
+        const textarea = document.createElement("textarea");
+        textarea.id = `field-${key}`;
+        textarea.dataset.key = key;
+        textarea.dataset.complex = "true";
+        textarea.spellcheck = false;
+        textarea.value = JSON.stringify(parsed, null, 2);
+        textarea.addEventListener("input", () => { saveButton.disabled = false; });
+        textarea.addEventListener("change", () => { saveButton.disabled = false; });
+        group.append(label, textarea);
+        fieldsWrap.appendChild(group);
+        saveButton.disabled = false;
+        setStatus(`${key} added to the loaded record. Review the new field, then click Validate & Save.`, [], true);
+        group.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+    }
 
     if (document.querySelector("#delete-record")) return true;
 
