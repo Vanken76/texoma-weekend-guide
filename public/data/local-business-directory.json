@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 628,
-  "publish_ready_count": 292,
+  "business_count": 629,
+  "publish_ready_count": 293,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -35877,6 +35877,379 @@
           "source_url": "https://texascorporateretreats.com/",
           "source_type": "official_related",
           "supports": "Confirms Texas Corporate Retreats is a Striper Express-linked operation using the same Mill Creek address, phone and email."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "lake-texoma-striper-hunter-guide-service",
+      "business_name": "Lake Texoma Striper Hunter Guide Service",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Mill Creek Resort & Marina, 512 Mill Creek Resort Rd, Boathouse #3, Pottsboro, TX 75076 — professional artificial-lure Lake Texoma striper guide service",
+      "primary_category": "Fishing Guide",
+      "category": [
+        "Fishing Guide",
+        "Striper Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Fishing Guide",
+        "Striped Bass Fishing",
+        "Lake Texoma Fishing",
+        "Fishing Charter",
+        "Guided Fishing Trips",
+        "Artificial Lure Fishing",
+        "Family Fishing",
+        "Corporate Group Fishing",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Lake Texoma Striper Hunter Guide Service",
+        "Striper Hunter Guide Service",
+        "Stephen Andre",
+        "Captain Stephen Andre",
+        "Capt. Stephen Andre",
+        "Lake Texoma",
+        "Mill Creek Resort & Marina",
+        "Mill Creek Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Striper Guide",
+        "Striped Bass",
+        "Artificial Lures",
+        "Casting",
+        "Topwater Fishing",
+        "Swimbaits",
+        "Slab Spoons",
+        "Family Fishing",
+        "Kids Fishing",
+        "Corporate Fishing",
+        "Fish Cleaning",
+        "Falcon Boat"
+      ],
+      "description": "Lake Texoma Striper Hunter Guide Service is Capt. Stephen Andre's professional striped-bass fishing operation based at Mill Creek Resort & Marina in Pottsboro, Texas. Andre has fished Lake Texoma since 1996 and specializes exclusively in casting artificial lures for striped bass. He does not use live bait and does not troll. Guided trips are conducted aboard a custom 26-foot Falcon center-console boat and include rods, reels, artificial lures, casting instruction and cleaning of the catch. The service welcomes beginners, experienced anglers, children, families and larger corporate groups.",
+      "short_description": "Capt. Stephen Andre's artificial-lure-only Lake Texoma striper guide service based at Mill Creek Marina Boathouse #3.",
+      "why_visit": "Striper Hunter is a strong choice for anglers who want to actively cast, work lures and fight Lake Texoma stripers rather than fish with live bait. Stephen provides the equipment, teaches casting and lure techniques, searches the lake for active fish and cleans the catch afterward.",
+      "why_its_unique": "Capt. Stephen Andre has built his guide service specifically around artificial-lure fishing. He does not use live bait or troll; guests cast swimbaits, slab spoons and topwater lures while Stephen uses seasonal patterns, birds, structure and marine electronics to locate striped bass.",
+      "address": "512 Mill Creek Resort Rd, Boathouse #3",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "address_note": "The current official website identifies Mill Creek Resort & Marina, 512 Mill Creek Resort Rd, Boathouse #3, as Striper Hunter Guide Service's home base. Stephen also states that trips can sometimes be arranged from other areas of Lake Texoma.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "972-816-6000",
+      "toll_free_phone": "888-8TEXOMA",
+      "email": "stephen@texomastriperhunter.com",
+      "website": "https://www.laketexomafishingguides.com/",
+      "facebook": "https://www.facebook.com/TexomaStriperHunter/",
+      "twitter": "https://twitter.com/texomafishguide",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "hours": null,
+      "hours_note": "Fishing trips operate by reservation rather than conventional storefront hours. Fridays, Saturdays and Sundays can book well in advance, and the current website says some weekend dates may fill as much as six months ahead.",
+      "price_range": "$$$",
+      "pricing_note": "Current rates were verified August 8, 2026 from the official Striper Hunter rates page and are time-sensitive.",
+      "current_rates": {
+        "one_to_three_people": "$525 total",
+        "four_people": "$675 total",
+        "five_people": "$825 total",
+        "six_people": "$975 total",
+        "saturday_one_to_three_minimum": "$600 total",
+        "deposit": "$250"
+      },
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "owner_operator": {
+        "name": "Stephen Andre",
+        "title": "Captain",
+        "role": "Owner and guide",
+        "lake_texoma_fishing_since": 1996,
+        "business_model": "Owner-operated single-guide service",
+        "note": "Stephen's current website emphasizes that guests book directly with him and that he personally guides their trip."
+      },
+      "guide_license": {
+        "current_odwc_verification": true,
+        "odwc_business_name": "Striper Hunter Guide Service",
+        "odwc_phone": "972-816-6000",
+        "odwc_water": "Lake Texoma",
+        "uscg_claim": "Stephen's current official website identifies him as a fully Coast Guard-licensed and insured guide."
+      },
+      "target_species": [
+        "Striped Bass"
+      ],
+      "waters_guided": [
+        "Lake Texoma"
+      ],
+      "primary_specialty": "Lake Texoma striped bass using artificial lures",
+      "fishing_style": {
+        "artificial_lures_only": true,
+        "live_bait": false,
+        "trolling": false,
+        "casting": true,
+        "instruction_available": true
+      },
+      "fishing_methods": [
+        "Casting",
+        "Swimbaits",
+        "Topwater lures",
+        "Slab spoons",
+        "Artificial swimming baits",
+        "Fishing structure",
+        "Following schooling fish",
+        "Using bird activity to locate fish",
+        "Using marine electronics and side-scan sonar"
+      ],
+      "seasonal_methods": {
+        "winter": [
+          "Swimming-style baits",
+          "Swimbaits"
+        ],
+        "spring": [
+          "Swimming-style baits",
+          "Topwater lures",
+          "Swimbaits"
+        ],
+        "summer": [
+          "Slab spoons",
+          "Topwater lures"
+        ],
+        "fall": [
+          "Topwater lures",
+          "Swimbaits"
+        ]
+      },
+      "trip_duration": "Up to 4 hours",
+      "trip_duration_note": "Stephen's current rates and biography pages describe trips as up to or typically about four hours. If conditions permit after guests reach their limit, the current site says some catch-and-release fishing may continue briefly; in hot-water conditions he may return rather than release fish likely to die.",
+      "current_boat": {
+        "make": "Falcon",
+        "type": "Center Console",
+        "length": "26 feet",
+        "custom_rebuilt": true,
+        "passenger_capacity_description": "Plenty of room for 6 guests plus personal coolers and gear",
+        "features": [
+          "Individual passenger seats",
+          "Built-in dry storage at seats",
+          "Coast Guard-required safety equipment",
+          "Bluetooth stereo",
+          "Marine electronics",
+          "Side-scan sonar",
+          "Room for guest coolers"
+        ]
+      },
+      "fishing_equipment": [
+        "Spinning rods and reels",
+        "Baitcasting rods and reels",
+        "Artificial striper lures",
+        "Topwater lures",
+        "Swimbaits",
+        "Slab spoons",
+        "Life jackets",
+        "Children's life jackets",
+        "Lightweight rain gear"
+      ],
+      "trip_inclusions": [
+        "Professional guide",
+        "Boat",
+        "Fuel",
+        "Fishing rods",
+        "Fishing reels",
+        "Artificial lures",
+        "Casting instruction",
+        "Fishing instruction",
+        "Required onboard safety equipment",
+        "Life jackets",
+        "Fish cleaning",
+        "Fish filleting",
+        "Removal of red meat from fillets",
+        "Bagged cleaned catch"
+      ],
+      "guest_should_bring": [
+        "Appropriate current fishing license unless legally exempt",
+        "Cooler for cleaned fish",
+        "Food",
+        "Drinks",
+        "Plenty of water",
+        "Weather-appropriate clothing",
+        "Sunscreen",
+        "Hat",
+        "Camera or phone",
+        "Rain gear if desired"
+      ],
+      "children": {
+        "welcome": true,
+        "casting_instruction": true,
+        "guide_can_assist_with_casting": true,
+        "note": "Stephen specifically welcomes children and says he can teach them to cast or cast for them when needed."
+      },
+      "large_groups": {
+        "available": true,
+        "corporate_groups": true,
+        "note": "Stephen's current website says he can accommodate trips ranging from one guest to large corporate groups. Exact multi-boat arrangements should be confirmed directly when booking."
+      },
+      "catch_guarantee": {
+        "current_policy": "The current official gear page says that if the group catches no fish, the next trip is on Stephen.",
+        "note": "This is a current business policy and should be reconfirmed when booking because conditions and policies can change."
+      },
+      "booking": {
+        "reservation_required": true,
+        "deposit": "$250",
+        "busy_days": [
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "weekend_advance_booking": "Strongly recommended"
+      },
+      "cancellation_policy": {
+        "deposit": "$250",
+        "fourteen_or_more_days_before_trip": "Deposit may be moved to a new fishing date when rescheduled at least 14 days before the scheduled trip.",
+        "eight_to_fourteen_days_before_trip": "If the date cannot be rebooked, the $250 deposit is forfeited.",
+        "within_seven_days": "If the date cannot be rebooked, the full scheduled trip rate may be charged.",
+        "no_show": "Current policy states that the full trip amount may be charged.",
+        "weather": "If Stephen cancels at the dock for weather-safety reasons, the trip is rescheduled. If the customer cannot fish on a future date, the current policy says the deposit is refunded.",
+        "policy_note": "Cancellation and weather policies were verified from the current official rates page and should be reconfirmed when booking."
+      },
+      "license_note": "The current Striper Hunter website contains detailed fishing-license age and residency language that may not reflect all current TPWD rules. TWG should defer to current Texas Parks & Wildlife and Oklahoma Department of Wildlife Conservation regulations. TPWD currently lists the Lake Texoma License, Item 208, at $12; it permits fishing in both Texas and Oklahoma waters of Lake Texoma and is valid through December 31 following issuance.",
+      "current_lake_texoma_striper_regulation_note": "Current Texas Parks & Wildlife Lake Texoma rules list no minimum length for striped bass and hybrid striped bass, a combined daily bag limit of 10, a possession limit of 20, and only two striped or hybrid striped bass 20 inches or longer may be retained per day. Culling is prohibited. Regulations can change and should be checked before fishing.",
+      "services": [
+        "Professional Lake Texoma fishing-guide service",
+        "Striped-bass fishing charters",
+        "Artificial-lure-only fishing",
+        "Private guided fishing trips",
+        "Casting instruction",
+        "Beginner fishing instruction",
+        "Family fishing trips",
+        "Children's fishing trips",
+        "Corporate fishing trips",
+        "Large-group fishing coordination",
+        "Topwater fishing",
+        "Swimbait fishing",
+        "Slab-spoon fishing",
+        "Fishing equipment and tackle",
+        "Fish cleaning",
+        "Fish filleting"
+      ],
+      "good_to_know": [
+        "Lake Texoma Striper Hunter Guide Service is owned and operated by Capt. Stephen Andre.",
+        "Stephen has fished Lake Texoma since 1996.",
+        "The guide service is currently based at Mill Creek Resort & Marina, Boathouse #3.",
+        "The current phone number is 972-816-6000.",
+        "The current toll-free number is 888-8TEXOMA.",
+        "The current email is stephen@texomastriperhunter.com.",
+        "Stephen specializes exclusively in Lake Texoma striped-bass fishing with artificial lures.",
+        "He does not use live bait.",
+        "He does not troll.",
+        "Guests actively cast and work artificial lures.",
+        "The primary current boat is a custom 26-foot Falcon center console.",
+        "The boat has room for up to six guests with individual seating and space for coolers.",
+        "Spinning and baitcasting equipment are available.",
+        "Casting instruction is included.",
+        "Children are welcome.",
+        "Current trips run up to approximately four hours.",
+        "Current rates are $525 for one to three people, $675 for four, $825 for five and $975 for six.",
+        "The current Saturday minimum for one to three guests is $600.",
+        "A $250 deposit is currently required.",
+        "Rods, reels, artificial lures and fish cleaning are included.",
+        "Stephen removes the red meat from striper fillets when cleaning the catch.",
+        "The current website says guests may fish for large catfish from Stephen's dock while he cleans their fish.",
+        "The current website advertises a no-fish policy under which the next trip is on Stephen if the group catches no fish.",
+        "The Oklahoma Department of Wildlife Conservation currently lists Striper Hunter Guide Service at 972-816-6000 among its known licensed guides for Lake Texoma.",
+        "The current Facebook identity is TexomaStriperHunter.",
+        "The linked Twitter/X identity is texomafishguide.",
+        "No current official Instagram, YouTube or TikTok account was confidently verified during this research pass.",
+        "Stephen says trips can sometimes be arranged from other sections of Lake Texoma in addition to Mill Creek.",
+        "Fishing regulations, licensing requirements, rates and cancellation policies should be reconfirmed before the trip."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "mill-creek-resort-and-marina",
+        "business_name": "Mill Creek Resort & Marina",
+        "relationship_note": "Lake Texoma Striper Hunter Guide Service is based inside Mill Creek Resort & Marina at Boathouse #3."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Lake Texoma Striper Hunter Guide Service is based in Pottsboro, Texas, and guides fishing trips throughout Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Fully verified August 8, 2026 using the current official Lake Texoma Striper Hunter Guide Service website, current About, Rates, Gear and Contact pages, current Oklahoma Department of Wildlife Conservation known licensed fishing-guide directory, current Texas Parks & Wildlife Lake Texoma license and fishing-regulation information, and current secondary social-profile links. First-party sources confirm Capt. Stephen Andre as owner and guide, Lake Texoma fishing since 1996, Mill Creek Resort & Marina Boathouse #3 as the home base, 972-816-6000 phone, 888-8TEXOMA toll-free phone, stephen@texomastriperhunter.com email, artificial-lure-only fishing, no live bait, no trolling, current prices, $250 deposit, up-to-four-hour trips, custom 26-foot Falcon boat, six-guest capacity, included fishing gear and fish cleaning, children's instruction, corporate-group capability and current cancellation policies. ODWC independently lists Striper Hunter Guide Service at the matching 972-816-6000 number for Lake Texoma. Facebook and Twitter/X profiles were verified through current fishing-directory links; other social accounts were not sufficiently verified. The guide website contains some older fishing-license age language, so TWG should defer to current TPWD and ODWC regulations instead.",
+      "sources": [
+        {
+          "source_name": "Lake Texoma Striper Hunter Guide Service — Official Website",
+          "source_url": "https://www.laketexomafishingguides.com/",
+          "source_type": "official",
+          "supports": "Current business identity, owner, Mill Creek location, artificial-lure specialty, boat, family and corporate trips, equipment and fishing methods."
+        },
+        {
+          "source_name": "Striper Hunter — About",
+          "source_url": "https://www.laketexomafishingguides.com/about/",
+          "source_type": "official",
+          "supports": "Stephen Andre biography, Lake Texoma history, artificial-lure-only fishing, guide licensing claim, trip format, family suitability and Mill Creek location."
+        },
+        {
+          "source_name": "Striper Hunter — Rates",
+          "source_url": "https://www.laketexomafishingguides.com/rates/",
+          "source_type": "official",
+          "supports": "Current rates, Saturday minimum, trip duration, $250 deposit, fishing equipment, fish cleaning, cancellation policy and weather policy."
+        },
+        {
+          "source_name": "Striper Hunter — Fishing Gear",
+          "source_url": "https://www.laketexomafishingguides.com/our-gear/",
+          "source_type": "official",
+          "supports": "Current 26-foot Falcon boat, passenger seating, safety equipment, rods and reels, guest preparation, children's equipment and current no-fish guarantee."
+        },
+        {
+          "source_name": "Striper Hunter — Contact",
+          "source_url": "https://www.laketexomafishingguides.com/contact/",
+          "source_type": "official",
+          "supports": "Current 972-816-6000 phone, 888-8TEXOMA toll-free number, email and Mill Creek Boathouse #3 address."
+        },
+        {
+          "source_name": "Oklahoma Department of Wildlife Conservation — Fishing Guides",
+          "source_url": "https://www.wildlifedepartment.com/fishing/fishing-guides",
+          "source_type": "government",
+          "supports": "Current known licensed-guide listing for Striper Hunter Guide Service, 972-816-6000 and Lake Texoma."
+        },
+        {
+          "source_name": "Texas Parks & Wildlife — Fishing Licenses and Packages",
+          "source_url": "https://tpwd.texas.gov/regulations/outdoor-annual/licenses/fishing-licenses-stamps-tags-packages/fishing-licenses-and-packages",
+          "source_type": "government",
+          "supports": "Current $12 Lake Texoma fishing license, validity and Texas-Oklahoma coverage."
+        },
+        {
+          "source_name": "Texas Parks & Wildlife — Lake Texoma Fishing Regulations",
+          "source_url": "https://tpwd.texas.gov/fishboat/fish/action/fishregs2.php?water=0723",
+          "source_type": "government",
+          "supports": "Current Lake Texoma striped-bass bag, possession, size and culling rules."
+        },
+        {
+          "source_name": "Fishing Status — Striper Hunter Guide Service",
+          "source_url": "https://fishingstatus.com/fishing/directory/groupid/10513",
+          "source_type": "secondary",
+          "supports": "Current matching business contact information and linked Facebook and Twitter/X profiles."
         }
       ],
       "last_checked": "2026-08-08",
