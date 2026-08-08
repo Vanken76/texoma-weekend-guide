@@ -9,100 +9,140 @@
     return Array.isArray(value) ? value : [value];
   };
 
-  const parentReferenceFor = (business, parentSlug) => {
-    const references = toArray(business?.parent_business ?? business?.parentBusiness);
-    for (const reference of references) {
-      if (!reference) continue;
-      if (typeof reference === "string" && reference === parentSlug) {
-        return { slug: reference, note: null };
-      }
-      if (typeof reference === "object" && reference.slug === parentSlug) {
-        return {
-          slug: reference.slug,
-          note: reference.note || reference.relationship_note || null
-        };
-      }
-    }
-    return null;
+  const ensureRelationshipsSection = (mainCard) => {
+    let section = mainCard.querySelector(".relationships-section");
+    if (section) return section;
+
+    section = document.createElement("section");
+    section.className = "relationships-section";
+    const heading = document.createElement("h2");
+    heading.textContent = "Related places";
+    section.appendChild(heading);
+    const shareBlock = mainCard.querySelector(".share-block");
+    mainCard.insertBefore(section, shareBlock || null);
+    return section;
   };
 
-  fetch("/data/local-business-directory.json", { cache: "no-store" })
-    .then((response) => response.ok ? response.json() : Promise.reject(new Error("Business directory unavailable")))
-    .then((directory) => {
+  const ensureGroup = (relationshipsSection, headingText, className, beforeSelector = null) => {
+    let group = Array.from(relationshipsSection.querySelectorAll(".relationship-group"))
+      .find((candidate) => candidate.querySelector("h3")?.textContent?.trim() === headingText);
+    if (group) return group;
+
+    group = document.createElement("div");
+    group.className = `relationship-group ${className}`;
+    const heading = document.createElement("h3");
+    heading.textContent = headingText;
+    group.appendChild(heading);
+    group.appendChild(document.createElement("ul"));
+
+    const before = beforeSelector ? relationshipsSection.querySelector(beforeSelector) : null;
+    relationshipsSection.insertBefore(group, before || null);
+    return group;
+  };
+
+  const appendRelationship = (group, relationship) => {
+    let list = group.querySelector("ul");
+    if (!list) {
+      list = document.createElement("ul");
+      group.appendChild(list);
+    }
+
+    const alreadyExists = relationship.href && Array.from(list.querySelectorAll("a[href]"))
+      .some((link) => link.getAttribute("href") === relationship.href);
+    if (alreadyExists) return;
+
+    const item = document.createElement("li");
+    if (relationship.href) {
+      const link = document.createElement("a");
+      link.href = relationship.href;
+      link.textContent = relationship.name;
+      item.appendChild(link);
+    } else {
+      item.appendChild(document.createTextNode(relationship.name));
+    }
+
+    if (relationship.note) {
+      const note = document.createElement("span");
+      note.textContent = ` — ${relationship.note}`;
+      item.appendChild(note);
+    }
+
+    list.appendChild(item);
+  };
+
+  Promise.all([
+    fetch("/data/local-business-directory.json", { cache: "no-store" })
+      .then((response) => response.ok ? response.json() : Promise.reject(new Error("Business directory unavailable"))),
+    fetch("/data/business-relationship-overrides.json", { cache: "no-store" })
+      .then((response) => response.ok ? response.json() : { records: {} })
+      .catch(() => ({ records: {} }))
+  ])
+    .then(([directory, relationshipBridge]) => {
       const businesses = Array.isArray(directory.businesses) ? directory.businesses : [];
+      const bridgeRecords = relationshipBridge?.records && typeof relationshipBridge.records === "object"
+        ? relationshipBridge.records
+        : {};
+      const businessBySlug = new Map(businesses.filter((item) => item?.slug).map((item) => [item.slug, item]));
+      const currentBusiness = businessBySlug.get(slug);
+      if (!currentBusiness) return;
+
+      const resolvedParentReferences = (business) => {
+        const explicit = toArray(business?.parent_business ?? business?.parentBusiness).filter(Boolean);
+        if (explicit.length) return explicit;
+        return toArray(bridgeRecords[business?.slug]?.parent_business).filter(Boolean);
+      };
+
+      const normalizeParent = (reference) => {
+        if (!reference) return null;
+        const raw = typeof reference === "string" ? { slug: reference } : reference;
+        if (!raw.slug) return null;
+        const matched = businessBySlug.get(raw.slug);
+        return {
+          slug: raw.slug,
+          name: raw.name || raw.business_name || matched?.business_name || raw.slug,
+          href: `/businesses/${raw.slug}/`,
+          note: raw.note || raw.relationship_note || null
+        };
+      };
+
+      const currentParents = resolvedParentReferences(currentBusiness).map(normalizeParent).filter(Boolean);
       const children = businesses
         .filter((item) => item?.publish_ready === true && item?.slug && item.slug !== slug)
-        .map((item) => ({ item, parentRef: parentReferenceFor(item, slug) }))
-        .filter(({ parentRef }) => Boolean(parentRef))
-        .map(({ item, parentRef }) => ({
-          slug: item.slug,
-          name: item.business_name || item.name || item.slug,
-          href: `/businesses/${item.slug}/`,
-          note: parentRef.note
-        }))
+        .flatMap((item) => resolvedParentReferences(item)
+          .map(normalizeParent)
+          .filter((parent) => parent?.slug === slug)
+          .map((parent) => ({
+            slug: item.slug,
+            name: item.business_name || item.name || item.slug,
+            href: `/businesses/${item.slug}/`,
+            note: parent.note
+          })))
         .sort((a, b) => a.name.localeCompare(b.name));
 
-      if (!children.length) return;
+      if (!currentParents.length && !children.length) return;
 
       const mainCard = document.querySelector(".main-card");
       if (!mainCard) return;
+      const relationshipsSection = ensureRelationshipsSection(mainCard);
 
-      let relationshipsSection = mainCard.querySelector(".relationships-section");
-      if (!relationshipsSection) {
-        relationshipsSection = document.createElement("section");
-        relationshipsSection.className = "relationships-section";
-        const heading = document.createElement("h2");
-        heading.textContent = "Related places";
-        relationshipsSection.appendChild(heading);
-        const shareBlock = mainCard.querySelector(".share-block");
-        mainCard.insertBefore(relationshipsSection, shareBlock || null);
+      if (currentParents.length) {
+        const partOfGroup = ensureGroup(
+          relationshipsSection,
+          "Part of",
+          "resolved-parent-relationship-group",
+          ".inferred-child-relationship-group, .geography-relationship-group"
+        );
+        currentParents.forEach((parent) => appendRelationship(partOfGroup, parent));
       }
 
-      let locatedGroup = Array.from(relationshipsSection.querySelectorAll(".relationship-group"))
-        .find((group) => group.querySelector("h3")?.textContent?.trim() === "Located here");
-
-      if (!locatedGroup) {
-        locatedGroup = document.createElement("div");
-        locatedGroup.className = "relationship-group inferred-child-relationship-group";
-        const heading = document.createElement("h3");
-        heading.textContent = "Located here";
-        locatedGroup.appendChild(heading);
-        const list = document.createElement("ul");
-        locatedGroup.appendChild(list);
-
-        const geographyGroup = relationshipsSection.querySelector(".geography-relationship-group");
-        relationshipsSection.insertBefore(locatedGroup, geographyGroup || null);
-      }
-
-      let list = locatedGroup.querySelector("ul");
-      if (!list) {
-        list = document.createElement("ul");
-        locatedGroup.appendChild(list);
-      }
-
-      const existingHrefs = new Set(
-        Array.from(list.querySelectorAll("a[href]"))
-          .map((link) => link.getAttribute("href"))
-          .filter(Boolean)
-      );
-
-      for (const child of children) {
-        if (existingHrefs.has(child.href)) continue;
-
-        const item = document.createElement("li");
-        const link = document.createElement("a");
-        link.href = child.href;
-        link.textContent = child.name;
-        item.appendChild(link);
-
-        if (child.note) {
-          const note = document.createElement("span");
-          note.textContent = ` — ${child.note}`;
-          item.appendChild(note);
-        }
-
-        list.appendChild(item);
-        existingHrefs.add(child.href);
+      if (children.length) {
+        const locatedGroup = ensureGroup(
+          relationshipsSection,
+          "Located here",
+          "inferred-child-relationship-group",
+          ".geography-relationship-group"
+        );
+        children.forEach((child) => appendRelationship(locatedGroup, child));
       }
     })
     .catch(() => {});
