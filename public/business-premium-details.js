@@ -61,14 +61,24 @@
     return [];
   };
 
-  fetch("/data/local-business-directory.json", { cache: "no-store" })
-    .then((response) => response.ok ? response.json() : Promise.reject(new Error("Directory unavailable")))
-    .then((directory) => {
+  Promise.all([
+    fetch("/data/local-business-directory.json", { cache: "no-store" })
+      .then((response) => response.ok ? response.json() : Promise.reject(new Error("Directory unavailable"))),
+    fetch("/data/business-relationship-overrides.json", { cache: "no-store" })
+      .then((response) => response.ok ? response.json() : { records: {} })
+      .catch(() => ({ records: {} }))
+  ])
+    .then(([directory, relationshipBridge]) => {
       const business = (directory.businesses || []).find((item) => item?.slug === slug);
       if (!business) return;
 
       const mainCard = document.querySelector(".main-card");
       if (!mainCard || document.querySelector(".premium-business-details")) return;
+
+      const bridgeRecord = relationshipBridge?.records?.[slug] || {};
+      const replacements = bridgeRecord.good_to_know_replacements && typeof bridgeRecord.good_to_know_replacements === "object"
+        ? bridgeRecord.good_to_know_replacements
+        : {};
 
       const wrapper = document.createElement("div");
       wrapper.className = "premium-business-details";
@@ -125,7 +135,8 @@
         wrapper.appendChild(section);
       }
 
-      const goodToKnow = normalizeGoodToKnow(business.good_to_know);
+      const goodToKnow = normalizeGoodToKnow(business.good_to_know)
+        .map((note) => Object.prototype.hasOwnProperty.call(replacements, note) ? replacements[note] : note);
       if (goodToKnow.length) {
         const section = createSection("Good to Know", "good-to-know");
         const list = document.createElement("ul");
@@ -143,8 +154,7 @@
       mainCard.insertBefore(wrapper, hoursSection || mainCard.querySelector(".events-section") || null);
 
       const style = document.createElement("style");
-      style.textContent = `
-        .premium-business-details{margin-top:2rem}.premium-business-section{margin-top:1.25rem;padding:1.25rem;border:1px solid #d7e0e4;border-radius:.9rem;background:#f8fbfc}.premium-business-section h2{margin:0 0 .75rem}.premium-business-section p{margin:0;line-height:1.65}.why-visit{border-left:5px solid #176f95}.why-unique{border-left:5px solid #236b45;background:#f5fbf7}.glance-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.7rem}.glance-item{display:flex;gap:.65rem;align-items:center;padding:.75rem;border-radius:.7rem;background:white;border:1px solid #d7e0e4}.glance-icon{font-size:1.35rem}.glance-item strong,.glance-item small{display:block}.glance-item small{margin-top:.15rem;color:#526470}.amenities-list{display:flex;flex-wrap:wrap;gap:.55rem}.amenities-list span{padding:.48rem .7rem;border-radius:999px;background:#e8f4f8;color:#176f95;font-weight:800}.good-to-know ul{margin:.25rem 0 0;padding-left:1.2rem}.good-to-know li+li{margin-top:.45rem}`;
+      style.textContent = `.premium-business-details{margin-top:2rem}.premium-business-section{margin-top:1.25rem;padding:1.25rem;border:1px solid #d7e0e4;border-radius:.9rem;background:#f8fbfc}.premium-business-section h2{margin:0 0 .75rem}.premium-business-section p{margin:0;line-height:1.65}.why-visit{border-left:5px solid #176f95}.why-unique{border-left:5px solid #236b45;background:#f5fbf7}.glance-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.7rem}.glance-item{display:flex;gap:.65rem;align-items:center;padding:.75rem;border-radius:.7rem;background:white;border:1px solid #d7e0e4}.glance-icon{font-size:1.35rem}.glance-item strong,.glance-item small{display:block}.glance-item small{margin-top:.15rem;color:#526470}.amenities-list{display:flex;flex-wrap:wrap;gap:.55rem}.amenities-list span{padding:.48rem .7rem;border-radius:999px;background:#e8f4f8;color:#176f95;font-weight:800}.good-to-know ul{margin:.25rem 0 0;padding-left:1.2rem}.good-to-know li+li{margin-top:.45rem}`;
       document.head.appendChild(style);
     })
     .catch(() => {});
