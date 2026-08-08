@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 626,
-  "publish_ready_count": 290,
+  "business_count": 627,
+  "publish_ready_count": 291,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -35098,6 +35098,143 @@
           "source_url": "https://tpwd.texas.gov/fishboat/fish/action/fishregs2.php?water=0723",
           "source_type": "government",
           "supports": "Current Lake Texoma striped-bass and hybrid striped-bass bag, size and possession regulations."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "jason-harrelson",
+      "business_name": "Jason Harrelson",
+      "directory_status": "complete_limited_public_details",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Lighthouse Marina, 300 Lighthouse Drive, Pottsboro, TX 75076 — independent professional fishing guide operating on Lake Texoma",
+      "primary_category": "Fishing Guide",
+      "category": [
+        "Fishing Guide",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Fishing Guide",
+        "Lake Texoma Fishing",
+        "Guided Fishing Trips",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Jason Harrelson",
+        "Lake Texoma",
+        "Lighthouse Resort & Marina",
+        "Lighthouse Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Professional Fishing Guide",
+        "Guided Fishing",
+        "Texoma Fishing",
+        "Outdoor Recreation"
+      ],
+      "description": "Jason Harrelson is an independent professional fishing guide operating from Lighthouse Marina on Lake Texoma near Pottsboro, Texas. Lighthouse Resort & Marina and Texoma Destinations currently list Harrelson among the professional fishing guides working from Lighthouse Marina and publish his direct phone number and email address for guide inquiries and reservations.",
+      "short_description": "Independent professional Lake Texoma fishing guide operating from Lighthouse Marina near Pottsboro.",
+      "why_visit": "Jason Harrelson provides visitors with direct access to a professional guide operating from Lighthouse Marina, making guided fishing particularly convenient for guests staying at Lighthouse Resort & Marina or planning a fishing-focused Lake Texoma visit.",
+      "why_its_unique": "Harrelson is part of Lighthouse Marina's current independent professional-guide roster. Unlike several other Lighthouse guides, he does not currently maintain a verified public website, so reservations and trip details are handled directly through his published phone and email contact information.",
+      "address": "300 Lighthouse Drive",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "address_note": "300 Lighthouse Drive is Lighthouse Resort & Marina, where Jason Harrelson is currently listed as an operating guide. It should not be interpreted as Jason Harrelson's personal residence or independently verified mailing address.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-821-4971",
+      "email": "jasondharrelson@yahoo.com",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "hours": null,
+      "hours_note": "Guided fishing trips operate by reservation rather than conventional storefront hours. Contact Jason directly for current availability, departure times and trip arrangements.",
+      "price_range": null,
+      "pricing_note": "No current first-party trip pricing was located during TWG's August 8, 2026 research pass. Contact Jason Harrelson directly for current rates.",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "guide": {
+        "name": "Jason Harrelson",
+        "current_lighthouse_verification": "Lighthouse Resort & Marina currently lists Jason Harrelson among the independent professional fishing guides operating from Lighthouse Marina.",
+        "current_texoma_destinations_verification": "Texoma Destinations currently publishes the same Jason Harrelson name, 903-821-4971 phone number and jasondharrelson@yahoo.com email address in its Lake Texoma professional-guide information.",
+        "oklahoma_license_verification": null
+      },
+      "waters_guided": [
+        "Lake Texoma"
+      ],
+      "target_species": [],
+      "target_species_note": "Lighthouse promotes its professional-guide program principally around Lake Texoma fishing, especially striped bass, while Texoma Destinations discusses both striper and catfish in connection with its guide program. Neither current source publishes a Jason Harrelson-specific species list, so TWG is not assigning individual target species without additional verification.",
+      "services": [
+        "Professional fishing guide service",
+        "Lake Texoma guided fishing trips",
+        "Private guided fishing outings"
+      ],
+      "good_to_know": [
+        "Jason Harrelson currently appears on Lighthouse Resort & Marina's professional fishing-guide roster.",
+        "He is listed as an independent guide operating from Lighthouse Marina.",
+        "His current published phone number is 903-821-4971.",
+        "His current published email address is jasondharrelson@yahoo.com.",
+        "Texoma Destinations independently publishes the same phone number and email address.",
+        "Neither Lighthouse nor Texoma Destinations currently publishes a website for Jason Harrelson.",
+        "No current official Facebook, Instagram, YouTube or TikTok account was confidently verified.",
+        "Current trip rates were not located in reliable first-party material.",
+        "Current boat specifications, group capacity, trip duration, fishing methods, equipment inclusions and fish-cleaning policies were not independently verified.",
+        "A Jason Harrelson or 903-821-4971 match was not located in the Oklahoma Department of Wildlife Conservation's current known licensed fishing-guide directory during this verification pass. This should not be interpreted as evidence that he is unlicensed.",
+        "Lighthouse Resort & Marina explicitly states that the fishing guides on its roster are separate entities and are not directly affiliated with Lighthouse Resort or Texoma Destinations.",
+        "Fishing-license, bag-limit and other regulations can change. Visitors should verify current Lake Texoma, Texas and Oklahoma requirements before fishing."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "lighthouse-resort-marina",
+        "business_name": "Lighthouse Resort & Marina",
+        "relationship_note": "Jason Harrelson operates out of Lighthouse Marina as an independent professional fishing guide."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Jason Harrelson operates from Lighthouse Marina near Pottsboro, Texas, and guides fishing trips on Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 using the current Lighthouse Resort & Marina professional-guide directory, current Texoma Destinations Lake Texoma guide information and the current Oklahoma Department of Wildlife Conservation known licensed fishing-guide directory. Lighthouse currently lists Jason Harrelson among the separate independent professional fishing guides operating from Lighthouse Marina and publishes 903-821-4971 and jasondharrelson@yahoo.com. Texoma Destinations independently publishes the same name, phone and email. Neither current official source publishes a website for Harrelson. No current first-party source was located for trip rates, boat specifications, trip duration, capacity, fishing methods, equipment inclusions or social-media accounts, so those details have deliberately not been inferred. A Jason Harrelson or 903-821-4971 match was not located in ODWC's current known licensed-guide directory; because ODWC describes that page as a list of known licensed guides, TWG is making no inference about Harrelson's licensing status from that absence.",
+      "sources": [
+        {
+          "source_name": "Lighthouse Resort & Marina — Professional Guide Service",
+          "source_url": "https://lighthouseresort.com/professional-guide-service/",
+          "source_type": "official",
+          "supports": "Current Jason Harrelson listing, Lighthouse Marina operating relationship, phone, email and independent-entity status."
+        },
+        {
+          "source_name": "Texoma Destinations — Things to Do",
+          "source_url": "https://texomadestinations.com/things-to-do",
+          "source_type": "official",
+          "supports": "Current Jason Harrelson guide listing, matching phone and email, Lake Texoma fishing context and Lighthouse guide-program relationship."
+        },
+        {
+          "source_name": "Oklahoma Department of Wildlife Conservation — Fishing Guides",
+          "source_url": "https://www.wildlifedepartment.com/fishing/fishing-guides",
+          "source_type": "government",
+          "supports": "Current known licensed fishing-guide directory checked during verification; no Jason Harrelson or matching 903-821-4971 entry was located."
         }
       ],
       "last_checked": "2026-08-08",
