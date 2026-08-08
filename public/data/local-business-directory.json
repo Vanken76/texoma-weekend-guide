@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 618,
-  "publish_ready_count": 282,
+  "business_count": 619,
+  "publish_ready_count": 283,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -33244,6 +33244,278 @@
           "source_url": "https://texomadestinations.com/properties/lighthouse",
           "source_type": "official",
           "supports": "Fastrac cruise operation at Lighthouse Resort & Marina and cruise categories available from the property."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "big-water-boat-club",
+      "business_name": "Big Water Boat Club",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Lighthouse Resort & Marina, 300 Lighthouse Drive, Pottsboro, TX 75076 — membership boat club providing discounted access to the Lighthouse Marina rental fleet and member-only boats on Lake Texoma",
+      "primary_category": "Boat Club",
+      "category": [
+        "Boat Club",
+        "Membership Boating",
+        "Boat Rentals",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Boat Club",
+        "Membership Boating",
+        "Boat Rentals",
+        "Recreational Boating",
+        "Boating Instruction",
+        "Lake Texoma Experience",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Big Water Boat Club",
+        "Big Water",
+        "Lake Texoma",
+        "Lighthouse Resort & Marina",
+        "Lighthouse Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Boat Club",
+        "Membership Boating",
+        "Boat Rentals",
+        "Half Price Boat Rentals",
+        "Pontoon Rentals",
+        "Tritoon Rentals",
+        "Family Boating",
+        "Boating Training",
+        "Boater Safety",
+        "BoaterWise",
+        "Texoma Destinations",
+        "Fastrac Cruises",
+        "Member to Owner"
+      ],
+      "description": "Big Water Boat Club is a Lake Texoma membership boating program operating through Lighthouse Resort & Marina in Pottsboro, Texas. Members pay a one-time initiation fee and low quarterly dues, then receive 50% off posted boat-rental rates at Lighthouse Resort & Marina along with access to member-only boats. The club emphasizes flexible boating without the costs and responsibilities of ownership, with no blackout dates, no complicated membership tiers and access to half-day, full-day, weekday, weekend and holiday rentals subject to availability. Membership also includes boating education, concierge assistance and discounts with affiliated Lake Texoma lodging, cruise and recreation businesses.",
+      "short_description": "Lake Texoma membership boat club at Lighthouse Marina offering 50% off boat rentals, member-only boats, flexible reservations and boating training.",
+      "why_visit": "Big Water Boat Club fills the gap between occasionally renting a boat and purchasing one. Members can boat more frequently at half the regular Lighthouse rental rate without paying for storage, slips, maintenance, repairs or the other ongoing expenses of ownership.",
+      "why_its_unique": "Unlike higher-cost boat-club models built around large initiation fees and restricted reservation systems, Big Water uses a simple membership structure: a comparatively low initiation fee and quarterly dues, followed by 50% off Lighthouse boat rentals with no blackout dates or complicated membership tiers.",
+      "address": "300 Lighthouse Drive",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-419-1019",
+      "email": null,
+      "website": "https://bigwatermarine.com/boatclub/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "parent_company": "Texoma Destinations",
+      "brand_relationship_note": "BigWater.co identifies Big Water Boat Club and Big Water Marine as separate brands within the broader Big Water portfolio. Big Water Boat Club is the Lighthouse-based membership operation; Big Water Marine operates separate sales and service locations in Pottsboro.",
+      "hours": null,
+      "hours_note": "Boat Club use follows Lighthouse Marina rental availability and member reservations rather than separate published storefront hours. Reservations may be made for half-day or full-day use, including weekdays, weekends and holidays, subject to boat availability.",
+      "price_range": "$$–$$$",
+      "membership": {
+        "new_member_initiation_fee": "$500",
+        "monthly_dues": "$50",
+        "billing_frequency": "Quarterly",
+        "quarterly_dues": "$150",
+        "first_quarter_due_at_joining": "$150",
+        "returning_member_initiation_fee": "$1,000",
+        "rental_discount": "50% off posted Lighthouse Resort & Marina boat-rental rates",
+        "minimum_practical_commitment": "3 months",
+        "blackout_dates": false,
+        "long_term_commitment": false,
+        "member_only_boats": true,
+        "minimum_age": 25
+      },
+      "membership_note": "Current membership pricing and terms were verified August 8, 2026. Initiation fees and membership dues are currently nonrefundable and nontransferable. Membership terms and rental rates may change and should be reconfirmed before joining.",
+      "rental_cost_examples": {
+        "winter_half_day_example": {
+          "posted_rate": "$450",
+          "member_rate": "$225"
+        },
+        "major_holiday_full_day_example": {
+          "posted_rate": "Up to $1,200",
+          "member_rate": "Up to $600"
+        },
+        "damage_deposit": "$500 refundable damage deposit per rental"
+      },
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "at_a_glance": {
+        "average_visit": "Half-day or full-day boating outing",
+        "price_range": "$$–$$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true,
+        "reservations_recommended": true,
+        "free_wifi": null,
+        "boat_parking": true,
+        "rv_parking": true,
+        "waterfront": true,
+        "lake_view": true
+      },
+      "membership_requirements": [
+        "Must be at least 25 years old",
+        "Pay the current $500 new-member initiation fee",
+        "Pay $150 for the first quarter of membership dues",
+        "Complete an approved boater-safety course",
+        "Complete the free Intro to Boating on Lake Texoma safety class through BoaterWise"
+      ],
+      "membership_benefits": [
+        "50% off posted Lighthouse Resort & Marina boat-rental rates",
+        "Access to Lighthouse Marina rental fleet",
+        "Access to member-only boats",
+        "Half-day rentals",
+        "Full-day rentals",
+        "Weekday rentals",
+        "Weekend rentals",
+        "Holiday rentals",
+        "No blackout dates",
+        "Flexible reservations",
+        "Free boating training",
+        "Lake Texoma boating education",
+        "Concierge rental service",
+        "Discounts on Lighthouse Resort cabin stays",
+        "Discounts on Lighthouse Resort RV stays",
+        "Discounts on Fastrac Cruises",
+        "Discounts with other affiliated businesses",
+        "Member-to-Owner boat-purchase program"
+      ],
+      "services": [
+        "Membership boating",
+        "Discounted boat rentals",
+        "Member-only boat access",
+        "Boat reservations",
+        "Boating instruction",
+        "Boater-safety education",
+        "Lake Texoma boating orientation",
+        "Rental concierge service",
+        "Member-to-Owner program"
+      ],
+      "amenities": [
+        "Lighthouse Marina rental fleet access",
+        "Member-only boats",
+        "Online reservations",
+        "Phone reservations",
+        "Professional marina staff",
+        "Boating training",
+        "Concierge service",
+        "Lighthouse Resort lodging discounts",
+        "Fastrac Cruises discounts"
+      ],
+      "good_to_know": [
+        "Big Water Boat Club operates through the Lighthouse Resort & Marina boat-rental program.",
+        "Big Water Boat Club and Big Water Marine are related but distinct brands.",
+        "The club currently charges new members a $500 one-time initiation fee plus $50 per month billed quarterly.",
+        "Members currently receive 50% off posted boat-rental rates at Lighthouse Resort & Marina.",
+        "There are currently no blackout dates.",
+        "Members may reserve half-day or full-day rentals on weekdays, weekends and holidays, subject to availability.",
+        "The minimum membership age is currently 25.",
+        "Members must complete boating-safety education before using the program.",
+        "A $500 refundable damage deposit is currently required for each rental.",
+        "Members pay for fuel used during their rental at the current discounted member fuel rate.",
+        "Current initiation fees and membership dues are nonrefundable and nontransferable.",
+        "Quarterly billing creates a practical minimum membership commitment of three months.",
+        "Written notice is currently required to cancel membership.",
+        "A former member who later rejoins currently pays a $1,000 returning-member initiation fee.",
+        "Membership includes discounts on Lighthouse lodging, Fastrac Cruises and other affiliated experiences.",
+        "The club offers a Member-to-Owner program for members who later decide to purchase a boat.",
+        "Boat availability and normal rental prices vary by season, weekday/weekend and holiday demand."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "event_types": [
+        "Boat-club promotions",
+        "Boating education",
+        "Demo days",
+        "Member events",
+        "Boat shows",
+        "Lake recreation promotions"
+      ],
+      "event_sources": [
+        "https://bigwatermarine.com/boatclub/",
+        "https://bigwatermarine.com/life/",
+        "https://texomadestinations.com/lighthouse-marina"
+      ],
+      "parent_business": {
+        "slug": "lighthouse-resort-marina",
+        "business_name": "Lighthouse Resort & Marina",
+        "relationship_note": "Big Water Boat Club provides membership access to the rental fleet and member-only boats at Lighthouse Resort & Marina."
+      },
+      "child_businesses": [],
+      "related_businesses": [
+        {
+          "slug": "fastrac-charters-cruises",
+          "business_name": "Fastrac Charters & Cruises",
+          "relationship_note": "Big Water Boat Club members receive discounts on Fastrac Cruises through the affiliated Texoma Destinations family."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Big Water Boat Club operates from Lighthouse Marina near Pottsboro, Texas."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 through the current official Big Water Boat Club membership page, Lighthouse Marina's official current marina page, Big Water Marine and BigWater.co. Official Big Water information confirms that Big Water Boat Club is a membership program providing access to Lighthouse Resort & Marina boat rentals at 50% of normal posted rates plus member-only boats. Current new-member pricing is a $500 initiation fee and $50 monthly dues billed quarterly. Membership currently has no blackout dates, permits half-day and full-day rentals including weekends and holidays subject to availability, requires members to be at least 25 and complete boating-safety education, and provides affiliated discounts and a Member-to-Owner program. Lighthouse Marina independently identifies Big Water Boat Club as an on-site boating option. BigWater.co identifies Big Water Boat Club and Big Water Marine as separate portfolio brands; Big Water Marine's sales and service facilities are located elsewhere in Pottsboro and therefore Big Water Marine should not be modeled as a child physically located inside Lighthouse Resort & Marina.",
+      "sources": [
+        {
+          "source_name": "Big Water Boat Club",
+          "source_url": "https://bigwatermarine.com/boatclub/",
+          "source_type": "official",
+          "supports": "Membership identity, fees, requirements, rental discount, reservation rules, damage deposit, member benefits, Texoma Destinations relationship and Lighthouse rental-fleet access."
+        },
+        {
+          "source_name": "Lighthouse Marina",
+          "source_url": "https://texomadestinations.com/lighthouse-marina",
+          "source_type": "official",
+          "supports": "Independent confirmation that Big Water Boat Club operates through Lighthouse Marina and is a distinct boating option at the property."
+        },
+        {
+          "source_name": "BigWater.co",
+          "source_url": "https://bigwater.co/",
+          "source_type": "official",
+          "supports": "Identification of Big Water Marine and Big Water Boat Club as separate brands within the Big Water portfolio."
+        },
+        {
+          "source_name": "Big Water Marine",
+          "source_url": "https://bigwatermarine.com/",
+          "source_type": "official",
+          "supports": "Relationship between marine sales, service, boat club and boating experiences."
+        },
+        {
+          "source_name": "Big Water Marine — Contact",
+          "source_url": "https://bigwatermarine.com/contact/",
+          "source_type": "official",
+          "supports": "Confirmation that Big Water Marine sales and service operate from separate Pottsboro locations rather than from Lighthouse Marina."
+        },
+        {
+          "source_name": "Lighthouse Resort & Marina — Boat Rentals",
+          "source_url": "https://lighthouseresort.com/boat-rentals/",
+          "source_type": "official",
+          "supports": "Lighthouse partnership with Big Water Boat Club and the 50% member rental discount."
         }
       ],
       "last_checked": "2026-08-08",
