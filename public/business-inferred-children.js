@@ -92,7 +92,13 @@
         return toArray(bridgeRecords[business?.slug]?.parent_business).filter(Boolean);
       };
 
-      const normalizeParent = (reference) => {
+      const resolvedRelatedReferences = (business) => {
+        const explicit = toArray(business?.related_businesses ?? business?.relatedBusinesses).filter(Boolean);
+        const bridge = toArray(bridgeRecords[business?.slug]?.related_businesses).filter(Boolean);
+        return [...explicit, ...bridge];
+      };
+
+      const normalizeBusinessReference = (reference) => {
         if (!reference) return null;
         const raw = typeof reference === "string" ? { slug: reference } : reference;
         if (!raw.slug) return null;
@@ -105,11 +111,23 @@
         };
       };
 
-      const currentParents = resolvedParentReferences(currentBusiness).map(normalizeParent).filter(Boolean);
+      const dedupeRelationships = (relationships) => {
+        const seen = new Set();
+        return relationships.filter((relationship) => {
+          if (!relationship?.slug || seen.has(relationship.slug)) return false;
+          seen.add(relationship.slug);
+          return true;
+        });
+      };
+
+      const currentParents = dedupeRelationships(
+        resolvedParentReferences(currentBusiness).map(normalizeBusinessReference).filter(Boolean)
+      );
+
       const children = businesses
         .filter((item) => item?.publish_ready === true && item?.slug && item.slug !== slug)
         .flatMap((item) => resolvedParentReferences(item)
-          .map(normalizeParent)
+          .map(normalizeBusinessReference)
           .filter((parent) => parent?.slug === slug)
           .map((parent) => ({
             slug: item.slug,
@@ -119,7 +137,13 @@
           })))
         .sort((a, b) => a.name.localeCompare(b.name));
 
-      if (!currentParents.length && !children.length) return;
+      const relatedBusinesses = dedupeRelationships(
+        resolvedRelatedReferences(currentBusiness)
+          .map(normalizeBusinessReference)
+          .filter((relationship) => relationship?.slug !== slug)
+      ).sort((a, b) => a.name.localeCompare(b.name));
+
+      if (!currentParents.length && !children.length && !relatedBusinesses.length) return;
 
       const mainCard = document.querySelector(".main-card");
       if (!mainCard) return;
@@ -130,7 +154,7 @@
           relationshipsSection,
           "Part of",
           "resolved-parent-relationship-group",
-          ".inferred-child-relationship-group, .geography-relationship-group"
+          ".inferred-child-relationship-group, .related-business-relationship-group, .geography-relationship-group"
         );
         currentParents.forEach((parent) => appendRelationship(partOfGroup, parent));
       }
@@ -140,9 +164,19 @@
           relationshipsSection,
           "Located here",
           "inferred-child-relationship-group",
-          ".geography-relationship-group"
+          ".related-business-relationship-group, .geography-relationship-group"
         );
         children.forEach((child) => appendRelationship(locatedGroup, child));
+      }
+
+      if (relatedBusinesses.length) {
+        const relatedGroup = ensureGroup(
+          relationshipsSection,
+          "Related businesses",
+          "related-business-relationship-group",
+          ".geography-relationship-group"
+        );
+        relatedBusinesses.forEach((business) => appendRelationship(relatedGroup, business));
       }
     })
     .catch(() => {});

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "purpose": "Relationship bridge for published legacy records that predate canonical relationship fields.",
+  "purpose": "Relationship bridge for published records that need compatibility relationships or render-time corrections outside their canonical directory fields.",
   "records": {
     "grandpappy-point-resort-marina-denison": {
       "parent_business": {
@@ -18,6 +18,24 @@
         "business_name": "Grandpappy Point Resort & Marina",
         "relationship_note": "The Point Restaurant is located inside Grandpappy Point Resort & Marina."
       }
+    },
+    "lighthouse-resort-marina": {
+      "related_businesses": [
+        {
+          "slug": "island-view-park-pottsboro",
+          "business_name": "Island View Park",
+          "relationship_note": "Island View Park is a separately located Lake Texoma day-use park operated as part of Lighthouse Resort & Marina."
+        }
+      ]
+    },
+    "island-view-park-pottsboro": {
+      "related_businesses": [
+        {
+          "slug": "lighthouse-resort-marina",
+          "business_name": "Lighthouse Resort & Marina",
+          "relationship_note": "Island View Park is operated as part of Lighthouse Resort & Marina while remaining at its own Preston Bend Road property."
+        }
+      ]
     }
   }
 }
