@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 620,
-  "publish_ready_count": 284,
+  "business_count": 621,
+  "publish_ready_count": 285,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -33896,6 +33896,176 @@
           "source_url": "https://bigwater.co/",
           "source_type": "official",
           "supports": "Big Water Marine and Big Water Boat Club as separate brands within the Big Water portfolio."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "rex-bridges-guide-service",
+      "business_name": "Rex Bridges Guide Service",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "25 Rod & Reel Rd., Pottsboro, TX 75076 — professional Lake Texoma striper fishing guide operating from Lighthouse Marina & Resort",
+      "primary_category": "Fishing Guide",
+      "category": [
+        "Fishing Guide",
+        "Striper Fishing Guide",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Fishing Guide",
+        "Striped Bass Fishing",
+        "Lake Texoma Fishing",
+        "Guided Fishing Trips",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Rex Bridges Guide Service",
+        "Rex Bridges",
+        "Lake Texoma",
+        "Lighthouse Resort & Marina",
+        "Lighthouse Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Striper Guide",
+        "Striped Bass",
+        "Texoma Fishing",
+        "Guided Fishing Trip",
+        "Professional Fishing Guide",
+        "Family Fishing",
+        "Outdoor Recreation"
+      ],
+      "description": "Rex Bridges Guide Service is a professional Lake Texoma fishing-guide operation based at Lighthouse Marina & Resort in Pottsboro, Texas. Rex Bridges specializes in guided striped-bass fishing trips on Lake Texoma and has decades of experience fishing and guiding the lake. His current website identifies the guide service as operating inside Lighthouse Marina & Resort and directs customers to call, text or email for current trip rates.",
+      "short_description": "Veteran Lake Texoma striper guide operating from Lighthouse Marina & Resort in Pottsboro.",
+      "why_visit": "Rex Bridges offers visitors a dedicated Lake Texoma striper-fishing experience with a guide who has spent decades on the lake. His Lighthouse Marina base also makes the service convenient for guests staying at the resort or building a fishing-focused Lake Texoma trip.",
+      "why_its_unique": "Rex Bridges has an unusually long documented history guiding Lake Texoma. His current biography says he has guided the lake for more than 25 years, and archived North Texas newspaper advertising confirms that Rex was already offering Lake Texoma guided striper trips in 1993.",
+      "address": "25 Rod & Reel Rd.",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-814-8400",
+      "toll_free_phone": "800-211-7808",
+      "email": "rex@rexbridges.net",
+      "website": "https://rexbridges.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "hours": null,
+      "hours_note": "Fishing trips are arranged by reservation rather than standard storefront hours. Contact Rex directly by phone, text or email for availability and departure details.",
+      "price_range": null,
+      "pricing_note": "Rex Bridges' current official website does not publish fixed trip prices and instructs customers to call, text or email for current rates.",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "guide": {
+        "name": "Rex Bridges",
+        "hometown": "Dallas, Texas",
+        "specialty": "Lake Texoma striped bass",
+        "experience_note": "The current official biography states that Rex has guided Lake Texoma for more than 25 years. Archived newspaper advertising independently documents Rex offering guided Lake Texoma striper trips in 1993.",
+        "current_license_verification": "Rex Bridges Guide Service appears on the Oklahoma Department of Wildlife Conservation's current known licensed fishing-guide list for Lake Texoma."
+      },
+      "target_species": [
+        "Striped Bass"
+      ],
+      "services": [
+        "Professional fishing guide service",
+        "Lake Texoma striper fishing trips",
+        "Guided fishing outings",
+        "Private fishing trips"
+      ],
+      "trip_preparation": [
+        "Contact Rex directly for current pricing and availability.",
+        "Bring personal food and beverages as desired.",
+        "Dress for current Lake Texoma weather conditions.",
+        "Bring appropriate sun protection during warm-weather trips.",
+        "Bring warm or water-resistant clothing during cooler conditions.",
+        "Confirm current fishing-license requirements before the trip."
+      ],
+      "good_to_know": [
+        "Rex Bridges Guide Service operates out of Lighthouse Marina & Resort in Pottsboro.",
+        "The current official business address is 25 Rod & Reel Rd., Pottsboro, TX 75076.",
+        "The current primary phone is 903-814-8400.",
+        "A toll-free number, 800-211-7808, is also currently published.",
+        "The current contact email is rex@rexbridges.net.",
+        "The guide service specializes in Lake Texoma striped-bass fishing.",
+        "Current trip rates are not published online; customers are instructed to call, text or email for rates.",
+        "Rex's current biography says he has guided Lake Texoma for more than 25 years.",
+        "Archived newspaper advertising confirms Rex was already offering guided Lake Texoma striper trips in 1993.",
+        "Rex Bridges Guide Service appears on the Oklahoma Department of Wildlife Conservation's current known licensed-guide list for Lake Texoma.",
+        "Lighthouse Resort & Marina identifies Rex as one of the independent professional fishing guides operating from Lighthouse Marina.",
+        "Lighthouse specifically states that the listed fishing guides are separate entities and are not directly affiliated with Lighthouse Resort or Texoma Destinations.",
+        "Fishing regulations and license requirements can change; anglers should verify current Texas/Oklahoma/Lake Texoma requirements before fishing."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "lighthouse-resort-marina",
+        "business_name": "Lighthouse Resort & Marina",
+        "relationship_note": "Rex Bridges Guide Service operates out of Lighthouse Marina & Resort in Pottsboro."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Rex Bridges Guide Service is based in Pottsboro, Texas, and guides fishing trips on Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 through the current official Rex Bridges website, current Lighthouse Resort & Marina professional-guide directory, current Texoma Destinations guide information, the Oklahoma Department of Wildlife Conservation fishing-guide directory and historical North Texas newspaper archives. Current official sources confirm the Rex Bridges name, 25 Rod & Reel Rd. Pottsboro address, 903-814-8400 and 800-211-7808 phone numbers, rex@rexbridges.net email address, Lake Texoma striper-fishing focus and operation from Lighthouse Marina & Resort. The official website instructs customers to call, text or email for current rates, so no unverified trip prices are being published. The current biography says Rex has guided Lake Texoma for more than 25 years, while a 1993 newspaper advertisement independently documents guided Lake Texoma striper trips under Rex Bridges' name. No current official Facebook, Instagram, YouTube or TikTok account was confidently verified.",
+      "sources": [
+        {
+          "source_name": "Rex Bridges Guide Service",
+          "source_url": "https://rexbridges.com/",
+          "source_type": "official",
+          "supports": "Current business location, Lighthouse Marina relationship, phone, email, striper-guide focus and current-rates contact policy."
+        },
+        {
+          "source_name": "Rex Bridges — Biography",
+          "source_url": "https://rexbridges.com/Rex.html",
+          "source_type": "official",
+          "supports": "Rex Bridges biography, Dallas origin, more-than-25-years Lake Texoma guiding experience and current contact details."
+        },
+        {
+          "source_name": "Rex Bridges — Preparation",
+          "source_url": "https://rexbridges.com/preparation.html",
+          "source_type": "official",
+          "supports": "Trip-preparation guidance, clothing, food and beverage recommendations and contact details."
+        },
+        {
+          "source_name": "Lighthouse Resort & Marina — Professional Guide Service",
+          "source_url": "https://lighthouseresort.com/professional-guide-service/",
+          "source_type": "official",
+          "supports": "Rex Bridges as an independent guide operating out of Lighthouse Marina, current phone, email and website."
+        },
+        {
+          "source_name": "Oklahoma Department of Wildlife Conservation — Fishing Guides",
+          "source_url": "https://wildlifedepartment.com/fishing/fishing-guides",
+          "source_type": "government",
+          "supports": "Current known licensed-guide listing for Rex Bridges Guide Service on Lake Texoma."
+        },
+        {
+          "source_name": "The Allen American — April 28, 1993",
+          "source_url": "https://texashistory.unt.edu/ark:/67531/metapth1670725/m1/23/",
+          "source_type": "historical_archive",
+          "supports": "Independent historical documentation that Rex Bridges was advertising guided Lake Texoma striper trips in 1993."
         }
       ],
       "last_checked": "2026-08-08",
