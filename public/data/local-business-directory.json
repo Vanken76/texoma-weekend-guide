@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 622,
-  "publish_ready_count": 286,
+  "business_count": 623,
+  "publish_ready_count": 287,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -34236,6 +34236,180 @@
           "source_url": "https://www.texasguidefishing.com/lake-texoma/",
           "source_type": "secondary",
           "supports": "Longstanding Lake Texoma striper-guide specialization and historical guide-service information."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "striperman-fishing-guide-service",
+      "business_name": "Striperman Fishing Guide Service",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Lighthouse Marina, 300 Lighthouse Drive, Pottsboro, TX 75076 — independent professional Lake Texoma fishing guide operated by Gerald Costner",
+      "primary_category": "Fishing Guide",
+      "category": [
+        "Fishing Guide",
+        "Striper Fishing Guide",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Fishing Guide",
+        "Striped Bass Fishing",
+        "Lake Texoma Fishing",
+        "Guided Fishing Trips",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Striperman Fishing Guide Service",
+        "Striperman",
+        "Striper Man",
+        "Gerald Costner",
+        "Lake Texoma",
+        "Lighthouse Resort & Marina",
+        "Lighthouse Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Striper Guide",
+        "Striped Bass",
+        "Texoma Fishing",
+        "Guided Fishing Trip",
+        "Fishing Charter",
+        "Professional Fishing Guide",
+        "Outdoor Recreation"
+      ],
+      "description": "Striperman Fishing Guide Service is an independent Lake Texoma fishing-guide operation led by Gerald Costner and operating from Lighthouse Marina near Pottsboro, Texas. Gerald specializes in Lake Texoma striped-bass fishing and is currently listed by Lighthouse Resort & Marina and Texoma Destinations among the professional guides operating from Lighthouse Marina. Regional guide directories describe Striperman as a full-service guided fishing operation in which fishing equipment is furnished, with anglers responsible for their fishing licenses, food, drinks and rain gear.",
+      "short_description": "Gerald Costner's independent Lake Texoma striper fishing guide service operating from Lighthouse Marina.",
+      "why_visit": "Striperman gives visitors a straightforward way to fish Lake Texoma for its signature striped bass with an established guide operating directly from Lighthouse Marina. Most fishing equipment is traditionally provided, simplifying the trip for visitors who do not travel with their own gear.",
+      "why_its_unique": "Gerald Costner and the Striperman name have a longstanding presence in the Lake Texoma guide community. Current Lighthouse and Texoma Destinations listings continue to identify Gerald as one of the independent guides operating from Lighthouse Marina.",
+      "address": "300 Lighthouse Drive",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "address_note": "300 Lighthouse Drive is the Lighthouse Resort & Marina operating/departure location. It is not being represented as Gerald Costner's personal or mailing address.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "214-384-9682",
+      "email": "striper1man@yahoo.com",
+      "website": "http://www.striperman.com/",
+      "website_status_note": "Lighthouse Resort & Marina currently lists striperman.com as Gerald Costner's website, but the website was offline during TWG's August 8, 2026 verification pass. Current prices and detailed trip information therefore could not be verified from the first-party site.",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "hours": null,
+      "hours_note": "Guided fishing trips operate by reservation rather than conventional storefront hours. Contact Gerald directly for current availability and departure times.",
+      "price_range": null,
+      "pricing_note": "Current rates were not verified from a functioning first-party source. Contact Striperman Fishing Guide Service directly for current pricing.",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "guide": {
+        "name": "Gerald Costner",
+        "specialty": "Lake Texoma striped bass",
+        "current_lighthouse_verification": "Lighthouse Resort & Marina currently lists Gerald Costner among the independent professional fishing guides operating from Lighthouse Marina."
+      },
+      "target_species": [
+        "Striped Bass"
+      ],
+      "services": [
+        "Professional fishing guide service",
+        "Lake Texoma striped-bass fishing trips",
+        "Guided fishing trips",
+        "Private fishing outings"
+      ],
+      "trip_capacity": {
+        "verified_secondary_capacity": "Up to 8 anglers",
+        "large_groups": "Larger groups may be accommodated with advance notice",
+        "capacity_note": "Current capacity information is supported by regional marine and guide directories but could not be reconfirmed through Gerald's currently offline website. Confirm when booking."
+      },
+      "traditional_trip_inclusions": [
+        "Fishing equipment",
+        "Tackle and necessary fishing gear"
+      ],
+      "guest_should_bring": [
+        "Current required fishing license",
+        "Food",
+        "Drinks",
+        "Rain gear",
+        "Weather-appropriate clothing",
+        "Sun protection"
+      ],
+      "good_to_know": [
+        "Striperman Fishing Guide Service is operated by Gerald Costner.",
+        "Gerald currently operates as an independent professional fishing guide from Lighthouse Marina.",
+        "The current primary phone published by Lighthouse is 214-384-9682.",
+        "The current email published by Lighthouse is striper1man@yahoo.com.",
+        "Lighthouse currently lists striperman.com as Gerald's website.",
+        "The striperman.com website was offline during TWG's August 8, 2026 verification pass.",
+        "The guide service specializes in Lake Texoma striped-bass fishing.",
+        "Regional guide directories state that fishing equipment is furnished while guests provide their fishing licenses, food, drinks and rain gear.",
+        "Regional marine directories describe the service as capable of fishing up to eight people and accommodating larger groups with advance notice.",
+        "Current rates, exact trip duration, boat specifications and detailed booking policies could not be independently verified from a functioning first-party website.",
+        "Lighthouse Resort & Marina explicitly states that Gerald and its other listed guides are independent entities and are not directly affiliated with Lighthouse Resort or Texoma Destinations.",
+        "Fishing-license and harvest regulations can change. Anglers should verify current Lake Texoma, Texas and Oklahoma requirements before fishing."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "lighthouse-resort-marina",
+        "business_name": "Lighthouse Resort & Marina",
+        "relationship_note": "Striperman Fishing Guide Service operates out of Lighthouse Marina as an independent professional fishing-guide business."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Striperman Fishing Guide Service operates from Lighthouse Marina near Pottsboro, Texas, and guides fishing trips on Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 using the current Lighthouse Resort & Marina professional-guide directory, current Texoma Destinations guide listing, current regional Lake Texoma fishing-guide directories and marine-service directories. Lighthouse and Texoma Destinations currently identify Gerald Costner as an independent guide operating from Lighthouse Marina and publish 214-384-9682, striper1man@yahoo.com and striperman.com. Independent fishing directories identify the business as Striperman Fishing Guide Service and consistently associate Gerald with Lake Texoma striped-bass guiding. Regional sources state that fishing equipment is furnished except for the guest's license, food, drinks and rain gear and describe capacity for up to eight anglers with larger groups possible by advance arrangement. The currently listed striperman.com website is offline, so TWG is not publishing unverified current pricing, boat specifications, trip duration or detailed booking policies. No current official social-media account was confidently reverified during this research pass.",
+      "sources": [
+        {
+          "source_name": "Lighthouse Resort & Marina — Professional Guide Service",
+          "source_url": "https://lighthouseresort.com/professional-guide-service/",
+          "source_type": "official",
+          "supports": "Current Lighthouse Marina relationship, Gerald Costner name, phone, email, website and independent-entity status."
+        },
+        {
+          "source_name": "Texoma Destinations — Things to Do",
+          "source_url": "https://texomadestinations.com/things-to-do",
+          "source_type": "official",
+          "supports": "Current Gerald Costner guide listing, phone, email, website and Lighthouse guide-program relationship."
+        },
+        {
+          "source_name": "Local Fishing Guides — Lake Texoma",
+          "source_url": "https://localfishingguides.com/fishing-guides-in-lake-texoma-texas",
+          "source_type": "secondary",
+          "supports": "Striperman Fishing Guide Service business name, Gerald Costner, phone, email and Lake Texoma guide classification."
+        },
+        {
+          "source_name": "Texoma Connect — Lake Texoma Fishing Guides",
+          "source_url": "https://texomaconnect.com/lake-texoma-fishing-guides/",
+          "source_type": "secondary",
+          "supports": "Striper Man Gerald Costner identity, Lake Texoma specialization and traditional trip inclusions/exclusions."
+        },
+        {
+          "source_name": "Boat Planet — Striper Man Gerald Costner",
+          "source_url": "https://boatplanet.com/ok/pauls-valley/fishing-guides",
+          "source_type": "secondary",
+          "supports": "Lake Texoma striper-guide description, traditional furnished-equipment details, up-to-eight-person capacity and larger-group accommodation."
         }
       ],
       "last_checked": "2026-08-08",
