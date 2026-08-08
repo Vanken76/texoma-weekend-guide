@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 621,
-  "publish_ready_count": 285,
+  "business_count": 622,
+  "publish_ready_count": 286,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -34066,6 +34066,176 @@
           "source_url": "https://texashistory.unt.edu/ark:/67531/metapth1670725/m1/23/",
           "source_type": "historical_archive",
           "supports": "Independent historical documentation that Rex Bridges was advertising guided Lake Texoma striper trips in 1993."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "dale-bestwina-guide-service",
+      "business_name": "Dale Bestwina Guide Service",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Lighthouse Marina, 300 Lighthouse Drive, Pottsboro, TX 75076 — independent professional fishing guide operating on Lake Texoma",
+      "primary_category": "Fishing Guide",
+      "category": [
+        "Fishing Guide",
+        "Striper Fishing Guide",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Fishing Guide",
+        "Lake Texoma Fishing",
+        "Striped Bass Fishing",
+        "Guided Fishing Trips",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Dale Bestwina",
+        "Dale Bestwina Guide Service",
+        "Bestwina Guide Service",
+        "Lake Texoma",
+        "Lighthouse Resort & Marina",
+        "Lighthouse Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Striper Guide",
+        "Striped Bass",
+        "Texoma Fishing",
+        "Guided Fishing",
+        "Professional Fishing Guide",
+        "Outdoor Recreation"
+      ],
+      "description": "Dale Bestwina Guide Service is an independent professional fishing-guide operation working from Lighthouse Marina in Pottsboro, Texas. Lighthouse Resort & Marina currently lists Dale Bestwina among the professional guides operating from its marina, and the Oklahoma Department of Wildlife Conservation currently lists Dale Bestwina among its known licensed fishing guides for Texoma. Longstanding regional guide directories identify Bestwina's operation with Lake Texoma striped-bass fishing.",
+      "short_description": "Independent Lake Texoma fishing guide operating from Lighthouse Marina in Pottsboro.",
+      "why_visit": "Dale Bestwina offers visitors the opportunity to fish Lake Texoma with an established professional guide operating directly from Lighthouse Marina, making the service especially convenient for Lighthouse guests and visitors building a fishing-focused lake trip.",
+      "why_its_unique": "Bestwina has a longstanding presence in the Lake Texoma guide community. His current Lighthouse Marina listing and current Oklahoma guide-license listing use the same primary phone number found in longstanding regional fishing-guide directories, providing strong continuity between the established guide service and the current operation.",
+      "address": "300 Lighthouse Drive",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "address_note": "300 Lighthouse Drive is the Lighthouse Resort & Marina operating/departure location. It should not be interpreted as a separately verified personal or mailing address for Dale Bestwina.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "214-668-6421",
+      "email": "dale.bestwina@verizon.net",
+      "website": "http://www.dbestguide.com/",
+      "website_status_note": "Lighthouse Resort & Marina currently lists dbestguide.com as Dale Bestwina's website. The site itself could not be retrieved during the August 8, 2026 TWG verification pass, so current trip details and rates were not taken from it.",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "hours": null,
+      "hours_note": "Fishing trips are reservation-based rather than operated on conventional storefront hours. Contact Dale directly for current availability, departure times and trip details.",
+      "price_range": null,
+      "pricing_note": "Current trip pricing was not verified from a live first-party source. Contact Dale Bestwina directly for current rates.",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "guide": {
+        "name": "Dale Bestwina",
+        "specialty": "Lake Texoma fishing; longstanding regional sources specifically identify striped-bass guiding",
+        "current_license_verification": "Dale Bestwina currently appears on the Oklahoma Department of Wildlife Conservation's known licensed fishing-guide list for Texoma.",
+        "current_lighthouse_verification": "Lighthouse Resort & Marina currently lists Dale Bestwina among the independent professional fishing guides operating from Lighthouse Marina."
+      },
+      "target_species": [
+        "Striped Bass"
+      ],
+      "target_species_note": "Striped-bass specialization is consistently documented by longstanding Lake Texoma fishing-guide directories associated with Bestwina's listed website. Current Lighthouse materials broadly promote its guide roster for Lake Texoma striper fishing, but Dale's inaccessible first-party website prevented re-verification of every current fishing product.",
+      "services": [
+        "Professional fishing guide service",
+        "Lake Texoma guided fishing trips",
+        "Striped-bass fishing trips"
+      ],
+      "historical_or_unconfirmed_offerings": [
+        "Red River fishing",
+        "Lake Fork fishing",
+        "Cedar Creek fishing",
+        "Airboat excursions",
+        "Duck hunting",
+        "Dove hunting"
+      ],
+      "historical_offerings_note": "Older directories and archived descriptions associated with dbestguide.com describe Red River and Lake Fork fishing, Cedar Creek fishing, airboat excursions, duck hunting and dove hunting. These activities were not independently reverified as current offerings in August 2026 and therefore are not being treated as active primary services.",
+      "good_to_know": [
+        "Dale Bestwina currently operates as an independent professional fishing guide from Lighthouse Marina.",
+        "Lighthouse Resort & Marina currently publishes Dale's primary phone as 214-668-6421.",
+        "Lighthouse currently publishes dale.bestwina@verizon.net as his contact email.",
+        "Lighthouse currently lists dbestguide.com as Dale's website.",
+        "The dbestguide.com website could not be retrieved during TWG's August 8, 2026 verification pass.",
+        "Dale Bestwina currently appears on the Oklahoma Department of Wildlife Conservation's known licensed fishing-guide list for Texoma.",
+        "The Oklahoma guide listing independently confirms the same 214-668-6421 phone number published by Lighthouse.",
+        "Longstanding regional fishing-guide listings identify Dale Bestwina Guide Service with Lake Texoma striped-bass fishing.",
+        "An older secondary phone number, 972-517-4598, appears in historical regional directories but is not being published as a current contact because Lighthouse and ODWC currently publish only 214-668-6421.",
+        "Older sources describe additional hunting, airboat and fishing services beyond Lake Texoma. Those have not been reverified as current and should not be presented to visitors as presently available.",
+        "Lighthouse explicitly states that its listed professional guides are separate independent entities and are not directly affiliated with Lighthouse Resort & Marina or Texoma Destinations.",
+        "Fishing-license and harvest regulations can change. Guests should verify current Lake Texoma, Texas and Oklahoma requirements before fishing."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "lighthouse-resort-marina",
+        "business_name": "Lighthouse Resort & Marina",
+        "relationship_note": "Dale Bestwina Guide Service operates out of Lighthouse Marina as an independent professional fishing-guide business."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Dale Bestwina Guide Service operates from Lighthouse Marina near Pottsboro, Texas, and guides on Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 using the current Lighthouse Resort & Marina professional-guide directory, current Texoma Destinations guide information, the current Oklahoma Department of Wildlife Conservation fishing-guide directory, Texas A&M AgriLife Nature Tourism's fishing-business directory and regional Lake Texoma guide directories. Lighthouse currently identifies Dale Bestwina as an independent professional guide operating from Lighthouse Marina and publishes 214-668-6421, dale.bestwina@verizon.net and dbestguide.com. Oklahoma's current known licensed fishing-guide directory independently lists Dale Bestwina at 214-668-6421 for Texoma. Longstanding regional directories identify the operation as Dale Bestwina Guide Service and associate it with Lake Texoma striper fishing. The currently listed dbestguide.com website could not be retrieved during this research pass, so current prices, boat specifications, trip duration, included equipment, hunting offerings and other detailed services were not inferred from outdated material. No current official Facebook, Instagram, YouTube or TikTok account was confidently verified.",
+      "sources": [
+        {
+          "source_name": "Lighthouse Resort & Marina — Professional Fishing Guides",
+          "source_url": "https://lighthouseresort.com/professional-guide-service/",
+          "source_type": "official",
+          "supports": "Current Lighthouse Marina operating relationship, Dale Bestwina name, phone, email, listed website and independent-entity status."
+        },
+        {
+          "source_name": "Texoma Destinations — Things to Do",
+          "source_url": "https://texomadestinations.com/things-to-do",
+          "source_type": "official",
+          "supports": "Current Dale Bestwina guide listing, phone, email, website and Lighthouse guide-program relationship."
+        },
+        {
+          "source_name": "Oklahoma Department of Wildlife Conservation — Fishing Guides",
+          "source_url": "https://wildlifedepartment.com/fishing/fishing-guides",
+          "source_type": "government",
+          "supports": "Current known licensed fishing-guide status, 214-668-6421 phone and Texoma waters."
+        },
+        {
+          "source_name": "Texas A&M AgriLife — Nature Tourism Development Fishing Businesses",
+          "source_url": "https://naturetourism.tamu.edu/fishing-businesses/",
+          "source_type": "institutional",
+          "supports": "Longstanding listing for Dale Bestwina and dbestguide.com."
+        },
+        {
+          "source_name": "Texoma Connect — Lake Texoma Fishing Guides",
+          "source_url": "https://texomaconnect.com/lake-texoma-fishing-guides/",
+          "source_type": "secondary",
+          "supports": "Dale Bestwina Guide Service name, Lighthouse location and longstanding Lake Texoma striper-guide description."
+        },
+        {
+          "source_name": "Texas Fishing Guides — Lake Texoma",
+          "source_url": "https://www.texasguidefishing.com/lake-texoma/",
+          "source_type": "secondary",
+          "supports": "Longstanding Lake Texoma striper-guide specialization and historical guide-service information."
         }
       ],
       "last_checked": "2026-08-08",
