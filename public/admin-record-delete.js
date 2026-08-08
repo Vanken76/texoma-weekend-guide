@@ -42,7 +42,7 @@
         }
 
         const defaultValue = key === "related_geography"
-          ? '[\n  {\n    "slug": "texas",\n    "name": "Texas",\n    "entity_type": "state",\n    "relationship_note": "Lake Texoma spans the Texas-Oklahoma border."\n  }\n]'
+          ? '[\n  {\n    "slug": "",\n    "name": "",\n    "entity_type": "",\n    "relationship_note": ""\n  }\n]'
           : "[]";
         const raw = prompt("Enter the initial value as valid JSON:", defaultValue);
         if (raw === null) return;
