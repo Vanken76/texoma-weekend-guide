@@ -20,6 +20,17 @@
         !(status instanceof HTMLElement) || !(statusDetails instanceof HTMLUListElement) ||
         !(fieldsWrap instanceof HTMLElement) || !(saveButton instanceof HTMLButtonElement)) return false;
 
+    const setStatus = (message, details = [], ok = false) => {
+      status.textContent = message;
+      status.className = ok ? "success" : "error";
+      statusDetails.replaceChildren();
+      for (const detail of details) {
+        const li = document.createElement("li");
+        li.textContent = detail;
+        statusDetails.appendChild(li);
+      }
+    };
+
     if (!document.querySelector("#add-record-property")) {
       const addPropertyButton = document.createElement("button");
       addPropertyButton.id = "add-record-property";
@@ -28,10 +39,71 @@
       addPropertyButton.className = "secondary";
       actions.insertBefore(addPropertyButton, saveButton);
 
+      const panel = document.createElement("section");
+      panel.id = "add-property-panel";
+      panel.hidden = true;
+      panel.style.margin = "1rem 0";
+      panel.style.padding = "1rem";
+      panel.style.border = "1px solid rgba(255,255,255,.18)";
+      panel.style.borderRadius = ".8rem";
+      panel.style.background = "rgba(255,255,255,.04)";
+      panel.innerHTML = `
+        <h3 style="margin-top:0">Add property</h3>
+        <p class="helper">This stays open if you switch tabs or apps, so you can copy the property name and JSON value separately.</p>
+        <label for="new-property-name">Property name</label>
+        <input id="new-property-name" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="Example: related_geography" />
+        <label for="new-property-value">Property value (valid JSON)</label>
+        <textarea id="new-property-value" spellcheck="false" rows="10" placeholder='Example: [{"slug":"texas","name":"Texas"}]'></textarea>
+        <div style="display:flex;flex-wrap:wrap;gap:.75rem;margin-top:.8rem">
+          <button id="apply-new-property" type="button">Add to Record</button>
+          <button id="cancel-new-property" class="secondary" type="button">Cancel</button>
+        </div>
+      `;
+      actions.parentElement?.insertBefore(panel, actions);
+
+      const nameInput = panel.querySelector("#new-property-name");
+      const valueInput = panel.querySelector("#new-property-value");
+      const applyButton = panel.querySelector("#apply-new-property");
+      const cancelButton = panel.querySelector("#cancel-new-property");
+
+      const resetPanel = () => {
+        if (nameInput instanceof HTMLInputElement) nameInput.value = "";
+        if (valueInput instanceof HTMLTextAreaElement) valueInput.value = "";
+      };
+
       addPropertyButton.addEventListener("click", () => {
         if (recordPanel.hidden) return;
-        const key = prompt("Property name to add (example: related_geography):")?.trim() || "";
-        if (!key) return;
+        panel.hidden = !panel.hidden;
+        if (!panel.hidden && nameInput instanceof HTMLInputElement) nameInput.focus();
+      });
+
+      nameInput?.addEventListener("input", () => {
+        if (!(nameInput instanceof HTMLInputElement) || !(valueInput instanceof HTMLTextAreaElement)) return;
+        if (nameInput.value.trim() === "related_geography" && !valueInput.value.trim()) {
+          valueInput.value = JSON.stringify([
+            {
+              slug: "",
+              name: "",
+              entity_type: "",
+              relationship_note: ""
+            }
+          ], null, 2);
+        }
+      });
+
+      cancelButton?.addEventListener("click", () => {
+        resetPanel();
+        panel.hidden = true;
+      });
+
+      applyButton?.addEventListener("click", () => {
+        if (!(nameInput instanceof HTMLInputElement) || !(valueInput instanceof HTMLTextAreaElement)) return;
+        const key = nameInput.value.trim();
+        if (!key) {
+          setStatus("Enter a property name.");
+          nameInput.focus();
+          return;
+        }
         if (!/^[A-Za-z_][A-Za-z0-9_]*$/.test(key)) {
           setStatus("Property name must use letters, numbers, and underscores and cannot start with a number.");
           return;
@@ -41,17 +113,12 @@
           return;
         }
 
-        const defaultValue = key === "related_geography"
-          ? '[\n  {\n    "slug": "",\n    "name": "",\n    "entity_type": "",\n    "relationship_note": ""\n  }\n]'
-          : "[]";
-        const raw = prompt("Enter the initial value as valid JSON:", defaultValue);
-        if (raw === null) return;
-
         let parsed;
         try {
-          parsed = JSON.parse(raw);
+          parsed = JSON.parse(valueInput.value || "null");
         } catch {
           setStatus("The new property value must be valid JSON.");
+          valueInput.focus();
           return;
         }
 
@@ -71,6 +138,8 @@
         group.append(label, textarea);
         fieldsWrap.appendChild(group);
         saveButton.disabled = false;
+        resetPanel();
+        panel.hidden = true;
         setStatus(`${key} added to the loaded record. Review the new field, then click Validate & Save.`, [], true);
         group.scrollIntoView({ behavior: "smooth", block: "center" });
       });
@@ -90,17 +159,6 @@
     deleteButton.style.padding = ".72rem 1rem";
     deleteButton.style.fontWeight = "800";
     actions.appendChild(deleteButton);
-
-    const setStatus = (message, details = [], ok = false) => {
-      status.textContent = message;
-      status.className = ok ? "success" : "error";
-      statusDetails.replaceChildren();
-      for (const detail of details) {
-        const li = document.createElement("li");
-        li.textContent = detail;
-        statusDetails.appendChild(li);
-      }
-    };
 
     const loadedSlug = () => {
       const slugControl = document.querySelector('#fields [data-key="slug"], #fields [data-key="event_slug"]');
