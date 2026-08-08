@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 623,
-  "publish_ready_count": 287,
+  "business_count": 624,
+  "publish_ready_count": 288,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -34410,6 +34410,159 @@
           "source_url": "https://boatplanet.com/ok/pauls-valley/fishing-guides",
           "source_type": "secondary",
           "supports": "Lake Texoma striper-guide description, traditional furnished-equipment details, up-to-eight-person capacity and larger-group accommodation."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "north-texas-guide-service",
+      "business_name": "North Texas Guide Service",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Lighthouse Marina, 300 Lighthouse Drive, Pottsboro, TX 75076 — independent professional fishing guide service operated by Jodey Whitmire on Lake Texoma",
+      "primary_category": "Fishing Guide",
+      "category": [
+        "Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Fishing Guide",
+        "Lake Texoma Fishing",
+        "Guided Fishing Trips",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "North Texas Guide Service",
+        "Jodey Whitmire",
+        "Lake Texoma",
+        "Lighthouse Resort & Marina",
+        "Lighthouse Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Texoma Fishing",
+        "Guided Fishing",
+        "Professional Fishing Guide",
+        "Outdoor Recreation"
+      ],
+      "description": "North Texas Guide Service is an independent professional Lake Texoma fishing-guide operation associated with guide Jodey Whitmire and operating from Lighthouse Marina in Pottsboro, Texas. Lighthouse Resort & Marina currently lists Whitmire among its independent professional guides, while the Oklahoma Department of Wildlife Conservation currently lists North Texas Guide Service with the same 903-271-1559 phone number for Lake Texoma. The Lighthouse guide program is promoted primarily for visitors seeking experienced guides familiar with current Lake Texoma fishing conditions.",
+      "short_description": "Jodey Whitmire's independent Lake Texoma fishing guide service operating from Lighthouse Marina in Pottsboro.",
+      "why_visit": "North Texas Guide Service offers visitors a way to fish Lake Texoma with an experienced local guide operating directly from Lighthouse Marina, particularly convenient for Lighthouse guests and visitors who want professional help locating fish on a large and constantly changing lake.",
+      "why_its_unique": "Jodey Whitmire is currently listed directly by Lighthouse Resort & Marina, while Oklahoma's current licensed-guide directory identifies North Texas Guide Service with Whitmire's exact published phone number. That provides unusually strong independent verification linking the guide, business and Lake Texoma operation.",
+      "address": "300 Lighthouse Drive",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "address_note": "300 Lighthouse Drive is the Lighthouse Resort & Marina operating and departure location. It should not be interpreted as Jodey Whitmire's personal or mailing address.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-271-1559",
+      "email": "jodeywhitmire@gmail.com",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "website_note": "An older Texas A&M AgriLife fishing-business directory associates northtexasguideservice.net with a North Texas Guide Service listing. Lighthouse Resort & Marina currently publishes no website for Jodey Whitmire, and the old domain was not sufficiently verified as his current official site, so TWG is leaving the website field null.",
+      "hours": null,
+      "hours_note": "Fishing trips operate by reservation rather than conventional storefront hours. Contact Jodey directly for current availability, departure times and trip details.",
+      "price_range": null,
+      "pricing_note": "No current first-party pricing was located during the August 8, 2026 research pass. Contact North Texas Guide Service directly for current rates.",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "guide": {
+        "name": "Jodey Whitmire",
+        "current_lighthouse_verification": "Lighthouse Resort & Marina currently lists Jodey Whitmire as an independent professional guide operating from Lighthouse Marina.",
+        "current_license_verification": "The Oklahoma Department of Wildlife Conservation currently lists North Texas Guide Service at 903-271-1559 for Lake Texoma. This phone number exactly matches the current Lighthouse listing for Jodey Whitmire."
+      },
+      "waters_guided": [
+        "Lake Texoma"
+      ],
+      "target_species": [],
+      "target_species_note": "Lighthouse promotes its professional guide program heavily around Lake Texoma striped-bass fishing, but Jodey Whitmire's exact current species offerings were not separately published in a current first-party profile. TWG therefore is not limiting or expanding his target-species list without direct verification.",
+      "services": [
+        "Professional fishing guide service",
+        "Lake Texoma guided fishing trips",
+        "Private fishing outings",
+        "Fishing charter service"
+      ],
+      "good_to_know": [
+        "North Texas Guide Service is associated with Jodey Whitmire through an exact phone-number match between Lighthouse Resort & Marina and the Oklahoma Department of Wildlife Conservation.",
+        "Lighthouse currently publishes Jodey Whitmire's phone as 903-271-1559.",
+        "Lighthouse currently publishes jodeywhitmire@gmail.com as his contact email.",
+        "Lighthouse currently lists Jodey as an independent professional fishing guide operating from Lighthouse Marina.",
+        "The Oklahoma Department of Wildlife Conservation currently lists North Texas Guide Service at 903-271-1559 for Lake Texoma.",
+        "Oklahoma requires an annual fishing-guide license for people who commercially assist, accompany, transport, guide or aid anglers in taking fish.",
+        "Lighthouse does not currently publish a website for Jodey Whitmire.",
+        "An older institutional directory associates northtexasguideservice.net with North Texas Guide Service, but the domain was not sufficiently verified as Jodey's current official website.",
+        "Current trip prices, boat specifications, group capacity, trip duration, bait or lure method, equipment inclusions and fish-cleaning policies were not found in reliable current first-party material.",
+        "Lighthouse Resort & Marina explicitly states that its listed guides are separate entities and are not directly affiliated with Lighthouse Resort or Texoma Destinations.",
+        "Fishing licenses, limits and regulations can change. Anglers should verify current Lake Texoma, Texas and Oklahoma requirements before fishing."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "lighthouse-resort-marina",
+        "business_name": "Lighthouse Resort & Marina",
+        "relationship_note": "North Texas Guide Service, operated by Jodey Whitmire, operates out of Lighthouse Marina as an independent professional fishing-guide business."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "North Texas Guide Service operates from Lighthouse Marina near Pottsboro, Texas, and guides fishing trips on Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 using the current Lighthouse Resort & Marina professional-guide directory, current Texoma Destinations guide directory, current Oklahoma Department of Wildlife Conservation known licensed fishing-guide directory, Texas A&M AgriLife Nature Tourism Development fishing-business directory and current marine-business directories. Lighthouse currently identifies Jodey Whitmire as an independent professional fishing guide operating from Lighthouse Marina and publishes 903-271-1559 and jodeywhitmire@gmail.com. The Oklahoma Department of Wildlife Conservation independently lists North Texas Guide Service at the exact same 903-271-1559 number for Lake Texoma, providing strong evidence that North Texas Guide Service is Whitmire's guide-service business name. Lighthouse currently publishes no website for Whitmire. An older institutional directory associates northtexasguideservice.net with North Texas Guide Service, but that domain was not sufficiently verified as Whitmire's current official website and therefore is not being published as a current website. Current pricing, vessel information, capacity, fishing method and trip inclusions were not independently verified and have deliberately been omitted.",
+      "sources": [
+        {
+          "source_name": "Lighthouse Resort & Marina — Professional Guide Service",
+          "source_url": "https://lighthouseresort.com/professional-guide-service/",
+          "source_type": "official",
+          "supports": "Current Jodey Whitmire Lighthouse Marina relationship, phone, email and independent-business status."
+        },
+        {
+          "source_name": "Texoma Destinations — Things to Do",
+          "source_url": "https://texomadestinations.com/things-to-do",
+          "source_type": "official",
+          "supports": "Current Jodey Whitmire guide listing, phone, email and Lighthouse guide-program relationship."
+        },
+        {
+          "source_name": "Oklahoma Department of Wildlife Conservation — Fishing Guides",
+          "source_url": "https://wildlifedepartment.com/fishing/fishing-guides",
+          "source_type": "government",
+          "supports": "Current known licensed-guide listing for North Texas Guide Service, 903-271-1559 and Lake Texoma."
+        },
+        {
+          "source_name": "Texas A&M AgriLife — Nature Tourism Development Fishing Businesses",
+          "source_url": "https://naturetourism.tamu.edu/fishing-businesses/",
+          "source_type": "institutional",
+          "supports": "Historical North Texas Guide Service business listing and historical northtexasguideservice.net association."
+        },
+        {
+          "source_name": "Boat Planet — North Texas Guide Service",
+          "source_url": "https://boatplanet.com/pro/north-texas-guide-service",
+          "source_type": "secondary",
+          "supports": "North Texas Guide Service as a Pottsboro fishing-charter business."
         }
       ],
       "last_checked": "2026-08-08",
