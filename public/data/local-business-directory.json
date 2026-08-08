@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 617,
-  "publish_ready_count": 281,
+  "business_count": 618,
+  "publish_ready_count": 282,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -32802,6 +32802,448 @@
           "source_url": "https://texomadestinations.com/lighthouse-marina",
           "source_type": "official",
           "supports": "General store inventory, fuel dock, slips, HydroHoist rentals, Big Water operations and current marina offerings."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "fastrac-charters-cruises",
+      "business_name": "Fastrac Charters & Cruises",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "300 Lighthouse Drive, Suite B, Pottsboro, TX 75076 — based at the Lighthouse Marina Charter Dock and providing cruise, charter, tour and water-taxi service across Lake Texoma",
+      "primary_category": "Cruise & Charter Service",
+      "category": [
+        "Cruise & Charter Service",
+        "Boat Tour",
+        "Private Charter",
+        "Water Taxi",
+        "Outdoor Recreation",
+        "Event Venue"
+      ],
+      "categories": [
+        "Cruise & Charter Service",
+        "Sightseeing Cruises",
+        "Boat Tours",
+        "Dinner Cruises",
+        "Sunset Cruises",
+        "Private Charters",
+        "Water Taxi",
+        "Lake Tours",
+        "Specialty Cruises",
+        "Corporate Events",
+        "Wedding & Reception Cruises",
+        "Outdoor Recreation",
+        "Lake Texoma Experience"
+      ],
+      "tags": [
+        "Fastrac Charters & Cruises",
+        "Fastrac Cruises",
+        "Lake Texoma",
+        "Lighthouse Resort & Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Boat Cruise",
+        "Lake Cruise",
+        "Boat Tour",
+        "Sightseeing",
+        "Lake Tour",
+        "Dinner Cruise",
+        "Sunset Cruise",
+        "Private Charter",
+        "Water Taxi",
+        "Murder Mystery Cruise",
+        "Eagle Watching",
+        "Family Cruise",
+        "Discovering Texie",
+        "Sights and Sips",
+        "Romantic Cruise",
+        "Lake Day",
+        "Private Beach",
+        "Corporate Events",
+        "Wedding Cruise",
+        "Reception Cruise",
+        "Bachelor Party",
+        "Bachelorette Party",
+        "Family Reunion",
+        "Team Building",
+        "BYOB",
+        "Island Girl",
+        "Sight-Sea-Er II",
+        "Last Call",
+        "Mellow Yellow",
+        "Jolt"
+      ],
+      "description": "Fastrac Charters & Cruises is a Lake Texoma cruise, charter, sightseeing-tour and water-taxi company based at the Lighthouse Marina Charter Dock in Pottsboro, Texas. Fastrac offers scheduled public cruises, private charters, narrated lake tours, dinner and sunset cruises, specialty and seasonal cruises, romantic experiences, lake-day and swimming excursions, custom boat rides and point-to-point transportation around Lake Texoma. Its fleet accommodates everything from couples and small families to large private groups, weddings, receptions, company parties and other special events.",
+      "short_description": "Lake Texoma cruise and charter company offering public cruises, private charters, sightseeing tours, dinner cruises, specialty experiences and lake-wide water-taxi service.",
+      "why_visit": "Fastrac gives visitors a way to experience Lake Texoma without owning or renting a boat themselves. Guests can book anything from an inexpensive sightseeing tour or family cruise to dinner at sunset, a private beach trip, romantic yacht experience or full private charter with captain and crew.",
+      "why_its_unique": "Few Lake Texoma businesses cover as many different on-water experiences under one operation. Fastrac combines regularly scheduled public cruises, large and small private-charter vessels, catered event cruises, narrated tours, swimming and beach excursions and a point-to-point water taxi capable of moving guests among marinas, restaurants, islands and other destinations around the lake.",
+      "address": "300 Lighthouse Drive, Suite B",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-361-0775",
+      "charter_showing_phone": "903-200-1408",
+      "email": null,
+      "website": "https://fastrac.com/",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/fastraccruises/",
+      "youtube": null,
+      "tiktok": null,
+      "hours": null,
+      "hours_note": "Fastrac operates according to scheduled cruise departures, private-charter reservations and water-taxi demand rather than standard storefront hours. Cruise schedules change seasonally and are updated through the official booking calendar.",
+      "price_range": "$$–$$$$",
+      "pricing_note": "Pricing varies substantially by cruise, tour and private-charter product. Current prices shown below were verified August 8, 2026 and should be reconfirmed before booking.",
+      "current_price_snapshot": {
+        "discovering_texie_cruise": "$19.44 per person",
+        "sights_and_sips": {
+          "adult": "$49",
+          "child_12_and_under": "$39"
+        },
+        "ticketed_lake_tour": "$30 per person",
+        "private_lake_tour_mellow_yellow": "$200 for up to 6 passengers, then $20 per person for passengers 7–18",
+        "private_lake_tour_sight_sea_er": "$450 for up to 12 passengers, then $20 per person for passengers 13–36",
+        "dinner_cruise": {
+          "adult": "$60",
+          "child_3_to_12": "$40"
+        },
+        "murder_mystery_cruise": "$79 per adult",
+        "eagle_watching_breakfast_cruise": "$59 per person; children 3 and under currently free",
+        "private_boat_ride": "$150 per hour for up to 6 passengers; $20 per additional passenger for 7–18 passengers",
+        "sight_sea_er_ii_private_charter": "Starts at $350 per hour",
+        "island_girl_private_charter": "Starts at $500 per hour",
+        "last_call_private_charter": "$900 for two hours for up to 6 passengers; $50 per additional passenger for 7–10 passengers",
+        "last_call_romantic_cruise": "$450 for two hours for 2 passengers",
+        "water_taxi_highport_to_islands": "$25 per person each way",
+        "water_taxi_anywhere_on_lake": "$100 per hour for up to 6 passengers",
+        "water_taxi_night_surcharge": "$20 per trip",
+        "water_taxi_holiday_surcharge": "$5 per person on designated major holiday weekends"
+      },
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "at_a_glance": {
+        "average_visit": "Approximately 1.5 hours to full-day experience depending on cruise or charter",
+        "price_range": "$$–$$$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": true,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true,
+        "reservations_recommended": true,
+        "free_wifi": null,
+        "boat_parking": true,
+        "rv_parking": true,
+        "waterfront": true,
+        "lake_view": true
+      },
+      "services": [
+        "Public ticketed cruises",
+        "Private boat charters",
+        "Sightseeing cruises",
+        "Narrated Lake Texoma tours",
+        "Dinner cruises",
+        "Sunset cruises",
+        "Sights & Sips cruises",
+        "Eagle-watching cruises",
+        "Murder mystery cruises",
+        "Family cruises",
+        "Discovering Texie cruises",
+        "Seasonal specialty cruises",
+        "Romantic private cruises",
+        "Private yacht experiences",
+        "Lake-day experiences",
+        "Private beach excursions",
+        "Swimming excursions",
+        "Custom boat rides",
+        "Water taxi service",
+        "Point-to-point lake transportation",
+        "Wedding cruises",
+        "Wedding reception cruises",
+        "Corporate events",
+        "Company parties",
+        "Team-building events",
+        "Reunions",
+        "Bachelor parties",
+        "Bachelorette parties",
+        "Private group events",
+        "Catered cruises"
+      ],
+      "current_fleet_highlights": [
+        {
+          "name": "Island Girl",
+          "type": "Large excursion and dinner vessel",
+          "private_charter_capacity": "Up to 70 passengers",
+          "features": [
+            "Indoor and outdoor seating",
+            "Climate-controlled space",
+            "Bar area",
+            "Restrooms",
+            "Event and reception setup",
+            "Full catering menu available"
+          ]
+        },
+        {
+          "name": "Sight-Sea-Er II",
+          "type": "55-foot Trident Tritoon",
+          "private_charter_capacity": "Up to 37 passengers",
+          "features": [
+            "Climate-controlled cabin",
+            "Small galley",
+            "Restroom",
+            "Front and rear deck space",
+            "Swimming and beach excursions",
+            "Indoor and outdoor seating"
+          ]
+        },
+        {
+          "name": "Last Call",
+          "type": "55-foot private yacht",
+          "private_charter_capacity": "Up to 10 passengers under current private-charter pricing",
+          "features": [
+            "Climate-controlled interior",
+            "Indoor and outdoor seating",
+            "Galley",
+            "Restroom",
+            "Sound system",
+            "Upscale catered experiences"
+          ]
+        },
+        {
+          "name": "Mellow Yellow",
+          "type": "Covered tour and water-taxi vessel",
+          "features": [
+            "Lake tours",
+            "Water taxi",
+            "Private boat rides",
+            "Large-group transportation"
+          ]
+        },
+        {
+          "name": "Jolt",
+          "type": "Water-taxi vessel",
+          "features": [
+            "Point-to-point Lake Texoma transportation",
+            "Small-group service"
+          ]
+        }
+      ],
+      "popular_public_and_specialty_cruises": [
+        "Discovering Texie Cruise",
+        "Sights & Sips Cruise",
+        "Lake Tour Experience",
+        "Dinner Cruise Experience",
+        "Sunset Cruise Experience",
+        "Murder Mystery Cruise",
+        "Eagle Watching Breakfast Cruise",
+        "Mother's Day Brunch Cruise",
+        "Cupid's Arrow Dinner Cruise"
+      ],
+      "private_experiences": [
+        "Island Girl private charter",
+        "Sight-Sea-Er II private charter",
+        "Last Call private charter",
+        "Last Call Romantic Cruise",
+        "Lake Day Experience",
+        "Private Lake Tour",
+        "Private Murder Mystery Cruise",
+        "Custom Boat Ride"
+      ],
+      "water_taxi_destinations": [
+        "Highport Marina",
+        "The Islands",
+        "Island Bar & Grill",
+        "Pelican's Landing at Cedar Mills",
+        "Marina Del Rey",
+        "Flowing Wells Marina",
+        "Burns Run areas",
+        "Grandpappy Point",
+        "Island View Day Use Area",
+        "Lighthouse Resort & Marina",
+        "Buncombe Creek Marina",
+        "Alberta Creek Marina",
+        "Treasure Island",
+        "Wood Island",
+        "Other Lake Texoma destinations by arrangement"
+      ],
+      "additional_departure_locations": [
+        "Highport Marina for selected private boat-ride experiences",
+        "Other Lake Texoma pickup locations may be available for an additional fee"
+      ],
+      "amenities": [
+        "U.S. Coast Guard captain on applicable private charters",
+        "Crew on larger private charters",
+        "Fuel included with applicable private-charter pricing",
+        "Climate-controlled vessels available",
+        "Restrooms available on larger vessels",
+        "Indoor and outdoor seating on selected vessels",
+        "Catering available",
+        "BYOB adult beverages on many cruises",
+        "Soda, tea and water on many experiences",
+        "Private beach access on selected experiences",
+        "Swimming available on selected vessels and excursions",
+        "Online reservations",
+        "Lake-wide water taxi"
+      ],
+      "good_to_know": [
+        "Fastrac Charters & Cruises is based at the Lighthouse Marina Charter Dock at 300 Lighthouse Drive in Pottsboro.",
+        "Most scheduled public cruises depart from Lighthouse Marina.",
+        "Guests are generally asked to arrive about 15 minutes before departure for pre-boarding.",
+        "Selected private boat rides may also depart from Highport Marina.",
+        "Pickup at other Lake Texoma locations may be available for an additional charge.",
+        "Cruise and charter schedules vary seasonally and should be checked before planning a trip.",
+        "Many Fastrac cruises are BYOB for adult beverages; alcohol policies vary by experience.",
+        "Public-cruise pet policies differ from private experiences. The current Lake Tour does not allow pets on public cruises, while pets may be allowed on some private charters and private water-taxi trips.",
+        "Some cruises are designed for families, while others such as the Murder Mystery Cruise and Cupid's Arrow Dinner Cruise are currently adults-only.",
+        "Ticketed-cruise cancellation policy currently requires at least 72 hours' notice to avoid forfeiting payment.",
+        "Private-charter cancellations currently require at least 14 days' notice to avoid penalty.",
+        "Cruises generally operate rain or shine but may be cancelled by Fastrac because of unsafe weather or insufficient attendance.",
+        "Public cruises require minimum passenger counts.",
+        "Current pricing and vessel availability can change and should be confirmed through the official booking system.",
+        "Fastrac's water taxi provides point-to-point transportation around Lake Texoma.",
+        "Water-taxi and charter services can connect visitors with marinas, restaurants, islands, concerts and other lake destinations.",
+        "Large vessels can accommodate weddings, receptions, company parties, reunions and other private events."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Dinner cruises",
+        "Sunset cruises",
+        "Sightseeing cruises",
+        "Lake tours",
+        "Murder mystery cruises",
+        "Eagle-watching cruises",
+        "Family cruises",
+        "Discovering Texie cruises",
+        "Mother's Day cruises",
+        "Valentine's cruises",
+        "Specialty cruises",
+        "Seasonal cruises",
+        "Private charters",
+        "Wedding cruises",
+        "Wedding receptions",
+        "Corporate events",
+        "Company parties",
+        "Team-building events",
+        "Bachelor parties",
+        "Bachelorette parties",
+        "Reunions",
+        "Birthday celebrations",
+        "Anniversary events"
+      ],
+      "event_sources": [
+        "https://fastrac.com/",
+        "https://fastrac.com/cruises/",
+        "https://texomadestinations.com/properties/fastrac",
+        "https://reserve.texomadestinations.com/"
+      ],
+      "parent_business": {
+        "slug": "lighthouse-resort-marina",
+        "business_name": "Lighthouse Resort & Marina",
+        "relationship_note": "Fastrac Charters & Cruises is based at and primarily departs from the Lighthouse Marina Charter Dock."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Fastrac Charters & Cruises is based in Pottsboro, Texas."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 through the current official Fastrac Charters & Cruises website, individual current cruise and charter pages, official Texoma Destinations property information and the current booking system. Official sources confirm the business name, 300 Lighthouse Drive Suite B address, 903-361-0775 phone number, primary Lighthouse Marina Charter Dock departure point, Instagram account @fastraccruises, public cruises, private charters, Lake Texoma tours, specialty cruises, lake-day experiences, water-taxi service and current fleet offerings. Current official pages also confirm present published prices for selected experiences, vessel capacities and private-charter starting rates. Prices, schedules and fleet assignments are time-sensitive and should be reconfirmed before booking. No current official Facebook URL or general public email address was confidently verified during this research pass.",
+      "sources": [
+        {
+          "source_name": "Fastrac Charters & Cruises",
+          "source_url": "https://fastrac.com/",
+          "source_type": "official",
+          "supports": "Business identity, primary contact information, Lighthouse Marina location, cruise and charter categories and official Instagram."
+        },
+        {
+          "source_name": "Fastrac — Lake Tour Experience",
+          "source_url": "https://fastrac.com/cruises/lake-tour-experience/",
+          "source_type": "official",
+          "supports": "Narrated Lake Texoma tours, Lighthouse departure point, current public and private tour pricing, pet policy and tour features."
+        },
+        {
+          "source_name": "Fastrac — Dinner Cruise Experience",
+          "source_url": "https://fastrac.com/cruises/dinner-cruise-experience/",
+          "source_type": "official",
+          "supports": "Dinner cruise format, duration, Lighthouse departure point, current pricing, catering and BYOB policy."
+        },
+        {
+          "source_name": "Fastrac — Water Taxi Service",
+          "source_url": "https://fastrac.com/cruises/water-taxi/",
+          "source_type": "official",
+          "supports": "Lake-wide water taxi, destinations, current pricing, nighttime and holiday surcharges and private-trip pet policy."
+        },
+        {
+          "source_name": "Fastrac — Boat Ride Experience",
+          "source_url": "https://fastrac.com/cruises/boat-ride/",
+          "source_type": "official",
+          "supports": "Private custom boat rides, Lighthouse and Highport departure options, sightseeing, swimming, Island trips and current pricing."
+        },
+        {
+          "source_name": "Fastrac — Sight-Sea-Er II",
+          "source_url": "https://fastrac.com/cruises/sight-sea-er/",
+          "source_type": "official",
+          "supports": "Vessel size, capacity, climate control, galley, restroom, swimming capability and current private-charter starting price."
+        },
+        {
+          "source_name": "Fastrac — Island Girl",
+          "source_url": "https://fastrac.com/cruises/island-girl/",
+          "source_type": "official",
+          "supports": "Large-group charters, events, current private-charter maximum, catering, vessel amenities and current starting price."
+        },
+        {
+          "source_name": "Fastrac — Last Call Private Charter",
+          "source_url": "https://fastrac.com/cruises/last-call-private/",
+          "source_type": "official",
+          "supports": "55-foot yacht, small-group private charters, catering, amenities and current pricing."
+        },
+        {
+          "source_name": "Fastrac — Murder Mystery Cruise",
+          "source_url": "https://fastrac.com/cruises/murder-mystery-cruise",
+          "source_type": "official",
+          "supports": "Recurring murder-mystery experiences, Lighthouse departure, adult-only policy, dinner and current price."
+        },
+        {
+          "source_name": "Fastrac — Eagle Watching Breakfast Cruise",
+          "source_url": "https://fastrac.com/cruises/eagle-watching-breakfast-cruise/",
+          "source_type": "official",
+          "supports": "Winter eagle-watching cruises, breakfast, climate-controlled vessels and current published pricing."
+        },
+        {
+          "source_name": "Texoma Destinations — Fastrac Charters & Cruises",
+          "source_url": "https://texomadestinations.com/properties/fastrac",
+          "source_type": "official",
+          "supports": "Independent confirmation of Fastrac's Lake Texoma public cruises, tours, charters, water taxi and private-event offerings."
+        },
+        {
+          "source_name": "Texoma Destinations — Lighthouse Resort & Marina",
+          "source_url": "https://texomadestinations.com/properties/lighthouse",
+          "source_type": "official",
+          "supports": "Fastrac cruise operation at Lighthouse Resort & Marina and cruise categories available from the property."
         }
       ],
       "last_checked": "2026-08-08",
