@@ -17324,74 +17324,342 @@
     },
     {
       "slug": "mill-creek-resort-and-marina",
-      "business_name": "Mill Creek Resort and Marina",
-      "description": "Mill Creek Resort and Marina is a full-service lakefront marina and resort on Lake Texoma in Pottsboro, Texas. The property offers boat slips, cabin rentals, RV accommodations, fuel services, fishing access, and hosts community events, fundraisers, tournaments, and seasonal activities throughout the year.",
-      "short_description": "Lake Texoma marina and resort offering cabins, RV sites, boat slips, lodging, and community event space.",
-      "website": "https://millcreekresortandmarina.com",
-      "email": "cabins@millcreekresortandmarina.com",
-      "phone": "(903) 786-2227",
-      "facebook": "https://www.facebook.com/millcreekresortandmarina",
-      "instagram": null,
+      "business_name": "Mill Creek Resort & Marina",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "512 Mill Creek Resort Rd, Pottsboro, TX 75076 — full-service Lake Texoma marina and resort near the lake's Islands",
+      "primary_category": "Marina",
+      "category": [
+        "Marina",
+        "Resort",
+        "Cabin Rentals",
+        "Camping",
+        "Boat Storage",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Marina",
+        "Lake Resort",
+        "Cabin Rentals",
+        "Lakefront Lodging",
+        "Boat Slips",
+        "Boat Storage",
+        "Fuel Dock",
+        "Camping",
+        "Fishing",
+        "Outdoor Recreation",
+        "Lake Texoma"
+      ],
+      "tags": [
+        "Mill Creek Resort & Marina",
+        "Mill Creek Marina",
+        "Lake Texoma",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Marina",
+        "Resort",
+        "Boat Slips",
+        "Covered Slips",
+        "Boathouses",
+        "Cabins",
+        "Lake House",
+        "Camping",
+        "Fuel Dock",
+        "Ethanol-Free Fuel",
+        "Diesel",
+        "Pump-Out",
+        "Boat Storage",
+        "Dry Storage",
+        "Mobile Lake Homes",
+        "Boat Ramp",
+        "Fishing Guides",
+        "Striper Fishing",
+        "Striper Express",
+        "Striper Hunter Guide Service",
+        "HydroHoist",
+        "EZ Dock",
+        "The Islands",
+        "Family Friendly"
+      ],
+      "description": "Mill Creek Resort & Marina is a full-service Lake Texoma marina and lakefront resort in Pottsboro, Texas. Located in a protected harbor near Lake Texoma's popular Islands area, Mill Creek offers more than 300 boat slips ranging from 18 to 80 feet, 10-plus boathouses, cabin and lake-house lodging, camping access, a seasonal fuel dock, dry storage, mobile lake homes, boat-lift and dock equipment, fishing access and independent professional fishing-guide operations. The marina serves boaters, anglers, families and overnight visitors looking for a quieter Lake Texoma home base with direct access to the water.",
+      "short_description": "Full-service Lake Texoma marina and resort with 300+ slips, cabins, camping, fuel, storage and professional fishing-guide access.",
+      "why_visit": "Mill Creek combines a protected Lake Texoma harbor with lodging, boat storage, fuel and fishing access in one location. Its position near the Islands makes it especially convenient for boaters, while cabins and other overnight accommodations make it useful as a weekend base for families and fishing groups.",
+      "why_its_unique": "Mill Creek is positioned as the closest marina to Lake Texoma's popular Islands area and combines a relatively quiet protected harbor with slips up to 80 feet, lakefront lodging, a mobile-home community, extensive boat-storage options and two established independent striper-guide operations based at Boathouse #3.",
       "address": "512 Mill Creek Resort Rd",
       "city": "Pottsboro",
       "state": "TX",
       "postal_code": "75076",
       "country": "USA",
-      "hours": {
-        "monday": "Closed",
-        "tuesday": "Closed",
-        "wednesday": "9:00 AM - 5:00 PM",
-        "thursday": "9:00 AM - 5:00 PM",
-        "friday": "9:00 AM - 5:00 PM",
-        "saturday": "9:00 AM - 5:00 PM",
-        "sunday": "9:00 AM - 3:00 PM"
-      },
-      "categories": [
-        "Marina",
-        "Resort",
-        "Campground",
-        "RV Park",
-        "Cabin Rentals",
-        "Boat Rentals",
-        "Event Venue"
-      ],
-      "features": [
-        "Boat Slips",
-        "Cabin Rentals",
-        "RV Sites",
-        "Fuel Dock",
-        "Boat Ramp",
-        "Fishing Access",
-        "Lakefront",
-        "Community Events",
-        "Fundraisers",
-        "Fishing Tournaments",
-        "Private Events"
-      ],
+      "latitude": 33.81903,
+      "longitude": -96.77348,
+      "phone": "903-786-2227",
+      "email": "contact@millcreekresortandmarina.com",
+      "website": "https://www.millcreekresortandmarina.com/",
+      "booking_url": "https://book.millcreekresortandmarina.com/",
+      "facebook": "https://facebook.com/millcreekresortandmarina",
+      "instagram": "https://www.instagram.com/millcreekresortandmarina",
+      "youtube": null,
+      "tiktok": null,
+      "hours": null,
+      "hours_note": "The current official website does not publish universal marina-office hours. Current secondary listings show Tuesday through Sunday 9:00 AM–5:00 PM and Monday closed, but TWG should not hard-code those hours without first-party confirmation. Fuel-dock hours are explicitly seasonal, and winter visitors are advised by the marina to call ahead.",
       "price_range": "$$",
-      "kid_friendly": true,
-      "pet_friendly": true,
-      "wheelchair_accessible": true,
+      "family_friendly": true,
+      "pet_friendly": false,
+      "dog_friendly": false,
+      "pet_policy_note": "Current Mill Creek lodging listings reviewed by TWG state that pets are not allowed. This should not be interpreted as a marina-wide prohibition on pets aboard privately owned boats or within every outdoor portion of the property.",
+      "operator": {
+        "name": "BCB Marina Group LLC",
+        "relationship": "owner/operator",
+        "verification_note": "A federal court record identifies BCB Marina Group d/b/a Mill Creek Resort & Marina. Current BCB Marina Group recruiting material describes the company as owning and operating Mill Creek Resort & Marina, Grandpappy Point Resort & Marina and Little Mineral Resort & Marina."
+      },
+      "marina": {
+        "total_slips": "300+",
+        "boathouses": "10+",
+        "minimum_slip_length": "18 feet",
+        "maximum_slip_length": "80 feet",
+        "powerboat_slips": true,
+        "sailboat_slips": true,
+        "large_slip_golf_cart_access": "Golf-cart access is advertised for 50-, 60- and 80-foot slips.",
+        "water_included": true,
+        "garbage_included": true,
+        "electricity": "Individually metered with a currently published $4 minimum charge."
+      },
+      "current_powerboat_slip_rates": {
+        "18_ft": "$1,500/year",
+        "20_ft": "$1,600/year",
+        "25_ft": "$295/month or $3,245/year",
+        "26_ft": "$310/month or $3,410/year",
+        "28_ft": "$330/month or $3,630/year",
+        "30_ft": "$335/month or $3,685/year",
+        "32_ft": "$395/month or $4,345/year",
+        "40_ft": "$590/month or $6,490/year",
+        "50_ft": "$725/month or $7,975/year",
+        "60_ft": "$875/month or $9,265/year",
+        "65_ft": "$955/month or $10,505/year",
+        "80_ft": "$1,185/month or $13,035/year"
+      },
+      "current_sailboat_slip_rates": {
+        "25_ft": "$215/month or $2,365/year",
+        "26_ft": "$220/month or $2,420/year",
+        "28_ft": "$245/month or $2,695/year",
+        "32_ft": "$315/month or $3,465/year",
+        "40_ft": "$395/month or $4,345/year"
+      },
+      "current_storage_rates": {
+        "mobile_home_lot": "$520/month",
+        "lock_yard": "$50/month",
+        "dry_storage_gravel_floor": "$110/month",
+        "dry_storage_cement_floor": "$140/month"
+      },
+      "rate_note": "Slip, storage and lot rates were published on Mill Creek's official website during TWG's August 8, 2026 verification pass and are time-sensitive. Confirm current pricing and availability directly with the marina.",
+      "boat_lifts_and_docks": {
+        "hydrohoist_dealer": true,
+        "ez_dock_dealer": true,
+        "used_hoist_inventory": true,
+        "note": "Mill Creek currently identifies itself as a certified dealer for HydroHoist Boat Lifts and EZ Dock and says it can supply new or used lift and hoist options for boats and personal watercraft."
+      },
+      "fuel_dock": {
+        "seasonal": true,
+        "ethanol_free_unleaded_plus": true,
+        "diesel": true,
+        "pump_out": true,
+        "fresh_water_fill": true,
+        "ice": true,
+        "snacks": true,
+        "beverages": true,
+        "boating_sundries": true,
+        "dock_assistance": true
+      },
+      "lodging": {
+        "available": true,
+        "current_inventory_summary": "Current booking portal shows six numbered cabins, four Lakeview cabins labeled A through D, and one larger lake-house rental.",
+        "smallest_current_capacity": 2,
+        "largest_current_published_booking_capacity": 14,
+        "check_in": "3:00 PM",
+        "check_out": "12:00 PM",
+        "pets": "Not allowed on the current lodging listings reviewed",
+        "indoor_smoking": "Not allowed",
+        "cancellation_policy": "Current listings reviewed publish a 100% refund up to 14 days before arrival and a 50% refund up to 7 days before arrival.",
+        "booking_note": "Unit layouts and capacities vary significantly. Visitors should review the exact cabin or lake-house listing before booking."
+      },
+      "camping": {
+        "available": true,
+        "current_detail_note": "Mill Creek's current official homepage continues to advertise campsites. Current detailed campsite inventory, hookup configuration and rates are not published on the main first-party site, so TWG should direct visitors to the marina for current camping and RV information."
+      },
+      "mobile_home_community": {
+        "available": true,
+        "sales_listings": true,
+        "lot_rent_published": "$520/month",
+        "note": "Mill Creek maintains a mobile lake-home community inside the resort and currently advertises individual mobile homes for sale."
+      },
+      "amenities": [
+        "300+ boat slips",
+        "10+ boathouses",
+        "Powerboat slips",
+        "Sailboat slips",
+        "Slips up to 80 feet",
+        "Golf-cart access to selected large slips",
+        "Cabin rentals",
+        "Lake-house rental",
+        "Camping",
+        "Mobile lake-home community",
+        "Dry storage",
+        "Lock-yard storage",
+        "Fuel dock",
+        "Ethanol-free Unleaded Plus",
+        "Diesel fuel",
+        "Pump-out station",
+        "Fresh-water fill",
+        "Ice and snacks",
+        "Boating supplies",
+        "Boat ramp",
+        "Fishing access",
+        "Independent fishing guides",
+        "HydroHoist sales",
+        "EZ Dock sales"
+      ],
+      "good_to_know": [
+        "Mill Creek is located directly on Lake Texoma in Pottsboro, Texas.",
+        "The marina currently advertises more than 300 slips and more than 10 boathouses.",
+        "Current slip sizes range from 18 to 80 feet.",
+        "The marina markets itself as the closest Lake Texoma marina to the popular Islands area.",
+        "Water and garbage are currently included with slip rental; electricity is separately metered.",
+        "The fuel dock sells ethanol-free Unleaded Plus and diesel and provides pump-out and fresh-water fill service.",
+        "Fuel-dock hours are seasonal. Winter visitors should call before arriving for fuel.",
+        "The current booking portal shows six numbered cabins, four Lakeview cabins and one larger lake-house rental.",
+        "Current lodging check-in is 3:00 PM and checkout is 12:00 PM.",
+        "Current lodging listings reviewed prohibit pets and indoor smoking.",
+        "Mill Creek maintains a mobile lake-home community and currently advertises homes for sale.",
+        "Mill Creek is a certified HydroHoist and EZ Dock dealer.",
+        "Striper Express currently launches from Mill Creek Marina Boathouse #3.",
+        "Lake Texoma Striper Hunter Guide Service, operated by Capt. Stephen Andre, is currently based at Mill Creek Marina Boathouse #3.",
+        "Some Mill Creek fishing-guide amenity pages contain copied Grandpappy Point disclaimers that conflict with the guides' current first-party location information. TWG should use the guides' current first-party websites for their operating locations.",
+        "Older listings for Island View Boat Rental at Mill Creek appear to be obsolete and should not be treated as a current marina business.",
+        "Uncle B's Grill has ended its Pottsboro operation and is moving to Denison. It should not be represented as a current Mill Creek business.",
+        "Current office hours are not clearly published on Mill Creek's official website.",
+        "Rates, availability and seasonal services should be reconfirmed directly with the marina before travel."
+      ],
       "event_venue": true,
       "recurring_events": true,
       "mine_for_events": true,
       "event_mining_priority": "high",
       "event_types": [
-        "Community Events",
-        "Fundraisers",
-        "Fishing Tournaments",
-        "Boat Shows",
-        "Holiday Celebrations",
-        "Live Music",
-        "Vendor Markets",
-        "Seasonal Events",
-        "Private Events",
-        "Charity Events"
+        "Community fundraisers",
+        "Annual fish fry",
+        "Fishing events",
+        "Marina gatherings",
+        "Seasonal lake events"
       ],
-      "publish_ready": true,
+      "event_sources": [
+        "Official Mill Creek Resort & Marina Facebook page",
+        "Official Mill Creek Resort & Marina Instagram account",
+        "Texoma Connect",
+        "Local organization announcements"
+      ],
+      "parent_business": {
+        "slug": "lake-texoma",
+        "business_name": "Lake Texoma",
+        "relationship_note": "Mill Creek Resort & Marina is located directly on Lake Texoma near Pottsboro, Texas."
+      },
+      "child_businesses": [
+        {
+          "slug": "striper-express",
+          "business_name": "Striper Express",
+          "relationship_note": "Independent Lake Texoma fishing-guide operation currently based at Mill Creek Marina, Boathouse #3."
+        },
+        {
+          "slug": "lake-texoma-striper-hunter-guide-service",
+          "business_name": "Lake Texoma Striper Hunter Guide Service",
+          "relationship_note": "Capt. Stephen Andre's independent fishing-guide service is currently based at Mill Creek Marina, Boathouse #3."
+        }
+      ],
+      "related_businesses": [
+        {
+          "slug": "grandpappy-point-resort-marina-denison",
+          "business_name": "Grandpappy Point Resort & Marina",
+          "relationship_note": "Mill Creek and Grandpappy Point are both Lake Texoma marina properties operated by BCB Marina Group LLC."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Mill Creek Resort & Marina is located in Pottsboro, Texas, on the Texas side of Lake Texoma."
+        }
+      ],
+      "related_events": [],
       "source_verified": true,
-      "verification_note": "Verified through the official Mill Creek Resort and Marina website and official Facebook page. Business name, address, phone number, email, website, Facebook page, and publicly listed office hours were confirmed.",
-      "last_checked": "2026-07-28"
+      "verification_note": "Fully rebuilt and verified August 8, 2026. Current first-party Mill Creek sources confirm the marina's Pottsboro address, 903-786-2227 phone number, contact@millcreekresortandmarina.com email, official Facebook and Instagram links, 300-plus slips, 10-plus boathouses, slip sizes through 80 feet, current slip and storage rates, mobile-home community, HydroHoist and EZ Dock dealership, seasonal fuel dock, ethanol-free Unleaded Plus, diesel, pump-out, fresh-water service and cabin booking system. Current official booking pages confirm lodging inventory and general check-in, checkout, pet, smoking and cancellation policies. BCB Marina Group's current recruitment material and a federal court record identify BCB Marina Group LLC as the owner/operator of Mill Creek Resort & Marina. Current first-party guide sites independently verify Striper Express and Lake Texoma Striper Hunter Guide Service as being based at Mill Creek Marina Boathouse #3 despite stale copied Grandpappy Point disclaimers appearing on Mill Creek's amenity pages. Uncle B's Grill is not included as a current Mill Creek business because its Pottsboro operation has ended and the business has announced a move to Denison. Current detailed camping/RV rates and universal office hours were not available from Mill Creek's first-party site and therefore are not being represented as verified current facts.",
+      "sources": [
+        {
+          "source_name": "Mill Creek Resort & Marina — Official Website",
+          "source_url": "https://www.millcreekresortandmarina.com/",
+          "source_type": "official"
+        },
+        {
+          "source_name": "Mill Creek Resort & Marina — Slips",
+          "source_url": "https://www.millcreekresortandmarina.com/slips",
+          "source_type": "official"
+        },
+        {
+          "source_name": "Mill Creek Resort & Marina — Amenities",
+          "source_url": "https://www.millcreekresortandmarina.com/amenities",
+          "source_type": "official"
+        },
+        {
+          "source_name": "Mill Creek Resort & Marina — Fuel Dock",
+          "source_url": "https://www.millcreekresortandmarina.com/amenities/fuel-dock",
+          "source_type": "official"
+        },
+        {
+          "source_name": "Mill Creek Resort & Marina — Mobile Home Community",
+          "source_url": "https://www.millcreekresortandmarina.com/mobile-home-community",
+          "source_type": "official"
+        },
+        {
+          "source_name": "Mill Creek Resort & Marina — Booking Portal",
+          "source_url": "https://book.millcreekresortandmarina.com/",
+          "source_type": "official"
+        },
+        {
+          "source_name": "Striper Express — Official Website",
+          "source_url": "https://striperexpress.com/",
+          "source_type": "official"
+        },
+        {
+          "source_name": "Striper Express — FAQ / Launch Point",
+          "source_url": "https://striperexpress.com/faq/",
+          "source_type": "official"
+        },
+        {
+          "source_name": "Lake Texoma Striper Hunter Guide Service — Official Website",
+          "source_url": "https://www.laketexomafishingguides.com/",
+          "source_type": "official"
+        },
+        {
+          "source_name": "Lake Texoma Striper Hunter — Contact",
+          "source_url": "https://www.laketexomafishingguides.com/contact/",
+          "source_type": "official"
+        },
+        {
+          "source_name": "Federal Court — In Re Cox",
+          "source_url": "https://law.justia.com/cases/federal/district-courts/texas/txedce/4%3A2021cv00172/204407/178/",
+          "source_type": "legal"
+        },
+        {
+          "source_name": "Uncle B's Grill — Official Facebook Announcement",
+          "source_type": "official_social",
+          "supports": "Confirms the Pottsboro operation has ended and Uncle B's is moving to Denison."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "updated_on": "2026-08-08"
     },
     {
       "slug": "durant-magnolia-farmers-market",
