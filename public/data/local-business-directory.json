@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 632,
-  "publish_ready_count": 296,
+  "business_count": 633,
+  "publish_ready_count": 297,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -37168,6 +37168,229 @@
           "source_url": "https://striperexpress.com/faq/",
           "source_type": "official_related",
           "supports": "Mill Creek Marina operating base, shared contact/cancellation relationship and Striper Express lodging and corporate-group context."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "getn-bent-striper-fishing-guide-service",
+      "business_name": "GET'N BENT STRIPER FISHING GUIDE SERVICE",
+      "directory_status": "complete_limited_public_details",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "512 Mill Creek Rd, Pottsboro, TX 75076 — Lake Texoma striper fishing guide service operating from the Mill Creek Resort & Marina area",
+      "primary_category": "Fishing Guide",
+      "category": [
+        "Fishing Guide",
+        "Striper Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Fishing Guide",
+        "Striped Bass Fishing",
+        "Lake Texoma Fishing",
+        "Fishing Charter",
+        "Guided Fishing Trips",
+        "Family Fishing",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "GET'N BENT STRIPER FISHING GUIDE SERVICE",
+        "Get'n Bent Striper Fishing Guide Service",
+        "Get'n Bent",
+        "Lake Texoma",
+        "Mill Creek Resort & Marina",
+        "Mill Creek Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Striper Guide",
+        "Striped Bass",
+        "Fishing Charter",
+        "Family Fishing",
+        "Beginner Friendly",
+        "Fishing Instruction",
+        "Fish Cleaning"
+      ],
+      "description": "GET'N BENT STRIPER FISHING GUIDE SERVICE is a Lake Texoma striped-bass guide and fishing-charter operation based at 512 Mill Creek Rd in Pottsboro, Texas, in the Mill Creek Resort & Marina area. Current customer feedback consistently identifies the guide as Shane and describes productive guided fishing trips, strong knowledge of Lake Texoma, hands-on fishing advice and a relaxed, personable experience. Reviews indicate that the service works well for beginners, families and multi-generation groups and that cleaned fish can be prepared for guests after the trip.",
+      "short_description": "Lake Texoma striper guide service based at Mill Creek, known for hands-on instruction, family-friendly trips and fish cleaning.",
+      "why_visit": "Get'n Bent appears particularly well suited to visitors who want a straightforward guided Lake Texoma striper trip with an approachable guide. Current customer feedback repeatedly praises Shane's lake knowledge, fishing instruction, friendly personality and ability to keep groups engaged while looking for active fish.",
+      "why_its_unique": "Get'n Bent has a smaller public web footprint than many Lake Texoma guide operations, but its current local-business profile has unusually consistent customer feedback centered on the same guide, Shane, and the same Mill Creek operating location. Reviewers repeatedly mention both productive fishing and hands-on teaching rather than simply transportation to fishing spots.",
+      "address": "512 Mill Creek Rd",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "address_note": "Current local-business data and an independent fishing-charter directory both place GET'N BENT STRIPER FISHING GUIDE SERVICE at 512 Mill Creek Rd. This corresponds to the Mill Creek Resort & Marina operating area, whose formal street address is commonly published as 512 Mill Creek Resort Rd.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-821-3590",
+      "email": null,
+      "website": null,
+      "booking_url": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "twitter": null,
+      "tiktok": null,
+      "online_presence_note": "No current first-party website, confirmed official social-media account or direct online booking page was located during TWG's August 8, 2026 research pass. Do not invent or infer social URLs from similarly named fishing businesses elsewhere in the United States.",
+      "hours": null,
+      "hours_note": "A current local-business profile displays 24-hour availability, but fishing charters normally operate by reservation and trip times vary. TWG should not represent the service as a literal 24-hour walk-in business without direct confirmation.",
+      "price_range": null,
+      "pricing_note": "No current first-party or sufficiently reliable published pricing was located. Call 903-821-3590 for current rates, availability and deposit requirements.",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "guide": {
+        "public_name": "Shane",
+        "surname": null,
+        "role": "Fishing guide / captain",
+        "ownership_status": "not independently verified",
+        "note": "Multiple current customer reviews identify the guide as Shane. TWG did not find reliable evidence establishing his surname or whether he is the legal owner of the business, so neither should be guessed."
+      },
+      "target_species": [
+        "Striped Bass"
+      ],
+      "waters_guided": [
+        "Lake Texoma"
+      ],
+      "primary_specialty": "Lake Texoma striped bass",
+      "fishing_style": {
+        "instruction_available": true,
+        "bait_method": null,
+        "artificial_lure_only": null,
+        "live_bait": null,
+        "trolling": null,
+        "note": "Current customer feedback supports hands-on fishing instruction but does not provide enough reliable information to characterize Get'n Bent as a live-bait, artificial-lure-only or trolling operation."
+      },
+      "trip_duration": null,
+      "trip_duration_note": "No current reliable published standard trip duration was located.",
+      "boat": {
+        "make": null,
+        "model": null,
+        "length": null,
+        "capacity": null,
+        "note": "No sufficiently reliable current boat specifications or passenger-capacity information was located."
+      },
+      "trip_inclusions": [
+        "Professional fishing guide",
+        "Fishing instruction",
+        "Fish cleaning"
+      ],
+      "trip_inclusions_note": "Current customer feedback specifically supports fishing instruction and post-trip fish cleaning. TWG did not find sufficiently reliable published information about whether rods, reels, bait, tackle, drinks or other equipment are universally included, so those details should be confirmed directly.",
+      "guest_should_confirm": [
+        "Current trip price",
+        "Deposit requirements",
+        "Cancellation policy",
+        "Trip duration",
+        "Meeting time",
+        "Exact Mill Creek meeting point",
+        "Maximum party size",
+        "Fishing equipment provided",
+        "Bait or lure method",
+        "Fishing-license requirements",
+        "Weather policy"
+      ],
+      "review_signal": {
+        "current_rating": 5,
+        "current_review_count": 15,
+        "as_of": "2026-08-08",
+        "note": "Ratings and review counts are time-sensitive and should not be treated as permanent business attributes."
+      },
+      "review_themes": [
+        "Knowledgeable Lake Texoma guide",
+        "Productive striper fishing",
+        "Beginner-friendly instruction",
+        "Family and multi-generation trips",
+        "Friendly and relaxed guide personality",
+        "Fishing tips and coaching",
+        "Fish cleaning after the trip",
+        "Repeat-booking intent"
+      ],
+      "guide_license": {
+        "odwc_business_match": false,
+        "odwc_phone_match": false,
+        "odwc_guide_name_match": false,
+        "status": "not_verified_through_odwc_directory",
+        "note": "TWG found no Get'n Bent, 903-821-3590 or Shane match in the Oklahoma Department of Wildlife Conservation's current known licensed fishing-guide directory. The ODWC directory describes itself as a list of known licensed guides; absence from that public list is not proof of unlicensed or improper operation. TWG therefore makes no licensing claim."
+      },
+      "services": [
+        "Lake Texoma fishing-guide service",
+        "Striped-bass fishing trips",
+        "Guided fishing charters",
+        "Fishing instruction",
+        "Beginner fishing trips",
+        "Family fishing trips",
+        "Fish cleaning"
+      ],
+      "good_to_know": [
+        "GET'N BENT STRIPER FISHING GUIDE SERVICE is currently listed at 512 Mill Creek Rd in Pottsboro.",
+        "The current published phone number is 903-821-3590.",
+        "An independent fishing-charter directory also places the operation at 512 Mill Creek Rd.",
+        "Current customer reviews repeatedly identify the guide as Shane.",
+        "Shane's surname was not reliably verified and should not be guessed.",
+        "Current customer feedback describes the operation as a Lake Texoma striper fishing service.",
+        "Reviewers repeatedly praise Shane's knowledge of Lake Texoma and ability to locate fish.",
+        "Fishing tips and beginner instruction are recurring themes in current customer feedback.",
+        "Families and multi-generation groups appear in current customer feedback.",
+        "Customers report that fish are cleaned after the trip.",
+        "The current local-business profile has a 5.0 rating from 15 reviews as of August 8, 2026; ratings and counts can change.",
+        "No current first-party website was located.",
+        "No confidently verified official Facebook, Instagram, YouTube, X/Twitter or TikTok account was located.",
+        "No current email address was verified.",
+        "No reliable current published rates were located.",
+        "No reliable current standard trip length was located.",
+        "Current boat specifications and maximum guest capacity were not verified.",
+        "TWG did not verify whether the service primarily uses live bait, artificial lures or another fishing method.",
+        "TWG found no matching Get'n Bent business name, phone number or guide name in ODWC's current known licensed-guide directory; this should not be interpreted as proof of licensing status.",
+        "Visitors should call 903-821-3590 to confirm rates, meeting point, trip length, equipment, capacity and current availability."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "mill-creek-resort-and-marina",
+        "business_name": "Mill Creek Resort & Marina",
+        "relationship_note": "GET'N BENT STRIPER FISHING GUIDE SERVICE is currently listed at 512 Mill Creek Rd, the Mill Creek Resort & Marina operating location in Pottsboro."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "GET'N BENT STRIPER FISHING GUIDE SERVICE is based in Pottsboro, Texas, and operates on Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified to the extent of currently available public information on August 8, 2026. A current local-business listing identifies GET'N BENT STRIPER FISHING GUIDE SERVICE as an active fishing charter at 512 Mill Creek Rd, Pottsboro, TX 75076, with phone 903-821-3590. The listing currently carries 15 customer reviews and repeatedly identifies the guide as Shane; reviews describe Lake Texoma striper fishing, fishing instruction, family and beginner trips, productive fishing and post-trip fish cleaning. An independent current fishing-charter directory also lists GET'N BENT STRIPER FISHING GUIDE SERVICE at 512 Mill Creek Rd, supporting the Mill Creek Resort & Marina relationship. TWG did not locate a current first-party website, confirmed social-media account, email address, current rate schedule, trip-duration statement, boat specifications, capacity, fishing-method statement or guide surname. The current Oklahoma Department of Wildlife Conservation known licensed-guide directory contains no matching Get'n Bent business name, 903-821-3590 phone number or Shane entry. Because ODWC describes that page as a known-guide list rather than a definitive negative-license database, TWG makes no claim regarding Get'n Bent's licensing status. This record is intentionally lean rather than filling missing details with assumptions.",
+      "sources": [
+        {
+          "source_name": "Current local business listing — GET'N BENT STRIPER FISHING GUIDE SERVICE",
+          "source_type": "current_local_business_profile",
+          "supports": "Current business existence, 512 Mill Creek Rd address, 903-821-3590 phone number, fishing-charter category, customer review signal, guide first name Shane, Lake Texoma fishing, instructional experience and fish cleaning."
+        },
+        {
+          "source_name": "Boating World — Fishing Charters near Mead, Oklahoma",
+          "source_url": "https://www.boatingworld.com/pros/mead-ok/fishing-charters/",
+          "source_type": "secondary",
+          "supports": "Independent listing for GET'N BENT STRIPER FISHING GUIDE SERVICE at 512 Mill Creek Rd, Pottsboro."
+        },
+        {
+          "source_name": "Oklahoma Department of Wildlife Conservation — Fishing Guides",
+          "source_url": "https://www.wildlifedepartment.com/fishing/fishing-guides",
+          "source_type": "government",
+          "supports": "Current known licensed fishing-guide directory checked for business-name, phone-number and guide-name matches; no Get'n Bent, 903-821-3590 or Shane match was found."
         }
       ],
       "last_checked": "2026-08-08",
