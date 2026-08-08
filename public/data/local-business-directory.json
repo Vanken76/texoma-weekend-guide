@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 631,
-  "publish_ready_count": 295,
+  "business_count": 632,
+  "publish_ready_count": 296,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -36905,6 +36905,269 @@
           "source_name": "Striper Express — Guide Team",
           "source_url": "https://striperexpress.com/about-us/",
           "source_type": "official_related"
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "texas-corporate-retreats",
+      "business_name": "Texas Corporate Retreats",
+      "directory_status": "complete_related_brand",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "512 Mill Creek Rd, Pottsboro, TX 75076 — Lake Texoma corporate retreat and team-building service operated in connection with Striper Express Guide Service",
+      "primary_category": "Corporate Retreat Service",
+      "category": [
+        "Corporate Retreat Service",
+        "Corporate Event Service",
+        "Team Building",
+        "Group Experiences",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Corporate Retreat Service",
+        "Corporate Event Planning",
+        "Team Building",
+        "Employee Recognition",
+        "Client Entertainment",
+        "Group Fishing",
+        "Lake Texoma Experiences",
+        "Incentive Travel",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Texas Corporate Retreats",
+        "Striper Express",
+        "Lake Texoma",
+        "Mill Creek",
+        "Mill Creek Marina",
+        "Pottsboro",
+        "Texas",
+        "Corporate Retreat",
+        "Corporate Events",
+        "Team Building",
+        "Employee Recognition",
+        "Client Entertainment",
+        "Vendor Entertainment",
+        "Sales Incentives",
+        "Corporate Fishing",
+        "Striper Fishing",
+        "Group Fishing",
+        "Tournament Fishing",
+        "Lakefront Lodging",
+        "Catered Meals",
+        "Awards",
+        "Corporate Gifts",
+        "Retirement Events",
+        "Group Transportation"
+      ],
+      "description": "Texas Corporate Retreats is a Lake Texoma corporate-event and team-building brand operated in connection with Striper Express Guide Service. Based from the same Pottsboro operation used by Striper Express near Mill Creek Marina, the service builds customized corporate experiences around guided Lake Texoma striper fishing and can coordinate retreat elements such as lodging, meals, tournament-style weigh-ins, awards, team-building activities and other group arrangements. The service is marketed for companies entertaining clients, vendors, employees and colleagues as well as employee-recognition, incentive and retirement experiences.",
+      "short_description": "Lake Texoma corporate-retreat and team-building service from Striper Express, combining guided fishing with customizable lodging, meals and group-event experiences.",
+      "why_visit": "Texas Corporate Retreats gives companies a turnkey alternative to a conventional conference or banquet. Groups can build an outing around guided Lake Texoma fishing while having lodging, meals, competitive fishing activities and other logistics coordinated as part of a customized retreat.",
+      "why_its_unique": "Rather than functioning as a conventional meeting venue, Texas Corporate Retreats uses Lake Texoma and Striper Express's fishing operation as the centerpiece of the corporate experience. The service can combine multi-boat fishing, tournament-style competition, meals, overnight accommodations and recognition activities into one coordinated group package.",
+      "address": "512 Mill Creek Rd",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "address_note": "Texas Corporate Retreats currently publishes 512 Mill Creek Rd as its home-office address. This is the same Lake Texoma operating base used by Striper Express. Mill Creek Resort & Marina's formal street address is generally published as 512 Mill Creek Resort Rd. TWG should treat Texas Corporate Retreats as operating from the Mill Creek/Striper Express base rather than as a separate physical storefront.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-786-4477",
+      "email": "bigfishlaketexoma@gmail.com",
+      "website": "https://texascorporateretreats.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "twitter": null,
+      "tiktok": null,
+      "social_note": "The current Texas Corporate Retreats website displays Facebook and Instagram follow controls, but TWG did not recover sufficiently clear independent Texas Corporate Retreats profile URLs. Because the brand is closely tied to Striper Express, social URLs should not be assumed without direct verification.",
+      "hours": null,
+      "hours_note": "Texas Corporate Retreats operates through advance planning and custom reservations rather than conventional walk-in business hours. Contact the service for availability and proposal planning.",
+      "price_range": null,
+      "pricing_note": "No current public package prices were located on the official Texas Corporate Retreats site during TWG's August 8, 2026 verification pass. Retreats are customized and visitors are directed to request a quote or call 903-786-4477.",
+      "brand_relationship": {
+        "operated_with": "Striper Express Guide Service",
+        "relationship_type": "Distinct public-facing corporate-retreat brand/service line",
+        "official_wording": "The current website explicitly identifies Texas Corporate Retreats as being from Striper Express Guide Service.",
+        "shared_phone": "903-786-4477",
+        "shared_email": "bigfishlaketexoma@gmail.com",
+        "shared_operating_address": "512 Mill Creek Rd, Pottsboro, TX 75076",
+        "booking_relationship": "Current Texas Corporate Retreats booking calls-to-action direct customers into Striper Express booking resources."
+      },
+      "history_note": "Texas Corporate Retreats markets its experience using Striper Express's operating history dating to 1983. TWG should not represent 1983 as the independently verified founding year of the Texas Corporate Retreats brand itself.",
+      "services": [
+        "Custom corporate retreats",
+        "Corporate team-building outings",
+        "Client entertainment",
+        "Vendor entertainment",
+        "Employee recognition outings",
+        "Sales-team incentives",
+        "Retirement outings",
+        "Corporate fishing trips",
+        "Multi-boat guided fishing",
+        "Artificial-lure striped-bass fishing",
+        "Tournament-style fishing events",
+        "Fishing weigh-ins",
+        "Awards presentations",
+        "Lakefront lodging coordination",
+        "Meal and catering coordination",
+        "Group transportation coordination",
+        "Corporate gift certificates",
+        "Customized group-event planning"
+      ],
+      "retreat_components": {
+        "guided_fishing": true,
+        "lodging": true,
+        "meals": true,
+        "team_building": true,
+        "tournament_style_weigh_ins": true,
+        "awards_presentations": true,
+        "transportation_coordination": true,
+        "gift_certificates": true,
+        "custom_packages": true
+      },
+      "fishing_component": {
+        "provided_by": "Striper Express Guide Service",
+        "target_species": [
+          "Striped Bass"
+        ],
+        "fishing_style": "Artificial-lure fishing",
+        "multi_boat_capability": true,
+        "note": "Fishing services are provided through the closely linked Striper Express operation rather than a separately verified Texas Corporate Retreats fishing fleet."
+      },
+      "group_capacity": {
+        "texas_corporate_retreats_site": "Up to 45 people",
+        "striper_express_corporate_fishing_capacity": "Up to 60 people",
+        "note": "The current Texas Corporate Retreats homepage references groups up to 45 people, while Striper Express's current corporate-fishing material says its multi-boat operation can accommodate groups up to 60. TWG should not combine these into a single universal capacity figure."
+      },
+      "target_customers": [
+        "Businesses",
+        "Corporate teams",
+        "Sales teams",
+        "Employees",
+        "Clients",
+        "Customers",
+        "Vendors",
+        "Colleagues",
+        "Executives",
+        "Corporate incentive groups"
+      ],
+      "use_cases": [
+        "Team building",
+        "Employee recognition",
+        "Client appreciation",
+        "Vendor entertainment",
+        "Sales incentives",
+        "Retirement celebrations",
+        "Corporate conferences",
+        "Stakeholder gatherings",
+        "Product-launch incentives",
+        "Trade-show incentives",
+        "Corporate gifting"
+      ],
+      "lodging": {
+        "coordination_available": true,
+        "owned_lodging_verified": false,
+        "note": "Texas Corporate Retreats advertises lakefront lodging as part of retreat experiences, but TWG should not imply that Texas Corporate Retreats owns the lodging. Lodging is coordinated as part of the package."
+      },
+      "meals": {
+        "coordination_available": true,
+        "catered_meals": true,
+        "fish_fry_examples": true,
+        "note": "Current corporate-retreat material promotes meals as part of the experience. Specific menus, caterers and meal packages should be confirmed during proposal planning."
+      },
+      "transportation": {
+        "coordination_available": true,
+        "chartered_bus_possible": true,
+        "note": "Striper Express's current corporate-group material says chartered bus transportation can be arranged for groups."
+      },
+      "booking": {
+        "custom_quote": true,
+        "advance_planning_required": true,
+        "phone": "903-786-4477",
+        "email": "bigfishlaketexoma@gmail.com",
+        "online_contact_form": true
+      },
+      "good_to_know": [
+        "Texas Corporate Retreats maintains its own active website and branding.",
+        "The brand is explicitly connected to Striper Express Guide Service.",
+        "Texas Corporate Retreats and Striper Express currently share the same 903-786-4477 phone number.",
+        "They also share bigfishlaketexoma@gmail.com.",
+        "Texas Corporate Retreats publishes 512 Mill Creek Rd in Pottsboro as its home-office location.",
+        "The operation is based from the same Mill Creek-area Lake Texoma base used by Striper Express.",
+        "Corporate retreat packages are built around Lake Texoma experiences rather than a conventional indoor conference center.",
+        "Guided artificial-lure striper fishing is supplied through Striper Express.",
+        "Retreats can incorporate lodging and meals.",
+        "Tournament-style fishing weigh-ins and awards can be incorporated.",
+        "The service markets team-building, employee-recognition, client-entertainment and incentive experiences.",
+        "Current Texas Corporate Retreats material references groups of up to 45 people.",
+        "Striper Express separately advertises corporate fishing capability for groups up to 60 people.",
+        "No current public package pricing was located; retreats are quote-based.",
+        "The service can coordinate customized group arrangements rather than selling only one fixed package.",
+        "Texas Corporate Retreats uses Striper Express's history dating to 1983, but TWG should not describe the Texas Corporate Retreats brand itself as independently founded in 1983.",
+        "Texas Corporate Retreats is not being treated as a separate physical tenant inside Mill Creek Resort & Marina.",
+        "It is better represented as a distinct corporate-retreat brand related to both Striper Express and the Mill Creek operating base."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "event_note": "Texas Corporate Retreats organizes private corporate experiences and group events but is not itself a public event venue or recurring public-event source.",
+      "parent_business": null,
+      "child_businesses": [],
+      "related_businesses": [
+        {
+          "slug": "striper-express",
+          "business_name": "Striper Express",
+          "relationship_note": "Texas Corporate Retreats is a distinct corporate-retreat brand/service line operated in direct connection with Striper Express Guide Service and shares its Lake Texoma contact information and operating base."
+        },
+        {
+          "slug": "mill-creek-resort-and-marina",
+          "business_name": "Mill Creek Resort & Marina",
+          "relationship_note": "Texas Corporate Retreats operates from the Mill Creek-area Lake Texoma base used by Striper Express at 512 Mill Creek Rd / Mill Creek Resort Rd, but it is not being classified as a separate physical marina tenant."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Texas Corporate Retreats is based in Pottsboro, Texas, and organizes corporate experiences on Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Fully researched August 8, 2026 using the current Texas Corporate Retreats website, current Striper Express corporate-group and charter information, the Texas Corporate Retreats privacy/contact material and current independent web references to the brand. The Texas Corporate Retreats site is active and identifies the operation at 512 Mill Creek Rd, Pottsboro, with 903-786-4477 and bigfishlaketexoma@gmail.com. It explicitly describes itself as Texas Corporate Retreats from Striper Express Guide Service and promotes customized Lake Texoma corporate experiences incorporating guided fishing, lodging, meals, team building, tournament-style weigh-ins, recognition activities and other group arrangements. Striper Express uses the same contact information and states that its corporate fishing operation can provide multi-boat trips, meals, lodging, awards and transportation coordination. Texas Corporate Retreats currently references groups up to 45 people, while Striper Express's broader fishing operation advertises groups up to 60. No current public retreat-package pricing was located, so TWG should describe the service as quote-based. Because Texas Corporate Retreats is an independently branded and searchable service with its own live domain but is explicitly operated in connection with Striper Express, TWG should create a standalone record linked through related_businesses rather than using parent_business. This avoids incorrectly rendering Texas Corporate Retreats as a normal physical tenant or causing Striper Express to display the brand under a misleading Located here heading.",
+      "sources": [
+        {
+          "source_name": "Texas Corporate Retreats — Official Website",
+          "source_url": "https://texascorporateretreats.com/",
+          "source_type": "official",
+          "supports": "Current brand identity, Mill Creek-area address, phone, email, corporate-retreat offerings, lodging and meals, group capacity, team-building uses and explicit Striper Express relationship."
+        },
+        {
+          "source_name": "Texas Corporate Retreats — Privacy and Contact Information",
+          "source_url": "https://texascorporateretreats.com/privacy-policy/",
+          "source_type": "official",
+          "supports": "Current domain identity and repeated 512 Mill Creek Rd, 903-786-4477 and bigfishlaketexoma@gmail.com contact information."
+        },
+        {
+          "source_name": "Striper Express — Rates & Corporate Group Information",
+          "source_url": "https://striperexpress.com/lake-texoma-fishing-guides-prices/",
+          "source_type": "official_related",
+          "supports": "Corporate fishing capability, multi-boat groups, team building, meals, lodging, awards, transportation coordination and shared Texas Corporate Retreats cancellation/contact operation."
+        },
+        {
+          "source_name": "Striper Express — FAQ",
+          "source_url": "https://striperexpress.com/faq/",
+          "source_type": "official_related",
+          "supports": "Mill Creek Marina operating base, shared contact/cancellation relationship and Striper Express lodging and corporate-group context."
         }
       ],
       "last_checked": "2026-08-08",
