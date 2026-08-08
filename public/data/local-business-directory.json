@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 609,
-  "publish_ready_count": 273,
+  "business_count": 610,
+  "publish_ready_count": 274,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -30686,6 +30686,247 @@
         "Catering",
         "Private dining room"
       ]
+    },
+    {
+      "slug": "highport-marina",
+      "business_name": "Highport Marina",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "120 Texoma Harbor Drive, Pottsboro, TX 75076 — Lake Texoma",
+      "category": [
+        "Marina",
+        "Boat Rental Service",
+        "Boat Storage Facility",
+        "Public Boat Ramp",
+        "Fuel Dock",
+        "Marine Services",
+        "Event Venue"
+      ],
+      "categories": [
+        "Marina",
+        "Boat Rental Service",
+        "Boat Storage Facility",
+        "Public Boat Ramp",
+        "Fuel Dock",
+        "Ship Store",
+        "Marine Services",
+        "Waterfront Dining",
+        "Live Music Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Highport Marina",
+        "Lake Texoma",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Marina",
+        "Boat Slips",
+        "Covered Slips",
+        "Boathouses",
+        "Dockominiums",
+        "Boat Rentals",
+        "Pontoon Rentals",
+        "Tritoon Rentals",
+        "Boat Ramp",
+        "Fuel Dock",
+        "Ship Store",
+        "Marine Service",
+        "Boat Sales",
+        "Waterfront Dining",
+        "Live Music",
+        "Lake Events",
+        "Boating",
+        "Fishing",
+        "Weekend Getaway"
+      ],
+      "description": "Highport Marina is a full-service marina and Lake Texoma destination in Pottsboro, Texas. The marina offers more than 1,000 wet slips along with covered and open dock options, private boathouses and dockominiums, pontoon and tritoon rentals, a four-lane public boat ramp, fuel dock, ship store, marine services, boat sales support and waterfront dining. Highport is also a major Lake Texoma event hub, with seasonal live music, boating traditions, community events, holiday activities and its well-known waterfront fireworks celebration.",
+      "short_description": "Full-service Lake Texoma marina in Pottsboro offering 1,000+ slips, boat rentals, fuel, a public boat ramp, waterfront dining and recurring events.",
+      "why_visit": "Highport is one of the most useful all-in-one starting points for a Lake Texoma day. Visitors can launch a boat, rent one for the day, fuel up, buy lake essentials, eat on the waterfront, catch live music and access the lake from one destination.",
+      "why_its_unique": "Highport combines large-scale marina infrastructure with dining, entertainment, rentals, marine services and recurring events in a single Lake Texoma destination. Its location also connects multiple TWG records, including Lake Texoma itself and The Island Bar & Grill.",
+      "address": "120 Texoma Harbor Drive",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-786-7000",
+      "email": "highport@waterviewmarinas.com",
+      "website": "https://highport.com/",
+      "facebook": "https://www.facebook.com/profile.php?id=100064293326095",
+      "instagram": "https://www.instagram.com/highportmarina/",
+      "youtube": null,
+      "tiktok": null,
+      "management_operator": "Waterview Marinas",
+      "management_note": "Highport operates within the Waterview Marinas network. TWG is not asserting a specific legal ownership structure for the entire property.",
+      "hours": {
+        "monday": "8:00 AM–5:00 PM",
+        "tuesday": "8:00 AM–5:00 PM",
+        "wednesday": "8:00 AM–5:00 PM",
+        "thursday": "8:00 AM–5:00 PM",
+        "friday": "8:00 AM–5:00 PM",
+        "saturday": "8:00 AM–5:00 PM",
+        "sunday": "9:00 AM–5:00 PM"
+      },
+      "hours_note": "These are Highport Marina office hours. The public boat ramp is open 24 hours. Fuel dock, ship store, boat rental, restaurant and service hours have separate or seasonal schedules.",
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "at_a_glance": {
+        "average_visit": "Varies by activity",
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null,
+        "reservations_recommended": null,
+        "free_wifi": null,
+        "boat_parking": true,
+        "rv_parking": null,
+        "waterfront": true,
+        "lake_view": true
+      },
+      "amenities": [
+        "1,000+ wet slips",
+        "Covered and open slips",
+        "Private boathouses",
+        "Dockominiums",
+        "Four-lane paved public boat ramp",
+        "24-hour boat-ramp access",
+        "Courtesy loading and unloading pier",
+        "Boat rentals",
+        "Pontoon rentals",
+        "Tritoon rentals",
+        "Fuel dock",
+        "Ethanol-free marine fuel",
+        "Diesel",
+        "Pump-out service",
+        "Ship store",
+        "Ice",
+        "Waterfront dining",
+        "Full bar service on site",
+        "Live music on site",
+        "Marine service",
+        "Boat and yacht sales support",
+        "HydroHoist lift services",
+        "Parking"
+      ],
+      "good_to_know": [
+        "The four-lane paved boat ramp is lighted and open 24 hours a day.",
+        "Current boat-ramp launch fees are $10 Monday through Thursday and $12 Friday through Sunday.",
+        "Holiday-weekend boat-ramp pricing is currently $15 Thursday through Monday for Memorial Day, July 4th and Labor Day weekends.",
+        "Highport advertises more than 1,000 wet slips.",
+        "Boat rentals include Bennington pontoons for up to 10 passengers and tritoons for up to 12 passengers.",
+        "The Island Bar & Grill and Schooner's provide waterfront food and beverage service at Highport; restaurant schedules are seasonal or separate from marina office hours.",
+        "Live music and marina events should be verified against current Highport and restaurant announcements before visiting."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Live music",
+        "Marina events",
+        "Boating events",
+        "Boat shows",
+        "Chili cook-offs",
+        "Lake cleanups",
+        "Holiday weekends",
+        "Fireworks",
+        "Community events",
+        "Member events",
+        "Fundraisers",
+        "Family activities"
+      ],
+      "event_sources": [
+        "Highport Marina official events page",
+        "Highport Marina Facebook",
+        "Highport Marina Instagram",
+        "The Island Bar & Grill official announcements"
+      ],
+      "parent_business": {
+        "slug": "lake-texoma",
+        "business_name": "Lake Texoma",
+        "relationship_note": "Highport Marina is located on Lake Texoma in Pottsboro, Texas."
+      },
+      "child_businesses": [
+        {
+          "slug": "the-island-bar-and-grill-lake-texoma",
+          "business_name": "The Island Bar & Grill Lake Texoma",
+          "relationship_note": "Seasonal waterfront restaurant, bar and live entertainment venue located inside Highport Marina."
+        }
+      ],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Highport Marina is located in Pottsboro, Texas, on Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 using current official Highport Marina pages for contact information, office hours, marina services, wet slips, boat ramp, rentals, food and beverage, fuel dock, ship store and events. Highport's official contact information uses the waterviewmarinas.com domain, supporting the Waterview Marinas operating relationship. The Island Bar & Grill already exists as a separate TWG record and already identifies Highport Marina as its parent business. Current event listings should be individually reverified before publication because event schedules and public/member access can change.",
+      "sources": [
+        {
+          "source_name": "Highport Marina",
+          "source_url": "https://highport.com/",
+          "source_type": "official",
+          "supports": "Marina identity, Lake Texoma location, 1,000+ wet slips, rentals, dining, services and boat ramp."
+        },
+        {
+          "source_name": "Highport Marina Contact",
+          "source_url": "https://highport.com/contact",
+          "source_type": "official",
+          "supports": "Address, phone, email, staff and marina office hours."
+        },
+        {
+          "source_name": "Highport Marina Boat Ramp",
+          "source_url": "https://highport.com/marina-services/boat-ramp",
+          "source_type": "official",
+          "supports": "Four-lane ramp, 24-hour access, parking, courtesy pier and current launch fees."
+        },
+        {
+          "source_name": "Highport Marina Boat Rentals",
+          "source_url": "https://highport.com/marina-services/boat-rentals",
+          "source_type": "official",
+          "supports": "Pontoon and tritoon rental capacities and equipment."
+        },
+        {
+          "source_name": "Highport Marina Food and Beverage",
+          "source_url": "https://highport.com/marina-services/food-and-beverage",
+          "source_type": "official",
+          "supports": "On-site waterfront dining, family dining and live music."
+        },
+        {
+          "source_name": "Highport Marina Events",
+          "source_url": "https://highport.com/event/greg-guymon-6-2-2-2-2-2-2/",
+          "source_type": "official",
+          "supports": "Recurring marina event activity and event-mining status."
+        },
+        {
+          "source_name": "Waterview Marinas",
+          "source_url": "https://waterviewmarinas.com/",
+          "source_type": "official",
+          "supports": "Waterview Marinas operating network."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
     }
   ]
 }
