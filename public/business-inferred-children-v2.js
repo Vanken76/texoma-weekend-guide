@@ -105,21 +105,7 @@
         };
       };
 
-      const mainCard = document.querySelector(".main-card");
-      if (!mainCard) return;
-      const relationshipsSection = ensureRelationshipsSection(mainCard);
-
       const currentParents = resolvedParentReferences(currentBusiness).map(normalizeParent).filter(Boolean);
-      if (currentParents.length) {
-        const partOfGroup = ensureGroup(
-          relationshipsSection,
-          "Part of",
-          "resolved-parent-relationship-group",
-          ".inferred-child-relationship-group, .geography-relationship-group"
-        );
-        currentParents.forEach((parent) => appendRelationship(partOfGroup, parent));
-      }
-
       const children = businesses
         .filter((item) => item?.publish_ready === true && item?.slug && item.slug !== slug)
         .flatMap((item) => resolvedParentReferences(item)
@@ -133,15 +119,31 @@
           })))
         .sort((a, b) => a.name.localeCompare(b.name));
 
-      if (!children.length) return;
+      if (!currentParents.length && !children.length) return;
 
-      const locatedGroup = ensureGroup(
-        relationshipsSection,
-        "Located here",
-        "inferred-child-relationship-group",
-        ".geography-relationship-group"
-      );
-      children.forEach((child) => appendRelationship(locatedGroup, child));
+      const mainCard = document.querySelector(".main-card");
+      if (!mainCard) return;
+      const relationshipsSection = ensureRelationshipsSection(mainCard);
+
+      if (currentParents.length) {
+        const partOfGroup = ensureGroup(
+          relationshipsSection,
+          "Part of",
+          "resolved-parent-relationship-group",
+          ".inferred-child-relationship-group, .geography-relationship-group"
+        );
+        currentParents.forEach((parent) => appendRelationship(partOfGroup, parent));
+      }
+
+      if (children.length) {
+        const locatedGroup = ensureGroup(
+          relationshipsSection,
+          "Located here",
+          "inferred-child-relationship-group",
+          ".geography-relationship-group"
+        );
+        children.forEach((child) => appendRelationship(locatedGroup, child));
+      }
     })
     .catch(() => {});
 })();
