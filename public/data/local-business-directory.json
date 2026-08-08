@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 615,
-  "publish_ready_count": 279,
+  "business_count": 616,
+  "publish_ready_count": 280,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -32078,6 +32078,305 @@
           "source_url": "https://www.ntxe-news.com/cgi-bin/artman/exec/view.cgi?archive=94&num=135043&printer=1",
           "source_type": "secondary",
           "supports": "Reported summer 2023 opening of the Lake Texoma location and historical location contact information."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "texoma-sailing-club",
+      "business_name": "Texoma Sailing Club",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "132 Grandpappy Drive, Denison, TX 75020 — clubhouse inside Grandpappy Point Resort & Marina on Lake Texoma",
+      "primary_category": "Sailing Club",
+      "category": [
+        "Sailing Club",
+        "Membership Organization",
+        "Recreation Club",
+        "Sailing"
+      ],
+      "categories": [
+        "Sailing Club",
+        "Membership Organization",
+        "Recreation Club",
+        "Sailing",
+        "Sailboat Racing",
+        "Boating",
+        "Outdoor Recreation",
+        "Social Club",
+        "Educational Programs",
+        "Event Venue"
+      ],
+      "tags": [
+        "Texoma Sailing Club",
+        "TSC",
+        "Lake Texoma",
+        "Grandpappy Point Resort & Marina",
+        "Denison",
+        "Texas",
+        "Grayson County",
+        "Sailing",
+        "Sailing Club",
+        "Sailboat Racing",
+        "Sailboats",
+        "Regatta",
+        "Cruising",
+        "Raft Ups",
+        "Fun Sails",
+        "Boating",
+        "Membership Club",
+        "Sailing Education",
+        "Clubhouse",
+        "Social Events",
+        "Spring Regatta",
+        "Wunderlick Race",
+        "Ol' Man o' the Sea Race",
+        "Asbury Smith Fall Mini-Regatta"
+      ],
+      "description": "Texoma Sailing Club is a Lake Texoma sailing, racing and social club based in its clubhouse inside Grandpappy Point Resort & Marina in Denison, Texas. Grandpappy identifies TSC as Lake Texoma's largest sailing club. The organization offers full and associate memberships, an active sailboat racing program, flotilla-style fun sails, raft-ups, educational programs and a year-round calendar of dinners, parties and social gatherings. Members have access to a clubhouse overlooking the marina with a full kitchen, restrooms and showers, barbecue grills, Wi-Fi, television and a large outdoor deck. Boat ownership is not required for associate membership, and sailors from outside the club are welcomed at qualifying on-water activities.",
+      "short_description": "Lake Texoma sailing and social club at Grandpappy Point offering racing, cruising, education, social events and year-round clubhouse access.",
+      "why_visit": "Texoma Sailing Club gives experienced sailors and people who simply want to get involved with sailing a community on Lake Texoma. Boat ownership is not required to join as an associate member, and the club combines racing and on-water activities with an unusually active year-round social calendar.",
+      "why_its_unique": "TSC combines one of Lake Texoma's most active organized sailing programs with its own marina-overlook clubhouse, racing series, regattas, casual fun sails, raft-ups, educational opportunities and regular social events. Grandpappy Point identifies it as Lake Texoma's largest sailing club.",
+      "address": "132 Grandpappy Drive",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": null,
+      "email": null,
+      "website": "https://texomasailingclub.org/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "contact_note": "The current official website provides an online contact form. A current direct public phone number or general club email was not confirmed from TSC's present official website.",
+      "hours": null,
+      "hours_note": "The clubhouse is available year-round to members. Club activities, races, meetings and social events follow the published annual calendar rather than standard public operating hours.",
+      "price_range": null,
+      "membership": {
+        "membership_required_for_clubhouse_privileges": true,
+        "full_membership": {
+          "eligibility": "For members with boats slipped at Grandpappy Point Marina",
+          "benefits": [
+            "Full activity participation",
+            "Clubhouse access"
+          ],
+          "2026_january_rate": "$550",
+          "2026_august_new_member_rate": "$235"
+        },
+        "associate_membership": {
+          "eligibility": "For members without boats slipped at Grandpappy Point Marina or members without boats",
+          "benefits": [
+            "Activity participation",
+            "Clubhouse access"
+          ],
+          "voting_note": "Current 2026 membership form states that associate members have limited voting rights.",
+          "2026_january_rate": "$275",
+          "2026_august_new_member_rate": "$135"
+        }
+      },
+      "membership_note": "Current 2026 new-member dues are prorated according to the month membership begins. Rates should be reconfirmed for future membership years.",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "at_a_glance": {
+        "average_visit": "Varies by race, sail, meeting or social event",
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true,
+        "reservations_recommended": null,
+        "free_wifi": true,
+        "boat_parking": true,
+        "rv_parking": null,
+        "waterfront": true,
+        "lake_view": true
+      },
+      "programs": [
+        "Sailboat racing",
+        "Spring racing series",
+        "Fall racing series",
+        "Regattas",
+        "Flotilla fun sails",
+        "Raft-up events",
+        "Cruising activities",
+        "Sailing education",
+        "Racing education",
+        "Social dinners",
+        "Happy hours",
+        "Holiday parties",
+        "Themed dinners",
+        "Potluck dinners",
+        "Club meetings"
+      ],
+      "clubhouse_amenities": [
+        "Full kitchen",
+        "Restrooms",
+        "Showers",
+        "Barbecue grills",
+        "Wi-Fi",
+        "Television",
+        "Large outdoor deck",
+        "Marina views",
+        "Year-round clubhouse"
+      ],
+      "amenities": [
+        "Private clubhouse",
+        "Full kitchen",
+        "Showers",
+        "Restrooms",
+        "Barbecue grills",
+        "Wi-Fi",
+        "Television",
+        "Outdoor deck",
+        "Lake and marina views",
+        "Racing program",
+        "Cruising program",
+        "Educational programs",
+        "Social calendar"
+      ],
+      "current_officers_2026": {
+        "commodore": "Dave Long",
+        "vice_commodore": "Jack Montani",
+        "secretary": "Mary Nichols",
+        "treasurer": "Judi Nitsche",
+        "clubhouse_operations": "Ted Robichaux",
+        "race_captain": "Vacant",
+        "board_members": [
+          "Pete Nitsche",
+          "Gary Witt",
+          "Nicole Spruill",
+          "Mike Meinhardt"
+        ]
+      },
+      "good_to_know": [
+        "Texoma Sailing Club is based inside Grandpappy Point Resort & Marina.",
+        "Grandpappy Point identifies TSC as Lake Texoma's largest sailing club.",
+        "The clubhouse overlooks Grandpappy Point Marina and is available year-round to members.",
+        "You do not need to own a boat to join Texoma Sailing Club.",
+        "Full Membership is intended for members whose boats are slipped at Grandpappy Point Marina.",
+        "Associate Membership is available to sailors without a Grandpappy slip and to people who do not own boats.",
+        "Both membership levels include activity participation and clubhouse access; associate members currently have limited voting rights.",
+        "New-member dues are prorated based on the month membership begins.",
+        "TSC welcomes sailors from other clubs and sailors without club affiliation to participate in applicable on-water events.",
+        "The racing program is designed to be competitive but approachable and uses handicapping to help equalize different boats.",
+        "The club maintains a substantial annual calendar of racing, cruising, social and educational activities.",
+        "Clubhouse and social events may have membership or guest restrictions; verify access before attending.",
+        "A current public direct phone number, email address, Facebook page or Instagram account was not confirmed from the club's present official website."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Sailboat races",
+        "Racing series",
+        "Regattas",
+        "Fun sails",
+        "Raft-ups",
+        "Sailing education",
+        "Social dinners",
+        "Potlucks",
+        "Happy hours",
+        "Holiday parties",
+        "Cookoffs",
+        "Club meetings",
+        "Member events"
+      ],
+      "event_sources": [
+        "https://texomasailingclub.org/events-1",
+        "https://texomasailingclub.org/events",
+        "https://texomasailingclub.org/racing",
+        "https://texomasailingclub.org/",
+        "https://www.grandpappy.com/amenity/texoma-sailing-club"
+      ],
+      "parent_business": {
+        "slug": "grandpappy-point-resort-marina-denison",
+        "business_name": "Grandpappy Point Resort & Marina",
+        "relationship_note": "Texoma Sailing Club is based in its clubhouse overlooking Grandpappy Point Resort & Marina."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Texoma Sailing Club is located in Denison, Texas."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 using the current official Texoma Sailing Club website, its 2026 membership form, current racing and event pages, and Grandpappy Point Resort & Marina. TSC's official contact page confirms its location at 132 Grandpappy Drive in Denison. Grandpappy Point independently identifies Texoma Sailing Club as Lake Texoma's largest sailing club and as an on-site Grandpappy operation. The official membership materials confirm Full and Associate membership options, clubhouse access, eligibility distinctions and current 2026 prorated new-member dues. The club's official facilities page confirms a year-round clubhouse with full kitchen, restrooms/showers, barbecue grills, Wi-Fi, television and outdoor deck. The current racing and events pages confirm an active year-round schedule of racing, regattas, cruising and social activities. No current official direct phone number, general email address, Facebook page or Instagram page was confidently verified, so those fields remain null.",
+      "sources": [
+        {
+          "source_name": "Texoma Sailing Club",
+          "source_url": "https://texomasailingclub.org/",
+          "source_type": "official",
+          "supports": "Business identity, sailing focus, racing, fun sails, raft-ups, social programming and clubhouse overview."
+        },
+        {
+          "source_name": "Texoma Sailing Club — Membership",
+          "source_url": "https://texomasailingclub.org/membership",
+          "source_type": "official",
+          "supports": "Full and Associate membership definitions, participation, clubhouse access and nonmember on-water participation."
+        },
+        {
+          "source_name": "2026 Texoma Sailing Club Membership Form",
+          "source_url": "https://www.emailmeform.com/builder/form/8a6UlS5e9qV3272gi519Q",
+          "source_type": "official",
+          "supports": "2026 membership dues, monthly proration and associate voting-right limitation."
+        },
+        {
+          "source_name": "Texoma Sailing Club — At The Lake",
+          "source_url": "https://texomasailingclub.org/at-the-lake",
+          "source_type": "official",
+          "supports": "Clubhouse location and facilities including kitchen, restrooms, showers, grills, Wi-Fi, television and outdoor deck."
+        },
+        {
+          "source_name": "Texoma Sailing Club — Racing",
+          "source_url": "https://texomasailingclub.org/racing",
+          "source_type": "official",
+          "supports": "Current racing philosophy, race program, registration, communications and racing resources."
+        },
+        {
+          "source_name": "Texoma Sailing Club — 2026 Events",
+          "source_url": "https://texomasailingclub.org/events",
+          "source_type": "official",
+          "supports": "2026 races, regattas, dinners, social events and recurring event calendar."
+        },
+        {
+          "source_name": "Texoma Sailing Club — About Us",
+          "source_url": "https://texomasailingclub.org/about-us",
+          "source_type": "official",
+          "supports": "Current 2026 officers, racing, fun sails, raft-ups and social programming."
+        },
+        {
+          "source_name": "Texoma Sailing Club — Contact",
+          "source_url": "https://texomasailingclub.org/contact-us",
+          "source_type": "official",
+          "supports": "132 Grandpappy Drive location and official contact method."
+        },
+        {
+          "source_name": "Grandpappy Point Resort & Marina — Texoma Sailing Club",
+          "source_url": "https://www.grandpappy.com/amenity/texoma-sailing-club",
+          "source_type": "official",
+          "supports": "Grandpappy relationship and identification of TSC as Lake Texoma's largest sailing club."
         }
       ],
       "last_checked": "2026-08-08",
