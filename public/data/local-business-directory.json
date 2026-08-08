@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 627,
-  "publish_ready_count": 291,
+  "business_count": 628,
+  "publish_ready_count": 292,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -35503,6 +35503,380 @@
           "source_url": "https://www.wildlifedepartment.com/fishing/fishing-guides",
           "source_type": "government",
           "supports": "Current known licensed fishing-guide directory checked during verification; no Jason Harrelson or matching 903-821-4971 entry was located."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "striper-express",
+      "business_name": "Striper Express",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Mill Creek Marina, 512 Mill Creek Resort Rd, Boathouse #3, Pottsboro, TX 75076 — professional Lake Texoma artificial-lure striper fishing guide service",
+      "primary_category": "Fishing Guide",
+      "category": [
+        "Fishing Guide",
+        "Striper Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Fishing Guide",
+        "Striped Bass Fishing",
+        "Lake Texoma Fishing",
+        "Fishing Charter",
+        "Guided Fishing Trips",
+        "Artificial Lure Fishing",
+        "Family Fishing",
+        "Corporate Group Fishing",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Striper Express",
+        "Striper Express Guide Service",
+        "Bill Carey",
+        "Chris Carey",
+        "Lake Texoma",
+        "Mill Creek Resort & Marina",
+        "Mill Creek Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Striper Guide",
+        "Striped Bass",
+        "Artificial Lures",
+        "Private Fishing Charter",
+        "Family Fishing",
+        "Corporate Fishing",
+        "Team Building",
+        "Large Group Fishing",
+        "Topwater Fishing",
+        "Swimbaits",
+        "Slab Fishing",
+        "Deadsticking",
+        "Year-Round Fishing",
+        "Fish Cleaning"
+      ],
+      "description": "Striper Express is a longtime Lake Texoma professional fishing-guide service based at Mill Creek Marina in Pottsboro, Texas. Founded by Bill Carey in 1983, the operation specializes in striped-bass fishing with artificial lures and operates a multi-boat guide fleet for private fishing trips, families, experienced anglers, beginners and large corporate groups. Current trips are private rather than mixed-party charters and include the boat, fuel, safety equipment, rods, reels, artificial lures, instruction and cleaning, filleting and bagging of the catch. Morning and afternoon trips are offered throughout the year according to availability, weather and fishing conditions.",
+      "short_description": "Lake Texoma artificial-lure striper guide service operating from Mill Creek Marina since 1983, with private trips and large-group capability.",
+      "why_visit": "Striper Express is a strong choice for visitors who want an established Lake Texoma guide operation focused specifically on active artificial-lure fishing rather than passive live-bait techniques. Everything needed for the fishing itself is supplied, beginners receive instruction, trips are private, and the multi-boat operation can handle everything from a small family outing to a substantial corporate group.",
+      "why_its_unique": "Striper Express has operated on Lake Texoma since 1983 and distinguishes itself through an artificial-lure-only approach to striped-bass fishing. The operation uses multiple professional guides and boats simultaneously, allowing it to accommodate groups that would be too large for a typical single-guide charter.",
+      "address": "512 Mill Creek Resort Rd, Boathouse #3",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "address_note": "Striper Express currently identifies Mill Creek Marina, 512 Mill Creek Resort Rd, Boathouse #3, as its Lake Texoma launch and boarding point. Some footer material shortens the street name to 512 Mill Creek Rd.; TWG is using the more specific boarding address published on the current FAQ.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-786-4477",
+      "text_phone": "903-327-2009",
+      "email": "BigFishLakeTexoma@gmail.com",
+      "website": "https://striperexpress.com/",
+      "facebook": "https://www.facebook.com/StriperExpress/",
+      "instagram": "https://www.instagram.com/striperexpress/",
+      "twitter": "https://twitter.com/StriperExpress",
+      "youtube": "https://www.youtube.com/user/StriperExpress1",
+      "tiktok": null,
+      "hours": null,
+      "hours_note": "Striper Express operates by reservation rather than conventional storefront hours. The company advertises Lake Texoma fishing throughout the year, although it takes some holidays off. Morning and afternoon charter trips are offered according to availability and conditions.",
+      "price_range": "$$$",
+      "pricing_note": "Current published rates were verified August 8, 2026 from the official Striper Express rates page and are time-sensitive. Confirm rates when booking.",
+      "current_rates": {
+        "trip_duration": "Approximately 5 hours",
+        "one_to_three_anglers": "$600 total",
+        "four_anglers": "$800 total",
+        "five_anglers": "$1,000 total",
+        "six_anglers": "$1,200 total",
+        "deposit": "50% at charter confirmation"
+      },
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "founded": 1983,
+      "owner_operator": {
+        "name": "Bill Carey",
+        "role": "Owner-Operator",
+        "responsibilities": [
+          "Bookings",
+          "Group-event coordination",
+          "Quality control",
+          "Lodging coordination",
+          "Marketing and advertising"
+        ]
+      },
+      "guide_team": [
+        {
+          "name": "Chris Carey",
+          "role": "Striper Express Guide",
+          "note": "Current official biography says Chris became a professional guide in 1995 and specializes in artificial-lure fishing."
+        },
+        {
+          "name": "Jimmy Britt",
+          "role": "Striper Express Guide",
+          "note": "Current official roster identifies Jimmy as a longtime professional Lake Texoma guide specializing in artificial lures."
+        },
+        {
+          "name": "Dave Wand",
+          "role": "Striper Express Guide",
+          "note": "Current official roster says Dave has guided with Striper Express since 2012."
+        },
+        {
+          "name": "Mark McNamara",
+          "role": "Striper Express Guide",
+          "note": "Current official roster says Mark has been part of the Striper Express team since 1999."
+        },
+        {
+          "name": "Capt. Chris (Farley)",
+          "role": "Striper Express Guide",
+          "note": "Current official roster identifies Capt. Chris, also known as Farley, as a striped-bass guide serving anglers of varying skill levels."
+        },
+        {
+          "name": "Capt. Tim Smith",
+          "role": "Striper Express Guide",
+          "note": "Current official roster identifies Tim Smith as a longtime Striper Express guide and discusses his separate guide-business background. His independent-business status will be researched separately before TWG creates another entity."
+        },
+        {
+          "name": "Capt. MJ",
+          "role": "Striper Express Guide",
+          "note": "Current official roster lists Capt. MJ as part of Striper Express and describes extensive artificial-lure and Lake Texoma experience."
+        }
+      ],
+      "office_manager": {
+        "name": "MT",
+        "role": "Striper Express Office Manager"
+      },
+      "guide_license": {
+        "current_government_verification": true,
+        "verification_source": "Oklahoma Department of Wildlife Conservation",
+        "listed_business_name": "Striper Express Guide Service",
+        "listed_phone": "903-786-4477",
+        "listed_water": "Lake Texoma",
+        "official_site_claim": "Striper Express states that its guides are licensed, insured and professional."
+      },
+      "target_species": [
+        "Striped Bass"
+      ],
+      "primary_specialty": "Lake Texoma striped bass using artificial lures",
+      "fishing_style": {
+        "artificial_lures_only": true,
+        "live_bait_service": false,
+        "instruction_available": true
+      },
+      "fishing_methods": [
+        "Artificial lures",
+        "Topwater lures",
+        "Swimbaits",
+        "Slab spoons",
+        "Deadsticking",
+        "Casting"
+      ],
+      "trip_format": {
+        "private_charters": true,
+        "mixed_groups": false,
+        "morning_trips": true,
+        "afternoon_trips": true,
+        "year_round": true,
+        "standard_duration": "Approximately 5 hours",
+        "note": "The current rates page says guides may continue beyond the nominal five-hour period when fish are actively biting."
+      },
+      "boat_capacity": {
+        "anglers_per_boat": "1 to 6",
+        "fleet_description": "Multi-boat fleet",
+        "fleet_count_note": "Current first-party pages conflict: the About and FAQ pages describe a 12-boat fleet while the current rates page describes a 10-boat fleet. TWG therefore should not publish an exact fleet count until Striper Express reconciles its own current material."
+      },
+      "large_groups": {
+        "available": true,
+        "published_maximum_group": 60,
+        "corporate_events": true,
+        "team_building": true,
+        "custom_group_charters": true,
+        "possible_add_ons": [
+          "Tournament-style weigh-ins",
+          "Awards presentations",
+          "Catered group meals",
+          "Lodging coordination",
+          "Chartered bus transportation"
+        ]
+      },
+      "trip_inclusions": [
+        "Professional fishing guide",
+        "Boat",
+        "Fuel",
+        "Safety equipment",
+        "Life jackets",
+        "Fishing tackle",
+        "Rods",
+        "Reels",
+        "Artificial striper lures",
+        "Fishing instruction",
+        "Fish cleaning",
+        "Fish filleting",
+        "Fish bagging",
+        "Removal of red meat and lateral line from fillets"
+      ],
+      "guest_should_bring": [
+        "Appropriate current Lake Texoma fishing license unless legally exempt",
+        "Drinks",
+        "Snacks",
+        "Cooler for drinks and snacks",
+        "Cooler for cleaned fish",
+        "Sunscreen",
+        "Weather-appropriate clothing",
+        "Camera or phone"
+      ],
+      "fishing_license_note": "Texas Parks & Wildlife currently offers Lake Texoma License Item 208 for $12. It permits fishing in both Texas and Oklahoma waters of Lake Texoma without additional Texas or Oklahoma fishing licenses and is valid until December 31 following issuance. Current exemptions should be checked directly with TPWD or ODWC before fishing.",
+      "current_striper_regulation_note": "Current Lake Texoma regulations provide no minimum length for striped bass and hybrid striped bass, a combined daily bag limit of 10 and possession limit of 20, with only two fish 20 inches or longer allowed to be retained each day. Culling striped and hybrid striped bass is prohibited. Regulations can change and should be rechecked before fishing.",
+      "booking": {
+        "reservation_required": true,
+        "weekend_advance_booking_recommended": true,
+        "topwater_season_advance_booking": "Strongly recommended",
+        "weekday_availability": "Generally described by the company as more flexible than weekends",
+        "large_group_advance_planning": true
+      },
+      "cancellation_policy": {
+        "deposit": "50%",
+        "deposit_refundable": false,
+        "fourteen_or_more_days": "Current policy allows the trip to be rescheduled within the calendar year; deposit remains nonrefundable, subject to stated exceptions.",
+        "seven_to_thirteen_days": "If Striper Express cannot rebook the charter date, the 50% deposit is forfeited.",
+        "six_days_or_less": "If Striper Express cannot rebook the charter date, full payment is due.",
+        "weather": "Weather and safety decisions are made by Striper Express at the boathouse. If conditions prevent the trip, the company states the trip will be rescheduled and the deposit is not lost because of weather.",
+        "cancellation_method": "Call 903-786-4477 and speak with a Striper Express/Texas Corporate Retreats employee."
+      },
+      "services": [
+        "Professional Lake Texoma fishing-guide service",
+        "Striped-bass fishing charters",
+        "Artificial-lure fishing",
+        "Private guided fishing trips",
+        "Morning fishing trips",
+        "Afternoon fishing trips",
+        "Family fishing trips",
+        "Beginner fishing instruction",
+        "Experienced-angler trips",
+        "Corporate fishing outings",
+        "Team-building fishing events",
+        "Large-group fishing coordination",
+        "Multi-boat fishing charters",
+        "Tournament-style group fishing",
+        "Fishing equipment and tackle",
+        "Fish cleaning and filleting",
+        "Lodging coordination",
+        "Meal coordination",
+        "Transportation coordination for groups",
+        "Gift certificates"
+      ],
+      "good_to_know": [
+        "Striper Express has operated on Lake Texoma since 1983.",
+        "Bill Carey is the current owner-operator.",
+        "The current launch point is Mill Creek Marina, 512 Mill Creek Resort Rd, Boathouse #3, Pottsboro.",
+        "The current primary phone number is 903-786-4477.",
+        "The current text/SMS number is 903-327-2009.",
+        "The current published email address is BigFishLakeTexoma@gmail.com.",
+        "Striper Express specializes in striped-bass fishing using artificial lures rather than live bait.",
+        "All current charters are advertised as private; unrelated groups are not mixed on the same boat.",
+        "Current standard trips are approximately five hours.",
+        "Current published rates are $600 for one to three anglers, $800 for four, $1,000 for five and $1,200 for six.",
+        "A 50% deposit is currently required to confirm a charter.",
+        "Boats generally accommodate one to six anglers each.",
+        "The company operates a multi-boat fleet and can coordinate groups up to 60 people.",
+        "Current first-party pages conflict on the exact fleet size, describing both 10 and 12 boats. TWG should not publish an exact fleet count.",
+        "Fishing tackle, rods, reels and artificial lures are supplied.",
+        "Fish are cleaned, filleted and bagged after the trip.",
+        "The company specifically says red meat and the lateral line are removed from fillets.",
+        "Striper Express welcomes beginners and says its guides provide instruction and coaching.",
+        "Family trips and trips with children are actively promoted.",
+        "The operation fishes Lake Texoma year-round, although some holidays are taken off.",
+        "Weekend dates and popular topwater periods can book well in advance.",
+        "The Oklahoma Department of Wildlife Conservation currently lists Striper Express Guide Service at 903-786-4477 as a known licensed fishing guide for Lake Texoma.",
+        "The official website directly links Facebook, Instagram, X/Twitter and YouTube accounts.",
+        "Texas Corporate Retreats is a closely linked Striper Express-branded operation using the same Mill Creek address, phone and email. TWG will research that entity separately before establishing a formal record-to-record relationship.",
+        "Capt. Tim Smith is currently a member of the Striper Express guide team, but the official biography also references his own guide business. TWG will research that separate business identity before creating another entity.",
+        "Fishing-license requirements and harvest regulations can change and should be verified before the trip."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "event_note": "Striper Express organizes private corporate and team-building fishing outings but is not being classified as a public event venue. Texas Corporate Retreats will be researched separately.",
+      "parent_business": {
+        "slug": "mill-creek-resort-and-marina",
+        "business_name": "Mill Creek Resort & Marina",
+        "relationship_note": "Striper Express is based at Mill Creek Marina and currently boards guests at Boathouse #3."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Striper Express is based at Mill Creek Marina in Pottsboro, Texas, and guides fishing trips throughout Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Fully verified August 8, 2026 using Striper Express's current official website, current About Us, Rates & Info, FAQ and Contact pages, current official social links, the Oklahoma Department of Wildlife Conservation known licensed fishing-guide directory, and current Texas Parks & Wildlife Lake Texoma license and fishing-regulation information. Current first-party material confirms the business has operated since 1983, Bill Carey as owner-operator, Mill Creek Marina Boathouse #3 as the Lake Texoma boarding point, 903-786-4477 as the primary phone, 903-327-2009 as the text line, BigFishLakeTexoma@gmail.com as the email address, artificial-lure-only striped-bass fishing, private charters, current rates, five-hour trips, equipment and fish-cleaning inclusions, large-group/corporate capability and current guide-team members. ODWC independently lists Striper Express Guide Service at the same 903-786-4477 phone number for Lake Texoma. Current first-party pages disagree on whether the fleet contains 10 or 12 boats; TWG therefore describes Striper Express only as a multi-boat fleet. Texas Corporate Retreats and Capt. Tim Smith's separate guide-business identity require their own research passes before being wired as independent related entities.",
+      "sources": [
+        {
+          "source_name": "Striper Express — Official Website",
+          "source_url": "https://striperexpress.com/",
+          "source_type": "official",
+          "supports": "Current identity, history, contact information, private-charter model, artificial-lure specialty, family fishing, trip inclusions and Mill Creek operation."
+        },
+        {
+          "source_name": "Striper Express — About Us",
+          "source_url": "https://striperexpress.com/about-us/",
+          "source_type": "official",
+          "supports": "Bill Carey owner-operator identity, current guide roster, multi-boat operation, corporate capacity and business history."
+        },
+        {
+          "source_name": "Striper Express — Rates & Info",
+          "source_url": "https://striperexpress.com/lake-texoma-fishing-guides-prices/",
+          "source_type": "official",
+          "supports": "Current prices, deposit, five-hour trip format, trip inclusions, fish cleaning, corporate services and cancellation/weather policy."
+        },
+        {
+          "source_name": "Striper Express — FAQ",
+          "source_url": "https://striperexpress.com/faq/",
+          "source_type": "official",
+          "supports": "Mill Creek Marina Boathouse #3 launch point, artificial-lure-only fishing, year-round operation, private trips, equipment supplied, family suitability, booking advice, cancellation policy and official social-media links."
+        },
+        {
+          "source_name": "Striper Express — Contact",
+          "source_url": "https://striperexpress.com/contact-us/",
+          "source_type": "official",
+          "supports": "Current 903-786-4477 phone, 903-327-2009 text number, BigFishLakeTexoma@gmail.com email and Pottsboro office."
+        },
+        {
+          "source_name": "Oklahoma Department of Wildlife Conservation — Fishing Guides",
+          "source_url": "https://www.wildlifedepartment.com/fishing/fishing-guides",
+          "source_type": "government",
+          "supports": "Current known licensed-guide listing for Striper Express Guide Service, 903-786-4477, Lake Texoma."
+        },
+        {
+          "source_name": "Texas Parks & Wildlife — Fishing Licenses and Packages",
+          "source_url": "https://tpwd.texas.gov/regulations/outdoor-annual/licenses/fishing-licenses-stamps-tags-packages/fishing-licenses-and-packages",
+          "source_type": "government",
+          "supports": "Current $12 Lake Texoma License Item 208 and its Texas-Oklahoma validity."
+        },
+        {
+          "source_name": "Texas Parks & Wildlife — Lake Texoma Fishing Regulations",
+          "source_url": "https://tpwd.texas.gov/fishboat/fish/action/fishregs2.php?water=0723",
+          "source_type": "government",
+          "supports": "Current Lake Texoma striped-bass and hybrid striped-bass harvest regulations."
+        },
+        {
+          "source_name": "Texas Corporate Retreats",
+          "source_url": "https://texascorporateretreats.com/",
+          "source_type": "official_related",
+          "supports": "Confirms Texas Corporate Retreats is a Striper Express-linked operation using the same Mill Creek address, phone and email."
         }
       ],
       "last_checked": "2026-08-08",
