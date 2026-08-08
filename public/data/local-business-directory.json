@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 613,
-  "publish_ready_count": 277,
+  "business_count": 614,
+  "publish_ready_count": 278,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -31557,6 +31557,258 @@
           "source_url": "https://tpwd.texas.gov/regulations/outdoor-annual/licenses/fishing-licenses-stamps-tags-packages/fishing-licenses-and-packages",
           "source_type": "government",
           "supports": "Current Lake Texoma fishing-license availability and cross-border validity."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "four-seasons-guide-service",
+      "business_name": "Four Seasons Guide Service",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Operates from Grandpappy Point Resort & Marina on Lake Texoma in Denison, Texas; fishing and hunting trips also include the Red River and Texas/Oklahoma hunting areas",
+      "primary_category": "Fishing Guide Service",
+      "category": [
+        "Fishing Guide Service",
+        "Fishing Charter",
+        "Hunting Guide Service",
+        "Outfitter"
+      ],
+      "categories": [
+        "Fishing Guide Service",
+        "Fishing Charter",
+        "Striped Bass Fishing",
+        "Blue Catfish Fishing",
+        "Hunting Guide Service",
+        "Duck Hunting",
+        "Dove Hunting",
+        "Professional Outfitter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Four Seasons Guide Service",
+        "Lake Texoma",
+        "Grandpappy Point Resort & Marina",
+        "Denison",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Striper Fishing",
+        "Striped Bass",
+        "Trophy Blue Catfish",
+        "Blue Catfish",
+        "Red River Fishing",
+        "Live Bait",
+        "Duck Hunting",
+        "Dove Hunting",
+        "Waterfowl Hunting",
+        "Outfitter",
+        "Corporate Outings",
+        "Family Fishing",
+        "Michael Beeson",
+        "David Beeson",
+        "Established 1980"
+      ],
+      "description": "Four Seasons Guide Service is a longtime professional fishing and hunting outfitter operating from Grandpappy Point Resort & Marina on Lake Texoma in Denison, Texas. In business since 1980, Four Seasons offers guided striped-bass and trophy blue-cat fishing on Lake Texoma and the Red River, along with guided duck and dove hunting in Texas and Oklahoma. Fishing trips include rods, reels, tackle and live bait, and the service accommodates first-time anglers, experienced fishermen, families, friends and corporate groups. Four Seasons is a licensed and insured professional outfitter and offers both morning and afternoon guided opportunities.",
+      "short_description": "Lake Texoma fishing and hunting outfitter established in 1980, offering guided striper and blue-cat fishing plus duck and dove hunts.",
+      "why_visit": "Four Seasons gives visitors access to one of Lake Texoma's longest-running professional guide operations, with equipment supplied and options ranging from family striper trips to Red River fishing and guided waterfowl hunts.",
+      "why_its_unique": "Four Seasons has operated year-round since 1980 and combines Lake Texoma fishing, specialized Red River fishing, trophy blue-cat trips and guided hunting under one outfitter. The service also accommodates larger family and corporate groups and offers morning and afternoon trips.",
+      "address": "1230 S. Perry",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-465-5262",
+      "mobile_phone": "903-815-9150",
+      "email": null,
+      "website": "https://fourseasonsguides.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "guides": [
+        "Michael Beeson",
+        "David Beeson"
+      ],
+      "established_year": 1980,
+      "history_note": "The official Four Seasons Guide Service website states that the year-round business started in 1980.",
+      "hours": null,
+      "hours_note": "Fishing and hunting trips operate by advance booking rather than standard storefront hours. Morning and afternoon trips are available, and current rates state that Texas and Oklahoma hunts are available seven days a week.",
+      "price_range": "$$$",
+      "current_rates": {
+        "striper_fishing": {
+          "2_people": "$550 per boat/day",
+          "3_people": "$600 per boat/day",
+          "4_people": "$700 per boat/day",
+          "5_people": "$800 per boat/day",
+          "6_people": "$900 per boat/day"
+        },
+        "duck_hunting": {
+          "2_people": "$600 per day",
+          "3_people": "$700 per day",
+          "4_people": "$800 per day",
+          "5_people": "$900 per day",
+          "6_people": "$1,000 per day"
+        },
+        "dove_hunting": "$150 per gun"
+      },
+      "rates_note": "Rates verified August 8, 2026 from the current official Four Seasons Guide Service rates page. A $100 deposit per boat, per day is required upon confirmation. Verify all pricing, seasonal availability and licensing requirements directly before booking.",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "at_a_glance": {
+        "average_visit": "Fishing until the limit is reached or up to 8 hours",
+        "price_range": "$$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true,
+        "reservations_recommended": true,
+        "free_wifi": false,
+        "boat_parking": true,
+        "rv_parking": null,
+        "waterfront": true,
+        "lake_view": true
+      },
+      "services": [
+        "Guided Lake Texoma striper fishing",
+        "Guided Red River striper fishing",
+        "Trophy blue-cat fishing",
+        "Guided duck hunting",
+        "Guided dove hunting",
+        "Texas hunting trips",
+        "Oklahoma hunting trips",
+        "Family fishing outings",
+        "Friends group outings",
+        "Corporate outings",
+        "Multi-day hunting trips",
+        "Corporate fishing packages",
+        "Corporate fishing and hunting packages",
+        "Catered fish fry arrangements",
+        "Catered barbecue arrangements"
+      ],
+      "fishing_trip_includes": [
+        "Professional guide",
+        "Rods",
+        "Reels",
+        "Tackle",
+        "Live bait"
+      ],
+      "hunting_trip_includes": [
+        "Pre-scouted hunting area",
+        "Professional guides",
+        "Blinds",
+        "Decoys",
+        "Professional dogs",
+        "Public or private hunting-land access depending on trip"
+      ],
+      "guest_should_bring_for_fishing": [
+        "Required fishing license",
+        "Wet-weather gear",
+        "Food",
+        "Drinks"
+      ],
+      "fishing_style": [
+        "Live bait",
+        "Striped bass",
+        "Trophy blue catfish",
+        "Lake Texoma fishing",
+        "Red River fishing"
+      ],
+      "amenities": [
+        "Fishing equipment provided",
+        "Live bait provided",
+        "Licensed guides",
+        "Insured outfitter",
+        "Morning trips",
+        "Afternoon trips",
+        "Large-group accommodations",
+        "Corporate packages"
+      ],
+      "good_to_know": [
+        "Four Seasons Guide Service is an independent business operating from Grandpappy Point Resort & Marina.",
+        "The official business contact address is 1230 S. Perry in Denison.",
+        "The business states that it has operated year-round since 1980.",
+        "Fishing trips are available on Lake Texoma and the Red River.",
+        "Fishing equipment, tackle and live bait are provided at no additional charge.",
+        "Guests must obtain the appropriate current fishing license.",
+        "Fishing continues until the legal limit is reached or for no longer than eight hours.",
+        "All fishing and hunting trips should be booked in advance.",
+        "A $100 deposit per boat, per day is currently required when confirming a booking.",
+        "Current published policy provides a deposit refund with at least 14 days' notice.",
+        "Deposits may currently be transferred to an available date with at least five days' notice.",
+        "Parties of four to eight are recommended, although smaller groups are welcome.",
+        "Private hunts require a minimum of four people under the current published policy.",
+        "Family, friend and company outings are welcomed.",
+        "Hunting-license, stamp and equipment requirements vary by trip and jurisdiction; verify current Texas and Oklahoma regulations before booking."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "grandpappy-point-resort-marina-denison",
+        "business_name": "Grandpappy Point Resort & Marina",
+        "relationship_note": "Four Seasons Guide Service is an independent fishing and hunting outfitter that operates out of Grandpappy Point Resort & Marina."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Four Seasons Guide Service is based in Denison, Texas."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 using the current official Four Seasons Guide Service website and Grandpappy Point Resort & Marina. Four Seasons identifies itself as a year-round professional fishing and hunting outfitter established in 1980, with Michael Beeson and David Beeson named on the official site. Services include Lake Texoma and Red River striper fishing, trophy blue-cat fishing, duck hunting and dove hunting. The official FAQ confirms that fishing equipment, tackle and live bait are provided and that trips fish until the limit is reached or for no longer than eight hours. The current official rates page confirms fishing and hunting pricing, advance-booking requirements and deposit policies. Grandpappy Point independently states that Four Seasons Guide Service is an independent entity operating out of Grandpappy Point Resort & Marina. No official Facebook or Instagram account was confidently verified during this research pass.",
+      "sources": [
+        {
+          "source_name": "Four Seasons Guide Service",
+          "source_url": "https://fourseasonsguides.com/",
+          "source_type": "official",
+          "supports": "Business identity, establishment year, guides, Lake Texoma and Red River fishing, striper fishing, trophy blue-cat fishing, hunting services and contact information."
+        },
+        {
+          "source_name": "Four Seasons Guide Service — Rates",
+          "source_url": "https://fourseasonsguides.com/rates/",
+          "source_type": "official",
+          "supports": "Current striper, duck and dove rates, deposits, cancellation terms, group sizes and booking requirements."
+        },
+        {
+          "source_name": "Four Seasons Guide Service — FAQ",
+          "source_url": "https://fourseasonsguides.com/faqs/",
+          "source_type": "official",
+          "supports": "Fishing equipment and live bait provided, trip-duration maximum, licensed and insured guides and guest packing requirements."
+        },
+        {
+          "source_name": "Four Seasons Guide Service — Corporate Rates",
+          "source_url": "https://fourseasonsguides.com/corporate-rates/",
+          "source_type": "official",
+          "supports": "Corporate fishing and hunting packages."
+        },
+        {
+          "source_name": "Grandpappy Point Resort & Marina — Four Seasons Guide Service",
+          "source_url": "https://www.grandpappy.com/amenity/four-seasons",
+          "source_type": "official",
+          "supports": "Independent-business status and operating relationship with Grandpappy Point Resort & Marina."
         }
       ],
       "last_checked": "2026-08-08",
