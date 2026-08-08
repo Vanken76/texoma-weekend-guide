@@ -25776,6 +25776,14 @@
         "Wildlife refuges",
         "Dynamic Lake Texoma event hub",
         "Shoreline-based regional directory coverage"
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Lake Texoma spans the Texas-Oklahoma border."
+        }
       ]
     },
     {
