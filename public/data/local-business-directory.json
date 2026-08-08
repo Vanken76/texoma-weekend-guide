@@ -5,8 +5,8 @@
   "generated_on": "2026-08-08",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 629,
-  "publish_ready_count": 293,
+  "business_count": 630,
+  "publish_ready_count": 294,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -36250,6 +36250,288 @@
           "source_url": "https://fishingstatus.com/fishing/directory/groupid/10513",
           "source_type": "secondary",
           "supports": "Current matching business contact information and linked Facebook and Twitter/X profiles."
+        }
+      ],
+      "last_checked": "2026-08-08",
+      "last_verified": "2026-08-08",
+      "created_on": "2026-08-08",
+      "updated_on": "2026-08-08"
+    },
+    {
+      "slug": "boes-guide-service",
+      "business_name": "Boe's Guide Service",
+      "directory_status": "complete_current_existence_stale_pricing",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "512 Mill Creek Resort Rd, Pottsboro, TX 75076 — Lake Texoma striper fishing guide service operating from Mill Creek Marina",
+      "primary_category": "Fishing Guide",
+      "category": [
+        "Fishing Guide",
+        "Striper Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Fishing Guide",
+        "Striped Bass Fishing",
+        "Lake Texoma Fishing",
+        "Fishing Charter",
+        "Guided Fishing Trips",
+        "Family Fishing",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Boe's Guide Service",
+        "Boes Guide Service",
+        "Casey Boe's Lake Texoma Striper Guide Service",
+        "Casey Stand",
+        "Casey Boe Stand",
+        "Lake Texoma",
+        "Mill Creek Resort & Marina",
+        "Mill Creek Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Striper Guide",
+        "Striped Bass",
+        "Fishing Charter",
+        "Live Bait",
+        "Fishing Tackle",
+        "Family Fishing",
+        "Fish Cleaning",
+        "Faith Based Business"
+      ],
+      "description": "Boe's Guide Service is a professional Lake Texoma striped-bass fishing guide service operated by Casey Stand and based at Mill Creek Marina in Pottsboro, Texas. The service supplies bait, tackle, rods and reels, uses marine electronics to locate fish, provides instruction for guests, carries required safety equipment and cleans and bags the catch after the trip. Boe's Guide Service has a strongly faith-centered identity and emphasizes creating memorable fishing experiences for guests of varying ages and experience levels.",
+      "short_description": "Casey Stand's Lake Texoma striper guide service based at Mill Creek Marina, with bait, tackle, equipment and fish cleaning provided.",
+      "why_visit": "Boe's Guide Service is designed as a straightforward Lake Texoma fishing experience in which most of the fishing equipment is already handled for the guest. Casey provides the bait, rods, reels, tackle, instruction and fish-cleaning service, making the trip accessible to visitors who do not arrive with their own fishing setup.",
+      "why_its_unique": "Boe's combines a traditional Lake Texoma striper-guide operation with a distinctly faith-centered approach. Casey and his family openly describe Christian faith as central to the business and say guided trips begin and end with prayer while focusing on fellowship, families and creating lasting memories on the lake.",
+      "address": "512 Mill Creek Resort Rd",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "address_note": "Boe's Guide Service currently publishes 512 Mill Creek Resort Rd as its business address. Texoma Connect independently identifies the business as operating from Mill Creek Marina at the same address.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-821-8473",
+      "email": "boesguideservice@yahoo.com",
+      "website": "https://www.boestand.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "twitter": null,
+      "tiktok": null,
+      "website_status_note": "The official website is currently accessible and its contact information and Mill Creek address are corroborated by current external sources. However, portions of the site's content are clearly older: the footer displays 2012 and the posted rate schedule states it became effective January 1, 2022. Current rates and other time-sensitive policies should therefore be confirmed directly.",
+      "hours": null,
+      "hours_note": "Boe's Guide Service operates by reservation rather than conventional storefront hours. The official homepage invites guests to call at any time, but TWG should not interpret that statement as formal 24-hour business hours.",
+      "price_range": null,
+      "pricing_note": "Current 2026 pricing could not be verified. The official website's most recent visible rate schedule is explicitly dated January 1, 2022 and should not be represented as current pricing.",
+      "historical_published_rates": {
+        "effective_date": "2022-01-01",
+        "status": "historical_unconfirmed_current",
+        "monday_through_thursday_minimum": "$450",
+        "friday_through_sunday_minimum": "$600",
+        "four_anglers": "$600",
+        "five_anglers": "$750",
+        "six_anglers": "$900",
+        "note": "These remain displayed on the official site but are explicitly labeled effective January 1, 2022. Call 903-821-8473 for current pricing."
+      },
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "owner_operator": {
+        "name": "Casey Stand",
+        "public_name_displayed": "Casey Boe Stand",
+        "role": "Owner / fishing guide",
+        "identity_note": "The first-party website's testimony is signed Casey & Jacqueline Stand, while the homepage displays Casey Boe Stand. External fishing directories often refer to the service as Casey Boe's Lake Texoma Striper Guide Service. TWG should use Casey Stand as the operator name and preserve Boe as part of the business branding rather than assuming it is his surname."
+      },
+      "guide_license": {
+        "current_odwc_verification": true,
+        "odwc_business_name": "Boes Guide Service",
+        "odwc_phone": "903-821-8473",
+        "odwc_water": "Texhoma",
+        "note": "The Oklahoma Department of Wildlife Conservation currently includes Boes Guide Service at the matching phone number in its known licensed fishing-guide directory."
+      },
+      "target_species": [
+        "Striped Bass"
+      ],
+      "waters_guided": [
+        "Lake Texoma"
+      ],
+      "primary_specialty": "Lake Texoma striped bass",
+      "fishing_style": {
+        "bait_provided": true,
+        "artificial_lure_only": false,
+        "live_bait_specificity_verified": false,
+        "instruction_available": true,
+        "electronics_used": true,
+        "note": "The current first-party site says bait is prepared and provided but does not clearly distinguish current live-bait versus artificial-lure methods. TWG should not characterize the guide as live-bait-only or artificial-lure-only without direct verification."
+      },
+      "equipment_and_services": [
+        "Fishing tackle",
+        "Rods",
+        "Reels",
+        "Bait",
+        "Marine electronics",
+        "Fishing instruction",
+        "Safety and protective equipment",
+        "Fish cleaning",
+        "Fish filleting",
+        "Fish bagging"
+      ],
+      "trip_inclusions": [
+        "Professional fishing guide",
+        "Fishing tackle",
+        "Rods and reels",
+        "Bait",
+        "Use of onboard marine electronics",
+        "Fishing instruction",
+        "Required onboard safety equipment",
+        "Fish cleaning",
+        "Bagging of cleaned catch"
+      ],
+      "guest_should_bring": [
+        "Appropriate current Lake Texoma fishing license unless legally exempt",
+        "Drinks",
+        "Snacks",
+        "Weather-appropriate clothing",
+        "Rain gear when appropriate",
+        "Cold-weather gear when appropriate",
+        "Sunscreen",
+        "Hat",
+        "Container or cooler with ice for cleaned fish"
+      ],
+      "special_needs": {
+        "advance_notice_requested": true,
+        "note": "The official website asks guests to notify the guide in advance when special accommodations are needed and states that the service will assist when possible."
+      },
+      "party_size": {
+        "published_rate_schedule_reaches": 6,
+        "maximum_capacity_verified": null,
+        "note": "The official posted rate schedule includes pricing through six fishermen, but TWG did not find a current first-party statement establishing six as a hard maximum vessel capacity."
+      },
+      "trip_duration": null,
+      "trip_duration_note": "No current first-party trip-duration statement was located during this research pass.",
+      "boat": {
+        "make": null,
+        "model": null,
+        "length": null,
+        "engine": null,
+        "electronics": true,
+        "safety_equipment": true,
+        "note": "The official website confirms modern fish-finding electronics and Coast Guard-compliant safety equipment but does not publish sufficiently current boat specifications for TWG to identify the vessel."
+      },
+      "faith_identity": {
+        "faith_centered": true,
+        "tradition": "Christian",
+        "note": "The business's official website openly describes Christian faith as central to the operation. Casey and Jacqueline Stand say they turned their business and daily lives over to God, and the guide-service description says trips begin with prayer for a safe and productive charter and conclude with thanks."
+      },
+      "services": [
+        "Professional Lake Texoma fishing-guide service",
+        "Striped-bass fishing trips",
+        "Private guided fishing outings",
+        "Fishing instruction",
+        "Family fishing",
+        "Bait and tackle",
+        "Fish cleaning",
+        "Fish filleting and bagging"
+      ],
+      "good_to_know": [
+        "Boe's Guide Service is currently based at 512 Mill Creek Resort Rd in Pottsboro.",
+        "Texoma Connect specifically identifies the business as operating from Mill Creek Marina.",
+        "The current primary phone is 903-821-8473.",
+        "The current published email is boesguideservice@yahoo.com.",
+        "The official website is boestand.com.",
+        "The business is operated by Casey Stand; the first-party homepage also displays the name Casey Boe Stand.",
+        "Boe's Guide Service specializes in Lake Texoma striped-bass fishing.",
+        "Bait, tackle, rods and reels are provided.",
+        "The service uses marine electronics to locate fish.",
+        "Fishing instruction is provided.",
+        "The catch is cleaned and bagged at the end of the trip.",
+        "Guests are encouraged to bring a cooler or container with ice for cleaned fish.",
+        "Guests may bring drinks and snacks aboard.",
+        "Guests should bring weather-appropriate clothing, rain gear when needed, sunscreen and a hat.",
+        "The guide asks guests to provide advance notice of special accommodation needs.",
+        "The business has a strongly Christian faith-centered identity.",
+        "The Oklahoma Department of Wildlife Conservation currently lists Boes Guide Service at 903-821-8473 among its known licensed fishing guides.",
+        "The official site's visible rates are not current enough to publish as 2026 pricing: the rate page explicitly says the schedule became effective January 1, 2022.",
+        "The old official rate schedule lists pricing for parties through six anglers, but current vessel capacity was not separately verified.",
+        "Current boat specifications, trip length, deposit requirements, cancellation policy and current social-media accounts were not confidently verified during this research pass.",
+        "Current rates should be confirmed directly with the business before booking."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "mill-creek-resort-and-marina",
+        "business_name": "Mill Creek Resort & Marina",
+        "relationship_note": "Boe's Guide Service currently publishes 512 Mill Creek Resort Rd as its operating address and is independently identified as a Mill Creek Marina fishing-guide business."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Boe's Guide Service is based at Mill Creek Marina in Pottsboro, Texas, and guides fishing trips on Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 8, 2026 using the currently accessible official Boe's Guide Service website, including its Home, About Us, Rates, What to Expect, What to Bring, Testimony and Contact pages; the current Oklahoma Department of Wildlife Conservation known licensed fishing-guide directory; current Texoma Connect fishing-guide listings; and Casey Stand's current professional profile. The first-party site confirms Boe's Guide Service, 512 Mill Creek Resort Rd, 903-821-8473, boesguideservice@yahoo.com, Lake Texoma striper specialization, supplied bait/tackle/rods/reels, onboard electronics, fishing instruction, safety equipment, fish cleaning and faith-centered identity. Texoma Connect independently identifies Boe's Guide Service at Mill Creek Marina with the same address, phone and website. ODWC independently lists Boes Guide Service at the matching 903-821-8473 number as a known licensed guide for Texoma. The first-party testimony identifies the family as Casey and Jacqueline Stand, while the homepage displays Casey Boe Stand; TWG therefore uses Casey Stand as the operator and preserves Boe as part of the public brand. The official rate page is explicitly dated January 1, 2022, so its prices are preserved only as a historical published snapshot and are not represented as current 2026 rates. Current boat specifications, trip duration, cancellation policy and official social-media URLs were not sufficiently verified and have deliberately been omitted.",
+      "sources": [
+        {
+          "source_name": "Boe's Guide Service — Official Website",
+          "source_url": "https://www.boestand.com/",
+          "source_type": "official",
+          "supports": "Current business identity, Mill Creek address, phone, email and Lake Texoma striper-guide operation."
+        },
+        {
+          "source_name": "Boe's Guide Service — About Us",
+          "source_url": "https://www.boestand.com/about-us/",
+          "source_type": "official",
+          "supports": "Business address, phone, email and Lake Texoma fishing focus."
+        },
+        {
+          "source_name": "Boe's Guide Service — What to Expect",
+          "source_url": "https://www.boestand.com/what-to-expect/",
+          "source_type": "official",
+          "supports": "Provided bait, tackle, rods, reels, electronics, instruction, safety equipment, fish cleaning and business approach."
+        },
+        {
+          "source_name": "Boe's Guide Service — What to Bring",
+          "source_url": "https://www.boestand.com/what-to-expect/what-to-bring/",
+          "source_type": "official",
+          "supports": "Guest preparation, drinks/snacks, weather gear, sunscreen and special-accommodation notice."
+        },
+        {
+          "source_name": "Boe's Guide Service — Our Rates",
+          "source_url": "https://www.boestand.com/our-rates/",
+          "source_type": "official_historical",
+          "supports": "Official rate schedule explicitly labeled effective January 1, 2022. Used only as historical pricing evidence."
+        },
+        {
+          "source_name": "Boe's Guide Service — Our Testimony",
+          "source_url": "https://www.boestand.com/our-testimony/",
+          "source_type": "official",
+          "supports": "Casey and Jacqueline Stand identity, family background and faith-centered business philosophy."
+        },
+        {
+          "source_name": "Oklahoma Department of Wildlife Conservation — Fishing Guides",
+          "source_url": "https://www.wildlifedepartment.com/fishing/fishing-guides",
+          "source_type": "government",
+          "supports": "Current known licensed-guide listing for Boes Guide Service, 903-821-8473, Texoma."
+        },
+        {
+          "source_name": "Texoma Connect — Casey Boe's Lake Texoma Striper Guide Service",
+          "source_url": "https://texomaconnect.com/lake-texoma-travel-guide/casey-boes-lake-texoma-striper-guide-service/",
+          "source_type": "secondary",
+          "supports": "Independent confirmation of Mill Creek Marina relationship, address, phone, website, equipment and fish-cleaning service."
         }
       ],
       "last_checked": "2026-08-08",
