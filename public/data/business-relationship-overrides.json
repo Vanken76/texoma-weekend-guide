@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Relationship bridge for published legacy records that predate canonical relationship fields.",
+  "records": {
+    "grandpappy-point-resort-marina-denison": {
+      "parent_business": {
+        "slug": "lake-texoma",
+        "business_name": "Lake Texoma",
+        "relationship_note": "Grandpappy Point Resort & Marina is located on Lake Texoma in Denison, Texas."
+      },
+      "good_to_know_replacements": {
+        "The Point Restaurant is a separate waterfront restaurant located within the marina and should eventually have its own linked directory record.": "The Point Restaurant is a separate waterfront restaurant located within Grandpappy Point Resort & Marina and has its own linked TWG directory record."
+      }
+    },
+    "the-point-restaurant": {
+      "parent_business": {
+        "slug": "grandpappy-point-resort-marina-denison",
+        "business_name": "Grandpappy Point Resort & Marina",
+        "relationship_note": "The Point Restaurant is located inside Grandpappy Point Resort & Marina."
+      }
+    }
+  }
+}
