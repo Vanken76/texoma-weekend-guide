@@ -79,7 +79,16 @@ const pageDescription = entity.seo_description || entity.short_description || en
 <BaseLayout title={pageTitle} description={pageDescription} image={heroPrimary?.url || undefined}>
   <article class="region-page">
     <header class="region-hero">
-      {heroPrimary?.url && <img class="hero-image" src={heroPrimary.url} alt={heroPrimary.alt_text || `${entity.name} region`} />}
+      {heroPrimary?.url && (
+        entity.slug === "texoma" ? (
+          <picture>
+            <source media="(max-width: 560px)" srcset="/images/geography/texoma-hero-mobile.webp" />
+            <img class="hero-image" src={heroPrimary.url} alt={heroPrimary.alt_text || `${entity.name} region`} />
+          </picture>
+        ) : (
+          <img class="hero-image" src={heroPrimary.url} alt={heroPrimary.alt_text || `${entity.name} region`} />
+        )
+      )}
       <div class="hero-overlay"></div>
       <div class="container hero-content">
         <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><span>Regions</span><span>›</span><span>{entity.name}</span></nav>
