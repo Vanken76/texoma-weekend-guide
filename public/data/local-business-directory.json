@@ -5,8 +5,8 @@
   "generated_on": "2026-08-09",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 669,
-  "publish_ready_count": 334,
+  "business_count": 670,
+  "publish_ready_count": 335,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -45022,6 +45022,166 @@
           "source_url": "https://travel.laketexomaonline.com/list/member/sparky-s-guide-service-mead-2622",
           "source_type": "regional association",
           "supports": "Older Mead-area 606 Willow Springs Rd and 580-305-0533 information, used only to document legacy location/contact history rather than canonical current data."
+        }
+      ],
+      "last_checked": "2026-08-09",
+      "last_verified": "2026-08-09",
+      "created_on": "2026-08-09",
+      "updated_on": "2026-08-09"
+    },
+    {
+      "slug": "randy-rutledge-guide-service",
+      "business_name": "Randy Rutledge Guide Service",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "West end of Lake Texoma — Texas side",
+      "primary_category": "Fishing Guide Service",
+      "category": [
+        "Fishing Guide Service"
+      ],
+      "tags": [
+        "Randy Rutledge Guide Service",
+        "Randy Rutledge",
+        "RR Guide Service",
+        "Double R Guide Service",
+        "Lake Texoma Striper Fishing Adventures",
+        "Lake Texoma",
+        "Texas",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Striper Fishing",
+        "Striped Bass",
+        "West Lake Texoma",
+        "Walnut Creek Resort"
+      ],
+      "description": "Randy Rutledge Guide Service is a professional Lake Texoma fishing-guide operation serving the west end of the lake. Current Lake Texoma tourism information identifies Randy Rutledge Guide Service at 817-307-5443 and associates it with the RR Guides website. Walnut Creek Resort currently promotes the same phone number and RR Guides link in its Fishing Guides section under the descriptive label Lake Texoma Striper Fishing Adventures.",
+      "short_description": "Professional Lake Texoma fishing-guide service operated by Randy Rutledge and serving the west end of the lake.",
+      "why_visit": "Randy Rutledge Guide Service provides guided fishing access on the west end of Lake Texoma and is currently recommended directly by Walnut Creek Resort to its visitors.",
+      "why_its_unique": "The guide service is specifically associated with the west end of Lake Texoma and has an established referral relationship with Walnut Creek Resort. The business has appeared online under Randy Rutledge Guide Service, RR Guide Service and Double R Guide Service, while Walnut Creek uses the descriptive link text Lake Texoma Striper Fishing Adventures.",
+      "address": null,
+      "city": null,
+      "state": "TX",
+      "postal_code": null,
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "817-307-5443",
+      "phone_note": "Current Walnut Creek Resort and TexomaConnect listings both associate 817-307-5443 with this Lake Texoma guide operation.",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Fishing trips are reservation-based. No reliable current regular operating hours were verified. Call 817-307-5443 for current availability.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null,
+        "reservations_recommended": true,
+        "free_wifi": null,
+        "boat_parking": null,
+        "rv_parking": null,
+        "waterfront": null,
+        "lake_view": null
+      },
+      "amenities": [
+        "Guided Lake Texoma fishing",
+        "Striped-bass fishing",
+        "West Lake Texoma fishing trips",
+        "Reservation-based guide service"
+      ],
+      "good_to_know": [
+        "Walnut Creek Resort currently lists a fishing-guide contact at 817-307-5443 and links that listing directly to rrguides.com.",
+        "Walnut Creek displays the descriptive link text Lake Texoma Striper Fishing Adventures rather than Randy Rutledge Guide Service.",
+        "Current TexomaConnect information identifies 817-307-5443 and rrguides.com as Randy Rutledge Guide Service.",
+        "TexomaConnect describes Randy Rutledge Guide Service as operating on the west end of Lake Texoma.",
+        "Older/current metadata associated with rrguides.com identifies the operation as RR Guide Service or Double R Guide Service and describes Lake Texoma Striper guide services.",
+        "The rrguides.com domain was reported offline during the August 2026 verification pass.",
+        "Because the domain is currently unavailable, TWG should not publish it as a functioning website link until it comes back online.",
+        "Randy Rutledge Guide Service should not be confused with Texoma Striper Adventures operated by Captain Charles Stanley.",
+        "Texoma Striper Adventures currently uses 817-506-1600 and texomastriperadventures.com; it is a separate guide business.",
+        "Walnut Creek Resort's current listing establishes a meaningful referral/business relationship but does not explicitly state that Randy Rutledge Guide Service is physically based at the marina.",
+        "Walnut Creek therefore should be represented as a related business rather than the canonical physical parent.",
+        "No current street address, trip duration, boat specifications, prices, included equipment or regular operating hours were sufficiently verified during this research pass, so those details are intentionally omitted rather than inferred."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "event_types": [],
+      "event_sources": [],
+      "parent_business": {
+        "slug": "lake-texoma",
+        "business_name": "Lake Texoma",
+        "relationship_note": "Randy Rutledge Guide Service provides guided fishing trips on the west end of Lake Texoma."
+      },
+      "related_businesses": [
+        {
+          "slug": "walnut-creek-resort",
+          "business_name": "Walnut Creek Resort",
+          "relationship_note": "Walnut Creek Resort currently promotes Randy Rutledge's 817-307-5443 guide operation in its Fishing Guides section and links directly to the RR Guides domain. Current evidence establishes a referral relationship but not confirmed physical containment at Walnut Creek."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Randy Rutledge Guide Service is associated with the Texas/west side of Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "features": [
+        "Lake Texoma fishing guide",
+        "Randy Rutledge",
+        "Striper fishing",
+        "West Lake Texoma",
+        "Walnut Creek Resort referral"
+      ],
+      "source_verified": true,
+      "verification_note": "Researched and verified August 9, 2026 after checking the actual canonical TWG local-business-directory.json and confirming that Randy Rutledge Guide Service was not already present. Walnut Creek Resort's current first-party homepage lists Lake Texoma Striper Fishing Adventures at 817-307-5443 and links that listing directly to rrguides.com. Current TexomaConnect information independently identifies the same 817-307-5443 phone and rrguides.com domain as Randy Rutledge Guide Service and describes the operation as serving the west end of Lake Texoma. Separate current web metadata for rrguides.com identifies the site as RR Guide Service / Double R Guide Service providing Lake Texoma Striper fishing-guide services. The rrguides.com domain is currently offline, so TWG does not publish it as an active website link. The Walnut Creek listing establishes a current referral relationship but does not explicitly establish physical operation from the marina, so Walnut Creek is stored as related_business rather than parent_business. No current trip pricing, schedule, exact street address, boat specification or equipment list was sufficiently verified and those fields are deliberately left unset.",
+      "sources": [
+        {
+          "source_name": "Walnut Creek Resort",
+          "source_url": "https://www.walnutcreekresort.com/",
+          "source_type": "official related business",
+          "supports": "Current 817-307-5443 guide contact, Lake Texoma Striper Fishing Adventures display label and direct rrguides.com link."
+        },
+        {
+          "source_name": "TexomaConnect — Lake Texoma Fishing Guides",
+          "source_url": "https://texomaconnect.com/lake-texoma-fishing-guides/",
+          "source_type": "regional tourism",
+          "supports": "Current Randy Rutledge Guide Service identity, 817-307-5443 phone, rrguides.com website association and west-Lake-Texoma operating area."
+        },
+        {
+          "source_name": "RRGuides.com domain status",
+          "source_url": "https://webrate.org/site/rrguides.com/",
+          "source_type": "domain-status corroboration",
+          "supports": "RR/Double R Guide Service historical domain identity and current offline status as of the 2026 verification period."
         }
       ],
       "last_checked": "2026-08-09",
