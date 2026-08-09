@@ -5,8 +5,8 @@
   "generated_on": "2026-08-09",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 671,
-  "publish_ready_count": 337,
+  "business_count": 672,
+  "publish_ready_count": 338,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -45505,6 +45505,231 @@
           "source_url": "https://www.walnutcreekresort.com/",
           "source_type": "official related business",
           "supports": "Current Alley Outdoor Adventures display name, matching 620-253-8306 phone and active fishing-guide referral relationship with Walnut Creek Resort."
+        }
+      ],
+      "last_checked": "2026-08-09",
+      "last_verified": "2026-08-09",
+      "created_on": "2026-08-09",
+      "updated_on": "2026-08-09"
+    },
+    {
+      "slug": "eyc-boat-center",
+      "business_name": "EYC Boat Center",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "5995 FM 84, Denison, TX 75020 — off-water boat-sales showroom serving Lake Texoma and the Texoma boating market",
+      "primary_category": "Boat Dealer",
+      "category": [
+        "Boat Dealer"
+      ],
+      "tags": [
+        "EYC Boat Center",
+        "Eisenhower Boat Center",
+        "Eisenhower Yacht Club Boat Center",
+        "Eisenhower Yacht Club",
+        "Lake Texoma",
+        "Denison",
+        "Texas",
+        "Grayson County",
+        "Boat Dealer",
+        "Boat Sales",
+        "New Boats",
+        "Used Boats",
+        "Pre-Owned Boats",
+        "Sea Pro Boats",
+        "Sea Pro Dealer",
+        "Yacht Brokerage",
+        "Boat Brokerage",
+        "Marine Parts",
+        "Suzuki Outboard Parts",
+        "Mercury Outboard Parts",
+        "Marine Batteries",
+        "Boat Trailer Storage",
+        "Marine Sales"
+      ],
+      "description": "EYC Boat Center is the off-water boat-sales showroom associated with Eisenhower Yacht Club in Denison, Texas. Located at 5995 FM 84 rather than at the marina itself, the Boat Center handles new and pre-owned boat sales for the Lake Texoma market. Current inventory includes new Sea Pro boats along with a substantial selection of used powerboats and yachts marketed through Eisenhower Yacht Club's brokerage operation. The Boat Center also offers marine parts for Suzuki and Mercury outboards, marine batteries and monthly trailer storage.",
+      "short_description": "Denison boat dealership and showroom associated with Eisenhower Yacht Club, selling new Sea Pro and pre-owned boats plus marine parts and trailer storage.",
+      "why_visit": "EYC Boat Center gives Lake Texoma boaters a dedicated off-water location to shop new and used boats without traveling into the marina. Buyers can view current Sea Pro inventory, explore brokerage boats and obtain common outboard parts and marine batteries.",
+      "why_its_unique": "The Boat Center separates Eisenhower Yacht Club's sales operation from its marina property: the showroom is on FM 84 while the marina remains inside Eisenhower State Park. That makes it a distinct public-facing business location while retaining direct integration with EYC's Lake Texoma sales and brokerage operation.",
+      "address": "5995 FM 84",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-412-0010",
+      "phone_note": "Current business-location listing for EYC Boat Center at 5995 FM 84 uses 903-412-0010. Eisenhower Yacht Club's current online brokerage inventory separately uses 903-499-4744 as a seller contact and frequently identifies Aaron at 903-345-1931 for individual boat inquiries. The marina's main number remains 903-463-3999. TWG uses the exact Boat Center location number as canonical.",
+      "email": null,
+      "website": "https://www.boattexoma.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "8:00 AM–5:00 PM",
+        "tuesday": "8:00 AM–5:00 PM",
+        "wednesday": "8:00 AM–5:00 PM",
+        "thursday": "8:00 AM–5:00 PM",
+        "friday": "8:00 AM–5:00 PM",
+        "saturday": "8:00 AM–5:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current EYC Boat Center business-location data lists Monday through Saturday 8:00 AM–5:00 PM with Sunday closed. A recent boat-sale listing independently advertised the 5995 FM 84 showroom as available Monday-Saturday from 8:00 AM to 5:00 PM.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null,
+        "reservations_recommended": null,
+        "free_wifi": null,
+        "boat_parking": null,
+        "rv_parking": null,
+        "waterfront": false,
+        "lake_view": false
+      },
+      "amenities": [
+        "Boat showroom",
+        "New boat sales",
+        "Pre-owned boat sales",
+        "Sea Pro boat inventory",
+        "Boat brokerage",
+        "Yacht brokerage",
+        "Suzuki outboard parts",
+        "Mercury outboard parts",
+        "Marine batteries",
+        "Monthly boat-trailer storage",
+        "Customer parking",
+        "Wheelchair-accessible parking",
+        "Wheelchair-accessible entrance"
+      ],
+      "good_to_know": [
+        "EYC Boat Center is located at 5995 FM 84 in Denison, Texas.",
+        "The Boat Center is physically separate from Eisenhower Yacht Club Marina, which is located at 2141 Park Road 20 inside Eisenhower State Park.",
+        "Because the showroom and marina occupy different properties, TWG should not model EYC Boat Center as a physical child located inside Eisenhower Yacht Club.",
+        "Eisenhower Yacht Club and EYC Boat Center nevertheless have a direct operational and branding relationship.",
+        "TexomaConnect currently directs customers to the Boat Center showroom at 5995 FM 84 for new and used boat sales.",
+        "Current 2026 marketplace inventory confirms Eisenhower Yacht Club continues to actively sell new Sea Pro boats in Denison.",
+        "Sea Pro's official 2026 event calendar identifies Eisenhower Yacht Club as the organizer for its Dallas Boat Show appearances, providing current manufacturer-level corroboration of the Sea Pro sales relationship.",
+        "Current Eisenhower Yacht Club marketplace profiles show dozens of active new and pre-owned listings and hundreds of historical sales.",
+        "Recent listings include new 2026 Sea Pro Bay and Sandbar models as well as used cruisers, runabouts and motor yachts.",
+        "Many current boat listings direct individual sales inquiries to Aaron at 903-345-1931.",
+        "Current marketplace seller profiles also expose 903-499-4744 for Eisenhower Yacht Club's sales/brokerage operation.",
+        "The exact EYC Boat Center location listing currently uses 903-412-0010, which TWG therefore uses as the Boat Center's canonical phone.",
+        "Eisenhower Yacht Club's 903-463-3999 marina number should remain attached to the marina record rather than replacing the Boat Center's location-specific number.",
+        "Current Boat Center hours are Monday through Saturday from 8:00 AM to 5:00 PM, with Sunday closed.",
+        "The Boat Center currently carries parts for Suzuki and Mercury outboards and marine batteries.",
+        "Monthly trailer storage is currently advertised as a Boat Center service.",
+        "Eisenhower Yacht Club's broader operation also provides marine service and repairs, but current evidence does not clearly distinguish which mechanical jobs are performed at the FM 84 showroom versus the marina service operation. TWG should therefore avoid claiming that every EYC repair service is physically performed at EYC Boat Center.",
+        "The domain eycboatcenter.com still resolves and remains registered in 2026, but its current public business content could not be reliably retrieved during this research pass.",
+        "TWG therefore uses the current BoatTexoma/Eisenhower Yacht Club web presence as the public website rather than relying on the dedicated domain.",
+        "No separate restaurant, event venue or other child business operates within EYC Boat Center based on current evidence."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "event_types": [
+        "Boat shows",
+        "Marine sales events",
+        "Boat inventory showcases"
+      ],
+      "event_sources": [
+        "Sea Pro Boats official event calendar",
+        "Eisenhower Yacht Club / BoatTexoma",
+        "Current boat-sales inventory"
+      ],
+      "parent_business": {
+        "slug": "lake-texoma",
+        "business_name": "Lake Texoma",
+        "relationship_note": "EYC Boat Center is an off-water Denison boat dealership serving the Lake Texoma boating market and operating in direct association with Eisenhower Yacht Club."
+      },
+      "related_businesses": [
+        {
+          "slug": "eisenhower-yacht-club",
+          "business_name": "Eisenhower Yacht Club",
+          "relationship_note": "EYC Boat Center is the separately located boat-sales/showroom operation associated with Eisenhower Yacht Club. The Boat Center is at 5995 FM 84 while the marina is at 2141 Park Road 20, so TWG represents them as related businesses rather than a physical parent-child pair."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "EYC Boat Center is located in Denison, Texas, and serves the Texas side of the Lake Texoma boating market."
+        }
+      ],
+      "related_events": [],
+      "features": [
+        "Lake Texoma-area boat dealership",
+        "Separate off-water showroom",
+        "New Sea Pro boats",
+        "Pre-owned boats",
+        "Boat and yacht brokerage",
+        "Suzuki and Mercury outboard parts",
+        "Marine batteries",
+        "Trailer storage",
+        "Eisenhower Yacht Club affiliation"
+      ],
+      "source_verified": true,
+      "verification_note": "Fully researched and verified August 9, 2026 after checking the actual canonical TWG local-business-directory.json and confirming that EYC Boat Center does not currently exist as a TWG business record. Current EYC/TexomaConnect material identifies a distinct Boat Center showroom at 5995 FM 84 in Denison for new and used boat sales, Sea Pro boats, Suzuki and Mercury outboard parts, marine batteries and monthly trailer storage. Current EYC Boat Center business-location data independently confirms the 5995 FM 84 address, Boat Dealer category, 903-412-0010 phone and Monday-Saturday 8:00 AM-5:00 PM hours. Current 2026 YachtWorld and Boat Trader inventory confirms Eisenhower Yacht Club remains an active Denison dealer/broker with substantial new Sea Pro and used-boat inventory; current listings frequently direct inquiries to Aaron at 903-345-1931 and seller profiles display 903-499-4744. Sea Pro's official 2026 event calendar identifies Eisenhower Yacht Club as organizer of Dallas Boat Show appearances, corroborating the current Sea Pro sales relationship. The Boat Center and Eisenhower Yacht Club Marina are physically separate: EYC Boat Center is at 5995 FM 84 and the marina is at 2141 Park Road 20 inside Eisenhower State Park. Under TWG relationship rules, shared ownership/operation does not make a separately addressed business a physical child, so the two entities are linked as related_businesses rather than parent/child. The dedicated eycboatcenter.com domain still resolves in 2026 but its live public content could not be reliably verified, so BoatTexoma is used as the current public web presence.",
+      "sources": [
+        {
+          "source_name": "TexomaConnect — Eisenhower Yacht Club Marina",
+          "source_url": "https://texomaconnect.com/lake-texoma-travel-guide/eisenhower-yacht-club-marina/",
+          "source_type": "regional tourism",
+          "supports": "Separate Boat Center showroom at 5995 FM 84, new and used boats, Sea Pro sales, Suzuki/Mercury outboard parts, marine batteries and monthly trailer storage."
+        },
+        {
+          "source_name": "Sea Pro Boats — 2026 Dallas Boat Show",
+          "source_url": "https://seapromfg.com/event/dallas-boat-show-4/",
+          "source_type": "manufacturer",
+          "supports": "Current 2026 manufacturer-level association of Eisenhower Yacht Club with Sea Pro boat-show activity."
+        },
+        {
+          "source_name": "YachtWorld — 2026 Sea Pro 250 Bay",
+          "source_url": "https://www.yachtworld.com/yacht/2026-sea-pro-250-bay-10082338/",
+          "source_type": "current sales inventory",
+          "supports": "Current new Sea Pro inventory, Eisenhower Yacht Club seller identity, 903-499-4744 sales profile and Aaron 903-345-1931 sales contact."
+        },
+        {
+          "source_name": "YachtWorld — Eisenhower Yacht Club used inventory",
+          "source_url": "https://www.yachtworld.com/yacht/1988-chris--craft-381-catalina-10023546/",
+          "source_type": "current sales inventory",
+          "supports": "Current used-boat and yacht-brokerage activity, Aaron sales contact and active Eisenhower Yacht Club seller operation."
+        },
+        {
+          "source_name": "EYC Boat Center business listing",
+          "source_url": null,
+          "source_type": "current local business index",
+          "supports": "5995 FM 84 address, EYC Boat Center identity, Boat Dealer category, 903-412-0010 phone, Monday-Saturday 8:00 AM-5:00 PM hours and accessibility attributes."
+        },
+        {
+          "source_name": "EYCBoatCenter.com domain status",
+          "source_url": "https://www.ipaddress.com/website/eycboatcenter.com/",
+          "source_type": "domain verification",
+          "supports": "Dedicated EYC Boat Center domain remains registered and resolving in 2026, while current public content could not be independently verified."
         }
       ],
       "last_checked": "2026-08-09",
