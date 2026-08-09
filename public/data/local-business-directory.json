@@ -5,8 +5,8 @@
   "generated_on": "2026-08-09",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 688,
-  "publish_ready_count": 354,
+  "business_count": 689,
+  "publish_ready_count": 355,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -49655,6 +49655,243 @@
           "source_url": "https://okstateparks.reserveamerica.com/camping/lake-texoma-state-park/r/campgroundDetails.do?contractCode=OK&parkId=1260040",
           "source_type": "government",
           "supports": "Independent current identification of Shawn Morales among the Catfish Bay/Lake Texoma guide group and year-round guide-service context."
+        }
+      ],
+      "last_checked": "2026-08-09",
+      "last_verified": "2026-08-09",
+      "created_on": "2026-08-09",
+      "updated_on": "2026-08-09"
+    },
+    {
+      "slug": "garys-striper-guide-service",
+      "business_name": "Gary's Striper Guide Service",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Catfish Bay Marina Gas Dock, 11586 Rooster Creek Drive, Kingston, OK 73439 — independent Lake Texoma striped-bass guide operated by Gary Scarberry",
+      "primary_category": "Fishing Guide",
+      "category": [
+        "Fishing Guide"
+      ],
+      "tags": [
+        "Gary's Striper Guide Service",
+        "Scarberry's Guide Service",
+        "Gary Scarberry",
+        "Gary Scarberry Guide Service",
+        "Lake Texoma",
+        "Catfish Bay Marina",
+        "Catfish Bay Striper Guide Association",
+        "Texoma Striper Guide Association",
+        "Kingston",
+        "Oklahoma",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Striper Guide",
+        "Striped Bass",
+        "Guided Fishing Trips",
+        "Year Round Fishing",
+        "Fish Cleaning",
+        "Pointe Vista"
+      ],
+      "description": "Gary's Striper Guide Service is Gary Scarberry's independent professional Lake Texoma fishing-guide operation based at Catfish Bay Marina near Kingston, Oklahoma. Gary is currently listed by Pointe Vista among the independent guides operating from the Catfish Bay Marina Gas Dock, while Oklahoma's current licensed-guide directory identifies his business as Gary's Striper Guide Service at the same phone number. Oklahoma tourism and state-park sources also use the longstanding Scarberry's Guide Service name and describe year-round striped-bass trips with rods, tackle, bait and other fishing equipment supplied and fish filleted and bagged after the trip.",
+      "short_description": "Gary Scarberry's independent Lake Texoma striper guide service operating from Catfish Bay Marina Gas Dock.",
+      "why_visit": "Gary's Striper Guide Service offers a long-established Lake Texoma fishing option directly from Catfish Bay Marina, with the major fishing equipment supplied and fish-cleaning service available after the trip.",
+      "why_its_unique": "Gary Scarberry has a longstanding presence in the Lake Texoma guide community and remains on Catfish Bay Marina's current guide roster. His operation is independently corroborated by Oklahoma's current licensed-guide registry, Oklahoma State Parks and recent national fishing coverage.",
+      "address": "11586 Rooster Creek Drive",
+      "city": "Kingston",
+      "state": "OK",
+      "postal_code": "73439",
+      "country": "USA",
+      "address_note": "11586 Rooster Creek Drive is Catfish Bay Marina, Gary Scarberry's current operating and departure location through Pointe Vista. It should not be interpreted as a separately verified personal residence or mailing address.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "405-570-3304",
+      "phone_note": "Exact current phone match across Pointe Vista's Gary Scarberry listing, Oklahoma's Gary's Striper Guide Service licensed-guide entry and Oklahoma Tourism's Scarberry's Guide Service listing.",
+      "email": null,
+      "website": null,
+      "website_status_note": "Some business directories indicate that Gary's Striper Guide Service has maintained a website, but TWG did not verify a stable functioning first-party domain during the August 9, 2026 research pass and therefore leaves the canonical website field null.",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$–$$$",
+      "pricing_note": "Catfish Bay Marina currently publishes a general guide-service rate of $450 for one to three people and $150 for each additional person per boat. No separate current Gary-specific first-party pricing was verified, so visitors should confirm Gary's actual rate directly before booking.",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Guide trips operate by reservation rather than storefront hours. Oklahoma Tourism currently describes Scarberry's Guide Service as available year-round, with fishing beginning around daylight.",
+      "guide": {
+        "name": "Gary Scarberry",
+        "business_name_variants": [
+          "Gary's Striper Guide Service",
+          "Scarberry's Guide Service"
+        ],
+        "specialty": "Lake Texoma striped bass",
+        "current_catfish_bay_verification": "Pointe Vista currently lists Gary Scarberry at 405-570-3304 among the independent guides operating from Catfish Bay Marina Gas Dock.",
+        "current_oklahoma_license_verification": "The Oklahoma Department of Wildlife Conservation currently lists Gary's Striper Guide Service at 405-570-3304 among its known licensed fishing guides for Lake Texoma."
+      },
+      "waters_guided": [
+        "Lake Texoma"
+      ],
+      "target_species": [
+        "Striped Bass"
+      ],
+      "services": [
+        "Professional Lake Texoma fishing guide service",
+        "Guided striped-bass fishing",
+        "Private fishing trips",
+        "Bait supplied",
+        "Fishing rods supplied",
+        "Fishing tackle supplied",
+        "Fishing equipment supplied",
+        "Fish cleaning",
+        "Fish filleting",
+        "Fish bagging",
+        "Small-group fishing",
+        "Large-group coordination"
+      ],
+      "trip_details": {
+        "general_catfish_bay_rate_1_to_3_people": "$450",
+        "general_catfish_bay_additional_person": "$150",
+        "trip_duration_note": "Oklahoma Tourism currently describes Scarberry's Guide Service trips as approximately 6–8 hours on the water, beginning around daylight.",
+        "pricing_source_note": "Pricing is the current Catfish Bay Marina guide-program rate and should be confirmed directly with Gary because no Gary-specific current first-party rate was located."
+      },
+      "at_a_glance": {
+        "average_visit": "Approximately 6–8 hours according to current Oklahoma Tourism listing",
+        "price_range": "$$–$$$",
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null,
+        "reservations_recommended": true,
+        "free_wifi": null,
+        "boat_parking": null,
+        "rv_parking": null,
+        "waterfront": null,
+        "lake_view": null
+      },
+      "amenities": [
+        "Guided Lake Texoma fishing",
+        "Striped-bass fishing",
+        "Bait provided",
+        "Rods and tackle provided",
+        "Fishing equipment provided",
+        "Fish cleaning",
+        "Fish filleting",
+        "Fish bagging",
+        "Catfish Bay Marina Gas Dock departure access",
+        "Year-round guide-service availability",
+        "Small and larger group fishing"
+      ],
+      "good_to_know": [
+        "Gary's Striper Guide Service is operated by Gary Scarberry.",
+        "The current primary phone number is 405-570-3304.",
+        "Pointe Vista currently lists Gary Scarberry at that phone number among the independent guides operating from Catfish Bay Marina Gas Dock.",
+        "Oklahoma's current known licensed fishing-guide directory lists Gary's Striper Guide Service at the exact same 405-570-3304 phone number for Lake Texoma.",
+        "Oklahoma Tourism and Oklahoma State Parks use the alternate longstanding name Scarberry's Guide Service.",
+        "The matching guide name, phone number and Catfish Bay relationship establish Gary's Striper Guide Service and Scarberry's Guide Service as the same operation rather than separate businesses.",
+        "Oklahoma Tourism currently describes the guide service as operating year-round for Lake Texoma striped bass.",
+        "The current Oklahoma Tourism listing says fishing normally starts around daylight and describes approximately six to eight hours on the water.",
+        "That tourism listing describes three fully rigged 23-foot Falcon boats.",
+        "Because no functioning first-party Gary Scarberry website was verified during this research pass, current vessel inventory should be confirmed directly rather than assumed from the tourism listing.",
+        "Oklahoma Tourism states that rods, tackle, bait and fishing equipment are supplied.",
+        "Fish are described as being filleted and bagged after the trip.",
+        "The tourism listing says the operation can accommodate both small parties and larger groups.",
+        "Pointe Vista's current Catfish Bay guide program independently states that bait and equipment are furnished and catches are cleaned, filleted and bagged.",
+        "Catfish Bay Marina currently publishes a general guide rate of $450 for one to three anglers and $150 for each additional person per boat.",
+        "That is a marina-wide guide-program rate rather than a separately published Gary-specific price, so customers should verify final pricing directly with Gary.",
+        "A recent 2026 Wired2Fish feature identifies Gary Scarberry as the operator of Gary's Striper Guide Service and quotes him discussing year-round Lake Texoma striper fishing.",
+        "In that recent coverage, Gary identifies April through June and October through December as particularly productive periods when weather conditions cooperate.",
+        "Oklahoma State Parks currently identifies Gary Scarberry from Scarberry's Guide Service among the Texoma Striper Guide Association members associated with Catfish Bay Marina.",
+        "Pointe Vista explicitly states that Catfish Bay guides are independent businesses and are not employees of Catfish Bay Marina or Pointe Vista.",
+        "Gary's physical operation from the Catfish Bay Marina Gas Dock nevertheless supports a TWG physical parent relationship with Catfish Bay Marina.",
+        "No current official email or social-media account was confidently verified during this research pass.",
+        "Fishing-license requirements and Lake Texoma regulations can change; visitors should verify current requirements before fishing."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "event_types": [],
+      "event_sources": [],
+      "parent_business": {
+        "slug": "catfish-bay-marina",
+        "business_name": "Catfish Bay Marina",
+        "relationship_note": "Gary's Striper Guide Service currently operates from the Catfish Bay Marina Gas Dock as an independent professional fishing-guide business."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Gary's Striper Guide Service currently operates from Catfish Bay Marina near Kingston, Oklahoma, and guides fishing trips on Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "features": [
+        "Gary Scarberry",
+        "Current Catfish Bay Marina guide",
+        "Current Oklahoma licensed-guide listing",
+        "Lake Texoma striped-bass fishing",
+        "Year-round guide service",
+        "Bait and equipment supplied",
+        "Fish cleaning, filleting and bagging",
+        "Longstanding Scarberry's Guide Service identity"
+      ],
+      "source_verified": true,
+      "verification_note": "Fully researched and verified August 9, 2026 after first checking the actual canonical TWG local-business-directory.json. Crosswinds Striper Guide Service is now published and Gary Scarberry has no canonical TWG business record. Payton Morales, the next name on Pointe Vista's current Catfish Bay guide roster, was also checked but could not be independently tied to a named guide business or current Oklahoma licensed-guide-directory entry beyond Pointe Vista's roster, so TWG did not create an inadequately sourced record. The next strongly verifiable guide is Gary Scarberry. Current first-party Pointe Vista information lists Gary Scarberry at 405-570-3304 among the independent guides operating from the Catfish Bay Marina Gas Dock. Oklahoma's current known licensed fishing-guide directory independently lists Gary's Striper Guide Service at the exact same 405-570-3304 number for Lake Texoma. Current Oklahoma Tourism and Oklahoma State Parks information use the alternate Scarberry's Guide Service name and tie Gary directly to Catfish Bay Marina. Oklahoma Tourism currently describes year-round striped-bass fishing, approximately six-to-eight-hour trips beginning around daylight, supplied rods/tackle/bait/equipment, fish filleting and bagging, three 23-foot Falcon boats and accommodation for both smaller parties and larger groups. Since no functioning first-party Gary-specific website was verified during this pass, TWG treats those vessel details as current tourism-published information rather than independently first-party-verified equipment. Pointe Vista's current general Catfish Bay guide rate is $450 for one to three people plus $150 for each additional person; because no Gary-specific first-party rate was found, that price is labeled as a marina-program rate rather than guaranteed Gary-specific pricing. Recent 2026 Wired2Fish coverage independently identifies Gary as operator of Gary's Striper Guide Service and quotes him discussing Lake Texoma's year-round striper fishery. Gary's Striper Guide Service is modeled as a physical child of Catfish Bay Marina because his current operating location is the Gas Dock, while preserving Pointe Vista's explicit statement that all listed guides remain independent businesses.",
+      "sources": [
+        {
+          "source_name": "Pointe Vista — Catfish Bay Marina",
+          "source_url": "https://pointevista.com/marina/",
+          "source_type": "official parent",
+          "supports": "Current Gary Scarberry listing, 405-570-3304 phone, Catfish Bay Gas Dock operating relationship, general guide pricing, supplied equipment and independent-business status."
+        },
+        {
+          "source_name": "Oklahoma Department of Wildlife Conservation — Fishing Guides",
+          "source_url": "https://www.wildlifedepartment.com/fishing/fishing-guides",
+          "source_type": "government",
+          "supports": "Current Gary's Striper Guide Service licensed-guide listing at 405-570-3304 for Lake Texoma."
+        },
+        {
+          "source_name": "TravelOK — Scarberry's Guide Service",
+          "source_url": "https://web1.travelok.com/au/listings/view.profile/id.13359",
+          "source_type": "government tourism",
+          "supports": "Current Scarberry's Guide Service name, Catfish Bay location, matching phone, year-round operation, trip-duration description, fishing equipment, fish cleaning and vessel information."
+        },
+        {
+          "source_name": "Oklahoma State Parks — Lake Texoma State Park",
+          "source_url": "https://okstateparks.reserveamerica.com/camping/lake-texoma-state-park/r/campgroundDetails.do?contractCode=OK&parkId=1260040",
+          "source_type": "government",
+          "supports": "Current Gary Scarberry / Scarberry's Guide Service association with the Texoma Striper Guide Association at Catfish Bay Marina and year-round guide availability."
+        },
+        {
+          "source_name": "Wired2Fish — The Striper Fishing Capital of the World: Lake Texoma",
+          "source_url": "https://www.wired2fish.com/where-to-fish/where2fish-lake-texoma",
+          "source_type": "current fishing publication",
+          "supports": "Recent 2026 identification of Gary Scarberry as operator of Gary's Striper Guide Service and current comments on Lake Texoma striper fishing."
+        },
+        {
+          "source_name": "Better Business Bureau — Gary's Striper Guide Service",
+          "source_url": "https://www.bbb.org/us/ok/kingston/profile/fishing-charters/garys-striper-guide-service--0995-90129489",
+          "source_type": "business directory",
+          "supports": "Independent current Gary's Striper Guide Service name, Kingston location, 405-570-3304 phone and business-start information."
         }
       ],
       "last_checked": "2026-08-09",
