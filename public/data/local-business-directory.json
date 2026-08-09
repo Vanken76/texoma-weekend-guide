@@ -5,8 +5,8 @@
   "generated_on": "2026-08-09",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 670,
-  "publish_ready_count": 335,
+  "business_count": 671,
+  "publish_ready_count": 336,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -45182,6 +45182,140 @@
           "source_url": "https://webrate.org/site/rrguides.com/",
           "source_type": "domain-status corroboration",
           "supports": "RR/Double R Guide Service historical domain identity and current offline status as of the 2026 verification period."
+        }
+      ],
+      "last_checked": "2026-08-09",
+      "last_verified": "2026-08-09",
+      "created_on": "2026-08-09",
+      "updated_on": "2026-08-09"
+    },
+    {
+      "slug": "alley-outdoors",
+      "business_name": "Alley Outdoors",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Lake Texoma",
+      "primary_category": "Fishing Guide Service",
+      "category": [
+        "Fishing Guide Service"
+      ],
+      "tags": [
+        "Alley Outdoors",
+        "Alley Outdoor Adventures",
+        "Lake Texoma",
+        "Fishing Guide",
+        "Fishing Guide Service",
+        "Guided Fishing",
+        "Walnut Creek Resort"
+      ],
+      "description": "Alley Outdoors is a currently licensed fishing-guide operation serving Lake Texoma. The Oklahoma Department of Wildlife Conservation lists Alley Outdoors at 620-253-8306 among known licensed guides for Lake Texoma. Walnut Creek Resort independently promotes the same guide operation in its current Fishing Guides section under the display name Alley Outdoor Adventures and the same phone number.",
+      "short_description": "Licensed Lake Texoma fishing-guide service currently promoted by Walnut Creek Resort.",
+      "why_visit": "Alley Outdoors provides a direct guided-fishing contact for Lake Texoma visitors and is currently one of the guide services recommended to guests by Walnut Creek Resort.",
+      "why_its_unique": "The operation is independently present in Oklahoma's current licensed-guide directory while also maintaining an active referral relationship with Walnut Creek Resort. Current sources use both Alley Outdoors and Alley Outdoor Adventures for the same 620-253-8306 operation.",
+      "address": null,
+      "city": null,
+      "state": null,
+      "postal_code": null,
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "620-253-8306",
+      "phone_note": "The Oklahoma Department of Wildlife Conservation currently lists 620-253-8306 for Alley Outdoors on Lake Texoma. Walnut Creek Resort independently publishes the same number under Alley Outdoor Adventures.",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No reliable current public operating schedule was verified. Contact the guide directly at 620-253-8306 for trip availability, meeting location and departure time.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null,
+        "reservations_recommended": null,
+        "free_wifi": null,
+        "boat_parking": null,
+        "rv_parking": null,
+        "waterfront": null,
+        "lake_view": null
+      },
+      "amenities": [
+        "Guided Lake Texoma fishing"
+      ],
+      "good_to_know": [
+        "The Oklahoma Department of Wildlife Conservation currently lists Alley Outdoors at 620-253-8306 among known licensed fishing guides serving Lake Texoma.",
+        "Walnut Creek Resort currently lists Alley Outdoor Adventures at the exact same 620-253-8306 phone number in its Fishing Guides section.",
+        "TWG uses Alley Outdoors as the canonical name because that is the current business name in the state licensed-guide directory.",
+        "Alley Outdoor Adventures is retained as an alternate public-facing name because that is how Walnut Creek Resort currently presents the guide.",
+        "Walnut Creek Resort's listing establishes an active referral relationship but does not explicitly state that Alley Outdoors is physically based at the marina.",
+        "Walnut Creek Resort should therefore be represented as a related business rather than Alley Outdoors' canonical physical parent.",
+        "No reliable current first-party website, email address, social-media account or street address was verified during this research pass.",
+        "No specific target species, boat specifications, trip duration, pricing, included equipment or fish-cleaning service is being claimed because those details were not sufficiently verified from current sources.",
+        "The 620 area code should not be used to infer the guide's physical business location; the current government record establishes only that the operation guides on Lake Texoma.",
+        "Visitors should contact 620-253-8306 directly for current rates, departure point, fishing methods, equipment provided and licensing guidance."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "event_types": [],
+      "event_sources": [],
+      "parent_business": {
+        "slug": "lake-texoma",
+        "business_name": "Lake Texoma",
+        "relationship_note": "Alley Outdoors is currently listed by the Oklahoma Department of Wildlife Conservation as a licensed fishing guide serving Lake Texoma."
+      },
+      "related_businesses": [
+        {
+          "slug": "walnut-creek-resort",
+          "business_name": "Walnut Creek Resort",
+          "relationship_note": "Walnut Creek Resort currently recommends the same 620-253-8306 guide operation under the name Alley Outdoor Adventures. The current resort listing establishes a referral relationship but does not prove physical containment at Walnut Creek."
+        }
+      ],
+      "related_geography": [],
+      "related_events": [],
+      "features": [
+        "Licensed Lake Texoma fishing guide",
+        "Walnut Creek Resort referral",
+        "Current guide contact"
+      ],
+      "source_verified": true,
+      "verification_note": "Researched and verified August 9, 2026 after checking the actual canonical TWG local-business-directory.json and confirming that no Alley Outdoors or Alley Outdoor Adventures business record currently exists. The Oklahoma Department of Wildlife Conservation currently lists Alley Outdoors at 620-253-8306 among known licensed fishing guides serving Lake Texoma. Walnut Creek Resort independently lists Alley Outdoor Adventures at the exact same 620-253-8306 number in its current Fishing Guides section. The matching phone and Lake Texoma context establish that the two names refer to the same guide operation. TWG uses Alley Outdoors as the canonical name because that is the current government licensed-guide listing and retains Alley Outdoor Adventures as an alternate name/tag. Walnut Creek does not explicitly state that the operation is physically based at the marina, so the resort is represented as a related business rather than parent_business. No current first-party website, street address, email, social account, guide name, pricing, boat details, trip length or target species were sufficiently verified, so those fields are deliberately left unset rather than inferred.",
+      "sources": [
+        {
+          "source_name": "Oklahoma Department of Wildlife Conservation — Fishing Guides",
+          "source_url": "https://www.wildlifedepartment.com/fishing/fishing-guides",
+          "source_type": "government",
+          "supports": "Current Alley Outdoors business name, 620-253-8306 phone, licensed-guide status and Lake Texoma operating water."
+        },
+        {
+          "source_name": "Walnut Creek Resort",
+          "source_url": "https://www.walnutcreekresort.com/",
+          "source_type": "official related business",
+          "supports": "Current Alley Outdoor Adventures display name, matching 620-253-8306 phone and active fishing-guide referral relationship with Walnut Creek Resort."
         }
       ],
       "last_checked": "2026-08-09",
