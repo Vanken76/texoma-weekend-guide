@@ -5,8 +5,8 @@
   "generated_on": "2026-08-09",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 647,
-  "publish_ready_count": 311,
+  "business_count": 648,
+  "publish_ready_count": 312,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -39536,6 +39536,238 @@
         "Online booking",
         "Gift cards"
       ]
+    },
+    {
+      "slug": "alberta-creek-resort-and-marina",
+      "business_name": "Alberta Creek Resort & Marina",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "9040 Clear Lake Drive, Kingston, OK 73439 — on Lake Texoma",
+      "primary_category": "Marina",
+      "category": [
+        "Marina",
+        "Resort",
+        "Lodging",
+        "RV Park",
+        "Boat Rental",
+        "Event Venue"
+      ],
+      "tags": [
+        "Alberta Creek Resort & Marina",
+        "Lake Texoma",
+        "Kingston",
+        "Oklahoma",
+        "Marshall County",
+        "Marina",
+        "Lake Resort",
+        "Waterfront",
+        "Boat Slips",
+        "Boat Ramp",
+        "Fuel Dock",
+        "Boat Rentals",
+        "Kayak Rentals",
+        "Vacation Rentals",
+        "RV Camping",
+        "Fishing",
+        "Fishing Guides",
+        "Floating Restaurant",
+        "Live Music",
+        "Pavilions",
+        "Weekend Getaway"
+      ],
+      "description": "Alberta Creek Resort & Marina is a long-running Lake Texoma resort and full-service marina near Kingston, Oklahoma. In operation since 1954, the property combines marina access with boat slips, a launch ramp, fuel dock, convenience store and gift shop, boat and kayak rentals, furnished vacation lodging, a 31-site lakeside RV park, fishing-guide access, picnic pavilions and seasonal food and entertainment. The independently branded Lake House Bar & Grill operates as the resort's floating restaurant and bar, while Alberta Creek's event calendar regularly features live music and other marina activities.",
+      "short_description": "Lake Texoma marina and resort near Kingston with slips, fuel, boat rentals, lodging, 31 RV sites, fishing-guide access, a floating restaurant and seasonal events.",
+      "why_visit": "Alberta Creek works as an all-in-one Oklahoma-side Lake Texoma base for visitors who want to stay overnight, launch or rent a boat, fuel up, camp by the lake, book a fishing trip, eat on the water or catch a marina event without piecing together several separate stops.",
+      "why_its_unique": "Alberta Creek combines a marina, furnished lodging, lakeside RV camping, rentals, fishing-guide access, fuel and supplies, pavilions, a separately branded floating restaurant and an active event calendar at one Lake Texoma property. The resort states that it has operated since 1954.",
+      "address": "9040 Clear Lake Drive",
+      "city": "Kingston",
+      "state": "OK",
+      "postal_code": "73439",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "580-564-2552",
+      "phone_note": "Main office. Store: 580-564-2561. The Lake House Bar & Grill / café: 580-564-4465.",
+      "email": "customerservice@albertacreek.com",
+      "website": "https://albertacreek.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Operating schedules vary by department and season. Lodging, RV sites and pavilions are bookable year-round. For 2026, the official reservation system lists boat rentals Friday-Sunday from August 1 through November 2. Store, fuel dock, restaurant and event hours may follow separate seasonal schedules; verify current details before visiting.",
+      "at_a_glance": {
+        "average_visit": "Half-day, full-day or overnight Lake Texoma stay",
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true,
+        "reservations_recommended": true,
+        "free_wifi": null,
+        "boat_parking": true,
+        "rv_parking": true,
+        "waterfront": true,
+        "lake_view": true
+      },
+      "amenities": [
+        "Full-service Lake Texoma marina",
+        "Boat slips",
+        "Boat launch ramp",
+        "Full-service fuel dock",
+        "Premium and non-ethanol regular gasoline",
+        "Convenience store",
+        "Gift shop",
+        "Boat rentals",
+        "Kayak rentals",
+        "Furnished vacation lodging",
+        "31 RV campsites with water and electrical hookups",
+        "30/50-amp RV service",
+        "RV shower and restroom facilities",
+        "Shaded and waterfront RV-site options",
+        "Picnic pavilions",
+        "Fish-cleaning station",
+        "Professional fishing-guide launch point",
+        "On-site floating restaurant and bar",
+        "Seasonal live music and events"
+      ],
+      "good_to_know": [
+        "The resort has operated on Lake Texoma since 1954.",
+        "Lodging, RV sites and pavilions are available for year-round booking; boat-rental days vary seasonally.",
+        "Lodging units are non-smoking and do not allow pets other than service animals.",
+        "Lodging check-in is 3:00 PM and check-out is 11:00 AM.",
+        "A three-day minimum is required for lodging and RV sites on major holidays.",
+        "The RV park has 31 hookup sites with 30/50-amp options, showers and restrooms; site lengths are listed from 39 to 72 feet.",
+        "The Lake House Bar & Grill is a separately branded floating restaurant at Alberta Creek and should be maintained as its own child business record.",
+        "Alberta Creek hosts several independent fishing-guide businesses, but each guide relationship should be verified from the guide's current first-party source before publishing.",
+        "Published rates have varied across older and current Alberta Creek pages, so use the live booking system or contact the resort for current pricing."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "lake-texoma",
+        "business_name": "Lake Texoma",
+        "relationship_note": "Alberta Creek Resort & Marina is located on the Oklahoma side of Lake Texoma near Kingston."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Alberta Creek Resort & Marina is located near Kingston, Oklahoma, on Lake Texoma."
+        }
+      ],
+      "verification_note": "Verified August 9, 2026 using Alberta Creek's current official home, contact, lodging, RV park, café/store, fishing-guide, terms, reservation and event pages, with TravelOK used as independent corroboration. Current official address is 9040 Clear Lake Drive. Alberta Creek's site contains stale WordPress theme-demo footer content that must be ignored. Older/current pages also contain conflicting prices, so live rates should not be hard-coded without a booking check. The marina's fishing-guide roster includes at least one stale relationship: Hookin J Guide Service currently directs customers to Lighthouse Resort & Marina, so it should not be treated as an Alberta Creek child without new evidence.",
+      "last_checked": "2026-08-09",
+      "event_types": [
+        "Live music",
+        "Marina special events",
+        "Holiday and summer events",
+        "Fishing and boating events"
+      ],
+      "event_sources": [
+        "Alberta Creek official event calendar",
+        "Alberta Creek official website",
+        "Official Alberta Creek social media announcements"
+      ],
+      "features": [
+        "Operating since 1954",
+        "Lake Texoma waterfront location",
+        "Full-service marina",
+        "Year-round lodging and RV rentals",
+        "Boat and kayak rentals",
+        "Fishing-guide access",
+        "Floating restaurant and bar",
+        "Seasonal live entertainment"
+      ],
+      "source_verified": true,
+      "sources": [
+        {
+          "source_name": "Alberta Creek Resort & Marina",
+          "source_url": "https://albertacreek.com/",
+          "source_type": "official",
+          "supports": "Business identity, Lake Texoma location, 1954 operating history, main contact information, boat rentals and current event calendar highlights."
+        },
+        {
+          "source_name": "Alberta Creek Contact",
+          "source_url": "https://albertacreek.com/contact-us/",
+          "source_type": "official",
+          "supports": "Current address, office phone, store phone, café phone and customer-service email."
+        },
+        {
+          "source_name": "Alberta Creek About Us",
+          "source_url": "https://albertacreek.com/about-us/",
+          "source_type": "official",
+          "supports": "Lodging, RV park, floating café, fishing guides, boat rentals and resort positioning."
+        },
+        {
+          "source_name": "Alberta Creek Lodging Rentals",
+          "source_url": "https://albertacreek.com/lodging-rentals/",
+          "source_type": "official",
+          "supports": "Furnished lodging amenities, non-smoking policy, no-pet policy, accessibility note and current lodging information."
+        },
+        {
+          "source_name": "Alberta Creek RV Park Rental",
+          "source_url": "https://albertacreek.com/rv-park-rental/",
+          "source_type": "official",
+          "supports": "31 RV sites, 30/50-amp service, showers/restrooms, pavilions, shaded sites and site lengths."
+        },
+        {
+          "source_name": "Alberta Creek Café",
+          "source_url": "https://albertacreek.com/cafe/",
+          "source_type": "official",
+          "supports": "The Lake House Bar & Grill identity, café phone, floating-restaurant relationship, fuel dock, convenience store and gift shop."
+        },
+        {
+          "source_name": "Alberta Creek Fishing Guides",
+          "source_url": "https://albertacreek.com/lake-texoma-fishing-guides/",
+          "source_type": "official",
+          "supports": "Fishing-guide launch-point function and currently published guide roster, subject to child-level relationship verification."
+        },
+        {
+          "source_name": "Alberta Creek Reservation System",
+          "source_url": "https://albertacreek.stellarims.com/",
+          "source_type": "official",
+          "supports": "Year-round lodging, RV-site and pavilion availability plus the published 2026 seasonal boat-rental schedule."
+        },
+        {
+          "source_name": "Alberta Creek Terms",
+          "source_url": "https://albertacreek.com/terms/",
+          "source_type": "official",
+          "supports": "Reservation policies, lodging check-in/check-out, pet rules, boat-renter requirements and pavilion conditions."
+        },
+        {
+          "source_name": "TravelOK — Alberta Creek Resort & Marina",
+          "source_url": "https://www.travelok.com/listings/view.profile/id.112",
+          "source_type": "official tourism",
+          "supports": "Independent corroboration of address, phone, marina, slips, fuel dock, launch ramp, fishing guides, lodging, 31 RV sites, restaurant and full bar."
+        }
+      ],
+      "last_verified": "2026-08-09",
+      "created_on": "2026-08-09",
+      "updated_on": "2026-08-09"
     }
   ]
 }
