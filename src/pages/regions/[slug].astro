@@ -14,7 +14,7 @@ export function getStaticPaths() {
 const { entity } = Astro.props;
 const heroPrimary = entity.slug === "texoma"
   ? {
-      url: "/images/geography/texoma-hero-primary.webp",
+      url: "/images/geography/texoma-hero-longhorn-bison.webp",
       alt_text: "Texas longhorn and American bison framing a golden-hour view of Lake Texoma and the surrounding Texas–Oklahoma landscape."
     }
   : entity.media?.hero_primary ?? null;
