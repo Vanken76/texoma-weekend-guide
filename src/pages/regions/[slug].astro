@@ -12,7 +12,12 @@ export function getStaticPaths() {
 }
 
 const { entity } = Astro.props;
-const heroPrimary = entity.media?.hero_primary ?? null;
+const heroPrimary = entity.slug === "texoma"
+  ? {
+      url: "/images/geography/texoma-hero-primary.webp",
+      alt_text: "Texas longhorn and American bison framing a golden-hour view of Lake Texoma and the surrounding Texas–Oklahoma landscape."
+    }
+  : entity.media?.hero_primary ?? null;
 const sourceEntries = Array.isArray(entity.sources) ? entity.sources.filter((source) => source?.source_name) : [];
 const stateSlugs = entity.state_slugs ?? [];
 const states = (geographyDirectory.entities ?? [])
