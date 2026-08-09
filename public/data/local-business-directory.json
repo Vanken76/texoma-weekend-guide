@@ -5,8 +5,8 @@
   "generated_on": "2026-08-09",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 640,
-  "publish_ready_count": 304,
+  "business_count": 641,
+  "publish_ready_count": 305,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -38513,6 +38513,116 @@
         "Fly-fishing options",
         "Catch cleaning included",
         "Online booking"
+      ]
+    },
+    {
+      "slug": "price-guide-service",
+      "business_name": "Price Guide Service",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Little Mineral Resort & Marina, 300 Little Mineral Blvd, Pottsboro, TX 75076 — professional Lake Texoma fishing guide service",
+      "category": [
+        "Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Price Guide Service",
+        "Robert Price",
+        "Lake Texoma",
+        "Little Mineral Resort & Marina",
+        "Little Mineral Marina",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Guided Fishing",
+        "Lake Fishing",
+        "Year-Round Fishing",
+        "Local Fishing Guide"
+      ],
+      "description": "Price Guide Service is Captain Robert Price's professional Lake Texoma fishing-guide business operating from Little Mineral Resort & Marina in Pottsboro, Texas. Little Mineral describes Robert as a lifelong Lake Texoma angler who was raised on the lake and has spent his life learning its waters. The service operates throughout the year and is promoted by Little Mineral as an independent on-property guide option for visitors who want an experienced local captain.",
+      "why_visit": "Price Guide Service gives Lake Texoma visitors access to a local guide who grew up around the lake and fishes it throughout the year. Its base at Little Mineral Resort & Marina also makes it convenient for marina guests, cabin visitors and boaters staying on the property.",
+      "why_its_unique": "Captain Robert Price is described by Little Mineral Resort & Marina as having been raised on Lake Texoma and having spent his life learning its waters. The marina also specifically highlights his willingness to fish throughout the year rather than limiting trips to a narrow seasonal window.",
+      "phone": "903-647-2724",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/Price-Guide-Service",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Price Guide Service operates by reservation rather than conventional storefront hours. Little Mineral describes the guide service as operating throughout the year. Call 903-647-2724 to confirm current trip availability and departure times.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Professional Lake Texoma fishing guide",
+        "Year-round guided fishing",
+        "Little Mineral Marina departure access"
+      ],
+      "good_to_know": [
+        "Price Guide Service is operated by Captain Robert Price.",
+        "Little Mineral Resort & Marina currently identifies Price Guide Service as an independent fishing-guide business operating from the marina.",
+        "The current public phone number is 903-647-2724.",
+        "Little Mineral describes Robert Price as having been raised on Lake Texoma and having spent his life learning the lake.",
+        "Little Mineral currently says Price Guide Service fishes throughout the year and is not limited to fair-weather or summer-only operation.",
+        "The Oklahoma Department of Wildlife Conservation currently lists Price Guide Service at 903-647-2724 among known licensed fishing guides for Lake Texoma.",
+        "Little Mineral currently links visitors to a Price Guide Service Facebook page.",
+        "Current trip duration, party capacity, equipment inclusions and pricing were not confidently verified and should be confirmed directly before booking.",
+        "No current standalone official website, public email address, Instagram, YouTube or TikTok account was confidently verified.",
+        "Older cached content from the same Little Mineral amenity URL incorrectly described CrossCreek Guide Service. Little Mineral's current live page now identifies Price Guide Service and Captain Robert Price, so TWG uses the current page rather than the stale cached copy."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "little-mineral-resort-marina",
+        "business_name": "Little Mineral Resort & Marina",
+        "relationship_note": "Price Guide Service is an independently operated fishing-guide business that Little Mineral Resort & Marina currently identifies as operating from the marina."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Price Guide Service operates from Little Mineral Resort & Marina in Pottsboro, Texas, and guides fishing trips on Lake Texoma."
+        }
+      ],
+      "verification_note": "Fully researched and verified August 8, 2026 using the current live Little Mineral Resort & Marina amenities page, the current individual Price Guide Service page and the Oklahoma Department of Wildlife Conservation known licensed fishing-guide directory. Little Mineral's current live page identifies Captain Robert Price as the operator of Price Guide Service, states that he was raised on Lake Texoma and has spent his life learning its waters, gives 903-647-2724 as the booking phone number, links to a Price Guide Service Facebook page and explicitly states that Price Guide Service is an independent entity operating from Little Mineral Resort & Marina. The Oklahoma Department of Wildlife Conservation independently lists Price Guide Service at the matching 903-647-2724 phone number as a known licensed fishing guide for Lake Texoma. An older cached version of Little Mineral's same amenity URL contained CrossCreek Guide Service copy and stale Grandpappy Point/Four Seasons language; the current live page has since been updated to Price Guide Service. TWG therefore treats the older CrossCreek material as stale content rather than evidence that Price Guide Service and CrossCreek Guide Service are the same entity. CrossCreek Guide Service remains independently active and currently states on its own website that guests meet at Little Mineral Marina, so it should be evaluated as a separate business record. Current Price Guide Service pricing, trip duration, maximum party size and equipment inclusions were not confidently verified and have not been inferred.",
+      "last_checked": "2026-08-08",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Lake Texoma fishing guide",
+        "Little Mineral Marina guide service",
+        "Local lifelong Lake Texoma experience",
+        "Year-round guided fishing"
       ]
     }
   ]
