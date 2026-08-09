@@ -82,7 +82,7 @@ const pageDescription = entity.seo_description || entity.short_description || en
       {heroPrimary?.url && (
         entity.slug === "texoma" ? (
           <picture>
-            <source media="(max-width: 560px)" srcset="/images/geography/texoma-hero-mobile.webp" />
+            <source media="(max-width: 560px)" srcset="/images/geography/texoma-hero-mobile-fixed.webp" />
             <img class="hero-image" src={heroPrimary.url} alt={heroPrimary.alt_text || `${entity.name} region`} />
           </picture>
         ) : (
