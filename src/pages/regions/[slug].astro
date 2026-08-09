@@ -1,0 +1,166 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import geographyDirectory from "../../../public/data/local-geography-directory.json";
+import businessDirectory from "../../../public/data/local-business-directory.json";
+import eventDirectory from "../../../public/data/local-event-directory.json";
+import { businessStateCode } from "../../utils/businessState.js";
+
+export function getStaticPaths() {
+  return (geographyDirectory.entities ?? [])
+    .filter((entity) => entity.publish_ready === true && entity.entity_type === "region" && entity.slug)
+    .map((entity) => ({ params: { slug: entity.slug }, props: { entity } }));
+}
+
+const { entity } = Astro.props;
+const heroPrimary = entity.media?.hero_primary ?? null;
+const sourceEntries = Array.isArray(entity.sources) ? entity.sources.filter((source) => source?.source_name) : [];
+const stateSlugs = entity.state_slugs ?? [];
+const states = (geographyDirectory.entities ?? [])
+  .filter((item) => item.publish_ready === true && item.entity_type === "state" && stateSlugs.includes(item.slug))
+  .sort((a, b) => (a.display_order ?? 999) - (b.display_order ?? 999));
+const stateCodes = new Set(states.flatMap((state) => [state.abbreviation, state.name, state.slug]).filter(Boolean).map((value) => String(value).toLowerCase()));
+const businessCodes = new Set(states.map((state) => businessStateCode({ state: state.abbreviation || state.name || state.slug })).filter(Boolean));
+const businesses = (businessDirectory.businesses ?? []).filter((business) => business.publish_ready === true && businessCodes.has(businessStateCode(business)));
+const businessSlugs = new Set(businesses.map((business) => business.slug).filter(Boolean));
+
+const now = new Date();
+const today = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "America/Chicago",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit"
+}).format(now);
+const parseRule = (rule = "") => Object.fromEntries(
+  String(rule ?? "").replace(/^RRULE:/i, "").split(";").map((part) => part.split("=")).filter(([key, value]) => key && value)
+);
+const recurrenceEndDate = (event) => {
+  if (event.recurrence_end_date) return event.recurrence_end_date;
+  const until = parseRule(event.recurrence_rule).UNTIL;
+  if (!until || !/^\d{8}/.test(until)) return null;
+  return `${until.slice(0, 4)}-${until.slice(4, 6)}-${until.slice(6, 8)}`;
+};
+const isCurrent = (event) => {
+  if (event.active === false) return false;
+  if (event.recurring === true) {
+    const endDate = recurrenceEndDate(event);
+    return !endDate || endDate >= today;
+  }
+  if (event.end_datetime) return new Date(event.end_datetime) >= now;
+  return Boolean(event.start_datetime && event.start_datetime.slice(0, 10) >= today);
+};
+const events = (eventDirectory.events ?? []).filter((event) => {
+  if (event.publish_ready !== true || !["upcoming", "recurring"].includes(event.status) || !isCurrent(event)) return false;
+  const values = [event.state, event.state_abbreviation, event.state_name, event.state_slug]
+    .filter(Boolean)
+    .map((value) => String(value).toLowerCase());
+  if (values.some((value) => stateCodes.has(value))) return true;
+  return businessSlugs.has(event.venue_slug) || businessSlugs.has(event.primary_venue_slug) || businessSlugs.has(event.host_business_slug);
+});
+
+const publishedBusinessSlugs = new Set(
+  (businessDirectory.businesses ?? []).filter((business) => business.publish_ready === true).map((business) => business.slug).filter(Boolean)
+);
+const relatedDestinationSlugs = entity.related_geography_slugs ?? [];
+const relatedDestinationSlug = relatedDestinationSlugs.find((slug) => publishedBusinessSlugs.has(slug)) ?? null;
+const relatedDestinationHref = relatedDestinationSlug ? `/businesses/${relatedDestinationSlug}/` : null;
+const formatNumber = (value) => new Intl.NumberFormat("en-US").format(value ?? 0);
+const formatDate = (value) => value
+  ? new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "long", day: "numeric", year: "numeric" }).format(new Date(`${value}T12:00:00Z`))
+  : null;
+const pageTitle = entity.seo_title || `${entity.name} | Texoma Weekend Guide`;
+const pageDescription = entity.seo_description || entity.short_description || entity.description;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription} image={heroPrimary?.url || undefined}>
+  <article class="region-page">
+    <header class="region-hero">
+      {heroPrimary?.url && <img class="hero-image" src={heroPrimary.url} alt={heroPrimary.alt_text || `${entity.name} region`} />}
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><span>Regions</span><span>›</span><span>{entity.name}</span></nav>
+        <p class="eyebrow">Texas · Oklahoma · Lake Texoma</p>
+        <h1>{entity.name}</h1>
+        {entity.short_description && <p class="hero-summary">{entity.short_description}</p>}
+        <div class="hero-actions">
+          <a class="button primary" href="/events/">Browse events</a>
+          <a class="button ghost" href="/businesses/">Browse businesses</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container content-wrap">
+      <section class="intro-grid">
+        <div class="card intro-copy">
+          <p class="section-label">About {entity.name}</p>
+          <h2>{entity.visitor_summary || `Explore ${entity.name}`}</h2>
+          <p>{entity.description}</p>
+          {entity.history_summary && <p>{entity.history_summary}</p>}
+          {entity.coverage_notes && <div class="coverage-note"><strong>TWG coverage:</strong> {entity.coverage_notes}</div>}
+        </div>
+        <aside class="card boundary-card">
+          <p class="section-label">Regional definition</p>
+          <h2>A cross-state region</h2>
+          <p>{entity.editorial_boundary_description}</p>
+          <dl>
+            <dt>States</dt><dd>{states.map((state) => state.name).join(" and ")}</dd>
+            <dt>Core destination</dt><dd>{relatedDestinationSlug ? "Lake Texoma" : "Texoma"}</dd>
+            <dt>Time zone</dt><dd>Central Time</dd>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="region-section">
+        <div class="section-heading">
+          <p class="section-label">Explore both sides</p>
+          <h2>Texas and Oklahoma</h2>
+          <p>Texoma crosses the state line. Use the state guides for state-specific facts and TWG listings.</p>
+        </div>
+        <div class="state-grid">
+          {states.map((state) => (
+            <a class="state-card card" href={`/states/${state.slug}/`}>
+              {state.media?.hero_primary?.url && <img src={state.media.hero_primary.url} alt="" loading="lazy" />}
+              <div><span>{state.nickname || "State guide"}</span><strong>{state.name}</strong><p>{state.short_description}</p></div>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section class="region-section" id="explore">
+        <div class="section-heading">
+          <p class="section-label">Explore through TWG</p>
+          <h2>What’s in the guide right now</h2>
+          <p>Live totals are derived from the current public Texoma Weekend Guide directories.</p>
+        </div>
+        <div class="stat-grid">
+          <a class="stat-card" href="/events/"><strong>{formatNumber(events.length)}</strong><span>published events</span></a>
+          <a class="stat-card" href="/businesses/"><strong>{formatNumber(businesses.length)}</strong><span>businesses and venues</span></a>
+          <div class="stat-card"><strong>{formatNumber(states.length)}</strong><span>states in the region</span></div>
+          {relatedDestinationHref ? <a class="stat-card geography-stat" href={relatedDestinationHref}><strong>Lake Texoma</strong><span>core regional destination</span></a> : <div class="stat-card geography-stat"><strong>Lake Texoma</strong><span>core regional destination</span></div>}
+        </div>
+      </section>
+
+      {relatedDestinationHref && (
+        <section class="lake-callout card">
+          <div>
+            <p class="section-label">At the heart of the region</p>
+            <h2>Lake Texoma</h2>
+            <p>Lake Texoma sits on the Texas–Oklahoma border and anchors much of the region’s recreation, tourism and weekend travel. TWG treats the lake as a destination of its own while connecting it to the wider Texoma region.</p>
+          </div>
+          <a class="button primary" href={relatedDestinationHref}>Explore Lake Texoma</a>
+        </section>
+      )}
+
+      {sourceEntries.length > 0 && (
+        <section class="sources card">
+          <h2>Sources and verification</h2>
+          <ul>{sourceEntries.map((source) => <li>{source.source_url ? <a href={source.source_url} target="_blank" rel="noopener noreferrer">{source.source_name}</a> : source.source_name}{source.notes && <span> — {source.notes}</span>}</li>)}</ul>
+          {entity.last_verified && <p class="verified">Last verified {formatDate(entity.last_verified)}.</p>}
+        </section>
+      )}
+    </main>
+  </article>
+</BaseLayout>
+
+<style>
+  .region-page{background:#f7f3ea;color:#24333c;min-height:100vh}.region-hero{position:relative;min-height:clamp(500px,68vh,760px);display:flex;align-items:end;overflow:hidden;background:#103a58}.hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,24,37,.22) 10%,rgba(6,24,37,.88) 100%)}.hero-content{position:relative;z-index:1;padding-block:2rem 4rem;color:white}.breadcrumb{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2rem;font-weight:750}.breadcrumb a{color:white}.eyebrow,.section-label{margin:0 0 .55rem;color:#48a9bd;font-size:.83rem;font-weight:950;letter-spacing:.12em;text-transform:uppercase}.region-hero h1{margin:0;color:white;font-size:clamp(4rem,15vw,9rem);line-height:.85;letter-spacing:-.055em}.hero-summary{max-width:780px;margin:1.2rem 0 0;color:white;font-size:clamp(1.15rem,2.2vw,1.55rem);line-height:1.5}.hero-actions{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.6rem}.button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:.75rem 1rem;border-radius:.75rem;font-weight:900;text-decoration:none}.button.primary{background:#1d87a4;color:white}.button.ghost{border:1px solid rgba(255,255,255,.65);background:rgba(255,255,255,.1);color:white}.content-wrap{padding-block:2.5rem 5rem}.card{border:1px solid #d8e0df;border-radius:1.05rem;background:#fffdf8;box-shadow:0 12px 30px rgba(16,58,88,.07)}.intro-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(300px,.75fr);gap:1.25rem}.intro-copy,.boundary-card,.sources{padding:clamp(1.25rem,3vw,2rem)}h2{margin:.1rem 0 1rem;color:#103a58;font-size:clamp(1.7rem,3.5vw,2.55rem);line-height:1.1}.intro-copy>p:not(.section-label),.boundary-card>p:not(.section-label){font-size:1.06rem;line-height:1.7}.coverage-note{margin-top:1.25rem;padding:1rem;border-left:5px solid #1d87a4;background:#edf7f8;border-radius:.55rem}.boundary-card dl{display:grid;grid-template-columns:120px 1fr;gap:.65rem 1rem;margin:1.4rem 0 0}.boundary-card dt{font-weight:900;color:#103a58}.boundary-card dd{margin:0}.region-section{margin-top:3.5rem}.section-heading{max-width:800px;margin-bottom:1.35rem}.section-heading>p:not(.section-label){line-height:1.65}.state-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.state-card{display:grid;grid-template-columns:minmax(140px,.8fr) minmax(0,1.2fr);overflow:hidden;color:inherit;text-decoration:none}.state-card img{width:100%;height:100%;min-height:230px;object-fit:cover}.state-card>div{display:flex;flex-direction:column;justify-content:center;padding:1.4rem}.state-card span{color:#1d87a4;font-weight:900}.state-card strong{margin:.2rem 0 .45rem;color:#103a58;font-size:2rem}.state-card p{margin:0;line-height:1.55}.stat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}.stat-card{display:flex;flex-direction:column;gap:.35rem;padding:1.35rem;border-radius:1rem;background:#103a58;color:white;text-decoration:none}.stat-card strong{font-size:2.25rem;line-height:1}.geography-stat strong{font-size:1.45rem;line-height:1.2}.stat-card span{color:#d6edf2;font-weight:750}.lake-callout{display:flex;align-items:center;justify-content:space-between;gap:2rem;margin-top:3.5rem;padding:clamp(1.4rem,3vw,2.2rem);background:linear-gradient(135deg,#fffdf8,#e9f5f5)}.lake-callout>div{max-width:760px}.lake-callout p:not(.section-label){line-height:1.7}.sources{margin-top:3.5rem}.sources ul{padding-left:1.2rem}.sources li+li{margin-top:.75rem}.sources a{color:#176f95;font-weight:800}.verified{color:#687981;font-style:italic}@media(max-width:850px){.intro-grid,.state-grid{grid-template-columns:1fr}.stat-grid{grid-template-columns:1fr 1fr}.state-card{grid-template-columns:180px 1fr}.lake-callout{align-items:flex-start;flex-direction:column}}@media(max-width:560px){.hero-content{padding-bottom:2.7rem}.stat-grid{grid-template-columns:1fr}.state-card{grid-template-columns:1fr}.state-card img{min-height:220px}.boundary-card dl{grid-template-columns:1fr;gap:.2rem}.boundary-card dd{margin-bottom:.65rem}}
+</style>
