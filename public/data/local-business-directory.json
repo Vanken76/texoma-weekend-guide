@@ -5,8 +5,8 @@
   "generated_on": "2026-08-09",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 673,
-  "publish_ready_count": 339,
+  "business_count": 674,
+  "publish_ready_count": 340,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -45954,6 +45954,201 @@
           "source_url": "https://texomaconnect.com/lake-texoma-travel-guide/marina-del-rey/",
           "source_type": "regional tourism",
           "supports": "7007 Marina Drive identity, former Soldier Creek relationship and current temporary closure."
+        }
+      ],
+      "last_checked": "2026-08-09",
+      "last_verified": "2026-08-09",
+      "created_on": "2026-08-09",
+      "updated_on": "2026-08-09"
+    },
+    {
+      "slug": "barbay-at-marina-del-rey",
+      "business_name": "Barbay at Marina Del Rey",
+      "directory_status": "complete_temporarily_closed",
+      "status": "temporarily_closed",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "7007 Marina Drive, Kingston, OK 73439 — open-air Lake Texoma bar and live-music venue at Marina Del Rey; currently closed until further notice",
+      "primary_category": "Live Music Venue",
+      "category": [
+        "Live Music Venue"
+      ],
+      "tags": [
+        "Barbay",
+        "Barbay at Marina Del Rey",
+        "Barbay Lake Texoma",
+        "Marina Del Rey",
+        "Lake Texoma",
+        "Kingston",
+        "Oklahoma",
+        "Marshall County",
+        "Live Music Venue",
+        "Bar",
+        "Nightlife",
+        "Open Air Bar",
+        "Outdoor Stage",
+        "Lakefront Bar",
+        "Waterfront",
+        "Dancing",
+        "Food Trucks",
+        "Local Music",
+        "National Artists",
+        "Temporarily Closed"
+      ],
+      "description": "Barbay at Marina Del Rey is a separately branded open-air bar, stage and live-music venue overlooking Lake Texoma at Marina Del Rey near Kingston, Oklahoma. Before the current marina closure, Barbay operated as a weekend nightlife and entertainment destination with a full-service bar, dancing, food trucks and performances by local and touring musicians. Barbay is currently closed until further notice along with the affected Marina Del Rey property.",
+      "short_description": "Open-air Lake Texoma bar and live-music venue at Marina Del Rey, currently closed until further notice.",
+      "why_visit": "When operating, Barbay combines Lake Texoma views with an outdoor bar, stage, dancing, food trucks and live bands in a waterfront marina setting.",
+      "why_its_unique": "Barbay is a purpose-built open-air entertainment venue directly overlooking Lake Texoma rather than simply a restaurant with occasional music. Its large outdoor stage and recurring weekend performances made it one of Marina Del Rey's independently branded destination concepts.",
+      "address": "7007 Marina Drive",
+      "city": "Kingston",
+      "state": "OK",
+      "postal_code": "73439",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "580-564-6266",
+      "phone_note": "Current Marina Del Rey/Barbay first-party contact number. Barbay's official page uses Marina Del Rey's 580-564-6266 number.",
+      "email": null,
+      "website": "https://www.marinadelreyok.com/barbay.html",
+      "facebook": "https://www.facebook.com/barbayatmarinadelrey",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "TEMPORARILY CLOSED. Current regional tourism information explicitly marks Barbay closed until further notice, and Marina Del Rey remains closed because of storm damage and safety-related repairs. Historical weekend schedules should not be presented as current hours.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null,
+        "reservations_recommended": null,
+        "free_wifi": null,
+        "boat_parking": null,
+        "rv_parking": null,
+        "waterfront": true,
+        "lake_view": true
+      },
+      "amenities": [
+        "Open-air bar — currently closed",
+        "Outdoor live-music stage — currently closed",
+        "Lake Texoma views",
+        "Dancing area — currently closed",
+        "Food-truck service during events — currently unavailable",
+        "Local and touring live-music performances — suspended during closure",
+        "Marina Del Rey waterfront setting"
+      ],
+      "good_to_know": [
+        "Barbay is located at Marina Del Rey at 7007 Marina Drive in Kingston, Oklahoma.",
+        "Barbay is independently branded and public-facing enough to warrant its own TWG record rather than being represented only as a Marina Del Rey amenity.",
+        "The current official Barbay page calls the venue Barbay at Marina del Rey on Lake Texoma.",
+        "The venue was designed as an open-air bar and stage overlooking Lake Texoma.",
+        "Its first-party page describes a full-service bar, live music, dancing and food trucks.",
+        "The official page historically promoted performances by both local and national artists.",
+        "Friday and Saturday live-music programming was a core part of Barbay's normal operating model before the current closure.",
+        "Current TexomaConnect information explicitly marks Barbay closed until further notice.",
+        "Marina Del Rey itself remains temporarily closed because of storm damage, repairs and safety-related restrictions.",
+        "TWG should not surface Barbay's old Friday/Saturday schedule as a current recurring event while the venue remains closed.",
+        "No reopening date has been verified.",
+        "Barbay's first-party page continues to link to facebook.com/barbayatmarinadelrey.",
+        "The current public contact number associated with Barbay is Marina Del Rey's 580-564-6266.",
+        "KXII identified Dallas Miller as Barbay's owner in reporting from May 2024, but TWG should not treat that as a verified current 2026 ownership statement without newer confirmation.",
+        "In 2023 and 2024 Barbay hosted substantial live-music and community entertainment, including the marina's recurring Labor Day belly-flop festivities and Kingston Alumni Weekend.",
+        "Those historical events demonstrate Barbay's event-venue role but should not be mined as upcoming programming while the property remains closed.",
+        "Barbay and The Belly Flop are separate independently branded operations at Marina Del Rey and should receive separate records.",
+        "Barbay's closure status should remain synchronized with current first-party and reliable regional information rather than being automatically changed when Marina Del Rey eventually reopens."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "event_types": [
+        "Live music",
+        "Concerts",
+        "Weekend entertainment",
+        "Dancing",
+        "Community gatherings",
+        "Holiday-weekend events"
+      ],
+      "event_sources": [
+        "Barbay at Marina Del Rey official Facebook page",
+        "Marina Del Rey official Barbay page"
+      ],
+      "parent_business": {
+        "slug": "marina-del-rey",
+        "business_name": "Marina Del Rey",
+        "relationship_note": "Barbay is an independently branded open-air bar and live-music venue physically located at Marina Del Rey's 7007 Marina Drive property. Both businesses are currently temporarily closed."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Barbay is located near Kingston, Oklahoma, on the Oklahoma side of Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "features": [
+        "Open-air Lake Texoma bar",
+        "Live-music venue",
+        "Outdoor stage",
+        "Lake views",
+        "Dancing",
+        "Food trucks",
+        "Marina Del Rey child business",
+        "Currently closed until further notice"
+      ],
+      "source_verified": true,
+      "verification_note": "Fully researched and verified August 9, 2026 after checking the actual canonical TWG local-business-directory.json. Marina Del Rey is now published as a complete_temporarily_closed record, while Barbay appears only as a named onsite operation and does not yet have its own canonical record. Marina Del Rey's current first-party Barbay page independently brands Barbay at Marina del Rey on Lake Texoma, uses the 7007 Marina Drive property and 580-564-6266 contact, links the dedicated Barbay Facebook page and describes an open-air stage, full-service bar, Lake Texoma views, food trucks, dancing and live performances by local and national artists. Current TexomaConnect information explicitly marks Barbay Closed until further notice, consistent with Marina Del Rey's continuing storm-damage and safety-related closure. The historic first-party page still describes Friday and Saturday live music, but TWG does not treat that schedule as current while the venue is closed. KXII reporting from May 18, 2024 identified Dallas Miller as Barbay owner and documented recurring weekend live entertainment, providing strong evidence of Barbay's independent public identity; because that ownership statement is now more than two years old, TWG does not publish Dallas Miller as a verified current owner. Barbay qualifies as a true physical child of Marina Del Rey because it is an independently branded public venue operating at the exact same 7007 Marina Drive property.",
+      "sources": [
+        {
+          "source_name": "Marina Del Rey — Barbay",
+          "source_url": "https://www.marinadelreyok.com/barbay.html",
+          "source_type": "official",
+          "supports": "Barbay identity, physical Marina Del Rey relationship, 7007 Marina Drive location, 580-564-6266 contact, open-air stage, full-service bar, Lake Texoma views, food trucks, live music, dancing and dedicated Facebook page."
+        },
+        {
+          "source_name": "Marina Del Rey",
+          "source_url": "https://www.marinadelreyok.com/",
+          "source_type": "official parent",
+          "supports": "Current Marina Del Rey closure, storm-repair context and identification of Barbay as a distinct onsite entertainment operation."
+        },
+        {
+          "source_name": "TexomaConnect — Barbay at Marina Del Rey Oklahoma",
+          "source_url": "https://texomaconnect.com/lake-texoma-travel-guide/barbay-at-marina-del-rey-oklahoma/",
+          "source_type": "regional tourism",
+          "supports": "Current explicit Closed until further notice status, 7007 Marina Drive address, music-venue/nightclub categories, full-service bar and live-music positioning."
+        },
+        {
+          "source_name": "KXII — Kingston Alumni Reunite at Lake Texoma for Barbay Opening",
+          "source_url": "https://www.kxii.com/2024/05/19/kingston-alumni-reunite-lake-texoma-barbay-opening/",
+          "source_type": "local news",
+          "supports": "Historical independent Barbay identity, Dallas Miller ownership statement as of May 2024 and recurring Friday/Saturday live entertainment."
+        },
+        {
+          "source_name": "KXII — Lake Texoma Labor Day Belly Flop Contest",
+          "source_url": "https://www.kxii.com/2023/09/04/texomans-celebrate-labor-day-weekend-with-belly-flop-contest/",
+          "source_type": "local news",
+          "supports": "Historical event-venue role, Barbay ownership context and recurring Marina Del Rey entertainment programming."
         }
       ],
       "last_checked": "2026-08-09",
