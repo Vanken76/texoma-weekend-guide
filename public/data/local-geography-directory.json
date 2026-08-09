@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.1",
-  "generated_on": "2026-08-04",
-  "entity_count": 1,
-  "publish_ready_count": 1,
+  "generated_on": "2026-08-09",
+  "entity_count": 2,
+  "publish_ready_count": 2,
   "entities": [
     {
       "entity_type": "state",
@@ -189,6 +189,240 @@
           "usage_status": "owned",
           "usage_notes": "",
           "last_verified": "2026-08-03"
+        }
+      }
+    },
+    {
+      "entity_type": "state",
+      "name": "Oklahoma",
+      "official_name": "Oklahoma",
+      "slug": "oklahoma",
+      "status": "active",
+      "publish_ready": true,
+      "country_slug": "united-states",
+      "parent_slug": "united-states",
+      "region_slugs": [
+        "texoma"
+      ],
+      "related_geography_slugs": [
+        "lake-texoma"
+      ],
+      "coverage_level": "regional",
+      "within_twg_service_area": true,
+      "coverage_notes": "TWG focuses on southern Oklahoma and the Oklahoma side of the Texoma region, including covered communities around Durant, Lake Texoma, Ardmore, Sulphur, Atoka and nearby destinations.",
+      "description": "Oklahoma is a south-central U.S. state shaped by Native nations, prairie, plains, forests, lakes and major urban centers. Texoma Weekend Guide focuses on southern Oklahoma and the Oklahoma side of Lake Texoma while connecting visitors with covered cities, communities, events, businesses, venues, attractions, parks, restaurants, lodging and other regional destinations.",
+      "short_description": "The Sooner State and the Oklahoma half of the Texoma region.",
+      "history_summary": "Oklahoma became the 46th state on November 16, 1907, when Oklahoma Territory and Indian Territory were joined at statehood.",
+      "visitor_summary": "Explore southern Oklahoma cities, events, businesses, venues, restaurants, attractions, parks, lakes, lodging and destinations represented within the Texoma Weekend Guide coverage area.",
+      "abbreviation": "OK",
+      "fips_code": "40",
+      "nickname": "The Sooner State",
+      "motto": "Labor Omnia Vincit",
+      "admission_date": "1907-11-16",
+      "admission_order": 46,
+      "former_status": "Oklahoma Territory and Indian Territory",
+      "capital_city_slug": "oklahoma-city-ok",
+      "largest_city_slug": "oklahoma-city-ok",
+      "county_count": 77,
+      "population": {
+        "value": 4123288,
+        "year": 2025,
+        "type": "estimate",
+        "source_url": "https://www.census.gov/quickfacts/fact/table/OK/PST045225"
+      },
+      "area_total_sq_mi": 69898.87,
+      "area_land_sq_mi": 68596.53,
+      "area_water_sq_mi": 1302.34,
+      "highest_point": {
+        "name": "Black Mesa",
+        "elevation_ft": 4973,
+        "source_url": "https://www.usgs.gov/educational-resources/highest-and-lowest-elevations"
+      },
+      "lowest_point": {
+        "name": "Little River",
+        "elevation_ft": 289,
+        "source_url": "https://www.usgs.gov/educational-resources/highest-and-lowest-elevations"
+      },
+      "time_zones": [
+        "America/Chicago"
+      ],
+      "official_symbols": {
+        "flag_name": "Oklahoma State Flag",
+        "seal_name": "Great Seal of the State of Oklahoma",
+        "flower": "Oklahoma Rose",
+        "floral_emblem": "Mistletoe",
+        "wildflower": "Indian Blanket",
+        "bird": "Scissor-tailed Flycatcher",
+        "tree": "Redbud",
+        "song": "Oklahoma!",
+        "animal": "American Bison",
+        "flying_mammal": "Mexican Free-tailed Bat",
+        "insect": "Honeybee",
+        "rock": "Rose Rock",
+        "colors": "Green and White"
+      },
+      "latitude": 35.5,
+      "longitude": -97.5,
+      "coordinate_source": "manual",
+      "coordinate_status": "unverified",
+      "coordinate_verified_at": null,
+      "coordinate_verified_by": null,
+      "coordinate_note": "Approximate representative center point for the state. Must be checked before use as a verified public map coordinate.",
+      "boundary_source_url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html",
+      "boundary_reference": null,
+      "government_organization_slug": "state-of-oklahoma",
+      "official_website_url": "https://oklahoma.gov/",
+      "featured": true,
+      "display_order": 2,
+      "seo_title": "Oklahoma | Texoma Weekend Guide",
+      "seo_description": "Discover southern Oklahoma cities, events, businesses, venues, restaurants, attractions, parks, lakes and destinations represented by Texoma Weekend Guide.",
+      "last_verified": "2026-08-09",
+      "sources": [
+        {
+          "source_type": "census",
+          "source_name": "U.S. Census Bureau",
+          "source_url": "https://www.census.gov/quickfacts/fact/table/OK/PST045225",
+          "supports": [
+            "population",
+            "area_land",
+            "fips_code"
+          ],
+          "last_checked": "2026-08-09",
+          "notes": "2025 population estimate, land area, FIPS code and supporting city population data."
+        },
+        {
+          "source_type": "census",
+          "source_name": "U.S. Census Bureau — 2025 Gazetteer Files",
+          "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/",
+          "supports": [
+            "area_total",
+            "area_land",
+            "area_water"
+          ],
+          "last_checked": "2026-08-09",
+          "notes": "Census geographic area reference for state land and water area."
+        },
+        {
+          "source_type": "census",
+          "source_name": "U.S. Census Bureau — Oklahoma City QuickFacts",
+          "source_url": "https://www.census.gov/quickfacts/fact/table/oklahomacitycityoklahoma/PST045225",
+          "supports": [
+            "largest_city"
+          ],
+          "last_checked": "2026-08-09",
+          "notes": "2025 Oklahoma City population estimate used to verify the state's largest city."
+        },
+        {
+          "source_type": "government-archive",
+          "source_name": "Oklahoma Historical Society",
+          "source_url": "https://www.okhistory.org/learn/symbols",
+          "supports": [
+            "statehood",
+            "history",
+            "nickname",
+            "motto",
+            "official_symbols",
+            "flag",
+            "seal"
+          ],
+          "last_checked": "2026-08-09",
+          "notes": "Oklahoma state symbols, flag, seal, nickname, motto and historical reference information."
+        },
+        {
+          "source_type": "official",
+          "source_name": "State of Oklahoma",
+          "source_url": "https://oklahoma.gov/",
+          "supports": [
+            "official_website",
+            "county_count",
+            "statehood"
+          ],
+          "last_checked": "2026-08-09",
+          "notes": "Official State of Oklahoma website and state-government reference information."
+        },
+        {
+          "source_type": "official",
+          "source_name": "U.S. Geological Survey",
+          "source_url": "https://www.usgs.gov/educational-resources/highest-and-lowest-elevations",
+          "supports": [
+            "highest_point",
+            "lowest_point"
+          ],
+          "last_checked": "2026-08-09",
+          "notes": "Official USGS highest and lowest elevation reference for Oklahoma."
+        },
+        {
+          "source_type": "tourism",
+          "source_name": "Visit OKC",
+          "source_url": "https://www.visitokc.com/industry-resources/photo-gallery-videos/",
+          "supports": [
+            "hero_secondary"
+          ],
+          "last_checked": "2026-08-09",
+          "notes": "Official Visit OKC media gallery; Visit OKC invites use of selected media on websites, social media and collateral."
+        },
+        {
+          "source_type": "media",
+          "source_name": "The Oklahoman",
+          "source_url": "https://www.oklahoman.com/",
+          "supports": [
+            "hero_primary"
+          ],
+          "last_checked": "2026-08-09",
+          "notes": "Source identified by the user for the Oklahoma bison photograph."
+        }
+      ],
+      "media": {
+        "gallery": [],
+        "hero_primary": {
+          "url": "/images/geography/oklahoma-hero-primary.webp",
+          "alt_text": "American bison and calf grazing in an Oklahoma prairie with rocky hills in the background.",
+          "source_name": "The Oklahoman",
+          "source_url": "https://www.oklahoman.com/",
+          "credit": "The Oklahoman",
+          "usage_status": "review-required",
+          "usage_notes": "User supplied the image and identified The Oklahoman as the source. Source attribution is recorded; usage rights should be retained for review.",
+          "last_verified": "2026-08-09"
+        },
+        "hero_secondary": {
+          "url": "/images/geography/oklahoma-hero-secondary.webp",
+          "alt_text": "Downtown Oklahoma City skyline at dusk overlooking Scissortail Park, with Devon Tower rising above the city.",
+          "source_name": "Visit OKC",
+          "source_url": "https://www.visitokc.com/industry-resources/photo-gallery-videos/",
+          "credit": "Visit OKC",
+          "usage_status": "permission-granted",
+          "usage_notes": "User supplied the image from Visit OKC. Visit OKC invites use of selected media on websites, social media and collateral.",
+          "last_verified": "2026-08-09"
+        },
+        "seal": {
+          "url": "/images/geography/oklahoma-seal.webp",
+          "alt_text": "Great Seal of the State of Oklahoma featuring a five-pointed star and symbolic imagery representing the state's Native American and territorial heritage.",
+          "source_name": "State of Oklahoma",
+          "source_url": "https://www.okhistory.org/learn/symbols",
+          "credit": "State of Oklahoma",
+          "usage_status": "official-government-source",
+          "usage_notes": "User verified the official seal asset for use on the Oklahoma state page.",
+          "last_verified": "2026-08-09"
+        },
+        "flag": {
+          "url": "/images/geography/oklahoma-flag.webp",
+          "alt_text": "Official Oklahoma state flag with an Osage warrior's shield, peace pipe and olive branch on a sky-blue field above the word Oklahoma.",
+          "source_name": "State of Oklahoma",
+          "source_url": "https://www.okhistory.org/learn/symbols",
+          "credit": "State of Oklahoma",
+          "usage_status": "official-government-source",
+          "usage_notes": "User verified the official flag asset for use on the Oklahoma state page.",
+          "last_verified": "2026-08-09"
+        },
+        "outline": {
+          "url": "/images/geography/oklahoma-outline.webp",
+          "alt_text": "Solid black silhouette of the State of Oklahoma centered on a white background.",
+          "source_name": "User-supplied asset",
+          "source_url": "",
+          "credit": "Provided for Texoma Weekend Guide",
+          "usage_status": "review-required",
+          "usage_notes": "User supplied the Oklahoma state-outline image; source and usage rights are not independently documented.",
+          "last_verified": "2026-08-09"
         }
       }
     }
