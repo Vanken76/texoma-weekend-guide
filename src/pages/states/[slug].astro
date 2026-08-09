@@ -202,7 +202,7 @@ const relatedDestinationHref = relatedDestinationSlugs.length === 1 && published
           <div class="official-grid">
             {officialAssets.map(([label, asset]) => (
               <figure class="official-card card">
-                <div class="asset-frame"><img src={asset.url} alt={asset.alt_text || label} /></div>
+                <div class="asset-frame"><img src={asset.url} alt={asset.alt_text || label} style={label === "State seal" ? "height:100%;width:auto;max-width:100%;" : undefined} /></div>
                 <figcaption><strong>{label}</strong>{asset.credit && <span>{asset.credit}</span>}</figcaption>
               </figure>
             ))}
