@@ -149,6 +149,13 @@ const relatedDestinationSlugs = entity.related_geography_slugs ?? [];
 const relatedDestinationHref = relatedDestinationSlugs.length === 1 && publishedBusinessSlugs.has(relatedDestinationSlugs[0])
   ? `/businesses/${relatedDestinationSlugs[0]}/`
   : null;
+const publishedRegionSlugs = new Set(
+  (geographyDirectory.entities ?? [])
+    .filter((item) => item.publish_ready === true && item.entity_type === "region" && item.slug)
+    .map((item) => item.slug)
+);
+const linkedCoverageRegionSlugs = (entity.region_slugs ?? []).filter((slug) => publishedRegionSlugs.has(slug));
+const coverageRegionHref = linkedCoverageRegionSlugs.length === 1 ? `/regions/${linkedCoverageRegionSlugs[0]}/` : null;
 ---
 
 <BaseLayout title={pageTitle} description={pageDescription} image={heroPrimary?.url || undefined}>
@@ -243,7 +250,11 @@ const relatedDestinationHref = relatedDestinationSlugs.length === 1 && published
         <div class="stat-grid">
           <a class="stat-card" href={eventHref}><strong>{formatNumber(events.length) || "0"}</strong><span>published events</span></a>
           <a class="stat-card" href={businessHref}><strong>{formatNumber(businesses.length) || "0"}</strong><span>businesses and venues</span></a>
-          <div class="stat-card geography-stat"><strong>{(entity.region_slugs ?? []).map(geographyLabel).join(" · ") || "None"}</strong><span>TWG coverage regions</span></div>
+          {coverageRegionHref ? (
+            <a class="stat-card geography-stat" href={coverageRegionHref}><strong>{(entity.region_slugs ?? []).map(geographyLabel).join(" · ") || "None"}</strong><span>TWG coverage regions</span></a>
+          ) : (
+            <div class="stat-card geography-stat"><strong>{(entity.region_slugs ?? []).map(geographyLabel).join(" · ") || "None"}</strong><span>TWG coverage regions</span></div>
+          )}
           {relatedDestinationHref ? (
             <a class="stat-card geography-stat" href={relatedDestinationHref}><strong>{relatedDestinationSlugs.map(geographyLabel).join(" · ") || "None"}</strong><span>related destination</span></a>
           ) : (
