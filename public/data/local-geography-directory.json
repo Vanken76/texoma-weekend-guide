@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.1",
   "generated_on": "2026-08-09",
-  "entity_count": 2,
-  "publish_ready_count": 2,
+  "entity_count": 3,
+  "publish_ready_count": 3,
   "entities": [
     {
       "entity_type": "state",
@@ -422,6 +422,101 @@
           "credit": "Provided for Texoma Weekend Guide",
           "usage_status": "review-required",
           "usage_notes": "User supplied the Oklahoma state-outline image; source and usage rights are not independently documented.",
+          "last_verified": "2026-08-09"
+        }
+      }
+    },
+    {
+      "entity_type": "region",
+      "name": "Texoma",
+      "official_name": null,
+      "slug": "texoma",
+      "status": "active",
+      "publish_ready": true,
+      "country_slug": "united-states",
+      "parent_slug": null,
+      "state_slugs": [
+        "texas",
+        "oklahoma"
+      ],
+      "region_slugs": [],
+      "related_geography_slugs": [
+        "lake-texoma"
+      ],
+      "region_type": "cross-state regional overlay",
+      "coverage_level": "core",
+      "within_twg_service_area": true,
+      "coverage_notes": "Texoma is the primary cross-state coverage region for Texoma Weekend Guide, connecting North Texas, southern Oklahoma, Lake Texoma and nearby destinations represented in the directory.",
+      "editorial_boundary_description": "TWG uses Texoma as an editorial cross-state region rather than a single political jurisdiction. On the Texas side, routine coverage centers on the Texoma and North Texas communities in the guide, with US-380 used as the normal southern boundary. On the Oklahoma side, coverage focuses on southern Oklahoma communities and destinations represented by TWG, including the Lake Texoma area, Durant, Ardmore, Sulphur, Atoka and nearby communities.",
+      "description": "Texoma is a cross-state region spanning North Texas and southern Oklahoma, with Lake Texoma and the Red River forming a central geographic and cultural connection between the two states. Texoma Weekend Guide uses the region as its primary editorial coverage area for local events, businesses, venues, restaurants, attractions, parks, lodging, lake recreation and weekend destinations.",
+      "short_description": "The Texas–Oklahoma region at the heart of Texoma Weekend Guide.",
+      "history_summary": "Texoma is commonly used for an interstate region divided between Texas and Oklahoma. The name combines Texas and Oklahoma, while Lake Texoma—created by Denison Dam and designated Lake Texoma in 1944—became one of the region’s defining destinations.",
+      "visitor_summary": "Explore events, businesses, venues, restaurants, attractions, parks, lake recreation and weekend destinations across the Texas and Oklahoma sides of Texoma.",
+      "time_zones": [
+        "America/Chicago"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "coordinate_source": null,
+      "coordinate_status": "missing",
+      "coordinate_verified_at": null,
+      "coordinate_verified_by": null,
+      "coordinate_note": "No single verified point represents the full TWG editorial Texoma regional overlay.",
+      "boundary_source_url": null,
+      "boundary_reference": null,
+      "government_organization_slug": null,
+      "official_website_url": null,
+      "featured": true,
+      "display_order": 1,
+      "seo_title": "Texoma | Texas & Oklahoma Region | Texoma Weekend Guide",
+      "seo_description": "Explore events, businesses, restaurants, attractions, Lake Texoma and weekend destinations across the Texas and Oklahoma sides of the Texoma region.",
+      "last_verified": "2026-08-09",
+      "sources": [
+        {
+          "source_type": "official",
+          "source_name": "Texoma Council of Governments",
+          "source_url": "https://tcog.com/regional-services/community-development/tedd/2023/01/2022-2027-ceds/4/",
+          "supports": [
+            "region_identity",
+            "texas_context"
+          ],
+          "last_checked": "2026-08-09",
+          "notes": "TCOG describes Texoma as an interstate region split between Oklahoma and Texas and identifies Cooke, Fannin and Grayson counties as its Texas planning-region counties. TWG uses a broader editorial coverage overlay and does not treat TCOG's planning boundary as the complete TWG boundary."
+        },
+        {
+          "source_type": "official",
+          "source_name": "U.S. Army Corps of Engineers — Lake Texoma",
+          "source_url": "https://www.swt.usace.army.mil/Locations/Tulsa-District-Lakes/Oklahoma/Lake-Texoma/Pertinent-Data/",
+          "supports": [
+            "lake_texoma",
+            "red_river",
+            "history"
+          ],
+          "last_checked": "2026-08-09",
+          "notes": "Official Lake Texoma project reference for Denison Dam, the Red River location and the 1944 Lake Texoma designation."
+        },
+        {
+          "source_type": "tourism",
+          "source_name": "TravelOK — Lake Texoma Area",
+          "source_url": "https://www.travelok.com/Lake_Texoma_Area",
+          "supports": [
+            "oklahoma_tourism_context",
+            "visitor_summary"
+          ],
+          "last_checked": "2026-08-09",
+          "notes": "Oklahoma's official tourism site documents Lake Texoma as a major recreation and visitor destination."
+        }
+      ],
+      "media": {
+        "gallery": [],
+        "hero_primary": {
+          "url": "/images/banner.jpg",
+          "alt_text": "Texoma Weekend Guide illustrated regional banner representing Texas, Oklahoma, Lake Texoma and local weekend destinations.",
+          "source_name": "Texoma Weekend Guide",
+          "source_url": "https://texomaweekendguide.com/",
+          "credit": "Texoma Weekend Guide",
+          "usage_status": "owned",
+          "usage_notes": "Existing TWG branded regional artwork already used on the site homepage.",
           "last_verified": "2026-08-09"
         }
       }
