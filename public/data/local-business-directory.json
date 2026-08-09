@@ -5,8 +5,8 @@
   "generated_on": "2026-08-09",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 648,
-  "publish_ready_count": 312,
+  "business_count": 649,
+  "publish_ready_count": 313,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -39765,6 +39765,199 @@
           "supports": "Independent corroboration of address, phone, marina, slips, fuel dock, launch ramp, fishing guides, lodging, 31 RV sites, restaurant and full bar."
         }
       ],
+      "last_verified": "2026-08-09",
+      "created_on": "2026-08-09",
+      "updated_on": "2026-08-09"
+    },
+    {
+      "slug": "the-lake-house-bar-and-grill-alberta-creek",
+      "business_name": "The Lake House Bar & Grill",
+      "directory_status": "complete_variable_hours",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "9040 Clear Lake Drive, Kingston, OK 73439 — floating restaurant at Alberta Creek Resort & Marina on Lake Texoma",
+      "primary_category": "Restaurant",
+      "category": [
+        "Restaurant",
+        "Bar & Grill",
+        "Waterfront Restaurant",
+        "Floating Restaurant",
+        "Brunch",
+        "Bar",
+        "Live Music Venue"
+      ],
+      "tags": [
+        "The Lake House Bar & Grill",
+        "Alberta Creek Resort & Marina",
+        "Lake Texoma",
+        "Kingston",
+        "Oklahoma",
+        "Floating Restaurant",
+        "Waterfront Dining",
+        "Marina Dining",
+        "Lunch",
+        "Dinner",
+        "Sunday Brunch",
+        "Full Bar",
+        "Patio Dining",
+        "Live Music",
+        "Seasonal Restaurant",
+        "Boat Accessible"
+      ],
+      "description": "The Lake House Bar & Grill is a seasonal floating restaurant and bar at Alberta Creek Resort & Marina on the Oklahoma side of Lake Texoma near Kingston. The waterfront restaurant serves lunch and dinner during its operating season along with Sunday brunch, with indoor and patio dining in a casual marina setting. Alberta Creek publishes a dedicated Lake House menu each season and operates the restaurant as part of its broader resort, marina and summer entertainment experience.",
+      "short_description": "Seasonal floating restaurant and bar at Alberta Creek Resort & Marina offering waterfront lunch, dinner, Sunday brunch and summer lake atmosphere.",
+      "why_visit": "The Lake House gives Lake Texoma visitors a true on-the-water dining stop without leaving Alberta Creek. It works especially well as part of a boating, fishing, RV or resort day, with food, drinks and marina views directly at the waterfront.",
+      "why_its_unique": "The restaurant is physically floating at Alberta Creek Resort & Marina, giving diners a direct Lake Texoma waterfront experience. Alberta Creek describes it as the only floating café on Lake Texoma, although that uniqueness claim should remain attributed to the resort rather than presented as independently established fact.",
+      "address": "9040 Clear Lake Drive",
+      "city": "Kingston",
+      "state": "OK",
+      "postal_code": "73439",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "580-564-4465",
+      "phone_note": "Direct café and to-go-order number.",
+      "email": null,
+      "website": "https://albertacreek.com/cafe/",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/albertacreekcafe/",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Seasonal operation. The Lake House opened for the 2026 season on May 1. Alberta Creek published May hours of Friday and Saturday from 10:00 AM to 9:00 PM and stated that the bar remained open until 10:00 PM during June and July. A complete August 2026 weekly schedule is not currently published on the official website, so verify current hours before visiting.",
+      "at_a_glance": {
+        "average_visit": "Casual waterfront meal or drinks",
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true,
+        "reservations_recommended": null,
+        "free_wifi": null,
+        "boat_parking": true,
+        "rv_parking": true,
+        "waterfront": true,
+        "lake_view": true
+      },
+      "amenities": [
+        "Floating Lake Texoma dining",
+        "Lunch",
+        "Dinner",
+        "Sunday brunch",
+        "Full bar",
+        "To-go orders",
+        "Indoor dining",
+        "Outdoor patio dining",
+        "Lake views",
+        "Marina setting",
+        "Boat-accessible location",
+        "Seasonal live music"
+      ],
+      "good_to_know": [
+        "The Lake House Bar & Grill is located inside Alberta Creek Resort & Marina.",
+        "The restaurant is a floating structure on Lake Texoma.",
+        "Alberta Creek describes The Lake House as Lake Texoma's only floating café; treat that wording as the resort's claim.",
+        "The direct café and to-go number is 580-564-4465.",
+        "The restaurant operates seasonally rather than year-round.",
+        "Chickasaw Country identifies lunch, dinner and Sunday brunch as part of the seasonal food service.",
+        "Alberta Creek publishes a dedicated Lake House menu for the current season.",
+        "Current operating hours should be checked before making a special trip because the schedule changes during the season.",
+        "Alberta Creek hosts summer live music and entertainment; individual performances should be separately verified before publication as Lake House events."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Live music",
+        "Seasonal restaurant events",
+        "Holiday weekend entertainment",
+        "Marina entertainment",
+        "Sunday brunch"
+      ],
+      "event_sources": [
+        "Alberta Creek official event calendar",
+        "The Lake House Bar & Grill Instagram",
+        "Alberta Creek official website"
+      ],
+      "parent_business": {
+        "slug": "alberta-creek-resort-and-marina",
+        "business_name": "Alberta Creek Resort & Marina",
+        "relationship_note": "The Lake House Bar & Grill is the separately branded floating restaurant and bar located at Alberta Creek Resort & Marina."
+      },
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "The Lake House Bar & Grill is located near Kingston, Oklahoma, at Alberta Creek Resort & Marina on Lake Texoma."
+        }
+      ],
+      "related_events": [],
+      "features": [
+        "Floating restaurant",
+        "Lake Texoma waterfront dining",
+        "Seasonal restaurant and bar",
+        "Sunday brunch",
+        "Outdoor patio",
+        "Marina access",
+        "Summer entertainment"
+      ],
+      "source_verified": true,
+      "verification_note": "Verified August 9, 2026 using Alberta Creek Resort & Marina's current official café page and 2026 restaurant-opening listing, with Chickasaw Country used as independent corroboration. Alberta Creek confirms the business name, floating Lake Texoma location, direct café/to-go number, dedicated Instagram account, 2026 menu and seasonal bar operation. Chickasaw Country independently confirms The Lake House as the floating café at Alberta Creek and identifies lunch, dinner and Sunday brunch service. Alberta Creek's current site does not provide a complete August weekly schedule, so regular hours are intentionally not hard-coded. Alberta Creek also has an active 2026 live-music calendar, but individual events should be connected to this child only when the event location is specifically confirmed.",
+      "sources": [
+        {
+          "source_name": "Alberta Creek — Café",
+          "source_url": "https://albertacreek.com/cafe/",
+          "source_type": "official",
+          "supports": "The Lake House Bar & Grill identity, floating restaurant relationship, 2026 menu, direct café phone, to-go service, seasonal hours, bar service and Instagram."
+        },
+        {
+          "source_name": "Alberta Creek — Lake House Bar & Grill Opening",
+          "source_url": "https://albertacreek.com/event/restaurant-opening/",
+          "source_type": "official",
+          "supports": "2026 seasonal opening date and continued operation of The Lake House Bar & Grill."
+        },
+        {
+          "source_name": "Alberta Creek — Events",
+          "source_url": "https://albertacreek.com/events/month/",
+          "source_type": "official",
+          "supports": "Current 2026 live-music and entertainment activity at the Alberta Creek property."
+        },
+        {
+          "source_name": "Chickasaw Country — The Lake House Bar & Grill",
+          "source_url": "https://www.chickasawcountry.com/restaurants/lake-house-bar-grill",
+          "source_type": "official tourism",
+          "supports": "Independent confirmation of the floating café at Alberta Creek, address, seasonal lunch and dinner service, Sunday brunch and waterfront restaurant identity."
+        },
+        {
+          "source_name": "Texoma Connect — The Lake House Bar & Grill",
+          "source_url": "https://texomaconnect.com/restaurants/",
+          "source_type": "regional directory",
+          "supports": "Floating restaurant classification, direct restaurant phone, boat accessibility, indoor/outdoor patio dining and historical summer live-music activity."
+        }
+      ],
+      "last_checked": "2026-08-09",
       "last_verified": "2026-08-09",
       "created_on": "2026-08-09",
       "updated_on": "2026-08-09"
