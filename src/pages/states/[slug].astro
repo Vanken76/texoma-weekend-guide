@@ -138,7 +138,6 @@ const events = stateEvents
   .filter((event) => ["upcoming", "recurring"].includes(event.status))
   .filter(isCurrent);
 
-
 const symbolEntries = Object.entries(symbols).filter(([, value]) => value !== null && value !== undefined && value !== "");
 const sourceEntries = Array.isArray(entity.sources) ? entity.sources.filter((source) => source?.source_name) : [];
 const timeZoneLabels = (entity.time_zones ?? []).map((zone) => zone === "America/Chicago" ? "Central Time" : zone === "America/Denver" ? "Mountain Time" : zone);
@@ -185,8 +184,8 @@ const relatedDestinationHref = relatedDestinationSlugs.length === 1 && published
           <h2>{entity.name} at a glance</h2>
           <dl>
             {entity.abbreviation && <><dt>Abbreviation</dt><dd>{entity.abbreviation}</dd></>}
-            {entity.capital_city_slug && <><dt>Capital</dt><dd>{titleCase(entity.capital_city_slug.replace(/-[a-z]{2}$/, ""))}</dd></>}
-            {entity.largest_city_slug && <><dt>Largest city</dt><dd>{titleCase(entity.largest_city_slug.replace(/-[a-z]{2}$/, ""))}</dd></>}
+            {entity.capital_city_slug && <><dt>Capital</dt><dd>{geographyLabel(entity.capital_city_slug.replace(/-[a-z]{2}$/, ""))}</dd></>}
+            {entity.largest_city_slug && <><dt>Largest city</dt><dd>{geographyLabel(entity.largest_city_slug.replace(/-[a-z]{2}$/, ""))}</dd></>}
             {entity.admission_date && <><dt>Statehood</dt><dd>{formatDate(entity.admission_date)} · {entity.admission_order ? `${entity.admission_order}th state` : ""}</dd></>}
             {entity.motto && <><dt>Motto</dt><dd>{entity.motto}</dd></>}
             {entity.population?.value && <><dt>Population</dt><dd>{formatNumber(entity.population.value)} <small>({entity.population.year} {entity.population.type})</small></dd></>}
