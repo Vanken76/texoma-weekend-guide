@@ -5,8 +5,8 @@
   "generated_on": "2026-08-09",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 645,
-  "publish_ready_count": 309,
+  "business_count": 646,
+  "publish_ready_count": 310,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -39269,6 +39269,132 @@
         "Educational boating activities",
         "Waterfront clubhouse",
         "Family-oriented boating community"
+      ]
+    },
+    {
+      "slug": "stringer-striper-guide-service",
+      "business_name": "Stringer Striper Guide Service",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Cedar Mills Marina & Resort, 500 Harbour View Road, Gordonville, TX 76245 — professional Lake Texoma striper fishing guide service headquartered at the marina",
+      "category": [
+        "Fishing Guide",
+        "Striper Fishing Guide",
+        "Fishing Charter"
+      ],
+      "tags": [
+        "Stringer Striper Guide Service",
+        "Charley Stringer",
+        "Lake Texoma",
+        "Cedar Mills Marina & Resort",
+        "Cedar Mills Marina",
+        "Gordonville",
+        "Texas",
+        "Grayson County",
+        "Fishing Guide",
+        "Striper Guide",
+        "Striped Bass",
+        "Guided Fishing",
+        "Live Bait",
+        "Fishing Equipment Included",
+        "Fish Cleaning",
+        "Large Groups",
+        "Fishing Fleet Dock"
+      ],
+      "description": "Stringer Striper Guide Service is Charley Stringer's professional Lake Texoma fishing-guide operation headquartered at Cedar Mills Marina & Resort in Gordonville, Texas. Charley has been licensed as a guide since 1982, began fishing Lake Texoma full time in 1987 and moved his guide operation to Cedar Mills in 1988. Current guided trips include rods, reels, tackle and live bait, with fishing continuing until the legal limit is reached or for up to eight hours. Charley also cleans the catch after the trip.",
+      "why_visit": "Stringer Striper Guide Service offers a straightforward Lake Texoma fishing experience with the essential fishing equipment and live bait supplied. Guests can fish for up to eight hours or until their legal limit is reached, and catch cleaning is handled afterward.",
+      "why_its_unique": "Charley Stringer has operated from Cedar Mills Marina since 1988 and has decades of professional Lake Texoma guiding experience. Cedar Mills describes Stringer Striper Guide Service as a full-time operation headquartered directly on its Fishing Fleet Dock, giving guests immediate access to the lake from a major full-service marina.",
+      "phone": "903-815-1053",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Stringer Striper Guide Service operates by advance reservation rather than conventional storefront hours. Call Charley Stringer at 903-815-1053 to schedule a trip. Cedar Mills states that dates are set in advance and a deposit is required.",
+      "at_a_glance": {
+        "average_visit": "Until the legal fish limit is reached or up to 8 hours",
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Professional Lake Texoma fishing guide",
+        "Rods and reels provided",
+        "Fishing tackle provided",
+        "Live bait provided",
+        "Catch cleaning",
+        "Large-group fishing capability"
+      ],
+      "good_to_know": [
+        "Stringer Striper Guide Service is operated by Charley Stringer.",
+        "The guide service is headquartered at Cedar Mills Marina & Resort in Gordonville, Texas.",
+        "The current canonical phone number is 903-815-1053.",
+        "Cedar Mills states that Charley Stringer has been licensed as a fishing guide since 1982.",
+        "Cedar Mills states that Charley began fishing Lake Texoma full time in 1987 and moved his guide operation to Cedar Mills in 1988.",
+        "Current trips include rods, reels, tackle and live bait.",
+        "Current trip terms allow fishing until the legal limit is reached or for up to eight hours.",
+        "Catch cleaning is included after the trip.",
+        "Current published daily rates are $500 for two people, $600 for three, $800 for four, $1,000 for five and $1,200 for six.",
+        "Cedar Mills currently requires a $100 deposit to reserve a guide date.",
+        "The current published cancellation policy requires cancellation at least 10 days before the trip.",
+        "Cedar Mills says large groups are welcome and can be accommodated through multiple boats when needed.",
+        "The Oklahoma Department of Wildlife Conservation currently lists Stringer Striper Guide Service at 903-815-1053 among known licensed fishing guides for Lake Texoma.",
+        "Some older third-party Lake Texoma listings display 903-523-5055 for Charley Stringer. Current Cedar Mills information and the Oklahoma Department of Wildlife Conservation independently agree on 903-815-1053, so TWG uses 903-815-1053 as the canonical current phone number.",
+        "No current standalone official website, public email address or confidently verified official social-media account was located."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": {
+        "slug": "cedar-mills-marina-resort",
+        "business_name": "Cedar Mills Marina & Resort",
+        "relationship_note": "Stringer Striper Guide Service is an independently operated professional fishing-guide business headquartered at Cedar Mills Marina & Resort."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Stringer Striper Guide Service is headquartered at Cedar Mills Marina & Resort in Gordonville, Texas, and guides fishing trips on Lake Texoma."
+        }
+      ],
+      "verification_note": "Fully researched and verified August 8, 2026 using the current Cedar Mills Marina & Resort Fishing Guides and Facilities pages and the current Oklahoma Department of Wildlife Conservation known licensed fishing-guide directory. Cedar Mills explicitly identifies Stringer Striper Guide Service as an independent professional fishing-guide operation headquartered at Cedar Mills Marina & Resort and identifies Charley Stringer as the guide. Current first-party information gives 903-815-1053 as the booking phone number, states that Charley has been licensed since 1982, began fishing Lake Texoma full time in 1987 and moved his operation to Cedar Mills in 1988, and confirms supplied rods, reels, tackle and live bait, fishing until the legal limit is reached or up to eight hours, catch cleaning, large-group capability and current per-day rates of $500 for two guests, $600 for three, $800 for four, $1,000 for five and $1,200 for six. Cedar Mills currently requires a $100 deposit and states that cancellations must be made at least 10 days before the trip. The Oklahoma Department of Wildlife Conservation independently lists Stringer Striper Guide Service at the matching 903-815-1053 phone number for Lake Texoma. Older third-party Lake Texoma directory material displays 903-523-5055, but because the current marina source and state guide directory independently agree on 903-815-1053, TWG treats the older number as stale. No current standalone official website, public email address or confidently verified official social-media account was located.",
+      "last_checked": "2026-08-08",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Lake Texoma striper guide",
+        "Headquartered at Cedar Mills Marina",
+        "Professional guiding since the 1980s",
+        "Fishing equipment included",
+        "Live bait included",
+        "Up to eight-hour trips",
+        "Catch cleaning included",
+        "Large-group capability"
       ]
     }
   ]
