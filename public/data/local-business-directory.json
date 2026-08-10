@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 690,
-  "publish_ready_count": 356,
+  "business_count": 691,
+  "publish_ready_count": 357,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -50165,6 +50165,172 @@
           "source_url": "https://www.grubhub.com/restaurant/franks-80841-tx-289-pottsboro/5874240",
           "source_type": "ordering_platform",
           "supports": "Current menu categories including burgers, sandwiches, dinners, kids meals, breakfast items and delivery/pickup."
+        }
+      ],
+      "last_checked": "2026-08-09",
+      "last_verified": "2026-08-09"
+    },
+    {
+      "slug": "hot-n-creamy-donuts-pottsboro",
+      "business_name": "Hot'n Creamy Donuts",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "700 FM 120, Pottsboro, TX 75076",
+      "category": [
+        "Donut Shop",
+        "Bakery",
+        "Breakfast",
+        "Coffee"
+      ],
+      "tags": [
+        "Hot'n Creamy Donuts",
+        "Pottsboro",
+        "Lake Texoma Area",
+        "Texas",
+        "Grayson County",
+        "Donuts",
+        "Breakfast",
+        "Coffee",
+        "Croissants",
+        "Sausage Rolls",
+        "Pigs in a Blanket",
+        "Drive Through",
+        "Takeout",
+        "Early Morning"
+      ],
+      "description": "Hot'n Creamy Donuts is an early-morning donut and breakfast shop in Pottsboro serving glazed, chocolate, filled, cake and specialty donuts along with donut holes, cinnamon items, fritters, croissants and savory pigs-in-a-blanket-style breakfast items. The shop opens before sunrise every day and offers a convenient stop for Pottsboro residents and visitors heading toward the Lake Texoma area.",
+      "short_description": "Pottsboro donut shop serving fresh donuts, croissants, savory breakfast items and coffee from early morning through noon.",
+      "why_visit": "Hot'n Creamy Donuts is a convenient early-morning stop for breakfast before boating, fishing, traveling or spending the day around Pottsboro and Lake Texoma. The menu includes both sweet donuts and savory grab-and-go breakfast choices.",
+      "why_its_unique": "The shop opens at 4:30 AM daily, making it one of the earliest food options in Pottsboro and useful for anglers, boaters, commuters and other early risers headed toward Lake Texoma.",
+      "address": "700 FM 120",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-786-5000",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Hot%27n+Creamy+Donuts+700+FM+120+Pottsboro+TX+75076",
+      "hours": {
+        "monday": "4:30 AM–12:00 PM",
+        "tuesday": "4:30 AM–12:00 PM",
+        "wednesday": "4:30 AM–12:00 PM",
+        "thursday": "4:30 AM–12:00 PM",
+        "friday": "4:30 AM–12:00 PM",
+        "saturday": "4:30 AM–12:00 PM",
+        "sunday": "4:30 AM–12:00 PM"
+      },
+      "hours_note": "Current local business data and Restaurantji both list 4:30 AM to noon seven days a week. Check current listings for holiday-hour changes.",
+      "average_visit": "Quick breakfast or pickup stop",
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "food_available": true,
+      "full_bar": false,
+      "live_music": false,
+      "karaoke": false,
+      "outdoor_seating": null,
+      "wheelchair_accessible": true,
+      "at_a_glance": {
+        "average_visit": "Quick breakfast or pickup stop",
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true
+      },
+      "amenities": [
+        "Takeout",
+        "Delivery",
+        "Drive-through",
+        "Coffee",
+        "Breakfast",
+        "Wheelchair-accessible parking",
+        "Wheelchair-accessible entrance",
+        "Wheelchair-accessible restroom"
+      ],
+      "features": [
+        "Glazed donuts",
+        "Chocolate donuts",
+        "Filled donuts",
+        "Cake donuts",
+        "Blueberry cake donuts",
+        "Donut holes",
+        "Apple cinnamon fritters",
+        "Cinnamon minis",
+        "Ham and cheese croissants",
+        "Bacon, egg and cheese croissants",
+        "Pigs in a blanket",
+        "Jalapeño pigs in a blanket",
+        "Early-morning service"
+      ],
+      "payment_methods": [
+        "Credit cards",
+        "Debit cards",
+        "NFC mobile payments"
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "event_types": [],
+      "event_sources": [],
+      "parent_business": null,
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Hot'n Creamy Donuts is located in Pottsboro, Texas."
+        },
+        {
+          "slug": "lake-texoma",
+          "name": "Lake Texoma",
+          "entity_type": "region",
+          "relationship_note": "The Pottsboro location serves the Lake Texoma gateway area."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Fully researched August 9, 2026. The current TWG local-business-directory.json was checked by business name and street address before creating this record and no existing Hot'n Creamy Donuts record was found. Current local business data, Restaurantji, Nextdoor and current menu listings consistently identify the business at 700 FM 120 in Pottsboro with phone 903-786-5000. Current local business data and Restaurantji agree on daily hours of 4:30 AM to 12:00 PM. Current listings support takeout, delivery, drive-through service, breakfast, coffee, accessibility and electronic payment methods. Menu sources confirm glazed, chocolate, filled and cake donuts, donut holes, fritters, croissants and savory pigs-in-a-blanket-style breakfast items. No dependable official website, Facebook page or Instagram account was identified during research, so those fields are intentionally left null rather than guessed.",
+      "sources": [
+        {
+          "source_name": "Current Local Business Listing",
+          "source_url": "https://www.google.com/maps/search/?api=1&query=Hot%27n+Creamy+Donuts+700+FM+120+Pottsboro+TX+75076",
+          "source_type": "business_listing",
+          "supports": "Current business identity, address, phone, hours, service options, accessibility and payment methods."
+        },
+        {
+          "source_name": "Restaurantji",
+          "source_url": "https://www.restaurantji.com/tx/pottsboro/hotn-creamy-donuts-/",
+          "source_type": "restaurant_directory",
+          "supports": "Current address, phone, daily hours, takeout and delivery plus featured donut and breakfast items."
+        },
+        {
+          "source_name": "Allmenus",
+          "source_url": "https://www.allmenus.com/tx/pottsboro/587198-hotn-creamy-donuts/menu/",
+          "source_type": "menu_directory",
+          "supports": "Menu categories including donuts, fritters, croissants, biscuits and pigs in a blanket."
+        },
+        {
+          "source_name": "Nextdoor",
+          "source_url": "https://nextdoor.com/pages/hotn-creamy-donuts-pottsboro-tx/",
+          "source_type": "local_business_directory",
+          "supports": "Independent confirmation of the Pottsboro location, address, phone and donut-shop identity."
         }
       ],
       "last_checked": "2026-08-09",
