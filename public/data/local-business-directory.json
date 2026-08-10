@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 743,
-  "publish_ready_count": 418,
+  "business_count": 744,
+  "publish_ready_count": 419,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -64120,6 +64120,224 @@
           "source_url": "https://www.mmvehicles.com/dealers/",
           "source_type": "manufacturer/dealer directory",
           "supports": "Independent current listing of Mullens Golf Carts at 85515 N Hwy 289 with phone 903-815-7037."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "last_verified": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "slug": "pottsboro-elementary-school",
+      "business_name": "Pottsboro Elementary School",
+      "alternate_names": [
+        "Pottsboro Elementary",
+        "Pottsboro ISD Elementary School"
+      ],
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "525 Hwy 120, Pottsboro, TX 75076 — Pottsboro Independent School District elementary campus and community-event location",
+      "primary_category": "Public Elementary School",
+      "category": [
+        "Public School",
+        "Elementary School",
+        "Education",
+        "Community Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Pottsboro Elementary School",
+        "Pottsboro Elementary",
+        "Pottsboro ISD",
+        "Pottsboro Independent School District",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Lake Texoma",
+        "Public School",
+        "Elementary School",
+        "Pre-K",
+        "Elementary Education",
+        "Community Events",
+        "School Events",
+        "Frontier Day",
+        "Frontier Day Car Show"
+      ],
+      "description": "Pottsboro Elementary School is the elementary campus of Pottsboro Independent School District in Pottsboro, Texas. The campus serves younger students in the district and is led by Principal Jeremy Laroche and Assistant Principal Erin Fish. In addition to its primary educational role, the school campus can serve as a location for community activities; the Pottsboro Area Chamber of Commerce identifies Pottsboro Elementary School as the site of the 2026 Frontier Day Car Show.",
+      "short_description": "Pottsboro ISD elementary campus at 525 Hwy 120 and a community-event location used for events including the 2026 Frontier Day Car Show.",
+      "why_visit": "Pottsboro Elementary School is primarily an educational campus rather than a visitor attraction. Its TWG listing is useful for accurately connecting school and community events held on or around the campus.",
+      "why_its_unique": "The campus sits directly along Pottsboro's FM 120 community corridor near Friendship Park and is occasionally incorporated into larger community celebrations such as Frontier Day.",
+      "address": "525 Hwy 120",
+      "address_line_2": null,
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "address_note": "Pottsboro ISD's current official Campus Contact page identifies Pottsboro Elementary School at 525 Hwy 120, Pottsboro, TX 75076. The Pottsboro Area Chamber's 2026 Frontier Day Car Show page uses 523 E FM 120 for that specific event. Historical/current directory data associates 523 E FM 120 with the former Pottsboro Intermediate School location immediately adjacent to the elementary campus. TWG therefore uses the school district's authoritative 525 Hwy 120 as the canonical school address while allowing individual event records to retain organizer-published arrival/location instructions such as 523 E FM 120.",
+      "phone": "903-771-2981",
+      "phone_secondary": "903-771-0083",
+      "phone_note": "903-771-2981 is the current Pottsboro Elementary School campus number. 903-771-0083 is the Pottsboro ISD district administration number.",
+      "email": null,
+      "website": "https://www.pottsboroisd.org/campus-contact",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": false,
+      "dog_friendly": false,
+      "hours": null,
+      "hours_note": "This is an active public-school campus, not a generally open public attraction. Campus access follows Pottsboro ISD school schedules, visitor procedures, security policies and event-specific instructions. TWG does not publish ordinary school-day hours as public visitor hours.",
+      "at_a_glance": {
+        "average_visit": "Varies by school or community event",
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": false,
+        "dog_friendly": false,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Elementary school campus",
+        "School library",
+        "Educational facilities",
+        "Outdoor campus space",
+        "Community-event space when specifically authorized"
+      ],
+      "good_to_know": [
+        "Pottsboro Elementary School is part of Pottsboro Independent School District.",
+        "The current official campus address is 525 Hwy 120, Pottsboro, TX 75076.",
+        "The current campus phone number is 903-771-2981.",
+        "Jeremy Laroche is the current principal.",
+        "Erin Fish is the current assistant principal.",
+        "Current Pottsboro ISD parent resources group elementary supplies as Pre-K through 4th grade.",
+        "The district maintains a dedicated elementary school library as part of the Pottsboro ISD library system.",
+        "The campus is an active school and should not be treated as a general drop-in tourist attraction.",
+        "Visitors attending school functions should follow Pottsboro ISD visitor and security procedures.",
+        "Public community events held on school property may have their own entrance, parking or arrival instructions.",
+        "The Pottsboro Area Chamber of Commerce identifies Pottsboro Elementary School as the venue for the 2026 Frontier Day Car Show.",
+        "The Chamber uses 523 E FM 120 for that event, while Pottsboro ISD uses 525 Hwy 120 as the official elementary campus address.",
+        "TWG should preserve 525 Hwy 120 on the permanent school record and retain 523 E FM 120 only where an event organizer specifically publishes it."
+      ],
+      "leadership": {
+        "principal": "Jeremy Laroche",
+        "assistant_principal": "Erin Fish"
+      },
+      "school_district": "Pottsboro Independent School District",
+      "grade_levels_note": "Current Pottsboro ISD parent resources group the elementary campus with Pre-K through 4th-grade materials.",
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "event_types": [
+        "School events",
+        "Community events",
+        "Frontier Day activities",
+        "Car shows",
+        "Family events"
+      ],
+      "event_sources": [
+        "Pottsboro Independent School District",
+        "Pottsboro ISD Events",
+        "Pottsboro Area Chamber of Commerce event calendar"
+      ],
+      "parent_business": {
+        "business_name": "Pottsboro Independent School District",
+        "relationship_note": "Pottsboro Elementary School is a campus operated by Pottsboro Independent School District. No separate canonical TWG Pottsboro ISD parent record was found during this research pass."
+      },
+      "child_businesses": [],
+      "related_businesses": [
+        {
+          "slug": "friendship-park-pottsboro",
+          "business_name": "Friendship Park",
+          "relationship_note": "Friendship Park is nearby on the FM 120 corridor and hosts the main Frontier Day festival while the associated Frontier Day Car Show uses the Pottsboro Elementary School area."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "lake-texoma",
+          "name": "Lake Texoma",
+          "entity_type": "region",
+          "relationship_note": "Pottsboro Elementary School is located in Pottsboro, a principal Texas community serving the Lake Texoma area."
+        },
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Pottsboro Elementary School is located in Pottsboro, Texas."
+        }
+      ],
+      "related_events": [
+        {
+          "event_slug": "2026-frontier-day-car-show-pottsboro-2026-09-26",
+          "event_name": "2026 Frontier Day Car Show",
+          "relationship_note": "The Pottsboro Area Chamber of Commerce identifies Pottsboro Elementary School as the event venue."
+        },
+        {
+          "event_slug": "2026-frontier-day-freedom-on-the-frontier-pottsboro-2026-09-26",
+          "event_name": "2026 Frontier Day - Freedom On The Frontier",
+          "relationship_note": "The car show at the elementary school is a component of the broader Frontier Day celebration taking place nearby at Friendship Park."
+        }
+      ],
+      "features": [
+        "Pottsboro ISD elementary campus",
+        "Pre-K through elementary-grade education",
+        "Current campus leadership verified",
+        "School library",
+        "Community-event use",
+        "2026 Frontier Day Car Show venue",
+        "Near Friendship Park",
+        "FM 120 location"
+      ],
+      "source_verified": true,
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical public/data/local-business-directory.json, which contained 743 businesses and 418 publish-ready records. No Pottsboro Elementary School or equivalent elementary-campus record appeared in the canonical directory, so this is a new record rather than a duplicate. Pottsboro ISD's current official Campus Contact page identifies the Elementary School at 525 Hwy 120, Pottsboro, TX 75076, phone 903-771-2981, with Jeremy Laroche as principal and Erin Fish as assistant principal. The current district website identifies Pottsboro ISD as the governing school district and publishes current 2026-2027 district resources. Current parent resources group elementary school supplies as Pre-K through 4th grade, while the district Libraries page independently confirms a dedicated elementary library. The Pottsboro Area Chamber of Commerce's 2026 Frontier Day Car Show listing identifies Pottsboro Elementary School as the car-show location, establishing event_venue=true for TWG purposes. The Chamber uses 523 E FM 120 for that specific event, while Pottsboro ISD's authoritative current campus directory uses 525 Hwy 120. Independent local directory history associates 523 E FM 120 with Pottsboro Intermediate School. TWG therefore uses 525 Hwy 120 as the permanent canonical school address while preserving the Chamber's 523 E FM 120 in the individual Frontier Day Car Show event record as organizer-published event-location guidance. Because this is an active school campus rather than a general attraction, normal school operating hours are not presented as public visitor hours.",
+      "sources": [
+        {
+          "source_name": "Pottsboro ISD — Campus Contact",
+          "source_url": "https://www.pottsboroisd.org/campus-contact",
+          "source_type": "official",
+          "supports": "Current elementary-school address, campus phone, principal Jeremy Laroche and assistant principal Erin Fish."
+        },
+        {
+          "source_name": "Pottsboro Independent School District — Official Website",
+          "source_url": "https://www.pottsboroisd.org/",
+          "source_type": "official",
+          "supports": "Current school-district identity, district administration contact information and active 2026 district operation."
+        },
+        {
+          "source_name": "Pottsboro ISD — Parent Information",
+          "source_url": "https://www.pottsboroisd.org/parent-info",
+          "source_type": "official",
+          "supports": "Current Pre-K through 4th-grade elementary supply grouping and parent resources."
+        },
+        {
+          "source_name": "Pottsboro ISD — Libraries",
+          "source_url": "https://www.pottsboroisd.org/libraries",
+          "source_type": "official",
+          "supports": "Current dedicated Pottsboro Elementary School library and elementary library staff."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — 2026 Frontier Day Car Show",
+          "source_url": "https://members.pottsborochamber.com/events/details/2026-frontier-day-car-show-14647",
+          "source_type": "official chamber",
+          "supports": "Pottsboro Elementary School as the official 2026 Frontier Day Car Show venue and the organizer-published 523 E FM 120 event location."
         }
       ],
       "last_checked": "2026-08-10",
