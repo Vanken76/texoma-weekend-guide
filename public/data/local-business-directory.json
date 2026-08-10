@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 712,
-  "publish_ready_count": 378,
+  "business_count": 713,
+  "publish_ready_count": 379,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -53429,6 +53429,217 @@
         "North Texas service",
         "Southern Oklahoma service"
       ]
+    },
+    {
+      "slug": "k-bar-k-meats",
+      "business_name": "K Bar K Meats",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Pottsboro, TX — working ranch with scheduled pickup/drop-off service; no public retail storefront",
+      "primary_category": "Farm & Ranch",
+      "category": [
+        "Farm & Ranch",
+        "Local Meat Producer"
+      ],
+      "tags": [
+        "K Bar K Meats",
+        "K Bar K Ranch",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Local Meat",
+        "Pasture Raised Meat",
+        "Pasture Raised Beef",
+        "Pasture Raised Pork",
+        "Pasture Raised Chicken",
+        "Grass Fed Beef",
+        "Beef",
+        "Pork",
+        "Chicken",
+        "Eggs",
+        "Farm Direct",
+        "Ranch Direct",
+        "Online Ordering",
+        "Scheduled Pickup",
+        "Local Delivery",
+        "Bulk Beef",
+        "Quarter Beef",
+        "Half Beef",
+        "Whole Beef",
+        "Farmers Market"
+      ],
+      "description": "K Bar K Meats is a family-owned working ranch in Pottsboro, Texas, selling pasture-raised beef, pork, chicken and eggs directly to customers. The ranch offers a broad selection of individual cuts and specialty products as well as quarter, half and whole steer orders. Customers order ahead online and collect purchases through scheduled pickup and delivery stops rather than a walk-in retail store.",
+      "short_description": "Family-owned Pottsboro ranch offering pasture-raised beef, pork, chicken and eggs through online ordering and scheduled pickup/drop-off service.",
+      "why_visit": "K Bar K Meats gives Texoma residents a direct local source for pasture-raised meat from a long-established Pottsboro ranch. Customers can choose individual cuts, sausages, bacon, eggs and bulk beef packages online, then pick up their order at a scheduled local stop.",
+      "why_its_unique": "K Bar K combines a working local ranch with direct-to-customer sales, a large beef, pork and poultry selection, bulk steer options and a recurring pickup and delivery network. The ranch has operated in Pottsboro since 1986 and sells its own pasture-raised food without operating a conventional retail storefront.",
+      "address": null,
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-271-3257",
+      "phone_note": "Current Pottsboro Area Chamber listing and recent agricultural-directory listings corroborate 903-271-3257. K Bar K's redesigned contact page currently displays obvious placeholder contact data and is not used as the canonical phone source.",
+      "email": "kbark1986@gmail.com",
+      "website": "https://kbarkmeats.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "K Bar K Meats does not operate a walk-in retail store. Order ahead and use the current delivery/pickup calendar. Pottsboro pickup stops are currently scheduled on selected Fridays, commonly 3:00 PM–3:15 PM at 920 W FM 120; verify the current calendar before pickup because dates and locations can change.",
+      "at_a_glance": {
+        "average_visit": "Scheduled order pickup",
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null,
+        "reservations_recommended": null,
+        "free_wifi": null,
+        "boat_parking": null,
+        "rv_parking": null,
+        "waterfront": false,
+        "lake_view": null
+      },
+      "amenities": [
+        "Online ordering",
+        "Scheduled Pottsboro pickup",
+        "North DFW pickup and delivery route",
+        "Cash accepted at pickup",
+        "Check accepted at pickup",
+        "Credit card accepted at pickup",
+        "Individual meat cuts",
+        "Bulk beef orders",
+        "Quarter steer orders",
+        "Half steer orders",
+        "Whole steer orders",
+        "Seasonal farmers market appearances"
+      ],
+      "good_to_know": [
+        "K Bar K Meats is a working ranch and does not operate a public walk-in retail store.",
+        "Customers should order ahead and select a scheduled pickup or delivery stop from the current delivery calendar.",
+        "The current delivery calendar includes recurring Pottsboro pickup stops at 920 W FM 120.",
+        "The next currently listed Pottsboro pickup after August 10, 2026 is Friday, August 14 from 3:00 PM to 3:15 PM, followed by additional scheduled Friday stops.",
+        "Pickup schedules can change, so customers should verify the live delivery calendar before driving to a stop.",
+        "Payment at pickup can currently be made by cash, check or credit card.",
+        "Current products include beef, pork, chicken and eggs, with individual cuts, sausages, bacon, organ meats, bones, broth products and other specialty items.",
+        "Quarter, half and whole steer orders are available and may require a deposit and waiting period.",
+        "K Bar K's FAQ says cattle are born and raised on grass and are approximately 99.9% grass-fed, with forage-based supplementation when needed.",
+        "The ranch says its pigs and chickens are pasture-raised and supplemented with GMO-free feed.",
+        "The Pottsboro Area Chamber currently lists the business at 1839 Cemetery Rd, Pottsboro, TX 75076 with phone 903-271-3257.",
+        "Recent agricultural directories also corroborate 1839 Cemetery Rd, 903-271-3257 and kbark1986@gmail.com.",
+        "Because K Bar K's own FAQ says there is no retail store, TWG does not present the Cemetery Road ranch address as a customer pickup destination without owner confirmation.",
+        "K Bar K's redesigned contact page currently contains obvious placeholder information including 903-123-4567 and 123 Ranch Road; those values are not used.",
+        "The business currently advertises Saturday appearances at the Frisco Rotary Farmers Market from 9:00 AM to 1:00 PM during the market season."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "event_types": [
+        "Farmers market appearances",
+        "Special pickup announcements",
+        "Seasonal product promotions"
+      ],
+      "event_sources": [
+        "K Bar K Meats official delivery calendar",
+        "K Bar K Meats official website"
+      ],
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "K Bar K Meats is based in Pottsboro, Texas, in Grayson County."
+        }
+      ],
+      "related_events": [],
+      "features": [
+        "Family-owned Pottsboro ranch",
+        "Established in 1986",
+        "Pasture-raised beef",
+        "Pasture-raised pork",
+        "Pasture-raised chicken",
+        "Farm-fresh eggs",
+        "Online ordering",
+        "Scheduled local pickup",
+        "Regional delivery route",
+        "Bulk steer orders",
+        "Frisco Rotary Farmers Market vendor"
+      ],
+      "source_verified": true,
+      "verification_note": "Fully researched August 10, 2026 after a fresh check of the canonical TWG local-business-directory.json found no current K Bar K Meats record. Current first-party pages confirm active operation as K Bar K Meats, LLC, pasture-raised beef, pork, chicken and eggs, online ordering, scheduled delivery/pickup service, no walk-in retail store, payment by cash/check/credit card at pickup, bulk steer ordering and an active delivery calendar with Pottsboro stops. The Pottsboro Area Chamber currently lists K Bar K Meats, LLC at 1839 Cemetery Rd with phone 903-271-3257 and describes it as a family-owned ranch established in 1986. A recent EatWild listing independently corroborates 1839 Cemetery Rd, 903-271-3257 and kbark1986@gmail.com. K Bar K's redesigned current contact page contains obvious placeholder data including 903-123-4567 and 123 Ranch Road, so those values are rejected. Because the official FAQ says the ranch has no store, TWG does not expose 1839 Cemetery Rd as a customer pickup address in the primary address field pending direct owner confirmation; customers are directed to the current scheduled pickup calendar instead. Social-media URLs were left null because they were not independently reverified during this pass.",
+      "sources": [
+        {
+          "source_name": "K Bar K Meats — Home",
+          "source_url": "https://kbarkmeats.com/",
+          "source_type": "official",
+          "supports": "Current active business identity, pasture-raised meat positioning, Frisco Rotary Farmers Market schedule and current website operation."
+        },
+        {
+          "source_name": "K Bar K Meats — FAQ",
+          "source_url": "https://kbarkmeats.com/faq/",
+          "source_type": "official",
+          "supports": "No retail storefront, pasture-raised production details, ordering workflow, scheduled pickup/delivery process, payment methods and bulk steer ordering."
+        },
+        {
+          "source_name": "K Bar K Meats — Products",
+          "source_url": "https://kbarkmeats.com/products/",
+          "source_type": "official",
+          "supports": "Current beef, chicken and pork product catalog, individual cuts, eggs and specialty products."
+        },
+        {
+          "source_name": "K Bar K Meats — Deliveries",
+          "source_url": "https://kbarkmeats.com/deliveries/",
+          "source_type": "official",
+          "supports": "Current scheduled delivery and pickup network, Pottsboro pickup location and dates, and Frisco Farmers Market appearances."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — K Bar K Meats, LLC",
+          "source_url": "https://www.pottsborochamber.com/list/member/k-bar-k-meats-llc-2011.htm",
+          "source_type": "local chamber",
+          "supports": "Current K Bar K Meats, LLC identity, 1839 Cemetery Rd business address, 903-271-3257 phone, family-owned ranch description and 1986 establishment."
+        },
+        {
+          "source_name": "EatWild — Texas",
+          "source_url": "https://www.eatwild.com/products/texas.html",
+          "source_type": "agricultural directory",
+          "supports": "Recent independent corroboration of 1839 Cemetery Rd, 903-271-3257, kbark1986@gmail.com and current product categories."
+        },
+        {
+          "source_name": "K Bar K Meats — Current Contact Page",
+          "source_url": "https://kbarkmeats.com/contact/",
+          "source_type": "official conflicting source",
+          "supports": "Documents the redesigned site's obvious placeholder contact values; these values are intentionally rejected in favor of corroborated current contact information."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "last_verified": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
     }
   ]
 }
