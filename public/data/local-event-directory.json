@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 157,
-  "publish_ready_count": 150,
+  "event_count": 158,
+  "publish_ready_count": 151,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -10098,6 +10098,128 @@
           "source_url": "https://www.choctawcasinos.com/durant/",
           "source_type": "official",
           "supports": "Current resort address, Lenny Kravitz listing in the Durant entertainment schedule, North Parking Garage guidance and on-property amenities."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "russell-dickerson-with-elizabeth-nichols-choctaw-grand-theater-durant-2026-09-19",
+      "event_name": "Russell Dickerson with Elizabeth Nichols",
+      "description": "Country hitmaker Russell Dickerson performs live at Choctaw Grand Theater at Choctaw Casino & Resort – Durant on Saturday, September 19, 2026, with Elizabeth Nichols also on the bill. Dickerson is known for hits including \"Yours,\" \"Blue Tacoma,\" \"Love You Like I Used To,\" \"Every Little Thing,\" \"God Gave Me a Girl\" and \"She Likes It.\" Elizabeth Nichols is a Kentucky-rooted singer-songwriter whose music centers on relatable storytelling and small-town life. Doors open at 6:30 PM and the concert begins at 8:00 PM.",
+      "start_datetime": "2026-09-19T20:00:00-05:00",
+      "end_datetime": null,
+      "doors_open_datetime": "2026-09-19T18:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-grand-theater-choctaw-casino-resort-durant"
+      ],
+      "venue_name": "The Grand Theater at Choctaw Casino & Resort – Durant",
+      "host_business_slug": "choctaw-casino-resort-durant",
+      "organizer_name": "Choctaw Casino & Resort – Durant",
+      "address": "4216 S Hwy 69/75",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Concert",
+        "Country Music",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "Russell Dickerson",
+        "Elizabeth Nichols",
+        "Country Music",
+        "Country Concert",
+        "Live Music",
+        "Concert",
+        "Yours",
+        "Blue Tacoma",
+        "Love You Like I Used To",
+        "Every Little Thing",
+        "God Gave Me a Girl",
+        "She Likes It",
+        "Famous Back Home",
+        "Choctaw Grand Theater",
+        "Choctaw Casino & Resort Durant",
+        "Durant",
+        "Oklahoma",
+        "Southern Oklahoma",
+        "Texoma",
+        "National Touring Artist"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ticketed concert. Tickets are sold through Ticketmaster, the official ticketing agent for Choctaw Casinos & Resorts. Ticket prices and seat availability vary.",
+      "audience": [
+        "Country music fans",
+        "Russell Dickerson fans",
+        "Elizabeth Nichols fans",
+        "Live music fans",
+        "Concertgoers",
+        "Texoma visitors"
+      ],
+      "age_restriction": null,
+      "performers": [
+        {
+          "name": "Russell Dickerson",
+          "role": "Headlining artist"
+        },
+        {
+          "name": "Elizabeth Nichols",
+          "role": "Featured artist"
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/russell-dickerson-with-elizabeth-nichols-choctaw-grand-theater-durant-2026-09-19.jpg",
+      "image_alt": null,
+      "official_url": "https://www.choctawcasinos.com/events/russell-dickerson-w-elizabeth-nichols/",
+      "facebook_url": null,
+      "ticket_url": "https://www.ticketmaster.com/event/0C00644BBA6D836A",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The concert is Saturday, September 19, 2026.",
+        "Doors open at 6:30 PM.",
+        "Showtime is 8:00 PM.",
+        "Russell Dickerson and Elizabeth Nichols are both listed on the Durant concert bill.",
+        "The performance is at the Grand Theater inside Choctaw Casino & Resort – Durant.",
+        "Ticketmaster is the official ticketing agent for Choctaw Casinos & Resorts.",
+        "Ticket prices and available seats may change as the concert approaches.",
+        "No official concert ending time is published, so TWG leaves end_datetime null.",
+        "No event-specific age restriction is currently published, so TWG leaves age_restriction null.",
+        "The North Parking Garage is the resort's recommended convenient parking area for Grand Theater concertgoers.",
+        "Choctaw Casino & Resort – Durant offers lodging, restaurants, bars, gaming and additional entertainment on the same property."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contained 157 events and 150 publish-ready records. Searches for 'Russell Dickerson,' 'Dickerson' and 'Elizabeth Nichols' returned no existing canonical event record, so this is a new event rather than a duplicate. Choctaw Casinos & Resorts' official current event page confirms Russell Dickerson w/Elizabeth Nichols at Choctaw Grand Theater in Durant on Saturday, September 19, 2026, with doors opening at 6:30 PM and showtime at 8:00 PM. Choctaw identifies Dickerson as a multi-Platinum country artist and highlights songs including Yours, Blue Tacoma, Love You Like I Used To, Every Little Thing, God Gave Me a Girl and She Likes It. The official page also identifies Elizabeth Nichols as a Kentucky-rooted singer-songwriter now based in Nashville. Ticketmaster independently confirms Russell Dickerson with Elizabeth Nichols at Choctaw Grand Theater on September 19, 2026 at 8:00 PM and lists both performers in the lineup. The official Choctaw event page links to Ticketmaster event 0C00644BBA6D836A. Choctaw's current Durant property page confirms the resort address at 4216 S Hwy 69/75, Durant, OK 74701 and recommends the North Parking Garage for guests attending Grand Theater concerts. The canonical TWG business directory already contains active publish-ready records for The Grand Theater at Choctaw Casino & Resort – Durant and Choctaw Casino & Resort – Durant. No official concert ending time, fixed ticket-price range or event-specific age restriction is currently published, so TWG does not invent those fields.",
+      "sources": [
+        {
+          "source_name": "Choctaw Casinos & Resorts — Russell Dickerson w/Elizabeth Nichols",
+          "source_url": "https://www.choctawcasinos.com/events/russell-dickerson-w-elizabeth-nichols/",
+          "source_type": "official",
+          "supports": "Artists, September 19, 2026 date, Durant location, Grand Theater venue, 6:30 PM doors, 8:00 PM showtime, artist background and official Ticketmaster relationship."
+        },
+        {
+          "source_name": "Ticketmaster — Russell Dickerson with Elizabeth Nichols",
+          "source_url": "https://www.ticketmaster.com/event/0C00644BBA6D836A",
+          "source_type": "official ticketing",
+          "supports": "Independent confirmation of Russell Dickerson and Elizabeth Nichols at Choctaw Grand Theater on Saturday, September 19, 2026 at 8:00 PM."
+        },
+        {
+          "source_name": "Choctaw Casino & Resort – Durant",
+          "source_url": "https://www.choctawcasinos.com/durant/",
+          "source_type": "official",
+          "supports": "Current resort address, Grand Theater location, North Parking Garage guidance and on-property amenities."
         }
       ],
       "last_checked": "2026-08-10",
