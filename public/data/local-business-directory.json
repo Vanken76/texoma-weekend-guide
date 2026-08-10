@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 710,
-  "publish_ready_count": 376,
+  "business_count": 711,
+  "publish_ready_count": 377,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -53161,6 +53161,132 @@
         "Holiday shopping",
         "Changing inventory",
         "Local independent shopping"
+      ]
+    },
+    {
+      "slug": "289-storage",
+      "business_name": "289 Storage",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "30075 N State Highway 289, Pottsboro, TX 75076",
+      "category": [
+        "Self Storage",
+        "Climate-Controlled Storage",
+        "Drive-Up Storage"
+      ],
+      "tags": [
+        "289 Storage",
+        "Pottsboro",
+        "Texas",
+        "Self Storage",
+        "Storage Units",
+        "Climate-Controlled Storage",
+        "Drive-Up Storage",
+        "24-Hour Access",
+        "Gated Storage",
+        "Video Surveillance",
+        "Online Rentals",
+        "Online Bill Pay",
+        "Month-to-Month Storage",
+        "Moving Supplies",
+        "Lake Texoma Area"
+      ],
+      "description": "289 Storage is a locally operated self-storage facility in Pottsboro offering climate-controlled and traditional drive-up storage units in a variety of sizes. The gated property provides 24-hour tenant access, digital video surveillance, online unit rentals and online bill payment. The facility serves Pottsboro as well as customers from Denison, Sherman, Sadler and the surrounding Lake Texoma area, with storage options suited to household moves, lake-home belongings, business inventory, renovation projects and seasonal equipment.",
+      "why_visit": "289 Storage is useful for residents, property owners and Lake Texoma visitors who need secure short- or long-term space for household goods, business inventory, seasonal belongings or items associated with moving and remodeling. Online rentals and 24-hour tenant access make it possible to manage storage without being limited to office hours.",
+      "why_its_unique": "The facility combines climate-controlled and drive-up storage with gated 24-hour access, online management and moving assistance available from A Sharp Moving Company at the same property. That combination makes it a practical one-stop location for customers who need both moving and storage support.",
+      "phone": "903-819-4093",
+      "email": "meshellewis@gmail.com",
+      "website": "https://www.289storage.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "9:00 AM–5:00 PM",
+        "tuesday": "9:00 AM–5:00 PM",
+        "wednesday": "9:00 AM–5:00 PM",
+        "thursday": "9:00 AM–5:00 PM",
+        "friday": "9:00 AM–5:00 PM",
+        "saturday": "9:00 AM–1:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "These are office hours. Current tenants have 24-hour access to the gated storage facility. Online rentals and account management are also available 24/7.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Climate-controlled storage units",
+        "Drive-up storage units",
+        "24-hour tenant access",
+        "Gated facility",
+        "Digital video surveillance",
+        "Online unit rentals",
+        "Online bill payment",
+        "Month-to-month leases",
+        "Variety of unit sizes",
+        "Boxes and moving supplies",
+        "Concrete-floor drive-up units"
+      ],
+      "good_to_know": [
+        "Office hours and tenant-access hours are different; tenants currently have 24-hour facility access.",
+        "Storage units can be rented online without waiting for the office to open.",
+        "Both climate-controlled and traditional drive-up units are offered.",
+        "Month-to-month leases are available on current unit listings.",
+        "Unit sizes, prices and availability change, so customers should check the official rental page for current inventory.",
+        "A Sharp Moving Company operates from the same property and can provide packing and moving services separately."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "289 Storage is located in Pottsboro, Texas."
+        }
+      ],
+      "verification_note": "Fully researched August 9, 2026. The current canonical TWG local-business-directory.json was refreshed before creation and no existing 289 Storage record was found. The current official 289 Storage website confirms active operation at 30075 N State Highway 289, Pottsboro, TX 75076, phone 903-819-4093 and email meshellewis@gmail.com. First-party information confirms office hours of Monday-Friday 9:00 AM-5:00 PM, Saturday 9:00 AM-1:00 PM and Sunday closed, while current tenants receive 24-hour access. The official site documents climate-controlled and drive-up storage, gated access, digital video surveillance, online rentals, online bill payment, boxes and supplies, multiple unit sizes and month-to-month rental options. A current June 2026 first-party article identifies the facility as local and family-owned and specifically describes service to Pottsboro, Denison and the Lake Texoma area. A Sharp Moving Company's current official website independently confirms that 289 Storage operates at the same 30075 N State Highway 289 property and that moving and storage services can be coordinated there. No dependable current official social-media accounts were established during research, so those fields are intentionally null.",
+      "last_checked": "2026-08-09",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Climate-controlled units",
+        "Drive-up units",
+        "24-hour tenant access",
+        "Gated entry",
+        "Digital video surveillance",
+        "Online rentals",
+        "Online bill pay",
+        "Month-to-month leases",
+        "Moving and packing supplies",
+        "Multiple storage-unit sizes"
       ]
     }
   ]
