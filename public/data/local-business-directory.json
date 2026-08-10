@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 689,
-  "publish_ready_count": 355,
+  "business_count": 690,
+  "publish_ready_count": 356,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -50005,6 +50005,170 @@
       "last_verified": "2026-08-09",
       "created_on": "2026-08-09",
       "updated_on": "2026-08-09"
+    },
+    {
+      "slug": "franks-pottsboro",
+      "business_name": "Frank's",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "80841 N Hwy 289, Pottsboro, TX 75076",
+      "category": [
+        "American Restaurant",
+        "Diner",
+        "Breakfast Restaurant",
+        "Burgers",
+        "Comfort Food"
+      ],
+      "tags": [
+        "Frank's",
+        "Pottsboro",
+        "Lake Texoma",
+        "Texas",
+        "Grayson County",
+        "American Food",
+        "Country Cooking",
+        "Breakfast",
+        "Burgers",
+        "Chicken Fried Steak",
+        "Catfish",
+        "Family Friendly",
+        "Casual Dining",
+        "Local Restaurant"
+      ],
+      "description": "Frank's is a locally owned country-style American restaurant in Pottsboro serving breakfast, burgers, sandwiches, chicken-fried steak, catfish, comfort-food dinners, sides and desserts. The casual family-friendly restaurant is located along Highway 289 near Lake Texoma and serves both local residents and visitors looking for a hearty breakfast, lunch or dinner.",
+      "short_description": "Locally owned Pottsboro diner serving breakfast, burgers, chicken-fried steak, catfish and classic American comfort food.",
+      "why_visit": "Frank's is a useful stop for Lake Texoma visitors who want a casual local meal rather than a chain restaurant. It serves breakfast early in the day and offers filling burgers, sandwiches, catfish, chicken-fried steak and traditional comfort-food plates later in the day.",
+      "why_its_unique": "Frank's combines an old-fashioned local diner atmosphere with a surprisingly broad burger selection and traditional country-style favorites such as chicken-fried steak, fried catfish and homemade-style desserts.",
+      "address": "80841 N Hwy 289",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-786-6250",
+      "email": null,
+      "website": "https://www.franks289.com",
+      "facebook": "https://www.facebook.com/familyFRJ",
+      "instagram": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Frank%27s+80841+N+Hwy+289+Pottsboro+TX+75076",
+      "hours": {
+        "monday": "7:00 AM–2:00 PM",
+        "tuesday": "7:00 AM–2:00 PM",
+        "wednesday": "7:00 AM–7:30 PM",
+        "thursday": "7:00 AM–7:30 PM",
+        "friday": "7:00 AM–8:00 PM",
+        "saturday": "7:00 AM–7:00 PM",
+        "sunday": "8:00 AM–2:00 PM"
+      },
+      "hours_note": "Current local business data and Restaurantji agree on these hours. Apple Maps currently shows later closing times on Wednesday through Saturday, so visitors arriving near closing should call ahead until the discrepancy is resolved.",
+      "average_visit": "45–90 minutes",
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": true,
+      "food_available": true,
+      "full_bar": false,
+      "live_music": false,
+      "karaoke": false,
+      "outdoor_seating": false,
+      "wheelchair_accessible": true,
+      "amenities": [
+        "Dine-in",
+        "Takeout",
+        "Delivery",
+        "Table service",
+        "Kids menu",
+        "High chairs",
+        "Free parking",
+        "Wheelchair-accessible parking",
+        "Wheelchair-accessible entrance",
+        "Wheelchair-accessible seating"
+      ],
+      "features": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Country-style comfort food",
+        "Burgers",
+        "Chicken-fried steak",
+        "Fried catfish",
+        "Desserts",
+        "Family-friendly dining"
+      ],
+      "payment_methods": [
+        "Credit cards",
+        "Debit cards",
+        "Contactless payments"
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "event_types": [],
+      "event_sources": [],
+      "parent_business": null,
+      "child_businesses": [],
+      "related_businesses": [
+        {
+          "slug": "lake-texoma",
+          "business_name": "Lake Texoma",
+          "relationship_note": "Frank's is located in Pottsboro and serves residents and visitors in the Lake Texoma area."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Frank's is located in Pottsboro, Texas."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Verified August 9, 2026 using the Pottsboro Area Chamber of Commerce, current local business data, Apple Maps, Restaurantji, Texoma Connect and current online ordering information. Address and phone are consistent across current sources. Menu and restaurant classifications consistently support breakfast, burgers, sandwiches, chicken-fried steak, catfish and American comfort food. Operating hours require a minor follow-up because current local business data and Restaurantji agree with each other while Apple Maps currently lists somewhat later Wednesday-through-Saturday closing times.",
+      "sources": [
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce",
+          "source_url": "https://www.pottsborochamber.com/members/member/franks-2770",
+          "source_type": "local_authoritative",
+          "supports": "Current Pottsboro business identity, address, phone and restaurant category."
+        },
+        {
+          "source_name": "Frank's Local Business Listing",
+          "source_url": "https://www.google.com/maps/search/?api=1&query=Frank%27s+80841+N+Hwy+289+Pottsboro+TX+75076",
+          "source_type": "business_listing",
+          "supports": "Current operating status, address, phone, hours, accessibility, dining options and amenities."
+        },
+        {
+          "source_name": "Apple Maps",
+          "source_url": "https://maps.apple.com/place?place-id=IE0C6390B2779CD46",
+          "source_type": "business_listing",
+          "supports": "Address, phone, Facebook page, accessibility, takeout, delivery and alternate current hours."
+        },
+        {
+          "source_name": "Restaurantji",
+          "source_url": "https://www.restaurantji.com/tx/pottsboro/franks-/",
+          "source_type": "restaurant_directory",
+          "supports": "Current hours, address, phone, food categories and commonly featured menu items."
+        },
+        {
+          "source_name": "Texoma Connect",
+          "source_url": "https://texomaconnect.com/lake-texoma-travel-guide/franks-in-pottsboro/",
+          "source_type": "regional_directory",
+          "supports": "Family-owned/local positioning, Pottsboro location and American breakfast, burger and dinner focus."
+        },
+        {
+          "source_name": "Grubhub",
+          "source_url": "https://www.grubhub.com/restaurant/franks-80841-tx-289-pottsboro/5874240",
+          "source_type": "ordering_platform",
+          "supports": "Current menu categories including burgers, sandwiches, dinners, kids meals, breakfast items and delivery/pickup."
+        }
+      ],
+      "last_checked": "2026-08-09",
+      "last_verified": "2026-08-09"
     }
   ]
 }
