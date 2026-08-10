@@ -6,7 +6,7 @@
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
   "business_count": 732,
-  "publish_ready_count": 403,
+  "publish_ready_count": 404,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -6067,31 +6067,210 @@
     },
     {
       "slug": "dragon-thai-and-vegetarian-cuisine",
-      "business_name": "Dragon Thai & Vegetarian Cuisine",
-      "directory_status": "candidate_needs_research",
-      "publish_ready": false,
-      "service_area_or_location": "Texoma area — verify",
-      "category": [
-        "Best of Texoma nominee — category unknown"
+      "business_name": "Dragon Thai & Vegetarian Cuisine — Austin Avenue",
+      "alternate_names": [
+        "Dragon Thai & Vegetarian Cuisine",
+        "Dragon Thai"
       ],
-      "description": null,
-      "phone": null,
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "613 N Austin Ave, Denison, TX 75020 — original full-service sit-down Dragon Thai location",
+      "primary_category": "Thai Restaurant",
+      "category": [
+        "Thai Restaurant",
+        "Vegetarian Restaurant",
+        "Vegan-Friendly Restaurant",
+        "Asian Restaurant"
+      ],
+      "tags": [
+        "Dragon Thai & Vegetarian Cuisine",
+        "Dragon Thai",
+        "Denison",
+        "Austin Avenue",
+        "Texas",
+        "Grayson County",
+        "Texoma",
+        "Thai Food",
+        "Vegetarian",
+        "Vegan Friendly",
+        "Pad Thai",
+        "Pho",
+        "Curries",
+        "Noodles",
+        "Fried Rice",
+        "Tofu",
+        "Soy Protein",
+        "Dine-In",
+        "Takeout",
+        "Delivery",
+        "Family Friendly",
+        "Kids Menu",
+        "Custom Spice Levels"
+      ],
+      "description": "Dragon Thai & Vegetarian Cuisine's Austin Avenue location is the business's larger traditional sit-down restaurant in Denison. It serves a broad Thai menu including Pad Thai, pho, curries, fried rice, noodles, soups, salads and chef specialties alongside an extensive dedicated vegetarian and vegan-friendly selection. Guests can dine inside, order takeout or use delivery services, with many dishes customizable by protein and spice level.",
+      "short_description": "Full-service Denison Thai restaurant with dine-in seating, Pad Thai, pho, curries and an extensive vegetarian and vegan-friendly menu.",
+      "why_visit": "The Austin Avenue restaurant is the better Dragon Thai location for guests looking for a traditional sit-down meal. Its broad menu works especially well for groups with mixed dietary preferences because conventional meat and seafood dishes are offered alongside substantial vegetarian and vegan-friendly choices.",
+      "why_its_unique": "Dragon Thai goes well beyond offering a few meat-free substitutions. Its vegetarian menu includes tofu and specialty soy-protein dishes while the main menu covers a wide range of Thai favorites, making the restaurant particularly useful for groups containing both omnivores and vegetarian or vegan diners.",
+      "address": "613 N Austin Ave",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "address_note": "This Austin Avenue restaurant remains active alongside Dragon Thai's newer 1525 W Morton St location. The Morton location is an additional smaller branch with some seating and a drive-thru; it does not replace the Austin Avenue restaurant.",
+      "phone": "903-416-9099",
       "email": null,
-      "website": null,
+      "website": "https://www.dtandvc.com/",
       "facebook": null,
       "instagram": null,
-      "hours": null,
-      "hours_note": null,
-      "event_venue": "unknown",
-      "recurring_events": "unknown",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "drive_thru": false,
+      "dine_in": true,
+      "takeout": true,
+      "delivery": true,
+      "hours": {
+        "monday": "11:00 AM - 2:30 PM; 4:30 PM - 9:00 PM",
+        "tuesday": "11:00 AM - 2:30 PM; 4:30 PM - 9:00 PM",
+        "wednesday": "11:00 AM - 2:30 PM; 4:30 PM - 9:00 PM",
+        "thursday": "11:00 AM - 2:30 PM; 4:30 PM - 9:00 PM",
+        "friday": "11:00 AM - 2:30 PM; 4:30 PM - 9:00 PM",
+        "saturday": "11:00 AM - 8:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current location data lists split lunch and dinner service Monday-Friday, continuous service Saturday and Sunday closed. Because Dragon Thai now operates two Denison locations and its official homepage primarily promotes Morton Street, location-specific hours should be reconfirmed when timing is important.",
+      "at_a_glance": {
+        "average_visit": "45-90 minutes",
+        "price_range": "$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full-service dine-in restaurant",
+        "Indoor seating",
+        "Takeout",
+        "Delivery",
+        "Dedicated vegetarian menu",
+        "Vegan-friendly dishes",
+        "Tofu protein options",
+        "Soy-protein specialties",
+        "Customizable spice levels",
+        "Kids menu",
+        "Lunch service",
+        "Dinner service"
+      ],
+      "good_to_know": [
+        "This is Dragon Thai's larger traditional sit-down location at 613 N Austin Ave.",
+        "The Austin Avenue restaurant remains active alongside the newer Morton Street branch.",
+        "The Austin Avenue location does not have a drive-thru.",
+        "The newer 1525 W Morton St branch is smaller, has some seating and has a drive-thru.",
+        "The current shared business phone number is 903-416-9099.",
+        "The menu includes Pad Thai, pho, curries, fried rice, noodles, soups, salads, appetizers and chef specialties.",
+        "Dragon Thai maintains a dedicated vegetarian and vegan-friendly menu.",
+        "Vegetarian specialty dishes include several tofu and soy-protein preparations.",
+        "Many dishes can be customized from mild through Thai-hot spice levels.",
+        "The restaurant offers a kids menu.",
+        "Takeout and delivery are available.",
+        "Customers with strict vegan requirements or food allergies should confirm ingredients and preparation directly with the restaurant.",
+        "The official Dragon Thai website currently highlights the newer Morton Street branch, so its new-location announcement should not be interpreted as proof that Austin Avenue closed."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
       "mine_for_events": false,
       "event_mining_priority": "none",
       "event_types": [],
-      "event_sources": [
-        "Herald Democrat Best of Texoma 2026 ballot"
+      "event_sources": [],
+      "parent_business": null,
+      "related_businesses": [
+        {
+          "slug": "dragon-thai-and-vegetarian-cuisine-morton",
+          "business_name": "Dragon Thai & Vegetarian Cuisine — Morton Street",
+          "relationship_note": "Second active Denison location. The Morton Street branch is a smaller restaurant with some seating and a drive-thru, while Austin Avenue is the larger traditional sit-down location."
+        }
       ],
-      "verification_note": "Potential candidate mined from the Herald Democrat Best of Texoma 2026 ballot recording. Seen 1 time(s); source frames frame_0091.jpg–frame_0091.jpg. Verify official business name, location, category, active status, and official links before publication.",
-      "last_checked": "2026-07-19"
+      "related_geography": [
+        {
+          "slug": "lake-texoma",
+          "name": "Lake Texoma",
+          "entity_type": "region",
+          "relationship_note": "Dragon Thai is located in Denison, one of the primary Texas gateway communities serving the Lake Texoma region."
+        },
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Dragon Thai & Vegetarian Cuisine is located in Denison, Texas."
+        }
+      ],
+      "related_events": [],
+      "features": [
+        "Full-service sit-down Dragon Thai location",
+        "Indoor dining",
+        "Thai cuisine",
+        "Dedicated vegetarian and vegan-friendly menu",
+        "Pad Thai",
+        "Pho",
+        "Multiple curry styles",
+        "Rice and noodle dishes",
+        "Tofu and soy-protein options",
+        "Custom spice levels",
+        "Kids menu",
+        "Takeout",
+        "Delivery"
+      ],
+      "source_verified": true,
+      "verification_note": "This record upgrades the existing canonical candidate at slug dragon-thai-and-vegetarian-cuisine and preserves that slug for the original Austin Avenue restaurant. Local first-hand confirmation on August 10, 2026 establishes that both Dragon Thai Denison locations remain active: 613 N Austin Ave is the larger traditional sit-down restaurant without a drive-thru, while 1525 W Morton St is an additional smaller location with some seating and a drive-thru. Current Apple Maps and restaurant-directory data continue to identify Dragon Thai at 613 N Austin Ave with phone 903-416-9099 and active restaurant service. Dragon Thai's current official website confirms the shared business identity, phone number and menu but presently emphasizes the newer Morton Street location. The official site's 'new location' wording must therefore not be interpreted as a closure or replacement of Austin Avenue. A separate Morton Street business record should be created and cross-linked to this record.",
+      "sources": [
+        {
+          "source_name": "Dragon Thai & Vegetarian Cuisine — Official Website",
+          "source_url": "https://www.dtandvc.com/",
+          "source_type": "official",
+          "supports": "Shared Dragon Thai identity, phone number, current menu and Morton Street branch."
+        },
+        {
+          "source_name": "Apple Maps — Dragon Thai & Vegetarian Cuisine",
+          "source_url": "https://maps.apple.com/place?place-id=I1163EBED5DC2F93",
+          "source_type": "current_business_listing",
+          "supports": "613 N Austin Ave location, phone, dine-in/takeout/delivery and current published hours."
+        },
+        {
+          "source_name": "Zmenu — Dragon Thai & Vegetarian Cuisine",
+          "source_url": "https://www.zmenu.com/dragon-thai-and-vegetarian-cuisine-denison-online-menu/",
+          "source_type": "current_restaurant_listing",
+          "supports": "613 N Austin Ave location, phone, menu and current published hours."
+        },
+        {
+          "source_name": "Local first-hand confirmation",
+          "source_type": "local_confirmation",
+          "supports": "Both Denison locations remain active; Austin Avenue is the larger sit-down restaurant without a drive-thru; Morton Street is smaller with some seating and a drive-thru."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "last_verified": "2026-08-10",
+      "created_on": null,
+      "updated_on": "2026-08-10"
     },
     {
       "slug": "easy-life-realty",
