@@ -64,7 +64,7 @@
     "updated_on": ""
   },
   "event_count": 162,
-  "publish_ready_count": 159,
+  "publish_ready_count": 160,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -4549,77 +4549,72 @@
       "partner_names": []
     },
     {
-      "event_name": "Yoga at Tanglewood Resort",
       "event_slug": "yoga-at-tanglewood-resort",
-      "status": "recurring",
-      "featured": false,
-      "start_datetime": "2026-07-30T09:00:00-05:00",
-      "end_datetime": "2026-07-30T10:00:00-05:00",
+      "event_name": "Yoga at Tanglewood Resort",
+      "description": "Tanglewood Resort on Lake Texoma hosts recurring morning yoga classes in the Texoma Room. Classes begin at 9:00 AM every Wednesday, Thursday and Saturday and last approximately one hour. Resort members and overnight guests attend free, while non-members may participate for $5. Walk-ins are welcome.",
+      "start_datetime": "2026-08-12T09:00:00-05:00",
+      "end_datetime": null,
       "timezone": "America/Chicago",
-      "recurrence": {
-        "frequency": "weekly",
-        "interval": 1,
-        "days_of_week": [
-          "wednesday",
-          "thursday",
-          "saturday"
-        ],
-        "start_time": "09:00",
-        "end_time": "10:00",
-        "end_date": null,
-        "recurrence_note": "Yoga is offered every Wednesday, Thursday and Saturday at 9:00 AM. Classes last approximately one hour."
-      },
-      "venue_name": "Tanglewood Resort on Lake Texoma",
-      "location_name": "Texoma Room at Tanglewood Resort",
+      "status": "recurring",
       "venue_slugs": [
         "tanglewood-resort-on-lake-texoma"
       ],
-      "address": "290 Tanglewood Cir",
+      "venue_name": "Tanglewood Resort on Lake Texoma",
+      "host_business_slug": "tanglewood-resort-on-lake-texoma",
+      "organizer_name": "Tanglewood Resort on Lake Texoma",
+      "address": "290 Tanglewood Circle",
       "city": "Pottsboro",
       "state": "TX",
       "postal_code": "75076",
-      "country": "USA",
-      "organizer": "Tanglewood Resort on Lake Texoma",
-      "category": [
+      "latitude": null,
+      "longitude": null,
+      "categories": [
         "Health & Wellness",
         "Yoga",
         "Fitness"
       ],
-      "description": "Start the day with a guided yoga class at Tanglewood Resort on Lake Texoma. Classes are held in the resort's Texoma Room and are open to resort members, overnight guests and members of the public. Walk-ins are welcome.",
-      "short_description": "A one-hour morning yoga class held in the Texoma Room at Tanglewood Resort.",
-      "cost_type": "varies",
-      "cost_details": "Free for Tanglewood Resort members and overnight guests. $5 for non-members.",
-      "registration_required": false,
-      "ticket_url": "",
-      "audience": [
-        "Adults",
-        "Resort Guests",
-        "Community Members"
-      ],
-      "family_friendly": true,
-      "age_restriction": "",
-      "accessibility_notes": "Contact the resort directly regarding specific accessibility accommodations.",
       "tags": [
         "Yoga",
         "Tanglewood Resort",
-        "Pottsboro",
         "Lake Texoma",
+        "Pottsboro",
         "Health and Wellness",
         "Fitness Class",
         "Morning Yoga",
         "Weekly Event",
         "Texoma Room"
       ],
-      "source_type": "Official venue website",
-      "source_url": "https://www.tanglewoodresort.com/amenities",
-      "verification_note": "The official Tanglewood Resort website lists yoga at 9:00 AM every Wednesday, Thursday and Saturday in the Texoma Room. Classes last approximately one hour, are free for members and overnight guests, cost $5 for non-members, and accept walk-ins.",
-      "last_checked": "2026-07-29",
+      "cost_type": "varies",
+      "cost_details": "Free for Tanglewood Resort members and overnight guests. $5 for non-members.",
+      "audience": [
+        "Resort Members",
+        "Overnight Guests",
+        "Community Members"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/yoga-at-tanglewood-resort.png",
+      "official_url": "https://www.tanglewoodresort.com/amenities",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=WE,TH,SA",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "Yoga begins at 9:00 AM every Wednesday, Thursday and Saturday.",
+        "Classes are held in the Texoma Room.",
+        "Classes last approximately one hour.",
+        "Classes are free for resort members and overnight guests.",
+        "Non-members may participate for $5.",
+        "Walk-ins are welcome."
+      ],
+      "verification_note": "Originally entered July 29, 2026 from Tanglewood Resort's official amenities information but saved using a legacy event schema. Normalized August 10, 2026. Tanglewood's current official amenities page still confirms yoga at 9:00 AM every Wednesday, Thursday and Saturday in the Texoma Room, approximately one hour per class, with the same published pricing and walk-in policy.",
+      "last_checked": "2026-08-10",
       "created_on": "2026-07-29",
-      "updated_on": "2026-07-30",
-      "categories": [],
+      "updated_on": "2026-08-10",
       "partner_business_slugs": [],
-      "partner_names": [],
-      "image_url": "/images/events/yoga-at-tanglewood-resort.png"
+      "partner_names": []
     },
     {
       "event_name": "Live Music with Neely Rose at Stafford House Provisions",
