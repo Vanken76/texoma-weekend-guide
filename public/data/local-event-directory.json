@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 144,
-  "publish_ready_count": 137,
+  "event_count": 145,
+  "publish_ready_count": 138,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -8545,6 +8545,112 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Fully researched August 10, 2026 after checking the canonical TWG local-event-directory.json and confirming that no D&D Dungeon Crawl or Dungeon Crawl event record currently exists. The Pottsboro Area Chamber of Commerce official event listing confirms Sunday, August 16, 2026 from 2:30 PM to 4:30 PM CDT at 104 N Main, Pottsboro, Texas 75076. The Chamber description states that the library's in-house Dungeon Master will guide participants through campaigns, challenges and hidden-loot discovery and that the event is limited to six players. The Pottsboro Area Public Library's own current catalog independently confirms the August 16 date, 2:30-4:30 PM time and matching event description. The canonical TWG business directory confirms that 104 N Main St is Pottsboro Area Public Library and provides the canonical venue slug pottsboro-area-public-library. The official sources require signup because seating is limited but do not publish an admission price, age restriction or dedicated registration URL, so TWG does not invent those fields.",
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "masters-of-memory-pottsboro-2026",
+      "event_name": "Masters of Memory",
+      "description": "Masters of Memory is a six-session educational series at the Pottsboro Area Public Library designed to help older adults better understand how memory works, identify practical ways to improve memory and recognize factors in everyday life that may affect memory. The series meets weekly on Thursdays from August 13 through September 17, 2026. Joyce White is the published program contact.",
+      "start_datetime": "2026-08-13T11:00:00-05:00",
+      "end_datetime": "2026-08-13T12:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "pottsboro-area-public-library"
+      ],
+      "venue_name": "Pottsboro Area Public Library",
+      "address": "104 N Main St",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Continuing Education",
+        "Health & Wellness",
+        "Senior Programs",
+        "Library Event",
+        "Community Event"
+      ],
+      "tags": [
+        "Masters of Memory",
+        "Memory",
+        "Brain Health",
+        "Healthy Aging",
+        "Older Adults",
+        "Senior Education",
+        "Continuing Education",
+        "Health Education",
+        "Pottsboro",
+        "Pottsboro Area Public Library",
+        "Texas A&M AgriLife Extension",
+        "Joyce White",
+        "Community Program"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No participation fee was published in the official event listing.",
+      "audience": [
+        "Older adults",
+        "Seniors",
+        "Adults interested in memory and healthy aging"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "pottsboro-area-public-library",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/masters-of-memory-pottsboro-2026.png",
+      "image_alt": null,
+      "official_url": "https://members.pottsborochamber.com/events/details/masters-of-memory-08-13-2026-14661",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;COUNT=6;BYDAY=TH",
+      "recurrence_start_date": "2026-08-13",
+      "recurrence_end_date": "2026-09-17",
+      "recurrence_notes": [
+        "Session 1: Thursday, August 13, 2026, 11:00 AM-12:00 PM",
+        "Session 2: Thursday, August 20, 2026, 11:00 AM-12:00 PM",
+        "Session 3: Thursday, August 27, 2026",
+        "Session 4: Thursday, September 3, 2026",
+        "Session 5: Thursday, September 10, 2026",
+        "Session 6: Thursday, September 17, 2026"
+      ],
+      "contact_name": "Joyce White",
+      "contact_phone": "903-813-4203",
+      "contact_email": "joyce.white@ag.tamu.edu",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contained 144 events and 137 publish-ready records. No existing Masters of Memory event record was found, so this is a new canonical event rather than a duplicate. The official Pottsboro Area Chamber of Commerce event page confirms that Masters of Memory begins Thursday, August 13, 2026 from 11:00 AM to 12:00 PM CDT at Pottsboro Library, 104 N Main, Pottsboro, Texas 75076. The event description identifies it as a six-session series designed to help older adults understand how memory works, identify ways to improve memory and pinpoint everyday factors that may affect memory. The Chamber's current event calendar independently lists Masters of Memory on August 13, August 20, August 27, September 3, September 10 and September 17, supporting a weekly six-session recurrence. The August 20 individual event page independently confirms the same 11:00 AM-12:00 PM schedule and identical series description. Joyce White is the published contact at 903-813-4203 and joyce.white@ag.tamu.edu. Current Texas A&M AgriLife Extension material identifies Joyce White as a County Extension Agent for Family and Community Health, but the Chamber listing does not explicitly name AgriLife as the event organizer, so TWG does not assign an unverified organizer relationship. No admission price, registration requirement, ticket link or age cutoff was published, so those details are not invented.",
+      "sources": [
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Masters of Memory, August 13",
+          "source_url": "https://members.pottsborochamber.com/events/details/masters-of-memory-08-13-2026-14661",
+          "source_type": "official chamber",
+          "supports": "August 13 start date, 11:00 AM-12:00 PM time, six-session description, Pottsboro Library location, address and Joyce White contact information."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Events Calendar",
+          "source_url": "https://members.pottsborochamber.com/events",
+          "source_type": "official chamber",
+          "supports": "Six published Masters of Memory dates: August 13, August 20, August 27, September 3, September 10 and September 17, 2026."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Masters of Memory, August 20",
+          "source_url": "https://members.pottsborochamber.com/events/details/masters-of-memory-08-20-2026-14674",
+          "source_type": "official chamber",
+          "supports": "Independent confirmation of the weekly 11:00 AM-12:00 PM schedule, same location and same six-session program description."
+        },
+        {
+          "source_name": "Texas A&M AgriLife Extension — Grayson County",
+          "source_url": "https://grayson.agrilife.org/",
+          "source_type": "official",
+          "supports": "Current Grayson County Texas A&M AgriLife Extension identity and context for the published ag.tamu.edu program contact."
+        }
+      ],
       "last_checked": "2026-08-10",
       "created_on": "2026-08-10",
       "updated_on": "2026-08-10"
