@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 163,
-  "publish_ready_count": 163,
+  "event_count": 164,
+  "publish_ready_count": 164,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -10925,6 +10925,103 @@
           "source_url": "https://texomaconnect.com/events/month/2026-08/",
           "source_type": "regional event calendar",
           "supports": "Independent August 31 event listing, 9:00 AM start, Tanglewood Golf Course location, $140 price and listed breakfast tacos, lunch and drinks."
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "380-acoustics-at-the-island-2026-09-04",
+      "event_name": "380 Acoustics at The Island",
+      "description": "380 Acoustics performs live at The Island Bar & Grill Lake Texoma at Highport Marina on Friday, September 4. The free evening performance runs from 7:00 PM to 10:00 PM, bringing live music to the waterfront as the Lake Texoma summer season winds down.",
+      "start_datetime": "2026-09-04T19:00:00-05:00",
+      "end_datetime": "2026-09-04T22:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-island-bar-and-grill-lake-texoma"
+      ],
+      "venue_name": "The Island Bar & Grill Lake Texoma",
+      "host_business_slug": "the-island-bar-and-grill-lake-texoma",
+      "organizer_name": null,
+      "address": "121 Texoma Harbor Dr",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75077",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Entertainment",
+        "Lake Texoma Event",
+        "Nightlife"
+      ],
+      "tags": [
+        "380 Acoustics",
+        "The Island Bar & Grill",
+        "Highport Marina",
+        "Lake Texoma",
+        "Live Music",
+        "Pottsboro",
+        "Friday Night",
+        "Waterfront Entertainment"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free admission.",
+      "audience": [
+        "Live music fans",
+        "Lake Texoma visitors",
+        "Local residents"
+      ],
+      "age_restriction": null,
+      "performers": [
+        {
+          "name": "380 Acoustics",
+          "role": "Musician"
+        }
+      ],
+      "image_url": "/images/events/380-acoustics-at-the-island-2026-09-04.png",
+      "image_alt": null,
+      "official_url": null,
+      "facebook_url": "https://www.facebook.com/TexomaIslandBarAndGrill",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The performance is Friday, September 4, 2026.",
+        "Live music runs from 7:00 PM to 10:00 PM.",
+        "Admission is free.",
+        "The event takes place at The Island Bar & Grill Lake Texoma inside Highport Marina.",
+        "380 Acoustics has previously performed at The Island, including the venue's 2026 season opening.",
+        "No event-specific age restriction or ticket requirement is currently published."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contains 163 events and 163 publish-ready records. An exact canonical search for 380 Acoustics returned no existing event record, so this is a new event rather than a duplicate. Texoma Connect currently lists 380 Acoustics at The Island for Friday, September 4, 2026 from 7:00 PM to 10:00 PM at Island Bar and Grill inside Highport Marina, 121 Texoma Harbor Dr, Pottsboro, TX 75077, with free admission. Texoma Connect's current venue schedule independently shows the same date, time, venue and free admission. Historical event listings also establish 380 Acoustics as a returning performer at The Island, including the venue's March 2026 season opening. The existing canonical TWG venue is The Island Bar & Grill Lake Texoma under slug the-island-bar-and-grill-lake-texoma. No event-specific age restriction or ticket requirement is published, so those details are not inferred.",
+      "sources": [
+        {
+          "source_name": "Texoma Connect — 380 Acoustics at The Island",
+          "source_url": "https://texomaconnect.com/events/list/",
+          "source_type": "regional event calendar",
+          "supports": "September 4, 2026 date, 7:00 PM-10:00 PM schedule, Island Bar and Grill location, address and free admission."
+        },
+        {
+          "source_name": "Texoma Connect — Island Bar and Grill, Highport Marina",
+          "source_url": "https://texomaconnect.com/venue/island-bar-and-grill-highport-marina/",
+          "source_type": "regional venue calendar",
+          "supports": "Independent current venue-calendar confirmation of the September 4 performance, 7:00 PM-10:00 PM schedule and free admission."
+        },
+        {
+          "source_name": "380 Acoustics — The Island Grand Opening",
+          "source_url": "https://allevents.in/pottsboro/380-acoustics-the-island-grand-opening/200029520611706",
+          "source_type": "performer event listing",
+          "supports": "Establishes 380 Acoustics as a returning performer at The Island during the 2026 season."
         }
       ],
       "partner_business_slugs": [],
