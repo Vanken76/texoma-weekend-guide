@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 730,
-  "publish_ready_count": 400,
+  "business_count": 731,
+  "publish_ready_count": 401,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -59455,6 +59455,142 @@
         "Birthday-party packages",
         "Private full-playground rental",
         "Multi-visit and annual membership options"
+      ]
+    },
+    {
+      "slug": "nourish-to-flourish-retreat",
+      "business_name": "Nourish To Flourish Retreat, LLC",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "501 Spur 316, Suite 100, Pottsboro, TX 75076",
+      "category": [
+        "Wellness Center",
+        "Massage Therapy",
+        "Spa",
+        "Holistic Wellness"
+      ],
+      "tags": [
+        "Massage",
+        "Facials",
+        "Skin Care",
+        "Holistic Therapy",
+        "Empowerment Coaching",
+        "Wellness Classes",
+        "Community Events",
+        "Family Friendly",
+        "Wheelchair Accessible"
+      ],
+      "description": "Nourish To Flourish Retreat, LLC is a wellness center in Pottsboro serving the Lake Texoma community with massage therapy, facials and skin-care services, holistic wellness services, empowerment coaching, classes and community events. The retreat describes its approach as supporting relaxation, connection and personal growth for adults, teens and children, with services tailored to individual needs.",
+      "why_visit": "Nourish To Flourish offers more than a traditional massage appointment by combining bodywork and skin-care services with coaching, classes and community-oriented wellness programming. It provides Pottsboro and Lake Texoma-area visitors with a local option for relaxation, self-care and wellness-focused activities.",
+      "why_its_unique": "The retreat combines massage, facials and holistic services with empowerment coaching, classes and community events while explicitly welcoming adults, teens and children. That broader mix of individual services and community programming distinguishes it from a standard massage studio or day spa.",
+      "phone": "903-419-2022",
+      "email": null,
+      "website": "https://www.vagaro.com/nourishtoflourishretreat",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "10:00 AM - 4:00 PM",
+        "tuesday": "10:00 AM - 4:00 PM",
+        "wednesday": "10:00 AM - 4:00 PM",
+        "thursday": "10:00 AM - 4:00 PM",
+        "friday": "10:00 AM - 4:00 PM",
+        "saturday": "10:00 AM - 4:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current public business listings show Monday through Saturday 10:00 AM-4:00 PM. Services are appointment-based and classes or special events may operate on different schedules, so visitors should confirm availability before making a time-sensitive trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Massage therapy",
+        "Facials and skin care",
+        "Holistic therapy",
+        "Empowerment coaching",
+        "Wellness classes",
+        "Community events",
+        "Online booking",
+        "Wi-Fi",
+        "Free parking",
+        "Wheelchair-accessible entrance",
+        "Wheelchair-accessible restroom",
+        "LGBTQIA-friendly",
+        "Kid-friendly services"
+      ],
+      "good_to_know": [
+        "Nourish To Flourish Retreat is located at 501 Spur 316, Suite 100 in Pottsboro.",
+        "The current phone number is 903-419-2022.",
+        "The retreat serves adults, teens and children.",
+        "Current services include massage therapy, facials and skin care, holistic therapy and empowerment coaching.",
+        "The business also promotes classes and community events as part of its wellness programming.",
+        "Appointments and services can currently be booked through the business's Vagaro page.",
+        "Current public hours are Monday through Saturday from 10:00 AM to 4:00 PM, but appointment and event availability may vary.",
+        "Free parking is currently listed.",
+        "Wheelchair-accessible parking, entrance and restroom access are currently listed.",
+        "The business currently identifies itself as LGBTQIA-friendly and kid-friendly.",
+        "The appointment cancellation policy requests approximately 24 hours' notice; late cancellations may incur a fee.",
+        "Class reservations are currently nonrefundable once booked, with at least 24 hours' notice requested when rescheduling is necessary.",
+        "The Pottsboro Area Chamber of Commerce held a ribbon cutting for Nourish To Flourish Retreat on August 6, 2026."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Nourish To Flourish Retreat is located in Pottsboro, Texas, within the Texoma Weekend Guide service area."
+        }
+      ],
+      "verification_note": "Complete. Fully researched August 10, 2026 after fresh-fetching the canonical public/data/local-business-directory.json and confirming no existing Nourish To Flourish Retreat record. Current Vagaro information confirms active operation at 501 Spur 316, Suite 100, Pottsboro, TX 75076; phone 903-419-2022; massage, skin care, facials, holistic therapy, empowerment coaching, classes and community events; services for adults, teens and children; online booking; free parking; accessibility features; payment options and current appointment/class cancellation policies. Current local business data lists Monday-Saturday 10:00 AM-4:00 PM. The Pottsboro Area Chamber of Commerce independently confirms the business name, address and phone and documents its August 6, 2026 ribbon cutting. No dependable standalone official domain, Facebook page, Instagram account or public email address was located during this pass, so those fields are intentionally not invented. No verified recurring class schedule was located, so recurring_events remains false while the business stays enabled for event mining.",
+      "last_checked": "2026-08-10",
+      "event_types": [
+        "Wellness classes",
+        "Community wellness events",
+        "Workshops",
+        "Personal-growth events"
+      ],
+      "event_sources": [
+        "Nourish To Flourish Retreat Vagaro page",
+        "Pottsboro Area Chamber of Commerce event calendar"
+      ],
+      "features": [
+        "Recently opened Pottsboro wellness center",
+        "Massage therapy",
+        "Facials and skin care",
+        "Holistic wellness services",
+        "Empowerment coaching",
+        "Classes and community events",
+        "Services for adults, teens and children",
+        "Accessible facility"
       ]
     }
   ]
