@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 739,
-  "publish_ready_count": 411,
+  "business_count": 738,
+  "publish_ready_count": 412,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -8224,59 +8224,252 @@
     },
     {
       "slug": "homes-by-lainie",
-      "business_name": "Homes by Lainie",
-      "directory_status": "candidate_needs_research",
-      "publish_ready": false,
-      "service_area_or_location": "Texoma area — verify",
-      "category": [
-        "Best of Texoma nominee — category unknown"
+      "business_name": "Homes By Lainie Real Estate Group",
+      "alternate_names": [
+        "Homes By Lainie",
+        "Homes by Lainie Real Estate",
+        "HBL",
+        "HBL Realtors"
       ],
-      "description": null,
-      "phone": null,
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "682 E FM 120, Suite 3, Pottsboro, TX 75076 — full-service real estate brokerage serving Lake Texoma, Grayson County, North and Central Texas, and Southern Oklahoma",
+      "primary_category": "Real Estate Brokerage",
+      "category": [
+        "Real Estate Brokerage",
+        "Realtors",
+        "Residential Real Estate",
+        "Lakefront Real Estate",
+        "Lake Texoma Real Estate"
+      ],
+      "tags": [
+        "Homes By Lainie",
+        "Homes By Lainie Real Estate Group",
+        "HBL Realtors",
+        "Lainie Ramsey",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Lake Texoma",
+        "Southern Oklahoma",
+        "Real Estate",
+        "Realtors",
+        "Real Estate Brokerage",
+        "Lake Texoma Real Estate",
+        "Lakefront Homes",
+        "Waterfront Property",
+        "Residential Real Estate",
+        "Resort Properties",
+        "Homes for Sale",
+        "Home Buyers",
+        "Home Sellers",
+        "First-Time Home Buyers",
+        "Open Houses",
+        "Property Search",
+        "Land",
+        "North Texas Real Estate"
+      ],
+      "description": "Homes By Lainie Real Estate Group is a full-service real estate brokerage headquartered in Pottsboro and serving the Lake Texoma region, Grayson County, North and Central Texas and Southern Oklahoma. Led by broker and owner Lainie Ramsey, the team represents buyers and sellers across residential, lakefront, resort and other real-estate transactions. The brokerage maintains an active property-search website covering Pottsboro, Sherman, Grayson County, Lake Texoma, lakefront communities and additional Texas and Oklahoma markets, while regularly marketing listings and hosting open houses throughout the region.",
+      "short_description": "Pottsboro-based full-service brokerage specializing in Lake Texoma, lakefront and residential real estate across North Texas and Southern Oklahoma.",
+      "why_visit": "Homes By Lainie is particularly useful for people buying or selling around Lake Texoma because the brokerage is based directly in Pottsboro and actively markets lakefront, resort and residential properties throughout the surrounding region. Buyers can search active listings and work with local agents, while sellers have access to a team-oriented marketing and sales operation.",
+      "why_its_unique": "The brokerage combines a Pottsboro headquarters with a strong focus on Lake Texoma and cross-state Texas/Oklahoma real estate. Its active Lake Texoma and lakefront property coverage makes it especially relevant to people considering a permanent move, second home, investment property or lake-area property purchase.",
+      "address": "682 E FM 120",
+      "address_line_2": "Suite 3",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "address_note": "Current first-party Homes By Lainie and Pottsboro Area Chamber sources both use 682 E FM 120, Suite 3. Older Realtor.com, BBB and directory records still show former Pottsboro addresses such as 421 Hwy 120 W and should not override the current first-party location.",
+      "phone": "903-786-6063",
+      "phone_secondary": "903-624-0688",
+      "phone_note": "903-786-6063 is the current brokerage office number published on the official website. 903-624-0688 is Lainie Ramsey's direct number and is also used as the Chamber listing contact.",
       "email": null,
-      "website": null,
+      "website": "https://www.homesbylainie.com/",
       "facebook": null,
       "instagram": null,
-      "hours": null,
-      "hours_note": null,
-      "event_venue": "unknown",
-      "recurring_events": "unknown",
-      "mine_for_events": false,
-      "event_mining_priority": "none",
-      "event_types": [],
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "8:00 AM - 5:00 PM",
+        "tuesday": "8:00 AM - 5:00 PM",
+        "wednesday": "8:00 AM - 5:00 PM",
+        "thursday": "8:00 AM - 5:00 PM",
+        "friday": "8:00 AM - 5:00 PM",
+        "saturday": "By appointment",
+        "sunday": "By appointment"
+      },
+      "hours_note": "The Pottsboro Area Chamber currently publishes office hours of 8:00 AM-5:00 PM Monday through Friday, with weekends and after-hours availability by appointment. Individual agents may maintain schedules outside these office hours.",
+      "at_a_glance": {
+        "average_visit": "Varies by consultation, showing or transaction",
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": true,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Buyer representation",
+        "Seller representation",
+        "Residential real estate",
+        "Lake Texoma real estate",
+        "Lakefront property expertise",
+        "Resort property expertise",
+        "First-time home-buyer assistance",
+        "Property marketing",
+        "Online property search",
+        "Online appointments",
+        "In-person consultations",
+        "Property showings",
+        "Open houses",
+        "Texas real estate coverage",
+        "Southern Oklahoma real estate coverage",
+        "Wheelchair-accessible parking",
+        "Wheelchair-accessible entrance"
+      ],
+      "good_to_know": [
+        "Homes By Lainie Real Estate Group is headquartered at 682 E FM 120, Suite 3 in Pottsboro.",
+        "The current brokerage office number is 903-786-6063.",
+        "Lainie Ramsey is identified by the Pottsboro Area Chamber of Commerce as Broker and Owner.",
+        "Lainie Ramsey's direct number is 903-624-0688.",
+        "The brokerage serves North and Central Texas and Southern Oklahoma.",
+        "The official website maintains dedicated property guides for Pottsboro, Sherman, Grayson County, Lake Texoma and lakefront real estate.",
+        "Current real-estate profiles identify residential, lakefront, resort property, buyer representation and seller representation among the brokerage's specialties.",
+        "The brokerage works with first-time home buyers as well as experienced buyers and sellers.",
+        "Current listings include properties around Pottsboro, Lake Texoma, Sherman, Denison and other Texas and Oklahoma markets.",
+        "Homes By Lainie regularly brokers open houses, making its listings a valuable source for TWG weekend-event mining.",
+        "Office hours are currently 8:00 AM-5:00 PM Monday through Friday.",
+        "Weekend and after-hours meetings are available by appointment.",
+        "Individual agent schedules and property-showing availability may differ from brokerage office hours.",
+        "The official website includes active listing search, buying, selling and financing-resource sections.",
+        "Older online profiles still show former Pottsboro office addresses. TWG should use the current 682 E FM 120 Suite 3 address.",
+        "The canonical TWG directory currently contains several individual Homes By Lainie agent candidates. Those should remain separate from this brokerage record unless individually researched.",
+        "The generic candidate record at slug homes-by-lainie-real-estate duplicates this brokerage identity and should be merged into or removed in favor of this canonical homes-by-lainie record."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Open houses",
+        "Property tours",
+        "Brokered home-showing events",
+        "Real estate community events"
+      ],
       "event_sources": [
-        "Herald Democrat Best of Texoma 2026 ballot"
+        "Homes By Lainie official property listings",
+        "Homes By Lainie official website",
+        "Realtor.com Homes By Lainie listings",
+        "Pottsboro Area Chamber of Commerce"
       ],
-      "verification_note": "Potential candidate mined from the Herald Democrat Best of Texoma 2026 ballot recording. Seen 2 time(s); source frames frame_0140.jpg–frame_0140.jpg. Verify official business name, location, category, active status, and official links before publication.",
-      "last_checked": "2026-07-19"
-    },
-    {
-      "slug": "homes-by-lainie-real-estate",
-      "business_name": "Homes by Lainie Real Estate",
-      "directory_status": "candidate_needs_research",
-      "publish_ready": false,
-      "service_area_or_location": "Texoma area — verify",
-      "category": [
-        "Best of Texoma nominee — category unknown"
+      "parent_business": null,
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "lake-texoma",
+          "name": "Lake Texoma",
+          "entity_type": "region",
+          "relationship_note": "Homes By Lainie explicitly markets Lake Texoma and lakefront real estate and maintains a Pottsboro office serving buyers and sellers throughout the lake region."
+        },
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Homes By Lainie is headquartered in Pottsboro, Texas and serves markets throughout North and Central Texas."
+        },
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Homes By Lainie publicly markets and serves real estate clients in Southern Oklahoma as well as Texas."
+        }
       ],
-      "description": null,
-      "phone": null,
-      "email": null,
-      "website": null,
-      "facebook": null,
-      "instagram": null,
-      "hours": null,
-      "hours_note": null,
-      "event_venue": "unknown",
-      "recurring_events": "unknown",
-      "mine_for_events": false,
-      "event_mining_priority": "none",
-      "event_types": [],
-      "event_sources": [
-        "Herald Democrat Best of Texoma 2026 ballot"
+      "related_events": [],
+      "features": [
+        "Pottsboro-based brokerage",
+        "Broker/Owner Lainie Ramsey",
+        "Lake Texoma real estate",
+        "Lakefront property specialization",
+        "Residential buying and selling",
+        "Resort properties",
+        "Texas and Oklahoma coverage",
+        "Active online listings",
+        "Open houses",
+        "Property tours",
+        "Team-based real estate services",
+        "Weekend appointments available"
       ],
-      "verification_note": "Potential candidate mined from the Herald Democrat Best of Texoma 2026 ballot recording. Seen 1 time(s); source frames frame_0140.jpg–frame_0140.jpg. Verify official business name, location, category, active status, and official links before publication.",
-      "last_checked": "2026-07-19"
+      "source_verified": true,
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical public/data/local-business-directory.json, which contained 739 businesses and 411 publish-ready records. The canonical directory contains unpublished generic candidate stubs at homes-by-lainie and homes-by-lainie-real-estate plus separate candidate records for individual Homes By Lainie agents. This object upgrades homes-by-lainie into the canonical brokerage record. The generic homes-by-lainie-real-estate candidate represents the same business identity and should be merged or removed rather than published as a second brokerage. Individual named-agent candidates should remain separate for later research. The current official Homes By Lainie website confirms the active brokerage name, 682 E FM 120 Suite 3 Pottsboro location, 903-786-6063 office phone, Texas and Oklahoma coverage, and dedicated guides for Pottsboro, Sherman, Grayson County, Lake Texoma and lakefront properties. The current Pottsboro Area Chamber of Commerce independently confirms the same address, identifies Homes By Lainie as a full-service real estate brokerage, identifies Lainie Ramsey as Broker/Owner, lists direct number 903-624-0688, and publishes 8:00 AM-5:00 PM Monday-Friday office hours with weekends and after-hours by appointment. Realtor.com currently identifies Homes By Lainie Real Estate Group as an active Pottsboro real-estate team serving communities including Pottsboro, Denison, Sherman, Bells and Durant and lists buyer representation, seller representation, first-time home buyers, residential, Lake Texoma luxury homes and resort properties among its specialties. Current 2026 Realtor.com open-house results repeatedly identify Homes By Lainie as the brokerage on Pottsboro and Grayson County open houses, supporting recurring_events=true and high-priority event mining. Older profiles showing former addresses such as 421 Hwy 120 W are treated as stale because current first-party and current Chamber sources agree on 682 E FM 120 Suite 3. No stable official Facebook, Instagram or public general email address was confidently verified during this pass, so those fields are intentionally left null.",
+      "sources": [
+        {
+          "source_name": "Homes By Lainie Real Estate Group — Official Website",
+          "source_url": "https://www.homesbylainie.com/",
+          "source_type": "official",
+          "supports": "Current business identity, Pottsboro headquarters, office phone, Texas and Oklahoma positioning, active property search and regional guides."
+        },
+        {
+          "source_name": "Homes By Lainie — Contact",
+          "source_url": "https://www.homesbylainie.com/contactus/",
+          "source_type": "official",
+          "supports": "Current 682 E FM 120 Suite 3 address and 903-786-6063 brokerage phone."
+        },
+        {
+          "source_name": "Homes By Lainie — Buy a Home",
+          "source_url": "https://www.homesbylainie.com/buy/",
+          "source_type": "official",
+          "supports": "Buyer services, Texas and Oklahoma coverage and property-search assistance."
+        },
+        {
+          "source_name": "Homes By Lainie — Pottsboro Guide",
+          "source_url": "https://www.homesbylainie.com/guide/pottsboro/",
+          "source_type": "official",
+          "supports": "Current Pottsboro market coverage and active property-search positioning."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Homes By Lainie Real Estate Group",
+          "source_url": "https://www.pottsborochamber.com/list/member/homes-by-lainie-real-estate-group-503",
+          "source_type": "official chamber",
+          "supports": "Current address, business classification, office hours, service territory, office and direct phone numbers, and Lainie Ramsey's Broker/Owner role."
+        },
+        {
+          "source_name": "Realtor.com — Homes By Lainie Real Estate Group",
+          "source_url": "https://www.realtor.com/realestateteam/5681d0a17e54f701001fa731",
+          "source_type": "current real estate platform",
+          "supports": "Current team operation, Lake Texoma focus, buyer and seller representation, residential and resort-property specialties, active listings and service communities."
+        },
+        {
+          "source_name": "Realtor.com — Pottsboro Open Houses",
+          "source_url": "https://www.realtor.com/realestateandhomes-search/Pottsboro_TX/show-open-house",
+          "source_type": "current real estate platform",
+          "supports": "Current recurring open-house activity associated with Homes By Lainie listings in Pottsboro."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "last_verified": "2026-08-10",
+      "created_on": null,
+      "updated_on": "2026-08-10"
     },
     {
       "slug": "hot-summer-nights",
