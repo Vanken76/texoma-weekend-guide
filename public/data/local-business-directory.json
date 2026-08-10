@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 709,
-  "publish_ready_count": 375,
+  "business_count": 710,
+  "publish_ready_count": 376,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -53044,6 +53044,123 @@
         "Online ordering",
         "Coffee merchandise",
         "Family-run business"
+      ]
+    },
+    {
+      "slug": "lake-country-mercantile",
+      "business_name": "Lake Country Mercantile",
+      "directory_status": "complete_variable_hours",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "546 Cooks Corner Rd, Pottsboro, TX 75076",
+      "category": [
+        "Antiques",
+        "Gift Shop",
+        "Flea Market",
+        "Seasonal Shopping"
+      ],
+      "tags": [
+        "Lake Country Mercantile",
+        "Pottsboro",
+        "Texas",
+        "Antiques",
+        "Vintage Finds",
+        "Flea Market",
+        "Gift Shop",
+        "Eclectic Shopping",
+        "Home Decor",
+        "Seasonal Shopping",
+        "Christmas Shopping",
+        "Unique Gifts",
+        "Treasure Hunting",
+        "Local Shopping"
+      ],
+      "description": "Lake Country Mercantile is an eclectic Pottsboro shopping destination combining antiques, flea-market finds, gifts, seasonal merchandise and other one-of-a-kind items. The shop has historically operated on a limited seasonal schedule rather than conventional daily retail hours, making it more of a destination for browsers, collectors and shoppers looking for unusual finds than a standard everyday storefront.",
+      "why_visit": "Lake Country Mercantile offers the kind of treasure-hunt shopping experience that can be especially appealing during a Lake Texoma weekend. Visitors can browse antiques, flea-market merchandise, gifts and changing seasonal inventory in a small local shop rather than a conventional chain retailer.",
+      "why_its_unique": "The business blends an antiques store, flea-market-style shopping and gift merchandise in one location, with seasonal openings and changing inventory giving each visit the potential to be different.",
+      "phone": "417-838-7598",
+      "email": "rached417@aol.com",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Lake Country Mercantile operates seasonally and does not have a sufficiently verified current year-round weekly schedule for TWG to publish fixed hours. Older owner-managed business posts listed Friday and Saturday from 10:00 AM to 5:00 PM during an active season. Visitors should contact the business before making a special trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Antiques",
+        "Gift merchandise",
+        "Flea-market finds",
+        "Seasonal merchandise",
+        "Changing inventory"
+      ],
+      "good_to_know": [
+        "This is a seasonal business rather than a conventional seven-day retail store.",
+        "Call or check for a current opening announcement before making a special trip.",
+        "Older owner-managed posts advertised Friday and Saturday openings during active seasons.",
+        "Inventory is eclectic and changes over time.",
+        "The business is currently represented on the Pottsboro Area Chamber of Commerce business-member roster."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Lake Country Mercantile is located in Pottsboro, Texas."
+        }
+      ],
+      "verification_note": "Researched August 9, 2026. The current canonical TWG local-business-directory.json was refreshed before creation and no existing Lake Country Mercantile record was found. The current Pottsboro Area Chamber of Commerce business-member roster continues to identify Diane Gray as owner of Lake Country Mercantile, providing current evidence that the business remains associated with the local business community. The business's Nextdoor listing identifies Lake Country Mercantile at 546 Cooks Corner Rd, Pottsboro, TX 75076, phone 417-838-7598 and email rached417@aol.com, and classifies it as an antiques store, flea market and gift shop. Owner-managed historical posts describe the store as seasonal and advertise Friday-Saturday hours during active periods. Recent map and travel-directory data continue to identify Lake Country Mercantile at the same Pottsboro address. Because no sufficiently recent first-party opening announcement or current year-round schedule was located, TWG intentionally leaves hours as an empty object and instructs visitors to verify current seasonal operation before traveling.",
+      "last_checked": "2026-08-09",
+      "event_types": [
+        "Seasonal openings",
+        "Holiday shopping weekends",
+        "Special sales",
+        "Seasonal merchandise announcements"
+      ],
+      "event_sources": [
+        "Lake Country Mercantile Nextdoor business page",
+        "Pottsboro Area Chamber of Commerce"
+      ],
+      "features": [
+        "Antiques",
+        "Flea-market finds",
+        "Unique gifts",
+        "Vintage merchandise",
+        "Seasonal merchandise",
+        "Holiday shopping",
+        "Changing inventory",
+        "Local independent shopping"
       ]
     }
   ]
