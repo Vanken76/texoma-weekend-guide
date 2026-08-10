@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 153,
-  "publish_ready_count": 146,
+  "event_count": 154,
+  "publish_ready_count": 147,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -9484,6 +9484,197 @@
           "source_url": "https://www.choctawcasinos.com/durant/",
           "source_type": "official",
           "supports": "Current resort address, SONS OF LEGION listing in the Durant entertainment schedule, parking guidance and on-property amenities."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "2026-frontier-day-freedom-on-the-frontier-pottsboro-2026-09-26",
+      "event_name": "2026 Frontier Day - Freedom On The Frontier",
+      "description": "Pottsboro's annual Frontier Day returns to Friendship Park for a full day of community celebration, shopping, food and entertainment. The 2026 Freedom On The Frontier event features more than 100 shopping booths, food vendors, a car show, bug-eating contest, parade, live music, a children's area with face painting, arts and crafts and additional activities. Gates open at 9:00 AM, the parade begins through town at 9:30 AM and live music starts at 10:00 AM. Admission to Friendship Park is free.",
+      "start_datetime": "2026-09-26T09:00:00-05:00",
+      "end_datetime": "2026-09-26T15:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "friendship-park-pottsboro"
+      ],
+      "venue_name": "Friendship Park",
+      "address": "615 E Hwy 120",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Festival",
+        "Community Event",
+        "Family Event",
+        "Live Music",
+        "Shopping",
+        "Food Event",
+        "Parade",
+        "Car Show",
+        "Arts & Crafts"
+      ],
+      "tags": [
+        "Frontier Day",
+        "Freedom On The Frontier",
+        "Pottsboro Frontier Day",
+        "Pottsboro",
+        "Lake Texoma",
+        "Texoma",
+        "Friendship Park",
+        "Festival",
+        "Community Festival",
+        "Family Friendly",
+        "Free Admission",
+        "Parade",
+        "Car Show",
+        "Live Music",
+        "Food Vendors",
+        "Shopping Vendors",
+        "100+ Vendors",
+        "Bug Eating Contest",
+        "Face Painting",
+        "Arts and Crafts",
+        "Children's Activities",
+        "Local Shopping",
+        "Ox Realty Group"
+      ],
+      "cost_type": "free",
+      "cost_details": "General admission to Friendship Park is free. Separate participation fees apply to vendors and car-show entrants. Current published fees are $75 for a 10'x10' nonprofit vendor space, $100 for a standard 10'x10' space, $150 for 10'x20', $200 for 20'x20', $250 for a 20'x20' Food Truck Alley space, $25 for limited electricity and $20 for Car Show entry.",
+      "audience": [
+        "Families",
+        "Children",
+        "Local residents",
+        "Lake Texoma visitors",
+        "Festival goers",
+        "Shoppers",
+        "Car enthusiasts",
+        "Live music fans"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Pottsboro Area Chamber of Commerce",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Ox Realty Group"
+      ],
+      "sponsors": [
+        {
+          "name": "Ox Realty Group",
+          "role": "Presenting Sponsor"
+        }
+      ],
+      "image_url": "/images/events/2026-frontier-day-freedom-on-the-frontier-pottsboro-2026-09-26.png",
+      "image_alt": null,
+      "official_url": "https://www.pottsborochamber.com/events/details/2026-frontier-day-freedom-on-the-frontier-14646",
+      "facebook_url": null,
+      "ticket_url": null,
+      "registration_url": "https://www.pottsborochamber.com/events/details/2026-frontier-day-freedom-on-the-frontier-14646",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "schedule": [
+        {
+          "time": "9:00 AM",
+          "activity": "Gates open"
+        },
+        {
+          "time": "9:30 AM",
+          "activity": "Frontier Day parade begins through town"
+        },
+        {
+          "time": "10:00 AM",
+          "activity": "Live music begins"
+        },
+        {
+          "time": "3:00 PM",
+          "activity": "Published event end time"
+        }
+      ],
+      "activities": [
+        "More than 100 shopping booths",
+        "Food vendors",
+        "Frontier Day parade",
+        "Car show",
+        "Live music",
+        "Bug-eating contest",
+        "Children's area",
+        "Face painting",
+        "Arts and crafts"
+      ],
+      "participant_registration": [
+        {
+          "type": "Vendor",
+          "available": true,
+          "details": "Vendor applications are currently available through the official Frontier Day event page."
+        },
+        {
+          "type": "Food Vendor",
+          "available": true,
+          "details": "Food Truck Alley applications are currently available through the official Frontier Day event page."
+        },
+        {
+          "type": "Car Show",
+          "available": true,
+          "details": "Car Show registration is currently available; published entry fee is $20."
+        },
+        {
+          "type": "Parade",
+          "available": true,
+          "details": "Parade applications are currently available through the official Frontier Day event page."
+        },
+        {
+          "type": "Sponsorship",
+          "available": true,
+          "details": "Sponsorship opportunities are currently available through the official event page."
+        }
+      ],
+      "good_to_know": [
+        "Frontier Day is Saturday, September 26, 2026.",
+        "The event runs from 9:00 AM to 3:00 PM.",
+        "General admission to Friendship Park is free.",
+        "The parade begins at 9:30 AM.",
+        "Live music begins at 10:00 AM.",
+        "The Chamber advertises more than 100 shopping booths.",
+        "Food vendors will be on site.",
+        "A car show is part of the Frontier Day festivities.",
+        "A bug-eating contest is part of the published event lineup.",
+        "The children's area includes face painting, arts and crafts and additional activities.",
+        "Ox Realty Group is the published presenting sponsor.",
+        "Vendor, car-show, parade and sponsorship registration are currently open through the Pottsboro Area Chamber of Commerce.",
+        "Electricity for vendors is limited and offered first-come, first-served for an additional fee.",
+        "The City of Pottsboro independently identifies Friendship Park as the annual home of the Frontier Days festival.",
+        "The current official City of Pottsboro park listing and the Chamber's event page both use 615 E Hwy 120 for Friendship Park.",
+        "The canonical TWG Friendship Park business record currently displays 520 E FM 120, which conflicts with the current City of Pottsboro and event-organizer sources. For this event record, TWG uses the current official city/event address of 615 E Hwy 120. The business record should be reviewed separately rather than propagating its older address into this event."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contained 153 events and 146 publish-ready records. Searches for both 'Frontier Day' and 'Freedom On The Frontier' returned no existing canonical event record, so this is a new event rather than a duplicate. The official Pottsboro Area Chamber of Commerce event page confirms Saturday, September 26, 2026 from 9:00 AM to 3:00 PM at Friendship Park, 615 E FM 120, Pottsboro, TX 75076. The Chamber confirms free general admission, gates opening at 9:00 AM, the parade beginning at 9:30 AM and live music beginning at 10:00 AM. Published attractions include more than 100 shopping booths, food vendors, a car show, bug-eating contest, live music, children's activities, face painting, arts and crafts and additional activities. Ox Realty Group is identified as the presenting sponsor. The Chamber also publishes current vendor and car-show participation fees and provides registration options for vendors, the Car Show, parade participants and sponsors. The current City of Pottsboro Parks & Recreation page independently identifies Friendship Park at 615 E Hwy 120 and specifically states that the annual Frontier Days festival is among the community events held there. The canonical TWG business directory contains Friendship Park under slug friendship-park-pottsboro and confirms it as an active municipal event venue, but that record currently lists 520 E FM 120. Because the current City of Pottsboro and current event organizer both use 615 E Hwy 120, the event record uses 615 E Hwy 120 and flags the canonical business address for separate QA review rather than copying the conflicting 520 address. No attendee age restriction is published.",
+      "sources": [
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — 2026 Frontier Day: Freedom On The Frontier",
+          "source_url": "https://www.pottsborochamber.com/events/details/2026-frontier-day-freedom-on-the-frontier-14646",
+          "source_type": "official chamber",
+          "supports": "September 26, 2026 date; 9:00 AM-3:00 PM schedule; Friendship Park location; free admission; parade and live-music times; 100+ booths; food vendors; car show; bug-eating contest; children's activities; sponsor; participant fees and registration."
+        },
+        {
+          "source_name": "City of Pottsboro — Parks & Recreation",
+          "source_url": "https://cityofpottsboro.com/index.asp?SEC=C715B55E-A47A-4408-B8E1-9443456A828C&Type=B_BASIC",
+          "source_type": "government",
+          "supports": "Friendship Park identity, 615 E Hwy 120 address, park amenities and official confirmation that the annual Frontier Days festival is held at the park."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Events Calendar",
+          "source_url": "https://members.pottsborochamber.com/events",
+          "source_type": "official chamber",
+          "supports": "Independent current calendar listing of 2026 Frontier Day - Freedom On The Frontier on Saturday, September 26, 2026."
         }
       ],
       "last_checked": "2026-08-10",
