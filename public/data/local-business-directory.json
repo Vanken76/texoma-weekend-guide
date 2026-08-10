@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 729,
-  "publish_ready_count": 399,
+  "business_count": 730,
+  "publish_ready_count": 400,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -59340,6 +59340,122 @@
       "last_verified": "2026-08-10",
       "created_on": "2026-08-10",
       "updated_on": "2026-08-10"
+    },
+    {
+      "slug": "wonder6-playground-pottsboro",
+      "business_name": "Wonder6 Playground — Pottsboro",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "680 E FM 120, Suite 300, Pottsboro, TX 75076 — Pottsboro Plaza next to Roma's Pizza",
+      "category": [
+        "Indoor Playground",
+        "Family Entertainment Center",
+        "Party Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Kids 12 and Under",
+        "Open Play",
+        "Birthday Parties",
+        "Private Parties",
+        "Family Fun",
+        "Indoor Activity",
+        "Rainy Day Activity",
+        "Memberships"
+      ],
+      "description": "Wonder6 Playground — Pottsboro, branded by Wonder6 as its Cloud Castle location, is an indoor playground in Pottsboro Plaza designed for children ages 12 and under. Families can visit during open-play hours with day passes, multi-visit passes or annual memberships, and the location also offers semi-private and private birthday-party packages. The playground is located along FM 120 near Lake Texoma and serves as an indoor family-fun option for Pottsboro-area residents and visitors.",
+      "why_visit": "A practical indoor option for families who need a place for children to play regardless of heat or rain, with flexible open-play admission and dedicated birthday-party options. The Pottsboro location is designed for children through age 12, making it useful for families with a wider age range than Wonder6's Sherman location.",
+      "why_its_unique": "Wonder6 calls the Pottsboro location Cloud Castle and designs it for children 12 and under. It combines regular open play with a dedicated party room and an option to reserve the entire playground for a private party.",
+      "phone": "903-419-2039",
+      "email": "hello@wonder6playground.com",
+      "website": "https://www.wonder6playground.com/pottsboro-tx",
+      "facebook": "https://www.facebook.com/wonder6playground/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "12:00 PM - 6:00 PM",
+        "tuesday": "12:00 PM - 6:00 PM",
+        "wednesday": "12:00 PM - 6:00 PM",
+        "thursday": "12:00 PM - 6:00 PM",
+        "friday": "12:00 PM - 8:00 PM",
+        "saturday": "10:00 AM - 8:00 PM",
+        "sunday": "10:00 AM - 8:00 PM"
+      },
+      "hours_note": "Open-play hours. Wonder6 states that the location may close for private parties, so visitors should check the latest hours before making a time-sensitive trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Indoor play area",
+        "Party room",
+        "Private full-playground rental option",
+        "Day passes",
+        "10-visit passes",
+        "Annual memberships",
+        "Online ticket purchase",
+        "Online party booking",
+        "eGift cards"
+      ],
+      "good_to_know": [
+        "The Pottsboro playground is specially designed for children age 12 and under; parents, guardians and older siblings may enter the play area for supervision.",
+        "A parent or guardian must sign a waiver for each child before the child enters the play area.",
+        "No shoes are allowed in the play area. Grip socks are required and are not included with admission; families may bring their own or purchase them at the location.",
+        "Food is not allowed in the play area. Party customers may bring cakes, food and beverages for the party area under the published party rules.",
+        "Current open-play pricing is $12.95 plus tax for a one-day pass and $7.95 plus tax for children under age 1. A 10-visit pass is $99.95 plus tax.",
+        "Current annual membership pricing is $199.95 plus tax for the first child and $100 plus tax for each sibling; membership includes unlimited age-appropriate open-play access and a published 20% birthday-party discount.",
+        "Published Pottsboro party packages currently start at $299 plus tax for a semi-private basic package, with premium and private-playground options available.",
+        "Private parties can affect normal open-play hours, so check current hours before visiting."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Pottsboro location, contact information, open-play hours, age range, admission rules, pricing and party options verified from Wonder6's official website on 2026-08-10. The website's separate legacy Upcoming Events page contains old placeholder/sample event content and should not be treated as a current event source. Monitor the official Facebook page and Pottsboro location page for special programs, closures and schedule changes.",
+      "last_checked": "2026-08-10",
+      "event_types": [
+        "Birthday parties",
+        "Private parties",
+        "Family gatherings"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Official Pottsboro location page"
+      ],
+      "features": [
+        "Wonder6 Cloud Castle Pottsboro location",
+        "Indoor playground designed for children 12 and under",
+        "Open-play admission",
+        "Birthday-party packages",
+        "Private full-playground rental",
+        "Multi-visit and annual membership options"
+      ]
     }
   ]
 }
