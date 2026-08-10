@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 161,
-  "publish_ready_count": 161,
+  "event_count": 162,
+  "publish_ready_count": 162,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -10750,6 +10750,85 @@
           "supports": "October 3 at 7:00 PM, Saturday lineup currently indexed as Riley Green only, VIP Lounge Experience Upgrade availability and general Grand Theater ticket policy."
         }
       ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "honcho-the-band-at-the-island-2026-08-29",
+      "event_name": "HONCHO The Band at The Island",
+      "description": "HONCHO The Band returns to The Island Bar & Grill Lake Texoma for a Saturday night of live music at Highport Marina. The performance runs from 9:00 PM to midnight, with food, drinks and waterfront Lake Texoma atmosphere available at the venue.",
+      "start_datetime": "2026-08-29T21:00:00-05:00",
+      "end_datetime": "2026-08-30T00:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-island-bar-and-grill-lake-texoma"
+      ],
+      "venue_name": "The Island Bar & Grill Lake Texoma",
+      "host_business_slug": "the-island-bar-and-grill-lake-texoma",
+      "organizer_name": "HONCHO The Band",
+      "address": "121 Texoma Harbor Dr",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75077",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Entertainment",
+        "Lake Texoma Event",
+        "Nightlife"
+      ],
+      "tags": [
+        "HONCHO The Band",
+        "The Island Bar & Grill",
+        "Highport Marina",
+        "Lake Texoma",
+        "live music",
+        "Pottsboro",
+        "Saturday night"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free admission.",
+      "audience": [
+        "Live music fans",
+        "Lake Texoma visitors"
+      ],
+      "age_restriction": null,
+      "performers": [
+        {
+          "name": "HONCHO The Band",
+          "role": "Musician"
+        }
+      ],
+      "image_url": "/images/events/honcho-the-band-at-the-island-2026-08-29.png",
+      "image_alt": null,
+      "official_url": null,
+      "facebook_url": "https://www.facebook.com/TexomaIslandBarAndGrill",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Fresh duplicate check performed against the canonical TWG event directory on August 10, 2026; no HONCHO event record was found. Texoma Connect lists HONCHO The Band at The Island on Saturday, August 29, 2026, from 9:00 PM to midnight with free admission, at Island Bar and Grill inside Highport Marina. The existing canonical TWG venue is The Island Bar & Grill Lake Texoma with slug the-island-bar-and-grill-lake-texoma. No age restriction or ticket requirement was published, so those details are not inferred.",
+      "sources": [
+        {
+          "source_name": "Texoma Connect — HONCHO The Band at The Island",
+          "source_url": "https://texomaconnect.com/event/honcho-the-band-at-the-island/",
+          "source_type": "regional event calendar",
+          "supports": "Event date, 9:00 PM to midnight schedule, venue and free admission."
+        },
+        {
+          "source_name": "Highport Marina",
+          "source_url": "https://highport.com/",
+          "source_type": "official venue",
+          "supports": "Confirms The Island food-and-beverage venue is located at Highport Marina."
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [],
       "last_checked": "2026-08-10",
       "created_on": "2026-08-10",
       "updated_on": "2026-08-10"
