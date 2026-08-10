@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 146,
-  "publish_ready_count": 139,
+  "event_count": 147,
+  "publish_ready_count": 140,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -8737,6 +8737,107 @@
           "source_url": "https://www.pottsborochamber.com/events",
           "source_type": "official chamber",
           "supports": "The three-part Fall Gardening Series structure, including Seed Saving on August 18, Vegetable Gardening on August 23 and Canning Basics on September 8."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "fall-gardening-series-2-vegetable-gardening-pottsboro-2026-08-23",
+      "event_name": "Fall Gardening Series: #2 Vegetable Gardening",
+      "description": "The Pottsboro Area Public Library continues its Fall Gardening Series with an interactive Vegetable Gardening session covering practical tips for growing a healthy, productive garden from soil preparation through harvest. Gardening experts will be available to answer participant questions. While adults attend the gardening class, children can participate in a hands-on wildlife experience exploring animal skins and skulls. Advance signup is requested so organizers know how many people are attending.",
+      "start_datetime": "2026-08-23T13:30:00-05:00",
+      "end_datetime": "2026-08-23T15:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "pottsboro-area-public-library"
+      ],
+      "venue_name": "Pottsboro Area Public Library",
+      "address": "104 N Main St",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Gardening",
+        "Continuing Education",
+        "Library Event",
+        "Community Event",
+        "Family Event",
+        "Workshop"
+      ],
+      "tags": [
+        "Fall Gardening Series",
+        "Vegetable Gardening",
+        "Gardening",
+        "Home Gardening",
+        "Soil Preparation",
+        "Harvesting",
+        "Garden Education",
+        "Gardening Questions",
+        "Wildlife Education",
+        "Animal Skins",
+        "Animal Skulls",
+        "Kids Activity",
+        "Family Friendly",
+        "Pottsboro",
+        "Pottsboro Area Public Library",
+        "Continuing Education",
+        "Community Workshop"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No participation fee was published. Advance signup is requested so organizers know how many attendees are coming.",
+      "audience": [
+        "Adults",
+        "Gardeners",
+        "Home gardeners",
+        "Beginning gardeners",
+        "Experienced gardeners",
+        "Families",
+        "Children accompanying adult participants"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "pottsboro-area-public-library",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/fall-gardening-series-2-vegetable-gardening-pottsboro-2026-08-23.png",
+      "image_alt": null,
+      "official_url": "https://www.pottsborochamber.com/events/details/fall-gardening-series-2-vegetable-gardening-14680",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "series_name": "Fall Gardening Series",
+      "series_number": 2,
+      "series_total": 3,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contained 146 events and 139 publish-ready records. An exact search for 'Fall Gardening Series: #2' returned no existing event record. References to Vegetable Gardening found in the canonical directory occur only inside the already-added Session #1 record's series notes and tags, so this is a new event rather than a duplicate. The official Pottsboro Area Chamber of Commerce event page confirms Sunday, August 23, 2026 from 1:30 PM to 3:30 PM CDT at Pottsboro Library, 104 N Main, Pottsboro, Texas 75076. The Chamber description states that participants will learn tips for growing healthy and productive gardens from soil preparation through harvesting and that experts will be available to answer gardening questions. It also states that while adults attend the gardening session, children can participate in a hands-on wildlife experience exploring animal skins and skulls. The Pottsboro Area Public Library's current catalog independently confirms the August 23 date, 1:30-3:30 PM schedule, vegetable-gardening content, interactive expert Q&A, children's wildlife activity and signup request. The Chamber calendar identifies this as Session #2 in a three-part Fall Gardening Series, following Seed Saving on August 18 and preceding Canning Basics on September 8. Because each installment has its own topic and date, TWG keeps each as a separate event record. No admission price, age restriction, dedicated ticket link or named gardening instructor was published, so those details are not invented.",
+      "sources": [
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Fall Gardening Series #2: Vegetable Gardening",
+          "source_url": "https://www.pottsborochamber.com/events/details/fall-gardening-series-2-vegetable-gardening-14680",
+          "source_type": "official chamber",
+          "supports": "Event title, August 23 date, 1:30-3:30 PM time, Pottsboro Library location, address, vegetable-gardening curriculum, expert Q&A, children's wildlife activity and signup request."
+        },
+        {
+          "source_name": "Pottsboro Area Public Library — Current Catalog",
+          "source_url": "https://pottsboro.biblionix.com/catalog/",
+          "source_type": "official venue",
+          "supports": "Independent first-party confirmation of the August 23 date, 1:30-3:30 PM schedule, soil-to-harvest gardening content, interactive expert session, children's animal-skins-and-skulls activity and signup request."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Events Calendar",
+          "source_url": "https://www.pottsborochamber.com/events",
+          "source_type": "official chamber",
+          "supports": "Three-part Fall Gardening Series structure: Seed Saving on August 18, Vegetable Gardening on August 23 and Canning Basics on September 8."
         }
       ],
       "last_checked": "2026-08-10",
