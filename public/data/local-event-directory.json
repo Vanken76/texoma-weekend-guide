@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 167,
-  "publish_ready_count": 167,
+  "event_count": 168,
+  "publish_ready_count": 168,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -11330,6 +11330,108 @@
       "partner_names": [
         "Fastrac Charters & Cruises"
       ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "derryl-perry-at-calhouns-2-0-2026-09-05",
+      "event_name": "Derryl Perry at Calhoun's 2.0",
+      "description": "Texas country singer-songwriter Derryl Perry brings his honky-tonk sound to Calhoun's 2.0 in Denison on Saturday, September 5. The live performance begins at 9:00 PM.",
+      "start_datetime": "2026-09-05T21:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "calhouns-2-0"
+      ],
+      "venue_name": "Calhoun's 2.0",
+      "host_business_slug": "calhouns-2-0",
+      "organizer_name": null,
+      "address": "4801 S. State Hwy 91",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Country Music",
+        "Entertainment",
+        "Nightlife"
+      ],
+      "tags": [
+        "Derryl Perry",
+        "Calhoun's 2.0",
+        "Texas Country",
+        "Honky Tonk",
+        "Country Music",
+        "Live Music",
+        "Denison",
+        "Saturday Night"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "Country music fans",
+        "Live music fans"
+      ],
+      "age_restriction": null,
+      "performers": [
+        {
+          "name": "Derryl Perry",
+          "role": "Musical performer"
+        }
+      ],
+      "image_url": "/images/events/derryl-perry-at-calhouns-2-0-2026-09-05.png",
+      "image_alt": null,
+      "official_url": "https://www.derrylperry.com/",
+      "facebook_url": "https://www.facebook.com/Calhouns2.0/",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The performance is Saturday, September 5, 2026.",
+        "The show begins at 9:00 PM.",
+        "The event takes place at Calhoun's 2.0 in Denison.",
+        "Derryl Perry performs Texas-rooted country and honky-tonk music.",
+        "No official ending time is published, so end_datetime remains null.",
+        "No event-specific admission price or age restriction was confirmed in the current sources reviewed by TWG."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contains 167 events and 167 publish-ready records. Broad duplicate searches for Derryl, Perry and the September 5 date found no existing Derryl Perry event record. Bandsintown currently lists Derryl Perry at Calhoun's 2.0 in Denison on Saturday, September 5, 2026 at 9:00 PM. Apple Music independently lists the same September 5 Calhoun's 2.0 performance in Denison at 9:00 PM. Derryl Perry's official website confirms his current artist identity, and his official biography describes his Texas-rooted country and honky-tonk style. The existing canonical TWG venue is Calhoun's 2.0 under slug calhouns-2-0. No event-specific ending time, admission price, ticket requirement or age restriction was confirmed, so those values are not invented.",
+      "sources": [
+        {
+          "source_name": "Bandsintown — Derryl Perry",
+          "source_url": "https://www.bandsintown.com/a/70351-derryl-perry",
+          "source_type": "performer tour schedule",
+          "supports": "September 5, 2026 Calhoun's 2.0 performance in Denison and 9:00 PM start."
+        },
+        {
+          "source_name": "Apple Music — Derryl Perry",
+          "source_url": "https://music.apple.com/us/artist/derryl-perry/105927442",
+          "source_type": "performer concert schedule",
+          "supports": "Independent confirmation of the September 5, 2026 Calhoun's 2.0 show in Denison at 9:00 PM."
+        },
+        {
+          "source_name": "Derryl Perry — Official Website",
+          "source_url": "https://www.derrylperry.com/",
+          "source_type": "official performer",
+          "supports": "Official artist identity and current music activity."
+        },
+        {
+          "source_name": "Derryl Perry — Official Biography",
+          "source_url": "https://www.derrylperry.com/press",
+          "source_type": "official performer",
+          "supports": "Texas country, honky-tonk and live-performance background."
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [],
       "last_checked": "2026-08-10",
       "created_on": "2026-08-10",
       "updated_on": "2026-08-10"
