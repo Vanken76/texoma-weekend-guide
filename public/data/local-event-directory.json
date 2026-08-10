@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 156,
-  "publish_ready_count": 149,
+  "event_count": 157,
+  "publish_ready_count": 150,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -9979,6 +9979,125 @@
           "source_url": "https://www.choctawcasinos.com/durant/",
           "source_type": "official",
           "supports": "Current resort address, Grand Theater location, resort amenities and North Parking Garage guidance for concertgoers."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "lenny-kravitz-live-2026-tour-choctaw-grand-theater-durant-2026-09-18",
+      "event_name": "Lenny Kravitz Live 2026 Tour",
+      "description": "Four-time GRAMMY Award-winning musician Lenny Kravitz brings his Live 2026 Tour to Choctaw Grand Theater at Choctaw Casino & Resort – Durant on Friday, September 18, 2026. The singer, songwriter, producer and multi-instrumentalist has built a career blending rock, soul and funk influences across more than three decades. Doors open at 6:30 PM and the concert begins at 8:00 PM. Tickets are sold through Ticketmaster, the official ticketing agent for Choctaw Casinos & Resorts.",
+      "start_datetime": "2026-09-18T20:00:00-05:00",
+      "end_datetime": null,
+      "doors_open_datetime": "2026-09-18T18:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-grand-theater-choctaw-casino-resort-durant"
+      ],
+      "venue_name": "The Grand Theater at Choctaw Casino & Resort – Durant",
+      "host_business_slug": "choctaw-casino-resort-durant",
+      "organizer_name": "Choctaw Casino & Resort – Durant",
+      "address": "4216 S Hwy 69/75",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Concert",
+        "Rock Music",
+        "Soul",
+        "Funk",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "Lenny Kravitz",
+        "Lenny Kravitz Live 2026 Tour",
+        "Live 2026 Tour",
+        "Rock",
+        "Soul",
+        "Funk",
+        "Live Music",
+        "Concert",
+        "GRAMMY Award Winner",
+        "Choctaw Grand Theater",
+        "Choctaw Casino & Resort Durant",
+        "Durant",
+        "Oklahoma",
+        "Southern Oklahoma",
+        "Texoma",
+        "National Touring Artist"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ticketed concert. Tickets are sold through Ticketmaster, the official ticketing agent for Choctaw Casinos & Resorts. Ticket prices and seat availability vary.",
+      "audience": [
+        "Lenny Kravitz fans",
+        "Rock music fans",
+        "Soul music fans",
+        "Funk music fans",
+        "Live music fans",
+        "Concertgoers",
+        "Texoma visitors"
+      ],
+      "age_restriction": null,
+      "performers": [
+        {
+          "name": "Lenny Kravitz",
+          "role": "Headlining artist"
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/lenny-kravitz-live-2026-tour-choctaw-grand-theater-durant-2026-09-18.jpg",
+      "image_alt": null,
+      "official_url": "https://www.choctawcasinos.com/events/lenny-kravitz/",
+      "facebook_url": null,
+      "ticket_url": "https://www.ticketmaster.com/event/0C0064B5ED30508E",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The concert is Friday, September 18, 2026.",
+        "Doors open at 6:30 PM.",
+        "Showtime is 8:00 PM.",
+        "The performance takes place at the Grand Theater inside Choctaw Casino & Resort – Durant.",
+        "Lenny Kravitz is a four-time GRAMMY Award winner.",
+        "Choctaw describes his music as drawing from rock, soul and funk influences.",
+        "Kravitz released the studio album Blue Electric Light in 2024.",
+        "Ticketmaster is the official ticketing agent for Choctaw Casinos & Resorts.",
+        "Ticket prices and available seats may change as the concert approaches.",
+        "No official concert ending time is published, so TWG leaves end_datetime null.",
+        "No event-specific age restriction is currently published, so TWG leaves age_restriction null.",
+        "The North Parking Garage is the resort's recommended convenient parking location for guests attending concerts at the Grand Theater.",
+        "Choctaw Casino & Resort – Durant offers lodging, restaurants, bars, gaming and additional entertainment on the same property."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contained 156 events and 149 publish-ready records. An exact canonical search for 'Lenny Kravitz' returned no existing event record, so this is a new event rather than a duplicate. Choctaw Casinos & Resorts' official current event page confirms Lenny Kravitz Live 2026 Tour at Choctaw Grand Theater in Durant on Friday, September 18, 2026, with doors opening at 6:30 PM and showtime at 8:00 PM. Choctaw identifies Kravitz as a four-time GRAMMY Award-winning writer, producer and multi-instrumentalist whose career draws on soul, rock and funk influences. The official page states that tickets are on sale and identifies Ticketmaster as the official ticketing agent for Choctaw Casinos & Resorts. The page links directly to Ticketmaster event 0C0064B5ED30508E. Ticketmaster independently confirms Lenny Kravitz Live at Choctaw Grand Theater in Durant on Friday, September 18, 2026 at 8:00 PM. Choctaw's official Durant property page confirms the resort address at 4216 S Hwy 69/75, Durant, OK 74701 and specifically recommends the North Parking Garage for guests attending a concert in the Grand Theater. A fresh canonical TWG business-directory check confirms The Grand Theater at Choctaw Casino & Resort – Durant remains active and publish-ready under slug the-grand-theater-choctaw-casino-resort-durant. No official concert ending time, fixed ticket-price range or event-specific age restriction is currently published, so TWG does not invent those fields.",
+      "sources": [
+        {
+          "source_name": "Choctaw Casinos & Resorts — Lenny Kravitz Live 2026 Tour",
+          "source_url": "https://www.choctawcasinos.com/events/lenny-kravitz/",
+          "source_type": "official",
+          "supports": "Event name, September 18, 2026 date, Durant location, Grand Theater venue, 6:30 PM doors, 8:00 PM showtime, artist background, four GRAMMY Awards and official Ticketmaster relationship."
+        },
+        {
+          "source_name": "Ticketmaster — Lenny Kravitz Live",
+          "source_url": "https://www.ticketmaster.com/event/0C0064B5ED30508E",
+          "source_type": "official ticketing",
+          "supports": "Independent confirmation of Friday, September 18, 2026 at 8:00 PM at Choctaw Grand Theater in Durant."
+        },
+        {
+          "source_name": "Choctaw Casino & Resort – Durant",
+          "source_url": "https://www.choctawcasinos.com/durant/",
+          "source_type": "official",
+          "supports": "Current resort address, Lenny Kravitz listing in the Durant entertainment schedule, North Parking Garage guidance and on-property amenities."
         }
       ],
       "last_checked": "2026-08-10",
