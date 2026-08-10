@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 741,
-  "publish_ready_count": 416,
+  "business_count": 742,
+  "publish_ready_count": 417,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -63379,6 +63379,295 @@
           "source_url": "https://www.restaurantji.com/tx/denison/deviled-egg-co-/",
           "source_type": "current restaurant listing",
           "supports": "Independent current operation, menu examples, takeout/delivery, cocktails and conflicting broader operating hours requiring the TWG warning."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "last_verified": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "slug": "briar-oaks-rv-park",
+      "business_name": "Briar Oaks RV Park",
+      "alternate_names": [
+        "Briar Oaks RV Park Pottsboro"
+      ],
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "678 Highport Rd, Pottsboro, TX 75076 — full-hookup RV park near Lake Texoma, Highport Marina and Tanglewood Resort",
+      "primary_category": "RV Park",
+      "category": [
+        "RV Park",
+        "Campground",
+        "Lake Texoma Lodging",
+        "Extended Stay RV Park"
+      ],
+      "tags": [
+        "Briar Oaks RV Park",
+        "Pottsboro",
+        "Texas",
+        "Lake Texoma",
+        "Grayson County",
+        "RV Park",
+        "Campground",
+        "RV Camping",
+        "Full Hookups",
+        "Pull-Through Sites",
+        "Back-In Sites",
+        "Long-Term RV Stay",
+        "Extended Stay",
+        "Nightly RV Sites",
+        "Weekly RV Sites",
+        "Monthly RV Sites",
+        "Pet Friendly",
+        "WiFi",
+        "Bathhouse",
+        "Showers",
+        "Laundry",
+        "Stocked Pond",
+        "Walking Trail",
+        "Highport Road",
+        "Highport Marina",
+        "Tanglewood Resort",
+        "Lake Texoma Lodging"
+      ],
+      "description": "Briar Oaks RV Park is a Pottsboro RV campground near Lake Texoma offering full-hookup pull-through and back-in RV sites for short visits and extended stays. The park is set around a natural landscape with a stocked pond and scenic walking trail and provides electric, water, sewer and Wi-Fi service at RV sites. Recent improvements include a bathhouse with restroom and shower facilities plus a separate laundry room. Its Highport Road location places guests close to Highport Marina, The Island Bar & Grill, Tanglewood Resort and Tanglewood Resort Golf Course.",
+      "short_description": "Pet-friendly Pottsboro RV park near Lake Texoma offering full-hookup pull-through and back-in sites, Wi-Fi, bathhouse, laundry, walking trails and a stocked pond.",
+      "why_visit": "Briar Oaks is particularly convenient for RV travelers who want to stay near the Highport and Tanglewood side of Lake Texoma without being directly inside a large marina resort. Guests have full hookups and online reservations while remaining close to boating, waterfront dining, golf and resort amenities.",
+      "why_its_unique": "The park combines a relatively quiet natural setting with strong access to some of Pottsboro's biggest Lake Texoma destinations. Its stocked pond, walking trail, newer bathhouse and laundry facilities add campground amenities while Highport Marina and Tanglewood are only a short drive away.",
+      "address": "678 Highport Rd",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "address_note": "The official Briar Oaks RV Park website and current Pottsboro Area Chamber of Commerce directory both confirm 678 Highport Rd, Pottsboro, TX 75076. Third-party campground sources publish conflicting GPS coordinates, so TWG leaves latitude and longitude null rather than choosing an unverified coordinate pair.",
+      "phone": "903-821-2628",
+      "phone_secondary": null,
+      "email": "briaroaksrvpark@gmail.com",
+      "email_note": "The email address is published by current campground-directory data but is not currently displayed on the first-party Briar Oaks website. The official website instead provides a contact form and email-update signup.",
+      "website": "https://briaroaksrvpark.com/",
+      "booking_url": "https://parkwith.us/camps/briar-oaks-rv-park",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$",
+      "family_friendly": true,
+      "pet_friendly": true,
+      "dog_friendly": true,
+      "hours": null,
+      "hours_note": "Briar Oaks is an RV lodging property rather than a conventional storefront. The park accepts online reservations and phone bookings. A dependable first-party office-hours or staffed check-in schedule is not currently published, so TWG does not invent regular business hours.",
+      "current_price_snapshot": {
+        "nightly_rate": "Starting at $45 per night",
+        "weekly_rate": "Available — current amount varies by booking",
+        "monthly_rate": "Available — current amount varies by booking"
+      },
+      "pricing_note": "The current first-party Briar Oaks website advertises nightly rates starting at $45. Current third-party campground sites display higher $55-$75 nightly ranges, which may reflect particular site types, dates or older pricing. TWG uses the current first-party $45 starting rate and recommends checking the live booking system for actual dates and site availability.",
+      "at_a_glance": {
+        "average_visit": "Overnight to extended stay",
+        "price_range": "$$",
+        "family_friendly": true,
+        "pet_friendly": true,
+        "dog_friendly": true,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Full-hookup RV sites",
+        "Electric hookups",
+        "Water hookups",
+        "Sewer hookups",
+        "Wi-Fi",
+        "Pull-through RV sites",
+        "Back-in RV sites",
+        "Online reservations",
+        "Nightly stays",
+        "Weekly stays",
+        "Extended stays",
+        "Pet-friendly campground",
+        "Stocked pond",
+        "Scenic walking trail",
+        "Bathhouse",
+        "Restroom",
+        "Shower",
+        "Laundry room",
+        "Big-rig capable sites reported by current campground directories",
+        "30-amp and 50-amp service reported by current campground directories"
+      ],
+      "good_to_know": [
+        "Briar Oaks RV Park is located at 678 Highport Rd in Pottsboro.",
+        "The current official phone number is 903-821-2628.",
+        "Nightly rates currently start at $45 according to the official park website.",
+        "Actual rates vary by site, stay length and booking dates.",
+        "Online reservations are available through the park's current Park booking system.",
+        "Both pull-through and back-in RV sites are available.",
+        "RV sites include electric, water, sewer and Wi-Fi.",
+        "Current campground directories identify 30-amp and 50-amp hookups.",
+        "Current Campendium data lists approximately 27 RV sites, but the park's own website does not currently publish an official site count, so TWG does not treat 27 as a guaranteed current capacity.",
+        "The property includes a stocked pond.",
+        "A scenic walking trail runs through the property and around the pond area.",
+        "A bathhouse has recently been added.",
+        "The bathhouse includes a restroom and shower.",
+        "A separate laundry room is available.",
+        "The park is pet friendly.",
+        "The official website discusses a dog park as an upcoming or developing amenity, so TWG should not advertise a completed dog park until the business confirms that it is open.",
+        "Tents are not accepted.",
+        "Only one RV or travel trailer is allowed per campsite.",
+        "Daily and weekly rates include three people.",
+        "Daily and weekly sites have a stated maximum of four people, with possible additional guest fees.",
+        "Extended-stay rates include two people and the park rules state a maximum of two people per extended-stay site unless management approves otherwise.",
+        "RVs and travel trailers generally must be no more than 15 years old, be in good condition and carry current liability insurance.",
+        "Quiet hours are 10:00 PM-8:00 AM.",
+        "Open fires are prohibited.",
+        "Fireworks are prohibited.",
+        "Pets must remain leashed and under control and owners must clean up after them.",
+        "Children are permitted but must be supervised by a parent or guardian.",
+        "The campground speed limit is 5 MPH.",
+        "Parking is limited to designated areas.",
+        "Alcohol may be consumed responsibly within an individual campsite.",
+        "Briar Oaks explicitly promotes quick access to Highport Marina.",
+        "The official park website also identifies The Island Bar & Grill, Tanglewood Resort and Tanglewood Golf Course as nearby attractions.",
+        "No dependable current official Facebook or Instagram account was verified during this research pass."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "event_types": [
+        "Seasonal campground promotions",
+        "Holiday stay promotions",
+        "Guest announcements",
+        "Lake Texoma travel promotions"
+      ],
+      "event_sources": [
+        "Briar Oaks RV Park official website",
+        "Briar Oaks RV Park email updates",
+        "Pottsboro Area Chamber of Commerce"
+      ],
+      "parent_business": null,
+      "related_businesses": [
+        {
+          "slug": "highport-marina",
+          "business_name": "Highport Marina",
+          "relationship_note": "Briar Oaks explicitly promotes its convenient access to Highport Marina. This is a geographic and visitor-service relationship only; no ownership relationship is asserted."
+        },
+        {
+          "slug": "the-island-bar-and-grill-lake-texoma",
+          "business_name": "The Island Bar & Grill Lake Texoma",
+          "relationship_note": "Briar Oaks specifically identifies The Island Bar & Grill at nearby Highport Marina as an easily accessible food and entertainment option for guests."
+        },
+        {
+          "slug": "tanglewood-resort-on-lake-texoma",
+          "business_name": "Tanglewood Resort on Lake Texoma",
+          "relationship_note": "Briar Oaks explicitly promotes convenient access to nearby Tanglewood Resort. No ownership relationship is asserted."
+        },
+        {
+          "slug": "tanglewood-resort-golf-course",
+          "business_name": "Tanglewood Resort Golf Course",
+          "relationship_note": "Briar Oaks explicitly identifies Tanglewood Golf Course as a nearby recreation option for guests."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "lake-texoma",
+          "name": "Lake Texoma",
+          "entity_type": "region",
+          "relationship_note": "Briar Oaks markets itself specifically as an RV park and campground near Lake Texoma."
+        },
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Briar Oaks RV Park is located in Pottsboro, Texas."
+        }
+      ],
+      "related_events": [],
+      "features": [
+        "Lake Texoma-area RV camping",
+        "Highport Road location",
+        "Full hookups",
+        "Pull-through sites",
+        "Back-in sites",
+        "Short-term and extended stays",
+        "Online booking",
+        "Pet friendly",
+        "Stocked pond",
+        "Scenic walking trail",
+        "Newer bathhouse",
+        "Shower facilities",
+        "Laundry room",
+        "Wi-Fi",
+        "Near Highport Marina",
+        "Near The Island Bar & Grill",
+        "Near Tanglewood Resort",
+        "Near Tanglewood Golf Course"
+      ],
+      "source_verified": true,
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical public/data/local-business-directory.json, which contained 741 businesses and 416 publish-ready records. No Briar Oaks RV Park record or equivalent alias appeared in the canonical directory, so this is a new canonical record rather than an upgrade or duplicate. The current first-party Briar Oaks RV Park website confirms active operation at 678 Highport Road, Pottsboro, Texas, phone 903-821-2628, nightly rates starting at $45, online reservations, short and long-term RV stays, electric, water, sewer and Wi-Fi hookups, pull-through and back-in sites, a stocked pond, walking trail, pet-friendly policy and recently added bathhouse, shower and laundry facilities. The official website explicitly identifies Highport Marina, The Island Bar & Grill, Tanglewood Resort and Tanglewood Golf Course as nearby attractions, supporting direct TWG relationship links to those existing records without implying common ownership. Current Pottsboro Area Chamber of Commerce data independently confirms the business at 678 Highport Rd with phone 903-821-2628 and currently lists Briar Oaks in the local business directory and Lodging & Travel category. The official park rules confirm that tents are not accepted, daily and weekly rates include three people with a four-person maximum per site, extended stays include two people with a stated two-person maximum, RVs generally must be 15 years old or newer and insured, pets must be leashed, quiet hours run 10:00 PM-8:00 AM, and fires and fireworks are prohibited. Current campground-directory data additionally reports 30- and 50-amp hookups, big-rig capability and the email briaroaksrvpark@gmail.com. Campendium reports 27 sites, weekly and monthly rates and full hookups, but because the official park does not publish a current site count, TWG does not represent 27 as verified first-party capacity. Third-party GPS coordinates conflict materially between current campground sources, so latitude and longitude are intentionally left null. The official website currently describes a dog park in future/development language, so TWG records the property as dog friendly but does not claim that the dog park is operational yet.",
+      "sources": [
+        {
+          "source_name": "Briar Oaks RV Park — Official Website",
+          "source_url": "https://briaroaksrvpark.com/",
+          "source_type": "official",
+          "supports": "Current active operation, address, phone, $45 starting nightly rate, online booking, full hookups, Wi-Fi, pull-through/back-in sites, stocked pond, walking trail, pet policy, bathhouse, shower, laundry and nearby Highport/Tanglewood attractions."
+        },
+        {
+          "source_name": "Briar Oaks RV Park — Park Rules",
+          "source_url": "https://briaroaksrvpark.com/park-rules",
+          "source_type": "official",
+          "supports": "Occupancy rules, RV-age requirement, no-tent policy, pet rules, quiet hours, no-fire rule, parking rules, speed limit and other current campground policies."
+        },
+        {
+          "source_name": "Briar Oaks RV Park — Online Booking",
+          "source_url": "https://parkwith.us/camps/briar-oaks-rv-park",
+          "source_type": "official booking platform",
+          "supports": "Current online reservation capability linked directly from the official Briar Oaks website."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Business Directory",
+          "source_url": "https://www.pottsborochamber.com/list/search?o=&sa=true",
+          "source_type": "official chamber",
+          "supports": "Current Briar Oaks RV Park membership/listing, 678 Highport Rd address and 903-821-2628 phone."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Lodging & Travel",
+          "source_url": "https://www.pottsborochamber.com/list/ql/lodging-travel-15",
+          "source_type": "official chamber",
+          "supports": "Current classification of Briar Oaks RV Park as a Pottsboro lodging/travel business."
+        },
+        {
+          "source_name": "The Dyrt — Briar Oaks RV Park",
+          "source_url": "https://thedyrt.com/camping/texas/briar-oaks-rv-park",
+          "source_type": "current campground listing",
+          "supports": "Current phone, email, reservability, pet friendliness, Wi-Fi, 30/50-amp service, water/sewer hookups, pull-through sites and big-rig capability."
+        },
+        {
+          "source_name": "Campendium — Briar Oaks RV Park",
+          "source_url": "https://www.campendium.com/briar-oaks-rv-park",
+          "source_type": "current campground listing",
+          "supports": "Independent current address and phone confirmation, full hookups, 20/30/50-amp service, pull-through capability, weekly/monthly stays and third-party reported site count."
+        },
+        {
+          "source_name": "Tripadvisor — Briar Oaks RV Park",
+          "source_url": "https://www.tripadvisor.com/Hotel_Review-g56489-d33998725-Reviews-Briar_Oaks_RV_Park-Pottsboro_Texas.html",
+          "source_type": "current travel listing",
+          "supports": "Independent current lodging identity and 678 Highport Road address."
         }
       ],
       "last_checked": "2026-08-10",
