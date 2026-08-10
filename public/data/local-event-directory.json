@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 150,
-  "publish_ready_count": 143,
+  "event_count": 151,
+  "publish_ready_count": 144,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -9155,6 +9155,112 @@
           "source_url": "https://buxtonnook.com/",
           "source_type": "official",
           "supports": "Current business operation, book shop and children's book offerings, phone numbers and general store identity."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "matchbox-twenty-choctaw-grand-theater-durant-2026-08-15",
+      "event_name": "Matchbox Twenty",
+      "description": "Matchbox Twenty brings its live show to Choctaw Grand Theater at Choctaw Casino & Resort – Durant on Saturday, August 15, 2026. Doors open at 6:30 PM and the concert begins at 8:00 PM. The veteran American rock band is known for a career spanning multiple decades and songs including \"3AM,\" \"Push,\" \"Unwell,\" \"Bent,\" \"If You're Gone\" and \"She's So Mean.\" Tickets are sold through Ticketmaster, the official ticketing agent for Choctaw Casinos & Resorts.",
+      "start_datetime": "2026-08-15T20:00:00-05:00",
+      "end_datetime": null,
+      "doors_open_datetime": "2026-08-15T18:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-grand-theater-choctaw-casino-resort-durant"
+      ],
+      "venue_name": "Choctaw Grand Theater",
+      "host_business_slug": "choctaw-casino-resort-durant",
+      "organizer_name": "Choctaw Casino & Resort – Durant",
+      "address": "4216 S Hwy 69/75",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Concert",
+        "Rock Music",
+        "Pop Rock",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "Matchbox Twenty",
+        "Matchbox 20",
+        "Rob Thomas",
+        "Live Music",
+        "Concert",
+        "Rock",
+        "Pop Rock",
+        "90s Music",
+        "2000s Music",
+        "Choctaw Grand Theater",
+        "Choctaw Casino & Resort Durant",
+        "Durant",
+        "Oklahoma",
+        "Texoma",
+        "Southern Oklahoma",
+        "Nightlife",
+        "National Touring Act"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ticketed concert. Tickets are on sale through Ticketmaster, the official ticketing agent for Choctaw Casinos & Resorts. Live ticket prices and seat availability vary and should be checked through the official ticket listing.",
+      "audience": [
+        "Live music fans",
+        "Rock and pop-rock fans",
+        "Matchbox Twenty fans",
+        "Texoma visitors",
+        "Concertgoers"
+      ],
+      "age_restriction": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/matchbox-twenty-choctaw-grand-theater-durant-2026-08-15.jpg",
+      "image_alt": null,
+      "official_url": "https://www.choctawcasinos.com/events/matchbox-twenty/",
+      "facebook_url": null,
+      "ticket_url": "https://www.ticketmaster.com/event/0C006446D68DBF44",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "Doors open at 6:30 PM.",
+        "Showtime is 8:00 PM.",
+        "The concert is at Choctaw Grand Theater inside Choctaw Casino & Resort – Durant.",
+        "Ticketmaster is the official ticketing agent for Choctaw Casinos & Resorts.",
+        "Ticket prices and available seats can change as the event approaches.",
+        "No official concert ending time is published, so TWG leaves end_datetime null rather than estimating one.",
+        "No event-specific age restriction is published on the current Choctaw event page, so TWG leaves age_restriction null.",
+        "Choctaw Casino & Resort – Durant offers on-property dining, lodging and entertainment for visitors attending the concert."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contained 150 events and 143 publish-ready records. An exact search for Matchbox Twenty returned no existing event record, so this is a new canonical event rather than a duplicate. Choctaw Casinos & Resorts' official current event page confirms Matchbox Twenty at Choctaw Grand Theater in Durant on Saturday, August 15, 2026, with doors opening at 6:30 PM and showtime at 8:00 PM. The official event page states that tickets are currently on sale and identifies Ticketmaster as the official ticketing agent for Choctaw Casinos & Resorts. The page links directly to Ticketmaster event 0C006446D68DBF44. Choctaw's current Durant property information confirms the resort at 4216 S Hwy 69/75, Durant, Oklahoma 74701. The canonical TWG business directory already contains both Choctaw Casino & Resort – Durant and The Grand Theater at Choctaw Casino & Resort – Durant as verified, publish-ready businesses, with venue slug the-grand-theater-choctaw-casino-resort-durant and resort slug choctaw-casino-resort-durant. No official concert ending time, event-specific age restriction or fixed ticket-price range is published on the current Choctaw event page, so TWG does not invent those details.",
+      "sources": [
+        {
+          "source_name": "Choctaw Casinos & Resorts — Matchbox Twenty",
+          "source_url": "https://www.choctawcasinos.com/events/matchbox-twenty/",
+          "source_type": "official",
+          "supports": "Artist, August 15, 2026 date, Durant location, Choctaw Grand Theater venue, 6:30 PM doors, 8:00 PM showtime, ticket availability and official Ticketmaster relationship."
+        },
+        {
+          "source_name": "Ticketmaster — Matchbox Twenty at Choctaw Grand Theater",
+          "source_url": "https://www.ticketmaster.com/event/0C006446D68DBF44",
+          "source_type": "official ticketing",
+          "supports": "Official ticket destination linked directly by Choctaw Casinos & Resorts."
+        },
+        {
+          "source_name": "Choctaw Casino & Resort – Durant",
+          "source_url": "https://www.choctawcasinos.com/durant/",
+          "source_type": "official",
+          "supports": "Current Durant resort identity, 4216 S Hwy 69/75 address and Grand Theater entertainment location."
         }
       ],
       "last_checked": "2026-08-10",
