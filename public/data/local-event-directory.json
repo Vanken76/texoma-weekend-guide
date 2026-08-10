@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 145,
-  "publish_ready_count": 138,
+  "event_count": 146,
+  "publish_ready_count": 139,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -8649,6 +8649,94 @@
           "source_url": "https://grayson.agrilife.org/",
           "source_type": "official",
           "supports": "Current Grayson County Texas A&M AgriLife Extension identity and context for the published ag.tamu.edu program contact."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "fall-gardening-series-1-seed-saving-pottsboro-2026-08-18",
+      "event_name": "Fall Gardening Series: #1 Seed Saving",
+      "description": "The Pottsboro Area Public Library begins its Fall Gardening Series with a hands-on educational session about seed saving. Participants will learn how to collect, store and preserve seeds from favorite vegetables for use in next year's garden. This is the first of three published Fall Gardening Series sessions. Attendees are asked to sign up in advance so organizers know how many people are coming.",
+      "start_datetime": "2026-08-18T17:30:00-05:00",
+      "end_datetime": "2026-08-18T18:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "pottsboro-area-public-library"
+      ],
+      "venue_name": "Pottsboro Area Public Library",
+      "address": "104 N Main St",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Gardening",
+        "Continuing Education",
+        "Library Event",
+        "Community Event",
+        "Workshop"
+      ],
+      "tags": [
+        "Fall Gardening Series",
+        "Seed Saving",
+        "Gardening",
+        "Vegetable Gardening",
+        "Seeds",
+        "Garden Education",
+        "Pottsboro",
+        "Pottsboro Area Public Library",
+        "Continuing Education",
+        "Community Workshop"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No participation fee was published. Advance signup is requested so organizers know how many attendees are coming.",
+      "audience": [
+        "Gardeners",
+        "Home gardeners",
+        "Adults",
+        "Beginning gardeners",
+        "Experienced gardeners"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "pottsboro-area-public-library",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/fall-gardening-series-1-seed-saving-pottsboro-2026-08-18.png",
+      "image_alt": null,
+      "official_url": "https://www.pottsborochamber.com/events/details/fall-gardening-series-1-seed-saving-14679",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contained 145 events and 138 publish-ready records. Searches for 'Fall Gardening Series' and 'Seed Saving' returned no existing event record, so this is a new canonical event rather than a duplicate. The official Pottsboro Area Chamber of Commerce event page confirms Tuesday, August 18, 2026 from 5:30 PM to 6:30 PM CDT at Pottsboro Library, 104 N Main, Pottsboro, Texas 75076. The official description states that participants will learn how to collect, store and save seeds from favorite vegetables for next year's garden and asks attendees to sign up so organizers know they are coming. It explicitly identifies this as the first of three sessions. The Pottsboro Area Public Library's own current catalog independently confirms the August 18 date, 5:30-6:30 PM time and matching seed-saving description. The canonical TWG business directory already identifies the venue as Pottsboro Area Public Library with slug pottsboro-area-public-library. The Chamber calendar separately lists Session #2, Vegetable Gardening, on August 23 and Session #3, Canning Basics, on September 8. Because each installment has a distinct topic, date and duration, TWG treats them as separate event records rather than collapsing all three into one recurring event. No admission price, age restriction or dedicated registration URL was published, so those fields are not invented.",
+      "sources": [
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Fall Gardening Series #1: Seed Saving",
+          "source_url": "https://www.pottsborochamber.com/events/details/fall-gardening-series-1-seed-saving-14679",
+          "source_type": "official chamber",
+          "supports": "Event title, August 18 date, 5:30-6:30 PM time, Pottsboro Library location, 104 N Main address, seed-saving topic, signup request and identification as the first of three sessions."
+        },
+        {
+          "source_name": "Pottsboro Area Public Library — Current Catalog",
+          "source_url": "https://pottsboro.biblionix.com/catalog/",
+          "source_type": "official venue",
+          "supports": "Independent first-party confirmation of the August 18 date, 5:30-6:30 PM schedule and seed-saving class description."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Events Calendar",
+          "source_url": "https://www.pottsborochamber.com/events",
+          "source_type": "official chamber",
+          "supports": "The three-part Fall Gardening Series structure, including Seed Saving on August 18, Vegetable Gardening on August 23 and Canning Basics on September 8."
         }
       ],
       "last_checked": "2026-08-10",
