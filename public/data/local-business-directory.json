@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 706,
-  "publish_ready_count": 372,
+  "business_count": 707,
+  "publish_ready_count": 373,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -52644,6 +52644,156 @@
         "Project assistance",
         "Bilingual service",
         "Delivery"
+      ]
+    },
+    {
+      "slug": "polar-bear-chimney-sweep",
+      "business_name": "Polar Bear Chimney Sweep",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1256 Locust Rd, Pottsboro, TX 75076",
+      "category": [
+        "Chimney Sweep",
+        "Fireplace Services",
+        "Fireplace Store",
+        "Dryer Vent Cleaning",
+        "Home Services"
+      ],
+      "tags": [
+        "Polar Bear Chimney Sweep",
+        "Pottsboro",
+        "Texoma",
+        "North Texas",
+        "Southern Oklahoma",
+        "Chimney Sweep",
+        "Chimney Cleaning",
+        "Fireplace Cleaning",
+        "Fireplace Inspection",
+        "Fireplace Repair",
+        "Fireplace Installation",
+        "Chimney Repair",
+        "Dryer Vent Cleaning",
+        "Fireplace Store",
+        "Wood Stoves",
+        "Gas Fireplaces",
+        "Pellet Stoves",
+        "Commercial Chimney Services",
+        "Fireplace Showroom"
+      ],
+      "description": "Polar Bear Chimney Sweep is a full-service fireplace, chimney and dryer-vent company headquartered in Pottsboro and serving communities throughout North Texas and southern Oklahoma. The company provides residential and commercial chimney and fireplace cleaning, inspections, repairs, installations, dryer-vent maintenance and related services. Its Pottsboro location also includes a fireplace and stove showroom where customers can explore products and discuss installation options.",
+      "why_visit": "Polar Bear Chimney Sweep is useful for Lake Texoma-area homeowners, vacation-property owners and businesses that need fireplace or chimney maintenance, repairs, inspections or new equipment. Customers can also visit the Pottsboro showroom to compare fireplace and stove options while working with the same company for installation and long-term service.",
+      "why_its_unique": "Polar Bear combines chimney sweeping and repair work with fireplace and stove sales, installation, dryer-vent services and a physical Pottsboro showroom. Its service territory extends across both North Texas and southern Oklahoma.",
+      "phone": "903-821-0445",
+      "email": "polarbearchimneysweep@gmail.com",
+      "website": "https://www.polarbearchimneysweep.com/",
+      "facebook": "https://www.facebook.com/polarbearchimneysweep/",
+      "instagram": "https://www.instagram.com/polarbearchimneysweep/",
+      "youtube": null,
+      "tiktok": "https://www.tiktok.com/@polar.bear.chimney.sweep",
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "8:00 AM–5:00 PM",
+        "tuesday": "8:00 AM–5:00 PM",
+        "wednesday": "8:00 AM–5:00 PM",
+        "thursday": "8:00 AM–5:00 PM",
+        "friday": "8:00 AM–5:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Published showroom and office hours are Monday through Friday from 8:00 AM to 5:00 PM. Field-service and installation appointments may follow separate schedules.",
+      "at_a_glance": {
+        "average_visit": "Showroom consultation or scheduled service appointment",
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Fireplace and stove showroom",
+        "In-store shopping",
+        "Fireplace cleaning",
+        "Chimney sweeping",
+        "Fireplace inspections",
+        "Fireplace repairs",
+        "Fireplace installations",
+        "Chimney repairs",
+        "Dryer vent maintenance",
+        "Commercial chimney services",
+        "Installation services",
+        "Repair services",
+        "On-site parking"
+      ],
+      "good_to_know": [
+        "Polar Bear Chimney Sweep serves communities throughout North Texas and southern Oklahoma.",
+        "The Pottsboro location includes a showroom for fireplaces, stoves and related products.",
+        "The company services multiple types of fireplaces and stove systems.",
+        "Dryer-vent cleaning and maintenance are available in addition to fireplace and chimney services.",
+        "Commercial chimney and venting services are available.",
+        "Field-service appointments should be scheduled directly with the business."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Polar Bear Chimney Sweep is headquartered in Pottsboro, Texas."
+        },
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Polar Bear Chimney Sweep publishes a service territory that includes communities in southern Oklahoma."
+        }
+      ],
+      "verification_note": "Fully researched August 9, 2026. The current canonical TWG local-business-directory.json was checked before creation and no existing Polar Bear Chimney Sweep record was found. The company's current official website confirms active headquarters and showroom operations at 1256 Locust Rd, Pottsboro, TX 75076, phone 903-821-0445, email polarbearchimneysweep@gmail.com and Monday-Friday hours of 8:00 AM-5:00 PM. First-party information documents chimney and fireplace cleaning, inspections, repairs, fireplace and stove installations, dryer-vent services, commercial services and a Pottsboro showroom. The Pottsboro Area Chamber of Commerce independently confirms the address, phone, website, hours and service categories. Official website social links support the Facebook, Instagram and TikTok URLs included in this record.",
+      "last_checked": "2026-08-09",
+      "event_types": [
+        "Seasonal fireplace promotions",
+        "Showroom promotions",
+        "Fireplace safety promotions",
+        "Community business promotions"
+      ],
+      "event_sources": [
+        "Official Polar Bear Chimney Sweep website",
+        "Official Facebook page",
+        "Official Instagram account",
+        "Pottsboro Area Chamber of Commerce"
+      ],
+      "features": [
+        "Pottsboro fireplace showroom",
+        "Chimney and fireplace cleaning",
+        "Fireplace inspections",
+        "Chimney and fireplace repairs",
+        "Fireplace and stove installation",
+        "Dryer vent services",
+        "Commercial chimney services",
+        "Fireplace and stove sales",
+        "North Texas service area",
+        "Southern Oklahoma service area"
       ]
     }
   ]
