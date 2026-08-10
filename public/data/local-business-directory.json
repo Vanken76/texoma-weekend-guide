@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 744,
-  "publish_ready_count": 419,
+  "business_count": 745,
+  "publish_ready_count": 420,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -64344,6 +64344,36 @@
       "last_verified": "2026-08-10",
       "created_on": "2026-08-10",
       "updated_on": "2026-08-10"
+    },
+    {
+      "slug": "bar-k-r-ranch",
+      "business_name": "Bar K-R Ranch",
+      "category": "Event Venue / Ranch",
+      "city": "Pottsboro",
+      "state": "TX",
+      "address": "186 Oak Estates Rd",
+      "url": null,
+      "phone": null,
+      "facebook_url": null,
+      "instagram_url": null,
+      "description": "Bar K-R Ranch is a private ranch and special-event venue in Pottsboro near Lake Texoma. The ranch is best known locally as the longtime home of the annual Boot Scootin' Ball, the major fundraising event supporting Preston Volunteer Emergency Services.",
+      "directory_url": "/businesses/bar-k-r-ranch/",
+      "image": null,
+      "image_alt": null,
+      "source": "Boot Scootin' Ball official website and Preston Volunteer Emergency Services",
+      "publish_ready": true,
+      "status": "active",
+      "last_checked": "2026-08-10",
+      "tags": [
+        "Bar K-R Ranch",
+        "Pottsboro",
+        "Lake Texoma",
+        "Event Venue",
+        "Ranch",
+        "Boot Scootin' Ball",
+        "Special Events"
+      ],
+      "verification_status": "verified"
     }
   ]
 }
