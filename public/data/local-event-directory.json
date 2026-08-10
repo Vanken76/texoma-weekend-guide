@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 154,
-  "publish_ready_count": 147,
+  "event_count": 155,
+  "publish_ready_count": 148,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -9675,6 +9675,171 @@
           "source_url": "https://members.pottsborochamber.com/events",
           "source_type": "official chamber",
           "supports": "Independent current calendar listing of 2026 Frontier Day - Freedom On The Frontier on Saturday, September 26, 2026."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "2026-frontier-day-car-show-pottsboro-2026-09-26",
+      "event_name": "2026 Frontier Day Car Show",
+      "description": "The 2026 Pottsboro Frontier Day Car Show brings classic, custom and unique vehicles together as part of Pottsboro's annual Frontier Day celebration. Vehicle registration runs from 8:00 AM to 11:00 AM, with awards announced at 1:00 PM. Published award categories include Mayor's Choice, Club Favorite, Fan Choice, Best Paint, Best Engine and Most Unique. The car show is held at Pottsboro Elementary School while the larger Frontier Day festival takes place nearby at Friendship Park.",
+      "start_datetime": "2026-09-26T08:00:00-05:00",
+      "end_datetime": "2026-09-26T15:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "pottsboro-elementary-school"
+      ],
+      "venue_name": "Pottsboro Elementary School",
+      "address": "523 E FM 120",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "location_note": "The Pottsboro Area Chamber of Commerce event listing specifically publishes 523 E FM 120 as the location for the 2026 Frontier Day Car Show at Pottsboro Elementary School. Pottsboro ISD's official current campus record uses 525 Hwy 120 as the permanent address for Pottsboro Elementary School. TWG therefore links this event to canonical venue slug pottsboro-elementary-school while retaining the organizer-published 523 E FM 120 address for this specific event and its arrival instructions.",
+      "categories": [
+        "Car Show",
+        "Festival",
+        "Community Event",
+        "Automotive",
+        "Family Event",
+        "Frontier Day"
+      ],
+      "tags": [
+        "Frontier Day Car Show",
+        "Pottsboro Frontier Day",
+        "Frontier Day",
+        "Freedom On The Frontier",
+        "Car Show",
+        "Classic Cars",
+        "Custom Cars",
+        "Automotive",
+        "Pottsboro",
+        "Texas",
+        "Lake Texoma",
+        "Texoma",
+        "Pottsboro Elementary School",
+        "Mayor's Choice",
+        "Club Favorite",
+        "Fan Choice",
+        "Best Paint",
+        "Best Engine",
+        "Most Unique",
+        "Family Friendly"
+      ],
+      "cost_type": "varies",
+      "cost_details": "The Chamber's car-show listing publishes a $20 fee in its Fees/Admission section and provides a participant registration application. Because the larger Frontier Day festival has free general admission and the car-show page is structured around vehicle registration, TWG treats the $20 as the published vehicle participation/entry fee rather than asserting a $20 spectator admission charge.",
+      "audience": [
+        "Car enthusiasts",
+        "Classic car fans",
+        "Custom vehicle owners",
+        "Families",
+        "Frontier Day attendees",
+        "Lake Texoma visitors"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Pottsboro Area Chamber of Commerce",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/2026-frontier-day-car-show-pottsboro-2026-09-26.png",
+      "image_alt": null,
+      "official_url": "https://members.pottsborochamber.com/events/details/2026-frontier-day-car-show-14647",
+      "facebook_url": null,
+      "ticket_url": null,
+      "registration_url": "https://members.pottsborochamber.com/events/register/14647",
+      "participant_application_url": "https://www.pottsborochamber.com/form/view/39656",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "schedule": [
+        {
+          "time": "8:00 AM",
+          "activity": "Car show opens and vehicle registration begins"
+        },
+        {
+          "time": "11:00 AM",
+          "activity": "Vehicle registration closes"
+        },
+        {
+          "time": "1:00 PM",
+          "activity": "Awards announced"
+        },
+        {
+          "time": "3:00 PM",
+          "activity": "Published event end time"
+        }
+      ],
+      "award_categories": [
+        "Mayor's Choice",
+        "Club Favorite",
+        "Fan Choice",
+        "Best Paint",
+        "Best Engine",
+        "Most Unique"
+      ],
+      "related_events": [
+        {
+          "event_slug": "2026-frontier-day-freedom-on-the-frontier-pottsboro-2026-09-26",
+          "event_name": "2026 Frontier Day - Freedom On The Frontier",
+          "relationship_note": "The Frontier Day Car Show is a separately registered component of Pottsboro's larger Frontier Day celebration taking place the same day at nearby Friendship Park."
+        }
+      ],
+      "good_to_know": [
+        "The Frontier Day Car Show is Saturday, September 26, 2026.",
+        "Published event hours are 8:00 AM-3:00 PM.",
+        "Vehicle registration runs from 8:00 AM-11:00 AM.",
+        "Awards are announced at 1:00 PM.",
+        "The published vehicle participation fee is $20.",
+        "The Chamber provides both online registration and a participant application.",
+        "Published awards include Mayor's Choice, Club Favorite, Fan Choice, Best Paint, Best Engine and Most Unique.",
+        "The car show is part of the broader Frontier Day celebration.",
+        "The larger Frontier Day festival begins at 9:00 AM at nearby Friendship Park.",
+        "General admission to the main Frontier Day festival is free.",
+        "The Chamber specifically publishes Pottsboro Elementary School as the car-show venue.",
+        "The Chamber's event listing uses 523 E FM 120 for the car show.",
+        "Pottsboro ISD's permanent campus record uses 525 Hwy 120 for Pottsboro Elementary School.",
+        "TWG retains 523 E FM 120 on this event because it is the event organizer's specific published location while linking the event to the canonical Pottsboro Elementary School venue record.",
+        "Visitors should follow event-day signage, parking directions and organizer instructions around the Pottsboro Elementary School and Friendship Park area."
+      ],
+      "verification_note": "Fully corrected and reverified August 10, 2026. The canonical TWG event directory did not previously contain a 2026 Frontier Day Car Show record when this event was researched. The official Pottsboro Area Chamber of Commerce event page confirms Saturday, September 26, 2026 from 8:00 AM to 3:00 PM at Pottsboro Elementary School, with the event-specific address published as 523 E FM 120, Pottsboro, TX 75076. The Chamber states that vehicle registration runs from 8:00 AM to 11:00 AM and awards are announced at 1:00 PM. Published award categories are Mayor's Choice, Club Favorite, Fan Choice, Best Paint, Best Engine and Most Unique. The Chamber publishes a $20 fee and provides both a Register Now link and an Application to Participate link. Because the main Frontier Day festival is separately confirmed as free general admission and the car-show page is structured around participant registration, TWG treats the $20 as the vehicle-entry/participation fee rather than claiming spectators must pay $20. Pottsboro Elementary School has now been added to the canonical TWG business directory under slug pottsboro-elementary-school. Pottsboro ISD's official current campus directory identifies the permanent school address as 525 Hwy 120, while the Chamber publishes 523 E FM 120 specifically for the Frontier Day Car Show. Accordingly, this event now uses venue_slug and venue_slugs pointing to pottsboro-elementary-school while retaining 523 E FM 120 as the event-specific organizer-published location. The car show is also explicitly related to the larger 2026 Frontier Day - Freedom On The Frontier event at nearby Friendship Park.",
+      "sources": [
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — 2026 Frontier Day Car Show",
+          "source_url": "https://members.pottsborochamber.com/events/details/2026-frontier-day-car-show-14647",
+          "source_type": "official chamber",
+          "supports": "September 26 date, 8:00 AM-3:00 PM event hours, Pottsboro Elementary School venue, 523 E FM 120 event-specific address, registration hours, 1:00 PM awards, $20 published fee and award categories."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Car Show Registration",
+          "source_url": "https://members.pottsborochamber.com/events/register/14647",
+          "source_type": "official chamber registration",
+          "supports": "Current registration pathway for the 2026 Frontier Day Car Show."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Car Show Participant Application",
+          "source_url": "https://www.pottsborochamber.com/form/view/39656",
+          "source_type": "official chamber registration",
+          "supports": "Participant application linked directly from the official car-show event page."
+        },
+        {
+          "source_name": "Pottsboro ISD — Campus Contact",
+          "source_url": "https://www.pottsboroisd.org/campus-contact",
+          "source_type": "official",
+          "supports": "Canonical Pottsboro Elementary School identity and permanent campus address at 525 Hwy 120, documenting why the school record and event-specific address differ."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — 2026 Frontier Day: Freedom On The Frontier",
+          "source_url": "https://www.pottsborochamber.com/events/details/2026-frontier-day-freedom-on-the-frontier-14646",
+          "source_type": "official chamber",
+          "supports": "Relationship to the larger Frontier Day festival, Friendship Park venue and free general admission for the main celebration."
         }
       ],
       "last_checked": "2026-08-10",
