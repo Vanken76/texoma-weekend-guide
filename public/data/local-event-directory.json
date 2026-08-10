@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 147,
-  "publish_ready_count": 140,
+  "event_count": 148,
+  "publish_ready_count": 141,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -8836,6 +8836,103 @@
         {
           "source_name": "Pottsboro Area Chamber of Commerce — Events Calendar",
           "source_url": "https://www.pottsborochamber.com/events",
+          "source_type": "official chamber",
+          "supports": "Three-part Fall Gardening Series structure: Seed Saving on August 18, Vegetable Gardening on August 23 and Canning Basics on September 8."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "fall-gardening-series-3-canning-basics-pottsboro-2026-09-08",
+      "event_name": "Fall Gardening Series: #3 Canning Basics",
+      "description": "The Pottsboro Area Public Library concludes its three-part Fall Gardening Series with Canning Basics, an educational session focused on safely preserving fresh garden harvests. Participants will learn basic home-canning techniques for turning fresh produce into delicious, shelf-stable foods. Advance signup is requested so organizers know how many people are attending.",
+      "start_datetime": "2026-09-08T17:30:00-05:00",
+      "end_datetime": "2026-09-08T18:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "pottsboro-area-public-library"
+      ],
+      "venue_name": "Pottsboro Area Public Library",
+      "address": "104 N Main St",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Food Preservation",
+        "Canning",
+        "Gardening",
+        "Continuing Education",
+        "Library Event",
+        "Community Event",
+        "Workshop"
+      ],
+      "tags": [
+        "Fall Gardening Series",
+        "Canning Basics",
+        "Home Canning",
+        "Food Preservation",
+        "Safe Canning",
+        "Shelf-Stable Foods",
+        "Garden Harvest",
+        "Fresh Produce",
+        "Gardening",
+        "Home Gardening",
+        "Pottsboro",
+        "Pottsboro Area Public Library",
+        "Continuing Education",
+        "Community Workshop"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No participation fee was published. Advance signup is requested so organizers know how many attendees are coming.",
+      "audience": [
+        "Gardeners",
+        "Home gardeners",
+        "Home cooks",
+        "People interested in food preservation",
+        "Beginning home canners"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "pottsboro-area-public-library",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/fall-gardening-series-3-canning-basics-pottsboro-2026-09-08.png",
+      "image_alt": null,
+      "official_url": "https://members.pottsborochamber.com/events/details/fall-gardening-series-3-canning-basics-14681",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "series_name": "Fall Gardening Series",
+      "series_number": 3,
+      "series_total": 3,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contained 146 events and 139 publish-ready records. Searches for 'Canning Basics' found only references to Session #3 inside the already-added Session #1 series documentation and did not find a separate Session #3 event record, so this is a new canonical event rather than a duplicate. The official Pottsboro Area Chamber of Commerce event page confirms Tuesday, September 8, 2026 from 5:30 PM to 6:30 PM CDT at Pottsboro Library, 104 N Main, Pottsboro, Texas 75076. The Chamber description states that participants will learn safe home-canning techniques for turning fresh harvests into shelf-stable foods and asks attendees to sign up so organizers know how many are coming. The Pottsboro Area Public Library's current catalog independently confirms the September 8 date, 5:30-6:30 PM schedule and matching canning description. The event is the third and final installment in the three-part Fall Gardening Series, following Seed Saving on August 18 and Vegetable Gardening on August 23. Because each installment has its own topic and date, TWG keeps each as a separate event record. No admission price, age restriction, named instructor or dedicated event-specific registration URL was published, so those details are not invented.",
+      "sources": [
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Fall Gardening Series #3: Canning Basics",
+          "source_url": "https://members.pottsborochamber.com/events/details/fall-gardening-series-3-canning-basics-14681",
+          "source_type": "official chamber",
+          "supports": "Event title, September 8 date, 5:30-6:30 PM time, Pottsboro Library location, 104 N Main address, safe home-canning topic and signup request."
+        },
+        {
+          "source_name": "Pottsboro Area Public Library — Current Catalog",
+          "source_url": "https://pottsboro.biblionix.com/catalog/",
+          "source_type": "official venue",
+          "supports": "Independent first-party confirmation of the September 8 date, 5:30-6:30 PM schedule, home-canning topic and signup request."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Events Calendar",
+          "source_url": "https://members.pottsborochamber.com/events",
           "source_type": "official chamber",
           "supports": "Three-part Fall Gardening Series structure: Seed Saving on August 18, Vegetable Gardening on August 23 and Canning Basics on September 8."
         }
