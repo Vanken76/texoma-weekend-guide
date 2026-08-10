@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 731,
-  "publish_ready_count": 401,
+  "business_count": 732,
+  "publish_ready_count": 402,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -59759,6 +59759,200 @@
         "Services for adults, teens and children",
         "Accessible facility"
       ]
+    },
+    {
+      "slug": "rocking-a-ranch-pottsboro",
+      "business_name": "Rocking A Ranch",
+      "alternate_names": [
+        "Cowboy Andy's Rocking A Ranch",
+        "Rockin A Ranch",
+        "Rockin A Ranch at Tanglewood"
+      ],
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "336 Tanglewood Blvd, Pottsboro, TX 75076 — horseback trail-riding operation in the Tanglewood/Lake Texoma area",
+      "category": [
+        "Horseback Riding",
+        "Trail Rides",
+        "Outdoor Recreation",
+        "Family Attraction"
+      ],
+      "tags": [
+        "Rocking A Ranch",
+        "Cowboy Andy",
+        "Rockin A Ranch",
+        "Tanglewood",
+        "Pottsboro",
+        "Lake Texoma",
+        "Texas",
+        "Grayson County",
+        "Horseback Riding",
+        "Trail Riding",
+        "Horse Riding",
+        "Outdoor Adventure",
+        "Family Friendly",
+        "Group Activities",
+        "Riding Lessons"
+      ],
+      "description": "Rocking A Ranch is a horseback-riding operation in the Tanglewood area of Pottsboro near Lake Texoma. Commonly associated with Cowboy Andy and also listed regionally as Rockin A Ranch at Tanglewood, the ranch offers guided horseback trail rides through the wooded Tanglewood-area countryside. Regional tourism sources also document riding lessons and accommodations for both small and larger groups, making the ranch an outdoor recreation option for couples, families and groups visiting the Lake Texoma area.",
+      "short_description": "Pottsboro horseback-riding attraction offering guided trail rides in the wooded Tanglewood and Lake Texoma area.",
+      "why_visit": "Rocking A Ranch provides a land-based outdoor adventure near Lake Texoma for visitors who want something different from boating, fishing and beach activities. Guided horseback rides offer a chance to explore the wooded Tanglewood-area landscape while remaining close to Pottsboro's resorts and lake attractions.",
+      "why_its_unique": "Horseback trail riding is relatively uncommon among Lake Texoma visitor attractions. Rocking A Ranch gives families, couples and groups a guided equestrian experience directly in the Pottsboro resort area, adding a distinctive outdoor activity to a destination better known for water recreation.",
+      "address": "336 Tanglewood Blvd",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-337-5590",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed / no current public hours listed",
+        "tuesday": "Closed / no current public hours listed",
+        "wednesday": "10:00 AM - 4:00 PM",
+        "thursday": "10:00 AM - 4:00 PM",
+        "friday": "10:00 AM - 4:00 PM",
+        "saturday": "10:00 AM - 4:00 PM",
+        "sunday": "10:00 AM - 4:00 PM"
+      },
+      "hours_note": "Current local business data lists Wednesday-Sunday 10:00 AM-4:00 PM and identifies appointments as required. Because trail rides can be affected by reservations, staffing and weather, call 903-337-5590 before making a special trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Guided horseback trail rides",
+        "Horseback riding",
+        "Group rides",
+        "Riding lessons",
+        "Wooded riding trails",
+        "Reservation-based visits",
+        "Family-friendly activity",
+        "Wheelchair-accessible entrance"
+      ],
+      "good_to_know": [
+        "Rocking A Ranch is located at 336 Tanglewood Blvd in Pottsboro.",
+        "The current phone number is 903-337-5590.",
+        "The operation is variously identified online as Rocking A Ranch, Rockin A Ranch, Rockin A Ranch at Tanglewood and Cowboy Andy's Rocking A Ranch.",
+        "The Rocking A Ranch name is used by current local business data, while regional equestrian and tourism sources continue to associate the business with Cowboy Andy.",
+        "Current local business data lists Wednesday through Sunday from 10:00 AM to 4:00 PM.",
+        "Appointments are currently identified as required, so visitors should call before arriving.",
+        "Regional tourism information documents guided trail rides for both small and larger groups.",
+        "Riding lessons have also been advertised by regional tourism sources.",
+        "Tanglewood Resort's current website continues to promote horseback riding along hidden trails as a Lake Texoma getaway activity.",
+        "The ranch should be treated as a separate business associated geographically with Tanglewood rather than assumed to be owned or operated by Tanglewood Resort.",
+        "Older regional information published specific ride prices, but no dependable current 2026 first-party rate sheet was located. TWG should not publish those older prices as current.",
+        "Older tourism material also promotes Halloween hayrides, but no verified 2026 Halloween schedule was located during this research pass.",
+        "Weather can affect horseback trail-riding availability.",
+        "Visitors should confirm current age, rider-weight, footwear and other participation requirements directly when reserving because dependable current policies were not published online."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [
+        {
+          "slug": "tanglewood-resort-on-lake-texoma",
+          "business_name": "Tanglewood Resort on Lake Texoma",
+          "relationship_note": "Rocking A Ranch operates in the Tanglewood area and has long been promoted regionally as Rockin A Ranch at Tanglewood. Tanglewood Resort's current website continues to promote horseback riding along hidden trails. No ownership relationship between the ranch and resort was independently verified, so TWG should link them as related nearby operations rather than parent and child."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "lake-texoma",
+          "name": "Lake Texoma",
+          "entity_type": "region",
+          "relationship_note": "Rocking A Ranch is a Pottsboro-area outdoor attraction serving visitors to the Texas side of Lake Texoma."
+        },
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Rocking A Ranch is located in Pottsboro, Texas."
+        }
+      ],
+      "related_events": [],
+      "event_types": [
+        "Group horseback rides",
+        "Private group outings",
+        "Riding activities",
+        "Seasonal ranch activities"
+      ],
+      "event_sources": [
+        "Current local business profile",
+        "Tanglewood Resort official website",
+        "Texoma Connect",
+        "Regional Lake Texoma tourism sources"
+      ],
+      "features": [
+        "Guided horseback trail rides",
+        "Lake Texoma-area equestrian attraction",
+        "Tanglewood-area wooded trails",
+        "Family-friendly outdoor recreation",
+        "Small and large group rides",
+        "Riding lessons",
+        "Appointment-based operation"
+      ],
+      "source_verified": true,
+      "verification_note": "Researched August 10, 2026 after fresh-fetching the canonical public/data/local-business-directory.json and confirming no existing Rocking A Ranch, Rockin A Ranch or Cowboy Andy business record. Current local business data identifies Rocking A Ranch as active at 336 Tanglewood Blvd, Pottsboro, TX 75076, phone 903-337-5590, with horseback riding, appointment-required service, family-friendly positioning, wheelchair-accessible entrance and current Wednesday-Sunday 10:00 AM-4:00 PM hours. Current equestrian-directory data independently identifies Cowboy Andy's Rocking A Ranch at the same address and phone as a horseback-riding and trail-ride provider. Texoma Connect currently lists Rockin A Ranch at Tanglewood at the same phone number and documents horseback riding, lessons and group activities. Tanglewood Resort's current first-party website independently promotes horseback riding along hidden trails as an activity available in the resort/Lake Texoma area, supporting the operation's continuing relevance. Current 2026 vacation-rental materials in the Tanglewood area also continue to identify Rockin A Ranch horseback riding as a nearby attraction. Older regional tourism material publishes ride pricing and Halloween hayrides, but no dependable current first-party 2026 prices, rider requirements or seasonal-hayride schedule were found, so TWG intentionally does not represent those details as current. No official standalone website, verified social account or email address was located, and no ownership relationship with Tanglewood Resort was established.",
+      "sources": [
+        {
+          "source_name": "Current Local Business Profile — Rocking A Ranch",
+          "source_type": "current business listing",
+          "supports": "Current active status, 336 Tanglewood Blvd address, 903-337-5590 phone, hours, appointment requirement, family-friendly status and accessibility."
+        },
+        {
+          "source_name": "Tanglewood Resort — Official Website",
+          "source_url": "https://www.tanglewoodresort.com/",
+          "source_type": "official",
+          "supports": "Current promotion of horseback riding along hidden trails in the Tanglewood/Lake Texoma area."
+        },
+        {
+          "source_name": "Mad Barn Equine Directory — Cowboy Andy's Rocking A Ranch",
+          "source_url": "https://madbarn.com/directory/cowboy-andys-rocking-a-ranch/",
+          "source_type": "specialty directory",
+          "supports": "Cowboy Andy identity, trail-riding classification, current address and phone."
+        },
+        {
+          "source_name": "Texoma Connect — Rockin A Ranch at Tanglewood",
+          "source_url": "https://texomaconnect.com/lake-texoma-travel-guide/rockin-a-ranch-at-tanglewood/",
+          "source_type": "regional tourism directory",
+          "supports": "Tanglewood association, horseback riding, riding lessons, group activities and phone number."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
     }
   ]
 }
