@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 695,
-  "publish_ready_count": 361,
+  "business_count": 696,
+  "publish_ready_count": 362,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -51042,6 +51042,149 @@
       ],
       "last_checked": "2026-08-09",
       "last_verified": "2026-08-09"
+    },
+    {
+      "slug": "anchor-up-club-and-grill",
+      "business_name": "Anchor Up Club & Grill",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "576 Highport Rd, Pottsboro, TX 75076",
+      "category": [
+        "Bar & Grill",
+        "Bar",
+        "Live Music Venue"
+      ],
+      "tags": [
+        "Pottsboro",
+        "Lake Texoma",
+        "Preston Peninsula",
+        "Bar & Grill",
+        "Dive Bar",
+        "Full Bar",
+        "Live Music",
+        "Pool Tables",
+        "Shuffleboard",
+        "Jukebox",
+        "Outdoor Seating",
+        "Late Night",
+        "Burgers",
+        "Pork Chops",
+        "Daily Specials"
+      ],
+      "description": "Anchor Up Club & Grill is a longtime neighborhood bar and grill on the Preston Peninsula in Pottsboro, close to Highport Marina and other Lake Texoma destinations. The casual late-night spot serves bar food and drinks in a classic local dive-bar atmosphere with pool tables, shuffleboard, a jukebox, outdoor seating and occasional live music. Regular food specials include tacos, burger baskets, wings and fries, and pork chops. Anchor Up is a private-club-style establishment where membership is required, and smoking is permitted inside.",
+      "why_visit": "Anchor Up is a distinctly local Lake Texoma-area hangout for visitors looking for a casual drink, inexpensive bar food, pool, music and a late-night option after a day on the lake. Its 2:00 AM closing time also makes it one of the area's useful nighttime gathering spots.",
+      "why_its_unique": "Anchor Up retains the feel of an old-school neighborhood lake bar rather than a polished resort venue. Its combination of late hours, bar food, pool tables, shuffleboard, jukebox, occasional live music and proximity to Highport Marina gives it a strong Preston Peninsula identity.",
+      "phone": "903-786-6144",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/anchor.up.3",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": false,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "4:00 PM - 2:00 AM",
+        "tuesday": "4:00 PM - 2:00 AM",
+        "wednesday": "4:00 PM - 2:00 AM",
+        "thursday": "4:00 PM - 2:00 AM",
+        "friday": "4:00 PM - 2:00 AM",
+        "saturday": "4:00 PM - 2:00 AM",
+        "sunday": "4:00 PM - 2:00 AM"
+      },
+      "hours_note": "Bar hours are currently listed as 4:00 PM to 2:00 AM daily. Texoma Connect lists kitchen service Tuesday through Saturday from 4:00 PM to 10:00 PM. Holiday, event and kitchen hours may vary.",
+      "at_a_glance": {
+        "average_visit": "1-3 hours",
+        "price_range": "$",
+        "family_friendly": false,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full bar",
+        "Bar food",
+        "Pool tables",
+        "Shuffleboard",
+        "Jukebox",
+        "Outdoor seating",
+        "Takeout",
+        "Free parking"
+      ],
+      "good_to_know": [
+        "Membership is required to enter or drink at the club.",
+        "Smoking is permitted inside the establishment.",
+        "The bar is currently listed as open until 2:00 AM seven days a week.",
+        "Kitchen hours are more limited than bar hours and are currently listed as Tuesday through Saturday from 4:00 PM to 10:00 PM.",
+        "Anchor Up is located on the Preston Peninsula near Highport Marina."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        {
+          "slug": "highport-marina",
+          "business_name": "Highport Marina",
+          "relationship_note": "Anchor Up Club & Grill is located near Highport Marina on the Preston Peninsula and is a nearby nightlife and dining option for lake visitors."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "lake-texoma",
+          "name": "Lake Texoma",
+          "entity_type": "region",
+          "relationship_note": "Anchor Up Club & Grill serves the Preston Peninsula and Lake Texoma visitor area."
+        },
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Anchor Up Club & Grill is located in Pottsboro, Texas."
+        }
+      ],
+      "verification_note": "Complete. Verified August 9, 2026 using current Texoma Connect, Restaurantji and current local-business information. Address and phone are consistent across current sources. Multiple current sources agree on 4:00 PM to 2:00 AM daily bar hours. Texoma Connect lists kitchen hours as Tuesday through Saturday from 4:00 PM to 10:00 PM and documents recurring food specials and occasional live music. Current visitor information consistently describes Anchor Up as a smoking establishment requiring membership. Current listings support a full bar, pool tables, shuffleboard, jukebox and outdoor seating. The Facebook URL is the page linked directly by the current Texoma Connect listing. Monitor Facebook and regional event listings for live music and special-event announcements.",
+      "last_checked": "2026-08-09",
+      "event_types": [
+        "Live music",
+        "Food specials",
+        "Bar events",
+        "Community gatherings"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Texoma Connect",
+        "Current local business updates"
+      ],
+      "features": [
+        "Neighborhood lake bar",
+        "Late-night hours",
+        "Full bar",
+        "Bar food",
+        "Pool tables",
+        "Shuffleboard",
+        "Jukebox",
+        "Outdoor seating",
+        "Live music",
+        "Recurring food specials"
+      ]
     }
   ]
 }
