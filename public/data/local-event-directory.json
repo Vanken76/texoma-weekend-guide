@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 148,
-  "publish_ready_count": 141,
+  "event_count": 149,
+  "publish_ready_count": 142,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -8935,6 +8935,118 @@
           "source_url": "https://members.pottsborochamber.com/events",
           "source_type": "official chamber",
           "supports": "Three-part Fall Gardening Series structure: Seed Saving on August 18, Vegetable Gardening on August 23 and Canning Basics on September 8."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "free-homecoming-mum-event-pottsboro-2026-08-22",
+      "event_name": "Free Homecoming Mum Event",
+      "description": "The Pottsboro Area Public Library hosts a free homecoming mum-making event where kids and teens can create their own custom mum using provided supplies in Cardinal colors. Participants can personalize their designs with ribbons, flowers, bells, charms, trinkets and themed decorations while celebrating the Texas homecoming tradition. The event is divided into two age sessions: ages 8-11 from 10:00 AM to 11:30 AM, with a parent required to accompany the student, and ages 12 and older from 12:00 PM to 1:30 PM. Advance signup is required for both sessions.",
+      "start_datetime": "2026-08-22T10:00:00-05:00",
+      "end_datetime": "2026-08-22T13:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "pottsboro-area-public-library"
+      ],
+      "venue_name": "Pottsboro Area Public Library",
+      "address": "104 N Main St",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Arts & Crafts",
+        "Youth Event",
+        "Teen Event",
+        "Library Event",
+        "Back to School",
+        "Community Event"
+      ],
+      "tags": [
+        "Homecoming Mum",
+        "Homecoming Glam and Mum Event",
+        "Homecoming",
+        "Texas Homecoming Tradition",
+        "Arts and Crafts",
+        "Crafting",
+        "School Spirit",
+        "Cardinal Colors",
+        "Ribbons",
+        "Flowers",
+        "Bells",
+        "Charms",
+        "Kids",
+        "Teens",
+        "Pottsboro",
+        "Pottsboro Area Public Library",
+        "Free Event",
+        "Signup Required"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free event. Supplies are provided. Advance signup is required for both age sessions.",
+      "audience": [
+        "Kids ages 8-11",
+        "Teens ages 12 and older",
+        "Pottsboro students",
+        "Families"
+      ],
+      "age_restriction": "Two sessions: ages 8-11 from 10:00 AM-11:30 AM; a parent must accompany the student. Ages 12 and older attend from 12:00 PM-1:30 PM.",
+      "host_business_slug": "pottsboro-area-public-library",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/free-homecoming-mum-event-pottsboro-2026-08-22.png",
+      "image_alt": null,
+      "official_url": "https://members.pottsborochamber.com/events/details/free-homecoming-mum-event-08-22-2026-14682",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "session_details": [
+        {
+          "session_name": "Kids Homecoming Mum Session",
+          "start_time": "10:00 AM",
+          "end_time": "11:30 AM",
+          "audience": "Ages 8-11",
+          "requirements": "A parent must accompany the student. Advance signup required."
+        },
+        {
+          "session_name": "Teen Homecoming Mum Session",
+          "start_time": "12:00 PM",
+          "end_time": "1:30 PM",
+          "audience": "Ages 12 and older",
+          "requirements": "Advance signup required."
+        }
+      ],
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contained 148 events and 141 publish-ready records. Exact duplicate checks for both 'Free Homecoming Mum Event' and the Pottsboro Area Public Library's alternate title 'Homecoming Glam and Mum Event' returned no existing event record, so this is a new canonical event. The official Pottsboro Area Chamber of Commerce event page confirms Saturday, August 22, 2026 from 10:00 AM to 1:30 PM CDT and describes a free custom homecoming mum-making event with ribbons, flowers, bells, charms, trinkets and themed decorations in Cardinal colors. The Chamber divides participation into ages 8-11 from 10:00 AM-11:30 AM, with a parent required to accompany the student, and ages 12 and older from 12:00 PM-1:30 PM; signup is required for both sessions. The Pottsboro Area Public Library's own current catalog independently lists the same event as 'Homecoming Glam and Mum Event' and independently confirms both August 22 sessions, their times, age groups, parent requirement, supplied mum-making materials and signup requirement. Because the Chamber presents the activities as one Free Homecoming Mum Event while the library publishes two age-specific sessions under one program concept, TWG uses one event record with explicit session_details rather than creating two near-duplicate events. The venue is linked to the existing canonical Pottsboro Area Public Library business record at 104 N Main St. No dedicated event-specific signup URL or attendee capacity was published, so those details are not invented.",
+      "sources": [
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Free Homecoming Mum Event",
+          "source_url": "https://members.pottsborochamber.com/events/details/free-homecoming-mum-event-08-22-2026-14682",
+          "source_type": "official chamber",
+          "supports": "Event title, August 22 date, overall 10:00 AM-1:30 PM schedule, free-event identity, provided crafting supplies, age-specific sessions, parent requirement and mandatory signup."
+        },
+        {
+          "source_name": "Pottsboro Area Public Library — Current Catalog",
+          "source_url": "https://pottsboro.biblionix.com/catalog/?signup=1",
+          "source_type": "official venue",
+          "supports": "First-party confirmation of the Homecoming Glam and Mum Event, both August 22 sessions, session times, age groups, parent requirement, Cardinal-color crafting supplies and signup requirement."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Events Calendar",
+          "source_url": "https://members.pottsborochamber.com/events",
+          "source_type": "official chamber",
+          "supports": "Independent calendar listing of the Free Homecoming Mum Event on Saturday, August 22, 2026."
         }
       ],
       "last_checked": "2026-08-10",
