@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 164,
-  "publish_ready_count": 164,
+  "event_count": 165,
+  "publish_ready_count": 165,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -11022,6 +11022,108 @@
           "source_url": "https://allevents.in/pottsboro/380-acoustics-the-island-grand-opening/200029520611706",
           "source_type": "performer event listing",
           "supports": "Establishes 380 Acoustics as a returning performer at The Island during the 2026 season."
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "penny-and-the-flamethrowers-at-the-island-2026-09-18",
+      "event_name": "Penny and the Flamethrowers at The Island",
+      "description": "Penny and the Flamethrowers return to The Island Bar & Grill Lake Texoma for a Friday night of high-energy rockabilly at Highport Marina. The North Texas band brings a vintage-inspired mix rooted in early rock & roll, rockabilly and classic sounds for a free waterfront performance beginning at 7:00 PM.",
+      "start_datetime": "2026-09-18T19:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-island-bar-and-grill-lake-texoma"
+      ],
+      "venue_name": "The Island Bar & Grill Lake Texoma",
+      "host_business_slug": "the-island-bar-and-grill-lake-texoma",
+      "organizer_name": null,
+      "address": "121 Texoma Harbor Dr",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75077",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Rockabilly",
+        "Entertainment",
+        "Lake Texoma Event",
+        "Nightlife"
+      ],
+      "tags": [
+        "Penny and the Flamethrowers",
+        "Penny Ruffles",
+        "Rockabilly",
+        "Rock and Roll",
+        "Live Music",
+        "The Island Bar & Grill",
+        "Highport Marina",
+        "Lake Texoma",
+        "Pottsboro",
+        "Friday Night"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free admission.",
+      "audience": [
+        "Live music fans",
+        "Rockabilly fans",
+        "Lake Texoma visitors",
+        "Local residents"
+      ],
+      "age_restriction": null,
+      "performers": [
+        {
+          "name": "Penny and the Flamethrowers",
+          "role": "Musical performer"
+        }
+      ],
+      "image_url": "/images/events/penny-and-the-flamethrowers-at-the-island-2026-09-18.png",
+      "image_alt": null,
+      "official_url": "https://pennyruffles.com/",
+      "facebook_url": "https://www.facebook.com/TexomaIslandBarAndGrill",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The performance is Friday, September 18, 2026.",
+        "Music begins at 7:00 PM.",
+        "Admission is free.",
+        "The event takes place at The Island Bar & Grill Lake Texoma inside Highport Marina.",
+        "Penny and the Flamethrowers performs rockabilly music inspired by the roots of rock & roll.",
+        "No official ending time is published, so TWG leaves end_datetime null.",
+        "No event-specific age restriction or ticket requirement is currently published."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contains 164 events and 164 publish-ready records. An exact canonical search for Penny and the Flamethrowers returned no existing event record, so this is a new event rather than a duplicate. Texoma Connect lists Penny and the Flamethrowers at The Island on Friday, September 18, 2026 at 7:00 PM at Island Bar and Grill inside Highport Marina, 121 Texoma Harbor Dr, Pottsboro, TX 75077, with free admission. Texoma Connect describes the event as a rockabilly night featuring rockabilly, roots and classic sounds. Penny Ruffles' official website independently identifies Penny and the Flamethrowers as a rockabilly band inspired by the origins of rock & roll. The existing canonical TWG venue relationship is The Island Bar & Grill Lake Texoma under slug the-island-bar-and-grill-lake-texoma. No ending time, event-specific age restriction or ticket requirement is published, so those details are not invented.",
+      "sources": [
+        {
+          "source_name": "Texoma Connect — Penny and the Flamethrowers at The Island",
+          "source_url": "https://texomaconnect.com/event/penny-and-the-flamethrowers-at-the-island/",
+          "source_type": "regional event calendar",
+          "supports": "September 18, 2026 date, 7:00 PM start, free admission, Island Bar and Grill venue, Highport Marina location, address and rockabilly event description."
+        },
+        {
+          "source_name": "Texoma Connect — Island Bar and Grill, Highport Marina",
+          "source_url": "https://texomaconnect.com/venue/island-bar-and-grill-highport-marina/",
+          "source_type": "regional venue calendar",
+          "supports": "Independent venue-calendar confirmation of the September 18 event, 7:00 PM start and free admission."
+        },
+        {
+          "source_name": "Penny Ruffles — Official Website",
+          "source_url": "https://pennyruffles.com/",
+          "source_type": "official performer",
+          "supports": "Official performer identity and description of Penny and the Flamethrowers as rockabilly music inspired by the origins of rock & roll."
         }
       ],
       "partner_business_slugs": [],
