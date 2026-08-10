@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 693,
-  "publish_ready_count": 359,
+  "business_count": 694,
+  "publish_ready_count": 360,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -50676,6 +50676,187 @@
           "source_url": "https://www.bcabbq.org/Blanchard2024Results.htm",
           "source_type": "competition_results",
           "supports": "Independent regional competition record for Brian Thompson of Blue Hammer Smokers."
+        }
+      ],
+      "last_checked": "2026-08-09",
+      "last_verified": "2026-08-09"
+    },
+    {
+      "slug": "spa-renity-spa-salon",
+      "business_name": "Spa-Renity Spa & Salon",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "318 W FM 120, Pottsboro, TX 75076",
+      "category": [
+        "Day Spa",
+        "Massage Therapy",
+        "Facial Spa",
+        "Hair Salon",
+        "Waxing",
+        "Beauty & Wellness"
+      ],
+      "tags": [
+        "Spa-Renity Spa & Salon",
+        "Pottsboro",
+        "Lake Texoma",
+        "Texas",
+        "Grayson County",
+        "Day Spa",
+        "Massage",
+        "Facials",
+        "Hot Stone Massage",
+        "Hydrofacial",
+        "Microdermabrasion",
+        "Body Wraps",
+        "Waxing",
+        "Hair Salon",
+        "Couples Spa",
+        "Spa Packages",
+        "Wellness",
+        "Gift Certificates"
+      ],
+      "description": "Spa-Renity Spa & Salon is a full-service day spa in Pottsboro near Lake Texoma offering massage therapy, customized facials, hydrofacial treatments, microdermabrasion, infrared body mud wraps, body scrubs, waxing and hair salon services for men and women. The spa also offers couples treatments, multi-service day-spa packages, maternity-focused services, gift certificates and a monthly membership program. Its Pottsboro location is convenient to Lake Texoma resorts and marinas, making it useful both for local residents and visitors planning a relaxing addition to a lake getaway.",
+      "short_description": "Pottsboro day spa near Lake Texoma offering massage, facials, hydrofacials, body treatments, waxing, hair services and couples spa packages.",
+      "why_visit": "Spa-Renity offers everything from individual massage or facial appointments to multi-hour spa packages, making it useful for a quick wellness appointment, couples experience or a dedicated relaxation day during a Lake Texoma getaway.",
+      "why_its_unique": "The spa combines massage, advanced facial treatments, body wraps and scrubs, waxing and a full hair salon in one Pottsboro location, with several structured couples and multi-service packages lasting from about an hour to five hours or more.",
+      "address": "318 W FM 120",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-271-9211",
+      "email": "RelaxAtSpaRenity@gmail.com",
+      "website": "https://www.spa-renity.com/",
+      "facebook": null,
+      "instagram": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Spa-Renity+Spa+%26+Salon+318+W+FM+120+Pottsboro+TX+75076",
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "10:00 AM–5:00 PM",
+        "wednesday": "10:00 AM–5:00 PM",
+        "thursday": "10:00 AM–5:00 PM",
+        "friday": "10:00 AM–5:00 PM",
+        "saturday": "9:00 AM–4:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Hours are currently published directly by Spa-Renity on its official website. Appointment availability may differ from general business hours, and advance booking is recommended for spa packages and couples services.",
+      "average_visit": "Approximately 25 minutes to 5+ hours depending on the individual service or spa package",
+      "price_range": "$$",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "food_available": false,
+      "full_bar": false,
+      "live_music": false,
+      "karaoke": false,
+      "outdoor_seating": false,
+      "wheelchair_accessible": null,
+      "at_a_glance": {
+        "average_visit": "Approximately 25 minutes to 5+ hours depending on the individual service or spa package",
+        "price_range": "$$",
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null
+      },
+      "amenities": [
+        "Appointment requests",
+        "Couples spa packages",
+        "Gift certificates",
+        "Monthly membership program",
+        "Robes and slippers for qualifying multi-service visits",
+        "Email list for specials and offers"
+      ],
+      "features": [
+        "Swedish massage",
+        "Hot stone massage",
+        "Rejuvenating massage",
+        "Tension Tamer massage",
+        "Aromatherapy massage",
+        "Maternity massage",
+        "Customized facials",
+        "Hydrofacial treatments",
+        "Microdermabrasion",
+        "Infrared body mud wraps",
+        "Body scrubs",
+        "Waxing",
+        "Eyebrow waxing",
+        "Eyebrow tinting",
+        "Hair cuts",
+        "Hair coloring",
+        "Shampoo and styling",
+        "Couples treatments",
+        "Multi-service spa packages"
+      ],
+      "payment_methods": [],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "event_types": [
+        "Seasonal spa specials",
+        "Holiday gift promotions",
+        "Couples promotions",
+        "Special package offers"
+      ],
+      "event_sources": [
+        "Official Spa-Renity website",
+        "Spa-Renity email offers",
+        "Pottsboro Area Chamber of Commerce"
+      ],
+      "parent_business": null,
+      "child_businesses": [],
+      "related_businesses": [
+        {
+          "slug": "lake-texoma",
+          "business_name": "Lake Texoma",
+          "relationship_note": "Spa-Renity is located in Pottsboro near Lake Texoma and explicitly markets its location as convenient to area resorts and marinas."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Spa-Renity Spa & Salon is located in Pottsboro, Texas."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Fully researched August 9, 2026. The current canonical TWG local-business-directory.json was checked by exact business name before creation and no existing Spa-Renity Spa & Salon record was found. Spa-Renity's current official website confirms active operation at 318 W FM 120, Pottsboro, TX 75076, phone 903-271-9211, email RelaxAtSpaRenity@gmail.com and published hours of Tuesday-Friday 10:00 AM-5:00 PM and Saturday 9:00 AM-4:00 PM, with Sunday and Monday closed. The official website explicitly describes the spa as conveniently located near Lake Texoma and close to local resorts and marinas. Current first-party service pages document massage therapy, customized facial treatments, hydrofacials, microdermabrasion, infrared body mud wraps, scrubs, waxing and hair salon services for men and women. Current spa packages include individual and couples options ranging from shorter treatments to approximately five-hour spa experiences. The Pottsboro Area Chamber of Commerce independently confirms the address, phone, massage, facials, microdermabrasion, waxing, hair cuts and color services and a monthly membership program. No dependable current Facebook or Instagram account was identified during research, so those fields are intentionally left null rather than guessed.",
+      "sources": [
+        {
+          "source_name": "Spa-Renity Spa & Salon",
+          "source_url": "https://www.spa-renity.com/",
+          "source_type": "official",
+          "supports": "Current operation, Lake Texoma positioning, Pottsboro address, phone, email and official weekly hours."
+        },
+        {
+          "source_name": "Spa-Renity Day Spa Packages",
+          "source_url": "https://www.spa-renity.com/day-spa-packages",
+          "source_type": "official",
+          "supports": "Spa packages, couples packages, massage types, facials, hydrofacials, microdermabrasion, infrared body wraps, scrubs, service durations and current package pricing."
+        },
+        {
+          "source_name": "Spa-Renity Spa Service List",
+          "source_url": "https://www.myplacetorelax.com/spa-service-list",
+          "source_type": "official_legacy_domain",
+          "supports": "Massage therapy, facial treatments, mud wraps and scrubs, waxing and hair salon service categories."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce",
+          "source_url": "https://www.pottsborochamber.com/list/member/spa-renity-spa-salon-3945",
+          "source_type": "local_authoritative",
+          "supports": "Independent confirmation of active Pottsboro business identity, address, phone, spa services, hair services and monthly membership program."
         }
       ],
       "last_checked": "2026-08-09",
