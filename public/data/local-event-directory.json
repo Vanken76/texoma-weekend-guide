@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 168,
-  "publish_ready_count": 168,
+  "event_count": 169,
+  "publish_ready_count": 169,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -11432,6 +11432,118 @@
       ],
       "partner_business_slugs": [],
       "partner_names": [],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "2026-boot-scootin-ball-pottsboro-2026-10-24",
+      "event_name": "2026 Boot Scootin' Ball",
+      "description": "Boot Scootin' Ball returns to Bar K-R Ranch in Pottsboro for its 26th year supporting Preston Volunteer Emergency Services. The annual fundraiser features dinner, wine, beer, margaritas, BYOB, dancing, live music from The Diamond West Band, live and silent auctions, prize opportunities and a full evening of Texoma community fundraising.",
+      "start_datetime": "2026-10-24T18:00:00-05:00",
+      "end_datetime": "2026-10-24T23:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "bar-k-r-ranch"
+      ],
+      "venue_name": "Bar K-R Ranch",
+      "host_business_slug": "bar-k-r-ranch",
+      "organizer_name": "Boot Scootin' Ball",
+      "address": "186 Oak Estates Rd",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Fundraiser",
+        "Community Event",
+        "Live Music",
+        "Food & Drink",
+        "Lake Texoma Event"
+      ],
+      "tags": [
+        "Boot Scootin' Ball",
+        "Preston Volunteer Emergency Services",
+        "PVES",
+        "Bar K-R Ranch",
+        "The Diamond West Band",
+        "Live Music",
+        "Fundraiser",
+        "Live Auction",
+        "Silent Auction",
+        "Dinner",
+        "Dancing",
+        "Pottsboro",
+        "Lake Texoma"
+      ],
+      "cost_type": "paid",
+      "cost_details": "The official registration site currently states that the venue has reached maximum guest capacity. Sponsorship and donation opportunities that do not include additional guests remain available.",
+      "audience": [
+        "Community supporters",
+        "PVES supporters",
+        "Fundraiser attendees",
+        "Live music fans",
+        "Lake Texoma residents"
+      ],
+      "age_restriction": null,
+      "performers": [
+        {
+          "name": "The Diamond West Band",
+          "role": "Musical performer"
+        }
+      ],
+      "image_url": "/images/events/2026-boot-scootin-ball-pottsboro-2026-10-24.png",
+      "image_alt": null,
+      "official_url": "https://www.bootscootinball.com/",
+      "facebook_url": null,
+      "ticket_url": "https://muradbid.com/app/public/bidapp/pves/tickets/tix",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "Boot Scootin' Ball is Saturday, October 24, 2026.",
+        "The event runs from 6:00 PM to 11:00 PM.",
+        "The venue is Bar K-R Ranch at 186 Oak Estates Rd in Pottsboro.",
+        "The event benefits Preston Volunteer Emergency Services.",
+        "The Diamond West Band is the featured live-music performer.",
+        "Dinner, wine, beer and margaritas are included in the published event experience.",
+        "The event is BYOB.",
+        "Live and silent auctions are part of the event.",
+        "The official registration site currently states that the venue has reached maximum guest capacity.",
+        "Sponsorship and donation opportunities that do not add guests remain available.",
+        "No attendee age restriction is published, so TWG does not infer one."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-checking the canonical TWG event directory, which contains 168 events and 168 publish-ready records. Searches for Boot Scootin, Diamond West and October 24, 2026 found no existing canonical event record. The official Boot Scootin' Ball website confirms Saturday, October 24, 2026 from 6:00 PM to 11:00 PM at Bar K-R Ranch, 186 Oak Estates Rd, Pottsboro, TX 75076. The official event description identifies Boot Scootin' Ball as the major annual fundraiser supporting Preston Volunteer Emergency Services and lists dinner, wine, beer, margaritas, BYOB, dancing, live and silent auctions and other fundraising activities. The current official registration platform independently confirms the date, 6:00 PM-11:00 PM schedule, Bar K-R Ranch location and The Diamond West Band. It currently states that the venue has reached maximum guest capacity and that only purchases that do not include guests remain available. Preston Volunteer Emergency Services independently identifies Boot Scootin' Ball at Bar K-R Ranch as one of the community events supporting PVES. Fresh TWG business-directory and site searches found no existing Bar K-R Ranch business record, so the venue should be created first under new slug bar-k-r-ranch and this event linked to that record. No attendee age restriction is published, so none is inferred.",
+      "sources": [
+        {
+          "source_name": "Boot Scootin' Ball — Official Website",
+          "source_url": "https://www.bootscootinball.com/",
+          "source_type": "official organizer",
+          "supports": "October 24, 2026 date, 6:00 PM-11:00 PM schedule, Bar K-R Ranch venue and address, PVES fundraiser purpose, food and drink, BYOB, auctions and event activities."
+        },
+        {
+          "source_name": "2026 Boot Scootin' Ball — Official Registration",
+          "source_url": "https://muradbid.com/app/public/bidapp/pves/tickets/tix",
+          "source_type": "official registration",
+          "supports": "Date, time, venue, address, The Diamond West Band, sponsorship opportunities and current maximum-capacity notice."
+        },
+        {
+          "source_name": "Preston Volunteer Emergency Services",
+          "source_url": "https://pves.org/",
+          "source_type": "official beneficiary",
+          "supports": "Independent confirmation that Boot Scootin' Ball at Bar K-R Ranch is a community fundraiser supporting Preston Volunteer Emergency Services."
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Preston Volunteer Emergency Services"
+      ],
       "last_checked": "2026-08-10",
       "created_on": "2026-08-10",
       "updated_on": "2026-08-10"
