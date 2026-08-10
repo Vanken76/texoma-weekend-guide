@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 734,
-  "publish_ready_count": 406,
+  "business_count": 735,
+  "publish_ready_count": 407,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -60762,6 +60762,170 @@
           "source_url": "https://www.beautynailhairsalons.com/US/Pottsboro/101903768750529/Hailey-Hair-and-Beauty",
           "source_type": "provider listing",
           "supports": "Current stylist operation from The Beauty Lodge, same address, and additional hair, waxing and spray-tan service information."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "last_verified": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "slug": "mobi-vintage-pottsboro",
+      "business_name": "Mobi Vintage",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "414 FM 120, Pottsboro, TX 75076 — curated Y2K-focused vintage clothing shop",
+      "primary_category": "Vintage Clothing Store",
+      "category": [
+        "Vintage Clothing Store",
+        "Clothing Boutique",
+        "Secondhand Clothing",
+        "Local Shopping"
+      ],
+      "tags": [
+        "Mobi Vintage",
+        "Pottsboro",
+        "Texas",
+        "Grayson County",
+        "Lake Texoma",
+        "Vintage Clothing",
+        "Y2K Fashion",
+        "2000s Fashion",
+        "1990s Fashion",
+        "Retro Clothing",
+        "Secondhand Clothing",
+        "Curated Vintage",
+        "Boutique Shopping",
+        "Local Shopping",
+        "Millennial Nostalgia"
+      ],
+      "description": "Mobi Vintage is a small curated vintage-clothing shop in Pottsboro specializing primarily in Y2K-era fashion from the late 1990s and 2000s. Rather than operating as a broad antique or thrift store covering many decades, Mobi Vintage focuses on nostalgic clothing and fashion pieces associated with the turn-of-the-millennium era. The shop offers a clean, boutique-style shopping experience for visitors looking for distinctive secondhand fashion and early-2000s style.",
+      "short_description": "Pottsboro vintage boutique specializing in curated Y2K and early-2000s clothing and nostalgic fashion.",
+      "why_visit": "Mobi Vintage gives Pottsboro and Lake Texoma shoppers a niche alternative to conventional boutiques and thrift stores. It is especially appealing for shoppers looking specifically for Y2K and early-2000s fashion rather than mixed-era antiques or general secondhand clothing.",
+      "why_its_unique": "The store's defining feature is its narrow Y2K focus. Current customer feedback specifically notes that the owner emphasizes the shop sells Y2K vintage, giving Mobi Vintage a much more intentionally curated identity than a typical thrift or antique shop.",
+      "address": "414 FM 120",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "address_note": "Current local business data identifies Mobi Vintage at 414 FM 120 in Pottsboro.",
+      "phone": "740-963-4546",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "10:00 AM - 7:00 PM",
+        "wednesday": "10:00 AM - 7:00 PM",
+        "thursday": "10:00 AM - 7:00 PM",
+        "friday": "10:00 AM - 7:00 PM",
+        "saturday": "10:00 AM - 7:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current local business data lists Tuesday through Saturday from 10:00 AM to 7:00 PM, with Sunday and Monday closed. Because Mobi Vintage is a small independent shop and does not currently maintain a dependable indexed official website, visitors making a special trip should confirm hours before traveling.",
+      "at_a_glance": {
+        "average_visit": "15-60 minutes",
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Curated vintage clothing",
+        "Y2K-era fashion",
+        "Early-2000s clothing",
+        "Boutique-style shopping",
+        "Secondhand fashion",
+        "Wheelchair-accessible entrance",
+        "Wheelchair-accessible parking"
+      ],
+      "good_to_know": [
+        "Mobi Vintage is located at 414 FM 120 in Pottsboro.",
+        "The current public phone number is 740-963-4546.",
+        "Current public hours are Tuesday through Saturday from 10:00 AM to 7:00 PM.",
+        "The shop is currently listed as closed Sunday and Monday.",
+        "Mobi Vintage specializes specifically in Y2K-era vintage rather than operating as a broad multi-decade antique or thrift store.",
+        "Current customer feedback describes the shop as clean, cute and nostalgia-focused.",
+        "Customer feedback specifically indicates that the owner emphasizes a Y2K-vintage-only merchandising concept.",
+        "The store is best suited to shoppers interested in late-1990s and 2000s clothing and trend-cycle fashion.",
+        "Current public data supports wheelchair-accessible parking and entrance.",
+        "Public review volume is currently very small, so TWG should not make broad claims about inventory depth, sizing range, pricing, returns or exchange policies.",
+        "No dependable official website, Facebook page, Instagram account or public email address was located during this research pass.",
+        "Because vintage inventory is typically one-of-one and changes frequently, specific garments, brands, sizes and styles should not be presented as continuously available."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "event_types": [
+        "Seasonal sales",
+        "New-arrival drops",
+        "Shopping promotions",
+        "Pop-up retail events"
+      ],
+      "event_sources": [
+        "Current local business profile",
+        "Future verified Mobi Vintage social channels"
+      ],
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "lake-texoma",
+          "name": "Lake Texoma",
+          "entity_type": "region",
+          "relationship_note": "Mobi Vintage is located in Pottsboro, one of the principal Texas gateway communities serving Lake Texoma."
+        },
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Mobi Vintage is located in Pottsboro, Texas."
+        }
+      ],
+      "related_events": [],
+      "features": [
+        "Y2K-focused vintage clothing",
+        "Late-1990s and 2000s fashion",
+        "Curated secondhand clothing",
+        "Boutique-style shopping",
+        "Independent Pottsboro retailer",
+        "Wheelchair-accessible entrance",
+        "Wheelchair-accessible parking"
+      ],
+      "source_verified": true,
+      "verification_note": "Researched August 10, 2026 after fresh-fetching the canonical public/data/local-business-directory.json, which contained 734 businesses and 406 publish-ready records. No Mobi Vintage record or exact business-name match was found in the canonical directory. Current local business data identifies Mobi Vintage as an active clothing store at 414 FM 120, Pottsboro, TX 75076 with phone 740-963-4546 and hours of 10:00 AM-7:00 PM Tuesday through Saturday, with Sunday and Monday closed. Current customer feedback specifically describes the store as a clean, nostalgia-focused vintage shop and records the owner's emphasis that the store specializes in Y2K vintage, supporting TWG's classification as a curated late-1990s/2000s vintage-clothing boutique rather than a general thrift or antique store. Current public data also supports wheelchair-accessible parking and entrance. The business currently has an unusually limited indexed web presence: no dependable official website, stable official Facebook or Instagram account, public email, return policy, inventory catalog or independently published business history was located. TWG therefore publishes only the details supported by the current business profile and avoids inventing ownership, founding date, pricing, sizing range or product-specific inventory.",
+      "sources": [
+        {
+          "source_name": "Google Business Profile — Mobi Vintage",
+          "source_url": "https://www.google.com/maps/search/?api=1&query=Mobi%20Vintage%20414%20FM%20120%20Pottsboro%20TX%2075076",
+          "source_type": "current_business_listing",
+          "supports": "Current active business identity, 414 FM 120 address, 740-963-4546 phone, Tuesday-Saturday hours, clothing-store classification, Y2K-vintage focus, customer experience and accessibility."
         }
       ],
       "last_checked": "2026-08-10",
