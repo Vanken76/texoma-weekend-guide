@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 165,
-  "publish_ready_count": 165,
+  "event_count": 166,
+  "publish_ready_count": 166,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -11124,6 +11124,112 @@
           "source_url": "https://pennyruffles.com/",
           "source_type": "official performer",
           "supports": "Official performer identity and description of Penny and the Flamethrowers as rockabilly music inspired by the origins of rock & roll."
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "lake-texoma-treasure-island-3-mile-2026",
+      "event_name": "Lake Texoma Treasure Island 3 Mile",
+      "description": "Adventure Paddles leads a relaxed Lake Texoma paddling adventure from Highport Marina to Treasure Island and back. Paddlers cross calm sections of the lake, stop on the tree-lined island to relax and explore, and enjoy a catered lunch with fresh sandwiches, seasonal fruit and iced bottled water before returning to Highport. The official Adventure Paddles description identifies the route as approximately 3.5 miles, while the published event-calendar title remains Lake Texoma Treasure Island 3 Mile.",
+      "start_datetime": "2026-08-15T09:00:00-05:00",
+      "end_datetime": "2026-08-15T13:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "highport-marina"
+      ],
+      "venue_name": "Highport Marina",
+      "host_business_slug": "highport-marina",
+      "organizer_name": "Adventure Paddles",
+      "address": "120 Texoma Harbor Drive",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Outdoor Recreation",
+        "Paddling",
+        "Lake Texoma Event",
+        "Guided Tour",
+        "Water Recreation"
+      ],
+      "tags": [
+        "Lake Texoma Treasure Island",
+        "Adventure Paddles",
+        "Treasure Island",
+        "Highport Marina",
+        "Lake Texoma",
+        "Paddling",
+        "Kayaking",
+        "Paddle Adventure",
+        "Outdoor Recreation",
+        "Pottsboro"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "Current event-calendar and organizer sources reviewed by TWG do not publish a current price for these 2026 dates.",
+      "audience": [
+        "Paddlers",
+        "Outdoor enthusiasts",
+        "Lake Texoma visitors",
+        "Adventure travelers"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/lake-texoma-treasure-island-3-mile-2026.png",
+      "image_alt": null,
+      "official_url": "https://adventurepaddles.org/texoma-treasure-island",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": null,
+      "recurrence_start_date": "2026-08-15",
+      "recurrence_end_date": "2026-10-17",
+      "recurrence_notes": [
+        "Saturday, August 15, 2026 — 9:00 AM-1:00 PM",
+        "Saturday, August 22, 2026 — 9:00 AM-1:00 PM",
+        "Saturday, September 19, 2026 — 9:00 AM-1:00 PM",
+        "Saturday, September 26, 2026 — 9:00 AM-1:00 PM",
+        "Saturday, October 10, 2026 — 9:00 AM-1:00 PM",
+        "Saturday, October 17, 2026 — 9:00 AM-1:00 PM"
+      ],
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The first upcoming outing is Saturday, August 15, 2026 from 9:00 AM to 1:00 PM.",
+        "The trip launches from Highport Marina in Pottsboro.",
+        "The destination is Treasure Island on Lake Texoma.",
+        "Adventure Paddles describes the route as approximately 3.5 miles.",
+        "The published event-calendar title uses Lake Texoma Treasure Island 3 Mile.",
+        "The official trip description includes a catered island lunch with fresh sandwiches, seasonal fruit and iced bottled water.",
+        "The outing is designed as a relaxed paddle rather than an endurance-focused trip.",
+        "Additional currently published 2026 dates are August 22, September 19, September 26, October 10 and October 17.",
+        "No current price or age restriction is published in the sources reviewed by TWG, so those details are not inferred."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contains 165 events and 165 publish-ready records. Exact searches for Lake Texoma Treasure Island 3 Mile and Treasure Island returned no existing canonical event record. Texoma Connect currently publishes the event at Highport Marina on August 15 and August 22, September 19 and September 26, and October 10 and October 17, 2026, with each listed from 9:00 AM to 1:00 PM. Adventure Paddles' official Lake Texoma Treasure Island page independently confirms that the paddle begins at Highport Marina in Pottsboro, travels to Treasure Island and returns to Highport, and describes an island stop with a catered lunch of fresh sandwiches, seasonal fruit and iced bottled water. Adventure Paddles describes the route as a 3.5-mile paddle, whereas the current Texoma Connect event title calls it Lake Texoma Treasure Island 3 Mile; TWG preserves the published event title while documenting the distance discrepancy. The canonical TWG business directory confirms Highport Marina is active and publish-ready under slug highport-marina at 120 Texoma Harbor Drive, Pottsboro, TX 75076. No current event price, ticket URL or attendee age restriction was confirmed in the reviewed current sources, so those fields are not invented.",
+      "sources": [
+        {
+          "source_name": "Adventure Paddles — Lake Texoma Treasure Island",
+          "source_url": "https://adventurepaddles.org/texoma-treasure-island",
+          "source_type": "official organizer",
+          "supports": "Highport Marina launch point, Treasure Island destination, approximately 3.5-mile paddle description, island experience and catered lunch."
+        },
+        {
+          "source_name": "Texoma Connect — August 2026 Events",
+          "source_url": "https://texomaconnect.com/events/month/2026-08/",
+          "source_type": "regional event calendar",
+          "supports": "August 15 and August 22, 2026 occurrences, 9:00 AM-1:00 PM schedule and Highport Marina venue."
+        },
+        {
+          "source_name": "Texoma Connect — Lake Texoma Events",
+          "source_url": "https://texomaconnect.com/events/category/lake-texoma-event/list/",
+          "source_type": "regional event calendar",
+          "supports": "Additional September 19, September 26, October 10 and October 17 occurrences, each scheduled from 9:00 AM to 1:00 PM."
         }
       ],
       "partner_business_slugs": [],
