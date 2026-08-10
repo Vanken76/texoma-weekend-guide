@@ -10229,7 +10229,7 @@
     {
       "event_slug": "matt-rife-stay-golden-world-tour-choctaw-grand-theater-durant-2026-09-25",
       "event_name": "Matt Rife: Stay Golden World Tour",
-      "description": "Comedian Matt Rife brings his Stay Golden World Tour to Choctaw Grand Theater at Choctaw Casino & Resort – Durant on Friday, September 25, 2026. Rife is known for his quick-witted stand-up, crowd work and viral comedy presence, along with television appearances including MTV's Wild 'N Out. Doors open at 6:30 PM and the performance begins at 8:00 PM. Ticketmaster identifies this performance as an 18+ event for mature audiences.",
+      "description": "Comedian Matt Rife brings his Stay Golden World Tour to Choctaw Grand Theater at Choctaw Casino & Resort – Durant on Friday, September 25, 2026. Rife is known for quick-witted stand-up, crowd work and a large online comedy following, along with television appearances including MTV's Wild 'N Out. Doors open at 6:30 PM and the performance begins at 8:00 PM. Ticketmaster explicitly identifies this performance as 18+ and for mature audiences only.",
       "start_datetime": "2026-09-25T20:00:00-05:00",
       "end_datetime": null,
       "doors_open_datetime": "2026-09-25T18:30:00-05:00",
@@ -10278,7 +10278,7 @@
         "Live entertainment fans",
         "Texoma visitors"
       ],
-      "age_restriction": "18+. Ticketmaster specifically identifies this performance as mature audience only.",
+      "age_restriction": "18+. Mature audience only.",
       "performers": [
         {
           "name": "Matt Rife",
@@ -10303,48 +10303,49 @@
         "This performance is Friday, September 25, 2026.",
         "Doors open at 6:30 PM.",
         "Showtime is 8:00 PM.",
-        "Ticketmaster identifies the event as 18+ and mature audience only.",
+        "Ticketmaster explicitly identifies the Friday performance as 18+.",
+        "Ticketmaster also identifies the performance as mature audience only.",
         "The performance takes place at the Grand Theater inside Choctaw Casino & Resort – Durant.",
         "Ticketmaster is the official ticketing agent for Choctaw Casinos & Resorts.",
         "Ticket prices and available seats may change as the event approaches.",
         "No official ending time is published, so TWG leaves end_datetime null.",
         "Matt Rife performs a second separately ticketed Stay Golden World Tour show at the same venue on Saturday, September 26, 2026.",
-        "The Friday and Saturday performances should remain separate TWG event records because each has its own date and ticket listing.",
-        "Choctaw Casino & Resort – Durant offers lodging, dining, bars, gaming and additional entertainment on the same resort property.",
-        "The North Parking Garage is the resort's recommended convenient parking area for Grand Theater guests."
+        "The September 25 and September 26 performances remain separate TWG event records because each has its own date and ticket listing.",
+        "The Saturday September 26 listing currently uses different restriction wording from Friday: it says Mature Audience Only without displaying a specific numerical minimum age.",
+        "Choctaw Casino & Resort – Durant offers lodging, restaurants, bars, gaming and additional entertainment on the same resort property."
       ],
       "related_events": [
         {
           "event_slug": "matt-rife-stay-golden-world-tour-choctaw-grand-theater-durant-2026-09-26",
           "event_name": "Matt Rife: Stay Golden World Tour — September 26",
-          "relationship_note": "Second separately ticketed Durant performance of the Stay Golden World Tour on the following night. This event should be added as its own canonical record."
+          "relationship_note": "Second separately ticketed Matt Rife performance at Choctaw Grand Theater on the following night."
         }
       ],
-      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contained 158 events and 151 publish-ready records. A canonical search for 'Matt Rife' returned no existing event record, so this is a new event rather than a duplicate. Choctaw Casinos & Resorts' official current event page confirms Matt Rife: Stay Golden World Tour at Choctaw Grand Theater in Durant on Friday, September 25, 2026, with doors opening at 6:30 PM and showtime at 8:00 PM. Choctaw identifies Ticketmaster as the official ticketing agent and links directly to Ticketmaster event 0C006363E9BD7E12. Ticketmaster independently confirms the Friday, September 25, 2026 8:00 PM performance at Choctaw Grand Theater and explicitly identifies the performance as 18+ and for mature audiences only. Choctaw separately publishes a second Stay Golden World Tour performance at the same venue on Saturday, September 26, 2026. Because the two performances have separate event pages, dates and Ticketmaster listings, TWG treats them as separate event records rather than a single multi-day event. A fresh canonical business-directory check confirms The Grand Theater at Choctaw Casino & Resort – Durant remains active and publish-ready under slug the-grand-theater-choctaw-casino-resort-durant. No official Friday performance ending time or fixed ticket-price range is currently published, so those details are not invented.",
+      "verification_note": "Reverified and corrected August 10, 2026. The canonical TWG event directory already contains this Friday, September 25 Matt Rife event under slug matt-rife-stay-golden-world-tour-choctaw-grand-theater-durant-2026-09-25. Choctaw Casinos & Resorts' official current event page confirms Matt Rife: Stay Golden World Tour at Choctaw Grand Theater in Durant on Friday, September 25, 2026, with doors opening at 6:30 PM and showtime at 8:00 PM. Choctaw identifies Ticketmaster as its official ticketing agent. Ticketmaster independently confirms Friday, September 25, 2026 at 8:00 PM at Choctaw Grand Theater and explicitly publishes '18+' together with 'Mature audience only' in the Important Info section. Therefore the Friday record correctly retains an 18+ age restriction. This differs from the current Saturday, September 26 Ticketmaster listing, which displays Mature Audience Only without a visible numerical minimum age in its current listing text. The two performances remain separate canonical event records because they occur on different dates and have separate official ticket listings. No official Friday ending time or fixed ticket-price range is currently published, so those fields remain unset rather than estimated.",
       "sources": [
         {
           "source_name": "Choctaw Casinos & Resorts — Matt Rife: Stay Golden World Tour — September 25",
           "source_url": "https://www.choctawcasinos.com/events/matt-rife-stay-golden-world-tour-2/",
           "source_type": "official",
-          "supports": "Friday September 25 date, Durant location, Choctaw Grand Theater venue, 6:30 PM doors, 8:00 PM showtime, performer background and official Ticketmaster relationship."
+          "supports": "Friday September 25 date, Durant location, Choctaw Grand Theater venue, 6:30 PM doors, 8:00 PM showtime, performer information and official Ticketmaster relationship."
         },
         {
           "source_name": "Ticketmaster — Matt Rife: Stay Golden World Tour — September 25",
           "source_url": "https://www.ticketmaster.com/event/0C006363E9BD7E12",
           "source_type": "official ticketing",
-          "supports": "Independent confirmation of Friday, September 25, 2026 at 8:00 PM at Choctaw Grand Theater and the 18+ mature-audience restriction."
+          "supports": "Independent confirmation of Friday, September 25, 2026 at 8:00 PM at Choctaw Grand Theater and explicit 18+ / Mature Audience Only restriction."
         },
         {
           "source_name": "Choctaw Casinos & Resorts — Matt Rife: Stay Golden World Tour — September 26",
           "source_url": "https://www.choctawcasinos.com/events/matt-rife-stay-golden-world-tour-2-2/",
           "source_type": "official",
-          "supports": "Confirmation that a second separately listed Durant performance occurs Saturday, September 26, 2026."
+          "supports": "Confirmation of the second separately ticketed Matt Rife performance on Saturday, September 26, 2026."
         },
         {
           "source_name": "Choctaw Casino & Resort – Durant",
           "source_url": "https://www.choctawcasinos.com/durant/",
           "source_type": "official",
-          "supports": "Current resort address, Grand Theater location, North Parking Garage guidance and on-property amenities."
+          "supports": "Current Durant resort identity and Grand Theater entertainment operation."
         }
       ],
       "last_checked": "2026-08-10",
