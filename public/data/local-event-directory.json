@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 162,
-  "publish_ready_count": 162,
+  "event_count": 163,
+  "publish_ready_count": 163,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -10825,6 +10825,106 @@
           "source_url": "https://highport.com/",
           "source_type": "official venue",
           "supports": "Confirms The Island food-and-beverage venue is located at Highport Marina."
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "8th-annual-pves-golf-tournament-2026-08-31",
+      "event_name": "8th Annual PVES Golf Tournament",
+      "description": "Preston Volunteer Emergency Services hosts its 8th Annual PVES Golf Tournament at Tanglewood Resort Golf Course in Pottsboro. The fundraiser features a four-person scramble with a shotgun start and supports PVES fire protection and emergency medical services serving the Preston Peninsula and surrounding Lake Texoma community. Breakfast tacos, lunch and drinks are listed as part of the tournament experience.",
+      "start_datetime": "2026-08-31T09:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "tanglewood-resort-golf-course"
+      ],
+      "venue_name": "Tanglewood Resort Golf Course",
+      "host_business_slug": "tanglewood-resort-golf-course",
+      "organizer_name": "Preston Volunteer Emergency Services",
+      "address": "586 Country Club Drive",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Golf Tournament",
+        "Fundraiser",
+        "Community Event",
+        "Sports & Recreation",
+        "Lake Texoma Event"
+      ],
+      "tags": [
+        "PVES",
+        "Preston Volunteer Emergency Services",
+        "Tanglewood Resort Golf Course",
+        "Tanglewood Golf Club",
+        "Golf Tournament",
+        "Golf",
+        "Fundraiser",
+        "Four Person Scramble",
+        "Pottsboro",
+        "Lake Texoma"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$140 listed by Texoma Connect. Official PVES registration is available for teams and individuals.",
+      "audience": [
+        "Golfers",
+        "Community supporters",
+        "Lake Texoma residents",
+        "Fundraiser supporters"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/8th-annual-pves-golf-tournament-2026-08-31.png",
+      "image_alt": null,
+      "official_url": "https://pves.org/team-registration/",
+      "facebook_url": null,
+      "ticket_url": "https://pves.org/team-registration/",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The tournament is Monday, August 31, 2026.",
+        "Start time is 9:00 AM.",
+        "The tournament is held at Tanglewood Resort Golf Course in Pottsboro.",
+        "The official golf-course address is 586 Country Club Drive.",
+        "The tournament uses a four-person scramble format with a shotgun start.",
+        "PVES accepts both team and individual registrations.",
+        "Player handicaps are capped at 25.",
+        "Mulligans may be purchased before the tournament.",
+        "Longest Drive contests are scheduled on holes 9 and 16.",
+        "Closest to the Pin contests are scheduled on holes 7 and 14.",
+        "No official event ending time is published, so TWG leaves end_datetime null."
+      ],
+      "verification_note": "Fully researched August 10, 2026. The 8th Annual PVES Golf Tournament is scheduled for Monday, August 31, 2026 at 9:00 AM at Tanglewood Resort Golf Course, 586 Country Club Drive, Pottsboro, TX 75076. Preston Volunteer Emergency Services' official registration page confirms the date, start time, location, team and individual registration, four-person scramble format, shotgun start, handicap rules, mulligans, Longest Drive contests and Closest to the Pin contests. Tanglewood Resort's official golf page independently confirms the golf course at 586 Country Club Dr, Pottsboro, TX 75076. Texoma Connect independently lists the August 31 event at the same location and publishes a $140 price along with breakfast tacos, lunch and drinks. The existing canonical TWG venue is Tanglewood Resort Golf Course under slug tanglewood-resort-golf-course. No official ending time or age restriction was published, so those fields are not invented.",
+      "sources": [
+        {
+          "source_name": "Preston Volunteer Emergency Services — 8th Annual PVES Golf Tournament Registration",
+          "source_url": "https://pves.org/team-registration/",
+          "source_type": "official organizer",
+          "supports": "Event title, August 31 date, 9:00 AM start, Tanglewood location, address, registration, four-person scramble format, shotgun start and tournament rules."
+        },
+        {
+          "source_name": "Tanglewood Resort — Championship Golf",
+          "source_url": "https://www.tanglewoodresort.com/golfcourse",
+          "source_type": "official venue",
+          "supports": "Current Tanglewood golf-course operation and 586 Country Club Dr, Pottsboro, TX 75076 address."
+        },
+        {
+          "source_name": "Texoma Connect — PVES Golf Tournament 2026",
+          "source_url": "https://texomaconnect.com/events/month/2026-08/",
+          "source_type": "regional event calendar",
+          "supports": "Independent August 31 event listing, 9:00 AM start, Tanglewood Golf Course location, $140 price and listed breakfast tacos, lunch and drinks."
         }
       ],
       "partner_business_slugs": [],
