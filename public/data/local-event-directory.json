@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 160,
-  "publish_ready_count": 153,
+  "event_count": 161,
+  "publish_ready_count": 154,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -10467,6 +10467,140 @@
           "source_url": "https://www.choctawcasinos.com/durant/",
           "source_type": "official",
           "supports": "Current Durant resort identity, Grand Theater entertainment operation and on-property lodging, dining, gaming and entertainment."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "riley-green-cowboy-as-it-gets-tour-choctaw-grand-theater-durant-2026-10-02",
+      "event_name": "Riley Green with Randy Houser & Hannah McFarland — Cowboy As It Gets Tour 2026",
+      "description": "CMA and ACM award winner Riley Green brings his Cowboy As It Gets Tour 2026 to Choctaw Grand Theater at Choctaw Casino & Resort – Durant on Friday, October 2, 2026, with Randy Houser and Hannah McFarland also announced on the Friday concert bill. Green is known for country hits including \"There Was This Girl,\" \"I Wish Grandpas Never Died,\" \"Different Round Here,\" \"Worst Way\" and \"Jesus Saves.\" Doors open at 5:30 PM and the current official Choctaw schedule lists showtime at 7:00 PM.",
+      "start_datetime": "2026-10-02T19:00:00-05:00",
+      "end_datetime": null,
+      "doors_open_datetime": "2026-10-02T17:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-grand-theater-choctaw-casino-resort-durant"
+      ],
+      "venue_name": "The Grand Theater at Choctaw Casino & Resort – Durant",
+      "host_business_slug": "choctaw-casino-resort-durant",
+      "organizer_name": "Choctaw Casino & Resort – Durant",
+      "address": "4216 S Hwy 69/75",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Concert",
+        "Country Music",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "Riley Green",
+        "Randy Houser",
+        "Hannah McFarland",
+        "Cowboy As It Gets Tour 2026",
+        "Country Music",
+        "Country Concert",
+        "Live Music",
+        "There Was This Girl",
+        "I Wish Grandpas Never Died",
+        "Different Round Here",
+        "Worst Way",
+        "Jesus Saves",
+        "Choctaw Grand Theater",
+        "Choctaw Casino & Resort Durant",
+        "Durant",
+        "Oklahoma",
+        "Southern Oklahoma",
+        "Texoma",
+        "National Touring Artists"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ticketed concert. Tickets are sold through Ticketmaster, the official ticketing agent for Choctaw Casinos & Resorts. Ticket prices and seat availability vary.",
+      "audience": [
+        "Country music fans",
+        "Riley Green fans",
+        "Randy Houser fans",
+        "Hannah McFarland fans",
+        "Live music fans",
+        "Concertgoers",
+        "Texoma visitors"
+      ],
+      "age_restriction": null,
+      "performers": [
+        {
+          "name": "Riley Green",
+          "role": "Headlining artist"
+        },
+        {
+          "name": "Randy Houser",
+          "role": "Announced Friday concert performer"
+        },
+        {
+          "name": "Hannah McFarland",
+          "role": "Announced Friday concert performer"
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/riley-green-cowboy-as-it-gets-tour-choctaw-grand-theater-durant-2026-10-02.jpg",
+      "image_alt": null,
+      "official_url": "https://www.choctawcasinos.com/events/riley-green-with-randy-houser-hannah-mcfarland-cowboy-as-it-gets-tour-2026/",
+      "facebook_url": null,
+      "ticket_url": "https://www.ticketmaster.com/event/0C0064BCF4B6113B",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "This performance is Friday, October 2, 2026.",
+        "Doors open at 5:30 PM.",
+        "The current official Choctaw listing gives showtime as 7:00 PM.",
+        "Riley Green, Randy Houser and Hannah McFarland are announced on the Friday concert bill.",
+        "The performance takes place at the Grand Theater inside Choctaw Casino & Resort – Durant.",
+        "Ticketmaster is the official ticketing agent for Choctaw Casinos & Resorts.",
+        "Ticket prices and available seats may change as the event approaches.",
+        "No official concert ending time is published, so TWG leaves end_datetime null.",
+        "No event-specific age restriction is currently published, so TWG leaves age_restriction null.",
+        "An older cached Ticketmaster event-detail snapshot displays an 8:00 PM time, while the current Choctaw event page and newer Ticketmaster venue schedule list 7:00 PM. TWG therefore uses the current 7:00 PM published showtime.",
+        "Riley Green performs a second separately ticketed Cowboy As It Gets Tour show at the same venue on Saturday, October 3, 2026.",
+        "The October 2 and October 3 performances should remain separate TWG event records because each has its own date and Ticketmaster ticket listing."
+      ],
+      "related_events": [
+        {
+          "event_slug": "riley-green-cowboy-as-it-gets-tour-choctaw-grand-theater-durant-2026-10-03",
+          "event_name": "Riley Green — Cowboy As It Gets Tour 2026 — October 3",
+          "relationship_note": "Second separately ticketed Riley Green performance at Choctaw Grand Theater on the following night. This should be added as its own canonical event record."
+        }
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contained 160 events and 153 publish-ready records. Exact canonical searches for Riley Green and Cowboy As It Gets returned no existing event record, so this Friday performance is a clean new addition. Choctaw Casinos & Resorts' current official event page confirms Riley Green with Randy Houser & Hannah McFarland Cowboy As It Gets Tour 2026 at Choctaw Grand Theater in Durant on Friday, October 2 and Saturday, October 3, 2026. The current Choctaw listing publishes doors at 5:30 PM and showtimes at 7:00 PM. Ticketmaster's current venue schedule also lists the Friday October 2 performance at 7:00 PM and identifies Riley Green, Randy Houser and Hannah McFarland in the lineup. An older cached version of the individual Ticketmaster October 2 event page displays 8:00 PM. Because the official venue page was freshly crawled on August 10 and Ticketmaster's newer venue schedule agrees with it, TWG uses 7:00 PM and documents the stale 8:00 PM discrepancy rather than silently ignoring it. The official Choctaw page links the Friday performance to Ticketmaster event 0C0064BCF4B6113B. The canonical TWG business directory confirms The Grand Theater at Choctaw Casino & Resort – Durant as active and publish-ready under slug the-grand-theater-choctaw-casino-resort-durant, with canonical address 4216 S Hwy 69/75, Durant, OK 74701. No official ending time, fixed ticket-price range or event-specific age restriction is currently published.",
+      "sources": [
+        {
+          "source_name": "Choctaw Casinos & Resorts — Riley Green with Randy Houser & Hannah McFarland Cowboy As It Gets Tour 2026",
+          "source_url": "https://www.choctawcasinos.com/events/riley-green-with-randy-houser-hannah-mcfarland-cowboy-as-it-gets-tour-2026/",
+          "source_type": "official",
+          "supports": "Artists, October 2 and October 3 dates, Durant location, Grand Theater venue, 5:30 PM doors, current 7:00 PM showtime, Riley Green background and official Ticketmaster links."
+        },
+        {
+          "source_name": "Ticketmaster — Riley Green: Cowboy As It Gets Tour 2026 — October 2",
+          "source_url": "https://www.ticketmaster.com/event/0C0064BCF4B6113B",
+          "source_type": "official ticketing",
+          "supports": "Official Friday October 2 ticket destination. An older cached event-detail snapshot displays 8:00 PM and is documented as a time discrepancy."
+        },
+        {
+          "source_name": "Ticketmaster — Choctaw Grand Theater Event Schedule",
+          "source_url": "https://www.ticketmaster.com/choctaw-grand-theater-tickets-durant/venue/99275",
+          "source_type": "official ticketing",
+          "supports": "Newer venue schedule showing the October 2 Riley Green performance at 7:00 PM and listing Riley Green, Randy Houser and Hannah McFarland."
         }
       ],
       "last_checked": "2026-08-10",
