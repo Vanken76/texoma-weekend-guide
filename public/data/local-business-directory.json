@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 707,
-  "publish_ready_count": 373,
+  "business_count": 708,
+  "publish_ready_count": 374,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -52794,6 +52794,136 @@
         "Fireplace and stove sales",
         "North Texas service area",
         "Southern Oklahoma service area"
+      ]
+    },
+    {
+      "slug": "mom-and-pop-sandwich-shop",
+      "business_name": "Mom and Pop Sandwich Shop",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "83493 TX-289, Pottsboro, TX 75076",
+      "category": [
+        "Sandwich Shop",
+        "Lunch Restaurant",
+        "Takeout"
+      ],
+      "tags": [
+        "Mom and Pop Sandwich Shop",
+        "Pottsboro",
+        "Preston Peninsula",
+        "Lake Texoma Area",
+        "Sandwiches",
+        "Chicken Salad",
+        "Hoagies",
+        "Stuffed Potatoes",
+        "Salads",
+        "Lunch",
+        "Takeout",
+        "Quick Bite",
+        "Homemade Food",
+        "Desserts",
+        "Ice Cream",
+        "Near Highport Marina"
+      ],
+      "description": "Mom and Pop Sandwich Shop is a small locally operated lunch spot on the Preston Peninsula in Pottsboro, near Highport Marina. The shop focuses on fresh, made-to-order sandwiches and other casual lunch items, including chicken salad sandwiches, hoagies, jumbo stuffed potatoes, chef salads and simple desserts. It operates on a limited Tuesday-through-Friday lunch schedule and is designed primarily for quick dine-in or grab-and-go meals for local residents, workers, boaters and Lake Texoma visitors.",
+      "why_visit": "Mom and Pop Sandwich Shop is a convenient lunch stop for people staying, working or recreating on the Preston Peninsula who want something quick and locally made instead of driving farther into Pottsboro. Its short lunch-focused schedule and takeout-friendly setup also make it useful for boaters and visitors headed toward nearby marinas.",
+      "why_its_unique": "The shop is a very small owner-operated neighborhood business focused almost entirely on fresh lunch food and personal service. Recent customers repeatedly highlight the freshness of the sandwiches, chicken salad, large stuffed potatoes and friendly owners.",
+      "phone": "903-415-8169",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "11:00 AM–2:00 PM",
+        "wednesday": "11:00 AM–2:00 PM",
+        "thursday": "11:00 AM–2:00 PM",
+        "friday": "11:00 AM–2:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current business data and a current 2026 business-for-sale listing agree that the shop operates primarily Tuesday through Friday during lunch. Because this is a very small owner-operated business, visitors making a special trip should call ahead to confirm same-day hours and item availability.",
+      "at_a_glance": {
+        "average_visit": "Quick lunch stop",
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Takeout",
+        "Limited dine-in seating",
+        "Counter service",
+        "Call-in orders",
+        "Free parking",
+        "Wheelchair-accessible parking",
+        "Wheelchair-accessible entrance",
+        "Credit cards",
+        "Debit cards"
+      ],
+      "good_to_know": [
+        "The shop currently operates only during a short Tuesday-through-Friday lunch window.",
+        "Recent customers particularly highlight the chicken salad sandwich, fresh hoagies and jumbo stuffed potatoes.",
+        "The business is located on the Preston Peninsula near Highport Marina.",
+        "The operation is small and primarily owner-run, so calling ahead is sensible for large orders or a time-sensitive visit.",
+        "A current 2026 listing shows the business is being offered for sale, but it remains presented as an active operating sandwich shop."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [
+        {
+          "slug": "highport-marina",
+          "business_name": "Highport Marina",
+          "relationship_note": "Mom and Pop Sandwich Shop is a separate business located nearby on the Preston Peninsula and is convenient for Highport Marina visitors."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Mom and Pop Sandwich Shop is located in Pottsboro, Texas."
+        }
+      ],
+      "verification_note": "Fully researched August 9, 2026. The current canonical TWG local-business-directory.json was refreshed before creation and neither Mom and Pop Sandwich Shop nor phone number 903-415-8169 was found. Current local-business data confirms active operation at 83493 TX-289, Pottsboro, TX 75076, phone 903-415-8169, Tuesday-Friday lunch hours, takeaway, limited dine-in service, accessibility attributes and family-friendly service. A current 2026 BizBuySell listing independently confirms that Mom and Pop Sandwich Shop is an active owner-operated grab-and-go sandwich shop on the Preston Peninsula near Highport Marina, established in 2025, operating from an approximately 400-square-foot commercial kitchen and service space. The listing also confirms the current Tuesday-Friday operating pattern and describes a customer base that includes locals, boaters and Lake Texoma visitors. Recent customer information consistently highlights fresh sandwiches, chicken salad, stuffed potatoes, salads, desserts and friendly service. No dependable current official website, email address or direct social-media account was established during research, so those fields are intentionally null.",
+      "last_checked": "2026-08-09",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Fresh-made sandwiches",
+        "Chicken salad sandwiches",
+        "Hoagies",
+        "Jumbo stuffed potatoes",
+        "Chef salads",
+        "Desserts",
+        "Homemade ice cream",
+        "Takeout",
+        "Quick lunch service",
+        "Near Highport Marina"
       ]
     }
   ]
