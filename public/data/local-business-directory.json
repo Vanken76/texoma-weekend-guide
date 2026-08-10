@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 691,
-  "publish_ready_count": 357,
+  "business_count": 692,
+  "publish_ready_count": 358,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -50331,6 +50331,199 @@
           "source_url": "https://nextdoor.com/pages/hotn-creamy-donuts-pottsboro-tx/",
           "source_type": "local_business_directory",
           "supports": "Independent confirmation of the Pottsboro location, address, phone and donut-shop identity."
+        }
+      ],
+      "last_checked": "2026-08-09",
+      "last_verified": "2026-08-09"
+    },
+    {
+      "slug": "zellie-blue-pottsboro",
+      "business_name": "Zellie Blue",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "215 E FM 120, Pottsboro, TX 75076",
+      "category": [
+        "Boutique",
+        "Spirit Wear Store",
+        "Clothing Store",
+        "Gift Shop",
+        "Custom Apparel",
+        "Embroidery"
+      ],
+      "tags": [
+        "Zellie Blue",
+        "Pottsboro",
+        "Lake Texoma Area",
+        "Texas",
+        "Grayson County",
+        "Boutique",
+        "Spirit Wear",
+        "Pottsboro Cardinals",
+        "Custom Apparel",
+        "Embroidery",
+        "Graphic Tees",
+        "School Spirit",
+        "Gifts",
+        "Local Shopping",
+        "Made to Order"
+      ],
+      "description": "Zellie Blue is a Pottsboro boutique and custom-apparel shop specializing in locally relevant clothing, school spirit wear, embroidered apparel, graphic designs and gifts. The store carries an extensive collection of Pottsboro Cardinals designs along with apparel for other area schools and communities, and customers can also submit custom designs for made-to-order shirts, sweatshirts, hoodies, performance apparel and other items. Zellie Blue operates both a Pottsboro store and a second location in Durant, Oklahoma, while also selling products online.",
+      "short_description": "Pottsboro boutique offering spirit wear, custom apparel, embroidery, graphic tees and locally themed gifts.",
+      "why_visit": "Zellie Blue is especially useful for Pottsboro Cardinals fans, local families, sports supporters and visitors looking for locally relevant apparel rather than generic souvenir merchandise. The ability to order custom designs and embroidered pieces also makes it useful for teams, schools, organizations and personalized gifts.",
+      "why_its_unique": "Its heavy focus on Pottsboro and surrounding-area school spirit gives Zellie Blue a strong local identity. Many items are made to order, and customers can choose from multiple garment styles, colors, mascots and custom-design options.",
+      "address": "215 E FM 120",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "phone": "214-457-4065",
+      "email": null,
+      "website": "https://zellieblueshop.com/",
+      "facebook": null,
+      "instagram": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Zellie+Blue+215+E+FM+120+Pottsboro+TX+75076",
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "11:00 AM–6:00 PM",
+        "wednesday": "11:00 AM–6:00 PM",
+        "thursday": "11:00 AM–6:00 PM",
+        "friday": "11:00 AM–6:00 PM",
+        "saturday": "11:00 AM–6:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current local business listings show Tuesday through Saturday from 11:00 AM to 6:00 PM, with Monday and Sunday closed. The official Zellie Blue website does not currently publish regular storefront hours, so visitors making a time-sensitive trip should confirm current hours before visiting.",
+      "average_visit": "15–45 minutes",
+      "price_range": "$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "food_available": false,
+      "full_bar": false,
+      "live_music": false,
+      "karaoke": false,
+      "outdoor_seating": false,
+      "wheelchair_accessible": true,
+      "at_a_glance": {
+        "average_visit": "15–45 minutes",
+        "price_range": "$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": true
+      },
+      "amenities": [
+        "In-store shopping",
+        "Online shopping",
+        "Store pickup",
+        "Custom orders",
+        "Embroidery services",
+        "Credit cards",
+        "Debit cards",
+        "Wheelchair-accessible parking",
+        "Wheelchair-accessible entrance"
+      ],
+      "features": [
+        "Pottsboro Cardinals spirit wear",
+        "School mascot apparel",
+        "Graphic T-shirts",
+        "Sweatshirts",
+        "Hoodies",
+        "Performance apparel",
+        "Embroidered apparel",
+        "Custom design uploads",
+        "Made-to-order apparel",
+        "Local gifts",
+        "Online ordering",
+        "Pottsboro store pickup"
+      ],
+      "payment_methods": [
+        "Credit cards",
+        "Debit cards"
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "event_types": [
+        "Seasonal sales",
+        "School spirit promotions",
+        "Community shopping promotions",
+        "Holiday merchandise launches"
+      ],
+      "event_sources": [
+        "Official Zellie Blue website",
+        "Pottsboro Area Chamber of Commerce",
+        "Official business social channels when available"
+      ],
+      "parent_business": null,
+      "child_businesses": [],
+      "other_locations": [
+        {
+          "location_name": "Zellie Blue – Durant",
+          "address": "120 W Main St",
+          "city": "Durant",
+          "state": "OK",
+          "postal_code": "74701",
+          "relationship": "Second Zellie Blue retail location"
+        }
+      ],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Zellie Blue's Pottsboro store is located in Texas."
+        },
+        {
+          "slug": "lake-texoma",
+          "name": "Lake Texoma",
+          "entity_type": "region",
+          "relationship_note": "The Pottsboro store serves the Lake Texoma gateway community."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Fully researched August 9, 2026. The current canonical TWG business directory was checked for Zellie Blue before creation and no existing business record was found. Zellie Blue's official website confirms an active Pottsboro store at 215 E FM 120, Pottsboro, TX 75076 and a second store at 120 W Main St in Durant, Oklahoma. The official online store supports Pottsboro pickup and identifies 214-457-4065 as the Pottsboro pickup-location phone. The Pottsboro Area Chamber of Commerce independently confirms the Pottsboro address, 214-457-4065 phone number and classifications as Boutique, Shopping and Spirit Wear Store. The official website documents custom-design uploads, made-to-order apparel, embroidery and a substantial Pottsboro Cardinals collection. Current local business listings show Tuesday-Saturday hours of 11:00 AM-6:00 PM and Monday/Sunday closed; those hours are retained with a note because they are not currently published by the official website. The website footer also displays 580-634-2622, which appears to function as a general or Durant contact number, while the Pottsboro-specific store pickup record and Pottsboro Chamber both use 214-457-4065.",
+      "sources": [
+        {
+          "source_name": "Zellie Blue Shop",
+          "source_url": "https://zellieblueshop.com/",
+          "source_type": "official",
+          "supports": "Current business operation, Pottsboro and Durant locations, online store, custom apparel and general product offerings."
+        },
+        {
+          "source_name": "Zellie Blue – Pottsboro Cardinals Collection",
+          "source_url": "https://zellieblueshop.com/collections/pottsboro-cardinals",
+          "source_type": "official",
+          "supports": "Extensive Pottsboro Cardinals spirit-wear selection, made-to-order production and embroidery."
+        },
+        {
+          "source_name": "Zellie Blue Product Pickup Information",
+          "source_url": "https://zellieblueshop.com/products/d-on-1-4-zip-sweatsirt",
+          "source_type": "official",
+          "supports": "Pottsboro store pickup at 215 E FM 120 and Pottsboro-specific phone number 214-457-4065."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce",
+          "source_url": "https://www.pottsborochamber.com/list/member/zellie-blue-llc-2820",
+          "source_type": "local_authoritative",
+          "supports": "Pottsboro business identity, address, phone and classifications as boutique, shopping and spirit-wear store."
+        },
+        {
+          "source_name": "Current Local Business Listing",
+          "source_url": "https://www.google.com/maps/search/?api=1&query=Zellie+Blue+215+E+FM+120+Pottsboro+TX+75076",
+          "source_type": "business_listing",
+          "supports": "Current retail hours, accessibility and payment/service attributes."
         }
       ],
       "last_checked": "2026-08-09",
