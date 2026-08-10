@@ -5,8 +5,8 @@
   "generated_on": "2026-08-10",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 701,
-  "publish_ready_count": 367,
+  "business_count": 702,
+  "publish_ready_count": 368,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -51919,6 +51919,141 @@
         "Groceries",
         "Snacks and drinks",
         "Quick lake-day supply stop"
+      ]
+    },
+    {
+      "slug": "cakes-on-the-lake",
+      "business_name": "Cakes on the Lake",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Pottsboro, TX 75076 — cottage bakery; custom-order pickup and delivery",
+      "category": [
+        "Cottage Bakery",
+        "Custom Cake Bakery",
+        "Wedding Cakes",
+        "Desserts"
+      ],
+      "tags": [
+        "Cakes on the Lake",
+        "Pottsboro",
+        "Lake Texoma",
+        "Cottage Bakery",
+        "Custom Cakes",
+        "Wedding Cakes",
+        "Birthday Cakes",
+        "Special Occasion Cakes",
+        "Cupcakes",
+        "Decorated Sugar Cookies",
+        "French Macarons",
+        "Quinceanera Cakes",
+        "Custom Desserts",
+        "Pickup",
+        "Delivery",
+        "Made to Order"
+      ],
+      "description": "Cakes on the Lake is a Pottsboro cottage bakery specializing in custom, high-end desserts for weddings, birthdays, showers, graduations, quinceaneras and other celebrations. The bakery creates custom cakes, tiered wedding cakes, cupcakes, decorated sugar cookies and French macarons, with numerous cake flavors, fillings and decorative options available. Orders are made in advance through a quote process, with both pickup and delivery options available. Cakes on the Lake operates as a Texas cottage bakery rather than a conventional walk-in retail bakery.",
+      "why_visit": "Cakes on the Lake is a strong local option for visitors and residents who need a professionally decorated dessert for a Lake Texoma wedding, birthday, reunion, shower or other special occasion. Customers can request highly customized designs rather than choosing only from ready-made bakery inventory.",
+      "why_its_unique": "The bakery focuses heavily on detailed custom work, including wedding and tiered cakes, elaborate decorated cookies, buttercream designs and French macarons. Its cottage-bakery model also allows it to operate primarily around advance custom orders rather than maintaining a standard retail storefront.",
+      "phone": "214-718-5814",
+      "email": null,
+      "website": "https://www.cakesonthelake.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Cakes on the Lake is a custom-order cottage bakery rather than a conventional walk-in storefront. Orders are subject to date availability and quote approval. The bakery states that advance notice is required, and customers should use the official custom-order form to arrange pickup or delivery. Current local business data publishes service hours, but TWG does not represent those as guaranteed walk-in retail hours.",
+      "at_a_glance": {
+        "average_visit": "Custom-order pickup or scheduled delivery",
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Custom ordering",
+        "Pickup",
+        "Delivery",
+        "Online quote requests",
+        "Wedding cake consultations",
+        "Credit cards",
+        "Debit cards"
+      ],
+      "good_to_know": [
+        "Cakes on the Lake is a Texas cottage bakery and does not operate as a traditional walk-in bakery storefront.",
+        "Custom orders are not final until the bakery confirms availability and the customer approves the quote.",
+        "The baker states that advance notice is required because the business is generally a one-person operation.",
+        "The kitchen is not represented as gluten-free, nut-free or allergen-free.",
+        "Wedding and tiered cakes currently start at $6.50 per serving.",
+        "Pickup and delivery are both available through the custom-order process."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "lake-texoma",
+          "name": "Lake Texoma",
+          "entity_type": "region",
+          "relationship_note": "Cakes on the Lake is based in Pottsboro and serves the Lake Texoma-area celebration and wedding market."
+        },
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Cakes on the Lake operates as a Texas cottage bakery in Pottsboro."
+        }
+      ],
+      "source_verified": true,
+      "verification_note": "Fully researched August 9, 2026. The current canonical TWG local-business-directory.json was refreshed before creation and no existing Cakes on the Lake record was found. The current official website identifies Cakes on the Lake as a Pottsboro, Texas cottage bakery specializing in high-end cakes, cookies, cupcakes and French macarons. The official About Us page states that the bakery began as a home-based operation in August 2010, operates under Texas cottage-food guidelines, is generally a one-person operation, requires advance notice and does not maintain a gluten-free, nut-free or allergen-free kitchen. The current pricing page documents custom cakes, wedding and tiered cakes, cupcakes, mini cupcakes, decorated sugar cookies and French macarons along with current starting prices, flavors and fillings. The official custom-order form confirms both pickup and delivery options and requires date availability and quote approval before an order becomes final. Current local-business data and Yellow Pages independently confirm phone number 214-718-5814 and Pottsboro operation. Current local-business data categorizes the business as a bakery, cake shop, cookie shop and wedding bakery. No dependable current public street address, email address, Facebook URL or Instagram URL was established during research, so TWG does not invent those fields.",
+      "last_checked": "2026-08-09",
+      "last_verified": "2026-08-09",
+      "event_types": [
+        "Holiday pre-orders",
+        "Seasonal dessert promotions",
+        "Wedding showcases",
+        "Special-order promotions"
+      ],
+      "event_sources": [
+        "Official Cakes on the Lake website",
+        "Official website promotions and pre-order announcements"
+      ],
+      "features": [
+        "Custom cakes",
+        "Wedding and tiered cakes",
+        "Birthday cakes",
+        "Quinceanera cakes",
+        "Special-occasion cakes",
+        "Cupcakes",
+        "Mini cupcakes",
+        "Decorated sugar cookies",
+        "French macarons",
+        "Meringue buttercream",
+        "Custom fillings",
+        "Pickup",
+        "Delivery"
       ]
     }
   ]
