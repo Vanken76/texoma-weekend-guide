@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 149,
-  "publish_ready_count": 142,
+  "event_count": 150,
+  "publish_ready_count": 143,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -9047,6 +9047,114 @@
           "source_url": "https://members.pottsborochamber.com/events",
           "source_type": "official chamber",
           "supports": "Independent calendar listing of the Free Homecoming Mum Event on Saturday, August 22, 2026."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "event_slug": "story-time-at-buxton-nook-pottsboro",
+      "event_name": "Story Time at Buxton Nook",
+      "description": "Buxton Nook hosts a recurring children's Story Time on the third Thursday of each month at 4:00 PM. Families can stop by the Pottsboro book, gift and specialty shop for a community story-time gathering surrounded by Buxton Nook's children's and family book selections. The series is currently listed on the Pottsboro Area Chamber of Commerce calendar with recurring monthly dates extending well beyond summer 2026.",
+      "start_datetime": "2026-08-20T16:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "buxton-nook"
+      ],
+      "venue_name": "Buxton Nook",
+      "address": "206 W FM 120",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Story Time",
+        "Kids Event",
+        "Family Event",
+        "Books",
+        "Community Event"
+      ],
+      "tags": [
+        "Story Time",
+        "Buxton Nook",
+        "Children's Books",
+        "Kids",
+        "Families",
+        "Reading",
+        "Books",
+        "Family Friendly",
+        "Pottsboro",
+        "Lake Texoma",
+        "Third Thursday",
+        "Monthly Event",
+        "Community"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No admission fee or purchase requirement is published in the current event listing.",
+      "audience": [
+        "Children",
+        "Families",
+        "Parents and caregivers",
+        "Young readers"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "buxton-nook",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/story-time-at-buxton-nook-pottsboro.png",
+      "image_alt": null,
+      "official_url": "https://members.pottsborochamber.com/events/details/story-time-at-buxton-nook-the-3rd-thursdays-each-month-at-4pm-08-20-2026-14061",
+      "facebook_url": "https://www.facebook.com/buxtonnook",
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=MONTHLY;BYDAY=3TH",
+      "recurrence_start_date": "2026-08-20",
+      "recurrence_end_date": null,
+      "recurrence_notes": [
+        "Occurs on the third Thursday of each month at 4:00 PM.",
+        "Current Chamber listings include August 20, 2026 and September 17, 2026.",
+        "The Pottsboro Chamber calendar publishes additional third-Thursday occurrences extending through 2027 and beyond.",
+        "No ending time is currently published, so TWG leaves end_datetime null rather than inventing one."
+      ],
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contained 149 events and 142 publish-ready records. No existing Story Time at Buxton Nook event record was found, so this is a new canonical event. The Pottsboro Area Chamber of Commerce currently lists 'Story Time at Buxton Nook (The 3rd Thursdays each month at 4pm)' on Thursday, August 20, 2026 and again on Thursday, September 17, 2026. Broader Chamber calendar results show the same event on third Thursdays before and after those dates and continue publishing occurrences into 2027 and later, supporting recurring=true with a monthly third-Thursday recurrence rule. The canonical TWG business record for Buxton Nook independently confirms that the business hosts Story Time on the third Thursday of each month at 4:00 PM and classifies it as recurring children's Story Time. Buxton Nook moved from 111 E FM 120 Suite 101 to 206 W FM 120 in July 2026. The Chamber's July 30 grand-opening announcement confirms 206 W FM 120 as the new location, while some older Chamber member-directory and Buxton website sections still display the former address. Because this event occurs at Buxton Nook and the canonical business record confirms the current location, TWG uses 206 W FM 120. No event ending time, admission charge, age cutoff or dedicated registration requirement is currently published, so those details are not invented.",
+      "sources": [
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Story Time at Buxton Nook",
+          "source_url": "https://members.pottsborochamber.com/events/details/story-time-at-buxton-nook-the-3rd-thursdays-each-month-at-4pm-08-20-2026-14061",
+          "source_type": "official chamber",
+          "supports": "August 20, 2026 occurrence, third-Thursday recurrence and 4:00 PM start time."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Events Calendar",
+          "source_url": "https://members.pottsborochamber.com/events",
+          "source_type": "official chamber",
+          "supports": "Recurring third-Thursday Story Time dates including August 20 and September 17, 2026 and future monthly occurrences."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber of Commerce — Buxton Nook",
+          "source_url": "https://members.pottsborochamber.com/list/member/buxton-nook-2828",
+          "source_type": "official chamber",
+          "supports": "Buxton Nook business identity, recurring member events, phone and general book-shop offerings."
+        },
+        {
+          "source_name": "Pottsboro Area Chamber — Buxton Nook Grand Opening",
+          "source_url": "https://members.pottsborochamber.com/events/details/2026-grand-opening-ribbon-cutting-buxton-nook-14650",
+          "source_type": "official chamber event",
+          "supports": "Current Buxton Nook location at 206 W FM 120 following the July 2026 move."
+        },
+        {
+          "source_name": "Buxton Nook — Official Website",
+          "source_url": "https://buxtonnook.com/",
+          "source_type": "official",
+          "supports": "Current business operation, book shop and children's book offerings, phone numbers and general store identity."
         }
       ],
       "last_checked": "2026-08-10",
