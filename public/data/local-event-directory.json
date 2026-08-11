@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 172,
-  "publish_ready_count": 172,
+  "event_count": 173,
+  "publish_ready_count": 173,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -11864,6 +11864,112 @@
       "partner_names": [
         "Denison Public Library",
         "Denison Parks & Recreation"
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-11"
+    },
+    {
+      "event_slug": "45th-annual-sherman-arts-festival-2026-09-19",
+      "event_name": "45th Annual Sherman Arts Festival",
+      "description": "The 45th Annual Sherman Arts Festival takes over the municipal grounds in downtown Sherman for a full Saturday celebrating arts, handmade goods and the community. The outdoor festival spreads along Pecan, Elm, Rusk and Mulberry streets surrounding the Sherman Municipal Building and includes artisan vendors, nonprofit organizations, marketplace vendors, local businesses and food vendors. The Municipal Lawn and Oliver Dewey Mayor Gazebo Stage serve as a central festival venue.",
+      "start_datetime": "2026-09-19T09:00:00-05:00",
+      "end_datetime": "2026-09-19T16:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "oliver-dewey-mayor-gazebo-stage"
+      ],
+      "venue_name": "Oliver Dewey Mayor Gazebo Stage",
+      "host_business_slug": "oliver-dewey-mayor-gazebo-stage",
+      "organizer_name": "City of Sherman Tourism & Main Street",
+      "address": "405 N Rusk St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Arts & Culture",
+        "Festival",
+        "Community Event",
+        "Shopping",
+        "Food & Drink",
+        "Family Event"
+      ],
+      "tags": [
+        "Sherman Arts Festival",
+        "Sherman Arts Fest",
+        "45th Annual Sherman Arts Festival",
+        "Downtown Sherman",
+        "Oliver Dewey Mayor Gazebo Stage",
+        "Municipal Lawn",
+        "Arts and Crafts",
+        "Artisan Vendors",
+        "Food Vendors",
+        "Handmade Goods",
+        "Community Festival",
+        "Sherman"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No attendee admission price is stated in the current official City of Sherman material reviewed by TWG.",
+      "audience": [
+        "Families",
+        "Art lovers",
+        "Shoppers",
+        "Local residents",
+        "Visitors",
+        "Community members"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/45th-annual-sherman-arts-festival-2026-09-19.png",
+      "image_alt": null,
+      "official_url": "https://www.ci.sherman.tx.us/FormCenter/City-Manager-2/Arts-Fest-2026-Vendor-Application-91",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The 45th Annual Sherman Arts Festival is Saturday, September 19, 2026.",
+        "The official City of Sherman vendor schedule runs from 9:00 AM to 4:00 PM.",
+        "The event is scheduled rain or shine.",
+        "Festival activity takes place along Pecan, Elm, Rusk and Mulberry streets surrounding the Sherman Municipal Building.",
+        "The Oliver Dewey Mayor Gazebo Stage and Municipal Lawn are established Sherman Arts Festival grounds.",
+        "The festival includes artisan vendors selling original handmade work.",
+        "Marketplace vendors, nonprofit organizations, businesses and food vendors are also part of the festival.",
+        "The City of Sherman requires festival vendors to be completely set up and vehicles removed from the vendor area by 8:30 AM.",
+        "The 2026 vendor application deadline is September 7.",
+        "No attendee admission price or age restriction is currently stated in the official city material reviewed by TWG."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contains 172 events and 172 publish-ready records. Broad duplicate searches for Sherman Arts Fest, Arts Festival, 45th Annual and September 19 found no existing Sherman Arts Festival record; existing September 19 records are unrelated events. The City of Sherman's official 2026 Arts Festival vendor application identifies the event as the 45th Annual Sherman Arts Festival and confirms Saturday, September 19, 2026, rain or shine. The official application locates festival activity along Pecan, Elm, Rusk and Mulberry streets surrounding the Municipal Building and publishes a vendor sales window of 9:00 AM to 4:00 PM with teardown beginning at 4:00 PM. TWG uses that officially published 9:00 AM-4:00 PM festival activity window because no separate public-attendee hours block is currently published. The application confirms participation by artisan, marketplace, nonprofit, business and food vendors. City of Sherman material independently identifies the Municipal Lawn and Oliver Dewey Mayor Gazebo Stage as an annual Sherman Arts Festival venue. TWG already has that venue as a complete publish-ready business record under exact slug oliver-dewey-mayor-gazebo-stage. The Municipal Building's official city address is 405 N Rusk St, Sherman, TX 75090 and is used as the geographic anchor for the festival, which extends onto the surrounding streets. No attendee admission price or age restriction was confirmed, so neither is inferred.",
+      "sources": [
+        {
+          "source_name": "City of Sherman — Arts Fest 2026 Vendor Application",
+          "source_url": "https://www.ci.sherman.tx.us/FormCenter/City-Manager-2/Arts-Fest-2026-Vendor-Application-91",
+          "source_type": "official organizer",
+          "supports": "45th annual event name, September 19, 2026 date, rain-or-shine status, municipal-ground street footprint, 9:00 AM-4:00 PM vendor activity window, vendor types and September 7 application deadline."
+        },
+        {
+          "source_name": "City of Sherman — Municipal Lawn & Gazebo Stage",
+          "source_url": "https://www.ci.sherman.tx.us/872/Kidd-Key-Park-Gazebo-Stage",
+          "source_type": "official venue",
+          "supports": "Oliver Dewey Mayor Gazebo Stage and Municipal Lawn as established Sherman Arts Festival grounds and City of Sherman outdoor event venue."
+        },
+        {
+          "source_name": "City of Sherman — Municipal Building Information",
+          "source_url": "https://ci.sherman.tx.us/FAQ.aspx?QID=208",
+          "source_type": "official city",
+          "supports": "405 N Rusk St address for the Sherman Municipal Building used as the geographic anchor for the surrounding-streets festival."
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [
+        "City of Sherman Tourism & Main Street"
       ],
       "last_checked": "2026-08-10",
       "created_on": "2026-08-10",
