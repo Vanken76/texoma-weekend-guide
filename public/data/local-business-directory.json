@@ -5,8 +5,8 @@
   "generated_on": "2026-08-11",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 750,
-  "publish_ready_count": 425,
+  "business_count": 751,
+  "publish_ready_count": 426,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -65324,6 +65324,197 @@
           "source_url": "https://business.gainesvillecofc.com/list/member/deschain-cellars-winery-lounge-5040",
           "source_type": "chamber",
           "supports": "Independent confirmation of business name, address, phone, winery operation, tastings, light fare, live music and private-event availability."
+        }
+      ],
+      "last_checked": "2026-08-11",
+      "created_on": "2026-08-11",
+      "updated_on": "2026-08-11"
+    },
+    {
+      "slug": "still-charming",
+      "business_name": "Still Charming",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "primary_category": "Consignment & Resale Shop",
+      "categories": [
+        "Consignment Shop",
+        "Upscale Resale",
+        "Thrift Store",
+        "Women's Clothing",
+        "Furniture",
+        "Home Decor",
+        "Accessories",
+        "Community Support Business"
+      ],
+      "tags": [
+        "Still Charming",
+        "Sherman",
+        "Downtown Sherman",
+        "Consignment",
+        "Resale",
+        "Upscale Thrift",
+        "Women's Clothing",
+        "Shoes",
+        "Accessories",
+        "Furniture",
+        "Home Decor",
+        "House of Eli",
+        "Shop Local",
+        "Community Impact",
+        "Grayson County",
+        "Texoma"
+      ],
+      "description": "Still Charming is a downtown Sherman consignment, resale and upscale thrift shop offering gently used women's clothing, shoes, accessories, furniture and home decor. The store operates as a support business for House of Eli, a Sherman nonprofit serving young men who have experienced foster care, incarceration, homelessness or other system involvement. Still Charming directs its proceeds toward House of Eli while also providing practical work and customer-service experience for young men in the program.",
+      "short_description": "Downtown Sherman upscale consignment and resale shop supporting House of Eli through retail sales, donations and job-skills training.",
+      "why_visit": "Still Charming offers the treasure-hunt appeal of a resale shop with a more curated focus on upscale clothing, accessories, furniture and home decor. Shopping, consigning or donating also supports House of Eli's work with young men in the Sherman community.",
+      "why_its_unique": "Still Charming is more than a resale store. The business exists specifically to help fund House of Eli and serves as one of the organization's practical learning environments, allowing young men to build skills in areas such as organization, retail operations and customer service while the store generates financial support for the nonprofit.",
+      "address": "125 N Travis St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-357-5256",
+      "email": "contact@stillcharming.com",
+      "website": "https://www.stillcharming.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "10:00 AM–5:00 PM",
+        "wednesday": "10:00 AM–5:00 PM",
+        "thursday": "10:00 AM–6:00 PM",
+        "friday": "10:00 AM–5:00 PM",
+        "saturday": "10:00 AM–4:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current first-party hours list Tuesday and Wednesday 10:00 AM-5:00 PM, Thursday 10:00 AM-6:00 PM, Friday 10:00 AM-5:00 PM and Saturday 10:00 AM-4:00 PM, with Monday closed. Current local business data also indicates Sunday closure.",
+      "price_range": null,
+      "audience": [
+        "Resale Shoppers",
+        "Consignment Sellers",
+        "Women's Fashion Shoppers",
+        "Furniture Shoppers",
+        "Home Decor Shoppers",
+        "Thrift Shoppers",
+        "Community Supporters"
+      ],
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "image_url": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "at_a_glance": {
+        "average_visit": "20–60 minutes",
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "reservations": "Not applicable",
+        "indoor_outdoor": "Indoor retail"
+      },
+      "features": [
+        "Upscale consignment",
+        "Women's clothing",
+        "Shoes",
+        "Accessories",
+        "Furniture",
+        "Home decor",
+        "Donations accepted",
+        "Clothing consignments",
+        "Furniture consignments",
+        "Furniture donation pickup",
+        "Free parking",
+        "Supports House of Eli",
+        "Job-skills learning environment",
+        "Downtown Sherman location"
+      ],
+      "good_to_know": [
+        "Still Charming is located at 125 N Travis St in downtown Sherman.",
+        "The store's primary public phone number is 903-357-5256.",
+        "Its public email address is contact@stillcharming.com.",
+        "Still Charming exists to generate support for House of Eli.",
+        "Store proceeds benefit House of Eli and the young men served by the organization.",
+        "Young men connected with House of Eli participate in much of the work at Still Charming.",
+        "The store is used as a practical learning environment for skills including organization and customer service.",
+        "Still Charming accepts gently used upscale women's clothing, shoes and accessories.",
+        "The store also accepts qualifying furniture and home-decor items.",
+        "Men's clothing is no longer accepted for consignment or donation.",
+        "Clothing consignments may be brought in during normal open days, with 11:00 AM-3:00 PM identified as the preferred drop-off window.",
+        "Clothing should be clean, pressed, current and ready for display.",
+        "Furniture consignments and donations require advance approval because of limited store space.",
+        "The store can provide furniture-consignment pickup for a small fee.",
+        "Approved furniture donations may be picked up free of charge.",
+        "Free parking is advertised for store visitors.",
+        "House of Eli is a separate nonprofit organization and does not yet have a canonical TWG business record, so TWG does not create an unsupported slug relationship in this record."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "event_types": [
+        "Special Sales",
+        "Donation Drives",
+        "House of Eli Fundraisers",
+        "Downtown Shopping Events",
+        "Community Promotions"
+      ],
+      "event_sources": [
+        "Still Charming official website",
+        "House of Eli official website",
+        "City of Sherman downtown business information",
+        "Downtown Sherman community sources"
+      ],
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Still Charming is located in Sherman, Texas."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Fully researched August 11, 2026. A fresh canonical GitHub search found no existing Still Charming record in the Texoma Weekend Guide repository, so this is a new business addition rather than a duplicate. Still Charming's official current website confirms active operation at 125 N Travis St, Sherman, TX 75090; phone 903-357-5256; email contact@stillcharming.com; upscale consignment and resale operations; clothing, furniture and home-decor inventory; donation and consignment programs; free parking; and current Tuesday-through-Saturday operating hours. The official site states that Still Charming exists to raise support for House of Eli, that proceeds benefit the organization and that young men connected to House of Eli carry out much of the store's work while developing job skills. House of Eli's own current website independently identifies Still Charming as part of its family of support businesses and confirms the same Sherman address and phone. The City of Sherman's current downtown business directory independently lists Still Charming as an active downtown shopping business. House of Eli does not currently have a canonical TWG business record, so TWG documents the relationship in descriptive fields without inventing a canonical business slug.",
+      "sources": [
+        {
+          "source_name": "Still Charming — Official Website",
+          "source_url": "https://www.stillcharming.com/",
+          "source_type": "official",
+          "supports": "Current operation, address, phone, email, hours, inventory, consignment and donation policies, free parking and House of Eli support relationship."
+        },
+        {
+          "source_name": "Still Charming — Our Mission",
+          "source_url": "https://www.stillcharming.com/our-mission",
+          "source_type": "official",
+          "supports": "House of Eli funding purpose, proceeds relationship and job-skills learning-lab mission."
+        },
+        {
+          "source_name": "Still Charming — Consignment",
+          "source_url": "https://www.stillcharming.com/consignment",
+          "source_type": "official",
+          "supports": "Accepted clothing, shoes, accessories, furniture and home decor and current consignment policies."
+        },
+        {
+          "source_name": "House of Eli — Official Website",
+          "source_url": "https://houseofeli.net/",
+          "source_type": "official nonprofit",
+          "supports": "House of Eli mission, young-adult population served and independent confirmation of Still Charming as a support business at 125 N Travis St."
+        },
+        {
+          "source_name": "City of Sherman — Downtown Business Directory",
+          "source_url": "https://www.ci.sherman.tx.us/2268/Business-Directory",
+          "source_type": "government",
+          "supports": "Independent current listing of Still Charming among downtown Sherman shopping businesses."
         }
       ],
       "last_checked": "2026-08-11",
