@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 197,
-  "publish_ready_count": 197,
+  "event_count": 198,
+  "publish_ready_count": 198,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -13697,6 +13697,69 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 11, 2026 from Tanglewood Resort's official Tanglewood Kids' Night page. The resort publishes Kids' Night every Monday from 5:00 PM to 8:00 PM at Tanglewood Bar & Grill. Published features include $5 kids meals with purchase of an adult entrée, a complimentary hot cocoa bar, board games and puzzles, and a free movie night in the indoor pool. The official page states that no reservations are needed. The recurring series does not publish an ending date, so recurrence_end_date is left null. TWG begins the recurring record with the next upcoming Monday occurrence, August 17, 2026. The existing canonical TWG venue is Tanglewood Resort on Lake Texoma under slug tanglewood-resort-on-lake-texoma.",
+      "last_checked": "2026-08-11",
+      "created_on": "2026-08-11",
+      "updated_on": "2026-08-11"
+    },
+    {
+      "event_slug": "silent-book-club-tanglewood-resort-pottsboro",
+      "event_name": "Silent Book Club at the Tower Whiskey Bar",
+      "description": "Tanglewood Resort hosts Silent Book Club on the fourth Thursday of each month at the Tower Whiskey Bar Observation Deck. Book lovers can bring whatever they are currently reading and enjoy a relaxed evening of quiet reading and conversation overlooking Lake Texoma. The event runs from 6:00 PM to 8:00 PM and is open to the public. Drinks are available for purchase, and Tanglewood advertises $4 charcuterie boards during the event.",
+      "start_datetime": "2026-08-27T18:00:00-05:00",
+      "end_datetime": "2026-08-27T20:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "tanglewood-resort-on-lake-texoma"
+      ],
+      "venue_name": "Tower Whiskey Bar at Tanglewood Resort",
+      "address": "290 Tanglewood Cir",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Books & Literature",
+        "Social Gathering",
+        "Community Event",
+        "Recurring Event"
+      ],
+      "tags": [
+        "Silent Book Club",
+        "Tower Whiskey Bar",
+        "Tanglewood Resort",
+        "Pottsboro",
+        "Lake Texoma",
+        "book club",
+        "reading",
+        "book lovers",
+        "community gathering"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "The event is open to the public. No admission fee is published. Drinks are available for purchase, and $4 charcuterie boards are advertised during the event.",
+      "audience": [
+        "Book lovers",
+        "General Public"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "tanglewood-resort-on-lake-texoma",
+      "organizer_name": "Tanglewood Resort",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/silent-book-club-tanglewood-resort-pottsboro.png",
+      "image_alt": null,
+      "official_url": "https://www.tanglewoodresort.com/silentbookclub",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=MONTHLY;BYDAY=4TH",
+      "recurrence_start_date": "2026-08-27",
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 11, 2026 from Tanglewood Resort's official Silent Book Club page. Tanglewood publishes the event on the fourth Thursday of each month from 6:00 PM to 8:00 PM at the Tower Whiskey Bar Observation Deck. The official description invites attendees to bring their own book for quiet reading and relaxation and states that the event is open to the public. Tanglewood advertises drinks for purchase, a punch card offering the tenth drink free after nine purchases, and $4 charcuterie boards. The next fourth-Thursday occurrence after verification is August 27, 2026. No admission charge, registration requirement, event-specific age restriction or recurrence ending date is published, so those details are not invented. The existing canonical TWG venue relationship is Tanglewood Resort on Lake Texoma under slug tanglewood-resort-on-lake-texoma.",
       "last_checked": "2026-08-11",
       "created_on": "2026-08-11",
       "updated_on": "2026-08-11"
