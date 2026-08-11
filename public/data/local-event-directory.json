@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 180,
-  "publish_ready_count": 180,
+  "event_count": 181,
+  "publish_ready_count": 181,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -12540,6 +12540,90 @@
           "source_url": "https://www.bandsintown.com/e/108662663-def-leggend-at-the-rialto-theater",
           "source_type": "artist event listing",
           "supports": "August 15, 2026 date, 8:00 PM CDT showtime, The Rialto Theater venue, 424 W Main St address and ticket-access option."
+        }
+      ],
+      "last_checked": "2026-08-11",
+      "created_on": "2026-08-11",
+      "updated_on": "2026-08-11"
+    },
+    {
+      "event_slug": "noah-hodges-live-the-point-restaurant-2026-08-15",
+      "event_name": "Noah Hodges Live at The Point Restaurant",
+      "description": "Spend Saturday evening on Lake Texoma with live music from Noah Hodges at The Point Restaurant in Denison. The waterfront restaurant hosts Noah Hodges from 6:00 PM to 9:00 PM on Saturday, August 15, 2026, giving guests an evening of live music, lake views, food and drinks at Grandpappy Point Resort & Marina.",
+      "start_datetime": "2026-08-15T18:00:00-05:00",
+      "end_datetime": "2026-08-15T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-point-restaurant"
+      ],
+      "venue_name": "The Point Restaurant",
+      "address": "1711 Harbor Rd",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Lake Texoma",
+        "Food & Drink",
+        "Entertainment"
+      ],
+      "tags": [
+        "Noah Hodges",
+        "Live Music",
+        "The Point Restaurant",
+        "Grandpappy Point",
+        "Lake Texoma",
+        "Waterfront Dining",
+        "Saturday Night",
+        "Denison"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No separate admission price was published on The Point Restaurant's official live-music listing.",
+      "audience": [
+        "Live Music Fans",
+        "Lake Texoma Visitors",
+        "Restaurant Guests"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "the-point-restaurant",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/noah-hodges-live-the-point-restaurant-2026-08-15.png",
+      "image_alt": null,
+      "official_url": "https://www.eatatthepoint.com/live-music-at-thepoint",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "Noah Hodges performs Saturday, August 15, 2026.",
+        "The published performance time is 6:00 PM to 9:00 PM.",
+        "The Point Restaurant is a waterfront restaurant on Lake Texoma.",
+        "The Point Restaurant is located inside Grandpappy Point Resort & Marina.",
+        "No separate event admission price or age restriction was published."
+      ],
+      "verification_note": "Fully researched August 11, 2026. The Point Restaurant's official current live-music calendar confirms Noah Hodges performing Saturday, August 15, 2026 from 6:00 PM to 9:00 PM at The Point Restaurant. The restaurant's official website confirms its address at 1711 Harbor Rd, Denison, TX 75020 and describes the business as a waterfront Lake Texoma restaurant at Grandpappy Point Resort & Marina. A fresh search of the canonical 180-event TWG directory found no existing Noah Hodges event record, so this is a new event rather than a duplicate. TWG canonical relationship data confirms the-point-restaurant as a separate business entity located within grandpappy-point-resort-marina-denison. No separate event admission price, age restriction or ticket requirement was published, so those details are not invented.",
+      "sources": [
+        {
+          "source_name": "The Point Restaurant — Live Music on Lake Texoma",
+          "source_url": "https://www.eatatthepoint.com/live-music-at-thepoint",
+          "source_type": "official venue",
+          "supports": "Noah Hodges, Saturday August 15, 2026, 6:00 PM-9:00 PM and The Point Restaurant venue."
+        },
+        {
+          "source_name": "The Point Restaurant — Official Website",
+          "source_url": "https://www.eatatthepoint.com/",
+          "source_type": "official venue",
+          "supports": "1711 Harbor Rd address, Lake Texoma waterfront setting and current restaurant operation."
         }
       ],
       "last_checked": "2026-08-11",
