@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 175,
-  "publish_ready_count": 175,
+  "event_count": 176,
+  "publish_ready_count": 176,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -12191,6 +12191,97 @@
       "partner_names": [
         "Southeastern Oklahoma State University Athletics"
       ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-11"
+    },
+    {
+      "event_slug": "pawtraits-pet-portrait-painting-workshop-pottsboro-2026-09-01",
+      "event_name": "Pawtraits: A Pet Portrait Painting Workshop",
+      "description": "Turn a favorite pet photo into a finished canvas during Pawtraits at the Pottsboro Area Public Library. This beginner-friendly painting workshop includes guidance from a professional artist, live demonstrations, personalized feedback and all necessary art supplies. Participants should register for the session and send a photo of their pet to the library in advance so they can create a personalized portrait during the workshop.",
+      "start_datetime": "2026-09-01T17:15:00-05:00",
+      "end_datetime": "2026-09-01T18:45:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "pottsboro-area-public-library"
+      ],
+      "venue_name": "Pottsboro Area Public Library",
+      "host_business_slug": "pottsboro-area-public-library",
+      "organizer_name": "Pottsboro Area Public Library",
+      "address": "104 N. Main St.",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Arts & Culture",
+        "Workshop",
+        "Painting",
+        "Community Event",
+        "Library Program"
+      ],
+      "tags": [
+        "Pawtraits",
+        "Pet Portrait",
+        "Pet Portrait Painting",
+        "Painting Workshop",
+        "Pottsboro Area Public Library",
+        "Art Workshop",
+        "Pets",
+        "Beginner Friendly",
+        "Creative Activities",
+        "Pottsboro"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "Registration is required. The current official library listing does not publish an admission or materials fee.",
+      "audience": [
+        "Pet owners",
+        "Beginning painters",
+        "Art enthusiasts",
+        "Community members"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/pawtraits-pet-portrait-painting-workshop-pottsboro-2026-09-01.png",
+      "image_alt": null,
+      "official_url": "https://pottsboro.biblionix.com/catalog/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "recurrence_notes": "The library currently lists additional Pawtraits sessions on October 6 and November 3, 2026. Participants are instructed to sign up for one session. TWG should treat each dated workshop as its own event occurrence if the later sessions are added.",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The workshop is Tuesday, September 1, 2026.",
+        "The session runs from 5:15 PM to 6:45 PM.",
+        "The workshop takes place at the Pottsboro Area Public Library.",
+        "The program is designed to be beginner-friendly.",
+        "A professional artist will guide participants.",
+        "The workshop includes instruction, live demonstrations and personalized feedback.",
+        "Participants will leave with a finished canvas portrait of their pet.",
+        "Art supplies are provided.",
+        "Registration is required.",
+        "Participants should email a photo of their pet to pottsborolibrary@gmail.com by August 24, 2026.",
+        "The current official listing does not publish an admission or materials fee.",
+        "No age restriction is currently published.",
+        "Additional Pawtraits workshops are currently scheduled for October 6 and November 3, 2026."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contains 175 events and 175 publish-ready records. Searches for Pawtraits, Pet Portrait and the September 1 date found no existing Pawtraits event record. The Pottsboro Area Public Library's official Biblionix calendar confirms Pawtraits: A Pet Portrait Painting Workshop on Tuesday, September 1, 2026 from 5:15 PM to 6:45 PM. The official description states that the workshop is beginner-friendly and includes professional artist guidance, live demonstrations, personalized feedback and supplied materials, with each participant leaving with a finished canvas of their pet. Participants must sign up for one session and email a picture of their pet to pottsborolibrary@gmail.com by August 24, 2026. The same official calendar currently lists additional Pawtraits sessions on October 6 and November 3. No admission price or age restriction is published, so TWG does not infer either. The venue already exists as a publish-ready TWG business under exact slug pottsboro-area-public-library.",
+      "sources": [
+        {
+          "source_name": "Pottsboro Area Public Library — Official Calendar",
+          "source_url": "https://pottsboro.biblionix.com/catalog/",
+          "source_type": "official organizer",
+          "supports": "September 1, 2026 date, 5:15-6:45 PM schedule, workshop description, professional instruction, supplies, registration requirement, pet-photo deadline and additional October and November sessions."
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [],
       "last_checked": "2026-08-10",
       "created_on": "2026-08-10",
       "updated_on": "2026-08-11"
