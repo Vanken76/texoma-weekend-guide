@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 202,
-  "publish_ready_count": 202,
+  "event_count": 203,
+  "publish_ready_count": 203,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -14000,6 +14000,68 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 11, 2026 from the current official 34 Chophouse website. The venue publishes live music at Doc's Lounge every Thursday from 6:00 PM to 8:00 PM and separately confirms that Doc's Lounge hosts live music Thursday through Saturday. The current TWG business directory already contains 34 Chophouse & Doc's Lounge as a completed live-music venue at 331 W Main St, Denison, TX 75020. The current TWG public event directory was checked for both '34 Chophouse' and 'Doc's Lounge' and contains no matching event. No admission charge or age restriction is published on the official live-music listing, so neither is inferred.",
+      "last_checked": "2026-08-11",
+      "created_on": "2026-08-11",
+      "updated_on": "2026-08-11"
+    },
+    {
+      "event_slug": "blitz-and-brews-chess-night-denison",
+      "event_name": "Blitz and Brews Chess Night",
+      "description": "Blitz and Brews hosts its monthly open-play chess night at Say When Brewing Company in downtown Denison. Chess boards are provided, and players of all skill levels are welcome. Beer and pizza are available for purchase from Say When Brewing Company.",
+      "start_datetime": "2026-08-13T19:00:00-05:00",
+      "end_datetime": "2026-08-13T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "say-when-brewing-company"
+      ],
+      "venue_name": "Say When Brewing Company",
+      "address": "111 S Fannin Ave",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Games",
+        "Community Event",
+        "Food & Drink"
+      ],
+      "tags": [
+        "Blitz and Brews",
+        "chess",
+        "chess night",
+        "open play",
+        "board games",
+        "Say When Brewing Company",
+        "downtown Denison",
+        "Denison"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free open-play chess night. Beer and pizza are available for purchase from Say When Brewing Company.",
+      "audience": [
+        "Chess players",
+        "Beginners",
+        "Experienced players"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "say-when-brewing-company",
+      "organizer_name": "Blitz and Brews",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/blitz-and-brews-chess-night-denison.png",
+      "image_alt": null,
+      "official_url": "https://blitzandbrews.com/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=MONTHLY;BYDAY=2TH",
+      "recurrence_start_date": "2026-08-13",
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 11, 2026 from the official Blitz and Brews website. Blitz and Brews states that the brewery chess meetup takes place at Say When Brewing Company every second Thursday of the month from 7:00 PM to 9:00 PM. The organizer describes the meetup as free open play, says chess boards are provided, and welcomes players of all skill levels. Beer and pizza are available for purchase from Say When Brewing Company. The official site gives the location as 111 S Fannin Ave, Denison, TX 75020. The next second Thursday after verification is August 13, 2026. No age restriction is published, so none is inferred. The TWG event directory was checked for 'Blitz and Brews' and contained no matching record.",
       "last_checked": "2026-08-11",
       "created_on": "2026-08-11",
       "updated_on": "2026-08-11"
