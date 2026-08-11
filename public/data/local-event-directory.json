@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 170,
-  "publish_ready_count": 170,
+  "event_count": 171,
+  "publish_ready_count": 171,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -11649,6 +11649,119 @@
       "partner_business_slugs": [],
       "partner_names": [
         "Denison Arts Council"
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-11"
+    },
+    {
+      "event_slug": "senior-fishing-festival-waterloo-lake-2026-10-02",
+      "event_name": "Senior Fishing Festival",
+      "description": "Senior anglers age 50 and older can spend the morning fishing, competing and socializing at the 2026 Senior Fishing Festival at Waterloo Lake Regional Park in Denison. The event includes fishing contests for big fish, small fish and most fish, a casting contest, prizes and a lunch and awards presentation under the pavilion. Participants should bring their own fishing equipment and bait and must follow applicable Texas fishing-license and harvest regulations.",
+      "start_datetime": "2026-10-02T07:30:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "waterloo-lake-regional-park-denison"
+      ],
+      "venue_name": "Waterloo Lake Regional Park",
+      "host_business_slug": "waterloo-lake-regional-park-denison",
+      "organizer_name": "Denison Parks & Recreation and Sherman Senior Center",
+      "address": "1101 Waterloo Lake Drive",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Fishing",
+        "Senior Activities",
+        "Outdoor Recreation",
+        "Community Event",
+        "Competition"
+      ],
+      "tags": [
+        "Senior Fishing Festival",
+        "Waterloo Lake",
+        "Waterloo Lake Regional Park",
+        "Fishing",
+        "Senior Activities",
+        "Fishing Contest",
+        "Casting Contest",
+        "Outdoor Recreation",
+        "Denison",
+        "Sherman Senior Center",
+        "Denison Parks and Recreation"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "A 2026 registration fee is not currently published on the official event page. Registration opens September 1, 2026. September 21 is the deadline to guarantee a participant cap, although registrations will continue to be accepted through the morning of the event.",
+      "audience": [
+        "Residents age 50 and older",
+        "Senior anglers",
+        "Fishing enthusiasts"
+      ],
+      "age_restriction": "Participants must be age 50 or older as of October 2, 2026.",
+      "image_url": "/images/events/senior-fishing-festival-waterloo-lake-2026-10-02.png",
+      "image_alt": null,
+      "official_url": "https://www.denisontx.gov/629/Senior-Fishing-Festival",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The Senior Fishing Festival is Friday, October 2, 2026 at Waterloo Lake Regional Park.",
+        "Check-in runs from 7:30 AM to 8:00 AM.",
+        "The fishing contest begins at 8:00 AM.",
+        "The casting contest runs from 9:30 AM to 10:30 AM.",
+        "The fishing contest ends at 11:00 AM.",
+        "Lunch and presentation of prizes begin at 11:30 AM; no final event ending time is published.",
+        "Participants must be age 50 or older as of October 2, 2026.",
+        "The registration deadline to guarantee a participant cap is September 21, although registrations will be accepted through the morning of the event.",
+        "Online registration is scheduled to open September 1.",
+        "Participants must provide their own fishing equipment and bait.",
+        "Artificial lures and live bait are allowed.",
+        "Worms will be available for purchase on-site.",
+        "Fishing is permitted from the bank and piers only during the event.",
+        "Texas Parks and Wildlife Department fishing-license requirements and fish harvest regulations apply.",
+        "The official event page states that anyone born before January 1, 1931 does not need a fishing license.",
+        "Senior fishing-license packages are available for qualifying anglers age 65 and older.",
+        "Contests include Big Fish, Small Fish, Most Fish and Casting.",
+        "The casting contest has separate men's and women's divisions.",
+        "Prizes are awarded in men's and women's divisions.",
+        "Seating beside the water is limited, so participants are encouraged to bring a lawn chair or stool.",
+        "Lunch is served under the pavilion, where picnic-table seating is available."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contains 170 events and 170 publish-ready records. Searches for Senior Fishing, Fishing Festival and senior-fishing-festival returned no existing event record. Waterloo Lake Regional Park is already a verified TWG business and event venue under the exact canonical slug waterloo-lake-regional-park-denison, so no new venue record is required. The City of Denison's official 2026 Senior Fishing Festival page confirms Friday, October 2, 2026 at Waterloo Lake Regional Park, 1101 Waterloo Lake Drive, Denison. Check-in is 7:30-8:00 AM, the fishing contest begins at 8:00 AM, the casting contest runs 9:30-10:30 AM, fishing ends at 11:00 AM and lunch/presentation of prizes begins at 11:30 AM. Because no ending time for the lunch and awards portion is published, end_datetime remains null. The official page states that participants must be residents age 50 or older, must provide their own equipment and bait, and must comply with applicable Texas fishing-license and harvest regulations. Fishing is limited to banks and piers. Registration opens September 1, and September 21 is the deadline to guarantee a cap; registrations are accepted through event morning. The current official page does not publish the 2026 registration fee, so TWG does not carry forward the $5 fee reported for the 2025 festival. Registration forms are directed to Sherman Senior Center and checks are payable to the City of Sherman. A 2025 KXII report independently describes the long-running festival as a collaboration between Sherman Senior Center and Denison Parks & Recreation.",
+      "sources": [
+        {
+          "source_name": "City of Denison — Senior Fishing Festival",
+          "source_url": "https://www.denisontx.gov/629/Senior-Fishing-Festival",
+          "source_type": "official organizer",
+          "supports": "2026 date, Waterloo Lake location, eligibility, registration deadline, complete event schedule, fishing-license requirements, equipment requirements, contests, seating guidance and registration instructions."
+        },
+        {
+          "source_name": "City of Denison — Special Events",
+          "source_url": "https://www.denisontx.gov/243/Special-Events",
+          "source_type": "official city event index",
+          "supports": "Independent official listing of Senior Fishing Festival on October 2, 2026."
+        },
+        {
+          "source_name": "KXII — 32nd Annual Senior Fishing Festival",
+          "source_url": "https://www.kxii.com/2025/09/30/denison-holding-32nd-annual-senior-fishing-festival-waterloo-lake/",
+          "source_type": "regional news / historical organizer verification",
+          "supports": "Historical confirmation that the recurring festival is jointly operated by Sherman Senior Center and Denison Parks & Recreation. The prior-year fee is not applied to the 2026 record."
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Sherman Senior Center",
+        "Denison Parks & Recreation"
       ],
       "last_checked": "2026-08-10",
       "created_on": "2026-08-10",
