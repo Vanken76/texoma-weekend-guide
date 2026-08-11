@@ -5,8 +5,8 @@
   "generated_on": "2026-08-11",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 751,
-  "publish_ready_count": 426,
+  "business_count": 752,
+  "publish_ready_count": 427,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -65515,6 +65515,203 @@
           "source_url": "https://www.ci.sherman.tx.us/2268/Business-Directory",
           "source_type": "government",
           "supports": "Independent current listing of Still Charming among downtown Sherman shopping businesses."
+        }
+      ],
+      "last_checked": "2026-08-11",
+      "created_on": "2026-08-11",
+      "updated_on": "2026-08-11"
+    },
+    {
+      "slug": "house-of-eli",
+      "business_name": "House of Eli",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "primary_category": "Nonprofit Organization",
+      "categories": [
+        "Nonprofit Organization",
+        "Transitional Living Program",
+        "Youth Services",
+        "Young Adult Services",
+        "Vocational Training",
+        "Life Skills Program",
+        "Community Organization",
+        "Faith-Based Organization"
+      ],
+      "tags": [
+        "House of Eli",
+        "Sherman",
+        "Grayson County",
+        "Texoma",
+        "Nonprofit",
+        "Transitional Living",
+        "Young Adults",
+        "Foster Care",
+        "Juvenile Justice",
+        "Homelessness Prevention",
+        "Life Skills",
+        "Vocational Training",
+        "Entrepreneurship",
+        "Mentoring",
+        "Second Chances",
+        "Still Charming",
+        "Eli Bros"
+      ],
+      "description": "House of Eli is a Sherman nonprofit ministry providing a home, support and practical preparation for young men ages 18–21 who have been involved in the juvenile justice system, are aging out of foster care, have experienced incarceration or are facing homelessness. Its immersive transitional-living program combines residential stability, life-skills development, vocational training, mentoring and business entrepreneurship in a Christ-centered family environment designed to help participants build healthy, independent and productive adult lives.",
+      "short_description": "Sherman nonprofit providing transitional housing, life skills, vocational training and entrepreneurship opportunities for system-involved and vulnerable young men ages 18–21.",
+      "why_visit": "House of Eli is primarily a residential and service organization rather than a casual visitor attraction. Community members can connect with the organization to donate, volunteer, support its programs, refer an eligible young man or learn about its affiliated training businesses.",
+      "why_its_unique": "House of Eli combines a home-like transitional-living environment with hands-on vocational and entrepreneurship training. Rather than focusing only on housing, the organization uses mentoring and practical business experience to help young men develop the skills, confidence and work habits needed for long-term independence.",
+      "address": "123 S Ricketts St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75092",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-771-4339",
+      "email": "contact@houseofeli.net",
+      "website": "https://houseofeli.net/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "hours": null,
+      "hours_note": "House of Eli does not publish standard public walk-in business hours. Contact the organization directly before visiting or arranging services, volunteering, referrals or donations.",
+      "price_range": null,
+      "audience": [
+        "Community Supporters",
+        "Donors",
+        "Volunteers",
+        "Mentors",
+        "Referral Professionals",
+        "Probation Officers",
+        "Case Managers",
+        "Social-Service Professionals",
+        "Young Men Ages 18–21 Seeking Eligible Placement"
+      ],
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "image_url": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "reservations": "Contact required",
+        "indoor_outdoor": null
+      },
+      "features": [
+        "Transitional living",
+        "Residential stability",
+        "Life-skills training",
+        "Vocational training",
+        "Business entrepreneurship training",
+        "Mentoring",
+        "Case support",
+        "Independent-living preparation",
+        "Employment-skills development",
+        "Community partnerships",
+        "Volunteer opportunities",
+        "Donation opportunities",
+        "Referral and admissions program",
+        "Affiliated training businesses"
+      ],
+      "good_to_know": [
+        "House of Eli is located in Sherman, Texas.",
+        "The organization serves eligible young men ages 18–21.",
+        "Participants may include young men involved in the juvenile justice system, aging out of foster care or experiencing homelessness.",
+        "House of Eli states that there is no cost to place an eligible young man in its program.",
+        "The organization is funded through private donors, foundations and community partners.",
+        "Admissions are reviewed individually.",
+        "Probation officers and case managers can submit placement applications through the official House of Eli admissions process.",
+        "Applicants complete an interview before placement.",
+        "The organization describes its core program as a 12-to-18-month immersive experience.",
+        "Programming includes transitional living, vocational training and business entrepreneurship.",
+        "House of Eli operates in a Christ-centered family environment.",
+        "Founder Tawni Hodge and Laura Ayers currently share co-directorship of the program.",
+        "House of Eli is a 501(c)(3) nonprofit organization.",
+        "Financial donations can be made through the organization's official website.",
+        "The organization also maintains an Amazon wishlist.",
+        "Volunteer and service-interest inquiries can be submitted through the official website.",
+        "Still Charming is an affiliated resale and consignment business whose proceeds benefit House of Eli.",
+        "Still Charming also serves as a hands-on retail, computer-skills and customer-service learning environment for House of Eli participants.",
+        "House of Eli also operates Eli Bros family businesses as vocational learning labs.",
+        "Eli Bros training includes construction, landscaping, fencing, moving and customer-service skills.",
+        "Because House of Eli is a residential support program, visitors should contact the organization rather than treating the published address as a walk-in attraction."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "event_types": [
+        "Fundraisers",
+        "Benefit Events",
+        "Donation Drives",
+        "Volunteer Events",
+        "Community Outreach",
+        "House of Eli Special Events"
+      ],
+      "event_sources": [
+        "House of Eli official website",
+        "House of Eli official announcements",
+        "Still Charming official website",
+        "Sherman community-event sources"
+      ],
+      "parent_business": null,
+      "related_businesses": [
+        {
+          "slug": "still-charming",
+          "business_name": "Still Charming",
+          "relationship_note": "Still Charming is an affiliated consignment and resale business whose proceeds support House of Eli and which provides hands-on retail and job-skills experience for House of Eli participants."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "House of Eli is located in Sherman, Texas."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Fully researched August 11, 2026. The current canonical TWG business directory contains 751 businesses and 426 publish-ready records. Fresh review confirms House of Eli does not yet exist as its own canonical business record; references currently appear only within the recently added Still Charming record. House of Eli's official current website confirms active operation as a 501(c)(3) nonprofit ministry at 123 S Ricketts St, Sherman, TX 75092, phone 903-771-4339 and email contact@houseofeli.net. The organization serves young men ages 18–21 who have been involved in the juvenile justice system, previously incarcerated, aging out of foster care or experiencing homelessness. Its current program includes residential stability, transitional living, life-skills development, vocational training and business entrepreneurship in a Christ-centered family environment. The official admissions page states that placement is provided at no cost and that cases are reviewed individually. The official organization history identifies Tawni Hodge as founder and co-director and Laura Ayers as co-director and describes the program as a 12-to-18-month immersive model. House of Eli's current Eli Bros information confirms hands-on vocational training in construction, landscaping, fencing, moving and customer service, while Still Charming provides retail, computer and customer-service training and directs proceeds to House of Eli. No standard public walk-in hours are published, so TWG does not invent them.",
+      "sources": [
+        {
+          "source_name": "House of Eli — Official Website",
+          "source_url": "https://houseofeli.net/",
+          "source_type": "official",
+          "supports": "Current nonprofit mission, population served, Sherman address, phone, email, Still Charming relationship and affiliated Eli Bros businesses."
+        },
+        {
+          "source_name": "House of Eli — Our Story",
+          "source_url": "https://houseofeli.net/our-story",
+          "source_type": "official",
+          "supports": "Founding history, transitional living, vocational training, entrepreneurship model, 12-to-18-month program and current leadership."
+        },
+        {
+          "source_name": "House of Eli — Admissions",
+          "source_url": "https://houseofeli.net/admissions",
+          "source_type": "official",
+          "supports": "Ages 18–21, placement eligibility, no-cost placement, application and interview process."
+        },
+        {
+          "source_name": "House of Eli — Eli Bros Family Businesses",
+          "source_url": "https://houseofeli.net/eli-bros",
+          "source_type": "official",
+          "supports": "Vocational apprenticeship model, construction, landscaping, fencing, moving and Still Charming retail-skills training."
+        },
+        {
+          "source_name": "House of Eli — Donate",
+          "source_url": "https://houseofeli.net/donate",
+          "source_type": "official",
+          "supports": "Current donation options, nonprofit status and Amazon wishlist."
         }
       ],
       "last_checked": "2026-08-11",
