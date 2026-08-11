@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 171,
-  "publish_ready_count": 171,
+  "event_count": 172,
+  "publish_ready_count": 172,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -11761,6 +11761,108 @@
       "partner_business_slugs": [],
       "partner_names": [
         "Sherman Senior Center",
+        "Denison Parks & Recreation"
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-11"
+    },
+    {
+      "event_slug": "storywalk-picture-book-by-dog-thf-park-2026-09-18",
+      "event_name": "StoryWalk at THF Park — Picture Book By Dog",
+      "description": "Denison Parks & Recreation and Denison Public Library invite families to enjoy a StoryWalk at Texoma Health Foundation Park featuring Picture Book By Dog by Michael Relth. Visitors can move through the StoryWalk trail while enjoying the featured children's book and related activities. This September installment is accompanied by Scooby Snacks and Dog Treats and takes place at the THF Park Pavilion.",
+      "start_datetime": "2026-09-18T10:00:00-05:00",
+      "end_datetime": "2026-09-18T11:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "texoma-health-foundation-park-denison"
+      ],
+      "venue_name": "Texoma Health Foundation Park",
+      "host_business_slug": "texoma-health-foundation-park-denison",
+      "organizer_name": "Denison Parks & Recreation and Denison Public Library",
+      "address": "3801 S US Highway 75",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Family Event",
+        "Children's Activities",
+        "Literary Event",
+        "Outdoor Recreation",
+        "Educational"
+      ],
+      "tags": [
+        "StoryWalk",
+        "Picture Book By Dog",
+        "Michael Relth",
+        "Texoma Health Foundation Park",
+        "THF Park",
+        "Denison Public Library",
+        "Denison Parks and Recreation",
+        "Children's Books",
+        "Reading",
+        "Family Friendly",
+        "Outdoor Activities",
+        "Denison"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No admission fee or registration requirement is stated on the current official program listing.",
+      "audience": [
+        "Families",
+        "Children",
+        "Parents and caregivers",
+        "Young readers"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/storywalk-picture-book-by-dog-thf-park-2026-09-18.png",
+      "image_alt": null,
+      "official_url": "https://www.denisontx.gov/525/Current-Programs",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "recurrence_notes": "This is one dated installment in Denison Parks & Recreation's 2026 StoryWalks at THF Park series. Other installments feature different books and activities and should be treated as separate dated event occurrences if added to TWG.",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The event is Friday, September 18, 2026.",
+        "The StoryWalk runs from 10:00 AM to 11:00 AM.",
+        "The featured book is Picture Book By Dog by Michael Relth.",
+        "The September program is accompanied by Scooby Snacks and Dog Treats.",
+        "The event takes place at the THF Park Pavilion inside Texoma Health Foundation Park.",
+        "Texoma Health Foundation Park is located at 3801 S US Highway 75 in Denison.",
+        "Denison Parks & Recreation and Denison Public Library jointly present the StoryWalk program.",
+        "The program combines a featured children's book with book-themed activities along the StoryWalk trail.",
+        "No admission price is currently published.",
+        "No registration requirement is currently published.",
+        "No age restriction is published."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contains 171 events and 171 publish-ready records. Searches for StoryWalk and Picture Book By Dog returned no existing event record. A September 18 duplicate search returned unrelated events but no StoryWalk occurrence. The City of Denison's official Current Programs page lists StoryWalks at THF Park as a joint Denison Parks & Recreation and Denison Public Library program. The September 18, 2026 installment features Picture Book By Dog by Michael Relth, accompanied by Scooby Snacks and Dog Treats, and runs from 10:00 AM to 11:00 AM at the THF Park Pavilion. The City of Denison's official Texoma Health Foundation Park facility page confirms the park at 3801 South US Hwy 75, Denison, TX 75020, identifies the pavilion as an amenity beside the playground and splash pad, and specifically lists StoryWalk Events among programs held at THF Park. TWG already has a complete publish-ready Texoma Health Foundation Park business record under the exact slug texoma-health-foundation-park-denison. An older unpublished candidate with slug texoma-health-foundation-park also exists and should not be used for this event relationship. Denison Public Library is separately published in TWG under slug denison-public-library. No event admission price, registration requirement or age restriction is stated on the current official listing, so none is inferred.",
+      "sources": [
+        {
+          "source_name": "City of Denison — Current Programs",
+          "source_url": "https://www.denisontx.gov/525/Current-Programs",
+          "source_type": "official organizer",
+          "supports": "September 18, 2026 date, 10:00-11:00 AM time, Picture Book By Dog by Michael Relth, Scooby Snacks and Dog Treats, THF Park Pavilion location and joint presentation by Denison Parks & Recreation and Denison Public Library."
+        },
+        {
+          "source_name": "City of Denison — Texoma Health Foundation Park",
+          "source_url": "https://denisontx.gov/Facilities/Facility/Details/Texoma-Health-Foundation-Park-26",
+          "source_type": "official venue",
+          "supports": "Texoma Health Foundation Park name, 3801 South US Hwy 75 address, pavilion location and confirmation that StoryWalk events are hosted at the park."
+        }
+      ],
+      "partner_business_slugs": [
+        "denison-public-library"
+      ],
+      "partner_names": [
+        "Denison Public Library",
         "Denison Parks & Recreation"
       ],
       "last_checked": "2026-08-10",
