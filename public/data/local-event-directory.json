@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 173,
-  "publish_ready_count": 173,
+  "event_count": 174,
+  "publish_ready_count": 174,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -11970,6 +11970,121 @@
       "partner_business_slugs": [],
       "partner_names": [
         "City of Sherman Tourism & Main Street"
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-11"
+    },
+    {
+      "event_slug": "project-wild-workshop-denison-2026-10-15",
+      "event_name": "Project WILD Workshop - Denison",
+      "description": "Educators, homeschoolers, scout leaders and others who work with children or the public can spend a day at Eisenhower State Park exploring Project WILD's hands-on wildlife and ecosystem curriculum. The workshop features engaging TEKS-aligned outdoor learning activities and professional networking. Participants who complete the full workshop receive six hours of TEA-approved CPE and TEEAC credit, a Project WILD K-12 curriculum guide and Texas-specific educational resources.",
+      "start_datetime": "2026-10-15T09:00:00-05:00",
+      "end_datetime": "2026-10-15T15:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "eisenhower-state-park"
+      ],
+      "venue_name": "Eisenhower State Park",
+      "host_business_slug": "eisenhower-state-park",
+      "organizer_name": "Texas Parks & Wildlife Department — Project WILD",
+      "address": "50 Park Road 20",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020-4878",
+      "latitude": 33.810339,
+      "longitude": -96.599971,
+      "categories": [
+        "Workshop",
+        "Education",
+        "Professional Development",
+        "Outdoor Education",
+        "Wildlife",
+        "Nature"
+      ],
+      "tags": [
+        "Project WILD",
+        "Project WILD Workshop",
+        "Eisenhower State Park",
+        "Texas Parks and Wildlife",
+        "Educators",
+        "Teachers",
+        "Homeschoolers",
+        "Scout Leaders",
+        "Wildlife Education",
+        "Outdoor Learning",
+        "TEKS",
+        "CPE Credit",
+        "TEEAC Credit",
+        "Denison",
+        "Lake Texoma"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$35 registration fee required. Registration closes September 30, 2026.",
+      "audience": [
+        "Teachers",
+        "Homeschool educators",
+        "Informal educators",
+        "Scout leaders",
+        "Youth educators",
+        "People who work in education with children or the public"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/project-wild-workshop-denison-2026-10-15.png",
+      "image_alt": null,
+      "official_url": "https://tpwd.texas.gov/calendar/education/wild/project-wild-workshop-denison",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The workshop is Thursday, October 15, 2026.",
+        "The program runs from 9:00 AM to 3:00 PM.",
+        "The workshop takes place at Eisenhower State Park in Denison.",
+        "Registration costs $35.",
+        "Registration closes September 30, 2026.",
+        "The workshop is designed for teachers, homeschoolers, informal educators, scout leaders and others who work in education with children or the public.",
+        "Participants experience hands-on wildlife and ecosystem activities aligned with Texas Essential Knowledge and Skills.",
+        "Participants receive six hours of TEA-approved continuing professional education credit.",
+        "Participants also receive TEEAC credit.",
+        "Participants receive a Project WILD K-12 curriculum guide.",
+        "Texas-specific educational resources are included.",
+        "Participants should dress for outdoor learning.",
+        "Bring a sack lunch and water for the day.",
+        "Attendance and participation in the complete workshop are required to receive Project WILD materials.",
+        "The event contact is Haylea Jacobs with Texas Parks & Wildlife Department at 903-718-7183."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contains 173 events and 173 publish-ready records. Searches for Project WILD, WILD Workshop and the October 15, 2026 date returned no existing canonical event record. Texas Parks & Wildlife Department's official Project WILD Workshop - Denison listing confirms Thursday, October 15, 2026 from 9:00 AM to 3:00 PM at Eisenhower State Park. The event is professional development for teachers, homeschoolers, informal educators, scout leaders and others who work in education with children or the public. The workshop uses hands-on wildlife and ecosystem activities aligned with TEKS. Participants receive six hours of TEA-approved CPE and TEEAC credit, the Project WILD K-12 guide and Texas-specific resources. The registration fee is $35 and registration closes September 30, 2026. Participants are instructed to dress for outdoor learning and bring a sack lunch and water. Full attendance and participation are required to receive the training materials. Fresh TWG business-directory searches found no exact published Eisenhower State Park business record, so the fully researched state-park venue should be added first under slug eisenhower-state-park.",
+      "sources": [
+        {
+          "source_name": "Texas Parks & Wildlife — Project WILD Workshop - Denison",
+          "source_url": "https://tpwd.texas.gov/calendar/education/wild/project-wild-workshop-denison",
+          "source_type": "official organizer",
+          "supports": "October 15, 2026 date, 9:00 AM-3:00 PM time, Eisenhower State Park venue, audience, curriculum, professional-development credits, included resources, $35 fee, September 30 registration deadline and participant instructions."
+        },
+        {
+          "source_name": "Texas Parks & Wildlife — Project WILD Workshops",
+          "source_url": "https://tpwd.texas.gov/calendar/project-wild-growing-up-wild-workshops",
+          "source_type": "official program calendar",
+          "supports": "Independent first-party confirmation of the October 15 Denison Project WILD workshop at Eisenhower State Park."
+        },
+        {
+          "source_name": "Texas Parks & Wildlife — Eisenhower State Park",
+          "source_url": "https://tpwd.texas.gov/state-parks/eisenhower",
+          "source_type": "official venue",
+          "supports": "Venue address, coordinates, contact information and current state-park identity."
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Texas Parks & Wildlife Department",
+        "Project WILD"
       ],
       "last_checked": "2026-08-10",
       "created_on": "2026-08-10",
