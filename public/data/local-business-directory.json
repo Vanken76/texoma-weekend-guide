@@ -5,8 +5,8 @@
   "generated_on": "2026-08-11",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 747,
-  "publish_ready_count": 422,
+  "business_count": 748,
+  "publish_ready_count": 423,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -64830,6 +64830,196 @@
           "source_url": "https://tpwd.texas.gov/state-parks/parks/things-to-do/boat-rentals-at-state-parks",
           "source_type": "official government",
           "supports": "Eisenhower Yacht Club canoe, kayak and stand-up paddleboard rentals."
+        }
+      ],
+      "last_checked": "2026-08-10",
+      "last_verified": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-10"
+    },
+    {
+      "slug": "paul-laird-field-spend-life-wisely-stadium",
+      "business_name": "Paul Laird Field at Spend Life Wisely Stadium",
+      "status": "active",
+      "active": true,
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "primary_category": "Football Stadium",
+      "category": [
+        "Football Stadium",
+        "College Athletics Venue",
+        "Sports Venue",
+        "Event Venue"
+      ],
+      "categories": [
+        "Football Stadium",
+        "College Athletics Venue",
+        "Sports Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Paul Laird Field",
+        "Spend Life Wisely Stadium",
+        "Southeastern Oklahoma State University",
+        "Savage Storm",
+        "Southeastern Football",
+        "College Football",
+        "NCAA Division II",
+        "Sports",
+        "Durant",
+        "Oklahoma",
+        "Bryan County"
+      ],
+      "description": "Paul Laird Field at Spend Life Wisely Stadium is the football stadium at Southeastern Oklahoma State University in Durant. The venue serves as the home field of Savage Storm football and is also used for other university, school and community athletic activities. Current university facility information lists seating for approximately 4,000 spectators along with Wi-Fi, two locker rooms, stadium audio and a video board. A major renovation project is scheduled to begin after the 2026 football season, with completion planned before the 2027 season.",
+      "short_description": "Southeastern Oklahoma State University's 4,000-seat football stadium and home of Savage Storm football in Durant.",
+      "why_visit": "Catch NCAA Division II college football and other community athletics in the heart of Southeastern Oklahoma State University's Durant campus.",
+      "why_its_unique": "Paul Laird Field is the long-time home of Southeastern football and is entering a major new chapter with the university's Spend Life Wisely Stadium renovation project scheduled to begin after the 2026 season.",
+      "service_area_or_location": "218 University Blvd, Durant, OK 74701 — Southeastern Oklahoma State University football stadium",
+      "address": "218 University Blvd",
+      "street_address": "218 University Blvd",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "zip_code": "74701",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": "580-745-2000",
+      "email": null,
+      "website": "https://gosoutheastern.com/facilities/paul-laird-field-at-spend-life-wisely-stadium/3",
+      "url": "https://gosoutheastern.com/facilities/paul-laird-field-at-spend-life-wisely-stadium/3",
+      "facebook": "https://www.facebook.com/GoSoutheastern",
+      "facebook_url": "https://www.facebook.com/GoSoutheastern",
+      "instagram": "https://www.instagram.com/gosoutheastern/",
+      "instagram_url": "https://www.instagram.com/gosoutheastern/",
+      "x_url": "https://x.com/GoSoutheastern",
+      "youtube_url": null,
+      "tiktok_url": null,
+      "hours": {},
+      "hours_note": "The stadium does not operate on normal storefront hours. Public access is tied to scheduled games, camps, university programs and other events.",
+      "price_range": null,
+      "owner": "Southeastern Oklahoma State University",
+      "ownership": {
+        "owner": "Southeastern Oklahoma State University",
+        "type": "Public university athletic facility"
+      },
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "College football",
+        "Football games",
+        "Athletic camps",
+        "University events",
+        "Community athletic events"
+      ],
+      "event_sources": [
+        "https://gosoutheastern.com/sports/football/schedule",
+        "https://www.se.edu/calendar/",
+        "https://gosoutheastern.com/"
+      ],
+      "audience": [
+        "College football fans",
+        "Southeastern students",
+        "Southeastern alumni",
+        "Families",
+        "Sports fans",
+        "Durant residents",
+        "Visitors"
+      ],
+      "capacity": 4000,
+      "features": [
+        "Approximately 4,000 spectator seats",
+        "Football field",
+        "Wi-Fi",
+        "Two locker rooms",
+        "Stadium audio",
+        "Video board",
+        "Home of Southeastern Savage Storm football"
+      ],
+      "amenities": [
+        "Spectator seating",
+        "Wi-Fi",
+        "Locker rooms",
+        "Audio system",
+        "Video board"
+      ],
+      "good_to_know": [
+        "Paul Laird Field at Spend Life Wisely Stadium is the home football venue of Southeastern Oklahoma State University.",
+        "Current university facility information lists seating capacity at approximately 4,000.",
+        "The stadium has Wi-Fi, two locker rooms, an audio system and a video board.",
+        "Southeastern's current athletics physical-address directory lists the stadium at 218 University Blvd in Durant.",
+        "An older university venue-calendar record lists 1405 North 4th Ave; TWG uses the newer athletics physical-address listing of 218 University Blvd.",
+        "Southeastern Athletics sells tickets for home football contests.",
+        "Single-game football tickets may be purchased through Southeastern Athletics, including at the stadium ticket booth on game days.",
+        "Current 2026 single-game pricing was not published in the official sources reviewed during this verification pass.",
+        "Major renovations to Spend Life Wisely Stadium are scheduled to begin in November 2026.",
+        "The renovation project is scheduled for completion before the 2027 football season.",
+        "The stadium is also used by Durant High School football and soccer."
+      ],
+      "reservation_required": false,
+      "reservation_links": [],
+      "booking_url": null,
+      "menu_url": null,
+      "order_url": null,
+      "parent_business": null,
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_events": [],
+      "image_url": null,
+      "image_alt": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "gallery": [],
+      "meta_title": "Paul Laird Field at Spend Life Wisely Stadium | Durant, OK | Texoma Weekend Guide",
+      "meta_description": "Visit Paul Laird Field at Spend Life Wisely Stadium in Durant, home of Southeastern Oklahoma State University Savage Storm football.",
+      "directory_url": "/businesses/paul-laird-field-spend-life-wisely-stadium/",
+      "source_verified": true,
+      "verification_status": "verified",
+      "verification_note": "Fully researched August 10, 2026 after fresh-checking the canonical TWG local-business-directory.json, which contains 747 business records and 422 publish-ready records. Searches for Paul Laird Field and Spend Life Wisely Stadium found no existing canonical business record. Southeastern Oklahoma State University's official athletics site identifies the facility as Paul Laird Field at Spend Life Wisely Stadium and the home venue for Southeastern football. The current Athletics physical-address directory lists 218 University Blvd in Durant for Paul Laird Field. A separate older university venue-calendar page uses 1405 North 4th Ave; TWG uses the newer current Athletics physical-address listing and documents the discrepancy rather than creating two venue records. Southeastern Special Events currently lists Paul Laird Field with Wi-Fi, approximately 4,000 seats, two locker rooms, audio and a video board. Southeastern announced in 2025 that Spend Life Wisely Stadium will undergo major renovations, with construction scheduled to begin in November 2026 and completion planned before the August 2027 season opener. Southeastern also states that Paul Laird Field serves Southeastern football as well as Durant High School football and soccer. Official SE Athletics social-media information identifies GoSoutheastern as its Facebook, Instagram and X identity. No regular public operating hours or fixed 2026 football ticket price were verified, so those values are not invented.",
+      "sources": [
+        {
+          "source_name": "Southeastern Athletics — Paul Laird Field at Spend Life Wisely Stadium",
+          "source_url": "https://gosoutheastern.com/facilities/paul-laird-field-at-spend-life-wisely-stadium/3",
+          "source_type": "official venue",
+          "supports": "Current venue name and Southeastern Athletics facility identity."
+        },
+        {
+          "source_name": "Southeastern Athletics — Facilities",
+          "source_url": "https://gosoutheastern.com/sports/2012/8/30/Facilities",
+          "source_type": "official athletics",
+          "supports": "218 University Blvd physical address and football-facility identity."
+        },
+        {
+          "source_name": "Southeastern — Special Events Facilities",
+          "source_url": "https://www.se.edu/special-events/",
+          "source_type": "official university",
+          "supports": "Approximately 4,000-seat capacity, Wi-Fi, two locker rooms, audio and video board."
+        },
+        {
+          "source_name": "Southeastern — Spend Life Wisely Stadium Announcement",
+          "source_url": "https://www.se.edu/2025/03/southeastern-unveils-spend-life-wisely-stadium/",
+          "source_type": "official university",
+          "supports": "Stadium project identity and use by Southeastern and the greater Durant community."
+        },
+        {
+          "source_name": "Southeastern Athletics — Stadium Renovation Giving Project",
+          "source_url": "https://gosoutheastern.com/news/2025/10/15/football-giving-opportunities-available-for-spend-life-wisely-stadium-project.aspx",
+          "source_type": "official athletics",
+          "supports": "November 2026 construction start and planned completion before the 2027 season."
+        },
+        {
+          "source_name": "Southeastern Athletics — Social Media Directory",
+          "source_url": "https://gosoutheastern.com/sports/2012/8/31/ATHNEWS_0831124117.aspx",
+          "source_type": "official athletics",
+          "supports": "GoSoutheastern official social identities."
         }
       ],
       "last_checked": "2026-08-10",
