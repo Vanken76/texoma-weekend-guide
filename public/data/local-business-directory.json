@@ -5,8 +5,8 @@
   "generated_on": "2026-08-11",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 748,
-  "publish_ready_count": 423,
+  "business_count": 749,
+  "publish_ready_count": 424,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -65026,6 +65026,95 @@
       "last_verified": "2026-08-10",
       "created_on": "2026-08-10",
       "updated_on": "2026-08-10"
+    },
+    {
+      "slug": "the-rialto-theater",
+      "business_name": "The Rialto Theater",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "description": "The Rialto Theater is a historic downtown Denison theater and entertainment venue located on West Main Street. The century-old venue has served Denison through multiple eras of movies, performances and live entertainment and is entering a new chapter as a live-music and special-event destination. Current event listings include touring concert acts at the theater, making the Rialto an important downtown venue for Texoma entertainment coverage.",
+      "why_visit": "Visit The Rialto Theater for live concerts, performances and special entertainment in one of downtown Denison's historic theater spaces. Event schedules vary, so visitors should check current show information before traveling.",
+      "why_its_unique": "The Rialto combines the atmosphere and history of an early-20th-century downtown theater with a new generation of live entertainment. Its Main Street location also places visitors within walking distance of other downtown Denison restaurants, shops and attractions.",
+      "status": "active",
+      "primary_category": "Live Music Venue",
+      "categories": [
+        "Live Music Venue",
+        "Historic Theater",
+        "Performing Arts Venue",
+        "Entertainment Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "The Rialto Theater",
+        "Rialto Theater",
+        "Denison",
+        "Downtown Denison",
+        "Historic Theater",
+        "Live Music",
+        "Concerts",
+        "Performing Arts",
+        "Entertainment",
+        "Main Street",
+        "Grayson County",
+        "Texoma"
+      ],
+      "address": "424 W Main St",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-462-4300",
+      "email": null,
+      "website": null,
+      "facebook_url": null,
+      "instagram_url": null,
+      "hours": null,
+      "hours_note": "The venue may operate primarily around scheduled events. Check the current event schedule before visiting.",
+      "price_range": null,
+      "audience": [
+        "General Public",
+        "Live Music Fans",
+        "Concertgoers",
+        "Performing Arts Fans",
+        "Downtown Denison Visitors"
+      ],
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "image_url": null,
+      "source_verified": true,
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Concerts",
+        "Live Music",
+        "Tribute Shows",
+        "Performances",
+        "Special Events"
+      ],
+      "event_sources": [
+        "Official artist tour schedules",
+        "Venue event announcements",
+        "Ticketing listings",
+        "Downtown Denison event coverage"
+      ],
+      "good_to_know": [
+        "The Rialto Theater is located at 424 W Main St in downtown Denison.",
+        "The venue is distinct from the former Rusty Chicken business entity previously associated with the Rialto location.",
+        "Operating hours may vary according to scheduled performances and events.",
+        "Visitors should verify individual event times, admission requirements and ticket information before attending.",
+        "Def Leggend is currently scheduled to perform at The Rialto Theater on August 15, 2026."
+      ],
+      "verification_note": "Fully researched August 11, 2026. Fresh duplicate checks against the canonical TWG business directory found no existing business record with slug the-rialto-theater. TWG currently contains a separate Rusty Chicken at The Rialto record, but current local-business data distinguishes The Rialto Theater itself from that business at the same 424 W Main St address. Current business information lists The Rialto Theater at 424 W Main St, Denison, TX 75020 with phone 903-462-4300. KXII reported in February 2026 that the historic Rialto was being prepared to reopen as a live-music venue. Def Leggend's official current tour schedule independently lists Rialto Theater in Denison for August 15, 2026, and Bandsintown identifies the show at 424 W Main St at 8:00 PM. Because a dependable current official website, regular operating hours and official social URLs were not confirmed, TWG leaves those fields unset rather than carrying forward potentially stale information.",
+      "last_checked": "2026-08-11",
+      "created_on": "2026-08-11",
+      "updated_on": "2026-08-11"
     }
   ]
 }
