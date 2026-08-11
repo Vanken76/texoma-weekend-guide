@@ -5,8 +5,8 @@
   "generated_on": "2026-08-11",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 768,
-  "publish_ready_count": 443,
+  "business_count": 769,
+  "publish_ready_count": 444,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -70581,6 +70581,307 @@
           "source_url": "https://www.kxii.com/2026/03/07/traveling-airshow-lands-durant-sparking-interest-aviation/",
           "source_type": "local news",
           "supports": "Independent March 2026 confirmation that Shawn Elder was actively representing paramotoring at Durant Regional Airport and that lessons are available there."
+        }
+      ],
+      "last_checked": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "created_on": "2026-08-11",
+      "updated_on": "2026-08-11"
+    },
+    {
+      "slug": "texoma-jet-ski-rental-kingston",
+      "business_name": "Texoma Jet Ski Rental",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "service_area_or_location": "Kingston and the Oklahoma side of Lake Texoma",
+      "primary_category": "Jet Ski Rental",
+      "category": [
+        "Jet Ski Rental",
+        "Watercraft Rental",
+        "Water Sports",
+        "Outdoor Recreation"
+      ],
+      "categories": [
+        "Jet Ski Rental",
+        "Personal Watercraft Rental",
+        "Watercraft Rental",
+        "Paddleboard Rental",
+        "Water Sports",
+        "Lake Recreation",
+        "Mobile Rental Service",
+        "Outdoor Adventure",
+        "Family Recreation",
+        "Things to Do"
+      ],
+      "tags": [
+        "Texoma Jet Ski Rental",
+        "Kingston",
+        "Marshall County",
+        "Oklahoma",
+        "Lake Texoma",
+        "Texoma",
+        "Jet Ski Rentals",
+        "WaveRunner Rentals",
+        "Yamaha WaveRunner",
+        "PWC Rentals",
+        "Personal Watercraft",
+        "Paddleboard Rentals",
+        "Water Sports",
+        "Lake Activities",
+        "Mobile Jet Ski Rental",
+        "Jet Ski Delivery",
+        "Boat Ramp Delivery",
+        "Dock Delivery",
+        "Campsite Delivery",
+        "Outdoor Adventure",
+        "Family Activities",
+        "Group Activities",
+        "Things to Do in Kingston",
+        "Things to Do at Lake Texoma"
+      ],
+      "description": "Texoma Jet Ski Rental is a mobile personal-watercraft rental company based in Kingston, Oklahoma, serving the Oklahoma side of Lake Texoma. Rather than requiring customers to transport or trailer a watercraft themselves, the company coordinates delivery and pickup at the customer's chosen boat ramp, dock, campsite or other approved Kingston-area lake location. Its rental fleet includes Yamaha WaveRunners capable of carrying up to three riders, with life jackets and basic safety equipment included. The business also promotes paddleboard rentals for visitors looking for a slower-paced way to enjoy Lake Texoma.",
+      "short_description": "Mobile Kingston jet-ski rental service delivering Yamaha WaveRunners directly to ramps, docks and campsites on the Oklahoma side of Lake Texoma.",
+      "why_visit": "Texoma Jet Ski Rental removes one of the biggest obstacles to spending a day on a personal watercraft: hauling it to the lake. Visitors can arrange a meetup at their Lake Texoma destination, receive the WaveRunner and safety equipment, ride for a few hours or most of the day, and have the company return for pickup.",
+      "why_its_unique": "The mobile-delivery model makes this much more convenient for vacationers, campers and lake visitors who do not own a trailer or tow vehicle. Instead of traveling to a fixed marina rental dock, renters can coordinate delivery closer to where they are already spending the day on the Oklahoma side of Lake Texoma.",
+      "address": "6032 US-70",
+      "city": "Kingston",
+      "state": "OK",
+      "postal_code": "73439",
+      "country": "USA",
+      "address_note": "Current local business data places Texoma Jet Ski Rental at 6032 US-70 in Kingston. Older regional directories list 105 N Willis St and other Kingston-area addresses. Because the company operates primarily as a mobile delivery service and its official website does not prominently publish a storefront address, TWG should emphasize Kingston/Lake Texoma service rather than representing the physical address as a walk-in rental counter.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "405-714-4555",
+      "email": null,
+      "website": "https://texomajetskirental.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "hours": {
+        "monday": "8:00 AM–6:00 PM",
+        "tuesday": "8:00 AM–6:00 PM",
+        "wednesday": "8:00 AM–6:00 PM",
+        "thursday": "8:00 AM–6:00 PM",
+        "friday": "8:00 AM–6:00 PM",
+        "saturday": "8:00 AM–6:00 PM",
+        "sunday": "8:00 AM–6:00 PM"
+      },
+      "hours_note": "Current local business data lists 8:00 AM-6:00 PM daily. The company's official rental-policy page states rentals are available from 8:00 AM-8:00 PM. Because the sources differ, customers should confirm the latest available pickup and return time when reserving.",
+      "price_range": "$$$",
+      "audience": [
+        "Adults",
+        "Families",
+        "Couples",
+        "Friend Groups",
+        "Lake Visitors",
+        "Campers",
+        "Vacationers",
+        "Water Sports Enthusiasts",
+        "Adventure Seekers"
+      ],
+      "family_friendly": true,
+      "pet_friendly": false,
+      "dog_friendly": false,
+      "amenities": [
+        "Mobile watercraft delivery",
+        "Mobile pickup",
+        "Yamaha WaveRunner rentals",
+        "Paddleboard rentals",
+        "Life jackets included",
+        "Anchor included with PWC rental",
+        "Safety orientation",
+        "Boat-ramp delivery",
+        "Dock delivery",
+        "Campsite delivery",
+        "Multi-hour rentals"
+      ],
+      "image": null,
+      "image_url": null,
+      "image_alt": null,
+      "logo": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "gallery": [],
+      "at_a_glance": {
+        "average_visit": "2–8 hours",
+        "price_range": "$$$",
+        "family_friendly": true,
+        "pet_friendly": false,
+        "dog_friendly": false,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true,
+        "reservations_recommended": true,
+        "appointment_required": true,
+        "weather_dependent": true,
+        "waterfront": true,
+        "lake_view": true,
+        "indoor_outdoor": "Outdoor"
+      },
+      "features": [
+        "Mobile Lake Texoma jet-ski rental",
+        "Yamaha WaveRunners",
+        "Up to three riders per WaveRunner",
+        "Two-hour minimum rental",
+        "Half-day and extended rentals",
+        "Eight-hour rental option",
+        "Delivery to Kingston-area boat ramps",
+        "Delivery to docks",
+        "Delivery to campsites",
+        "Pickup after rental",
+        "Life jackets included",
+        "Anchor included",
+        "Full-tank handoff",
+        "Safety briefing",
+        "Paddleboard rentals",
+        "Oklahoma-side Lake Texoma service"
+      ],
+      "current_pwc_pricing": [
+        {
+          "duration": "2 hours",
+          "price": "$180"
+        },
+        {
+          "duration": "3 hours",
+          "price": "$240"
+        },
+        {
+          "duration": "4 hours",
+          "price": "$320"
+        },
+        {
+          "duration": "5 hours",
+          "price": "$400"
+        },
+        {
+          "duration": "6 hours",
+          "price": "$440"
+        },
+        {
+          "duration": "7 hours",
+          "price": "$480"
+        },
+        {
+          "duration": "8 hours",
+          "price": "$520"
+        }
+      ],
+      "good_to_know": [
+        "Texoma Jet Ski Rental is based in Kingston and serves the Oklahoma side of Lake Texoma.",
+        "The current phone number is 405-714-4555.",
+        "The company operates primarily as a mobile watercraft-rental service.",
+        "Customers coordinate a meeting location such as a boat ramp, dock or campsite.",
+        "The company delivers, unloads and later picks up the rental watercraft.",
+        "The official website currently advertises a fleet of six Yamaha WaveRunners.",
+        "The WaveRunners are advertised as capable of carrying up to three people.",
+        "The current minimum PWC rental is two hours.",
+        "Current two-hour pricing is $180.",
+        "Current three-hour pricing is $240.",
+        "Current four-hour pricing is $320.",
+        "Current five-hour pricing is $400.",
+        "Current six-hour pricing is $440.",
+        "Current seven-hour pricing is $480.",
+        "Current eight-hour pricing is $520.",
+        "A refundable $300 cash deposit is currently required with each PWC rental.",
+        "The person signing the rental agreement must currently be at least 25 years old.",
+        "Anyone operating the personal watercraft must currently be at least 18 years old.",
+        "Non-operating passengers may be younger when accompanied by an operator age 18 or older.",
+        "Life jackets are included with the rental.",
+        "An anchor is included with the WaveRunner rental.",
+        "The watercraft is provided with a full tank of fuel.",
+        "The official pricing page currently advertises 'No Fuel Charge.'",
+        "Another official business page says customers may either refuel before return or be charged for fuel used.",
+        "Because those official fuel statements conflict, renters should confirm the exact fuel policy when reserving.",
+        "The company's official site also promotes paddleboard rentals.",
+        "No dependable current paddleboard price was found during this verification pass.",
+        "The official website says the company serves popular Lake Texoma locations around Kingston and the Oklahoma side of the lake.",
+        "The exact physical business address varies among regional directories because the operation functions as a mobile delivery business.",
+        "Current local business data uses 6032 US-70, Kingston, OK 73439.",
+        "An older Texoma Connect listing uses 105 N Willis St.",
+        "TWG should emphasize the mobile Kingston/Lake Texoma service area rather than encourage unannounced walk-in visits to either address.",
+        "Rental availability is weather-dependent and should be confirmed in advance.",
+        "Prices, deposits, age requirements, fuel policies and operating hours should be reverified before dated TWG promotional content."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "event_types": [
+        "Lake Recreation Promotions",
+        "Water Sports Promotions",
+        "Holiday Weekend Rentals",
+        "Seasonal Rental Specials"
+      ],
+      "event_sources": [
+        "Texoma Jet Ski Rental official website",
+        "Texoma Jet Ski Rental social media",
+        "Lake Texoma tourism sources"
+      ],
+      "operator_name": "Texoma Jet Ski Rental",
+      "parent_business": null,
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "lake-texoma",
+          "name": "Lake Texoma",
+          "entity_type": "region",
+          "relationship_note": "Texoma Jet Ski Rental provides mobile watercraft rentals on the Oklahoma side of Lake Texoma."
+        },
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Texoma Jet Ski Rental is based in Kingston, Oklahoma."
+        }
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Fully researched August 11, 2026. A fresh search of the complete current Texoma Weekend Guide canonical business directory found no Texoma Jet Ski Rental record, no matching 405-714-4555 phone number and no matching current 6032 US-70 address. Repository code search also returned no Texoma Jet Ski Rental record. The current official website confirms an active Kingston-based mobile rental operation serving the Oklahoma side of Lake Texoma, Yamaha WaveRunner rentals, paddleboard rentals, delivery and pickup at customer-selected lake locations, life jackets, two-hour minimum PWC rentals and current pricing from $180 for two hours through $520 for eight hours. Current local business data independently confirms the business as active at 6032 Hwy 70, Kingston, phone 405-714-4555, with daily 8:00 AM-6:00 PM hours. Some older regional directories publish different physical addresses and the official site emphasizes mobile delivery rather than a storefront, so TWG records the address discrepancy and should position this primarily as a Kingston/Lake Texoma mobile service.",
+      "sources": [
+        {
+          "source_name": "Texoma Jet Ski Rental - Official Website",
+          "source_url": "https://texomajetskirental.com/",
+          "source_type": "official",
+          "supports": "Current active operation, Kingston location, Oklahoma-side Lake Texoma service and phone."
+        },
+        {
+          "source_name": "Texoma Jet Ski Rental - PWC Rentals",
+          "source_url": "https://texomajetskirental.com/pwc-rentals/",
+          "source_type": "official",
+          "supports": "Mobile delivery model, Yamaha WaveRunner fleet, three-rider capacity, life jackets, anchor and Kingston-area delivery."
+        },
+        {
+          "source_name": "Texoma Jet Ski Rental - Prices & Policies",
+          "source_url": "https://texomajetskirental.com/prices-policies/",
+          "source_type": "official",
+          "supports": "Current PWC pricing, two-hour minimum, deposit, renter and operator age requirements, life jackets and published rental-time policy."
+        },
+        {
+          "source_name": "Texoma Jet Ski Rental - About Us",
+          "source_url": "https://texomajetskirental.com/about-us/",
+          "source_type": "official",
+          "supports": "Mobile boat-ramp, dock and campsite delivery and pickup plus paddleboard availability."
+        },
+        {
+          "source_name": "Current Local Business Listing",
+          "source_type": "current local business data",
+          "supports": "Current active status, 6032 Hwy 70 location, phone and current daily business hours."
+        },
+        {
+          "source_name": "Texoma Connect - Texoma Jet Ski Rental",
+          "source_url": "https://texomaconnect.com/lake-texoma-travel-guide/texoma-jet-ski-rental/",
+          "source_type": "regional tourism directory",
+          "supports": "Independent confirmation of Kingston-based Lake Texoma jet-ski operation while documenting the older 105 N Willis address discrepancy."
         }
       ],
       "last_checked": "2026-08-11",
