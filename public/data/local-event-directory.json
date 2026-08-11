@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 174,
-  "publish_ready_count": 174,
+  "event_count": 175,
+  "publish_ready_count": 175,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -12085,6 +12085,111 @@
       "partner_names": [
         "Texas Parks & Wildlife Department",
         "Project WILD"
+      ],
+      "last_checked": "2026-08-10",
+      "created_on": "2026-08-10",
+      "updated_on": "2026-08-11"
+    },
+    {
+      "event_slug": "southeastern-football-vs-ouachita-baptist-2026-09-12",
+      "event_name": "Southeastern Football vs. Ouachita Baptist",
+      "description": "The Southeastern Oklahoma State University Savage Storm return home to Paul Laird Field at Spend Life Wisely Stadium to face Ouachita Baptist on Saturday, September 12. Kickoff is scheduled for 6:00 PM in Durant.",
+      "start_datetime": "2026-09-12T18:00:00-05:00",
+      "end_datetime": "2026-09-12T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "paul-laird-field-spend-life-wisely-stadium"
+      ],
+      "venue_name": "Paul Laird Field at Spend Life Wisely Stadium",
+      "host_business_slug": "paul-laird-field-spend-life-wisely-stadium",
+      "organizer_name": "Southeastern Oklahoma State University Athletics",
+      "address": "218 University Blvd",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "College Football",
+        "Sports",
+        "College Athletics",
+        "Community Event"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Savage Storm",
+        "Southeastern Football",
+        "Ouachita Baptist",
+        "Ouachita Baptist Tigers",
+        "College Football",
+        "NCAA Division II",
+        "Paul Laird Field",
+        "Spend Life Wisely Stadium",
+        "Durant",
+        "Oklahoma"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Southeastern football is a ticketed sport. Single-game tickets are available through Southeastern Athletics and at the Paul Laird Field ticket booth on game days. A specific 2026 single-game price was not published in the official sources reviewed by TWG.",
+      "audience": [
+        "College football fans",
+        "Southeastern students",
+        "Southeastern alumni",
+        "Families",
+        "Sports fans",
+        "Durant residents"
+      ],
+      "age_restriction": null,
+      "performers": [],
+      "image_url": "/images/events/southeastern-football-vs-ouachita-baptist-2026-09-12.png",
+      "image_alt": null,
+      "official_url": "https://gosoutheastern.com/sports/football/schedule",
+      "facebook_url": "https://www.facebook.com/GoSoutheastern",
+      "ticket_url": "https://gosoutheastern.com/tix",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The game is Saturday, September 12, 2026.",
+        "Kickoff is scheduled for 6:00 PM.",
+        "Southeastern's university calendar lists the event through 9:00 PM.",
+        "The game takes place at Paul Laird Field at Spend Life Wisely Stadium in Durant.",
+        "Southeastern Oklahoma State University is the home team.",
+        "Ouachita Baptist is the visiting team.",
+        "Football is a ticketed Southeastern Athletics sport.",
+        "Single-game football tickets are available through Southeastern Athletics and at the stadium ticket booth on game days.",
+        "A specific 2026 single-game ticket price is not currently published in the official information reviewed by TWG.",
+        "The official 2026 football schedule provides Watch and Live Stats links for the home game.",
+        "No event-specific age restriction is published."
+      ],
+      "verification_note": "Fully researched August 10, 2026 after fresh-fetching the canonical TWG local-event-directory.json, which contains 174 events and 174 publish-ready records. Searches for Ouachita Baptist, Paul Laird Field and Savage Storm returned no existing event record. Southeastern Oklahoma State University's official 2026 football schedule confirms a home game against Ouachita Baptist at Paul Laird Field at Spend Life Wisely Stadium in Durant on Saturday, September 12, 2026 at 6:00 PM. Southeastern's official university event calendar independently confirms Football vs Ouachita Baptist on September 12 from 6:00 PM to 9:00 PM, allowing TWG to use 9:00 PM as the supported event ending time. Southeastern Athletics identifies football as a ticketed sport and states that single-game football tickets are available at the Paul Laird Field ticket booth on game days. No current event-specific 2026 single-game price or age restriction was found, so neither is invented. Fresh TWG business-directory searches found no Paul Laird Field or Spend Life Wisely Stadium record; therefore the fully researched venue should be created first under slug paul-laird-field-spend-life-wisely-stadium.",
+      "sources": [
+        {
+          "source_name": "Southeastern Oklahoma State University Athletics — 2026 Football Schedule",
+          "source_url": "https://gosoutheastern.com/sports/football/schedule",
+          "source_type": "official athletics",
+          "supports": "September 12, 2026 home game, Ouachita Baptist opponent, 6:00 PM kickoff and Paul Laird Field at Spend Life Wisely Stadium venue."
+        },
+        {
+          "source_name": "Southeastern Oklahoma State University — Football vs Ouachita Baptist",
+          "source_url": "https://www.se.edu/event/football-vs-ouachita-baptist-2/",
+          "source_type": "official university",
+          "supports": "Independent September 12 confirmation and 6:00 PM-9:00 PM event window."
+        },
+        {
+          "source_name": "Southeastern Athletics — Tickets",
+          "source_url": "https://gosoutheastern.com/sports/2021/6/18/tickets",
+          "source_type": "official athletics",
+          "supports": "Football as a ticketed sport and current ticketing/contact information."
+        }
+      ],
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Southeastern Oklahoma State University Athletics"
       ],
       "last_checked": "2026-08-10",
       "created_on": "2026-08-10",
