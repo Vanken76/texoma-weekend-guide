@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 239,
-  "publish_ready_count": 239,
+  "event_count": 240,
+  "publish_ready_count": 240,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -16196,6 +16196,64 @@
       "recurrence_start_date": null,
       "recurrence_end_date": null,
       "host_business_slug": null,
+      "partner_business_slugs": [],
+      "partner_names": []
+    },
+    {
+      "event_slug": "comedy-night-at-the-blackroom-mad-jacks-ardmore-2026-08-15",
+      "event_name": "Comedy Night at The BLACKROOM",
+      "description": "Mad Jack's BLACKROOM hosts a night of live stand-up comedy in downtown Ardmore on Saturday, August 15, 2026. Host Carzell welcomes featured comedian Marissa Nieto and opening comedian Lawrence Rosales for an evening of comedy from 7:30 PM to 9:00 PM.",
+      "start_datetime": "2026-08-15T19:30:00-05:00",
+      "end_datetime": "2026-08-15T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "mad-jacks-blackroom"
+      ],
+      "venue_name": "Mad Jack's BLACKROOM",
+      "address": "114 N Washington St",
+      "city": "Ardmore",
+      "state": "OK",
+      "postal_code": "73401",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Comedy",
+        "Nightlife",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "Comedy Night",
+        "Marissa Nieto",
+        "Lawrence Rosales",
+        "Carzell",
+        "Stand-Up Comedy",
+        "Mad Jack's BLACKROOM",
+        "Downtown Ardmore",
+        "Ardmore"
+      ],
+      "cost_type": "paid",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "image_url": "/images/events/comedy-night-at-the-blackroom-mad-jacks-ardmore-2026-08-15.png",
+      "official_url": "https://www.madjacksblackroom.com/event-details/comedy-night-at-the-blackroom-14",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-12 from Mad Jack's BLACKROOM's official current show calendar. The venue lists Comedy Night at The BLACKROOM on Saturday, Aug. 15, 2026 from 7:30 PM to 9:00 PM with host Carzell, featured comedian Marissa Nieto and opening comedian Lawrence Rosales. Fresh active TWG event-directory checks found no existing matching event. The canonical venue slug mad-jacks-blackroom was verified from the active TWG business directory. The event is ticketed, but no exact current ticket price, direct purchase URL or event-specific age restriction was imported without verification.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-12",
+      "organizer_name": "Mad Jack's BLACKROOM",
+      "image_alt": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": "mad-jacks-blackroom",
       "partner_business_slugs": [],
       "partner_names": []
     }
