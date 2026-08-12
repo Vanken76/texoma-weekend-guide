@@ -5,8 +5,8 @@
   "generated_on": "2026-08-12",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 785,
-  "publish_ready_count": 460,
+  "business_count": 786,
+  "publish_ready_count": 461,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -75486,6 +75486,98 @@
         "On-site concessions",
         "Seasonal Saturday-night racing",
         "Local and touring racing divisions"
+      ]
+    },
+    {
+      "slug": "washington-theater-ardmore",
+      "business_name": "Washington Theater",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "221 N Washington St, Ardmore, OK 73401",
+      "category": [
+        "Performing Arts Venue",
+        "Event Venue",
+        "Theater"
+      ],
+      "tags": [
+        "Live Entertainment",
+        "Performing Arts",
+        "Concerts",
+        "Tribute Shows",
+        "Downtown Ardmore",
+        "Ardmore",
+        "Southern Oklahoma"
+      ],
+      "description": "Washington Theater is a performing arts and special-event venue in downtown Ardmore, Oklahoma. The theater hosts live entertainment including concerts, theatrical programming, tribute productions and other special performances.",
+      "why_visit": "Washington Theater gives Texoma-area audiences another option for ticketed live entertainment in downtown Ardmore, including larger concert-style and theatrical productions.",
+      "why_its_unique": "The venue is an established downtown Ardmore theater space used for performing arts and special attractions, including current concert-style productions organized by regional entertainment promoters.",
+      "phone": null,
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No reliable regular public operating hours were verified. Access, doors and box-office timing vary by scheduled performance; check the individual event listing before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Event schedules, door times and admission vary by production.",
+        "Parking arrangements may vary by event.",
+        "Check the individual organizer or ticket listing for performance-specific visitor information."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete venue preflight completed 2026-08-12. Ardmore Main Street Authority identifies Washington Theater as an event venue at 221 N Washington St in Ardmore. Current 2026 ticketing confirms the theater remains active and is hosting live performing-arts productions. Fresh active TWG business-directory and workbook checks found no existing Washington Theater record. No unverified regular hours, phone, website, ownership, accessibility or concession claims were invented.",
+      "last_checked": "2026-08-12",
+      "event_types": [
+        "Concerts",
+        "Tribute shows",
+        "Live theater",
+        "Performing arts",
+        "Special entertainment events"
+      ],
+      "event_sources": [
+        "Ardmore Main Street Authority",
+        "Official organizer event listings",
+        "Current ticketing pages"
+      ],
+      "features": [
+        "Downtown Ardmore location",
+        "Performing arts venue",
+        "Live entertainment",
+        "Ticketed productions"
       ]
     }
   ]
