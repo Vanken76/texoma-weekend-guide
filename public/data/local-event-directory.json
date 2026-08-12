@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 242,
-  "publish_ready_count": 242,
+  "event_count": 243,
+  "publish_ready_count": 243,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -16373,6 +16373,66 @@
       "last_checked": "2026-08-12",
       "created_on": "2026-08-12",
       "updated_on": "2026-08-12"
+    },
+    {
+      "event_slug": "yellow-jacket-tailgating-battle-of-the-axe-denison-vs-sherman-2026-08-28",
+      "event_name": "Yellow Jacket Tailgating — Denison vs. Sherman: Battle of the Axe",
+      "description": "Kick off Battle of the Axe night with Yellow Jacket Tailgating at Forest Park in Denison. This free family event brings the community together before Denison takes on Sherman, with interactive games, local vendors, food and performances from the DHS Band, Stingerettes and cheerleaders.",
+      "start_datetime": "2026-08-28T17:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "forest-park-denison"
+      ],
+      "venue_name": "Forest Park",
+      "address": "300 W Crawford St",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Family Friendly",
+        "Community",
+        "Sports"
+      ],
+      "tags": [
+        "Yellow Jacket Tailgating",
+        "Battle of the Axe",
+        "Denison Yellow Jackets",
+        "Denison vs Sherman",
+        "High School Football",
+        "Family Friendly",
+        "Forest Park",
+        "Denison"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free community tailgating event.",
+      "audience": [
+        "family-friendly"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/yellow-jacket-tailgating-battle-of-the-axe-denison-vs-sherman-2026-08-28.png",
+      "official_url": "https://cityofdenison.com/519/Yellow-Jacket-Tailgating",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-12 from the City of Denison's official Yellow Jacket Tailgating page. The city lists the Aug. 28, 2026 tailgate beginning at 5:00 PM for Denison vs. Sherman — Battle of the Axe. The series is described as free and family-friendly with interactive games, vendors, food and performances from the DHS Band, Stingerettes and cheerleaders. Alcohol is prohibited. Fresh active TWG event-directory and workbook checks found no existing matching event. Exact canonical venue slug forest-park-denison was already established. No ending time was invented.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-12",
+      "organizer_name": "City of Denison",
+      "image_alt": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": null,
+      "partner_business_slugs": [],
+      "partner_names": []
     }
   ]
 }
