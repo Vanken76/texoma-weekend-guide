@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 220,
-  "publish_ready_count": 220,
+  "event_count": 221,
+  "publish_ready_count": 221,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -15071,6 +15071,66 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 12, 2026 from the official Choctaw Cultural Center Cinema at the Center and events pages. Cinema at the Center: Monsters Inc. is listed for Saturday, October 24, 2026 at 1:00 PM and explicitly marked Free. The official Cinema at the Center page describes the monthly series as family-friendly and provides a dedicated More Information link. No event-specific ending time was published in the accessible official listing, so end_datetime remains null.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-12"
+    },
+    {
+      "event_slug": "choctaw-heritage-festival-2026",
+      "event_name": "Choctaw Heritage Festival 2026",
+      "description": "The Choctaw Cultural Center hosts Choctaw Heritage Festival 2026 from Friday, November 6 through Sunday, November 8, 2026 in Calera. The official event calendar lists a 10:00 AM start and complimentary admission.",
+      "start_datetime": "2026-11-06T10:00:00-06:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "choctaw-cultural-center-calera"
+      ],
+      "venue_name": "Choctaw Cultural Center",
+      "address": "1919 Hina Hanta Way",
+      "city": "Calera",
+      "state": "OK",
+      "postal_code": "74730",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Festivals",
+        "Arts & Culture",
+        "Cultural Education"
+      ],
+      "tags": [
+        "Choctaw Cultural Center",
+        "Choctaw Nation",
+        "Choctaw Heritage Festival",
+        "Choctaw heritage",
+        "Choctaw culture",
+        "Native American culture",
+        "Calera",
+        "Durant area"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free.",
+      "audience": [
+        "General Public"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "choctaw-cultural-center-calera",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/choctaw-heritage-festival-2026.png",
+      "image_alt": null,
+      "official_url": "https://choctawculturalcenter.com/event/choctaw-heritage-festival-2/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 12, 2026 from the official Choctaw Cultural Center event calendar and event-category listing. Choctaw Heritage Festival 2026 is listed for Friday, November 6 through Sunday, November 8, 2026 beginning at 10:00 AM and is explicitly marked Free. The venue address is 1919 Hina Hanta Way, Calera, OK 74730. No event-specific daily closing time was confirmed, so end_datetime remains null rather than inventing one.",
       "last_checked": "2026-08-12",
       "created_on": "2026-08-12",
       "updated_on": "2026-08-12"
