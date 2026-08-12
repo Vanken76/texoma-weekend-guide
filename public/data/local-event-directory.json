@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 209,
-  "publish_ready_count": 209,
+  "event_count": 210,
+  "publish_ready_count": 210,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -14404,6 +14404,69 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 11, 2026 from the official City of Denison calendar. Bluestem Master Naturalists Book Group is listed for Saturday, August 22, 2026 from 10:30 AM to 11:30 AM under Denison Public Library. The official Denison Public Library page confirms the venue at 300 W Gandy, Denison, TX 75020. Earlier official calendars show additional meetings on May 30, June 27 and July 25, but the published dates do not support a sufficiently reliable recurrence rule for future dates, so this record represents only the verified August 22 occurrence. A fresh duplicate check against the current canonical TWG event directory found no matching Bluestem Master Naturalists Book Group record. No featured book, admission price, registration requirement, age restriction or expanded event description is currently published, so those details are not inferred.",
+      "last_checked": "2026-08-11",
+      "created_on": "2026-08-11",
+      "updated_on": "2026-08-12"
+    },
+    {
+      "event_slug": "small-on-the-wall-517-gallery-denison-2026",
+      "event_name": "Small on the Wall",
+      "description": "Denison Arts Council presents Small on the Wall at 517 Gallery, an exhibition devoted entirely to tiny artworks. The exhibition has no restriction on theme, subject matter or medium, but every displayed piece must measure 6 inches or smaller in all directions. Small on the Wall runs through October 4 at the gallery's new downtown Denison home. Regular gallery hours are Thursday through Saturday from 10:00 AM to 5:00 PM and Sunday from 12:00 PM to 5:00 PM. A midway reception is scheduled for September 5 from 4:00 PM to 6:00 PM.",
+      "start_datetime": "2026-08-01T16:00:00-05:00",
+      "end_datetime": "2026-10-04T17:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "517-gallery"
+      ],
+      "venue_name": "517 Gallery",
+      "address": "500 W Woodard St",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Art Exhibition",
+        "Arts & Culture",
+        "Gallery Event"
+      ],
+      "tags": [
+        "Small on the Wall",
+        "517 Gallery",
+        "Denison Arts Council",
+        "art exhibition",
+        "tiny art",
+        "local art",
+        "visual arts",
+        "downtown Denison",
+        "Denison"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No general admission price is published on the official exhibition or gallery pages.",
+      "audience": [
+        "Art enthusiasts",
+        "Gallery visitors",
+        "Community members"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "517-gallery",
+      "organizer_name": "Denison Arts Council",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/small-on-the-wall-517-gallery-denison-2026.png",
+      "image_alt": null,
+      "official_url": "https://denisonartscouncil.org/small-on-the-wall/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 11, 2026 from the current dedicated Denison Arts Council Small on the Wall event page and current Art Gallery page. The dedicated event page states that Small on the Wall runs August 1 through October 4, 2026 at the new gallery on W Woodard Street and describes the exhibition as artwork measuring 6 inches or smaller in all directions, with no restriction on theme, subject matter or medium. It lists the opening reception and grand opening for August 1 from 4:00 PM to 6:00 PM, the midway reception for September 5 from 4:00 PM to 6:00 PM, and artist/buyer pickup October 4 from 12:00 PM to 5:00 PM. The current gallery page confirms the new address at 500 W Woodard, Denison, TX 75020 and regular gallery hours Thursday-Saturday 10:00 AM-5:00 PM and Sunday 12:00 PM-5:00 PM. The dedicated event page is treated as authoritative over older summary pages that still display earlier exhibition dates. TWG's canonical business directory confirms 517 Gallery is a complete, publish-ready event venue under slug 517-gallery at 500 W Woodard St. A fresh search of the current canonical TWG event directory found no existing Small on the Wall record. No general admission price or age restriction is currently published, so neither is inferred.",
       "last_checked": "2026-08-11",
       "created_on": "2026-08-11",
       "updated_on": "2026-08-12"
