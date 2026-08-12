@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 227,
-  "publish_ready_count": 227,
+  "event_count": 228,
+  "publish_ready_count": 228,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -15504,6 +15504,68 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 12, 2026 from the official Choctaw Casinos & Resorts event page. Travis Tritt with The Frontmen is scheduled at Choctaw Grand Theater in Durant on Thursday, October 15, 2026. Doors open at 6:30 PM and showtime is 8:00 PM. Tickets are on sale, and Choctaw identifies Ticketmaster as its official ticketing agent. The official Get Tickets link resolves to Ticketmaster event 0C00642EEF42D172. Canonical TWG venue relationship uses the-grand-theater-choctaw-casino-resort-durant with host business choctaw-casino-resort-durant. No official ending time, fixed ticket-price range, or event-specific age restriction was published, so those details remain unknown. A fresh canonical search found no existing Travis Tritt with The Frontmen event collision.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-12"
+    },
+    {
+      "event_slug": "clay-walker-doin-what-i-love-tour-choctaw-grand-theater-durant-2026-11-13",
+      "event_name": "Clay Walker: Doin’ What I Love Tour",
+      "description": "Clay Walker brings the Doin’ What I Love Tour to The Grand Theater at Choctaw Casino & Resort – Durant on Friday, November 13, 2026. Doors open at 6:30 PM and showtime is 8:00 PM.",
+      "start_datetime": "2026-11-13T20:00:00-06:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-grand-theater-choctaw-casino-resort-durant"
+      ],
+      "venue_name": "The Grand Theater at Choctaw Casino & Resort – Durant",
+      "address": "4216 S Hwy 69/75",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Concert",
+        "Country Music"
+      ],
+      "tags": [
+        "Clay Walker",
+        "Doin’ What I Love Tour",
+        "Choctaw Grand Theater",
+        "Choctaw Casino & Resort – Durant",
+        "country music",
+        "live music",
+        "concert",
+        "Durant",
+        "Southern Oklahoma",
+        "Texoma"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ticketed concert. Choctaw currently states tickets are on sale through Ticketmaster; Ticketmaster's individual event page currently states that tickets are not available online. Availability may change.",
+      "audience": [
+        "General Public"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "choctaw-casino-resort-durant",
+      "organizer_name": "Choctaw Casino & Resort – Durant",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/clay-walker-doin-what-i-love-tour-choctaw-grand-theater-durant-2026-11-13.jpg",
+      "image_alt": null,
+      "official_url": "https://www.choctawcasinos.com/events/clay-walker-3/",
+      "facebook_url": null,
+      "ticket_url": "https://www.ticketmaster.com/clay-walker-durant-oklahoma-11-13-2026/event/0C00644B9CEC6633",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 12, 2026 from the official Choctaw Casinos & Resorts event page, official Choctaw event archive, and Ticketmaster. Choctaw lists Clay Walker at Choctaw Grand Theater in Durant on Friday, November 13, 2026 with doors opening at 6:30 PM and showtime at 8:00 PM. The Choctaw event archive identifies the event as Clay Walker: Doin’ What I Love Tour. Ticketmaster independently confirms Friday, November 13, 2026 at 8:00 PM under event ID 0C00644B9CEC6633. Choctaw currently states tickets are on sale, while the Ticketmaster event page currently says online tickets are unavailable, so TWG records the discrepancy rather than making a stronger availability claim. No official concert ending time, fixed ticket-price range, or event-specific age restriction was published. Fresh canonical TWG search found no existing Clay Walker event collision.",
       "last_checked": "2026-08-12",
       "created_on": "2026-08-12",
       "updated_on": "2026-08-12"
