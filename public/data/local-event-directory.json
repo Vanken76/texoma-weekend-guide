@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 226,
-  "publish_ready_count": 226,
+  "event_count": 227,
+  "publish_ready_count": 227,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -15439,6 +15439,71 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 12, 2026 from the official Choctaw Casinos & Resorts event page and the linked Ticketmaster event page. Kings of Leon is scheduled at Choctaw Grand Theater in Durant on Sunday, October 11, 2026. Choctaw's event header lists the event at 7:00 PM and Ticketmaster independently lists Sunday, October 11 at 7:00 PM. The Choctaw detail section currently contains conflicting text stating 'Showtime 8pm' while also listing doors at 6:30 PM. Because the current event header and Ticketmaster agree on 7:00 PM, TWG uses 7:00 PM and documents the discrepancy rather than ignoring it. Ticketmaster identifies event 0C0064F7C68CA6AC and Choctaw identifies Ticketmaster as its official ticketing agent. No official concert ending time, fixed ticket-price range, or event-specific age restriction was published, so those fields remain unknown. Fresh canonical duplicate search found no existing Kings of Leon event record.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-12"
+    },
+    {
+      "event_slug": "travis-tritt-with-the-frontmen-choctaw-grand-theater-durant-2026-10-15",
+      "event_name": "Travis Tritt with The Frontmen",
+      "description": "Travis Tritt with The Frontmen performs live at The Grand Theater at Choctaw Casino & Resort – Durant on Thursday, October 15, 2026. Doors open at 6:30 PM and showtime is 8:00 PM. Tickets are on sale through Ticketmaster, the official ticketing agent of Choctaw Casinos & Resorts.",
+      "start_datetime": "2026-10-15T20:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-grand-theater-choctaw-casino-resort-durant"
+      ],
+      "venue_name": "The Grand Theater at Choctaw Casino & Resort – Durant",
+      "address": "4216 S Hwy 69/75",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Concert",
+        "Country Music"
+      ],
+      "tags": [
+        "Travis Tritt",
+        "The Frontmen",
+        "Choctaw Grand Theater",
+        "Choctaw Casino & Resort – Durant",
+        "country music",
+        "Southern rock",
+        "live music",
+        "concert",
+        "Durant",
+        "Southern Oklahoma",
+        "Texoma"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ticketed concert. No fixed ticket-price range was published on the official Choctaw event page.",
+      "audience": [
+        "General Public"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "choctaw-casino-resort-durant",
+      "organizer_name": "Choctaw Casino & Resort – Durant",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "The Frontmen"
+      ],
+      "image_url": "/images/events/travis-tritt-with-the-frontmen-choctaw-grand-theater-durant-2026-10-15.jpg",
+      "image_alt": null,
+      "official_url": "https://www.choctawcasinos.com/events/travis-tritt/",
+      "facebook_url": null,
+      "ticket_url": "https://www.ticketmaster.com/event/0C00642EEF42D172",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 12, 2026 from the official Choctaw Casinos & Resorts event page. Travis Tritt with The Frontmen is scheduled at Choctaw Grand Theater in Durant on Thursday, October 15, 2026. Doors open at 6:30 PM and showtime is 8:00 PM. Tickets are on sale, and Choctaw identifies Ticketmaster as its official ticketing agent. The official Get Tickets link resolves to Ticketmaster event 0C00642EEF42D172. Canonical TWG venue relationship uses the-grand-theater-choctaw-casino-resort-durant with host business choctaw-casino-resort-durant. No official ending time, fixed ticket-price range, or event-specific age restriction was published, so those details remain unknown. A fresh canonical search found no existing Travis Tritt with The Frontmen event collision.",
       "last_checked": "2026-08-12",
       "created_on": "2026-08-12",
       "updated_on": "2026-08-12"
