@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 221,
-  "publish_ready_count": 221,
+  "event_count": 222,
+  "publish_ready_count": 222,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -15131,6 +15131,68 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 12, 2026 from the official Choctaw Cultural Center event calendar and event-category listing. Choctaw Heritage Festival 2026 is listed for Friday, November 6 through Sunday, November 8, 2026 beginning at 10:00 AM and is explicitly marked Free. The venue address is 1919 Hina Hanta Way, Calera, OK 74730. No event-specific daily closing time was confirmed, so end_datetime remains null rather than inventing one.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-12"
+    },
+    {
+      "event_slug": "cinema-at-the-center-megamind-2026-11-28",
+      "event_name": "Cinema at the Center: Megamind",
+      "description": "Cinema at the Center presents Megamind at the Choctaw Cultural Center on Saturday, November 28, 2026. Doors to Kowi Chito Theater open at 12:30 PM, and the movie runs from 1:00 PM to 3:00 PM. Admission to the movie is complimentary. LUMOplay and a 360 photo booth with props will also be available, and concessions will be available for purchase.",
+      "start_datetime": "2026-11-28T13:00:00-06:00",
+      "end_datetime": "2026-11-28T15:00:00-06:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "choctaw-cultural-center-calera"
+      ],
+      "venue_name": "Choctaw Cultural Center",
+      "address": "1919 Hina Hanta Way",
+      "city": "Calera",
+      "state": "OK",
+      "postal_code": "74730",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Movies",
+        "Kids & Family"
+      ],
+      "tags": [
+        "Choctaw Cultural Center",
+        "Cinema at the Center",
+        "Megamind",
+        "free movie",
+        "family movie",
+        "family friendly",
+        "Kowi Chito Theater",
+        "Calera",
+        "Durant area"
+      ],
+      "cost_type": "free",
+      "cost_details": "Admission to the movie is complimentary. Concessions will be available for purchase.",
+      "audience": [
+        "Kids",
+        "Families",
+        "General Public"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "choctaw-cultural-center-calera",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/cinema-at-the-center-megamind-2026-11-28.png",
+      "image_alt": null,
+      "official_url": "https://choctawculturalcenter.com/cinema/",
+      "facebook_url": null,
+      "ticket_url": "https://altru118272.sky.blackbaud.com/118272/Cinema-at-the-Center-Megamind",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 12, 2026 from the official Choctaw Cultural Center Cinema at the Center page and official Blackbaud event page. Cinema at the Center: Megamind is scheduled for Saturday, November 28, 2026. Doors to Kowi Chito Theater open at 12:30 PM and the movie runs from 1:00 PM to 3:00 PM. Admission to the movie is complimentary. The official listing also confirms LUMOplay, a 360 photo booth with props, and concessions available for purchase.",
       "last_checked": "2026-08-12",
       "created_on": "2026-08-12",
       "updated_on": "2026-08-12"
