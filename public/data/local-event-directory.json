@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 233,
-  "publish_ready_count": 233,
+  "event_count": 234,
+  "publish_ready_count": 234,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -15862,6 +15862,62 @@
       "host_business_slug": null,
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_slug": "april-n-smith-calhouns-2-0-denison-2026-12-12",
+      "event_name": "April N. Smith",
+      "description": "Texas country artist April N. Smith returns to Calhoun's 2.0 in Denison for a Saturday night performance on December 12, 2026. The show is scheduled to begin at 9:00 PM.",
+      "start_datetime": "2026-12-12T21:00:00-06:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "calhouns-2-0"
+      ],
+      "venue_name": "Calhoun's 2.0",
+      "address": "4801 State Rte 91",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Country Music",
+        "Nightlife"
+      ],
+      "tags": [
+        "April N. Smith",
+        "Texas Country",
+        "Country Music",
+        "Live Music",
+        "Calhoun's 2.0",
+        "Denison"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/april-n-smith-calhouns-2-0-denison-2026-12-12.png",
+      "image_alt": null,
+      "official_url": "https://www.bandsintown.com/e/1039284103-april-n-smith-at-calhoun%27s-2.0",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-12. Calhoun's 2.0's current verified Bandsintown venue schedule lists April N Smith on Saturday, Dec. 12, 2026 at 9:00 PM. The active TWG event directory was checked before delivery and no Dec. 12 April N. Smith record was found. Exact venue slug calhouns-2-0 was copied from the active TWG workbook. No ending time, admission price, age restriction or band configuration was invented.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-12"
     }
   ]
 }
