@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 219,
-  "publish_ready_count": 219,
+  "event_count": 220,
+  "publish_ready_count": 220,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -15010,6 +15010,67 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 12, 2026 from the official Choctaw Cultural Center event calendar. Fall Festival 2026 is listed for Friday, October 16 through Saturday, October 17, 2026 beginning at 10:00 AM and is explicitly marked Free. The official calendar provides a dedicated Blackbaud event link. No event-specific closing time was published in the accessible official listing, so end_datetime remains null rather than inventing one.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-12"
+    },
+    {
+      "event_slug": "cinema-at-the-center-monsters-inc-2026-10-24",
+      "event_name": "Cinema at the Center: Monsters Inc.",
+      "description": "Cinema at the Center presents Monsters Inc. at the Choctaw Cultural Center on Saturday, October 24, 2026 at 1:00 PM in Calera. Bring the family for a complimentary Saturday afternoon movie as part of the Cultural Center's monthly family-friendly Cinema at the Center series.",
+      "start_datetime": "2026-10-24T13:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "choctaw-cultural-center-calera"
+      ],
+      "venue_name": "Choctaw Cultural Center",
+      "address": "1919 Hina Hanta Way",
+      "city": "Calera",
+      "state": "OK",
+      "postal_code": "74730",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Movies",
+        "Kids & Family"
+      ],
+      "tags": [
+        "Choctaw Cultural Center",
+        "Cinema at the Center",
+        "Monsters Inc.",
+        "free movie",
+        "family movie",
+        "family friendly",
+        "Calera",
+        "Durant area"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free.",
+      "audience": [
+        "Kids",
+        "Families",
+        "General Public"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "choctaw-cultural-center-calera",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/cinema-at-the-center-monsters-inc-2026-10-24.png",
+      "image_alt": null,
+      "official_url": "https://choctawculturalcenter.com/cinema/",
+      "facebook_url": null,
+      "ticket_url": "https://altru118272.sky.blackbaud.com/118272/Cinema-at-the-Center-Monsters-Inc",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 12, 2026 from the official Choctaw Cultural Center Cinema at the Center and events pages. Cinema at the Center: Monsters Inc. is listed for Saturday, October 24, 2026 at 1:00 PM and explicitly marked Free. The official Cinema at the Center page describes the monthly series as family-friendly and provides a dedicated More Information link. No event-specific ending time was published in the accessible official listing, so end_datetime remains null.",
       "last_checked": "2026-08-12",
       "created_on": "2026-08-12",
       "updated_on": "2026-08-12"
