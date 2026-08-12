@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 210,
-  "publish_ready_count": 210,
+  "event_count": 211,
+  "publish_ready_count": 211,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -14467,6 +14467,70 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 11, 2026 from the current dedicated Denison Arts Council Small on the Wall event page and current Art Gallery page. The dedicated event page states that Small on the Wall runs August 1 through October 4, 2026 at the new gallery on W Woodard Street and describes the exhibition as artwork measuring 6 inches or smaller in all directions, with no restriction on theme, subject matter or medium. It lists the opening reception and grand opening for August 1 from 4:00 PM to 6:00 PM, the midway reception for September 5 from 4:00 PM to 6:00 PM, and artist/buyer pickup October 4 from 12:00 PM to 5:00 PM. The current gallery page confirms the new address at 500 W Woodard, Denison, TX 75020 and regular gallery hours Thursday-Saturday 10:00 AM-5:00 PM and Sunday 12:00 PM-5:00 PM. The dedicated event page is treated as authoritative over older summary pages that still display earlier exhibition dates. TWG's canonical business directory confirms 517 Gallery is a complete, publish-ready event venue under slug 517-gallery at 500 W Woodard St. A fresh search of the current canonical TWG event directory found no existing Small on the Wall record. No general admission price or age restriction is currently published, so neither is inferred.",
+      "last_checked": "2026-08-11",
+      "created_on": "2026-08-11",
+      "updated_on": "2026-08-12"
+    },
+    {
+      "event_slug": "misfits-and-mayhem-517-gallery-denison-2026",
+      "event_name": "Misfits & Mayhem",
+      "description": "Denison Arts Council presents Misfits & Mayhem at 517 Gallery, a year-end exhibition with no required theme. Artists may submit work in any size, medium, subject matter or style, creating a varied exhibition celebrating creative individuality. The exhibition runs November 14, 2026 through January 3, 2027. An opening reception is scheduled for November 14 from 4:00 PM to 6:00 PM, with a midway reception December 12 from 4:00 PM to 6:00 PM.",
+      "start_datetime": "2026-11-14T16:00:00-06:00",
+      "end_datetime": "2027-01-03T17:00:00-06:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "517-gallery"
+      ],
+      "venue_name": "517 Gallery",
+      "address": "500 W Woodard St",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Art Exhibition",
+        "Arts & Culture",
+        "Gallery Event"
+      ],
+      "tags": [
+        "Misfits & Mayhem",
+        "517 Gallery",
+        "Denison Arts Council",
+        "art exhibition",
+        "visual arts",
+        "local art",
+        "gallery reception",
+        "downtown Denison",
+        "Denison"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No general admission price is published on the current official exhibition or gallery pages.",
+      "audience": [
+        "Art enthusiasts",
+        "Artists",
+        "Gallery visitors",
+        "Community members"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "517-gallery",
+      "organizer_name": "Denison Arts Council",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/misfits-and-mayhem-517-gallery-denison-2026.png",
+      "image_alt": null,
+      "official_url": "https://denisonartscouncil.org/misfits-mayhem/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 11, 2026 from the current official Denison Arts Council Misfits & Mayhem page, 2026 gallery schedule and current Art Gallery page. Misfits & Mayhem runs November 14, 2026 through January 3, 2027. The official schedule lists the Opening & Reception for November 14 from 4:00 PM to 6:00 PM, a Midway Reception December 12 from 4:00 PM to 6:00 PM, and artist pickup January 3. The exhibition has no required theme and accepts work of any size, medium, subject matter or style. Denison Arts Council's current Art Gallery page confirms 517 Gallery has relocated to 500 W Woodard St, Denison, TX 75020 and publishes regular hours of Thursday-Saturday 10:00 AM-5:00 PM and Sunday 12:00 PM-5:00 PM. Older dedicated event-page contact text still displays the former 517 W Main Street address; that stale address is not used. TWG's canonical business directory already contains the current 517 Gallery venue under slug 517-gallery. A fresh duplicate check against the canonical TWG event directory, currently containing 210 events, found no Misfits & Mayhem record. No general admission price or age restriction is published, so neither is inferred.",
       "last_checked": "2026-08-11",
       "created_on": "2026-08-11",
       "updated_on": "2026-08-12"
