@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-11",
+  "generated_on": "2026-08-12",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 784,
-  "publish_ready_count": 459,
+  "business_count": 785,
+  "publish_ready_count": 460,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -75371,6 +75371,122 @@
       "last_verified": "2026-08-11",
       "created_on": "2026-08-11",
       "updated_on": "2026-08-11"
+    },
+    {
+      "slug": "grayson-county-speedway",
+      "business_name": "Grayson County Speedway",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "171 Busby Ln, Bells, TX 75414",
+      "category": [
+        "Race Track",
+        "Event Venue",
+        "Motorsports Venue"
+      ],
+      "tags": [
+        "Dirt Track Racing",
+        "IMCA Racing",
+        "Family Friendly",
+        "Outdoor Entertainment",
+        "Live Racing",
+        "Saturday Night Racing",
+        "Grayson County",
+        "Bells",
+        "North Texas"
+      ],
+      "description": "Grayson County Speedway is a long-running dirt-track racing venue in Bells, Texas. The high-energy quarter-mile clay oval hosts regular Saturday-night race programs during its primary March-through-October season along with touring series, special race nights and other motorsports events. Built in 1974 and IMCA-sanctioned since 1985, the speedway offers permanent spectator seating, concessions and free designated parking.",
+      "why_visit": "Catch grassroots North Texas dirt-track racing at a compact quarter-mile oval where fans can see multiple racing classes and special touring series in one evening. Regular race nights combine affordable admission, concessions and a family-friendly atmosphere with close-up short-track action.",
+      "why_its_unique": "Operating since 1974, Grayson County Speedway is a well-established quarter-mile clay bullring that has been IMCA-sanctioned since 1985. Its compact oval, longstanding local racing community and mix of weekly programs and visiting series give it a distinctly Texoma motorsports identity.",
+      "phone": "903-267-9114",
+      "email": "mark@gcsracing.com",
+      "website": "https://www.gcsracing.com/",
+      "facebook": "https://www.facebook.com/graysoncountyspeedway",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "saturday": "5:00 PM - 12:00 AM"
+      },
+      "hours_note": "Regular operating season is generally March through October. Event-specific pit, gate, hot-lap and racing times vary, and some special events occur on other days. Check the official schedule before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Free designated parking",
+        "Permanent spectator seating",
+        "Concessions",
+        "Coolers allowed with restrictions",
+        "Pit access available with pit pass"
+      ],
+      "good_to_know": [
+        "Regular general admission is $15.",
+        "Students age 17 and younger and seniors age 65 and older are $10.",
+        "Kids 42 inches and under receive free general admission.",
+        "Pit admission is $30.",
+        "Coolers are allowed within the track's posted size limits, but glass bottles and containers are prohibited.",
+        "Race schedules and start times can change because of weather or individual event programming.",
+        "The track publishes a rainout policy for qualifying admission tickets and armbands when a program cannot progress through all heat races."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "texas"
+      ],
+      "verification_note": "Complete. Verified 2026-08-12 from the official Grayson County Speedway website, track-information and contact pages, current 2026 schedule, official Facebook identity and MyRacePass data. Permanent high-priority event-mining source; monitor schedule and official social posts for race-night changes, rainouts and newly announced special events.",
+      "last_checked": "2026-08-12",
+      "event_types": [
+        "Dirt track racing",
+        "IMCA racing",
+        "Touring racing series",
+        "Full race programs",
+        "Special race programs",
+        "Fan appreciation events",
+        "Holiday racing events",
+        "Test and tune events"
+      ],
+      "event_sources": [
+        "Official Grayson County Speedway schedule",
+        "Official Grayson County Speedway website",
+        "Official Facebook page",
+        "MyRacePass"
+      ],
+      "features": [
+        "1/4-mile clay oval",
+        "Built in 1974",
+        "IMCA sanctioned since 1985",
+        "Approximately 1,500 permanent spectator seats",
+        "Free designated parking",
+        "On-site concessions",
+        "Seasonal Saturday-night racing",
+        "Local and touring racing divisions"
+      ]
     }
   ]
 }
