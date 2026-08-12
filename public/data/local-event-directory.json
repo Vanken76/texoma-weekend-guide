@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 230,
-  "publish_ready_count": 230,
+  "event_count": 231,
+  "publish_ready_count": 231,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -15696,6 +15696,62 @@
       "last_checked": "2026-08-12",
       "created_on": "2026-08-12",
       "updated_on": "2026-08-12"
+    },
+    {
+      "event_slug": "hudson-westbrook-hits-me-tour-choctaw-grand-theater-durant-2026-12-04",
+      "event_name": "Hudson Westbrook Hits Me Tour with Special Guests Kenny Whitmire & Ethan Burdick",
+      "description": "Hudson Westbrook brings the Hits Me Tour to the Choctaw Grand Theater in Durant with special guests Kenny Whitmire and Ethan Burdick. Doors open at 6:30 PM, with the show scheduled to begin at 7:00 PM according to Choctaw Casinos & Resorts.",
+      "start_datetime": "2026-12-04T19:00:00-06:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-grand-theater-choctaw-casino-resort-durant"
+      ],
+      "venue_name": "Choctaw Grand Theater",
+      "address": null,
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": null,
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Concert"
+      ],
+      "tags": [
+        "Hudson Westbrook",
+        "Kenny Whitmire",
+        "Ethan Burdick",
+        "Country Music",
+        "Live Music",
+        "Choctaw Grand Theater",
+        "Durant"
+      ],
+      "cost_type": "paid",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "image_url": "/images/events/hudson-westbrook-hits-me-tour-choctaw-grand-theater-durant-2026-12-04.jpg",
+      "official_url": "https://www.choctawcasinos.com/events/hudson-westbrook-hits-me-tour-special-guests-kenny-whitmire-ethan-burdick/",
+      "facebook_url": null,
+      "ticket_url": "https://www.ticketmaster.com/hudson-westbrook-w-special-guests-kenny-whitmire-and-ethan-burdick-durant-12-04-2026/event/0C0064E7AC4A5B25",
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-12. Official Choctaw Casinos & Resorts event page lists doors at 6:30 PM and showtime at 7:00 PM on Dec. 4, 2026. Ticketmaster currently lists the event at 8:00 PM. First-party Choctaw showtime retained; discrepancy documented rather than silently reconciled. Ending time, price details and age restriction were not invented.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-12",
+      "organizer_name": null,
+      "image_alt": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": null,
+      "partner_business_slugs": [],
+      "partner_names": []
     }
   ]
 }
