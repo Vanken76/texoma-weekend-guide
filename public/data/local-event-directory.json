@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 223,
-  "publish_ready_count": 223,
+  "event_count": 224,
+  "publish_ready_count": 224,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -15255,6 +15255,67 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 12, 2026 from the official Choctaw Cultural Center event calendar and official Blackbaud event page. Choctaw Christmas 2026 is scheduled for Saturday, December 5, 2026 from 10:00 AM to 5:00 PM and features special programming and workshops. The calendar displays a Free badge, but the more specific event page states that the event is included with admission to the Choctaw Cultural Center and that admission is complimentary for Choctaw tribal members and Cultural Center members. Cost fields therefore follow the detailed event page rather than treating general admission as free.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-12"
+    },
+    {
+      "event_slug": "cinema-at-the-center-happy-feet-2026-12-12",
+      "event_name": "Cinema at the Center: Happy Feet",
+      "description": "Cinema at the Center presents Happy Feet at the Choctaw Cultural Center on Saturday, December 12, 2026 at 1:00 PM in Calera. The screening is free and is part of the Cultural Center's monthly family-friendly Cinema at the Center series.",
+      "start_datetime": "2026-12-12T13:00:00-06:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "choctaw-cultural-center-calera"
+      ],
+      "venue_name": "Choctaw Cultural Center",
+      "address": "1919 Hina Hanta Way",
+      "city": "Calera",
+      "state": "OK",
+      "postal_code": "74730",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Movies",
+        "Kids & Family"
+      ],
+      "tags": [
+        "Choctaw Cultural Center",
+        "Cinema at the Center",
+        "Happy Feet",
+        "free movie",
+        "family movie",
+        "family friendly",
+        "Calera",
+        "Durant area"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free.",
+      "audience": [
+        "Kids",
+        "Families",
+        "General Public"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "choctaw-cultural-center-calera",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/cinema-at-the-center-happy-feet-2026-12-12.png",
+      "image_alt": null,
+      "official_url": "https://choctawculturalcenter.com/cinema/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 12, 2026 from the official Choctaw Cultural Center Cinema at the Center page and events calendar. Cinema at the Center: Happy Feet is listed for Saturday, December 12, 2026 at 1:00 PM and is explicitly marked Free. The Cinema at the Center series is described by the Cultural Center as family-friendly. The current More Information link attached to Happy Feet routes to the Megamind event page, so no Happy Feet-specific end time, door time, activities, concessions details, or registration URL were carried over from that incorrect destination.",
       "last_checked": "2026-08-12",
       "created_on": "2026-08-12",
       "updated_on": "2026-08-12"
