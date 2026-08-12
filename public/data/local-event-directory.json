@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 234,
-  "publish_ready_count": 234,
+  "event_count": 235,
+  "publish_ready_count": 235,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -15918,6 +15918,60 @@
       "last_checked": "2026-08-12",
       "created_on": "2026-08-12",
       "updated_on": "2026-08-12"
+    },
+    {
+      "event_slug": "taylor-walker-live-the-point-restaurant-denison-2026-08-22",
+      "event_name": "Taylor Walker Live at The Point Restaurant",
+      "description": "Taylor Walker performs live at The Point Restaurant on Lake Texoma on Saturday, August 22, 2026. The waterfront performance runs from 6:00 PM to 9:00 PM at Grandpappy Point Resort & Marina in Denison.",
+      "start_datetime": "2026-08-22T18:00:00-05:00",
+      "end_datetime": "2026-08-22T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-point-restaurant"
+      ],
+      "venue_name": "The Point Restaurant",
+      "address": "1711 Harbor Rd",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music"
+      ],
+      "tags": [
+        "Taylor Walker",
+        "Live Music",
+        "Lake Texoma",
+        "The Point Restaurant",
+        "Grandpappy Point",
+        "Denison"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "image_url": "/images/events/taylor-walker-live-the-point-restaurant-denison-2026-08-22.png",
+      "official_url": "https://www.eatatthepoint.com/live-music-at-thepoint",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-12. The Point Restaurant's current official live-music calendar lists Taylor Walker on Saturday, Aug. 22, 2026 from 6:00 PM to 9:00 PM. Fresh active TWG directory check found no existing Aug. 22 Taylor Walker event at The Point Restaurant. Exact canonical venue slug the-point-restaurant was copied from the active TWG workbook. No admission price or age restriction was invented.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-12",
+      "organizer_name": "The Point Restaurant",
+      "image_alt": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": null,
+      "partner_business_slugs": [],
+      "partner_names": []
     }
   ]
 }
