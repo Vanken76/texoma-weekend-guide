@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 217,
-  "publish_ready_count": 217,
+  "event_count": 218,
+  "publish_ready_count": 218,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -14892,6 +14892,67 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 12, 2026 from the official Choctaw Cultural Center Cinema at the Center page and official Blackbaud event page. Ratatouille is scheduled for Saturday, September 26, 2026. Doors to Kowi Chito Theater open at 12:30 PM and the movie runs from 1:00 PM to 3:00 PM. Admission to the movie is complimentary. The official listing also confirms LUMOplay, a 360 photo booth with props, and concessions available for purchase.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-12"
+    },
+    {
+      "event_slug": "october-volunteer-orientation-choctaw-cultural-center-2026-10-03",
+      "event_name": "October Volunteer Orientation",
+      "description": "The Choctaw Cultural Center hosts October Volunteer Orientation on Saturday, October 3, 2026 at 10:30 AM in Calera. The orientation introduces prospective volunteers to the Cultural Center's volunteer program and includes a welcome from the Volunteer Coordinator, an overview of the program, a site tour, a welcome packet and an interactive Q&A session.",
+      "start_datetime": "2026-10-03T10:30:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "choctaw-cultural-center-calera"
+      ],
+      "venue_name": "Choctaw Cultural Center",
+      "address": "1919 Hina Hanta Way",
+      "city": "Calera",
+      "state": "OK",
+      "postal_code": "74730",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Volunteer Opportunities",
+        "Community Events",
+        "Cultural Education"
+      ],
+      "tags": [
+        "Choctaw Cultural Center",
+        "Choctaw Nation",
+        "volunteer orientation",
+        "volunteering",
+        "community service",
+        "prospective volunteers",
+        "Choctaw culture",
+        "Calera",
+        "Durant area"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free.",
+      "audience": [
+        "Prospective Volunteers"
+      ],
+      "age_restriction": "The Choctaw Cultural Center volunteer application requires applicants to be at least 16 years old.",
+      "host_business_slug": "choctaw-cultural-center-calera",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/october-volunteer-orientation-choctaw-cultural-center-2026-10-03.png",
+      "image_alt": null,
+      "official_url": "https://choctawculturalcenter.com/events/",
+      "facebook_url": null,
+      "ticket_url": "https://altru118272.sky.blackbaud.com/118272/Volunteer-Orientation-03Oct2026",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 12, 2026 from the official Choctaw Cultural Center event calendar and volunteer program page. October Volunteer Orientation is listed for Saturday, October 3, 2026 at 10:30 AM and is explicitly marked Free. The volunteer program describes orientation as including a welcome from the Volunteer Coordinator, a program overview, a Cultural Center site tour, a welcome packet and interactive Q&A. The volunteer application requires applicants to be at least 16 years old. No event-specific ending time was published, so end_datetime remains null.",
       "last_checked": "2026-08-12",
       "created_on": "2026-08-12",
       "updated_on": "2026-08-12"
