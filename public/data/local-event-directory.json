@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 235,
-  "publish_ready_count": 235,
+  "event_count": 236,
+  "publish_ready_count": 236,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -15970,6 +15970,59 @@
       "recurrence_start_date": null,
       "recurrence_end_date": null,
       "host_business_slug": null,
+      "partner_business_slugs": [],
+      "partner_names": []
+    },
+    {
+      "event_slug": "greg-guymon-the-point-restaurant-denison-2026-09-12",
+      "event_name": "Greg Guymon",
+      "description": "Greg Guymon performs live at The Point Restaurant on Lake Texoma in Denison on Saturday, September 12, 2026. The performance runs from 6:00 PM to 9:00 PM.",
+      "start_datetime": "2026-09-12T18:00:00-05:00",
+      "end_datetime": "2026-09-12T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-point-restaurant"
+      ],
+      "venue_name": "The Point Restaurant",
+      "address": "1711 Harbor Rd",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music"
+      ],
+      "tags": [
+        "Greg Guymon",
+        "Live Music",
+        "Lake Texoma",
+        "The Point Restaurant",
+        "Denison"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "image_url": "/images/events/greg-guymon-the-point-restaurant-denison-2026-09-12.png",
+      "official_url": "https://www.eatatthepoint.com/live-music-at-thepoint",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-12 from The Point Restaurant's official live-music calendar, which lists Greg Guymon on Saturday, Sept. 12, 2026 from 6:00 PM to 9:00 PM. Fresh active TWG directory check found Greg Guymon's separate Aug. 28 Calhoun's event but no Sept. 12 Greg Guymon event at The Point Restaurant. Exact canonical venue slug the-point-restaurant was copied from the active TWG workbook. No admission price or age restriction was invented.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-12",
+      "organizer_name": "The Point Restaurant",
+      "image_alt": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": "the-point-restaurant",
       "partner_business_slugs": [],
       "partner_names": []
     }
