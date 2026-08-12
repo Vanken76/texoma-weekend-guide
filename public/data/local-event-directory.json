@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 208,
-  "publish_ready_count": 208,
+  "event_count": 209,
+  "publish_ready_count": 209,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -14349,6 +14349,61 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 11, 2026 from the official City of Denison calendar. Downtown Murder Club Daytime Meeting is listed for Friday, August 21, 2026 from 12:00 PM to 1:00 PM under Denison Public Library. The official Denison Public Library page confirms the library at 300 W Gandy, Denison, TX 75020. Earlier official calendars show additional daytime meetings, but the dates do not establish a sufficiently consistent recurrence rule, so this record represents only the verified August 21 occurrence. A fresh duplicate check against the current canonical TWG event directory found no Downtown Murder Club Daytime Meeting record. No admission price, registration requirement, age restriction or expanded program description is currently published, so those details are not inferred.",
+      "last_checked": "2026-08-11",
+      "created_on": "2026-08-11",
+      "updated_on": "2026-08-12"
+    },
+    {
+      "event_slug": "bluestem-master-naturalists-book-group-denison-2026-08-22",
+      "event_name": "Bluestem Master Naturalists Book Group",
+      "description": "Denison Public Library hosts the Bluestem Master Naturalists Book Group on Saturday, August 22, 2026. The library program runs from 10:30 AM to 11:30 AM. The current official listing does not publish a featured book, admission information, registration requirement, age restriction or additional program description, so those details are not inferred.",
+      "start_datetime": "2026-08-22T10:30:00-05:00",
+      "end_datetime": "2026-08-22T11:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "denison-public-library"
+      ],
+      "venue_name": "Denison Public Library",
+      "address": "300 W Gandy St",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Book Club",
+        "Library Program",
+        "Community Event"
+      ],
+      "tags": [
+        "Bluestem Master Naturalists",
+        "Book Group",
+        "Book Club",
+        "Denison Public Library",
+        "Denison"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No admission price or cost information is published in the current official listing.",
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": "denison-public-library",
+      "organizer_name": "Denison Public Library",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/bluestem-master-naturalists-book-group-denison-2026-08-22.png",
+      "image_alt": null,
+      "official_url": "https://www.denisontx.gov/calendar.aspx?CID=0&month=8&view=list&year=2026",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 11, 2026 from the official City of Denison calendar. Bluestem Master Naturalists Book Group is listed for Saturday, August 22, 2026 from 10:30 AM to 11:30 AM under Denison Public Library. The official Denison Public Library page confirms the venue at 300 W Gandy, Denison, TX 75020. Earlier official calendars show additional meetings on May 30, June 27 and July 25, but the published dates do not support a sufficiently reliable recurrence rule for future dates, so this record represents only the verified August 22 occurrence. A fresh duplicate check against the current canonical TWG event directory found no matching Bluestem Master Naturalists Book Group record. No featured book, admission price, registration requirement, age restriction or expanded event description is currently published, so those details are not inferred.",
       "last_checked": "2026-08-11",
       "created_on": "2026-08-11",
       "updated_on": "2026-08-12"
