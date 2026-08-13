@@ -5,8 +5,8 @@
   "generated_on": "2026-08-13",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 787,
-  "publish_ready_count": 462,
+  "business_count": 788,
+  "publish_ready_count": 463,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -75688,6 +75688,126 @@
         "Downtown Denison location",
         "Skate rentals included",
         "11th season in 2026-27"
+      ]
+    },
+    {
+      "slug": "waterloo-pool",
+      "business_name": "Waterloo Pool",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1501 W Brock St, Denison, TX 75020",
+      "category": [
+        "Swimming Pool",
+        "Aquatic Center",
+        "Recreation Facility",
+        "Family Attraction",
+        "Event Venue"
+      ],
+      "tags": [
+        "Swimming",
+        "Indoor Pool",
+        "Lap Swimming",
+        "Open Swim",
+        "Swim Lessons",
+        "Water Fitness",
+        "Family Friendly",
+        "Denison",
+        "Grayson County"
+      ],
+      "description": "Waterloo Pool is Denison's year-round enclosed aquatic facility, featuring a 25-yard, seven-lane pool. The City-operated facility offers recreational swimming, lap swimming, aquatic fitness, swim lessons, competitive swim programs, private rentals and seasonal special events.",
+      "why_visit": "Waterloo Pool offers year-round swimming and aquatic recreation for families, fitness swimmers and competitive athletes, with public swim sessions, lessons, fitness opportunities and special programming.",
+      "why_its_unique": "Unlike seasonal outdoor pools, Waterloo Pool operates as Denison's year-round indoor aquatic facility and serves as a hub for public recreation, swim instruction, fitness classes, swim teams and community aquatic events.",
+      "phone": "903-464-4475",
+      "email": null,
+      "website": "https://www.cityofdenison.com/489/Waterloo-Pool",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Operating schedules vary seasonally. The City began its Fall/Winter 2026 schedule on Aug. 10, 2026; check the official Waterloo Pool hours page for the current schedule before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Enclosed 25-yard pool",
+        "Seven swimming lanes",
+        "Recreational open swim",
+        "Lap swimming",
+        "Aquatic fitness programs",
+        "Swim lessons",
+        "Competitive swim programs",
+        "Private pool rentals",
+        "Table reservations"
+      ],
+      "good_to_know": [
+        "Current day-pass pricing for Denison residents is $4 for youth ages 2-15, $4 for seniors age 55 and older, and $5 for adults.",
+        "Current non-resident day admission is $7.",
+        "Children under age 2 are admitted free with a paying adult.",
+        "Children under age 12 must remain in the immediate vicinity and visual contact of a parent or caregiver.",
+        "Children ages 12-14 may use the pool independently only after passing a Waterloo Pool swim test scheduled in advance with a parent or caregiver present.",
+        "Private pool parties and table reservations are available.",
+        "Operating hours and programming change seasonally, so visitors should verify the current schedule before arriving."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "texas"
+      ],
+      "verification_note": "Complete venue preflight completed 2026-08-12. Fresh active TWG business-directory and active workbook checks found no existing Waterloo Pool record. Official City of Denison sources confirm Waterloo Pool at 1501 W Brock St, phone 903-464-4475, year-round aquatic programming, current admission rates, rentals, age/supervision rules and active special-event programming. Current Fall/Winter 2026 hours are published graphically by the City, so individual daily hours were not transcribed or guessed.",
+      "last_checked": "2026-08-12",
+      "event_types": [
+        "Special swim events",
+        "Homeschool swim days",
+        "Swimming lessons",
+        "Water-safety events",
+        "Swim meets",
+        "Aquatic fitness activities"
+      ],
+      "event_sources": [
+        "City of Denison — Waterloo Pool",
+        "City of Denison — Waterloo Pool Hours, Admission & Rentals",
+        "City of Denison — Events & Challenges",
+        "City of Denison — Pool Rules and FAQs",
+        "Denison RecDesk"
+      ],
+      "features": [
+        "Year-round enclosed aquatic facility",
+        "25-yard pool",
+        "Seven swimming lanes",
+        "Public recreational swimming",
+        "Lap swimming",
+        "Aquatic fitness",
+        "Swim lessons",
+        "Swim-team programs",
+        "Private rentals"
       ]
     }
   ]
