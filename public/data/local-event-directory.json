@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 252,
-  "publish_ready_count": 252,
+  "event_count": 253,
+  "publish_ready_count": 253,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -16969,6 +16969,77 @@
         "Denison Parks & Recreation may cancel a session if participation falls below the minimum."
       ],
       "verification_note": "Fully researched August 13, 2026. A fresh canonical TWG event-directory check found no existing Pickleball PlayDay record. The current City of Denison Pickleball page lists Pickleball PlayDay on October 11 at The Backyard in Waterloo Lake Regional Park from 8:30 AM to 10:30 AM and states that lessons are $5. The page also states that participants may bring their own paddles, starter paddles are available, and at least two participants are required per session. The canonical TWG business directory confirms Waterloo Lake Regional Park as a complete publish-ready venue under the exact slug waterloo-lake-regional-park-denison at 1101 Waterloo Lake Drive, Denison, TX 75020. No age restriction or separate ticket URL is currently published.",
+      "last_checked": "2026-08-13",
+      "created_on": "2026-08-13",
+      "updated_on": "2026-08-13"
+    },
+    {
+      "event_slug": "texoma-trade-days-august-2026",
+      "event_name": "Texoma Trade Days",
+      "description": "Texoma Trade Days returns to the Midway Mall Expo Hall in Sherman for its August market weekend. Shop more than 100 local vendors offering handmade goods, collectibles, gifts, vintage finds, food, snacks and other unique merchandise. The indoor market is open Saturday from 9:00 AM to 5:00 PM and Sunday from 10:00 AM to 4:00 PM.",
+      "start_datetime": "2026-08-15T09:00:00-05:00",
+      "end_datetime": "2026-08-16T16:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "texoma-trade-days"
+      ],
+      "venue_name": "Texoma Trade Days at Midway Mall Expo Hall",
+      "address": "4800 Texoma Pkwy, Suite B401B",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Vendor Market",
+        "Shopping",
+        "Community Event",
+        "Flea Market"
+      ],
+      "tags": [
+        "Texoma Trade Days",
+        "Midway Mall",
+        "Expo Hall",
+        "Local Vendors",
+        "Shopping",
+        "Collectibles",
+        "Handmade Goods",
+        "Sherman"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free admission and parking.",
+      "audience": [
+        "General Public",
+        "Families",
+        "Shoppers",
+        "Collectors"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "texoma-trade-days",
+      "organizer_name": "Texoma Trade Days",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/texoma-trade-days-august-2026.png",
+      "image_alt": null,
+      "official_url": null,
+      "facebook_url": "https://www.facebook.com/p/Texoma-Trade-Days-61568350764550/",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "Saturday hours are 9:00 AM to 5:00 PM.",
+        "Sunday hours are 10:00 AM to 4:00 PM.",
+        "The market is indoors at the Midway Mall Expo Hall.",
+        "More than 100 vendors are represented.",
+        "Admission and parking are free."
+      ],
+      "verification_note": "Fully researched August 13, 2026 during the urgent August 13-16 roundup sprint. Fresh canonical TWG event-directory search found no existing Texoma Trade Days event record. The canonical TWG business directory already contains a complete publish-ready Texoma Trade Days venue record under the exact slug texoma-trade-days at 4800 Texoma Pkwy, Suite B401B, Sherman, TX 75090. Current 2026 event listings confirm the August market weekend is Saturday, August 15 from 9:00 AM to 5:00 PM and Sunday, August 16 from 10:00 AM to 4:00 PM at the Midway Mall Expo Hall. A current Texoma Trade Days vendor website independently confirms the same August 15-16 schedule, location, and free admission and parking.",
       "last_checked": "2026-08-13",
       "created_on": "2026-08-13",
       "updated_on": "2026-08-13"
