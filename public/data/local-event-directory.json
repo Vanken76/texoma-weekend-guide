@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 254,
-  "publish_ready_count": 254,
+  "event_count": 255,
+  "publish_ready_count": 255,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -17113,6 +17113,79 @@
         "Inclement-weather walks may move to The ROC at Parkside Baptist Church."
       ],
       "verification_note": "Fully researched August 13, 2026 during the August 13-16 roundup sprint. Fresh canonical TWG repository search found no existing Walk with a Doc event record. The current City of Denison Health & Wellness Opportunities page confirms that Walk with a Doc takes place on the third Saturday of every month at Texoma Health Foundation Park, with July and August walks beginning at 8:30 AM. August 15, 2026 is the third Saturday of August. The official Walk with a Doc Grayson County chapter page independently confirms the same monthly schedule, summer start time, THF Park location at 3801 S US-75 in Denison, chapter number 1482, Grayson County Medical Society partnership and inclement-weather location. No specific ending time or admission charge is published in the current local official sources, so neither is invented.",
+      "last_checked": "2026-08-13",
+      "created_on": "2026-08-13",
+      "updated_on": "2026-08-13"
+    },
+    {
+      "event_slug": "painting-with-goats-pickles-and-pottery-sherman-2026-08-15",
+      "event_name": "Painting with Goats",
+      "description": "Pickles & Pottery hosts a playful pottery-painting experience with baby goats on Saturday, August 15. Guests can choose a pottery piece to paint while spending time with the goats, including opportunities to pet, cuddle and take photos with them. Goat-themed artwork is encouraged but not required. Pottery is purchased separately during the event.",
+      "start_datetime": "2026-08-15T17:30:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "pickles-and-pottery-sherman"
+      ],
+      "venue_name": "Pickles & Pottery",
+      "address": "214 W Houston St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Arts & Crafts",
+        "Family Event",
+        "Animals",
+        "Workshop"
+      ],
+      "tags": [
+        "Painting with Goats",
+        "Pickles & Pottery",
+        "Baby Goats",
+        "Pottery Painting",
+        "Art",
+        "Family Friendly",
+        "Sherman"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Admission ticket required. Pottery is purchased separately during the event. A current ticket price was not independently confirmed.",
+      "audience": [
+        "Families",
+        "Children",
+        "Adults",
+        "Animal Lovers",
+        "Art & Craft Fans"
+      ],
+      "age_restriction": "All ages welcome. Each attendee age 3 and older requires a ticket.",
+      "host_business_slug": "pickles-and-pottery-sherman",
+      "organizer_name": "Pickles & Pottery",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/painting-with-goats-pickles-and-pottery-sherman-2026-08-15.png",
+      "image_alt": null,
+      "official_url": null,
+      "facebook_url": "https://www.facebook.com/events/2752714638442786/",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The event begins at 5:30 PM on Saturday, August 15.",
+        "Guests select and purchase their pottery piece at the event.",
+        "Tickets cover event admission rather than the pottery piece.",
+        "Guests can pet, cuddle and take photos with the baby goats.",
+        "All ages are welcome.",
+        "Each attendee age 3 and older needs a ticket.",
+        "Ticket availability is limited."
+      ],
+      "verification_note": "Fully researched August 13, 2026 during the August 13-16 roundup sprint. Fresh canonical TWG event-directory search found no Painting with Goats event record. A current Sherman-Denison event listing verified August 7 against the event source confirms Painting with Goats at Pickles & Pottery on Saturday, August 15, 2026 at 5:30 PM. The listing confirms pottery painting alongside baby goats, pottery purchased separately, all-ages participation, tickets required for each attendee age 3 and older and limited ticket availability. TWG already has Pickles & Pottery as a canonical venue under pickles-and-pottery-sherman. The event-specific source lists 214 W Houston St while the existing TWG studio record uses 212 W Houston St; TWG preserves the event-specific address rather than silently changing it. No ending time or current ticket price was independently confirmed, so neither is invented.",
       "last_checked": "2026-08-13",
       "created_on": "2026-08-13",
       "updated_on": "2026-08-13"
