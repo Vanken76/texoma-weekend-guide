@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 253,
-  "publish_ready_count": 253,
+  "event_count": 254,
+  "publish_ready_count": 254,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -17040,6 +17040,79 @@
         "Admission and parking are free."
       ],
       "verification_note": "Fully researched August 13, 2026 during the urgent August 13-16 roundup sprint. Fresh canonical TWG event-directory search found no existing Texoma Trade Days event record. The canonical TWG business directory already contains a complete publish-ready Texoma Trade Days venue record under the exact slug texoma-trade-days at 4800 Texoma Pkwy, Suite B401B, Sherman, TX 75090. Current 2026 event listings confirm the August market weekend is Saturday, August 15 from 9:00 AM to 5:00 PM and Sunday, August 16 from 10:00 AM to 4:00 PM at the Midway Mall Expo Hall. A current Texoma Trade Days vendor website independently confirms the same August 15-16 schedule, location, and free admission and parking.",
+      "last_checked": "2026-08-13",
+      "created_on": "2026-08-13",
+      "updated_on": "2026-08-13"
+    },
+    {
+      "event_slug": "walk-with-a-doc-thf-park-2026-08-15",
+      "event_name": "Walk with a Doc",
+      "description": "Start Saturday morning with Walk with a Doc at Texoma Health Foundation Park in Denison. The community walking program begins with a brief health discussion led by a local physician, followed by a walk where participants can choose a comfortable pace and distance and have opportunities to ask health-related questions.",
+      "start_datetime": "2026-08-15T08:30:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "texoma-health-foundation-park-denison"
+      ],
+      "venue_name": "Texoma Health Foundation Park",
+      "address": "3801 S US Highway 75",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Health & Wellness",
+        "Walking",
+        "Outdoor Recreation",
+        "Community Event"
+      ],
+      "tags": [
+        "Walk with a Doc",
+        "Grayson County Medical Society",
+        "Texoma Health Foundation Park",
+        "Walking",
+        "Health",
+        "Fitness",
+        "Denison"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "General Public",
+        "Walkers",
+        "Health & Wellness"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "texoma-health-foundation-park-denison",
+      "organizer_name": "Walk with a Doc — Grayson County",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Grayson County Medical Society"
+      ],
+      "image_url": "/images/events/walk-with-a-doc-thf-park-2026-08-15.png",
+      "image_alt": null,
+      "official_url": "https://www.cityofdenison.com/582/Health-Wellness-Opportunities",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "Walks are held on the third Saturday of each month.",
+        "July and August walks begin at 8:30 AM.",
+        "Participants walk at their own pace and comfortable distance.",
+        "A brief health discussion precedes the walk.",
+        "First-time participants are directed to complete the program waiver.",
+        "The Grayson County Walk with a Doc chapter number is 1482.",
+        "Inclement-weather walks may move to The ROC at Parkside Baptist Church."
+      ],
+      "verification_note": "Fully researched August 13, 2026 during the August 13-16 roundup sprint. Fresh canonical TWG repository search found no existing Walk with a Doc event record. The current City of Denison Health & Wellness Opportunities page confirms that Walk with a Doc takes place on the third Saturday of every month at Texoma Health Foundation Park, with July and August walks beginning at 8:30 AM. August 15, 2026 is the third Saturday of August. The official Walk with a Doc Grayson County chapter page independently confirms the same monthly schedule, summer start time, THF Park location at 3801 S US-75 in Denison, chapter number 1482, Grayson County Medical Society partnership and inclement-weather location. No specific ending time or admission charge is published in the current local official sources, so neither is invented.",
       "last_checked": "2026-08-13",
       "created_on": "2026-08-13",
       "updated_on": "2026-08-13"
