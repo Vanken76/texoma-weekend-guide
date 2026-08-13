@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 261,
-  "publish_ready_count": 261,
+  "event_count": 262,
+  "publish_ready_count": 262,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -17615,6 +17615,77 @@
         "No official ending time, event-specific admission price or age restriction was published."
       ],
       "verification_note": "Fully researched August 13, 2026 during the August 13-16 roundup sprint. Venue preflight was completed first, establishing Ole Red Tishomingo as a canonical publish-ready event venue under ole-red-tishomingo. Fresh TWG repository search returned no existing Charlie White event record. Ole Red Tishomingo's current first-party event page confirms Charlie White performing Sunday, August 16, 2026 at 12:00 PM at Ole Red Tishomingo. Ole Red's current first-party venue information confirms the location at 214 W Main, Tishomingo, OK 73460 and Sunday operating hours of 11:00 AM to 5:00 PM. No official event ending time, admission price or event-specific age restriction was published, so TWG does not infer those details.",
+      "last_checked": "2026-08-13",
+      "created_on": "2026-08-13",
+      "updated_on": "2026-08-13"
+    },
+    {
+      "event_slug": "music-bingo-denison-2026-08-15",
+      "event_name": "Music Bingo Denison",
+      "description": "Put your music knowledge to the test during Music Bingo at Landon Winery Denison. The game combines favorite songs and themed music from across the decades with classic bingo. Players compete through four rounds with multiple ways to win and receive two cards per round.",
+      "start_datetime": "2026-08-15T19:00:00-05:00",
+      "end_datetime": "2026-08-15T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "landon-winery-denison"
+      ],
+      "venue_name": "Landon Winery Denison",
+      "address": "318 W Main St",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Music Bingo",
+        "Games",
+        "Nightlife",
+        "Wine"
+      ],
+      "tags": [
+        "Music Bingo",
+        "Landon Winery",
+        "Landon Winery Denison",
+        "Bingo",
+        "Music",
+        "Wine",
+        "Saturday Night",
+        "Downtown Denison"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "General Public",
+        "Music Fans",
+        "Bingo Fans"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "landon-winery-denison",
+      "organizer_name": "Landon Winery",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/music-bingo-denison-2026-08-15.png",
+      "image_alt": null,
+      "official_url": "https://www.landonwinery.com/series/music-bingo-denison-tx/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=SA",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The August 15 game runs from 7:00 PM to 9:00 PM.",
+        "Music Bingo is held at Landon Winery Denison at 318 W Main St.",
+        "There are four rounds and multiple ways to win.",
+        "Players receive two bingo cards per round.",
+        "The game uses music and themed songs from across the decades.",
+        "Landon Winery currently schedules Music Bingo in Denison every Saturday."
+      ],
+      "verification_note": "Fully researched August 13, 2026 during the August 13-16 roundup sprint. Venue preflight was completed first, establishing Landon Winery Denison as a canonical publish-ready venue under landon-winery-denison. Fresh canonical TWG duplicate checking found no existing Music Bingo Denison event record. Landon Winery's current first-party Music Bingo Denison series calendar specifically lists Saturday, August 15, 2026 from 7:00 PM to 9:00 PM at Landon Winery Denison, 318 W Main St, Denison, TX 75020. The organizer describes Music Bingo as a music-themed variation of bingo with four rounds, four ways to win and two cards per round. The current series calendar shows the event recurring on Saturdays. No event-specific admission charge or age restriction was published in the official information reviewed, so TWG does not invent either.",
       "last_checked": "2026-08-13",
       "created_on": "2026-08-13",
       "updated_on": "2026-08-13"
