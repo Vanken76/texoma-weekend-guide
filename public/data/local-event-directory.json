@@ -16994,7 +16994,7 @@
       "start_datetime": "2026-08-15T08:30:00-05:00",
       "end_datetime": null,
       "timezone": "America/Chicago",
-      "status": "upcoming",
+      "status": "recurring",
       "venue_slugs": [
         "texoma-health-foundation-park-denison"
       ],
@@ -17040,8 +17040,8 @@
       "facebook_url": null,
       "ticket_url": null,
       "recurring": true,
-      "recurrence_rule": null,
-      "recurrence_start_date": null,
+      "recurrence_rule": "FREQ=MONTHLY;BYDAY=SA;BYSETPOS=3",
+      "recurrence_start_date": "2026-08-15",
       "recurrence_end_date": null,
       "featured": false,
       "publish_ready": true,
@@ -17055,7 +17055,7 @@
         "The Grayson County Walk with a Doc chapter number is 1482.",
         "Inclement-weather walks may move to The ROC at Parkside Baptist Church."
       ],
-      "verification_note": "Fully researched August 13, 2026 during the August 13-16 roundup sprint. Fresh canonical TWG repository search found no existing Walk with a Doc event record. The current City of Denison Health & Wellness Opportunities page confirms that Walk with a Doc takes place on the third Saturday of every month at Texoma Health Foundation Park, with July and August walks beginning at 8:30 AM. August 15, 2026 is the third Saturday of August. The official Walk with a Doc Grayson County chapter page independently confirms the same monthly schedule, summer start time, THF Park location at 3801 S US-75 in Denison, chapter number 1482, Grayson County Medical Society partnership and inclement-weather location. No specific ending time or admission charge is published in the current local official sources, so neither is invented.",
+      "verification_note": "Fully researched August 13, 2026 during the August 13-16 roundup sprint. Fresh canonical TWG repository search found no existing Walk with a Doc event record. The current City of Denison Health & Wellness Opportunities page confirms that Walk with a Doc takes place on the third Saturday of every month at Texoma Health Foundation Park, with July and August walks beginning at 8:30 AM. August 15, 2026 is the third Saturday of August. The official Walk with a Doc Grayson County chapter page independently confirms the same monthly schedule, summer start time, THF Park location at 3801 S US-75 in Denison, chapter number 1482, Grayson County Medical Society partnership and inclement-weather location. No specific ending time or admission charge is published in the current local official sources, so neither is invented. Recurrence is encoded as the third Saturday of each month beginning August 15, 2026.",
       "last_checked": "2026-08-13",
       "created_on": "2026-08-13",
       "updated_on": "2026-08-13"
