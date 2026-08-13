@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-12",
+  "generated_on": "2026-08-13",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 786,
-  "publish_ready_count": 461,
+  "business_count": 787,
+  "publish_ready_count": 462,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -75578,6 +75578,116 @@
         "Performing arts venue",
         "Live entertainment",
         "Ticketed productions"
+      ]
+    },
+    {
+      "slug": "denison-on-ice",
+      "business_name": "Denison on Ice",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "111 Main Street, Denison, TX 75020",
+      "category": [
+        "Ice Skating Rink",
+        "Seasonal Attraction",
+        "Family Attraction",
+        "Event Venue"
+      ],
+      "tags": [
+        "Ice Skating",
+        "Holiday Activities",
+        "Winter",
+        "Family Friendly",
+        "Outdoor Recreation",
+        "Downtown Denison",
+        "Denison"
+      ],
+      "description": "Denison on Ice is a seasonal outdoor ice-skating rink in downtown Denison operated by Denison Parks & Recreation. The covered rink returns for its 11th season from November 21, 2026 through January 3, 2027 and offers public skating, adaptive skating sessions, private-party options and seasonal holiday programming.",
+      "why_visit": "Enjoy outdoor ice skating in downtown Denison during the holiday season. Admission includes skate rental, and visitors who do not skate may watch without purchasing a skating ticket.",
+      "why_its_unique": "Denison on Ice brings a full seasonal ice rink to the heart of downtown Denison, with a covered skating surface designed to remain open through a variety of winter weather conditions.",
+      "phone": "903-465-2720",
+      "email": null,
+      "website": "https://www.cityofdenison.com/511/Denison-On-Ice",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Seasonal Nov. 21, 2026-Jan. 3, 2027. Nov. 21-28: 1:00-9:00 PM daily. Nov. 29-Dec. 19: 5:00-9:00 PM weekdays and 1:00-9:00 PM weekends. Dec. 20-Jan. 3: 1:00-9:00 PM daily. Closed Thanksgiving Day, Christmas Eve and Christmas Day. Adaptive Skate is offered Saturdays.",
+      "at_a_glance": {
+        "average_visit": "Approximately 1 hour per skating admission",
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Covered outdoor ice rink",
+        "Skate rentals included with admission",
+        "Adaptive skating sessions",
+        "Portable public restrooms",
+        "Locker rentals",
+        "Private-party reservations",
+        "Table rentals"
+      ],
+      "good_to_know": [
+        "General skating admission is $10 and includes skates.",
+        "Each admission provides approximately one hour of skating.",
+        "Visitors who only want to watch do not need to buy a skating ticket.",
+        "Everyone entering the venue must complete a waiver.",
+        "Guests under 18 require a parent or guardian to sign their waiver.",
+        "Children under 15 must be accompanied by an adult during their visit.",
+        "The rink operates rain or shine but closes when lightning is detected within 10 miles.",
+        "No alcohol, tobacco products or vaping are permitted inside the venue."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "texas"
+      ],
+      "verification_note": "Complete venue preflight completed 2026-08-12. Fresh active TWG business-directory and workbook checks found no existing Denison on Ice record. Official City of Denison Parks & Recreation sources confirm the rink at 111 Main Street, its Nov. 21, 2026-Jan. 3, 2027 season, operating schedule, admission, rentals and current rink rules. Establish this canonical venue before publishing the Denison on Ice season event.",
+      "last_checked": "2026-08-12",
+      "event_types": [
+        "Public ice skating",
+        "Adaptive skating",
+        "Holiday activities",
+        "Private parties",
+        "Seasonal special events"
+      ],
+      "event_sources": [
+        "City of Denison — Denison on Ice",
+        "City of Denison — Hours, Admission & Rental Rates",
+        "City of Denison — DOI FAQs",
+        "City of Denison — Rink Rules"
+      ],
+      "features": [
+        "Seasonal outdoor ice rink",
+        "Covered skating area",
+        "Downtown Denison location",
+        "Skate rentals included",
+        "11th season in 2026-27"
       ]
     }
   ]
