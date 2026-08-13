@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 259,
-  "publish_ready_count": 259,
+  "event_count": 260,
+  "publish_ready_count": 260,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -17474,6 +17474,80 @@
         "Moonlight Market normally operates on selected second and fourth Fridays from April through November."
       ],
       "verification_note": "Fully researched August 13, 2026 during the August 13-16 roundup sprint. Venue preflight was completed first, establishing Moonlight Market on W. Houston as the canonical venue and host under moonlight-market-on-w-houston. Fresh canonical TWG event-directory duplicate search returned zero Moonlight Market event records. Moonlight Market's current first-party website specifically lists Friday, August 14, 2026 as a 2026 market date and confirms market hours of 6:00 PM to 9:00 PM at 218 W Houston St in downtown Sherman. The site describes the market as an after-hours shopping experience featuring curated local vendors, handcrafted goods, artisan foods, custom hats, herbal remedies and other locally made products. No admission charge or age restriction is explicitly published on the first-party event information, so TWG does not invent either.",
+      "last_checked": "2026-08-13",
+      "created_on": "2026-08-13",
+      "updated_on": "2026-08-13"
+    },
+    {
+      "event_slug": "soggy-doggy-pool-pawty-the-splash-sherman-2026-08-15",
+      "event_name": "Soggy Doggy Pool Pawty",
+      "description": "Bring your furry friend for an end-of-summer pool pawty at The Splash Family Aquatic Center in Sherman. Dogs can cool off, swim and socialize during this special post-season aquatic event hosted by Sherman Parks & Recreation. Advance online registration is required, along with proof of a current rabies vaccination.",
+      "start_datetime": "2026-08-15T09:00:00-05:00",
+      "end_datetime": "2026-08-15T12:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-splash-family-aquatic-center-sherman"
+      ],
+      "venue_name": "The Splash Family Aquatic Center",
+      "address": "1121 W Taylor St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75092",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Pet Event",
+        "Aquatic Event",
+        "Community Event",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Soggy Doggy Pool Pawty",
+        "The Splash",
+        "Fairview Park",
+        "Dogs",
+        "Dog Swimming",
+        "Pet Event",
+        "Sherman Parks and Recreation",
+        "Sherman"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "Advance online registration is required. A current participation fee was not published in the official event information reviewed.",
+      "audience": [
+        "Dog Owners",
+        "Pet Families",
+        "Dog Lovers"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "the-splash-family-aquatic-center-sherman",
+      "organizer_name": "Sherman Parks & Recreation",
+      "partner_business_slugs": [
+        "fairview-park-sherman"
+      ],
+      "partner_names": [],
+      "image_url": "/images/events/soggy-doggy-pool-pawty-the-splash-sherman-2026-08-15.png",
+      "image_alt": null,
+      "official_url": "https://shermanparks.com/events/list/page/22/?tribe-bar-date=2020-07-31",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The pool pawty runs from 9:00 AM to 12:00 PM Saturday, August 15.",
+        "Advance online registration is required.",
+        "Proof of a current rabies vaccination must be submitted.",
+        "Participating dogs must be at least 6 months old.",
+        "The event is held at The Splash Family Aquatic Center inside Fairview Park.",
+        "The Splash's regular 2026 public swim season ended August 9; this is a special post-season event.",
+        "No current participation fee was published in the official event information reviewed."
+      ],
+      "verification_note": "Fully researched August 13, 2026 during the August 13-16 roundup sprint. Venue hierarchy was completed first: Fairview Park was established as the canonical parent business, followed by The Splash Family Aquatic Center as its child under the-splash-family-aquatic-center-sherman. Fresh TWG duplicate checking found no existing Soggy Doggy Pool Pawty event record. Sherman Parks & Recreation's current first-party event calendar confirms Soggy Doggy Pool Pawty at The Splash on Saturday, August 15, 2026 from 9:00 AM to 12:00 PM. The official listing states that participants must pre-register online, submit proof of a current rabies vaccination and that participating dogs must be 6 months or older. The Splash's official 2026 information confirms that regular public swimming ended August 9, making this a special post-season aquatic event. No current event-specific fee was published in the official event information reviewed, so TWG does not invent one.",
       "last_checked": "2026-08-13",
       "created_on": "2026-08-13",
       "updated_on": "2026-08-13"
