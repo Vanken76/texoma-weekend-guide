@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 244,
-  "publish_ready_count": 244,
+  "event_count": 245,
+  "publish_ready_count": 245,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -16482,6 +16482,65 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified 2026-08-12 from the City of Denison's official Yellow Jacket Tailgating page. The city lists the Sept. 18, 2026 tailgate beginning at 5:00 PM for Denison vs. Frisco Panther Creek. The series is free and family-friendly and features interactive games, local vendors, food and performances from the DHS Band, Stingerettes and cheerleaders. Alcohol is prohibited. Fresh active TWG event-directory and workbook checks found no existing matching event. Exact canonical venue slug forest-park-denison was already established. No ending time was invented.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-13",
+      "organizer_name": "City of Denison",
+      "image_alt": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": null,
+      "partner_business_slugs": [],
+      "partner_names": []
+    },
+    {
+      "event_slug": "yellow-jacket-tailgating-denison-vs-frisco-independence-2026-10-02",
+      "event_name": "Yellow Jacket Tailgating — Denison vs. Frisco Independence",
+      "description": "Get ready for Friday night football with Yellow Jacket Tailgating at Forest Park in Denison before the Yellow Jackets take on Frisco Independence. This free family event features interactive games, local vendors, food and performances from the DHS Band, Stingerettes and cheerleaders.",
+      "start_datetime": "2026-10-02T17:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "forest-park-denison"
+      ],
+      "venue_name": "Forest Park",
+      "address": "300 W Crawford St",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Family Friendly",
+        "Community",
+        "Sports"
+      ],
+      "tags": [
+        "Yellow Jacket Tailgating",
+        "Denison Yellow Jackets",
+        "Frisco Independence",
+        "High School Football",
+        "Family Friendly",
+        "Forest Park",
+        "Denison"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free community tailgating event.",
+      "audience": [
+        "family-friendly"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/yellow-jacket-tailgating-denison-vs-frisco-independence-2026-10-02.png",
+      "official_url": "https://www.cityofdenison.com/519/Yellow-Jacket-Tailgating",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-12 from the City of Denison's official Yellow Jacket Tailgating page. The city lists the Oct. 2, 2026 tailgate beginning at 5:00 PM for Denison vs. Frisco Independence. The series is free and family-friendly and features interactive games, local vendors, food and performances from the DHS Band, Stingerettes and cheerleaders. Alcohol is prohibited. Fresh active TWG event-directory and workbook checks found no existing matching event. Exact canonical venue slug forest-park-denison was already established. No ending time was invented.",
       "last_checked": "2026-08-12",
       "created_on": "2026-08-12",
       "updated_on": "2026-08-13",
