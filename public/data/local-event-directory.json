@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 249,
-  "publish_ready_count": 249,
+  "event_count": 250,
+  "publish_ready_count": 250,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -16789,6 +16789,64 @@
       "host_business_slug": "denison-on-ice",
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_slug": "homeschool-swim-day-waterloo-pool-2026-09-04",
+      "event_name": "Homeschool Swim Day at Waterloo Pool",
+      "description": "Waterloo Pool hosts Homeschool Swim Day on Friday, September 4, 2026, giving homeschool families and students an opportunity to enjoy an afternoon swim together in Denison. The event begins at 1:00 PM and regular Waterloo Pool daily admission rates apply.",
+      "start_datetime": "2026-09-04T13:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "waterloo-pool"
+      ],
+      "venue_name": "Waterloo Pool",
+      "address": "1501 W Brock St",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Family Friendly",
+        "Sports"
+      ],
+      "tags": [
+        "Homeschool Swim Day",
+        "Waterloo Pool",
+        "Homeschool",
+        "Swimming",
+        "Family Friendly",
+        "Denison"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Regular Waterloo Pool daily admission applies. Current Denison resident day-pass rates are $4 for youth, $4 for seniors and $5 for adults; non-resident day passes are $7. Children under age 2 are admitted free with a paying adult.",
+      "audience": [
+        "Homeschool families",
+        "Homeschool students"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "waterloo-pool",
+      "organizer_name": "Denison Parks & Recreation",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/homeschool-swim-day-waterloo-pool-2026-09-04.png",
+      "image_alt": null,
+      "official_url": "https://www.cityofdenison.com/492/Events-Challenges",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-12. The current City of Denison Events & Challenges page lists Homeschool Swim Day on Sept. 4, 2026 at Waterloo Pool. A current Denison event listing independently identifies the Sept. 4 occurrence with a 1:00 PM start. No ending time is currently published, so end_datetime remains null. Waterloo Pool's current official admission page confirms the applicable resident and non-resident day-pass rates. Fresh checks of the active TWG Events directory and canonical GitHub local-event-directory.json found no existing Homeschool Swim Day or Waterloo Pool event. Canonical venue slug waterloo-pool was established immediately before this event.",
+      "last_checked": "2026-08-12",
+      "created_on": "2026-08-12",
+      "updated_on": "2026-08-13"
     }
   ]
 }
