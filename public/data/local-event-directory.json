@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 264,
-  "publish_ready_count": 264,
+  "event_count": 265,
+  "publish_ready_count": 265,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -17833,6 +17833,74 @@
         "No event-specific admission charge or age restriction was published."
       ],
       "verification_note": "Fully researched August 13, 2026 during the urgent August 13-16 roundup sprint. Landon Winery Gainesville was established first as a canonical publish-ready venue under landon-winery-gainesville. Fresh canonical TWG duplicate checking against the current 263-event directory found no Wine Dine Vendor Time record. Landon Winery's current first-party Gainesville calendar confirms Wine Dine Vendor Time Gainesville on Saturday, August 15, 2026 from 4:00 PM to 8:00 PM at 201 W California St, Gainesville, TX 76240. The official listing states that guests can shop local makers, enjoy food and choose from Landon signature wines plus its craft beer and spirits lineup, and identifies Calleys Chaos as host. No event-specific admission charge or age restriction was published, so TWG does not invent either.",
+      "last_checked": "2026-08-13",
+      "created_on": "2026-08-13",
+      "updated_on": "2026-08-13"
+    },
+    {
+      "event_slug": "mimosa-mania-sunday-gainesville-2026-08-16",
+      "event_name": "Mimosa Mania Sunday Gainesville",
+      "description": "Make Sunday a funday at Landon Winery Gainesville during Mimosa Mania. Guests can enjoy mimosas by the glass or choose a bottle of bubbly with four juices to create their own combinations throughout the afternoon and evening.",
+      "start_datetime": "2026-08-16T12:00:00-05:00",
+      "end_datetime": "2026-08-16T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "landon-winery-gainesville"
+      ],
+      "venue_name": "Landon Winery Gainesville",
+      "address": "201 W California St",
+      "city": "Gainesville",
+      "state": "TX",
+      "postal_code": "76240",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Wine Event",
+        "Sunday Funday",
+        "Food & Drink"
+      ],
+      "tags": [
+        "Mimosa Mania",
+        "Landon Winery Gainesville",
+        "Mimosas",
+        "Bubbly",
+        "Wine",
+        "Sunday Funday",
+        "Downtown Gainesville"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No event admission charge was published. Mimosas are $9 by the glass, or $36 for a bubbly bottle with four juices.",
+      "audience": [
+        "General Public",
+        "Wine Fans",
+        "Brunch & Mimosa Fans"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "landon-winery-gainesville",
+      "organizer_name": "Landon Winery",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/mimosa-mania-sunday-gainesville-2026-08-16.png",
+      "image_alt": null,
+      "official_url": "https://www.landonwinery.com/venue/landon-winery-gainesville/page/2/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=SU",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "Mimosa Mania runs from 12:00 PM to 9:00 PM Sunday, August 16.",
+        "Mimosas are $9 by the glass.",
+        "A $36 bubbly bottle includes four juices for mixing.",
+        "The event takes place at Landon Winery Gainesville at 201 W California St.",
+        "Mimosa Mania is recurring Sunday programming at Landon Winery."
+      ],
+      "verification_note": "Fully researched August 13, 2026 during the urgent August 13-16 roundup sprint. Landon Winery Gainesville was established first as the canonical venue under landon-winery-gainesville. Fresh TWG canonical duplicate checking found no Mimosa Mania record. Landon Winery's current first-party Gainesville calendar specifically lists Mimosa Mania Sunday Gainesville on Sunday, August 16, 2026 from 12:00 PM to 9:00 PM at 201 W California St, Gainesville, TX 76240. The official listing advertises $9 mimosas by the glass or a $36 bubbly bottle with four juices and shows Mimosa Mania recurring on Sundays. No event admission charge or event-specific age restriction was published, so TWG does not invent either.",
       "last_checked": "2026-08-13",
       "created_on": "2026-08-13",
       "updated_on": "2026-08-13"
