@@ -5,8 +5,8 @@
   "generated_on": "2026-08-13",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 788,
-  "publish_ready_count": 463,
+  "business_count": 789,
+  "publish_ready_count": 464,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -75809,6 +75809,112 @@
         "Swim-team programs",
         "Private rentals"
       ]
+    },
+    {
+      "slug": "gilleys-durant",
+      "business_name": "Gilley's Durant",
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "service_area_or_location": "Inside the Grand Casino at Choctaw Casino & Resort – Durant, 4216 S Hwy 69/75, Durant, OK 74701",
+      "primary_category": "Honky-Tonk & Live Music Venue",
+      "category": [
+        "Honky-Tonk",
+        "Live Music Venue",
+        "Country Bar",
+        "Restaurant",
+        "Bar",
+        "Dance Hall",
+        "Nightlife",
+        "Event Venue"
+      ],
+      "tags": [
+        "Gilley's Durant",
+        "Choctaw Casino & Resort",
+        "Grand Casino",
+        "Live Music",
+        "Country Music",
+        "Honky-Tonk",
+        "Two-Step",
+        "Dance Floor",
+        "Nightlife",
+        "Restaurant",
+        "Full-Service Bar",
+        "Durant",
+        "Southern Oklahoma"
+      ],
+      "description": "Gilley's Durant is a honky-tonk, live-music venue, bar and restaurant located inside the Grand Casino at Choctaw Casino & Resort – Durant. Guests can two-step across the dance floor, catch live music from regional and up-and-coming artists, enjoy drinks from two full-service bars and order down-home food. Gilley's hosts live entertainment every weekend and is a non-smoking venue.",
+      "short_description": "Honky-tonk inside Choctaw Casino & Resort – Durant featuring weekend live music, a dance floor, two full-service bars and down-home food.",
+      "why_visit": "Visit Gilley's for live country and regional music, two-stepping, drinks, food and late-night entertainment without leaving the Choctaw Durant resort.",
+      "why_its_unique": "Gilley's combines a traditional honky-tonk atmosphere and dance floor with recurring live entertainment inside one of Texoma's largest destination resorts.",
+      "address": "4216 S Hwy 69/75",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "country": "USA",
+      "latitude": null,
+      "longitude": null,
+      "phone": null,
+      "email": null,
+      "website": "https://www.choctawcasinos.com/durant/eat-drink/gilleys/",
+      "facebook": null,
+      "instagram": null,
+      "hours": {
+        "sunday": "2:00 PM–10:00 PM",
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "2:00 PM–12:00 AM",
+        "thursday": "2:00 PM–12:00 AM",
+        "friday": "2:00 PM–2:00 AM",
+        "saturday": "2:00 PM–2:00 AM"
+      },
+      "hours_note": "Listed hours are current bar/venue hours. Dining is available Sunday 4:00 PM–10:00 PM, Wednesday–Thursday 4:00 PM–10:00 PM and Friday–Saturday 4:00 PM–10:00 PM. Monday and Tuesday are closed.",
+      "parent_business": {
+        "slug": "choctaw-casino-resort-durant",
+        "name": "Choctaw Casino & Resort – Durant",
+        "relationship_note": "Gilley's Durant is located inside the Grand Casino at Choctaw Casino & Resort – Durant."
+      },
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Live Music",
+        "Country Music",
+        "Regional Artists",
+        "Weekend Entertainment",
+        "Dancing",
+        "Nightlife"
+      ],
+      "features": [
+        "Located inside the Grand Casino",
+        "Honky-tonk atmosphere",
+        "Live music every weekend",
+        "Two-step dance floor",
+        "Two full-service bars",
+        "Down-home dining",
+        "Late-night Friday and Saturday hours",
+        "Non-smoking venue"
+      ],
+      "good_to_know": [
+        "Gilley's Durant is inside the Grand Casino at Choctaw Casino & Resort – Durant.",
+        "The venue currently advertises live music every weekend.",
+        "The bar remains open until 2:00 AM on Friday and Saturday.",
+        "Dining closes at 10:00 PM on operating days.",
+        "Gilley's has two full-service bars.",
+        "The venue is currently non-smoking.",
+        "Choctaw's general casino rules require gaming guests to be at least 18, and minors may not remain on the gaming floor. The current Gilley's page does not publish a separate Gilley's-specific age restriction, so TWG should not invent one."
+      ],
+      "related_events": [],
+      "source_verified": true,
+      "verification_note": "Fully researched August 13, 2026 during the August 13-16 roundup sprint and venue-preflight workflow. Fresh TWG repository searches did not surface an existing canonical Gilley's Durant business record. Choctaw Casinos & Resorts' current first-party Gilley's Durant page confirms active operation inside the Grand Casino at Choctaw Casino & Resort – Durant; a honky-tonk and dance-floor format; live music every weekend; two full-service bars; down-home dining; non-smoking status; and current bar and dining hours. Choctaw's current Durant property page confirms the parent resort at 4216 S Hwy 69/75, Durant, OK 74701. Gilley's is therefore established as a canonical child business of choctaw-casino-resort-durant rather than represented only by the parent casino. No Gilley's-specific public phone number, email address, dedicated Facebook page, Instagram account or explicit venue-wide age restriction was confirmed from current first-party sources, so those details are not invented.",
+      "last_checked": "2026-08-13",
+      "last_verified": "2026-08-13",
+      "created_on": "2026-08-13",
+      "updated_on": "2026-08-13"
     }
   ]
 }
