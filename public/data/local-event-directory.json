@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 260,
-  "publish_ready_count": 260,
+  "event_count": 261,
+  "publish_ready_count": 261,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -17548,6 +17548,73 @@
         "No current participation fee was published in the official event information reviewed."
       ],
       "verification_note": "Fully researched August 13, 2026 during the August 13-16 roundup sprint. Venue hierarchy was completed first: Fairview Park was established as the canonical parent business, followed by The Splash Family Aquatic Center as its child under the-splash-family-aquatic-center-sherman. Fresh TWG duplicate checking found no existing Soggy Doggy Pool Pawty event record. Sherman Parks & Recreation's current first-party event calendar confirms Soggy Doggy Pool Pawty at The Splash on Saturday, August 15, 2026 from 9:00 AM to 12:00 PM. The official listing states that participants must pre-register online, submit proof of a current rabies vaccination and that participating dogs must be 6 months or older. The Splash's official 2026 information confirms that regular public swimming ended August 9, making this a special post-season aquatic event. No current event-specific fee was published in the official event information reviewed, so TWG does not invent one.",
+      "last_checked": "2026-08-13",
+      "created_on": "2026-08-13",
+      "updated_on": "2026-08-13"
+    },
+    {
+      "event_slug": "charlie-white-live-ole-red-tishomingo-2026-08-16",
+      "event_name": "Charlie White Live at Ole Red Tishomingo",
+      "description": "Charlie White performs live at Ole Red Tishomingo on Sunday, August 16, 2026. The noon performance is part of Ole Red's regular weekend live-music lineup in downtown Tishomingo, where guests can enjoy food, drinks and live entertainment.",
+      "start_datetime": "2026-08-16T12:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "ole-red-tishomingo"
+      ],
+      "venue_name": "Ole Red Tishomingo",
+      "address": "214 W Main",
+      "city": "Tishomingo",
+      "state": "OK",
+      "postal_code": "73460",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Sunday Entertainment"
+      ],
+      "tags": [
+        "Charlie White",
+        "Ole Red Tishomingo",
+        "Live Music",
+        "Sunday Live Music",
+        "Tishomingo",
+        "Southern Oklahoma"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "Live Music Fans",
+        "General Public"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "ole-red-tishomingo",
+      "organizer_name": "Ole Red Tishomingo",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Charlie White"
+      ],
+      "image_url": "/images/events/charlie-white-live-ole-red-tishomingo-2026-08-16.png",
+      "image_alt": null,
+      "official_url": "https://olered.com/tishomingo/event/charlie-white-17/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The performance begins at 12:00 PM Sunday, August 16.",
+        "Ole Red Tishomingo is located at 214 W Main in downtown Tishomingo.",
+        "Ole Red's published Sunday venue hours are 11:00 AM to 5:00 PM.",
+        "Food and drinks are available at the venue.",
+        "No official ending time, event-specific admission price or age restriction was published."
+      ],
+      "verification_note": "Fully researched August 13, 2026 during the August 13-16 roundup sprint. Venue preflight was completed first, establishing Ole Red Tishomingo as a canonical publish-ready event venue under ole-red-tishomingo. Fresh TWG repository search returned no existing Charlie White event record. Ole Red Tishomingo's current first-party event page confirms Charlie White performing Sunday, August 16, 2026 at 12:00 PM at Ole Red Tishomingo. Ole Red's current first-party venue information confirms the location at 214 W Main, Tishomingo, OK 73460 and Sunday operating hours of 11:00 AM to 5:00 PM. No official event ending time, admission price or event-specific age restriction was published, so TWG does not infer those details.",
       "last_checked": "2026-08-13",
       "created_on": "2026-08-13",
       "updated_on": "2026-08-13"
