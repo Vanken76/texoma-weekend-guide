@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 258,
-  "publish_ready_count": 258,
+  "event_count": 259,
+  "publish_ready_count": 259,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -17402,6 +17402,78 @@
         "No verified ending time or admission charge was published for the August 16 occurrence, so neither is inferred."
       ],
       "verification_note": "Fully researched August 13, 2026 during the August 13-16 roundup sprint. Fresh canonical TWG event-directory duplicate search returned zero Mustang Legacy Club records. Driven Legacy's first-party Mustang Legacy Club page states that beginning in July 2026 the club meets monthly on the third Sunday at Billy's Grille inside Schulman's Movie Bowl Grille in Sherman. The organizer describes the gathering as family friendly and open to Mustang owners, enthusiasts, families and friends, with donations collected for Sherman Medical Center's Beyond the Bedside program. Current Sherman event listings independently identify the August occurrence as Sunday, August 16, 2026 beginning at 1:00 PM. TWG already contains Schulman's Movie Bowl Grille - Sherman as the canonical venue under schulmans-movie-bowl-grille-sherman at 110 E FM 1417, Sherman, TX 75090. No August-specific ending time or verified admission charge was found, so those details remain unknown rather than inferred.",
+      "last_checked": "2026-08-13",
+      "created_on": "2026-08-13",
+      "updated_on": "2026-08-13"
+    },
+    {
+      "event_slug": "moonlight-market-on-w-houston-2026-08-14",
+      "event_name": "Moonlight Market on W. Houston",
+      "description": "Spend Friday evening shopping under the lights at Moonlight Market on W. Houston in downtown Sherman. The after-hours market brings together a curated selection of local vendors offering handcrafted goods, artisan foods, custom hats, herbal products and other locally made finds along West Houston Street.",
+      "start_datetime": "2026-08-14T18:00:00-05:00",
+      "end_datetime": "2026-08-14T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "moonlight-market-on-w-houston"
+      ],
+      "venue_name": "Moonlight Market on W. Houston",
+      "address": "218 W Houston St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Vendor Market",
+        "Shopping",
+        "Community Event",
+        "Night Market"
+      ],
+      "tags": [
+        "Moonlight Market",
+        "Downtown Sherman",
+        "Shop Local",
+        "Local Vendors",
+        "Handmade Goods",
+        "Artisan Foods",
+        "Night Market",
+        "Sherman"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "General Public",
+        "Families",
+        "Shoppers",
+        "Local Market Fans"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "moonlight-market-on-w-houston",
+      "organizer_name": "Moonlight Market on W. Houston",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/moonlight-market-on-w-houston-2026-08-14.png",
+      "image_alt": null,
+      "official_url": "https://moonlightmarketsherman.com/",
+      "facebook_url": "https://www.facebook.com/profile.php?id=61585083479879",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The August 14 market runs from 6:00 PM to 9:00 PM.",
+        "The market is held at 218 W Houston St in downtown Sherman.",
+        "Moonlight Market features a curated selection of local vendors.",
+        "Vendor offerings include handmade goods, artisan foods and other locally produced items.",
+        "The market is located directly across from 903 Brewers.",
+        "Moonlight Market normally operates on selected second and fourth Fridays from April through November."
+      ],
+      "verification_note": "Fully researched August 13, 2026 during the August 13-16 roundup sprint. Venue preflight was completed first, establishing Moonlight Market on W. Houston as the canonical venue and host under moonlight-market-on-w-houston. Fresh canonical TWG event-directory duplicate search returned zero Moonlight Market event records. Moonlight Market's current first-party website specifically lists Friday, August 14, 2026 as a 2026 market date and confirms market hours of 6:00 PM to 9:00 PM at 218 W Houston St in downtown Sherman. The site describes the market as an after-hours shopping experience featuring curated local vendors, handcrafted goods, artisan foods, custom hats, herbal remedies and other locally made products. No admission charge or age restriction is explicitly published on the first-party event information, so TWG does not invent either.",
       "last_checked": "2026-08-13",
       "created_on": "2026-08-13",
       "updated_on": "2026-08-13"
