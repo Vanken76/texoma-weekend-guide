@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 251,
-  "publish_ready_count": 251,
+  "event_count": 252,
+  "publish_ready_count": 252,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -16902,6 +16902,73 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified 2026-08-13. Fresh canonical TWG event-directory checks confirm the September 4 Homeschool Swim Day is now published and found no existing October 2 Homeschool Swim Day record. The canonical business directory confirms Waterloo Pool is publish-ready under the exact slug waterloo-pool. Current City of Denison information identifies Homeschool Swim Day as active Waterloo Pool programming, and a current independent Texoma event listing confirms the October 2, 2026 occurrence with a 1:00 PM start. Although the secondary listing shows a 3:00 PM ending time, the current first-party City event source does not publish an ending time, so end_datetime remains null. The City of Denison's current Waterloo Pool admission page confirms regular day-pass rates of $4 for resident youth, $4 for resident seniors, $5 for resident adults and $7 for non-residents, with children under age 2 admitted free with a paying adult.",
+      "last_checked": "2026-08-13",
+      "created_on": "2026-08-13",
+      "updated_on": "2026-08-13"
+    },
+    {
+      "event_slug": "picklball-playday-waterloo-lake-2026-10-11",
+      "event_name": "Pickleball PlayDay",
+      "description": "Denison Parks & Recreation hosts Pickleball PlayDay at The Backyard in Waterloo Lake Regional Park on Sunday, October 11, 2026. The session is designed for people who are new to pickleball and offers an opportunity to learn and play in a welcoming setting. Participants may bring their own paddles, and starter paddles are available.",
+      "start_datetime": "2026-10-11T08:30:00-05:00",
+      "end_datetime": "2026-10-11T10:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "waterloo-lake-regional-park-denison"
+      ],
+      "venue_name": "The Backyard at Waterloo Lake Regional Park",
+      "address": "1101 Waterloo Lake Drive",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Sports",
+        "Pickleball",
+        "Recreation",
+        "Community Event"
+      ],
+      "tags": [
+        "Pickleball PlayDay",
+        "Pickleball",
+        "The Backyard",
+        "Waterloo Lake Regional Park",
+        "Denison Parks & Recreation",
+        "Denison"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$5 lesson.",
+      "audience": [
+        "New pickleball players"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "waterloo-lake-regional-park-denison",
+      "organizer_name": "Denison Parks & Recreation",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/picklball-playday-waterloo-lake-2026-10-11.png",
+      "image_alt": null,
+      "official_url": "https://www.denisontx.gov/580/Pickleball",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The October 11 session runs from 8:30 AM to 10:30 AM.",
+        "Lessons are $5.",
+        "Participants may bring their own pickleball paddles.",
+        "Starter paddles are available for participants who do not have their own.",
+        "A minimum of two participants is required per session.",
+        "Denison Parks & Recreation may cancel a session if participation falls below the minimum."
+      ],
+      "verification_note": "Fully researched August 13, 2026. A fresh canonical TWG event-directory check found no existing Pickleball PlayDay record. The current City of Denison Pickleball page lists Pickleball PlayDay on October 11 at The Backyard in Waterloo Lake Regional Park from 8:30 AM to 10:30 AM and states that lessons are $5. The page also states that participants may bring their own paddles, starter paddles are available, and at least two participants are required per session. The canonical TWG business directory confirms Waterloo Lake Regional Park as a complete publish-ready venue under the exact slug waterloo-lake-regional-park-denison at 1101 Waterloo Lake Drive, Denison, TX 75020. No age restriction or separate ticket URL is currently published.",
       "last_checked": "2026-08-13",
       "created_on": "2026-08-13",
       "updated_on": "2026-08-13"
