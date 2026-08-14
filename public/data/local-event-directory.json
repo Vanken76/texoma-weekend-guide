@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 293,
-  "publish_ready_count": 293,
+  "event_count": 294,
+  "publish_ready_count": 294,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -19826,6 +19826,77 @@
       "verification_note": "Fully researched August 14, 2026. The live canonical TWG event directory contains 292 events and 292 publish-ready records, and a fresh duplicate search found no existing Capybara Encounter record. Frank Buck Zoo's current official Animal Encounters page confirms daily Capybara Encounter sessions beginning promptly at 11:30 AM and 1:30 PM, weather permitting. Each time slot accommodates up to four people. Participants must be age 8 or older and wear closed-toed shoes. The encounter costs $35 per person, reservations are required, and guests are instructed to arrive beforehand to purchase admission and sign waivers. The zoo's current Plan Your Visit page independently confirms both daily Capybara times and that reservations are required. No encounter ending time is published, so end_datetime is left null rather than inferred. Frank Buck Zoo is already an existing canonical TWG venue under slug frank-buck-zoo-gainesville.",
       "contact_phone": "940-668-4539",
       "contact_email": "giftshop@cogtx.org",
+      "last_checked": "2026-08-14",
+      "created_on": "2026-08-14",
+      "updated_on": "2026-08-14"
+    },
+    {
+      "event_slug": "august-knowledge-now-luncheon-gainesville-2026-08-19",
+      "event_name": "August Knowledge NOW Luncheon — The Future of Higher Education: Building Tomorrow’s Workforce",
+      "description": "The Gainesville Area Chamber of Commerce presents its August Knowledge NOW Luncheon featuring Dr. Brent Wallace, Chancellor of North Central Texas College. His presentation, “The Future of Higher Education: Building Tomorrow’s Workforce,” will explore how community colleges support workforce readiness, economic growth, career pathways and stronger connections between education and industry. The luncheon also includes networking with area business leaders and community stakeholders and an opportunity for Q&A.",
+      "start_datetime": "2026-08-19T11:30:00-05:00",
+      "end_datetime": "2026-08-19T13:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "gainesville-civic-center"
+      ],
+      "venue_name": "Gainesville Civic Center",
+      "address": "311 S Weaver St",
+      "city": "Gainesville",
+      "state": "TX",
+      "postal_code": "76240",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Business Networking",
+        "Education",
+        "Workforce Development",
+        "Chamber Event",
+        "Luncheon"
+      ],
+      "tags": [
+        "Knowledge NOW",
+        "Gainesville Area Chamber of Commerce",
+        "Dr. Brent Wallace",
+        "North Central Texas College",
+        "NCTC",
+        "Higher Education",
+        "Workforce Development",
+        "Economic Development",
+        "Networking",
+        "Gainesville",
+        "Cooke County"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$25 for Gainesville Area Chamber of Commerce members; $35 for non-members. Lunch is included.",
+      "audience": [
+        "Business Leaders",
+        "Community Stakeholders",
+        "Employers",
+        "Educators",
+        "Workforce Development Professionals"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Gainesville Area Chamber of Commerce",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "North Central Texas College"
+      ],
+      "image_url": "/images/events/august-knowledge-now-luncheon-gainesville-2026-08-19.png",
+      "image_alt": null,
+      "official_url": "https://gainesvillecofc.com/knowledge-now-luncheon/",
+      "facebook_url": null,
+      "ticket_url": "https://form.jotform.com/gainesvilletxchamber/2026-knowledge-now-luncheons-o",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Fully researched August 14, 2026. A fresh duplicate check against the current canonical TWG event directory, containing 293 events and 293 publish-ready records, found no existing Knowledge NOW Luncheon record for this event. The official Gainesville Area Chamber of Commerce Knowledge NOW page confirms Wednesday, August 19, 2026 as the August luncheon date and identifies the program as “The Future of Higher Education: Building Tomorrow’s Workforce,” featuring Dr. Brent Wallace, Chancellor of North Central Texas College. The Chamber states that Knowledge NOW Luncheons are held from 11:30 AM to 1:30 PM at Gainesville Civic Center, 311 S Weaver St, Gainesville, TX 76240. Admission is $25 for Chamber members and $35 for non-members, with lunch included. The Chamber asks attendees to register by Friday, August 14 at 5:00 PM for catering counts. Gainesville Civic Center has now been added to TWG and is linked through canonical venue slug gainesville-civic-center. No attendee age restriction is published.",
       "last_checked": "2026-08-14",
       "created_on": "2026-08-14",
       "updated_on": "2026-08-14"
