@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 279,
-  "publish_ready_count": 279,
+  "event_count": 280,
+  "publish_ready_count": 280,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -18856,6 +18856,68 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 14, 2026 from the Pottsboro Area Public Library's official calendar. The library lists Pawtraits: A Pet Portrait Painting Workshop for Tuesday, October 6, 2026 from 5:15 PM to 6:45 PM at Pottsboro Area Public Library. The workshop is described as beginner-friendly and includes professional artist guidance, live demonstrations, personalized feedback and supplied materials, with participants leaving with a finished canvas of their pet. Registration is required for one session, and participants are instructed to email a pet photo to pottsborolibrary@gmail.com by September 28, 2026. The live TWG directory contains the separate September 1 Pawtraits occurrence but no October 6 occurrence. No admission fee or age restriction is published.",
+      "last_checked": "2026-08-14",
+      "created_on": "2026-08-14",
+      "updated_on": "2026-08-14"
+    },
+    {
+      "event_slug": "pawtraits-pet-portrait-painting-workshop-pottsboro-2026-11-03",
+      "event_name": "Pawtraits: A Pet Portrait Painting Workshop",
+      "description": "Turn a favorite pet photo into a finished canvas during Pawtraits at the Pottsboro Area Public Library. This beginner-friendly painting workshop includes guidance from a professional artist, live demonstrations, personalized feedback and all necessary art supplies. Participants should register for this session and send a photo of their pet to the library in advance so they can create a personalized portrait during the workshop.",
+      "start_datetime": "2026-11-03T17:15:00-06:00",
+      "end_datetime": "2026-11-03T18:45:00-06:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "pottsboro-area-public-library"
+      ],
+      "venue_name": "Pottsboro Area Public Library",
+      "address": "104 N Main",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Arts & Culture",
+        "Workshops & Classes",
+        "Community"
+      ],
+      "tags": [
+        "Pawtraits",
+        "pet portrait",
+        "painting workshop",
+        "art workshop",
+        "Pottsboro",
+        "Pottsboro Area Public Library",
+        "beginner friendly",
+        "pets"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "Art supplies are provided. The official published schedule does not state an admission or materials fee.",
+      "audience": [
+        "Pet owners",
+        "Beginner painters",
+        "Community members"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "pottsboro-area-public-library",
+      "organizer_name": "Pottsboro Area Public Library",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/pawtraits-pet-portrait-painting-workshop-pottsboro-2026-11-03.png",
+      "image_alt": null,
+      "official_url": "https://pottsboro.biblionix.com/catalog/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "The Pottsboro Area Public Library's published Pawtraits schedule lists a separate workshop session for Tuesday, November 3, 2026 from 5:15 PM to 6:45 PM. The workshop is beginner-friendly and includes professional artist guidance, live demonstrations, personalized feedback and supplied art materials. Participants are instructed to register for one session and provide a photo of their pet in advance. No admission fee, age restriction or November-session photo deadline is currently published, so those details are not inferred.",
       "last_checked": "2026-08-14",
       "created_on": "2026-08-14",
       "updated_on": "2026-08-14"
