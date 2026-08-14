@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 286,
-  "publish_ready_count": 286,
+  "event_count": 287,
+  "publish_ready_count": 287,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -19353,6 +19353,80 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 14, 2026 from the current official Choctaw Casinos & Resorts event page and Ticketmaster. Choctaw lists Chelcie Lynn “Trailer Trash Tammy” at Stage 271 in Grant on Saturday, November 28, 2026 with doors opening at 7:00 PM and showtime at 8:00 PM. Ticketmaster independently lists Chelcie Lynn at Stage 271 on November 28, 2026 at 8:00 PM. Ticketmaster is the official ticketing agent for Choctaw Casinos & Resorts. The canonical TWG business directory confirms Stage 271 under slug stage-271-choctaw-casino-resort-grant at 1516 US-271, Grant, OK 74738. Fresh canonical duplicate checks found no existing Chelcie Lynn or Trailer Trash Tammy event. A separate Chase Matthew concert is scheduled at 8:00 PM the same night at Choctaw Grand Theater in Durant, but it is unrelated and presents no duplicate collision. No official ending time or event-specific age restriction is currently published, so those details are not inferred.",
+      "last_checked": "2026-08-14",
+      "created_on": "2026-08-14",
+      "updated_on": "2026-08-14"
+    },
+    {
+      "event_slug": "muscadine-bloodline-with-jaid-joice-stage-271-grant-2026-08-22",
+      "event_name": "Muscadine Bloodline with Jaid Joice",
+      "description": "Muscadine Bloodline performs live at Stage 271 at Choctaw Casino & Resort – Grant with Jaid Joice on Saturday, August 22, 2026. Doors open at 7:00 PM and the concert begins at 8:00 PM.",
+      "start_datetime": "2026-08-22T20:00:00-05:00",
+      "end_datetime": null,
+      "doors_open_datetime": "2026-08-22T19:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "stage-271-choctaw-casino-resort-grant"
+      ],
+      "venue_name": "Stage 271 at Choctaw Casino & Resort – Grant",
+      "address": "1516 US-271",
+      "city": "Grant",
+      "state": "OK",
+      "postal_code": "74738",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Concert",
+        "Country Music"
+      ],
+      "tags": [
+        "Muscadine Bloodline",
+        "Jaid Joice",
+        "Stage 271",
+        "Choctaw Casino & Resort Grant",
+        "country music",
+        "live music",
+        "Grant Oklahoma"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ticketed concert. Tickets are sold through Ticketmaster, the official ticketing agent for Choctaw Casinos & Resorts. Prices and availability vary.",
+      "audience": [
+        "Country music fans",
+        "Muscadine Bloodline fans",
+        "Live music fans",
+        "Concertgoers",
+        "Texoma visitors"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "stage-271-choctaw-casino-resort-grant",
+      "organizer_name": "Choctaw Casinos & Resorts",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "performers": [
+        {
+          "name": "Muscadine Bloodline",
+          "role": "Headlining artist"
+        },
+        {
+          "name": "Jaid Joice",
+          "role": "Appearing with Muscadine Bloodline"
+        }
+      ],
+      "image_url": "/images/events/muscadine-bloodline-with-jaid-joice-stage-271-grant-2026-08-22.jpg",
+      "image_alt": null,
+      "official_url": "https://www.choctawcasinos.com/events/muscadine-bloodline/",
+      "facebook_url": null,
+      "ticket_url": "https://www.ticketmaster.com/muscadine-bloodline-grant-oklahoma-08-22-2026/event/0C00638BD667BDA9",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 14, 2026 from the current official Choctaw Casinos & Resorts event page and Ticketmaster. Choctaw lists Muscadine Bloodline with Jaid Joice at Stage 271 in Grant on Saturday, August 22, 2026 with doors opening at 7:00 PM and showtime at 8:00 PM. Ticketmaster independently confirms Muscadine Bloodline with Jaid Joice at Stage 271 in Grant on August 22, 2026 at 8:00 PM and identifies Ticketmaster as the active ticket source. Ticketmaster is the official ticketing agent for Choctaw Casinos & Resorts. The canonical TWG business directory continues to contain Stage 271 under slug stage-271-choctaw-casino-resort-grant. Fresh canonical duplicate checks found no existing Muscadine Bloodline or Jaid Joice event. No official ending time, fixed ticket price or event-specific age restriction is published, so those details are not inferred.",
       "last_checked": "2026-08-14",
       "created_on": "2026-08-14",
       "updated_on": "2026-08-14"
