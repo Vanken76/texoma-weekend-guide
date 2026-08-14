@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-13",
+  "generated_on": "2026-08-14",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 795,
-  "publish_ready_count": 470,
+  "business_count": 796,
+  "publish_ready_count": 471,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -76481,6 +76481,69 @@
       "last_verified": "2026-08-13",
       "created_on": "2026-08-13",
       "updated_on": "2026-08-13"
+    },
+    {
+      "slug": "north-texas-regional-airport",
+      "business_name": "North Texas Regional Airport",
+      "directory_status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Denison, Texas",
+      "category": "Transportation",
+      "categories": [
+        "Transportation",
+        "Event Venues"
+      ],
+      "tags": [
+        "Denison",
+        "airport",
+        "Perrin Field",
+        "North Texas Regional Airport",
+        "event venue"
+      ],
+      "description": "North Texas Regional Airport, also known as Perrin Field, is a public-use regional airport in Denison serving the Sherman-Denison and Lake Texoma area. Located on the former Perrin Air Force Base property, the airport supports general aviation, aviation businesses and occasional community and special events.",
+      "why_visit": "The airport is an important regional aviation facility and also serves as the setting for select public events and gatherings in the Denison area.",
+      "why_its_unique": "North Texas Regional Airport occupies the former Perrin Air Force Base property and features a 9,000-foot runway along with aviation, industrial and event-capable facilities.",
+      "at_a_glance": {
+        "family_friendly": null,
+        "pet_friendly": null,
+        "food_available": null,
+        "wheelchair_accessible": null,
+        "rv_parking": null
+      },
+      "good_to_know": [
+        "The airport is also commonly known as Perrin Field.",
+        "Event entrances and event-specific addresses may differ from the airport's primary public address.",
+        "Check individual event information for parking and arrival instructions."
+      ],
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "phone": "903-786-2904",
+      "email": null,
+      "website": "https://www.northtexasregionalairport.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "image_url": null,
+      "image_alt": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "gallery": [],
+      "hours": null,
+      "hours_note": "Airport administration hours and aviation service hours may differ.",
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_events": [],
+      "last_checked": "2026-08-14",
+      "last_verified": "2026-08-14"
     }
   ]
 }
