@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 276,
-  "publish_ready_count": 276,
+  "event_count": 277,
+  "publish_ready_count": 277,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -18681,6 +18681,61 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 14, 2026 from the Charlie Willie Foundation website and the organizer's official Eventbrite listing. Eventbrite confirms the September 12, 2026 date, 6:00-10:00 PM event time, 5:30 PM doors, North Texas Regional Airport event location at 171 Executive Hangar Drive in Denison, all-ages admission, free parking and the published performer lineup.",
+      "last_checked": "2026-08-14",
+      "created_on": "2026-08-14",
+      "updated_on": "2026-08-14"
+    },
+    {
+      "event_slug": "vip-grand-tasting-wine-food-music-sherman-2026-10-01",
+      "event_name": "VIP Grand Tasting: Wine, Food, Music",
+      "description": "Downtown Sherman NOW presents VIP Grand Tasting: Wine, Food, Music at the Sherman Municipal Ballroom. The evening is centered on wine, food and live music in Downtown Sherman.",
+      "start_datetime": "2026-10-01T18:00:00-05:00",
+      "end_datetime": "2026-10-01T20:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "sherman-municipal-ballroom"
+      ],
+      "venue_name": "Sherman Municipal Ballroom",
+      "address": "405 N Rusk St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Food & Drink",
+        "Live Music"
+      ],
+      "tags": [
+        "Sherman",
+        "Downtown Sherman",
+        "wine",
+        "food",
+        "live music",
+        "Downtown Sherman NOW"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "Current organizer listing does not publish pricing; check the official event page for current admission details.",
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Downtown Sherman NOW",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/vip-grand-tasting-wine-food-music-sherman-2026-10-01.png",
+      "image_alt": null,
+      "official_url": "https://downtownsherman.com/event/vip-grand-tasting-wine-food-music/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 14, 2026 from Downtown Sherman NOW's current events calendar. The organizer lists VIP Grand Tasting: Wine, Food, Music for Thursday, October 1, 2026 from 6:00 PM to 8:30 PM at Sherman Municipal Ballroom, 405 N Rusk St. in Sherman. Venue address was corroborated by the City of Sherman.",
       "last_checked": "2026-08-14",
       "created_on": "2026-08-14",
       "updated_on": "2026-08-14"
