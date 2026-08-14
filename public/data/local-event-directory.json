@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 271,
-  "publish_ready_count": 271,
+  "event_count": 272,
+  "publish_ready_count": 272,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -18317,6 +18317,86 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Bring your favorite ride or come cheer on the competition at Rooftop Rally After Dark on Thursday, August 27. The free evening car show takes over the top of Choctaw Durant's South Parking Garage from 7:00 PM to 10:00 PM, featuring classic cars, modern builds, trucks, motorcycles and more. Registration opens at 6:00 PM, judging runs from 8:00 PM to 9:00 PM and winners are announced at 9:30 PM across eight award categories.",
+      "last_checked": "2026-08-14",
+      "created_on": "2026-08-14",
+      "updated_on": "2026-08-14"
+    },
+    {
+      "event_slug": "wyatt-flores-choctaw-grand-theater-durant-2026-10-08",
+      "event_name": "Wyatt Flores",
+      "description": "Oklahoma singer-songwriter Wyatt Flores performs live at The Grand Theater at Choctaw Casino & Resort – Durant on Thursday, October 8, 2026. The ticketed concert begins at 8:00 PM, bringing Flores' country and Red Dirt-rooted sound to Durant as part of the opening night of Choctaw Music Fest 2026.",
+      "start_datetime": "2026-10-08T20:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-grand-theater-choctaw-casino-resort-durant"
+      ],
+      "venue_name": "The Grand Theater at Choctaw Casino & Resort – Durant",
+      "address": "4216 S Hwy 69/75",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Concert",
+        "Country Music",
+        "Red Dirt"
+      ],
+      "tags": [
+        "Wyatt Flores",
+        "The Grand Theater",
+        "Choctaw Casino & Resort Durant",
+        "Choctaw Music Fest",
+        "Choctaw Music Fest 2026",
+        "country music",
+        "Red Dirt",
+        "Oklahoma music",
+        "live music",
+        "Durant",
+        "Texoma"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ticketed performance. Tickets are available through Ticketmaster; current prices and availability vary.",
+      "audience": [
+        "General Public",
+        "Country Music Fans",
+        "Red Dirt Music Fans",
+        "Live Music Fans"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "choctaw-casino-resort-durant",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "performers": [
+        {
+          "name": "Wyatt Flores",
+          "role": "Headlining performer"
+        }
+      ],
+      "image_url": "/images/events/wyatt-flores-choctaw-grand-theater-durant-2026-10-08.jpg",
+      "image_alt": null,
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "related_events": [
+        {
+          "event_slug": "choctaw-music-fest-2026-durant",
+          "event_name": "Choctaw Music Fest 2026",
+          "relationship_note": "Wyatt Flores performs on the opening night of Choctaw Music Fest 2026."
+        }
+      ],
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Oklahoma singer-songwriter Wyatt Flores takes the stage at The Grand Theater at Choctaw Casino & Resort – Durant on Thursday, October 8, 2026. The ticketed concert begins at 8:00 PM as part of the opening night of Choctaw Music Fest 2026, bringing Flores' country and Red Dirt-rooted sound back to Oklahoma.",
       "last_checked": "2026-08-14",
       "created_on": "2026-08-14",
       "updated_on": "2026-08-14"
