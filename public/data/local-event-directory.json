@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 285,
-  "publish_ready_count": 285,
+  "event_count": 286,
+  "publish_ready_count": 286,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -19285,6 +19285,74 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 14, 2026 from the current official Choctaw Casinos & Resorts event page and Ticketmaster. Choctaw lists Bingo Loco at Stage 271 in Grant on Saturday, October 24, 2026 with doors opening at 6:00 PM and showtime at 7:00 PM. The official description identifies Bingo Loco as an approximately three-hour interactive stage show featuring dance-offs, rave rounds, lip-sync battles, throwback anthems, confetti showers and prizes, and explicitly requires attendees to be age 21 or older. Ticketmaster currently indexes the Grant event at 6:00 PM, while Choctaw's current organizer-controlled page explicitly identifies 6:00 PM as doors and 7:00 PM as showtime; TWG therefore uses the organizer-published 7:00 PM start and documents the discrepancy. Stage 271 remains active and publish-ready in the canonical TWG business directory. Fresh duplicate checks found no existing Bingo Loco event or expected event slug. No exact event ending time or fixed ticket price is published, so those details are not inferred.",
+      "last_checked": "2026-08-14",
+      "created_on": "2026-08-14",
+      "updated_on": "2026-08-14"
+    },
+    {
+      "event_slug": "chelcie-lynn-trailer-trash-tammy-stage-271-grant-2026-11-28",
+      "event_name": "Chelcie Lynn “Trailer Trash Tammy”",
+      "description": "Comedian and internet personality Chelcie Lynn brings her Trailer Trash Tammy live comedy show to Stage 271 at Choctaw Casino & Resort – Grant on Saturday, November 28, 2026. Doors open at 7:00 PM and showtime is 8:00 PM.",
+      "start_datetime": "2026-11-28T20:00:00-06:00",
+      "end_datetime": null,
+      "doors_open_datetime": "2026-11-28T19:00:00-06:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "stage-271-choctaw-casino-resort-grant"
+      ],
+      "venue_name": "Stage 271 at Choctaw Casino & Resort – Grant",
+      "address": "1516 US-271",
+      "city": "Grant",
+      "state": "OK",
+      "postal_code": "74738",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Comedy",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "Chelcie Lynn",
+        "Trailer Trash Tammy",
+        "Stage 271",
+        "Choctaw Casino & Resort Grant",
+        "comedy",
+        "live comedy",
+        "Grant Oklahoma"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ticketed comedy performance. Tickets are sold through Ticketmaster, the official ticketing agent for Choctaw Casinos & Resorts. Prices and seat availability vary.",
+      "audience": [
+        "Comedy fans",
+        "Chelcie Lynn fans",
+        "Live entertainment fans",
+        "Texoma visitors"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "stage-271-choctaw-casino-resort-grant",
+      "organizer_name": "Choctaw Casinos & Resorts",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "performers": [
+        {
+          "name": "Chelcie Lynn",
+          "role": "Headlining comedian"
+        }
+      ],
+      "image_url": "/images/events/chelcie-lynn-trailer-trash-tammy-stage-271-grant-2026-11-28.jpg",
+      "image_alt": null,
+      "official_url": "https://www.choctawcasinos.com/events/chelcie-lynn-trailer-trash-tammy/",
+      "facebook_url": null,
+      "ticket_url": "https://www.ticketmaster.com/event/0C0064D8F4A62DBD",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 14, 2026 from the current official Choctaw Casinos & Resorts event page and Ticketmaster. Choctaw lists Chelcie Lynn “Trailer Trash Tammy” at Stage 271 in Grant on Saturday, November 28, 2026 with doors opening at 7:00 PM and showtime at 8:00 PM. Ticketmaster independently lists Chelcie Lynn at Stage 271 on November 28, 2026 at 8:00 PM. Ticketmaster is the official ticketing agent for Choctaw Casinos & Resorts. The canonical TWG business directory confirms Stage 271 under slug stage-271-choctaw-casino-resort-grant at 1516 US-271, Grant, OK 74738. Fresh canonical duplicate checks found no existing Chelcie Lynn or Trailer Trash Tammy event. A separate Chase Matthew concert is scheduled at 8:00 PM the same night at Choctaw Grand Theater in Durant, but it is unrelated and presents no duplicate collision. No official ending time or event-specific age restriction is currently published, so those details are not inferred.",
       "last_checked": "2026-08-14",
       "created_on": "2026-08-14",
       "updated_on": "2026-08-14"
