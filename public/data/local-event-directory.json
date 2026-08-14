@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 280,
-  "publish_ready_count": 280,
+  "event_count": 281,
+  "publish_ready_count": 281,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -18918,6 +18918,73 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "The Pottsboro Area Public Library's published Pawtraits schedule lists a separate workshop session for Tuesday, November 3, 2026 from 5:15 PM to 6:45 PM. The workshop is beginner-friendly and includes professional artist guidance, live demonstrations, personalized feedback and supplied art materials. Participants are instructed to register for one session and provide a photo of their pet in advance. No admission fee, age restriction or November-session photo deadline is currently published, so those details are not inferred.",
+      "last_checked": "2026-08-14",
+      "created_on": "2026-08-14",
+      "updated_on": "2026-08-14"
+    },
+    {
+      "event_slug": "sef-arts-fest-5k-bubble-k-fun-run-sherman-2026-09-19",
+      "event_name": "SEF Arts Fest 5K & Bubble-K Fun Run",
+      "description": "The Sherman Education Foundation's annual SEF Arts Fest 5K & Bubble-K Fun Run kicks off the morning of Sherman Arts Fest with a fast, flat 5K followed by a shorter Bubble-K and foam party. The event promotes fitness while raising funds to support students and teachers across Sherman Independent School District. Medals and cash prizes are awarded to top 5K finishers by gender and age group.",
+      "start_datetime": "2026-09-19T08:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "piner-middle-school"
+      ],
+      "venue_name": "Piner Middle School",
+      "address": "402 W Pecan St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75092",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "5K & Fun Runs",
+        "Sports & Fitness",
+        "Fundraisers",
+        "Family Events"
+      ],
+      "tags": [
+        "SEF Arts Fest 5K",
+        "Bubble-K",
+        "Sherman Education Foundation",
+        "Sherman Arts Fest",
+        "5K",
+        "fun run",
+        "foam party",
+        "Sherman",
+        "Piner Middle School"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "Registration is required for race participation. Current 2026 registration pricing was not published in the official information reviewed.",
+      "audience": [
+        "Runners",
+        "Walkers",
+        "Families",
+        "Community members"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Sherman Education Foundation",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Sherman Independent School District"
+      ],
+      "image_url": "/images/events/sef-arts-fest-5k-bubble-k-fun-run-sherman-2026-09-19.png",
+      "image_alt": null,
+      "official_url": "https://www.shermanisd.net/community/sef/sef-annual-5k-bubble-k-fun-run",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 14, 2026 from Sherman Education Foundation's official Sherman ISD event page and the current 2026 race calendar. The SEF Arts Fest 5K & Bubble-K Fun Run is scheduled for Saturday, September 19, 2026 at 8:00 AM at Piner Middle School. Sherman Education Foundation describes the event as a fast, flat 5K followed by the Bubble-K and a Bubble Foam party, with proceeds supporting Sherman ISD students and teachers. The current Piner Middle School record confirms the campus at 402 W Pecan St, Sherman, TX 75092. No current event ending time, registration price or age restriction was published, so those details are left unknown.",
       "last_checked": "2026-08-14",
       "created_on": "2026-08-14",
       "updated_on": "2026-08-14"
