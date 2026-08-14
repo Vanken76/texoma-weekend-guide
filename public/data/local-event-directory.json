@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 289,
-  "publish_ready_count": 289,
+  "event_count": 290,
+  "publish_ready_count": 290,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -19555,6 +19555,68 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 14, 2026 from the official City of Denison calendar. Saturday Morning Book Club is listed for September 12, 2026 from 11:00 AM to 12:00 PM. Official 2026 calendar entries also list the program May 9, June 13, July 11 and August 8 at the same time, establishing a second-Saturday monthly pattern. The official Denison Public Library page confirms the venue at 300 W Gandy, Denison, TX 75020. No featured book, admission price or age restriction is published in the current listing, so those details are not inferred.",
+      "last_checked": "2026-08-14",
+      "created_on": "2026-08-14",
+      "updated_on": "2026-08-14"
+    },
+    {
+      "event_slug": "frank-buck-zoo-giraffe-encounter",
+      "event_name": "Frank Buck Zoo Giraffe Encounter",
+      "description": "Get up close with the giraffes at Frank Buck Zoo during the zoo's daily Giraffe Encounter. The feeding experience is offered from 10:30 AM to 11:00 AM, weather permitting. No advance reservation is required; encounter purchases are available at the Giraffe Feeding Deck.",
+      "start_datetime": "2026-08-15T10:30:00-05:00",
+      "end_datetime": "2026-08-15T11:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "frank-buck-zoo-gainesville"
+      ],
+      "venue_name": "Frank Buck Zoo",
+      "address": "1000 W California Street",
+      "city": "Gainesville",
+      "state": "TX",
+      "postal_code": "76240",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Animal Encounter",
+        "Zoo Activity",
+        "Family Activity"
+      ],
+      "tags": [
+        "Frank Buck Zoo",
+        "Giraffe Encounter",
+        "Giraffe Feeding",
+        "Animal Encounter",
+        "Zoo",
+        "Gainesville",
+        "Cooke County",
+        "Family Activity"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Giraffe Encounter: $7 per participant. Frank Buck Zoo separately publishes general zoo admission of $7.50 for ages 2–12, $9 for ages 13–54, $7.50 for ages 55+ and military with ID, and free admission for ages 0–23 months.",
+      "audience": [
+        "Families",
+        "Zoo Visitors",
+        "Animal Lovers"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "frank-buck-zoo-gainesville",
+      "organizer_name": "Frank Buck Zoo",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/frank-buck-zoo-giraffe-encounter.png",
+      "image_alt": null,
+      "official_url": "https://gainesville.tx.us/672/Animal-Encounters-Experiences",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=DAILY",
+      "recurrence_start_date": "2026-08-15",
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Fully researched August 14, 2026. A fresh check of the canonical TWG event directory found no existing Giraffe or Giraffe Encounter event record. The current official Frank Buck Zoo Animal Encounters page confirms giraffe feedings from 10:30 AM to 11:00 AM Monday through Sunday, weather permitting, at $7 per participant. The encounter requires no reservation and may be purchased at the Giraffe Feeding Deck. Frank Buck Zoo's official visitor information confirms the venue at 1000 W California Street, Gainesville, TX 76240 and publishes current general admission rates separately. The existing canonical TWG venue slug frank-buck-zoo-gainesville is used rather than creating a duplicate venue.",
       "last_checked": "2026-08-14",
       "created_on": "2026-08-14",
       "updated_on": "2026-08-14"
