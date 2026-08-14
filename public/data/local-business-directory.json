@@ -5,8 +5,8 @@
   "generated_on": "2026-08-14",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 796,
-  "publish_ready_count": 471,
+  "business_count": 795,
+  "publish_ready_count": 470,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -20515,144 +20515,6 @@
         "friday": "Closed",
         "saturday": "Closed"
       }
-    },
-    {
-      "business_name": "Sloppy Joe's Bar and Grill",
-      "slug": "sloppy-joes-bar-and-grill-texas",
-      "business_type": "Restaurant",
-      "service_area_or_location": "Pottsboro, TX",
-      "directory_status": "active",
-      "profile_level": "Standard",
-      "featured": false,
-      "flagship": false,
-      "publish_ready": true,
-      "address": "81750 N SH 289, Suite 122, Pottsboro, TX 75076",
-      "location": "Pottsboro, TX",
-      "url": "https://www.sloppyjoestx.com/",
-      "phone": "(903) 271-9489",
-      "description_short": "Casual Pottsboro neighborhood bar and grill serving burgers, signature Dr Pepper Sloppy Joe dishes, pizza, sandwiches, breakfast and a full drink menu, with weekly specials and live entertainment.",
-      "description_long": "Sloppy Joe's Bar and Grill is a casual neighborhood restaurant and sports-bar-style hangout on SH 289 in Pottsboro. Its menu centers on American comfort food, including signature Dr Pepper Sloppy Joe dishes, burgers, wings, pizza, quesadillas, fish and chips and other bar favorites. Weekend breakfast service adds another reason to visit earlier in the day. The full bar offers beer, wine, cocktails and specialty drinks, while a kids menu and broad food selection make the restaurant suitable for families as well as groups meeting for drinks or sports. Sloppy Joe's also promotes recurring food and drink specials, happy hour and live entertainment, making it a useful Texoma Weekend Guide source for future event discovery.",
-      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sloppy+Joe%27s+Bar+and+Grill+81750+N+SH+289+Pottsboro+TX+75076",
-      "geo_lat": null,
-      "geo_lng": null,
-      "categories": [
-        "Restaurant",
-        "Bar & Grill",
-        "Sports Bar",
-        "American Food",
-        "Burgers"
-      ],
-      "tags": [
-        "Pottsboro",
-        "Lake Texoma Area",
-        "Bar & Grill",
-        "Sports Bar",
-        "Burgers",
-        "Sloppy Joes",
-        "Dr Pepper Sloppy Joe",
-        "Full Bar",
-        "Cocktails",
-        "Breakfast",
-        "Happy Hour",
-        "Live Music",
-        "Weekly Specials",
-        "Family Friendly"
-      ],
-      "amenities": [
-        "Dine-in",
-        "Takeout",
-        "Delivery",
-        "Curbside pickup",
-        "Online ordering",
-        "Full bar",
-        "Kids menu",
-        "Wi-Fi",
-        "High chairs",
-        "Free parking",
-        "Wheelchair-accessible parking",
-        "Wheelchair-accessible entrance",
-        "Wheelchair-accessible seating",
-        "Wheelchair-accessible restroom"
-      ],
-      "features": [
-        "Full food menu",
-        "Weekend breakfast",
-        "Happy hour",
-        "Weekly food specials",
-        "Drink specials",
-        "Live music",
-        "Sports viewing"
-      ],
-      "payment_methods": [
-        "Credit cards",
-        "Debit cards",
-        "NFC mobile payments"
-      ],
-      "hours": {
-        "monday": "11:00 AM - 10:00 PM",
-        "tuesday": "11:00 AM - 10:00 PM",
-        "wednesday": "11:00 AM - 10:00 PM",
-        "thursday": "11:00 AM - 10:00 PM",
-        "friday": "11:00 AM - 12:00 AM",
-        "saturday": "9:00 AM - 12:00 AM",
-        "sunday": "9:00 AM - 10:00 PM"
-      },
-      "price_range": "$$",
-      "family_friendly": true,
-      "verification_status": "needs_verification",
-      "last_verified": "2026-08-09",
-      "verification_note": "Current operating status, address, website, hours, menu, online ordering, recurring specials and core amenities were verified on August 9, 2026. The current official homepage and current business listing use (903) 271-9489. However, the restaurant's Specials & Events and Order Online pages and the Pottsboro Area Chamber of Commerce still display (903) 271-2877. Retain needs_verification status until the phone discrepancy is resolved.",
-      "at_a_glance": {
-        "food_available": true,
-        "full_bar": true,
-        "live_music": true,
-        "outdoor_seating": false,
-        "average_visit": null,
-        "wifi": true,
-        "pet_friendly": null,
-        "good_to_know": "Current recurring promotions include 25% off Dr Pepper Sloppy Joe items on Mondays, 50% off burgers on Wednesdays and $5 margaritas all day Wednesday. The current menu also advertises weekday happy hour from 4:00 PM to 7:00 PM.",
-        "best_for": "Casual meals, burgers and drinks, watching sports, family meals, weekend breakfast and live-music nights.",
-        "not_ideal_for": null,
-        "age_limits_or_crowd": null,
-        "wheelchair_accessible": true,
-        "great_photo_spot": null
-      },
-      "logo_url": null,
-      "logo_source_url": null,
-      "parent_business": null,
-      "related_businesses": [],
-      "related_geography": [
-        {
-          "slug": "pottsboro",
-          "name": "Pottsboro",
-          "entity_type": "city",
-          "relationship_note": "Located in Pottsboro"
-        },
-        {
-          "slug": "lake-texoma",
-          "name": "Lake Texoma",
-          "entity_type": "region",
-          "relationship_note": "Serves the Lake Texoma area"
-        },
-        {
-          "slug": "texas",
-          "name": "Texas",
-          "entity_type": "state",
-          "relationship_note": "Located in Texas"
-        }
-      ],
-      "event_venue": true,
-      "recurring_events": true,
-      "event_mining_priority": "high",
-      "event_types": [
-        "Live music",
-        "Food specials",
-        "Drink specials"
-      ],
-      "event_sources": [
-        "https://www.sloppyjoestx.com/specials-and-events",
-        "https://www.sloppyjoestx.com/"
-      ]
     },
     {
       "slug": "wheeler-barbecue",
