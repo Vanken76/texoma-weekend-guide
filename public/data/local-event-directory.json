@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 282,
-  "publish_ready_count": 282,
+  "event_count": 283,
+  "publish_ready_count": 283,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -19084,6 +19084,75 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 14, 2026 from the current official Choctaw Casinos & Resorts event page and Ticketmaster. Choctaw lists Tanya Tucker at Stage 271 in Grant on Saturday, November 14, 2026 with doors opening at 7:00 PM and showtime at 8:00 PM. Ticketmaster independently confirms the November 14, 2026 8:00 PM performance at Stage 271 in Grant. Ticketmaster is the official ticketing agent for Choctaw Casinos & Resorts. No official ending time, fixed ticket price or event-specific age restriction is currently published.",
+      "last_checked": "2026-08-14",
+      "created_on": "2026-08-14",
+      "updated_on": "2026-08-14"
+    },
+    {
+      "event_slug": "jamey-johnson-stage-271-grant-2026-09-05",
+      "event_name": "Jamey Johnson",
+      "description": "Jamey Johnson performs live at Stage 271 at Choctaw Casino & Resort – Grant on Saturday, September 5, 2026. Doors open at 7:00 PM and the concert begins at 8:00 PM.",
+      "start_datetime": "2026-09-05T20:00:00-05:00",
+      "end_datetime": null,
+      "doors_open_datetime": "2026-09-05T19:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "stage-271-choctaw-casino-resort-grant"
+      ],
+      "venue_name": "Stage 271 at Choctaw Casino & Resort – Grant",
+      "address": "1516 US Hwy 271",
+      "city": "Grant",
+      "state": "OK",
+      "postal_code": "74738",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Concert",
+        "Country Music"
+      ],
+      "tags": [
+        "Jamey Johnson",
+        "Stage 271",
+        "Choctaw Casino & Resort Grant",
+        "country music",
+        "live music",
+        "Grant Oklahoma"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ticketed concert. Tickets are sold through Ticketmaster, the official ticketing agent for Choctaw Casinos & Resorts. Prices and seat availability vary.",
+      "audience": [
+        "Country music fans",
+        "Jamey Johnson fans",
+        "Live music fans",
+        "Concertgoers",
+        "Texoma visitors"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "stage-271-choctaw-casino-resort-grant",
+      "organizer_name": "Choctaw Casinos & Resorts",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "performers": [
+        {
+          "name": "Jamey Johnson",
+          "role": "Headlining artist"
+        }
+      ],
+      "image_url": "/images/events/jamey-johnson-stage-271-grant-2026-09-05.jpg",
+      "image_alt": null,
+      "official_url": "https://www.choctawcasinos.com/events/jamey-johnson-2/",
+      "facebook_url": null,
+      "ticket_url": "https://www.ticketmaster.com/jamey-johnson-grant-oklahoma-09-05-2026/event/0C00648ACC1EEE2E",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 14, 2026 from the current official Choctaw Casinos & Resorts event page and Ticketmaster. Choctaw lists Jamey Johnson at Stage 271 in Grant on Saturday, September 5, 2026 with doors opening at 7:00 PM and showtime at 8:00 PM. Ticketmaster independently confirms the September 5, 2026 8:00 PM performance at Stage 271, 1516 US Hwy 271, Grant, OK 74738. Ticketmaster is the official ticketing agent for Choctaw Casinos & Resorts. Fresh canonical TWG duplicate checks found no existing Jamey Johnson event or expected event slug. No official ending time, fixed ticket price or event-specific age restriction is currently published.",
       "last_checked": "2026-08-14",
       "created_on": "2026-08-14",
       "updated_on": "2026-08-14"
