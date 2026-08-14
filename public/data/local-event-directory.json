@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 292,
-  "publish_ready_count": 292,
+  "event_count": 293,
+  "publish_ready_count": 293,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -19743,6 +19743,87 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Fully researched August 14, 2026. A fresh duplicate check against the current canonical TWG event directory found no existing Frank Buck Zoo Mini Horse Encounter record. Frank Buck Zoo's official Animal Encounters page states that the Mini Horse Encounter starts promptly at 1:30 PM, is weather permitting, accommodates up to 2 people at a time, requires participants to be 6 years or older, costs $20 per person, and requires prepayment and reservations. Reservations can be made by calling 940-668-4539 or emailing giftshop@cogtx.org. Frank Buck Zoo's official visitor information confirms the venue at 1000 W California Street, Gainesville, TX 76240. No encounter ending time is published, so end_datetime is left null rather than inferred.",
+      "contact_phone": "940-668-4539",
+      "contact_email": "giftshop@cogtx.org",
+      "last_checked": "2026-08-14",
+      "created_on": "2026-08-14",
+      "updated_on": "2026-08-14"
+    },
+    {
+      "event_slug": "frank-buck-zoo-capybara-encounter",
+      "event_name": "Frank Buck Zoo Capybara Encounter",
+      "description": "Meet capybaras up close at Frank Buck Zoo during the zoo's daily Capybara Encounter. Two encounter times are offered each day at 11:30 AM and 1:30 PM, weather permitting. Each time slot accommodates up to four participants. Guests must be at least 8 years old, wear closed-toed shoes, make an advance reservation, and arrive early enough to purchase zoo admission and sign required waivers.",
+      "start_datetime": "2026-08-15T11:30:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "frank-buck-zoo-gainesville"
+      ],
+      "venue_name": "Frank Buck Zoo",
+      "address": "1000 W California Street",
+      "city": "Gainesville",
+      "state": "TX",
+      "postal_code": "76240",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Animal Encounter",
+        "Zoo Activity",
+        "Family Activity"
+      ],
+      "tags": [
+        "Frank Buck Zoo",
+        "Capybara Encounter",
+        "Capybara",
+        "Animal Encounter",
+        "Zoo",
+        "Gainesville",
+        "Cooke County",
+        "Family Activity"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Capybara Encounter is $35 per person. General zoo admission is purchased separately.",
+      "audience": [
+        "Zoo Visitors",
+        "Animal Lovers",
+        "Families",
+        "Ages 8+"
+      ],
+      "age_restriction": "Participants must be age 8 or older.",
+      "host_business_slug": "frank-buck-zoo-gainesville",
+      "organizer_name": "Frank Buck Zoo",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/frank-buck-zoo-capybara-encounter.png",
+      "image_alt": null,
+      "official_url": "https://www.gainesville.tx.us/672/Animal-Encounters-Experiences",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=DAILY;BYHOUR=11,13;BYMINUTE=30",
+      "recurrence_start_date": "2026-08-15",
+      "recurrence_end_date": null,
+      "session_details": [
+        {
+          "time": "11:30 AM",
+          "capacity": "Up to 4 participants"
+        },
+        {
+          "time": "1:30 PM",
+          "capacity": "Up to 4 participants"
+        }
+      ],
+      "requirements": [
+        "Advance reservation required",
+        "Participants must be age 8 or older",
+        "Closed-toed shoes required",
+        "Arrive before the reserved time to purchase zoo admission and sign waivers"
+      ],
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Fully researched August 14, 2026. The live canonical TWG event directory contains 292 events and 292 publish-ready records, and a fresh duplicate search found no existing Capybara Encounter record. Frank Buck Zoo's current official Animal Encounters page confirms daily Capybara Encounter sessions beginning promptly at 11:30 AM and 1:30 PM, weather permitting. Each time slot accommodates up to four people. Participants must be age 8 or older and wear closed-toed shoes. The encounter costs $35 per person, reservations are required, and guests are instructed to arrive beforehand to purchase admission and sign waivers. The zoo's current Plan Your Visit page independently confirms both daily Capybara times and that reservations are required. No encounter ending time is published, so end_datetime is left null rather than inferred. Frank Buck Zoo is already an existing canonical TWG venue under slug frank-buck-zoo-gainesville.",
       "contact_phone": "940-668-4539",
       "contact_email": "giftshop@cogtx.org",
       "last_checked": "2026-08-14",
