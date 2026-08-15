@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 808,
-  "publish_ready_count": 483,
+  "business_count": 809,
+  "publish_ready_count": 484,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -78017,6 +78017,126 @@
         "Large rotating antique and vintage inventory",
         "Highway 82 location",
         "Part of Muenster's antique-shopping cluster"
+      ]
+    },
+    {
+      "slug": "bayers-kolonialwaren-bakery-muenster",
+      "business_name": "Bayer's Kolonialwaren & Bakery",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "824 E Division St, Muenster, TX 76252",
+      "category": [
+        "Bakery",
+        "German Food",
+        "Convenience Store",
+        "Local Dining"
+      ],
+      "tags": [
+        "Bayer's Kolonialwaren",
+        "Bayer's Bakery",
+        "Muenster",
+        "Cooke County",
+        "German Bakery",
+        "German Pastries",
+        "Strudel",
+        "Fresh Bread",
+        "Donuts",
+        "Breakfast",
+        "Lunch",
+        "Takeout",
+        "German Heritage"
+      ],
+      "description": "Bayer's Kolonialwaren & Bakery is a longtime Muenster bakery and convenience stop known for German-style baked goods and everyday grab-and-go food. Visitors stop for fresh breads, pastries, donuts and especially strudel while traveling through Muenster on Highway 82.",
+      "why_visit": "Bayer's is one of those distinctly Muenster stops where visitors can grab fuel or road-trip necessities and come away with German pastries and fresh bakery items. It works well as a quick breakfast stop, dessert run or take-home-food stop during a Muenster day trip.",
+      "why_its_unique": "The unlikely combination of a roadside convenience stop and a well-known German bakery has made Bayer's a memorable Muenster destination. Strudel and other German-style baked goods are particularly associated with the business.",
+      "phone": "940-759-2822",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "sunday": "6:00 AM-8:00 PM",
+        "monday": "6:00 AM-8:00 PM",
+        "tuesday": "6:00 AM-8:00 PM",
+        "wednesday": "6:00 AM-8:00 PM",
+        "thursday": "6:00 AM-8:00 PM",
+        "friday": "6:00 AM-8:00 PM",
+        "saturday": "6:00 AM-8:00 PM"
+      },
+      "hours_note": "Current major local/travel listings agree on daily hours of 6:00 AM-8:00 PM. No current standalone official business website was located, so visitors arriving near opening or closing should confirm directly.",
+      "at_a_glance": {
+        "average_visit": "10-30 minutes",
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Bakery counter",
+        "German-style pastries",
+        "Strudel",
+        "Fresh breads",
+        "Donuts and sweets",
+        "Breakfast food",
+        "Lunch food",
+        "Takeout",
+        "Convenience-store items",
+        "Fuel available at the location"
+      ],
+      "good_to_know": [
+        "Bayer's is located directly on East Division Street / Highway 82.",
+        "The business is commonly referred to both as Bayer's Kolonialwaren and Bayer's Bakery.",
+        "Current listings classify it as a German-food and bakery destination.",
+        "Breakfast and lunch are available.",
+        "Takeout is available.",
+        "Strudel is one of the bakery items most strongly associated with Bayer's.",
+        "Current listings show daily opening at 6:00 AM.",
+        "No reliable current standalone official website was located, so TWG does not fabricate one."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [
+        "fischers-meat-market-muenster"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing Bayer's Kolonialwaren or Bayer's Bakery record. The current Muenster Chamber of Commerce shopping/dining directory lists Bayer's Kolonialwaren among Muenster dining businesses. Multiple current local and travel listings independently confirm 824 E Division St, Muenster, TX 76252 and phone 940-759-2822. Current listings identify the business as a bakery/German-food destination serving breakfast and lunch with takeout, while local Muenster visitor material specifically identifies Bayer's Kolonialwaren Bakery as a visitor food stop. Current listings consistently publish daily hours of 6:00 AM-8:00 PM. Because a current standalone official website or verified official social account could not be established, those fields are intentionally left null.",
+      "last_checked": "2026-08-14",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "German-style bakery",
+        "Strudel and pastries",
+        "Fresh bread and donuts",
+        "Breakfast and lunch",
+        "Highway 82 convenience stop",
+        "Distinctive Muenster German-food stop"
       ]
     }
   ]
