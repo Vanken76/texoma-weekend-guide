@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 826,
-  "publish_ready_count": 501,
+  "business_count": 827,
+  "publish_ready_count": 502,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -80327,6 +80327,133 @@
         "More than 135 years of community history",
         "Active parish events calendar",
         "Strong event-mining source"
+      ]
+    },
+    {
+      "slug": "muenster-jaycee-ballpark",
+      "business_name": "Muenster Jaycee Ballpark",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "750 N Mesquite St, Muenster, TX 76252",
+      "category": [
+        "Sports Complex",
+        "Baseball Fields",
+        "Softball Fields",
+        "Youth Recreation",
+        "Event Venue"
+      ],
+      "tags": [
+        "Muenster Jaycee Ballpark",
+        "Muenster",
+        "Cooke County",
+        "Baseball",
+        "Softball",
+        "T-Ball",
+        "Youth Sports",
+        "Sports Complex",
+        "Lighted Fields",
+        "Batting Cages",
+        "Tournaments",
+        "Family Activities"
+      ],
+      "description": "Muenster Jaycee Ballpark is a youth baseball and softball complex in Muenster used for local T-ball, baseball and softball leagues, practices, games and tournaments. The facility is maintained through a partnership between the City of Muenster and the Muenster Jaycees and includes multiple playing fields, batting cages, field lighting and seasonal concessions.",
+      "why_visit": "The ballpark is a useful destination for families attending local youth games and tournaments and provides another active recreation venue within Muenster. Visiting teams and their families can easily combine tournament weekends with downtown dining, shopping and other area attractions.",
+      "why_its_unique": "The complex serves as the center of Muenster's organized youth baseball and softball programs and is supported by an active Jaycees organization that publishes schedules, registrations and facility information online.",
+      "phone": null,
+      "email": "mtxjaycees@gmail.com",
+      "website": "https://muenstersports.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Varies by league or event",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The athletic complex operates around league, practice and tournament schedules rather than fixed public visitor hours. Check current Muenster Jaycees schedules before attending.",
+      "at_a_glance": {
+        "average_visit": "1-4 hours",
+        "price_range": "Varies by event",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": "Concessions available during game seasons",
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Baseball fields",
+        "Softball fields",
+        "T-ball field",
+        "Lighted playing fields",
+        "Batting cages",
+        "Seasonal concessions",
+        "Youth league facilities",
+        "Practice facilities",
+        "Tournament facilities"
+      ],
+      "good_to_know": [
+        "The City of Muenster identifies the facility at 750 N Mesquite St.",
+        "The ballpark hosts local youth baseball and softball leagues.",
+        "The complex is maintained in partnership with the Muenster Jaycees.",
+        "Fields are lighted for evening play.",
+        "Concessions operate during game seasons.",
+        "The Jaycees operate T-ball, coach-pitch baseball, Little League and multiple softball divisions.",
+        "The Jaycees facility schedule identifies a City T-Ball Field, City Softball Field, New Softball Field, North Field and South Field.",
+        "Batting cages are included in the Jaycees facility schedule.",
+        "Current schedules, registration information and tournament information are published through the Muenster Jaycees sports website.",
+        "The Muenster Chamber lists the Jaycees Baseball Fields among the area's recreational facilities."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "muenster-city-park",
+        "muenster-swimming-pool"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository searches for Muenster Jaycee Ballpark and Jaycees Baseball Fields Muenster found no existing record. The current official City of Muenster Parks & Recreation page confirms Jaycee Ballpark at 750 N Mesquite St, Muenster, TX 76252 and states that it hosts local youth baseball and softball leagues, is maintained in partnership with the Muenster Jaycees, and features lighted fields and concessions during game seasons. The current Muenster Jaycees sports website publishes youth baseball, softball and T-ball programming and maintains league, tournament and facility schedules. Its facilities page identifies multiple baseball and softball fields plus batting cages. The Muenster Chamber independently lists Jaycees Baseball Fields among local recreational facilities and publishes mtxjaycees@gmail.com for the Muenster Jaycees. No dedicated public ballpark phone number or fixed operating hours were established, so those fields are intentionally left unasserted.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Youth baseball games",
+        "Youth softball games",
+        "T-ball games",
+        "Baseball tournaments",
+        "Softball tournaments",
+        "Youth sports registrations",
+        "League championships"
+      ],
+      "event_sources": [
+        "Muenster Jaycees sports website",
+        "Muenster Jaycees schedules",
+        "City of Muenster Parks & Recreation"
+      ],
+      "features": [
+        "Multiple baseball and softball fields",
+        "Lighted fields",
+        "Batting cages",
+        "Seasonal concessions",
+        "Youth baseball and softball leagues",
+        "Tournament venue",
+        "Active online sports schedules"
       ]
     }
   ]
