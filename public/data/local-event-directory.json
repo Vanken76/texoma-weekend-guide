@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "project": "Texoma Weekend Guide",
   "document_type": "local_event_directory",
-  "generated_on": "2026-08-14",
+  "generated_on": "2026-08-15",
   "timezone_default": "America/Chicago",
   "publication_rule": "Only records with publish_ready=true should appear in the public event directory.",
   "active_event_rule": "status in [upcoming, recurring] and either end_datetime is in the future, or end_datetime is null and the local event date has not passed",
@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 294,
-  "publish_ready_count": 294,
+  "event_count": 295,
+  "publish_ready_count": 295,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -19900,6 +19900,85 @@
       "last_checked": "2026-08-14",
       "created_on": "2026-08-14",
       "updated_on": "2026-08-14"
+    },
+    {
+      "event_slug": "oktoberfest-2026-muenster-2026-10-09",
+      "event_name": "Oktoberfest 2026",
+      "description": "Celebrate German tradition in Muenster during Oktoberfest 2026 at Heritage Park Event Center. The three-day fall festival returns October 9-11 with the community's signature Oktoberfest atmosphere, German heritage, food, drinks, entertainment and festival activities. Current 2026 Muenster Chamber materials also show vendor registration and Dachshund Dash participation opportunities connected to the celebration.",
+      "start_datetime": "2026-10-09T16:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "heritage-park-event-center-muenster"
+      ],
+      "venue_name": "Heritage Park Event Center",
+      "address": "301 N Ash St",
+      "city": "Muenster",
+      "state": "TX",
+      "postal_code": "76252",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Festival",
+        "German Heritage",
+        "Cultural Event",
+        "Food & Drink",
+        "Live Entertainment",
+        "Community Event"
+      ],
+      "tags": [
+        "Oktoberfest",
+        "Oktoberfest 2026",
+        "Muenster Oktoberfest",
+        "Muenster",
+        "Cooke County",
+        "German Heritage",
+        "German Culture",
+        "Heritage Park",
+        "Fall Festival",
+        "Dachshund Dash"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "Current 2026 admission pricing has not yet been confirmed in the official published event information.",
+      "audience": [
+        "Families",
+        "Festival Visitors",
+        "German Heritage Enthusiasts",
+        "North Texas Visitors"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Muenster Chamber of Commerce",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Heritage Park Event Center"
+      ],
+      "image_url": "/images/events/oktoberfest-2026-muenster-2026-10-09.png",
+      "image_alt": null,
+      "official_url": "https://heritageparkmuenstertx.com/event/oktoberfest-2029-october-9th-11th/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "Oktoberfest 2026 runs Friday, October 9 through Sunday, October 11.",
+        "The event is held at Heritage Park Event Center in Muenster.",
+        "The Muenster Chamber describes Oktoberfest as a celebration of German tradition.",
+        "Current Chamber materials indicate a Friday 4:00 PM festival start.",
+        "2026 arts, crafts, pre-packaged food and on-site food vendor applications are currently available.",
+        "Dachshund Dash early registration is currently promoted through the Chamber's Oktoberfest section.",
+        "Current 2026 attendee admission pricing and daily closing times have not yet been confirmed, so TWG does not carry forward older-year pricing or hours."
+      ],
+      "verification_note": "Fully researched August 14, 2026. A fresh duplicate check against the current canonical TWG event directory, containing 294 events and 294 publish-ready records, found no existing Muenster Oktoberfest 2026 event record. Heritage Park Event Center's official current event calendar confirms Oktoberfest 2026 for October 9-11, 2026 at Heritage Park, 301 N Ash St, Muenster, Texas. The official individual Heritage Park event page independently confirms the same three-day date range and venue. Current Muenster Chamber Oktoberfest information describes the festival as a German-tradition celebration beginning Friday at 4:00 PM. The Chamber's current 2026 Oktoberfest materials include arts/crafts and food-vendor applications and promote Dachshund Dash early registration. Older Chamber pages publish prior-year admission pricing and daily closing times, but because those details have not yet been confirmed specifically for 2026, TWG does not copy them into this record. No current 2026 ticket URL, admission price, Sunday ending time or age restriction is therefore asserted.",
+      "last_checked": "2026-08-14",
+      "created_on": "2026-08-14",
+      "updated_on": "2026-08-15"
     }
   ]
 }
