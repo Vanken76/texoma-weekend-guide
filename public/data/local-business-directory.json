@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 892,
-  "publish_ready_count": 567,
+  "business_count": 893,
+  "publish_ready_count": 568,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -89436,6 +89436,137 @@
         "Youth horticultural education",
         "Research-based gardening information",
         "Countywide community outreach"
+      ]
+    },
+    {
+      "slug": "katy-plaza",
+      "business_name": "Katy Plaza",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "101 E Main St, Denison, TX 75020 — outdoor city plaza at East Main Street and Houston Avenue in front of Katy Depot",
+      "category": [
+        "Public Plaza",
+        "Outdoor Event Venue",
+        "Community Venue",
+        "Wedding Venue",
+        "Memorial",
+        "Public Art"
+      ],
+      "tags": [
+        "Denison",
+        "Downtown Denison",
+        "Grayson County",
+        "Outdoor Events",
+        "Community Events",
+        "Downtown Festivals",
+        "Weddings",
+        "Public Art",
+        "Veterans Memorial",
+        "Wheelchair Accessible",
+        "Dog Friendly",
+        "Reservable Venue"
+      ],
+      "description": "Katy Plaza is a City of Denison outdoor public plaza at 101 E Main St, at the corner of East Main Street and Houston Avenue directly in front of historic Katy Depot. The plaza combines veterans memorial features, public art, a water feature, seating and event infrastructure in a downtown gathering space used for festivals, civic activities, special events and private reservations. Reserving Katy Plaza provides access to the outdoor plaza only and does not include the interior of Katy Depot.",
+      "why_visit": "Katy Plaza is an easy downtown stop for visitors exploring the Katy Depot district, with veterans memorials, public art, a water feature and outdoor seating surrounded by downtown Denison attractions.",
+      "why_its_unique": "The plaza combines Denison's railroad-district setting with prominent veterans memorial features, public art and a reservable outdoor event space immediately outside Katy Depot.",
+      "phone": "903-465-2720",
+      "email": "spatterson@denisontx.gov",
+      "website": "https://www.denisontx.gov/644/Downtown-Parks",
+      "facebook": "https://www.facebook.com/DenisonParksandRec/",
+      "instagram": "https://www.instagram.com/denisonparksandrec/",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": true,
+      "hours": {
+        "monday": "Not separately posted",
+        "tuesday": "Not separately posted",
+        "wednesday": "Not separately posted",
+        "thursday": "Not separately posted",
+        "friday": "Not separately posted",
+        "saturday": "Not separately posted",
+        "sunday": "Not separately posted"
+      },
+      "hours_note": "The City does not currently publish a dependable Katy Plaza-specific daily access-hours schedule on its official Downtown Parks page. Rental reservations and special events operate on scheduled times; verify access before a time-sensitive visit.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": true,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Eternal Flame for Veterans",
+        "Water feature",
+        "Never Forget Garden",
+        "Tomb of the Unknown Soldier Memorial",
+        "Concrete seating and benches",
+        "Wheelchair accessible",
+        "Art sculptures",
+        "Bistro tables",
+        "Electricity available",
+        "Doggy bag station"
+      ],
+      "good_to_know": [
+        "A Katy Plaza reservation covers the outdoor plaza only and does not reserve the interior of Katy Depot.",
+        "The City of Denison FY2026 fee schedule lists a $50 deposit plus $40 per four-hour block for in-city renters or $60 per four-hour block for out-of-city renters.",
+        "Interior Katy Depot rentals must be arranged separately with Katy Depot.",
+        "Rental reservations are available through the City of Denison."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "katy-depot",
+        "denison-parks-recreation",
+        "denison-main-street"
+      ],
+      "related_geography": [],
+      "verification_note": "Complete. Fresh live TWG business-directory duplicate check found no Katy Plaza listing. Official City of Denison sources confirm the location, separate outdoor relationship to Katy Depot, amenities, accessibility, reservation contact and FY2026 rental fees. City Main Street records confirm recurring festival and special-event use. Monitor Denison Parks & Recreation and Downtown Denison sources for future events.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Community events",
+        "Downtown festivals",
+        "Wedding rentals",
+        "Civic events",
+        "Historic reenactments",
+        "Seasonal events"
+      ],
+      "event_sources": [
+        "City of Denison Downtown Parks",
+        "Denison Parks & Recreation",
+        "Denison Main Street",
+        "Downtown Denison events calendar"
+      ],
+      "features": [
+        "City-owned outdoor plaza",
+        "Adjacent to Katy Depot",
+        "Veterans memorial features",
+        "Public art",
+        "Water feature",
+        "Reservable event space",
+        "Wheelchair accessible",
+        "Outdoor seating",
+        "Electricity available"
       ]
     }
   ]
