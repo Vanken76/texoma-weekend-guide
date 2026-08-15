@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 866,
-  "publish_ready_count": 541,
+  "business_count": 867,
+  "publish_ready_count": 542,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -86039,6 +86039,132 @@
       "verification_note": "Verified August 15, 2026 using current U.S. Chamber directory information, recent nonprofit organizational filings and corroborating Davis-area sources. Sources confirm the Davis Chamber of Commerce, 580-369-2402 phone number, PO Box 5 mailing address, commonly published 100 E Main St physical location, business-development and tourism mission and recurring community-event role. The organization's davisok.org domain remains listed by current directories but could not be reliably loaded during verification, so no current website content, email address or office hours were inferred from it.",
       "last_checked": "2026-08-15",
       "last_verified": "2026-08-15"
+    },
+    {
+      "slug": "denison-area-chamber-of-commerce",
+      "business_name": "Denison Area Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "313 W Woodard St, Denison, TX 75020 — serving businesses and the greater Denison community",
+      "category": [
+        "Chamber of Commerce",
+        "Business Organization",
+        "Community Organization"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "Lake Texoma",
+        "Chamber of Commerce",
+        "Business Networking",
+        "Community Events",
+        "Ribbon Cuttings",
+        "Business After Hours",
+        "Chamber Luncheons",
+        "Annual Awards Gala",
+        "Economic Development"
+      ],
+      "description": "The Denison Area Chamber of Commerce is a long-established business and community organization serving Denison, Texas. The Chamber promotes local businesses, economic growth and community development through advocacy, networking, educational opportunities, business resources, ribbon cuttings, recurring Chamber programs and partnerships with other Denison organizations.",
+      "why_visit": "A useful resource for Denison business information, networking opportunities, Chamber events, community connections and local economic-development resources.",
+      "why_its_unique": "Established in 1912, the Chamber has played a central role in Denison's business community for more than a century and works alongside the City of Denison, Denison Development Alliance and Denison Main Street on community and economic-development initiatives.",
+      "phone": "903-465-1551",
+      "email": null,
+      "website": "https://www.denisontexas.us/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "A dependable current first-party office-hours schedule was not identified during verification. Contact the Chamber before making a time-sensitive office visit. Chamber events frequently occur at member businesses and other Denison venues.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Business directory",
+        "Business resources",
+        "Networking opportunities",
+        "Ribbon-cutting support",
+        "Community information",
+        "Chamber Cash program"
+      ],
+      "good_to_know": [
+        "The Denison Area Chamber of Commerce was established in 1912.",
+        "The Chamber office is located at 313 W Woodard St in Denison.",
+        "Recurring event targets include Chamber luncheons, Business After Hours, Coffee & Chat, ribbon cuttings and the Annual Awards Gala & Taste of the Chamber.",
+        "The Chamber operates a Chamber Cash program designed to keep spending with participating local Chamber-member businesses.",
+        "Denison Main Street is a separate TWG organization record focused specifically on downtown Denison.",
+        "Current authoritative sources disagree on the Chamber's primary web domain: Chamber-produced material and Texas Chamber of Commerce Executives use denisontexas.us, while the U.S. Chamber directory lists denisontexas.com."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Denison Main Street",
+        "Pottsboro Area Chamber of Commerce",
+        "Durant Area Chamber of Commerce"
+      ],
+      "related_geography": [
+        "Denison",
+        "Grayson County",
+        "Lake Texoma",
+        "Texas"
+      ],
+      "verification_note": "Complete. Current City of Denison, Denison Development Alliance, Texas Chamber of Commerce Executives, U.S. Chamber and Chamber-produced sources confirm the organization, 313 W Woodard St address, 903-465-1551 phone number, business and community-development mission and active event programming. Chamber-produced materials and Texas Chamber of Commerce Executives identify denisontexas.us as the website, while the U.S. Chamber directory lists denisontexas.com. A dependable current office-hours schedule and general-purpose public email address were not asserted.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Business networking",
+        "Chamber luncheons",
+        "Business After Hours",
+        "Coffee and networking events",
+        "Ribbon cuttings",
+        "Grand openings",
+        "Awards galas",
+        "Business workshops",
+        "Community events",
+        "Economic-development events"
+      ],
+      "event_sources": [
+        "Denison Area Chamber of Commerce website",
+        "Denison Chamber event postings",
+        "Downtown Denison event calendar",
+        "Denison Area Chamber of Commerce publications"
+      ],
+      "features": [
+        "Established in 1912",
+        "Business networking",
+        "Ribbon cuttings",
+        "Quarterly Chamber programming",
+        "Annual Awards Gala",
+        "Chamber Cash program",
+        "Business advocacy",
+        "Community partnerships",
+        "Economic-development support"
+      ]
     }
   ]
 }
