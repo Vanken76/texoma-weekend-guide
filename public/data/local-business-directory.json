@@ -21586,7 +21586,19 @@
       "ownership": "City of Sherman",
       "reservation_required": true,
       "verification_note": "Verified through the City of Sherman. Kidd-Key Auditorium is a historic municipal performing arts venue established in 1938 with seating for more than 1,300 guests. It serves as the home of the Sherman Symphony Orchestra and hosts concerts, theatrical productions, community events, and touring performances.",
-      "last_checked": "2026-07-29"
+      "last_checked": "2026-08-15",
+      "gallery": [
+        {
+          "url": "/images/businesses/kidd-key-auditorium/gallery-1786802917396-1.jpg",
+          "alt": "Kidd-Key Auditorium photo 1",
+          "caption": "Historic Kidd-Key Auditorium in Sherman, Texas."
+        },
+        {
+          "url": "/images/businesses/kidd-key-auditorium/gallery-1786802917396-2.jpg",
+          "alt": "Kidd-Key Auditorium photo 2",
+          "caption": "A live performance inside Kidd-Key Auditorium, one of Sherman’s longtime performing arts venues."
+        }
+      ]
     },
     {
       "slug": "oliver-dewey-mayor-gazebo-stage",
