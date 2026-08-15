@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 817,
-  "publish_ready_count": 492,
+  "business_count": 818,
+  "publish_ready_count": 493,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -79196,6 +79196,106 @@
         "Custom meat processing",
         "Locally raised beef and pork",
         "Featured by City of Muenster tourism"
+      ]
+    },
+    {
+      "slug": "5k-farmhouse-muenster",
+      "business_name": "5K Farmhouse",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "7731 County Road 427, Muenster, TX 76252",
+      "category": [
+        "Vacation Rental",
+        "Farmhouse Lodging",
+        "Lodging",
+        "Bed & Breakfast"
+      ],
+      "tags": [
+        "5K Farmhouse",
+        "Muenster",
+        "Cooke County",
+        "Farmhouse",
+        "Vacation Rental",
+        "Country Lodging",
+        "Weekend Getaway",
+        "Germanfest Lodging",
+        "Oktoberfest Lodging",
+        "Rural Texas"
+      ],
+      "description": "5K Farmhouse is a country lodging property outside Muenster offering visitors a rural home base for exploring the town, its German heritage, festivals, wineries, golf and surrounding Cooke County attractions.",
+      "why_visit": "5K Farmhouse gives Muenster visitors a country-stay option away from conventional hotels while remaining close enough to enjoy downtown dining, shopping, festivals and area attractions.",
+      "why_its_unique": "The farmhouse setting provides a distinctly rural North Texas lodging experience and has also served as the site of a community social event associated with Muenster's Oktoberfest weekend.",
+      "phone": "972-743-4294",
+      "email": "5kfarmhousetx@gmail.com",
+      "website": null,
+      "facebook": "https://www.facebook.com/profile.php?id=61579696147296",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Private lodging property operating by reservation; no regular public walk-in hours are published.",
+      "at_a_glance": {
+        "average_visit": "Overnight or multi-day stay",
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "The Muenster Chamber of Commerce currently lists 5K Farmhouse as a local lodging / bed-and-breakfast option.",
+        "The property is located at 7731 County Road 427 outside central Muenster.",
+        "Direct contact is available by phone or email.",
+        "The Chamber links directly to the property's Facebook page.",
+        "5K Farmhouse hosted an Oktoberfest Social Run in October 2025.",
+        "Detailed current sleeping capacity, room configuration, amenities, pet policy, accessibility and rates were not published in reliable indexed sources and should be confirmed directly."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing 5K Farmhouse record. The current Muenster Chamber of Commerce lodging directory confirms 5K Farmhouse at 7731 County Road 427, Muenster, TX 76252 with phone 972-743-4294, email 5kfarmhousetx@gmail.com and an official Facebook link. The Chamber categorizes the property under Lodgings / Bed and Breakfasts. A publicly documented 5K Farmhouse Oktoberfest Social Run was hosted at the property on October 11, 2025, providing direct evidence that the property has hosted at least occasional community events. Reliable current sources did not establish sleeping capacity, bedroom count, detailed amenities, rates, accessibility or pet policy, so TWG intentionally leaves those fields unasserted rather than inferring them.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Community social events",
+        "Festival-weekend activities",
+        "Social runs"
+      ],
+      "event_sources": [
+        "5K Farmhouse Facebook",
+        "Muenster Chamber of Commerce"
+      ],
+      "features": [
+        "Country farmhouse lodging",
+        "Muenster-area location",
+        "Direct local booking contact",
+        "Past community-event host",
+        "Useful festival-weekend lodging option"
       ]
     }
   ]
