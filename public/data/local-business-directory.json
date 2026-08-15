@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 813,
-  "publish_ready_count": 488,
+  "business_count": 814,
+  "publish_ready_count": 489,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -78656,6 +78656,141 @@
         "Family and business retreats",
         "Private hunt club",
         "Near Muenster wineries and golf"
+      ]
+    },
+    {
+      "slug": "main-street-mercantile-muenster",
+      "business_name": "Main Street Mercantile",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "200 N Main St, Muenster, TX 76252",
+      "category": [
+        "Antique Store",
+        "Gift Shop",
+        "Boutique",
+        "Local Shopping"
+      ],
+      "tags": [
+        "Main Street Mercantile",
+        "Muenster",
+        "Cooke County",
+        "Downtown Muenster",
+        "Antiques",
+        "Collectibles",
+        "Gifts",
+        "Boutique",
+        "Clothing",
+        "Graphic Tees",
+        "Spirit Wear",
+        "Home Decor",
+        "Main Street Shopping"
+      ],
+      "description": "Main Street Mercantile is a downtown Muenster shopping stop combining an antique-and-collectibles mercantile atmosphere with gifts, home pieces, boutique apparel, graphic tees and custom spirit merchandise. Its Main Street location makes it an easy stop during a Muenster shopping, dining or festival day.",
+      "why_visit": "The store offers the kind of browse-and-discover shopping that fits a small-town weekend trip, with a mix of vintage finds, collectibles, gifts and newer boutique merchandise. It is also part of Muenster's active downtown merchant community.",
+      "why_its_unique": "Main Street Mercantile bridges traditional antique and collectible shopping with current boutique apparel and custom school-spirit merchandise, giving the store a broader mix than a conventional antique shop.",
+      "phone": "940-736-3090",
+      "email": null,
+      "website": "https://mainstreetmercantiletx.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$-$$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "sunday": "Closed",
+        "monday": "10:00 AM-5:30 PM",
+        "tuesday": "10:00 AM-5:30 PM",
+        "wednesday": "10:00 AM-5:30 PM",
+        "thursday": "10:00 AM-5:30 PM",
+        "friday": "10:00 AM-5:30 PM",
+        "saturday": "10:00 AM-5:00 PM"
+      },
+      "hours_note": "Current local business data lists Monday-Friday 10:00 AM-5:30 PM, Saturday 10:00 AM-5:00 PM and Sunday closed.",
+      "at_a_glance": {
+        "average_visit": "30-90 minutes",
+        "price_range": "$-$$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": true,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Antiques",
+        "Collectibles",
+        "Gift merchandise",
+        "Home decor",
+        "Boutique apparel",
+        "Graphic tees",
+        "Custom school-spirit shirts",
+        "In-store shopping",
+        "Credit and debit card payments",
+        "Free parking"
+      ],
+      "good_to_know": [
+        "Main Street Mercantile is part of Muenster's downtown Main Street shopping district.",
+        "The Muenster Chamber lists the business in both its antiques and retail categories.",
+        "The current online store sells apparel, graphic tees and custom school-spirit merchandise.",
+        "The business is part of the Muenster Main Street Merchants group.",
+        "The Main Street Merchants have organized downtown events including Sip & Shops, Market Days, car shows, Mimosas on Main, Wine Stroll Down Main and Christkindle Market.",
+        "The business is currently closed Sundays.",
+        "Current local business data lists a wheelchair-accessible entrance and parking."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "muenster-antique-mall",
+        "docs-sports-grill-muenster",
+        "loft-on-113-muenster",
+        "fischers-meat-market-muenster"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing Main Street Mercantile Muenster record. The current Muenster Chamber of Commerce directory lists Main Street Mercantile under both Antiques and Retail Shops and links to mainstreetmercantiletx.com. Current local business data identifies the store at 200 N Main St, Muenster, TX 76252 with phone 940-736-3090 and hours Monday-Friday 10:00 AM-5:30 PM, Saturday 10:00 AM-5:00 PM and Sunday closed. The current official retail website confirms boutique apparel, graphic tees and custom school-spirit merchandise. The official Germanfest website identifies Main Street Mercantile as a member of the Muenster Main Street Merchants and documents downtown merchant events including Sip & Shops, Market Days, car shows, Mimosas on Main, Wine Stroll Down Main and Christkindle Market. A separate Muenster-area shopping guide lists the address as 202 N Main rather than 200 N Main; TWG uses the more current local-business index address while preserving the discrepancy in verification.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Sip & Shop events",
+        "Market Days",
+        "Holiday shopping events",
+        "Wine strolls",
+        "Downtown merchant events",
+        "Car shows",
+        "Seasonal shopping promotions"
+      ],
+      "event_sources": [
+        "Muenster Main Street Merchants",
+        "Germanfest Muenster",
+        "Main Street Mercantile official website"
+      ],
+      "features": [
+        "Downtown Main Street location",
+        "Antiques and collectibles",
+        "Boutique apparel",
+        "Custom spirit wear",
+        "Gift shopping",
+        "Member of active downtown merchant group",
+        "Strong event-mining potential"
       ]
     }
   ]
