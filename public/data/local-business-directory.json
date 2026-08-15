@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 867,
-  "publish_ready_count": 542,
+  "business_count": 868,
+  "publish_ready_count": 543,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -86164,6 +86164,130 @@
         "Business advocacy",
         "Community partnerships",
         "Economic-development support"
+      ]
+    },
+    {
+      "slug": "sherman-chamber-of-commerce",
+      "business_name": "Sherman Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "307 W Washington St, Suite 100, Sherman, TX 75090",
+      "category": [
+        "Chamber of Commerce",
+        "Business Organization",
+        "Community Organization"
+      ],
+      "tags": [
+        "Sherman",
+        "Grayson County",
+        "Texoma",
+        "Chamber of Commerce",
+        "Business Networking",
+        "Community Events",
+        "Plug-In Texoma",
+        "Un-Plug Texoma",
+        "Ribbon Cuttings",
+        "Professional Development",
+        "Leadership",
+        "Economic Development"
+      ],
+      "description": "The Sherman Chamber of Commerce is a business and community organization serving Sherman, Texas. The Chamber supports a diverse and prosperous local business community through business development, community development, leadership, government affairs, networking, professional-development programs, ribbon cuttings and recurring events connecting businesses and community leaders throughout the Sherman area.",
+      "why_visit": "A central resource for Sherman business connections, networking opportunities, professional-development programs, ribbon cuttings and recurring Chamber events.",
+      "why_its_unique": "The Chamber combines traditional business advocacy with a particularly active recurring networking and professional-development calendar, including the long-running Plug-In Texoma program and other Chamber gatherings held throughout Sherman.",
+      "phone": "903-893-1184",
+      "email": null,
+      "website": "https://www.shermanchamber.us/",
+      "facebook": "https://www.facebook.com/ShermanChamberOfCommerce",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The Chamber is actively operating from 307 W Washington St, Suite 100. Current third-party business directories publish differing office schedules, so TWG does not assert regular walk-in hours without a dependable current first-party schedule. Call 903-893-1184 before making a time-sensitive office visit.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Business networking",
+        "Membership resources",
+        "Professional-development programs",
+        "Ribbon-cutting support",
+        "Community connections",
+        "Business advocacy"
+      ],
+      "good_to_know": [
+        "Plug-In Texoma is a recurring Chamber-hosted networking program held Tuesday mornings.",
+        "The Chamber regularly conducts ribbon cuttings and anniversary celebrations for area businesses.",
+        "Other recurring or repeat event-mining targets include Un-Plug Texoma Business After Hours, professional-development sessions and Chamber community programs.",
+        "The Chamber hosts an annual Sherman ISD New Teacher Luncheon welcoming new educators to the community.",
+        "The Chamber's current 2026 activity includes events held at member businesses, banks, schools and other Sherman venues rather than primarily at the Chamber office.",
+        "Sherman Tourism/Main Street is a separate TWG organization record focused on tourism, downtown programming and city-produced events."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Sherman Tourism/Main Street",
+        "Denison Area Chamber of Commerce",
+        "Pottsboro Area Chamber of Commerce"
+      ],
+      "related_geography": [
+        "Sherman",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Current Sherman Chamber activity and corroborating City of Sherman, Sherman Economic Development Corporation and organization-profile sources confirm the active Chamber, 307 W Washington St Suite 100 location, 903-893-1184 phone number, shermanchamber.us website and substantial recurring business and community programming. Current 2026 activity includes Plug-In Texoma, ribbon cuttings, professional-development sessions, the SISD New Teacher Luncheon and other networking programs. A dependable current first-party office-hours schedule and general-purpose public email address were not asserted.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Business networking",
+        "Plug-In Texoma",
+        "Business After Hours",
+        "Ribbon cuttings",
+        "Anniversary celebrations",
+        "Professional-development workshops",
+        "Leadership programs",
+        "Teacher luncheons",
+        "Business forums",
+        "Community gatherings"
+      ],
+      "event_sources": [
+        "Sherman Chamber of Commerce official website",
+        "Sherman Chamber of Commerce social channels",
+        "Sherman Economic Development Corporation community information"
+      ],
+      "features": [
+        "Business development",
+        "Community development",
+        "Business networking",
+        "Leadership programming",
+        "Government affairs",
+        "Ribbon-cutting program",
+        "Professional development",
+        "Recurring Plug-In Texoma networking"
       ]
     }
   ]
