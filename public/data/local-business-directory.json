@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 874,
-  "publish_ready_count": 549,
+  "business_count": 875,
+  "publish_ready_count": 550,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -87040,6 +87040,135 @@
         "Legislative programming",
         "Ribbon-cutting support",
         "Community partnerships"
+      ]
+    },
+    {
+      "slug": "leonard-chamber-of-commerce",
+      "business_name": "Leonard Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Leonard, TX 75452 — serving Leonard and the surrounding Fannin County community; official mailing address PO Box 117",
+      "category": [
+        "Chamber of Commerce",
+        "Business Organization",
+        "Community Organization",
+        "Visitor Information"
+      ],
+      "tags": [
+        "Leonard",
+        "Fannin County",
+        "Chamber of Commerce",
+        "Community Events",
+        "Leonard Picnic",
+        "Halloween on the Square",
+        "Easter Egg Hunt",
+        "Business Networking",
+        "Downtown Leonard",
+        "Community Banquet",
+        "Visitor Information"
+      ],
+      "description": "The Leonard Chamber of Commerce is a nonprofit business and community organization serving Leonard, Texas. The Chamber works with local businesses, the City of Leonard, Leonard ISD and community volunteers to promote Leonard and the surrounding area while coordinating recurring festivals, holiday activities, networking opportunities and other public events.",
+      "why_visit": "A strong source for Leonard businesses, community events, downtown activities, networking opportunities and visitor information.",
+      "why_its_unique": "The Chamber directly coordinates several of Leonard's best-known recurring community traditions, including the multi-day Leonard Picnic, Easter Egg Hunt and Halloween on the Square, giving it an unusually strong event-producing role for a small-town chamber.",
+      "phone": null,
+      "email": "info@leonardchamber.com",
+      "website": "https://leonardchamber.com/",
+      "facebook": "https://www.facebook.com/Leonard-Chamber-of-Commerce-417215351745162",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The Chamber publishes PO Box 117, Leonard, TX 75452 as its mailing address but does not publish a dependable regular public office location or office-hours schedule. Monthly Chamber meetings rotate among community locations.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Business directory",
+        "Public event calendar",
+        "Community information",
+        "Business networking",
+        "Visitor information",
+        "Event sponsorship opportunities",
+        "Community-event coordination"
+      ],
+      "good_to_know": [
+        "The Chamber's official mailing address is PO Box 117, Leonard, TX 75452.",
+        "Monthly Chamber meetings are open to the public and normally occur on the second Tuesday of each month from noon to 1:00 PM.",
+        "Monthly meeting locations rotate, so the Chamber calendar should be checked before attending.",
+        "The Chamber coordinates the annual Leonard Picnic with community volunteers.",
+        "Other recurring Chamber-produced activities include an Easter Egg Hunt, Halloween on the Square and the annual community Banquet.",
+        "The 147th Annual Leonard Picnic was held July 9-12, 2026.",
+        "The 2026 Halloween on the Square is scheduled for October 31 from 2:00 PM to 7:00 PM.",
+        "The Chamber works with the City of Leonard, Leonard ISD and area businesses on community promotion and programming."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Bonham Area Chamber of Commerce",
+        "Honey Grove Chamber of Commerce"
+      ],
+      "related_geography": [
+        "Leonard",
+        "Fannin County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current first-party Leonard Chamber of Commerce sources. Official sources confirm the PO Box 117 mailing address, info@leonardchamber.com email, public business directory and event calendar, monthly second-Tuesday Chamber meetings and direct Chamber coordination of the Leonard Picnic, Easter Egg Hunt, Halloween on the Square and annual community Banquet. Current first-party event pages confirm the 147th Annual Leonard Picnic held July 9-12, 2026 and 2026 Halloween on the Square scheduled for October 31. No dependable current public office address, regular office hours or general-purpose Chamber phone number were asserted.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Community festivals",
+        "Leonard Picnic",
+        "Halloween events",
+        "Easter events",
+        "Community banquets",
+        "Chamber meetings",
+        "Business networking",
+        "Parades",
+        "Live music events",
+        "Vendor markets",
+        "Car shows",
+        "Family events"
+      ],
+      "event_sources": [
+        "Leonard Chamber of Commerce event calendar",
+        "Leonard Chamber of Commerce official website",
+        "Leonard Chamber of Commerce news pages",
+        "Leonard Chamber of Commerce Facebook"
+      ],
+      "features": [
+        "Annual Leonard Picnic coordinator",
+        "Halloween on the Square organizer",
+        "Easter Egg Hunt organizer",
+        "Public monthly Chamber meetings",
+        "Business directory",
+        "Community event calendar",
+        "Business networking",
+        "Visitor and community information"
       ]
     }
   ]
