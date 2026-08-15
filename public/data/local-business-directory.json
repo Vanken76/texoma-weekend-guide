@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 871,
-  "publish_ready_count": 546,
+  "business_count": 872,
+  "publish_ready_count": 547,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -86659,6 +86659,123 @@
         "Business promotion",
         "Community festival programming",
         "Sponsorship opportunities"
+      ]
+    },
+    {
+      "slug": "collinsville-area-chamber-of-commerce",
+      "business_name": "Collinsville Area Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Collinsville, TX 76233 — serving businesses and residents in Collinsville and the immediate surrounding area; official mailing address PO Box 65",
+      "category": [
+        "Chamber of Commerce",
+        "Business Organization",
+        "Community Organization"
+      ],
+      "tags": [
+        "Collinsville",
+        "Grayson County",
+        "Chamber of Commerce",
+        "Community Events",
+        "Pioneer Day",
+        "Christmas on the Square",
+        "Easter Egg Hunt",
+        "Ribbon Cuttings",
+        "Business Development",
+        "Downtown Collinsville"
+      ],
+      "description": "The Collinsville Area Chamber of Commerce is a nonprofit business and community organization serving Collinsville, Texas and the immediate surrounding area. The Chamber promotes local business interests, commercial and economic development, community improvement and cooperation while supporting recurring community celebrations, business activities and local events.",
+      "why_visit": "A useful source for Collinsville business information, community events, local celebrations, ribbon cuttings and recurring Chamber activities.",
+      "why_its_unique": "The Chamber plays a hands-on role in several of Collinsville's signature community traditions, working alongside local economic-development organizations, businesses and volunteers to support festivals, holiday activities and local-business growth.",
+      "phone": "903-429-3200",
+      "email": null,
+      "website": "http://www.collinsvilletxchamber.org",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No dependable current public office hours were identified. The City lists PO Box 65 as the Chamber's official address rather than a regular staffed office location. Contact the Chamber before attempting a time-sensitive in-person visit.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Business resources",
+        "Community event information",
+        "Business promotion",
+        "Ribbon-cutting support",
+        "Community networking"
+      ],
+      "good_to_know": [
+        "The Chamber's official mailing address is PO Box 65, Collinsville, TX 76233.",
+        "The City of Collinsville currently lists the Chamber phone number as 903-429-3200.",
+        "Recurring event-mining targets include Pioneer Day Celebration, Christmas on the Square, the community Easter Egg Hunt and new-business ribbon cuttings.",
+        "The current City event calendar lists Chamber meetings at 6:30 PM on August 26, September 23, October 28 and November 25, 2026.",
+        "An older Collinsville EDC Chamber description says meetings occur on the fourth Thursday at the Annex Building, 109 N Main Street, while the current City calendar places upcoming meetings on Wednesdays; use the current calendar when mining specific meeting dates.",
+        "The Chamber works alongside Collinsville economic-development organizations and local businesses on community programming.",
+        "The official Chamber website domain remains listed by the City of Collinsville, although the site itself was not reliably reachable during the August 15, 2026 verification."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Collinsville",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Current City of Collinsville and Collinsville economic-development sources confirm the Collinsville Area Chamber of Commerce, PO Box 65 mailing address, 903-429-3200 phone number, business-development and community-improvement role, recurring Chamber meetings and involvement with Pioneer Day Celebration, Christmas on the Square, Easter Egg Hunt and ribbon cuttings. The City continues to list collinsvilletxchamber.org as the Chamber website, although the site itself was not reliably reachable during verification. An older EDC page describes meetings on the fourth Thursday, while the current City calendar lists upcoming 2026 meetings on Wednesdays; TWG should use current calendar dates rather than infer a fixed weekday.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Community festivals",
+        "Pioneer Day celebrations",
+        "Christmas events",
+        "Easter events",
+        "Ribbon cuttings",
+        "Chamber meetings",
+        "Business events",
+        "Downtown events",
+        "Community gatherings"
+      ],
+      "event_sources": [
+        "City of Collinsville event calendar",
+        "Collinsville Economic Development Corporation community resources",
+        "City of Collinsville community information"
+      ],
+      "features": [
+        "Local business organization",
+        "Community event support",
+        "Pioneer Day programming",
+        "Christmas on the Square programming",
+        "Easter Egg Hunt support",
+        "Ribbon cuttings",
+        "Economic-development advocacy",
+        "Community improvement"
       ]
     }
   ]
