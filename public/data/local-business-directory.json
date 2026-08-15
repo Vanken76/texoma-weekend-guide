@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 799,
-  "publish_ready_count": 474,
+  "business_count": 800,
+  "publish_ready_count": 475,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -76849,6 +76849,131 @@
         "Catered meal options",
         "North Texas countryside setting",
         "Near Turtle Hill Golf Course"
+      ]
+    },
+    {
+      "slug": "turtle-hill-golf-course",
+      "business_name": "Turtle Hill Golf Course",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "7708 N FM 373, Muenster, TX 76252",
+      "category": [
+        "Golf Course",
+        "Outdoor Recreation",
+        "Sports & Recreation",
+        "Event Venue"
+      ],
+      "tags": [
+        "Turtle Hill Golf Course",
+        "Muenster",
+        "Cooke County",
+        "Golf",
+        "18-Hole Golf Course",
+        "Public Golf Course",
+        "Golf Tournaments",
+        "Golf Outings",
+        "Practice Range",
+        "Pro Shop",
+        "Bentgrass Greens",
+        "North Texas Golf"
+      ],
+      "description": "Turtle Hill Golf Course is a scenic 18-hole public golf course just north of Muenster featuring rolling North Texas terrain, picturesque views and bentgrass greens. The course welcomes golfers of varying skill levels and also hosts tournaments, charity events, business outings, church groups and private golf gatherings.",
+      "why_visit": "Turtle Hill offers a relaxed North Texas golf experience close to Muenster's German dining, lodging and attractions. Golfers can play a full 18-hole round, warm up on the practice range, browse the pro shop and grab snacks or locally made German sausage at the course.",
+      "why_its_unique": "Turtle Hill's signature par-3 measures 204 yards from the card but features an approximately 120-foot elevation drop from tee to green, creating one of the course's most memorable views. From the elevated tee area, the course says golfers can see toward the Oklahoma border.",
+      "phone": "940-759-4896",
+      "email": null,
+      "website": "https://playtheturtle.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Regular operating hours are not published on the official website. Tee times and current availability should be confirmed directly with the course.",
+      "at_a_glance": {
+        "average_visit": "Approximately 4 hours for 18 holes",
+        "price_range": "$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "18-hole golf course",
+        "Bentgrass greens",
+        "Golf carts",
+        "Practice range",
+        "Pro shop",
+        "Golf merchandise",
+        "Food and snacks",
+        "Locally made German sausage",
+        "Tournament and outing coordination",
+        "Online tee-time booking"
+      ],
+      "good_to_know": [
+        "Current weekday 18-hole rate with one-half cart is $40 before tax.",
+        "Current Friday-Sunday and holiday 18-hole rate with one-half cart is $50 before tax.",
+        "Twilight pricing begins after 2:30 PM.",
+        "Senior pricing applies at age 62 and older.",
+        "Junior pricing applies to golfers age 15 and younger.",
+        "Rates are subject to change.",
+        "The course specializes in smaller golf outings but can accommodate tournaments of up to 140 players.",
+        "The current official events calendar shows no upcoming public events.",
+        "Turtle Hill Lodge & Conference Center is located nearby and can support overnight golf getaways and group retreats."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium-high",
+      "parent_business": null,
+      "related_businesses": [
+        "turtle-hill-lodge-conference-center"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository and public-site searches found no existing Turtle Hill Golf Course record. The official Turtle Hill Golf Course website confirms the course at 7708 N FM 373, Muenster, TX 76252 with phone 940-759-4896. Official course information describes an 18-hole North Texas layout with rolling terrain, bentgrass greens and a signature 204-yard par-3 featuring an approximately 120-foot elevation drop. Official facilities information confirms a pro shop, practice range and food service including locally made German sausage from Muenster. Current published rates list 18 holes with one-half cart at $40 Monday-Thursday and $50 Friday-Sunday/holidays before tax, along with twilight, nine-hole, walking, senior and junior rates. The official tournament page confirms golf outings for businesses, civic groups, churches, reunions, charity events and other groups and states that the facility can accommodate events of up to 140 players. The current public event calendar lists no upcoming events, so no event record is inferred.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Golf tournaments",
+        "Charity golf events",
+        "Corporate golf outings",
+        "Church outings",
+        "Family reunion golf outings",
+        "Private group golf events"
+      ],
+      "event_sources": [
+        "Turtle Hill Golf Course official website",
+        "Turtle Hill Golf Course events calendar",
+        "Muenster Chamber of Commerce"
+      ],
+      "features": [
+        "18-hole public golf course",
+        "Bentgrass greens",
+        "Scenic rolling terrain",
+        "Signature elevated par-3",
+        "Practice range",
+        "Pro shop",
+        "Tournament hosting up to 140 players",
+        "Adjacent lodging and conference-center option"
       ]
     }
   ]
