@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 872,
-  "publish_ready_count": 547,
+  "business_count": 873,
+  "publish_ready_count": 548,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -86776,6 +86776,131 @@
         "Ribbon cuttings",
         "Economic-development advocacy",
         "Community improvement"
+      ]
+    },
+    {
+      "slug": "honey-grove-chamber-of-commerce",
+      "business_name": "Honey Grove Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Honey Grove, TX 75446 — serving Honey Grove and the surrounding Fannin County community; the Chamber currently has no physical public office",
+      "category": [
+        "Chamber of Commerce",
+        "Business Organization",
+        "Community Organization"
+      ],
+      "tags": [
+        "Honey Grove",
+        "Fannin County",
+        "Chamber of Commerce",
+        "Community Events",
+        "Davy Crockett Day",
+        "Farmers Market",
+        "Steaks in the Grove",
+        "Christmas on the Square",
+        "Business Networking",
+        "Ribbon Cuttings",
+        "Downtown Honey Grove"
+      ],
+      "description": "The Honey Grove Chamber of Commerce is a business and community organization supporting local businesses, residents and community development in Honey Grove, Texas. The Chamber promotes local commerce, builds business and community connections, maintains a member directory and produces or supports recurring festivals, markets, networking opportunities and community events.",
+      "why_visit": "A strong source for Honey Grove businesses, community events, downtown festivals, farmers markets, networking opportunities and local information.",
+      "why_its_unique": "The Chamber plays a direct role in several of Honey Grove's largest recurring community activities, including Davy Crockett Day, the Honey Grove Farmers Market and Steaks in the Grove, making it both a business organization and a productive source for local-event discovery.",
+      "phone": null,
+      "email": "info@honeygrovechamberofcommerce.com",
+      "website": "https://www.honeygrovechamberofcommerce.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The Chamber currently has no physical office. Its official contact page states that inquiries are handled by email or phone and meetings can be scheduled as needed. No dependable current general-purpose phone number or regular public office hours were published, so none were inferred.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Business directory",
+        "Community event calendar",
+        "Business promotion",
+        "Networking opportunities",
+        "Ribbon-cutting support",
+        "Farmers market program",
+        "Community-event sponsorship opportunities"
+      ],
+      "good_to_know": [
+        "The Chamber currently operates without a physical public office.",
+        "The Chamber maintains an active first-party event-registration and calendar system.",
+        "The Honey Grove Farmers Market runs recurring dates at the Pavilion on 82 and is administered through the Chamber.",
+        "The 32nd Annual Davy Crockett Day is scheduled for October 3, 2026 in historic downtown Honey Grove.",
+        "The Chamber reports that the previous Davy Crockett Day drew more than 120 vendors and 52 registered vehicles for its first car show.",
+        "The inaugural Steaks in the Grove steak cookoff is scheduled for November 7, 2026 and benefits the Crockett Park Playground Project.",
+        "The Chamber's membership materials also identify Christmas on the Square as a Chamber-supported community event.",
+        "Membership benefits include monthly meetups, community events, ribbon-cutting ceremonies, event sponsorships and business promotion."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Honey Grove",
+        "Fannin County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current first-party Honey Grove Chamber of Commerce sources. The Chamber's current website confirms its business-support and community mission, active member directory, community-event programming, public events calendar and info@honeygrovechamberofcommerce.com contact email. Current 2026 programming includes recurring Honey Grove Farmers Market dates, the 32nd Annual Davy Crockett Day on October 3 and Steaks in the Grove on November 7. The Chamber explicitly states that it does not currently maintain a physical office, so no street address or office hours were inferred.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Community festivals",
+        "Farmers markets",
+        "Davy Crockett Day",
+        "Food competitions",
+        "Car shows",
+        "Live music events",
+        "Christmas events",
+        "Business networking",
+        "Ribbon cuttings",
+        "Awards banquets",
+        "Community fundraisers"
+      ],
+      "event_sources": [
+        "Honey Grove Chamber of Commerce event calendar",
+        "Honey Grove Chamber of Commerce official website",
+        "Honey Grove Chamber of Commerce membership pages",
+        "Honey Grove Chamber of Commerce event-registration pages"
+      ],
+      "features": [
+        "Active community-event calendar",
+        "Davy Crockett Day organizer",
+        "Honey Grove Farmers Market administration",
+        "Steaks in the Grove organizer",
+        "Business directory",
+        "Business promotion",
+        "Ribbon-cutting support",
+        "Community networking",
+        "Downtown event programming"
       ]
     }
   ]
