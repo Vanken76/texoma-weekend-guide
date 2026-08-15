@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 850,
-  "publish_ready_count": 525,
+  "business_count": 851,
+  "publish_ready_count": 526,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -83976,6 +83976,105 @@
       "verification_note": "Verified August 15, 2026 using the current official Ardmore Dragway website, track-information page, contact information, current 2026 schedule, Explore Ardmore tourism information and NHRA South Central Division event records. Current first-party information confirms the 15793 US Highway 77 address, 580-504-0138 phone number, olcarrell@gmail.com email, racing history dating to 1954, NHRA affiliation, recurring specialty events and extensive track improvements. Explore Ardmore independently confirms the address, phone number and seasonal race-dependent hours. NHRA records confirm active sanctioned competition at Ardmore Dragway during the 2026 season.",
       "last_checked": "2026-08-15",
       "last_verified": "2026-08-15"
+    },
+    {
+      "slug": "gainesville-area-chamber-of-commerce",
+      "business_name": "Gainesville Area Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "311 S. Weaver, Gainesville, TX 76240",
+      "category": [
+        "Chamber of Commerce",
+        "Community Organization",
+        "Visitor Information"
+      ],
+      "tags": [
+        "Gainesville",
+        "Community Events",
+        "Business Networking",
+        "Visitor Information",
+        "Festivals",
+        "Parades"
+      ],
+      "description": "The Gainesville Area Chamber of Commerce is a business and community organization serving Gainesville, Texas. It supports local businesses, provides resident and visitor resources, maintains public event information, and organizes or helps present chamber programs and major community events including Depot Day, Scare on the Square, the annual Christmas Parade, networking programs, and other Gainesville gatherings.",
+      "why_visit": "A useful first stop for Gainesville visitor information, local business connections, community resources, and a current look at chamber-led events and festivals.",
+      "why_its_unique": "The Chamber combines business support and visitor information with a strong event pipeline that includes recurring networking programs and signature Gainesville community events.",
+      "phone": "940-665-2831",
+      "email": "info@gainesvillecofc.com",
+      "website": "https://gainesvillecofc.com/",
+      "facebook": "https://www.facebook.com/GainesvilleAreaChamberofCommerce",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "8:00 AM - 5:00 PM",
+        "tuesday": "8:00 AM - 5:00 PM",
+        "wednesday": "8:00 AM - 5:00 PM",
+        "thursday": "8:00 AM - 5:00 PM",
+        "friday": "8:00 AM - 5:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Regular office hours published in the Chamber's official business directory. Event schedules and holiday closures may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "The Chamber maintains public event and visitor information on its official website.",
+        "Many Chamber-produced events take place at venues elsewhere in Gainesville rather than at the Chamber office."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Official Chamber sources confirm the Gainesville office, contact information, weekday office hours, visitor resources, recurring programs, and signature community events. Monitor the official website, event calendar, and Facebook page.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Business networking",
+        "Community festivals",
+        "Parades",
+        "Awards and banquets",
+        "Golf tournaments",
+        "Community events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Chamber events calendar",
+        "Official Facebook page"
+      ],
+      "features": [
+        "Public events calendar",
+        "Visitor information",
+        "Business directory",
+        "Community event organizer"
+      ]
     }
   ]
 }
