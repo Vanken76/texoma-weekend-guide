@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 868,
-  "publish_ready_count": 543,
+  "business_count": 869,
+  "publish_ready_count": 544,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -86288,6 +86288,123 @@
         "Ribbon-cutting program",
         "Professional development",
         "Recurring Plug-In Texoma networking"
+      ]
+    },
+    {
+      "slug": "howe-area-chamber-of-commerce",
+      "business_name": "Howe Area Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Howe, TX 75459 — serving businesses and the community throughout the Howe area",
+      "category": [
+        "Chamber of Commerce",
+        "Business Organization",
+        "Community Organization"
+      ],
+      "tags": [
+        "Howe",
+        "Grayson County",
+        "Chamber of Commerce",
+        "Community Events",
+        "Business Networking",
+        "Founders Day",
+        "Howe-lloween",
+        "Howe Hump Day",
+        "Downtown Howe",
+        "Shop Local"
+      ],
+      "description": "The Howe Area Chamber of Commerce is a business and community organization serving Howe, Texas. The Chamber works to advance the commercial, industrial, civic and general interests of the city while promoting local-business growth through community events, networking, gatherings and shop-local initiatives. It also organizes several of Howe's signature recurring community celebrations.",
+      "why_visit": "A useful source for Howe businesses, community events, networking opportunities, downtown celebrations and local information.",
+      "why_its_unique": "The Chamber plays an unusually direct role in producing Howe's signature community events, including Founders Day and Downtown Howe-lloween, while also operating recurring business-networking and recognition programs.",
+      "phone": null,
+      "email": "info@howechamber.com",
+      "website": "https://www.howechamber.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The Chamber's current website publishes P.O. Box 250, Howe, TX 75459 and info@howechamber.com but does not provide dependable regular public office hours. Contact the Chamber before making a time-sensitive in-person visit.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Business directory",
+        "Community event calendar",
+        "Business networking",
+        "Shop-local promotion",
+        "Community information"
+      ],
+      "good_to_know": [
+        "The Chamber's official mailing address is P.O. Box 250, Howe, TX 75459.",
+        "The Chamber directly organizes the annual Howe Founders Day Festival in Downtown Howe.",
+        "The 41st Annual Founders Day Festival is already scheduled for May 1, 2027.",
+        "Downtown Howe-lloween is another long-running Chamber-produced community festival.",
+        "Howe Hump Day provides recurring business-networking opportunities.",
+        "The Chamber also operates the Howe Hall of Honor and annual community/business recognition program.",
+        "A current dependable general Chamber phone number and regular walk-in office schedule were not asserted because the current Chamber site prominently publishes its email and mailing address instead."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Howe",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Current first-party Howe Area Chamber of Commerce sources confirm the organization, P.O. Box 250 mailing address, info@howechamber.com email, community and business-development mission, public event/calendar functions and recurring event production. Verified recurring programs include the Howe Founders Day Festival, Downtown Howe-lloween, Howe Hump Day and Howe Hall of Honor. The Chamber has already announced May 1, 2027 for the 41st Annual Founders Day Festival. A dependable current general-purpose Chamber phone number and regular public office-hours schedule were not asserted.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Community festivals",
+        "Founders Day celebrations",
+        "Halloween events",
+        "Business networking",
+        "Business breakfasts",
+        "Community awards",
+        "Business recognition events",
+        "Downtown events",
+        "Vendor markets",
+        "Family events"
+      ],
+      "event_sources": [
+        "Howe Area Chamber of Commerce event calendar",
+        "Howe Area Chamber of Commerce official website",
+        "Howe Area Chamber of Commerce event pages"
+      ],
+      "features": [
+        "Annual Founders Day organizer",
+        "Downtown Howe-lloween organizer",
+        "Business networking",
+        "Community event calendar",
+        "Howe Hall of Honor",
+        "Shop-local promotion",
+        "Business directory"
       ]
     }
   ]
