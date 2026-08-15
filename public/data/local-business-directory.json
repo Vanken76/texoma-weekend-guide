@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 910,
-  "publish_ready_count": 585,
+  "business_count": 911,
+  "publish_ready_count": 586,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -91767,6 +91767,147 @@
         "Leashed-dog access",
         "Waterloo Lake trail connections",
         "Railroad heritage interpretation"
+      ]
+    },
+    {
+      "slug": "munson-north-baseball-field",
+      "business_name": "Munson North Baseball Field",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1501 N Austin Ave, Denison, TX 75020",
+      "category": [
+        "Baseball Field",
+        "Sports & Recreation",
+        "Athletic Facility",
+        "Event Venue"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "Baseball",
+        "Baseball Field",
+        "Youth Sports",
+        "Athletic Field",
+        "Lighted Field",
+        "Sports Practices",
+        "Baseball Games",
+        "Tournament Venue",
+        "Munson Park",
+        "Things to Do in Denison"
+      ],
+      "description": "Munson North Baseball Field is a reservable City of Denison baseball facility located within Munson Park at 1501 N Austin Avenue. The field supports athletic practices, organized games and tournament activity and is part of the larger 174-acre Munson Park recreation complex. Supporting park amenities include a batting cage, restrooms, drinking fountains, playground equipment and other outdoor recreation facilities. Reservations and field access are managed through Denison Parks & Recreation.",
+      "why_visit": "Munson North Baseball Field provides dedicated, lighted baseball space for practices, games and organized competition within one of Denison's largest recreation parks.",
+      "why_its_unique": "The field combines a reservable baseball facility with the broader recreation amenities of 174-acre Munson Park, allowing players and families access to trails, playgrounds, disc golf and other park activities in the same location.",
+      "phone": "903-465-2720",
+      "email": "parksandrec@denisontx.gov",
+      "website": "https://www.denisontx.gov/248/Athletic-Facility-Rentals",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "5:00 AM–11:00 PM",
+        "tuesday": "5:00 AM–11:00 PM",
+        "wednesday": "5:00 AM–11:00 PM",
+        "thursday": "5:00 AM–11:00 PM",
+        "friday": "5:00 AM–11:00 PM",
+        "saturday": "5:00 AM–11:00 PM",
+        "sunday": "5:00 AM–11:00 PM"
+      },
+      "hours_note": "Munson Park is currently open 5:00 AM-11:00 PM daily. Athletic-field use may be further limited by reservations, scheduled games, gate access and field conditions.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Reservable baseball field",
+        "Field lighting",
+        "Batting cage nearby",
+        "Restroom facilities",
+        "Drinking fountains",
+        "Playground nearby",
+        "Munson Park recreation amenities"
+      ],
+      "good_to_know": [
+        "Munson North Baseball Field is located at 1501 N Austin Ave in Denison.",
+        "The field is located within Munson Park.",
+        "The City of Denison separately lists Munson North Baseball Field as an athletic rental facility.",
+        "Denison athletic facilities may be rented for practices, games or tournaments.",
+        "The City's active RecDesk system classifies Munson Baseball North as a ball field and currently allows reservations.",
+        "Munson Park's official amenities list identifies its baseball field as lighted.",
+        "A batting cage is available within Munson Park.",
+        "Munson Park also provides restroom facilities and drinking fountains.",
+        "Munson Park's current general hours are 5:00 AM to 11:00 PM daily.",
+        "Field users should check Denison's Rainout Line each day for field-status updates.",
+        "New gate codes are issued weekly for scheduled practices.",
+        "Practices canceled by Denison Parks & Recreation or because of weather are rescheduled under the City's current policy rather than refunded.",
+        "Restrooms associated with reservable fields are currently scheduled to be winterized and closed beginning December 2.",
+        "Alcoholic beverages are not permitted in City of Denison parks and facilities under the City's general rental rules.",
+        "For Parks & Recreation assistance, contact 903-465-2720."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "munson-park",
+        "name": "Munson Park",
+        "relationship_note": "Munson North Baseball Field is a dedicated athletic facility within Munson Park."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Located in Denison, Texas."
+        }
+      ],
+      "verification_note": "Fully researched August 15, 2026 after manual TWG live-directory duplicate clearance. The current City of Denison Athletic Facility Rentals page separately identifies Munson North Baseball Field as a facility available for practices, games and tournaments. Denison's active RecDesk reservation system confirms Munson Baseball North at 1501 N Austin Ave, Denison, TX 75020, classifies it as a ball field and provides current reservation, gate-code, weather-rescheduling and Rainout Line procedures. The official Munson Park page identifies a lighted baseball field among the park's amenities along with a batting cage, restrooms, drinking fountains and playground equipment and lists current park hours as 5:00 AM-11:00 PM daily. Current field dimensions, spectator capacity, bleacher availability, concession availability, pet rules, comprehensive accessibility and a specific rental price were not sufficiently confirmed and therefore are not claimed.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Baseball practices",
+        "Baseball games",
+        "Baseball tournaments",
+        "Youth sports",
+        "Athletic field rentals"
+      ],
+      "event_sources": [
+        "City of Denison Parks & Recreation",
+        "Denison Parks & Recreation RecDesk",
+        "Denison Parks & Recreation athletic facility rentals"
+      ],
+      "features": [
+        "Dedicated baseball field",
+        "Lighted field",
+        "Individual field reservations",
+        "Practice venue",
+        "Game venue",
+        "Tournament-capable athletic facility",
+        "Munson Park location",
+        "Nearby batting cage"
       ]
     }
   ]
