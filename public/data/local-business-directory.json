@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 888,
-  "publish_ready_count": 563,
+  "business_count": 889,
+  "publish_ready_count": 564,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -88895,6 +88895,149 @@
         "Arts advocacy",
         "Arts-based tourism",
         "Cultural organization partnerships"
+      ]
+    },
+    {
+      "slug": "sherman-parks-recreation",
+      "business_name": "Sherman Parks & Recreation",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1002 N Music St, Sherman, TX 75090 — managing parks, recreation facilities, programs and special events throughout Sherman",
+      "category": [
+        "Parks & Recreation",
+        "Community Organization",
+        "Recreation Programs",
+        "Event Producer"
+      ],
+      "tags": [
+        "Sherman",
+        "Grayson County",
+        "Parks and Recreation",
+        "Community Events",
+        "Family Activities",
+        "Youth Programs",
+        "Adult Recreation",
+        "Aquatics",
+        "Special Events",
+        "Park Rentals",
+        "Facility Rentals",
+        "Sports"
+      ],
+      "description": "Sherman Parks & Recreation is the City of Sherman department responsible for community recreation programming, parks, recreational facilities, athletics, aquatics, facility reservations and a busy schedule of public events. The department manages parks and recreation spaces throughout Sherman while offering activities and special events for children, families, adults and seniors.",
+      "why_visit": "A central source for discovering Sherman parks, recreation programs, family activities, sports, aquatic programs, facility rentals and city-produced special events.",
+      "why_its_unique": "Sherman Parks & Recreation connects a large network of city parks and facilities with year-round recreation and special-event programming, making it one of the most important recurring event sources in Sherman.",
+      "phone": "903-892-7344",
+      "email": null,
+      "website": "https://shermanparks.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "8:00 AM-5:00 PM",
+        "tuesday": "8:00 AM-5:00 PM",
+        "wednesday": "8:00 AM-5:00 PM",
+        "thursday": "8:00 AM-5:00 PM",
+        "friday": "8:00 AM-5:00 PM"
+      },
+      "hours_note": "The City currently directs park and athletic-field reservations to the Parks & Recreation office at 1002 N Music St Monday-Friday from 8:00 AM to 5:00 PM. Individual parks, facilities, programs and events operate on their own schedules.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Park and facility reservations",
+        "Athletic-field reservations",
+        "Recreation program registration",
+        "Youth activities",
+        "Adult athletics",
+        "Aquatic programming",
+        "Swim lessons",
+        "Special events",
+        "Community event calendar",
+        "Special-event permitting",
+        "Volunteer opportunities"
+      ],
+      "good_to_know": [
+        "The Parks & Recreation office is located at 1002 N Music St in Sherman.",
+        "The department's current phone number is 903-892-7344.",
+        "The official Sherman Parks & Recreation website maintains its own active events calendar.",
+        "Sherman Parks & Recreation currently manages 16 parks and multiple recreation facilities.",
+        "Current 2026 programming has included the Father Daughter Dance, Adaptive Egg Hunt, Eggstravaganza and Touch-A-Truck.",
+        "Summer programming includes activities at The Splash Family Aquatic Center, including special themed pool events.",
+        "The department manages park, pavilion, athletic-field and facility reservations.",
+        "Sherman Parks & Recreation administers the City's special-event permit process for qualifying events held on department property.",
+        "Special events on City park property can include festivals, parades, runs, concerts, car shows, fundraisers and cultural celebrations."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Sherman Tourism/Main Street",
+        "Sherman Cultural District"
+      ],
+      "related_geography": [
+        "Sherman",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current first-party City of Sherman and Sherman Parks & Recreation sources. Current City records confirm the department office at 1002 N Music St, 903-892-7344 phone number and direct connection to shermanparks.com. Current Parks & Recreation sources confirm an active 2026 event calendar, management of 16 parks and multiple facilities, recreation registration, park and athletic-field reservations, aquatic programming and special-event administration. Current 2026 events include the Father Daughter Dance, Adaptive Egg Hunt, Eggstravaganza, Touch-A-Truck and multiple seasonal aquatic events. No dependable general department email was asserted.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Family events",
+        "Children's activities",
+        "Holiday events",
+        "Egg hunts",
+        "Touch-A-Truck events",
+        "Aquatic events",
+        "Sports programs",
+        "Swim lessons",
+        "Recreation classes",
+        "Community festivals",
+        "Runs and walks",
+        "Outdoor events",
+        "Special events"
+      ],
+      "event_sources": [
+        "Sherman Parks & Recreation official event calendar",
+        "Sherman Parks & Recreation website",
+        "City of Sherman Parks & Recreation pages",
+        "City of Sherman announcements"
+      ],
+      "features": [
+        "Active year-round event calendar",
+        "City park network",
+        "Recreation programming",
+        "Family and youth activities",
+        "Adult athletics",
+        "Aquatic programming",
+        "Facility and athletic-field rentals",
+        "Special-event permitting",
+        "Community recreation services"
       ]
     }
   ]
