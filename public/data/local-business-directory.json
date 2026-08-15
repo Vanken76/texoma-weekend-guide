@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 882,
-  "publish_ready_count": 557,
+  "business_count": 883,
+  "publish_ready_count": 558,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -88032,6 +88032,150 @@
         "Grills",
         "Community gathering space",
         "City-operated park"
+      ]
+    },
+    {
+      "slug": "gunter-library-community-resource-center",
+      "business_name": "Gunter Library & Community Resource Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "110 S Hwy 289, Suite 4, Gunter, TX 75058",
+      "category": [
+        "Community Library",
+        "Community Resource",
+        "Family Activities",
+        "Educational Attraction",
+        "Event Venue"
+      ],
+      "tags": [
+        "Gunter",
+        "Grayson County",
+        "Library",
+        "Community Resource Center",
+        "Storytime",
+        "Summer Reading",
+        "Book Club",
+        "Senior Bingo",
+        "Family Activities",
+        "Children's Programs",
+        "Community Events",
+        "Volunteer Organization"
+      ],
+      "description": "Gunter Library & Community Resource Center is a nonprofit, volunteer-operated community library serving Gunter and the surrounding area. In addition to books and library resources, it maintains an active calendar of children's, adult and community programming including weekly storytimes, monthly book club and senior bingo gatherings, summer reading activities, holiday programs and other educational and community events.",
+      "why_visit": "A welcoming community resource for books, children's activities, reading programs, social gatherings and a surprisingly active schedule of free or low-cost local events.",
+      "why_its_unique": "Unlike many small-town libraries, Gunter Library is an independent nonprofit operated by volunteers and functions as a busy community resource center with programming for children, adults, seniors and local organizations.",
+      "phone": "903-771-3066",
+      "email": "librarian@gunterlibrary.com",
+      "website": "https://gunterlibrary.com/",
+      "facebook": "https://www.facebook.com/GunterLibrary/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "1:00 PM-5:00 PM",
+        "tuesday": "1:00 PM-5:00 PM",
+        "wednesday": "1:00 PM-5:00 PM",
+        "thursday": "1:00 PM-5:00 PM",
+        "friday": "1:00 PM-5:00 PM",
+        "saturday": "10:00 AM-1:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current library hours are Monday-Friday 1:00 PM-5:00 PM, Saturday 10:00 AM-1:00 PM and Sunday closed. Scheduled programs may occur outside normal library hours.",
+      "at_a_glance": {
+        "average_visit": "30 minutes to 2 hours",
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Library collection",
+        "Children's collection",
+        "Storytime programs",
+        "Summer Reading Program",
+        "Book Club",
+        "Senior Bingo",
+        "Community meeting space",
+        "Children's crafts and activities",
+        "Volunteer opportunities",
+        "Community event calendar"
+      ],
+      "good_to_know": [
+        "The library opened in 2003 as Gunter Library & Museum.",
+        "The organization ceased hosting the museum in 2023 and now operates as Gunter Library, with its website using the Gunter Library & Community Resource Center identity.",
+        "The library is a 501(c)(3) nonprofit organization operated without paid employees and depends heavily on volunteers.",
+        "Storytime is normally held Tuesday mornings at 11:00 AM.",
+        "Senior Bingo is normally held on the first Thursday of each month.",
+        "The Adult Book Club normally meets on the fourth Thursday of each month.",
+        "Programs periodically include STEAM activities, craft sessions, movie nights, holiday events, summer reading challenges and author visits.",
+        "The library maintains its own active online events calendar.",
+        "A 2026 expansion effort is being supported by a BNSF Foundation operational grant."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Gunter Area Chamber of Commerce",
+        "Gunter City Park"
+      ],
+      "related_geography": [
+        "Gunter",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current first-party Gunter Library and City of Gunter sources. Current sources confirm the 110 S Hwy 289 Suite 4 location, 903-771-3066 phone number, librarian@gunterlibrary.com email, published weekly hours and active event calendar. The organization began as Gunter Library & Museum in 2003 but stopped hosting the museum in 2023; its current website identifies it as Gunter Library & Community Resource Center. Current programming includes weekly Storytime, monthly Senior Bingo, monthly Adult Book Club, summer reading activities, holiday programming and other community events.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Storytimes",
+        "Summer reading programs",
+        "Book clubs",
+        "Senior activities",
+        "Bingo",
+        "Children's activities",
+        "STEAM programs",
+        "Craft activities",
+        "Movie nights",
+        "Holiday events",
+        "Author visits",
+        "Community meetings",
+        "Family events"
+      ],
+      "event_sources": [
+        "Gunter Library official event calendar",
+        "Gunter Library programs page",
+        "Gunter Library Facebook"
+      ],
+      "features": [
+        "Volunteer-operated nonprofit library",
+        "Active year-round event calendar",
+        "Weekly children's Storytime",
+        "Monthly Senior Bingo",
+        "Monthly Adult Book Club",
+        "Summer Reading Program",
+        "Holiday programming",
+        "Children's educational activities",
+        "Community resource center"
       ]
     }
   ]
