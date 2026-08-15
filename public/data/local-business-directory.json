@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 911,
-  "publish_ready_count": 586,
+  "business_count": 912,
+  "publish_ready_count": 587,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -91908,6 +91908,155 @@
         "Tournament-capable athletic facility",
         "Munson Park location",
         "Nearby batting cage"
+      ]
+    },
+    {
+      "slug": "munson-south-field",
+      "business_name": "Munson South Field",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1501 N Austin Ave, Denison, TX 75020",
+      "category": [
+        "Multi-Use Athletic Field",
+        "Sports & Recreation",
+        "Athletic Facility",
+        "Event Venue"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "Munson Park",
+        "Multi-Use Field",
+        "Soccer",
+        "Athletic Field",
+        "Lighted Field",
+        "Backstop",
+        "Sports Practices",
+        "Games",
+        "Tournament Venue",
+        "Youth Sports",
+        "Outdoor Recreation",
+        "Things to Do in Denison"
+      ],
+      "description": "Munson South Field is a lighted multi-use athletic field within Munson Park in Denison. Designed to support several forms of organized recreation, the field includes soccer goals and a backstop along with bleachers and nearby restroom facilities. The City of Denison lists Munson South Field separately among its athletic facilities available for practices, games and tournaments, making it a flexible community sports venue within the larger 174-acre Munson Park recreation complex.",
+      "why_visit": "Munson South Field provides flexible outdoor space for soccer, field practices, games and other organized athletics within the larger Munson Park recreation area.",
+      "why_its_unique": "Unlike Munson North Baseball Field, Munson South is configured as a multi-use field, combining soccer goals and a backstop so the same space can support different types of athletic activity.",
+      "phone": "903-465-2720",
+      "email": "parksandrec@denisontx.gov",
+      "website": "https://www.denisontx.gov/248/Athletic-Facility-Rentals",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "5:00 AM–11:00 PM",
+        "tuesday": "5:00 AM–11:00 PM",
+        "wednesday": "5:00 AM–11:00 PM",
+        "thursday": "5:00 AM–11:00 PM",
+        "friday": "5:00 AM–11:00 PM",
+        "saturday": "5:00 AM–11:00 PM",
+        "sunday": "5:00 AM–11:00 PM"
+      },
+      "hours_note": "Munson Park is currently open from 5:00 AM to 11:00 PM daily. Use of Munson South Field may also depend on reservations, scheduled activities, field conditions and access requirements.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Lighted multi-use athletic field",
+        "Soccer goals",
+        "Backstop",
+        "Bleachers",
+        "Restroom facilities",
+        "Nearby drinking fountains",
+        "Nearby playground",
+        "Munson Park recreation amenities"
+      ],
+      "good_to_know": [
+        "Munson South Field is located within Munson Park at 1501 N Austin Ave in Denison.",
+        "The City of Denison lists Munson South Field separately from Munson North Baseball Field.",
+        "The field is configured for multi-use athletics rather than exclusively for baseball.",
+        "Soccer goals are provided.",
+        "A backstop is provided.",
+        "The field is lighted.",
+        "Bleachers are available.",
+        "Restroom facilities are available within the Munson Park complex.",
+        "The City currently lists Munson South Field among facilities available for practices, games and tournaments.",
+        "Denison recreation guidance notes that field-light access may require a gate code.",
+        "Munson Park is currently open from 5:00 AM to 11:00 PM daily.",
+        "Users should confirm field availability and weather-related status with Denison Parks & Recreation before scheduled activity.",
+        "For Parks & Recreation assistance, contact 903-465-2720.",
+        "For after-hours park issues, the City currently lists 903-647-0507."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "munson-park",
+        "name": "Munson Park",
+        "relationship_note": "Munson South Field is a dedicated multi-use athletic facility within Munson Park."
+      },
+      "related_businesses": [
+        {
+          "slug": "munson-north-baseball-field",
+          "name": "Munson North Baseball Field",
+          "relationship_note": "Separate dedicated athletic field within the same Munson Park complex."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Located in Denison, Texas."
+        }
+      ],
+      "verification_note": "Fully researched August 15, 2026 after manual TWG live-directory duplicate clearance. The current City of Denison Athletic Facility Rentals page separately identifies Munson South Field among athletic facilities available for practices, games and tournaments. City recreation materials identify Munson South Field at 1501 N Austin Ave and describe it as a lighted multi-use field with bleachers, restroom facilities, a backstop and soccer goals. The current Munson Park facility page independently confirms a lighted multi-use field within the 174-acre park and lists restroom facilities, drinking fountains and playground equipment, with current park hours of 5:00 AM-11:00 PM daily. Earlier City recreation guidance indicates residents may reserve Munson South Field for practices and that use of field lights requires a gate code; because current pricing was not clearly exposed on the City's active rental page, TWG does not publish a specific rental fee. Field dimensions, spectator capacity, concessions, pet rules and comprehensive accessibility were not sufficiently confirmed and remain unspecified.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Soccer practices",
+        "Soccer games",
+        "Athletic practices",
+        "Multi-use field games",
+        "Sports tournaments",
+        "Youth sports"
+      ],
+      "event_sources": [
+        "City of Denison Parks & Recreation",
+        "City of Denison Athletic Facility Rentals"
+      ],
+      "features": [
+        "Lighted multi-use field",
+        "Soccer goals",
+        "Backstop",
+        "Bleachers",
+        "Practice facility",
+        "Game venue",
+        "Tournament-capable facility",
+        "Munson Park location"
       ]
     }
   ]
