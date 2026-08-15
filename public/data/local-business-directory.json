@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 857,
-  "publish_ready_count": 532,
+  "business_count": 858,
+  "publish_ready_count": 533,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -84806,6 +84806,113 @@
         "Community event promotion",
         "Business networking",
         "Fannin County business resources"
+      ]
+    },
+    {
+      "slug": "bonham-visitor-information-center",
+      "business_name": "Bonham Visitor & Information Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Temporarily operating from 211 N. Main St., Bonham, TX 75418 during redevelopment of the longtime Visitor Center at 327 N. Main St.",
+      "category": [
+        "Visitor Information",
+        "Tourism Organization",
+        "Community Resource"
+      ],
+      "tags": [
+        "Bonham",
+        "Fannin County",
+        "Visitor Information",
+        "Tourism",
+        "Downtown Bonham",
+        "Things to Do",
+        "Local Events",
+        "Barn Quilt Trail",
+        "Texas History"
+      ],
+      "description": "The Bonham Visitor & Information Center is the City of Bonham's tourism and visitor-resource operation serving Bonham and surrounding Fannin County. It helps visitors and residents find local attractions, museums, events, restaurants, lodging, tours, maps and historical resources and provides information for exploring destinations throughout the area.",
+      "why_visit": "A useful starting point for planning a Bonham visit, finding local attractions and events, obtaining area maps and learning about destinations throughout Bonham and Fannin County.",
+      "why_its_unique": "The Visitor Center combines destination information with local-history resources and firsthand guidance for exploring Bonham, including access to information about the Fannin County Barn Quilt Trail and the area's museums, historic sites and community events.",
+      "phone": "903-583-9830",
+      "email": "info@visitbonham.com",
+      "website": "https://www.cityofbonham.org/257/Bonham-Visitor-Information-Center",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The longtime Visitor Center building at 327 N. Main St. closed April 3, 2026 for redevelopment. Tourism services temporarily relocated to 211 N. Main St. during construction. Current dependable walk-in hours for the temporary location were not clearly published, so call before visiting. The City anticipates reopening the renovated Visitor Center in 2027.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Tourism services are temporarily operating from 211 N. Main St. while the longtime Visitor Center at 327 N. Main St. is redeveloped.",
+        "The City expects the renovated Visitor Center to reopen in 2027.",
+        "Maps and information for the Fannin County Barn Quilt Trail are available through the Visitor Center.",
+        "The Visitor Center provides information about Bonham attractions, museums, lodging, restaurants, tours, history and community events.",
+        "The Bonham Area Chamber of Commerce is a separate organization even though it temporarily relocated with the Tourism Department during the Visitor Center redevelopment."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": "City of Bonham",
+      "related_businesses": [
+        "Bonham Area Chamber of Commerce",
+        "Fannin County Multipurpose Complex"
+      ],
+      "related_geography": [
+        "Bonham",
+        "Fannin County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Official City of Bonham tourism sources confirm the Bonham Visitor & Information Center, 903-583-9830 phone number, info@visitbonham.com email, visitor and tourism services, local event resources and longtime 327 N. Main St. location. A current April 2026 City/BEDCO redevelopment announcement confirms that the Visitor Center building closed April 3, 2026 and Tourism operations temporarily relocated to 211 N. Main St., with reopening of the transformed Visitor Center anticipated in 2027.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Community events",
+        "Tourism events",
+        "Downtown events",
+        "Festivals",
+        "Historic events",
+        "Local celebrations"
+      ],
+      "event_sources": [
+        "City of Bonham upcoming events calendar",
+        "City of Bonham tourism pages",
+        "Bonham Visitor Center news and announcements"
+      ],
+      "features": [
+        "Visitor information",
+        "Area maps",
+        "Tourism assistance",
+        "Local attraction information",
+        "Event information",
+        "Local history resources",
+        "Barn Quilt Trail information"
       ]
     }
   ]
