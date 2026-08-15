@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 877,
-  "publish_ready_count": 552,
+  "business_count": 878,
+  "publish_ready_count": 553,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -87426,6 +87426,127 @@
         "Wine Walk programming",
         "Holiday event support",
         "Local business resources"
+      ]
+    },
+    {
+      "slug": "gunter-area-chamber-of-commerce",
+      "business_name": "Gunter Area Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Gunter, TX 75058 — serving businesses and the community throughout the Gunter area; official mailing address PO Box 830",
+      "category": [
+        "Chamber of Commerce",
+        "Business Organization",
+        "Community Organization"
+      ],
+      "tags": [
+        "Gunter",
+        "Grayson County",
+        "Chamber of Commerce",
+        "Community Events",
+        "Fireworks in the Park",
+        "Fourth of July",
+        "Holiday Market",
+        "Business Networking",
+        "Local Business",
+        "Community Development"
+      ],
+      "description": "The Gunter Area Chamber of Commerce is a nonprofit business and community organization serving Gunter, Texas. The Chamber promotes local businesses and community connections while supporting recurring public events, business activities, local programs and community traditions in one of southern Grayson County's growing communities.",
+      "why_visit": "A useful resource for Gunter businesses, community activities, local events and connections within the Gunter area.",
+      "why_its_unique": "The Chamber combines local-business promotion with hands-on involvement in major Gunter community traditions, including the annual Fourth of July Fireworks in the Park celebration and seasonal market programming.",
+      "phone": "817-675-0345",
+      "email": null,
+      "website": "https://www.guntertxchamber.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The Chamber's official mailing address is PO Box 830, Gunter, TX 75058. Current public sources disagree on a physical Chamber location and no dependable regular walk-in office-hours schedule was identified, so TWG does not assert either.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Business promotion",
+        "Community event support",
+        "Business networking",
+        "Vendor opportunities",
+        "Community information"
+      ],
+      "good_to_know": [
+        "The organization's formal public name is Gunter Area Chamber of Commerce, although it is frequently shortened to Gunter Chamber of Commerce.",
+        "The official mailing address is PO Box 830, Gunter, TX 75058.",
+        "The City of Gunter directly links to the Chamber as a community organization.",
+        "Fireworks in the Park is a recurring Chamber-presented Fourth of July celebration at Gunter City Park.",
+        "The 2026 Fireworks in the Park celebration included live music, food, vendors, kids activities, a first-responder fundraiser and fireworks.",
+        "The Chamber is also associated with the recurring Gunter Holiday Market.",
+        "Gunter ISD lists a Gunter Chamber of Commerce scholarship for graduating students.",
+        "Current local-business data supports 817-675-0345 as the Chamber phone number, but public listings conflict on the Chamber's physical street address."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Sherman Chamber of Commerce",
+        "Van Alstyne Chamber of Commerce",
+        "Howe Area Chamber of Commerce"
+      ],
+      "related_geography": [
+        "Gunter",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current City of Gunter, U.S. Chamber, Gunter ISD, current local-business data and event sources. The City of Gunter directly links to the Chamber, while the U.S. Chamber directory confirms the Gunter Area Chamber of Commerce name, PO Box 830 mailing address and guntertxchamber.com website. Current and historical event sources establish the Chamber as presenter of the recurring Fireworks in the Park celebration, including the July 4, 2026 event. Current public sources conflict on a physical Chamber street address, and no dependable current general email or regular walk-in office-hours schedule was asserted.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Fourth of July celebrations",
+        "Fireworks events",
+        "Live music events",
+        "Vendor markets",
+        "Holiday markets",
+        "Family events",
+        "Business networking",
+        "Community events",
+        "Fundraisers"
+      ],
+      "event_sources": [
+        "Gunter Area Chamber of Commerce website",
+        "City of Gunter event calendar",
+        "Gunter Chamber event announcements",
+        "Gunter community event listings"
+      ],
+      "features": [
+        "Local business promotion",
+        "Fireworks in the Park presenter",
+        "Holiday Market programming",
+        "Community-event support",
+        "Business networking",
+        "Community partnerships"
       ]
     }
   ]
