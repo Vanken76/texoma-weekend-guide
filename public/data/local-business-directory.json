@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 803,
-  "publish_ready_count": 478,
+  "business_count": 804,
+  "publish_ready_count": 479,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -77378,6 +77378,133 @@
         "Playgrounds",
         "Central Muenster location",
         "Daily public access"
+      ]
+    },
+    {
+      "slug": "muenster-lake",
+      "business_name": "Muenster Lake",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "FM 316, approximately 3 miles west of Muenster, TX 76252",
+      "category": [
+        "Lake",
+        "Fishing",
+        "Boating",
+        "Outdoor Recreation",
+        "Kayaking"
+      ],
+      "tags": [
+        "Muenster Lake",
+        "Muenster",
+        "Cooke County",
+        "Fishing",
+        "Boating",
+        "Kayaking",
+        "Bass Fishing",
+        "Crappie Fishing",
+        "Catfish",
+        "Fishing Pier",
+        "Boat Ramp",
+        "Free Activities",
+        "Outdoor Recreation"
+      ],
+      "description": "Muenster Lake is a 309-acre reservoir just west of Muenster offering free, around-the-clock access for fishing, boating, kayaking and quiet time on the water. The city-maintained recreation area includes a public boat ramp, fishing pier, restrooms and parking for boat trailers.",
+      "why_visit": "Muenster Lake offers an easy outdoor escape only minutes from town. Visitors can fish from the pier, launch a boat or kayak, enjoy scenic shoreline views or catch a North Texas sunset without paying an entry fee.",
+      "why_its_unique": "The lake combines 24-hour free access with boating and fishing infrastructure close to downtown Muenster, including a two-lane ramp, accessible fishing spaces and managed fish habitat supporting bass, crappie and catfish.",
+      "phone": "940-759-2236",
+      "email": "info@cityofmuenstertx.org",
+      "website": "https://cityofmuenstertx.org/our-community/lake-tourism/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "hours_note": "The City of Muenster publishes 24/7 access for fishing and boating. No entry fee is required.",
+      "at_a_glance": {
+        "average_visit": "1-4+ hours",
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Two-lane concrete boat ramp",
+        "Parking for up to 39 boat trailers",
+        "T-head fishing pier",
+        "Wheelchair-accessible fishing spaces",
+        "Restrooms",
+        "Fishing access",
+        "Boating access",
+        "Kayak access",
+        "Managed fish habitat"
+      ],
+      "good_to_know": [
+        "The lake covers approximately 309 acres.",
+        "Entry is free.",
+        "Fishing and boating access is available 24 hours a day, seven days a week.",
+        "The public boat ramp has two concrete lanes.",
+        "Boat-trailer parking accommodates up to 39 trailers.",
+        "The fishing pier includes wheelchair-accessible spaces.",
+        "Bass, crappie and catfish are among the fish populations supported by managed habitat.",
+        "The City describes the lake as being just minutes from downtown Muenster on FM 316.",
+        "No precise street address is published by the City, so TWG should not invent one."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing Muenster Lake record. The current official City of Muenster Lake & Tourism page identifies Muenster Lake as a 309-acre reservoir just minutes from downtown on FM 316. The City confirms a two-lane concrete boat ramp with parking for up to 39 boat trailers, a T-head fishing pier with wheelchair-accessible spaces and restrooms, and free 24/7 fishing and boating access. The City also identifies kayaking as a recreational use and states that managed habitat supports bass, crappie and catfish. No precise street address, pet policy or separate lake-event schedule is published, so those details are not inferred.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Fishing tournaments",
+        "Outdoor recreation programs",
+        "Boating activities"
+      ],
+      "event_sources": [
+        "City of Muenster Lake & Tourism",
+        "City of Muenster Parks & Recreation"
+      ],
+      "features": [
+        "309-acre reservoir",
+        "Free 24/7 access",
+        "Public boat ramp",
+        "Accessible fishing pier",
+        "Bass, crappie and catfish",
+        "Kayaking",
+        "Scenic shoreline and sunsets"
       ]
     }
   ]
