@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 819,
-  "publish_ready_count": 494,
+  "business_count": 820,
+  "publish_ready_count": 495,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -79439,6 +79439,128 @@
         "Facials and tanning",
         "In-store coffee",
         "Wheelchair-accessible entrance and parking"
+      ]
+    },
+    {
+      "slug": "ricos-place-muenster",
+      "business_name": "Rico's Place",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "603 E Division St, Muenster, TX 76252",
+      "category": [
+        "Mexican Restaurant",
+        "Tex-Mex Restaurant",
+        "Restaurant",
+        "Local Dining"
+      ],
+      "tags": [
+        "Rico's Place",
+        "Muenster",
+        "Cooke County",
+        "Mexican Food",
+        "Tex-Mex",
+        "Street Tacos",
+        "Fajitas",
+        "Chips and Salsa",
+        "Lunch",
+        "Dinner",
+        "Local Restaurant"
+      ],
+      "description": "Rico's Place is a locally established Mexican and Tex-Mex restaurant on Highway 82 in Muenster serving lunch and dinner. The menu centers on familiar Mexican and Tex-Mex favorites including tacos, fajitas, chips and salsa and combination-style meals, with additional casual restaurant selections.",
+      "why_visit": "Rico's gives visitors another locally rooted dining option beyond Muenster's German-food specialties. Its Highway 82 location makes it an easy lunch or dinner stop while exploring town, shopping nearby or traveling through Cooke County.",
+      "why_its_unique": "Rico's broadens Muenster's dining mix with a dedicated Mexican and Tex-Mex option and is repeatedly recommended in current local visitor material for its salsa, thin chips and handmade street tacos.",
+      "phone": "940-759-2295",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/pages/category/Tex-Mex-Restaurant/Ricos-Place-516257835376293",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$-$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "sunday": "11:00 AM-3:00 PM",
+        "monday": "11:00 AM-9:00 PM",
+        "tuesday": "11:00 AM-9:00 PM",
+        "wednesday": "11:00 AM-9:00 PM",
+        "thursday": "11:00 AM-9:00 PM",
+        "friday": "11:00 AM-late evening",
+        "saturday": "11:00 AM-late evening"
+      },
+      "hours_note": "Current sources consistently show Monday-Thursday 11:00 AM-9:00 PM and Sunday 11:00 AM-3:00 PM. Current Friday-Saturday closing times conflict between 10:00 PM and midnight, so TWG does not assert an exact late-evening closing time.",
+      "at_a_glance": {
+        "average_visit": "45-90 minutes",
+        "price_range": "$-$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Dine-in",
+        "Takeout",
+        "Mexican cuisine",
+        "Tex-Mex cuisine",
+        "Street tacos",
+        "Fajitas",
+        "Chips and salsa",
+        "Lunch service",
+        "Dinner service",
+        "Parking"
+      ],
+      "good_to_know": [
+        "Rico's Place is located directly on East Division Street / Highway 82.",
+        "The Muenster Chamber currently lists Rico's Restaurant among the city's dining businesses.",
+        "Current restaurant listings classify Rico's as Mexican and Tex-Mex.",
+        "Lunch and dinner are served.",
+        "Current visitor material specifically highlights the salsa, thin chips and handmade street tacos.",
+        "Current sources consistently show an 11:00 AM opening seven days a week.",
+        "Sunday service currently ends around mid-afternoon.",
+        "Current sources disagree on Friday and Saturday closing time, ranging from 10:00 PM to midnight, so late diners should call ahead.",
+        "No reliable standalone official website was established; the business is linked online primarily through its Facebook presence and restaurant listings."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [
+        "muenster-antique-mall",
+        "rohmers-restaurant-muenster",
+        "bayers-kolonialwaren-bakery-muenster"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing Rico's Place record. The current Muenster Chamber of Commerce lists Rico's Restaurant among active Muenster dining businesses. Multiple current restaurant sources independently confirm Rico's Place at 603 E Division St, Muenster, TX 76252 with phone 940-759-2295 and Mexican/Tex-Mex cuisine. Current sources agree on Monday-Thursday 11:00 AM-9:00 PM and Sunday 11:00 AM-3:00 PM. Friday-Saturday closing times currently conflict between 10:00 PM and midnight, so TWG intentionally does not publish an unverified exact closing time for those nights. A current Muenster visitor guide specifically describes Rico's salsa, thin chips and handmade street tacos. No reliable standalone official website was established.",
+      "last_checked": "2026-08-14",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Local Mexican and Tex-Mex dining",
+        "Highway 82 location",
+        "Street tacos",
+        "Fajitas",
+        "Chips and salsa",
+        "Lunch and dinner",
+        "Seven-day service"
       ]
     }
   ]
