@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 895,
-  "publish_ready_count": 570,
+  "business_count": 896,
+  "publish_ready_count": 571,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -89820,6 +89820,115 @@
         "Tree Trail",
         "Picnic facilities",
         "Outdoor family programming"
+      ]
+    },
+    {
+      "slug": "loy-lake-park",
+      "business_name": "Loy Lake Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Hwy 75 at North Loy Lake Road, Denison, TX 75020",
+      "category": [
+        "Park",
+        "Outdoor Recreation",
+        "Nature Attraction",
+        "Event Venue"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "Family Activities",
+        "Fishing",
+        "Lake",
+        "Outdoor Recreation",
+        "Outdoor Events",
+        "Holiday Lights",
+        "Local History"
+      ],
+      "description": "Loy Lake Park is a large public recreation area southwest of Denison centered around a roughly 50-acre lake. The broader park spans approximately 200 acres and combines lakeside recreation, fishing, a floating dock and open outdoor space with significant local history. The site was developed in part through Civilian Conservation Corps work during the 1930s and remains an important community gathering place, including serving as the home of Grayson County's annual Holiday Lights display.",
+      "why_visit": "Loy Lake Park combines lake recreation, fishing, local history and seasonal community events in one of the larger public outdoor spaces near Denison.",
+      "why_its_unique": "The combination of roughly 200 acres of parkland, a sizable lake, Depression-era Civilian Conservation Corps history and the long-running Holiday Lights tradition gives Loy Lake Park a distinctive role in Grayson County.",
+      "phone": null,
+      "email": null,
+      "website": "https://discoverdenison.com/listing/loy-lake/159/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "A reliable source for fixed daily public park hours was not found. Check current Grayson County or Denison visitor information for temporary closures, special-event access or other time-sensitive restrictions before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Approximately 50-acre lake",
+        "160-foot floating dock",
+        "Fishing",
+        "Parking area",
+        "Open outdoor recreation grounds"
+      ],
+      "good_to_know": [
+        "Loy Lake Park is a large public site southwest of Denison, and individual attractions or events within the park may use their own entrances, schedules or access instructions.",
+        "The park entrance area is along US 75 at North Loy Lake Road.",
+        "Seasonal events such as Holiday Lights can change normal traffic and access patterns.",
+        "The park has significant local history associated with Civilian Conservation Corps improvements during the 1930s."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Located in Grayson County near Denison, Texas."
+        }
+      ],
+      "verification_note": "Current Discover Denison information confirms Loy Lake Park as an approximately 200-acre recreation area with a roughly 50-acre lake and floating dock. Grayson County sources confirm recurring community-event use through Holiday Lights, while county historical records document Civilian Conservation Corps development at the park. A dedicated park phone and fixed daily public hours were not reliably verified and are intentionally left conservative.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Holiday light displays",
+        "Community events",
+        "Outdoor events"
+      ],
+      "event_sources": [
+        "Grayson County event pages",
+        "Discover Denison"
+      ],
+      "features": [
+        "Approximately 200 acres of parkland",
+        "Roughly 50-acre lake",
+        "160-foot floating dock",
+        "Fishing",
+        "Civilian Conservation Corps history",
+        "Annual Holiday Lights",
+        "Outdoor community recreation"
       ]
     }
   ]
