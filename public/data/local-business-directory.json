@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 837,
-  "publish_ready_count": 512,
+  "business_count": 838,
+  "publish_ready_count": 513,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -81872,6 +81872,158 @@
         "Boat and trailer parking",
         "Indoor and outdoor games"
       ]
+    },
+    {
+      "slug": "jim-henderson-memorial-stadium",
+      "business_name": "Jim Henderson Memorial Stadium",
+      "alternate_names": [
+        "Jim Henderson Stadium"
+      ],
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Cardinal Ln, Pottsboro, TX 75076 — Pottsboro ISD stadium and home of Pottsboro Cardinals athletics",
+      "category": [
+        "Stadium",
+        "Football Stadium",
+        "Track & Field Venue",
+        "Sports Venue",
+        "School District Facility",
+        "Event Venue"
+      ],
+      "tags": [
+        "Pottsboro",
+        "Grayson County",
+        "Pottsboro Cardinals",
+        "Pottsboro ISD",
+        "High School Football",
+        "Football Stadium",
+        "Track",
+        "School Sports",
+        "Athletics",
+        "Sports Venue",
+        "Friday Night Football",
+        "Community Events"
+      ],
+      "description": "Jim Henderson Memorial Stadium is Pottsboro Independent School District's outdoor athletic stadium in Pottsboro and the home venue of the Pottsboro Cardinals. The approximately 3,000-seat facility features an artificial-turf football field surrounded by a running track and hosts recurring school athletics and sporting events throughout the academic year.",
+      "short_description": "Pottsboro ISD's approximately 3,000-seat football and track stadium, home of the Pottsboro Cardinals.",
+      "why_visit": "Jim Henderson Memorial Stadium is one of Pottsboro's primary community sports venues and the place to catch Cardinals football and other scheduled school athletic events.",
+      "why_its_unique": "The stadium is Pottsboro's dedicated Friday-night football venue and a recurring source of school sporting events, making it considerably more useful to TWG than a general school-campus listing.",
+      "address": "Cardinal Ln",
+      "address_line_2": null,
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "address_note": "Current map data identifies the stadium on Cardinal Ln without a street number. Pottsboro ISD lists the adjacent Middle School campus at 105 Cardinal Ln. Dedicated football-stadium references historically list 101 Hwy 120. TWG uses Cardinal Ln as the conservative current public locator rather than assigning a disputed street number.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-771-0083",
+      "phone_secondary": null,
+      "phone_note": "Pottsboro ISD district contact number; the stadium does not publish a separate dedicated public phone number.",
+      "email": null,
+      "website": "https://www.pottsboroisd.org/athletics",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": "/images/businesses/jim-henderson-memorial-stadium-logo.jpg",
+      "logo_alt": "Jim Henderson Memorial Stadium logo",
+      "price_range": "Varies by event",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The stadium is primarily open for scheduled Pottsboro ISD athletic contests, practices and authorized activities rather than regular public attraction hours. Check the current Pottsboro ISD athletics schedule before visiting.",
+      "at_a_glance": {
+        "average_visit": "Varies by athletic event",
+        "price_range": "Varies by event",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Artificial-turf football field",
+        "Running track",
+        "Stadium seating",
+        "Concessions during select events",
+        "Restrooms",
+        "Parking",
+        "Wheelchair-accessible entrance",
+        "Wheelchair-accessible seating",
+        "Wheelchair-accessible restroom"
+      ],
+      "good_to_know": [
+        "Jim Henderson Memorial Stadium is owned by Pottsboro Independent School District.",
+        "The stadium is the home field of the Pottsboro Cardinals.",
+        "Current football references place stadium capacity at approximately 3,000 spectators.",
+        "The playing surface is artificial turf.",
+        "A running track surrounds the football field.",
+        "The stadium underwent a major turf replacement project in 2021 after Pottsboro ISD approved new artificial turf.",
+        "Admission prices and gate procedures vary by event.",
+        "Pottsboro ISD publishes current athletic schedules through its official athletics website.",
+        "The venue is outdoors, so weather conditions can affect events.",
+        "Current mapping identifies the location on Cardinal Ln; older stadium references use 101 Hwy 120."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "High school football games",
+        "Junior varsity football games",
+        "Youth football games",
+        "Track and field events",
+        "School athletic events",
+        "Playoff games",
+        "Community sports events"
+      ],
+      "event_sources": [
+        "Pottsboro ISD Athletics",
+        "Pottsboro ISD event calendar",
+        "UIL athletics schedules"
+      ],
+      "features": [
+        "Approximately 3,000-seat stadium",
+        "Artificial-turf football field",
+        "Running track",
+        "Pottsboro Cardinals home venue",
+        "Recurring school athletics",
+        "Concessions and restrooms",
+        "Accessible seating"
+      ],
+      "ownership": {
+        "owner": "Pottsboro Independent School District",
+        "type": "public school district"
+      },
+      "parent_business": null,
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Jim Henderson Memorial Stadium is located in Pottsboro, Texas."
+        }
+      ],
+      "source_verified": true,
+      "verification_note": "Verified August 15, 2026 using the current Pottsboro ISD athletics and campus-contact pages, current local mapping data, current Texas football references and dedicated stadium information. The sources confirm Jim Henderson Memorial Stadium as the Pottsboro Cardinals' home stadium, Pottsboro ISD ownership, approximately 3,000-seat capacity, artificial playing surface and running track. Current maps identify the stadium on Cardinal Ln, while the adjacent Pottsboro Middle School is officially 105 Cardinal Ln and older dedicated stadium references use 101 Hwy 120. TWG therefore retains Cardinal Ln without inventing a disputed street number.",
+      "last_checked": "2026-08-15",
+      "last_verified": "2026-08-15"
     }
   ]
 }
