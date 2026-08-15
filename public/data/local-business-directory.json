@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 879,
-  "publish_ready_count": 554,
+  "business_count": 880,
+  "publish_ready_count": 555,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -87674,6 +87674,111 @@
         "Free Wi-Fi",
         "Printing and document services",
         "Volunteer opportunities"
+      ]
+    },
+    {
+      "slug": "bells-area-chamber-of-commerce",
+      "business_name": "Bells Area Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Bells, TX 75414 — serving businesses and the community in Bells and the surrounding Grayson County area",
+      "category": [
+        "Chamber of Commerce",
+        "Business Organization",
+        "Community Organization"
+      ],
+      "tags": [
+        "Bells",
+        "Grayson County",
+        "Chamber of Commerce",
+        "Business Networking",
+        "Business Promotion",
+        "Community Events",
+        "Local Business",
+        "Community Outreach"
+      ],
+      "description": "The Bells Area Chamber of Commerce is a nonprofit business and community organization serving Bells, Texas. Organized as a chamber of commerce, it supports local-business networking and promotion while helping connect businesses with community activities, special events and outreach opportunities.",
+      "why_visit": "A useful connection point for Bells-area businesses, networking, local-business promotion and community activities.",
+      "why_its_unique": "The Chamber provides a dedicated business-development and community-connection organization for the small but growing Bells area in eastern Grayson County.",
+      "phone": "714-328-9026",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No dependable current first-party office-hours schedule was identified. Current public sources also conflict on the Chamber's physical location, so contact the organization before attempting an in-person visit.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Business networking",
+        "Business promotion",
+        "Community outreach",
+        "Special-event promotion"
+      ],
+      "good_to_know": [
+        "The Bells Area Chamber of Commerce is a registered 501(c)(6) organization founded in 2022.",
+        "Current nonprofit records associate the Chamber with 203 S Broadway St in Bells.",
+        "A current local-business directory instead lists 107 E Park St and 714-328-9026.",
+        "Because current public sources conflict on the physical location, TWG should not assert a walk-in street address until a dependable first-party source resolves it.",
+        "FestivalNet currently classifies the Chamber as an event organizer and describes its work as business networking, business promotion, special events and outreach."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Bells",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete with documented contact limitations. Verified August 15, 2026 using current nonprofit, business-directory and event-organizer sources. The Bells Area Chamber of Commerce is an active 501(c)(6) chamber organization founded in 2022. Current sources support a business-networking, promotion, special-event and outreach role. Public sources conflict on the Chamber's physical street address: nonprofit records use 203 S Broadway St while a current local-business listing uses 107 E Park St and publishes 714-328-9026. No dependable current first-party website, general email, social profile or office-hours schedule was asserted.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Business networking",
+        "Community events",
+        "Business promotion events",
+        "Community outreach",
+        "Special events"
+      ],
+      "event_sources": [
+        "Bells Area Chamber of Commerce public event-organizer listings",
+        "Bells-area community announcements",
+        "Local business and community event listings"
+      ],
+      "features": [
+        "Registered chamber of commerce",
+        "Business networking",
+        "Local-business promotion",
+        "Community outreach",
+        "Special-event involvement"
       ]
     }
   ]
