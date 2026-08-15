@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 894,
-  "publish_ready_count": 569,
+  "business_count": 895,
+  "publish_ready_count": 570,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -89700,6 +89700,126 @@
         "Fishing",
         "Restrooms",
         "Major community-event site"
+      ]
+    },
+    {
+      "slug": "herman-baker-park",
+      "business_name": "Herman Baker Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "2500 W Center St, Sherman, TX 75092",
+      "category": [
+        "Park",
+        "Outdoor Recreation",
+        "Nature Attraction",
+        "Event Venue"
+      ],
+      "tags": [
+        "Sherman",
+        "Grayson County",
+        "Family Activities",
+        "Fishing",
+        "Hiking",
+        "Nature Trail",
+        "Kayaking",
+        "Paddleboarding",
+        "Picnicking",
+        "Lake",
+        "Outdoor Events"
+      ],
+      "description": "Herman Baker Park is an 83-acre community park in west Sherman centered around Pickens Lake. The park offers a natural setting with mature vegetation, wildlife, lakeside trails, fishing, picnicking and opportunities for paddling. A natural trail circles the lake, with an additional creek loop extending the walking route, and the park also includes a marked Tree Trail highlighting local tree species. Sherman Parks & Recreation uses Herman Baker Park for outdoor and family programming including campouts, fishing activities and guided nature events.",
+      "why_visit": "Herman Baker Park offers a quiet, nature-focused place for hiking, fishing, paddling and picnicking without leaving Sherman, while also serving as a setting for occasional family and outdoor programs.",
+      "why_its_unique": "The park's centerpiece is Pickens Lake, surrounded by mature vegetation and a natural trail system that gives the 83-acre city park a secluded outdoor feel despite its Sherman location.",
+      "phone": "903-892-7344",
+      "email": null,
+      "website": "https://shermanparks.com/parks-facilities/herman-baker-park/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Sherman Parks & Recreation does not publish specific daily public hours for Herman Baker Park. Check current Parks & Recreation information for temporary closures, weather restrictions or special-event access before making a time-sensitive visit.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "34-acre Pickens Lake",
+        "Natural trail system",
+        "Fishing",
+        "Picnic tables",
+        "Benches",
+        "Restrooms",
+        "Tree Trail",
+        "Kayak rentals",
+        "Paddleboard rentals"
+      ],
+      "good_to_know": [
+        "The park is located at 2500 W Center Street in west Sherman.",
+        "Sherman Parks & Recreation lists 19 picnic tables at the park.",
+        "The primary natural trail around the lake is approximately 1.5 miles, with an additional creek loop.",
+        "Kayaks and paddleboards may be rented through Sherman Parks & Recreation; reservations, availability and current rates should be checked before visiting.",
+        "For current park, program or facility information, contact Sherman Parks & Recreation at 903-892-7344."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Located in Sherman, Texas."
+        }
+      ],
+      "verification_note": "Official Sherman Parks & Recreation sources confirm the park location, lake, trail system, recreation amenities and outdoor programming. No fixed daily park hours are currently published, so visitors should check for temporary closures or program-specific access before a time-sensitive trip.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Family campouts",
+        "Fishing events",
+        "Nature hikes",
+        "Outdoor recreation programs",
+        "Community activities",
+        "Park programs"
+      ],
+      "event_sources": [
+        "Sherman Parks & Recreation website",
+        "Sherman Parks & Recreation event calendar"
+      ],
+      "features": [
+        "83-acre community park",
+        "Pickens Lake",
+        "Lakeside natural trails",
+        "Fishing",
+        "Kayaking and paddleboarding",
+        "Tree Trail",
+        "Picnic facilities",
+        "Outdoor family programming"
       ]
     }
   ]
