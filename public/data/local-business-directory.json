@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 811,
-  "publish_ready_count": 486,
+  "business_count": 812,
+  "publish_ready_count": 487,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -78378,6 +78378,146 @@
         "Exposed brick and historic windows",
         "Large group gathering space",
         "Convenient festival lodging"
+      ]
+    },
+    {
+      "slug": "docs-sports-grill-muenster",
+      "business_name": "Doc's Sports Grill",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "113 N Main St, Muenster, TX 76252",
+      "category": [
+        "Bar & Grill",
+        "Restaurant",
+        "Sports Bar",
+        "Live Entertainment",
+        "Event Venue"
+      ],
+      "tags": [
+        "Doc's Sports Grill",
+        "Muenster",
+        "Cooke County",
+        "Downtown Muenster",
+        "Burgers",
+        "Smash Burgers",
+        "Pizza",
+        "Wings",
+        "Sports Bar",
+        "Full Bar",
+        "Live Music",
+        "Karaoke",
+        "Outdoor Seating",
+        "Biergarten",
+        "Sports TVs"
+      ],
+      "description": "Doc's Sports Grill is a downtown Muenster sports bar and grill serving smash burgers, New York-style pizza, wings, sandwiches and other casual American fare alongside beer, cocktails and a full bar. The historic Main Street location also serves as a social and entertainment spot with sports viewing, outdoor seating and periodic live entertainment.",
+      "why_visit": "Doc's works equally well for a casual meal, drinks with friends or catching a game while exploring downtown Muenster. Its burgers, pizza and wings make it an easy group stop, while entertainment and outdoor gathering space give visitors a reason to stay into the evening.",
+      "why_its_unique": "Doc's occupies the historic Main Street building beneath Loft on 113, combining a small-town sports grill with a restored downtown setting, nightlife and lodging in the same property.",
+      "phone": "940-759-3627",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$-$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": "Outdoor areas may allow dogs; confirm current policy directly.",
+      "hours": {
+        "sunday": "11:30 AM-6:00 PM",
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "4:00 PM-8:00 PM",
+        "thursday": "4:00 PM-8:00 PM",
+        "friday": "11:00 AM-9:00 PM",
+        "saturday": "11:00 AM-9:00 PM"
+      },
+      "hours_note": "Current restaurant listings publish these dining hours. Entertainment or rear outdoor-bar activity may sometimes continue later than kitchen/front-of-house hours, so event-night schedules should be checked separately.",
+      "at_a_glance": {
+        "average_visit": "1-2 hours",
+        "price_range": "$-$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Full bar",
+        "Sports televisions",
+        "Outdoor seating",
+        "Biergarten-style outdoor area",
+        "Live entertainment",
+        "Karaoke",
+        "Takeout",
+        "Private dining room",
+        "Happy hour offerings",
+        "Family-friendly dining",
+        "Kids menu",
+        "Street parking"
+      ],
+      "good_to_know": [
+        "Doc's is located at 113 N Main Street in downtown Muenster.",
+        "The restaurant shares its historic Main Street property with Loft on 113 upstairs.",
+        "Smash burgers, New York-style pizza and wings are core menu specialties.",
+        "The restaurant has a full bar.",
+        "Sports viewing is a major part of the concept.",
+        "Current listings identify live music, live performances and karaoke among entertainment offerings.",
+        "Outdoor seating is available.",
+        "The restaurant is currently closed Mondays and Tuesdays.",
+        "Friday and Saturday restaurant hours currently run through 9:00 PM.",
+        "Entertainment schedules should be checked separately because they can extend beyond normal dining hours."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "loft-on-113-muenster"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing Doc's Sports Grill Muenster record. Current local-business data identifies Doc's Sports Grill at 113 N Main St, Muenster, TX 76252 with phone 940-759-3627 and current hours of Wednesday-Thursday 4:00-8:00 PM, Friday-Saturday 11:00 AM-9:00 PM, Sunday 11:30 AM-6:00 PM, and Monday-Tuesday closed. Current listings identify the business as a bar and grill offering burgers, pizza, wings, a full bar, outdoor seating, sports viewing, karaoke and live entertainment. A recent interview with owner Ricky Williams describes Doc's as a lifestyle sports grill built around smash burgers, New York-style pizza and wings. The current Loft on 113 lodging listing independently notes live music associated with the rear outdoor area on Friday and Saturday nights. Exact recurring performer schedules are not inferred and should be mined separately.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Live music",
+        "Karaoke",
+        "Sports watch parties",
+        "Weekend entertainment",
+        "Private gatherings"
+      ],
+      "event_sources": [
+        "Doc's Sports Grill Muenster social channels",
+        "Current local business listings"
+      ],
+      "features": [
+        "Downtown Main Street sports grill",
+        "Smash burgers",
+        "New York-style pizza",
+        "Wings",
+        "Full bar",
+        "Sports viewing",
+        "Live entertainment",
+        "Karaoke",
+        "Outdoor gathering area",
+        "Same historic property as Loft on 113"
       ]
     }
   ]
