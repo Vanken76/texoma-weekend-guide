@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 898,
-  "publish_ready_count": 573,
+  "business_count": 899,
+  "publish_ready_count": 574,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -90242,6 +90242,117 @@
         "Playground",
         "Rentable 72-person pavilion",
         "Tournament-capable disc golf facility"
+      ]
+    },
+    {
+      "slug": "george-hopkins-park",
+      "business_name": "George Hopkins Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "200 E Murray St, Denison, TX 75020",
+      "category": [
+        "Park",
+        "Outdoor Recreation",
+        "Family Attraction",
+        "Sports & Recreation"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "Neighborhood Park",
+        "Outdoor Recreation",
+        "Family Activities",
+        "Basketball",
+        "Playground",
+        "Picnicking",
+        "Things to Do in Denison"
+      ],
+      "description": "George Hopkins Park is a small neighborhood park in Denison offering an easy-access outdoor space for families, basketball players and casual recreation. The approximately 1.4-acre City of Denison park includes playground equipment, a basketball goal, a pavilion area, picnic tables and lighting. Its compact layout makes it a convenient option for neighborhood play, informal basketball, picnics and relaxed outdoor time without the scale or crowds of Denison's larger regional parks.",
+      "why_visit": "George Hopkins Park is a convenient neighborhood option for families looking for a playground, casual basketball or a simple place to picnic and spend time outdoors.",
+      "why_its_unique": "Rather than functioning as a destination-scale park, George Hopkins Park provides a compact community recreation space with several useful amenities concentrated into roughly 1.4 acres.",
+      "phone": "903-465-2720",
+      "email": "parksandrec@denisontx.gov",
+      "website": "https://www.denisontx.gov/500/Parks",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "A current George Hopkins Park-specific hours panel was not exposed in the City of Denison's indexed facility information during verification. Check the official City of Denison Parks & Recreation site for current park access rules or temporary closures.",
+      "at_a_glance": {
+        "average_visit": "30 minutes–2 hours",
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Approximately 1.4 acres",
+        "Playground equipment",
+        "Basketball goal",
+        "Pavilion area",
+        "Picnic tables",
+        "Park lighting",
+        "Open outdoor space"
+      ],
+      "good_to_know": [
+        "George Hopkins Park is located at 200 E Murray St in Denison.",
+        "The City of Denison recreation guide identifies the park as approximately 1.4 acres.",
+        "The park includes playground equipment.",
+        "A basketball goal is available for casual play.",
+        "The park includes a pavilion area and picnic tables.",
+        "Lighting is provided within the park.",
+        "George Hopkins Park is one of several City of Denison parks with public basketball facilities.",
+        "For questions about Denison parks, contact Parks & Recreation at 903-465-2720.",
+        "The City of Denison Parks & Recreation office is located at 321 W Main Street."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Located in Denison, Texas."
+        }
+      ],
+      "verification_note": "Fully researched August 15, 2026 after manual TWG live-directory duplicate clearance. Current City of Denison sources confirm George Hopkins Park as an active municipal park and basketball location at 200 E Murray in Denison. The City's recreation guide identifies the park as approximately 1.4 acres and lists a pavilion area, playground equipment, picnic tables, lights and a basketball goal. Parks & Recreation contact information remains 903-465-2720. No current evidence was found that the George Hopkins pavilion is an individually reservable city rental facility, so TWG does not classify the park as an event venue or active event-mining target.",
+      "last_checked": "2026-08-15",
+      "event_types": [],
+      "event_sources": [
+        "City of Denison Parks & Recreation"
+      ],
+      "features": [
+        "Approximately 1.4-acre neighborhood park",
+        "Playground equipment",
+        "Basketball",
+        "Pavilion area",
+        "Picnic tables",
+        "Park lighting",
+        "Neighborhood recreation"
       ]
     }
   ]
