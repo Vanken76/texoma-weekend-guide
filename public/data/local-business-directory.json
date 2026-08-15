@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 804,
-  "publish_ready_count": 479,
+  "business_count": 805,
+  "publish_ready_count": 480,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -77505,6 +77505,124 @@
         "Bass, crappie and catfish",
         "Kayaking",
         "Scenic shoreline and sunsets"
+      ]
+    },
+    {
+      "slug": "muenster-museum",
+      "business_name": "Ben and Aggie Fette Seyler Muenster Museum",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "420 N Main St, Muenster, TX 76252",
+      "category": [
+        "Museum",
+        "History Museum",
+        "Cultural Attraction",
+        "Things to Do"
+      ],
+      "tags": [
+        "Muenster Museum",
+        "Muenster",
+        "Cooke County",
+        "Local History",
+        "German Heritage",
+        "German-Catholic Heritage",
+        "Historic Exhibits",
+        "Genealogy",
+        "Free Admission",
+        "Family History"
+      ],
+      "description": "The Ben and Aggie Fette Seyler Muenster Museum preserves the history, traditions and everyday life of Muenster and the surrounding area. Housed in the former home of Ben and Aggie Seyler, the museum features household furnishings, clothing, photographs, tools, religious artifacts and other exhibits reflecting the community's German-Catholic heritage, farming, education, family life and faith traditions.",
+      "why_visit": "The museum offers a deeper look at how Muenster developed from a German-Catholic settlement into the community it is today. It is especially worthwhile for local-history fans, genealogy researchers and visitors interested in the German heritage still visible throughout Muenster.",
+      "why_its_unique": "Rather than focusing only on major historical events, the museum preserves objects and stories from everyday Muenster life, including home furnishings, clothing, tools, photographs and religious artifacts from generations of local families.",
+      "phone": "940-759-4788",
+      "email": null,
+      "website": "https://cityofmuenstertx.org/departments/museum/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "sunday": "Closed",
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "Closed",
+        "thursday": "Closed",
+        "friday": "1:00 PM-4:00 PM",
+        "saturday": "10:00 AM-3:00 PM"
+      },
+      "hours_note": "Admission is free; donations are welcome.",
+      "at_a_glance": {
+        "average_visit": "30-90 minutes",
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Local-history exhibits",
+        "Historic household furnishings",
+        "Historic clothing",
+        "Photograph collections",
+        "Historic tools",
+        "Religious artifacts",
+        "Genealogy and family-history resources",
+        "Free admission"
+      ],
+      "good_to_know": [
+        "Admission is free and donations are welcome.",
+        "The museum is open Friday from 1:00 PM to 4:00 PM and Saturday from 10:00 AM to 3:00 PM.",
+        "The museum occupies the former home of Ben and Aggie Seyler.",
+        "Exhibits cover family life, farming, education and faith traditions.",
+        "The museum preserves the history of Muenster's German-Catholic founders and later generations.",
+        "The organization was established in 1988 and relocated to its current site in 1999.",
+        "The museum can also be useful for visitors researching local genealogy."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing Muenster Museum record. The current official City of Muenster museum page identifies the Ben and Aggie Fette Seyler Muenster Museum at 420 N Main Street, Muenster, TX 76252, phone 940-759-4788. Official hours are Friday 1:00-4:00 PM and Saturday 10:00 AM-3:00 PM. Admission is free and donations are welcome. The City describes exhibits including household furnishings, clothing, photographs, tools and religious artifacts documenting family life, farming, education, faith and the German-Catholic heritage of Muenster. The museum was established in 1988 and moved to its current location in 1999. No current accessibility, pet-policy or regular event schedule is asserted because those details are not published on the official page.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Museum programs",
+        "Local-history programs",
+        "Heritage events"
+      ],
+      "event_sources": [
+        "City of Muenster Museum page",
+        "City of Muenster announcements"
+      ],
+      "features": [
+        "Free local-history museum",
+        "German-Catholic heritage exhibits",
+        "Historic Seyler family home",
+        "Genealogy interest",
+        "Downtown Main Street location"
       ]
     }
   ]
