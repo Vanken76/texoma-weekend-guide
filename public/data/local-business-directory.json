@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 905,
-  "publish_ready_count": 580,
+  "business_count": 906,
+  "publish_ready_count": 581,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -91085,6 +91085,137 @@
         "Playground equipment",
         "Practice rentals",
         "League and tournament venue"
+      ]
+    },
+    {
+      "slug": "t-bar-softball-complex",
+      "business_name": "T-BAR Softball Complex",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "3064 E US Hwy 69, Denison, TX 75020",
+      "category": [
+        "Softball Complex",
+        "Sports & Recreation",
+        "Athletic Facility",
+        "Event Venue"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "Adult Softball",
+        "Softball",
+        "Sports",
+        "Athletic Fields",
+        "Lighted Fields",
+        "Tournament Venue",
+        "League Play",
+        "Sports Practices",
+        "Playground",
+        "Things to Do in Denison"
+      ],
+      "description": "T-BAR Softball Complex is a City of Denison athletic facility built around three lighted adult-size softball fields. The complex supports practices, league play, games and tournaments and includes scoreboards, restroom facilities, an administrative building, covered pavilion, picnic tables and playground equipment. Fields can be reserved through Denison Parks & Recreation, making T-BAR one of the city's primary facilities for organized adult softball and tournament activity.",
+      "why_visit": "T-BAR Softball Complex is one of Denison's primary destinations for adult softball, offering three lighted fields and supporting amenities for league games, practices and tournaments.",
+      "why_its_unique": "The three-field adult softball complex is specifically equipped for organized league and tournament play and is uniquely identified in Denison city rules as an exception to the general park alcohol prohibition during authorized adult league play and tournaments.",
+      "phone": "903-465-2720",
+      "email": "parksandrec@denisontx.gov",
+      "website": "https://www.denisontx.gov/facilities/facility/details/t-barsoftballcomplex-31",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Dedicated daily public operating hours are not currently published for T-BAR Softball Complex. Field access may depend on scheduled practices, games, tournaments and weather conditions. Check Denison Parks & Recreation and the Rainout Line for current field status.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Three adult-size softball fields",
+        "Field lighting",
+        "Scoreboards",
+        "Restroom facility",
+        "Administrative building",
+        "Covered pavilion",
+        "Picnic tables",
+        "Playground equipment"
+      ],
+      "good_to_know": [
+        "The City of Denison's dedicated T-BAR facility page lists the complex at 3064 E US Hwy 69, Denison, TX 75020.",
+        "The complex has three adult-size softball fields.",
+        "All three fields are lighted.",
+        "Scoreboards are available for organized play.",
+        "The complex includes a restroom facility and administrative building.",
+        "A covered pavilion, picnic tables and playground equipment are available.",
+        "The current City of Denison rental fee is $15 per hour.",
+        "A $25 refundable deposit is currently required per rental occurrence.",
+        "Denison lists T-BAR as available for practices, games and tournaments.",
+        "Field users should check Denison's Rainout Line for weather-related field status.",
+        "Paid reservations canceled because of inclement weather receive credit toward rescheduling under the City's current policy.",
+        "Denison's special-event rules specifically permit alcohol at T-BAR Softball Park during authorized adult league play or tournaments, despite the general prohibition on alcohol in city parks.",
+        "The alcohol exception applies to qualifying adult league or tournament activity and should not be interpreted as unrestricted public alcohol permission.",
+        "Denison's RecDesk currently lists the individual T-Bar 1, T-Bar 2 and T-Bar 3 fields at 2505 E US Hwy 69, Denison, TX 75021, while the City's dedicated complex page lists 3064 E US Hwy 69, Denison, TX 75020. TWG uses the dedicated complex-page address as the canonical listing address.",
+        "For park issues after hours, the City currently lists 903-647-0507."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Located in Denison, Texas."
+        }
+      ],
+      "verification_note": "Fully researched August 15, 2026 after manual TWG live-directory duplicate clearance. The current City of Denison dedicated facility page confirms T-BAR Softball Complex at 3064 E US Hwy 69, Denison, TX 75020 with three lighted adult-size softball fields, restrooms, scoreboards, administrative building, covered pavilion, picnic tables and playground equipment. Current rental pricing is $15 per hour with a $25 refundable deposit. Denison's Athletic Facility Rentals page confirms T-BAR is available for practices, games and tournaments. Current City special-event rules expressly identify T-BAR Softball Park as an exception to Denison's general prohibition on alcohol in parks during adult league play and tournaments, providing additional evidence of organized adult softball activity. Denison RecDesk currently gives the three individual T-Bar fields an alternate address of 2505 E US Hwy 69, Denison, TX 75021; because the City's dedicated complex page consistently identifies the overall complex as 3064 E US Hwy 69, TWG uses that address as canonical while documenting the discrepancy. Dedicated public hours, pet policy, comprehensive accessibility and concession availability were not sufficiently confirmed and remain unspecified.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Adult softball league games",
+        "Adult softball practices",
+        "Softball tournaments",
+        "Organized softball games",
+        "Recreational league play"
+      ],
+      "event_sources": [
+        "City of Denison Parks & Recreation",
+        "Denison Parks & Recreation athletic facility reservations",
+        "Denison Parks & Recreation special-event information"
+      ],
+      "features": [
+        "Three adult-size softball fields",
+        "Three lighted fields",
+        "Scoreboards",
+        "Tournament-capable facility",
+        "Adult league venue",
+        "Covered pavilion",
+        "Playground equipment",
+        "Picnic tables",
+        "Practice and game rentals"
       ]
     }
   ]
