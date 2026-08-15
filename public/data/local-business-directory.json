@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 824,
-  "publish_ready_count": 499,
+  "business_count": 825,
+  "publish_ready_count": 500,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -80058,6 +80058,135 @@
         "Distilled and bottled in Muenster",
         "Approximately 48,000-square-foot distillery facility",
         "Potential future public tours"
+      ]
+    },
+    {
+      "slug": "fresh-fellas-furnishings-muenster",
+      "business_name": "Fresh Fellas Furnishings",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "215 N Main St, Muenster, TX 76252",
+      "category": [
+        "Furniture Store",
+        "Antique Store",
+        "Home Decor",
+        "Vintage Shopping",
+        "Local Shopping"
+      ],
+      "tags": [
+        "Fresh Fellas Furnishings",
+        "Muenster",
+        "Cooke County",
+        "Downtown Muenster",
+        "Furniture",
+        "Vintage Furniture",
+        "Antiques",
+        "Industrial Decor",
+        "Lighting",
+        "Home Decor",
+        "Interior Furnishings",
+        "Main Street Shopping"
+      ],
+      "description": "Fresh Fellas Furnishings is a distinctive downtown Muenster furniture and home-decor shop specializing in a mix of vintage, antique, industrial and new furnishings. The store also carries lighting and decorative pieces, making it a browse-worthy stop for visitors interested in interiors, antiques and unusual home finds.",
+      "why_visit": "Fresh Fellas adds another strong browse-and-discover stop to Muenster's Main Street shopping cluster. Visitors can look through changing furniture, lighting and home-decor selections while walking between the town's boutiques, antique stores, restaurants and other downtown businesses.",
+      "why_its_unique": "Rather than focusing exclusively on antiques or new furniture, Fresh Fellas mixes vintage, antique, industrial and contemporary pieces in one shop, giving its inventory a more eclectic design-focused character.",
+      "phone": "940-759-5925",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$-$$$$",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "sunday": "Closed",
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "Closed",
+        "thursday": "10:00 AM-5:00 PM",
+        "friday": "10:00 AM-5:00 PM",
+        "saturday": "10:00 AM-5:00 PM"
+      },
+      "hours_note": "A current local-business listing publishes Thursday-Saturday 10:00 AM-5:00 PM with Sunday-Wednesday closed. Because a current official business website or official published schedule was not located, visitors should confirm hours before making a special trip.",
+      "at_a_glance": {
+        "average_visit": "20-60 minutes",
+        "price_range": "$$-$$$$",
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Vintage furniture",
+        "Antique furniture",
+        "Industrial-style furnishings",
+        "New furniture",
+        "Lighting",
+        "Home decor",
+        "Decorative accessories",
+        "In-store shopping"
+      ],
+      "good_to_know": [
+        "Fresh Fellas Furnishings is located on North Main Street in downtown Muenster.",
+        "The shop specializes in vintage, antique, industrial and new furniture and decor.",
+        "Lighting and home-decor merchandise are specifically highlighted in current Muenster visitor material.",
+        "Current vintage-shopping directories continue to list the Muenster location.",
+        "Muenster ISD identified Sandy Bayer as the owner in a November 2025 community post.",
+        "Fresh Fellas donated wooden ornaments used by Muenster elementary students for the community Christmas tree in 2025.",
+        "Current third-party business data lists Thursday-Saturday retail hours.",
+        "No reliable current standalone website, email address or official social URL was established, so those fields are intentionally left null."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [
+        "the-birds-nest-muenster",
+        "main-street-mercantile-muenster",
+        "muenster-antique-mall",
+        "loras-flowers-tuxedos-muenster"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing Fresh Fellas Furnishings record. Current Muenster visitor material confirms Fresh Fellas Furnishings at 215 N Main St, Muenster, TX 76252 with phone 940-759-5925 and describes a mix of vintage, antique, industrial and new furniture, lighting and home decor. The Texas Vintage Shop Directory independently maintains a current listing for the same Muenster address. A November 2025 Muenster ISD community post identifies Sandy Bayer as the owner and documents the business donating wooden ornaments for the downtown community Christmas tree, providing recent evidence that the business remains active and locally engaged. Current third-party business data publishes Thursday-Saturday 10:00 AM-5:00 PM hours, but no current official business website or first-party hours page was located, so TWG notes that limitation rather than overstating certainty.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Downtown shopping promotions",
+        "Holiday merchant activities"
+      ],
+      "event_sources": [
+        "Muenster community announcements",
+        "Downtown merchant promotions"
+      ],
+      "features": [
+        "Downtown Main Street location",
+        "Vintage and antique furniture",
+        "Industrial furnishings",
+        "New furniture",
+        "Lighting",
+        "Home decor",
+        "Locally owned",
+        "Active community involvement"
       ]
     }
   ]
