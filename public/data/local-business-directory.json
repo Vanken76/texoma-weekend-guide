@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 878,
-  "publish_ready_count": 553,
+  "business_count": 879,
+  "publish_ready_count": 554,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -87547,6 +87547,133 @@
         "Community-event support",
         "Business networking",
         "Community partnerships"
+      ]
+    },
+    {
+      "slug": "lucile-teague-community-library",
+      "business_name": "Lucile Teague Community Library",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "201 S Britton St, Suite 2, Tom Bean, TX 75489",
+      "category": [
+        "Public Library",
+        "Community Resource",
+        "Family Activities",
+        "Educational Attraction",
+        "Event Venue"
+      ],
+      "tags": [
+        "Tom Bean",
+        "Grayson County",
+        "Public Library",
+        "Family Activities",
+        "Summer Reading",
+        "Story Hour",
+        "Genealogy",
+        "Community Events",
+        "Free Wi-Fi",
+        "Educational Programs"
+      ],
+      "description": "Lucile Teague Community Library is Tom Bean's community library and an educational and family-programming resource in southern Grayson County. The library offers books, DVDs and other media, public computers and internet access, free Wi-Fi, printing and document services, volunteer opportunities and recurring programs including summer reading, story-time activities and genealogy gatherings.",
+      "why_visit": "A small-town community resource for books, free internet access, family programming, genealogy activities, summer reading events and educational services.",
+      "why_its_unique": "The library serves as one of Tom Bean's primary year-round public gathering and educational spaces, pairing traditional library services with recurring family and genealogy programming.",
+      "phone": "903-546-6250",
+      "email": null,
+      "website": "https://tombeantx.gov/library/",
+      "facebook": "https://www.facebook.com/libraryattombean/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The current City of Tom Bean library page publishes weekday hours as '10:00 am - 4:00 am Mon-Fri,' which appears internally inconsistent, so TWG does not silently convert the closing time to PM. The same official page states Saturday and Sunday are closed and that the library closes on City Hall holidays. Verify current weekday hours before making a time-sensitive visit.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Books and local-author titles",
+        "DVDs and other media",
+        "Public computers",
+        "Internet access",
+        "Free Wi-Fi",
+        "Printing",
+        "Copying",
+        "Scanning",
+        "Online catalog",
+        "Volunteer opportunities"
+      ],
+      "good_to_know": [
+        "The City library page uses the shorter name Lucile Teague Library, while current City event listings use Lucile Teague Community Library.",
+        "The library is located at 201 S Britton St, Suite 2 in Tom Bean.",
+        "The official mailing address is PO Box 659, Tom Bean, TX 75489.",
+        "The First Saturday Genealogy Group is listed as meeting from 2:00 PM to 4:00 PM on the first Saturday of each month.",
+        "The City's 2026 Summer Reading Program was scheduled at the library each Friday in June from 10:00 AM to 11:00 AM.",
+        "The City says story hour, summer reading and other library events are promoted through the library's Facebook page.",
+        "Friends of the Library has provided patron computers and a printer for community use.",
+        "The official weekday-hours text currently contains a likely AM/PM error, so verify hours before a special trip."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Howe Community Library",
+        "Denison Public Library"
+      ],
+      "related_geography": [
+        "Tom Bean",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current City of Tom Bean library and calendar sources. Official sources confirm the 201 S Britton St Suite 2 location, 903-546-6250 phone number, books and media, public computers, internet access, free Wi-Fi, document services, story-hour and summer-reading programming and the recurring First Saturday Genealogy Group. The City calendar confirms four June 2026 Summer Reading Program dates at the library. The current official library page contains an internally inconsistent weekday-hours entry of 10:00 AM-4:00 AM, so structured weekday hours were intentionally left unasserted rather than silently corrected.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Summer reading programs",
+        "Story hours",
+        "Genealogy meetings",
+        "Children's activities",
+        "Family programs",
+        "Educational programs",
+        "Library events",
+        "Community gatherings"
+      ],
+      "event_sources": [
+        "City of Tom Bean calendar",
+        "City of Tom Bean library page",
+        "Lucile Teague Library Facebook"
+      ],
+      "features": [
+        "Community public library",
+        "Summer reading programming",
+        "Recurring genealogy group",
+        "Story-hour programming",
+        "Public computers",
+        "Free Wi-Fi",
+        "Printing and document services",
+        "Volunteer opportunities"
       ]
     }
   ]
