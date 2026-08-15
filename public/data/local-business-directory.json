@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 906,
-  "publish_ready_count": 581,
+  "business_count": 907,
+  "publish_ready_count": 582,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -91216,6 +91216,124 @@
         "Playground equipment",
         "Picnic tables",
         "Practice and game rentals"
+      ]
+    },
+    {
+      "slug": "katy-practice-fields",
+      "business_name": "Katy Practice Fields",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "2001 W Crawford St, Denison, TX 75020",
+      "category": [
+        "Soccer Fields",
+        "Sports & Recreation",
+        "Athletic Facility",
+        "Event Venue"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "Soccer",
+        "Soccer Fields",
+        "Youth Sports",
+        "Athletic Fields",
+        "Sports Practices",
+        "Soccer Games",
+        "Tournament Venue",
+        "Outdoor Recreation",
+        "Things to Do in Denison"
+      ],
+      "description": "Katy Practice Fields is a City of Denison soccer facility at 2001 W Crawford Street offering multiple individually reservable fields for athletic practices, games and tournament activity. The fields are managed through Denison Parks & Recreation and appear individually in the city's active RecDesk reservation system. The facility provides an important practice and competition space for organized soccer and other scheduled field use in Denison.",
+      "why_visit": "Katy Practice Fields provides dedicated outdoor field space for organized soccer practices, games and other scheduled athletic activity in Denison.",
+      "why_its_unique": "Rather than functioning as a general-purpose neighborhood park, Katy Practice Fields is focused specifically on reservable soccer and athletic-field use, with multiple numbered fields managed individually through Denison Parks & Recreation.",
+      "phone": "903-465-2720",
+      "email": "parksandrec@denisontx.gov",
+      "website": "https://www.denisontx.gov/248/Athletic-Facility-Rentals",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Denison RecDesk currently displays 8:00 AM-5:00 PM daily availability on Katy Field 1, but comparable complex-wide public operating hours were not confirmed for all Katy fields. TWG therefore does not publish those times as general facility hours. Field access may depend on reservations, scheduled activities and Parks & Recreation operations.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Multiple soccer fields",
+        "Individually reservable athletic fields",
+        "Outdoor practice space",
+        "Game and tournament space"
+      ],
+      "good_to_know": [
+        "Katy Practice Fields is located at 2001 W Crawford St in Denison.",
+        "The City of Denison currently lists Katy Practice Fields among its athletic rental facilities.",
+        "The City states that its athletic facilities may be rented for practices, games or tournaments.",
+        "Denison's active RecDesk classifies the individual Katy fields as soccer fields.",
+        "Individual Katy fields are available through the City's online reservation system.",
+        "Current RecDesk records confirm multiple numbered Katy fields, including Fields 1, 3, 4 and 6.",
+        "Katy Field 1 currently displays reservation availability from 8:00 AM to 5:00 PM daily, but TWG does not treat that as confirmed complex-wide park hours.",
+        "Alcoholic beverages are not permitted on or in City of Denison facilities and parks under the City's general rental rules.",
+        "For Parks & Recreation assistance, contact the City of Denison at 903-465-2720.",
+        "The Parks & Recreation office is located at 321 W Main Street in Denison."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Located in Denison, Texas."
+        }
+      ],
+      "verification_note": "Fully researched August 15, 2026 after manual TWG live-directory duplicate clearance. The current City of Denison Athletic Facility Rentals page explicitly lists Katy Practice Fields among facilities available for practices, games and tournaments. Denison's active RecDesk reservation system identifies individual Katy fields as soccer fields at 2001 W Crawford St, Denison, TX 75020 and currently exposes reservable records for multiple numbered fields, including Katy Fields 1, 3, 4 and 6. Katy Field 1 displays 8:00 AM-5:00 PM availability seven days a week, but comparable hours were not confirmed across the full complex, so TWG does not publish those times as complex-wide operating hours. Current field count, field dimensions, lighting, restroom availability, concession availability, pet policy and comprehensive accessibility were not sufficiently established in current official material and therefore are not claimed.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Soccer practices",
+        "Soccer games",
+        "Soccer tournaments",
+        "Youth sports",
+        "Athletic practices",
+        "Organized field rentals"
+      ],
+      "event_sources": [
+        "City of Denison Parks & Recreation",
+        "Denison Parks & Recreation RecDesk"
+      ],
+      "features": [
+        "Dedicated soccer facility",
+        "Multiple numbered soccer fields",
+        "Individual field reservations",
+        "Practice venue",
+        "Game venue",
+        "Tournament-capable athletic facility"
       ]
     }
   ]
