@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 841,
-  "publish_ready_count": 516,
+  "business_count": 842,
+  "publish_ready_count": 517,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -82481,6 +82481,172 @@
       ],
       "source_verified": true,
       "verification_note": "Verified August 15, 2026 from the current official Lighthouse Resort & Marina event-space page. Current first-party information confirms Oasis at the Lighthouse Lodge as a full-service waterfront event space within Lighthouse Resort & Marina, with approximately 1,600 square feet of climate-controlled interior space, an approximately 1,200-square-foot deck, bar and bartender service, catering options and rentals for weddings, receptions, reunions, company parties and other gatherings. Current event-space showings are by appointment through 903-200-1408. Older Lighthouse pages describe an earlier deck configuration, so TWG uses the dimensions published on the current event-space page.",
+      "last_checked": "2026-08-15",
+      "last_verified": "2026-08-15"
+    },
+    {
+      "slug": "cove-point-lighthouse-resort-marina",
+      "business_name": "Cove Point at Lighthouse Resort & Marina",
+      "alternate_names": [
+        "Cove Point"
+      ],
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "300 Lighthouse Drive, Pottsboro, TX 75076 — waterfront outdoor event venue inside Lighthouse Resort & Marina on Lake Texoma",
+      "category": [
+        "Event Venue",
+        "Outdoor Event Venue",
+        "Wedding Venue",
+        "Waterfront Venue"
+      ],
+      "tags": [
+        "Pottsboro",
+        "Lake Texoma",
+        "Lighthouse Resort & Marina",
+        "Cove Point",
+        "Waterfront Venue",
+        "Outdoor Venue",
+        "Wedding Venue",
+        "Elopements",
+        "Receptions",
+        "Private Events",
+        "Lake Access",
+        "Gazebo",
+        "Group Gatherings"
+      ],
+      "description": "Cove Point is a dedicated waterfront outdoor event venue inside Lighthouse Resort & Marina in Pottsboro. The approximately two-acre space includes a fenced grassy lawn, gazebo, pathways, a large level gathering area and views and access to Lake Texoma. It is available for weddings, elopements, receptions, lake-day gatherings and other private events.",
+      "short_description": "Approximately two-acre waterfront outdoor event venue at Lighthouse Resort & Marina with a gazebo, grassy lawn and Lake Texoma views and access.",
+      "why_visit": "Cove Point provides an open-air Lake Texoma setting for couples and groups wanting a waterfront ceremony, reception or gathering without being confined to a conventional indoor event hall.",
+      "why_its_unique": "The venue combines an approximately two-acre private event lawn with direct Lake Texoma scenery and access while remaining inside a full resort and marina where guests can also arrange lodging, recreation and other event services.",
+      "address": "300 Lighthouse Drive",
+      "address_line_2": null,
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "phone": "903-200-1408",
+      "phone_secondary": "903-361-5070",
+      "phone_note": "903-200-1408 is the current event-coordination number for venue inquiries and showings. 903-361-5070 is the Lighthouse Resort & Marina reservations number.",
+      "email": null,
+      "website": "https://lighthouseresort.com/event-space/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Varies by event and rental block",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Cove Point operates for scheduled rentals and events rather than regular public walk-in hours. Venue showings are by appointment through the Lighthouse/Texoma Destinations event team at 903-200-1408.",
+      "at_a_glance": {
+        "average_visit": "Varies by event",
+        "price_range": "Varies by event and rental block",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Approximately two acres of outdoor event space",
+        "Fenced grassy lawn",
+        "Waterfront setting",
+        "Lake Texoma views",
+        "Lake access",
+        "Gazebo",
+        "Pathways",
+        "Large level gathering area",
+        "Open-vendor policy",
+        "Hourly rentals",
+        "Half-day rentals",
+        "Full-day rentals",
+        "Event coordination",
+        "Nearby resort lodging",
+        "Nearby marina and recreation amenities"
+      ],
+      "good_to_know": [
+        "Cove Point is physically located within Lighthouse Resort & Marina at 300 Lighthouse Drive in Pottsboro.",
+        "The current official venue page describes approximately two acres of fenced grassy outdoor space.",
+        "The property includes a gazebo, pathways and a large level area overlooking Lake Texoma.",
+        "Texoma Destinations currently lists a maximum capacity of approximately 50 people.",
+        "The venue is specifically promoted for elopements and medium-sized lake gatherings.",
+        "The venue has Lake Texoma views and lake access.",
+        "Cove Point currently allows outside or open vendors.",
+        "Rental pricing is available hourly and in half-day and full-day blocks.",
+        "Discounted combinations may be available when Cove Point and the Lighthouse Lodge are rented together.",
+        "Venue showings are by appointment.",
+        "Contact the event team at 903-200-1408 for current availability, pricing and event requirements."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "event_types": [
+        "Weddings",
+        "Elopements",
+        "Wedding receptions",
+        "Lake-day gatherings",
+        "Family gatherings",
+        "Private celebrations",
+        "Corporate gatherings",
+        "Outdoor group events"
+      ],
+      "event_sources": [
+        "Lighthouse Resort & Marina official event-space page",
+        "Texoma Destinations event-planning information"
+      ],
+      "features": [
+        "Approximately two-acre waterfront venue",
+        "Lake Texoma views and access",
+        "Fenced grassy event lawn",
+        "Gazebo",
+        "Open-vendor policy",
+        "Outdoor wedding and elopement setting",
+        "Resort and marina location"
+      ],
+      "parent_business": {
+        "slug": "lighthouse-resort-marina",
+        "business_name": "Lighthouse Resort & Marina",
+        "relationship_note": "Cove Point is a dedicated, separately rentable outdoor event venue physically located within Lighthouse Resort & Marina."
+      },
+      "child_businesses": [],
+      "related_businesses": [
+        {
+          "slug": "oasis-at-the-lighthouse-lodge",
+          "business_name": "Oasis at the Lighthouse Lodge",
+          "relationship_note": "Oasis at the Lighthouse Lodge is Cove Point's sibling indoor-outdoor event venue at Lighthouse Resort & Marina, and the two venues may be rented together."
+        },
+        {
+          "slug": "texoma-destinations",
+          "business_name": "Texoma Destinations",
+          "relationship_note": "Texoma Destinations provides event-planning and coordination services for Cove Point and other Lighthouse Resort venues."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Cove Point is located in Pottsboro, Texas, on Lake Texoma."
+        }
+      ],
+      "source_verified": true,
+      "verification_note": "Verified August 15, 2026 from the current official Lighthouse Resort & Marina event-space page and Texoma Destinations event-planning information. Current first-party sources identify Cove Point as a separately rentable waterfront outdoor event venue inside Lighthouse Resort & Marina with approximately two acres of fenced grassy space, a gazebo, pathways, a large level area, Lake Texoma views and access, open-vendor options and capacity for approximately 50 guests. Rentals are available hourly or in half-day and full-day blocks, with venue showings by appointment through the event team at 903-200-1408.",
       "last_checked": "2026-08-15",
       "last_verified": "2026-08-15"
     }
