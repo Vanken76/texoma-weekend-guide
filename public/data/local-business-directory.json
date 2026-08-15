@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 853,
-  "publish_ready_count": 528,
+  "business_count": 854,
+  "publish_ready_count": 529,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -84356,6 +84356,122 @@
       "verification_note": "Verified August 15, 2026 using the current official Sherman Symphony Orchestra website, 2026-2027 concert calendar, contact information, educational-program pages and visitor information. Current first-party sources confirm the Sherman organization, 903-814-0201 contact number, P.O. Box 651 mailing address, 1966 founding, Kidd-Key Auditorium as the primary concert home, recurring classical and Christmas Pops performances, student-ticket program and annual children's educational concerts. No separate public office address, regular walk-in hours or currently published general email address were inferred.",
       "last_checked": "2026-08-15",
       "last_verified": "2026-08-15"
+    },
+    {
+      "slug": "sherman-tourism-main-street",
+      "business_name": "Sherman Tourism/Main Street",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "100 N Travis St, Sherman, TX 75090 — City of Sherman Tourism/Main Street office serving downtown Sherman and citywide visitor promotion",
+      "category": [
+        "Tourism Office",
+        "Main Street Program",
+        "Community Organization"
+      ],
+      "tags": [
+        "Sherman",
+        "Downtown Sherman",
+        "Tourism",
+        "Main Street",
+        "Community Events",
+        "Festivals",
+        "Live Music",
+        "Visitor Information",
+        "Hot Summer Nights",
+        "Sherman Arts Festival"
+      ],
+      "description": "Sherman Tourism/Main Street is the City of Sherman office combining visitor promotion with the city's Main Street program. The office promotes Sherman and its activities, supports the continued development of historic downtown, administers Main Street initiatives and grants, and helps organize or support major community programming including Hot Summer Nights and the Sherman Arts Festival.",
+      "why_visit": "A useful source for downtown Sherman information, visitor resources, major city events, Main Street initiatives and information for businesses or organizations participating in community programming.",
+      "why_its_unique": "Sherman combines its municipal tourism and Main Street functions in one office, connecting destination promotion, downtown development and major community-event activity.",
+      "phone": "903-957-4237",
+      "email": null,
+      "website": "https://www.ci.sherman.tx.us/1030/TourismMain-Street",
+      "facebook": "https://www.facebook.com/ShermanMainStreet",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "8:00 AM - 5:00 PM",
+        "tuesday": "8:00 AM - 5:00 PM",
+        "wednesday": "8:00 AM - 5:00 PM",
+        "thursday": "8:00 AM - 5:00 PM",
+        "friday": "8:00 AM - 5:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Published Tourism/Main Street office hours are Monday through Friday from 8:00 AM to 5:00 PM. Public events administered or promoted by the office frequently occur outside regular office hours.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "The Sherman Main Street Program was reestablished in 2016 and operates together with the City's Tourism Department.",
+        "The office is a strong source for major Sherman community and downtown event information.",
+        "Hot Summer Nights and the Sherman Arts Festival are recurring event-mining targets.",
+        "The office administers a Main Street grant program supporting events, projects and organizations benefiting historic downtown Sherman.",
+        "Special-event times and locations vary and should be verified through individual event announcements."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": "City of Sherman",
+      "related_businesses": [
+        "Oliver Dewey Mayor Gazebo Stage",
+        "Kidd-Key Auditorium",
+        "Sherman Municipal Ballroom"
+      ],
+      "related_geography": [
+        "Sherman",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Official City of Sherman sources confirm the Tourism/Main Street program, its combined tourism and downtown-development mission, current 903-957-4237 contact number, 100 N Travis Street office location, Monday-Friday 8:00 AM-5:00 PM office hours, Main Street grant program, Hot Summer Nights involvement and administration of the 2026 Sherman Arts Festival. Monitor the official Tourism/Main Street page and Sherman Main Street Facebook page for current community-event information.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Outdoor concerts",
+        "Arts festivals",
+        "Downtown events",
+        "Community festivals",
+        "Vendor events",
+        "Tourism events"
+      ],
+      "event_sources": [
+        "City of Sherman Tourism/Main Street page",
+        "Sherman Main Street Facebook page",
+        "City of Sherman event and vendor applications"
+      ],
+      "features": [
+        "City tourism office",
+        "Texas Main Street program",
+        "Downtown promotion",
+        "Main Street grant program",
+        "Community event administration",
+        "Visitor information"
+      ]
     }
   ]
 }
