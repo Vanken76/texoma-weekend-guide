@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 907,
-  "publish_ready_count": 582,
+  "business_count": 908,
+  "publish_ready_count": 583,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -91332,6 +91332,147 @@
         "Multiple numbered soccer fields",
         "Individual field reservations",
         "Practice venue",
+        "Game venue",
+        "Tournament-capable athletic facility"
+      ]
+    },
+    {
+      "slug": "waterloo-baseball-complex",
+      "business_name": "Waterloo Baseball Complex",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1500 W Brock St, Denison, TX 75020",
+      "category": [
+        "Baseball Complex",
+        "Sports & Recreation",
+        "Athletic Facility",
+        "Family Attraction",
+        "Event Venue"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "Youth Baseball",
+        "Baseball",
+        "Sports",
+        "Athletic Fields",
+        "Lighted Fields",
+        "Batting Cages",
+        "Youth Sports",
+        "Tournament Venue",
+        "League Play",
+        "Sports Practices",
+        "Things to Do in Denison"
+      ],
+      "description": "Waterloo Baseball Complex is a City of Denison youth baseball facility featuring two lighted fields at 1500 W Brock Street. The complex includes 200-foot and 180-foot youth baseball fields along with bleachers, batting cages, restroom facilities, a press box and scoreboards. Managed through Denison Parks & Recreation, the fields support practices, games and tournament activity and are part of the larger Waterloo recreation area.",
+      "why_visit": "Waterloo Baseball Complex provides dedicated, lighted youth baseball fields with the supporting amenities needed for practices, league games and tournament play.",
+      "why_its_unique": "The complex combines two differently sized youth baseball diamonds with batting cages, scoreboards, a press box and organized field reservations in Denison's larger Waterloo recreation area.",
+      "phone": "903-465-2720",
+      "email": "parksandrec@denisontx.gov",
+      "website": "https://www.denisontx.gov/248/Athletic-Facility-Rentals",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Dedicated public operating hours are not published for Waterloo Baseball Complex. Field access depends on reservations, scheduled practices, games, tournaments and field conditions. Check Denison Parks & Recreation and the Rainout Line before scheduled use.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Two youth baseball fields",
+        "200-foot baseball field",
+        "180-foot baseball field",
+        "Field lighting",
+        "Bleachers",
+        "Batting cages",
+        "Restroom facility",
+        "Press box",
+        "Scoreboards"
+      ],
+      "good_to_know": [
+        "Waterloo Baseball Complex is located at 1500 W Brock St in Denison.",
+        "The complex includes two youth baseball fields.",
+        "Official City recreation materials list field sizes of 200 feet and 180 feet.",
+        "Both youth baseball fields are lighted.",
+        "Bleachers are available for spectators.",
+        "Batting cages are available at the complex.",
+        "The facility includes restrooms, a press box and scoreboards.",
+        "Denison currently lists Waterloo Baseball Complex among facilities available for practices, games and tournaments.",
+        "The City's active reservation system identifies Waterloo Baseball South as an individually reservable ball field at the complex.",
+        "Practice renters receive weekly gate codes for scheduled field access.",
+        "Reservations made later in the week may require renters to contact Parks & Recreation for a current gate code.",
+        "Users should check Denison's Rainout Line each day for current field status.",
+        "Weather-related cancellations made by Denison Parks & Recreation are rescheduled under the City's current reservation policy.",
+        "The City notes that restrooms at its reservable ball fields are winterized and closed beginning December 2.",
+        "For Parks & Recreation assistance, contact 903-465-2720."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [
+        {
+          "slug": "waterloo-lake-regional-park",
+          "name": "Waterloo Lake Regional Park",
+          "relationship_note": "Part of Denison's broader Waterloo recreation area; the City's Waterloo Lake Regional Park amenities also identify baseball fields within the park system."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Located in Denison, Texas."
+        }
+      ],
+      "verification_note": "Fully researched August 15, 2026 after manual TWG live-directory duplicate clearance. The current City of Denison Athletic Facility Rentals page explicitly lists Waterloo Baseball Complex among athletic facilities available for practices, games and tournaments. Official City recreation materials identify the complex at 1500 W Brock St, Denison, TX 75020 and describe two lighted youth baseball fields measuring 200 feet and 180 feet, with bleachers, batting cages, restroom facilities, press box and scoreboards. Denison's active RecDesk system independently confirms Waterloo Baseball South at 1500 W Brock St as a currently reservable ball field and publishes current gate-code, weather cancellation and Rainout Line procedures. The City of Denison's Waterloo Lake Regional Park page also lists baseball fields among that park's amenities, supporting a relationship between the complex and the broader Waterloo recreation area. Current complex-wide rental pricing, pet policy, concession availability, comprehensive accessibility and dedicated public operating hours were not sufficiently confirmed and therefore are not claimed.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Youth baseball games",
+        "Youth baseball practices",
+        "Baseball tournaments",
+        "League play",
+        "Youth sports activities"
+      ],
+      "event_sources": [
+        "City of Denison Parks & Recreation",
+        "Denison Parks & Recreation RecDesk",
+        "Denison Parks & Recreation athletic facility rentals"
+      ],
+      "features": [
+        "Two lighted youth baseball fields",
+        "200-foot baseball field",
+        "180-foot baseball field",
+        "Bleachers",
+        "Batting cages",
+        "Press box",
+        "Scoreboards",
+        "Practice reservations",
         "Game venue",
         "Tournament-capable athletic facility"
       ]
