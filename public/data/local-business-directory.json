@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 908,
-  "publish_ready_count": 583,
+  "business_count": 909,
+  "publish_ready_count": 584,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -91475,6 +91475,137 @@
         "Practice reservations",
         "Game venue",
         "Tournament-capable athletic facility"
+      ]
+    },
+    {
+      "slug": "waterloo-dog-park",
+      "business_name": "Waterloo Dog Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1701 Waterloo Lake Drive, Denison, TX 75020",
+      "category": [
+        "Dog Park",
+        "Outdoor Recreation",
+        "Pet-Friendly Attraction",
+        "Park"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "Dog Park",
+        "Dogs",
+        "Pet Friendly",
+        "Off-Leash Recreation",
+        "Small Dog Area",
+        "Large Dog Area",
+        "Outdoor Recreation",
+        "Waterloo Lake",
+        "Katy Trail",
+        "Things to Do in Denison"
+      ],
+      "description": "Waterloo Dog Park is a 1.5-acre dedicated dog recreation area within Denison's Waterloo Lake recreation area. The fenced park provides separate spaces for small and large dogs, allowing dogs to exercise and socialize in appropriately sized areas. Amenities include sand pits for digging and play, drinking fountains for both pets and their owners, and covered seating where visitors can relax while their dogs enjoy the park. Its location beside Waterloo Lake Regional Park and the Katy Trail also makes it convenient to combine a dog-park visit with a walk through the larger recreation area.",
+      "why_visit": "Waterloo Dog Park gives dogs room to run and socialize off leash in separate small- and large-dog areas while owners have access to shade, seating and water.",
+      "why_its_unique": "The 1.5-acre fenced facility combines separate dog-size areas, sand pits, pet-and-owner drinking fountains and covered seating with direct access to the larger Waterloo recreation and trail system.",
+      "phone": "903-465-2720",
+      "email": "parksandrec@denisontx.gov",
+      "website": "https://www.denisontx.gov/583/Paws-Play",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": true,
+      "dog_friendly": true,
+      "hours": {},
+      "hours_note": "A dedicated current daily-hours schedule for Waterloo Dog Park is not published on the City's Paws & Play page. Check Denison Parks & Recreation for current park access rules, closures or temporary restrictions.",
+      "at_a_glance": {
+        "average_visit": "30 minutes–2 hours",
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": true,
+        "dog_friendly": true,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "1.5-acre dog park",
+        "Fenced off-leash recreation area",
+        "Separate small-dog area",
+        "Separate large-dog area",
+        "Sand pits",
+        "Drinking fountains for dogs",
+        "Drinking fountains for people",
+        "Covered seating",
+        "Dog-waste bag station",
+        "Nearby trail access",
+        "Nearby parking"
+      ],
+      "good_to_know": [
+        "Waterloo Dog Park is located at 1701 Waterloo Lake Drive in Denison.",
+        "The dog park covers approximately 1.5 acres.",
+        "Separate areas are provided for small and large dogs.",
+        "Sand pits provide dedicated digging and play areas.",
+        "Drinking fountains are available for both dogs and their owners.",
+        "Covered seating provides shade for visitors.",
+        "The City of Denison lists a doggy-bag station at Waterloo Dog Park.",
+        "Waterloo Dog Park is part of the larger Waterloo Lake Regional Park recreation area.",
+        "The nearby paved walking track passes through the area between the dog park and other Waterloo recreation amenities.",
+        "The Woodland Loop trail begins near the Waterloo Dog Park and Katy Trail entrance.",
+        "Parking for the Katy Trail is available at Waterloo Lake Regional Park near the dog park area.",
+        "Dogs using the nearby Katy Trail are permitted but must be kept on leash.",
+        "For Parks & Recreation questions, contact the City of Denison at 903-465-2720.",
+        "For after-hours park issues, the City currently lists 903-647-0507."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": {
+        "slug": "waterloo-lake-regional-park",
+        "name": "Waterloo Lake Regional Park",
+        "relationship_note": "Waterloo Dog Park is a dedicated recreation facility within the broader Waterloo Lake Regional Park area."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Located in Denison, Texas."
+        }
+      ],
+      "verification_note": "Fully researched August 15, 2026 after manual TWG live-directory duplicate clearance. The current City of Denison Paws & Play page confirms Waterloo Dog Park at 1701 Waterloo Lake Drive and identifies the facility as 1.5 acres with separate small- and large-dog areas, sand pits, drinking fountains for pets and owners, and covered seating. The City's Waterloo Lake Regional Park facility page independently lists the same dog-park amenities as part of the broader Waterloo recreation area. Current City trail information places the paved walking track, Woodland Loop and Katy Trail connections near the dog park and confirms nearby trail parking. A doggy-bag station is also specifically listed at Waterloo Dog Park. Dedicated dog-park hours and comprehensive accessibility information were not sufficiently published, so those details are not claimed.",
+      "last_checked": "2026-08-15",
+      "event_types": [],
+      "event_sources": [
+        "City of Denison Parks & Recreation"
+      ],
+      "features": [
+        "1.5-acre fenced dog park",
+        "Separate small-dog area",
+        "Separate large-dog area",
+        "Off-leash recreation",
+        "Sand pits",
+        "Dog drinking fountains",
+        "Human drinking fountains",
+        "Covered seating",
+        "Dog-waste station",
+        "Waterloo recreation-area location",
+        "Nearby Katy Trail access"
       ]
     }
   ]
