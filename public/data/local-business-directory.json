@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 891,
-  "publish_ready_count": 566,
+  "business_count": 892,
+  "publish_ready_count": 567,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -89304,6 +89304,138 @@
         "Local-history education",
         "Programs at Frontier Village & Museum",
         "Countywide historical focus"
+      ]
+    },
+    {
+      "slug": "grayson-county-master-gardeners",
+      "business_name": "Grayson County Master Gardeners",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Grayson County Courthouse, 100 W Houston St, Sherman, TX 75090 — serving communities throughout Grayson County",
+      "category": [
+        "Gardening Organization",
+        "Horticultural Education",
+        "Community Organization",
+        "Volunteer Organization"
+      ],
+      "tags": [
+        "Grayson County",
+        "Sherman",
+        "Master Gardeners",
+        "Texas A&M AgriLife Extension",
+        "Gardening",
+        "Horticulture",
+        "Plant Sale",
+        "Garden Education",
+        "Youth Education",
+        "Speaker Bureau",
+        "Community Outreach",
+        "Native Plants"
+      ],
+      "description": "Grayson County Master Gardeners is a volunteer horticultural-education program affiliated with Texas A&M AgriLife Extension Service in Grayson County. Trained Master Gardener volunteers share research-based gardening knowledge with residents through community outreach, gardening assistance, educational presentations, youth programs, speaker services and special events including the organization's annual spring plant sale.",
+      "why_visit": "A valuable local resource for gardening knowledge, horticultural education, community programs and special events where residents can learn directly from trained Master Gardener volunteers.",
+      "why_its_unique": "Grayson County Master Gardeners combines Texas A&M AgriLife horticultural training with local volunteer service, giving Texoma gardeners access to research-based advice tailored to North Texas growing conditions while producing educational programs and community events.",
+      "phone": "903-813-4204",
+      "email": "mastergardeners@co.grayson.tx.us",
+      "website": "https://txmg.org/grayson/",
+      "facebook": "https://www.facebook.com/Grayson-County-Master-Gardeners-754645524899641/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Grayson County Master Gardeners is a volunteer program based through the Texas A&M AgriLife Extension office in the Grayson County Courthouse rather than a conventional walk-in attraction. Contact the Master Gardener office before making a special trip. Extension administrative hours are generally weekday business hours with a midday closure.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Ask a Master Gardener service",
+        "Horticultural education",
+        "Speaker Bureau",
+        "Youth education",
+        "Gardening resources",
+        "Plant information",
+        "Community outreach",
+        "Annual plant sale",
+        "Master Gardener training information"
+      ],
+      "good_to_know": [
+        "Grayson County Master Gardeners operates through Texas A&M AgriLife Extension Service in Grayson County.",
+        "The Master Gardener office is located in the Grayson County Courthouse at 100 W Houston Street in Sherman.",
+        "Current Master Gardener contact information is 903-813-4204 and mastergardeners@co.grayson.tx.us.",
+        "Residents can contact the program through its Ask a Master Gardener service for gardening and horticultural questions.",
+        "Organizations may request Master Gardener speakers for horticultural presentations and are asked to allow at least three weeks for scheduling.",
+        "The organization provides youth education and information about Junior Master Gardener programming.",
+        "The annual Spring Plant Sale is one of the organization's major public events.",
+        "The May 2, 2026 plant sale was held inside Mayor Arena at Loy Lake Park in Denison.",
+        "The 2026 plant sale included locally grown plants, educational presentations, vendors, food and beverages, raffle opportunities and a children's scavenger hunt.",
+        "Master Gardener volunteers also participate in broader Grayson County educational and conservation programming."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": "Texas A&M AgriLife Extension Service — Grayson County",
+      "related_businesses": [
+        "Texoma Exposition & Livestock Show, Inc.",
+        "Frontier Village & Museum",
+        "Sherman Public Library"
+      ],
+      "related_geography": [
+        "Grayson County",
+        "Sherman",
+        "Denison",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current first-party Grayson County Master Gardeners and Texas A&M AgriLife Extension Service sources. Official sources confirm the program's Grayson County Courthouse office at 100 W Houston St in Sherman, 903-813-4204 phone number, mastergardeners@co.grayson.tx.us email address and affiliation with Texas A&M AgriLife Extension. Current program resources confirm Ask a Master Gardener assistance, Speaker Bureau services, youth education and community outreach. The organization also held its 2026 Spring Plant Sale on May 2 at Mayor Arena in Loy Lake Park with plants, educational programming, vendors and family activities.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Plant sales",
+        "Gardening workshops",
+        "Horticultural presentations",
+        "Guest-speaker programs",
+        "Youth gardening programs",
+        "Educational outreach",
+        "Gardening demonstrations",
+        "Community education events"
+      ],
+      "event_sources": [
+        "Grayson County Master Gardeners official website",
+        "Grayson County Master Gardeners Facebook",
+        "Texas A&M AgriLife Extension — Grayson County",
+        "Grayson County Master Gardeners articles and announcements"
+      ],
+      "features": [
+        "Texas A&M AgriLife Extension program",
+        "Trained Master Gardener volunteers",
+        "Ask a Master Gardener service",
+        "Annual Spring Plant Sale",
+        "Speaker Bureau",
+        "Youth horticultural education",
+        "Research-based gardening information",
+        "Countywide community outreach"
       ]
     }
   ]
