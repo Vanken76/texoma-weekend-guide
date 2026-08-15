@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 802,
-  "publish_ready_count": 477,
+  "business_count": 803,
+  "publish_ready_count": 478,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -77249,6 +77249,135 @@
         "Large guest kitchen",
         "Pool and hot tub",
         "Gardens and outdoor gathering areas"
+      ]
+    },
+    {
+      "slug": "muenster-city-park",
+      "business_name": "Muenster City Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Just south of the US 82 / FM 373 intersection, Muenster, TX 76252",
+      "category": [
+        "Park",
+        "Outdoor Recreation",
+        "Community Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Muenster",
+        "Cooke County",
+        "City Park",
+        "Playground",
+        "Walking Trails",
+        "Basketball",
+        "Volleyball",
+        "Tennis",
+        "Pavilion",
+        "Stage",
+        "Outdoor Events",
+        "Family Activities"
+      ],
+      "description": "Muenster City Park is a city-operated community park near the center of Muenster offering playgrounds, paved walking paths, sports courts and a covered pavilion and stage. The park serves both everyday recreation and community or private gatherings, with reservable facilities available through the City of Muenster.",
+      "why_visit": "The park offers an easy, free place for families, walkers and recreational visitors to spend time outdoors while staying close to downtown Muenster. Its mix of playgrounds, sports courts, walking paths and gathering space makes it useful for both casual visits and organized activities.",
+      "why_its_unique": "In addition to everyday park amenities, Muenster City Park includes a covered pavilion and stage available for public use and private rentals, making it an important smaller-scale community-event venue alongside Muenster's larger Heritage Park complex.",
+      "phone": "940-759-2236",
+      "email": "info@cityofmuenstertx.org",
+      "website": "https://cityofmuenstertx.org/departments/parks-rec/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "sunday": "7:00 AM-Midnight",
+        "monday": "7:00 AM-Midnight",
+        "tuesday": "7:00 AM-Midnight",
+        "wednesday": "7:00 AM-Midnight",
+        "thursday": "7:00 AM-Midnight",
+        "friday": "7:00 AM-Midnight",
+        "saturday": "7:00 AM-Midnight"
+      },
+      "hours_note": "City Park is officially listed as open daily from 7:00 AM to midnight. Individual facilities and scheduled activities may have separate operating or reservation times.",
+      "at_a_glance": {
+        "average_visit": "1-2 hours",
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": "varies by event",
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Covered pavilion",
+        "Stage",
+        "Basketball court",
+        "Volleyball court",
+        "Tennis courts",
+        "Paved walking paths",
+        "Playgrounds",
+        "Swing sets",
+        "Public recreation areas",
+        "Reservable gathering facilities"
+      ],
+      "good_to_know": [
+        "The park is open daily from 7:00 AM to midnight.",
+        "The covered pavilion and stage are available for public use and private rentals.",
+        "Facility reservations are managed through the City of Muenster.",
+        "The park includes basketball, volleyball and tennis courts.",
+        "Paved walking paths provide an easy recreational loop.",
+        "Modern playsets and swings are available for children.",
+        "Muenster's seasonal municipal swimming pool is also located within the City Park complex.",
+        "The City does not publish a precise street address for the park on its current Parks & Recreation page, so TWG should not invent one."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing Muenster City Park record. The current official City of Muenster Parks & Recreation page describes Muenster City Park as the community's activity hub, located just south of the Highway 82 / FM 373 intersection and open daily from 7:00 AM to midnight. Officially published amenities include basketball, volleyball and tennis courts, paved walking paths, modern playgrounds and swing sets, plus a covered pavilion and stage available for public use and private rentals. The City also confirms that municipal facility reservations include the City Park pavilion and MSB Stage. No precise park street address, pet policy or accessibility designation is asserted because those details are not published on the current official page.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Community events",
+        "Outdoor gatherings",
+        "Reunions",
+        "Private rentals",
+        "Stage events",
+        "Recreation programs",
+        "Family activities"
+      ],
+      "event_sources": [
+        "City of Muenster Parks & Recreation",
+        "City of Muenster announcements"
+      ],
+      "features": [
+        "Covered pavilion and stage",
+        "Private facility rentals",
+        "Sports courts",
+        "Paved walking paths",
+        "Playgrounds",
+        "Central Muenster location",
+        "Daily public access"
       ]
     }
   ]
