@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 854,
-  "publish_ready_count": 529,
+  "business_count": 855,
+  "publish_ready_count": 530,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -84471,6 +84471,115 @@
         "Main Street grant program",
         "Community event administration",
         "Visitor information"
+      ]
+    },
+    {
+      "slug": "denison-main-street",
+      "business_name": "Denison Main Street",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Downtown Denison, Denison, TX — City of Denison Main Street program",
+      "category": [
+        "Main Street Program",
+        "Downtown Organization",
+        "Community Organization"
+      ],
+      "tags": [
+        "Denison",
+        "Downtown Denison",
+        "Main Street",
+        "Community Events",
+        "Festivals",
+        "Live Music",
+        "Historic Downtown",
+        "Music on Main",
+        "Doc Holliday Festival",
+        "Eisenhower Birthday"
+      ],
+      "description": "Denison Main Street is the City of Denison program supporting preservation-based revitalization, business activity, culture, tourism and community life in historic downtown Denison. The program works with downtown businesses and organizations while promoting and supporting a substantial calendar of public events, festivals, concerts and seasonal activities.",
+      "why_visit": "A primary source for discovering downtown Denison events, festivals, concerts, businesses, cultural attractions and community activities.",
+      "why_its_unique": "Denison has participated in the Main Street program since the late 1980s, combining historic preservation and downtown development with an especially active calendar of community events and entertainment.",
+      "phone": "903-464-4452",
+      "email": "ddow@denisontx.gov",
+      "website": "https://www.denisontx.gov/495/Main-Street",
+      "facebook": "https://www.facebook.com/DowntownDenisonTX/",
+      "instagram": "https://www.instagram.com/downtowndenisontx/",
+      "youtube": "https://www.youtube.com/@denisonmain767",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No dependable dedicated public walk-in hours are published for the Main Street office. Current official City of Denison pages also conflict on the physical office location, so contact the program before making an office visit.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Denison began its Main Street program in 1988 and became an official Texas Main Street city in 1989.",
+        "The program maintains and promotes a major calendar of downtown events throughout the year.",
+        "Signature event-mining targets include Music on Main, Doc Holliday Festival, Fourth of July festivities and the Eisenhower Birthday Celebration.",
+        "The Downtown Denison website and Facebook page are important ongoing sources for event discovery.",
+        "Official City of Denison pages currently conflict on the physical Main Street office location; contact the department before making a walk-in visit."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": "City of Denison",
+      "related_businesses": [
+        "Heritage Park"
+      ],
+      "related_geography": [
+        "Denison",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Official City of Denison Main Street and Downtown Events sources confirm the Main Street program, current staff contact information, downtown-development mission and recurring community-event responsibilities. Official Downtown Denison sources confirm an active event calendar and social-media channels. Current city pages conflict on the physical office location, so TWG intentionally does not assert a precise walk-in address until that discrepancy is resolved.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Outdoor concerts",
+        "Community festivals",
+        "Holiday celebrations",
+        "Historic celebrations",
+        "Downtown events",
+        "Farmers markets",
+        "Vendor events",
+        "Community gatherings"
+      ],
+      "event_sources": [
+        "City of Denison Main Street page",
+        "City of Denison Downtown Events calendar",
+        "Downtown Denison website",
+        "Downtown Denison Facebook page"
+      ],
+      "features": [
+        "Texas Main Street program",
+        "Downtown revitalization",
+        "Public event calendar",
+        "Community event promotion",
+        "Historic preservation",
+        "Downtown business support"
       ]
     }
   ]
