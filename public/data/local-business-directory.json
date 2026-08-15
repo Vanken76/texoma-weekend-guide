@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 822,
-  "publish_ready_count": 497,
+  "business_count": 823,
+  "publish_ready_count": 498,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -79819,6 +79819,135 @@
         "Catering",
         "Germanfest vendor",
         "Giftable local food products"
+      ]
+    },
+    {
+      "slug": "muenster-swimming-pool",
+      "business_name": "Muenster Swimming Pool",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Inside Muenster City Park, just south of the Highway 82 / FM 373 intersection, Muenster, TX 76252",
+      "category": [
+        "Public Swimming Pool",
+        "Family Recreation",
+        "Outdoor Recreation",
+        "Seasonal Attraction",
+        "Event Venue"
+      ],
+      "tags": [
+        "Muenster Swimming Pool",
+        "Muenster",
+        "Cooke County",
+        "Swimming",
+        "Public Pool",
+        "Summer",
+        "Family Activities",
+        "Swim Lessons",
+        "Pool Parties",
+        "Outdoor Recreation",
+        "City Park"
+      ],
+      "description": "Muenster Swimming Pool is the City of Muenster's seasonal municipal pool located inside Muenster City Park. Open during the summer season, the pool provides public swimming, Red Cross swim lessons and private pool-party rentals for residents and visitors.",
+      "why_visit": "The pool is an inexpensive family-friendly way to cool off during a summer day in Muenster and can easily be combined with the playgrounds, courts, walking paths and other recreation available within City Park.",
+      "why_its_unique": "The municipal pool combines affordable public swimming with private party rentals and organized swim instruction in the heart of Muenster's primary community park.",
+      "phone": "940-759-2236",
+      "email": "info@cityofmuenstertx.org",
+      "website": "https://cityofmuenstertx.org/departments/parks-rec/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": false,
+      "dog_friendly": false,
+      "hours": {
+        "sunday": "1:00 PM-7:00 PM seasonally",
+        "monday": "Closed",
+        "tuesday": "1:00 PM-7:00 PM seasonally",
+        "wednesday": "1:00 PM-7:00 PM seasonally",
+        "thursday": "1:00 PM-7:00 PM seasonally",
+        "friday": "1:00 PM-7:00 PM seasonally",
+        "saturday": "1:00 PM-7:00 PM seasonally"
+      },
+      "hours_note": "The City of Muenster lists the pool as operating seasonally from Memorial Day weekend through approximately mid-August. Public swim hours are Tuesday-Sunday 1:00 PM-7:00 PM. Exact opening and closing dates can vary by season.",
+      "at_a_glance": {
+        "average_visit": "1-4 hours",
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": false,
+        "dog_friendly": false,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Public swimming",
+        "Seasonal outdoor pool",
+        "Private pool-party rentals",
+        "Red Cross swim lessons",
+        "Adjacent playgrounds",
+        "Adjacent basketball court",
+        "Adjacent volleyball court",
+        "Adjacent tennis courts",
+        "Adjacent walking paths",
+        "Adjacent park pavilion"
+      ],
+      "good_to_know": [
+        "Current public admission is $5 per person.",
+        "The pool generally operates from Memorial Day weekend through mid-August.",
+        "Regular public swim hours are Tuesday through Sunday from 1:00 PM to 7:00 PM.",
+        "The pool is closed Mondays under the regular seasonal schedule.",
+        "Children under 10 must be accompanied by an adult.",
+        "Private pool-party rentals are available.",
+        "Red Cross swim lessons are offered seasonally.",
+        "The pool is located within Muenster City Park.",
+        "The City of Muenster manages pool and facility reservations through its Parks & Recreation operations.",
+        "The published phone and email are City Hall / Parks & Recreation contact information rather than a dedicated pool office."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium-high",
+      "parent_business": "muenster-city-park",
+      "related_businesses": [
+        "muenster-city-park"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing Muenster Swimming Pool record. The current official City of Muenster Parks & Recreation page confirms the municipal pool is located within Muenster City Park and operates seasonally from Memorial Day weekend through mid-August. Current public swim hours are Tuesday-Sunday 1:00 PM-7:00 PM with admission of $5 per person. The City confirms private pool-party rentals and Red Cross swim lessons are available and states that children under 10 must be accompanied by an adult. City Hall publishes 940-759-2236 and info@cityofmuenstertx.org as the Parks & Recreation contact. No exact street address for the pool itself is published, so TWG identifies it by its verified location within City Park rather than inventing a street address.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Swim lessons",
+        "Private pool parties",
+        "Community swim events",
+        "Seasonal recreation programs"
+      ],
+      "event_sources": [
+        "City of Muenster Parks & Recreation",
+        "City of Muenster announcements"
+      ],
+      "features": [
+        "Municipal outdoor swimming pool",
+        "$5 public admission",
+        "Private pool rentals",
+        "Red Cross swim lessons",
+        "Located inside Muenster City Park",
+        "Summer family recreation"
       ]
     }
   ]
