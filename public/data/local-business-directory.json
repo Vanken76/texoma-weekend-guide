@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 883,
-  "publish_ready_count": 558,
+  "business_count": 884,
+  "publish_ready_count": 559,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -88176,6 +88176,146 @@
         "Holiday programming",
         "Children's educational activities",
         "Community resource center"
+      ]
+    },
+    {
+      "slug": "whitesboro-public-library",
+      "business_name": "Whitesboro Public Library",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "308 W Main Street, Whitesboro, TX 76273",
+      "category": [
+        "Public Library",
+        "Community Resource",
+        "Family Activities",
+        "Educational Attraction",
+        "Event Venue"
+      ],
+      "tags": [
+        "Whitesboro",
+        "Grayson County",
+        "Public Library",
+        "Story Time",
+        "Summer Reading",
+        "Children's Activities",
+        "Teen Programs",
+        "Adult Programs",
+        "Community Events",
+        "Meeting Room",
+        "Family Activities"
+      ],
+      "description": "Whitesboro Public Library is a city-operated library and active community gathering place serving Whitesboro and western Grayson County. Beyond its collection of books and other materials, the library offers children's and family programming, reading challenges for multiple age groups, recurring story time, special summer activities, meeting-room access and community-group gatherings.",
+      "why_visit": "A free community destination for books, children's activities, story time, seasonal reading programs, special family events and local gatherings.",
+      "why_its_unique": "Whitesboro Public Library has developed into an especially active small-town gathering place, combining traditional library services with recurring family programming, summer events and a Community Room regularly used by local clubs and organizations.",
+      "phone": "903-564-5432",
+      "email": null,
+      "website": "https://www.whitesboro.org/library",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "9:00 AM-5:00 PM",
+        "tuesday": "9:00 AM-5:30 PM",
+        "wednesday": "9:00 AM-5:00 PM",
+        "thursday": "9:00 AM-5:30 PM",
+        "friday": "9:00 AM-5:00 PM",
+        "saturday": "9:00 AM-3:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "The City currently publishes Monday, Wednesday and Friday 9:00 AM-5:00 PM and Tuesday and Thursday 9:00 AM-5:30 PM. Current June 2026 local reporting states Saturday hours resumed June 20 from 9:00 AM-3:00 PM. Holiday and special-event schedules may vary.",
+      "at_a_glance": {
+        "average_visit": "30 minutes to 2 hours",
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Library collection",
+        "Children's activity area",
+        "Preschool Story Time",
+        "Summer Reading Challenge",
+        "Teen reading programs",
+        "Adult reading programs",
+        "Community Room",
+        "Meeting-room use",
+        "Public computers",
+        "Internet access",
+        "Family activities"
+      ],
+      "good_to_know": [
+        "The library is located at 308 W Main Street in Whitesboro.",
+        "Current Library Director Christine Swiler has emphasized expanding the library as an active gathering place for residents of all ages.",
+        "Preschool Story Time is currently held Wednesdays at 10:00 AM.",
+        "The 2026 Summer Reading Challenge ran for seven weeks for children entering kindergarten through fifth grade.",
+        "Teen Reading Bingo and Adult Reading Bingo have also been offered.",
+        "Special 2026 summer programming included a petting zoo, Kona Ice party with lawn games and an ice-cream social.",
+        "Nearly 200 people attended a 2026 library petting-zoo event.",
+        "The library has a Community Room used regularly by local clubs, musicians, garden groups and other community organizations.",
+        "The library collection includes approximately 30,000 books and other materials."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Whitesboro Area Chamber of Commerce"
+      ],
+      "related_geography": [
+        "Whitesboro",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current City of Whitesboro sources and June 2026 local reporting. Current sources confirm the 308 W Main Street location, 903-564-5432 phone number, weekday operating hours and resumed Saturday hours. Current programming includes weekly Preschool Story Time, children's Summer Reading Challenge activities, teen and adult reading programs and special family events. The library also provides meeting and community gathering space. An older emergency-management page contains closure-era information and an older email address, so that material was not treated as current operational data.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Story times",
+        "Summer reading programs",
+        "Children's activities",
+        "Teen programs",
+        "Adult reading programs",
+        "Family events",
+        "Educational programs",
+        "Community meetings",
+        "Special seasonal events",
+        "Library programs"
+      ],
+      "event_sources": [
+        "City of Whitesboro library page",
+        "City of Whitesboro calendar and announcements",
+        "Whitesboro Public Library programming announcements",
+        "Whitesboro News-Record library coverage"
+      ],
+      "features": [
+        "Weekly Preschool Story Time",
+        "Summer Reading Challenge",
+        "Teen and adult reading programs",
+        "Children's activity area",
+        "Community Room",
+        "Public computers and internet access",
+        "Special family programming",
+        "Active community gathering space"
       ]
     }
   ]
