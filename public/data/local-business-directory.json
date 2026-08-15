@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 873,
-  "publish_ready_count": 548,
+  "business_count": 874,
+  "publish_ready_count": 549,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -86901,6 +86901,145 @@
         "Ribbon-cutting support",
         "Community networking",
         "Downtown event programming"
+      ]
+    },
+    {
+      "slug": "atoka-area-chamber-of-commerce",
+      "business_name": "Atoka Area Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "435 E Court St, Atoka, OK 74525 — serving the greater Atoka area and Atoka County business community",
+      "category": [
+        "Chamber of Commerce",
+        "Business Organization",
+        "Community Organization"
+      ],
+      "tags": [
+        "Atoka",
+        "Atoka County",
+        "Southern Oklahoma",
+        "Chamber of Commerce",
+        "Community Events",
+        "Business Networking",
+        "Leadership Atoka",
+        "Chamber Cup",
+        "Women in Business",
+        "Legislative Luncheon",
+        "Business Workshops"
+      ],
+      "description": "The Atoka Area Chamber of Commerce is a business and community organization serving the greater Atoka, Oklahoma area. The Chamber promotes, supports and grows the local business community through networking, advocacy, business education, community partnerships, leadership development, ribbon cuttings and recurring public and member events. Its website also maintains an active member-event calendar that serves as a broad source for activities throughout Atoka and surrounding communities.",
+      "why_visit": "A central resource for Atoka business information, networking, professional-development programs, community activities and a frequently updated local event calendar.",
+      "why_its_unique": "In addition to an active Chamber-produced event schedule, the organization maintains a separate member-events calendar covering entertainment, fairs, library programs, community celebrations and other activities across the Atoka area.",
+      "phone": "580-889-2410",
+      "email": "info@atokaokchamber.com",
+      "website": "https://atokaokchamber.com/",
+      "facebook": "https://www.facebook.com/AtokaCountyChamber",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "9:00 AM - 3:00 PM",
+        "tuesday": "9:00 AM - 3:00 PM",
+        "wednesday": "9:00 AM - 3:00 PM",
+        "thursday": "9:00 AM - 3:00 PM",
+        "friday": "9:00 AM - 3:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current official office hours are Monday through Friday from 9:00 AM to 3:00 PM. Chamber events, meetings and member activities regularly occur outside office hours.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Business directory",
+        "Chamber event calendar",
+        "Member event calendar",
+        "Business networking",
+        "Business workshops and seminars",
+        "Ribbon-cutting support",
+        "Leadership development",
+        "Community information"
+      ],
+      "good_to_know": [
+        "The Chamber's current public-facing name is Atoka Area Chamber of Commerce; some site footer and legacy references still use Atoka County Chamber of Commerce.",
+        "The official mailing address is PO Box 778, Atoka, OK 74525.",
+        "Breakfast with the Chamber is generally held during odd-numbered months at a host business.",
+        "General Membership Luncheons are generally held during even-numbered months at the Atoka Community Building.",
+        "The annual Chamber Gala is a spring event featuring entertainment, dinner and live and silent auctions.",
+        "Recurring mining targets include Chamber Cup Golf Tournament, Women in Business programs, legislative luncheons, business workshops, ribbon cuttings, Leadership Atoka and networking mixers.",
+        "The Chamber maintains a separate member-events calendar that currently carries entertainment, library programs, fairs, fundraisers and other community activities.",
+        "The Chamber works with organizations including the City of Atoka, Choctaw Nation and Kiamichi Technology Center."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Durant Area Chamber of Commerce"
+      ],
+      "related_geography": [
+        "Atoka",
+        "Atoka County",
+        "Oklahoma"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current first-party Atoka Area Chamber of Commerce sources and the live Texoma Weekend Guide directory. Official sources confirm the 435 E Court St office, PO Box 778 mailing address, 580-889-2410 phone number, info@atokaokchamber.com email, Monday-Friday 9:00 AM-3:00 PM office hours, business-growth mission, recurring Chamber programming and extensive Chamber/member event calendars. Current upcoming Chamber programming includes Women in Business, September Breakfast with the Chamber, Chamber Cup Golf Tournament and Chillin' With The Chamber.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Business networking",
+        "Membership luncheons",
+        "Breakfast networking",
+        "Women in Business events",
+        "Golf tournaments",
+        "Chamber galas",
+        "Legislative luncheons",
+        "Leadership programs",
+        "Ribbon cuttings",
+        "Business workshops",
+        "Community celebrations",
+        "Member events"
+      ],
+      "event_sources": [
+        "Atoka Area Chamber of Commerce Chamber Events calendar",
+        "Atoka Area Chamber of Commerce Member Events calendar",
+        "Atoka Area Chamber of Commerce Chamber Meetings page",
+        "Atoka Area Chamber of Commerce official website",
+        "Atoka Area Chamber of Commerce Facebook"
+      ],
+      "features": [
+        "Two active event calendars",
+        "Business networking",
+        "Leadership Atoka",
+        "Business education",
+        "Chamber Cup Golf Tournament",
+        "Annual Chamber Gala",
+        "Women in Business programming",
+        "Legislative programming",
+        "Ribbon-cutting support",
+        "Community partnerships"
       ]
     }
   ]
