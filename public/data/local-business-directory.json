@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 870,
-  "publish_ready_count": 545,
+  "business_count": 871,
+  "publish_ready_count": 546,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -86537,6 +86537,128 @@
         "Community event partnerships",
         "Member event promotion",
         "Business advocacy"
+      ]
+    },
+    {
+      "slug": "whitewright-area-chamber-of-commerce",
+      "business_name": "Whitewright Area Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "113 W Grand Ave, Whitewright, TX 75491 — serving Whitewright and surrounding communities",
+      "category": [
+        "Chamber of Commerce",
+        "Business Organization",
+        "Community Organization",
+        "Visitor Information"
+      ],
+      "tags": [
+        "Whitewright",
+        "Grayson County",
+        "Fannin County",
+        "Chamber of Commerce",
+        "Community Events",
+        "Business Networking",
+        "Downtown Whitewright",
+        "Golf Tournament",
+        "Downtown Trick or Treat",
+        "Fall Festival",
+        "Visitor Information"
+      ],
+      "description": "The Whitewright Area Chamber of Commerce is a business and community organization serving Whitewright, Texas and surrounding communities. The Chamber promotes economic development, local businesses and community quality of life while maintaining a business directory, visitor resources, public meetings and a recurring calendar of festivals, networking opportunities and community events.",
+      "why_visit": "A useful resource for Whitewright business information, visitor assistance, community events, local networking and recurring downtown activities.",
+      "why_its_unique": "The Chamber combines business-development work with hands-on production and promotion of several of Whitewright's traditional community events while also supporting visitor information in the historic downtown area.",
+      "phone": "903-364-2000",
+      "email": "info@whitewrightchamber.com",
+      "website": "https://www.whitewright.org/",
+      "facebook": "https://www.facebook.com/WhitewrightChamber",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The Chamber's official website identifies the Whitewright Visitor Center as open Monday through Friday from 9:00 AM to 1:00 PM, but does not clearly distinguish those visitor-center hours from regular Chamber office staffing. Call before making a time-sensitive office visit.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Business directory",
+        "Community event calendar",
+        "Visitor information",
+        "Business networking",
+        "Member promotion",
+        "Sponsorship opportunities"
+      ],
+      "good_to_know": [
+        "Public Chamber meetings are normally held on the second Tuesday of each month at 6:30 PM.",
+        "Monthly meetings are held in the Whitewright Visitor Center Meeting Room at 111 W Grand.",
+        "The Chamber's public contact location is 113 W Grand Ave.",
+        "Current event-mining targets include the Chamber golf tournament, Downtown Trick or Treat, Fall Festival and other annual community activities.",
+        "The Chamber produced the 2026 Shells & Tails event featuring a skeet-shoot tournament, crawfish and live music.",
+        "The Chamber maintains a public business directory and community-event calendar.",
+        "Whitewright is primarily in Grayson County, with part of the city extending into Fannin County."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Whitewright",
+        "Grayson County",
+        "Fannin County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Current first-party Whitewright Area Chamber of Commerce sources confirm the organization, 113 W Grand Ave contact location, P.O. Box 189 mailing address, 903-364-2000 phone number, info@whitewrightchamber.com email, business directory, visitor resources, public monthly meetings and active community-event calendar. Current 2026 listings include the September 21 golf tournament and October 31 Downtown Trick or Treat, while other Chamber materials document recurring Fall Festival programming and the 2026 Shells & Tails event. Visitor Center access is published as Monday-Friday 9:00 AM-1:00 PM, but separate Chamber office staffing hours were not inferred.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Community festivals",
+        "Golf tournaments",
+        "Halloween events",
+        "Downtown events",
+        "Chamber meetings",
+        "Business networking",
+        "Awards events",
+        "Food festivals",
+        "Live music events",
+        "Family events"
+      ],
+      "event_sources": [
+        "Whitewright Area Chamber of Commerce event calendar",
+        "Whitewright Area Chamber of Commerce official website",
+        "Whitewright Area Chamber of Commerce event pages",
+        "Whitewright Area Chamber of Commerce Facebook"
+      ],
+      "features": [
+        "Public community-event calendar",
+        "Business directory",
+        "Visitor information",
+        "Monthly public meetings",
+        "Business promotion",
+        "Community festival programming",
+        "Sponsorship opportunities"
       ]
     }
   ]
