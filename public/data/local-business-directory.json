@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 829,
-  "publish_ready_count": 504,
+  "business_count": 830,
+  "publish_ready_count": 505,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -80710,6 +80710,149 @@
         "Same property as Kountry Korner",
         "Convenient for festival weekends",
         "Adjacent food and convenience services"
+      ]
+    },
+    {
+      "slug": "bee-sweet-and-such-muenster",
+      "business_name": "Bee Sweet & Such",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "125 S Hickory St, Muenster, TX 76252",
+      "category": [
+        "Dessert Shop",
+        "Coffee Shop",
+        "Sweet Treats",
+        "Local Dining"
+      ],
+      "tags": [
+        "Bee Sweet & Such",
+        "Muenster",
+        "Cooke County",
+        "Snow Cones",
+        "Lemonade",
+        "Coffee",
+        "Specialty Drinks",
+        "Milkshakes",
+        "Cotton Candy",
+        "Baked Goods",
+        "Cookies",
+        "Desserts",
+        "Family Friendly",
+        "Germanfest Vendor"
+      ],
+      "description": "Bee Sweet & Such is a cheerful small-town dessert and drink stop in Muenster serving handcrafted snow cones, fresh-squeezed lemonade, specialty coffee drinks, milk and honey shakes, cotton candy, baked goods and rotating seasonal treats.",
+      "why_visit": "Bee Sweet is an easy stop for a cold drink, coffee or dessert while exploring Muenster. Its colorful treats, outdoor seating and Queen Bee mural make it especially fun for families and visitors looking for a quick photo-friendly stop.",
+      "why_its_unique": "The business grew from custom baking and cookies into a seasonal storefront offering an unusually broad mix of snow cones, lemonade, coffee, shakes, cotton candy and baked sweets.",
+      "phone": "940-727-9026",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": true,
+      "dog_friendly": "Dogs allowed in outdoor areas",
+      "hours": {
+        "sunday": "Closed",
+        "monday": "Closed",
+        "tuesday": "8:00 AM-4:00 PM",
+        "wednesday": "8:00 AM-4:00 PM",
+        "thursday": "8:00 AM-4:00 PM",
+        "friday": "8:00 AM-4:00 PM",
+        "saturday": "Closed"
+      },
+      "hours_note": "Current local-business data lists Tuesday-Friday 8:00 AM-4:00 PM. Bee Sweet describes itself as seasonal, so hours and operating days can change and should be checked before a special trip.",
+      "at_a_glance": {
+        "average_visit": "10-45 minutes",
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": true,
+        "dog_friendly": "Outdoor areas",
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Snow cones",
+        "Fresh-squeezed lemonade",
+        "Specialty coffee drinks",
+        "Milk and honey shakes",
+        "Cotton candy",
+        "Baked goods",
+        "Custom cookies",
+        "Seasonal drinks",
+        "Outdoor seating",
+        "Curbside pickup",
+        "Takeout",
+        "Drive-through service",
+        "Catering",
+        "Queen Bee mural",
+        "Wheelchair-accessible entrance",
+        "Wheelchair-accessible parking"
+      ],
+      "good_to_know": [
+        "Bee Sweet & Such is located at 125 S Hickory St in Muenster.",
+        "The business describes itself as a seasonal small-town stand, so operating days and hours can change.",
+        "Snow cones, fresh-squeezed lemonade, coffee drinks, milk and honey shakes, cotton candy and baked goods are current specialties.",
+        "The business originally developed around cakes and custom decorated cookies before expanding into drinks and other treats.",
+        "Current business data identifies Bee Sweet as women-owned.",
+        "Outdoor seating is available.",
+        "Dogs are currently listed as allowed in outdoor areas.",
+        "Curbside pickup, takeout, drive-through service and catering are currently listed.",
+        "The Queen Bee mural provides a photo opportunity at the storefront.",
+        "Bee Sweet participated as an official vendor at Germanfest 2026.",
+        "Current phone data conflicts: multiple Muenster-area and restaurant sources publish 940-727-9026, while one current local-business profile publishes 940-291-2842. TWG uses the number supported by multiple independent current sources while preserving the discrepancy."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium-high",
+      "parent_business": null,
+      "related_businesses": [
+        "muenster-city-park",
+        "heritage-park-event-center-muenster",
+        "bayers-kolonialwaren-bakery-muenster"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 15, 2026. Fresh TWG repository search found no existing Bee Sweet & Such record. Current Muenster visitor material and restaurant sources confirm the business at 125 S Hickory St, Muenster, TX 76252 and phone 940-727-9026. Current business data describes handcrafted snow cones, fresh-squeezed lemonade, specialty coffee drinks, milk and honey shakes, cotton candy and baked goods and lists outdoor seating, curbside pickup, drive-through service, catering, wheelchair-accessible parking and entrance, and dogs allowed outdoors. The current local-business schedule lists Tuesday-Friday 8:00 AM-4:00 PM, but Bee Sweet identifies itself as seasonal, so TWG notes that hours may change. The official 2026 Germanfest vendor roster includes Bee Sweet, supporting event mining. One current local-business profile publishes phone 940-291-2842 rather than 940-727-9026; TWG uses the latter because multiple independent current Muenster and restaurant sources publish it.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Festival vendor appearances",
+        "Community vendor events",
+        "Seasonal promotions",
+        "Custom dessert catering"
+      ],
+      "event_sources": [
+        "Germanfest Muenster vendor roster",
+        "Bee Sweet & Such social channels",
+        "Muenster community vendor announcements"
+      ],
+      "features": [
+        "Snow cones and lemonade",
+        "Specialty coffee drinks",
+        "Milk and honey shakes",
+        "Cotton candy and baked goods",
+        "Queen Bee mural",
+        "Outdoor seating",
+        "Family-friendly sweet stop",
+        "Germanfest vendor"
       ]
     }
   ]
