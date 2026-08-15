@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 880,
-  "publish_ready_count": 555,
+  "business_count": 881,
+  "publish_ready_count": 556,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -87779,6 +87779,140 @@
         "Local-business promotion",
         "Community outreach",
         "Special-event involvement"
+      ]
+    },
+    {
+      "slug": "texoma-exposition-livestock-show",
+      "business_name": "Texoma Exposition & Livestock Show, Inc.",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "770 R.C. Vaughan Rd, Denison, TX 75020 — livestock-show and event facilities at the west end of Loy Park serving Grayson County",
+      "category": [
+        "Agricultural Organization",
+        "Livestock Show",
+        "Event Venue",
+        "Equestrian Venue",
+        "Youth Organization"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "Loy Lake",
+        "Loy Park",
+        "Livestock Show",
+        "FFA",
+        "4-H",
+        "FCCLA",
+        "Agriculture",
+        "Ag Mechanics",
+        "Youth Events",
+        "Mayor Arena",
+        "Facility Rental"
+      ],
+      "description": "Texoma Exposition & Livestock Show, Inc. is a Grayson County agricultural and youth organization responsible for the annual Texoma Exposition & Livestock Show, commonly known as the Loy Lake show. The annual county show gives Grayson County FFA and 4-H members opportunities to exhibit livestock and Ag Mechanics projects while FFA, 4-H and FCCLA students also participate in creative-arts and general exhibits. TELS also maintains livestock-show and arena facilities at Loy Park that are available for additional events and rentals.",
+      "why_visit": "A major Grayson County destination for youth livestock competitions, agricultural exhibits, Ag Mechanics projects and other scheduled arena and community events.",
+      "why_its_unique": "TELS is the organization behind Grayson County's annual youth livestock show and operates dedicated show facilities inside Loy Park, combining agricultural education, youth competition and rentable arena space in one long-running local institution.",
+      "phone": "903-815-2780",
+      "email": "TELS@gcecisp.com",
+      "website": "https://texomalivestock.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "TELS operates according to livestock-show schedules, facility rentals and other scheduled events rather than regular public attraction hours. Contact TELS or the facility-rental coordinator before making a special trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Fully enclosed Mayor Arena",
+        "Small Show Arena",
+        "Livestock facilities",
+        "Arena bleachers",
+        "Concessions room",
+        "Indoor restrooms",
+        "Announcer booths",
+        "PA and sound systems",
+        "Removable arena panels",
+        "Large concrete staging area",
+        "Facility rentals"
+      ],
+      "good_to_know": [
+        "The annual Texoma Exposition & Livestock Show is commonly known as the Loy Lake show.",
+        "The show serves FFA and 4-H members throughout Grayson County.",
+        "FFA, 4-H and FCCLA students also participate in Creative Arts and General Exhibits.",
+        "The 2026 TELS County Show was held March 1-6.",
+        "TELS facilities are located at the west end of Loy Park in Denison.",
+        "The Mayor Arena is a large fully enclosed arena with concessions, restrooms, bleachers, an announcer booth, sound system, fans and removable arena panels.",
+        "A separate Small Show Arena includes a PA system, announcer stand and bleachers.",
+        "For facility rentals, the organization currently directs inquiries to Bob Schnitker at 903-813-6229.",
+        "Grounds and maintenance inquiries are currently directed to Leroy Griswold at 903-821-6432."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Frontier Village & Museum"
+      ],
+      "related_geography": [
+        "Denison",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current first-party Texoma Exposition & Livestock Show sources and the live Texoma Weekend Guide directory. TELS confirms that it facilitates the annual Grayson County Youth Livestock Show, commonly known as the Loy Lake show, and supports livestock, Ag Mechanics and Creative Arts/General Exhibits involving Grayson County FFA, 4-H and FCCLA students. Official sources confirm the 770 R.C. Vaughan Rd location at the west end of Loy Park, 903-815-2780 TELS contact number, TELS@gcecisp.com email and rentable Mayor Arena and Small Show Arena facilities. The 2026 County Show was held March 1-6.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Livestock shows",
+        "Youth agricultural competitions",
+        "FFA events",
+        "4-H events",
+        "FCCLA exhibits",
+        "Ag Mechanics competitions",
+        "Creative arts exhibits",
+        "Agricultural fairs",
+        "Arena events",
+        "Facility rentals"
+      ],
+      "event_sources": [
+        "Texoma Exposition & Livestock Show official website",
+        "Texoma Exposition & Livestock Show calendar",
+        "Texoma Exposition & Livestock Show show-information pages"
+      ],
+      "features": [
+        "Annual Grayson County Youth Livestock Show",
+        "Loy Lake show",
+        "FFA and 4-H programming",
+        "Ag Mechanics competition",
+        "Creative Arts and General Exhibits",
+        "Fully enclosed Mayor Arena",
+        "Small Show Arena",
+        "Rentable event facilities",
+        "Youth agricultural education"
       ]
     }
   ]
