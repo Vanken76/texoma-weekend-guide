@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 869,
-  "publish_ready_count": 544,
+  "business_count": 870,
+  "publish_ready_count": 545,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -86405,6 +86405,138 @@
         "Howe Hall of Honor",
         "Shop-local promotion",
         "Business directory"
+      ]
+    },
+    {
+      "slug": "van-alstyne-chamber-of-commerce",
+      "business_name": "Van Alstyne Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "120 E Marshall Street, Van Alstyne, TX 75495 — serving Van Alstyne and connecting with businesses throughout Grayson County",
+      "category": [
+        "Chamber of Commerce",
+        "Business Organization",
+        "Community Organization"
+      ],
+      "tags": [
+        "Van Alstyne",
+        "Grayson County",
+        "Chamber of Commerce",
+        "Community Events",
+        "Business Networking",
+        "Margarita Crawl",
+        "Sip & Stroll",
+        "Downtown Van Alstyne",
+        "Golf Tournament",
+        "Ribbon Cuttings",
+        "Professional Development"
+      ],
+      "description": "The Van Alstyne Chamber of Commerce is a business and community organization supporting businesses, entrepreneurs and community connections in Van Alstyne, Texas. The Chamber promotes local businesses through advocacy, networking, resources, professional development, member promotion and community initiatives while partnering with the City of Van Alstyne on recurring events and activities.",
+      "why_visit": "A useful source for Van Alstyne business information, networking opportunities, community events, member activities and downtown programs.",
+      "why_its_unique": "The Chamber combines business advocacy with hands-on production and promotion of community activities such as the Downtown Van Alstyne Margarita Crawl, Sip & Stroll and other recurring programs in one of Grayson County's fastest-growing communities.",
+      "phone": "903-820-2876",
+      "email": "vanalstynechamber@gmail.com",
+      "website": "https://www.vanalstynechamber.org/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "9:00 AM - 2:00 PM",
+        "tuesday": "Closed",
+        "wednesday": "9:00 AM - 2:00 PM",
+        "thursday": "9:00 AM - 2:00 PM",
+        "friday": "Closed",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current official Chamber office hours are Monday, Wednesday and Thursday from 9:00 AM to 2:00 PM. Chamber and community events may occur outside regular office hours.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Business directory",
+        "Community event calendar",
+        "Business networking",
+        "Professional-development programs",
+        "Member event submissions",
+        "Community information"
+      ],
+      "good_to_know": [
+        "The Chamber maintains a public community calendar where member businesses can submit events.",
+        "Monthly Chamber board meetings are held on the second Monday of each month at 12:30 PM at the Chamber office.",
+        "The Chamber works closely with the City of Van Alstyne on community events.",
+        "Recurring event-mining targets include the Downtown Van Alstyne Margarita Crawl, Sip & Stroll, Chamber golf tournament, networking events, ribbon cuttings and professional-development programs.",
+        "The 2026 Margarita Crawl was the third annual event and the Chamber has already indicated that it will return in 2027.",
+        "The Chamber has already announced plans for its next golf tournament in May 2027.",
+        "The Chamber's mailing address is P.O. Box 698, Van Alstyne, TX 75495."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Central Social District Park",
+        "Howe Area Chamber of Commerce",
+        "Sherman Chamber of Commerce"
+      ],
+      "related_geography": [
+        "Van Alstyne",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Current first-party Van Alstyne Chamber of Commerce sources confirm the organization, 120 E Marshall Street location, P.O. Box 698 mailing address, 903-820-2876 phone number, vanalstynechamber@gmail.com email, Monday/Wednesday/Thursday 9:00 AM-2:00 PM office hours, business-advocacy mission, member event calendar and recurring community programming. Verified recurring event targets include the Margarita Crawl, Sip & Stroll, monthly board meetings, networking activities, ribbon cuttings and Chamber golf tournament.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Downtown events",
+        "Business networking",
+        "Margarita crawls",
+        "Sip and stroll events",
+        "Golf tournaments",
+        "Ribbon cuttings",
+        "Board meetings",
+        "Professional-development workshops",
+        "Member events",
+        "Community gatherings"
+      ],
+      "event_sources": [
+        "Van Alstyne Chamber of Commerce event calendar",
+        "Van Alstyne Chamber of Commerce official website",
+        "Van Alstyne Chamber of Commerce event pages",
+        "Van Alstyne Chamber member announcements"
+      ],
+      "features": [
+        "Public community-event calendar",
+        "Business directory",
+        "Monthly networking opportunities",
+        "Professional development",
+        "Community event partnerships",
+        "Member event promotion",
+        "Business advocacy"
       ]
     }
   ]
