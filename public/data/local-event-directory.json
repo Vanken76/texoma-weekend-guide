@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 295,
-  "publish_ready_count": 295,
+  "event_count": 296,
+  "publish_ready_count": 296,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -19979,6 +19979,69 @@
       "last_checked": "2026-08-14",
       "created_on": "2026-08-14",
       "updated_on": "2026-08-15"
+    },
+    {
+      "event_slug": "sunday-brunch-4r-ranch-vineyards-winery",
+      "event_name": "Sunday Brunch at 4R Ranch Vineyards & Winery",
+      "description": "Spend Sunday brunch at 4R Ranch Vineyards & Winery in Muenster. The recurring brunch features classic brunch selections in the winery's scenic tasting-room and patio setting, with wine available separately. Reservations are recommended, especially for larger groups.",
+      "start_datetime": "2026-08-16T11:00:00-05:00",
+      "end_datetime": "2026-08-16T13:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_name": "4R Ranch Vineyards & Winery",
+      "address": "1473 County Road 477",
+      "city": "Muenster",
+      "state": "TX",
+      "postal_code": "76252",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Brunch",
+        "Food & Drink",
+        "Winery Event",
+        "Recurring Event"
+      ],
+      "tags": [
+        "4R Ranch",
+        "4R Wines",
+        "Sunday Brunch",
+        "Brunch",
+        "Winery",
+        "Wine",
+        "Muenster",
+        "Cooke County"
+      ],
+      "cost_type": "varies",
+      "cost_details": "Brunch menu items and wine are priced individually. Parties of 8 or more require a deposit when reserving.",
+      "audience": [
+        "Brunch Guests",
+        "Winery Visitors",
+        "Couples",
+        "Groups"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "4r-ranch-vineyards-winery",
+      "organizer_name": "4R Ranch Vineyards & Winery",
+      "image_url": "/images/events/sunday-brunch-4r-ranch-vineyards-winery.png",
+      "image_alt": null,
+      "official_url": "https://www.4rwines.com/Muenster",
+      "ticket_url": "https://www.exploretock.com/4rwines/experience/410171/sunday-brunch",
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=SU",
+      "recurrence_start_date": "2026-08-16",
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Fully researched August 14, 2026. A fresh duplicate check against the canonical TWG event directory found no existing 4R Sunday Brunch event record. The official 4R Ranch Vineyards & Winery Muenster page publishes Sunday Brunch from 11:00 AM to 1:00 PM and recommends reservations. The winery's official Tock booking page independently states that Muenster Sunday Brunch is offered every Sunday, accepts reservations for parties of 1 to 40, and requires a deposit for parties of 8 or more. The existing canonical venue slug 4r-ranch-vineyards-winery is used. Individual food and wine prices vary, so no fixed admission cost is inferred.",
+      "last_checked": "2026-08-14",
+      "created_on": "2026-08-14",
+      "updated_on": "2026-08-15",
+      "venue_slugs": [
+        "4r-ranch-vineyards-winery"
+      ],
+      "partner_business_slugs": [],
+      "partner_names": []
     }
   ]
 }
