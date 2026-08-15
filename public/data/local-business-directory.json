@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 881,
-  "publish_ready_count": 556,
+  "business_count": 882,
+  "publish_ready_count": 557,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -87913,6 +87913,125 @@
         "Small Show Arena",
         "Rentable event facilities",
         "Youth agricultural education"
+      ]
+    },
+    {
+      "slug": "tioga-city-park",
+      "business_name": "Tioga City Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "700 Main Street, Tioga, TX 76271",
+      "category": [
+        "Park",
+        "Outdoor Recreation",
+        "Community Venue",
+        "Family Attraction"
+      ],
+      "tags": [
+        "Tioga",
+        "Grayson County",
+        "City Park",
+        "Playground",
+        "Walking Trail",
+        "Basketball",
+        "Gazebo",
+        "Picnic Area",
+        "Family Activities",
+        "Outdoor Recreation",
+        "Community Events"
+      ],
+      "description": "Tioga City Park is a city-operated community park in Tioga, Texas offering outdoor recreation and family-friendly amenities near the center of town. The park includes a walking trail, basketball court, playground equipment, grills, picnic tables and a gazebo and also serves as a gathering place for occasional community activities and outdoor events.",
+      "why_visit": "A convenient free outdoor stop in Tioga for walking, playground time, basketball, picnics and relaxed family recreation.",
+      "why_its_unique": "Tioga City Park gives this small Grayson County community a central outdoor gathering space with recreation facilities, picnic amenities and a gazebo while also serving as an occasional location for city and community events.",
+      "phone": "940-437-2351",
+      "email": null,
+      "website": "https://www.tiogatx.gov/visitors/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The City of Tioga promotes the park as a public recreation area but does not publish a dependable park-specific daily opening and closing schedule on its current visitor page. Contact City Hall at 940-437-2351 for time-sensitive access or facility questions.",
+      "at_a_glance": {
+        "average_visit": "30 minutes to 2 hours",
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Walking trail",
+        "Basketball court",
+        "Playground equipment",
+        "Gazebo",
+        "Picnic tables",
+        "Grills",
+        "Open outdoor space"
+      ],
+      "good_to_know": [
+        "The City of Tioga lists the park at 700 Main Street.",
+        "The park includes a walking trail, basketball court, playground equipment, grills, picnic tables and a gazebo.",
+        "The park is promoted directly by the City of Tioga as a visitor and family-recreation destination.",
+        "The City has previously used Tioga City Park for organized community activities including the Holiday Hustle fun run and walk.",
+        "Tioga is located in southwestern Grayson County near Lake Ray Roberts.",
+        "The City's main contact number is 940-437-2351.",
+        "No dependable current park-specific daily hours were published during verification."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Tioga",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current first-party City of Tioga visitor, contact and event sources. The City confirms Tioga City Park at 700 Main Street with a walking trail, basketball court, playground equipment, grills, picnic tables and gazebo. City records also document organized community use of the park. City Hall publishes 940-437-2351 as the municipal contact number. No dependable current park-specific daily operating schedule, email or social-media profile was asserted.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Community gatherings",
+        "Fun runs",
+        "Family activities",
+        "Outdoor recreation",
+        "Picnics",
+        "Youth activities",
+        "Small outdoor events"
+      ],
+      "event_sources": [
+        "City of Tioga event calendar",
+        "City of Tioga visitor page",
+        "City of Tioga announcements"
+      ],
+      "features": [
+        "Walking trail",
+        "Basketball court",
+        "Playground",
+        "Gazebo",
+        "Picnic tables",
+        "Grills",
+        "Community gathering space",
+        "City-operated park"
       ]
     }
   ]
