@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 876,
-  "publish_ready_count": 551,
+  "business_count": 877,
+  "publish_ready_count": 552,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -87300,6 +87300,132 @@
         "Community event calendar",
         "Festival vendor administration",
         "Local business and attraction information"
+      ]
+    },
+    {
+      "slug": "saint-jo-chamber-of-commerce",
+      "business_name": "Saint Jo Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Saint Jo, TX 76265 — serving Saint Jo businesses, residents and visitors; official mailing address PO Box 130",
+      "category": [
+        "Chamber of Commerce",
+        "Business Organization",
+        "Community Organization",
+        "Visitor Information"
+      ],
+      "tags": [
+        "Saint Jo",
+        "Montague County",
+        "North Texas Hill Country",
+        "Chamber of Commerce",
+        "Community Events",
+        "Tourism",
+        "Chisholm Trail",
+        "Wine Walk",
+        "Christmas Parade",
+        "Fourth of July",
+        "City-Wide Garage Sale",
+        "Business Networking"
+      ],
+      "description": "The Saint Jo Chamber of Commerce is a nonprofit business, community and tourism organization serving Saint Jo, Texas. The Chamber promotes local businesses and economic growth while supporting community activities, visitor information, historic and cultural tourism, recurring Chamber meetings and seasonal events throughout the year.",
+      "why_visit": "A useful resource for Saint Jo businesses, dining, shopping, wineries, lodging, museums, community events and visitor information for the North Texas Hill Country.",
+      "why_its_unique": "The Chamber combines small-business support with heritage tourism and hands-on community-event coordination in historic Saint Jo, a North Texas destination known for its Chisholm Trail history, courthouse square, wineries, arts and live entertainment.",
+      "phone": "214-957-2257",
+      "email": "StJo@SaintJoChamber.com",
+      "website": "https://www.saintjochamber.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The Chamber currently publishes PO Box 130, Saint Jo, TX 76265 rather than a dependable staffed public office location or regular office-hours schedule. Contact the Chamber before attempting a time-sensitive in-person visit.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Business information",
+        "Visitor information",
+        "Community event information",
+        "Tourism resources",
+        "Business promotion",
+        "Community networking"
+      ],
+      "good_to_know": [
+        "The Chamber's official mailing address is PO Box 130, Saint Jo, TX 76265.",
+        "Regular Chamber meetings are held at 5:00 PM on the first Tuesday of each month, with locations announced separately.",
+        "The Chamber coordinates or participates in the City-Wide Garage Sale, Fourth of July Fireworks, Toast to Teachers luncheon, Christmas Parade and Santa on the Square.",
+        "The Chamber also maintains current community-event information covering activities produced by other Saint Jo organizations and venues.",
+        "The Chamber produced the 2026 Saint Jo Wine Walk.",
+        "The Chamber's 2026 community listings included the 69th Annual Saint Jo Rodeo and its own Chamber Banquet.",
+        "The Chamber promotes local shopping, dining and entertainment, wineries, lodging, museums and historic attractions.",
+        "Saint Jo's historic Chisholm Trail Square and western heritage are central parts of the Chamber's visitor promotion."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Saint Jo",
+        "Montague County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current first-party Saint Jo Chamber of Commerce sources. Official sources confirm PO Box 130, 214-957-2257, StJo@SaintJoChamber.com, the Chamber's business-development and visitor-information role, first-Tuesday monthly meetings and direct involvement with recurring community activities including the City-Wide Garage Sale, Fourth of July Fireworks, Toast to Teachers luncheon, Christmas Parade and Santa on the Square. Current Chamber materials also document 2026 community-event promotion and the Chamber-produced Saint Jo Wine Walk.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Chamber meetings",
+        "Wine walks",
+        "City-wide garage sales",
+        "Fourth of July events",
+        "Christmas parades",
+        "Santa events",
+        "Teacher appreciation events",
+        "Community festivals",
+        "Business networking",
+        "Arts events",
+        "Live music events",
+        "Community celebrations"
+      ],
+      "event_sources": [
+        "Saint Jo Chamber of Commerce official website",
+        "Saint Jo Chamber of Commerce upcoming-events listings",
+        "Saint Jo Chamber of Commerce Facebook",
+        "Saint Jo community event listings"
+      ],
+      "features": [
+        "Business promotion",
+        "Visitor and tourism information",
+        "Monthly Chamber meetings",
+        "Community-event coordination",
+        "Heritage tourism promotion",
+        "Wine Walk programming",
+        "Holiday event support",
+        "Local business resources"
       ]
     }
   ]
