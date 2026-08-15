@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 856,
-  "publish_ready_count": 531,
+  "business_count": 857,
+  "publish_ready_count": 532,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -84692,6 +84692,120 @@
         "District map",
         "Magnolia Farmers Market operator",
         "Arts and festival programming"
+      ]
+    },
+    {
+      "slug": "bonham-area-chamber-of-commerce",
+      "business_name": "Bonham Area Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "327 N Main Street, Bonham, TX 75418",
+      "category": [
+        "Chamber of Commerce",
+        "Community Organization",
+        "Business Organization"
+      ],
+      "tags": [
+        "Bonham",
+        "Fannin County",
+        "Community Events",
+        "Business Networking",
+        "Festivals",
+        "Holiday Events",
+        "Downtown Bonham"
+      ],
+      "description": "The Bonham Area Chamber of Commerce is a business and community organization serving Bonham and the surrounding Fannin County area. The Chamber supports local businesses, maintains a member directory and public community-event calendar, provides local information and connections, and organizes or promotes a substantial lineup of recurring festivals, networking opportunities, holiday celebrations and signature community events.",
+      "why_visit": "A useful source for Bonham business information, community connections, local events, festivals and recurring activities throughout Bonham and Fannin County.",
+      "why_its_unique": "The Chamber combines local-business advocacy and networking with one of Bonham's most active public event calendars and a recurring lineup of signature community celebrations.",
+      "phone": "903-583-4811",
+      "email": "info@bonhamchamber.com",
+      "website": "https://bonhamchamber.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "9:00 AM - 4:00 PM",
+        "tuesday": "9:00 AM - 4:00 PM",
+        "wednesday": "9:00 AM - 4:00 PM",
+        "thursday": "9:00 AM - 4:00 PM",
+        "friday": "9:00 AM - 4:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current Chamber office hours are Monday through Friday from 9:00 AM to 4:00 PM. Community events frequently occur outside office hours.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "The Chamber maintains a public community-event calendar that accepts event submissions.",
+        "Recurring Chamber event targets include the Annual Awards Banquet, Easter Festival, Golf Tournament, Margarita Rodeo, Autumn in Bonham, Halloween on the Square, Christmas Tree Lighting, Christmas Parade and Holiday Wine Stroll.",
+        "The Chamber office is located at 327 N Main Street in downtown Bonham.",
+        "Bonham Visitor & Information Center uses the same 327 N Main Street address but is a separate tourism entity.",
+        "The Chamber's current contact page contains a typographical error showing the email domain as bonhamchamber.com.com; other official Chamber pages consistently use info@bonhamchamber.com."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Fannin County Multipurpose Complex"
+      ],
+      "related_geography": [
+        "Bonham",
+        "Fannin County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Current official Bonham Area Chamber of Commerce sources confirm the organization, 327 N Main Street address, 903-583-4811 phone number, weekday office hours, business-directory services, public event calendar and substantial recurring community-event program. The official contact page currently contains an obvious extra '.com' typo in the email address; other official Chamber materials consistently identify the valid address as info@bonhamchamber.com.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Community festivals",
+        "Holiday celebrations",
+        "Parades",
+        "Business networking",
+        "Awards banquets",
+        "Golf tournaments",
+        "Shopping events",
+        "Downtown events",
+        "Community gatherings"
+      ],
+      "event_sources": [
+        "Bonham Area Chamber of Commerce events calendar",
+        "Bonham Area Chamber of Commerce official website",
+        "Bonham Area Chamber of Commerce newsletter"
+      ],
+      "features": [
+        "Public community-event calendar",
+        "Business directory",
+        "Event organizer",
+        "Community event promotion",
+        "Business networking",
+        "Fannin County business resources"
       ]
     }
   ]
