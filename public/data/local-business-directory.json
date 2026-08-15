@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 809,
-  "publish_ready_count": 484,
+  "business_count": 810,
+  "publish_ready_count": 485,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -78137,6 +78137,121 @@
         "Breakfast and lunch",
         "Highway 82 convenience stop",
         "Distinctive Muenster German-food stop"
+      ]
+    },
+    {
+      "slug": "schillinghaus-bed-breakfast-muenster",
+      "business_name": "Schillinghaus Bed & Breakfast",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "134 N Maple St, Muenster, TX 76252",
+      "category": [
+        "Bed & Breakfast",
+        "Lodging",
+        "Boutique Lodging",
+        "Vacation Stay"
+      ],
+      "tags": [
+        "Schillinghaus",
+        "Muenster",
+        "Cooke County",
+        "Bed and Breakfast",
+        "Boutique Lodging",
+        "German-Inspired",
+        "German Heritage",
+        "Germanfest Lodging",
+        "Oktoberfest Lodging",
+        "Weekend Getaway",
+        "Downtown Muenster"
+      ],
+      "description": "Schillinghaus Bed & Breakfast is an upscale German-inspired lodging property in the heart of Muenster. Built by longtime local residents Elaine and Dale Schilling, the property offers individually styled accommodations that blend modern comforts with the character and cultural heritage of Muenster.",
+      "why_visit": "Schillinghaus places overnight guests close to Muenster's restaurants, shops, German heritage attractions and major festivals. Its small-scale boutique setting offers a more distinctive stay than a conventional hotel while keeping visitors close to the center of town.",
+      "why_its_unique": "The property embraces Muenster's German identity through its accommodations and atmosphere and sits directly across from the park associated with Germanfest. Instead of serving breakfast on site, Schillinghaus provides guests with breakfast vouchers encouraging them to visit local restaurants and bakeries.",
+      "phone": "940-759-2080",
+      "email": "schillinghausmuenster@gmail.com",
+      "website": "https://www.schillinghausmuenster.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$-$$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Lodging operates by reservation rather than regular public walk-in hours. Standard published check-in for the Sunday Haus is 3:00 PM and check-out is 11:00 AM.",
+      "at_a_glance": {
+        "average_visit": "Overnight or multi-day stay",
+        "price_range": "$$-$$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": "Breakfast vouchers provided for local restaurants and bakeries",
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": "At least one accessible accommodation",
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Multiple private accommodations",
+        "Air conditioning",
+        "Wi-Fi",
+        "Televisions",
+        "Coffee and tea",
+        "Complimentary snacks and drinks",
+        "Mini refrigerators",
+        "Private bathrooms",
+        "Outdoor sitting areas",
+        "Breakfast vouchers",
+        "Accessible Sunday Haus accommodation"
+      ],
+      "good_to_know": [
+        "Current accommodations include Das Blaue, Das Grüne and The Sunday Haus.",
+        "Breakfast is not served on site.",
+        "Each guest receives a breakfast voucher usable at participating local restaurants and bakeries.",
+        "Schillinghaus is located directly across from the park associated with Germanfest.",
+        "The Sunday Haus has a ground-floor entrance and is identified by Schillinghaus as handicap accessible.",
+        "The Sunday Haus includes a private walk-in shower, fireplace and outdoor sitting area.",
+        "The Sunday Haus publishes a 3:00 PM check-in and 11:00 AM check-out.",
+        "Reservations and current availability can be checked through the official Schillinghaus website."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [
+        "muenster-city-park",
+        "fischers-meat-market-muenster",
+        "bayers-kolonialwaren-bakery-muenster",
+        "rohmers-restaurant-muenster"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository searches found no existing Schillinghaus or Schilling Haus business record. The current official Schillinghaus website confirms the property at 134 N Maple Street, Muenster, TX 76252, phone 940-759-2080 and schillinghausmuenster@gmail.com. The official site describes Schillinghaus as an upscale German-inspired lodging property created by longtime Muenster residents Elaine and Dale Schilling and located directly across from the park associated with Germanfest. Current accommodations include Das Blaue, Das Grüne and The Sunday Haus. Schillinghaus confirms that breakfast is not served on site; guests instead receive breakfast vouchers usable at local restaurants and bakeries. The current Sunday Haus listing confirms Wi-Fi, television, microwave, mini fridge, coffee and tea, complimentary snacks and drinks, a private walk-in shower, ground-floor entrance, outdoor sitting area and handicap-accessible accommodations. No pet policy or whole-property accessibility designation is asserted because those details were not established from current official information.",
+      "last_checked": "2026-08-14",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "German-inspired boutique lodging",
+        "Central Muenster location",
+        "Three distinctive accommodations",
+        "Breakfast vouchers supporting local businesses",
+        "Across from Germanfest park",
+        "Accessible Sunday Haus accommodation",
+        "Outdoor sitting areas"
       ]
     }
   ]
