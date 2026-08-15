@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 834,
-  "publish_ready_count": 509,
+  "business_count": 835,
+  "publish_ready_count": 510,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -81427,6 +81427,179 @@
         "Bark Park setting",
         "Near Lake Texoma",
         "Near Highport Marina"
+      ]
+    },
+    {
+      "slug": "texoma-destinations",
+      "business_name": "Texoma Destinations",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "21 Tackle Box Drive, Pottsboro, TX 75076 — Lake Texoma trip-planning, reservations, recreation and event-planning hub",
+      "category": [
+        "Tourism Service",
+        "Vacation Planning",
+        "Event Planning",
+        "Recreation Booking"
+      ],
+      "tags": [
+        "Texoma Destinations",
+        "Pottsboro",
+        "Lake Texoma",
+        "Vacation Planning",
+        "Lake Getaway",
+        "Cabins",
+        "Glamping",
+        "RV Camping",
+        "Tent Camping",
+        "Boat Rentals",
+        "Kayak Rentals",
+        "Paddleboard Rentals",
+        "Cruises",
+        "Fishing",
+        "Event Planning",
+        "Weddings",
+        "Corporate Retreats",
+        "Family Reunions",
+        "Group Travel"
+      ],
+      "description": "Texoma Destinations is a Pottsboro-based Lake Texoma tourism, recreation and reservation company that helps visitors plan lodging, camping, boating, paddling, cruises, fishing, beach days and group experiences around the lake. Its operating network includes multiple Lake Texoma lodging and recreation properties along with charter, cruise and event-planning services.",
+      "why_visit": "Texoma Destinations works as a one-stop planning resource for visitors who want to combine Lake Texoma lodging with activities such as boating, paddling, fishing, beach access, cruises and group events without researching each piece of the trip separately.",
+      "why_its_unique": "Rather than representing only one resort or attraction, Texoma Destinations connects multiple Lake Texoma properties and experiences through a shared reservation and trip-planning system, making it useful for anything from a simple weekend stay to a wedding, reunion or corporate outing.",
+      "phone": "903-361-8500",
+      "email": "reservations@texomadestinations.com",
+      "website": "https://texomadestinations.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Texoma Destinations provides reservations and trip planning across multiple properties and activities. Reliable current first-party weekly office hours are not published consistently, so call 903-361-8500 for time-sensitive office or reservation assistance. Individual resort, marina, beach, rental and event hours vary by property, activity and season.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Centralized Lake Texoma reservations",
+        "Cabin and vacation lodging booking",
+        "Glamping reservations",
+        "RV-site reservations",
+        "Primitive camping reservations",
+        "Boat-rental booking",
+        "Kayak and stand-up paddleboard rentals",
+        "Cruise and charter booking",
+        "Fishing-guide connections",
+        "Beach-access reservations",
+        "Group-event planning",
+        "Wedding and reception planning",
+        "Corporate-outing planning",
+        "Family-reunion planning",
+        "Concierge services through participating properties"
+      ],
+      "good_to_know": [
+        "The Texoma Destinations business and reservation office is listed at 21 Tackle Box Drive in Pottsboro.",
+        "The primary reservations phone number is 903-361-8500.",
+        "The official reservation system lists reservations@texomadestinations.com for reservations and info@texomadestinations.com for general information.",
+        "Texoma Destinations maintains a centralized online booking system covering multiple Lake Texoma properties and experiences.",
+        "Individual property hours, check-in rules, pet policies, pricing and seasonal availability vary, so visitors should check the specific property or activity before traveling.",
+        "Texoma Destinations also operates the Texoma Access Package program, which provides tiered benefits and discounts across participating Lake Texoma properties and activities.",
+        "Dedicated event-planning assistance is available for weddings, receptions, company outings, team building, reunions, church groups, parties and other gatherings.",
+        "The current official event-planning page lists 903-200-1408 as the direct event-planning phone number."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        {
+          "slug": "lighthouse-resort-marina",
+          "business_name": "Lighthouse Resort & Marina",
+          "relationship_note": "Lighthouse Resort & Marina is one of the principal Lake Texoma lodging, marina, recreation and event properties marketed and booked through Texoma Destinations."
+        },
+        {
+          "slug": "island-view-park-pottsboro",
+          "business_name": "Island View Park",
+          "relationship_note": "Island View Park is a Lake Texoma beach and day-use property marketed and booked through the Texoma Destinations recreation network."
+        },
+        {
+          "slug": "paradise-on-lake-texoma",
+          "business_name": "Paradise on Lake Texoma",
+          "relationship_note": "Paradise on Lake Texoma is a separate Lake Texoma camping, glamping, cabin and recreation property operated within the Texoma Destinations network."
+        },
+        {
+          "slug": "sundance-camp",
+          "business_name": "Sundance Camp",
+          "relationship_note": "Sundance Camp is a separate Lake Texoma campground, glamping and event property marketed and booked through Texoma Destinations."
+        },
+        {
+          "slug": "fastrac-charters-cruises",
+          "business_name": "Fastrac Charters & Cruises",
+          "relationship_note": "Fastrac Charters & Cruises provides Lake Texoma public cruises, tours and private charters through the Texoma Destinations reservation network."
+        },
+        {
+          "slug": "tackle-box-outfitters",
+          "business_name": "Tackle Box Outfitters",
+          "relationship_note": "Tackle Box Outfitters is a separately branded Lake Texoma outfitter located at the same Tackle Box Drive hub and integrated into the Texoma Destinations visitor-services network."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Texoma Destinations is headquartered in Pottsboro, Texas, and primarily serves Lake Texoma visitors."
+        }
+      ],
+      "verification_note": "Verified August 15, 2026 using the current official Texoma Destinations website, reservation platform, event-planning page, property pages and Texoma Access Package information. Current first-party information confirms the 21 Tackle Box Drive address, 903-361-8500 reservations phone, reservations@texomadestinations.com contact, Lake Texoma lodging and recreation booking services, event-planning services and operating relationships with Lighthouse Resort & Marina, Island View Park, Paradise on Lake Texoma, Sundance Camp and Fastrac Charters & Cruises. TWG relationship fields intentionally use related_businesses rather than parent_business because these are separately located or independently branded operations rather than physical tenants inside the Texoma Destinations office.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Weddings and receptions",
+        "Corporate outings",
+        "Team-building events",
+        "Family and class reunions",
+        "Church-group events",
+        "Birthday parties",
+        "Group lake days",
+        "Specialty cruises",
+        "Public cruises",
+        "Seasonal Lake Texoma events"
+      ],
+      "event_sources": [
+        "Texoma Destinations official events page",
+        "Texoma Destinations official website",
+        "Texoma Destinations reservation system",
+        "Individual Texoma Destinations property calendars"
+      ],
+      "features": [
+        "Lake Texoma trip-planning hub",
+        "Multi-property reservation network",
+        "Lodging and camping booking",
+        "Water-recreation booking",
+        "Cruise and charter reservations",
+        "Group and special-event planning",
+        "Texoma Access Package program"
       ]
     }
   ]
