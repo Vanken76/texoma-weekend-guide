@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 807,
-  "publish_ready_count": 482,
+  "business_count": 808,
+  "publish_ready_count": 483,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -77888,6 +77888,135 @@
         "Salad bar",
         "Catering",
         "Private dining room"
+      ]
+    },
+    {
+      "slug": "muenster-antique-mall",
+      "business_name": "Muenster Antique Mall",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "405 E Division St, Muenster, TX 76252",
+      "category": [
+        "Antique Store",
+        "Antique Mall",
+        "Vintage Shopping",
+        "Local Shopping"
+      ],
+      "tags": [
+        "Muenster Antique Mall",
+        "Muenster",
+        "Cooke County",
+        "Antiques",
+        "Vintage",
+        "Collectibles",
+        "Furniture",
+        "Jewelry",
+        "Home Decor",
+        "Glassware",
+        "Tools",
+        "Books",
+        "Vendor Mall",
+        "Shopping"
+      ],
+      "description": "Muenster Antique Mall is a locally owned antique and vintage shopping destination on Highway 82 in Muenster. The approximately 7,000-square-foot mall brings together more than 50 vendors offering antiques, collectibles, furniture, jewelry, home decor, glassware, tools, books, vintage goods and constantly changing one-of-a-kind finds.",
+      "why_visit": "The mall gives antique hunters a large selection under one roof while keeping visitors close to Muenster's downtown shops, restaurants and German-heritage attractions. With dozens of independent vendors, inventory changes constantly and repeat visits can turn up completely different finds.",
+      "why_its_unique": "More than 50 individual vendors fill roughly 7,000 square feet, creating a broad mix ranging from furniture and vintage kitchenware to sports cards, tools, glassware, signs, books, jewelry and unusual collectibles.",
+      "phone": "940-759-5033",
+      "email": "muensterantiquemall@gmail.com",
+      "website": "https://www.muensterantiquemall.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$-$$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "sunday": "Closed",
+        "monday": "10:00 AM-5:30 PM",
+        "tuesday": "10:00 AM-5:30 PM",
+        "wednesday": "10:00 AM-5:30 PM",
+        "thursday": "10:00 AM-5:30 PM",
+        "friday": "10:00 AM-5:30 PM",
+        "saturday": "10:00 AM-5:00 PM"
+      },
+      "hours_note": "The dedicated official contact page currently lists Saturday closing at 5:00 PM, while the site's homepage lists 5:30 PM. Confirm directly if arriving near Saturday closing time.",
+      "at_a_glance": {
+        "average_visit": "45 minutes-2+ hours",
+        "price_range": "$-$$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Approximately 7,000 square feet of shopping",
+        "More than 50 vendors",
+        "Antiques",
+        "Vintage merchandise",
+        "Collectibles",
+        "Furniture",
+        "Jewelry",
+        "Home decor",
+        "Glassware and china",
+        "Books and ephemera",
+        "Tools",
+        "Sports memorabilia",
+        "Rotating vendor inventory"
+      ],
+      "good_to_know": [
+        "The mall has more than 50 vendors.",
+        "The sales floor covers approximately 7,000 square feet.",
+        "Inventory changes frequently as vendor merchandise sells and is replaced.",
+        "The owners, Harold and Jeannine Flusche, are longtime Muenster residents.",
+        "The mall is located directly on Highway 82.",
+        "The business is closed Sundays.",
+        "Its official website also maintains a guide to other attractions, restaurants and shopping around Muenster.",
+        "Two pages on the official website currently conflict on the Saturday closing time and phone number; TWG uses the dedicated contact page information."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing Muenster Antique Mall record. The official Muenster Antique Mall website describes the business as approximately 7,000 square feet with more than 50 vendors offering antiques, collectibles, furniture, jewelry, tools, glassware, home decor and other vintage merchandise. The dedicated official contact page lists 405 E Division St (Highway 82), Muenster, TX 76252, phone 940-759-5033 and muensterantiquemall@gmail.com. Current Monday-Friday hours are 10:00 AM-5:30 PM and Sunday is closed. The site's dedicated contact page lists Saturday 10:00 AM-5:00 PM, while its homepage lists Saturday until 5:30 PM and also shows a different phone number; TWG therefore uses the dedicated contact-page details and notes the discrepancy. The Muenster Chamber independently lists Muenster Antique Mall among the city's antique-shopping businesses.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Special sales",
+        "Holiday shopping promotions",
+        "Antique-shopping events"
+      ],
+      "event_sources": [
+        "Muenster Antique Mall official website",
+        "Muenster Antique Mall social channels"
+      ],
+      "features": [
+        "7,000-square-foot antique mall",
+        "More than 50 vendors",
+        "Locally owned and operated",
+        "Large rotating antique and vintage inventory",
+        "Highway 82 location",
+        "Part of Muenster's antique-shopping cluster"
       ]
     }
   ]
