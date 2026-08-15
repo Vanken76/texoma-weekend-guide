@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 855,
-  "publish_ready_count": 530,
+  "business_count": 856,
+  "publish_ready_count": 531,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -84580,6 +84580,118 @@
         "Community event promotion",
         "Historic preservation",
         "Downtown business support"
+      ]
+    },
+    {
+      "slug": "durant-main-street",
+      "business_name": "Durant Main Street",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "401 W Main St, Durant, OK 74701 — serving the Durant Main Street Historic District",
+      "category": [
+        "Main Street Program",
+        "Downtown Organization",
+        "Community Organization"
+      ],
+      "tags": [
+        "Durant",
+        "Downtown Durant",
+        "Historic Downtown",
+        "Main Street",
+        "Community Events",
+        "Festivals",
+        "Farmers Market",
+        "Local Businesses",
+        "Arts and Culture",
+        "Visitor Information"
+      ],
+      "description": "Durant Main Street supports and promotes the historic downtown district in Durant, Oklahoma. The organization works to preserve downtown character, support locally owned businesses, encourage thoughtful development, and create a vibrant destination for shopping, dining, entertainment, arts and community activity. Durant Main Street also maintains a public historic-district events calendar and organizes or supports recurring downtown programming.",
+      "why_visit": "A central source for discovering Downtown Durant businesses, attractions, festivals, markets, arts programming and other community events.",
+      "why_its_unique": "Durant Main Street connects historic-district preservation and local-business support with an unusually active downtown event calendar, making it both a community-development organization and an important source for things to do in Durant.",
+      "phone": "580-924-1550",
+      "email": null,
+      "website": "https://durantmainstreet.org/",
+      "facebook": "https://www.facebook.com/durantmainst",
+      "instagram": "https://www.instagram.com/durantmainst/",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No dependable regular public office hours are published on the current official website. Contact Durant Main Street before making a time-sensitive office visit. Downtown events occur on varying schedules.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Durant Main Street maintains a public calendar for events throughout the historic downtown district.",
+        "Downtown businesses and organizations can submit qualifying district events for promotion through Durant Main Street.",
+        "Durant Main Street operates the Magnolia Farmers Market, which already has its own separate TWG listing.",
+        "The official Main Street office contact address is 401 W Main St, the same address as Three Valley Museum.",
+        "Use the Durant Main Street record as the logical organization link for downtown-wide events that do not have a more specific venue."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Durant Magnolia Farmers Market",
+        "Three Valley Museum"
+      ],
+      "related_geography": [
+        "Durant",
+        "Bryan County",
+        "Oklahoma"
+      ],
+      "verification_note": "Complete. Official Durant Main Street sources confirm the organization, historic-district mission, 401 W Main St address, 580-924-1550 phone number, downtown business and development role, public events calendar, event-submission program, Magnolia Farmers Market operations and recurring community programming. The matching phone number and website currently used by TWG's Durant Magnolia Farmers Market record represent a parent/managed-program relationship rather than a duplicate business.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Downtown events",
+        "Farmers markets",
+        "Arts festivals",
+        "Parades",
+        "Community festivals",
+        "Networking events",
+        "Fundraisers",
+        "Family events",
+        "Business promotions"
+      ],
+      "event_sources": [
+        "Durant Main Street Historic District Events Calendar",
+        "Durant Main Street official website",
+        "Durant Main Street Facebook page",
+        "Durant Main Street Instagram"
+      ],
+      "features": [
+        "Historic downtown organization",
+        "Public downtown events calendar",
+        "Community event promotion",
+        "Local business support",
+        "District map",
+        "Magnolia Farmers Market operator",
+        "Arts and festival programming"
       ]
     }
   ]
