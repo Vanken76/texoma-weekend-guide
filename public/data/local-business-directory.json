@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 875,
-  "publish_ready_count": 550,
+  "business_count": 876,
+  "publish_ready_count": 551,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -87169,6 +87169,137 @@
         "Community event calendar",
         "Business networking",
         "Visitor and community information"
+      ]
+    },
+    {
+      "slug": "muenster-chamber-of-commerce",
+      "business_name": "Muenster Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "213 N Main Street, Suite 212, Muenster, TX 76252 — serving Muenster businesses, residents and visitors",
+      "category": [
+        "Chamber of Commerce",
+        "Business Organization",
+        "Community Organization",
+        "Visitor Information"
+      ],
+      "tags": [
+        "Muenster",
+        "Cooke County",
+        "Chamber of Commerce",
+        "German Heritage",
+        "Oktoberfest",
+        "Germanfest",
+        "Community Events",
+        "Tourism",
+        "Business Networking",
+        "Christkindle Market",
+        "Miss Muenster",
+        "Visitor Information"
+      ],
+      "description": "The Muenster Chamber of Commerce is a business, community and tourism organization serving Muenster, Texas. The Chamber supports and promotes local businesses while encouraging tourism and celebrating the city's German heritage. Its website provides visitor information, a community calendar, local business resources and information about recurring community events and festivals.",
+      "why_visit": "A central resource for Muenster businesses, attractions, shopping, lodging, wineries, community events and German-heritage celebrations.",
+      "why_its_unique": "Muenster's Chamber combines traditional business support with destination marketing and extensive promotion of the community's distinctive German heritage, including major festival and seasonal-event programming.",
+      "phone": "940-759-2227",
+      "email": "chamber@ntin.net",
+      "website": "https://muensterchamber.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The Chamber's current first-party site confirms its office at 213 N Main Street, Suite 212, but does not publish a dependable regular office-hours schedule. Call 940-759-2227 before making a time-sensitive office visit.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Community event calendar",
+        "Business and member information",
+        "Visitor information",
+        "Tourism resources",
+        "Festival information",
+        "Vendor opportunities",
+        "Local attraction information"
+      ],
+      "good_to_know": [
+        "The Chamber's current office is 213 N Main Street, Suite 212; older Chamber pages may still show its former 1000 E Division Street location.",
+        "The official mailing address is PO Box 714, Muenster, TX 76252.",
+        "Muenster Oktoberfest is a major current Chamber event-mining target.",
+        "Heritage Park currently lists Oktoberfest 2026 for October 9-11, 2026.",
+        "The Chamber is actively administering vendor applications for Oktoberfest 2026.",
+        "The Chamber historically organized Germanfest for nearly five decades, but beginning in 2025 Germanfest became operated by a coalition of local community organizations rather than solely by the Chamber.",
+        "The Chamber remains involved with Germanfest-related vendor administration and continues to carry Germanfest information on its website.",
+        "Additional recurring mining targets include the Christkindle Market, Miss Muenster Contest, community calendar activities and local business events.",
+        "The Chamber promotes Muenster lodging, wineries, restaurants, shopping, museums, recreation and other visitor attractions."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Heritage Park"
+      ],
+      "related_geography": [
+        "Muenster",
+        "Cooke County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current first-party Muenster Chamber of Commerce sources, current Germanfest sources and Heritage Park's event calendar. Current Chamber sources confirm the 213 N Main Street Suite 212 office, PO Box 714 mailing address, 940-759-2227 phone number, tourism and business-resource role, community calendar and active Oktoberfest 2026 vendor administration. Chamber materials identify chamber@ntin.net for event/vendor correspondence. Heritage Park lists Oktoberfest 2026 for October 9-11. Germanfest sources confirm that the Chamber organized Germanfest for nearly five decades but ceased being its sole host beginning in 2025, when a coalition of local organizations assumed festival leadership; the Chamber nevertheless remains involved with 2026 vendor administration.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Oktoberfest events",
+        "German heritage festivals",
+        "Community festivals",
+        "Arts and crafts markets",
+        "Vendor markets",
+        "Live music events",
+        "Food competitions",
+        "Dachshund races",
+        "Community contests",
+        "Christmas markets",
+        "Business events",
+        "Community gatherings"
+      ],
+      "event_sources": [
+        "Muenster Chamber of Commerce community calendar",
+        "Muenster Chamber of Commerce official website",
+        "Muenster Chamber Oktoberfest pages",
+        "Muenster Chamber event and vendor pages",
+        "Heritage Park event calendar",
+        "Official Muenster Germanfest website"
+      ],
+      "features": [
+        "Muenster business promotion",
+        "Visitor and tourism resources",
+        "German-heritage promotion",
+        "Oktoberfest programming",
+        "Community event calendar",
+        "Festival vendor administration",
+        "Local business and attraction information"
       ]
     }
   ]
