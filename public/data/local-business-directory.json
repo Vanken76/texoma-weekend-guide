@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 887,
-  "publish_ready_count": 562,
+  "business_count": 888,
+  "publish_ready_count": 563,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -88761,6 +88761,140 @@
         "1,000 Books Before Kindergarten",
         "Dolly Parton's Imagination Library partnership",
         "Active community programming"
+      ]
+    },
+    {
+      "slug": "sherman-cultural-district",
+      "business_name": "Sherman Cultural District",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Downtown Sherman, TX 75090 — Texas Commission on the Arts-designated cultural district; administrative contact through Sherman City Hall, 220 W Mulberry St",
+      "category": [
+        "Arts & Culture Organization",
+        "Cultural District",
+        "Tourism Organization",
+        "Community Organization"
+      ],
+      "tags": [
+        "Sherman",
+        "Grayson County",
+        "Downtown Sherman",
+        "Arts and Culture",
+        "Public Art",
+        "Cultural Tourism",
+        "Art Dash",
+        "Sherman Bird Festival",
+        "Local Artists",
+        "Community Events",
+        "Texas Cultural District"
+      ],
+      "description": "Sherman Cultural District is an officially designated Texas Cultural District encompassing cultural sites, museums, theaters, restaurants, public art and other creative destinations in and around historic downtown Sherman. It also functions as a partnership of arts and cultural organizations working together to advocate for artists, strengthen the built environment, encourage arts-based tourism and economic development and create opportunities for cultural and civic engagement.",
+      "why_visit": "A useful starting point for discovering Sherman's museums, theaters, galleries, public art, performances, cultural events, restaurants and other downtown experiences.",
+      "why_its_unique": "Sherman Cultural District is both a defined geographic arts district and a collaborative cultural partnership, connecting many of Sherman's major arts organizations while developing public-art projects, signature events and cultural-tourism resources.",
+      "phone": "903-892-7201",
+      "email": "shermanarts@austincollege.edu",
+      "website": "https://www.shermanarts.org/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Sherman Cultural District represents a geographic district and cultural partnership rather than a conventional staffed attraction with uniform public hours. Individual museums, galleries, theaters, restaurants, public-art sites and events maintain their own schedules.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Cultural events calendar",
+        "Public-art information",
+        "Public-art projects",
+        "Arts advocacy",
+        "Cultural-tourism information",
+        "Cultural partner network",
+        "Downtown arts and entertainment information",
+        "Museum and theater information"
+      ],
+      "good_to_know": [
+        "Sherman was officially designated a Texas Cultural District by the Texas Commission on the Arts in September 2018.",
+        "The Cultural District represents both a geographic area and a partnership of Sherman arts and cultural organizations.",
+        "The district works closely with partners including Austin College, Sherman Main Street and Downtown Sherman NOW.",
+        "Sherman Cultural District maintains an online cultural calendar and guides to performances, public art, museums, shopping, dining and historic attractions.",
+        "Art Dash is a signature Sherman Cultural District event supporting public-art projects and performances.",
+        "The 2026 Art Dash was held May 16 in Downtown Sherman and featured 40 original works by participating artists.",
+        "The inaugural Sherman Bird Festival was held May 16, 2026 in partnership with Friends of Hagerman National Wildlife Refuge.",
+        "The 2026 Bird Festival combined public art, art shows, shopping, food and family activities across multiple Sherman locations and Hagerman National Wildlife Refuge.",
+        "New bird sculptures unveiled during the 2026 festival remain installed as public art in Downtown Sherman.",
+        "The district's administrative contact page directs visitors to Sherman City Hall at 220 W Mulberry St rather than presenting the district itself as a single attraction building."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Austin College",
+        "Sherman Public Library",
+        "Sherman Community Players",
+        "Sherman Chamber of Commerce",
+        "Sherman Tourism/Main Street"
+      ],
+      "related_geography": [
+        "Sherman",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current first-party Sherman Cultural District sources. Official sources confirm Sherman's Texas Cultural District designation, the district's dual role as a geographic area and cultural partnership, its current 2025-2026 advisory structure, 903-892-7201 contact phone, shermanarts@austincollege.edu contact email and active programming in public art, arts advocacy, cultural tourism and community events. Current 2026 programming includes Art Dash and the inaugural Sherman Bird Festival. The district is not represented as a conventional single-site attraction with standardized operating hours.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Art festivals",
+        "Public-art events",
+        "Art receptions",
+        "Artist events",
+        "Cultural festivals",
+        "Public-art dedications",
+        "Community arts events",
+        "Cultural tourism events",
+        "Family arts activities",
+        "Arts advocacy programs"
+      ],
+      "event_sources": [
+        "Sherman Cultural District official calendar",
+        "Sherman Cultural District programs pages",
+        "Sherman Cultural District news and announcements",
+        "Sherman Cultural District partner announcements"
+      ],
+      "features": [
+        "Official Texas Cultural District",
+        "Downtown cultural destination network",
+        "Public-art programming",
+        "Art Dash",
+        "Sherman Bird Festival",
+        "Cultural events calendar",
+        "Arts advocacy",
+        "Arts-based tourism",
+        "Cultural organization partnerships"
       ]
     }
   ]
