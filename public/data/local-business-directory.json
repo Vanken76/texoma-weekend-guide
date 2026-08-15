@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 842,
-  "publish_ready_count": 517,
+  "business_count": 843,
+  "publish_ready_count": 518,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -82647,6 +82647,182 @@
       ],
       "source_verified": true,
       "verification_note": "Verified August 15, 2026 from the current official Lighthouse Resort & Marina event-space page and Texoma Destinations event-planning information. Current first-party sources identify Cove Point as a separately rentable waterfront outdoor event venue inside Lighthouse Resort & Marina with approximately two acres of fenced grassy space, a gazebo, pathways, a large level area, Lake Texoma views and access, open-vendor options and capacity for approximately 50 guests. Rentals are available hourly or in half-day and full-day blocks, with venue showings by appointment through the event team at 903-200-1408.",
+      "last_checked": "2026-08-15",
+      "last_verified": "2026-08-15"
+    },
+    {
+      "slug": "fireside-at-lighthouse",
+      "business_name": "Fireside at Lighthouse",
+      "alternate_names": [
+        "Lighthouse Fireside"
+      ],
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "300 Lighthouse Drive, Pottsboro, TX 75076 — waterfront outdoor gathering and event venue inside Lighthouse Resort & Marina",
+      "category": [
+        "Event Venue",
+        "Outdoor Event Venue",
+        "Waterfront Venue",
+        "Private Event Venue"
+      ],
+      "tags": [
+        "Pottsboro",
+        "Lake Texoma",
+        "Lighthouse Resort & Marina",
+        "Outdoor Venue",
+        "Waterfront Venue",
+        "Fire Pit",
+        "Live Music",
+        "Acoustic Music",
+        "Gazebo",
+        "Family Reunions",
+        "Company Events",
+        "Elopements",
+        "Private Gatherings",
+        "Lake Views"
+      ],
+      "description": "Fireside at Lighthouse is a waterfront outdoor event and gathering space inside Lighthouse Resort & Marina in Pottsboro. The venue centers on a large firepit with rock seating and includes a small stage suited to acoustic music, covered gathering space with picnic tables, Lake Texoma and marina views, electricity and space for intimate celebrations, reunions, company gatherings and other small events.",
+      "short_description": "Waterfront Lighthouse Resort gathering venue with a large firepit, rock seating, covered gathering space and small acoustic stage.",
+      "why_visit": "Fireside at Lighthouse provides an informal Lake Texoma setting for smaller groups that want to gather around a large firepit, enjoy waterfront views, eat under covered space or add acoustic entertainment to an event.",
+      "why_its_unique": "Unlike Lighthouse's larger Lodge and Cove Point venues, Fireside is designed around an intimate firepit-and-waterfront experience, making it especially suited to casual dinners, reunion gatherings, company-event wind-downs and smaller celebrations.",
+      "address": "300 Lighthouse Drive",
+      "address_line_2": null,
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "phone": "903-200-1408",
+      "phone_secondary": "903-361-5070",
+      "phone_note": "903-200-1408 is the current Texoma Destinations event-planning number. 903-361-5070 is the Lighthouse Resort & Marina reservations number.",
+      "email": null,
+      "website": "https://lighthouseresort.com/event-space/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Varies by rental block",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Fireside at Lighthouse operates for scheduled rentals and events rather than regular public walk-in hours. Venue showings are by appointment through the event team at 903-200-1408.",
+      "at_a_glance": {
+        "average_visit": "Varies by event",
+        "price_range": "Varies by rental block",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Large firepit",
+        "Rock seating around firepit",
+        "Small acoustic-music stage",
+        "Covered waterfront gathering area",
+        "Picnic tables",
+        "Gazebo",
+        "Electricity",
+        "Lake Texoma views",
+        "Lighthouse Marina views",
+        "Open-vendor policy",
+        "Nearby kayaking",
+        "Nearby paddleboarding",
+        "Nearby sailing",
+        "Nearby pontoon rentals",
+        "Hourly rentals",
+        "Half-day rentals",
+        "Full-day rentals"
+      ],
+      "good_to_know": [
+        "Fireside at Lighthouse is located within Lighthouse Resort & Marina at 300 Lighthouse Drive in Pottsboro.",
+        "Lighthouse Resort's current event page calls the venue Fireside at Lighthouse, while Texoma Destinations calls it Lighthouse Fireside.",
+        "The venue features a large firepit surrounded by rock seating.",
+        "A small stage is available and is described as suitable for an acoustic band.",
+        "Covered waterfront gathering space includes picnic tables.",
+        "Texoma Destinations lists electricity at the venue.",
+        "Outside vendors are permitted according to current Texoma Destinations event information.",
+        "The current Texoma Destinations page lists a maximum capacity of 25 people.",
+        "Lighthouse Resort's own current event page says the space is suitable for groups up to about 36, creating a first-party capacity discrepancy.",
+        "TWG therefore uses the more conservative 25-person maximum until the operator clarifies the current limit.",
+        "Chairs and tables may be added for an additional fee, or groups may bring their own.",
+        "Pricing is available hourly and in half-day and full-day blocks.",
+        "Venue and vessel showings are by appointment."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "event_types": [
+        "Family reunions",
+        "Company gatherings",
+        "Elopements",
+        "Private celebrations",
+        "Casual dinners",
+        "Acoustic music gatherings",
+        "Small group events"
+      ],
+      "event_sources": [
+        "Lighthouse Resort & Marina official event-space page",
+        "Texoma Destinations event-planning page"
+      ],
+      "features": [
+        "Large waterfront firepit",
+        "Rock firepit seating",
+        "Small acoustic stage",
+        "Covered gathering area",
+        "Lake Texoma and marina views",
+        "Electricity",
+        "Open-vendor policy",
+        "Small-group event setting"
+      ],
+      "parent_business": {
+        "slug": "lighthouse-resort-marina",
+        "business_name": "Lighthouse Resort & Marina",
+        "relationship_note": "Fireside at Lighthouse is a separately rentable event and gathering venue physically located within Lighthouse Resort & Marina."
+      },
+      "child_businesses": [],
+      "related_businesses": [
+        {
+          "slug": "oasis-at-the-lighthouse-lodge",
+          "business_name": "Oasis at the Lighthouse Lodge",
+          "relationship_note": "Oasis at the Lighthouse Lodge is a sibling event venue within Lighthouse Resort & Marina."
+        },
+        {
+          "slug": "cove-point-lighthouse-resort-marina",
+          "business_name": "Cove Point at Lighthouse Resort & Marina",
+          "relationship_note": "Cove Point is a sibling outdoor waterfront event venue within Lighthouse Resort & Marina."
+        },
+        {
+          "slug": "texoma-destinations",
+          "business_name": "Texoma Destinations",
+          "relationship_note": "Texoma Destinations provides event planning and coordination for Fireside at Lighthouse and other Lighthouse venues."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Fireside at Lighthouse is located in Pottsboro, Texas, on Lake Texoma."
+        }
+      ],
+      "source_verified": true,
+      "verification_note": "Verified August 15, 2026 from the current official Lighthouse Resort & Marina event-space page and Texoma Destinations event-planning page. First-party sources confirm the separately named Fireside venue, large firepit with rock seating, small stage, covered waterfront gathering area, picnic tables, electricity, open-vendor policy, Lake Texoma views and scheduled rental availability. Current first-party sources conflict on capacity: Texoma Destinations lists 25 people maximum while Lighthouse Resort describes the venue as suitable for groups up to about 36. TWG conservatively uses 25 as the current maximum pending clarification.",
       "last_checked": "2026-08-15",
       "last_verified": "2026-08-15"
     }
