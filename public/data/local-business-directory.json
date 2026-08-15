@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 893,
-  "publish_ready_count": 568,
+  "business_count": 894,
+  "publish_ready_count": 569,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -89567,6 +89567,139 @@
         "Wheelchair accessible",
         "Outdoor seating",
         "Electricity available"
+      ]
+    },
+    {
+      "slug": "pecan-grove-park-west",
+      "business_name": "Pecan Grove Park-West",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "3200 Canyon Creek Dr, Sherman, TX 75092",
+      "category": [
+        "Park",
+        "Outdoor Recreation",
+        "Event Venue",
+        "Disc Golf",
+        "Fishing"
+      ],
+      "tags": [
+        "Sherman",
+        "Grayson County",
+        "Parks",
+        "Outdoor Recreation",
+        "Family Friendly",
+        "Playground",
+        "Fishing",
+        "Disc Golf",
+        "Walking Trail",
+        "Amphitheater",
+        "Pavilions",
+        "Community Events",
+        "Wedding Venue"
+      ],
+      "description": "Pecan Grove Park-West is a large City of Sherman park on the west side of Dean Gilbert Lake offering outdoor recreation, family amenities and major community-event space. The park includes six pavilions, an amphitheater with lawn seating for up to 2,000 people, two playground structures, fishing access to Dean Gilbert Lake, restrooms, a walking trail and an 18-hole disc golf course. The amphitheater and grounds support concerts, weddings, community gatherings and other special events, and the park hosts Sherman's annual Lights on the Lake celebration.",
+      "why_visit": "Pecan Grove Park-West offers several kinds of recreation in one location, including fishing, disc golf, walking, playgrounds and picnic facilities. Its large amphitheater and pavilion areas also make it one of Sherman's notable outdoor gathering and event spaces.",
+      "why_its_unique": "The combination of Dean Gilbert Lake access, an 18-hole disc golf course, six reservable pavilions and a large lawn amphitheater capable of hosting approximately 2,000 people makes Pecan Grove Park-West substantially more than a neighborhood park.",
+      "phone": "903-892-7344",
+      "email": null,
+      "website": "https://shermanparks.com/parks-facilities/pecan-grove-park-west/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free general park access; facility rental fees apply",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "4:00 AM–12:00 AM",
+        "tuesday": "4:00 AM–12:00 AM",
+        "wednesday": "4:00 AM–12:00 AM",
+        "thursday": "4:00 AM–12:00 AM",
+        "friday": "4:00 AM–12:00 AM",
+        "saturday": "4:00 AM–12:00 AM",
+        "sunday": "4:00 AM–12:00 AM"
+      },
+      "hours_note": "Current Sherman Parks & Recreation facility hours are 4:00 AM to midnight daily. Individual pavilion reservations, organized activities and special events operate according to their scheduled times.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "Free general park access",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": true,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Amphitheater",
+        "Fishing access to Dean Gilbert Lake",
+        "Six pavilions",
+        "Restrooms",
+        "Two playground structures",
+        "Walking trail",
+        "18-hole disc golf course",
+        "Picnic and group gathering areas"
+      ],
+      "good_to_know": [
+        "The amphitheater has lawn seating for up to approximately 2,000 people.",
+        "The park hosts concerts, weddings and community events.",
+        "Pavilions are available for reservation through Sherman Parks & Recreation.",
+        "Publicly advertised or large organized gatherings may require a City of Sherman Special Event permit.",
+        "The park is the recurring site of Sherman's annual Lights on the Lake event."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        {
+          "slug": "sherman-parks-recreation",
+          "business_name": "Sherman Parks & Recreation",
+          "relationship_note": "City department responsible for Pecan Grove Park-West, facility reservations, recreation programming and special events."
+        }
+      ],
+      "related_geography": [],
+      "verification_note": "Fresh live TWG duplicate check completed 2026-08-15 with no existing Pecan Grove Park-West listing found. Sherman Parks & Recreation and the City reservation system confirm the park at 3200 Canyon Creek Dr, its daily 4:00 AM-midnight hours, six pavilions, amphitheater, Dean Gilbert Lake fishing access, playgrounds, walking trail, restrooms, 18-hole disc golf course and recurring Lights on the Lake event use.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Concerts",
+        "Weddings",
+        "Community festivals",
+        "Holiday events",
+        "Family events",
+        "Outdoor recreation events",
+        "Disc golf events",
+        "Special events"
+      ],
+      "event_sources": [
+        "Sherman Parks & Recreation",
+        "City of Sherman recreation calendar",
+        "Sherman Parks & Recreation RecDesk"
+      ],
+      "features": [
+        "Dean Gilbert Lake access",
+        "18-hole disc golf course",
+        "Amphitheater with lawn seating for approximately 2,000",
+        "Six pavilions",
+        "Two playgrounds",
+        "Walking trail",
+        "Fishing",
+        "Restrooms",
+        "Major community-event site"
       ]
     }
   ]
