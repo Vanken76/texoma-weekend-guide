@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 848,
-  "publish_ready_count": 523,
+  "business_count": 849,
+  "publish_ready_count": 524,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -83675,6 +83675,142 @@
       ],
       "source_verified": true,
       "verification_note": "Verified August 15, 2026 using the current official Ardmore Little Theatre website, 2026-2027 season information, ticketing information, contact and location pages, current bylaws, board information and The Goddard Center. Current first-party sources confirm ALT's separate organizational identity, 580-223-6387 phone number, alt@ardmorelittletheater.com email, location inside The Goddard Center, recurring production season, membership and volunteer programs and current ticketing practices. The site's generic Contact page contains leftover template data for a San Francisco address and sample phone numbers; that erroneous template content was explicitly ignored in favor of ALT's dedicated Location and How To Reach Us pages."
+    },
+    {
+      "slug": "heritage-hall-ardmore",
+      "business_name": "Heritage Hall",
+      "alternate_names": [
+        "Heritage Hall Performance and Event Venue",
+        "Ardmore Civic Auditorium"
+      ],
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "220 W Broadway, Ardmore, OK 73401 — historic downtown concert, performance and community event venue",
+      "category": [
+        "Concert Venue",
+        "Performing Arts Venue",
+        "Event Venue",
+        "Historic Venue"
+      ],
+      "tags": [
+        "Ardmore",
+        "Oklahoma",
+        "Downtown Ardmore",
+        "Heritage Hall",
+        "Concert Venue",
+        "Live Music",
+        "Performing Arts",
+        "Historic Venue",
+        "Art Deco",
+        "Community Events",
+        "Downtown Events",
+        "Indoor Events"
+      ],
+      "description": "Heritage Hall is a historic Art Deco performance and event venue in downtown Ardmore. Formerly known as the Ardmore Civic Auditorium, the renovated landmark now hosts concerts, live entertainment, community gatherings and recreational programming while remaining one of Ardmore's recognizable downtown cultural venues.",
+      "short_description": "Historic Art Deco concert and event venue in downtown Ardmore, formerly the Ardmore Civic Auditorium.",
+      "why_visit": "Heritage Hall brings live entertainment and community programming into the heart of downtown Ardmore, with a history of hosting nationally known performers as well as local and recreational events.",
+      "why_its_unique": "Heritage Hall combines the character of Ardmore's former Civic Auditorium with its present role as a downtown concert and community venue, giving events a historic Art Deco setting rather than a conventional modern event hall.",
+      "address": "220 W Broadway",
+      "address_line_2": null,
+      "city": "Ardmore",
+      "state": "OK",
+      "postal_code": "73401",
+      "country": "USA",
+      "phone": "580-490-1780",
+      "phone_secondary": null,
+      "phone_note": null,
+      "email": null,
+      "website": "https://www.exploreardmore.com/attraction/heritage-hall/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Varies by event",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Heritage Hall operates according to its event schedule rather than regular public attraction hours. Explore Ardmore currently lists hours as varying by event.",
+      "at_a_glance": {
+        "average_visit": "Varies by event",
+        "price_range": "Varies by event",
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Indoor performance space",
+        "Concert venue",
+        "Community-event space",
+        "Downtown location"
+      ],
+      "good_to_know": [
+        "Heritage Hall is located at 220 W Broadway in downtown Ardmore.",
+        "The venue was formerly known as the Ardmore Civic Auditorium.",
+        "The building is an Art Deco landmark.",
+        "Explore Ardmore identifies Heritage Hall as a venue for concerts and downtown gatherings.",
+        "Heritage Hall continues to host ticketed national touring acts.",
+        "The City of Ardmore also currently uses Heritage Hall for adult recreational programming including its six-player volleyball league.",
+        "Hours, admission policies, age restrictions and ticket prices vary by individual event.",
+        "Check the individual event listing before visiting because Heritage Hall does not maintain conventional daily attraction hours."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Concerts",
+        "Live music",
+        "Touring performances",
+        "Community gatherings",
+        "Downtown events",
+        "Recreational sports programming"
+      ],
+      "event_sources": [
+        "Explore Ardmore events calendar",
+        "StubWire",
+        "City of Ardmore Parks and Recreation",
+        "Individual concert promoters"
+      ],
+      "features": [
+        "Historic Art Deco venue",
+        "Former Ardmore Civic Auditorium",
+        "Downtown Ardmore location",
+        "National touring concerts",
+        "Community programming",
+        "Recurring live entertainment"
+      ],
+      "parent_business": null,
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Heritage Hall is located in Ardmore, Oklahoma."
+        }
+      ],
+      "source_verified": true,
+      "verification_note": "Verified August 15, 2026 using the current Explore Ardmore Heritage Hall listing, Chickasaw Country venue information, City of Ardmore Parks and Recreation programming and current/recent ticketing records. Sources confirm the 220 W Broadway address, 580-490-1780 phone number, former Ardmore Civic Auditorium identity, Art Deco building, concert and downtown-event use, and ongoing recreational programming. No dependable current capacity, regular operating hours, accessibility details or dedicated Heritage Hall email were found, so those details are intentionally not inferred.",
+      "last_checked": "2026-08-15",
+      "last_verified": "2026-08-15"
     }
   ]
 }
