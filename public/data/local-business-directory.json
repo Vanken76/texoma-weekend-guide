@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 821,
-  "publish_ready_count": 496,
+  "business_count": 822,
+  "publish_ready_count": 497,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -79688,6 +79688,137 @@
         "Takeout and curbside pickup",
         "Convenience-store setting",
         "Seven-day food service"
+      ]
+    },
+    {
+      "slug": "the-krahl-pantry-muenster",
+      "business_name": "The Krahl Pantry",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "405 N Elm St, Muenster, TX 76252",
+      "category": [
+        "Specialty Food Store",
+        "Local Food",
+        "Catering",
+        "Gift Food"
+      ],
+      "tags": [
+        "The Krahl Pantry",
+        "Muenster",
+        "Cooke County",
+        "Local Food",
+        "Canned Goods",
+        "Jams and Jellies",
+        "Pickled Foods",
+        "Pickled Eggs",
+        "German Mustard Pickles",
+        "Freeze-Dried Foods",
+        "Recipe Mixes",
+        "Catering",
+        "Texas-Made Food",
+        "Germanfest Vendor"
+      ],
+      "description": "The Krahl Pantry is a small specialty-food shop in Muenster offering a broad assortment of canned and jarred goods, jams and jellies, vegetables, eggs, snacks, recipe mixes, freeze-dried treats and other pantry items. The business also produces small-batch pickled specialties and provides catering.",
+      "why_visit": "The Krahl Pantry is a good stop for travelers looking for locally made, shelf-stable foods that are easy to take home or add to a weekend picnic, cabin stay or charcuterie board. Its unusual pickled products and wide pantry selection give visitors something distinctly local rather than mass-market groceries.",
+      "why_its_unique": "The shop combines an old-fashioned country-pantry feel with small-batch specialty products, including mustard-forward pickled eggs and other pickled foods made near Muenster.",
+      "phone": "940-902-4961",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$-$$",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Reliable current store hours were not established from authoritative current sources. Call before making a special trip.",
+      "at_a_glance": {
+        "average_visit": "15-45 minutes",
+        "price_range": "$-$$",
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Canned and jarred foods",
+        "Jams and jellies",
+        "Pickled foods",
+        "Pickled eggs",
+        "Eggs",
+        "Snacks",
+        "Drinks",
+        "Recipe mixes",
+        "Freeze-dried foods",
+        "Small-batch specialty foods",
+        "Giftable pantry items",
+        "Catering",
+        "Takeaway",
+        "On-site parking"
+      ],
+      "good_to_know": [
+        "The current Muenster visitor guide lists The Krahl Pantry at 405 N Elm St.",
+        "The current phone number is 940-902-4961.",
+        "The shop carries a wide range of canned and jarred products, including jams, jellies and vegetables.",
+        "Eggs, drinks, snacks, recipe mixes and freeze-dried products are also part of the current selection.",
+        "Catering is specifically identified as one of the business's specialties.",
+        "Current regional retail listings carry small-batch Krahl Pantry pickled eggs made near Muenster.",
+        "Mustard-pickled eggs and pickled quail/chicken egg products are currently documented.",
+        "The Krahl Pantry appears on the current Germanfest vending roster.",
+        "Older online records place this business at a former Nocona address; TWG uses the newer Muenster visitor-guide and current local-business address.",
+        "No reliable current standalone official website or public store-hour schedule was established, so those details are intentionally left unasserted."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [
+        "fischers-meat-market-muenster",
+        "hess-meat-market-muenster",
+        "bayers-kolonialwaren-bakery-muenster",
+        "kountry-korner-muenster"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing The Krahl Pantry record. Current Muenster visitor material confirms The Krahl Pantry at 405 N Elm St, Muenster, TX 76252 with phone 940-902-4961 and describes canned goods, jams and jellies, vegetables, eggs, drinks, snacks, recipe mixes, freeze-dried products and catering. Current local-business data independently confirms the same Muenster address and phone and categorizes the business as a catering food and drink supplier. Current regional retail listings document small-batch Krahl Pantry products made near Muenster, including mustard-pickled chicken eggs and pickled quail/chicken egg products. The current Germanfest vending page includes The Krahl Pantry among participating vendors. Older web records show the same business and phone number at a former Nocona location, so TWG uses the newer Muenster location. Current authoritative store hours, email, standalone official website and social URLs were not established and are intentionally left null.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Festival vendor appearances",
+        "Food markets",
+        "Community vendor events",
+        "Catered events"
+      ],
+      "event_sources": [
+        "Germanfest Muenster vending roster",
+        "Local community event vendor lists"
+      ],
+      "features": [
+        "Small-batch Muenster-area specialty foods",
+        "Pickled eggs and mustard-pickled products",
+        "Jams, jellies and canned goods",
+        "Freeze-dried snacks and recipe mixes",
+        "Catering",
+        "Germanfest vendor",
+        "Giftable local food products"
       ]
     }
   ]
