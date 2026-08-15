@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 825,
-  "publish_ready_count": 500,
+  "business_count": 826,
+  "publish_ready_count": 501,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -80187,6 +80187,146 @@
         "Home decor",
         "Locally owned",
         "Active community involvement"
+      ]
+    },
+    {
+      "slug": "sacred-heart-catholic-church-muenster",
+      "business_name": "Sacred Heart Catholic Church",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "714 N Main St, Muenster, TX 76252",
+      "category": [
+        "Historic Church",
+        "Religious Site",
+        "Historic Landmark",
+        "Community Organization",
+        "Event Venue"
+      ],
+      "tags": [
+        "Sacred Heart Catholic Church",
+        "Muenster",
+        "Cooke County",
+        "German Catholic Heritage",
+        "Catholic Church",
+        "Historic Church",
+        "Muenster History",
+        "German Heritage",
+        "Architecture",
+        "Worship",
+        "Community Events",
+        "Historic Site"
+      ],
+      "description": "Sacred Heart Catholic Church is the historic German-Catholic parish at the heart of Muenster's story. The parish traces its beginnings to the first Catholic Mass celebrated in Muenster on December 8, 1889, the date also recognized as the town's founding. The present church building, completed in 1954, continues a parish tradition dating to the community's earliest days.",
+      "why_visit": "Sacred Heart is one of the most meaningful places to visit for anyone interested in Muenster's German heritage and history. The parish predates nearly every other surviving local institution and remains an active center of worship and community life rather than simply a preserved historic building.",
+      "why_its_unique": "Muenster's founding and Sacred Heart Parish are directly intertwined. The town's first Catholic Mass was celebrated on December 8, 1889, and German-Catholic faith has remained a defining part of the community ever since.",
+      "phone": "940-759-2500",
+      "email": null,
+      "website": "https://shmuenster.com/church/sacred-heart-church/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "sunday": "Mass at 8:00 AM and 10:30 AM",
+        "monday": "Mass at 8:00 AM; pastoral office 8:00 AM-4:00 PM",
+        "tuesday": "Mass at 8:00 AM; pastoral office 8:00 AM-4:00 PM",
+        "wednesday": "Mass at 6:00 PM; pastoral office 8:00 AM-4:00 PM",
+        "thursday": "Pastoral office 8:00 AM-4:00 PM",
+        "friday": "Mass at 8:00 AM; pastoral office 8:00 AM-4:00 PM",
+        "saturday": "Vigil Mass at 5:00 PM"
+      },
+      "hours_note": "These are current regular Mass and pastoral-office schedules, not guaranteed church-building visitor hours. Holy Day, holiday and special-event schedules vary.",
+      "at_a_glance": {
+        "average_visit": "20-60 minutes",
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": "Liturgical music and special programs",
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Historic church sanctuary",
+        "Regular Catholic Mass",
+        "Reconciliation",
+        "Eucharistic Adoration",
+        "Sunday livestream",
+        "Parish campus",
+        "Pastoral office",
+        "Religious education",
+        "Community gathering spaces",
+        "On-site Catholic school campus"
+      ],
+      "good_to_know": [
+        "The first Catholic Mass in Muenster was celebrated December 8, 1889.",
+        "The parish identifies that same date as the official founding date of Muenster.",
+        "Sacred Heart's first two church buildings were destroyed by tornadoes during the 1890s.",
+        "The current church is the fourth church building to serve the parish.",
+        "Construction of the present church was completed in 1954.",
+        "The present church foundation extends more than 20 feet into rock.",
+        "Benedictine priests from Subiaco Abbey began serving the parish in 1893 and continued into the 1990s.",
+        "Sacred Heart Catholic School dates to 1890.",
+        "The physical church address is 714 N Main St.",
+        "The pastoral office and mailing address are 212 E 6th St.",
+        "Regular weekend Masses are Saturday at 5:00 PM and Sunday at 8:00 AM and 10:30 AM.",
+        "Visitors should be respectful of active worship services, funerals, weddings and other parish activities."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "muenster-museum",
+        "muenster-city-park",
+        "heritage-park-event-center-muenster"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing Sacred Heart Catholic Church Muenster record. The current official Sacred Heart parish website and Diocese of Fort Worth parish directory confirm the church at 714 N Main St, Muenster, TX 76252 with phone 940-759-2500; the pastoral office and mailing address are 212 E 6th St. Parish history states that Muenster's first Catholic Mass was celebrated December 8, 1889, which is also recognized as the town's founding date. After three earlier church buildings, the present church was completed in 1954. Current regular Masses are Saturday 5:00 PM, Sunday 8:00 AM and 10:30 AM, Monday-Tuesday-Friday 8:00 AM and Wednesday 6:00 PM. The parish maintains an active online events calendar, supporting high-priority event mining.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Parish festivals",
+        "Catholic feast-day celebrations",
+        "Community gatherings",
+        "Fundraisers",
+        "Religious services",
+        "Holiday programs",
+        "School and parish events",
+        "Special liturgies"
+      ],
+      "event_sources": [
+        "Sacred Heart Catholic Church official events calendar",
+        "Sacred Heart Catholic Church announcements",
+        "Sacred Heart Catholic School calendar"
+      ],
+      "features": [
+        "Parish established with Muenster in 1889",
+        "Central to Muenster's German-Catholic heritage",
+        "Present church completed in 1954",
+        "Active historic worship site",
+        "More than 135 years of community history",
+        "Active parish events calendar",
+        "Strong event-mining source"
       ]
     }
   ]
