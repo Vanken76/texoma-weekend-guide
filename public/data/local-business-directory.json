@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 886,
-  "publish_ready_count": 561,
+  "business_count": 887,
+  "publish_ready_count": 562,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -88619,6 +88619,148 @@
         "Public computers and free Wi-Fi",
         "Local-history and newspaper archives",
         "Digital library resources"
+      ]
+    },
+    {
+      "slug": "collinsville-community-library",
+      "business_name": "Collinsville Community Library",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "409 E Woodland St, Collinsville, TX 76233",
+      "category": [
+        "Community Library",
+        "Community Resource",
+        "Family Activities",
+        "Educational Attraction",
+        "Event Venue"
+      ],
+      "tags": [
+        "Collinsville",
+        "Grayson County",
+        "Community Library",
+        "Storytime",
+        "Summer Reading",
+        "Children's Programs",
+        "Adult Programs",
+        "Adult Bingo",
+        "Family Activities",
+        "Community Events",
+        "Imagination Library",
+        "Literacy"
+      ],
+      "description": "Collinsville Community Library is a nonprofit community library serving Collinsville and the surrounding Grayson County area. In addition to books and library resources, it offers programming for children and adults, including recurring storytime, summer learning activities, children's crafts, adult bingo, educational classes and literacy programs.",
+      "why_visit": "A free community resource for books, children's activities, literacy programs, summer learning, adult programming and small-town community events.",
+      "why_its_unique": "Collinsville Community Library is an independent nonprofit library that combines traditional library services with recurring children's and adult programming and partnerships that extend early-literacy resources to local families.",
+      "phone": "903-429-6732",
+      "email": null,
+      "website": "https://collinsvillelibrary.com/",
+      "facebook": "https://www.facebook.com/CollinsvilleCommunityLibrary",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "12:30 PM-6:00 PM",
+        "thursday": "12:30 PM-6:00 PM",
+        "friday": "9:00 AM-12:30 PM",
+        "saturday": "9:00 AM-12:30 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current library hours are Wednesday and Thursday 12:30 PM-6:00 PM and Friday and Saturday 9:00 AM-12:30 PM. Monday, Tuesday and Sunday are closed. Special programs and seasonal activities may follow separate schedules.",
+      "at_a_glance": {
+        "average_visit": "30 minutes to 2 hours",
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Library collection",
+        "Online searchable catalog",
+        "Children's programming",
+        "Adult programming",
+        "Tiny Tots Storytime",
+        "Summer learning programs",
+        "Children's crafts",
+        "Educational classes",
+        "Adult Bingo",
+        "1,000 Books Before Kindergarten",
+        "Dolly Parton's Imagination Library enrollment assistance"
+      ],
+      "good_to_know": [
+        "The library is located at 409 E Woodland St in Collinsville.",
+        "The mailing address is PO Box 292, Collinsville, TX 76233.",
+        "Tiny Tots Storytime for ages 0-3 is normally held Fridays at 11:00 AM.",
+        "Storytime includes reading, social interaction and a children's activity.",
+        "The library promotes additional programming including Adult Bingo, educational classes and children's craft activities.",
+        "The City of Collinsville hosted a multi-week Summer Learning Program through the library during 2026.",
+        "The library offers the free 1,000 Books Before Kindergarten early-literacy program.",
+        "Collinsville Community Library partners with United Way of Grayson County and Dolly Parton's Imagination Library to help eligible young children receive free age-appropriate books.",
+        "The organization identifies itself as a 501(c)(3) nonprofit and accepts tax-deductible donations.",
+        "The City of Collinsville maintains recurring Library Association meetings on its municipal calendar."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Collinsville Area Chamber of Commerce"
+      ],
+      "related_geography": [
+        "Collinsville",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current first-party Collinsville Community Library and City of Collinsville sources. Official sources confirm the 409 E Woodland St location, 903-429-6732 phone number, current Wednesday-through-Saturday operating schedule and active children's and adult programming. Current programs include Friday Tiny Tots Storytime, summer learning activities, children's crafts, Adult Bingo and educational classes. The library also participates in 1,000 Books Before Kindergarten and partners with United Way of Grayson County and Dolly Parton's Imagination Library. No dependable current general email was asserted.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Storytimes",
+        "Summer learning programs",
+        "Children's activities",
+        "Craft activities",
+        "Adult Bingo",
+        "Educational classes",
+        "Literacy programs",
+        "Family programs",
+        "Library events",
+        "Community meetings"
+      ],
+      "event_sources": [
+        "Collinsville Community Library official website",
+        "Collinsville Community Library Facebook",
+        "City of Collinsville event calendar",
+        "City of Collinsville announcements"
+      ],
+      "features": [
+        "Independent nonprofit community library",
+        "Weekly Tiny Tots Storytime",
+        "Summer learning programming",
+        "Adult programming",
+        "Children's craft activities",
+        "1,000 Books Before Kindergarten",
+        "Dolly Parton's Imagination Library partnership",
+        "Active community programming"
       ]
     }
   ]
