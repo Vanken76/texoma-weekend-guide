@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 890,
-  "publish_ready_count": 565,
+  "business_count": 891,
+  "publish_ready_count": 566,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -89180,6 +89180,130 @@
         "StoryWalk programming",
         "Denison on Ice",
         "Seasonal community events"
+      ]
+    },
+    {
+      "slug": "grayson-county-historical-society",
+      "business_name": "Grayson County Historical Society",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Grayson County, TX — regular public programs meet at Frontier Village & Museum in Loy Lake Park between Sherman and Denison",
+      "category": [
+        "Historical Society",
+        "History & Heritage",
+        "Community Organization",
+        "Educational Organization"
+      ],
+      "tags": [
+        "Grayson County",
+        "Sherman",
+        "Denison",
+        "Local History",
+        "Texas History",
+        "Historical Society",
+        "Guest Speakers",
+        "Educational Programs",
+        "Community Events",
+        "Heritage Preservation",
+        "Loy Lake",
+        "Frontier Village"
+      ],
+      "description": "Grayson County Historical Society is a longstanding local-history organization dedicated to preserving, researching and sharing the history of Grayson County and the wider North Texas region. The Society conducts regular public programs featuring historians, museum professionals, educators and other guest speakers exploring local people, places, transportation, cultural history and broader Texas-history topics.",
+      "why_visit": "A strong resource for anyone interested in Grayson County history, with recurring public programs that bring local stories to life through knowledgeable speakers and community discussion.",
+      "why_its_unique": "Founded in 1961, the Society has spent more than six decades preserving and promoting Grayson County history while maintaining an active public program series covering subjects ranging from local railroads and pioneer families to notable figures in Texas and American history.",
+      "phone": "903-647-5674",
+      "email": "gchs1961@gmail.com",
+      "website": "https://www.co.grayson.tx.us/page/hist.society",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The Historical Society does not operate as a conventional walk-in attraction with regular daily hours. Current public programs normally meet on the second Tuesday of each month at Frontier Village & Museum, with doors opening around 6:00 PM and the program beginning at 6:30 PM.",
+      "at_a_glance": {
+        "average_visit": "1 to 2 hours for a scheduled program",
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Local-history programs",
+        "Guest-speaker presentations",
+        "Historical research and preservation",
+        "Community history education",
+        "Public meetings",
+        "Local-history networking"
+      ],
+      "good_to_know": [
+        "The organization originated in 1961 as the Grayson County Historical Committee and adopted the Grayson County Historical Society name in 1965.",
+        "Current 2026 Society announcements consistently list meetings on the second Tuesday of each month.",
+        "Programs normally begin at 6:30 PM in the Judge R.C. Vaughan Community Room at Frontier Village & Museum in Loy Lake Park.",
+        "Current meeting announcements welcome members, friends and anyone interested in Grayson County history.",
+        "Recent program subjects have included the Harvey Girls, Cynthia Ann Parker, Henrietta Lacks, Olive Oatman, Bass Reeves, the Katy Railroad and Grayson County pioneer history.",
+        "Current program contact is Jeri Bassett at gchs1961@gmail.com and 903-647-5674.",
+        "Current Society announcements identify Mike Shaw as president.",
+        "The Society announced in late 2025 that it had established a Facebook presence, but a dependable direct current Facebook URL was not verified."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Frontier Village & Museum"
+      ],
+      "related_geography": [
+        "Grayson County",
+        "Sherman",
+        "Denison",
+        "Texas"
+      ],
+      "verification_note": "Complete. Verified August 15, 2026 using current Grayson County historical-information pages and multiple 2026 event announcements published by the Grayson County Historical Society. Current announcements consistently establish second-Tuesday monthly programs at 6:30 PM in the Judge R.C. Vaughan Community Room at Frontier Village & Museum, with programs open to people interested in Grayson County history. Current contact information includes gchs1961@gmail.com and 903-647-5674 for program coordinator Jeri Bassett. The county's older historical-information page describes bi-monthly meetings, but multiple current 2026 Society-authored announcements establish the current monthly second-Tuesday schedule, so TWG uses the newer information.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "History presentations",
+        "Guest-speaker programs",
+        "Local-history programs",
+        "Texas-history programs",
+        "Educational meetings",
+        "Heritage programs",
+        "Community gatherings",
+        "Historical lectures"
+      ],
+      "event_sources": [
+        "Grayson County Historical Society announcements",
+        "Grayson County historical-information pages",
+        "North Texas e-News Society-submitted announcements",
+        "Grayson County Historical Society Facebook announcements"
+      ],
+      "features": [
+        "Founded in 1961",
+        "Monthly public history programming",
+        "Guest historians and speakers",
+        "Grayson County heritage preservation",
+        "Local-history education",
+        "Programs at Frontier Village & Museum",
+        "Countywide historical focus"
       ]
     }
   ]
