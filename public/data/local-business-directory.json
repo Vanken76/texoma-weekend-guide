@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-14",
+  "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 798,
-  "publish_ready_count": 473,
+  "business_count": 799,
+  "publish_ready_count": 474,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -76725,6 +76725,130 @@
         "Commercial kitchen",
         "RV hookups",
         "Large-capacity event hall"
+      ]
+    },
+    {
+      "slug": "turtle-hill-lodge-conference-center",
+      "business_name": "Turtle Hill Lodge & Conference Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "12 CR 442, Muenster, TX 76252",
+      "category": [
+        "Lodging",
+        "Conference Center",
+        "Retreat Center",
+        "Event Venue"
+      ],
+      "tags": [
+        "Muenster",
+        "Cooke County",
+        "Turtle Hill",
+        "Conference Center",
+        "Retreats",
+        "Family Reunions",
+        "Business Conferences",
+        "Church Retreats",
+        "Golf Getaways",
+        "Group Lodging"
+      ],
+      "description": "Turtle Hill Lodge & Conference Center is a group lodging, retreat and meeting facility in the North Texas countryside near Muenster. The property combines ranch-style guest accommodations with meeting rooms designed for family reunions, church retreats, business conferences, golf groups and weekend getaways.",
+      "why_visit": "Turtle Hill Lodge gives groups a place to stay, meet and relax in one location while remaining close to Muenster and Turtle Hill Golf Course. Its combination of overnight lodging, meeting facilities and meal options makes it especially useful for retreats, reunions and multi-day group gatherings.",
+      "why_its_unique": "The lodge combines ranch-style accommodations with dedicated conference rooms and sits near Turtle Hill Golf Course, creating a natural stay-and-play, retreat and group-event destination.",
+      "phone": "877-411-3585",
+      "email": "contact@turtlehilllodge.com",
+      "website": "https://www.turtlehilllodge.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public operating hours are published; lodging, meetings and group use are reservation-based.",
+      "at_a_glance": {
+        "average_visit": "Overnight or multi-day stay",
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": "Group meal and catering options available",
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Ranch-style lodging units",
+        "Private guest bathrooms",
+        "Refrigerators in guest rooms",
+        "Televisions",
+        "Porches with North Texas countryside views",
+        "Main Hall",
+        "Fireside Room",
+        "Flexible conference-room configurations",
+        "Day-group meeting rentals",
+        "Group meal and catering options",
+        "Continental breakfast for qualifying groups"
+      ],
+      "good_to_know": [
+        "The Main Hall seats up to 75 people.",
+        "Conference-table setup in the Main Hall accommodates approximately 50.",
+        "The Fireside Room accommodates up to 40 people.",
+        "Meeting rooms can be configured for different group needs.",
+        "Day-group rental options are available.",
+        "Lodging includes ranch-style units with private guest rooms.",
+        "Guest rooms include private baths and refrigerators.",
+        "The lodge offers catered lunch and dinner options.",
+        "A complimentary continental breakfast is offered for groups larger than 12.",
+        "Turtle Hill Golf Course is nearby, making the property suitable for stay-and-play golf groups."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [
+        "turtle-hill-golf-course"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository and public-site searches found no existing Turtle Hill Lodge & Conference Center record. The lodge's official website identifies the property as a lodging and conference facility suited to family reunions, stay-and-play golf outings, church retreats, business conferences and weekend getaways. Its official facilities page confirms two meeting rooms: a Main Hall seating up to 75 people or approximately 50 in conference-table configuration, and a Fireside Room accommodating up to 40. The official lodging page describes ranch-style guest accommodations with private bathrooms, refrigerators and porch views and states that catered lunch and dinner options are available, along with complimentary continental breakfast for groups larger than 12. The current Muenster Chamber of Commerce tourism directory independently lists Turtle Hill Lodge & Conference Center at 12 CR 442 with toll-free phone 877-411-3585, contact@turtlehilllodge.com and the official website.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Family reunions",
+        "Church retreats",
+        "Business conferences",
+        "Group retreats",
+        "Golf outings",
+        "Meetings",
+        "Private gatherings"
+      ],
+      "event_sources": [
+        "Turtle Hill Lodge & Conference Center official website",
+        "Muenster Chamber of Commerce"
+      ],
+      "features": [
+        "Group lodging",
+        "Two meeting rooms",
+        "Main Hall capacity up to 75",
+        "Fireside Room capacity up to 40",
+        "Catered meal options",
+        "North Texas countryside setting",
+        "Near Turtle Hill Golf Course"
       ]
     }
   ]
