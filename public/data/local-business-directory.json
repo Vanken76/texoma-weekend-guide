@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 818,
-  "publish_ready_count": 493,
+  "business_count": 819,
+  "publish_ready_count": 494,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -79296,6 +79296,149 @@
         "Direct local booking contact",
         "Past community-event host",
         "Useful festival-weekend lodging option"
+      ]
+    },
+    {
+      "slug": "girlfriends-boutique-muenster",
+      "business_name": "Girlfriends Boutique",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "216 N Main St, Muenster, TX 76252",
+      "category": [
+        "Boutique",
+        "Women's Clothing",
+        "Gift Shop",
+        "Day Spa",
+        "Beauty Salon",
+        "Local Shopping"
+      ],
+      "tags": [
+        "Girlfriends Boutique",
+        "Muenster",
+        "Cooke County",
+        "Downtown Muenster",
+        "Women's Clothing",
+        "Accessories",
+        "Children's Clothing",
+        "Home Decor",
+        "Gifts",
+        "Jewelry",
+        "Day Spa",
+        "Beauty Salon",
+        "Facials",
+        "Tanning",
+        "Coffee",
+        "Boutique Shopping"
+      ],
+      "description": "Girlfriends Boutique is a downtown Muenster boutique, gift shop and personal-care destination combining women's apparel and accessories, children's clothing, home decor and gifts with on-site salon and day-spa services. The Main Street shop is also associated with an in-store coffee counter, giving visitors a combination shopping, self-care and coffee stop under one roof.",
+      "why_visit": "Girlfriends offers more than a standard boutique stop. Visitors can browse clothing, accessories and gifts, enjoy a coffee, or schedule beauty and spa services while exploring downtown Muenster.",
+      "why_its_unique": "The business combines boutique retail, gifts, children's merchandise, salon services, spa treatments and coffee in a single downtown storefront known locally for its small-town Texas character.",
+      "phone": "940-759-2505",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/girlfriendsboutique/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$-$$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "sunday": "Closed",
+        "monday": "9:00 AM-6:00 PM",
+        "tuesday": "9:00 AM-6:00 PM",
+        "wednesday": "9:00 AM-6:00 PM",
+        "thursday": "9:00 AM-6:00 PM",
+        "friday": "9:00 AM-6:00 PM",
+        "saturday": "9:00 AM-5:00 PM"
+      },
+      "hours_note": "Current business listings consistently publish Monday-Friday 9:00 AM-6:00 PM, Saturday 9:00 AM-5:00 PM and Sunday closed. Holiday and festival-weekend hours should be confirmed directly.",
+      "at_a_glance": {
+        "average_visit": "20-90 minutes",
+        "price_range": "$$-$$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": "Coffee available inside the shop",
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Women's apparel",
+        "Women's accessories",
+        "Children's clothing",
+        "Jewelry",
+        "Handbags and accessories",
+        "Home decor",
+        "Gift merchandise",
+        "Beauty salon",
+        "Day-spa services",
+        "Facials",
+        "Hair services",
+        "Manicures and pedicures",
+        "Tanning",
+        "In-store coffee",
+        "Wheelchair-accessible entrance",
+        "Wheelchair-accessible parking"
+      ],
+      "good_to_know": [
+        "Girlfriends Boutique is located on North Main Street in downtown Muenster.",
+        "The Muenster Chamber currently lists the business among active local retail shops.",
+        "The shop combines boutique retail with beauty-salon and day-spa services.",
+        "Current business information lists women's apparel and accessories, children's clothing and home decor among its merchandise.",
+        "Facials, hair services, manicures, pedicures and tanning are associated with the personal-care side of the business.",
+        "A current Muenster visitor guide identifies an in-store coffee shop inside the boutique.",
+        "Current accessibility information lists both a wheelchair-accessible entrance and wheelchair-accessible parking.",
+        "The business is closed Sundays under its currently published regular schedule.",
+        "No reliable current standalone official website was located; the Muenster Chamber currently directs visitors to the business's Facebook page."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [
+        "the-birds-nest-muenster",
+        "main-street-mercantile-muenster",
+        "muenster-antique-mall",
+        "loras-flowers-tuxedos-muenster"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing Girlfriends Boutique Muenster record. The current Muenster Chamber of Commerce lists Girlfriends Boutique as an active Muenster retail business and links directly to its Facebook page. Current local-business data confirms 216 N Main St, Muenster, TX 76252, phone 940-759-2505 and regular hours Monday-Friday 9:00 AM-6:00 PM, Saturday 9:00 AM-5:00 PM and Sunday closed. Current business data identifies the location as a boutique, women's clothing store, children's clothing store, beauty salon and day spa and lists women's apparel and accessories, home decor, salon services, facials, manicures/pedicures and tanning. Current accessibility data lists wheelchair-accessible parking and entrance. A current Muenster visitor guide independently confirms the same address and phone and specifically notes an in-store coffee shop. Because no reliable standalone official website was established, the website field is intentionally left null.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Boutique promotions",
+        "Seasonal shopping events"
+      ],
+      "event_sources": [
+        "Girlfriends Boutique Facebook",
+        "Muenster Chamber of Commerce"
+      ],
+      "features": [
+        "Downtown Main Street boutique",
+        "Women's and children's clothing",
+        "Gifts and home decor",
+        "Full day-spa services",
+        "Beauty salon",
+        "Facials and tanning",
+        "In-store coffee",
+        "Wheelchair-accessible entrance and parking"
       ]
     }
   ]
