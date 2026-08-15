@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 823,
-  "publish_ready_count": 498,
+  "business_count": 824,
+  "publish_ready_count": 499,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -79948,6 +79948,116 @@
         "Red Cross swim lessons",
         "Located inside Muenster City Park",
         "Summer family recreation"
+      ]
+    },
+    {
+      "slug": "weber-ranch-distillery-muenster",
+      "business_name": "Weber Ranch Distillery",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1902 Weber Ranch Rd, Muenster, TX 76252",
+      "category": [
+        "Distillery",
+        "Spirits Producer",
+        "Local Manufacturing",
+        "Made in Texoma"
+      ],
+      "tags": [
+        "Weber Ranch",
+        "Weber Ranch 1902",
+        "Muenster",
+        "Cooke County",
+        "Distillery",
+        "Vodka",
+        "Blue Weber Agave",
+        "Texas-Made",
+        "Trinity Aquifer",
+        "Round 2 Spirits",
+        "Made in Muenster"
+      ],
+      "description": "Weber Ranch Distillery is a spirits-production facility in Muenster and the Texas home of Weber Ranch 1902 Vodka. Blue Weber agave is selected and initially distilled in Jalisco, Mexico, then brought to Muenster where the spirit is further distilled in proprietary copper pot and column stills, blended with water from the Trinity Aquifer, filtered and bottled.",
+      "why_visit": "Weber Ranch is an important piece of Muenster's growing food-and-drink identity and a distinctive locally crafted product story. The distillery is not currently open for public tours, so it should presently be treated as a local business of interest rather than a walk-in visitor attraction.",
+      "why_its_unique": "Weber Ranch uses 100% Blue Weber Agave rather than traditional vodka bases such as corn, wheat or potatoes. Its production connects Jalisco agave-distilling traditions with final distillation and bottling in Muenster using local Trinity Aquifer water.",
+      "phone": null,
+      "email": null,
+      "website": "https://www.weberranch.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The Weber Ranch Distillery is not currently open for public tours or regular walk-in visitation. Weber Ranch asks interested visitors to register for updates about future tours.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "The distillery is located at 1902 Weber Ranch Road in Muenster.",
+        "Public distillery tours are not currently offered.",
+        "Weber Ranch has indicated that visitors can register interest for future tours.",
+        "Weber Ranch Vodka is made from 100% Blue Weber Agave.",
+        "The agave is grown and initially distilled in Jalisco, Mexico.",
+        "The spirit is further distilled, filtered and bottled at the Muenster distillery.",
+        "Water from the local Trinity Aquifer is used in production.",
+        "The Muenster facility uses proprietary copper pot and column stills.",
+        "Weber Ranch Vodka is bottled at 40% ABV.",
+        "The brand identifies its vodka as additive-free, gluten-free and carb-free.",
+        "Texas accessibility-project records describe the distillery facility renovation as approximately 48,000 square feet.",
+        "The Muenster Chamber of Commerce currently lists Weber Ranch in its Distillery category."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 14, 2026. Fresh TWG repository search found no existing Weber Ranch or Weber Ranch Distillery record. The current official Weber Ranch website confirms the distillery at 1902 Weber Ranch Road in Muenster, Texas. Weber Ranch states that 100% Blue Weber Agave is grown and initially distilled in Jalisco, Mexico before the spirit is brought to Muenster, where it is further distilled using proprietary copper pot and column stills, combined with Trinity Aquifer water, filtered and bottled. The official FAQ explicitly states that public distillery tours are not currently offered but invites visitors to register interest for future tours. The current Muenster Chamber of Commerce lists Weber Ranch as a local distillery. Texas Department of Licensing and Regulation records identify the Weber Ranch Distillery at the same address and document an approximately 48,000-square-foot facility renovation. No public operating hours, general visitor phone number or general email address are asserted because Weber Ranch currently directs inquiries through its website contact form.",
+      "last_checked": "2026-08-14",
+      "event_types": [
+        "Future distillery tours",
+        "Member-only brand events",
+        "Special distillery events"
+      ],
+      "event_sources": [
+        "Weber Ranch official website",
+        "Weber Ranch 1902 Club",
+        "Muenster Chamber of Commerce"
+      ],
+      "features": [
+        "Muenster-based distillery",
+        "100% Blue Weber Agave vodka",
+        "Trinity Aquifer water",
+        "Copper pot and column stills",
+        "Distilled and bottled in Muenster",
+        "Approximately 48,000-square-foot distillery facility",
+        "Potential future public tours"
       ]
     }
   ]
