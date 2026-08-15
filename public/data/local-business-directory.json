@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 840,
-  "publish_ready_count": 515,
+  "business_count": 841,
+  "publish_ready_count": 516,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -82322,6 +82322,165 @@
       ],
       "source_verified": true,
       "verification_note": "Verified August 15, 2026 from the current official Lake Texoma Association website, About Us page, contact information and active regional events calendar. First-party sources confirm the 11934 State Park Rd, Kingston address; 580-564-2334 phone number; info@laketexomaonline.com email; tourism and visitor-information role; Lake Texoma promotion and protection mission; annual Guide to Lake Texoma; regional business information; and active events calendar. No dependable current public office-hour schedule was found, so structured hours remain intentionally blank.",
+      "last_checked": "2026-08-15",
+      "last_verified": "2026-08-15"
+    },
+    {
+      "slug": "oasis-at-the-lighthouse-lodge",
+      "business_name": "Oasis at the Lighthouse Lodge",
+      "alternate_names": [
+        "Lighthouse Lodge",
+        "Lighthouse Lodge Event Center"
+      ],
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "300 Lighthouse Drive, Pottsboro, TX 75076 — waterfront event venue inside Lighthouse Resort & Marina on Lake Texoma",
+      "category": [
+        "Event Venue",
+        "Wedding Venue",
+        "Private Event Venue",
+        "Meeting Venue"
+      ],
+      "tags": [
+        "Pottsboro",
+        "Lake Texoma",
+        "Lighthouse Resort & Marina",
+        "Waterfront Venue",
+        "Wedding Venue",
+        "Reception Venue",
+        "Family Reunions",
+        "Company Parties",
+        "Corporate Events",
+        "Private Events",
+        "Lake Views",
+        "Event Rentals"
+      ],
+      "description": "Oasis at the Lighthouse Lodge is a waterfront event venue inside Lighthouse Resort & Marina in Pottsboro. The climate-controlled lodge combines approximately 1,600 square feet of indoor event space with a roughly 1,200-square-foot deck overlooking Lake Texoma. The venue is designed for weddings and receptions, family reunions, company parties, meetings and other private gatherings, with bar service and catering options available.",
+      "short_description": "Waterfront Lake Texoma event lodge at Lighthouse Resort & Marina for weddings, receptions, reunions, company parties and private gatherings.",
+      "why_visit": "Oasis at the Lighthouse Lodge gives groups an indoor-outdoor event setting directly on Lake Texoma, allowing guests to combine climate-controlled gathering space with a large waterfront deck and views of the lake.",
+      "why_its_unique": "The venue sits inside a full Lake Texoma resort and marina, allowing event groups to pair the lodge with nearby lodging, boating, recreation and other Lighthouse facilities rather than using a standalone event hall.",
+      "address": "300 Lighthouse Drive",
+      "address_line_2": null,
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "phone": "903-200-1408",
+      "phone_secondary": "903-361-5070",
+      "phone_note": "903-200-1408 is the current Lighthouse/Texoma Destinations event-coordination number for venue inquiries and showings. 903-361-5070 is the Lighthouse Resort & Marina reservations number.",
+      "email": null,
+      "website": "https://lighthouseresort.com/event-space/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Varies by event and rental block",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The venue operates for scheduled rentals and events rather than regular public walk-in hours. Venue and vessel showings are by appointment. Contact the event-coordination team at 903-200-1408.",
+      "at_a_glance": {
+        "average_visit": "Varies by event",
+        "price_range": "Varies by event and rental block",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Approximately 1,600 square feet of climate-controlled indoor event space",
+        "Approximately 1,200-square-foot lake-view deck",
+        "Indoor-outdoor event layout",
+        "Large bay doors connecting indoor and outdoor spaces",
+        "Bar",
+        "Bartender service",
+        "Catering available through Dreamland Catering",
+        "Lake Texoma views",
+        "Hourly rentals",
+        "Half-day rentals",
+        "Full-day rentals",
+        "Event coordination",
+        "Nearby resort lodging",
+        "Nearby marina and recreation amenities"
+      ],
+      "good_to_know": [
+        "Oasis at the Lighthouse Lodge is located within Lighthouse Resort & Marina at 300 Lighthouse Drive in Pottsboro.",
+        "The current official event-space page identifies Oasis at the Lighthouse Lodge as a full-service event space.",
+        "The current venue configuration includes approximately 1,600 square feet indoors and a roughly 1,200-square-foot deck.",
+        "The venue is marketed for weddings and receptions, family reunions and company parties.",
+        "A bartender is included with Lighthouse Lodge rentals according to the current official venue page.",
+        "Catering can be arranged through Dreamland Catering.",
+        "Pricing is offered by the hour and in half-day and full-day blocks.",
+        "Discounts may be available when Lighthouse Lodge is paired with Lighthouse Resort's Cove Point outdoor venue.",
+        "Venue showings are by appointment.",
+        "For current pricing, availability and event planning, contact the event team at 903-200-1408."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "event_types": [
+        "Weddings",
+        "Wedding receptions",
+        "Family reunions",
+        "Company parties",
+        "Corporate events",
+        "Private celebrations",
+        "Meetings",
+        "Group gatherings"
+      ],
+      "event_sources": [
+        "Lighthouse Resort & Marina official event-space page",
+        "Texoma Destinations event-planning information"
+      ],
+      "features": [
+        "Waterfront Lake Texoma setting",
+        "Climate-controlled event lodge",
+        "Large lake-view deck",
+        "Indoor-outdoor event space",
+        "Bar and bartender service",
+        "Catering options",
+        "Resort and marina setting"
+      ],
+      "parent_business": {
+        "slug": "lighthouse-resort-marina",
+        "business_name": "Lighthouse Resort & Marina",
+        "relationship_note": "Oasis at the Lighthouse Lodge is a dedicated event venue physically located within Lighthouse Resort & Marina."
+      },
+      "child_businesses": [],
+      "related_businesses": [
+        {
+          "slug": "texoma-destinations",
+          "business_name": "Texoma Destinations",
+          "relationship_note": "Texoma Destinations is the parent company of Lighthouse Resort & Marina and provides event-planning services for Lighthouse venues."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Oasis at the Lighthouse Lodge is located in Pottsboro, Texas."
+        }
+      ],
+      "source_verified": true,
+      "verification_note": "Verified August 15, 2026 from the current official Lighthouse Resort & Marina event-space page. Current first-party information confirms Oasis at the Lighthouse Lodge as a full-service waterfront event space within Lighthouse Resort & Marina, with approximately 1,600 square feet of climate-controlled interior space, an approximately 1,200-square-foot deck, bar and bartender service, catering options and rentals for weddings, receptions, reunions, company parties and other gatherings. Current event-space showings are by appointment through 903-200-1408. Older Lighthouse pages describe an earlier deck configuration, so TWG uses the dimensions published on the current event-space page.",
       "last_checked": "2026-08-15",
       "last_verified": "2026-08-15"
     }
