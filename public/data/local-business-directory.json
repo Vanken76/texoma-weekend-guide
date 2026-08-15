@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 900,
-  "publish_ready_count": 575,
+  "business_count": 901,
+  "publish_ready_count": 576,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -90474,6 +90474,130 @@
         "Horseshoe pit",
         "Benches",
         "Picnic tables"
+      ]
+    },
+    {
+      "slug": "jones-park",
+      "business_name": "Jones Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1200 W Shepherd Street, Denison, TX 75020",
+      "category": [
+        "Park",
+        "Outdoor Recreation",
+        "Family Attraction",
+        "Sports & Recreation"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "Neighborhood Park",
+        "Outdoor Recreation",
+        "Family Activities",
+        "Basketball",
+        "Playground",
+        "Practice Field",
+        "Picnicking",
+        "Sports",
+        "Things to Do in Denison"
+      ],
+      "description": "Jones Park is a neighborhood recreation park in Denison offering family play space and casual sports facilities in a compact setting. The park includes a covered playground, basketball court, pavilion area, picnic table, park benches and a practice field with a reservable backstop. One basketball goal is designed for wheelchair-accessible play, adding an inclusive recreation feature to the park. Jones Park works well for neighborhood families, informal basketball, children's play, picnics and athletic practices.",
+      "why_visit": "Jones Park offers a convenient neighborhood spot for basketball, playground time, picnics and informal sports without the scale of Denison's larger regional parks.",
+      "why_its_unique": "Its combination of a covered playground, basketball facilities and reservable practice-field backstop gives this small neighborhood park more recreation versatility than its size might suggest.",
+      "phone": "903-465-2720",
+      "email": "parksandrec@denisontx.gov",
+      "website": "https://www.denisontx.gov/500/Parks",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "A current Jones Park-specific daily-hours panel was not confirmed during verification. Check City of Denison Parks & Recreation for current access rules, closures or permitted-use schedules.",
+      "at_a_glance": {
+        "average_visit": "30 minutes–2 hours",
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Approximately 3-acre neighborhood park",
+        "Covered playground equipment",
+        "Basketball court",
+        "Wheelchair-accessible basketball goal",
+        "Practice field",
+        "Reservable Jones Park Backstop",
+        "Pavilion area",
+        "Picnic table",
+        "Park benches"
+      ],
+      "good_to_know": [
+        "Jones Park is located at 1200 W Shepherd Street in Denison.",
+        "City recreation materials identify Jones Park as approximately 3 acres.",
+        "The playground equipment is covered.",
+        "The park includes a basketball court.",
+        "One basketball goal is specifically identified as wheelchair accessible.",
+        "The park includes a practice field.",
+        "Jones Park Backstop can currently be reserved in one-hour time slots.",
+        "A pavilion area, picnic table and park benches are available.",
+        "Denison's current basketball directory identifies Jones Park as a public basketball location.",
+        "A 2025 City of Denison project proposed adding pickleball courts at Jones Park, but the City's current pickleball page still identifies Waterloo Lake Regional Park as its public pickleball location. Pickleball is therefore not listed as a confirmed Jones Park amenity.",
+        "For Parks & Recreation questions, contact the City of Denison at 903-465-2720."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Located in Denison, Texas."
+        }
+      ],
+      "verification_note": "Fully researched August 15, 2026 after manual TWG live-directory duplicate clearance. Current City of Denison sources confirm Jones Park as an active municipal park at 1200 W Shepherd Street and a public basketball location. Denison's current RecDesk reservation system confirms the Jones Park Backstop, pavilion area, covered playground equipment, picnic table, park benches and basketball court, including one wheelchair-accessible basketball goal. The backstop is currently reservable in one-hour time slots. City recreation materials identify the park as approximately 3 acres. A City of Denison bid issued in 2025 concerned a proposed Jones Park pickleball court addition; however, the City's current 2026 pickleball page still directs public pickleball activity to Waterloo Lake Regional Park and does not identify Jones Park as an operating pickleball location. TWG therefore does not claim pickleball as a current amenity without stronger completion confirmation. Park-specific pet rules and comprehensive accessibility were not confirmed and remain unspecified.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Athletic practices",
+        "Basketball activities",
+        "Youth recreation",
+        "Neighborhood recreation"
+      ],
+      "event_sources": [
+        "City of Denison Parks & Recreation",
+        "Denison RecDesk"
+      ],
+      "features": [
+        "Approximately 3-acre neighborhood park",
+        "Covered playground",
+        "Basketball court",
+        "Wheelchair-accessible basketball goal",
+        "Practice field",
+        "Reservable backstop",
+        "Pavilion area",
+        "Picnic seating"
       ]
     }
   ]
