@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 832,
-  "publish_ready_count": 507,
+  "business_count": 833,
+  "publish_ready_count": 508,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -81133,6 +81133,180 @@
       "related_geography": [],
       "verification_note": "Verified August 15, 2026 from the City of Pottsboro Parks & Recreation page, City contact information and municipal code. TWG uses the City-published address of 610 Grayson St. City ordinance establishes normal public park access from 5:00 AM to 10:00 PM daily, with an exception for city-authorized organized activities. kivey@cityofpottsboro.com is the City-published park reservation email.",
       "last_checked": "2026-08-15"
+    },
+    {
+      "slug": "the-ball-park-festival-park-pottsboro",
+      "business_name": "The Ball Park / Festival Park",
+      "alternate_names": [
+        "Festival Park",
+        "The Ball Park",
+        "Pottsboro Baseball BallPark"
+      ],
+      "directory_status": "complete",
+      "status": "active",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "310 Festival Park St, Pottsboro, TX 75076 — City of Pottsboro youth baseball and softball complex",
+      "category": [
+        "Park",
+        "Sports Complex",
+        "Baseball Field",
+        "Softball Field",
+        "Youth Sports",
+        "Outdoor Recreation",
+        "Event Venue"
+      ],
+      "tags": [
+        "Pottsboro",
+        "Grayson County",
+        "Festival Park",
+        "The Ball Park",
+        "baseball",
+        "softball",
+        "youth baseball",
+        "youth softball",
+        "sports complex",
+        "athletic fields",
+        "playground",
+        "concession stand",
+        "youth sports",
+        "outdoor recreation",
+        "sports events"
+      ],
+      "description": "The Ball Park, also known as Festival Park, is a City of Pottsboro youth sports complex just off FM 120. The facility includes two 200-foot youth baseball fields, one 180-foot youth softball field, a concession and restroom facility, and playground equipment. The complex is used for organized youth baseball and softball and serves as an important local sports-event venue.",
+      "short_description": "Pottsboro municipal youth baseball and softball complex with three fields, concessions, restrooms and a playground.",
+      "why_visit": "Festival Park is one of Pottsboro's primary youth-sports facilities and a useful destination for local baseball and softball games, tournaments and family recreation.",
+      "why_its_unique": "Unlike Pottsboro's broader multi-use parks, Festival Park is centered specifically around youth baseball and softball, with three dedicated diamonds and supporting game-day facilities.",
+      "address": "310 Festival Park St",
+      "address_line_2": null,
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "country": "USA",
+      "address_note": "TWG uses 310 Festival Park St because that is the address currently published by the City of Pottsboro for The Ball Park/Festival Park. A current 2026 regional youth-baseball field-location sheet lists Festival Park Fields 1, 2 and 3 at 400 Festival Park St. Event attendees should follow any field-specific directions supplied by the tournament or league.",
+      "latitude": null,
+      "longitude": null,
+      "phone": "903-786-2281",
+      "phone_secondary": null,
+      "phone_note": "City of Pottsboro municipal contact; the park does not publish a dedicated facility phone number.",
+      "email": "mstory@cityofpottsboro.com",
+      "website": "https://cityofpottsboro.com/index.asp?SEC=C715B55E-A47A-4408-B8E1-9443456A828C&Type=B_BASIC",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": false,
+      "dog_friendly": false,
+      "hours": {
+        "monday": "5:00 AM–10:00 PM",
+        "tuesday": "5:00 AM–10:00 PM",
+        "wednesday": "5:00 AM–10:00 PM",
+        "thursday": "5:00 AM–10:00 PM",
+        "friday": "5:00 AM–10:00 PM",
+        "saturday": "5:00 AM–10:00 PM",
+        "sunday": "5:00 AM–10:00 PM"
+      },
+      "hours_note": "Pottsboro municipal code closes all city parks to the public from 10:00 PM until 5:00 AM daily. City-authorized organized activities are exempt from the closing-hours restriction.",
+      "at_a_glance": {
+        "average_visit": "Varies by game or event",
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": false,
+        "dog_friendly": false,
+        "food_available": "During concession operations",
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Two 200-foot youth baseball fields",
+        "One 180-foot youth softball field",
+        "Concession facility",
+        "Restroom facility",
+        "Playground equipment",
+        "Field seating"
+      ],
+      "good_to_know": [
+        "The facility is owned and operated by the City of Pottsboro.",
+        "The park is also commonly known as Festival Park.",
+        "Ball fields may normally be reserved up to one week in advance for two-hour blocks on a first-come, first-served basis.",
+        "The City states that its ball fields are unavailable for individual reservations from February through August while an extended-use agreement is in effect.",
+        "Current 2026 youth-baseball information identifies Festival Park Fields 1, 2 and 3 as Pottsboro game locations.",
+        "The City prohibits alcoholic beverages in public parks.",
+        "Smoking, vaping and smokeless tobacco are prohibited in City of Pottsboro public parks.",
+        "Pets are prohibited on Pottsboro athletic fields.",
+        "Normal public park hours are 5:00 AM to 10:00 PM, except for organized activities authorized by the City.",
+        "Some current sports schedules use 400 Festival Park St for the playing fields even though the City publishes 310 Festival Park St as the park address."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "event_types": [
+        "Youth baseball games",
+        "Youth softball games",
+        "League play",
+        "Baseball tournaments",
+        "Softball tournaments",
+        "Youth sports events"
+      ],
+      "event_sources": [
+        "City of Pottsboro Parks & Recreation",
+        "Pottsboro Youth Association",
+        "Regional youth baseball and softball schedules",
+        "Pottsboro Area Chamber of Commerce"
+      ],
+      "features": [
+        "Three youth ball fields",
+        "Municipal sports complex",
+        "Concession facility",
+        "Restroom facility",
+        "Playground",
+        "Recurring youth baseball and softball activity"
+      ],
+      "ownership": {
+        "owner": "City of Pottsboro",
+        "type": "municipal"
+      },
+      "parent_business": null,
+      "child_businesses": [],
+      "related_businesses": [
+        {
+          "slug": "james-g-thompson-park-pottsboro",
+          "business_name": "James G. Thompson Park",
+          "relationship_note": "Another City of Pottsboro park with additional baseball and softball fields used for organized sports."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "lake-texoma",
+          "name": "Lake Texoma",
+          "entity_type": "region",
+          "relationship_note": "Festival Park is located in Pottsboro, one of the principal Texas communities serving the Lake Texoma area."
+        },
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Festival Park is a municipal sports facility in Pottsboro, Texas."
+        }
+      ],
+      "source_verified": true,
+      "verification_note": "Verified August 15, 2026 using the current City of Pottsboro Parks & Recreation page, current Pottsboro municipal code and current 2026 regional youth-baseball field-location information. The City lists the facility as The Ball Park/Festival Park at 310 Festival Park St and confirms two 200-foot youth baseball fields, one 180-foot youth softball field, concessions/restrooms and playground equipment. Current 2026 baseball information independently confirms Festival Park Fields 1, 2 and 3 as active Pottsboro game fields, although that source uses 400 Festival Park St. TWG retains the City's 310 Festival Park St address while documenting the field-specific discrepancy.",
+      "last_checked": "2026-08-15",
+      "last_verified": "2026-08-15"
     }
   ]
 }
