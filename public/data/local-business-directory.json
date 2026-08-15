@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 858,
-  "publish_ready_count": 533,
+  "business_count": 859,
+  "publish_ready_count": 534,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -84913,6 +84913,119 @@
         "Event information",
         "Local history resources",
         "Barn Quilt Trail information"
+      ]
+    },
+    {
+      "slug": "whitesboro-area-chamber-of-commerce",
+      "business_name": "Whitesboro Area Chamber of Commerce",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "2535 US-82 Suite C, Whitesboro, TX 76273",
+      "category": [
+        "Chamber of Commerce",
+        "Community Organization",
+        "Business Organization"
+      ],
+      "tags": [
+        "Whitesboro",
+        "Grayson County",
+        "Community Events",
+        "Business Networking",
+        "Peanut Festival",
+        "Ribbon Cuttings",
+        "Festivals",
+        "Local Businesses"
+      ],
+      "description": "The Whitesboro Area Chamber of Commerce is a business and community organization serving Whitesboro and the surrounding area. The Chamber supports local businesses through networking, marketing, referrals, ribbon cuttings and community partnerships while maintaining a public event calendar and organizing or promoting major community activities including the annual Peanut Festival.",
+      "why_visit": "A useful source for Whitesboro business information, community connections, local events, festivals and recurring activities.",
+      "why_its_unique": "The Chamber combines local-business support with an active community-event role highlighted by the long-running Whitesboro Peanut Festival and recurring networking, ribbon-cutting and community programs.",
+      "phone": "903-564-3331",
+      "email": "chamber@whitesborotx.com",
+      "website": "https://www.whitesborotx.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "9:00 AM - 3:00 PM",
+        "tuesday": "9:00 AM - 3:00 PM",
+        "wednesday": "9:00 AM - 3:00 PM",
+        "thursday": "9:00 AM - 3:00 PM",
+        "friday": "9:00 AM - 3:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Regular Chamber office hours are Monday through Friday from 9:00 AM to 3:00 PM, with the office closed for lunch from 12:00 PM to 1:00 PM. Event schedules and holiday closures vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "The Chamber maintains a public community calendar and accepts event submissions from Chamber members.",
+        "The 60th Annual Peanut Festival is scheduled for October 17, 2026.",
+        "The Chamber hosts ribbon cuttings for new members upon request.",
+        "Recurring networking opportunities include Chamber Mixers and open board meetings held on the third Thursday of each month.",
+        "Other Chamber programming includes Trunk or Treat and Miles for Mom.",
+        "The office closes for lunch from noon to 1:00 PM on weekdays."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Whitesboro",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Complete. Current official Whitesboro Area Chamber of Commerce sources confirm the organization, 2535 US-82 Suite C address, 903-564-3331 phone number, chamber@whitesborotx.com email, weekday office hours, community event calendar, member event submissions, ribbon cuttings, networking programs and major recurring community programming including the Peanut Festival. The official website currently identifies the 60th Annual Peanut Festival for October 17, 2026.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Community festivals",
+        "Ribbon cuttings",
+        "Business networking",
+        "Community runs",
+        "Trunk-or-treat events",
+        "Member events",
+        "Community gatherings"
+      ],
+      "event_sources": [
+        "Whitesboro Area Chamber of Commerce event calendar",
+        "Whitesboro Area Chamber of Commerce official website",
+        "Whitesboro Area Chamber of Commerce event pages"
+      ],
+      "features": [
+        "Public community-event calendar",
+        "Membership directory",
+        "Business referrals",
+        "Ribbon cuttings",
+        "Community event organizer",
+        "Business networking",
+        "Business and community resources"
       ]
     }
   ]
