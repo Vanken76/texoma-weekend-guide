@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 833,
-  "publish_ready_count": 508,
+  "business_count": 834,
+  "publish_ready_count": 509,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -81307,6 +81307,127 @@
       "verification_note": "Verified August 15, 2026 using the current City of Pottsboro Parks & Recreation page, current Pottsboro municipal code and current 2026 regional youth-baseball field-location information. The City lists the facility as The Ball Park/Festival Park at 310 Festival Park St and confirms two 200-foot youth baseball fields, one 180-foot youth softball field, concessions/restrooms and playground equipment. Current 2026 baseball information independently confirms Festival Park Fields 1, 2 and 3 as active Pottsboro game fields, although that source uses 400 Festival Park St. TWG retains the City's 310 Festival Park St address while documenting the field-specific discrepancy.",
       "last_checked": "2026-08-15",
       "last_verified": "2026-08-15"
+    },
+    {
+      "slug": "the-rustic-bark",
+      "business_name": "The Rustic Bark",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "513 Highport Road, Pottsboro, TX 75076 — dog-friendly cabin and unique-stay rentals near Lake Texoma and Highport Marina",
+      "category": [
+        "Cabin Rental",
+        "Vacation Rental",
+        "Pet-Friendly Lodging"
+      ],
+      "tags": [
+        "Pottsboro",
+        "Lake Texoma",
+        "Cabins",
+        "Vacation Rental",
+        "Dog Friendly",
+        "Pet Friendly",
+        "Tiny Rentals",
+        "Unique Lodging",
+        "Weekend Getaway",
+        "Highport",
+        "Lake Getaway"
+      ],
+      "description": "The Rustic Bark is a dog-centered, human-friendly lodging property in Pottsboro near Lake Texoma and Highport Marina. Its Base Camp includes three dog-themed cabin rentals, while additional tiny conversion rentals provide a more unconventional stay. The property is designed for travelers who want to enjoy the lake without leaving their dogs behind.",
+      "why_visit": "The Rustic Bark gives Lake Texoma visitors a distinctive pet-friendly place to stay close to Highport Marina, with themed cabins, smaller alternative rentals and outdoor space where guests can relax with their dogs.",
+      "why_its_unique": "Its entire lodging concept is intentionally centered around travelers with dogs. The property combines dog-themed cabins, tiny conversion rentals and a Bark Park setting rather than treating pet-friendliness as an afterthought.",
+      "phone": "970-901-3044",
+      "email": null,
+      "website": "https://therusticbark.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$79-$165 nightly",
+      "family_friendly": true,
+      "pet_friendly": true,
+      "dog_friendly": true,
+      "hours": {},
+      "hours_note": "No general public office hours are currently published. Lodging is reservation-based; contact The Rustic Bark directly for availability, check-in information and current rates.",
+      "at_a_glance": {
+        "average_visit": "Overnight or extended stay",
+        "price_range": "$79-$165 nightly",
+        "family_friendly": true,
+        "pet_friendly": true,
+        "dog_friendly": true,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Three themed Base Camp cabins",
+        "Dog-friendly lodging",
+        "Bark Park outdoor area",
+        "Tiny conversion rentals",
+        "Grilling and outdoor gathering space",
+        "Internet included with Base Camp cabins",
+        "Electricity included with Base Camp cabins",
+        "Water and sewage included with Base Camp cabins"
+      ],
+      "good_to_know": [
+        "The Rustic Bark is located at 513 Highport Road in Pottsboro.",
+        "The property describes itself as dog-centered and human-friendly.",
+        "It is less than a mile from Lake Texoma near Highport Marina.",
+        "The Base Camp lodging includes The Sage, The Surrey and The Sulin.",
+        "The Sage and The Surrey are one-bedroom cabins with lofts; The Sulin is a two-bedroom cabin with a loft.",
+        "The official rate page currently lists The Sage and The Surrey at $145 per night and The Sulin at $165 per night.",
+        "A tiny conversion rental called Horse Around is currently listed at $79 per night.",
+        "The conversion may remain at Base Camp or be positioned off-site; the official rate page currently lists a $25 additional charge for off-site placement within 10 miles.",
+        "The official website currently contains conflicting dog-boarding information: the homepage says dog boarding is coming soon while the rate page lists a boarding price. Confirm availability directly before relying on boarding service."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [
+        {
+          "slug": "highport-marina",
+          "business_name": "Highport Marina",
+          "relationship_note": "The Rustic Bark is located on Highport Road less than a mile from Lake Texoma near Highport Marina; the businesses are nearby but are separate properties."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "The Rustic Bark is located in Pottsboro, Texas."
+        }
+      ],
+      "verification_note": "Verified August 15, 2026 from The Rustic Bark's current official website and rate page. The official site confirms the 513 Highport Road address, 970-901-3044 phone number, dog-centered lodging concept, proximity to Lake Texoma and Highport Marina, three Base Camp cabins, tiny conversion rentals and current published lodging rates. Dog boarding is intentionally not treated as a confirmed current amenity because the official homepage labels it 'coming soon' while another official page lists a boarding rate. Highport Marina was independently confirmed as an existing TWG record and is related rather than a parent business.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Property events",
+        "Dog-friendly activities"
+      ],
+      "event_sources": [
+        "Official website"
+      ],
+      "features": [
+        "Dog-centered lodging",
+        "Three themed cabins",
+        "Tiny conversion rentals",
+        "Bark Park setting",
+        "Near Lake Texoma",
+        "Near Highport Marina"
+      ]
     }
   ]
 }
