@@ -5,8 +5,8 @@
   "generated_on": "2026-08-15",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 828,
-  "publish_ready_count": 503,
+  "business_count": 829,
+  "publish_ready_count": 504,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -80602,6 +80602,114 @@
         "Reservable meeting room",
         "Free community resource",
         "Strong recurring-event source"
+      ]
+    },
+    {
+      "slug": "kountry-korner-rv-park-muenster",
+      "business_name": "Kountry Korner RV Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "622 W Division St, Muenster, TX 76252",
+      "category": [
+        "RV Park",
+        "Campground",
+        "Lodging",
+        "Road Trip Lodging"
+      ],
+      "tags": [
+        "Kountry Korner RV Park",
+        "Muenster",
+        "Cooke County",
+        "RV Camping",
+        "RV Park",
+        "Camping",
+        "Highway 82",
+        "Germanfest Lodging",
+        "Oktoberfest Lodging",
+        "Road Trip",
+        "Muenster Lodging"
+      ],
+      "description": "Kountry Korner RV Park is an RV lodging option on Highway 82 in Muenster, located at the same property as Kountry Korner. The park provides an in-town RV option for travelers visiting Muenster's festivals, wineries, golf course, restaurants, shops and surrounding North Texas attractions.",
+      "why_visit": "The RV park gives travelers with campers and motorhomes a convenient place to stay directly in Muenster rather than commuting from another town. Its Highway 82 location is especially practical for festival weekends and road trips through the Red River Valley.",
+      "why_its_unique": "Kountry Korner RV Park combines RV lodging with the convenience of an established Highway 82 food and convenience-store property at the same address.",
+      "phone": "940-759-2546",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "RV check-in procedures and availability should be confirmed directly. Published operating hours for the Kountry Korner retail/U-Haul operation should not be assumed to be RV park check-in hours.",
+      "at_a_glance": {
+        "average_visit": "Overnight or multi-day stay",
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": "Food and convenience-store service available at the associated Kountry Korner property",
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "RV lodging",
+        "Highway 82 location",
+        "Adjacent convenience store",
+        "Adjacent made-to-order food",
+        "Nearby fuel and travel services",
+        "U-Haul services at the associated property"
+      ],
+      "good_to_know": [
+        "The Muenster Chamber currently lists Kountry Korner RV Park under local lodging.",
+        "The RV park is located at 622 W Division St / Highway 82.",
+        "The RV park shares its property with Kountry Korner.",
+        "The associated Kountry Korner business offers food, convenience-store items and travel services.",
+        "Current campground directories continue to publish 940-759-2546 for the RV park.",
+        "The retail and U-Haul operations at the property currently use different phone numbers, so RV reservations should be confirmed specifically as RV park inquiries.",
+        "Reliable current sources did not establish site count, hookup configuration, nightly rates, reservation policy, shower facilities, laundry facilities, pet policy or maximum RV length.",
+        "Those unverified campground details are intentionally left unasserted."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": "kountry-korner-muenster",
+      "related_businesses": [
+        "kountry-korner-muenster",
+        "heritage-park-event-center-muenster",
+        "turtle-hill-golf-course",
+        "4r-ranch-vineyards-winery"
+      ],
+      "related_geography": [
+        "muenster",
+        "cooke-county"
+      ],
+      "verification_note": "Fully researched August 15, 2026. Fresh TWG repository search found no existing Kountry Korner RV Park record. The current Muenster Chamber of Commerce specifically lists Kountry Korner RV Park among local lodging options. Current campground data identifies the RV park at 622 W Division St, Muenster, TX 76252 and publishes phone 940-759-2546. The associated Kountry Korner retail and food operation occupies the same Highway 82 property. U-Haul independently confirms the active Kountry Korner property at 622 W Division St, although its U-Haul contact number is separate from the campground number. Reliable current sources did not establish RV site count, hookups, rates, reservation procedures, laundry, showers, pet policy or maximum rig length, so TWG intentionally does not infer those details.",
+      "last_checked": "2026-08-15",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "In-town Muenster RV lodging",
+        "Highway 82 location",
+        "Same property as Kountry Korner",
+        "Convenient for festival weekends",
+        "Adjacent food and convenience services"
       ]
     }
   ]
