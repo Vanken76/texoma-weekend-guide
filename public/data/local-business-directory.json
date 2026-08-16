@@ -99087,10 +99087,11 @@
         "Rental Venue"
       ],
       "tags": [
+        "Southeastern Oklahoma State University",
+        "Southeastern",
         "Durant",
         "Bryan County",
         "Oklahoma",
-        "Southeastern Oklahoma State University",
         "Morrison Hall",
         "Performing Arts",
         "Live Theatre",
@@ -99113,7 +99114,7 @@
       ],
       "description": "Montgomery Auditorium is a historic performing-arts and gathering venue inside Morrison Hall on the campus of Southeastern Oklahoma State University in Durant. The proscenium auditorium has served generations of students and community audiences through theatrical productions, concerts, opera, lectures, convocations, ceremonies and other special programs. Southeastern's current Special Events information lists a maximum rental capacity of 550 guests, while the University's Theatre program describes Montgomery Auditorium as a 600-seat performance venue. The auditorium remains one of Southeastern's most active arts spaces, hosting Theatre at Southeastern productions, Department of Performing Arts concerts, university ceremonies and the long-running annual Candlelighting concert.",
       "why_visit": "Montgomery Auditorium is one of Durant's most active performing-arts venues, offering Texoma audiences recurring opportunities to attend theatre productions, concerts, opera, university ceremonies and other public programs on the Southeastern campus.",
-      "why_its_unique": "The auditorium combines a historic setting inside Morrison Hall with an active modern role in Southeastern's performing-arts life. It has been a campus gathering place since the early 1900s and remains home to major traditions including the annual Candlelighting concert.",
+      "why_its_unique": "The auditorium combines a historic setting inside Morrison Hall with an active modern role in Southeastern's performing-arts life and remains home to major university traditions including the annual Candlelighting concert.",
       "phone": "580-745-2860",
       "email": "rcoker@se.edu",
       "website": "https://www.se.edu/venue/montgomery-auditorium/",
@@ -99166,10 +99167,14 @@
       "recurring_events": true,
       "mine_for_events": true,
       "event_mining_priority": "high",
-      "parent_business": null,
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "Montgomery Auditorium is a performing-arts and special-event venue inside Morrison Hall on the Southeastern Oklahoma State University campus."
+      },
       "related_businesses": [],
       "related_geography": [],
-      "verification_note": "Verified from current Southeastern Oklahoma State University venue, Theatre, Special Events, Performing Arts and 2026 event sources. Montgomery Auditorium remains an active proscenium performance and special-event venue inside Morrison Hall in Durant. Southeastern's current Special Events page lists a maximum rental capacity of 550 guests and a $4,000 daily rental rate, while the Theatre program describes the auditorium as a 600-seat venue. Both figures are retained as an official-source discrepancy rather than forcing an unsupported single seating capacity. No exact published TWG parent-business record for Southeastern Oklahoma State University or Morrison Hall was confirmed, so parent_business remains null.",
+      "verification_note": "Verified from current Southeastern Oklahoma State University venue, Theatre, Special Events and Performing Arts sources. Montgomery Auditorium remains an active proscenium performance and special-event venue inside Morrison Hall in Durant. Southeastern's current Special Events page lists a maximum rental capacity of 550 guests and a $4,000 daily rental rate, while the Theatre program describes the auditorium as a 600-seat venue. Both figures are retained as an official-source discrepancy rather than forcing an unsupported single seating capacity.",
       "last_checked": "2026-08-16",
       "event_types": [
         "Theatre productions",
