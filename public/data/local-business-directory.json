@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 961,
-  "publish_ready_count": 636,
+  "business_count": 962,
+  "publish_ready_count": 637,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -98577,6 +98577,125 @@
         "Independent luncheon and meeting space",
         "Documented public-event use",
         "Documented history of art exhibitions"
+      ]
+    },
+    {
+      "slug": "craig-recital-hall",
+      "business_name": "Craig Recital Hall",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Inside Craig Hall, 1202 E Richards St, Sherman, TX 75090",
+      "category": [
+        "Recital Hall",
+        "Performing Arts Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Austin College",
+        "Craig Hall",
+        "Sherman",
+        "Grayson County",
+        "Music",
+        "Live Music",
+        "Student Recitals",
+        "Solo Recitals",
+        "Faculty Performances",
+        "Classical Music",
+        "Chamber Music",
+        "Music Department",
+        "Public Performances",
+        "College Events"
+      ],
+      "description": "Craig Recital Hall is Austin College's dedicated recital venue inside Craig Hall, home of the College's Department of Music in Sherman. The hall supports student recitals, solo performances, faculty and guest music programs and other Music Department activities. Craig Hall was intentionally designed for musical acoustics, with sloped ceilings and rooms whose walls are not exactly parallel. Austin College continues to present recurring student recital programming in Craig Hall, including performances that are free and open to the public.",
+      "why_visit": "Craig Recital Hall gives Texoma audiences an intimate setting for Austin College student musicians, solo performers and other Music Department programs, with many recital events offered free to the public.",
+      "why_its_unique": "The recital hall sits inside a building specifically designed around musical acoustics, making it Austin College's purpose-oriented venue for smaller solo, chamber and recital performances.",
+      "phone": "903-813-2000",
+      "email": null,
+      "website": "https://www.austincollege.edu/details/~board/explore-ac/post/craig-hall",
+      "facebook": "https://www.facebook.com/ACMusicDepartment/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Craig Recital Hall does not publish regular public walk-in hours. Public access follows scheduled Austin College recitals, concerts and other Music Department programs. Admission, start times and any registration requirements should be confirmed through the individual event listing.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Dedicated indoor recital hall",
+        "Acoustically designed Craig Hall setting",
+        "Austin College Music Department facilities"
+      ],
+      "good_to_know": [
+        "Craig Recital Hall is located inside Craig Hall at 1202 E Richards St.",
+        "Craig Hall houses the Austin College Department of Music.",
+        "Austin College designed Craig Hall with sloped ceilings and nonparallel walls to improve acoustic conditions for music performance.",
+        "The Music Department regularly presents student recital programming in Craig Hall.",
+        "Austin College has specifically identified Craig Recital Hall as the location for public student recitals.",
+        "Recent Austin College student-recital programming has been free and open to the public.",
+        "No current official seating capacity for Craig Recital Hall was located, so capacity should not be stated without additional verification.",
+        "Public access, admission and performance schedules vary by individual event."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "austin-college",
+        "business_name": "Austin College",
+        "relationship_note": "Craig Recital Hall is an Austin College Music Department performance venue located inside Craig Hall on the Sherman campus."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from current Austin College Craig Hall, Music Department and recital-event information. Austin College explicitly identifies Craig Recital Hall inside Craig Hall at 1202 E Richards St. The venue continues to support recurring Music Department recital programming, including public performances. No current official seating capacity or regular public operating hours were located, so neither is inferred.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Student recitals",
+        "Solo recitals",
+        "Senior recitals",
+        "Faculty performances",
+        "Guest performances",
+        "Classical music performances",
+        "Chamber music",
+        "Music Department programs"
+      ],
+      "event_sources": [
+        "Austin College Music Department",
+        "Austin College News & Events",
+        "Austin College Community calendar",
+        "Austin College Music Department Facebook"
+      ],
+      "features": [
+        "Dedicated Austin College recital venue",
+        "Located inside Craig Hall",
+        "Purpose-oriented music performance setting",
+        "Craig Hall acoustic design with sloped ceilings and nonparallel walls",
+        "Recurring student recital use",
+        "Documented free public performances",
+        "Active Austin College Music Department venue"
       ]
     }
   ]
