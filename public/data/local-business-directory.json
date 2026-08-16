@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 929,
-  "publish_ready_count": 604,
+  "business_count": 930,
+  "publish_ready_count": 605,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -94456,6 +94456,146 @@
         "THF Park location",
         "Event-reservable court",
         "Evening play capability"
+      ]
+    },
+    {
+      "slug": "thf-volleyball-court-2-denison",
+      "business_name": "THF Volleyball Court 2",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "3801 South US Hwy 75, Denison, TX 75020",
+      "category": [
+        "Sand Volleyball Court",
+        "Volleyball Court",
+        "Athletic Facility",
+        "Sports & Recreation"
+      ],
+      "tags": [
+        "Denison",
+        "Texoma Health Foundation Park",
+        "THF Park",
+        "Sand Volleyball",
+        "Volleyball",
+        "Outdoor Recreation",
+        "Athletic Facility",
+        "Lighted Court",
+        "Reservable Facility",
+        "Tournament Venue"
+      ],
+      "description": "THF Volleyball Court 2 is an individually identified sand volleyball court at Texoma Health Foundation Park in Denison. The THF volleyball area features lighted courts and spectator seating for recreational play, league competition, tournaments and other organized events. The surrounding park also provides restrooms, paved trails, drinking fountains, playground areas, open green space and numerous additional recreation amenities.",
+      "why_visit": "THF Volleyball Court 2 provides dedicated outdoor sand volleyball space within one of Denison's largest recreation parks, with lighting for evening play and supporting amenities nearby.",
+      "why_its_unique": "Court 2 is part of the specifically numbered THF Park sand-volleyball court group used for organized league play while remaining part of a larger four-court volleyball complex.",
+      "phone": "903-465-2720",
+      "email": "ehyatt@denisontx.gov",
+      "website": "https://www.denisontx.gov/579/Sand-Volleyball",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Reservation pricing not publicly listed",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "5:00 AM - 11:00 PM",
+        "tuesday": "5:00 AM - 11:00 PM",
+        "wednesday": "5:00 AM - 11:00 PM",
+        "thursday": "5:00 AM - 11:00 PM",
+        "friday": "5:00 AM - 11:00 PM",
+        "saturday": "5:00 AM - 11:00 PM",
+        "sunday": "5:00 AM - 11:00 PM"
+      },
+      "hours_note": "These are the published hours for Texoma Health Foundation Park. Individual court reservation availability may be narrower; permitted or Parks and Recreation-sanctioned activities may extend beyond normal park closing times.",
+      "at_a_glance": {
+        "average_visit": "1-2 hours",
+        "price_range": "Reservation pricing not publicly listed",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Sand volleyball court",
+        "Court lighting",
+        "Spectator seating",
+        "Restrooms within THF Park",
+        "Drinking fountains within THF Park",
+        "ADA-accessible multi-use paved trails",
+        "Open green space",
+        "Nearby playground",
+        "Nearby splash pad",
+        "Bistro tables and lounge furniture within THF Park"
+      ],
+      "good_to_know": [
+        "Denison Parks and Recreation materials identify THF Park Sand Volleyball Courts 1-3 for organized league use.",
+        "The current Denison RecDesk system reports three facilities in its Volleyball Courts category.",
+        "The City currently lists four physical lighted sand volleyball courts at Texoma Health Foundation Park.",
+        "The court complex is located at 3801 South US Hwy 75, Denison, TX 75020.",
+        "Sand volleyball courts are available for recreational use on a first-come, first-served basis.",
+        "THF Park volleyball courts may also be reserved for events.",
+        "The City's current sand-volleyball reservation contact is Elizabeth Hyatt at ehyatt@denisontx.gov.",
+        "Lighting supports evening volleyball play.",
+        "Spectator seating is provided at the sand-volleyball facilities.",
+        "Texoma Health Foundation Park is open 5:00 AM to 11:00 PM daily.",
+        "Normal closing times do not apply to Parks and Recreation-sanctioned events or properly permitted activities.",
+        "Alcoholic beverages are not allowed on or in City of Denison parks and facilities."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "texoma-health-foundation-park-denison",
+        "business_name": "Texoma Health Foundation Park",
+        "relationship_note": "Individually identified sand volleyball court within Texoma Health Foundation Park."
+      },
+      "related_businesses": [
+        {
+          "slug": "thf-volleyball-court-1-denison",
+          "business_name": "THF Volleyball Court 1",
+          "relationship_note": "Adjacent numbered sand volleyball court within the same THF Park volleyball complex."
+        }
+      ],
+      "related_geography": [],
+      "verification_note": "Fully researched August 16, 2026 after manual TWG live-directory duplicate clearance. Denison Parks and Recreation's recreation guide specifically identifies THF Park Sand Volleyball Courts 1-3 for league activity, and the current RecDesk facility system reports three Volleyball Courts facility records. Current City information confirms that Texoma Health Foundation Park contains four physical lighted sand volleyball courts, with spectator seating, first-come first-served recreational access and event reservation capability. The publicly indexed RecDesk results did not expose a Court 2 detail page during verification, so no unverified Court 2-specific RecDesk hours, facility ID or pricing were invented. Current City park hours and the City's current sand-volleyball reservation contact are used instead.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Sand volleyball games",
+        "Sand volleyball league play",
+        "Volleyball practices",
+        "Recreational play",
+        "Volleyball tournaments",
+        "Private and community events"
+      ],
+      "event_sources": [
+        "City of Denison Sand Volleyball",
+        "Denison Parks and Recreation RecDesk",
+        "City of Denison Texoma Health Foundation Park",
+        "Denison Parks and Recreation Guide"
+      ],
+      "features": [
+        "Individually identified volleyball court",
+        "Sand playing surface",
+        "Court lighting",
+        "Spectator seating",
+        "THF Park location",
+        "Event-reservable court complex",
+        "Evening play capability",
+        "League-use court"
       ]
     }
   ]
