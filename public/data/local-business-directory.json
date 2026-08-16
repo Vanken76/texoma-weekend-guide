@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 939,
-  "publish_ready_count": 614,
+  "business_count": 940,
+  "publish_ready_count": 615,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -95777,6 +95777,129 @@
         "Renovated Austin College performance venue",
         "Available for approved outside-organization event requests",
         "Hosts major campus and community programming"
+      ]
+    },
+    {
+      "slug": "mabee-hall",
+      "business_name": "Mabee Hall",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1301 E Brockett St, Sherman, TX 75090",
+      "category": [
+        "Event Venue",
+        "Banquet Hall",
+        "Conference Venue"
+      ],
+      "tags": [
+        "Austin College",
+        "Wright Campus Center",
+        "Mabee Banquet Hall",
+        "J.E. and L.E. Mabee Foundation Banquet Hall",
+        "Sherman",
+        "Grayson County",
+        "Banquets",
+        "Gala Events",
+        "Conferences",
+        "Lectures",
+        "Symposiums",
+        "Receptions",
+        "Community Events",
+        "Campus Events",
+        "Speaking Engagements"
+      ],
+      "description": "Mabee Hall is a large banquet, conference and special-event venue inside the Robert J. and Mary Wright Campus Center at Austin College in Sherman. Formally identified as the J.E. and L.E. Mabee Foundation Banquet Hall, the second-floor space is designed for gala events and can accommodate up to 350 guests for a sit-down dinner or speaking engagement. The windowed hall includes access to the Bedford-Lunkley Terrace, and the adjacent Robert and Joyce Johnson Reception Gallery can be used in conjunction with events in Mabee Hall. Austin College regularly uses the venue for symposiums, lectures, luncheons, orientation activities and other campus and community programs, and public visitors and outside groups may request the space through the College's reservation system.",
+      "why_visit": "Mabee Hall is one of Austin College's principal large gathering spaces for public lectures, symposiums, banquets, community programs and other special events.",
+      "why_its_unique": "The venue combines banquet capacity for up to 350 guests with a windowed second-floor setting, the Bedford-Lunkley Terrace and an adjacent reception gallery, giving Austin College a flexible setting for both formal meals and presentation-style events.",
+      "phone": "903-813-2293",
+      "email": null,
+      "website": "https://www.austincollege.edu/details/~board/explore-ac/post/wright-campus-center",
+      "facebook": "https://www.facebook.com/austincollege/",
+      "instagram": "https://www.instagram.com/austincollege/",
+      "youtube": "https://www.youtube.com/austincollege",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Mabee Hall does not have regular public walk-in hours. Access is tied to scheduled Austin College programs or approved reservations. Room requests must be submitted at least one week before an event, and organizers should wait for confirmation from Austin College before proceeding with event planning or promotion.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Event capacity up to 350 guests",
+        "Banquet and presentation space",
+        "Bedford-Lunkley Terrace",
+        "Adjacent Robert and Joyce Johnson Reception Gallery",
+        "Custom room-layout requests"
+      ],
+      "good_to_know": [
+        "Mabee Hall is located on the second floor of Wright Campus Center.",
+        "Austin College formally identifies the space as the J.E. and L.E. Mabee Foundation Banquet Hall.",
+        "The hall can accommodate up to 350 guests for a sit-down dinner or speaking engagement.",
+        "Campus visitors and outside groups may request the space through Austin College's reservation system.",
+        "Reservation requests must be submitted at least one week before an event and require College approval.",
+        "Admission and public access vary according to the individual event."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "austin-college",
+        "business_name": "Austin College",
+        "relationship_note": "Mabee Hall is located inside Wright Campus Center on the Austin College campus."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Austin College identifies Mabee Hall as the J.E. and L.E. Mabee Foundation Banquet Hall inside Wright Campus Center and lists capacity for up to 350 guests. The College accepts public and visitor room requests subject to approval. Austin College's dedicated Wright Campus Center page and multiple campus-event directions list 1301 E. Brockett St.; its general Community visitor page currently lists 1201 E. Brockett St. for the same building, so visitors attending a specific event should confirm current directions with Austin College.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Banquets",
+        "Gala events",
+        "Conferences",
+        "Symposiums",
+        "Guest lectures",
+        "Speaking engagements",
+        "Luncheons",
+        "Receptions",
+        "Community programs",
+        "Campus events",
+        "Orientation activities"
+      ],
+      "event_sources": [
+        "Austin College News & Events",
+        "Austin College Community calendar",
+        "Austin College Event & Room Requests",
+        "Austin College official social channels"
+      ],
+      "features": [
+        "J.E. and L.E. Mabee Foundation Banquet Hall",
+        "Capacity up to 350 guests",
+        "Second-floor Wright Campus Center location",
+        "Windowed banquet hall",
+        "Bedford-Lunkley Terrace",
+        "Adjacent Robert and Joyce Johnson Reception Gallery",
+        "Available for approved public and visitor reservations"
       ]
     }
   ]
