@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 931,
-  "publish_ready_count": 606,
+  "business_count": 932,
+  "publish_ready_count": 607,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -94743,6 +94743,115 @@
         "Event-reservable court complex",
         "Evening play capability",
         "League-use facility"
+      ]
+    },
+    {
+      "slug": "waterloo-lake-sand-volleyball-court-denison",
+      "business_name": "Waterloo Lake Sand Volleyball Court",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1101 Waterloo Lake Drive, Denison, TX 75020",
+      "category": [
+        "Sand Volleyball Court",
+        "Volleyball Court",
+        "Sports & Recreation",
+        "Park Amenity"
+      ],
+      "tags": [
+        "Denison",
+        "Waterloo Lake",
+        "Waterloo Lake Regional Park",
+        "Sand Volleyball",
+        "Volleyball",
+        "Outdoor Recreation",
+        "Lighted Court",
+        "Evening Play",
+        "First-Come First-Served"
+      ],
+      "description": "Waterloo Lake Sand Volleyball Court is a lighted outdoor sand volleyball court within Waterloo Lake Regional Park in Denison. The court is available for recreational play on a first-come, first-served basis and includes lighting for evening games and seating for spectators. Visitors also have access to the broader amenities of the 211-acre Waterloo Lake Regional Park, including trails, picnic areas, lake recreation and other outdoor facilities.",
+      "why_visit": "The court provides a dedicated place for casual sand volleyball at one of Denison's largest outdoor recreation areas, with lighting that allows games to continue into the evening.",
+      "why_its_unique": "It is Denison's Waterloo Lake sand-volleyball location and complements the larger volleyball complex at Texoma Health Foundation Park while offering a more casual first-come, first-served setting within a lakefront regional park.",
+      "phone": "903-465-2720",
+      "email": null,
+      "website": "https://www.denisontx.gov/579/Sand-Volleyball",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Use is subject to Waterloo Lake Regional Park access and conditions. The City's current Waterloo Lake facility page does not publish court-specific operating hours, so no fixed court hours are assigned to this listing.",
+      "at_a_glance": {
+        "average_visit": "1-2 hours",
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Sand volleyball court",
+        "Court lighting",
+        "Spectator seating",
+        "Benches within Waterloo Lake Regional Park",
+        "Picnic tables within Waterloo Lake Regional Park",
+        "Restroom facilities within the Waterloo Lake recreation area",
+        "Walking and hiking trails within Waterloo Lake Regional Park"
+      ],
+      "good_to_know": [
+        "The City of Denison lists one lighted sand volleyball court at Waterloo Lake Regional Park.",
+        "Waterloo Lake Regional Park is located at 1101 Waterloo Lake Drive, Denison, TX 75020.",
+        "The City identifies Waterloo Lake Regional Park as one of Denison's two official sand-volleyball locations.",
+        "The court is available for recreational use on a first-come, first-served basis.",
+        "Lighting is provided for evening play.",
+        "Spectator seating is available at the sand-volleyball facility.",
+        "The City's current sand-volleyball page specifically advertises event reservations for the Texoma Health Foundation Park courts but does not advertise Waterloo's court as reservable.",
+        "No Waterloo-specific court rental fee or reservation price is currently published, so none is assigned to this listing.",
+        "No court-specific operating hours are currently displayed on the City's Waterloo Lake Regional Park facility page.",
+        "Waterloo Lake Regional Park covers approximately 211 acres and includes extensive additional outdoor recreation amenities."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": {
+        "slug": "waterloo-lake-regional-park-denison",
+        "business_name": "Waterloo Lake Regional Park",
+        "relationship_note": "Lighted sand volleyball court within Waterloo Lake Regional Park."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Fully researched August 16, 2026 after manual TWG live-directory duplicate clearance. Current City of Denison information identifies a single lighted sand volleyball court at Waterloo Lake Regional Park, 1101 Waterloo Lake Drive. The City's Sand Volleyball page confirms Waterloo Lake Regional Park as an official sand-volleyball location with first-come, first-served recreational access, lighting for evening play and spectator seating. The City specifically identifies THF Park courts, rather than Waterloo, as available for event reservations; therefore no Waterloo court reservation status, rental fee or court-specific operating schedule has been inferred.",
+      "last_checked": "2026-08-16",
+      "event_types": [],
+      "event_sources": [
+        "City of Denison Sand Volleyball",
+        "City of Denison Waterloo Lake Regional Park"
+      ],
+      "features": [
+        "Single sand volleyball court",
+        "Lighted for evening play",
+        "Spectator seating",
+        "First-come recreational access",
+        "Waterloo Lake Regional Park location",
+        "Outdoor lake-area recreation"
       ]
     }
   ]
