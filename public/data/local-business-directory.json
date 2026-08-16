@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 986,
-  "publish_ready_count": 661,
+  "business_count": 987,
+  "publish_ready_count": 662,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -101986,6 +101986,130 @@
         "Welcome Week event use",
         "Homecoming and pep rally use",
         "High event-mining value"
+      ]
+    },
+    {
+      "slug": "su-cafe",
+      "business_name": "SU Café",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Inside Glen D. Johnson Student Union, Southeastern Oklahoma State University, Durant, OK 74701",
+      "category": [
+        "Campus Dining",
+        "Cafeteria",
+        "Event Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Glen D. Johnson Student Union",
+        "Durant",
+        "Bryan County",
+        "Student Dining",
+        "Meal Plans",
+        "Student Life",
+        "Welcome Week",
+        "Bingo",
+        "Late Night Breakfast",
+        "Campus Events"
+      ],
+      "description": "SU Café is Southeastern Oklahoma State University's cafeteria and a named event venue inside Glen D. Johnson Student Union in Durant. In addition to regular campus dining service, Southeastern uses the Café for Student Life programming and special activities including bingo and late-night breakfast events.",
+      "why_visit": "For Southeastern students and campus visitors, SU Café provides an on-campus dining option inside the Student Union and occasionally becomes the setting for special Student Life activities, social programs and late-night events.",
+      "why_its_unique": "SU Café combines its everyday role as Southeastern's university cafeteria with a second role as a separately named campus event location, allowing food-centered Student Life programs and social events to take place directly in the dining space.",
+      "phone": "580-745-2211",
+      "email": "Daniel.Bauchmoyer@sodexo.com",
+      "website": "https://www.se.edu/venue/su-cafe/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Current regular dining hours were not verified from an official published schedule. Southeastern states that the Café closes during winter intersession, so operating schedules vary with the academic calendar.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Campus cafeteria",
+        "Cash and credit accepted",
+        "Student meal-plan dining",
+        "Indoor dining space"
+      ],
+      "good_to_know": [
+        "Southeastern maintains SU Café as a separately named venue in its university event calendar.",
+        "The university identifies its Student Union dining as Southeastern Cafe & Magnolia Eatery.",
+        "Southeastern's Curriculum Contest information states that the University Cafeteria inside the Student Union accepts cash or credit.",
+        "Daniel Bauchmoyer is the current published General Manager of Sodexo Food Services in Glen D. Johnson Student Union.",
+        "The Café and Magnolia Eatery/Grill close during winter intersession.",
+        "Some events held here are designed specifically for Southeastern students, so check individual event eligibility before attending."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "glen-d-johnson-student-union",
+        "business_name": "Glen D. Johnson Student Union",
+        "relationship_note": "SU Café is the university cafeteria and named event venue inside Glen D. Johnson Student Union."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Official Southeastern sources confirm SU Café as a separately named Student Union venue and active campus cafeteria. Current university calendars document special-event use including Celebrity Bingo and Late Night Breakfast. Regular daily dining hours were not verified and are intentionally left unclaimed.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Student Life events",
+        "Bingo",
+        "Late-night breakfast events",
+        "Welcome Week activities",
+        "Food-centered campus programs",
+        "Student social events"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University calendar",
+        "Southeastern Student Life",
+        "Southeastern Oklahoma State University dining and Student Union information"
+      ],
+      "features": [
+        "University cafeteria",
+        "Inside Glen D. Johnson Student Union",
+        "Separately named Southeastern calendar venue",
+        "Student meal-plan dining",
+        "Cash and credit accepted",
+        "Special Student Life event use"
       ]
     }
   ]
