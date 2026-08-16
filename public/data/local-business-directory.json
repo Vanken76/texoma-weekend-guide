@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 956,
-  "publish_ready_count": 631,
+  "business_count": 957,
+  "publish_ready_count": 632,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -97873,6 +97873,148 @@
         "Campus-group meeting space",
         "Temporary accommodations for campus speakers and guests",
         "Active reception venue"
+      ]
+    },
+    {
+      "slug": "wright-campus-center",
+      "business_name": "Wright Campus Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1301 E Brockett St, Sherman, TX 75090",
+      "category": [
+        "Campus Center",
+        "Event Venue",
+        "Gathering Space"
+      ],
+      "tags": [
+        "Austin College",
+        "Sherman",
+        "Grayson County",
+        "Robert J. and Mary Wright Campus Center",
+        "Wind Down Wednesday",
+        "Community Events",
+        "Public Lectures",
+        "Meeting Space",
+        "Conferences",
+        "Workshops",
+        "Receptions",
+        "Banquets",
+        "Campus Events",
+        "Student Events"
+      ],
+      "description": "Wright Campus Center is Austin College's 82,000-square-foot hub for student life, community programming, meetings and special events in Sherman. Formally named the Robert J. and Mary Wright Campus Center, the building includes a two-story atrium with a double-faced fireplace and speaker's balcony, dining and retail services, student-organization meeting rooms, offices and multiple dedicated event spaces. Its second floor includes Mabee Banquet Hall, Bedford-Lunkley Terrace, the Fred and Barbara Meyer President's Dining Room and Robert and Joyce Johnson Reception Gallery. Wright Campus Center also hosts recurring public programs, including Austin College's free Wind Down Wednesday lecture and conversation series.",
+      "why_visit": "Wright Campus Center is one of Austin College's busiest gathering places and regularly gives Texoma residents access to free lectures, conversations, receptions, workshops and other campus and community programs.",
+      "why_its_unique": "The center combines the everyday activity of Austin College's primary student-life hub with substantial public-event infrastructure, from intimate meeting rooms and reception areas to the large Mabee Banquet Hall, all within an 82,000-square-foot facility.",
+      "phone": "903-813-2000",
+      "email": null,
+      "website": "https://www.austincollege.edu/details/~board/explore-ac/post/wright-campus-center",
+      "facebook": "https://www.facebook.com/austincollege/",
+      "instagram": "https://www.instagram.com/austincollege/",
+      "youtube": "https://www.youtube.com/austincollege",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Wright Campus Center is an active Austin College campus building rather than a conventional attraction with published visitor hours. Public access follows scheduled community programs, meetings and approved events. Outside organizations may request selected Wright Campus Center spaces, subject to availability, College approval and rental fees.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Two-story atrium",
+        "Double-faced fireplace",
+        "Speaker's balcony",
+        "Dining hall",
+        "Pouch Club",
+        "Hopper Store",
+        "Bookstore",
+        "Meeting rooms",
+        "Mabee Banquet Hall",
+        "Bedford-Lunkley Terrace",
+        "Fred and Barbara Meyer President's Dining Room",
+        "Robert and Joyce Johnson Reception Gallery"
+      ],
+      "good_to_know": [
+        "The full formal name is the Robert J. and Mary Wright Campus Center.",
+        "Austin College identifies the building as approximately 82,000 square feet.",
+        "The building-specific Austin College facility page lists 1301 E Brockett St.",
+        "Austin College's general Community visitor page currently lists Wright Campus Center at 1201 E Brockett Street, creating an official-source address discrepancy; visitors attending a specific event should follow the event listing or confirm directions with the College.",
+        "Room 231 hosts the recurring free Wind Down Wednesday community presentation series.",
+        "Mabee Banquet Hall and smaller Wright Campus Center meeting spaces may be requested by outside organizations.",
+        "Outside-organization facility requests are subject to rental fees and are not confirmed until Austin College approves availability, event details and associated costs.",
+        "Individual public programs may have their own times, registration requirements or access instructions."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "austin-college",
+        "business_name": "Austin College",
+        "relationship_note": "Wright Campus Center is Austin College's primary student-life, gathering and multipurpose event center on its Sherman campus."
+      },
+      "related_businesses": [
+        {
+          "slug": "mabee-hall",
+          "business_name": "Mabee Hall",
+          "relationship_note": "Mabee Hall is the major banquet and event space located on the second floor of Wright Campus Center."
+        }
+      ],
+      "related_geography": [],
+      "verification_note": "Verified from current Austin College facility, community-calendar and event-reservation sources. Wright Campus Center is an active 82,000-square-foot Austin College gathering and event facility with recurring public programming, including Wind Down Wednesday. The dedicated facility page lists 1301 E Brockett St, while the current Austin College Community visitor page lists 1201 E Brockett Street; 1301 is used here because it is supplied by the building-specific facility page.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Wind Down Wednesday presentations",
+        "Public lectures",
+        "Community programs",
+        "Workshops",
+        "Conferences",
+        "Banquets",
+        "Receptions",
+        "Meetings",
+        "Student organization events",
+        "Campus fairs",
+        "Special campus events"
+      ],
+      "event_sources": [
+        "Austin College Community calendar",
+        "Austin College News & Events",
+        "Austin College Event & Room Reservations",
+        "Austin College official social channels"
+      ],
+      "features": [
+        "82,000-square-foot campus center",
+        "Two-story central atrium",
+        "Double-faced fireplace",
+        "Speaker's balcony",
+        "Mabee Banquet Hall",
+        "Bedford-Lunkley Terrace",
+        "Fred and Barbara Meyer President's Dining Room",
+        "Robert and Joyce Johnson Reception Gallery",
+        "Multiple meeting rooms",
+        "Dining and retail services",
+        "Recurring public Wind Down Wednesday programming",
+        "Outside-organization event-space requests available"
       ]
     }
   ]
