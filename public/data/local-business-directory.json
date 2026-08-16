@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 921,
-  "publish_ready_count": 596,
+  "business_count": 922,
+  "publish_ready_count": 597,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -93473,6 +93473,130 @@
         "Approximately 30-40 guest capacity",
         "Four-hour rental blocks",
         "Next to playground and pier"
+      ]
+    },
+    {
+      "slug": "senior-citizens-center-auditorium-denison",
+      "business_name": "Senior Citizens Center Auditorium",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "531 W Chestnut St, Denison, TX 75020",
+      "category": [
+        "Event Venue",
+        "Indoor Event Venue",
+        "Auditorium",
+        "Community Venue"
+      ],
+      "tags": [
+        "Denison",
+        "Senior Citizens Center",
+        "Facility Rental",
+        "Auditorium",
+        "Receptions",
+        "Family Reunions",
+        "Birthday Parties",
+        "Community Events",
+        "Classes",
+        "Reservable Facility"
+      ],
+      "description": "Senior Citizens Center Auditorium is the larger reservable event space inside the Denison Senior Citizens Center. The approximately 3,360-square-foot auditorium accommodates up to 150 people and is available for receptions, family reunions, birthday parties, community gatherings, classes and other approved uses. The room includes approximately eight six-foot plastic tables, 50 chairs and access to restroom facilities. Kitchen facilities are not available with the rental.",
+      "why_visit": "The auditorium provides one of Denison's larger City-operated indoor rental spaces, accommodating gatherings of up to 150 people with tables and chairs included.",
+      "why_its_unique": "Unlike the smaller Activity Room in the same center, the Auditorium offers approximately 3,360 square feet of space and capacity for up to 150 guests while remaining an affordable municipal rental option.",
+      "phone": "903-465-2720",
+      "email": "parksandrec@denisontx.gov",
+      "website": "https://denison.recdesk.com/Community/Facility/Detail?facilityId=65",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$200-$250 per 4-hour block plus a $100 refundable deposit",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed for rentals",
+        "tuesday": "Closed for rentals",
+        "wednesday": "Closed for rentals",
+        "thursday": "Closed for rentals",
+        "friday": "5:00 PM - 9:00 PM",
+        "saturday": "12:00 PM - 9:00 PM",
+        "sunday": "7:00 AM - 9:00 PM"
+      },
+      "hours_note": "Current RecDesk facility availability shows auditorium rental hours Friday through Sunday. City rental blocks are 7:00-11:00 AM, noon-4:00 PM and 5:00-9:00 PM where available. Reservations are calendar-controlled and must be made at least 21 days in advance.",
+      "at_a_glance": {
+        "average_visit": "4-hour rental block",
+        "price_range": "$200-$250 plus refundable deposit",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Approximately 3,360 square feet",
+        "Capacity for up to 150 people",
+        "Approximately eight 6-foot plastic tables",
+        "Approximately 50 chairs",
+        "Restroom facilities",
+        "Tables and chairs included with rental"
+      ],
+      "good_to_know": [
+        "Reservations must be made at least 21 days in advance.",
+        "Kitchen facilities are not available for auditorium rentals.",
+        "Alcoholic beverages are not permitted on the premises.",
+        "Confetti and glitter are not permitted inside the building.",
+        "A $100 refundable deposit is required.",
+        "Resident auditorium rentals are $200 per four-hour block; non-resident rentals are $250 per four-hour block.",
+        "Credit and debit card payments are subject to the City of Denison convenience or transaction fee.",
+        "Renters are emailed building-access information at least two days before the reservation.",
+        "Parks & Recreation requires at least three business days' cancellation notice for refund eligibility."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "denison-senior-citizens-center",
+        "business_name": "Denison Senior Citizens Center",
+        "relationship_note": "Large reservable auditorium located inside the Denison Senior Citizens Center."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "The auditorium is an approximately 3,360-square-foot indoor rental space for up to 150 people. Reservations require at least 21 days' advance notice, and kitchen access is not included. The facility also hosts scheduled community and recreation programming, so rental availability should be checked through the current RecDesk calendar.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Receptions",
+        "Family reunions",
+        "Birthday parties",
+        "Community gatherings",
+        "Classes",
+        "Meetings",
+        "Private events"
+      ],
+      "event_sources": [
+        "Denison RecDesk Calendar",
+        "City of Denison Parks & Recreation",
+        "Denison Parks & Recreation Facebook"
+      ],
+      "features": [
+        "Approximately 3,360-square-foot auditorium",
+        "Up to 150-person capacity",
+        "Tables and chairs included",
+        "Reservable four-hour blocks",
+        "Recurring recreation and community programming"
       ]
     }
   ]
