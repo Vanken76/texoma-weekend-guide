@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 987,
-  "publish_ready_count": 662,
+  "business_count": 988,
+  "publish_ready_count": 663,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -102110,6 +102110,125 @@
         "Student meal-plan dining",
         "Cash and credit accepted",
         "Special Student Life event use"
+      ]
+    },
+    {
+      "slug": "su-game-room",
+      "business_name": "SU Game Room",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Inside Glen D. Johnson Student Union, Southeastern Oklahoma State University, Durant, OK 74701",
+      "category": [
+        "Game Room",
+        "Campus Recreation",
+        "Campus Event Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Glen D. Johnson Student Union",
+        "Durant",
+        "Bryan County",
+        "Student Life",
+        "Campus Recreation",
+        "Pool",
+        "Billiards",
+        "Pool Club",
+        "Student Organizations"
+      ],
+      "description": "SU Game Room is a recreational space and separately named university calendar venue inside Glen D. Johnson Student Union at Southeastern Oklahoma State University in Durant. Southeastern has used the Game Room for organized Student Life programming, including a recurring Pool Club series.",
+      "why_visit": "The SU Game Room provides an informal recreation setting inside the Student Union and is worth watching for student-organization activities and game-centered campus programming.",
+      "why_its_unique": "Unlike Southeastern's meeting rooms and formal event spaces, SU Game Room is centered on casual recreation and has supported recurring organized activities such as Pool Club.",
+      "phone": "580-745-2266",
+      "email": "lpresley@se.edu",
+      "website": "https://www.se.edu/venue/su-game-room/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No separate public operating hours are published for SU Game Room. Access depends on Student Union operations and university use.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Southeastern maintains SU Game Room as a separately named venue in its university calendar.",
+        "The Game Room hosted a recurring Pool Club series during fall 2024.",
+        "SU Game Room does not appear in Southeastern's current published Student Union room-reservation inventory, so reservability should be confirmed directly with Student Life.",
+        "Lenora Presley is the published Student Life contact responsible for coordinating bookings and day-to-day use of the Student Union.",
+        "No official Game Room capacity or separate public operating hours are currently published."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "glen-d-johnson-student-union",
+        "business_name": "Glen D. Johnson Student Union",
+        "relationship_note": "SU Game Room is a recreational and calendar venue inside Glen D. Johnson Student Union."
+      },
+      "related_businesses": [
+        {
+          "slug": "southeastern-oklahoma-state-university",
+          "business_name": "Southeastern Oklahoma State University",
+          "relationship_note": "SU Game Room is operated as part of Southeastern Oklahoma State University's Student Union."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Official Southeastern sources confirm SU Game Room as a separately named university calendar venue inside the Student Union. The official venue archive documents 13 recurring Pool Club meetings from August through November 2024. The Game Room remains represented in Southeastern's current calendar venue system, but no current standalone Game Room event was found as of August 16, 2026. It is not included in the university's current published Student Union reservation inventory, so public reservability is intentionally not claimed.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Pool Club",
+        "Student organization activities",
+        "Campus recreation activities",
+        "Game-centered Student Life programming"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University calendar",
+        "Southeastern Student Life"
+      ],
+      "features": [
+        "Dedicated Southeastern calendar venue",
+        "Inside Glen D. Johnson Student Union",
+        "Campus recreation space",
+        "Documented recurring Pool Club use",
+        "Student organization programming potential"
       ]
     }
   ]
