@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 981,
-  "publish_ready_count": 656,
+  "business_count": 982,
+  "publish_ready_count": 657,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -101339,6 +101339,122 @@
         "Texoma Piano Competition venue",
         "Recurring university music performances",
         "Available for approved student-organization reservations"
+      ]
+    },
+    {
+      "slug": "student-union-gymnasium",
+      "business_name": "Student Union Gymnasium",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Inside Glen D. Johnson Student Union, 1704 N 4th Ave, Durant, OK 74701",
+      "category": [
+        "Gymnasium",
+        "Campus Recreation Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Glen D. Johnson Student Union",
+        "Durant",
+        "Bryan County",
+        "Student Life",
+        "Campus Recreation",
+        "Pickleball",
+        "Dodgeball",
+        "Welcome Week",
+        "Student Events"
+      ],
+      "description": "Student Union Gymnasium is an indoor recreation and event venue inside Glen D. Johnson Student Union at Southeastern Oklahoma State University in Durant. The gym supports Student Life programming, recreational tournaments, orientation activities and student-organization events. Southeastern maintains it as a reservable campus facility and regularly identifies it as the location for programs including pickleball and dodgeball tournaments and Welcome Week activities.",
+      "why_visit": "The Student Union Gymnasium is worth watching for Southeastern recreation programs, tournaments and special Student Life events. Event eligibility varies, and some programs are limited to currently enrolled Southeastern students, so visitors should check the individual event details before attending.",
+      "why_its_unique": "The gym serves as Southeastern's Student Union-based recreation and activity venue, giving Student Life a dedicated indoor space for tournaments, orientation programming and organization activities separate from the university's primary varsity athletics facilities.",
+      "phone": "580-745-2266",
+      "email": "lpresley@se.edu",
+      "website": "https://www.se.edu/venue/su-gymnasium/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The Student Union Gymnasium does not publish separate public walk-in hours. Access depends on scheduled programs, approved reservations and campus recreation use. The parent Glen D. Johnson Student Union publishes building hours, but those should not be interpreted as unrestricted gym access.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Southeastern lists the Student Union Gymnasium as a reservable campus facility.",
+        "Student-organization reservation requests are required at least two weeks in advance for guaranteed consideration.",
+        "No current official seating or occupancy capacity is published for the gymnasium.",
+        "Food and drinks are not allowed in the Student Union Gym during Southeastern's Curriculum Contest activities.",
+        "Some Student Life events held here require a valid Southeastern student ID."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "glen-d-johnson-student-union",
+        "business_name": "Glen D. Johnson Student Union",
+        "relationship_note": "Student Union Gymnasium is physically located inside Glen D. Johnson Student Union."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Official Southeastern sources confirm the Student Union Gymnasium name, standalone venue listing, 1704 N 4th Ave address, reservation availability, Student Life contact information and recurring use for campus recreation and Student Life events. No official seating or occupancy capacity is currently published.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Pickleball tournaments",
+        "Dodgeball tournaments",
+        "Welcome Week activities",
+        "Orientation activities",
+        "Student organization events",
+        "Campus recreation programs"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University calendar",
+        "Southeastern Student Life",
+        "Southeastern Special Events"
+      ],
+      "features": [
+        "Dedicated Student Union gymnasium",
+        "Reservable campus facility",
+        "Student Life recreation venue",
+        "Recurring tournament venue",
+        "Welcome Week event venue"
       ]
     }
   ]
