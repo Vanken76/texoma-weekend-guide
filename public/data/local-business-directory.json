@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 918,
-  "publish_ready_count": 593,
+  "business_count": 919,
+  "publish_ready_count": 594,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -93038,6 +93038,156 @@
         "Nearby concessions",
         "Electricity available",
         "Community-program venue"
+      ]
+    },
+    {
+      "slug": "loy-lake-park-pavilion",
+      "business_name": "Loy Lake Park Pavilion",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "457 RC Vaughn Rd, Denison, TX 75020",
+      "category": [
+        "Pavilion",
+        "Outdoor Event Venue",
+        "Park Facility",
+        "Family Attraction"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "Loy Lake Park",
+        "Loy Lake",
+        "Pavilion",
+        "Outdoor Venue",
+        "Lakeside Venue",
+        "Birthday Parties",
+        "Family Reunions",
+        "Family Gatherings",
+        "Picnics",
+        "Facility Rental",
+        "Things to Do in Denison"
+      ],
+      "description": "Loy Lake Park Pavilion is a separately reservable outdoor gathering facility overlooking the waters of Loy Lake in Denison. Located within the 202-acre Loy Lake Park, the pavilion provides picnic benches and ample gathering space in a scenic natural setting. The City of Denison promotes it for family reunions, birthday parties, picnics and casual get-togethers. Guests also have access to the surrounding park's lake, nature trails, picnic areas, horseshoe pits and other outdoor recreation amenities.",
+      "why_visit": "Loy Lake Park Pavilion provides an affordable lakeside setting for birthdays, reunions, picnics and family gatherings, with the scenery and recreation opportunities of Loy Lake Park immediately surrounding it.",
+      "why_its_unique": "Unlike Denison's more urban park pavilions, this facility overlooks Loy Lake and combines a reservable covered gathering space with a large natural park, lake and trail environment.",
+      "phone": "903-465-2720",
+      "email": "parksandrec@denisontx.gov",
+      "website": "https://denison.recdesk.com/Community/Facility/Detail?facilityId=127",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "5:00 AM–11:00 PM",
+        "tuesday": "5:00 AM–11:00 PM",
+        "wednesday": "5:00 AM–11:00 PM",
+        "thursday": "5:00 AM–11:00 PM",
+        "friday": "5:00 AM–11:00 PM",
+        "saturday": "5:00 AM–11:00 PM",
+        "sunday": "5:00 AM–11:00 PM"
+      },
+      "hours_note": "Loy Lake Park is currently open 5:00 AM-11:00 PM daily. Pavilion rental blocks are 7:00-11:00 AM, 12:00-4:00 PM and 5:00-9:00 PM. Denison RecDesk separately displays 8:00 AM-5:00 PM facility availability, but that administrative display conflicts with the City's explicitly published evening rental block and is therefore not treated as the pavilion's public operating hours.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Covered lakeside pavilion",
+        "Picnic benches",
+        "Restroom facilities",
+        "Lake views",
+        "Nearby picnic tables",
+        "Nearby nature trails",
+        "Nearby horseshoe pits",
+        "Nearby lake access",
+        "Open park space"
+      ],
+      "good_to_know": [
+        "Loy Lake Park Pavilion is located within Loy Lake Park at 457 RC Vaughn Rd in Denison.",
+        "The pavilion overlooks Loy Lake.",
+        "The City promotes the pavilion for family reunions, birthday parties and casual gatherings.",
+        "The pavilion includes picnic benches and open gathering space.",
+        "Restroom facilities are available within the park.",
+        "Current rental blocks are 7:00-11:00 AM, 12:00-4:00 PM and 5:00-9:00 PM.",
+        "Current Denison-resident rental pricing is $40 per four-hour block.",
+        "Current non-resident rental pricing is $60 per four-hour block.",
+        "A $50 refundable deposit is currently required.",
+        "Online reservations can currently be made up to eight days in advance.",
+        "Current-week reservations must be arranged with Parks & Recreation no later than Tuesday at 5:00 PM.",
+        "Cancellations must be made at least three business days before an event to qualify under the City's current refund policy.",
+        "The rented area must be left clean and undamaged for return of the deposit.",
+        "Alcoholic beverages are prohibited in City of Denison parks and facilities.",
+        "Qualifying publicly advertised or special events on City property may require a City special-event permit.",
+        "Outdoor amplified sound is subject to Denison noise regulations and requires an amplification permit when applicable.",
+        "Loy Lake Park includes a 1.5-mile nature trail around the lake.",
+        "Dogs using Denison trails must be kept on a short leash.",
+        "For Parks & Recreation reservation assistance, contact 903-465-2720.",
+        "For after-hours park issues, contact 903-647-0507."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": {
+        "slug": "loy-lake-park",
+        "name": "Loy Lake Park",
+        "relationship_note": "Loy Lake Park Pavilion is a separately reservable outdoor gathering facility within Loy Lake Park."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Located in Denison, Texas."
+        }
+      ],
+      "verification_note": "Fully researched August 15, 2026 after manual TWG live-directory duplicate clearance. The current City of Denison Loy Lake Park facility page confirms the pavilion as a separately reservable lakeside facility within Loy Lake Park at 457 RC Vaughn Rd. The City describes the pavilion as overlooking Loy Lake, with picnic benches and space appropriate for family reunions, birthday parties and casual gatherings. Current rental blocks are 7:00-11:00 AM, 12:00-4:00 PM and 5:00-9:00 PM. Current pricing is $40 per four-hour block for Denison residents and $60 for non-residents, with a $50 refundable deposit. The parent park is open 5:00 AM-11:00 PM daily and includes a lake, nature trails, picnic tables, horseshoe pits, boat access and restrooms. Denison's active RecDesk independently confirms that the pavilion is reservable daily in four-hour blocks, that restrooms are available, and the current advance-booking, cancellation, no-alcohol, special-event and amplification-permit rules. RecDesk spells the street name 'Vaughan' while the City's dedicated Loy Lake Park page spells it 'Vaughn'; TWG uses the dedicated park page's 457 RC Vaughn Rd as canonical while documenting the discrepancy. RecDesk displays 8:00 AM-5:00 PM as facility availability, which conflicts with the City's explicitly published 5:00-9:00 PM rental block, so TWG uses the parent park's operating hours and the explicitly published rental blocks instead. Pavilion capacity, pavilion-specific accessibility and pet rules were not sufficiently confirmed and remain unspecified.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Birthday parties",
+        "Family reunions",
+        "Family gatherings",
+        "Picnics",
+        "Private gatherings",
+        "Special events"
+      ],
+      "event_sources": [
+        "City of Denison Parks & Recreation",
+        "Denison Parks & Recreation RecDesk"
+      ],
+      "features": [
+        "Separately reservable pavilion",
+        "Lakeside setting",
+        "Loy Lake views",
+        "Picnic benches",
+        "Three daily rental blocks",
+        "Nearby restrooms",
+        "Nearby nature trail",
+        "Nearby lake recreation",
+        "Loy Lake Park location"
       ]
     }
   ]
