@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 988,
-  "publish_ready_count": 663,
+  "business_count": 989,
+  "publish_ready_count": 664,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -102229,6 +102229,133 @@
         "Campus recreation space",
         "Documented recurring Pool Club use",
         "Student organization programming potential"
+      ]
+    },
+    {
+      "slug": "student-union-meeting-room-su202",
+      "business_name": "Student Union Meeting Room SU202",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "2nd Floor, Glen D. Johnson Student Union, Southeastern Oklahoma State University, Durant, OK 74701",
+      "category": [
+        "Meeting Room",
+        "Campus Event Venue",
+        "Student Union Event Space"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Glen D. Johnson Student Union",
+        "Durant",
+        "Bryan County",
+        "Student Life",
+        "Campus Wellness",
+        "Meetings",
+        "Training Sessions",
+        "Narcan Training",
+        "Informational Sessions"
+      ],
+      "description": "Student Union Meeting Room SU202 is a 35-seat second-floor meeting and event room inside Glen D. Johnson Student Union at Southeastern Oklahoma State University in Durant. The room is available through Southeastern's Student Union reservation process and is used for university meetings, training sessions, wellness programming and other small-group campus activities.",
+      "why_visit": "Watch SU202 for smaller Southeastern programs including workshops, informational sessions, wellness education and training events. The room has become a recurring location for the university's Narcan overdose-reversal training program.",
+      "why_its_unique": "SU202 is a dedicated 35-seat meeting room within the Student Union that supports smaller programs requiring a more focused setting than the building's auditorium, loft, atrium, plaza or gymnasium.",
+      "phone": "580-745-2266",
+      "email": "lpresley@se.edu",
+      "website": "https://www.se.edu/student-life/student-union-room-reservation-form/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No separate public operating hours are published for SU202. Access depends on Glen D. Johnson Student Union operations, scheduled programs and approved reservations.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Maximum seating for 35",
+        "Second-floor Student Union location",
+        "Reservable meeting space"
+      ],
+      "good_to_know": [
+        "Southeastern officially lists the room as 2nd Floor Meeting Room SU202.",
+        "Maximum published seating capacity is 35.",
+        "Student organization reservation requests should be submitted at least two weeks in advance for guaranteed consideration.",
+        "Lenora Presley is the published contact for Student Union reservation questions.",
+        "The room has recurring documented use for Southeastern Narcan overdose-reversal training.",
+        "Event eligibility varies by program; check individual event details before attending."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "glen-d-johnson-student-union",
+        "business_name": "Glen D. Johnson Student Union",
+        "relationship_note": "SU202 is a second-floor meeting room inside Glen D. Johnson Student Union."
+      },
+      "related_businesses": [
+        {
+          "slug": "southeastern-oklahoma-state-university",
+          "business_name": "Southeastern Oklahoma State University",
+          "relationship_note": "SU202 is a Southeastern Oklahoma State University campus meeting and event space."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Official Southeastern sources identify SU202 as the 2nd Floor Meeting Room in Glen D. Johnson Student Union with maximum seating for 35 and confirm that it is available through the Student Union reservation process. Southeastern's 2026 calendar documents repeated Narcan training use in Room 202, including January 30, March 27, August 27 and October 29 programming.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Training sessions",
+        "Narcan overdose-reversal training",
+        "Informational sessions",
+        "Campus wellness programs",
+        "Meetings",
+        "Small-group university programs"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University calendar",
+        "Southeastern Student Life",
+        "Southeastern Student Wellness Services"
+      ],
+      "features": [
+        "35-seat meeting room",
+        "Second-floor Student Union location",
+        "Reservable campus facility",
+        "Recurring Narcan training venue",
+        "Small-group meeting and training space"
       ]
     }
   ]
