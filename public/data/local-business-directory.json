@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 945,
-  "publish_ready_count": 620,
+  "business_count": 946,
+  "publish_ready_count": 621,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -96517,6 +96517,126 @@
         "Johnston Observation Deck",
         "Rossi W. Felix Scoreboard",
         "Larry Kramer Outback"
+      ]
+    },
+    {
+      "slug": "hughey-gymnasium",
+      "business_name": "Hughey Gymnasium",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1105 E Brockett St, Sherman, TX 75090",
+      "category": [
+        "Gymnasium",
+        "College Athletics Venue",
+        "Sports Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Austin College",
+        "Sherman",
+        "Grayson County",
+        "Hughey Memorial Gymnasium",
+        "Jim Rolfe Court",
+        "College Basketball",
+        "College Volleyball",
+        "Kangaroo Athletics",
+        "Basketball Games",
+        "Volleyball Matches",
+        "Athletics Events",
+        "Alumni Events",
+        "Indoor Sports"
+      ],
+      "description": "Hughey Gymnasium is Austin College's primary indoor basketball and volleyball venue in Sherman. Located within the Robert T. Mason Athletic-Recreation Complex, the gym hosts all home Kangaroo basketball and volleyball games as well as intramural competition, physical-activity classes and other campus programming. Its playing floor was replaced in 2020 and named Jim Rolfe Court in honor of Austin College alumnus, former basketball player and longtime supporter James Rolfe. Beyond varsity athletics, Hughey Gymnasium also serves as a flexible gathering space for selected College events, including alumni athletics celebrations and awards programs.",
+      "why_visit": "Hughey Gymnasium is the place to catch Austin College men's and women's basketball and volleyball at home, with recurring collegiate competition on Jim Rolfe Court and occasional larger campus and alumni events.",
+      "why_its_unique": "The gym has served Austin College athletics since 1949 and remains the College's home court for basketball and volleyball. Its modern Jim Rolfe Court connects the current competition venue with more than seven decades of Kangaroo athletics history.",
+      "phone": "903-813-2000",
+      "email": null,
+      "website": "https://www.austincollege.edu/details/~board/explore-ac/post/hughey-gymnasium",
+      "facebook": "https://www.facebook.com/austincollege/",
+      "instagram": "https://www.instagram.com/austincollege/",
+      "youtube": "https://www.youtube.com/austincollege",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Hughey Gymnasium does not publish general public recreation hours. Austin College describes routine recreational use for students and faculty, while public visitor access follows scheduled athletic contests, alumni programs and other events. Check Austin College Athletics or the individual event listing before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Jim Rolfe Court",
+        "Indoor basketball court",
+        "Indoor volleyball venue",
+        "Robert T. Mason Athletic-Recreation Complex setting"
+      ],
+      "good_to_know": [
+        "Hughey Gymnasium is located within the Robert T. Mason Athletic-Recreation Complex at 1105 E Brockett St.",
+        "Austin College's 2026 Athletics Style Guide lists the full formal name as Hughey Memorial Gymnasium and allows Hughey Gymnasium or Hughey Gym in normal references.",
+        "The gym is the site of all Austin College home basketball and volleyball games.",
+        "Jim Rolfe Court was installed and named in 2020.",
+        "The building dates to 1949 and has undergone later renovation and modernization.",
+        "The venue also hosts selected non-game programs, including Austin College alumni athletics events and awards gatherings.",
+        "Event dates, start times and spectator details vary, so check the current Austin College schedule before visiting."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "austin-college",
+        "business_name": "Austin College",
+        "relationship_note": "Hughey Gymnasium is an Austin College athletics facility within the Robert T. Mason Athletic-Recreation Complex."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from current Austin College facility information, the June 2026 Austin College Athletics Style Guide, current Austin College Athletics schedules and 2026 alumni-event information. Hughey Gymnasium remains the home venue for Austin College basketball and volleyball at 1105 E Brockett St. The formal full name is Hughey Memorial Gymnasium, while Hughey Gymnasium and Hughey Gym are approved current references.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Men's college basketball",
+        "Women's college basketball",
+        "College volleyball",
+        "Athletics ceremonies",
+        "Alumni athletics events",
+        "Awards programs",
+        "Intramural basketball",
+        "Intramural volleyball"
+      ],
+      "event_sources": [
+        "Austin College Athletics basketball schedules",
+        "Austin College Athletics volleyball schedule",
+        "Austin College Athletics news",
+        "Austin College Alumni events",
+        "Austin College official social channels"
+      ],
+      "features": [
+        "Home court for Austin College basketball",
+        "Home court for Austin College volleyball",
+        "Jim Rolfe Court",
+        "Historic 1949 gymnasium",
+        "Part of Robert T. Mason Athletic-Recreation Complex",
+        "Active collegiate competition venue",
+        "Hosts selected alumni and campus programs"
       ]
     }
   ]
