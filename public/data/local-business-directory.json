@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 947,
-  "publish_ready_count": 622,
+  "business_count": 948,
+  "publish_ready_count": 623,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -96753,6 +96753,122 @@
         "Brick-and-net backstop",
         "Spectator stands",
         "Located directly north of Jerry E. Apple Stadium",
+        "Active NCAA Division III competition venue"
+      ]
+    },
+    {
+      "slug": "jack-pierce-soccer-complex",
+      "business_name": "Dr. Jack R. Pierce Soccer Complex",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Austin College campus, northwest side of campus, Sherman, TX 75090",
+      "category": [
+        "Soccer Complex",
+        "College Athletics Venue",
+        "Sports Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Austin College",
+        "Sherman",
+        "Grayson County",
+        "Kangaroo Soccer",
+        "College Soccer",
+        "Men's Soccer",
+        "Women's Soccer",
+        "NCAA Division III",
+        "Soccer Matches",
+        "Outdoor Sports",
+        "Spectator Sports",
+        "Night Games",
+        "Athletics Events"
+      ],
+      "description": "Dr. Jack R. Pierce Soccer Complex is Austin College's outdoor home venue for men's and women's soccer in Sherman. Located on the northwest side of the Austin College campus, the complex hosts recurring Kangaroo home matches throughout the collegiate soccer season. Dedicated September 30, 2017, the facility honors longtime Austin College biology professor Dr. Jack R. Pierce, an enthusiastic supporter of Kangaroo athletics who also served as the College's NCAA faculty athletics representative. Lighting and dedicated signage were later added to the complex, allowing it to support evening competition as well as daytime matches.",
+      "why_visit": "Dr. Jack R. Pierce Soccer Complex gives Texoma soccer fans a local place to watch Austin College men's and women's collegiate soccer, including recurring home matches and evening competition during the fall season.",
+      "why_its_unique": "The complex serves both Austin College soccer programs while also honoring Dr. Jack R. Pierce, a longtime professor and athletics advocate whose support of student-athletes extended across the College's sports programs.",
+      "phone": "903-813-2000",
+      "email": null,
+      "website": "https://www.austincollege.edu/details/~board/explore-ac/post/jack-pierce-soccer-complex",
+      "facebook": "https://www.facebook.com/austincollege/",
+      "instagram": "https://www.instagram.com/austincollege/",
+      "youtube": "https://www.youtube.com/austincollege",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Dr. Jack R. Pierce Soccer Complex does not have regular public attraction hours. Spectator access follows scheduled Austin College soccer matches and other approved athletics activities. Check the current Austin College Athletics schedule before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Outdoor collegiate soccer facility",
+        "Field lighting",
+        "Dedicated facility signage"
+      ],
+      "good_to_know": [
+        "The complex is located on the northwest side of the Austin College campus.",
+        "Austin College's June 2026 Athletics Style Guide gives the full facility name as Dr. Jack R. Pierce Soccer Complex.",
+        "Austin College Athletics also uses the variant Dr. Jack R. Pierce Memorial Soccer Complex in schedules and facility listings.",
+        "The complex supports home games for both Austin College men's and women's soccer.",
+        "The facility was dedicated September 30, 2017.",
+        "Lighting allows the complex to accommodate evening matches.",
+        "Austin College currently provides free admission to regular-season athletics events.",
+        "Match dates and start times can change, so check the current Austin College Athletics schedule before visiting."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "austin-college",
+        "business_name": "Austin College",
+        "relationship_note": "Dr. Jack R. Pierce Soccer Complex is an Austin College athletics facility on the northwest side of the Sherman campus."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from current Austin College facility information, the June 2026 Austin College Athletics Style Guide, current Athletics facility information and 2026 soccer schedules. The complex remains the active home venue for Austin College men's and women's soccer. Austin College's institutional style guide uses Dr. Jack R. Pierce Soccer Complex as the full name, while Athletics schedules may use Dr. Jack R. Pierce Memorial Soccer Complex.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Men's college soccer",
+        "Women's college soccer",
+        "Austin College home soccer matches",
+        "Conference soccer matches",
+        "Nonconference soccer matches"
+      ],
+      "event_sources": [
+        "Austin College Athletics men's soccer schedule",
+        "Austin College Athletics women's soccer schedule",
+        "Austin College Athletics news",
+        "Austin College official social channels"
+      ],
+      "features": [
+        "Home venue for Austin College men's soccer",
+        "Home venue for Austin College women's soccer",
+        "Dedicated September 30, 2017",
+        "Field lighting",
+        "Dedicated signage",
+        "Northwest Austin College campus location",
         "Active NCAA Division III competition venue"
       ]
     }
