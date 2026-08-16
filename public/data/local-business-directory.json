@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 968,
-  "publish_ready_count": 643,
+  "business_count": 969,
+  "publish_ready_count": 644,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -99516,6 +99516,147 @@
         "College-fair venue",
         "Available for approved event rentals",
         "Current published daily rental rate of $2,000"
+      ]
+    },
+    {
+      "slug": "bloomer-sullivan-gymnasium",
+      "business_name": "Bloomer Sullivan Gymnasium",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "120 University Blvd, Durant, OK 74701",
+      "category": [
+        "Gymnasium",
+        "College Athletics Venue",
+        "Sports Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Southeastern",
+        "Savage Storm",
+        "Durant",
+        "Bryan County",
+        "Oklahoma",
+        "College Volleyball",
+        "Women's Volleyball",
+        "NCAA Division II",
+        "Great American Conference",
+        "Volleyball Matches",
+        "Indoor Sports",
+        "Spectator Sports",
+        "Bloomer Sullivan Gym",
+        "Athletics Events"
+      ],
+      "description": "Bloomer Sullivan Gymnasium is Southeastern Oklahoma State University's home venue for Savage Storm volleyball in Durant. Located at 120 University Blvd., the gym is a historic Southeastern athletics facility that dates to 1956 and was renamed Bloomer Sullivan Gymnasium in 1975. A major renovation completed in 2020 modernized the volleyball venue with updated court graphics, scoreboards and lighting while other portions of the building were converted into expanded strength-and-conditioning facilities. Today the gym continues to host Southeastern's NCAA Division II volleyball home schedule and is also configured for basketball and other approved athletics uses.",
+      "why_visit": "Bloomer Sullivan Gymnasium gives Texoma volleyball fans a local place to watch NCAA Division II Savage Storm competition in a dedicated collegiate volleyball setting.",
+      "why_its_unique": "The gym combines nearly seven decades of Southeastern athletics history with a substantially renovated modern volleyball venue, preserving one of the university's longtime sports facilities while giving Savage Storm volleyball its own distinct home court.",
+      "phone": "580-745-2026",
+      "email": "swillman@se.edu",
+      "website": "https://www.se.edu/venue/bloomer-sullivan-gymnasium/",
+      "facebook": "https://www.facebook.com/GoSoutheastern/",
+      "instagram": "https://www.instagram.com/gosoutheastern/",
+      "youtube": "https://www.youtube.com/@GoSoutheastern",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Bloomer Sullivan Gymnasium does not maintain regular public walk-in hours. Spectator access follows scheduled Southeastern volleyball matches and other approved athletics events. Event times, admission, parking and entry details should be confirmed through Southeastern Athletics before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Gym capacity up to 700",
+        "Wi-Fi",
+        "Meeting rooms",
+        "Three locker rooms",
+        "One main volleyball court",
+        "Two cross-court volleyball configurations",
+        "One main basketball court",
+        "Updated volleyball scoreboards",
+        "Updated volleyball lighting"
+      ],
+      "good_to_know": [
+        "Bloomer Sullivan Gymnasium is located at 120 University Blvd in Durant.",
+        "Southeastern's university calendar uses the full name Bloomer Sullivan Gymnasium, while Southeastern Athletics also uses the shorter Bloomer Sullivan Gym.",
+        "The gym is the current home venue for Southeastern Savage Storm volleyball.",
+        "Southeastern currently lists the gym capacity at 700.",
+        "The facility includes Wi-Fi, meeting rooms and three locker rooms.",
+        "The gym can be configured with one main volleyball court or two cross courts and also supports one main basketball court.",
+        "The building was originally constructed as the Health & Physical Education Building in 1956.",
+        "It was renamed Bloomer Sullivan Gymnasium in 1975.",
+        "A new floor and bleachers were installed in 1994.",
+        "A major athletics renovation completed in 2020 substantially upgraded the volleyball venue, including court graphics, scoreboards and lighting.",
+        "A new parking area was added between Bloomer Sullivan Gymnasium and Bloomer Sullivan Arena during Southeastern's 2026 campus parking improvements.",
+        "Southeastern lists the gym among its reservable athletics facilities, but a standalone public rental rate is not currently published; availability and costs should be confirmed directly with Southeastern."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "Bloomer Sullivan Gymnasium is Southeastern Oklahoma State University's primary home venue for Savage Storm volleyball on its Durant campus."
+      },
+      "related_businesses": [
+        {
+          "slug": "bloomer-sullivan-arena",
+          "business_name": "Bloomer Sullivan Arena",
+          "relationship_note": "Bloomer Sullivan Arena is the neighboring Southeastern athletics venue immediately north of the gymnasium and serves as the primary home of Savage Storm basketball."
+        }
+      ],
+      "related_geography": [],
+      "verification_note": "Bloomer Sullivan Gymnasium remains Southeastern's active home volleyball venue at 120 University Blvd. The gym accommodates up to 700 people and includes Wi-Fi, meeting rooms, three locker rooms and multiple court configurations. Public access follows scheduled athletics events, and rental availability or pricing should be confirmed with Southeastern.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "College volleyball",
+        "Southeastern home volleyball matches",
+        "Great American Conference volleyball",
+        "Volleyball tournaments",
+        "Athletics events"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University calendar",
+        "Southeastern Athletics women's volleyball schedule",
+        "Southeastern Athletics news",
+        "Southeastern Athletics official social channels"
+      ],
+      "features": [
+        "Home of Southeastern Savage Storm volleyball",
+        "Capacity up to 700",
+        "Historic athletics building dating to 1956",
+        "Bloomer Sullivan Gymnasium name dating to 1975",
+        "Major volleyball renovation completed in 2020",
+        "Updated court graphics",
+        "Updated scoreboards",
+        "Updated lighting",
+        "Wi-Fi",
+        "Meeting rooms",
+        "Three locker rooms",
+        "Flexible volleyball court configurations",
+        "Basketball court configuration",
+        "Adjacent to Bloomer Sullivan Arena"
       ]
     }
   ]
