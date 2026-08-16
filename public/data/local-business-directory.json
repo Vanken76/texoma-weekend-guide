@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 941,
-  "publish_ready_count": 616,
+  "business_count": 942,
+  "publish_ready_count": 617,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -96031,6 +96031,120 @@
         "Lecture and seminar space",
         "Trost Family Courtyard",
         "Pick-Up-Stix sculpture by Kirk Lipsitz"
+      ]
+    },
+    {
+      "slug": "hoxie-thompson-auditorium",
+      "business_name": "Hoxie Thompson Auditorium",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "916 N Grand Ave, Sherman, TX 75090",
+      "category": [
+        "Auditorium",
+        "Event Venue",
+        "Lecture Hall"
+      ],
+      "tags": [
+        "Austin College",
+        "Sherman Hall",
+        "Sherman",
+        "Grayson County",
+        "Guest Lectures",
+        "Academic Events",
+        "Symposiums",
+        "Panel Discussions",
+        "Public Programs",
+        "Campus Events",
+        "Historic Venue",
+        "Kenneth W. Street Law Symposium"
+      ],
+      "description": "Hoxie Thompson Auditorium is a historic 157-seat auditorium inside Sherman Hall on the Austin College campus in Sherman. The auditorium serves as an intimate venue for lectures, symposium panels, academic presentations, public discussions and other college programs. The space was named in 1965 in honor of Hoxie Thompson, a 1901 Austin College graduate, longtime trustee and benefactor. Its history stretches back to Sherman Hall's original auditorium-chapel, which once seated approximately 1,000 people before the former balcony was converted to offices. Today the auditorium remains an active Austin College programming space, including use for multiple sessions of the annual Kenneth W. Street Law Symposium.",
+      "why_visit": "Hoxie Thompson Auditorium gives visitors access to Austin College's public lectures, symposiums and discussions in a smaller historic venue that has been part of the college's Sherman campus for generations.",
+      "why_its_unique": "The 157-seat auditorium combines an active modern academic-event role with unusually deep history: its stage and predecessor auditorium have welcomed major speakers and performers ranging from William Howard Taft and Harry Houdini to George H.W. Bush.",
+      "phone": "903-813-2000",
+      "email": null,
+      "website": "https://www.austincollege.edu/explore/in-words/history",
+      "facebook": "https://www.facebook.com/austincollege/",
+      "instagram": "https://www.instagram.com/austincollege/",
+      "youtube": "https://www.youtube.com/austincollege",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Hoxie Thompson Auditorium does not publish regular public walk-in hours. Access follows scheduled Austin College lectures, symposiums, presentations and other programs. Check the current Austin College event schedule before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "157-seat auditorium",
+        "Indoor presentation space",
+        "Auditorium stage",
+        "Historic Sherman Hall setting"
+      ],
+      "good_to_know": [
+        "Hoxie Thompson Auditorium is located inside Sherman Hall at 916 N Grand Ave.",
+        "The auditorium currently seats 157 people.",
+        "It was named in 1965 for Austin College graduate, trustee and benefactor Hoxie Thompson.",
+        "The original Sherman Hall auditorium could accommodate approximately 1,000 people before its large balcony was converted into offices.",
+        "The auditorium continues to host Austin College lectures, panels, symposiums and other scheduled programs.",
+        "Admission, registration requirements and public access vary by individual event."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "austin-college",
+        "business_name": "Austin College",
+        "relationship_note": "Hoxie Thompson Auditorium is located inside Sherman Hall on the Austin College campus."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from current Austin College facility, institutional history and 2026 event information. Hoxie Thompson Auditorium remains an active 157-seat programming venue inside Sherman Hall. Public access and admission vary according to the individual Austin College event.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Guest lectures",
+        "Academic lectures",
+        "Symposium panels",
+        "Panel discussions",
+        "Public discussions",
+        "Academic presentations",
+        "Campus programs",
+        "Community programs"
+      ],
+      "event_sources": [
+        "Austin College News & Events",
+        "Austin College Community calendar",
+        "Kenneth W. Street Law Symposium",
+        "Austin College official social channels"
+      ],
+      "features": [
+        "157-seat auditorium",
+        "Located inside historic Sherman Hall",
+        "Named for Hoxie Thompson in 1965",
+        "Long history of distinguished speakers and performers",
+        "Active Austin College lecture and symposium venue"
       ]
     }
   ]
