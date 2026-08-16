@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 913,
-  "publish_ready_count": 588,
+  "business_count": 914,
+  "publish_ready_count": 589,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -92222,6 +92222,175 @@
         "Warm-up area",
         "Covered and terraced spectator seating",
         "Concessions",
+        "Tournament-capable facility"
+      ]
+    },
+    {
+      "slug": "thf-soccer-fields",
+      "business_name": "THF Soccer Fields",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "3801 S US Hwy 75, Denison, TX 75020",
+      "category": [
+        "Soccer Fields",
+        "Sports & Recreation",
+        "Athletic Facility",
+        "Youth Sports",
+        "Event Venue"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "THF Park",
+        "Texoma Health Foundation Park",
+        "Soccer",
+        "Soccer Fields",
+        "Youth Soccer",
+        "Adult Soccer",
+        "Multi-Use Fields",
+        "Lighted Fields",
+        "Athletic Fields",
+        "Texoma Soccer Association",
+        "League Play",
+        "Sports Practices",
+        "Soccer Games",
+        "Tournament Venue",
+        "Things to Do in Denison"
+      ],
+      "description": "THF Soccer Fields is a dedicated soccer and multi-use athletic facility within Texoma Health Foundation Park in Denison. The fields support youth and adult soccer practices, league games, tournaments and other organized field activities. The larger THF Park complex provides LED field lighting, soccer practice goals, restrooms, concessions and mobile food-truck capability, terraced spectator seating, electricity and other family-friendly recreation amenities. Texoma Soccer Association uses THF Park as a primary Denison game location, including games for players age U9 and older.",
+      "why_visit": "THF Soccer Fields provide one of Denison's primary organized soccer venues, combining dedicated game and practice space with the amenities of the larger Texoma Health Foundation Park complex.",
+      "why_its_unique": "The fields serve as a major Texoma Soccer Association game location while sitting inside one of Denison's premier recreation complexes, giving players and families access to lighting, concessions, restrooms, trails, playgrounds and other park amenities.",
+      "phone": "903-465-2720",
+      "email": "parksandrec@denisontx.gov",
+      "website": "https://www.denisontx.gov/248/Athletic-Facility-Rentals",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "5:00 AM–11:00 PM",
+        "tuesday": "5:00 AM–11:00 PM",
+        "wednesday": "5:00 AM–11:00 PM",
+        "thursday": "5:00 AM–11:00 PM",
+        "friday": "5:00 AM–11:00 PM",
+        "saturday": "5:00 AM–11:00 PM",
+        "sunday": "5:00 AM–11:00 PM"
+      },
+      "hours_note": "Texoma Health Foundation Park is currently open from 5:00 AM to 11:00 PM daily. Soccer-field access may also depend on reservations, league schedules, tournaments, weather and field conditions. Closing times do not apply to Parks and Recreation-sanctioned events or properly permitted activities.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Soccer game fields",
+        "Multi-use game fields",
+        "Soccer practice goals",
+        "LED field lighting",
+        "Terraced spectator seating",
+        "Concession facility",
+        "Mobile food-truck capability",
+        "Restroom facilities",
+        "Electricity",
+        "Benches",
+        "Nearby drinking fountains",
+        "Nearby paved ADA-accessible trails",
+        "Nearby playground",
+        "Nearby splash pad",
+        "Open green space"
+      ],
+      "good_to_know": [
+        "THF Soccer Fields is located within Texoma Health Foundation Park at 3801 S US Hwy 75 in Denison.",
+        "The City of Denison lists THF Soccer Fields separately from the main THF Park listing and the THF baseball and softball fields.",
+        "The fields are available through Denison Parks & Recreation for practices, games and tournaments.",
+        "The City confirms soccer and multi-use game fields within the complex.",
+        "Soccer practice goals are available.",
+        "LED field lighting supports evening athletic use.",
+        "Restrooms and a concession facility are available within THF Park.",
+        "The park also supports mobile food trucks.",
+        "Texoma Soccer Association identifies THF Park as one of its official game locations.",
+        "Texoma Soccer Association currently assigns U9-and-older games to THF Park.",
+        "Texoma Soccer Association serves both youth and adult soccer players across the Texoma area.",
+        "THF Park is wheelchair accessible and includes ADA-accessible paved trails and playground equipment.",
+        "Current parent-park hours are 5:00 AM to 11:00 PM daily.",
+        "Field use may be affected by league schedules, reservations, weather and field conditions.",
+        "For Parks & Recreation assistance, contact 903-465-2720.",
+        "For after-hours park issues, the City currently lists 903-647-0507."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "texoma-health-foundation-park",
+        "name": "Texoma Health Foundation Park",
+        "relationship_note": "THF Soccer Fields is a dedicated athletic facility within the larger Texoma Health Foundation Park complex."
+      },
+      "related_businesses": [
+        {
+          "slug": "thf-park-baseball-softball-fields",
+          "name": "THF Park Baseball & Softball Fields",
+          "relationship_note": "Separate dedicated athletic fields within the same Texoma Health Foundation Park complex."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Located in Denison, Texas."
+        }
+      ],
+      "verification_note": "Fully researched August 15, 2026 after manual TWG live-directory duplicate clearance. The current City of Denison Athletic Facility Rentals page explicitly lists THF Soccer Fields as a separate athletic facility available for practices, games and tournaments. The current Texoma Health Foundation Park facility page confirms soccer and multi-use game fields, soccer practice goals, LED field lighting, concessions and mobile food-truck capability, restrooms, terraced seating, electricity and wheelchair-accessible park facilities at 3801 S US Hwy 75. Texoma Soccer Association's current official Game Day page identifies THF Park at 3801 US-75 as one of its official field locations and states that games for ages U9 and older are played at THF Park. TSA's current 2026 information lists fall opening day on September 5, supporting ongoing league activity and high-priority event mining. Current official sources do not state a reliable soccer-field count, individual field dimensions or current field-specific rental price, so TWG does not publish those details.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Youth soccer games",
+        "Adult soccer games",
+        "Soccer practices",
+        "Soccer tournaments",
+        "League play",
+        "Soccer camps",
+        "Soccer clinics",
+        "Athletic field rentals"
+      ],
+      "event_sources": [
+        "City of Denison Parks & Recreation",
+        "City of Denison Athletic Facility Rentals",
+        "Texoma Soccer Association"
+      ],
+      "features": [
+        "Dedicated soccer facility",
+        "Soccer and multi-use game fields",
+        "Soccer practice goals",
+        "LED field lighting",
+        "Texoma Soccer Association game venue",
+        "Youth and adult soccer use",
+        "Terraced spectator seating",
+        "Concessions",
+        "Restrooms",
+        "Practice venue",
+        "League game venue",
         "Tournament-capable facility"
       ]
     }
