@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 955,
-  "publish_ready_count": 630,
+  "business_count": 956,
+  "publish_ready_count": 631,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -97753,6 +97753,126 @@
         "More than 50 exoplanets discovered with Austin College student participation",
         "Recurring public Star Parties",
         "Located inside IDEA Center"
+      ]
+    },
+    {
+      "slug": "collins-alumni-center",
+      "business_name": "Collins Alumni Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "809 N Grand Ave, Sherman, TX 75090",
+      "category": [
+        "Event Venue",
+        "Gathering Space",
+        "Alumni Center"
+      ],
+      "tags": [
+        "Austin College",
+        "Sherman",
+        "Grayson County",
+        "Alumni Events",
+        "Receptions",
+        "Campus Events",
+        "Meeting Space",
+        "Social Gatherings",
+        "Guest Speakers",
+        "Law Symposium",
+        "College Traditions",
+        "Historic Campus Building"
+      ],
+      "description": "Collins Alumni Center is a dedicated meeting and social space on the Austin College campus in Sherman. Formally named the Margaret Binkley Collins and William W. Collins, Jr., Alumni Center, the facility occupies a renovated house that previously served as a residence for various College administrators. Dedicated in March 2003, the center provides a centralized gathering place for alumni during College events, meeting space for campus groups and temporary accommodations for visiting campus speakers and guests. It continues to host receptions, alumni programming and other special Austin College gatherings.",
+      "why_visit": "Collins Alumni Center serves as an intimate gathering place for selected Austin College receptions, alumni programs and special events, particularly activities that connect alumni, students, speakers and other members of the College community.",
+      "why_its_unique": "Rather than a purpose-built conference hall, Collins Alumni Center repurposes a former campus residence as a welcoming alumni and event space while preserving connections to generations of Austin College supporters and organizations.",
+      "phone": "903-813-2000",
+      "email": null,
+      "website": "https://www.austincollege.edu/details/~board/explore-ac/post/collins-alumni-center",
+      "facebook": "https://www.facebook.com/austincollege/",
+      "instagram": "https://www.instagram.com/austincollege/",
+      "youtube": "https://www.youtube.com/austincollege",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Collins Alumni Center does not publish regular public walk-in hours. Access generally follows scheduled Austin College alumni activities, receptions, meetings and other approved campus programs. Check the individual Austin College event before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Alumni meeting space",
+        "Social gathering space",
+        "Campus-group meeting space",
+        "Guest accommodations"
+      ],
+      "good_to_know": [
+        "Collins Alumni Center is located at 809 N Grand Ave.",
+        "Austin College classifies it as one of its official Gathering Spaces.",
+        "The building previously served as a residence for various Austin College administrators.",
+        "The renovated center was dedicated in March 2003.",
+        "Its formal namesake is the Margaret Binkley Collins and William W. Collins, Jr., Alumni Center.",
+        "The facility provides meeting and social space during alumni and College events.",
+        "Austin College also uses the building for campus-group meetings and temporary accommodations for visiting speakers and guests.",
+        "The center continues to host scheduled receptions, including the 2026 Kenneth W. Street Law Symposium reception.",
+        "Public access depends on the individual Austin College event or program."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "austin-college",
+        "business_name": "Austin College",
+        "relationship_note": "Collins Alumni Center is an Austin College gathering and alumni facility on the Sherman campus."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from current Austin College facility, campus-tour and 2026 event information. Collins Alumni Center remains an official Austin College Gathering Space at 809 N Grand Ave and is actively used for alumni activities, receptions, meetings and other College programs. Regular general-public operating hours are not published.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Alumni gatherings",
+        "Receptions",
+        "Law symposium receptions",
+        "Campus meetings",
+        "Alumni networking",
+        "Guest-speaker events",
+        "College social events",
+        "Special campus programs"
+      ],
+      "event_sources": [
+        "Austin College News & Events",
+        "Austin College Alumni programming",
+        "Austin College Kenneth W. Street Law Symposium",
+        "Austin College official social channels"
+      ],
+      "features": [
+        "Official Austin College Gathering Space",
+        "Dedicated alumni center",
+        "Historic former administrator residence",
+        "Dedicated in March 2003",
+        "Alumni meeting and social space",
+        "Campus-group meeting space",
+        "Temporary accommodations for campus speakers and guests",
+        "Active reception venue"
       ]
     }
   ]
