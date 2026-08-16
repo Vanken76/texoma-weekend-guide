@@ -2,6 +2,11 @@ import { chooseCoordinatePair } from "./locationCoordinates.js";
 
 const DEFAULT_TIME_ZONE = "America/Chicago";
 const PUBLIC_CURRENT_STATUSES = new Set(["upcoming", "recurring"]);
+const businessIndexCache = new WeakMap();
+const currentEventsCache = new WeakMap();
+const venueEventsIndexCache = new WeakMap();
+
+const hasCustomOptions = (options = {}) => Object.keys(options).length > 0;
 
 export const toArray = (value) => Array.isArray(value) ? value : value ? [value] : [];
 
@@ -15,9 +20,17 @@ export const getEventVenueSlugs = (event = {}) => uniqueStrings(
   event.secondary_venue_slugs
 );
 
-export const buildBusinessIndex = (businesses = []) => new Map(
-  businesses.filter((business) => business?.slug).map((business) => [business.slug, business])
-);
+export const buildBusinessIndex = (businesses = []) => {
+  if (!Array.isArray(businesses)) return new Map();
+  const cached = businessIndexCache.get(businesses);
+  if (cached) return cached;
+
+  const index = new Map(
+    businesses.filter((business) => business?.slug).map((business) => [business.slug, business])
+  );
+  businessIndexCache.set(businesses, index);
+  return index;
+};
 
 export const parseRecurrenceRule = (rule = "") => Object.fromEntries(
   String(rule)
@@ -140,17 +153,56 @@ export const withResolvedEventLocation = (event = {}, businessIndexOrBusinesses 
   };
 };
 
-export const getCurrentEvents = (events = [], options = {}) => events
-  .filter((event) => isCurrentEvent(event, options))
-  .sort((a, b) => {
-    const recurringDifference = Number(isRecurringEvent(a)) - Number(isRecurringEvent(b));
-    if (recurringDifference !== 0) return recurringDifference;
-    return new Date(a.start_datetime || "9999-12-31").getTime()
-      - new Date(b.start_datetime || "9999-12-31").getTime();
-  });
+const sortCurrentEvents = (events = []) => events.sort((a, b) => {
+  const recurringDifference = Number(isRecurringEvent(a)) - Number(isRecurringEvent(b));
+  if (recurringDifference !== 0) return recurringDifference;
+  return new Date(a.start_datetime || "9999-12-31").getTime()
+    - new Date(b.start_datetime || "9999-12-31").getTime();
+});
+
+export const getCurrentEvents = (events = [], options = {}) => {
+  if (!Array.isArray(events)) return [];
+
+  if (!hasCustomOptions(options)) {
+    const cached = currentEventsCache.get(events);
+    if (cached) return cached;
+  }
+
+  const currentEvents = sortCurrentEvents(
+    events.filter((event) => isCurrentEvent(event, options))
+  );
+
+  if (!hasCustomOptions(options)) {
+    currentEventsCache.set(events, currentEvents);
+  }
+  return currentEvents;
+};
+
+export const buildVenueEventIndex = (events = []) => {
+  if (!Array.isArray(events)) return new Map();
+  const cached = venueEventsIndexCache.get(events);
+  if (cached) return cached;
+
+  const index = new Map();
+  for (const event of getCurrentEvents(events)) {
+    for (const venueSlug of getEventVenueSlugs(event)) {
+      const venueEvents = index.get(venueSlug);
+      if (venueEvents) venueEvents.push(event);
+      else index.set(venueSlug, [event]);
+    }
+  }
+
+  venueEventsIndexCache.set(events, index);
+  return index;
+};
 
 export const getEventsAtVenue = (events = [], venueSlug, options = {}) => {
-  if (!venueSlug) return [];
-  const venueEvents = events.filter((event) => getEventVenueSlugs(event).includes(venueSlug));
-  return getCurrentEvents(venueEvents, options);
+  if (!venueSlug || !Array.isArray(events)) return [];
+
+  if (hasCustomOptions(options)) {
+    const venueEvents = events.filter((event) => getEventVenueSlugs(event).includes(venueSlug));
+    return getCurrentEvents(venueEvents, options);
+  }
+
+  return buildVenueEventIndex(events).get(venueSlug) || [];
 };
