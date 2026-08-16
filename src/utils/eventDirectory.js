@@ -67,11 +67,7 @@ export const getLocalDateKey = (date = new Date(), timeZone = DEFAULT_TIME_ZONE)
 
 export const isRecurringEvent = (event = {}) => event.recurring === true || event.status === "recurring";
 
-export const isCurrentEvent = (event = {}, options = {}) => {
-  const now = options.now instanceof Date ? options.now : new Date(options.now || Date.now());
-  const timeZone = options.timeZone || event.timezone || DEFAULT_TIME_ZONE;
-  const today = getLocalDateKey(now, timeZone);
-
+const isCurrentEventAt = (event = {}, now, today) => {
   if (event.publish_ready !== true || event.active === false) return false;
   if (!PUBLIC_CURRENT_STATUSES.has(event.status)) return false;
 
@@ -89,6 +85,12 @@ export const isCurrentEvent = (event = {}, options = {}) => {
     ? event.start_datetime.slice(0, 10)
     : null;
   return Boolean(startDate && startDate >= today);
+};
+
+export const isCurrentEvent = (event = {}, options = {}) => {
+  const now = options.now instanceof Date ? options.now : new Date(options.now || Date.now());
+  const timeZone = options.timeZone || event.timezone || DEFAULT_TIME_ZONE;
+  return isCurrentEventAt(event, now, getLocalDateKey(now, timeZone));
 };
 
 export const isArchivedEvent = (event = {}, options = {}) => event.publish_ready === true && !isCurrentEvent(event, options);
@@ -179,9 +181,21 @@ export const getCurrentEvents = (events = [], options = {}) => {
     if (cached) return cached;
   }
 
-  const currentEvents = sortCurrentEvents(
-    events.filter((event) => isCurrentEvent(event, options))
-  );
+  const now = options.now instanceof Date ? options.now : new Date(options.now || Date.now());
+  const todayByTimeZone = new Map();
+  const currentEvents = [];
+
+  for (const event of events) {
+    const timeZone = options.timeZone || event.timezone || DEFAULT_TIME_ZONE;
+    let today = todayByTimeZone.get(timeZone);
+    if (!today) {
+      today = getLocalDateKey(now, timeZone);
+      todayByTimeZone.set(timeZone, today);
+    }
+    if (isCurrentEventAt(event, now, today)) currentEvents.push(event);
+  }
+
+  sortCurrentEvents(currentEvents);
 
   if (!hasCustomOptions(options)) {
     currentEventsCache.set(events, currentEvents);
