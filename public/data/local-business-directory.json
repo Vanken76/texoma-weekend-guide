@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 962,
-  "publish_ready_count": 637,
+  "business_count": 963,
+  "publish_ready_count": 638,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -98696,6 +98696,145 @@
         "Recurring student recital use",
         "Documented free public performances",
         "Active Austin College Music Department venue"
+      ]
+    },
+    {
+      "slug": "craig-hall",
+      "business_name": "Craig Hall",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1202 E Richards St, Sherman, TX 75090",
+      "category": [
+        "Music Facility",
+        "Arts & Culture",
+        "Educational Facility",
+        "Event Venue"
+      ],
+      "tags": [
+        "Austin College",
+        "Sherman",
+        "Grayson County",
+        "Music Department",
+        "Craig Recital Hall",
+        "Craig Hall Gallery",
+        "Live Music",
+        "Student Recitals",
+        "Music Education",
+        "Summer Music Camp",
+        "Music Auditions",
+        "Student Art",
+        "Art Exhibitions",
+        "Rehearsals",
+        "Campus Events"
+      ],
+      "description": "Craig Hall is the home of the Austin College Department of Music in Sherman and serves as a hub for music education, rehearsals, performances and selected visual-arts programming. Built in 1962, the facility contains classrooms, faculty offices, a music library, rehearsal rooms and the dedicated Craig Recital Hall. The building was intentionally designed for musical acoustics, with sloped ceilings and no rooms whose walls are exactly parallel. Craig Hall also retains an art gallery that continues to host student exhibitions. In addition to everyday academic use, the building supports public student recitals, music scholarship auditions, the Austin College Summer Music Camp and other scheduled arts programs.",
+      "why_visit": "Craig Hall gives Texoma residents access to Austin College music and arts programming ranging from free student recitals and exhibitions to special educational programs and the annual Summer Music Camp.",
+      "why_its_unique": "The entire building was designed around musical acoustics rather than simply containing a performance room, with sloped ceilings and deliberately nonparallel walls throughout. It also combines Austin College's principal Music Department facilities with an active student-art gallery.",
+      "phone": "903-813-2000",
+      "email": null,
+      "website": "https://www.austincollege.edu/details/~board/explore-ac/post/craig-hall",
+      "facebook": "https://www.facebook.com/ACMusicDepartment/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Craig Hall is an active Austin College academic building rather than a general walk-in attraction. Public access follows scheduled recitals, exhibitions, camps and other College programs. Craig Hall Gallery exhibitions may publish their own visitor or appointment hours. Check the individual event or exhibition before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Craig Recital Hall",
+        "Craig Hall Gallery",
+        "Music library",
+        "Rehearsal rooms",
+        "Music classrooms",
+        "Faculty offices",
+        "Acoustically designed interior spaces"
+      ],
+      "good_to_know": [
+        "Craig Hall is located at 1202 E Richards St on the Austin College campus.",
+        "The building houses the Austin College Department of Music.",
+        "Craig Hall was built in 1962.",
+        "Austin College designed the building with sloped ceilings and no exactly parallel walls to create favorable acoustic conditions for music.",
+        "Craig Recital Hall is a separately named performance venue inside the building and has its own TWG record.",
+        "Craig Hall Gallery remains in the building and continues to host student artwork and exhibitions.",
+        "Austin College continues to schedule free public student recitals in Craig Hall.",
+        "The Austin College Summer Music Camp uses Craig Hall as one of its principal instructional and rehearsal facilities.",
+        "When an event specifically identifies Craig Recital Hall, use that dedicated TWG child venue rather than attaching the event only to Craig Hall.",
+        "Gallery access and public-event access vary according to the individual program."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "austin-college",
+        "business_name": "Austin College",
+        "relationship_note": "Craig Hall is Austin College's primary Music Department facility on the Sherman campus."
+      },
+      "related_businesses": [
+        {
+          "slug": "craig-recital-hall",
+          "business_name": "Craig Recital Hall",
+          "relationship_note": "Craig Recital Hall is the dedicated performance venue located inside Craig Hall."
+        }
+      ],
+      "related_geography": [],
+      "verification_note": "Verified from current Austin College facility, Music Department and 2026 programming sources. Craig Hall remains the College's active Music Department building at 1202 E Richards St and contains classrooms, offices, a music library, rehearsal rooms, Craig Recital Hall and an active student-art gallery. Current 2026 programming confirms public recitals and Summer Music Camp activity. Events should be assigned to Craig Recital Hall when that more specific venue is identified.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Student recitals",
+        "Music performances",
+        "Music scholarship auditions",
+        "Summer Music Camp",
+        "Music workshops",
+        "Rehearsals",
+        "Student art exhibitions",
+        "Gallery receptions",
+        "Music Department programs"
+      ],
+      "event_sources": [
+        "Austin College Music Department",
+        "Austin College News & Events",
+        "Austin College Summer Music Camp",
+        "Austin College Craig Hall facility page",
+        "Austin College Music Department Facebook"
+      ],
+      "features": [
+        "Built in 1962",
+        "Home of the Austin College Department of Music",
+        "Craig Recital Hall",
+        "Craig Hall Gallery",
+        "Music library",
+        "Rehearsal rooms",
+        "Music classrooms",
+        "Sloped ceilings for acoustic performance",
+        "Nonparallel walls for acoustic performance",
+        "Active public recital programming",
+        "Active student-art exhibition space"
       ]
     }
   ]
