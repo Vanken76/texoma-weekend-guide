@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 958,
-  "publish_ready_count": 633,
+  "business_count": 959,
+  "publish_ready_count": 634,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -98162,6 +98162,168 @@
         "Green room and dressing rooms",
         "Sound- and light-enabled TV studio",
         "Active public and campus programming venue"
+      ]
+    },
+    {
+      "slug": "robbie-kubela-rogers-lake-campus",
+      "business_name": "Robbie Kubela Rogers Lake Campus",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "29185 Preston Bend Road, Pottsboro, TX 75076",
+      "category": [
+        "Campground",
+        "Retreat Center",
+        "Outdoor Recreation",
+        "Event Venue"
+      ],
+      "tags": [
+        "Austin College",
+        "Lake Texoma",
+        "Pottsboro",
+        "Grayson County",
+        "Preston Peninsula",
+        "Camping",
+        "Tent Camping",
+        "RV Camping",
+        "Retreats",
+        "Reunions",
+        "Meetings",
+        "Group Events",
+        "Covered Pavilion",
+        "Swimming",
+        "Lake Recreation",
+        "Outdoor Recreation"
+      ],
+      "description": "Robbie Kubela Rogers Lake Campus is Austin College's 30-acre recreational, retreat and camping property on the Preston Peninsula at Lake Texoma near Pottsboro. The lakeside site is primarily available to Austin College students, faculty, staff and alumni for day recreation, meetings, retreats and overnight camping, while non-campus organizations may request the property for approved special events. Facilities include a covered pavilion, seasonal restrooms and showers, designated tent campsites, space for RVs and trailers without utility hookups, fire rings and access to Lake Texoma for swimming and other outdoor recreation. The property was dedicated in 1983 in honor of Austin College trustee Robbie Kubela Rogers, whose support funded numerous improvements to the recreational area.",
+      "why_visit": "For eligible Austin College community members or guests attending an approved event, the Lake Campus provides a secluded Lake Texoma setting for camping, retreats, reunions, meetings and outdoor recreation away from the main Sherman campus.",
+      "why_its_unique": "Austin College maintains an entire 30-acre Lake Texoma property for its community and approved group events, combining primitive camping, lake recreation and retreat space with a covered pavilion and the ability to accommodate organized non-campus gatherings by reservation.",
+      "phone": "903-718-4355",
+      "email": null,
+      "website": "https://www.austincollege.edu/details/~board/explore-ac/post/lake-campus",
+      "facebook": "https://www.facebook.com/austincollege/",
+      "instagram": "https://www.instagram.com/austincollege/",
+      "youtube": "https://www.youtube.com/austincollege",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": false,
+      "dog_friendly": false,
+      "hours": {
+        "monday": "9:00 AM - 10:00 PM",
+        "tuesday": "9:00 AM - 10:00 PM",
+        "wednesday": "9:00 AM - 10:00 PM",
+        "thursday": "9:00 AM - 10:00 PM",
+        "friday": "9:00 AM - 10:00 PM",
+        "saturday": "9:00 AM - 10:00 PM",
+        "sunday": "9:00 AM - 10:00 PM"
+      },
+      "hours_note": "Standard day use is 9:00 AM-10:00 PM and requires valid Austin College community access. The Lake Campus closes during Opening of School weekend, Thanksgiving break, Christmas/New Year break, Spring Break and ACE. Standard entry ends when the gates close at 10:00 PM. Approved special events may have separate access arrangements. Restroom and shower facilities are generally available from the first Monday after Spring Break until the Wednesday before Thanksgiving.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": false,
+        "dog_friendly": false,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "30-acre lakeside recreation property",
+        "Covered pavilion",
+        "Seasonal restroom facilities",
+        "Seasonal shower facilities",
+        "Designated tent campsites",
+        "Metal fire rings at campsites",
+        "RV and travel-trailer camping area",
+        "Lake Texoma swimming access",
+        "Picnic and gathering areas",
+        "Cooking grills"
+      ],
+      "good_to_know": [
+        "Routine day use is primarily limited to Austin College students, faculty, staff and alumni and requires valid Austin College identification.",
+        "Alumni may obtain a validated access badge through Austin College Campus Police.",
+        "Non-campus organizations may request the Lake Campus for approved meetings, retreats, reunions and other special events.",
+        "No special-event reservations are accepted on holiday weekends.",
+        "Current non-campus event fees are $100 for groups of 25 or fewer, $200 for 26-50, $500 for 51-100 and $1,000 for groups larger than 100.",
+        "Non-campus reservations require a non-refundable 50 percent deposit when scheduled, with the remaining balance due one week before the event.",
+        "Overnight camping is first-come, first-served rather than individually reserved.",
+        "Tent campsites are designated by metal fire rings and are limited to one group and no more than 12 people per site.",
+        "RVs, travel trailers and pop-up campers are allowed only around the bathhouse and pavilion area; electrical, water and sewer hookups are not provided.",
+        "Camping is limited to seven consecutive nights per visit and 14 nights within a rolling 30-day period.",
+        "Swimming is at the visitor's own risk and no lifeguards are provided.",
+        "Pets are not allowed for either day use or overnight camping.",
+        "Open fires are limited to provided fire pits or cooking grills and are not permitted on the beach."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "lake-texoma",
+        "business_name": "Lake Texoma",
+        "relationship_note": "Robbie Kubela Rogers Lake Campus is a lakeside recreation, camping and retreat property directly on Lake Texoma's Preston Peninsula."
+      },
+      "related_businesses": [
+        {
+          "slug": "austin-college",
+          "business_name": "Austin College",
+          "relationship_note": "Robbie Kubela Rogers Lake Campus is owned and operated for Austin College use but is a separate physical property from the College's main Sherman campus."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "The Lake Campus is located near Pottsboro on the Texas side of Lake Texoma."
+        }
+      ],
+      "verification_note": "Verified from current Austin College Lake Campus, Community and Campus Life information. Robbie Kubela Rogers Lake Campus is an active 30-acre Lake Texoma recreation, camping, retreat and special-event property at 29185 Preston Bend Road. Routine access is primarily restricted to the Austin College community, while approved non-campus organizations may reserve the property for special events subject to current fees and rules. Public-facing event promotion should never imply unrestricted general-public access.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Retreats",
+        "Reunions",
+        "Club meetings",
+        "Student organization events",
+        "Alumni gatherings",
+        "Group camping",
+        "Outdoor recreation programs",
+        "Service projects",
+        "Special group events"
+      ],
+      "event_sources": [
+        "Austin College Lake Campus",
+        "Austin College News & Events",
+        "Austin College Campus Life",
+        "Austin College Alumni programming",
+        "Austin College official social channels"
+      ],
+      "features": [
+        "30-acre Lake Texoma property",
+        "Located on Preston Peninsula",
+        "Dedicated in honor of Robbie Kubela Rogers in 1983",
+        "Recreational site leased from the U.S. Army Corps of Engineers",
+        "Covered pavilion",
+        "Seasonal restrooms and showers",
+        "Primitive tent camping",
+        "RV and trailer camping without hookups",
+        "Lake swimming access with no lifeguard",
+        "Approved special-event use",
+        "Non-campus organization reservations available",
+        "Day-use hours from 9:00 AM to 10:00 PM"
       ]
     }
   ]
