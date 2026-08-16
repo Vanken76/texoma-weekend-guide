@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 938,
-  "publish_ready_count": 613,
+  "business_count": 939,
+  "publish_ready_count": 614,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -95659,6 +95659,124 @@
         "24-bell carillon",
         "Modern projection system",
         "Updated lighting and sound systems"
+      ]
+    },
+    {
+      "slug": "sally-and-jim-nation-theatre",
+      "business_name": "Sally and Jim Nation Theatre",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1201 E Brockett St, Sherman, TX 75090",
+      "category": [
+        "Theatre",
+        "Performing Arts Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Austin College",
+        "Sherman",
+        "Grayson County",
+        "College Theatre",
+        "Live Theatre",
+        "Performing Arts",
+        "Public Events",
+        "Guest Lectures",
+        "TEDxAustin College",
+        "Community Events",
+        "Campus Events",
+        "Conferences",
+        "Ceremonies",
+        "Debates",
+        "Live Performances"
+      ],
+      "description": "Sally and Jim Nation Theatre is the 500-seat main theatre inside Austin College's Ida Green Communication Center in Sherman. The former Ida Green Theatre was extensively renovated and reopened under the Sally and Jim Nation Theatre name as part of the modernization of the communication center. The venue supports Austin College theatre productions, lectures, conferences, ceremonies, debates, cultural programs and other campus and community events. It is also an approved Austin College facility that outside organizations may request for private or public events, subject to availability, College approval and rental fees.",
+      "why_visit": "Sally and Jim Nation Theatre is one of Austin College's primary public performance and presentation spaces, giving Texoma audiences a place to attend theatre productions, major speakers, TEDx programs, ceremonies and other cultural and community events.",
+      "why_its_unique": "The 500-seat renovated theatre combines a dedicated performing-arts setting with Austin College's broader academic and community programming, allowing it to host everything from theatrical productions and performances to debates, conferences and major public presentations.",
+      "phone": "903-813-2000",
+      "email": null,
+      "website": "https://www.austincollege.edu/details/~board/explore-ac/post/ida-green-communication-center",
+      "facebook": "https://www.facebook.com/austincollege/",
+      "instagram": "https://www.instagram.com/austincollege/",
+      "youtube": "https://www.youtube.com/austincollege",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public walk-in hours are published for the theatre. Access follows scheduled Austin College classes, performances, public programs and approved reservations. Outside organizations may request the theatre for events, but reservations are not confirmed until Austin College approves availability, event details and associated costs.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "500-seat theatre",
+        "Dedicated performing-arts venue",
+        "Indoor event space"
+      ],
+      "good_to_know": [
+        "The theatre is located inside Ida Green Communication Center at 1201 E Brockett St.",
+        "The venue seats approximately 500 people.",
+        "Outside organizations may request use of the theatre through Austin College Event Services.",
+        "Outside facility requests may involve rental fees and are not confirmed until approved by Austin College.",
+        "Admission, registration requirements and public access vary by individual event.",
+        "Check Austin College's current event information before visiting for a specific performance or program."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "austin-college",
+        "business_name": "Austin College",
+        "relationship_note": "Located on the Austin College campus inside Ida Green Communication Center."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Sally and Jim Nation Theatre is a 500-seat Austin College venue inside Ida Green Communication Center used for scheduled performances, lectures, conferences, ceremonies and community programs. Outside organizations may request the facility, with availability, access and costs determined by Austin College for each event.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Theatre productions",
+        "TEDx conferences",
+        "Guest lectures",
+        "Community programs",
+        "Debates",
+        "Ceremonies",
+        "Live performances",
+        "Academic events",
+        "Conferences",
+        "Outside organization events"
+      ],
+      "event_sources": [
+        "Austin College News & Events",
+        "Austin College Theatre",
+        "Austin College Community calendar",
+        "Austin College official social channels"
+      ],
+      "features": [
+        "500-seat main theatre",
+        "Located inside Ida Green Communication Center",
+        "Renovated Austin College performance venue",
+        "Available for approved outside-organization event requests",
+        "Hosts major campus and community programming"
       ]
     }
   ]
