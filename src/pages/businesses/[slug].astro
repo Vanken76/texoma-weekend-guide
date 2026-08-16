@@ -91,11 +91,11 @@ const manualEventReferences = toArray(business.related_events ?? business.relate
   })
   .filter(Boolean);
 const manualEventNotes = new Map(manualEventReferences.map((reference) => [reference.event_slug, reference.note]));
-const currentEvents = getCurrentEvents(allEvents);
 const matchedEvents = getEventsAtVenue(allEvents, business.slug);
-const manualEvents = currentEvents
-  .filter((event) => manualEventNotes.has(event.event_slug))
-  .map((event) => ({ ...event, note: manualEventNotes.get(event.event_slug) || event.note || null }));
+const manualEvents = manualEventNotes.size > 0
+  ? getCurrentEvents(allEvents.filter((event) => manualEventNotes.has(event.event_slug)))
+      .map((event) => ({ ...event, note: manualEventNotes.get(event.event_slug) || event.note || null }))
+  : [];
 const venueEvents = getCurrentEvents(
   Array.from(new Map([...matchedEvents, ...manualEvents].map((event) => [event.event_slug, event])).values())
 );
