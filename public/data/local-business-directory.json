@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 920,
-  "publish_ready_count": 595,
+  "business_count": 921,
+  "publish_ready_count": 596,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -93356,6 +93356,123 @@
         "Nearby playground",
         "Three daily rental blocks",
         "Waterloo Lake Regional Park location"
+      ]
+    },
+    {
+      "slug": "waterloo-lake-building-denison",
+      "business_name": "Waterloo Lake Building",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1101 Waterloo Lake Drive, Denison, TX 75020",
+      "category": [
+        "Event Venue",
+        "Indoor Event Venue",
+        "Park Facility",
+        "Lakeside Venue"
+      ],
+      "tags": [
+        "Waterloo Lake",
+        "Denison",
+        "Facility Rental",
+        "Family Gatherings",
+        "Birthday Parties",
+        "Baby Showers",
+        "Full Kitchen",
+        "Lake View",
+        "Reservable Facility"
+      ],
+      "description": "Waterloo Lake Building is a reservable indoor gathering facility at Waterloo Lake Regional Park in Denison. Located beside the playground and pier, the building offers scenic views of Waterloo Lake and accommodates approximately 30 to 40 guests. The facility includes a full kitchen with a stovetop, oven, sink and refrigerator and is designed for small family gatherings, birthday parties, baby showers and similar events.",
+      "why_visit": "The building provides an indoor gathering space directly beside Waterloo Lake, combining lake views and convenient park access with a full kitchen for small private events.",
+      "why_its_unique": "Its location beside the Waterloo Lake playground and pier gives renters a scenic lakeside setting while still providing an enclosed facility with a full kitchen.",
+      "phone": "903-465-2720",
+      "email": "parksandrec@denisontx.gov",
+      "website": "https://www.denisontx.gov/facilities/Facility/Details/6",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$100-$125 per 4-hour rental plus a $100 refundable deposit",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "7:00 AM - 9:00 PM",
+        "tuesday": "7:00 AM - 9:00 PM",
+        "wednesday": "7:00 AM - 9:00 PM",
+        "thursday": "7:00 AM - 9:00 PM",
+        "friday": "7:00 AM - 9:00 PM",
+        "saturday": "7:00 AM - 9:00 PM",
+        "sunday": "7:00 AM - 9:00 PM"
+      },
+      "hours_note": "The building is rented in fixed four-hour blocks: 7:00-11:00 AM, noon-4:00 PM and 5:00-9:00 PM. Reservation access codes activate at the beginning of the reserved time.",
+      "at_a_glance": {
+        "average_visit": "4-hour rental block",
+        "price_range": "$100-$125 plus refundable deposit",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full kitchen with stovetop, oven, sink and refrigerator",
+        "Scenic Waterloo Lake views",
+        "Located beside the playground",
+        "Located beside the pier",
+        "Access-code entry",
+        "Capacity for approximately 30 to 40 guests"
+      ],
+      "good_to_know": [
+        "Resident rentals are $100 per four-hour block; non-resident rentals are $125 per four-hour block.",
+        "A $100 refundable deposit is required.",
+        "Alcoholic beverages are not allowed in City of Denison facilities or parks.",
+        "Confetti and glitter are not permitted inside the building.",
+        "Parks and Recreation requires at least three business days' notice for cancellations to qualify under the current cancellation policy."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": {
+        "slug": "waterloo-lake-regional-park-denison",
+        "business_name": "Waterloo Lake Regional Park",
+        "relationship_note": "Reservable indoor facility within Waterloo Lake Regional Park."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Waterloo Lake Building is available by reservation in three daily four-hour blocks. Current rental fees vary by residency, and alcoholic beverages are not permitted in City facilities or parks.",
+      "last_checked": "2026-08-15",
+      "event_types": [
+        "Family gatherings",
+        "Birthday parties",
+        "Baby showers",
+        "Private gatherings",
+        "Community events"
+      ],
+      "event_sources": [
+        "City of Denison facility page",
+        "Denison Parks & Recreation calendar",
+        "Denison RecDesk"
+      ],
+      "features": [
+        "Scenic Waterloo Lake view",
+        "Full kitchen",
+        "Approximately 30-40 guest capacity",
+        "Four-hour rental blocks",
+        "Next to playground and pier"
       ]
     }
   ]
