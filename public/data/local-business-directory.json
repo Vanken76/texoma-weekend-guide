@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 980,
-  "publish_ready_count": 655,
+  "business_count": 981,
+  "publish_ready_count": 656,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -101216,6 +101216,129 @@
         "Named Southeastern room-reservation venue",
         "Documented university convocation venue",
         "Recurring faculty-program use"
+      ]
+    },
+    {
+      "slug": "fine-arts-recital-hall",
+      "business_name": "Fine Arts Recital Hall",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "437 Montgomery Dr, Durant, OK 74701",
+      "category": [
+        "Recital Hall",
+        "Performing Arts Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Durant",
+        "Bryan County",
+        "Live Music",
+        "Concerts",
+        "Recitals",
+        "Chamber Music",
+        "Piano",
+        "Musical Arts Series",
+        "Texoma Piano Competition",
+        "University Events"
+      ],
+      "description": "Fine Arts Recital Hall is a dedicated performance venue in the Fine Arts Building at Southeastern Oklahoma State University in Durant. The Music Department uses the hall for chamber music, solo recitals and smaller productions, while recurring programming includes the Musical Arts Series, faculty and ensemble concerts and the Texoma Piano Competition. The hall also features a Steinway & Sons Model D concert grand piano.",
+      "why_visit": "Check Southeastern's music calendar for recitals, concerts, guest artists, competitions and other performances in one of the university's principal intimate music venues. The recurring Musical Arts Series brings visiting performers to the hall and is presented free to the public.",
+      "why_its_unique": "The hall is Southeastern's dedicated smaller-scale music performance space and the recurring home of the Musical Arts Series. It also serves as the Texoma Piano Competition venue and features a Steinway & Sons Model D concert grand piano.",
+      "phone": "580-745-2088",
+      "email": null,
+      "website": "https://www.se.edu/music/venue/fine-arts-recital-hall/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public walk-in hours are published. Access depends on scheduled performances, competitions, university use and approved reservations.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Steinway & Sons Model D concert grand piano"
+      ],
+      "good_to_know": [
+        "The hall is located in the Fine Arts Building on the north end of the Southeastern campus.",
+        "Southeastern gives 437 Montgomery Dr, Durant, OK 74701 as the directions address for the Fine Arts Recital Hall.",
+        "The university lists Fine Arts Recital Hall among facilities available for student-organization reservation requests.",
+        "No current official seating capacity is published on Southeastern's reservation listing.",
+        "Musical Arts Series performances in the hall are free to the public."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "Located in the Fine Arts Building on the Southeastern Oklahoma State University campus."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Southeastern's Music Department provides performances and arts programming serving the Texoma region."
+        }
+      ],
+      "verification_note": "Official Southeastern sources confirm the Fine Arts Recital Hall as the Music Department's smaller-performance venue and recurring home for concerts, recitals, the Musical Arts Series and the Texoma Piano Competition. A current official seating capacity is not published.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Musical Arts Series concerts",
+        "Faculty recitals",
+        "Student recitals",
+        "Guest-artist concerts",
+        "Chamber music",
+        "Piano competitions",
+        "Ensemble concerts",
+        "Small music productions"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University Music Department",
+        "Southeastern Musical Arts Series",
+        "Southeastern music calendar",
+        "Texoma Piano Competition"
+      ],
+      "features": [
+        "Dedicated Fine Arts Building recital venue",
+        "Steinway & Sons Model D concert grand piano",
+        "Home venue for the Musical Arts Series",
+        "Texoma Piano Competition venue",
+        "Recurring university music performances",
+        "Available for approved student-organization reservations"
       ]
     }
   ]
