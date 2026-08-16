@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 979,
-  "publish_ready_count": 654,
+  "business_count": 980,
+  "publish_ready_count": 655,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -101123,6 +101123,99 @@
         "Public gallery receptions",
         "Current 2026 exhibition programming",
         "Weekday public gallery hours"
+      ]
+    },
+    {
+      "slug": "fine-arts-little-theatre",
+      "business_name": "Fine Arts Little Theatre",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Fine Arts Building, Southeastern Oklahoma State University campus, Durant, OK 74701",
+      "category": [
+        "Theatre",
+        "Event Venue",
+        "Campus Event Venue",
+        "Meeting Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Durant",
+        "Bryan County",
+        "Fine Arts",
+        "University Events",
+        "Convocations",
+        "Faculty Programs"
+      ],
+      "description": "Fine Arts Little Theatre is a named campus event and presentation venue at Southeastern Oklahoma State University in Durant. Southeastern lists the theatre among its reservable campus spaces, and the venue is used for university programming including faculty convocations and symposium-style events.",
+      "why_visit": "The Little Theatre is worth tracking for scheduled Southeastern programs, presentations, convocations and other campus events that use a smaller indoor venue than the university's major auditoriums and arenas.",
+      "why_its_unique": "It is a separately named and reservable Southeastern venue with documented recurring use for university faculty programming, including the 2026 Faculty Convocation.",
+      "phone": "580-745-2088",
+      "email": null,
+      "website": "https://catalog.se.edu/2025-2026/information-directory/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public operating hours are published. Access depends on scheduled university programming and room reservations.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Southeastern lists 580-745-2088 as the room-reservation contact for Fine Arts Little Theatre.",
+        "No reliable current capacity was found in Southeastern's published information, so no seating figure is claimed.",
+        "The venue does not publish regular walk-in hours; check the university event schedule before visiting."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": "southeastern-oklahoma-state-university",
+      "related_businesses": [],
+      "related_geography": [
+        "oklahoma",
+        "texoma"
+      ],
+      "verification_note": "Complete. Official Southeastern sources confirm the Fine Arts Little Theatre name, room-reservation contact and repeated university-event use. Exact seating capacity and a standalone street address were not verified and are intentionally omitted.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "University convocations",
+        "Faculty programs",
+        "Presentations",
+        "Academic events"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University news and events",
+        "Southeastern Oklahoma State University Information Directory"
+      ],
+      "features": [
+        "Named Southeastern room-reservation venue",
+        "Documented university convocation venue",
+        "Recurring faculty-program use"
       ]
     }
   ]
