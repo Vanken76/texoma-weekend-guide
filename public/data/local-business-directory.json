@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 924,
-  "publish_ready_count": 599,
+  "business_count": 925,
+  "publish_ready_count": 600,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -93838,6 +93838,127 @@
         "Nearby covered playground",
         "Nearby basketball court",
         "Nearby picnic and pavilion amenities"
+      ]
+    },
+    {
+      "slug": "woodard-st-park-backstop",
+      "business_name": "Woodard St. Park Backstop",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1600 W Woodard St, Denison, TX 75020",
+      "category": [
+        "Ball Field",
+        "Athletic Facility",
+        "Sports & Recreation",
+        "Park Facility"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "Woodard Street",
+        "Backstop",
+        "Practice Field",
+        "Ball Field",
+        "Athletic Practice",
+        "Youth Sports",
+        "Outdoor Recreation",
+        "Reservable Facility"
+      ],
+      "description": "Woodard St. Park Backstop is a City of Denison outdoor ball-field practice facility at 1600 W Woodard Street. Denison Parks and Recreation maintains the backstop as a reservable practice location for local athletics and recreation. It provides a straightforward neighborhood option for baseball, softball and similar field practices without requiring use of one of Denison's larger athletic complexes.",
+      "why_visit": "Woodard St. Park Backstop offers a simple neighborhood practice location for teams, families and athletes who need field space without the scale of a full sports complex.",
+      "why_its_unique": "The backstop is one of several smaller neighborhood practice fields specifically identified by Denison Parks and Recreation as available for resident practice reservations.",
+      "phone": "903-465-2720",
+      "email": "parksandrec@denisontx.gov",
+      "website": "https://denison.recdesk.com/Community/Facility/Detail?facilityId=82",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "8:00 AM - 5:00 PM",
+        "tuesday": "8:00 AM - 5:00 PM",
+        "wednesday": "8:00 AM - 5:00 PM",
+        "thursday": "8:00 AM - 5:00 PM",
+        "friday": "8:00 AM - 5:00 PM",
+        "saturday": "8:00 AM - 5:00 PM",
+        "sunday": "8:00 AM - 5:00 PM"
+      },
+      "hours_note": "Denison RecDesk currently lists facility availability from 8:00 AM to 5:00 PM daily. Specific reservation availability should be checked through the RecDesk calendar.",
+      "at_a_glance": {
+        "average_visit": "Varies by practice reservation",
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Ball-field practice area",
+        "Backstop",
+        "Reservable athletic practice space"
+      ],
+      "good_to_know": [
+        "Woodard St. Park Backstop is located at 1600 W Woodard St in Denison.",
+        "Denison RecDesk classifies the facility as a Ball Fields facility.",
+        "RecDesk currently lists availability from 8:00 AM to 5:00 PM seven days a week.",
+        "Denison's recreation guide specifically identifies Woodard Street Park Backstop as one of the fields residents can reserve for practices.",
+        "The City's 2025 recreation guide stated that resident practice reservations for this field were available at no fee; users should confirm current 2026 eligibility and fee terms during booking.",
+        "Field status can be affected by weather and athletic-field conditions.",
+        "Denison Parks and Recreation recommends checking its Rainout Line for field-status updates.",
+        "For reservation assistance, contact Denison Parks and Recreation at 903-465-2720.",
+        "No parent-business relationship is being asserted until a separate current Woodard Street Park parent record is verified."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Located in Denison, Texas."
+        }
+      ],
+      "verification_note": "Fully researched August 16, 2026 after TWG duplicate clearance. Current Denison RecDesk records identify Woodard St. Park Backstop as an active Ball Fields facility at 1600 W Woodard St, Denison, TX 75020 and list facility hours of 8:00 AM to 5:00 PM daily. Denison's 2025 Spring & Summer Recreation Guide separately identifies Woodard Street Park Backstop among the practice fields Denison residents may reserve and stated those resident practice reservations were available at no fee. Because the current public RecDesk detail page does not expose complete current fee terms, TWG does not state an unconditional 2026 rental price. No separate current City facility record for a parent entity named Woodard Street Park was confirmed during this research, so no parent-business relationship is asserted.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Baseball practices",
+        "Softball practices",
+        "Youth sports practices",
+        "Athletic practices",
+        "Neighborhood recreation"
+      ],
+      "event_sources": [
+        "Denison Parks and Recreation RecDesk",
+        "City of Denison Parks and Recreation Guide"
+      ],
+      "features": [
+        "Neighborhood practice field",
+        "Backstop",
+        "Reservable ball-field facility",
+        "Daily listed availability",
+        "City-managed athletic space"
       ]
     }
   ]
