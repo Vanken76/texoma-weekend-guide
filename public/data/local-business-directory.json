@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 982,
-  "publish_ready_count": 657,
+  "business_count": 983,
+  "publish_ready_count": 658,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -101455,6 +101455,136 @@
         "Student Life recreation venue",
         "Recurring tournament venue",
         "Welcome Week event venue"
+      ]
+    },
+    {
+      "slug": "magnolia-room",
+      "business_name": "Magnolia Room",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Hallie McKinney, 1408 N 5th St, Durant, OK 74701",
+      "category": [
+        "Event Venue",
+        "Rental Venue",
+        "Meeting & Reception Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Durant",
+        "Bryan County",
+        "Hallie McKinney",
+        "Receptions",
+        "Meetings",
+        "Career Events",
+        "Student Events",
+        "Markets",
+        "University Events"
+      ],
+      "description": "Magnolia Room is a primary rentable event space in the Hallie McKinney facility at Southeastern Oklahoma State University in Durant. The flexible room accommodates up to 462 people standing, 330 with chairs or 154 with tables and chairs and is used for university meetings, receptions, student programming, career events and community-facing special events.",
+      "why_visit": "Watch the Magnolia Room for Southeastern receptions, organization meetings, career programming, markets and other special events. The room is also available through Southeastern Special Events for private and organizational rentals.",
+      "why_its_unique": "Magnolia Room provides a substantial standalone event space alongside the much larger Hallie McKinney Ballroom, accommodating several hundred guests while offering a more compact setting for meetings, receptions, markets and university programming.",
+      "phone": "580-745-2512",
+      "email": "specialevents@se.edu",
+      "website": "https://www.se.edu/venue/magnolia-room/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public walk-in hours are published. Access depends on scheduled events and approved rentals.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Flexible event setup",
+        "Standing capacity up to 462",
+        "Chair seating capacity up to 330",
+        "Tables-and-chairs capacity up to 154"
+      ],
+      "good_to_know": [
+        "Southeastern currently publishes a maximum occupancy of 462 standing, 330 with chairs or 154 with tables and chairs.",
+        "Current published rental pricing is $325 for four hours, with additional hours at $30 each and a $325 deposit.",
+        "Southeastern Special Events lists Magnolia Room among the university's primary rentable spaces.",
+        "Student organization reservation materials list Magnolia Room with a maximum table-and-chair seating figure of 154.",
+        "Event access varies; some Southeastern programs held here may be limited to students, alumni or other designated audiences."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "Magnolia Room is located in Southeastern's Hallie McKinney facility."
+      },
+      "related_businesses": [
+        {
+          "slug": "hallie-mckinney-ballroom",
+          "business_name": "Hallie McKinney Ballroom",
+          "relationship_note": "Peer event space in the same Hallie McKinney facility; the two venues are sometimes used together for larger university and community events."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Official Southeastern sources confirm Magnolia Room as a separately named primary rentable event space in Hallie McKinney at 1408 N 5th St, with current capacities of 462 standing, 330 chairs and 154 tables-and-chairs. Current Special Events pricing is $325 for four hours, $30 per additional hour and a $325 deposit. University calendars document recurring and special-event use.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Receptions",
+        "Student organization meetings",
+        "Career events",
+        "Markets",
+        "University special events",
+        "Social events",
+        "Meetings"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University calendar",
+        "Southeastern Special Events",
+        "Southeastern Student Life"
+      ],
+      "features": [
+        "Primary Southeastern rentable event space",
+        "462-person standing capacity",
+        "330-person chair seating capacity",
+        "154-person tables-and-chairs capacity",
+        "Located in Hallie McKinney",
+        "Recurring university event use",
+        "Frequently paired with Hallie McKinney Ballroom for larger events"
       ]
     }
   ]
