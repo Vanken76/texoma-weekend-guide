@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 948,
-  "publish_ready_count": 623,
+  "business_count": 949,
+  "publish_ready_count": 624,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -96870,6 +96870,127 @@
         "Dedicated signage",
         "Northwest Austin College campus location",
         "Active NCAA Division III competition venue"
+      ]
+    },
+    {
+      "slug": "russell-tennis-center",
+      "business_name": "Russell Tennis Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "North end of the Austin College campus, Sherman, TX 75090",
+      "category": [
+        "Tennis Center",
+        "College Athletics Venue",
+        "Sports Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Austin College",
+        "Sherman",
+        "Grayson County",
+        "Jordan Family Courts",
+        "College Tennis",
+        "Men's Tennis",
+        "Women's Tennis",
+        "NCAA Division III",
+        "SCAC",
+        "Tennis Matches",
+        "Tennis Tournaments",
+        "Spectator Sports",
+        "Outdoor Sports",
+        "Shaded Spectator Seating"
+      ],
+      "description": "Russell Tennis Center is Austin College's outdoor competition tennis facility on the north end of its Sherman campus. The eight-court complex, formally home to the Jordan Family Courts at the Russell Tennis Center, hosts Austin College men's and women's tennis matches as well as larger collegiate competition. The current courts date to 2007, while the original Russell Tennis Stadium was built in 1974. Major reconstruction and enhancements completed during the 2018-2019 period included rebuilt competition courts, shaded spectator seating and other facility improvements. The center remains an active home venue for Kangaroo tennis and has also hosted championship-level events including the 2026 Southern Collegiate Athletic Conference Tennis Championships.",
+      "why_visit": "Russell Tennis Center gives Texoma tennis fans a local opportunity to watch Austin College men's and women's collegiate tennis, including regular home matches and occasional conference championship competition.",
+      "why_its_unique": "The eight-court complex combines a long Austin College tennis history with extensively reconstructed Jordan Family Courts and shaded spectator seating, allowing it to serve both routine collegiate home competition and larger tournament events.",
+      "phone": "903-813-2000",
+      "email": null,
+      "website": "https://www.austincollege.edu/details/~board/explore-ac/post/jordan-family-courts-at-the-russell-tennis-center",
+      "facebook": "https://www.facebook.com/austincollege/",
+      "instagram": "https://www.instagram.com/austincollege/",
+      "youtube": "https://www.youtube.com/austincollege",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Russell Tennis Center does not publish regular public attraction hours. Public spectator access follows scheduled Austin College tennis matches, tournaments and other approved athletics activities. Check the current Austin College Athletics schedule before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Eight outdoor tennis courts",
+        "Jordan Family Courts",
+        "Competition-level tennis facilities",
+        "Shaded spectator seating"
+      ],
+      "good_to_know": [
+        "Russell Tennis Center is the Austin College-approved reference for the entire facility.",
+        "The full official name of the courts is Jordan Family Courts at the Russell Tennis Center.",
+        "The facility is located on the north end of the Austin College campus, north of the Dr. Jack R. Pierce Soccer Complex.",
+        "Austin College identifies the complex as having eight tennis courts.",
+        "The current Jordan Family Courts date to 2007, while the original Russell Tennis Stadium was built in 1974.",
+        "The facility underwent major reconstruction and enhancements during the 2018-2019 period.",
+        "The improved complex includes shaded spectator seating.",
+        "Austin College currently provides free admission to regular-season athletics events.",
+        "Match schedules and tournament access can change, so check Austin College Athletics before visiting."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "austin-college",
+        "business_name": "Austin College",
+        "relationship_note": "Russell Tennis Center is an Austin College athletics facility on the north end of the Sherman campus."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Russell Tennis Center is Austin College's active eight-court tennis facility. The College's June 2026 Athletics Style Guide uses Russell Tennis Center for the overall facility and Jordan Family Courts at the Russell Tennis Center for the courts. The venue continues to host Austin College men's and women's tennis and championship competition. Public access follows scheduled athletics events.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Men's college tennis",
+        "Women's college tennis",
+        "Austin College home tennis matches",
+        "Conference tennis matches",
+        "Tennis tournaments",
+        "SCAC championship competition"
+      ],
+      "event_sources": [
+        "Austin College Athletics men's tennis",
+        "Austin College Athletics women's tennis",
+        "Austin College Athletics schedules and news",
+        "Southern Collegiate Athletic Conference tennis championships"
+      ],
+      "features": [
+        "Eight outdoor tennis courts",
+        "Jordan Family Courts",
+        "Home venue for Austin College men's tennis",
+        "Home venue for Austin College women's tennis",
+        "Shaded spectator seating",
+        "Reconstructed competition courts",
+        "Original Russell Tennis Stadium history dating to 1974",
+        "Active collegiate tournament venue"
       ]
     }
   ]
