@@ -151,6 +151,6 @@ export const getCurrentEvents = (events = [], options = {}) => events
 
 export const getEventsAtVenue = (events = [], venueSlug, options = {}) => {
   if (!venueSlug) return [];
-  return getCurrentEvents(events, options)
-    .filter((event) => getEventVenueSlugs(event).includes(venueSlug));
+  const venueEvents = events.filter((event) => getEventVenueSlugs(event).includes(venueSlug));
+  return getCurrentEvents(venueEvents, options);
 };
