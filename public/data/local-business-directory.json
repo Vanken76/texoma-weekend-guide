@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 942,
-  "publish_ready_count": 617,
+  "business_count": 943,
+  "publish_ready_count": 618,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -96145,6 +96145,132 @@
         "Named for Hoxie Thompson in 1965",
         "Long history of distinguished speakers and performers",
         "Active Austin College lecture and symposium venue"
+      ]
+    },
+    {
+      "slug": "sid-richardson-center",
+      "business_name": "Sid Richardson Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1105 E Brockett St, Sherman, TX 75090",
+      "category": [
+        "Recreation Center",
+        "Sports Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Austin College",
+        "Mason Complex",
+        "Sherman",
+        "Grayson County",
+        "Gene Day Court",
+        "College Athletics",
+        "Volleyball",
+        "Sports Tournaments",
+        "Concerts",
+        "Sherman Symphony Orchestra",
+        "Christmas Pops",
+        "Community Events",
+        "Campus Events",
+        "Service Events",
+        "Special Olympics"
+      ],
+      "description": "Sid Richardson Center is a multipurpose recreation, athletics and special-event facility inside Austin College's Robert T. Mason Athletic-Recreation Complex in Sherman. Built in 1971 along with Hannah Natatorium, the center includes Gene Day Court and serves both Austin College recreation and athletics programs and larger campus and community gatherings. Its flexible floor has supported collegiate volleyball competition, service projects, community programs, ceremonies and concerts, including the Sherman Symphony Orchestra's annual Christmas Pops performances. Austin College also makes the facility available by request to outside organizations, subject to availability, approval and rental fees.",
+      "why_visit": "Sid Richardson Center is one of Austin College's most versatile large-event spaces, hosting everything from collegiate volleyball tournaments and community service programs to public concerts and major campus gatherings.",
+      "why_its_unique": "Unlike a conventional college gym used only for athletics, Sid Richardson Center functions as a true multipurpose community venue. Gene Day Court can support sports competition while the larger space is transformed for concerts, decorated table seating, ceremonies, service projects and other public events.",
+      "phone": "903-813-2000",
+      "email": null,
+      "website": "https://www.austincollege.edu/details/~board/explore-ac/post/sid-richardson-recreation-center",
+      "facebook": "https://www.facebook.com/austincollege/",
+      "instagram": "https://www.instagram.com/austincollege/",
+      "youtube": "https://www.youtube.com/austincollege",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Sid Richardson Center does not publish regular public walk-in hours. Public access follows scheduled Austin College athletic contests, concerts, community programs and other events. Outside organizations may request the facility for events, but reservations are not confirmed until Austin College approves space availability, event details and associated costs.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Gene Day Court",
+        "Multipurpose recreation floor",
+        "Indoor athletics space",
+        "Flexible special-event space",
+        "Mason Athletic-Recreation Complex facilities"
+      ],
+      "good_to_know": [
+        "Austin College's current athletics naming standard calls the facility Sid Richardson Center.",
+        "The College's general facility page also identifies it as Sid Richardson Recreation Center, while the outside-event request system uses Sid Richardson Gym.",
+        "The center is located inside the Robert T. Mason Athletic-Recreation Complex at 1105 E Brockett St.",
+        "Gene Day Court is located inside Sid Richardson Center.",
+        "The facility was built in 1971 along with Hannah Natatorium.",
+        "Outside organizations may request use of the facility through Austin College Event Services; rental fees apply.",
+        "A facility request is not a confirmed reservation until Austin College approves availability, event details and associated costs.",
+        "Public admission, ticketing and access vary according to the individual event."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "austin-college",
+        "business_name": "Austin College",
+        "relationship_note": "Sid Richardson Center is located on the Austin College campus inside the Robert T. Mason Athletic-Recreation Complex."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from current Austin College facility, athletics-branding, event-services and event sources. Austin College's current Athletics Style Guide specifies Sid Richardson Center as the preferred athletics reference; the dedicated facility page uses Sid Richardson Recreation Center and the outside-event request form uses Sid Richardson Gym. The facility remains an active multipurpose athletics and public-event venue at 1105 E Brockett St.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "College volleyball",
+        "Sports tournaments",
+        "Symphony concerts",
+        "Holiday concerts",
+        "Community events",
+        "Service projects",
+        "Special Olympics events",
+        "Campus ceremonies",
+        "Student programs",
+        "Large indoor gatherings"
+      ],
+      "event_sources": [
+        "Austin College News & Events",
+        "Austin College Athletics",
+        "Austin College Event Services",
+        "Austin College official social channels",
+        "Sherman Symphony Orchestra"
+      ],
+      "features": [
+        "Multipurpose recreation and event facility",
+        "Gene Day Court",
+        "Part of Robert T. Mason Athletic-Recreation Complex",
+        "Built in 1971",
+        "Hosts collegiate athletic competition",
+        "Hosts Sherman Symphony Orchestra Christmas Pops",
+        "Used for large community and campus programs",
+        "Available for approved outside-organization event requests"
       ]
     }
   ]
