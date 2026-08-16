@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 952,
-  "publish_ready_count": 627,
+  "business_count": 953,
+  "publish_ready_count": 628,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -97363,6 +97363,130 @@
         "Restored in 2023",
         "Dedicated during Austin College's 175th-anniversary celebration",
         "Active outdoor campus event space"
+      ]
+    },
+    {
+      "slug": "college-green",
+      "business_name": "College Green",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Austin College campus, Sherman, TX 75090",
+      "category": [
+        "Outdoor Event Venue",
+        "Gathering Space",
+        "Campus Landmark"
+      ],
+      "tags": [
+        "Austin College",
+        "Sherman",
+        "Grayson County",
+        "Outdoor Concerts",
+        "Campus Events",
+        "Campus Festivals",
+        "Kangapalooza",
+        "Orientation Events",
+        "Lawn Games",
+        "Natural Amphitheater",
+        "Outdoor Gatherings",
+        "College Traditions",
+        "John D. Moseley",
+        "Sara Bernice Moseley"
+      ],
+      "description": "College Green is a park-like outdoor gathering and event space on the Austin College campus in Sherman. Formally dedicated as The College Green in Honor of John D. and Sara Bernice Moseley and Distinguished Faculty, the space occupies the former site of the Student Union Building. Its gently sloping lawn creates a natural amphitheater that Austin College identifies as ideal for outdoor concerts and campus gatherings. College Green hosts orientation activities, festivals, lawn games, concerts and other scheduled College programs and may also be requested for approved events through Austin College's reservation system.",
+      "why_visit": "College Green is one of Austin College's signature outdoor gathering places, providing a natural amphitheater setting for concerts, festivals, orientation activities and other campus events.",
+      "why_its_unique": "The former Student Union Building site was transformed into a landscaped green whose naturally sloping lawn functions as an outdoor amphitheater while honoring longtime Austin College president John D. Moseley, Sara Bernice Moseley and distinguished faculty.",
+      "phone": "903-813-2000",
+      "email": null,
+      "website": "https://www.austincollege.edu/details/~board/explore-ac/post/college-green",
+      "facebook": "https://www.facebook.com/austincollege/",
+      "instagram": "https://www.instagram.com/austincollege/",
+      "youtube": "https://www.youtube.com/austincollege",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "College Green does not publish dedicated public operating hours. Access depends on Austin College campus operations and scheduled events. Campus visitors may request the space for approved events through Austin College's reservation system; requests must be submitted at least one week in advance and are not final until confirmed by the College.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Gently sloping lawn",
+        "Natural amphitheater setting",
+        "Park-like outdoor gathering space"
+      ],
+      "good_to_know": [
+        "Austin College's formal dedication name is The College Green in Honor of John D. and Sara Bernice Moseley and Distinguished Faculty.",
+        "College Green occupies the former site of the Austin College Student Union Building.",
+        "The gently sloping lawn creates a natural amphitheater suitable for outdoor concerts and gatherings.",
+        "The Green was dedicated in honor of the Moseleys and distinguished faculty in 2002.",
+        "Austin College includes College Green among its official Gathering Spaces.",
+        "College Green is specifically supported by Austin College's event-reservation system.",
+        "Campus visitors may request Austin College event spaces, subject to availability and College approval.",
+        "Space requests must be submitted at least one week before an event.",
+        "Public access and participation vary by individual campus event."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "austin-college",
+        "business_name": "Austin College",
+        "relationship_note": "College Green is an outdoor gathering and event space on the Austin College campus."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "College Green is an active Austin College outdoor gathering and event space designed for concerts and campus programs. Current College schedules continue to use the Green for organized activities, and visitors may request the space for approved events. Access and participation vary according to the individual program.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Outdoor concerts",
+        "Campus festivals",
+        "Orientation events",
+        "Lawn-game events",
+        "Student gatherings",
+        "College celebrations",
+        "Outdoor social events",
+        "Special campus programs"
+      ],
+      "event_sources": [
+        "Austin College News & Events",
+        "Austin College Orientation schedules",
+        "Austin College Event & Room Requests",
+        "Austin College Campus Life",
+        "Austin College Magazine",
+        "Austin College official social channels"
+      ],
+      "features": [
+        "Official Austin College Gathering Space",
+        "Natural outdoor amphitheater",
+        "Gently sloping lawn",
+        "Former Student Union Building site",
+        "Dedicated in 2002",
+        "Honors John D. and Sara Bernice Moseley and distinguished faculty",
+        "Outdoor concert setting",
+        "Active orientation and festival venue",
+        "Available for approved event requests"
       ]
     }
   ]
