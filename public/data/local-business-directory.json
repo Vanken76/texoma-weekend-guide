@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 950,
-  "publish_ready_count": 625,
+  "business_count": 951,
+  "publish_ready_count": 626,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -97120,6 +97120,121 @@
         "Hedge-row landscaping",
         "54 maple trees",
         "Southwest of Russell Tennis Center"
+      ]
+    },
+    {
+      "slug": "clyde-l-hall-graduation-court",
+      "business_name": "Clyde L. Hall Graduation Court",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Austin College campus, just north of Caruth Administration Building, Sherman, TX 75090",
+      "category": [
+        "Outdoor Event Venue",
+        "Gathering Space",
+        "Campus Landmark"
+      ],
+      "tags": [
+        "Austin College",
+        "Sherman",
+        "Grayson County",
+        "Commencement",
+        "Graduation",
+        "Ceremonies",
+        "White Coat Ceremony",
+        "Campus Events",
+        "Outdoor Events",
+        "Academic Ceremonies",
+        "College Traditions",
+        "Clyde L. Hall"
+      ],
+      "description": "Clyde L. Hall Graduation Court is a landscaped outdoor gathering and ceremonial space on the Austin College campus in Sherman. Located just north of Caruth Administration Building, the court is marked by brickwork and landscaping and serves as the traditional setting for Austin College Commencement each May. Created in 2007, the space honors Clyde L. Hall, a 1946 Austin College graduate and longtime faculty member whose former students supported naming the area in his honor. In addition to Commencement, the court is used for other significant Austin College ceremonies and campus gatherings, including Physician Assistant white coat ceremonies.",
+      "why_visit": "Clyde L. Hall Graduation Court is one of Austin College's signature ceremonial spaces and the setting for major traditions such as Commencement, giving families and visitors a distinctive outdoor location for milestone campus events.",
+      "why_its_unique": "The court combines a landscaped campus landmark with an active ceremonial role, serving as Austin College's traditional outdoor Commencement setting while honoring longtime professor, alumnus and Sherman historian Clyde L. Hall.",
+      "phone": "903-813-2000",
+      "email": null,
+      "website": "https://www.austincollege.edu/details/~board/explore-ac/post/hall-graduation-court",
+      "facebook": "https://www.facebook.com/austincollege/",
+      "instagram": "https://www.instagram.com/austincollege/",
+      "youtube": "https://www.youtube.com/austincollege",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Austin College does not publish dedicated public operating hours for Clyde L. Hall Graduation Court. Access may vary around scheduled ceremonies, campus activities and event setup. Check the specific Austin College event information before visiting for a scheduled program.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Outdoor ceremonial space",
+        "Landscaped grounds",
+        "Brickwork",
+        "Campus gathering area"
+      ],
+      "good_to_know": [
+        "The court is located just north of Caruth Administration Building on the Austin College campus.",
+        "Austin College identifies Clyde L. Hall Graduation Court as one of its official Gathering Spaces.",
+        "The court was created in 2007.",
+        "Austin College traditionally holds Commencement on the court each May.",
+        "The venue also supports other major campus ceremonies, including Physician Assistant white coat ceremonies.",
+        "Commencement and other major outdoor events may have event-specific parking, seating, accessibility and weather-contingency procedures.",
+        "Check the current Austin College event listing before visiting for a specific ceremony."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "austin-college",
+        "business_name": "Austin College",
+        "relationship_note": "Clyde L. Hall Graduation Court is an outdoor gathering and ceremonial space on the Austin College campus."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from current Austin College facility, Commencement and 2026 event sources. Clyde L. Hall Graduation Court is an official campus gathering space just north of Caruth Administration Building and remains the traditional outdoor site for Austin College Commencement. The court also hosts selected additional ceremonies. Public access and visitor logistics vary by event.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Commencement",
+        "Graduation ceremonies",
+        "White coat ceremonies",
+        "Academic ceremonies",
+        "Campus convocations",
+        "College gatherings"
+      ],
+      "event_sources": [
+        "Austin College Commencement",
+        "Austin College News & Events",
+        "Austin College official social channels"
+      ],
+      "features": [
+        "Official Austin College Gathering Space",
+        "Traditional Austin College Commencement site",
+        "Created in 2007",
+        "Landscaped outdoor court",
+        "Brickwork",
+        "Located just north of Caruth Administration Building",
+        "Named for alumnus and longtime professor Clyde L. Hall",
+        "Active ceremonial venue"
       ]
     }
   ]
