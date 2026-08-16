@@ -5,8 +5,23 @@ const PUBLIC_CURRENT_STATUSES = new Set(["upcoming", "recurring"]);
 const businessIndexCache = new WeakMap();
 const currentEventsCache = new WeakMap();
 const venueEventsIndexCache = new WeakMap();
+const localDateFormatterCache = new Map();
 
 const hasCustomOptions = (options = {}) => Object.keys(options).length > 0;
+
+const getLocalDateFormatter = (timeZone = DEFAULT_TIME_ZONE) => {
+  const cached = localDateFormatterCache.get(timeZone);
+  if (cached) return cached;
+
+  const formatter = new Intl.DateTimeFormat("en-CA", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  });
+  localDateFormatterCache.set(timeZone, formatter);
+  return formatter;
+};
 
 export const toArray = (value) => Array.isArray(value) ? value : value ? [value] : [];
 
@@ -47,12 +62,8 @@ export const getRecurrenceEndDate = (event = {}) => {
   return `${until.slice(0, 4)}-${until.slice(4, 6)}-${until.slice(6, 8)}`;
 };
 
-export const getLocalDateKey = (date = new Date(), timeZone = DEFAULT_TIME_ZONE) => new Intl.DateTimeFormat("en-CA", {
-  timeZone,
-  year: "numeric",
-  month: "2-digit",
-  day: "2-digit"
-}).format(date);
+export const getLocalDateKey = (date = new Date(), timeZone = DEFAULT_TIME_ZONE) =>
+  getLocalDateFormatter(timeZone).format(date);
 
 export const isRecurringEvent = (event = {}) => event.recurring === true || event.status === "recurring";
 
