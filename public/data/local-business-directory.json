@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 960,
-  "publish_ready_count": 635,
+  "business_count": 961,
+  "publish_ready_count": 636,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -98446,6 +98446,137 @@
         "Documented venue for student-directed productions",
         "Documented venue for Austin College Music Department performances",
         "Part of Austin College's active Theatre program"
+      ]
+    },
+    {
+      "slug": "johnson-gallery",
+      "business_name": "Robert M. and Joyce Johnson Reception Gallery",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Inside Wright Campus Center, 1301 E Brockett St, Sherman, TX 75090",
+      "category": [
+        "Art Gallery",
+        "Reception Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Austin College",
+        "Wright Campus Center",
+        "Sherman",
+        "Grayson County",
+        "Johnson Gallery",
+        "Johnson Art Gallery",
+        "Robert M. and Joyce Johnson Reception Gallery",
+        "Art Exhibitions",
+        "Receptions",
+        "Luncheons",
+        "Meetings",
+        "Guest Lectures",
+        "Academic Events",
+        "Community Events",
+        "Campus Events",
+        "Allen-Head Lecture"
+      ],
+      "description": "The Robert M. and Joyce Johnson Reception Gallery is a dedicated art, reception and meeting space inside Wright Campus Center at Austin College in Sherman. Commonly referenced by Austin College as Johnson Gallery or Johnson Art Gallery, the space was specially constructed as an art gallery and is located adjacent to Mabee Hall. It serves as a reception area for larger events in the banquet hall while also functioning independently for luncheons, meetings, public receptions, academic celebrations and occasional art displays. Austin College continues to use the gallery for community-facing events, including receptions connected with major public lecture programs.",
+      "why_visit": "Johnson Gallery gives visitors an intimate Austin College setting for receptions, exhibitions, academic celebrations and selected public programs, often in conjunction with lectures or other events elsewhere in Wright Campus Center.",
+      "why_its_unique": "The space was purpose-built as an art gallery but also functions as a flexible reception and meeting venue, allowing it to bridge Austin College's visual-arts programming with lectures, academic celebrations, luncheons and formal gatherings.",
+      "phone": "903-813-2000",
+      "email": null,
+      "website": "https://www.austincollege.edu/details/~board/explore-ac/post/wright-campus-center",
+      "facebook": "https://www.facebook.com/austincollege/",
+      "instagram": "https://www.instagram.com/austincollege/",
+      "youtube": "https://www.youtube.com/austincollege",
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Johnson Gallery does not publish regular public gallery hours. Access follows scheduled Austin College exhibitions, receptions, meetings and other programs. Outside groups may request Austin College event space subject to availability, College approval and applicable rental arrangements. Check the specific event listing before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Purpose-built art gallery",
+        "Indoor reception space",
+        "Meeting and luncheon space",
+        "Adjacent access to Mabee Hall"
+      ],
+      "good_to_know": [
+        "The formal facility name is Robert M. and Joyce Johnson Reception Gallery.",
+        "Austin College also currently uses the shorter names Johnson Gallery and Johnson Art Gallery in public-facing materials.",
+        "The gallery is located inside Wright Campus Center adjacent to Mabee Hall.",
+        "Austin College describes the space as specially constructed as an art gallery.",
+        "The gallery can function as a reception area for events taking place in Mabee Hall.",
+        "Austin College also promotes Johnson Gallery as an intimate space for luncheons and meetings.",
+        "The venue continues to host independently identified receptions, including the public reception preceding the 2026 Allen-Head Lecture.",
+        "Austin College's building-specific Wright Campus Center page lists 1301 E Brockett St, while the current Community visitor page lists 1201 E Brockett Street. Visitors attending a specific event should follow the event listing or current College directions."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "wright-campus-center",
+        "business_name": "Wright Campus Center",
+        "relationship_note": "Robert M. and Joyce Johnson Reception Gallery is a separately named art and reception venue inside Wright Campus Center."
+      },
+      "related_businesses": [
+        {
+          "slug": "mabee-hall",
+          "business_name": "Mabee Hall",
+          "relationship_note": "Johnson Gallery is adjacent to Mabee Hall and may serve as its reception area during larger events."
+        }
+      ],
+      "related_geography": [],
+      "verification_note": "Verified from current Austin College Wright Campus Center, Community and event information. The formal name is Robert M. and Joyce Johnson Reception Gallery, while current Austin College materials also use Johnson Gallery and Johnson Art Gallery. The space remains active for receptions, luncheons, meetings, academic gatherings and selected public programs. No dedicated regular gallery hours or official capacity were located, so neither is inferred.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Public receptions",
+        "Lecture receptions",
+        "Academic receptions",
+        "Departmental Honors celebrations",
+        "Art exhibitions",
+        "Luncheons",
+        "Meetings",
+        "Campus gatherings",
+        "Community programs"
+      ],
+      "event_sources": [
+        "Austin College News & Events",
+        "Austin College Community calendar",
+        "Austin College Art & Art History",
+        "Austin College official social channels"
+      ],
+      "features": [
+        "Purpose-built art gallery",
+        "Formal Robert M. and Joyce Johnson Reception Gallery identity",
+        "Also identified as Johnson Gallery and Johnson Art Gallery",
+        "Located inside Wright Campus Center",
+        "Adjacent to Mabee Hall",
+        "Reception space for banquet-hall events",
+        "Independent luncheon and meeting space",
+        "Documented public-event use",
+        "Documented history of art exhibitions"
       ]
     }
   ]
