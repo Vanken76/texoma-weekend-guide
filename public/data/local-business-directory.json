@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 946,
-  "publish_ready_count": 621,
+  "business_count": 947,
+  "publish_ready_count": 622,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -96637,6 +96637,123 @@
         "Part of Robert T. Mason Athletic-Recreation Complex",
         "Active collegiate competition venue",
         "Hosts selected alumni and campus programs"
+      ]
+    },
+    {
+      "slug": "baker-field",
+      "business_name": "Baker Field",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Austin College campus, directly north of Jerry E. Apple Stadium, Sherman, TX 75090",
+      "category": [
+        "Baseball Field",
+        "College Athletics Venue",
+        "Sports Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Austin College",
+        "Sherman",
+        "Grayson County",
+        "Kangaroo Baseball",
+        "College Baseball",
+        "NCAA Division III",
+        "SCAC",
+        "Baseball Games",
+        "Outdoor Sports",
+        "Spectator Sports",
+        "Athletics Events"
+      ],
+      "description": "Baker Field is the home baseball venue for the Austin College Kangaroos in Sherman. Located on the Austin College campus directly north of Jerry E. Apple Stadium, the outdoor ballpark hosts the College's home baseball schedule, including conference series, nonconference games and doubleheaders. The facility underwent a substantial renovation associated with the 2007 season, improving the playing field, dugouts and spectator sightlines. Baker Field remains an active Austin College athletics venue and a regular source of spring sports events for Texoma spectators.",
+      "why_visit": "Baker Field gives local baseball fans a chance to watch NCAA Division III college baseball in Sherman, with recurring Austin College home games throughout the spring season and free admission to regular-season College athletics events.",
+      "why_its_unique": "The field is Austin College's dedicated home for Kangaroo baseball and combines a traditional collegiate ballpark setting with substantial improvements made during its major 2006-2007 renovation.",
+      "phone": "903-813-2499",
+      "email": null,
+      "website": "https://acroos.com/sports/bsb/baker-field",
+      "facebook": "https://www.facebook.com/acsports/",
+      "instagram": "https://www.instagram.com/ackangaroosbsb/",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Baker Field does not have regular public attraction hours. Public spectator access follows scheduled Austin College baseball games and other approved athletics activities. Check the current Austin College Athletics baseball schedule before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Baseball playing field",
+        "Spectator stands",
+        "Brick dugouts",
+        "Brick-and-net backstop",
+        "Outdoor spectator seating"
+      ],
+      "good_to_know": [
+        "Baker Field is located directly north of Jerry E. Apple Stadium on the Austin College campus.",
+        "Austin College does not publish a separate street address specifically for Baker Field.",
+        "The field is the home venue for Austin College Kangaroo baseball.",
+        "Austin College identifies the facility as having been renovated in 2007.",
+        "Renovation work included new brick dugouts, relocation of home plate, field leveling and a brick-and-net backstop designed to improve spectator sightlines.",
+        "The renovated field dimensions were documented as 325 feet down the left-field line, 410 feet to center field and 315 feet down the right-field line.",
+        "Austin College currently provides free admission to regular-season athletics events.",
+        "Game dates, first-pitch times and weather-related schedule changes should be confirmed through Austin College Athletics before visiting."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "austin-college",
+        "business_name": "Austin College",
+        "relationship_note": "Baker Field is Austin College's home baseball facility on its Sherman campus."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from current Austin College campus and Athletics sources, the current 2026 baseball schedule and Austin College's official facility-renovation history. Baker Field remains the active home venue for Austin College baseball. The College does not publish a dedicated street address for the field; official Athletics directions locate it directly north of Jerry E. Apple Stadium.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "College baseball games",
+        "Austin College home baseball",
+        "Conference baseball series",
+        "Nonconference baseball games",
+        "Baseball doubleheaders"
+      ],
+      "event_sources": [
+        "Austin College Athletics baseball schedule",
+        "Austin College Athletics baseball news",
+        "Austin College Sports Facebook",
+        "Austin College Baseball Instagram"
+      ],
+      "features": [
+        "Home field of Austin College baseball",
+        "Outdoor collegiate baseball venue",
+        "Major 2006-2007 renovation",
+        "Brick dugouts",
+        "Brick-and-net backstop",
+        "Spectator stands",
+        "Located directly north of Jerry E. Apple Stadium",
+        "Active NCAA Division III competition venue"
       ]
     }
   ]
