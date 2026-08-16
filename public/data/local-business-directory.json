@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 983,
-  "publish_ready_count": 658,
+  "business_count": 984,
+  "publish_ready_count": 659,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -101585,6 +101585,137 @@
         "Located in Hallie McKinney",
         "Recurring university event use",
         "Frequently paired with Hallie McKinney Ballroom for larger events"
+      ]
+    },
+    {
+      "slug": "su-atrium",
+      "business_name": "SU Atrium",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1st Floor, Glen D. Johnson Student Union, Southeastern Oklahoma State University, Durant, OK 74701",
+      "category": [
+        "Event Venue",
+        "Campus Event Venue",
+        "Student Union Event Space"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Glen D. Johnson Student Union",
+        "Durant",
+        "Bryan County",
+        "Student Life",
+        "Campus Events",
+        "Community Events",
+        "Student Organizations",
+        "Welcome Events",
+        "Markets",
+        "Information Tables"
+      ],
+      "description": "SU Atrium is the first-floor atrium and lobby event space inside Glen D. Johnson Student Union at Southeastern Oklahoma State University in Durant. The university uses the Atrium for Student Life programming, organization outreach, recruitment activities, social events, informational programs and community-facing events, and the space is available through Southeastern's Student Union reservation process.",
+      "why_visit": "Watch the SU Atrium for pop-up campus activities, student-organization events, community programs, information tables, social events and special Southeastern programming. Because the Atrium sits in a heavily used central Student Union space, events here often have a casual drop-in format.",
+      "why_its_unique": "Unlike a closed meeting room or auditorium, the SU Atrium functions as a prominent first-floor common area and event space inside the Student Union, making it especially useful for interactive programs, outreach, displays, organization fairs and other events designed to engage people moving through the building.",
+      "phone": "580-745-2266",
+      "email": "lpresley@se.edu",
+      "website": "https://www.se.edu/venue/su-atrium/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No separate public hours are published specifically for SU Atrium. The space is inside Glen D. Johnson Student Union and access follows building availability, scheduled events and university operations.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "First-floor Student Union location",
+        "Open atrium and lobby setting",
+        "Reservable campus event space"
+      ],
+      "good_to_know": [
+        "Southeastern officially lists the space as the 1st Floor SU Atrium/Lobby.",
+        "Reservation requests are handled through the Student Union room reservation process.",
+        "Lenora Presley is the current published contact for Student Union reservation questions.",
+        "No official maximum occupancy or seating capacity is currently published for the Atrium.",
+        "Some events held here are restricted to Southeastern students, while others may be community-facing or open to broader audiences; check individual event details."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "glen-d-johnson-student-union",
+        "business_name": "Glen D. Johnson Student Union",
+        "relationship_note": "SU Atrium is the first-floor atrium and lobby space inside Glen D. Johnson Student Union."
+      },
+      "related_businesses": [
+        {
+          "slug": "southeastern-oklahoma-state-university",
+          "business_name": "Southeastern Oklahoma State University",
+          "relationship_note": "SU Atrium is a campus event space operated by Southeastern Oklahoma State University."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Official Southeastern sources confirm SU Atrium as the first-floor Atrium/Lobby inside Glen D. Johnson Student Union, a reservable Student Union event space with its own university venue calendar. Current and historical university calendars document Student Life, organization, outreach and community-event use. No official capacity is currently published.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Student Life events",
+        "Student organization activities",
+        "Community events",
+        "Recruitment and outreach tables",
+        "Social events",
+        "Information and awareness programs",
+        "Meet-and-greets",
+        "Markets and fairs"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University calendar",
+        "Southeastern Student Life",
+        "Southeastern Special Events"
+      ],
+      "features": [
+        "First-floor Student Union atrium and lobby",
+        "Separately named Southeastern event venue",
+        "Reservable campus event space",
+        "Dedicated university venue calendar",
+        "Recurring Student Life programming",
+        "Community-facing event potential",
+        "High event-mining value"
       ]
     }
   ]
