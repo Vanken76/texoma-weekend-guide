@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 978,
-  "publish_ready_count": 653,
+  "business_count": 979,
+  "publish_ready_count": 654,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -100972,6 +100972,157 @@
         "Hosted Southeastern's first esports national-championship celebration",
         "Active 2026 open-play programming",
         "Official SEsports livestream and broadcast presence"
+      ]
+    },
+    {
+      "slug": "centre-gallery",
+      "business_name": "Centre Gallery",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Inside Visual & Performing Arts Center, 1614 N First St, Durant, OK 74701",
+      "category": [
+        "Art Gallery",
+        "Arts & Culture",
+        "Event Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Southeastern",
+        "Visual & Performing Arts Center",
+        "VPAC",
+        "Durant",
+        "Bryan County",
+        "Oklahoma",
+        "Centre Gallery",
+        "Centre Art Gallery",
+        "Visual Arts",
+        "Art Exhibitions",
+        "Student Art",
+        "Faculty Art",
+        "Visiting Artists",
+        "Senior Art Exhibition",
+        "Great Plains Juried Art Show",
+        "Gallery Receptions",
+        "Public Exhibitions",
+        "College Art"
+      ],
+      "description": "Centre Gallery is Southeastern Oklahoma State University's dedicated exhibition gallery inside the Visual & Performing Arts Center in Durant. Operated through Southeastern's visual arts program, the gallery presents recurring exhibitions by students, faculty and visiting artists along with juried shows, senior capstone exhibitions and gallery receptions. The space provides Southeastern art and graphic-design students opportunities to exhibit their work while also bringing regional and touring visual-art exhibitions to the Durant community. Current programming includes longstanding annual traditions such as the Great Plains Juried Art Show and recurring senior art exhibitions.",
+      "why_visit": "Centre Gallery gives Texoma visitors a regularly changing look at student, faculty, regional and visiting-artist work in a free-standing university gallery setting, often with public opening or closing receptions.",
+      "why_its_unique": "The gallery combines Southeastern's academic visual-arts program with public exhibition programming, giving emerging student artists the same dedicated gallery environment used for faculty, visiting-artist and juried exhibitions.",
+      "phone": "580-745-3292",
+      "email": "jumsted@se.edu",
+      "website": "https://www.se.edu/act/centre-gallery/",
+      "facebook": "https://www.facebook.com/CentreGalleryatSE/",
+      "instagram": "https://www.instagram.com/southeasternofficial/",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "1:00 PM - 4:30 PM",
+        "tuesday": "1:00 PM - 4:30 PM",
+        "wednesday": "1:00 PM - 4:30 PM",
+        "thursday": "1:00 PM - 4:30 PM",
+        "friday": "1:00 PM - 4:30 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Centre Gallery currently publishes Monday-Friday gallery hours of 1:00 PM-4:30 PM or by arrangement. Individual exhibitions and receptions may publish extended or different hours. The university's dedicated gallery webpage still displays an older exhibition under its 'Now Showing' section, while the official Centre Gallery social page reflects current 2026 programming, so visitors should confirm the current exhibition before making a special trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": false,
+        "wheelchair_accessible": true,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Dedicated university art gallery",
+        "Rotating exhibition space",
+        "Student exhibition opportunities",
+        "Gallery reception space",
+        "Visual & Performing Arts Center setting"
+      ],
+      "good_to_know": [
+        "Centre Gallery is located inside Southeastern's Visual & Performing Arts Center at 1614 N First St.",
+        "Southeastern uses both Centre Gallery and Centre Art Gallery for the same exhibition space.",
+        "The gallery is operated through Southeastern's visual arts program.",
+        "Southeastern states that the gallery presents annual exhibitions by students, faculty and visiting artists.",
+        "Graphic-design and visual-art students have opportunities to exhibit work in the gallery.",
+        "Recurring programming includes senior art exhibitions and the Great Plains Juried Art Show.",
+        "The Great Plains Juried Art Show reached its 21st annual edition in 2026.",
+        "The gallery's official Facebook page remains active with current 2026 exhibition information.",
+        "Published regular gallery hours are Monday-Friday from 1:00 PM to 4:30 PM or by arrangement.",
+        "Individual exhibitions may publish different hours, reception times or appointment information.",
+        "The Hogan Native American Art Collection should not be described as a current Centre Gallery collection; Southeastern's Native American Art Collection now has its permanent home at the Semple Family Museum of Native American Art.",
+        "The current gallery contact listed in Southeastern's staff directory is curator Janie Umsted at 580-745-3292 or jumsted@se.edu."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "visual-performing-arts-center",
+        "business_name": "Visual & Performing Arts Center",
+        "relationship_note": "Centre Gallery is Southeastern Oklahoma State University's dedicated exhibition gallery located inside the Visual & Performing Arts Center."
+      },
+      "related_businesses": [
+        {
+          "slug": "southeastern-oklahoma-state-university",
+          "business_name": "Southeastern Oklahoma State University",
+          "relationship_note": "Centre Gallery is operated through Southeastern Oklahoma State University's visual arts program."
+        }
+      ],
+      "related_geography": [],
+      "verification_note": "Centre Gallery is an active Southeastern Oklahoma State University exhibition venue inside the Visual & Performing Arts Center at 1614 N First St. Southeastern currently describes the gallery as presenting annual exhibitions by students, faculty and visiting artists, while the official gallery social page documents active 2026 programming including the 21st Annual Great Plains Juried Art Show and Spring 2026 Senior Art Exhibition. Published gallery hours are Monday-Friday 1:00 PM-4:30 PM or by arrangement, though individual exhibitions may vary.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Student art exhibitions",
+        "Senior art exhibitions",
+        "Faculty exhibitions",
+        "Visiting artist exhibitions",
+        "Juried art shows",
+        "Great Plains Juried Art Show",
+        "Opening receptions",
+        "Closing receptions",
+        "Artist receptions",
+        "Graphic design exhibitions",
+        "Visual arts programs"
+      ],
+      "event_sources": [
+        "Southeastern Centre Gallery",
+        "Centre Art Gallery official Facebook page",
+        "Southeastern Art Studio program",
+        "Southeastern Oklahoma State University calendar",
+        "Southeastern official social channels"
+      ],
+      "features": [
+        "Dedicated Southeastern exhibition gallery",
+        "Located inside Visual & Performing Arts Center",
+        "Annual student exhibitions",
+        "Annual faculty exhibitions",
+        "Visiting-artist exhibitions",
+        "Senior capstone exhibitions",
+        "Great Plains Juried Art Show",
+        "Public gallery receptions",
+        "Current 2026 exhibition programming",
+        "Weekday public gallery hours"
       ]
     }
   ]
