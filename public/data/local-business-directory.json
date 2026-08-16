@@ -5,8 +5,8 @@
   "generated_on": "2026-08-16",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 933,
-  "publish_ready_count": 608,
+  "business_count": 934,
+  "publish_ready_count": 609,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -94990,6 +94990,148 @@
         "Gazebo and pavilion area",
         "Trail access",
         "Parks and Recreation program location"
+      ]
+    },
+    {
+      "slug": "waterloo-lake-horseshoe-pits-denison",
+      "business_name": "Waterloo Lake Horseshoe Pits",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1101 Waterloo Lake Drive, Denison, TX 75020",
+      "category": [
+        "Horseshoe Pits",
+        "Outdoor Recreation",
+        "Athletic Facility",
+        "Event Venue"
+      ],
+      "tags": [
+        "Denison",
+        "Waterloo Lake",
+        "The Backyard",
+        "Horseshoes",
+        "Outdoor Games",
+        "Lighted Recreation",
+        "Facility Rental",
+        "Reservable Facility",
+        "Group Recreation",
+        "Special Events"
+      ],
+      "description": "Waterloo Lake Horseshoe Pits is a reservable outdoor recreation facility located in The Backyard at Waterloo Lake Regional Park in Denison. The lighted horseshoe pits support casual recreation, group gatherings and organized activities while giving visitors access to the surrounding Backyard recreation area, which includes pickleball, cornhole, table tennis, lawn games, playground equipment and other outdoor amenities.",
+      "why_visit": "The facility gives groups a dedicated, lighted place for horseshoe play within the larger activity hub at The Backyard, with convenient access to additional recreation and Waterloo Lake Regional Park.",
+      "why_its_unique": "Unlike a simple park amenity, the Waterloo Lake Horseshoe Pits are individually recognized and reservable through Denison Parks and Recreation, making them useful for organized gatherings as well as recreational play.",
+      "phone": "903-465-2720",
+      "email": null,
+      "website": "https://denison.recdesk.com/Community/Facility/Detail?facilityId=143",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Rental cost includes a refundable deposit; current amount is not publicly displayed",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "7:00 AM - 9:00 PM",
+        "tuesday": "7:00 AM - 9:00 PM",
+        "wednesday": "7:00 AM - 9:00 PM",
+        "thursday": "7:00 AM - 9:00 PM",
+        "friday": "7:00 AM - 9:00 PM",
+        "saturday": "7:00 AM - 9:00 PM",
+        "sunday": "7:00 AM - 9:00 PM"
+      },
+      "hours_note": "Denison RecDesk currently lists Waterloo Lake Horseshoe Pits as available from 7:00 AM to 9:00 PM daily. Reservation availability may vary according to the RecDesk calendar.",
+      "at_a_glance": {
+        "average_visit": "1-2 hours",
+        "price_range": "Rental cost includes refundable deposit",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": false
+      },
+      "amenities": [
+        "Lighted horseshoe pits",
+        "Outdoor recreation area",
+        "Nearby pickleball courts",
+        "Nearby cornhole boards",
+        "Nearby table tennis",
+        "Nearby ladder toss",
+        "Nearby chess and checkers",
+        "Nearby playground equipment",
+        "Nearby restroom facility",
+        "Nearby gazebo and pavilion area"
+      ],
+      "good_to_know": [
+        "Denison RecDesk lists Waterloo Lake Horseshoe Pits as a separate reservable facility.",
+        "The pits are located in The Backyard at Waterloo Lake Regional Park.",
+        "The facility address is 1101 Waterloo Lake Drive, Denison, TX 75020.",
+        "RecDesk currently lists facility hours of 7:00 AM to 9:00 PM every day.",
+        "The City identifies the horseshoe pits as lighted.",
+        "Rental cost includes a deposit.",
+        "The deposit is refundable after the facility is inspected following the event.",
+        "Refundable deposits are returned by check and may take approximately three to four weeks.",
+        "The rented area must be left clean and undamaged to receive the deposit refund.",
+        "Current-week reservations must be made no later than Wednesday at 5:00 PM.",
+        "Parks and Recreation must receive cancellation notice at least three business days before an event.",
+        "Alcoholic beverages are prohibited in City of Denison facilities and parks.",
+        "Publicly advertised or other qualifying special events on City property may require a City special-event permit.",
+        "Outdoor events using amplified sound may require an amplification permit.",
+        "The City's currently published amplification permit fee is $50.",
+        "Special-event organizers are responsible for required permits, licenses and compliance with applicable City rules."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "the-backyard-waterloo-lake-regional-park-denison",
+        "business_name": "The Backyard at Waterloo Lake Regional Park",
+        "relationship_note": "Individually reservable lighted horseshoe facility located within The Backyard."
+      },
+      "related_businesses": [
+        {
+          "slug": "waterloo-lake-regional-park-denison",
+          "business_name": "Waterloo Lake Regional Park",
+          "relationship_note": "The Backyard and its horseshoe pits are located within Waterloo Lake Regional Park."
+        }
+      ],
+      "related_geography": [],
+      "verification_note": "Fully researched August 16, 2026 after manual TWG live-directory duplicate clearance. Denison Parks and Recreation RecDesk identifies Waterloo Lake Horseshoe Pits as a standalone General facility at 1101 Waterloo Lake Drive with availability from 7:00 AM to 9:00 PM daily. RecDesk explicitly states that the pits are located at The Backyard at Waterloo Lake Regional Park and that rentals require a refundable deposit. Current-week reservations must be completed by Wednesday at 5:00 PM, cancellations require at least three business days' notice, and deposits are returned by check after inspection. The City of Denison's Waterloo Lake Regional Park page independently confirms lighted horseshoe pits as part of The Backyard amenities. No rental amount has been assigned because the current public facility detail page does not display the dollar amount.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Horseshoe games",
+        "Horseshoe competitions",
+        "Group recreation",
+        "Private gatherings",
+        "Community recreation events",
+        "Special events"
+      ],
+      "event_sources": [
+        "Denison Parks and Recreation RecDesk",
+        "City of Denison Waterloo Lake Regional Park",
+        "Denison Parks and Recreation"
+      ],
+      "features": [
+        "Individually reservable facility",
+        "Lighted horseshoe pits",
+        "7 AM-9 PM daily published availability",
+        "The Backyard location",
+        "Refundable-deposit rental",
+        "Special-event capable",
+        "Access to surrounding Waterloo recreation amenities"
       ]
     }
   ]
