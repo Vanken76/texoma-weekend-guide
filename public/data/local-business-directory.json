@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1006,
-  "publish_ready_count": 681,
+  "business_count": 1007,
+  "publish_ready_count": 682,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -104690,6 +104690,160 @@
         "Documented public community workshops",
         "Documented recurring student programming",
         "Documented Native American Symposium use"
+      ]
+    },
+    {
+      "slug": "southeastern-oklahoma-state-university-russell-building",
+      "business_name": "Southeastern Oklahoma State University Russell Building",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "425 W University Blvd, Southeastern Oklahoma State University campus, Durant, OK 74701",
+      "category": [
+        "Academic Building",
+        "Campus Event Venue",
+        "Business Education",
+        "University Facility"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Russell Building",
+        "Durant",
+        "Bryan County",
+        "John Massey School of Business",
+        "TREE Center",
+        "Business Education",
+        "Entrepreneurship",
+        "Economic Development",
+        "Academic Events",
+        "Community Events",
+        "University Events"
+      ],
+      "description": "Southeastern Oklahoma State University Russell Building is a landmark academic and event facility on the Durant campus. The building is home to the John Massey School of Business and includes classrooms, offices, reservable meeting and presentation rooms, and facilities associated with the Texoma Region Economic Empowerment Center. Southeastern also uses the building for university programs, receptions, presentations, workshops, student activities and special events.",
+      "why_visit": "Russell Building becomes particularly relevant to visitors during business-school programs, community and economic-development activities, workshops, speaker events, receptions and other Southeastern programming. Multiple technology-equipped rooms inside the building can be reserved for organized events.",
+      "why_its_unique": "Southeastern identifies Russell Building as one of the university's landmark facilities. Today it combines its longstanding campus identity with the John Massey School of Business, technology-equipped event rooms and newer entrepreneurship and finance labs designed to connect students with real-world regional business challenges.",
+      "phone": "580-745-2512",
+      "email": "specialevents@se.edu",
+      "website": "https://www.se.edu/venue/russell-building/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No building-wide public operating hours are published. Access depends on university operations, classes, office hours and scheduled events.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "East entrance automatic doors",
+        "West entrance automatic doors",
+        "Elevator access to all floors",
+        "Technology-equipped reservable rooms",
+        "Computer and projector-equipped rooms",
+        "Zoom-capable rooms",
+        "Large-screen presentation capability",
+        "John Massey School of Business offices and classrooms",
+        "Business and entrepreneurship labs"
+      ],
+      "good_to_know": [
+        "The university's official and calendar name for the facility is Russell Building; TWG uses Southeastern Oklahoma State University Russell Building as the canonical directory name to avoid regional ambiguity.",
+        "Southeastern identifies Russell Building and Morrison Hall as landmark university facilities that have served the institution in many capacities and are now used primarily as academic buildings.",
+        "The building is home to Southeastern's John Massey School of Business and houses both offices and classrooms.",
+        "Southeastern places Russell Building in the heart of campus adjacent to the Fine Arts Building off 5th Avenue.",
+        "The east and west entrances have automatic doors, and elevator access is available to all floors.",
+        "R300 has a maximum occupancy of 58 and includes a large screen for computer presentations and Zoom.",
+        "R300 reservations are currently handled by Sandra Kirven at 580-745-2979 or skirven@se.edu.",
+        "R100 has a maximum occupancy of 60 and includes computers, projectors and Zoom capability.",
+        "R318 has a maximum occupancy of 28 and includes computers, projectors and Zoom capability.",
+        "R314 has a maximum occupancy of 20 and includes computers, projectors and Zoom capability.",
+        "R100, R318 and R314 reservations are currently handled by Katy Davis at 580-745-3185.",
+        "Southeastern Student Life also lists the Russell Building Clock Area and Russell Building West Entrance among campus spaces available for student-organization reservations.",
+        "The Texoma Region Economic Empowerment Center is physically housed in Russell Building through the John Massey School of Business.",
+        "The TREE Center includes business-focused Marketing and Entrepreneurship and Accounting and Finance laboratory initiatives.",
+        "The Spend Life Wisely Marketing and Entrepreneurship Lab and First United Bank Finance and Accounting Lab were formally dedicated in Russell Building in February 2025.",
+        "The building hosted a Legacy Speaker Series presentation during Southeastern's 2025 Homecoming Week.",
+        "Russell 100 hosted a Choctaw beading class during Southeastern's 2025 Native November programming.",
+        "Russell Building has also hosted John Massey School of Business commencement receptions, Study Abroad information sessions and other academic and university programming.",
+        "Individual numbered rooms such as R100, R300, R314 and R318 should remain subordinate spaces within this parent record rather than separate TWG business listings."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "Russell Building is a landmark academic and event facility on Southeastern Oklahoma State University's Durant campus."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Current Southeastern sources identify Russell Building as a landmark academic facility and the home of the John Massey School of Business. The business-school facilities page confirms automatic doors at the east and west entrances and elevator access to all floors. Southeastern Special Events currently lists four reservable rooms: R300 with capacity 58, R100 with capacity 60, R318 with capacity 28 and R314 with capacity 20. R300 uses Sandra Kirven as its reservation contact, while R100, R318 and R314 use Katy Davis. Student Life additionally lists the Russell Building Clock Area and West Entrance as reservable campus spaces. Official university records document event use including Homecoming programming, Native November activities, commencement receptions and information sessions. No building-wide rental price or fixed public operating hours are published, so neither is inferred.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Business events",
+        "Community workshops",
+        "Economic development programs",
+        "Lectures",
+        "Speaker series",
+        "Academic presentations",
+        "Information sessions",
+        "Receptions",
+        "Cultural programs",
+        "Student organization events",
+        "University special events"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University Events Calendar",
+        "Southeastern Oklahoma State University Special Events",
+        "John Massey School of Business",
+        "Southeastern Student Life",
+        "Southeastern University Communications"
+      ],
+      "features": [
+        "Landmark Southeastern facility",
+        "Home of the John Massey School of Business",
+        "Home of the TREE Center",
+        "Four currently listed reservable rooms",
+        "Technology-equipped event spaces",
+        "Automatic east and west entrance doors",
+        "Elevator access to all floors",
+        "Indoor and exterior event locations",
+        "Documented recurring university programming"
       ]
     }
   ]
