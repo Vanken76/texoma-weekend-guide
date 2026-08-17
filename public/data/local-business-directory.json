@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 990,
-  "publish_ready_count": 665,
+  "business_count": 991,
+  "publish_ready_count": 666,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -102496,6 +102496,146 @@
         "Historic stonework",
         "Adjacent to Semple Family Museum of Native American Art",
         "Major preservation and modernization project planned"
+      ]
+    },
+    {
+      "slug": "tailgate-alley",
+      "business_name": "Tailgate Alley",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1435 N 2nd Ave, Durant, OK 74701",
+      "category": [
+        "Tailgating Venue",
+        "Outdoor Event Venue",
+        "Campus Event Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Durant",
+        "Bryan County",
+        "Savage Storm",
+        "Football",
+        "Tailgating",
+        "Homecoming",
+        "True Blue BBQ Contest",
+        "Cook-Offs",
+        "Alumni Events",
+        "Community Events",
+        "Live Music",
+        "Paul Laird Field"
+      ],
+      "description": "Tailgate Alley is Southeastern Oklahoma State University's dedicated outdoor tailgating and special-event area near Paul Laird Field in Durant. Located at the corner of 2nd Avenue and University Boulevard, the space comes alive around Savage Storm football games and major university traditions, hosting alumni and departmental gatherings, cook-offs, Homecoming activities, community events and other pregame programming.",
+      "why_visit": "Tailgate Alley is one of the best places to experience the social side of Savage Storm football. Watch for True Blue cook-offs, Homecoming gatherings, alumni reunions, organization tailgates and other special events surrounding Southeastern home games.",
+      "why_its_unique": "Rather than functioning simply as stadium parking, Tailgate Alley has developed its own identity as Southeastern's dedicated pregame gathering place, with recurring university traditions, alumni events, food competitions and community programming immediately adjacent to Paul Laird Field.",
+      "phone": "580-745-2875",
+      "email": "alumni@se.edu",
+      "website": "https://www.se.edu/venue/tailgate-alley/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Tailgate Alley does not have regular public operating hours. Activity centers around Southeastern football games, Homecoming and scheduled university or alumni events.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Outdoor tailgating area",
+        "Pregame gathering space",
+        "Space for tents and cook-off setups",
+        "Adjacent to Paul Laird Field"
+      ],
+      "good_to_know": [
+        "Southeastern's current venue listing gives Tailgate Alley an address of 1435 N 2nd Ave, Durant, OK 74701.",
+        "The venue is located at the corner of 2nd Avenue and University Boulevard near Paul Laird Field.",
+        "True Blue BBQ Contest is scheduled at Tailgate Alley on September 12, 2026 from 3:00 p.m. to 6:00 p.m.",
+        "Homecoming 2026 is scheduled for October 23-24 and Southeastern's current Homecoming materials specifically include Tailgate Alley programming and access.",
+        "Alumni Relations is the current published contact for Homecoming and alumni-tailgate questions.",
+        "Older Southeastern tailgating guidance welcomed tents and cookers on a first-come, first-served basis; visitors should verify current game-day rules before setting up.",
+        "Southeastern has pursued a Tailgate Alley renovation initiative, so future improvements to the area should be monitored."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "Tailgate Alley is Southeastern's dedicated outdoor tailgating and special-event area."
+      },
+      "related_businesses": [
+        {
+          "slug": "paul-laird-field",
+          "business_name": "Paul Laird Field",
+          "relationship_note": "Tailgate Alley is adjacent to Paul Laird Field and is heavily used for pregame activities surrounding Southeastern home football games."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Official Southeastern and Southeastern Athletics sources confirm Tailgate Alley as a separately named outdoor event and tailgating venue at 1435 N 2nd Ave near Paul Laird Field. Current 2026 university programming includes the September 12 True Blue BBQ Contest and Homecoming-related Tailgate Alley activity. Historical university records document recurring football tailgates, alumni and departmental gatherings, cook-offs, Native American programming and live music. Alumni Relations currently publishes 580-745-2875 and alumni@se.edu for Homecoming-related questions.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Football tailgates",
+        "Homecoming events",
+        "True Blue BBQ Contest",
+        "Chili cook-offs",
+        "Alumni reunions",
+        "Department and organization gatherings",
+        "Community events",
+        "Pregame live music",
+        "Native American programming"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University calendar",
+        "Southeastern Alumni Relations",
+        "Southeastern Athletics",
+        "Southeastern Homecoming"
+      ],
+      "features": [
+        "Dedicated Southeastern tailgating venue",
+        "Adjacent to Paul Laird Field",
+        "Recurring Savage Storm football programming",
+        "True Blue cook-off venue",
+        "Homecoming gathering area",
+        "Alumni and departmental tailgate venue",
+        "Documented live-music history",
+        "Active 2026 event schedule",
+        "Renovation initiative"
       ]
     }
   ]
