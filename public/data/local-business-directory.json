@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1001,
-  "publish_ready_count": 676,
+  "business_count": 1002,
+  "publish_ready_count": 677,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -103976,6 +103976,150 @@
         "Documented alumni event use",
         "Documented student event use",
         "Campus gathering destination"
+      ]
+    },
+    {
+      "slug": "henry-g-bennett-memorial-library",
+      "business_name": "Henry G. Bennett Memorial Library",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1405 N 4th Ave, Durant, OK 74701",
+      "category": [
+        "Library",
+        "Research Library",
+        "Community Resource",
+        "University Attraction"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Durant",
+        "Bryan County",
+        "Library",
+        "Books",
+        "Research",
+        "Archives",
+        "Special Collections",
+        "Government Documents",
+        "Native American Collection",
+        "Community Resources",
+        "Educational Programs",
+        "Academic Events"
+      ],
+      "description": "Henry G. Bennett Memorial Library is Southeastern Oklahoma State University's principal library in Durant, serving students, faculty, staff, alumni and members of the surrounding community. The library offers extensive print and electronic collections, archives, special collections, government documents, computer access, research assistance and educational resources. It also contains gathering and programming spaces used for academic talks, exhibits and selected community-facing university events.",
+      "why_visit": "Visitors can use the library for research, explore specialized and archival collections, access government information, use public-facing library resources or attend occasional lectures, displays and university programs. It is particularly valuable for anyone researching Southeastern, Oklahoma history, Native American subjects or regional topics.",
+      "why_its_unique": "Beyond its role as a university library, Henry G. Bennett Memorial Library maintains substantial archival, special and government-document collections and explicitly serves community members as well as the Southeastern campus. Its specialized holdings include Native American materials, Oklahoma-related collections, university archives and other distinctive research resources.",
+      "phone": "580-745-2932",
+      "email": "askalibrarian@se.edu",
+      "website": "https://www.se.edu/library/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Library hours vary by semester, holidays and university schedule. Southeastern directs visitors to the library website for current hours, so fixed weekly hours are not stored here.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Research assistance",
+        "Computer access",
+        "Archives",
+        "Special collections",
+        "Native American Collection",
+        "Government documents",
+        "Interlibrary loan",
+        "Electronic resources",
+        "Group study areas",
+        "Textbook reserve program"
+      ],
+      "good_to_know": [
+        "The library explicitly serves Southeastern students, faculty, staff, alumni and community members.",
+        "The library circulation desk can be reached at 580-745-2932.",
+        "Reference assistance is available through askalibrarian@se.edu.",
+        "Library hours vary according to semester and holiday schedules and should be checked before visiting.",
+        "The collection includes more than 193,000 monograph volumes and extensive microform, periodical and electronic holdings.",
+        "The library is a selective Government Documents Depository.",
+        "Special collections include the Native American Collection, Archives Collection, Clara Sue Kidwell Collection, Oklahoma Cookbook Collection, Todd Downing Collection and several other specialized holdings.",
+        "Most archival materials are not digitized and archival research generally requires an appointment because staff must accompany patrons.",
+        "Computer pods are available throughout the library during regular library hours.",
+        "The building contains named programming areas including the Native American Commons and Henry's.",
+        "Southeastern's main library webpages often display the university's general 425 W University Boulevard address in the site footer; library-specific university material identifies the library at 1405 N 4th Ave."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "Henry G. Bennett Memorial Library is Southeastern Oklahoma State University's principal library and a public-facing academic and community resource on the Durant campus."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Southeastern's official library pages confirm that Henry G. Bennett Memorial Library serves students, faculty, staff, alumni and community members and provides research services, archives, special collections, government documents and computer resources. A library-specific Southeastern government-information page identifies the building at 1405 N 4th Ave and publishes 580-745-2932, while general Southeastern page footers display the university-wide 425 W University Boulevard address. Current university event records confirm programming inside the library, including the April 2, 2026 launch of the Faculty Feature: Research Edition series in the Native American Commons. Hours vary by semester and holidays and therefore are not hard-coded.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Lectures",
+        "Faculty presentations",
+        "Research presentations",
+        "Educational programs",
+        "Library displays",
+        "Academic events",
+        "Community events",
+        "Civic and Constitution Day programming"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University Events Calendar",
+        "Henry G. Bennett Memorial Library",
+        "Southeastern Academic Affairs"
+      ],
+      "features": [
+        "Open to community members",
+        "University archives",
+        "Native American Collection",
+        "Special collections",
+        "Selective Government Documents Depository",
+        "Research assistance",
+        "Computer access",
+        "Electronic resources",
+        "Named programming spaces",
+        "Documented community-facing events"
       ]
     }
   ]
