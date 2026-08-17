@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1008,
-  "publish_ready_count": 683,
+  "business_count": 1009,
+  "publish_ready_count": 684,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -105002,6 +105002,163 @@
         "Elevator access to all floors",
         "Dedicated university calendar venue",
         "Home of Montgomery Auditorium"
+      ]
+    },
+    {
+      "slug": "centre-art-gallery",
+      "business_name": "Centre Art Gallery",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Inside the Visual & Performing Arts Center, 1614 N First St, Durant, OK 74701",
+      "category": [
+        "Art Gallery",
+        "Cultural Attraction",
+        "University Gallery",
+        "Event Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Centre Art Gallery",
+        "Centre Gallery",
+        "Durant",
+        "Bryan County",
+        "Visual Arts",
+        "Art Exhibitions",
+        "Student Art",
+        "Faculty Art",
+        "Visiting Artists",
+        "Native American Art",
+        "Hogan Collection",
+        "Gallery Receptions"
+      ],
+      "description": "Centre Art Gallery is Southeastern Oklahoma State University's exhibition gallery inside the Visual & Performing Arts Center in Durant. Operated through Southeastern's Art Studio program, the gallery presents exhibitions by students, faculty and visiting artists as well as touring exhibitions. It is also home to the Hogan Collection of Native American Art and regularly serves as a setting for exhibition receptions and other visual-arts programming.",
+      "why_visit": "Centre Art Gallery gives visitors a chance to see changing exhibitions from Southeastern students and faculty alongside work by visiting and regional artists. Exhibitions and receptions make it one of the university's most accessible visual-arts destinations.",
+      "why_its_unique": "The gallery combines an active university exhibition program with Southeastern's Hogan Collection of Native American Art. Its programming has included student capstone exhibitions, faculty shows, touring Oklahoma art exhibitions and juried competitions.",
+      "phone": "580-745-2735",
+      "email": null,
+      "website": "https://www.se.edu/act/centre-gallery/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "1:00 PM - 4:30 PM",
+        "tuesday": "1:00 PM - 4:30 PM",
+        "wednesday": "1:00 PM - 4:30 PM",
+        "thursday": "1:00 PM - 4:30 PM",
+        "friday": "1:00 PM - 4:30 PM"
+      },
+      "hours_note": "Southeastern's current Centre Gallery page lists Monday-Friday from 1:00 PM to 4:30 PM or by arrangement. Individual exhibitions may publish expanded or different hours, so visitors should check the current exhibition information before making a special trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Changing art exhibitions",
+        "Student art exhibitions",
+        "Faculty art exhibitions",
+        "Visiting artist exhibitions",
+        "Touring exhibitions",
+        "Gallery receptions",
+        "Hogan Collection of Native American Art",
+        "Located inside the Visual & Performing Arts Center"
+      ],
+      "good_to_know": [
+        "Southeastern currently uses both Centre Art Gallery and the shortened Centre Gallery name for this space.",
+        "TWG uses Centre Art Gallery as the canonical directory name because that wording appears on Southeastern's current Art Studio program page.",
+        "The gallery is located inside Southeastern's Visual & Performing Arts Center at 1614 N First St in Durant.",
+        "Southeastern's Art Studio program operates the gallery.",
+        "The Art Studio program says the gallery features annual exhibitions by students, faculty and visiting artists.",
+        "The gallery is home to the Hogan Collection of Native American Art.",
+        "Southeastern's dedicated gallery page lists regular hours as Monday-Friday from 1:00 PM to 4:30 PM or by arrangement.",
+        "Exhibition-specific hours may differ. The 2024 Great Plains Juried Art Show, for example, was open Monday-Friday from 1:00 PM to 5:00 PM.",
+        "The 19th Annual Great Plains Juried Art Show ran at Centre Gallery from March 28 through April 25, 2024 and concluded with an awards presentation and closing reception.",
+        "Southeastern's 2025 Senior Art Show was displayed at Centre Gallery in May 2025 and included a public reception.",
+        "Historic Native American Symposium programming has featured works from the Charles and Miriam Hogan Native American Art Collection in Centre Gallery.",
+        "Southeastern's current staff directory lists Visual Arts Studio Assistant Russell Poole at VPAC Centre Gallery, 580-745-2274 and rpoole@se.edu.",
+        "No current general gallery email address, admission price or published maximum capacity was verified, so those fields are not inferred."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "visual-performing-arts-center",
+        "business_name": "Visual & Performing Arts Center",
+        "relationship_note": "Centre Art Gallery is a dedicated exhibition gallery located inside Southeastern Oklahoma State University's Visual & Performing Arts Center."
+      },
+      "related_businesses": [
+        {
+          "slug": "semple-family-museum-of-native-american-art",
+          "business_name": "Semple Family Museum of Native American Art",
+          "relationship_note": "Separate Southeastern Native American art destination. Centre Art Gallery houses the Hogan Collection and rotating exhibitions, while the Semple Family Museum is a distinct museum facility."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Southeastern's current Art Studio page identifies Centre Art Gallery as a gallery operated by the Art Studio program, featuring annual student, faculty and visiting-artist exhibitions and housing the Hogan Collection of Native American Art. Southeastern's dedicated Centre Gallery page places the gallery in the Visual Performing Arts Center at 1614 N First Street and currently lists Monday-Friday hours of 1:00-4:30 PM or by arrangement plus the contact number 580-745-2735. University records document recurring exhibition activity including the 19th Annual Great Plains Juried Art Show in 2024 and the Senior Art Show in 2025. Southeastern uses both Centre Art Gallery and Centre Gallery in current official material; TWG uses Centre Art Gallery as the canonical name. No current general gallery email, maximum capacity or admission price was verified.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Art exhibitions",
+        "Student art shows",
+        "Faculty exhibitions",
+        "Visiting artist exhibitions",
+        "Juried art shows",
+        "Touring exhibitions",
+        "Gallery receptions",
+        "Awards presentations",
+        "Native American art exhibitions"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University Events Calendar",
+        "Southeastern Centre Gallery",
+        "Southeastern Art Studio",
+        "Southeastern University Communications"
+      ],
+      "features": [
+        "Dedicated university art gallery",
+        "Inside the Visual & Performing Arts Center",
+        "Annual student exhibitions",
+        "Faculty exhibitions",
+        "Visiting artist exhibitions",
+        "Touring exhibitions",
+        "Hogan Collection of Native American Art",
+        "Public gallery receptions",
+        "Recurring visual-arts programming"
       ]
     }
   ]
