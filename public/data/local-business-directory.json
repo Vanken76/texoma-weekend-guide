@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 994,
-  "publish_ready_count": 669,
+  "business_count": 995,
+  "publish_ready_count": 670,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -103029,6 +103029,140 @@
         "Primary rentable outdoor space",
         "Recurring Welcome Week use",
         "Student-organization event use"
+      ]
+    },
+    {
+      "slug": "southeastern-oklahoma-state-university-massey-building",
+      "business_name": "Southeastern Oklahoma State University Massey Building",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "200 W Main St, Durant, OK 74701",
+      "category": [
+        "Event Venue",
+        "Rental Venue",
+        "Wedding Venue",
+        "Reception & Banquet Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Massey Building",
+        "Durant",
+        "Downtown Durant",
+        "Bryan County",
+        "Weddings",
+        "Proms",
+        "Parties",
+        "Banquets",
+        "Receptions",
+        "University Events",
+        "Event Rentals"
+      ],
+      "description": "Southeastern Oklahoma State University Massey Building is a large rentable event venue at 200 W Main Street in downtown Durant. Southeastern identifies the facility simply as Massey Building and lists it among the university's primary rentable spaces. The venue can accommodate several hundred guests and is available for parties, weddings, proms, banquets and other university or private events.",
+      "why_visit": "The Massey Building provides a sizable indoor event option in downtown Durant for weddings, proms, parties, banquets and university functions. Its flexible capacity allows the room to be configured for standing gatherings, traditional chair seating or table-and-chair events.",
+      "why_its_unique": "Unlike most Southeastern event facilities located on the main campus, the Massey Building sits in downtown Durant. Its combination of downtown location, flexible configurations and capacity for several hundred guests makes it one of the university's larger off-campus rental venues.",
+      "phone": "580-745-2512",
+      "email": "specialevents@se.edu",
+      "website": "https://www.se.edu/special-events/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public operating hours are published for the Massey Building. Access depends on scheduled events and approved rentals.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Indoor event space",
+        "Standing capacity up to 381",
+        "Chair seating capacity up to 275",
+        "Tables-and-chairs capacity up to 132",
+        "Downtown Durant location",
+        "Private and university event rentals"
+      ],
+      "good_to_know": [
+        "Southeastern Oklahoma State University officially refers to the venue simply as Massey Building.",
+        "TWG uses Southeastern Oklahoma State University Massey Building as the canonical directory name to distinguish it from similarly named buildings elsewhere.",
+        "The venue is located at 200 W Main Street in downtown Durant rather than on Southeastern's main campus.",
+        "Maximum published occupancy is 381 standing, 275 with chairs only or 132 with tables and chairs.",
+        "Current published party rental pricing is $300 for four hours plus $50 for each additional hour.",
+        "Current published prom or wedding pricing is $1,250 for a one-day rental.",
+        "The current published deposit is $300.",
+        "Southeastern lists the building among facilities available to student organizations, with 132 identified as the maximum table-and-chair seating configuration.",
+        "The Massey Building should not be confused with Southeastern's John Massey School of Business, which is a separate academic entity."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "The Massey Building is a Southeastern Oklahoma State University-owned or operated primary rentable event facility located in downtown Durant."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Official Southeastern sources identify Massey Building as a primary rentable event space at 200 W Main Street in downtown Durant. Current published capacities are 381 standing, 275 chairs-only and 132 with tables and chairs. Current rates are $300 for a four-hour party rental with additional hours at $50 each, or $1,250 for a one-day prom or wedding rental, with a $300 deposit. Southeastern also documents university-event use, including the 2025 Safety Olympics awards banquet. TWG uses Southeastern Oklahoma State University Massey Building as the canonical name to prevent ambiguity with other Massey-named facilities.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Weddings",
+        "Proms",
+        "Parties",
+        "Banquets",
+        "Receptions",
+        "University events",
+        "Awards ceremonies",
+        "Private rentals"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University Special Events",
+        "Southeastern Oklahoma State University news and calendar"
+      ],
+      "features": [
+        "Primary Southeastern rentable venue",
+        "Downtown Durant location",
+        "381-person standing capacity",
+        "275-person chair seating capacity",
+        "132-person tables-and-chairs capacity",
+        "Wedding and prom rentals",
+        "Party rentals",
+        "Documented university banquet use"
       ]
     }
   ]
