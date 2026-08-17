@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 298,
-  "publish_ready_count": 298,
+  "event_count": 299,
+  "publish_ready_count": 299,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -20170,6 +20170,75 @@
       "host_business_slug": "sherman-public-library",
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_slug": "messy-church-fannin-county-2026-08-22",
+      "event_name": "Messy Church",
+      "description": "Messy Church is an all-ages, intergenerational gathering at the Creative Arts Center in Bonham combining creative activities, Christ-centered learning and celebration, fellowship, and a shared meal. The Fannin County gathering is scheduled for the fourth Saturday of each month from 4:30 to 6:00 PM.",
+      "start_datetime": "2026-08-22T16:30:00-05:00",
+      "end_datetime": "2026-08-22T18:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "creative-arts-center-bonham"
+      ],
+      "venue_name": "Creative Arts Center",
+      "address": "200 W 5th St",
+      "city": "Bonham",
+      "state": "TX",
+      "postal_code": "75418",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Faith & Spirituality",
+        "Family & Kids",
+        "Community"
+      ],
+      "tags": [
+        "Messy Church",
+        "Messy Church Fannin County",
+        "Bonham",
+        "Fannin County",
+        "all ages",
+        "family activities",
+        "crafts",
+        "faith",
+        "Christian",
+        "fellowship",
+        "community",
+        "shared meal",
+        "Creative Arts Center"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "The current August 22 listing does not state an admission charge. Previous 2026 Messy Church gatherings in Bonham have been advertised as free and open to the public, but TWG does not assume that pricing for this occurrence without explicit current confirmation.",
+      "audience": [
+        "all-ages",
+        "families",
+        "community"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Messy Church Fannin County",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "First Presbyterian Church Bonham"
+      ],
+      "image_url": "/images/events/messy-church-fannin-county-2026-08-22.png",
+      "image_alt": null,
+      "official_url": "https://bonhamchamber.com/venue/creative-arts-center/",
+      "facebook_url": "https://www.facebook.com/MessyChurchFanninCounty",
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=MONTHLY;BYDAY=4SA",
+      "recurrence_start_date": "2026-08-22",
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified for Saturday, August 22, 2026 from 4:30 PM to 6:00 PM at Creative Arts Center, 200 W 5th St, Bonham, TX 75418. The Bonham Area Chamber of Commerce states that Messy Church meets on the fourth Saturday of each month from 4:30 to 6:00 PM at the Creative Arts Center and invites people of all ages for creative Christ-centered activities, learning and celebration, and a shared meal. Messy Church USA independently lists First Presbyterian Church Bonham with the same fourth-Saturday 4:30-6:00 PM schedule. Earlier 2026 Bonham gatherings were advertised as free and open to the public, but the current August listing does not explicitly publish a cost, so this occurrence is marked cost_type unknown rather than assuming free admission.",
+      "last_checked": "2026-08-17",
+      "created_on": "2026-08-17",
+      "updated_on": "2026-08-17"
     }
   ]
 }
