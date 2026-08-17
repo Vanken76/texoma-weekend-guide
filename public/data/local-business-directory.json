@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1009,
-  "publish_ready_count": 684,
+  "business_count": 1010,
+  "publish_ready_count": 685,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -105159,6 +105159,135 @@
         "Hogan Collection of Native American Art",
         "Public gallery receptions",
         "Recurring visual-arts programming"
+      ]
+    },
+    {
+      "slug": "science-meditative-garden",
+      "business_name": "Science Meditative Garden",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Southeastern Oklahoma State University campus, Durant, OK 74701",
+      "category": [
+        "Garden",
+        "Wellness & Mindfulness",
+        "Outdoor Attraction",
+        "Campus Attraction"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Science Meditative Garden",
+        "Durant",
+        "Bryan County",
+        "Mindfulness",
+        "Meditation",
+        "Nature",
+        "Study Spot",
+        "Journaling",
+        "Outdoor Space",
+        "Campus Wellness"
+      ],
+      "description": "Science Meditative Garden is a named outdoor mindfulness space on the Southeastern Oklahoma State University campus in Durant. Southeastern features the garden on its official Mindfulness Map as a place to journal, study and enjoy nature, and maintains a dedicated university page for the location with mindfulness and reflective-practice resources.",
+      "why_visit": "The garden provides a quieter outdoor campus setting for journaling, studying, reflection and spending time in nature. It can be incorporated into a self-guided visit to Southeastern's broader network of mindfulness locations.",
+      "why_its_unique": "Science Meditative Garden is one of Southeastern's specifically designated mindfulness destinations rather than simply an unnamed landscaped area. The university highlights it alongside places such as the Labyrinth, Crooked Smile Trail, Arboretum and Legacy Plaza on its official Mindfulness Map.",
+      "phone": "580-745-2988",
+      "email": "sewellness@se.edu",
+      "website": "https://www.se.edu/science-meditative-garden/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No Science Meditative Garden-specific public operating hours are currently published.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Outdoor garden setting",
+        "Mindfulness and reflection space",
+        "Study setting",
+        "Journaling setting",
+        "Nature-focused campus space"
+      ],
+      "good_to_know": [
+        "Science Meditative Garden is the official name used by Southeastern Oklahoma State University.",
+        "Southeastern maintains a dedicated university webpage for the garden.",
+        "The university includes Science Meditative Garden as stop 11 on its official Mindfulness Map.",
+        "Southeastern specifically recommends the location for journaling, studying and enjoying nature.",
+        "The garden's dedicated page also provides mindfulness and mindful-prayer resources.",
+        "No exact garden-specific street address is currently published, so TWG uses the Southeastern Durant campus location rather than inferring a precise address.",
+        "No facility-specific hours, capacity, admission fee, reservation system or accessibility information was verified.",
+        "Student Wellness Services can be reached at 580-745-2988 or sewellness@se.edu for general Southeastern wellness information; this is not represented as a dedicated garden contact."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "Science Meditative Garden is a named outdoor mindfulness destination on Southeastern Oklahoma State University's Durant campus."
+      },
+      "related_businesses": [
+        {
+          "slug": "dr-charla-r-hall-labyrinth",
+          "business_name": "Dr. Charla R. Hall Labyrinth",
+          "relationship_note": "Another separately named Southeastern mindfulness destination featured on the university's Mindfulness Map."
+        },
+        {
+          "slug": "crooked-smile-trail",
+          "business_name": "Crooked Smile Trail",
+          "relationship_note": "Another outdoor Southeastern wellness and recreation destination included on the university's Mindfulness Map."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete with deliberately limited facility details. Southeastern Oklahoma State University maintains a dedicated Science Meditative Garden webpage and lists the garden on its official Mindfulness Map as a location for journaling, studying and enjoying nature. The garden page also links into Southeastern's broader mindfulness and Student Wellness resources. No exact garden-specific street address, published hours, capacity, admission charge, accessibility information or documented recurring event program was verified, so those details are not inferred. Student Wellness Services currently publishes 580-745-2988 and sewellness@se.edu as general wellness contact information.",
+      "last_checked": "2026-08-16",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Official Southeastern mindfulness destination",
+        "Dedicated university webpage",
+        "Featured on Southeastern's Mindfulness Map",
+        "Outdoor garden setting",
+        "Journaling space",
+        "Study space",
+        "Nature and reflection space"
       ]
     }
   ]
