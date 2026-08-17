@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 996,
-  "publish_ready_count": 671,
+  "business_count": 997,
+  "publish_ready_count": 672,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -103287,6 +103287,155 @@
         "Campus tour starting point",
         "Weekday scheduled campus tours",
         "Prospective student and family visitor services"
+      ]
+    },
+    {
+      "slug": "southeastern-oklahoma-state-university-legacy-plaza",
+      "business_name": "Southeastern Oklahoma State University Legacy Plaza",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "425 W University Blvd, Durant, OK 74701",
+      "category": [
+        "Campus Landmark",
+        "Plaza",
+        "Outdoor Event Venue",
+        "Public Art"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "SE Legacy Plaza",
+        "Legacy Plaza",
+        "Durant",
+        "Bryan County",
+        "Public Art",
+        "The Two Brothers",
+        "Jane Semple Umsted",
+        "Native American Art",
+        "Choctaw",
+        "Chickasaw",
+        "Water Features",
+        "Heritage Trail",
+        "Campus Events",
+        "Ceremonies",
+        "Front Lawn"
+      ],
+      "description": "Southeastern Oklahoma State University Legacy Plaza is a landscaped campus landmark, gathering place and ceremonial space on the university's Front Lawn in Durant. Opened in 2023, the plaza incorporates donor and class bricks, winding pathways, water features and the River Crossing water wall as the first phase of Southeastern's planned Heritage Trail. The plaza is also home to The Two Brothers, a monumental bronze sculpture by Southeastern alumna and Choctaw artist Jane Semple Umsted celebrating the university's relationship with sovereign tribal nations.",
+      "why_visit": "Legacy Plaza combines Southeastern history, public art and an attractive landscaped gathering space in one of the most prominent areas of campus. Visitors can see the River Crossing water wall, donor and class bricks and The Two Brothers sculpture while exploring the university's Front Lawn. The plaza also hosts university ceremonies and special events.",
+      "why_its_unique": "Legacy Plaza was designed specifically to tell Southeastern's story through landscape, donor recognition, class traditions, Native American art and symbolism tied to the history and cultures of southeastern Oklahoma. It also serves as the starting point for the university's developing Heritage Trail.",
+      "phone": "580-745-2000",
+      "email": null,
+      "website": "https://www.se.edu/selegacy/legacy-plaza/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No separate public operating hours are published for Legacy Plaza. It is an outdoor university campus space; access may be affected by university operations, scheduled events or campus restrictions.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "River Crossing water wall",
+        "Water features",
+        "Outdoor benches",
+        "Donor bricks",
+        "Class bricks",
+        "Landscaped pathways",
+        "Public art",
+        "The Two Brothers bronze sculpture"
+      ],
+      "good_to_know": [
+        "Southeastern officially opened Legacy Plaza on August 19, 2023.",
+        "TWG uses Southeastern Oklahoma State University Legacy Plaza as the canonical directory name to distinguish it from other places that may use the generic Legacy Plaza name.",
+        "The plaza is located on the Front Lawn in front of Morrison Hall.",
+        "The River Crossing water wall was inspired by the fountain from Southeastern's original campus quad.",
+        "Legacy Plaza forms the first phase and trailhead concept for Southeastern's planned Heritage Trail.",
+        "The plaza contains donor recognition bricks and supports a university tradition involving class bricks.",
+        "The Two Brothers sculpture was dedicated at Legacy Plaza in October 2024.",
+        "Southeastern continues to describe Legacy Plaza as an ongoing project with additional phases planned.",
+        "No separate Legacy Plaza rental rate or official maximum event capacity is currently published."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "Legacy Plaza is a landscaped landmark, ceremonial gathering space and public-art destination on Southeastern Oklahoma State University's Durant campus."
+      },
+      "related_businesses": [
+        {
+          "slug": "front-lawn",
+          "business_name": "Front Lawn",
+          "relationship_note": "Legacy Plaza is physically located on and frames part of Southeastern's Front Lawn."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Official Southeastern sources confirm Legacy Plaza at 425 W University Blvd as a separately named university venue and landmark. The plaza officially opened August 19, 2023 and incorporates donor and class bricks, the River Crossing water wall and pathways designed as the first phase of the planned Heritage Trail. The Two Brothers bronze sculpture by Southeastern alumna and Choctaw artist Jane Semple Umsted was dedicated there in October 2024. Southeastern documented continued ceremonial use in March 2026 with the launch of its Guard Officer Leadership Development program. TWG uses Southeastern Oklahoma State University Legacy Plaza as the canonical name to prevent ambiguity with similarly named plazas.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "University ceremonies",
+        "Class traditions",
+        "Student Life activities",
+        "Welcome Week activities",
+        "Public-art dedications",
+        "Military and leadership ceremonies",
+        "Wellness activities",
+        "Campus gatherings"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University calendar",
+        "Southeastern Oklahoma State University news",
+        "SE Legacy",
+        "Southeastern Student Life"
+      ],
+      "features": [
+        "Opened in 2023",
+        "River Crossing water wall",
+        "Donor and class bricks",
+        "The Two Brothers monumental bronze sculpture",
+        "Native American cultural significance",
+        "First phase of Southeastern's Heritage Trail",
+        "Landscaped Front Lawn setting",
+        "Dedicated Southeastern calendar venue",
+        "Active ceremonial venue"
       ]
     }
   ]
