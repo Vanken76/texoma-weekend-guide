@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "project": "Texoma Weekend Guide",
   "document_type": "local_event_directory",
-  "generated_on": "2026-08-15",
+  "generated_on": "2026-08-17",
   "timezone_default": "America/Chicago",
   "publication_rule": "Only records with publish_ready=true should appear in the public event directory.",
   "active_event_rule": "status in [upcoming, recurring] and either end_datetime is in the future, or end_datetime is null and the local event date has not passed",
@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 296,
-  "publish_ready_count": 296,
+  "event_count": 297,
+  "publish_ready_count": 297,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -20040,6 +20040,72 @@
       "venue_slugs": [
         "4r-ranch-vineyards-winery"
       ],
+      "partner_business_slugs": [],
+      "partner_names": []
+    },
+    {
+      "event_slug": "butterfly-garden-walk-hagerman-national-wildlife-refuge-2026-08-22",
+      "event_name": "Butterfly Garden Walk",
+      "description": "Enjoy a guided, come-and-go visit to the Butterfly Garden at Hagerman National Wildlife Refuge. Garden docents will be available to help visitors identify Texas native plants and butterflies, with butterfly and plant literature available. Family activities include scavenger hunts, the Metamorphosis Puppet and other hands-on nature fun. Registration is not required.",
+      "start_datetime": "2026-08-22T09:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "hagerman-national-wildlife-refuge-sherman"
+      ],
+      "venue_name": "Hagerman National Wildlife Refuge",
+      "address": "6465 Refuge Road",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75092",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Nature & Outdoors",
+        "Family Friendly",
+        "Educational",
+        "Wildlife"
+      ],
+      "tags": [
+        "butterflies",
+        "butterfly garden",
+        "native plants",
+        "pollinators",
+        "nature walk",
+        "wildlife",
+        "family activity",
+        "kids activities",
+        "scavenger hunt",
+        "Hagerman National Wildlife Refuge",
+        "Lake Texoma",
+        "Sherman"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free. Registration is not required. There are no admission or parking fees at the refuge. Donations are accepted to support the Butterfly Garden and other Friends of Hagerman programs.",
+      "audience": [
+        "family-friendly",
+        "all-ages"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/butterfly-garden-walk-hagerman-national-wildlife-refuge-2026-08-22.png",
+      "image_alt": null,
+      "official_url": "https://www.friendsofhagerman.com/ButterflyWalk",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the official Friends of Hagerman NWR Butterfly Garden Walk schedule for Saturday, August 22, 2026 at 9:00 AM at Hagerman National Wildlife Refuge, 6465 Refuge Road, Sherman, TX 75092. Friends of Hagerman states that registration is not necessary and describes docent-assisted identification of Texas native plants and butterflies plus family activities including scavenger hunts and the Metamorphosis Puppet. The Friends all-events calendar currently displays an ending time of 11:00 PM, which conflicts with the daytime nature-program context and is not repeated on the primary Butterfly Garden Walk schedule. TWG therefore leaves end_datetime null rather than guessing or silently correcting the organizer's apparent time-entry error. This date is stored as a one-time occurrence because later 2026 Butterfly Garden Walk dates use different start times.",
+      "last_checked": "2026-08-16",
+      "created_on": "2026-08-16",
+      "updated_on": "2026-08-17",
+      "organizer_name": "Friends of Hagerman NWR",
+      "host_business_slug": null,
       "partner_business_slugs": [],
       "partner_names": []
     }
