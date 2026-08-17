@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 993,
-  "publish_ready_count": 668,
+  "business_count": 994,
+  "publish_ready_count": 669,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -102903,6 +102903,132 @@
         "Magnolia-shaded lawn",
         "Framed by Legacy Plaza and water features",
         "Dedicated Southeastern calendar venue"
+      ]
+    },
+    {
+      "slug": "southeastern-oklahoma-state-university-gazebo",
+      "business_name": "Southeastern Oklahoma State University Gazebo",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Southeastern Oklahoma State University campus, 425 W University Blvd, Durant, OK 74701",
+      "category": [
+        "Gazebo",
+        "Outdoor Event Venue",
+        "Rental Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Southeastern Gazebo",
+        "Gazebo",
+        "Gazebo Fire Pit",
+        "Durant",
+        "Bryan County",
+        "Outdoor Events",
+        "Student Life",
+        "Welcome Week",
+        "Student Organizations",
+        "BCM Luau",
+        "Fire Pit",
+        "Campus Events"
+      ],
+      "description": "Southeastern Oklahoma State University Gazebo is a separately named outdoor event and gathering space on Southeastern's campus in Durant. The university refers to the venue simply as Gazebo in its event calendar and as Gazebo/Fire Pit in its Student Life reservation inventory. Southeastern lists the space among its primary rentable venues, and it has supported recurring Welcome Week and student-organization programming.",
+      "why_visit": "Watch the Southeastern Oklahoma State University Gazebo for smaller outdoor campus gatherings, Welcome Week activities and student-organization programs. The gazebo and adjoining fire-pit area provide a distinctive outdoor setting for scheduled Southeastern events and approved rentals.",
+      "why_its_unique": "The gazebo provides Southeastern with a defined outdoor gathering structure paired with a fire-pit area, offering a more intimate setting than larger university spaces such as the Front Lawn, Amphitheater or Tailgate Alley.",
+      "phone": "580-745-2512",
+      "email": "specialevents@se.edu",
+      "website": "https://www.se.edu/venue/gazebo/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public operating hours are published specifically for the gazebo. Use depends on campus operations, scheduled events and approved reservations.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Outdoor gazebo",
+        "Fire-pit area",
+        "Reservable campus event space"
+      ],
+      "good_to_know": [
+        "Southeastern Oklahoma State University uses the simple venue name Gazebo in its event calendar.",
+        "Student Life identifies the reservable facility as Gazebo/Fire Pit.",
+        "TWG uses Southeastern Oklahoma State University Gazebo as the canonical directory name to distinguish it from other gazebos across the Texoma region.",
+        "Southeastern lists the venue among its primary rentable event spaces.",
+        "No current official maximum seating or occupancy capacity is published.",
+        "No gazebo-specific rental rate is currently published; contact Southeastern Special Events for current availability and pricing.",
+        "The university's venue archive documents BCM Luau events here during Welcome Week in both 2024 and 2025.",
+        "Some student-organization events held here may require a valid Southeastern student ID."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "Southeastern Oklahoma State University Gazebo is an outdoor gathering and event venue on the university's Durant campus."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Official Southeastern sources confirm the venue under the names Gazebo and Gazebo/Fire Pit as a separately identified campus event space and primary rentable outdoor venue. TWG uses Southeastern Oklahoma State University Gazebo as the canonical directory name to prevent ambiguity with other gazebos. The official venue archive documents recurring BCM Luau use during Welcome Week in 2024 and 2025. No official capacity or gazebo-specific rental rate is currently published.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Welcome Week activities",
+        "Student organization events",
+        "Outdoor social gatherings",
+        "Campus activities",
+        "Private and university rentals"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University calendar",
+        "Southeastern Special Events",
+        "Southeastern Student Life"
+      ],
+      "features": [
+        "Outdoor gazebo",
+        "Fire-pit area",
+        "Separately named Southeastern calendar venue",
+        "Primary rentable outdoor space",
+        "Recurring Welcome Week use",
+        "Student-organization event use"
       ]
     }
   ]
