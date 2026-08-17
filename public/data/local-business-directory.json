@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 991,
-  "publish_ready_count": 666,
+  "business_count": 992,
+  "publish_ready_count": 667,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -102636,6 +102636,140 @@
         "Documented live-music history",
         "Active 2026 event schedule",
         "Renovation initiative"
+      ]
+    },
+    {
+      "slug": "alumni-pavilion",
+      "business_name": "Alumni Pavilion",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Within Tailgate Alley near Paul Laird Field, Southeastern Oklahoma State University, Durant, OK 74701",
+      "category": [
+        "Pavilion",
+        "Outdoor Event Venue",
+        "Rental Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Durant",
+        "Bryan County",
+        "Tailgate Alley",
+        "Alumni",
+        "Homecoming",
+        "Reunions",
+        "Tailgating",
+        "Outdoor Events",
+        "Campus Events"
+      ],
+      "description": "Alumni Pavilion is a covered outdoor gathering and rental venue within Southeastern Oklahoma State University's tailgating area near Paul Laird Field in Durant. Southeastern lists the space as Alumni Alley / Pavilion among its primary rentable event spaces. The pavilion is associated with the university's longstanding alumni-tailgating tradition and provides a sheltered gathering point for reunions, Homecoming activities and other campus events.",
+      "why_visit": "Watch the Alumni Pavilion and surrounding Tailgate Alley for Southeastern Homecoming activities, alumni reunions, pregame gatherings and other special events. The covered pavilion provides a more defined gathering space within the university's larger outdoor tailgating area.",
+      "why_its_unique": "The pavilion gives Southeastern's broader Tailgate Alley a dedicated covered gathering structure tied specifically to the university's alumni tradition, making it useful for reunions, hosted tailgates and outdoor special events.",
+      "phone": "580-745-2512",
+      "email": "specialevents@se.edu",
+      "website": "https://www.se.edu/special-events/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public operating hours are published for Alumni Pavilion. Access depends on scheduled university events, approved rentals and activities in the surrounding Tailgate Alley area.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Covered outdoor pavilion",
+        "Primary rentable university event space",
+        "Location within Southeastern's tailgating area"
+      ],
+      "good_to_know": [
+        "Southeastern currently lists the venue as Alumni Alley / Pavilion among its primary rentable event spaces.",
+        "The broader surrounding game-day area is now identified by Southeastern as Tailgate Alley.",
+        "Historic Southeastern materials identify Alumni Alley in the area across or southeast of Paul Laird Field.",
+        "No current official maximum occupancy or seating capacity is published for the pavilion.",
+        "No current standalone pavilion rental price is published; contact Southeastern Special Events for availability and rates.",
+        "Homecoming and alumni programming in this area may be ticketed, sponsored or limited to particular alumni groups, so check individual event details."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "tailgate-alley",
+        "business_name": "Tailgate Alley",
+        "relationship_note": "Alumni Pavilion is the covered alumni gathering and rental structure within Southeastern's broader Tailgate Alley outdoor event area."
+      },
+      "related_businesses": [
+        {
+          "slug": "southeastern-oklahoma-state-university",
+          "business_name": "Southeastern Oklahoma State University",
+          "relationship_note": "Alumni Pavilion is a Southeastern Oklahoma State University campus event facility."
+        },
+        {
+          "slug": "paul-laird-field",
+          "business_name": "Paul Laird Field at Spend Life Wisely Stadium",
+          "relationship_note": "The pavilion and surrounding tailgating area are located near Paul Laird Field and are heavily associated with Southeastern football and Homecoming activity."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Southeastern currently lists Alumni Alley / Pavilion among its primary rentable campus spaces. Historical university materials place Alumni Alley across or southeast of Paul Laird Field, while current Southeastern materials identify the broader game-day area as Tailgate Alley. To avoid duplicating the existing Tailgate Alley record, this record models the Alumni Pavilion as the distinct covered structure within that larger area. Southeastern does not currently publish a pavilion-specific capacity, rental price or regular operating hours.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Alumni reunions",
+        "Homecoming gatherings",
+        "Football tailgates",
+        "Pregame events",
+        "University receptions",
+        "Outdoor social events"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University Special Events",
+        "Southeastern Alumni Relations",
+        "Southeastern Homecoming",
+        "Official Southeastern alumni social channels"
+      ],
+      "features": [
+        "Covered outdoor pavilion",
+        "Primary Southeastern rentable space",
+        "Located within Tailgate Alley",
+        "Alumni gathering venue",
+        "Homecoming and football-event connection",
+        "Near Paul Laird Field"
       ]
     }
   ]
