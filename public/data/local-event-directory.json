@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 297,
-  "publish_ready_count": 297,
+  "event_count": 298,
+  "publish_ready_count": 298,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -20106,6 +20106,68 @@
       "updated_on": "2026-08-17",
       "organizer_name": "Friends of Hagerman NWR",
       "host_business_slug": null,
+      "partner_business_slugs": [],
+      "partner_names": []
+    },
+    {
+      "event_slug": "once-upon-a-craft-sherman-public-library-2026-08-21",
+      "event_name": "Once Upon a Craft",
+      "description": "Kids ages 6-9 can enjoy a story followed by a creative craft at Sherman Public Library's Once Upon a Craft. Participation is first come, first served while supplies last, and no tickets or advance signup are required.",
+      "start_datetime": "2026-08-21T16:00:00-05:00",
+      "end_datetime": "2026-08-21T17:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "sherman-public-library"
+      ],
+      "venue_name": "Sherman Public Library",
+      "address": "421 N Travis St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Family & Kids",
+        "Arts & Crafts",
+        "Library",
+        "Educational"
+      ],
+      "tags": [
+        "kids",
+        "ages 6-9",
+        "storytime",
+        "crafts",
+        "creative activities",
+        "library events",
+        "Sherman Public Library",
+        "Sherman",
+        "family activities"
+      ],
+      "cost_type": "free",
+      "cost_details": "No tickets or signups are required. Participation is first come, first served while supplies last.",
+      "audience": [
+        "children ages 6-9"
+      ],
+      "age_restriction": "Ages 6-9",
+      "image_url": "/images/events/once-upon-a-craft-sherman-public-library-2026-08-21.png",
+      "image_alt": null,
+      "official_url": "https://cityofsherman.com/Calendar.aspx?EID=12943",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the City of Sherman's official August 2026 calendar. Once Upon a Craft is scheduled for Friday, August 21, 2026 from 4:00 PM to 5:30 PM at Sherman Public Library. The official listing states that kids ages 6-9 can listen to a story and complete a creative craft. Participation is first come, first served while supplies last, with no tickets or signups required. The library's official page confirms its address as 421 N Travis St, Sherman, TX 75090. The Once Upon a Craft program has appeared on other 2026 dates, but no reliable recurrence rule is published, so this record represents only the August 21 occurrence.",
+      "last_checked": "2026-08-17",
+      "created_on": "2026-08-17",
+      "updated_on": "2026-08-17",
+      "organizer_name": "Sherman Public Library",
+      "host_business_slug": "sherman-public-library",
       "partner_business_slugs": [],
       "partner_names": []
     }
