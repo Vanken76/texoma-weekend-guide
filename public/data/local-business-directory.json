@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-16",
+  "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 989,
-  "publish_ready_count": 664,
+  "business_count": 990,
+  "publish_ready_count": 665,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -102356,6 +102356,146 @@
         "Reservable campus facility",
         "Recurring Narcan training venue",
         "Small-group meeting and training space"
+      ]
+    },
+    {
+      "slug": "se-amphitheater",
+      "business_name": "SE Amphitheater",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Southeastern Oklahoma State University campus, across from the Towers, Durant, OK 74701",
+      "category": [
+        "Amphitheater",
+        "Outdoor Event Venue",
+        "Historic Campus Venue",
+        "Wedding Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Durant",
+        "Bryan County",
+        "Outdoor Events",
+        "Historic Venue",
+        "Homecoming",
+        "Bonfires",
+        "Pep Rallies",
+        "Weddings",
+        "Student Life",
+        "Performances",
+        "Campus Events"
+      ],
+      "description": "SE Amphitheater is a historic outdoor gathering and event space on the Southeastern Oklahoma State University campus in Durant. Built in 1934 with student labor through a Civil Works Administration project, the amphitheater has served generations of the Southeastern community for student events, classes, weddings, celebrations of life, Homecoming activities and other gatherings. Southeastern continues to maintain it as a primary rentable campus event space while planning a major modernization and preservation project.",
+      "why_visit": "Watch the SE Amphitheater for major outdoor Southeastern traditions and special events, particularly Homecoming programming, bonfires, pep rallies and other campus gatherings. The historic setting also makes it available for weddings through Southeastern Special Events.",
+      "why_its_unique": "Built by Southeastern students in 1934, the Amphitheater is one of the university's distinctive historic outdoor spaces. Its long-standing campus role, stonework and hillside seating distinguish it from Southeastern's newer indoor event venues, and planned renovations are intended to re-establish it as a major outdoor performance space.",
+      "phone": "580-745-2512",
+      "email": "specialevents@se.edu",
+      "website": "https://www.se.edu/venue/seamphitheater/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public operating hours are published. Access and use depend on campus operations, scheduled events, approved rentals and any renovation activity.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Outdoor amphitheater",
+        "Hillside seating area",
+        "Stage area",
+        "Historic stonework",
+        "Primary rentable university event space"
+      ],
+      "good_to_know": [
+        "Southeastern currently lists the Amphitheater among its primary rentable campus spaces.",
+        "The current published wedding rental rate is $500.",
+        "No current official maximum seating or occupancy capacity is published.",
+        "The amphitheater dates to 1934 and was constructed by Southeastern students through a Civil Works Administration project.",
+        "Southeastern is planning a major renovation that includes restoration of historic stone walls, replacement of deteriorated concrete seating and improved accessibility.",
+        "The planned project will more closely connect the Amphitheater with the adjacent Semple Family Museum of Native American Art.",
+        "Because renovation planning is active, confirm venue availability with Southeastern Special Events before making plans."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "SE Amphitheater is a historic outdoor event and gathering venue on the Southeastern Oklahoma State University campus."
+      },
+      "related_businesses": [
+        {
+          "slug": "semple-family-museum-of-native-american-art",
+          "business_name": "Semple Family Museum of Native American Art",
+          "relationship_note": "The museum overlooks the historic Amphitheater, and Southeastern's planned renovation is designed to strengthen the physical and programming connection between the two spaces."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Official Southeastern sources confirm SE Amphitheater as a separately named university calendar venue and primary rentable outdoor event space. University history documents its 1934 construction by Southeastern students through a Civil Works Administration project and its longstanding use for student activities, classes, weddings and memorial gatherings. Homecoming schedules document recurring bonfire and pep-rally use. Southeastern currently lists weddings at $500. No official current capacity is published. A major renovation and preservation project is planned but is not represented as complete.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Homecoming bonfires",
+        "Pep rallies",
+        "Student Life events",
+        "Weddings",
+        "Outdoor performances",
+        "Campus gatherings",
+        "Classes",
+        "Celebrations of life"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University calendar",
+        "Southeastern Special Events",
+        "Southeastern Homecoming",
+        "Southeastern Foundation"
+      ],
+      "features": [
+        "Historic 1934 amphitheater",
+        "Built by Southeastern students",
+        "Civil Works Administration-era campus landmark",
+        "Primary rentable outdoor event space",
+        "Recurring Homecoming venue",
+        "Wedding venue",
+        "Historic stonework",
+        "Adjacent to Semple Family Museum of Native American Art",
+        "Major preservation and modernization project planned"
       ]
     }
   ]
