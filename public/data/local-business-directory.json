@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 992,
-  "publish_ready_count": 667,
+  "business_count": 993,
+  "publish_ready_count": 668,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -102770,6 +102770,139 @@
         "Alumni gathering venue",
         "Homecoming and football-event connection",
         "Near Paul Laird Field"
+      ]
+    },
+    {
+      "slug": "front-lawn",
+      "business_name": "Front Lawn",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "University Front Lawn, 425 W University Blvd, Durant, OK 74701",
+      "category": [
+        "Outdoor Event Venue",
+        "Campus Lawn",
+        "Wedding Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Durant",
+        "Bryan County",
+        "Outdoor Events",
+        "Campus Events",
+        "Homecoming",
+        "Community Events",
+        "Student Life",
+        "Weddings",
+        "Ceremonies",
+        "Legacy Plaza"
+      ],
+      "description": "Front Lawn is Southeastern Oklahoma State University's prominent outdoor gathering and event space along University Boulevard in Durant. The landscaped campus lawn is used for university traditions, student activities, community events, ceremonies, receptions and weddings. Southeastern lists the Front Lawn as both a reservable facility and one of its primary rentable event spaces.",
+      "why_visit": "Watch the Front Lawn for some of Southeastern's most visible outdoor activities, including Homecoming programming, community events, student celebrations, ceremonies and seasonal gatherings. Outside scheduled events, the landscaped lawn also serves as a prominent green space at the front of campus.",
+      "why_its_unique": "The Front Lawn combines a highly visible University Boulevard setting with one of Southeastern's traditional outdoor gathering spaces. Legacy Plaza and its water features frame the lawn, creating a distinctive ceremonial entrance and backdrop for university and community events.",
+      "phone": "580-745-2512",
+      "email": "specialevents@se.edu",
+      "website": "https://www.se.edu/venue/front-lawn/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public operating hours are published specifically for the Front Lawn. Event and rental use depends on university operations, scheduled programming, weather and approved reservations.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Large outdoor campus lawn",
+        "Landscaped setting",
+        "Magnolia trees",
+        "Legacy Plaza and water features along the lawn",
+        "Reservable outdoor event space"
+      ],
+      "good_to_know": [
+        "Southeastern officially identifies the space as both Front Lawn and University Front Lawn.",
+        "The Front Lawn is listed among Southeastern's primary rentable event spaces.",
+        "The current published wedding rental rate is $500.",
+        "No official maximum seating or occupancy capacity is currently published.",
+        "Outdoor events may be moved or altered because of weather; Southeastern has published indoor rain locations for some Front Lawn programs.",
+        "Legacy Plaza was constructed on the Front Lawn and its water features frame the lawn.",
+        "Event eligibility varies; some programs are primarily for Southeastern students while others are open community events."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "Front Lawn is a primary outdoor gathering and event space on Southeastern Oklahoma State University's Durant campus."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Official Southeastern sources confirm Front Lawn as a separately named university calendar venue, University Front Lawn as a reservable facility and Front Lawn as a primary rentable event space. Southeastern currently publishes a $500 wedding rate. University records document recurring and special-event use including Homecoming activities, Lunch on the Lawn, Safe Trick or Treat, wellness programming and ceremonies. Legacy Plaza is located on and frames the Front Lawn. No official venue capacity is currently published.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Homecoming activities",
+        "Community events",
+        "Student Life programs",
+        "Lunch on the Lawn",
+        "Safe Trick or Treat",
+        "Ceremonies",
+        "Wellness events",
+        "Weddings",
+        "Outdoor receptions",
+        "Campus celebrations"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University calendar",
+        "Southeastern Special Events",
+        "Southeastern Student Life",
+        "Southeastern Homecoming",
+        "Southeastern Student Wellness"
+      ],
+      "features": [
+        "Primary Southeastern rentable outdoor space",
+        "University Boulevard frontage",
+        "Wedding venue",
+        "Recurring campus and community event use",
+        "Magnolia-shaded lawn",
+        "Framed by Legacy Plaza and water features",
+        "Dedicated Southeastern calendar venue"
       ]
     }
   ]
