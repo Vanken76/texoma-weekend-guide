@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 997,
-  "publish_ready_count": 672,
+  "business_count": 998,
+  "publish_ready_count": 673,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -103436,6 +103436,167 @@
         "Landscaped Front Lawn setting",
         "Dedicated Southeastern calendar venue",
         "Active ceremonial venue"
+      ]
+    },
+    {
+      "slug": "semple-family-museum-of-native-american-art",
+      "business_name": "Semple Family Museum of Native American Art",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "430 Montgomery Dr, Durant, OK 74701",
+      "category": [
+        "Museum",
+        "Art Museum",
+        "Native American Art",
+        "Cultural Attraction",
+        "Event Venue"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Durant",
+        "Bryan County",
+        "Native American Art",
+        "Indigenous Art",
+        "Choctaw Heritage",
+        "Native American Culture",
+        "Art Museum",
+        "Free Admission",
+        "Native American Artists Hall of Fame",
+        "Cultural Events",
+        "Group Tours",
+        "Semple Family"
+      ],
+      "description": "Semple Family Museum of Native American Art is a free museum on the Southeastern Oklahoma State University campus in Durant dedicated to the beauty, preservation and study of Native American art. The museum serves as the permanent home of Southeastern's extensive Native American art collection, currently encompassing more than 150 works representing more than 80 Native American artists and more than 30 tribes. Opened in 2021, the multi-level museum also hosts cultural programming, artist recognition events, receptions, educational activities and special university events.",
+      "why_visit": "Visitors can explore one of Texoma's significant collections of Native American art without an admission charge. The museum offers paintings, sculpture and other works representing artists and tribal traditions from across Oklahoma and beyond, while special programming adds storytelling, cultural education, artist events and university celebrations throughout the year.",
+      "why_its_unique": "The museum combines Southeastern's longstanding Native American art collection with the Semple family's deep Choctaw heritage and ties to the history of Durant, Bryan County and Southeastern itself. Its collection represents more than 80 Native American artists and more than 30 tribes, and the museum also operates the Native American Artists Hall of Fame.",
+      "phone": "580-745-2046",
+      "email": "sfm@se.edu",
+      "website": "https://www.se.edu/semplefamilymuseum/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "8:00 AM - 5:00 PM",
+        "tuesday": "8:00 AM - 5:00 PM",
+        "wednesday": "8:00 AM - 5:00 PM",
+        "thursday": "8:00 AM - 5:00 PM",
+        "friday": "8:00 AM - 5:00 PM",
+        "saturday": "10:00 AM - 2:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current museum hours are Monday through Friday from 8:00 AM to 5:00 PM and Saturday from 10:00 AM to 2:00 PM. Admission is free. Holiday and university-break schedules may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "Free",
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Free admission",
+        "Art gallery",
+        "Audio-visual room",
+        "Reception area",
+        "Balcony",
+        "Walkout patio",
+        "Group tours by appointment",
+        "Native American art collection"
+      ],
+      "good_to_know": [
+        "Admission to the museum is free.",
+        "Current museum hours are Monday through Friday from 8:00 AM to 5:00 PM and Saturday from 10:00 AM to 2:00 PM.",
+        "The museum currently reports a collection of more than 150 pieces representing more than 80 Native American artists and more than 30 tribes.",
+        "Individual and group appointments are available and group tours can be arranged through the museum.",
+        "The museum held its grand opening in October 2021.",
+        "The approximately 5,000-square-foot multi-level facility includes an art gallery, audio-visual room, reception area, balcony and walkout patio.",
+        "The museum patio overlooks Southeastern's historic Amphitheater.",
+        "The museum operates the Native American Artists Hall of Fame and continues to host cultural and educational programming."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "Semple Family Museum of Native American Art is a museum and cultural facility on the Southeastern Oklahoma State University campus."
+      },
+      "related_businesses": [
+        {
+          "slug": "se-amphitheater",
+          "business_name": "SE Amphitheater",
+          "relationship_note": "The museum's walkout patio overlooks the historic SE Amphitheater, and Southeastern's planned Amphitheater improvements are intended to strengthen the connection between the two cultural spaces."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Official Southeastern and Semple Family Museum sources confirm the museum at 430 Montgomery Drive, free admission, current Monday-Friday 8 AM-5 PM and Saturday 10 AM-2 PM hours, 580-745-2046 and sfm@se.edu contact information, and a current collection exceeding 150 pieces representing more than 80 Native American artists and more than 30 tribes. The museum held its grand opening in October 2021 and serves as the permanent home of Southeastern's Native American art collection. Southeastern describes the approximately 5,000-square-foot multi-level facility as including an art gallery, audio-visual room, reception area, balcony and walkout patio overlooking the historic Amphitheater. Current 2026 university programming confirms continued use for cultural, wellness and graduation events.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Native American cultural programs",
+        "Native American Artists Hall of Fame programming",
+        "Artist events",
+        "Storytelling programs",
+        "Graduation recognition receptions",
+        "Art and wellness programs",
+        "Book signings",
+        "Poetry readings",
+        "Educational programs",
+        "Museum receptions",
+        "Group tours"
+      ],
+      "event_sources": [
+        "Semple Family Museum of Native American Art",
+        "Southeastern Oklahoma State University calendar",
+        "Southeastern Native American Institute",
+        "Southeastern Tribal Relations"
+      ],
+      "features": [
+        "Free admission",
+        "More than 150 works",
+        "More than 80 Native American artists represented",
+        "More than 30 tribes represented",
+        "Permanent home of Southeastern's Native American art collection",
+        "Native American Artists Hall of Fame",
+        "Approximately 5,000-square-foot multi-level museum",
+        "Art gallery",
+        "Audio-visual room",
+        "Balcony and walkout patio",
+        "Overlooks historic SE Amphitheater",
+        "Group tours available",
+        "Opened in 2021"
       ]
     }
   ]
