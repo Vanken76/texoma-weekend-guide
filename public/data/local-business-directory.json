@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1002,
-  "publish_ready_count": 677,
+  "business_count": 1003,
+  "publish_ready_count": 678,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -104120,6 +104120,137 @@
         "Electronic resources",
         "Named programming spaces",
         "Documented community-facing events"
+      ]
+    },
+    {
+      "slug": "southeastern-oklahoma-state-university-native-american-commons",
+      "business_name": "Southeastern Oklahoma State University Native American Commons",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Inside Henry G. Bennett Memorial Library, 1405 N 4th Ave, Durant, OK 74701",
+      "category": [
+        "Cultural Space",
+        "Academic Event Space",
+        "Library Event Space",
+        "Native American Cultural Space"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Native American Commons",
+        "Henry G. Bennett Memorial Library",
+        "Durant",
+        "Bryan County",
+        "Native American Culture",
+        "Indigenous Studies",
+        "Academic Events",
+        "Community Events",
+        "Lectures",
+        "Presentations",
+        "Native American Symposium"
+      ],
+      "description": "Southeastern Oklahoma State University Native American Commons is a named cultural and programming space inside Henry G. Bennett Memorial Library in Durant. Official Southeastern records document the Commons as a location for Native American cultural and academic programming as well as broader university lectures and community-facing presentations. The university refers to the space simply as Native American Commons.",
+      "why_visit": "Watch the Native American Commons for lectures, cultural programs, research presentations and other educational events held inside Henry G. Bennett Memorial Library. Its programming has included Native American Symposium sessions as well as newer university academic and community events.",
+      "why_its_unique": "Unlike an ordinary numbered library meeting room, Native American Commons has a longstanding named identity and documented use for Native American studies, cultural programming, films, student presentations and university academic events.",
+      "phone": "580-745-2932",
+      "email": "askalibrarian@se.edu",
+      "website": "https://www.se.edu/library/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The Native American Commons does not publish separate operating hours. Access is subject to Henry G. Bennett Memorial Library hours and scheduled university programming.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Indoor cultural and programming space",
+        "Located inside Henry G. Bennett Memorial Library",
+        "Library resources nearby",
+        "Academic presentation space"
+      ],
+      "good_to_know": [
+        "Southeastern officially refers to the space as Native American Commons.",
+        "TWG uses Southeastern Oklahoma State University Native American Commons as the canonical name to prevent ambiguity with similarly named spaces elsewhere.",
+        "The Commons is located inside Henry G. Bennett Memorial Library.",
+        "Library-specific university material identifies the parent building at 1405 N 4th Ave, Durant, OK 74701.",
+        "The Native American Commons has documented use for Native American Symposium programming, including film, Native Studies and student leadership presentations.",
+        "Southeastern used the Commons on April 2, 2026 for the launch of its Faculty Feature: Research Edition series.",
+        "The 2026 Faculty Feature event was listed for academic, community, faculty/staff and informational audiences.",
+        "No separate Commons capacity, rental rate, dedicated reservation contact or independent public hours were verified.",
+        "The library circulation desk can be reached at 580-745-2932, and reference assistance is available at askalibrarian@se.edu."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "henry-g-bennett-memorial-library",
+        "business_name": "Henry G. Bennett Memorial Library",
+        "relationship_note": "Native American Commons is a separately named cultural and programming space located inside Henry G. Bennett Memorial Library."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete with conservative facility details. Official Southeastern records identify Native American Commons as a named space inside Henry G. Bennett Memorial Library. The 2015 Native American Symposium scheduled multiple programs specifically in the Commons, including a film presentation, Native Studies lecture and Native American leadership student presentation. Southeastern again explicitly used the Commons on April 2, 2026 for the launch of Faculty Feature: Research Edition. Library-specific university material identifies Henry G. Bennett Memorial Library at 1405 N 4th Ave and publishes 580-745-2932 for the circulation desk. No current separate capacity, rental price, reservation contact or dedicated operating hours for Native American Commons were found.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Native American cultural programs",
+        "Academic lectures",
+        "Research presentations",
+        "Film presentations",
+        "Student presentations",
+        "Community events",
+        "Informational sessions",
+        "Symposium sessions"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University Events Calendar",
+        "Southeastern Native American Institute",
+        "Henry G. Bennett Memorial Library",
+        "Southeastern Academic Affairs"
+      ],
+      "features": [
+        "Named space inside Henry G. Bennett Memorial Library",
+        "Documented Native American Symposium venue",
+        "Native American cultural programming",
+        "Academic presentation space",
+        "Documented 2026 community-facing event use"
       ]
     }
   ]
