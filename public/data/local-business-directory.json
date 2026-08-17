@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1005,
-  "publish_ready_count": 680,
+  "business_count": 1006,
+  "publish_ready_count": 681,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -104545,6 +104545,151 @@
         "University calendar venue",
         "Recurring theatre programming",
         "One of Southeastern's three primary performance venues"
+      ]
+    },
+    {
+      "slug": "southeastern-oklahoma-state-university-general-classroom-building",
+      "business_name": "Southeastern Oklahoma State University General Classroom Building",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1427 N 7th Ave, Durant, OK 74701",
+      "category": [
+        "Academic Building",
+        "Campus Event Venue",
+        "Community Education",
+        "University Facility"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "General Classroom Building",
+        "Classroom Building",
+        "Durant",
+        "Bryan County",
+        "Computer Science",
+        "Social Sciences",
+        "Academic Events",
+        "Community Workshops",
+        "Student Organizations",
+        "Native American Symposium",
+        "Speech & Debate"
+      ],
+      "description": "Southeastern Oklahoma State University General Classroom Building is a 22,000-square-foot academic facility on the Durant campus that houses classroom and computer-lab space as well as Social Sciences and Computer Science faculty offices. Southeastern's event calendar commonly shortens the name to Classroom Building. In addition to regular academic use, several rooms are reservable for university programming, and the building has hosted community workshops, symposium sessions, student organization meetings and other campus events.",
+      "why_visit": "The General Classroom Building becomes relevant to the public when Southeastern schedules workshops, lectures, symposium sessions and other community-facing programs there. It has hosted free beginner technology camps open to participants age 10 and older as well as academic and student programming.",
+      "why_its_unique": "Although primarily an academic building, it has a distinct university identity, a dedicated Southeastern event-calendar venue record and multiple reservable technology-equipped rooms. Its documented programming ranges from Native American Symposium presentations to recurring student meetings and free public AI and machine-learning workshops.",
+      "phone": "580-745-2216",
+      "email": "jswearengin@se.edu",
+      "website": "https://www.se.edu/venue/classroom-building/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No building-specific public operating hours are published. Access depends on university operations, classes and scheduled events.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Approximately 22,000 square feet",
+        "Computer science labs and classrooms",
+        "Technology-equipped reservable classrooms",
+        "Computers and projectors in CB103, CB118 and CB120",
+        "North main entrance automatic door",
+        "Social Sciences faculty offices",
+        "Computer Science faculty offices"
+      ],
+      "good_to_know": [
+        "Southeastern uses both General Classroom Building and the shorter Classroom Building name for this facility.",
+        "TWG uses Southeastern Oklahoma State University General Classroom Building as the canonical name while retaining Classroom Building as a common alias.",
+        "Southeastern's dedicated calendar venue page lists the address as 1427 N 7th Ave, Durant, OK 74701.",
+        "Southeastern describes the building as approximately 22,000 square feet.",
+        "The facility includes three computer science labs/classrooms and additional general classroom space.",
+        "The building was developed as part of Oklahoma's 2005 Higher Education Bond project.",
+        "Southeastern states that the General Classroom Building replaced the university's previous Computer Science building.",
+        "The north main entrance has an automatic door. Broader building-wide accessibility details were not sufficiently documented to mark the entire facility wheelchair accessible without qualification.",
+        "Current Special Events inventory lists CB103 with a maximum occupancy of 100 and computers and projectors.",
+        "Current Special Events inventory lists CB118 with a maximum occupancy of 45 and computers and projectors.",
+        "Current Special Events inventory lists CB120 with a maximum occupancy of 45 and computers and projectors.",
+        "Jennifer Swearengin is Southeastern's current reservation contact for the listed Classroom Building event rooms at 580-745-2216 and jswearengin@se.edu.",
+        "The building has hosted Native American Symposium sessions in several rooms.",
+        "Cardinal Key held a recurring series of meetings in the building during 2025.",
+        "Free beginner AI and machine-learning camps were held in Classroom Building room 104 in both 2024 and 2025.",
+        "The 2024 beginner IT camp was explicitly categorized by Southeastern as a Community Event and was open to participants age 10 and older without advance registration.",
+        "Individual numbered classrooms such as CB103, CB118 and CB120 are treated as rooms within this parent facility rather than separate TWG business records."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "The General Classroom Building is an academic and event facility on Southeastern Oklahoma State University's Durant campus."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete. Southeastern's Social Sciences facilities page formally identifies this facility as the General Classroom Building and describes it as a 22,000-square-foot building containing three computer science labs/classrooms, additional classroom space and faculty offices. Southeastern's university event calendar uses the shorter Classroom Building name and lists the facility at 1427 N 7th Ave. Current Special Events information lists CB103, CB118 and CB120 as reservable rooms with maximum occupancies of 100, 45 and 45 respectively and identifies Jennifer Swearengin at 580-745-2216 and jswearengin@se.edu as the reservation contact. University records document recurring Cardinal Key meetings, Speech & Debate programming, Native American Symposium sessions and free public AI/ML workshops at the building. No fixed public building hours or building-wide rental price were found, so neither is inferred.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Community workshops",
+        "Technology workshops",
+        "Academic presentations",
+        "Symposium sessions",
+        "Student organization meetings",
+        "Speech and debate activities",
+        "Lectures",
+        "Educational programs"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University Events Calendar",
+        "Southeastern Oklahoma State University Special Events",
+        "Southeastern Native American Symposium",
+        "Southeastern academic departments"
+      ],
+      "features": [
+        "22,000-square-foot academic facility",
+        "Dedicated university calendar venue",
+        "Three currently listed reservable event classrooms",
+        "Computer and projector-equipped event rooms",
+        "Computer science labs",
+        "Documented public community workshops",
+        "Documented recurring student programming",
+        "Documented Native American Symposium use"
       ]
     }
   ]
