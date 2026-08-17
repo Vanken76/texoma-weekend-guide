@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 999,
-  "publish_ready_count": 674,
+  "business_count": 1000,
+  "publish_ready_count": 675,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -103723,6 +103723,122 @@
         "Four-hour rentals available",
         "Documented alumni reunion use",
         "Documented athletics event use"
+      ]
+    },
+    {
+      "slug": "southeastern-oklahoma-state-university-sand-volleyball-court",
+      "business_name": "Southeastern Oklahoma State University Sand Volleyball Court",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Southeastern Oklahoma State University campus, 425 W University Blvd, Durant, OK 74701",
+      "category": [
+        "Sports & Recreation",
+        "Sand Volleyball Court",
+        "Outdoor Recreation",
+        "Campus Facility"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Durant",
+        "Bryan County",
+        "Sand Volleyball",
+        "Beach Volleyball",
+        "Outdoor Recreation",
+        "Campus Recreation",
+        "Student Life",
+        "Volleyball"
+      ],
+      "description": "Southeastern Oklahoma State University Sand Volleyball Court is an outdoor recreational facility on the university's Durant campus. Southeastern lists the court among its available campus facilities through the Special Events office, making it a useful location for recreational volleyball, student activities and occasional organized campus programming.",
+      "why_visit": "The sand volleyball court provides an outdoor recreation option on the Southeastern campus for volleyball and informal student activities. It is also a facility worth watching for occasional university recreation and Student Life programming.",
+      "why_its_unique": "It gives Southeastern students and campus visitors a dedicated outdoor sand-volleyball facility distinct from the university's indoor volleyball courts and collegiate athletics venues.",
+      "phone": "580-745-2512",
+      "email": "specialevents@se.edu",
+      "website": "https://www.se.edu/special-events/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No facility-specific public operating hours are currently published. Availability may depend on university activities, scheduled events and campus operations.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Outdoor sand volleyball court"
+      ],
+      "good_to_know": [
+        "Southeastern officially lists the facility as Sand Volleyball Court.",
+        "TWG uses Southeastern Oklahoma State University Sand Volleyball Court as the canonical directory name to distinguish it from other generic sand volleyball courts in the region.",
+        "Southeastern lists the facility through its Special Events office.",
+        "The university's published campus address is 425 W University Blvd, Durant, OK 74701.",
+        "No separate spectator capacity is currently published for the court.",
+        "No facility-specific rental price is currently published.",
+        "No facility-specific public operating hours are currently published.",
+        "The Special Events office can be contacted at 580-745-2512 or specialevents@se.edu for current facility-use information."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "The Sand Volleyball Court is an outdoor recreational facility on Southeastern Oklahoma State University's Durant campus."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete with limited facility-specific detail. Southeastern Oklahoma State University's current Special Events page separately lists Sand Volleyball Court among university facilities and gives the campus address as 425 W University Blvd, Durant, OK 74701. Special Events publishes 580-745-2512 and specialevents@se.edu for general event-space questions. No separate capacity, rental rate, dedicated facility contact or operating schedule was found, so those details are not inferred.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Sand volleyball",
+        "Campus recreation",
+        "Student activities",
+        "Outdoor university programming"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University Special Events",
+        "Southeastern Oklahoma State University Student Life"
+      ],
+      "features": [
+        "Dedicated outdoor sand volleyball court",
+        "Southeastern campus recreation facility",
+        "Listed by Southeastern Special Events"
       ]
     }
   ]
