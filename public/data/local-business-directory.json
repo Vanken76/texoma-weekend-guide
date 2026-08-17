@@ -5,8 +5,8 @@
   "generated_on": "2026-08-17",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1000,
-  "publish_ready_count": 675,
+  "business_count": 1001,
+  "publish_ready_count": 676,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -103839,6 +103839,143 @@
         "Dedicated outdoor sand volleyball court",
         "Southeastern campus recreation facility",
         "Listed by Southeastern Special Events"
+      ]
+    },
+    {
+      "slug": "magnolia-house",
+      "business_name": "Magnolia House",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Southeastern Oklahoma State University campus, Durant, OK 74701",
+      "category": [
+        "Alumni Center",
+        "Event Venue",
+        "University Facility",
+        "Meeting & Gathering Space"
+      ],
+      "tags": [
+        "Southeastern Oklahoma State University",
+        "Magnolia House",
+        "Durant",
+        "Bryan County",
+        "SE Alumni",
+        "Alumni Relations",
+        "Alumni Events",
+        "Homecoming",
+        "Reunions",
+        "Networking",
+        "University Events",
+        "Student Events"
+      ],
+      "description": "Magnolia House is a named Southeastern Oklahoma State University facility and the home of the university's Office of Alumni Relations in Durant. The house serves as an alumni gathering point and has also hosted university and student events, including dinners, cookouts and alumni-focused programming. Southeastern maintains Magnolia House as its own event-calendar venue, distinguishing it from the separate Magnolia Room inside Hallie McKinney.",
+      "why_visit": "Magnolia House is a gathering point for Southeastern alumni and a venue for selected university, alumni and student events. Visitors with alumni-related business can also find Southeastern's Office of Alumni Relations here.",
+      "why_its_unique": "Rather than being a generic meeting room, Magnolia House has its own established identity within Southeastern, functions as the university's Alumni Relations home and has documented use as a named destination for alumni, student and special-event programming.",
+      "phone": "580-745-2512",
+      "email": "alumni@se.edu",
+      "website": "https://www.se.edu/venue/magnolia-house/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No Magnolia House-specific public operating hours are currently published. Access may depend on Alumni Relations office operations and scheduled events.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Home of Southeastern Alumni Relations",
+        "Indoor gathering space",
+        "Event-calendar venue",
+        "Alumni gathering location"
+      ],
+      "good_to_know": [
+        "Magnolia House is the home of Southeastern Oklahoma State University's Office of Alumni Relations.",
+        "Alumni Relations currently lists 580-745-2512 and alumni@se.edu as its primary contact information.",
+        "Southeastern maintains a dedicated Magnolia House venue entry in its university events calendar.",
+        "Southeastern has documented dinners, alumni activities and student gatherings at Magnolia House.",
+        "A 2024 Fall Greek Fest Cookout was held at Magnolia House for Greek members to meet alumni, peers and the university president.",
+        "The 2022 Southeastern Golf Classic included a player and sponsor dinner at Magnolia House.",
+        "Magnolia House has also been featured as a campus destination in Southeastern alumni programming.",
+        "Magnolia House is not the same facility as Magnolia Room. Magnolia Room is a separate event space inside Hallie McKinney.",
+        "No Magnolia House-specific maximum capacity, rental rate or regular public hours were verified from current official sources.",
+        "An exact building-specific street address was not published on the current Magnolia House venue page, so TWG does not infer one from the university's general mailing address."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": {
+        "slug": "southeastern-oklahoma-state-university",
+        "business_name": "Southeastern Oklahoma State University",
+        "relationship_note": "Magnolia House is a Southeastern Oklahoma State University facility and the home of the university's Office of Alumni Relations."
+      },
+      "related_businesses": [
+        {
+          "slug": "magnolia-room",
+          "business_name": "Magnolia Room",
+          "relationship_note": "Separate Southeastern venue with a similar name. Magnolia Room is inside Hallie McKinney; Magnolia House is the Alumni Relations facility."
+        }
+      ],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Durant, Oklahoma."
+        },
+        {
+          "slug": "texoma",
+          "name": "Texoma",
+          "entity_type": "region",
+          "relationship_note": "Located in Durant within the Texoma coverage region."
+        }
+      ],
+      "verification_note": "Complete with conservative location details. Current Southeastern sources identify The Magnolia House as the Office of Alumni Relations and publish 580-745-2512 and alumni@se.edu for Alumni Relations. Southeastern maintains Magnolia House as a dedicated event-calendar venue. Official university records document event use including the 2024 Fall Greek Fest Cookout and the 2022 Southeastern Golf Classic player and sponsor dinner. Current official sources did not provide a Magnolia House-specific street address, maximum capacity or rental rate, so those details are not inferred. This record is explicitly separate from Magnolia Room inside Hallie McKinney.",
+      "last_checked": "2026-08-16",
+      "event_types": [
+        "Alumni gatherings",
+        "Alumni receptions",
+        "Student organization events",
+        "Cookouts",
+        "Dinners",
+        "Networking events",
+        "University special events",
+        "Homecoming-related activities"
+      ],
+      "event_sources": [
+        "Southeastern Oklahoma State University event calendar",
+        "Southeastern Oklahoma State University Alumni Relations",
+        "Southeastern Oklahoma State University news"
+      ],
+      "features": [
+        "Home of Southeastern Alumni Relations",
+        "Dedicated Southeastern calendar venue",
+        "Documented alumni event use",
+        "Documented student event use",
+        "Campus gathering destination"
       ]
     }
   ]
