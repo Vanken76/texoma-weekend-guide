@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 334,
-  "publish_ready_count": 334,
+  "event_count": 335,
+  "publish_ready_count": 335,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -22416,6 +22416,70 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 18, 2026 from Durant Main Street's current official Historic District Events Calendar. Durant Main Street states that it is hosting the Durant Area Chamber of Commerce's Coffee Network every Wednesday in August at Three Valley Museum, 401 W Main St in Durant. The live calendar currently lists the remaining meetings on Wednesday, August 19 and Wednesday, August 26, 2026 from 8:30 AM to 9:30 AM. The event is described as coffee, conversation and networking with local business owners, community leaders and neighbors. No current admission fee, registration requirement or age restriction is published, so none is inferred. TWG's canonical directory confirms Three Valley Museum as three-valley-museum-durant, Durant Area Chamber of Commerce as durant-area-chamber-of-commerce, and Durant Main Street as durant-main-street.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-18"
+    },
+    {
+      "event_slug": "nature-by-paddle-eisenhower-state-park-2026-08-29",
+      "event_name": "Nature by Paddle",
+      "description": "Explore Lake Texoma from the water during Nature by Paddle at Eisenhower State Park. A park ranger will begin with a short instructional course covering kayaking basics and kayak handling before leading participants on a guided paddle. The park provides single kayaks, life jackets and paddles. Registration is required and space is limited.",
+      "start_datetime": "2026-08-29T09:00:00-05:00",
+      "end_datetime": "2026-08-29T10:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "eisenhower-state-park"
+      ],
+      "venue_name": "Eisenhower State Park",
+      "address": "50 Park Road 20",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020-4878",
+      "latitude": 33.810339,
+      "longitude": -96.599971,
+      "categories": [
+        "Kayaking",
+        "Outdoor Recreation",
+        "Nature",
+        "Ranger Program"
+      ],
+      "tags": [
+        "Nature by Paddle",
+        "kayaking",
+        "guided paddle",
+        "Lake Texoma",
+        "Eisenhower State Park",
+        "ranger program",
+        "paddling",
+        "outdoor recreation",
+        "Denison"
+      ],
+      "cost_type": "varies",
+      "cost_details": "The program is free with park admission. Park admission is $5 per person age 13 and older; children 12 and under are free. Park admission is free with a Texas State Parks Pass.",
+      "audience": [
+        "Kayakers",
+        "Outdoor Enthusiasts",
+        "Nature Enthusiasts"
+      ],
+      "age_restriction": "Minors must be accompanied by an adult. All participants, including children, must be able to paddle their own single kayak.",
+      "host_business_slug": "eisenhower-state-park",
+      "organizer_name": "Texas Parks & Wildlife Department — Eisenhower State Park",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/nature-by-paddle-eisenhower-state-park-2026-08-29.png",
+      "image_alt": null,
+      "official_url": "https://tpwd.texas.gov/calendar/eisenhower/nature-by-paddle",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 18, 2026 from Texas Parks & Wildlife Department's current official Nature by Paddle event page. The program is scheduled for Saturday, August 29, 2026 from 9:00 AM to 10:30 AM at Eisenhower State Park, meeting at the Boat Ramp. Participants receive a short kayaking instructional course followed by a guided Lake Texoma paddle. The park provides single kayaks, life jackets and paddles. Participants should bring clothing that can get wet, close-toed water shoes, a towel, sun protection and water. Registration is required, space is limited and reservations are first-come, first-served. Registration opens at noon on the first day of the month and is accepted by email. All participants must be able to paddle their own single kayak; minors must be accompanied by an adult. Participants who arrive too late for the instructional course cannot participate. The program is free with park admission: $5 for ages 13 and older, free for children 12 and under, and free with a Texas State Parks Pass. The event is subject to cancellation due to weather. TWG's current canonical business directory confirms Eisenhower State Park under slug eisenhower-state-park.",
       "last_checked": "2026-08-18",
       "created_on": "2026-08-18",
       "updated_on": "2026-08-18"
