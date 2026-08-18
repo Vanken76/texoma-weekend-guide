@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 310,
-  "publish_ready_count": 310,
+  "event_count": 311,
+  "publish_ready_count": 311,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -20922,6 +20922,65 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 18, 2026 from Ole Red Tishomingo's official event listing. Matt Thompson is scheduled to perform Saturday, August 22, 2026 at 5:30 PM at Ole Red Tishomingo, 214 W Main, Tishomingo, OK 73460. The current event listing does not publish an ending time, event-specific admission price or age restriction, so those details are not inferred.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-18"
+    },
+    {
+      "event_slug": "for-the-millionaire-on-the-move-earn-get-choctaw-durant-2026-08-22",
+      "event_name": "For the Millionaire on the Move Earn & Get",
+      "description": "Choctaw Casino & Resort – Durant hosts a one-day Earn & Get promotion for Choctaw Rewards Club members. Earn 2,000 Tier Credits between 12:00 AM and 2:00 PM on August 22 to receive a gift voucher for a Lululemon bag. Gift vouchers may be redeemed at the Grand Theater redemption area from 10:00 AM to 2:00 PM while supplies last.",
+      "start_datetime": "2026-08-22T00:00:00-05:00",
+      "end_datetime": "2026-08-22T14:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "choctaw-casino-resort-durant"
+      ],
+      "venue_name": "Choctaw Casino & Resort – Durant",
+      "address": "4216 S Hwy 69/75",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Casino Promotions",
+        "Giveaways & Promotions"
+      ],
+      "tags": [
+        "Millionaire on the Move",
+        "Earn & Get",
+        "Lululemon",
+        "Choctaw Rewards Club",
+        "Tier Credits",
+        "Choctaw Casino & Resort Durant",
+        "Durant"
+      ],
+      "cost_type": "varies",
+      "cost_details": "No admission charge is published. Participation requires earning 2,000 Tier Credits through qualifying Choctaw Rewards activity.",
+      "audience": [
+        "Choctaw Rewards Club members",
+        "Adults 18+"
+      ],
+      "age_restriction": "Participants must be at least 18 years old to enroll in the Choctaw Rewards Club.",
+      "host_business_slug": "choctaw-casino-resort-durant",
+      "organizer_name": "Choctaw Casino & Resort – Durant",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/for-the-millionaire-on-the-move-earn-get-choctaw-durant-2026-08-22.png",
+      "image_alt": null,
+      "official_url": "https://www.choctawcasinos.com/promotions/for-the-millionaire-on-the-move-earn-get/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 18, 2026 from Choctaw Casinos & Resorts' current official Durant promotion listing and Rewards Club information. The promotion takes place Saturday, August 22, 2026 at Choctaw Casino & Resort – Durant. Participants earn 2,000 Tier Credits from 12:00 AM through 2:00 PM to receive a gift voucher for a Lululemon bag. Vouchers may be redeemed at the Grand Theater redemption area from 10:00 AM through 2:00 PM while supplies last. Choctaw Rewards Club enrollment requires participants to be at least 18 years old.",
       "last_checked": "2026-08-18",
       "created_on": "2026-08-18",
       "updated_on": "2026-08-18"
