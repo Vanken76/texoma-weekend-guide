@@ -5,8 +5,8 @@
   "generated_on": "2026-08-18",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1012,
-  "publish_ready_count": 687,
+  "business_count": 1013,
+  "publish_ready_count": 688,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -105480,6 +105480,103 @@
       "features": [
         "Rodeo arena",
         "Western-sports venue"
+      ]
+    },
+    {
+      "slug": "the-market-place-on-broadway",
+      "business_name": "The Market Place On Broadway",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "106 E Broadway St, Ardmore, OK 73401",
+      "category": [
+        "Event Venue",
+        "Farmers Market"
+      ],
+      "tags": [
+        "Downtown Ardmore",
+        "The Depot District",
+        "Farmers Market",
+        "Covered Pavilion",
+        "Community Events",
+        "Event Rentals",
+        "Markets"
+      ],
+      "description": "The Market Place On Broadway is a covered indoor-outdoor pavilion and event venue in downtown Ardmore managed by Ardmore Main Street Authority. The venue hosts Ardmore's weekly Farmers Market during its May-through-November season and is also available for community gatherings, private events, classes, markets and other large events.",
+      "why_visit": "Visit for Ardmore's seasonal Saturday Farmers Market or attend community events and other gatherings hosted in the covered pavilion.",
+      "why_its_unique": "The Market Place On Broadway combines a covered indoor-outdoor event pavilion with the longtime home of Ardmore's weekly Farmers Market in the city's downtown Depot District.",
+      "phone": "580-226-6246",
+      "email": null,
+      "website": "https://www.ardmoremainstreet.com/event-venues/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public operating hours are published for the venue itself. Access varies by scheduled event or rental. The weekly Farmers Market is held Saturdays from 7:00 AM to 11:00 AM during its May-through-November season.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Covered indoor-outdoor pavilion",
+        "Event rental space",
+        "Capacity up to 100 people"
+      ],
+      "good_to_know": [
+        "The venue is managed by Ardmore Main Street Authority.",
+        "The weekly Farmers Market is held here from May through November.",
+        "The venue may be rented for weddings, banquets, dances, classes, markets and other large events.",
+        "Reservations and venue information are available through Ardmore Main Street Authority at 580-226-6246."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "depot-park-ardmore"
+      ],
+      "related_geography": [],
+      "verification_note": "Verified August 18, 2026 from Ardmore Main Street Authority's official event-venue page and Market Place On Broadway rental agreement. AMSA identifies The Market Place On Broadway at 106 E Broadway St, Ardmore, OK 73401 as a covered indoor-outdoor pavilion with capacity for 100 people. The venue hosts Ardmore's weekly Farmers Market from May through November and is available for weddings, banquets, dances, classes, markets and other events. Ardmore Main Street Authority manages reservations and publishes 580-226-6246 as the booking contact.",
+      "last_checked": "2026-08-18",
+      "event_types": [
+        "Farmers Markets",
+        "Community Events",
+        "Classes",
+        "Markets",
+        "Weddings",
+        "Banquets",
+        "Private Events"
+      ],
+      "event_sources": [
+        "https://www.ardmoremainstreet.com/event-venues/"
+      ],
+      "features": [
+        "Covered pavilion",
+        "Indoor-outdoor event space",
+        "Farmers Market venue"
       ]
     }
   ]
