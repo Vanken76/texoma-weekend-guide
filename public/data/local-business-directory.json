@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-17",
+  "generated_on": "2026-08-18",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1010,
-  "publish_ready_count": 685,
+  "business_count": 1011,
+  "publish_ready_count": 686,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -105288,6 +105288,111 @@
         "Journaling space",
         "Study space",
         "Nature and reflection space"
+      ]
+    },
+    {
+      "slug": "depot-park-ardmore",
+      "business_name": "Depot Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "200 E Main St, Ardmore, OK 73401",
+      "category": [
+        "Park",
+        "Event Venue",
+        "Downtown Attraction"
+      ],
+      "tags": [
+        "Ardmore",
+        "Downtown Ardmore",
+        "Depot District",
+        "Outdoor Venue",
+        "Community Events",
+        "Food Trucks",
+        "Mercy Train",
+        "Historic Railroad"
+      ],
+      "description": "Depot Park is an outdoor public gathering and event space in Ardmore's downtown Depot District, beside the restored Santa Fe Depot and the historic Mercy Train. Ardmore Main Street Authority rents the park for public and private events and uses the area for recurring community programming, including Food Truck Friday.",
+      "why_visit": "Visit for downtown Ardmore events, outdoor community gatherings and a close-up look at the restored Mercy Train in the historic Depot District.",
+      "why_its_unique": "The park combines a large downtown event lawn with Ardmore's restored Santa Fe Depot setting and the historic Mercy Train, a landmark tied to the city's 1915 explosion and recovery.",
+      "phone": "580-226-6246",
+      "email": null,
+      "website": "https://www.ardmoremainstreet.com/event-venues/",
+      "facebook": "https://www.facebook.com/ardmoredepotdistrict",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Ardmore Main Street Authority does not publish fixed public park hours on its Depot Park venue page. For rental questions, AMSA office hours are Monday-Thursday 9:00 AM-4:00 PM; the office is closed Friday-Sunday.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Outdoor event space",
+        "Mercy Train historic landmark",
+        "Nearby Santa Fe Depot"
+      ],
+      "good_to_know": [
+        "Ardmore Main Street Authority lists Depot Park's event capacity at 2,000 people.",
+        "The park is rentable for private events, public events and AMSA partner events; rental and deposit requirements are published by AMSA.",
+        "AMSA's venue page lists Depot Park at 200 E Main St. Some tourism and event listings use 251 E Main St. for the adjacent Santa Fe Depot complex, so check the specific event details when arriving."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "oklahoma",
+          "name": "Oklahoma",
+          "entity_type": "state",
+          "relationship_note": "Located in Ardmore, Oklahoma."
+        }
+      ],
+      "verification_note": "Depot Park is an active downtown Ardmore event venue managed through Ardmore Main Street Authority. Monitor the official AMSA event calendar for public events and schedule changes.",
+      "last_checked": "2026-08-17",
+      "event_types": [
+        "Food truck events",
+        "Community events",
+        "Festivals",
+        "Markets",
+        "Outdoor events"
+      ],
+      "event_sources": [
+        "Ardmore Main Street Authority event calendar",
+        "Ardmore Main Street Authority website",
+        "Ardmore Depot District Facebook page"
+      ],
+      "features": [
+        "Downtown Depot District location",
+        "Rentable outdoor event venue",
+        "2,000-person listed event capacity",
+        "Historic Santa Fe Depot setting",
+        "Mercy Train landmark"
       ]
     }
   ]
