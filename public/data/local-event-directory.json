@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 324,
-  "publish_ready_count": 324,
+  "event_count": 325,
+  "publish_ready_count": 325,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -21765,6 +21765,68 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Organizer-submitted flyer confirms the Aug. 22, 2026 date, 7:00 PM start, VFW Post 7873 location, $20 Swap entry, no-partner format, all-skill-level welcome, any-bags rule, ACL app registration and singles fallback if fewer than 12 players participate. VFW Post 7873 independently confirms its Pottsboro address. The American Cornhole League describes ACL Swap as a cornhole format in which players are assigned different doubles partners during the rounds.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-18"
+    },
+    {
+      "event_slug": "frog-chorus-2026-08-22",
+      "event_name": "Frog Chorus",
+      "description": "Every frog has a story, and a song! Join a park ranger to explore how frogs use their calls to communicate, identify local frog species, and learn why frogs can be important indicators of a healthy environment.",
+      "start_datetime": "2026-08-22T14:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "eisenhower-state-park"
+      ],
+      "venue_name": "Eisenhower State Park",
+      "address": "50 Park Road 20",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020-4878",
+      "latitude": 33.810339,
+      "longitude": -96.599971,
+      "categories": [
+        "Family Friendly",
+        "Nature & Outdoors",
+        "Educational"
+      ],
+      "tags": [
+        "frogs",
+        "frog calls",
+        "wildlife",
+        "nature",
+        "ranger program",
+        "environmental education",
+        "Eisenhower State Park",
+        "Lake Texoma",
+        "Denison"
+      ],
+      "cost_type": "varies",
+      "cost_details": "Program is free with park admission. Park admission is $5 per person age 13 and older and free for children 12 and under. Park admission is free with a Texas State Parks Pass.",
+      "audience": [
+        "family-friendly",
+        "all-ages"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "eisenhower-state-park",
+      "organizer_name": "Eisenhower State Park",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/frog-chorus-2026-08-22.png",
+      "image_alt": null,
+      "official_url": "https://tpwd.texas.gov/calendar/eisenhower/frog-chorus",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "The official Eisenhower State Park calendar lists Frog Chorus for Saturday, August 22, 2026 at 2:00 PM. The program is an all-ages ranger activity focused on frogs and their calls. Program details are subject to change or weather cancellation; check the official park listing for the latest meeting-location information.",
       "last_checked": "2026-08-18",
       "created_on": "2026-08-18",
       "updated_on": "2026-08-18"
