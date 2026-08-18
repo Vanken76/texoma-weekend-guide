@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 328,
-  "publish_ready_count": 328,
+  "event_count": 329,
+  "publish_ready_count": 329,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -22017,6 +22017,102 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 18, 2026 from Choctaw Casino & Resort–Durant's current official free-live-entertainment schedule. Jon Stork is listed at Gilley's Durant on Friday, August 21, 2026 from 9:30 PM to 1:30 AM. Choctaw confirms Gilley's as its non-smoking honky-tonk located inside the Grand Casino. Jon Stork's official site describes his music as a blend of honky-tonk, Southern rock and storytelling under the RockyTonk name. No event-specific age restriction was published in the verified sources, so none is inferred.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-18"
+    },
+    {
+      "event_slug": "tails-on-the-trails-eisenhower-state-park-2026-08-21",
+      "event_name": "Tails on the Trails",
+      "description": "Take a rescue pup on an adventure at Eisenhower State Park. Join a park ranger and a rescue dog from Sherman Animal Shelter for an easy walk through the park, with the possibility of meeting a new four-legged friend along the way. Participants meet at the OHV Parking Lot, and waivers will be available the day of the event.",
+      "start_datetime": "2026-08-21T09:00:00-05:00",
+      "end_datetime": "2026-08-21T10:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "eisenhower-state-park"
+      ],
+      "venue_name": "Eisenhower State Park",
+      "address": "50 Park Road 20",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020-4878",
+      "latitude": 33.810339,
+      "longitude": -96.599971,
+      "categories": [
+        "Outdoor Recreation",
+        "Hiking",
+        "Animal Adoption",
+        "Family Event",
+        "Nature"
+      ],
+      "tags": [
+        "Tails on the Trails",
+        "Eisenhower State Park",
+        "Sherman Animal Shelter",
+        "rescue dogs",
+        "dog adoption",
+        "hiking",
+        "ranger program",
+        "Lake Texoma",
+        "Denison",
+        "family friendly",
+        "outdoor activities"
+      ],
+      "cost_type": "varies",
+      "cost_details": "The program is free with park admission. Park admission is $5 per person age 13 and older; children 12 and under are free. Park admission is also free with a Texas State Parks Pass.",
+      "audience": [
+        "General Public",
+        "Families",
+        "Dog Lovers",
+        "Potential Pet Adopters",
+        "Outdoor Enthusiasts"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "eisenhower-state-park",
+      "organizer_name": "Texas Parks & Wildlife Department — Eisenhower State Park",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Sherman Animal Shelter"
+      ],
+      "image_url": "/images/events/tails-on-the-trails-eisenhower-state-park-2026-08-21.png",
+      "image_alt": "Tails on the Trails at Eisenhower State Park on August 21, 2026",
+      "official_url": "https://tpwd.texas.gov/calendar/eisenhower/tails-on-the-trails/2026-08-21",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=FR;UNTIL=20260828T100000",
+      "recurrence_start_date": "2026-08-21",
+      "recurrence_end_date": "2026-08-28",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "good_to_know": [
+        "The August 21 program runs from 9:00 AM to 10:00 AM.",
+        "Meet at the OHV Parking Lot inside Eisenhower State Park.",
+        "The walk pairs park staff with a rescue dog from Sherman Animal Shelter.",
+        "Waivers will be available the day of the event.",
+        "The program itself is free, but normal park admission applies.",
+        "Adult park admission is $5 for ages 13 and older; children 12 and under enter free.",
+        "Texas State Parks Pass holders receive free park admission.",
+        "The event is weather dependent and may be canceled.",
+        "TPWD also lists another occurrence for Friday, August 28 at 9:00 AM."
+      ],
+      "verification_note": "Fully researched August 18, 2026. Texas Parks & Wildlife Department's official August 21 Tails on the Trails occurrence confirms Friday, August 21, 2026 from 9:00 AM to 10:00 AM at Eisenhower State Park. Participants meet at the OHV Parking Lot and join a park ranger with a rescue dog from Sherman Animal Shelter for an easy walk. Waivers are available on the day of the event. The program is free with park admission; admission is $5 for visitors age 13 and older, free for children 12 and under, and free with a Texas State Parks Pass. TPWD identifies this as a repeating event and currently lists August 21 and August 28 as remaining occurrences. The existing TWG Project WILD event already establishes eisenhower-state-park as the intended canonical venue slug.",
+      "sources": [
+        {
+          "source_name": "Texas Parks & Wildlife — Tails on the Trails — August 21, 2026",
+          "source_url": "https://tpwd.texas.gov/calendar/eisenhower/tails-on-the-trails/2026-08-21",
+          "source_type": "official organizer",
+          "supports": "Event date, 9:00 AM-10:00 AM time, Eisenhower State Park venue, OHV Parking Lot meeting location, Sherman Animal Shelter participation, waiver information, admission costs and recurring dates."
+        },
+        {
+          "source_name": "Texas Parks & Wildlife — Eisenhower State Park",
+          "source_url": "https://tpwd.texas.gov/state-parks/eisenhower",
+          "source_type": "official venue",
+          "supports": "Park address, coordinates, phone number, admission pricing and current venue information."
+        }
+      ],
       "last_checked": "2026-08-18",
       "created_on": "2026-08-18",
       "updated_on": "2026-08-18"
