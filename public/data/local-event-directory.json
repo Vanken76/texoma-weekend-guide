@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 320,
-  "publish_ready_count": 320,
+  "event_count": 321,
+  "publish_ready_count": 321,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -21528,6 +21528,60 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 18, 2026 from the current UPRA event listing and Hardy Murphy Coliseum's official website. UPRA lists the jackpot for Saturday, August 22, 2026, with books opening at 8:00 AM and roping beginning at 9:00 AM. Added money is $1,500. The first roping is UPRA-sanctioned and the second is not. A current UPRA membership is required to rope. UPRA's listing gives the venue address as 500 Lake Murray Dr South, while Hardy Murphy Coliseum's own current website and the existing Texoma Weekend Guide venue record use 600 Lake Murray Dr S, Ardmore, OK 73401; the venue's current first-party address is used here. No event ending time or spectator admission price is published.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-18"
+    },
+    {
+      "event_slug": "sbc-dodgeball-bash-game-on-southeastern-2026-08-21",
+      "event_name": "SBC Dodgeball Bash, Game On!",
+      "description": "SBC Dodgeball Bash, Game On! is part of Southeastern Oklahoma State University's Welcome Week 2026. The event begins at 7:00 PM Friday in the Student Union Gymnasium.",
+      "start_datetime": "2026-08-21T19:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "student-union-gymnasium"
+      ],
+      "venue_name": "Student Union Gymnasium",
+      "address": null,
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": null,
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Sports & Recreation",
+        "Student Life"
+      ],
+      "tags": [
+        "Dodgeball",
+        "Welcome Week",
+        "Southeastern Oklahoma State University",
+        "Student Union Gymnasium",
+        "Durant"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": "southeastern-oklahoma-state-university",
+      "organizer_name": "Southeastern Oklahoma State University",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/sbc-dodgeball-bash-game-on-southeastern-2026-08-21.png",
+      "image_alt": null,
+      "official_url": "https://www.se.edu/event/welcome-week-2026/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 18, 2026 from Southeastern Oklahoma State University's official Welcome Week 2026 schedule. SBC Dodgeball Bash, Game On! is listed for Friday, August 21 at 7:00 PM in the Student Union Gymnasium. Southeastern does not publish an ending time, admission price, registration requirement, or specific audience restriction for this occurrence.",
       "last_checked": "2026-08-18",
       "created_on": "2026-08-18",
       "updated_on": "2026-08-18"
