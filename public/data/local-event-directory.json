@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 303,
-  "publish_ready_count": 303,
+  "event_count": 304,
+  "publish_ready_count": 304,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -20489,6 +20489,67 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified against the official Ardmore Main Street Authority calendar on 2026-08-17. Food Truck Friday is listed at Depot Park from 11:00 AM to 7:00 PM as recurring. The visible 2026 series runs on consecutive Fridays from July 24 through August 28. No admission price or age restriction is published. Depot Park's address was verified through Ardmore Main Street Authority's official venue page.",
+      "last_checked": "2026-08-17",
+      "created_on": "2026-08-17",
+      "updated_on": "2026-08-18"
+    },
+    {
+      "event_slug": "oil-painting-with-dean-todd-creative-arts-center-bonham-2026-08-21",
+      "event_name": "Oil Painting with Dean Todd",
+      "description": "Learn the basics of oil painting with instructor Dean Todd at the Creative Arts Center in Bonham. Beginners are welcome, and all supplies are provided. Space is limited to 10 participants.",
+      "start_datetime": "2026-08-21T10:00:00-05:00",
+      "end_datetime": "2026-08-21T12:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "creative-arts-center-bonham"
+      ],
+      "venue_name": "Creative Arts Center",
+      "address": "200 W 5th St",
+      "city": "Bonham",
+      "state": "TX",
+      "postal_code": "75418",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Arts & Crafts",
+        "Class & Workshop"
+      ],
+      "tags": [
+        "Oil Painting",
+        "Dean Todd",
+        "Creative Arts Center",
+        "Bonham",
+        "Art Class",
+        "Painting",
+        "Beginners Welcome"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$40 for Creative Arts Center members; $50 for non-members. All supplies are provided.",
+      "audience": [
+        "Adults",
+        "Beginners"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "creative-arts-center-bonham",
+      "organizer_name": "Creative Arts Center",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/oil-painting-with-dean-todd-creative-arts-center-bonham-2026-08-21.png",
+      "image_alt": null,
+      "official_url": "https://creativeartscenterbonham.org/2026/02/oil-painting-with-dean-todd/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 17, 2026 from the Creative Arts Center's official classes page and official Oil Painting with Dean Todd listing. The August class is Friday, August 21, 2026 from 10:00 AM to 12:30 PM at the Creative Arts Center, 200 W 5th St, Bonham, TX 75418. Beginners are welcome, all supplies are provided, pricing is $40 for members and $50 for non-members, and the class is limited to 10 participants. The Creative Arts Center categorizes the program among its adult classes. No specific minimum age was published, so no age restriction is inferred. Although other Dean Todd oil-painting classes are offered on separate dates, no reliable fixed recurrence rule is published, so this record represents only the August 21 occurrence.",
+      "capacity": 10,
+      "registration_note": "Class size is limited to 10 participants. Registration information is available through the Creative Arts Center's official class listing.",
       "last_checked": "2026-08-17",
       "created_on": "2026-08-17",
       "updated_on": "2026-08-18"
