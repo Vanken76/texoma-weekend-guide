@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 318,
-  "publish_ready_count": 318,
+  "event_count": 319,
+  "publish_ready_count": 319,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -21400,6 +21400,72 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 18, 2026 from DESCHAIN Cellars' official live-music calendar. J. Mikhael Smith is scheduled to perform Saturday, August 22, 2026 from 6:00 PM to 9:00 PM at DESCHAIN Winery + Cellars + Lounge, 8363 U.S. 82, Gainesville, TX 76240. DESCHAIN describes the performance as Tennessee Americana (Alt-Country). No admission price or age restriction is published on the official event listing.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-18"
+    },
+    {
+      "event_slug": "wildlife-explorer-tram-tour-hagerman-nwr-2026-08-23",
+      "event_name": "Wildlife Explorer Tram Tour",
+      "description": "Take a guided ride aboard the Wildlife Explorer tram through Hagerman National Wildlife Refuge. Tours may cover wildlife, birds, habitat, refuge history and photography, with stops for wildlife viewing and photography along the way.",
+      "start_datetime": "2026-08-23T14:00:00-05:00",
+      "end_datetime": "2026-08-23T15:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "hagerman-national-wildlife-refuge-sherman"
+      ],
+      "venue_name": "Hagerman National Wildlife Refuge",
+      "address": "6465 Refuge Road",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75092",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Nature & Outdoors",
+        "Guided Tours",
+        "Wildlife"
+      ],
+      "tags": [
+        "Wildlife Explorer",
+        "Tram Tour",
+        "Hagerman National Wildlife Refuge",
+        "Wildlife Viewing",
+        "Birding",
+        "Nature",
+        "Photography",
+        "Sherman",
+        "Lake Texoma"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free and open to the public. Donations are accepted to support Friends of Hagerman programs. Reservations are requested because seating is limited; standbys may be accepted if space permits.",
+      "audience": [
+        "Nature enthusiasts",
+        "Families",
+        "Birders",
+        "Photographers"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Friends of Hagerman NWR",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Hagerman National Wildlife Refuge"
+      ],
+      "image_url": "/images/events/wildlife-explorer-tram-tour-hagerman-nwr-2026-08-23.png",
+      "image_alt": null,
+      "official_url": "https://friendsofhagerman.com/Tram-Tours",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "RRULE:FREQ=WEEKLY;BYDAY=SA,SU",
+      "recurrence_start_date": "2026-08-23",
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 18, 2026 from the U.S. Fish & Wildlife Service Hagerman National Wildlife Refuge page and the official Friends of Hagerman NWR tram-tour page. Wildlife Explorer tram tours are offered Saturdays and Sundays at 2:00 PM, weather permitting. Tours last approximately 90 minutes. Reservations are requested because seating is limited, with standbys accepted if space permits. Participants should meet at the Visitor Center 15 minutes before departure. Tours are free and open to the public, with donations accepted.",
       "last_checked": "2026-08-18",
       "created_on": "2026-08-18",
       "updated_on": "2026-08-18"
