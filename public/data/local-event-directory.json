@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 306,
-  "publish_ready_count": 306,
+  "event_count": 307,
+  "publish_ready_count": 307,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -20688,6 +20688,66 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 17, 2026 from current American Cowboys Rodeo Association and United Professional Rodeo Association listings. Madill Roundup Club Pro Rodeo is scheduled for Friday and Saturday, August 21-22, 2026, with an 8:00 PM performance each night in Madill, Oklahoma. The rodeo lists $9,000 in added money and competition in bareback, saddle bronc, ranch bronc, bulls, ladies barrels, tie down, ladies breakaway, steer wrestling and team roping. It is sanctioned by UPRA, CRRA and ACRA, with Flying C Rodeo Co. as stock contractor. Friday slack follows the performance. No spectator admission price or published performance end time was found, so neither is inferred.",
+      "last_checked": "2026-08-17",
+      "created_on": "2026-08-17",
+      "updated_on": "2026-08-18"
+    },
+    {
+      "event_slug": "stitching-with-sandy-creative-arts-center-bonham-2026-08-21",
+      "event_name": "Stitching with Sandy",
+      "description": "Learn hand sewing and embroidery basics with Sandy while completing a small project at the Creative Arts Center in Bonham. Beginners are welcome. This August 21 meeting is the second session of a two-part class scheduled for August 14 and August 21 from 1:00 to 4:00 PM.",
+      "start_datetime": "2026-08-21T13:00:00-05:00",
+      "end_datetime": "2026-08-21T16:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "creative-arts-center-bonham"
+      ],
+      "venue_name": "Creative Arts Center",
+      "address": "200 W 5th St",
+      "city": "Bonham",
+      "state": "TX",
+      "postal_code": "75418",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Arts & Crafts",
+        "Class & Workshop"
+      ],
+      "tags": [
+        "Stitching with Sandy",
+        "Hand Sewing",
+        "Embroidery",
+        "Fiber Arts",
+        "Beginner Class",
+        "Creative Arts Center",
+        "Bonham"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "The current official classes listing provides registration information but does not display a dependable class price in the publicly indexed details, so no fee is inferred.",
+      "audience": [
+        "Adults",
+        "Teens ages 15+",
+        "Youth ages 12-14 with participating adult"
+      ],
+      "age_restriction": "Ages 12+. Youth ages 12-14 must be accompanied by a responsible adult who is also taking the class.",
+      "host_business_slug": "creative-arts-center-bonham",
+      "organizer_name": "Creative Arts Center",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/stitching-with-sandy-creative-arts-center-bonham-2026-08-21.png",
+      "image_alt": null,
+      "official_url": "https://creativeartscenterbonham.org/2026/07/stitching-with-sandy/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 17, 2026 from the Creative Arts Center's official classes listing. Stitching with Sandy is a two-part beginner hand-sewing and embroidery class scheduled for August 14 and August 21 from 1:00 PM to 4:00 PM at the Creative Arts Center, 200 W 5th St, Bonham, TX 75418. This record represents the upcoming August 21 second session. The class is designed for adults; teens age 15 and older are welcome, while youth ages 12-14 may attend only when accompanied by a responsible adult who is also taking the class. The publicly indexed official listing does not expose a dependable registration fee, so cost is left unknown.",
       "last_checked": "2026-08-17",
       "created_on": "2026-08-17",
       "updated_on": "2026-08-18"
