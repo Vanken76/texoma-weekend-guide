@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 333,
-  "publish_ready_count": 333,
+  "event_count": 334,
+  "publish_ready_count": 334,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -22350,6 +22350,72 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 18, 2026 from the City of Sherman's official library calendar and Sherman Public Library's current Programs & Events information. Good Reads Book Club is listed for Tuesday, August 25, 2026 at 6:30 PM at Sherman Public Library. The meeting uses a reader's-choice format, inviting attendees to bring a book they are currently reading or a familiar favorite to share and discuss. The program is for ages 18 and up, and no signup or ticket is required. Sherman Public Library lists Good Reads Book Club among its ongoing adult clubs, but no fixed recurrence rule is published, so none is inferred. No ending time or admission charge is published. TWG's current canonical business directory confirms Sherman Public Library under slug sherman-public-library.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-18"
+    },
+    {
+      "event_slug": "coffee-network-three-valley-museum-august-2026",
+      "event_name": "Coffee Network",
+      "description": "Connect with local business owners, community leaders and neighbors during the Durant Area Chamber of Commerce's Coffee Network at Three Valley Museum. Durant Main Street is hosting the August meetings, offering coffee, conversation and an informal opportunity to build relationships, exchange ideas and stay connected with the Durant community.",
+      "start_datetime": "2026-08-19T08:30:00-05:00",
+      "end_datetime": "2026-08-19T09:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "three-valley-museum-durant"
+      ],
+      "venue_name": "Three Valley Museum",
+      "address": "401 W Main St",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Networking",
+        "Business Event",
+        "Community Event",
+        "Chamber Event"
+      ],
+      "tags": [
+        "Coffee Network",
+        "Durant Area Chamber of Commerce",
+        "Durant Main Street",
+        "Three Valley Museum",
+        "business networking",
+        "community networking",
+        "Durant",
+        "Bryan County"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "Business Owners",
+        "Community Leaders",
+        "Local Professionals",
+        "Community Members"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "durant-area-chamber-of-commerce",
+      "organizer_name": null,
+      "partner_business_slugs": [
+        "durant-main-street"
+      ],
+      "partner_names": [],
+      "image_url": "/images/events/coffee-network-three-valley-museum-august-2026.png",
+      "image_alt": null,
+      "official_url": "https://durantmainstreet.org/events-1",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=WE;UNTIL=20260826T093000",
+      "recurrence_start_date": "2026-08-19",
+      "recurrence_end_date": "2026-08-26",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 18, 2026 from Durant Main Street's current official Historic District Events Calendar. Durant Main Street states that it is hosting the Durant Area Chamber of Commerce's Coffee Network every Wednesday in August at Three Valley Museum, 401 W Main St in Durant. The live calendar currently lists the remaining meetings on Wednesday, August 19 and Wednesday, August 26, 2026 from 8:30 AM to 9:30 AM. The event is described as coffee, conversation and networking with local business owners, community leaders and neighbors. No current admission fee, registration requirement or age restriction is published, so none is inferred. TWG's canonical directory confirms Three Valley Museum as three-valley-museum-durant, Durant Area Chamber of Commerce as durant-area-chamber-of-commerce, and Durant Main Street as durant-main-street.",
       "last_checked": "2026-08-18",
       "created_on": "2026-08-18",
       "updated_on": "2026-08-18"
