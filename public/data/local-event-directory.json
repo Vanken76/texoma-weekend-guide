@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 327,
-  "publish_ready_count": 327,
+  "event_count": 328,
+  "publish_ready_count": 328,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -21953,6 +21953,70 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Dustin De La Garza performs Saturday, August 22 from 9:30 PM to 1:30 AM at Gilley's Durant as part of Choctaw Casino & Resort–Durant's free live-entertainment lineup. Gilley's is a non-smoking honky-tonk located inside the Grand Casino.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-18"
+    },
+    {
+      "event_slug": "jon-stork-live-gilleys-durant-2026-08-21",
+      "event_name": "Jon Stork Live at Gilley's Durant",
+      "description": "Texas country artist Jon Stork brings his RockyTonk sound to Gilley's Durant, blending honky-tonk grit, Southern rock and story-driven country music for a late-night Friday performance.",
+      "start_datetime": "2026-08-21T21:30:00-05:00",
+      "end_datetime": "2026-08-22T01:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "gilleys-durant"
+      ],
+      "venue_name": "Gilley's Durant",
+      "address": "4216 S Hwy 69/75",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Country Music",
+        "Nightlife"
+      ],
+      "tags": [
+        "Jon Stork",
+        "RockyTonk",
+        "Texas country",
+        "country music",
+        "live music",
+        "Gilley's Durant",
+        "Choctaw Casino & Resort",
+        "Durant",
+        "Southern Oklahoma"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free live entertainment.",
+      "audience": [
+        "Country Music Fans",
+        "Live Music Fans"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "gilleys-durant",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Jon Stork"
+      ],
+      "image_url": "/images/events/jon-stork-live-gilleys-durant-2026-08-21.png",
+      "image_alt": null,
+      "official_url": "https://www.choctawcasinos.com/durant/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 18, 2026 from Choctaw Casino & Resort–Durant's current official free-live-entertainment schedule. Jon Stork is listed at Gilley's Durant on Friday, August 21, 2026 from 9:30 PM to 1:30 AM. Choctaw confirms Gilley's as its non-smoking honky-tonk located inside the Grand Casino. Jon Stork's official site describes his music as a blend of honky-tonk, Southern rock and storytelling under the RockyTonk name. No event-specific age restriction was published in the verified sources, so none is inferred.",
       "last_checked": "2026-08-18",
       "created_on": "2026-08-18",
       "updated_on": "2026-08-18"
