@@ -5,8 +5,8 @@
   "generated_on": "2026-08-18",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1011,
-  "publish_ready_count": 686,
+  "business_count": 1012,
+  "publish_ready_count": 687,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -105393,6 +105393,93 @@
         "2,000-person listed event capacity",
         "Historic Santa Fe Depot setting",
         "Mercy Train landmark"
+      ]
+    },
+    {
+      "slug": "madill-roundup-club",
+      "business_name": "Madill Round-Up Club",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Archer Road and Whiskey Creek Road, Madill, OK 73446",
+      "category": [
+        "Rodeo Arena",
+        "Event Venue"
+      ],
+      "tags": [
+        "Rodeo",
+        "Western Sports",
+        "Equestrian",
+        "Community Events",
+        "Madill",
+        "Marshall County"
+      ],
+      "description": "Madill Round-Up Club is a community rodeo organization and event venue in Madill, Oklahoma. Its arena hosts rodeo competition and western-sports events, including the annual Madill Roundup Club Pro Rodeo.",
+      "why_visit": "Catch traditional rodeo action and western-sports events at a long-running Madill community venue.",
+      "why_its_unique": "The club provides a dedicated rodeo arena for western-sports competition and community events in Marshall County.",
+      "phone": "580-263-0256",
+      "email": "madillroundup@gmail.com",
+      "website": null,
+      "facebook": "https://www.facebook.com/p/Madill-Roundup-Club-100063613840219/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public operating hours are published. Access and hours vary by scheduled event.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Rodeo arena"
+      ],
+      "good_to_know": [
+        "Public access and hours depend on the scheduled event.",
+        "The arena is located near the intersection of Archer Road and Whiskey Creek Road in Madill."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified August 17, 2026. The Marshall County Chamber of Commerce lists Madill Round-Up Club in Madill with phone number 580-263-0256 and mailing address P.O. Box 163, Madill, OK 73446. Current rodeo listings identify the event venue at Archer Road and Whiskey Creek Road in Madill and publish the club Facebook page and madillroundup@gmail.com. The American Cowboys Rodeo Association currently lists the Madill Roundup Club Pro Rodeo at this venue for August 21-22, 2026.",
+      "last_checked": "2026-08-17",
+      "event_types": [
+        "Rodeos",
+        "Western Sports",
+        "Equestrian Events",
+        "Community Events"
+      ],
+      "event_sources": [
+        "https://www.facebook.com/p/Madill-Roundup-Club-100063613840219/",
+        "https://acrarodeo.com/eventscalendar.aspx"
+      ],
+      "features": [
+        "Rodeo arena",
+        "Western-sports venue"
       ]
     }
   ]
