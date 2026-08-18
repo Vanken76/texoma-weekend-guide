@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 305,
-  "publish_ready_count": 305,
+  "event_count": 306,
+  "publish_ready_count": 306,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -20614,6 +20614,80 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 17, 2026 from Texoma HR's official event calendar. The 4th Annual Symposium is scheduled Friday, August 21, 2026 from 8:30 AM to 4:00 PM at the City of Sherman Municipal Ballroom, 405 N Rusk St, Sherman, TX 75090. The morning program is \"Architect Language: A Framework for Clarity and Culture\" with Justin Carroll and Stacey Hansen of The Fortified Mindset. The afternoon program is \"Coaching Leaders to Handle Employee Relations Situations\" with Michael J. Mirarchi of Mirarchi Management Group. Lunch is included with registration. The current public listing provides a registration action but does not expose a dependable registration price in its published event details, so cost is marked unknown rather than guessed.",
+      "last_checked": "2026-08-17",
+      "created_on": "2026-08-17",
+      "updated_on": "2026-08-18"
+    },
+    {
+      "event_slug": "madill-roundup-club-pro-rodeo-2026-08-21",
+      "event_name": "Madill Roundup Club Pro Rodeo",
+      "description": "The Madill Roundup Club Pro Rodeo brings two nights of professional rodeo action to Madill, Oklahoma, with performances Friday and Saturday at 8:00 PM. Competition includes bareback riding, saddle bronc, ranch bronc, bull riding, ladies barrels, tie-down roping, ladies breakaway, steer wrestling and team roping. The rodeo is sanctioned by UPRA, CRRA and ACRA, with Flying C Rodeo Co. serving as stock contractor.",
+      "start_datetime": "2026-08-21T20:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "madill-roundup-club"
+      ],
+      "venue_name": "Madill Round-Up Club",
+      "address": "Archer Road and Whiskey Creek Road",
+      "city": "Madill",
+      "state": "OK",
+      "postal_code": "73446",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Rodeo",
+        "Sports & Recreation"
+      ],
+      "tags": [
+        "Madill Roundup Club Pro Rodeo",
+        "Madill Round-Up Club",
+        "Rodeo",
+        "Professional Rodeo",
+        "Western Sports",
+        "Bareback Riding",
+        "Saddle Bronc",
+        "Ranch Bronc",
+        "Bull Riding",
+        "Barrel Racing",
+        "Tie-Down Roping",
+        "Breakaway Roping",
+        "Steer Wrestling",
+        "Team Roping",
+        "Flying C Rodeo Co.",
+        "UPRA",
+        "CRRA",
+        "ACRA",
+        "Madill",
+        "Marshall County"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No spectator admission price is published in the current sanctioning-body event listings.",
+      "audience": [
+        "Rodeo fans",
+        "Western sports fans"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "madill-roundup-club",
+      "organizer_name": "Madill Round-Up Club",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Flying C Rodeo Co."
+      ],
+      "image_url": "/images/events/madill-roundup-club-pro-rodeo-2026-08-21.png",
+      "image_alt": null,
+      "official_url": "https://acrarodeo.com/eventscalendar.aspx",
+      "facebook_url": "https://www.facebook.com/p/Madill-Roundup-Club-100063613840219/",
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=DAILY;COUNT=2",
+      "recurrence_start_date": "2026-08-21",
+      "recurrence_end_date": "2026-08-22",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 17, 2026 from current American Cowboys Rodeo Association and United Professional Rodeo Association listings. Madill Roundup Club Pro Rodeo is scheduled for Friday and Saturday, August 21-22, 2026, with an 8:00 PM performance each night in Madill, Oklahoma. The rodeo lists $9,000 in added money and competition in bareback, saddle bronc, ranch bronc, bulls, ladies barrels, tie down, ladies breakaway, steer wrestling and team roping. It is sanctioned by UPRA, CRRA and ACRA, with Flying C Rodeo Co. as stock contractor. Friday slack follows the performance. No spectator admission price or published performance end time was found, so neither is inferred.",
       "last_checked": "2026-08-17",
       "created_on": "2026-08-17",
       "updated_on": "2026-08-18"
