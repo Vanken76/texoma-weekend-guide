@@ -11,16 +11,24 @@ const roundups = (await getCollection("roundups")).sort(
 const latestRoundup = roundups[0];
 
 const now = new Date();
-const today = new Intl.DateTimeFormat("en-CA", {
+const chicagoDate = (date = new Date()) => new Intl.DateTimeFormat("en-CA", {
   timeZone: "America/Chicago",
   year: "numeric",
   month: "2-digit",
   day: "2-digit"
-}).format(now);
+}).format(date);
+const today = chicagoDate(now);
 
+const normalizeRule = (rule = "") => String(rule ?? "").trim().replace(/^RRULE:/i, "");
 const parseRule = (rule = "") => Object.fromEntries(
-  rule.split(";").map((part) => part.split("=")).filter(([key, value]) => key && value)
+  normalizeRule(rule).split(";").map((part) => part.split("=")).filter(([key, value]) => key && value)
 );
+const addDays = (dateString, days) => {
+  const date = new Date(`${dateString}T12:00:00`);
+  date.setDate(date.getDate() + days);
+  return chicagoDate(date);
+};
+const dayCode = (dateString) => ["SU", "MO", "TU", "WE", "TH", "FR", "SA"][new Date(`${dateString}T12:00:00`).getDay()];
 
 const recurrenceEndDate = (event) => {
   if (event.recurrence_end_date) return event.recurrence_end_date;
@@ -29,12 +37,58 @@ const recurrenceEndDate = (event) => {
   return `${until.slice(0, 4)}-${until.slice(4, 6)}-${until.slice(6, 8)}`;
 };
 
+const rdates = (rule = "") => {
+  const value = normalizeRule(rule).startsWith("RDATE:") ? normalizeRule(rule).slice(6) : "";
+  return value.split(",").map((entry) => entry.slice(0, 8)).filter(/^\d{8}$/).map((entry) => `${entry.slice(0, 4)}-${entry.slice(4, 6)}-${entry.slice(6, 8)}`);
+};
+
+const occursOn = (eventDate, targetDate, recurrenceRule, recurrenceEnd) => {
+  if (!eventDate || targetDate < eventDate || (recurrenceEnd && targetDate > recurrenceEnd)) return false;
+  const normalized = normalizeRule(recurrenceRule);
+  if (normalized.startsWith("RDATE:")) return rdates(recurrenceRule).includes(targetDate);
+
+  const rule = parseRule(recurrenceRule);
+  const frequency = rule.FREQ;
+  if (!frequency) return targetDate === eventDate;
+
+  const interval = Math.max(1, Number.parseInt(rule.INTERVAL ?? "1", 10) || 1);
+  const start = new Date(`${eventDate}T12:00:00`);
+  const target = new Date(`${targetDate}T12:00:00`);
+  const daysApart = Math.round((target.getTime() - start.getTime()) / 86400000);
+
+  if (frequency === "DAILY") return daysApart % interval === 0;
+  if (frequency === "WEEKLY") {
+    const allowedDays = (rule.BYDAY ?? dayCode(eventDate)).split(",");
+    return allowedDays.includes(dayCode(targetDate)) && Math.floor(daysApart / 7) % interval === 0;
+  }
+  if (frequency === "MONTHLY") {
+    const monthsApart = (target.getFullYear() - start.getFullYear()) * 12 + target.getMonth() - start.getMonth();
+    const allowedMonthDays = (rule.BYMONTHDAY ?? String(start.getDate())).split(",").map(Number);
+    return monthsApart >= 0 && monthsApart % interval === 0 && allowedMonthDays.includes(target.getDate());
+  }
+  if (frequency === "YEARLY") {
+    const yearsApart = target.getFullYear() - start.getFullYear();
+    return yearsApart >= 0 && yearsApart % interval === 0 && target.getMonth() === start.getMonth() && target.getDate() === start.getDate();
+  }
+  return targetDate === eventDate;
+};
+
+const nextOccurrenceDate = (event, fromDate = today) => {
+  const eventDate = event.start_datetime?.slice(0, 10) ?? "";
+  if (!eventDate) return null;
+  if (event.recurring !== true) return eventDate >= fromDate ? eventDate : null;
+
+  const endDate = recurrenceEndDate(event);
+  const scanEnd = endDate && endDate < addDays(fromDate, 730) ? endDate : addDays(fromDate, 730);
+  for (let date = fromDate; date <= scanEnd; date = addDays(date, 1)) {
+    if (occursOn(eventDate, date, event.recurrence_rule ?? "", endDate ?? "")) return date;
+  }
+  return null;
+};
+
 const isCurrent = (event) => {
   if (event.active === false) return false;
-  if (event.recurring === true) {
-    const endDate = recurrenceEndDate(event);
-    return !endDate || endDate >= today;
-  }
+  if (event.recurring === true) return Boolean(nextOccurrenceDate(event));
   if (event.end_datetime) return new Date(event.end_datetime) >= now;
   return Boolean(event.start_datetime && event.start_datetime.slice(0, 10) >= today);
 };
