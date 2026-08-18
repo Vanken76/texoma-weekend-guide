@@ -25,7 +25,7 @@ const bytesToBase64 = (bytes) => {
 };
 
 const fromBase64 = (value) => {
-  const binary = atob(value.replace(/\n/g, ""));
+  const binary = atob(String(value || "").replace(/\n/g, ""));
   const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
   return new TextDecoder().decode(bytes);
 };
@@ -167,9 +167,21 @@ export const onRequestPost = async ({ request, env }) => {
     const parentCommit = await githubJson(token, `/git/commits/${parentSha}`);
 
     const currentFile = await githubJson(token, `/contents/${FILE_PATH}?ref=${parentSha}`);
+    let encodedDirectory = typeof currentFile.content === "string" && currentFile.content.trim()
+      ? currentFile.content
+      : null;
+
+    if (!encodedDirectory && currentFile.sha) {
+      const currentBlob = await githubJson(token, `/git/blobs/${currentFile.sha}`);
+      if (currentBlob.encoding !== "base64" || typeof currentBlob.content !== "string") {
+        return jsonResponse({ error: "GitHub returned the Event Directory blob in an unsupported format." }, 502);
+      }
+      encodedDirectory = currentBlob.content;
+    }
+
     let directory;
     try {
-      directory = JSON.parse(fromBase64(currentFile.content));
+      directory = JSON.parse(fromBase64(encodedDirectory));
     } catch {
       return jsonResponse({ error: "The current GitHub Event Directory could not be decoded." }, 502);
     }
