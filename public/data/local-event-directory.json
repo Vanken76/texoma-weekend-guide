@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 323,
-  "publish_ready_count": 323,
+  "event_count": 324,
+  "publish_ready_count": 324,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -21706,6 +21706,68 @@
       "host_business_slug": "eisenhower-state-park",
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_slug": "punishers-20-cornhole-swap-2026-08-22",
+      "event_name": "Punishers $20 Cornhole Swap",
+      "description": "Join the Punishers for a $20 cornhole Swap at VFW Post 7873 in Pottsboro. No partner is needed and all skill levels are welcome. Players may use any bags. Register through the ACL app. If fewer than 12 players participate, the organizer plans to run singles instead. No smoking or vaping inside, and no outside drinks or tumblers. Questions: Michelle at 214-927-3021.",
+      "start_datetime": "2026-08-22T19:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "vfw-post-7873"
+      ],
+      "venue_name": "VFW Post 7873",
+      "address": "250 VFW Drive",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Cornhole Tournament",
+        "Sports & Recreation",
+        "Competition"
+      ],
+      "tags": [
+        "cornhole",
+        "ACL Swap",
+        "bag toss",
+        "Punishers",
+        "VFW Post 7873",
+        "Pottsboro",
+        "Lake Texoma",
+        "competition",
+        "all skill levels"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$20 entry. No partner needed. Register through the ACL app.",
+      "audience": [
+        "Cornhole players",
+        "All skill levels"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Punishers",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/punishers-20-cornhole-swap-2026-08-22.jpg",
+      "image_alt": null,
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Organizer-submitted flyer confirms the Aug. 22, 2026 date, 7:00 PM start, VFW Post 7873 location, $20 Swap entry, no-partner format, all-skill-level welcome, any-bags rule, ACL app registration and singles fallback if fewer than 12 players participate. VFW Post 7873 independently confirms its Pottsboro address. The American Cornhole League describes ACL Swap as a cornhole format in which players are assigned different doubles partners during the rounds.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-18"
     }
   ]
 }
