@@ -1,4 +1,4 @@
-name: JSON-LD QA
+name: Site QA
 
 on:
   workflow_dispatch:
@@ -8,10 +8,9 @@ on:
   push:
     branches:
       - main
-      - jsonld-implementation-2026-08-19
 
 jobs:
-  jsonld-qa:
+  site-qa:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -27,5 +26,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run JSON-LD QA
-        run: npm run check:jsonld
+      - name: Run production build
+        run: npm run build
+
+      - name: Verify search discovery output
+        run: |
+          test -s dist/sitemap.xml
+          test -s dist/robots.txt
+          grep -q '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' dist/sitemap.xml
+          grep -q '<loc>https://texomaweekendguide.com/</loc>' dist/sitemap.xml
+          grep -q 'Sitemap: https://texomaweekendguide.com/sitemap.xml' dist/robots.txt
+          if grep -q '<loc>https://texomaweekendguide.com/admin' dist/sitemap.xml; then
+            echo 'Admin URL found in sitemap.'
+            exit 1
+          fi
