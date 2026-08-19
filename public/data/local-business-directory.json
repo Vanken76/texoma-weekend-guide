@@ -5,8 +5,8 @@
   "generated_on": "2026-08-19",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1017,
-  "publish_ready_count": 692,
+  "business_count": 1018,
+  "publish_ready_count": 693,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -106009,6 +106009,109 @@
         "Restaurant",
         "Full bar",
         "Late-night dining",
+        "Sports-viewing venue"
+      ]
+    },
+    {
+      "slug": "chilis-grill-and-bar-choctaw-casino-resort-grant",
+      "business_name": "Chili’s Grill & Bar — Choctaw Casino & Resort–Grant",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1516 US Hwy 271, Grant, OK 74738",
+      "category": [
+        "Restaurant",
+        "Bar & Grill",
+        "Event Venue"
+      ],
+      "tags": [
+        "Grant",
+        "Choctaw Casino & Resort",
+        "Chili's",
+        "Full Bar",
+        "Late Night Dining",
+        "Sports Viewing",
+        "UFC"
+      ],
+      "description": "Chili’s Grill & Bar location inside Choctaw Casino & Resort–Grant serving the chain's American and Southwestern-inspired menu, drinks and late-night dining. Choctaw also uses the restaurant as an officially promoted viewing location for UFC events.",
+      "why_visit": "A familiar full-service restaurant and bar inside Choctaw Casino & Resort–Grant with dining, drinks and extended weekend hours.",
+      "why_its_unique": "This Grant Chili’s doubles as one of Choctaw's officially listed UFC viewing locations, making it relevant to both the dining directory and ongoing event mining.",
+      "phone": "888-652-4628",
+      "email": null,
+      "website": "https://www.chilis.com/locations/us/oklahoma/grant/grant-hot-pepper",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "10:45 AM - 11:00 PM",
+        "tuesday": "10:45 AM - 11:00 PM",
+        "wednesday": "10:45 AM - 11:00 PM",
+        "thursday": "10:45 AM - 11:00 PM",
+        "friday": "10:45 AM - 1:00 AM",
+        "saturday": "10:45 AM - 1:00 AM",
+        "sunday": "10:45 AM - 11:00 PM"
+      },
+      "hours_note": "Chili's official Grant location page lists a 10:45 AM opening; the Choctaw property page rounds the opening time to 11:00 AM.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full-service dining",
+        "Bar",
+        "Pickup",
+        "Delivery",
+        "Late-night weekend dining"
+      ],
+      "good_to_know": [
+        "Located inside Choctaw Casino & Resort–Grant.",
+        "Official Choctaw event listings use this location for selected UFC viewing events."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Grant, Oklahoma"
+      ],
+      "verification_note": "Verified 2026-08-19 from the official Chili's Grant location page and the official Choctaw Casino & Resort–Grant property/event page.",
+      "last_checked": "2026-08-19",
+      "event_types": [
+        "Sports viewing",
+        "UFC / MMA viewing events"
+      ],
+      "event_sources": [
+        "https://www.choctawcasinos.com/grant/",
+        "https://www.chilis.com/locations/us/oklahoma/grant/grant-hot-pepper"
+      ],
+      "features": [
+        "Restaurant",
+        "Bar",
+        "Pickup and delivery",
         "Sports-viewing venue"
       ]
     }
