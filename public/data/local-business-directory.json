@@ -5,8 +5,8 @@
   "generated_on": "2026-08-19",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1018,
-  "publish_ready_count": 693,
+  "business_count": 1019,
+  "publish_ready_count": 694,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -106113,6 +106113,108 @@
         "Bar",
         "Pickup and delivery",
         "Sports-viewing venue"
+      ]
+    },
+    {
+      "slug": "sherman-farmers-market",
+      "business_name": "Sherman Farmers Market",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Northwest corner of Houston and Crockett, Downtown Sherman, Sherman, TX",
+      "category": [
+        "Farmers Market",
+        "Shopping"
+      ],
+      "tags": [
+        "Farmers Market",
+        "Local Produce",
+        "Local Vendors",
+        "Farm Fresh",
+        "Artisan Goods",
+        "Producers Only",
+        "Seasonal Market",
+        "Saturday Market",
+        "Downtown Sherman",
+        "Grayson County"
+      ],
+      "description": "Sherman Farmers Market is a seasonal producers-only market in downtown Sherman where local farmers, producers and crafters sell goods directly to shoppers. Offerings can include fresh fruits and vegetables, grass-fed beef, flowers, eggs, local honey, soaps and gourmet artisan food specialties. The market operates Saturday mornings during its April-through-October season.",
+      "why_visit": "Shop directly from local farmers, producers and makers for fresh food, locally produced goods and artisan specialties in the heart of downtown Sherman.",
+      "why_its_unique": "Sherman Farmers Market is a producers-only market: participating vendors grow, raise or make the products they sell. The market has served Sherman since 2013 and has operated at Houston and Crockett since 2017.",
+      "phone": "817-371-3666",
+      "email": "Shermantxfarmersmarket@gmail.com",
+      "website": "https://www.shermanfarmersmarket.com/",
+      "facebook": "https://www.facebook.com/shermanfarmersmarket/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "saturday": "9:00 AM - 12:00 PM"
+      },
+      "hours_note": "Seasonal market operating Saturday mornings from April through October. The 2026 season opened April 18.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Fresh local produce",
+        "Local meats and eggs",
+        "Local honey",
+        "Flowers",
+        "Artisan food specialties",
+        "Handmade goods"
+      ],
+      "good_to_know": [
+        "Open Saturdays from 9:00 AM to 12:00 PM during the April-through-October season.",
+        "Located on the northwest corner of Houston and Crockett in downtown Sherman.",
+        "Vendors must grow, raise or make the products they sell."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified Aug. 19, 2026 from the official Sherman Farmers Market website and City of Sherman sources. Official market information confirms the Houston and Crockett location, Saturday 9:00 AM-noon seasonal schedule, producer-only model, contact information and 2026 season.",
+      "last_checked": "2026-08-19",
+      "event_types": [
+        "Farmers markets",
+        "Community markets",
+        "Vendor events",
+        "Local food events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page"
+      ],
+      "features": [
+        "Producers-only market",
+        "Local farmers and crafters",
+        "Seasonal Saturday market",
+        "Operating since 2013",
+        "Downtown Sherman location"
       ]
     }
   ]
