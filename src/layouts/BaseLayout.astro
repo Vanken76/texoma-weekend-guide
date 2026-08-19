@@ -44,6 +44,7 @@ const organizationJsonLdText = isHomePage
 const webSiteJsonLdText = isHomePage
   ? serializeJsonLd(buildSiteWebSiteJsonLd(siteURL))
   : "";
+const isAdminPage = /^\/admin(?:\/|-|$)/i.test(Astro.url.pathname);
 const isEventAdmin = Astro.url.pathname === "/admin-events" || Astro.url.pathname === "/admin-events/";
 const isBusinessAdmin = Astro.url.pathname === "/admin-business" || Astro.url.pathname === "/admin-business/";
 const isBusinessGalleryAdmin = Astro.url.pathname === "/admin-business-gallery" || Astro.url.pathname === "/admin-business-gallery/";
@@ -137,6 +138,7 @@ if (isBusinessDetail) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    {isAdminPage && <meta name="robots" content="noindex,nofollow" />}
     <link rel="canonical" href={canonicalURL} />
     <link rel="icon" type="image/jpeg" href="/images/logo.jpg" />
     {organizationJsonLdText && <script type="application/ld+json" set:html={organizationJsonLdText} />}
