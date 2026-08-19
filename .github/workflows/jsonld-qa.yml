@@ -29,3 +29,85 @@ jobs:
 
       - name: Run JSON-LD QA
         run: npm run check:jsonld
+
+  production-jsonld-verification:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Verify deployed JSON-LD in production HTML
+        env:
+          HOME_URL: https://texomaweekendguide.com/
+          EVENT_URL: https://texomaweekendguide.com/events/april-n-smith-full-band-calhouns-2-0-2026-08-21/
+          BUSINESS_URL: https://texomaweekendguide.com/businesses/calhouns-2-0/
+        run: |
+          node <<'NODE'
+          const targets = [
+            { key: 'home', url: process.env.HOME_URL, requiredTypes: ['Organization', 'WebSite'] },
+            { key: 'event', url: process.env.EVENT_URL, requiredTypes: ['Event', 'BreadcrumbList'] },
+            { key: 'business', url: process.env.BUSINESS_URL, requiredTypes: ['MusicVenue', 'BreadcrumbList'] }
+          ];
+
+          const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+          function extractJsonLd(html) {
+            const blocks = [];
+            const pattern = /<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
+            for (const match of html.matchAll(pattern)) {
+              const text = match[1].trim();
+              if (!text) continue;
+              blocks.push(JSON.parse(text));
+            }
+            return blocks;
+          }
+
+          function collectTypes(value, result = new Set()) {
+            if (Array.isArray(value)) {
+              for (const item of value) collectTypes(item, result);
+              return result;
+            }
+            if (!value || typeof value !== 'object') return result;
+            const type = value['@type'];
+            if (Array.isArray(type)) type.forEach((item) => result.add(item));
+            else if (typeof type === 'string') result.add(type);
+            for (const child of Object.values(value)) collectTypes(child, result);
+            return result;
+          }
+
+          async function inspectTarget(target) {
+            const separator = target.url.includes('?') ? '&' : '?';
+            const response = await fetch(`${target.url}${separator}twg-jsonld-verify=${Date.now()}`, {
+              headers: {
+                'cache-control': 'no-cache',
+                'user-agent': 'TWG-JSONLD-Production-Verification/1.0'
+              },
+              redirect: 'follow'
+            });
+            if (!response.ok) throw new Error(`${target.key}: HTTP ${response.status}`);
+            const html = await response.text();
+            const blocks = extractJsonLd(html);
+            if (!blocks.length) throw new Error(`${target.key}: no application/ld+json blocks found`);
+            const types = collectTypes(blocks);
+            for (const requiredType of target.requiredTypes) {
+              if (!types.has(requiredType)) {
+                throw new Error(`${target.key}: missing ${requiredType}; found ${[...types].sort().join(', ') || 'no @type values'}`);
+              }
+            }
+            console.log(`${target.key}: OK — ${blocks.length} JSON-LD block(s); types: ${[...types].sort().join(', ')}`);
+          }
+
+          let lastError;
+          for (let attempt = 1; attempt <= 24; attempt += 1) {
+            try {
+              console.log(`Production verification attempt ${attempt}/24`);
+              for (const target of targets) await inspectTarget(target);
+              console.log('Production JSON-LD verification passed.');
+              process.exit(0);
+            } catch (error) {
+              lastError = error;
+              console.log(`Not ready yet: ${error.message}`);
+              if (attempt < 24) await sleep(30000);
+            }
+          }
+
+          throw lastError || new Error('Production JSON-LD verification failed.');
+          NODE
