@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "astro dev",
     "check:jsonld": "node scripts/check-jsonld.mjs && node scripts/check-jsonld-google.mjs",
-    "build": "node scripts/patch-event-data.mjs && node scripts/fix-events-page.mjs && node scripts/check-jsonld.mjs && node scripts/check-jsonld-google.mjs && astro build",
+    "generate:sitemap": "node scripts/generate-sitemap.mjs",
+    "build": "node scripts/patch-event-data.mjs && node scripts/fix-events-page.mjs && node scripts/check-jsonld.mjs && node scripts/check-jsonld-google.mjs && astro build && node scripts/generate-sitemap.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },
