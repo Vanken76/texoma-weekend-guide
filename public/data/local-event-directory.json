@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 338,
-  "publish_ready_count": 338,
+  "event_count": 339,
+  "publish_ready_count": 339,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -22669,6 +22669,68 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 18, 2026 from Texas Parks & Wildlife Department's current official Growing Native event page and Eisenhower State Park calendar. Growing Native is scheduled for Saturday, August 29, 2026 from 3:00 PM to 3:30 PM at the OHV Pavilion. A park ranger will discuss the importance of Texas native plants, their role in supporting local ecosystems, pollinators and wildlife, and their advantages over non-native species. Participants may decorate a custom native wildflower seed packet to take home, and all craft materials are provided. All ages are welcome. The program is free with park admission: $5 for ages 13 and older, free for children 12 and under, and free park admission with a Texas State Parks Pass. The program is subject to cancellation due to weather. TWG's current canonical business directory confirms Eisenhower State Park under slug eisenhower-state-park.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-19"
+    },
+    {
+      "event_slug": "teen-space-sherman-public-library-2026-08-20",
+      "event_name": "Teen Space",
+      "description": "Teens ages 13-18 can hang out at Sherman Public Library during Teen Space. Participants can play games, work on homework, meet friends and use the space as they need. The program is come-and-go, with no signup or tickets required.",
+      "start_datetime": "2026-08-20T16:00:00-05:00",
+      "end_datetime": "2026-08-20T18:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "sherman-public-library"
+      ],
+      "venue_name": "Sherman Public Library",
+      "address": "421 N Travis St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Teen Event",
+        "Library Event",
+        "Games",
+        "Social Meetup"
+      ],
+      "tags": [
+        "Teen Space",
+        "teens",
+        "ages 13-18",
+        "games",
+        "homework",
+        "friends",
+        "come and go",
+        "Sherman Public Library",
+        "Sherman"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No signup or tickets are required. No admission charge is published in the official event listing.",
+      "audience": [
+        "Teens"
+      ],
+      "age_restriction": "Ages 13-18.",
+      "host_business_slug": "sherman-public-library",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/teen-space-sherman-public-library-2026-08-20.png",
+      "image_alt": null,
+      "official_url": "https://cityofsherman.com/calendar.aspx?CID=21&month=8&view=list&year=2026",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 18, 2026 from the City of Sherman's official library calendar and Sherman Public Library Programs & Events page. Teen Space is scheduled for Thursday, August 20, 2026 from 4:00 PM to 6:00 PM at Sherman Public Library. The program is for teens ages 13-18, who may play games, work on homework, meet friends and use the space as they need. It is a come-and-go event with no signups or tickets required. Sherman Public Library identifies Teen Space as an ongoing age-specific group, but no fixed recurrence rule is published, so none is inferred. No admission charge is published. TWG's current canonical business directory confirms Sherman Public Library under slug sherman-public-library.",
       "last_checked": "2026-08-18",
       "created_on": "2026-08-18",
       "updated_on": "2026-08-19"
