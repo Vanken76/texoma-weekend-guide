@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 340,
-  "publish_ready_count": 340,
+  "event_count": 341,
+  "publish_ready_count": 341,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -22795,6 +22795,59 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 18, 2026 from the official Friends of Hagerman NWR event calendar. The Work Crew is listed for Saturday, August 22, 2026 at the Hagerman National Wildlife Refuge Visitor Center, 6465 Refuge Road, Sherman, TX 75092. Friends of Hagerman states that volunteers help with mowing, hiking-trail upkeep, brush trimming and removal, and general cleanup, and that Scouts are welcome. The organizer states that the Outdoor Crew meets on the first Tuesday and fourth Saturday of each month but does not publish an exact time for the August 22 occurrence, instead directing volunteers to email info@friendsofhagerman.org for exact times and details. The midnight start_datetime is TWG's date-only sentinel and must not be interpreted as a published midnight start time. This record represents only the verified August 22 occurrence rather than encoding the organizer's combined first-Tuesday/fourth-Saturday recurrence pattern.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-19"
+    },
+    {
+      "event_slug": "joe-baker-and-the-brethren-guys-american-kitchen-bar-durant-2026-08-21",
+      "event_name": "Joe Baker and the Brethren",
+      "description": "Joe Baker and the Brethren performs free live entertainment at Guy's American Kitchen + Bar at Choctaw Casino & Resort–Durant on Friday and Saturday, August 21–22, 2026, from 10:00 PM to midnight each night.",
+      "start_datetime": "2026-08-21T22:00:00-05:00",
+      "end_datetime": "2026-08-22T00:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "choctaw-casino-resort-durant"
+      ],
+      "venue_name": "Guy's American Kitchen + Bar",
+      "address": "4216 S Hwy 69/75",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music"
+      ],
+      "tags": [
+        "Joe Baker and the Brethren",
+        "Guy's American Kitchen + Bar",
+        "Choctaw Casino & Resort–Durant",
+        "live music",
+        "Durant"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free live entertainment.",
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": "choctaw-casino-resort-durant",
+      "organizer_name": "Choctaw Casino & Resort–Durant",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/joe-baker-and-the-brethren-guys-american-kitchen-bar-durant-2026-08-21.png",
+      "image_alt": null,
+      "official_url": "https://www.choctawcasinos.com/durant/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "RDATE:20260821,20260822",
+      "recurrence_start_date": "2026-08-21",
+      "recurrence_end_date": "2026-08-22",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 18, 2026 from official Choctaw Casino & Resort–Durant entertainment listings. Joe Baker and the Brethren is scheduled at Guy's American Kitchen + Bar on Friday, August 21 and Saturday, August 22, 2026, from 10:00 PM to midnight each night. Choctaw describes the performances as free live entertainment. No ticket requirement or age restriction was published. Venue preflight found no separate canonical TWG business slug for Guy's American Kitchen + Bar, so the event is linked to the existing canonical parent venue choctaw-casino-resort-durant while preserving Guy's American Kitchen + Bar as the display venue. The RDATE rule represents only the two verified performances.",
       "last_checked": "2026-08-18",
       "created_on": "2026-08-18",
       "updated_on": "2026-08-19"
