@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 342,
-  "publish_ready_count": 342,
+  "event_count": 343,
+  "publish_ready_count": 343,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -22906,6 +22906,73 @@
       "host_business_slug": null,
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_slug": "2026-state-of-the-city-ardmore-2026-08-20",
+      "event_name": "2026 State of the City",
+      "description": "The Ardmore Chamber of Commerce presents the 2026 State of the City at Ardmore Convention Center. Mayor David Plesher will share updates on the City's accomplishments, ongoing projects and the vision for Ardmore's future. The annual event gives attendees an opportunity to stay informed about the community and connect with local leaders.",
+      "start_datetime": "2026-08-20T11:30:00-05:00",
+      "end_datetime": "2026-08-20T13:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "ardmore-convention-center"
+      ],
+      "venue_name": "Ardmore Convention Center",
+      "address": "2401 N Rockford Rd",
+      "city": "Ardmore",
+      "state": "OK",
+      "postal_code": "73401",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Community Event",
+        "Civic Event",
+        "Business & Networking"
+      ],
+      "tags": [
+        "2026 State of the City",
+        "State of the City",
+        "Ardmore",
+        "Mayor David Plesher",
+        "City of Ardmore",
+        "Ardmore Chamber of Commerce",
+        "Ardmore Convention Center",
+        "community",
+        "local government"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "The Ardmore Chamber provides RSVP instructions, but no admission price is published on the official event page.",
+      "audience": [
+        "Community members",
+        "Local businesses",
+        "Community leaders",
+        "Ardmore residents"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/2026-state-of-the-city-ardmore-2026-08-20.png",
+      "official_url": "https://chamber.ardmore.org/calendar/2026-state-of-the-city/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 18, 2026 from the Ardmore Chamber of Commerce's official event page and current Chamber calendar. The 2026 State of the City is scheduled for Thursday, August 20, 2026 from 11:30 AM to 1:00 PM at Ardmore Convention Center. The Chamber states that Mayor David Plesher will provide updates on City accomplishments, ongoing projects and the vision for Ardmore's future. The official event page provides RSVP instructions but does not publish an admission price or age restriction. Ardmore Convention Center's official website confirms the venue address as 2401 N Rockford Rd, Ardmore, OK 73401. The TWG working directory confirms Ardmore Convention Center was already published and user-confirmed added on August 15, so no new venue record is required.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-19",
+      "organizer_name": "Ardmore Chamber of Commerce",
+      "image_alt": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": null,
+      "partner_business_slugs": [],
+      "partner_names": [
+        "City of Ardmore",
+        "Mayor David Plesher"
+      ]
     }
   ]
 }
