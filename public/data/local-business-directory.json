@@ -5,8 +5,8 @@
   "generated_on": "2026-08-19",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1014,
-  "publish_ready_count": 689,
+  "business_count": 1015,
+  "publish_ready_count": 690,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -105680,6 +105680,117 @@
         "Airport identifier KSWI",
         "24/7 self-service fuel",
         "Pilot terminal facilities"
+      ]
+    },
+    {
+      "slug": "the-county-seat-kitchen-and-cocktails",
+      "business_name": "The County Seat Kitchen & Cocktails",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "105 W California St, Gainesville, TX 76240",
+      "category": [
+        "Restaurant",
+        "Cocktail Bar",
+        "Event Venue"
+      ],
+      "tags": [
+        "The County Seat Kitchen & Cocktails",
+        "Gainesville",
+        "Downtown Gainesville",
+        "Cocktail Lounge",
+        "Craft Cocktails",
+        "Dining",
+        "Nightlife",
+        "DJ Events",
+        "Karaoke",
+        "Cooke County",
+        "Texoma"
+      ],
+      "description": "The County Seat Kitchen & Cocktails is an upscale cocktail lounge and eatery in Historic Downtown Gainesville, Texas. The venue serves elevated bar food, craft cocktails, fine wines and cold beer and regularly hosts nightlife and entertainment events.",
+      "why_visit": "The County Seat combines downtown Gainesville dining with craft cocktails and an active calendar of entertainment and special-event nights.",
+      "why_its_unique": "Located in Historic Downtown Gainesville, The County Seat operates as both an upscale cocktail lounge and kitchen while also serving as a recurring venue for DJ nights, karaoke and other nightlife events.",
+      "phone": "940-641-3800",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/TheCountySeatKitchenAndCocktails/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM - 10:00 PM",
+        "tuesday": "11:00 AM - 10:00 PM",
+        "wednesday": "11:00 AM - 10:00 PM",
+        "thursday": "11:00 AM - 10:00 PM",
+        "friday": "11:00 AM - 12:00 AM",
+        "saturday": "11:00 AM - 12:00 AM",
+        "sunday": "11:00 AM - 4:00 PM"
+      },
+      "hours_note": "Current hours are published by the Gainesville Area Chamber of Commerce. Event hours may extend or vary for special programming.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": null,
+        "karaoke": true,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Food service",
+        "Craft cocktails",
+        "Fine wine",
+        "Beer",
+        "Cocktail lounge"
+      ],
+      "good_to_know": [
+        "Located in Historic Downtown Gainesville.",
+        "The venue hosts recurring entertainment and nightlife events.",
+        "Official County Seat promotions confirm DJ and karaoke programming."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Fresh canonical TWG search found no existing County Seat business record. Gainesville Area Chamber of Commerce confirms The County Seat Kitchen & Cocktails at 105 W California St, Gainesville, TX 76240, phone 940-641-3800, and describes it as an upscale cocktail lounge and eatery specializing in elevated bar food, craft cocktails, fine wines and cold beer. The Chamber currently publishes hours of 11:00 AM-10:00 PM Monday through Thursday, 11:00 AM-midnight Friday and Saturday, and 11:00 AM-4:00 PM Sunday, and links directly to the business Facebook page. Downtown Gainesville Alliance independently confirms the business name, address, phone and upscale cocktail-lounge-and-kitchen positioning. User-supplied current Facebook screenshots confirm the venue actively hosts DJ KD entertainment, karaoke and Ladies Night programming. No unsupported email, standalone website, Instagram account, pricing, accessibility or pet-policy claims were added.",
+      "last_checked": "2026-08-18",
+      "event_types": [
+        "DJ nights",
+        "Karaoke",
+        "Ladies Night",
+        "Nightlife events",
+        "Special events"
+      ],
+      "event_sources": [
+        "The County Seat Kitchen & Cocktails official Facebook page",
+        "City of Gainesville community events calendar",
+        "Gainesville Area Chamber of Commerce"
+      ],
+      "features": [
+        "Historic Downtown Gainesville location",
+        "Upscale cocktail lounge",
+        "Kitchen and food service",
+        "Craft cocktails",
+        "Recurring entertainment venue"
       ]
     }
   ]
