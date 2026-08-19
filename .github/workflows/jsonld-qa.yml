@@ -5,10 +5,13 @@ on:
   pull_request:
     branches:
       - main
+      - jsonld-validation-base-2026-08-19
   push:
     branches:
       - main
       - jsonld-implementation-2026-08-19
+      - jsonld-validation-base-2026-08-19
+      - jsonld-validation-run-2026-08-19
 
 jobs:
   jsonld-qa:
@@ -29,3 +32,6 @@ jobs:
 
       - name: Run JSON-LD QA
         run: npm run check:jsonld
+
+      - name: Build production site
+        run: npm run build
