@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 352,
-  "publish_ready_count": 352,
+  "event_count": 353,
+  "publish_ready_count": 353,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -23499,6 +23499,58 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Heart of a Matter Ministries' official calendar confirms HAOMM GROWN @ SHERMAN FARMERS MARKET on Saturday, Aug. 22, 2026 from 8:00 AM to 12:00 PM at the corner of Houston and Crockett in downtown Sherman. The calendar also lists matching Aug. 15 and Aug. 29 occurrences, supporting weekly recurrence. Sherman Farmers Market has been added to TWG with canonical venue slug sherman-farmers-market.",
+      "last_checked": "2026-08-19",
+      "created_on": "2026-08-19",
+      "updated_on": "2026-08-19"
+    },
+    {
+      "event_slug": "true-blue-friday-2026-08-21",
+      "event_name": "True Blue Friday",
+      "description": "True Blue Friday is part of Southeastern Oklahoma State University's Welcome Week 2026 and is scheduled for Friday, Aug. 21 from 10:45 AM to 11:45 AM in the Student Union Atrium.",
+      "start_datetime": "2026-08-21T10:45:00-05:00",
+      "end_datetime": "2026-08-21T11:45:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "su-atrium"
+      ],
+      "venue_name": "SU Atrium",
+      "address": null,
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Student Life"
+      ],
+      "tags": [
+        "True Blue Friday",
+        "Welcome Week",
+        "Southeastern Oklahoma State University",
+        "Durant"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "Southeastern states that all Welcome Week events are free to SE students with a valid SE I.D.; no broader public admission details are published for True Blue Friday.",
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": "southeastern-oklahoma-state-university",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/true-blue-friday-2026-08-21.png",
+      "image_alt": null,
+      "official_url": "https://www.se.edu/event/welcome-week-2026/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Southeastern Oklahoma State University's official Welcome Week 2026 page confirms True Blue Friday on Friday, Aug. 21, 2026 from 10:45 AM to 11:45 AM in the Student Union Atrium. Southeastern's official venue and reservation pages identify SU Atrium as the first-floor Student Union Atrium/Lobby. The live TWG business directory contains the published SU Atrium venue with canonical slug su-atrium and the published Southeastern Oklahoma State University host with canonical slug southeastern-oklahoma-state-university. No separate public admission details, age restriction, ticket link, or additional event description are published.",
       "last_checked": "2026-08-19",
       "created_on": "2026-08-19",
       "updated_on": "2026-08-19"
