@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 339,
-  "publish_ready_count": 339,
+  "event_count": 340,
+  "publish_ready_count": 340,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -22731,6 +22731,70 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 18, 2026 from the City of Sherman's official library calendar and Sherman Public Library Programs & Events page. Teen Space is scheduled for Thursday, August 20, 2026 from 4:00 PM to 6:00 PM at Sherman Public Library. The program is for teens ages 13-18, who may play games, work on homework, meet friends and use the space as they need. It is a come-and-go event with no signups or tickets required. Sherman Public Library identifies Teen Space as an ongoing age-specific group, but no fixed recurrence rule is published, so none is inferred. No admission charge is published. TWG's current canonical business directory confirms Sherman Public Library under slug sherman-public-library.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-19"
+    },
+    {
+      "event_slug": "the-work-crew-hagerman-national-wildlife-refuge-2026-08-22",
+      "event_name": "The Work Crew",
+      "description": "Friends of Hagerman NWR invites volunteers to join the Work Crew at Hagerman National Wildlife Refuge. Outdoor projects may include mowing, sprucing up hiking trails, trimming and removing brush, and general cleanup. The Work Crew normally meets on the first Tuesday and fourth Saturday of each month. The August 22 occurrence is listed at the Hagerman National Wildlife Refuge Visitor Center, but an exact start or ending time is not published. Volunteers should email info@friendsofhagerman.org for exact timing and participation details. Scouts are welcome.",
+      "start_datetime": "2026-08-22T00:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "hagerman-national-wildlife-refuge-sherman"
+      ],
+      "venue_name": "Hagerman National Wildlife Refuge Visitor Center",
+      "address": "6465 Refuge Road",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75092",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Volunteer Opportunity",
+        "Community Service",
+        "Outdoor Activity",
+        "Nature & Outdoors"
+      ],
+      "tags": [
+        "The Work Crew",
+        "Work Crew",
+        "Friends of Hagerman NWR",
+        "Hagerman National Wildlife Refuge",
+        "volunteer",
+        "community service",
+        "trail maintenance",
+        "outdoor crew",
+        "Scouts",
+        "Sherman"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free and open to the public. This is a volunteer work-crew opportunity.",
+      "audience": [
+        "volunteers",
+        "scouts"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Friends of Hagerman NWR",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/the-work-crew-hagerman-national-wildlife-refuge-2026-08-22.png",
+      "image_alt": null,
+      "official_url": "https://www.friendsofhagerman.org/event-6488512",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 18, 2026 from the official Friends of Hagerman NWR event calendar. The Work Crew is listed for Saturday, August 22, 2026 at the Hagerman National Wildlife Refuge Visitor Center, 6465 Refuge Road, Sherman, TX 75092. Friends of Hagerman states that volunteers help with mowing, hiking-trail upkeep, brush trimming and removal, and general cleanup, and that Scouts are welcome. The organizer states that the Outdoor Crew meets on the first Tuesday and fourth Saturday of each month but does not publish an exact time for the August 22 occurrence, instead directing volunteers to email info@friendsofhagerman.org for exact times and details. The midnight start_datetime is TWG's date-only sentinel and must not be interpreted as a published midnight start time. This record represents only the verified August 22 occurrence rather than encoding the organizer's combined first-Tuesday/fourth-Saturday recurrence pattern.",
       "last_checked": "2026-08-18",
       "created_on": "2026-08-18",
       "updated_on": "2026-08-19"
