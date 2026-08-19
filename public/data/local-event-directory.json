@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 351,
-  "publish_ready_count": 351,
+  "event_count": 352,
+  "publish_ready_count": 352,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -23443,6 +23443,62 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "The Sherman Museum official site confirms Dino Days 2026 runs May 27 through August 22 and museum hours are Wednesday through Saturday, 10:00 AM to 4:00 PM. A May 25, 2026 KXII interview with Sherman Museum Director Stuart Holcomb independently confirms the Dino Days Wednesday-Saturday 10:00 AM-4:00 PM schedule, 15th-year status and fossil-focused exhibit. The linked official museum admission page lists current regular admission pricing.",
+      "last_checked": "2026-08-19",
+      "created_on": "2026-08-19",
+      "updated_on": "2026-08-19"
+    },
+    {
+      "event_slug": "haomm-grown-at-sherman-farmers-market",
+      "event_name": "HAOMM GROWN @ Sherman Farmers Market",
+      "description": "Heart of a Matter Ministries brings its H.O.A.M.M. Grown program to Sherman Farmers Market in downtown Sherman. H.O.A.M.M. Grown is the ministry's food sustainability and organic community gardening program.",
+      "start_datetime": "2026-08-22T08:00:00-05:00",
+      "end_datetime": "2026-08-22T12:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "sherman-farmers-market"
+      ],
+      "venue_name": "Sherman Farmers Market",
+      "address": "Northwest corner of Houston and Crockett",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": null,
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Farmers Market",
+        "Community Event"
+      ],
+      "tags": [
+        "HAOMM GROWN",
+        "Heart of a Matter Ministries",
+        "food sustainability",
+        "organic gardening",
+        "community gardening",
+        "farmers market",
+        "Downtown Sherman"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Heart of a Matter Ministries",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/haomm-grown-at-sherman-farmers-market.png",
+      "image_alt": null,
+      "official_url": "https://aheartmatter.org/calendar/hoamm-events/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=SA",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Heart of a Matter Ministries' official calendar confirms HAOMM GROWN @ SHERMAN FARMERS MARKET on Saturday, Aug. 22, 2026 from 8:00 AM to 12:00 PM at the corner of Houston and Crockett in downtown Sherman. The calendar also lists matching Aug. 15 and Aug. 29 occurrences, supporting weekly recurrence. Sherman Farmers Market has been added to TWG with canonical venue slug sherman-farmers-market.",
       "last_checked": "2026-08-19",
       "created_on": "2026-08-19",
       "updated_on": "2026-08-19"
