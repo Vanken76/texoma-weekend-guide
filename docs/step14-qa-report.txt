@@ -1,111 +1,43 @@
 TWG JSON-LD QA
 Published businesses: 691
 Business entity nodes generated: 691
-Business mapper fallbacks: 95
+Business mapper fallbacks: 27
 Published events: 347
 Event entity nodes generated: 265
 Event nodes intentionally/eligibility suppressed: 82
-Relationship nodes exercised: 393
+Relationship nodes exercised: 377
 Errors: 0
-Warnings: 119
+Warnings: 51
 Notes: 80
 
-WARNINGS (119)
-- [business_type_fallback] business:jaiden-rs-trash-can-cleaning — Schema type fell back to LocalBusiness; categories: Mobile Trash Can Cleaning Service.
-- [business_type_fallback] business:mad-jacks-blackroom — Schema type fell back to Place; categories: Live Entertainment Venue | Comedy | Nightlife.
-- [business_type_fallback] business:aloha-shaved-ice-co — Schema type fell back to LocalBusiness; categories: Shaved Ice | Dessert Shop.
-- [business_type_fallback] business:moss-tire-and-repair — Schema type fell back to LocalBusiness; categories: Tire Shop | Tire Repair | Automotive Service | Locally Owned Business.
-- [business_type_fallback] business:24-7-pristine-clean — Schema type fell back to LocalBusiness; categories: Cleaning Service | Residential Cleaning Service | Commercial Cleaning Service | Carpet Cleaning Service | Janitorial Service.
-- [business_type_fallback] business:livingston-hearing-aid-center-denison — Schema type fell back to LocalBusiness; categories: Hearing Aid Store | Hearing Healthcare | Hearing Evaluations | Hearing Aid Fittings | Hearing Aid Repair Service.
-- [business_type_fallback] business:a-1-seamless-gutters — Schema type fell back to LocalBusiness; categories: Seamless Gutters | Gutter Installation | Gutter Replacement | Gutter Guards | Exterior Contractor.
-- [business_type_fallback] business:abc-inspections-llc — Schema type fell back to LocalBusiness; categories: Home Inspector | Property Inspection Service | Commercial Inspection Service | Septic Inspection Service | Termite Inspection Service.
-- [business_type_fallback] business:advantage-septic-solutions — Schema type fell back to LocalBusiness; categories: Septic Tank Service | Septic System Contractor | Septic Tank Cleaning Service | Septic System Installation Service | Septic System Repair Service | Septic System Maintenance Service.
-- [business_type_fallback] business:agape-aesthetics-and-wellness — Schema type fell back to LocalBusiness; categories: Medical Spa | Aesthetics | Wellness Clinic | Skin Care Clinic.
-- [business_type_fallback] business:perdueworks-therapy-group — Schema type fell back to LocalBusiness; categories: Pediatric Occupational Therapy | Pediatric Physical Therapy | Pediatric Speech Therapy | Pediatric Feeding Therapy | Autism Services | Child Development Services | Pediatric Therapy Clinic.
-- [business_type_fallback] business:baker-hardwoods — Schema type fell back to LocalBusiness; categories: Hardwood Lumber Supplier | Live-Edge Slab Supplier | Lumber Store | Sawmill | Custom Furniture | Woodworking | Millwork Services | Kiln-Drying Service | Cabinet-Grade Plywood.
+WARNINGS (51)
 - [business_type_fallback] business:barking-beauty-spawtique — Schema type fell back to LocalBusiness; categories: Mobile Dog Grooming | Pet Groomer | Dog Grooming | Luxury Pet Grooming | Pet Bathing | Dog Haircuts | De-Shedding | Flea & Tick Baths | Specialty Pet Grooming.
 - [business_type_fallback] business:baze-builds-custom-cabinetry — Schema type fell back to LocalBusiness; categories: Custom Cabinetry | Cabinet Maker | Custom Woodworking | Finish Carpentry | Kitchen Cabinets | Bathroom Cabinets | Built-In Cabinets | Custom Furniture | Wood Shelving | Trim Carpentry | Home Remodeling | Cabinet Installation.
 - [business_type_fallback] business:best-fluffin-groomer — Schema type fell back to LocalBusiness; categories: Mobile Dog Groomer | In-Home Pet Grooming | Dog Grooming | Pet Grooming | Dog Bathing | Dog Haircuts | Nail Trimming | Senior Dog Grooming | Special-Needs Dog Grooming | Mobile Pet Services.
-- [business_type_fallback] business:bo-mows — Schema type fell back to LocalBusiness; categories: Lawn Care Service | Lawn Maintenance | Landscaping | Fence & Gate Services.
 - [business_type_fallback] business:boarding-bear — Schema type fell back to LocalBusiness; categories: Dog Boarding | Dog Daycare | Pet Boarding | Pet Bathing | Pet Photography.
 - [business_type_fallback] business:bps-outfitters — Schema type fell back to LocalBusiness; categories: Gun Store | Indoor Shooting Range | Firearms Training | Firearm Accessories | Ammunition | License to Carry (LTC) Training.
-- [business_type_fallback] business:breeze-pediatrics — Schema type fell back to LocalBusiness; categories: Pediatrician | Pediatric Clinic | Children's Healthcare | Well-Child Care | Vaccinations | Sick Visits.
-- [business_type_fallback] business:classic-chevrolet-and-cadillac — Schema type fell back to Organization; categories: Chevrolet Dealer | Cadillac Dealer | Used Vehicle Dealer | Auto Service | Parts Department | Collision Repair.
-- [business_type_fallback] business:clearwater-express-car-wash — Schema type fell back to LocalBusiness; categories: Express Car Wash | Unlimited Wash Memberships.
-- [business_type_fallback] business:complete-care-durant-jay-cuesta — Schema type fell back to LocalBusiness; categories: Primary Care Clinic | Family Medicine.
 - [business_type_fallback] business:cooper-sorrells-funeral-home — Schema type fell back to LocalBusiness; categories: Funeral Home | Cremation Services | Funeral Planning | Memorial Services | Pre-Planning | Veteran Funeral Services.
 - [business_type_fallback] business:cpr-cell-phone-repair-sherman — Schema type fell back to LocalBusiness; categories: Cell Phone Repair | Computer Repair | Tablet Repair | Electronics Repair | Game Console Repair | Device Sales.
-- [business_type_fallback] business:star-auto-body — Schema type fell back to LocalBusiness; categories: Auto Body Shop | Collision Repair | Auto Paint Shop | Paintless Dent Repair | Auto Frame Repair | Automotive Glass Replacement.
 - [business_type_fallback] business:starlink — Schema type fell back to LocalBusiness; categories: Satellite Internet Provider | Residential Internet Service | Business Internet | Rural Broadband.
 - [business_type_fallback] business:starnes-surgical-associates — Schema type fell back to LocalBusiness; categories: General Surgery | Bariatric Surgery | Robotic Surgery | Minimally Invasive Surgery | Reflux Surgery | Weight Loss Clinic.
-- [business_type_fallback] business:steamatic-of-texoma — Schema type fell back to LocalBusiness; categories: Water Damage Restoration | Fire Damage Restoration | Mold Remediation | Carpet Cleaning | Air Duct Cleaning | Tile & Grout Cleaning | Upholstery Cleaning | Disaster Restoration.
-- [business_type_fallback] business:steps2strides-therapy-center — Schema type fell back to LocalBusiness; categories: Pediatric Therapy Center | Pediatric Physical Therapy | Pediatric Occupational Therapy | Pediatric Speech Therapy | Feeding Therapy | Pediatric Rehabilitation.
 - [business_type_fallback] business:studio94-dance-studio — Schema type fell back to LocalBusiness; categories: Dance Studio | Dance School | Cheer Training | Tumbling | Performing Arts.
 - [business_type_fallback] business:sunbelt-rentals-sherman — Schema type fell back to Organization; categories: Equipment Rental Agency | Tool Rental | Construction Equipment Rental | Industrial Equipment Rental | Contractor Equipment | Forklift Rental | Generator Rental | Aerial Lift Rental.
-- [business_type_fallback] business:texoma-associated-dermatologists — Schema type fell back to LocalBusiness; categories: Dermatologist | Medical Dermatology | Surgical Dermatology | Cosmetic Dermatology | Skin Cancer Treatment | Mohs Surgery | Skin Care Clinic.
-- [business_type_fallback] business:texoma-dentures-and-implants — Schema type fell back to LocalBusiness; categories: Denture Clinic | Dental Implants | General Dentistry | Tooth Replacement | Oral Surgery | Prosthodontic Services | Cosmetic Dentistry.
 - [business_type_fallback] business:texoma-driving-school — Schema type fell back to LocalBusiness; categories: Driving School | Driver Education | Teen Driver Education | Adult Driver Education | Defensive Driving | Third-Party Road Testing | Driver Safety Course.
 - [business_type_fallback] business:adam-s-apple-fix — Schema type fell back to LocalBusiness; categories: Mobile Phone Repair | Smartphone Repair | Tablet Repair | Apple Device Repair | Electronics Repair | Used Phones.
 - [business_type_fallback] business:texas-b-cattle-company — Schema type fell back to LocalBusiness; categories: Ranch | Cattle Ranch | Livestock Producer | Beef Producer.
-- [business_type_fallback] business:carenow-urgent-care — Schema type fell back to LocalBusiness; categories: Urgent Care Center | Walk-In Clinic | Occupational Medicine | Physical Exams | X-Ray Services | Lab Testing.
-- [business_type_fallback] business:texoma-observer — Schema type fell back to LocalBusiness; categories: News & Media | Local Magazine | Community Resource | Advertising Services | Digital Publisher.
-- [business_type_fallback] business:blazing-lawn-care — Schema type fell back to LocalBusiness; categories: Lawn Care Service | Landscaping | Yard Maintenance | Property Maintenance | Home Services.
 - [business_type_fallback] business:tech-support-for-life — Schema type fell back to LocalBusiness; categories: Computer Repair and Support | Technology Services | In-Home Services | Remote Support | Small-Business Services | Custom Computers.
-- [business_type_fallback] business:hills-kitchen — Schema type fell back to LocalBusiness; categories: Food Business | Prepared Meals | Comfort Food | Catering | Meal Service | Home-Based Business.
 - [business_type_fallback] business:trace-time-productions — Schema type fell back to LocalBusiness; categories: Event Production Company | Party Entertainment Service | Comedy Producer | Live Entertainment | Event Host.
-- [business_type_fallback] business:m-and-m-used-and-new-tires-and-wheels — Schema type fell back to LocalBusiness; categories: Tire Shop | Used Tire Dealer | New Tire Dealer | Wheel Shop | Automotive Services.
 - [business_type_fallback] business:christian-family-farms — Schema type fell back to LocalBusiness; categories: Farm | Family Farm | Livestock Farm | Agritourism | Farm Store.
-- [business_type_fallback] business:dry-clean-super-center-gainesville — Schema type fell back to LocalBusiness; categories: Dry Cleaner | Laundry Service | Alterations | Clothing Care.
-- [business_type_fallback] business:what-the-fudge-gainesville — Schema type fell back to LocalBusiness; categories: Fudge and Confections | Local Food Producer | Cottage Food Business | Market Vendor | Farm Stand Vendor | Pop-Up Vendor | Gift Food.
-- [business_type_fallback] business:herald-democrat-sherman — Schema type fell back to LocalBusiness; categories: Newspaper | Media Company | News Organization.
 - [business_type_fallback] business:tallow-tortilla-durant-ok — Schema type fell back to LocalBusiness; categories: (none).
 - [business_type_fallback] business:goodies-on-commerce-gainesville-tx — Schema type fell back to LocalBusiness; categories: (none).
 - [business_type_fallback] business:giddy-up-coffee-co-whitesboro-tx — Schema type fell back to LocalBusiness; categories: (none).
-- [business_type_fallback] business:texoma-great-outdoors-gordonville — Schema type fell back to LocalBusiness; categories: Event Planner | Travel Company | Tourism Service | Family Gathering Planner.
 - [business_type_fallback] business:the-painted-easel-gordonville — Schema type fell back to LocalBusiness; categories: Painting Lessons | Art Studio | Mobile Art Studio | Event Entertainment | Arts and Crafts.
-- [business_type_fallback] business:borderline-boxing-club-durant — Schema type fell back to LocalBusiness; categories: Boxing Club | Amateur Sports Team | Sports Training | Youth Sports | Fitness.
-- [business_type_fallback] business:westwood-village-sherman — Schema type fell back to LocalBusiness; categories: Shopping Center | Neighborhood Business Center | Retail Center | Dining Destination | Health and Wellness Center | Local Services Hub.
 - [business_type_fallback] business:woodland-cottages-senior-living-sherman — Schema type fell back to LocalBusiness; categories: 55+ Active Adult Community | Independent Living Community | Senior Living Community | Retirement Community | Residential Rental Community.
-- [business_type_fallback] business:plano-marine-highport-marina — Schema type fell back to LocalBusiness; categories: Boat Dealer | Yacht Dealer | Marine Service Center | Boat Repair Shop | Marine Parts | Boat Sales | Boat Maintenance.
 - [business_type_fallback] business:freedom-boat-club-lake-texoma-grandpappy-point — Schema type fell back to LocalBusiness; categories: Boat Club | Membership Boating | Outdoor Recreation | Recreational Boating | Fishing Boats | Pontoon Boats | Water Recreation | Boating Instruction.
-- [business_type_fallback] business:big-water-marine-pottsboro — Schema type fell back to LocalBusiness; categories: Boat Dealer | Marine Service Center | Boat Repair Shop | Marine Sales | New Boat Sales | Pre-Owned Boat Sales | Mobile Marine Service | Boat Repower | Marine Electronics | Marine Audio | Boat Trailer Service | Boat Storage.
-- [business_type_fallback] business:fort-callahan-offshore-offroad — Schema type fell back to LocalBusiness; categories: Boat Dealer | Yacht Brokerage | Boat Brokerage | Yacht Sales.
-- [business_type_fallback] business:cedar-mills-yacht-club — Schema type fell back to LocalBusiness; categories: Yacht Club | Sailing Club | Boating Club.
-- [business_type_fallback] business:eyc-boat-center — Schema type fell back to LocalBusiness; categories: Boat Dealer.
 - [business_type_fallback] business:highport-storage — Schema type fell back to LocalBusiness; categories: Boat & RV Storage.
-- [business_type_fallback] business:polar-bear-chimney-sweep — Schema type fell back to LocalBusiness; categories: Chimney Sweep | Fireplace Services | Fireplace Store | Dryer Vent Cleaning | Home Services.
 - [business_type_fallback] business:distretto-coffee-roasters — Schema type fell back to LocalBusiness; categories: Coffee Roaster | Specialty Coffee | Online Retail | Wholesale Coffee.
-- [business_type_fallback] business:289-storage — Schema type fell back to LocalBusiness; categories: Self Storage | Climate-Controlled Storage | Drive-Up Storage.
 - [business_type_fallback] business:k-bar-k-meats — Schema type fell back to LocalBusiness; categories: Farm & Ranch | Local Meat Producer.
-- [business_type_fallback] business:903-aesthetics-pottsboro — Schema type fell back to LocalBusiness; categories: Medical Aesthetics | Injectables | Wellness | IV Hydration.
-- [business_type_fallback] business:oreilly-auto-parts-pottsboro — Schema type fell back to LocalBusiness; categories: Auto Parts Store | Automotive Supply Store | Car Battery Store | Truck Parts | Trailer Supplies | Automotive Tools.
-- [business_type_fallback] business:mullens-golf-carts-pottsboro — Schema type fell back to LocalBusiness; categories: Golf Cart Dealer | Golf Cart Repair | Golf Cart Service | Golf Cart Parts & Accessories | Recreational Vehicle Dealer.
-- [business_type_fallback] business:still-charming — Schema type fell back to LocalBusiness; categories: Consignment & Resale Shop | Consignment Shop | Upscale Resale | Thrift Store | Women's Clothing | Furniture | Home Decor | Accessories | Community Support Business.
-- [business_type_fallback] business:the-birdie-den-sherman — Schema type fell back to LocalBusiness; categories: Indoor Golf | Golf Simulator | Recreation | Sports & Fitness | Golf Practice Facility | Sports & Recreation | Indoor Activity | Private Recreation | Date Night Activity | Group Activity | Things to Do.
-- [business_type_fallback] business:paramotor-flyers-durant — Schema type fell back to LocalBusiness; categories: Powered Paragliding | Aviation Experience | Flight Training | Outdoor Adventure | Paramotor Training | Tandem Flight Experience | Adventure Activity | Experience Gift | Sports & Recreation | Things to Do.
 - [business_type_fallback] business:under-pressure-escape-rooms-bonham — Schema type fell back to LocalBusiness; categories: Escape Room | Indoor Entertainment | Family Entertainment | Group Activity | Puzzle Experience | Date Night Activity | Team Building | Birthday Activity | Things to Do.
-- [business_type_fallback] business:d-bat-texoma-sherman — Schema type fell back to Place; categories: Indoor Batting Cages | Baseball Training | Softball Training | Sports & Recreation | Sports Training | Indoor Recreation | Private Lessons | Camps & Clinics | Birthday Party Venue | Pro Shop | Things to Do.
-- [business_type_fallback] business:skydive-spaceland-dallas-whitewright — Schema type fell back to LocalBusiness; categories: Skydiving & Adventure Activities | Skydiving | Adventure Activity | Outdoor Recreation | Experience | Tandem Skydiving | Adventure Activities | Bucket List Experiences | Extreme Sports | Skydiving Lessons | Solo Skydiver Training | Group Activities | Things to Do.
-- [business_type_fallback] business:leonard-park-aquatic-center-gainesville — Schema type fell back to LocalBusiness; categories: Aquatic Center & Swimming Pool | Aquatic Center | Swimming Pool | Water Recreation | Family Activity | Seasonal Attraction | Aquatic Centers | Swimming | Water Parks | Outdoor Activities | Family Activities | Kids Activities | Swimming Lessons | Water Aerobics | Birthday Party Venues | Seasonal Attractions | Things to Do.
-- [business_type_fallback] business:north-texas-regional-airport — Schema type fell back to LocalBusiness; categories: Transportation | Event Venues.
-- [business_type_fallback] business:hess-meat-market-muenster — Schema type fell back to LocalBusiness; categories: Meat Market | Butcher Shop | Specialty Foods | Local Shopping.
-- [business_type_fallback] business:the-krahl-pantry-muenster — Schema type fell back to LocalBusiness; categories: Specialty Food Store | Local Food | Catering | Gift Food.
-- [business_type_fallback] business:texoma-destinations — Schema type fell back to LocalBusiness; categories: Tourism Service | Vacation Planning | Event Planning | Recreation Booking.
-- [business_type_fallback] business:lake-texoma-association — Schema type fell back to Organization; categories: Tourism Organization | Visitor Information | Community Organization | Regional Association.
-- [business_type_fallback] business:ardmore-little-theatre — Schema type fell back to LocalBusiness; categories: Community Theatre | Performing Arts Organization | Theatre Company | Arts Organization.
-- [business_type_fallback] business:sherman-symphony-orchestra — Schema type fell back to LocalBusiness; categories: Symphony Orchestra | Performing Arts Organization | Arts & Culture Organization.
-- [business_type_fallback] business:sherman-tourism-main-street — Schema type fell back to LocalBusiness; categories: Tourism Office | Main Street Program | Community Organization.
-- [business_type_fallback] business:denison-main-street — Schema type fell back to LocalBusiness; categories: Main Street Program | Downtown Organization | Community Organization.
-- [business_type_fallback] business:durant-main-street — Schema type fell back to LocalBusiness; categories: Main Street Program | Downtown Organization | Community Organization.
-- [business_type_fallback] business:bonham-visitor-information-center — Schema type fell back to LocalBusiness; categories: Visitor Information | Tourism Organization | Community Resource.
-- [business_type_fallback] business:sherman-cultural-district — Schema type fell back to LocalBusiness; categories: Arts & Culture Organization | Cultural District | Tourism Organization | Community Organization.
-- [business_type_fallback] business:sherman-parks-recreation — Schema type fell back to LocalBusiness; categories: Parks & Recreation | Community Organization | Recreation Programs | Event Producer.
-- [business_type_fallback] business:denison-parks-recreation — Schema type fell back to LocalBusiness; categories: Parks & Recreation | Community Organization | Recreation Programs | Event Producer.
-- [business_type_fallback] business:grayson-county-historical-society — Schema type fell back to LocalBusiness; categories: Historical Society | History & Heritage | Community Organization | Educational Organization.
-- [business_type_fallback] business:grayson-county-master-gardeners — Schema type fell back to LocalBusiness; categories: Gardening Organization | Horticultural Education | Community Organization | Volunteer Organization.
-- [business_type_fallback] business:the-backyard-waterloo-lake-regional-park-denison — Schema type fell back to Place; categories: Recreation Area | Outdoor Recreation | Park Activity Area | Event Location.
-- [business_type_fallback] business:waterloo-lake-pickleball-courts-denison — Schema type fell back to LocalBusiness; categories: Pickleball Courts | Sports & Recreation | Athletic Facility | Outdoor Recreation.
-- [business_type_fallback] business:science-meditative-garden — Schema type fell back to LocalBusiness; categories: Garden | Wellness & Mindfulness | Outdoor Attraction | Campus Attraction.
 - [unresolved_venue] event:downtown-denison-farmers-market-2026 — Venue slug does not resolve to a directory record: downtown-denison-farmers-market
 - [event_schema_suppressed] event:say-when-brewing-company-weekly-bingo — Event JSON-LD suppressed: insufficient_location, recurring_series_requires_occurrence_pages.
 - [unresolved_venue] event:pottsboro-community-chat-2026-08-11 — Venue slug does not resolve to a directory record: pottsboro-area-library
