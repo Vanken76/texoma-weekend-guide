@@ -1,10 +1,34 @@
 const DEFAULT_SITE_URL = "https://texomaweekendguide.com/";
 const HTTP_PROTOCOLS = new Set(["http:", "https:"]);
 
+const EVENT_STATUS_URLS = {
+  canceled: "https://schema.org/EventCancelled",
+  postponed: "https://schema.org/EventPostponed"
+};
+
 const isPlainObject = (value) => value !== null
   && typeof value === "object"
   && !Array.isArray(value)
   && !(value instanceof Date);
+
+const firstNonEmpty = (...values) => values.find((value) => {
+  if (value === undefined || value === null) return false;
+  return typeof value === "string" ? Boolean(value.trim()) : true;
+}) ?? null;
+
+const normalizeUsState = (value) => String(value || "").trim().toUpperCase();
+
+const inferAddressCountry = (state) => {
+  const normalized = normalizeUsState(state);
+  if (["TX", "TEXAS", "OK", "OKLAHOMA"].includes(normalized)) return "US";
+  return null;
+};
+
+const numberOrNull = (value) => {
+  if (value === undefined || value === null || value === "") return null;
+  const number = Number(value);
+  return Number.isFinite(number) ? number : null;
+};
 
 export const normalizeSiteUrl = (siteUrl = DEFAULT_SITE_URL) => {
   try {
@@ -78,6 +102,80 @@ export const withSchemaContext = (node) => {
   const cleaned = pruneJsonLd(node);
   if (!cleaned || typeof cleaned !== "object" || Array.isArray(cleaned)) return null;
   return { "@context": "https://schema.org", ...cleaned };
+};
+
+export const buildEventJsonLd = ({
+  event = {},
+  resolvedLocation = {},
+  siteUrl = DEFAULT_SITE_URL,
+  canonicalPath = null
+} = {}) => {
+  const eventName = firstNonEmpty(event.event_name, event.name);
+  const startDate = firstNonEmpty(event.start_datetime, event.startDate);
+  if (!eventName || !startDate) return null;
+
+  const eventPath = canonicalPath || (event.event_slug ? `/events/${event.event_slug}/` : null);
+  const canonicalUrl = toAbsoluteUrl(eventPath, siteUrl);
+  const venueName = firstNonEmpty(
+    resolvedLocation.venueName,
+    resolvedLocation.primaryVenue?.business_name,
+    event.venue_name,
+    event.location_name
+  );
+  const streetAddress = firstNonEmpty(
+    resolvedLocation.address,
+    event.address,
+    event.street_address
+  );
+  const addressLocality = firstNonEmpty(resolvedLocation.city, event.city);
+  const addressRegion = firstNonEmpty(resolvedLocation.state, event.state);
+  const postalCode = firstNonEmpty(
+    resolvedLocation.postalCode,
+    event.postal_code,
+    event.zip_code
+  );
+  const latitude = numberOrNull(firstNonEmpty(resolvedLocation.latitude, event.latitude));
+  const longitude = numberOrNull(firstNonEmpty(resolvedLocation.longitude, event.longitude));
+
+  const address = pruneJsonLd({
+    "@type": "PostalAddress",
+    streetAddress,
+    addressLocality,
+    addressRegion,
+    postalCode,
+    addressCountry: inferAddressCountry(addressRegion)
+  });
+
+  const geo = latitude !== null && longitude !== null
+    ? { "@type": "GeoCoordinates", latitude, longitude }
+    : null;
+
+  const location = pruneJsonLd({
+    "@type": "Place",
+    name: venueName,
+    address,
+    geo
+  });
+
+  const image = toAbsoluteUrlList(
+    [event.image_url, event.image].filter(Boolean),
+    siteUrl
+  );
+
+  const node = withSchemaContext({
+    "@type": "Event",
+    "@id": buildSchemaId(canonicalUrl, "event", siteUrl),
+    name: eventName,
+    startDate,
+    endDate: firstNonEmpty(event.end_datetime, event.endDate),
+    eventStatus: EVENT_STATUS_URLS[event.status] || "https://schema.org/EventScheduled",
+    location,
+    image,
+    description: firstNonEmpty(event.description, event.short_description),
+    url: canonicalUrl
+  });
+
+  return node;
 };
 
 export const serializeJsonLd = (value) => {
