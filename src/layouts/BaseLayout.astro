@@ -1,7 +1,19 @@
 ---
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import businessDirectory from "../../public/data/local-business-directory.json";
+import eventDirectory from "../../public/data/local-event-directory.json";
+import {
+  buildBusinessIndex,
+  getCurrentEvents,
+  getEventsAtVenue,
+  toArray
+} from "../utils/eventDirectory.js";
 import { serializeJsonLd } from "../utils/jsonLd.js";
+import {
+  buildBusinessRelationshipJsonLd,
+  buildEventRelationshipJsonLd
+} from "../utils/schemaRelationships.js";
 import { buildSiteOrganizationJsonLd } from "../utils/siteOrganizationJsonLd.js";
 import "../styles/global.css";
 
@@ -37,7 +49,64 @@ const isEventDetail = /^\/events\/[^/]+\/?$/.test(Astro.url.pathname);
 const isEventExperience = isEventsPage || isEventDetail;
 const isBusinessesPage = Astro.url.pathname === "/businesses" || Astro.url.pathname === "/businesses/";
 const isBusinessSection = Astro.url.pathname.startsWith("/businesses/");
+const isBusinessDetail = /^\/businesses\/[^/]+\/?$/.test(Astro.url.pathname);
 const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname === "/support/";
+
+const allBusinesses = businessDirectory.businesses ?? [];
+const allEvents = eventDirectory.events ?? [];
+const businessBySlug = buildBusinessIndex(allBusinesses);
+let relationshipJsonLdText = "";
+
+if (isBusinessDetail) {
+  const slug = Astro.url.pathname.match(/^\/businesses\/([^/]+)\/?$/)?.[1] || null;
+  const business = slug ? businessBySlug.get(slug) : null;
+
+  if (business?.publish_ready === true) {
+    const manualEventSlugs = new Set(
+      toArray(business.related_events ?? business.relatedEvents)
+        .map((reference) => typeof reference === "string"
+          ? reference
+          : reference?.event_slug || reference?.slug || null)
+        .filter(Boolean)
+    );
+    const matchedEvents = getEventsAtVenue(allEvents, business.slug);
+    const manualEvents = manualEventSlugs.size > 0
+      ? allEvents.filter((event) => manualEventSlugs.has(event.event_slug))
+      : [];
+    const relatedEvents = getCurrentEvents(
+      Array.from(
+        new Map(
+          [...matchedEvents, ...manualEvents]
+            .filter((event) => event?.publish_ready === true && event.event_slug)
+            .map((event) => [event.event_slug, event])
+        ).values()
+      )
+    );
+
+    relationshipJsonLdText = serializeJsonLd(buildBusinessRelationshipJsonLd({
+      business,
+      businessBySlug,
+      relatedEvents,
+      siteUrl: siteURL
+    }));
+  }
+} else if (isEventDetail) {
+  const eventSlug = Astro.url.pathname.match(/^\/events\/([^/]+)\/?$/)?.[1] || null;
+  const event = eventSlug
+    ? allEvents.find((candidate) => candidate.event_slug === eventSlug && candidate.publish_ready === true)
+    : null;
+  const hostBusiness = event?.host_business_slug
+    ? businessBySlug.get(event.host_business_slug)
+    : null;
+
+  if (event) {
+    relationshipJsonLdText = serializeJsonLd(buildEventRelationshipJsonLd({
+      event,
+      hostBusiness,
+      siteUrl: siteURL
+    }));
+  }
+}
 ---
 
 <!doctype html>
@@ -49,6 +118,7 @@ const isSupportPage = Astro.url.pathname === "/support" || Astro.url.pathname ==
     <link rel="canonical" href={canonicalURL} />
     <link rel="icon" type="image/jpeg" href="/images/logo.jpg" />
     {organizationJsonLdText && <script type="application/ld+json" set:html={organizationJsonLdText} />}
+    {relationshipJsonLdText && <script type="application/ld+json" set:html={relationshipJsonLdText} />}
     {isEventExperience && <link rel="stylesheet" href="/event-experience.css?v=1" />}
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Texoma Weekend Guide" />
