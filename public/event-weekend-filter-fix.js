@@ -121,10 +121,10 @@
   const weekendRange = () => {
     const current = chicagoDate();
     const day = new Date(`${current}T12:00:00`).getDay();
-    const fridayOffset = day === 0 ? -2 : day === 6 ? -1 : 5 - day;
-    const friday = addDays(current, fridayOffset);
-    const sunday = addDays(friday, 2);
-    const start = current > friday ? current : friday;
+    const thursdayOffset = day === 0 ? -3 : day === 6 ? -2 : day === 5 ? -1 : 4 - day;
+    const thursday = addDays(current, thursdayOffset);
+    const sunday = addDays(thursday, 3);
+    const start = current > thursday ? current : thursday;
     return { start, end: sunday };
   };
 
