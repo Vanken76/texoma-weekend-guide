@@ -135,6 +135,12 @@ export const getEventJsonLdEligibility = ({
   const startDate = firstNonEmpty(event.start_datetime, event.startDate);
   const eventPath = canonicalPath || (event.event_slug ? `/events/${event.event_slug}/` : null);
   const canonicalUrl = toAbsoluteUrl(eventPath, siteUrl);
+  const venueName = firstNonEmpty(
+    resolvedLocation.venueName,
+    resolvedLocation.primaryVenue?.business_name,
+    event.venue_name,
+    event.location_name
+  );
   const streetAddress = firstNonEmpty(resolvedLocation.address, event.address, event.street_address);
   const addressLocality = firstNonEmpty(resolvedLocation.city, event.city);
   const addressRegion = firstNonEmpty(resolvedLocation.state, event.state);
@@ -144,6 +150,7 @@ export const getEventJsonLdEligibility = ({
   if (!eventName) reasons.push("missing_event_name");
   if (!isValidDateValue(startDate)) reasons.push("invalid_start_date");
   if (!canonicalUrl) reasons.push("missing_canonical_url");
+  if (!venueName) reasons.push("missing_location_name");
   if (!hasUsableAddress) reasons.push("insufficient_location");
   if (isRecurringEventRecord(event)) reasons.push("recurring_series_requires_occurrence_pages");
   if (venueSlugs.length > 1) reasons.push("multiple_physical_venues_require_separate_events");
