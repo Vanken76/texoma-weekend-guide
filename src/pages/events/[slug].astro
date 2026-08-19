@@ -11,6 +11,7 @@ import {
   resolveEventLocation,
   toArray
 } from "../../utils/eventDirectory.js";
+import { buildEventJsonLd, serializeJsonLd } from "../../utils/jsonLd.js";
 
 export function getStaticPaths() {
   return (directory.events ?? [])
@@ -144,9 +145,17 @@ const mapUrl = resolvedLocation.mapUrl;
 const officialUrl = event.facebook_url || event.official_url;
 const title = `${event.event_name} | Texoma Weekend Guide`;
 const description = event.description || `${event.event_name} at ${venueDisplayNames.join(" and ") || "a Texoma venue"}.`;
+const eventJsonLd = buildEventJsonLd({
+  event,
+  resolvedLocation,
+  siteUrl: Astro.site,
+  canonicalPath: `/events/${event.event_slug}/`
+});
+const eventJsonLdText = serializeJsonLd(eventJsonLd);
 ---
 
 <BaseLayout title={title} description={description} image={event.image_url || undefined}>
+  {eventJsonLdText && <script type="application/ld+json" set:html={eventJsonLdText} />}
   <article class="event-detail container">
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="/events/">Events</a><span aria-hidden="true">›</span><span>{event.event_name}</span>
