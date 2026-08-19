@@ -99,7 +99,6 @@ const rollWeeklyEventForward = (event) => {
   let candidate = new Date(`${currentDate}T12:00:00Z`);
 
   for (let offset = 0; offset < 370; offset += 1) {
-    const candidateDate = candidate.toISOString().slice(0, 10);
     const daysApart = Math.round((candidate.getTime() - original.getTime()) / 86400000);
     const dayCode = dayCodeByIndex[candidate.getUTCDay()];
     if (daysApart >= 0 && allowedDays.includes(dayCode) && Math.floor(daysApart / 7) % interval === 0) {
@@ -119,7 +118,11 @@ const venueRelationshipPatches = new Map([
   ["country-line-dance-class-mckinney", { venue_slug: "the-dance-collective-mckinney", venue_name: "The Dance Collective McKinney" }],
   ["two-step-in-mckinney", { venue_slug: "the-dance-collective-mckinney", venue_name: "The Dance Collective McKinney" }],
   ["swing-rumba-dance-lessons-denison", { venue_slug: "the-venue-on-main-denison", venue_name: "The Venue on Main" }],
-  ["pottsboro-community-chat-2026-08-11", { venue_slug: "pottsboro-area-public-library", venue_name: "Pottsboro Area Public Library" }]
+  ["pottsboro-community-chat-2026-08-11", {
+    venue_slug: "pottsboro-area-public-library",
+    venue_name: "Pottsboro Area Public Library",
+    host_business_slug: "pottsboro-area-public-library"
+  }]
 ]);
 
 let changed = false;
@@ -206,7 +209,11 @@ for (const event of directory.events) {
       event.venue_name = patch.venue_name;
       changed = true;
     }
-    event.updated_on = "2026-08-02";
+    if (patch.host_business_slug && event.host_business_slug !== patch.host_business_slug) {
+      event.host_business_slug = patch.host_business_slug;
+      changed = true;
+    }
+    event.updated_on = "2026-08-19";
   }
 }
 
