@@ -9,6 +9,8 @@ import {
   isRecurringEvent,
   toArray
 } from "../../utils/eventDirectory.js";
+import { buildBusinessJsonLd } from "../../utils/businessJsonLd.js";
+import { serializeJsonLd } from "../../utils/jsonLd.js";
 
 export function getStaticPaths() {
   return (directory.businesses ?? [])
@@ -36,6 +38,12 @@ const mapUrl = location ? `https://www.google.com/maps/search/?api=1&query=${enc
 const image = business.image || business.image_url || business.logo || business.logo_url || null;
 const title = `${business.business_name} | Texoma Weekend Guide`;
 const description = business.description || business.short_description || `${business.business_name}, a local Texoma business.`;
+const businessJsonLd = buildBusinessJsonLd({
+  business,
+  siteUrl: Astro.site,
+  canonicalPath: `/businesses/${business.slug}/`
+});
+const businessJsonLdText = serializeJsonLd(businessJsonLd);
 
 const statusLabels = {
   complete: "Verified listing",
@@ -104,6 +112,7 @@ const hasRelationships = parentBusinesses.length > 0 || childBusinesses.length >
 ---
 
 <BaseLayout title={title} description={description} image={image || undefined}>
+  {businessJsonLdText && <script type="application/ld+json" set:html={businessJsonLdText} />}
   <article class="business-detail container">
     <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/directory/">Business Directory</a><span aria-hidden="true">›</span><span>{business.business_name}</span></nav>
 
