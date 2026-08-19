@@ -32,7 +32,10 @@ jobs:
 
       - name: Capture Step 14 JSON-LD warning inventory
         if: github.event_name == 'pull_request' && github.head_ref == 'step14-targeted-cleanup-2026-08-19'
-        run: node scripts/check-jsonld.mjs > /tmp/step14-qa-report.txt
+        run: |
+          node scripts/patch-event-data.mjs
+          node scripts/fix-events-page.mjs
+          node scripts/check-jsonld.mjs > /tmp/step14-qa-report.txt
 
       - name: Post Step 14 warning inventory to PR
         if: github.event_name == 'pull_request' && github.head_ref == 'step14-targeted-cleanup-2026-08-19'
@@ -45,7 +48,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `### Step 14 JSON-LD QA inventory\n\n\`\`\`text\n${report}\n\`\`\``
+              body: `### Step 14 post-patch JSON-LD QA inventory\n\n\`\`\`text\n${report}\n\`\`\``
             });
 
       - name: Run production build
