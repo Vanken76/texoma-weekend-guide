@@ -136,33 +136,36 @@ export const buildEventJsonLd = ({
   );
   const latitude = numberOrNull(firstNonEmpty(resolvedLocation.latitude, event.latitude));
   const longitude = numberOrNull(firstNonEmpty(resolvedLocation.longitude, event.longitude));
+  const hasAddressDetails = Boolean(streetAddress || addressLocality || addressRegion || postalCode);
 
-  const address = pruneJsonLd({
+  if (!canonicalUrl || !hasAddressDetails) return null;
+
+  const address = {
     "@type": "PostalAddress",
     streetAddress,
     addressLocality,
     addressRegion,
     postalCode,
     addressCountry: inferAddressCountry(addressRegion)
-  });
+  };
 
   const geo = latitude !== null && longitude !== null
     ? { "@type": "GeoCoordinates", latitude, longitude }
     : null;
 
-  const location = pruneJsonLd({
+  const location = {
     "@type": "Place",
     name: venueName,
     address,
     geo
-  });
+  };
 
   const image = toAbsoluteUrlList(
     [event.image_url, event.image].filter(Boolean),
     siteUrl
   );
 
-  const node = withSchemaContext({
+  return withSchemaContext({
     "@type": "Event",
     "@id": buildSchemaId(canonicalUrl, "event", siteUrl),
     name: eventName,
@@ -174,8 +177,6 @@ export const buildEventJsonLd = ({
     description: firstNonEmpty(event.description, event.short_description),
     url: canonicalUrl
   });
-
-  return node;
 };
 
 export const serializeJsonLd = (value) => {
