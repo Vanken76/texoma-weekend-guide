@@ -1,0 +1,1 @@
+Step 11 uses a draft pull request as a safe validation surface. Opening the PR does not merge or deploy the branch; it exists to exercise repository checks and any connected preview tooling before production changes are considered.
