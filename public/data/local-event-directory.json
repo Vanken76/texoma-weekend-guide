@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 341,
-  "publish_ready_count": 341,
+  "event_count": 342,
+  "publish_ready_count": 342,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -22851,6 +22851,61 @@
       "last_checked": "2026-08-18",
       "created_on": "2026-08-18",
       "updated_on": "2026-08-19"
+    },
+    {
+      "event_slug": "experimental-aircraft-association-monthly-meeting-sherman",
+      "event_name": "Experimental Aircraft Association Monthly Meeting",
+      "description": "EAA Chapter 323 holds its monthly gathering at Sherman Municipal Airport in Sherman. The chapter's regular monthly gatherings are held on the third Thursday of each month.",
+      "start_datetime": "2026-08-20T19:00:00-05:00",
+      "end_datetime": "2026-08-20T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "sherman-municipal-airport"
+      ],
+      "venue_name": "Sherman Municipal Airport",
+      "address": "1200 S Dewey Ave",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Community Event",
+        "Meeting",
+        "Aviation"
+      ],
+      "tags": [
+        "EAA Chapter 323",
+        "Experimental Aircraft Association",
+        "Sherman Municipal Airport",
+        "aviation",
+        "Sherman"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "image_url": "/images/events/experimental-aircraft-association-monthly-meeting-sherman.png",
+      "official_url": "https://cityofsherman.com/calendar.aspx?EID=12573&PREVIEW=YES",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=MONTHLY;BYDAY=3TH",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified through the City of Sherman calendar and official EAA Chapter 323 information. The City of Sherman calendar lists the Experimental Aircraft Association Monthly Meeting for Thursday, August 20, 2026, from 7:00 PM to 9:00 PM. EAA Chapter 323 states that its monthly gatherings are held on the third Thursday of each month at Sherman Municipal Airport, 1200 S Dewey in Sherman. No admission price, ticket requirement, audience restriction, or age restriction was published.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-19",
+      "organizer_name": "EAA Chapter 323",
+      "image_alt": null,
+      "recurrence_start_date": "2026-08-20",
+      "recurrence_end_date": null,
+      "host_business_slug": null,
+      "partner_business_slugs": [],
+      "partner_names": []
     }
   ]
 }
