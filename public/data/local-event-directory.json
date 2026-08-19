@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "project": "Texoma Weekend Guide",
   "document_type": "local_event_directory",
-  "generated_on": "2026-08-18",
+  "generated_on": "2026-08-19",
   "timezone_default": "America/Chicago",
   "publication_rule": "Only records with publish_ready=true should appear in the public event directory.",
   "active_event_rule": "status in [upcoming, recurring] and either end_datetime is in the future, or end_datetime is null and the local event date has not passed",
@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 336,
-  "publish_ready_count": 336,
+  "event_count": 337,
+  "publish_ready_count": 337,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -22543,6 +22543,67 @@
       "last_checked": "2026-08-18",
       "created_on": "2026-08-18",
       "updated_on": "2026-08-18"
+    },
+    {
+      "event_slug": "writers-meetup-sherman-public-library-2026-08-29",
+      "event_name": "Writers Meetup",
+      "description": "Creative writers of all ages can connect with fellow writers at Sherman Public Library's Writers Meetup. Participants will have an opportunity to meet other local writers and, for those who would like to, share current writing projects with the group.",
+      "start_datetime": "2026-08-29T12:00:00-05:00",
+      "end_datetime": "2026-08-29T13:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "sherman-public-library"
+      ],
+      "venue_name": "Sherman Public Library",
+      "address": "421 N Travis St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Writing",
+        "Literary Event",
+        "Library Event",
+        "Community Meetup"
+      ],
+      "tags": [
+        "Writers Meetup",
+        "creative writing",
+        "writers",
+        "writing projects",
+        "writer community",
+        "Sherman Public Library",
+        "Sherman"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No tickets or signup are required. No admission charge is published in the official event listing.",
+      "audience": [
+        "All Ages",
+        "Creative Writers"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "sherman-public-library",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/writers-meetup-sherman-public-library-2026-08-29.png",
+      "image_alt": null,
+      "official_url": "https://cityofsherman.com/calendar.aspx?CID=21&month=8&view=list&year=2026",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 18, 2026 from the City of Sherman's official library calendar and Sherman Public Library Programs & Events page. Writers Meetup is scheduled for Saturday, August 29, 2026 from 12:00 PM to 1:30 PM at Sherman Public Library. The event welcomes creative writers of all ages to meet other writers in the area, with an optional opportunity to share current writing projects. No tickets or signup are required. Sherman Public Library identifies Writers Meetup as an ongoing all-ages program, but no fixed recurrence schedule is published, so no recurrence rule is inferred. No admission charge is published. TWG's current canonical business directory confirms Sherman Public Library under slug sherman-public-library.",
+      "last_checked": "2026-08-18",
+      "created_on": "2026-08-18",
+      "updated_on": "2026-08-19"
     }
   ]
 }
