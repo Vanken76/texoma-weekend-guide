@@ -5,8 +5,8 @@
   "generated_on": "2026-08-19",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1016,
-  "publish_ready_count": 691,
+  "business_count": 1017,
+  "publish_ready_count": 692,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -105909,6 +105909,107 @@
         "Campus event space",
         "Official Southeastern calendar venue",
         "Welcome Week event location"
+      ]
+    },
+    {
+      "slug": "the-river-bar-and-grill-choctaw-casino-resort-grant",
+      "business_name": "The River Bar & Grill — Choctaw Casino & Resort–Grant",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1516 US-271, Grant, OK 74738",
+      "category": [
+        "Restaurant",
+        "Bar & Grill",
+        "Event Venue"
+      ],
+      "tags": [
+        "Grant",
+        "Choctaw Casino & Resort",
+        "Full Bar",
+        "Breakfast",
+        "Late Night Dining",
+        "Sports Viewing",
+        "UFC"
+      ],
+      "description": "Restaurant and bar inside Choctaw Casino & Resort–Grant serving breakfast, lunch, dinner and late-night dining. The venue is also used for officially promoted sports-viewing events, including UFC programming.",
+      "why_visit": "A convenient full-service dining and bar option inside Choctaw Casino & Resort–Grant, with daily service extending into the late night and selected sports-viewing events.",
+      "why_its_unique": "Choctaw's official Grant event schedule repeatedly identifies The River Bar & Grill as one of the property's viewing locations for UFC events.",
+      "phone": null,
+      "email": null,
+      "website": "https://www.choctawcasinos.com/grant/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "7:00 AM - 2:00 AM",
+        "tuesday": "7:00 AM - 2:00 AM",
+        "wednesday": "7:00 AM - 2:00 AM",
+        "thursday": "7:00 AM - 2:00 AM",
+        "friday": "7:00 AM - 2:00 AM",
+        "saturday": "7:00 AM - 2:00 AM",
+        "sunday": "7:00 AM - 2:00 AM"
+      },
+      "hours_note": "Official Choctaw Grant hours list breakfast from 7:00 AM to 11:00 AM, lunch and dinner from 11:00 AM to 2:00 AM, and bar service daily from 11:00 AM to 2:00 AM.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full-service dining",
+        "Full bar",
+        "Breakfast",
+        "Late-night dining"
+      ],
+      "good_to_know": [
+        "Located inside Choctaw Casino & Resort–Grant.",
+        "Official Choctaw event listings use this venue for selected UFC viewing events."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Grant, Oklahoma"
+      ],
+      "verification_note": "Verified 2026-08-19 from the official Choctaw Casino & Resort–Grant property page and current free-events schedule.",
+      "last_checked": "2026-08-19",
+      "event_types": [
+        "Sports viewing",
+        "UFC / MMA viewing events"
+      ],
+      "event_sources": [
+        "https://www.choctawcasinos.com/grant/"
+      ],
+      "features": [
+        "Restaurant",
+        "Full bar",
+        "Late-night dining",
+        "Sports-viewing venue"
       ]
     }
   ]
