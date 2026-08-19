@@ -7,8 +7,8 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "check:jsonld": "node scripts/check-jsonld.mjs",
-    "build": "node scripts/patch-event-data.mjs && node scripts/fix-events-page.mjs && node scripts/check-jsonld.mjs && astro build",
+    "check:jsonld": "node scripts/check-jsonld.mjs && node scripts/check-jsonld-google.mjs",
+    "build": "node scripts/patch-event-data.mjs && node scripts/fix-events-page.mjs && node scripts/check-jsonld.mjs && node scripts/check-jsonld-google.mjs && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
