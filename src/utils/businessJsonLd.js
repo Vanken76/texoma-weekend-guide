@@ -56,6 +56,7 @@ const LOCAL_BUSINESS_TYPES = new Set([
   "InsuranceAgency",
   "JewelryStore",
   "LegalService",
+  "Library",
   "LiquorStore",
   "LodgingBusiness",
   "MedicalClinic",
@@ -84,6 +85,17 @@ const LOCAL_BUSINESS_TYPES = new Set([
 const PURE_ORGANIZATION_TYPES = new Set([
   "Organization",
   "GovernmentOrganization"
+]);
+
+const ORGANIZATION_CAPABLE_TYPES = new Set([
+  ...LOCAL_BUSINESS_TYPES,
+  ...PURE_ORGANIZATION_TYPES,
+  "CollegeOrUniversity",
+  "School",
+  "Preschool",
+  "ElementarySchool",
+  "MiddleSchool",
+  "HighSchool"
 ]);
 
 const firstNonEmpty = (...values) => values.find((value) => {
@@ -268,11 +280,11 @@ export const buildBusinessJsonLd = ({
     address,
     geo,
     telephone: firstNonEmpty(business.phone, business.telephone),
-    email: firstNonEmpty(business.email),
+    email: ORGANIZATION_CAPABLE_TYPES.has(schemaType) ? firstNonEmpty(business.email) : null,
     sameAs,
     openingHoursSpecification,
     priceRange: LOCAL_BUSINESS_TYPES.has(schemaType) ? firstNonEmpty(business.price_range) : null
   });
 };
 
-export { LOCAL_BUSINESS_TYPES, PURE_ORGANIZATION_TYPES };
+export { LOCAL_BUSINESS_TYPES, ORGANIZATION_CAPABLE_TYPES, PURE_ORGANIZATION_TYPES };
