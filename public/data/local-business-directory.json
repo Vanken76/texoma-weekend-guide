@@ -5,8 +5,8 @@
   "generated_on": "2026-08-20",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1020,
-  "publish_ready_count": 695,
+  "business_count": 1021,
+  "publish_ready_count": 696,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -106308,6 +106308,117 @@
         "Historic stadium in use since 1941",
         "Sherman ISD athletics venue",
         "Accessible parking and seating"
+      ]
+    },
+    {
+      "slug": "glennie-o-ham-community-center",
+      "business_name": "Glennie O Ham Community Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1002 N Music St, Sherman, TX 75090",
+      "category": [
+        "Community Center",
+        "Indoor Event Venue",
+        "Recreation Programs",
+        "Parks & Recreation Facility"
+      ],
+      "tags": [
+        "Sherman",
+        "Grayson County",
+        "Community Center",
+        "Facility Rental",
+        "Recreation Programs",
+        "Community Events",
+        "Meeting Room",
+        "Activity Room",
+        "Parks and Recreation"
+      ],
+      "description": "Glennie O Ham Community Center is a City of Sherman Parks & Recreation facility at 1002 N Music St that serves as the department's administrative office and hosts recreational activities, programs and community use. The center includes an Activity Room and Meeting Room and is available for reserved events through Sherman Parks & Recreation.",
+      "why_visit": "Use the center for Sherman Parks & Recreation programs, community activities and reservable indoor gathering space in a central city facility.",
+      "why_its_unique": "The facility combines Sherman Parks & Recreation's administrative office with two reservable indoor rooms and ongoing recreation programming in one community-center location.",
+      "phone": "903-892-7344",
+      "email": null,
+      "website": "https://shermanparks.com/parks-facilities/glennie-o-ham-community-center/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "8:00 AM - 6:30 PM",
+        "tuesday": "8:00 AM - 6:30 PM",
+        "wednesday": "8:00 AM - 6:30 PM",
+        "thursday": "8:00 AM - 6:30 PM",
+        "friday": "8:00 AM - 5:00 PM"
+      },
+      "hours_note": "These are the current Sherman Parks & Recreation administrative office hours at this location. Classes, programs and reserved events may operate on different schedules.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Activity Room",
+        "Meeting Room"
+      ],
+      "good_to_know": [
+        "Reservations for this location must be made in person.",
+        "Reservations must be made at least two weeks in advance for staffing purposes.",
+        "Call Sherman Parks & Recreation at 903-892-7344 to check room availability and pricing before visiting to reserve.",
+        "The current Sherman Parks & Recreation facility page lists the location as 1002 N Music St."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "sherman-parks-recreation",
+        "business_name": "Sherman Parks & Recreation",
+        "relationship_note": "City of Sherman Parks & Recreation facility that also houses the department's administrative offices."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified August 20, 2026 from current Sherman Parks & Recreation sources. The facility page lists 1002 N Music St, an Activity Room and Meeting Room, and states that reservations are in person and must be made at least two weeks in advance. Current Parks & Recreation contact information lists 903-892-7344 and office hours of Monday-Thursday 8:00 AM-6:30 PM and Friday 8:00 AM-5:00 PM.",
+      "last_checked": "2026-08-20",
+      "event_types": [
+        "Community meetings",
+        "Recreation programs",
+        "Classes and workshops",
+        "Private events",
+        "Parks & Recreation programs"
+      ],
+      "event_sources": [
+        "Sherman Parks & Recreation official event calendar",
+        "Sherman Parks & Recreation facility page",
+        "Sherman Parks & Recreation program pages"
+      ],
+      "features": [
+        "City of Sherman community center",
+        "Parks & Recreation administrative office",
+        "Activity Room",
+        "Meeting Room",
+        "Reservable indoor event space",
+        "Recreation programming"
       ]
     }
   ]
