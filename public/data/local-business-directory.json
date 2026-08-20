@@ -5,8 +5,8 @@
   "generated_on": "2026-08-20",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1021,
-  "publish_ready_count": 696,
+  "business_count": 1022,
+  "publish_ready_count": 697,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -106508,6 +106508,142 @@
         "Meeting Room",
         "Reservable indoor event space",
         "Recreation programming"
+      ]
+    },
+    {
+      "slug": "ranch-82",
+      "business_name": "Ranch 82",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "12265 E US Highway 82, Whitesboro, TX 76273",
+      "category": [
+        "Restaurant",
+        "Bar & Grill",
+        "Live Entertainment Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Whitesboro",
+        "Cooke County",
+        "Ranch 82",
+        "Restaurant",
+        "Bar and Grill",
+        "Live Music",
+        "Live Entertainment",
+        "Dance Floor",
+        "Private Events",
+        "Ladies Bingo",
+        "Market Days",
+        "Local Vendors",
+        "American Food",
+        "Burgers",
+        "Catfish",
+        "Family Dining"
+      ],
+      "description": "Ranch 82 is a restaurant, bar-and-grill and entertainment destination along US Highway 82 near Whitesboro. Originally established as an event venue, Ranch 82 transitioned into a dine-in restaurant while retaining an active entertainment and community-event role. The restaurant serves American-style comfort food and handcrafted burgers in a rustic Western setting and continues to host live entertainment, recurring community activities and private events.",
+      "why_visit": "Stop in for burgers, Southern-style comfort food and a casual meal in a rustic setting, or watch for live entertainment, community activities and other events hosted at the property.",
+      "why_its_unique": "Ranch 82 combines a full restaurant operation with the event infrastructure of its former primary role as a large private-event venue, allowing it to function as both a dining destination and an ongoing entertainment and gathering space.",
+      "phone": "469-396-5070",
+      "email": "Events@ranch82.com",
+      "website": "https://ranch82.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Most currently listed menu items $5.95-$14.95",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "11:00 AM - 9:00 PM",
+        "thursday": "11:00 AM - 9:00 PM",
+        "friday": "11:00 AM - 9:00 PM",
+        "saturday": "10:00 AM - 9:00 PM",
+        "sunday": "10:00 AM - 3:00 PM"
+      },
+      "hours_note": "Current hours are published on the official Ranch 82 website. Entertainment and private-event schedules may extend beyond normal restaurant service hours.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "Most currently listed menu items $5.95-$14.95",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full restaurant menu",
+        "Kids menu",
+        "Bar-and-grill setting",
+        "Live entertainment",
+        "Dance floor",
+        "Private-event capability",
+        "Event and entertainment inquiries",
+        "Community activities",
+        "Local-vendor support"
+      ],
+      "good_to_know": [
+        "Ranch 82 is located at 12265 E US Highway 82 with a Whitesboro mailing address in Cooke County.",
+        "The restaurant is closed Monday and Tuesday.",
+        "Current Saturday hours begin at 10:00 AM and Sunday hours are 10:00 AM-3:00 PM.",
+        "The official website directs event and entertainment inquiries to Events@ranch82.com.",
+        "The current website lists OpenTable integration as coming soon, so contact Ranch 82 directly for current reservation information.",
+        "Ranch 82 transitioned from primarily an event venue into a dine-in restaurant in 2025 but continued hosting entertainment, recurring community activities and private events."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Whitesboro",
+        "Cooke County",
+        "Texas"
+      ],
+      "verification_note": "Verified August 20, 2026 using the current official Ranch 82 website, Whitesboro-area reporting, current property information and recent entertainment listings. The official website confirms the restaurant at 12265 US-82, phone 469-396-5070, Events@ranch82.com, current operating hours, American-style menu, kids menu, local-vendor support and event/entertainment inquiries. Cooke County property data confirms the property is in Cooke County despite its Whitesboro mailing address. Local reporting documents Ranch 82's 2025 transition from primarily an event venue to a restaurant while retaining live entertainment, Ladies' Bingo, market days and private events. Recent 2026 entertainment listings confirm continued use as an entertainment venue.",
+      "last_checked": "2026-08-20",
+      "event_types": [
+        "Live music",
+        "Live entertainment",
+        "Ladies Bingo",
+        "Market days",
+        "Private events",
+        "Community gatherings",
+        "Dining events",
+        "Special events"
+      ],
+      "event_sources": [
+        "Ranch 82 official website",
+        "Ranch 82 social media",
+        "Bandsintown Ranch 82 venue listings",
+        "Whitesboro News-Record"
+      ],
+      "features": [
+        "Restaurant and entertainment venue",
+        "Rustic Western atmosphere",
+        "Live entertainment",
+        "Dance floor",
+        "Recurring community activities",
+        "Private-event capability",
+        "Kids menu",
+        "Local-vendor support",
+        "US Highway 82 location"
       ]
     }
   ]
