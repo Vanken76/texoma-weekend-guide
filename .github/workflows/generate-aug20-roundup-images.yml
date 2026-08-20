@@ -1,0 +1,48 @@
+name: Generate Aug 20–23 roundup images
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "tools/generate_aug20_roundup_images.py"
+      - "src/content/roundups/texoma-weekend-roundup-august-20-23-2026.md"
+      - ".github/workflows/generate-aug20-roundup-images.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check pillow
+
+      - name: Generate roundup images
+        run: python tools/generate_aug20_roundup_images.py
+
+      - name: Commit generated images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/images/texoma-weekend-roundup-august-20-23-2026.webp \
+                  public/images/texoma-thursday-roundup-august-20-2026.webp \
+                  public/images/texoma-friday-roundup-august-21-2026.webp \
+                  public/images/texoma-saturday-roundup-august-22-2026.webp \
+                  public/images/texoma-sunday-roundup-august-23-2026.webp
+          if git diff --cached --quiet; then
+            echo "Roundup images are already current."
+          else
+            git commit -m "Generate Aug 20–23 roundup images [skip ci]"
+            git push
+          fi
