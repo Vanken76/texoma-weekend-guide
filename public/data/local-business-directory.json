@@ -5,8 +5,8 @@
   "generated_on": "2026-08-20",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1026,
-  "publish_ready_count": 701,
+  "business_count": 1027,
+  "publish_ready_count": 702,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -107187,6 +107187,123 @@
         "Continuing-education classes",
         "Annual First Responders Christmas Celebration",
         "Community gathering space"
+      ]
+    },
+    {
+      "slug": "howe-community-center",
+      "business_name": "Howe Community Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "700 W. Haning St, Howe, TX 75459",
+      "category": [
+        "Community Center",
+        "Indoor Event Venue",
+        "Community Gathering Space",
+        "Municipal Facility"
+      ],
+      "tags": [
+        "Howe",
+        "Grayson County",
+        "Community Center",
+        "Event Venue",
+        "Facility Rental",
+        "Community Meetings",
+        "Community Events",
+        "Meeting Rooms",
+        "Kitchen",
+        "Municipal Facility"
+      ],
+      "description": "Howe Community Center is a City of Howe community gathering and event facility at 700 W. Haning St. Located in the same municipal building as the Howe Police Department, the center provides indoor space for community meetings, events and other scheduled uses. The facility contains two meeting rooms, a kitchen and restrooms, and the City identifies expanding community-center use and programming as an important part of Howe's recreation and community-development strategy.",
+      "why_visit": "Attend a community meeting or scheduled local event, or use the facility as a civic gathering and rental space in Howe.",
+      "why_its_unique": "Howe Community Center serves as one of the city's dedicated indoor civic gathering spaces and combines two meeting rooms and a kitchen with a central municipal location just west of U.S. 75.",
+      "phone": "903-532-5571",
+      "email": null,
+      "website": "https://www.cityofhowetx.gov/rentals",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public walk-in hours are currently published for the community center. Use is based on scheduled meetings, events and facility reservations.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Two meeting rooms",
+        "Kitchen",
+        "Restrooms",
+        "Indoor community gathering space",
+        "Municipal facility rental"
+      ],
+      "good_to_know": [
+        "Howe Community Center is located at 700 W. Haning St on the west side of U.S. 75.",
+        "The community center shares its municipal building with the Howe Police Department.",
+        "The City's current comprehensive plan confirms two meeting rooms, a kitchen and restrooms.",
+        "The City identifies the facility as being used for community meetings and events.",
+        "The current City of Howe website includes a dedicated Facility Rentals section.",
+        "Current rental prices, deposits and detailed reservation rules were not asserted because dependable current fee information was not available in the accessible official material.",
+        "Contact the City of Howe at 903-532-5571 for current rental availability, fees and reservation requirements.",
+        "Older sources identify the community center as the City Council chambers, but the City's current website now lists Summit Gardens at 100 E. O'Connell St as the regular City Council meeting location."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Howe",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Verified August 20, 2026 using current City of Howe sources and current Grayson County civic-location records. The City confirms Howe Community Center at 700 W. Haning St in the same building as the Police Department. The current comprehensive plan confirms two meeting rooms, a kitchen and restrooms and identifies the center as a location for community meetings and events. The current City website includes Facility Rentals and lists the City's general contact number as 903-532-5571. Current City Council information now places regular council meetings at Summit Gardens, superseding older references that identified Howe Community Center as the council chambers. Current rental fees and detailed reservation rules were not reliably available and therefore were not invented.",
+      "last_checked": "2026-08-20",
+      "event_types": [
+        "Community meetings",
+        "Community events",
+        "Civic gatherings",
+        "Private rentals",
+        "Public meetings",
+        "Local organization meetings"
+      ],
+      "event_sources": [
+        "City of Howe official website",
+        "City of Howe calendar",
+        "City of Howe Facility Rentals",
+        "City of Howe news and announcements"
+      ],
+      "features": [
+        "City-owned community center",
+        "Two meeting rooms",
+        "Kitchen",
+        "Restrooms",
+        "Community-event space",
+        "Facility-rental use",
+        "Shared municipal building with Howe Police Department",
+        "Convenient U.S. 75 location"
       ]
     }
   ]
