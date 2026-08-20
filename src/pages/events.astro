@@ -47,6 +47,39 @@ const addDays = (dateString, days) => {
   return chicagoDate(date);
 };
 const dayCode = (dateString) => ["SU", "MO", "TU", "WE", "TH", "FR", "SA"][new Date(`${dateString}T12:00:00`).getDay()];
+const dayCodeForDate = (date) => ["SU", "MO", "TU", "WE", "TH", "FR", "SA"][date.getDay()];
+
+const matchesMonthlyByDayToken = (date, token) => {
+  const match = String(token ?? "").match(/^([+-]?\d+)?(SU|MO|TU|WE|TH|FR|SA)$/);
+  if (!match || dayCodeForDate(date) !== match[2]) return false;
+  if (!match[1]) return true;
+
+  const ordinal = Number(match[1]);
+  if (ordinal > 0) return Math.floor((date.getDate() - 1) / 7) + 1 === ordinal;
+
+  const daysInMonth = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
+  return Math.floor((daysInMonth - date.getDate()) / 7) + 1 === Math.abs(ordinal);
+};
+
+const matchesMonthlyByDay = (target, rule) => {
+  const tokens = String(rule.BYDAY ?? "").split(",").map((value) => value.trim()).filter(Boolean);
+  if (!tokens.length || !tokens.some((token) => matchesMonthlyByDayToken(target, token))) return false;
+
+  const positions = String(rule.BYSETPOS ?? "").split(",").map(Number).filter((value) => Number.isInteger(value) && value !== 0);
+  if (!positions.length) return true;
+
+  const daysInMonth = new Date(target.getFullYear(), target.getMonth() + 1, 0).getDate();
+  const candidates = [];
+  for (let day = 1; day <= daysInMonth; day += 1) {
+    const candidate = new Date(target.getFullYear(), target.getMonth(), day, 12);
+    if (tokens.some((token) => matchesMonthlyByDayToken(candidate, token))) candidates.push(day);
+  }
+
+  return positions.some((position) => {
+    const index = position > 0 ? position - 1 : candidates.length + position;
+    return candidates[index] === target.getDate();
+  });
+};
 
 const recurrenceEndDate = (event) => {
   if (event.recurrence_end_date) return event.recurrence_end_date;
@@ -57,7 +90,7 @@ const recurrenceEndDate = (event) => {
 
 const rdates = (rule = "") => {
   const value = normalizeRule(rule).startsWith("RDATE:") ? normalizeRule(rule).slice(6) : "";
-  return value.split(",").map((entry) => entry.slice(0, 8)).filter(/^\d{8}$/).map((entry) => `${entry.slice(0, 4)}-${entry.slice(4, 6)}-${entry.slice(6, 8)}`);
+  return value.split(",").map((entry) => entry.slice(0, 8)).filter((entry) => /^\d{8}$/.test(entry)).map((entry) => `${entry.slice(0, 4)}-${entry.slice(4, 6)}-${entry.slice(6, 8)}`);
 };
 
 const occursOn = (eventDate, targetDate, recurrenceRule, recurrenceEnd) => {
@@ -81,8 +114,10 @@ const occursOn = (eventDate, targetDate, recurrenceRule, recurrenceEnd) => {
   }
   if (frequency === "MONTHLY") {
     const monthsApart = (target.getFullYear() - start.getFullYear()) * 12 + target.getMonth() - start.getMonth();
-    const allowedMonthDays = (rule.BYMONTHDAY ?? String(start.getDate())).split(",").map(Number);
-    return monthsApart >= 0 && monthsApart % interval === 0 && allowedMonthDays.includes(target.getDate());
+    if (monthsApart < 0 || monthsApart % interval !== 0) return false;
+    if (rule.BYMONTHDAY) return rule.BYMONTHDAY.split(",").map(Number).includes(target.getDate());
+    if (rule.BYDAY) return matchesMonthlyByDay(target, rule);
+    return target.getDate() === start.getDate();
   }
   if (frequency === "YEARLY") {
     const yearsApart = target.getFullYear() - start.getFullYear();
@@ -259,6 +294,34 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
     const normalizeRule = (rule = "") => String(rule ?? "").trim().replace(/^RRULE:/i, "");
     const parseRule = (rule = "") => Object.fromEntries(normalizeRule(rule).split(";").map((part) => part.split("=")).filter(([key, value]) => key && value));
     const dayCode = (dateString) => ["SU", "MO", "TU", "WE", "TH", "FR", "SA"][new Date(`${dateString}T12:00:00`).getDay()];
+    const dayCodeForDate = (date) => ["SU", "MO", "TU", "WE", "TH", "FR", "SA"][date.getDay()];
+
+    const matchesMonthlyByDayToken = (date, token) => {
+      const match = String(token ?? "").match(/^([+-]?\d+)?(SU|MO|TU|WE|TH|FR|SA)$/);
+      if (!match || dayCodeForDate(date) !== match[2]) return false;
+      if (!match[1]) return true;
+      const ordinal = Number(match[1]);
+      if (ordinal > 0) return Math.floor((date.getDate() - 1) / 7) + 1 === ordinal;
+      const daysInMonth = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
+      return Math.floor((daysInMonth - date.getDate()) / 7) + 1 === Math.abs(ordinal);
+    };
+
+    const matchesMonthlyByDay = (target, rule) => {
+      const tokens = String(rule.BYDAY ?? "").split(",").map((value) => value.trim()).filter(Boolean);
+      if (!tokens.length || !tokens.some((token) => matchesMonthlyByDayToken(target, token))) return false;
+      const positions = String(rule.BYSETPOS ?? "").split(",").map(Number).filter((value) => Number.isInteger(value) && value !== 0);
+      if (!positions.length) return true;
+      const daysInMonth = new Date(target.getFullYear(), target.getMonth() + 1, 0).getDate();
+      const candidates = [];
+      for (let day = 1; day <= daysInMonth; day += 1) {
+        const candidate = new Date(target.getFullYear(), target.getMonth(), day, 12);
+        if (tokens.some((token) => matchesMonthlyByDayToken(candidate, token))) candidates.push(day);
+      }
+      return positions.some((position) => {
+        const index = position > 0 ? position - 1 : candidates.length + position;
+        return candidates[index] === target.getDate();
+      });
+    };
 
     const occursOn = (eventDate, targetDate, recurrenceRule, recurrenceEnd) => {
       if (!eventDate || targetDate < eventDate || (recurrenceEnd && targetDate > recurrenceEnd)) return false;
@@ -280,8 +343,10 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
       }
       if (frequency === "MONTHLY") {
         const monthsApart = (target.getFullYear() - start.getFullYear()) * 12 + target.getMonth() - start.getMonth();
-        const allowedMonthDays = (rule.BYMONTHDAY ?? String(start.getDate())).split(",").map(Number);
-        return monthsApart >= 0 && monthsApart % interval === 0 && allowedMonthDays.includes(target.getDate());
+        if (monthsApart < 0 || monthsApart % interval !== 0) return false;
+        if (rule.BYMONTHDAY) return rule.BYMONTHDAY.split(",").map(Number).includes(target.getDate());
+        if (rule.BYDAY) return matchesMonthlyByDay(target, rule);
+        return target.getDate() === start.getDate();
       }
       if (frequency === "YEARLY") {
         const yearsApart = target.getFullYear() - start.getFullYear();
