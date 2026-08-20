@@ -5,8 +5,8 @@
   "generated_on": "2026-08-20",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1027,
-  "publish_ready_count": 702,
+  "business_count": 1028,
+  "publish_ready_count": 703,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -107304,6 +107304,117 @@
         "Facility-rental use",
         "Shared municipal building with Howe Police Department",
         "Convenient U.S. 75 location"
+      ]
+    },
+    {
+      "slug": "tom-bean-community-center",
+      "business_name": "Tom Bean Community Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "201 S. Britton St, Tom Bean, TX 75489",
+      "category": [
+        "Community Center",
+        "Civic Meeting Venue",
+        "Community Gathering Space",
+        "Municipal Facility"
+      ],
+      "tags": [
+        "Tom Bean",
+        "Grayson County",
+        "Community Center",
+        "Civic Meetings",
+        "Public Meetings",
+        "Community Development",
+        "Economic Development",
+        "Municipal Facility",
+        "Community Events"
+      ],
+      "description": "Tom Bean Community Center is a municipal community and civic gathering facility at 201 S. Britton St in Tom Bean. The center is actively used for public meetings and community-development business, including recurring meetings of the Tom Bean Community Development Corporation and Tom Bean Economic Development Corporation. Its location within Tom Bean's municipal complex makes it an important local gathering and civic-event space.",
+      "why_visit": "Attend a scheduled public meeting, civic program or community activity held at one of Tom Bean's primary municipal gathering spaces.",
+      "why_its_unique": "Tom Bean Community Center serves as a recurring meeting place for both of the city's economic and community development corporations, placing it at the center of local civic planning and community-development activity.",
+      "phone": "903-546-6321",
+      "email": null,
+      "website": "https://www.tombeantx.gov/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public walk-in hours are currently published specifically for the community center. The facility is used for scheduled meetings and other community or civic activities. Tom Bean City Hall at the same address is open Monday-Friday from 8:00 AM to 4:30 PM and closes from noon to 1:00 PM.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Indoor civic meeting space",
+        "Public meeting venue",
+        "Municipal community gathering space"
+      ],
+      "good_to_know": [
+        "The community center is located at 201 S. Britton St in Tom Bean.",
+        "Tom Bean City Hall uses the same municipal address.",
+        "The center remains an active public-meeting location in 2026.",
+        "Tom Bean Community Development Corporation Type A meetings have been held at the center.",
+        "Tom Bean Economic Development Corporation Type B meetings have been held at the center.",
+        "The City's main contact number is 903-546-6321.",
+        "Current rental rates, capacity, reservation policies and detailed facility amenities were not reliably published in accessible current City material."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Tom Bean",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Verified August 20, 2026 using current City of Tom Bean sources. Official 2026 agendas confirm Tom Bean Community Center at 201 S. Britton St and show continued use by the Tom Bean Community Development Corporation Type A and Tom Bean Economic Development Corporation Type B for recurring public meetings in January, March and June 2026. Current City sources confirm 201 S. Britton as the Tom Bean municipal address and 903-546-6321 as the City's primary contact number. No dependable current rental rates, capacity figures, reservation policies, kitchen information or detailed amenity list were found, so those details were not asserted.",
+      "last_checked": "2026-08-20",
+      "event_types": [
+        "Public meetings",
+        "Civic meetings",
+        "Community development meetings",
+        "Economic development meetings",
+        "Community gatherings",
+        "Municipal activities"
+      ],
+      "event_sources": [
+        "City of Tom Bean official website",
+        "City of Tom Bean Agenda Center",
+        "Tom Bean Community Development Corporation agendas",
+        "Tom Bean Economic Development Corporation agendas",
+        "City of Tom Bean calendar and announcements"
+      ],
+      "features": [
+        "Active municipal community center",
+        "Recurring public-meeting venue",
+        "Community Development Corporation meeting site",
+        "Economic Development Corporation meeting site",
+        "Central Tom Bean civic location"
       ]
     }
   ]
