@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-19",
+  "generated_on": "2026-08-20",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1019,
-  "publish_ready_count": 694,
+  "business_count": 1020,
+  "publish_ready_count": 695,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -106215,6 +106215,99 @@
         "Seasonal Saturday market",
         "Operating since 2013",
         "Downtown Sherman location"
+      ]
+    },
+    {
+      "slug": "sherman-bearcat-stadium",
+      "business_name": "Sherman Bearcat Stadium",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "200 N Rusk St, Sherman, TX 75090",
+      "category": [
+        "Football Stadium",
+        "Sports Venue",
+        "School Event Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Sherman Bearcats",
+        "Sherman ISD",
+        "football",
+        "school athletics",
+        "sports",
+        "Sherman",
+        "Grayson County"
+      ],
+      "description": "Sherman Bearcat Stadium is the historic Sherman ISD athletics stadium at 200 N Rusk St in Sherman. The stadium has hosted district athletic competitions since 1941 and remains in use for school athletics, middle school and youth sports, and other scheduled district events.",
+      "why_visit": "Attend Sherman ISD athletic competitions and school events at one of Sherman's longstanding community sports venues.",
+      "why_its_unique": "Sherman ISD says Bearcat Stadium has hosted district athletic competitions since 1941 and will continue to be used even as the district transitions varsity home games to its new stadium.",
+      "phone": "903-891-6453",
+      "email": null,
+      "website": "https://www.shermanisd.net/athletics/stadium-guidelines",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The stadium operates according to scheduled Sherman ISD athletic competitions and other district events; no regular public walk-in hours are published.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Accessible parking",
+        "Accessible seating"
+      ],
+      "good_to_know": [
+        "Parking, road closures, ticketing and entry procedures can vary by event; check current Sherman ISD event guidance before attending."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from current Sherman ISD Stadium Guidelines, athletics schedules and district calendar. Sherman Bearcat Stadium is located at 200 N Rusk St in Sherman and has hosted district athletic competitions since 1941. Sherman ISD confirms continued use of the historic stadium and publishes accessible parking and seating information.",
+      "last_checked": "2026-08-20",
+      "event_types": [
+        "Football",
+        "Middle school sports",
+        "Youth sports",
+        "School athletics",
+        "School events"
+      ],
+      "event_sources": [
+        "Sherman ISD Athletics Calendar",
+        "Sherman ISD Team Schedules",
+        "Sherman ISD Stadium Guidelines"
+      ],
+      "features": [
+        "Historic stadium in use since 1941",
+        "Sherman ISD athletics venue",
+        "Accessible parking and seating"
       ]
     }
   ]
