@@ -5,8 +5,8 @@
   "generated_on": "2026-08-20",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1022,
-  "publish_ready_count": 697,
+  "business_count": 1023,
+  "publish_ready_count": 698,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -106644,6 +106644,125 @@
         "Kids menu",
         "Local-vendor support",
         "US Highway 82 location"
+      ]
+    },
+    {
+      "slug": "bells-city-park",
+      "business_name": "Bells City Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Park Street, southeast of Bells City Hall, Bells, TX 75414",
+      "category": [
+        "City Park",
+        "Outdoor Recreation",
+        "Event Venue",
+        "Community Gathering Space"
+      ],
+      "tags": [
+        "Bells",
+        "Grayson County",
+        "City Park",
+        "Pavilion",
+        "Pavilion Rental",
+        "Walking Path",
+        "Skate Park",
+        "Community Events",
+        "Outdoor Events",
+        "Concerts",
+        "Family Activities"
+      ],
+      "description": "Bells City Park is a 14-acre municipal park in Bells, Texas, located on Park Street southeast of City Hall. The tree-filled community park includes a walking path, reservable pavilion and small skate park and serves as an important outdoor gathering and event location for the Bells community. City planning documents identify the park as a recurring site for seasonal celebrations, community activities and concerts.",
+      "why_visit": "Enjoy a walk, spend time outdoors, use the skate park or attend one of the community celebrations and concerts periodically held at the park and pavilion.",
+      "why_its_unique": "Bells City Park combines everyday outdoor recreation with one of the city's primary community-event spaces, hosting recurring seasonal activities and pavilion concerts in the heart of Bells.",
+      "phone": "903-965-7744",
+      "email": null,
+      "website": "https://cityofbells.org/city-services",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": true,
+      "dog_friendly": true,
+      "hours": {},
+      "hours_note": "The City of Bells states that the park closes daily at 10:00 PM. No specific daily opening time is currently published.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": true,
+        "dog_friendly": true,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "14-acre city park",
+        "Walking path",
+        "Reservable pavilion",
+        "Small skate park",
+        "Tree-shaded park grounds",
+        "Outdoor community-event space"
+      ],
+      "good_to_know": [
+        "The park is located on Park Street just southeast of Bells City Hall.",
+        "The park closes daily at 10:00 PM.",
+        "Animals inside the park must be kept on a leash.",
+        "The City of Bells pavilion may be reserved by submitting the city's pavilion reservation form and checking with the city for available dates.",
+        "Alcohol consumption and open alcoholic-beverage containers are generally prohibited on City park property unless an authorized special-event waiver is issued.",
+        "The city's adopted comprehensive plan identifies Bells City Park as approximately 14 acres."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Bells",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Verified August 20, 2026 using current City of Bells sources, the City's comprehensive planning material and current municipal code. The City confirms Bells City Park on Park Street southeast of City Hall, a daily 10:00 PM closing time, leash requirements and a reservable pavilion. The City's comprehensive plan describes the park as approximately 14 acres with a walking path, pavilion and small skate park and identifies recurring community events at the park including an Easter Egg Hunt, Trunk or Treat, Christmas activities and concerts at the pavilion. Current municipal code prohibits alcohol consumption and open containers in City parks except through an authorized special-event waiver. No current pavilion rental price was asserted because the City's downloadable reservation/fee documents were not reliably retrievable during verification.",
+      "last_checked": "2026-08-20",
+      "event_types": [
+        "Community events",
+        "Seasonal celebrations",
+        "Easter egg hunts",
+        "Trunk or Treat events",
+        "Christmas events",
+        "Community concerts",
+        "Pavilion events",
+        "Family activities",
+        "Outdoor gatherings"
+      ],
+      "event_sources": [
+        "City of Bells City Services page",
+        "City of Bells comprehensive plan",
+        "City of Bells official announcements and notices"
+      ],
+      "features": [
+        "14-acre municipal park",
+        "Walking path",
+        "Reservable pavilion",
+        "Small skate park",
+        "Recurring community-event site",
+        "Outdoor concert location",
+        "Tree-filled grounds",
+        "Central Bells location"
       ]
     }
   ]
