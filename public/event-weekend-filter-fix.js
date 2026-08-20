@@ -53,6 +53,39 @@
     normalizeRule(rule).split(';').map((part) => part.split('=')).filter(([key, value]) => key && value)
   );
   const dayCode = (dateString) => ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'][new Date(`${dateString}T12:00:00`).getDay()];
+  const dayCodeForDate = (date) => ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'][date.getDay()];
+
+  const matchesMonthlyByDayToken = (date, token) => {
+    const match = String(token ?? '').match(/^([+-]?\d+)?(SU|MO|TU|WE|TH|FR|SA)$/);
+    if (!match || dayCodeForDate(date) !== match[2]) return false;
+    if (!match[1]) return true;
+
+    const ordinal = Number(match[1]);
+    if (ordinal > 0) return Math.floor((date.getDate() - 1) / 7) + 1 === ordinal;
+
+    const daysInMonth = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
+    return Math.floor((daysInMonth - date.getDate()) / 7) + 1 === Math.abs(ordinal);
+  };
+
+  const matchesMonthlyByDay = (target, rule) => {
+    const tokens = String(rule.BYDAY ?? '').split(',').map((value) => value.trim()).filter(Boolean);
+    if (!tokens.length || !tokens.some((token) => matchesMonthlyByDayToken(target, token))) return false;
+
+    const positions = String(rule.BYSETPOS ?? '').split(',').map(Number).filter((value) => Number.isInteger(value) && value !== 0);
+    if (!positions.length) return true;
+
+    const daysInMonth = new Date(target.getFullYear(), target.getMonth() + 1, 0).getDate();
+    const candidates = [];
+    for (let day = 1; day <= daysInMonth; day += 1) {
+      const candidate = new Date(target.getFullYear(), target.getMonth(), day, 12);
+      if (tokens.some((token) => matchesMonthlyByDayToken(candidate, token))) candidates.push(day);
+    }
+
+    return positions.some((position) => {
+      const index = position > 0 ? position - 1 : candidates.length + position;
+      return candidates[index] === target.getDate();
+    });
+  };
 
   const occursOn = (eventDate, targetDate, recurrenceRule, recurrenceEnd) => {
     if (!eventDate || targetDate < eventDate || (recurrenceEnd && targetDate > recurrenceEnd)) return false;
@@ -91,23 +124,7 @@
         return rule.BYMONTHDAY.split(',').map(Number).includes(target.getDate());
       }
 
-      if (rule.BYDAY) {
-        return rule.BYDAY.split(',').some((value) => {
-          const match = value.match(/^([+-]?\d)?(SU|MO|TU|WE|TH|FR|SA)$/);
-          if (!match || dayCode(targetDate) !== match[2]) return false;
-          if (!match[1]) return true;
-
-          const ordinal = Number(match[1]);
-          if (ordinal > 0) {
-            const occurrence = Math.floor((target.getDate() - 1) / 7) + 1;
-            return occurrence === ordinal;
-          }
-
-          const nextWeek = new Date(target);
-          nextWeek.setDate(target.getDate() + 7);
-          return nextWeek.getMonth() !== target.getMonth();
-        });
-      }
+      if (rule.BYDAY) return matchesMonthlyByDay(target, rule);
 
       return target.getDate() === start.getDate();
     }
