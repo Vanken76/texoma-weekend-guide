@@ -1,0 +1,518 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const horizontalBadge = "/images/badges/listed-on-texoma-weekend-guide-horizontal.png";
+const squareBadge = "/images/badges/listed-on-texoma-weekend-guide-square.png";
+---
+
+<BaseLayout
+  title="Free Business Badges | Texoma Weekend Guide"
+  description="Download a free Listed on Texoma Weekend Guide badge for your website or social media and link visitors to your business listing in the Texoma local business directory."
+>
+  <section class="badge-hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">For businesses in the TWG directory</p>
+        <h1>Show that you’re listed on Texoma Weekend Guide</h1>
+        <p class="hero-copy">
+          If your business has a published listing in the Texoma Weekend Guide directory,
+          you’re welcome to use the official <strong>Listed on Texoma Weekend Guide</strong> badge.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="#downloads">Download Your Badge</a>
+          <a class="button secondary" href="/businesses/">Find Your Listing</a>
+        </div>
+      </div>
+
+      <div class="hero-preview" aria-label="Listed on Texoma Weekend Guide badge preview">
+        <img
+          src={horizontalBadge}
+          alt="Listed on Texoma Weekend Guide horizontal badge"
+          width="1200"
+          height="400"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="downloads">
+    <div class="container">
+      <div class="section-heading centered">
+        <p class="eyebrow">Free official badge</p>
+        <h2>Choose the version that fits your site</h2>
+        <p>
+          Both versions have a transparent background and are ready for websites,
+          partner pages, footer areas, and social graphics.
+        </p>
+      </div>
+
+      <div class="download-grid">
+        <article class="download-card horizontal-card">
+          <div class="preview-wrap wide-preview">
+            <img
+              src={horizontalBadge}
+              alt="Horizontal Listed on Texoma Weekend Guide badge"
+              width="1200"
+              height="400"
+              loading="lazy"
+            />
+          </div>
+          <div>
+            <p class="format-label">Horizontal PNG</p>
+            <h3>Best for websites</h3>
+            <p>Works well in footers, About pages, partner sections, and business websites.</p>
+            <a
+              class="button"
+              href={horizontalBadge}
+              download="listed-on-texoma-weekend-guide-horizontal.png"
+            >Download Horizontal Badge</a>
+          </div>
+        </article>
+
+        <article class="download-card square-card">
+          <div class="preview-wrap square-preview">
+            <img
+              src={squareBadge}
+              alt="Square Listed on Texoma Weekend Guide badge"
+              width="600"
+              height="600"
+              loading="lazy"
+            />
+          </div>
+          <div>
+            <p class="format-label">Square PNG</p>
+            <h3>Best for compact spaces</h3>
+            <p>Useful for social media, partner grids, sidebars, and smaller website placements.</p>
+            <a
+              class="button"
+              href={squareBadge}
+              download="listed-on-texoma-weekend-guide-square.png"
+            >Download Square Badge</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section link-section">
+    <div class="container link-grid">
+      <div>
+        <p class="eyebrow">Help customers find your listing</p>
+        <h2>Link the badge back to your TWG page</h2>
+        <p>
+          When you place the badge on your website, link it to your exact Texoma Weekend Guide
+          business listing. That gives your visitors a quick way to see your directory profile,
+          events, details, and other information on TWG.
+        </p>
+        <ol class="steps">
+          <li>Find your business in the <a href="/businesses/">TWG Business Directory</a>.</li>
+          <li>Copy the full URL of your individual business listing.</li>
+          <li>Paste it below and choose the badge format you want to embed.</li>
+          <li>Copy the generated HTML into your website.</li>
+        </ol>
+      </div>
+
+      <div class="embed-card">
+        <label for="listing-url">Your TWG business listing URL</label>
+        <input
+          id="listing-url"
+          type="url"
+          inputmode="url"
+          placeholder="https://texomaweekendguide.com/businesses/your-business/"
+        />
+
+        <div class="embed-actions">
+          <button class="button embed-button" type="button" data-badge="horizontal">Use Horizontal Badge</button>
+          <button class="button secondary embed-button" type="button" data-badge="square">Use Square Badge</button>
+        </div>
+
+        <label for="embed-code">Embed code</label>
+        <textarea id="embed-code" rows="6" readonly placeholder="Your embed code will appear here."></textarea>
+        <button class="copy-button" type="button" id="copy-code">Copy Embed Code</button>
+        <p class="embed-status" id="embed-status" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section rules-section">
+    <div class="container rules-grid">
+      <div class="rules-card">
+        <p class="eyebrow">Badge use</p>
+        <h2>Keep it simple</h2>
+        <ul>
+          <li>Use the Listed badge only for a business with a published TWG directory listing.</li>
+          <li>Please keep the badge intact rather than changing the wording, colors, or logo.</li>
+          <li>Linking to your exact TWG listing is strongly encouraged.</li>
+          <li>If your listing needs an update, contact TWG or submit the corrected information.</li>
+        </ul>
+      </div>
+
+      <div class="featured-card">
+        <p class="eyebrow light">Paid promotion</p>
+        <h2>Featured on TWG is different</h2>
+        <p>
+          The <strong>Featured on Texoma Weekend Guide</strong> badge is reserved for qualifying
+          paid featured promotions and is not offered as a public download.
+        </p>
+        <p>
+          Featured status represents active promotional placement or campaign work from TWG,
+          not simply inclusion in the free directory.
+        </p>
+        <a class="button gold-button" href="/advertise/">See Advertising Options</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section closing-section">
+    <div class="container closing-card">
+      <div>
+        <p class="eyebrow">Not listed yet?</p>
+        <h2>Get your business into the directory</h2>
+        <p>Basic legitimate local business listings are free. Submit your information for review.</p>
+      </div>
+      <a class="button" href="/submit-business/">Submit a Business</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+  const listingInput = document.getElementById("listing-url");
+  const codeOutput = document.getElementById("embed-code");
+  const copyButton = document.getElementById("copy-code");
+  const status = document.getElementById("embed-status");
+
+  const badgeConfig = {
+    horizontal: {
+      src: "https://texomaweekendguide.com/images/badges/listed-on-texoma-weekend-guide-horizontal.png",
+      width: "600"
+    },
+    square: {
+      src: "https://texomaweekendguide.com/images/badges/listed-on-texoma-weekend-guide-square.png",
+      width: "260"
+    }
+  };
+
+  function normalizeListingUrl(value) {
+    try {
+      const url = new URL(value.trim());
+      const isTwgHost = url.hostname === "texomaweekendguide.com" || url.hostname === "www.texomaweekendguide.com";
+      const isBusinessPage = /^\/businesses\/[^/]+\/?$/.test(url.pathname);
+      if (!isTwgHost || !isBusinessPage) return null;
+      return `https://texomaweekendguide.com${url.pathname.endsWith("/") ? url.pathname : `${url.pathname}/`}`;
+    } catch {
+      return null;
+    }
+  }
+
+  document.querySelectorAll(".embed-button").forEach((button) => {
+    button.addEventListener("click", () => {
+      const url = normalizeListingUrl(listingInput?.value || "");
+      const type = button.dataset.badge;
+      const config = badgeConfig[type];
+
+      if (!url || !config) {
+        codeOutput.value = "";
+        status.textContent = "Paste the full URL of your individual TWG business listing first.";
+        return;
+      }
+
+      codeOutput.value = `<a href="${url}" target="_blank" rel="noopener"><img src="${config.src}" alt="Listed on Texoma Weekend Guide" width="${config.width}" style="max-width:100%;height:auto;"></a>`;
+      status.textContent = "Embed code ready. Copy it and add it to your website.";
+    });
+  });
+
+  copyButton?.addEventListener("click", async () => {
+    if (!codeOutput?.value) {
+      status.textContent = "Generate your embed code first.";
+      return;
+    }
+
+    try {
+      await navigator.clipboard.writeText(codeOutput.value);
+      status.textContent = "Embed code copied.";
+    } catch {
+      codeOutput.focus();
+      codeOutput.select();
+      status.textContent = "Code selected. Copy it from the text box.";
+    }
+  });
+</script>
+
+<style>
+  .badge-hero {
+    padding: 4.5rem 0;
+    background: linear-gradient(135deg, #eef8f7 0%, #fff9ed 55%, #e7f1f5 100%);
+  }
+
+  .hero-grid,
+  .link-grid,
+  .rules-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .badge-hero h1 {
+    margin-bottom: 1rem;
+    color: var(--navy);
+    font-size: clamp(2.7rem, 7vw, 5.3rem);
+    line-height: 0.98;
+    letter-spacing: -0.04em;
+  }
+
+  .hero-copy {
+    max-width: 62ch;
+    font-size: clamp(1.1rem, 2vw, 1.35rem);
+  }
+
+  .hero-actions,
+  .embed-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .button.secondary {
+    border: 2px solid var(--navy);
+    background: transparent;
+    color: var(--navy);
+  }
+
+  .hero-preview,
+  .preview-wrap {
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    background-image:
+      linear-gradient(45deg, #f1f3f3 25%, transparent 25%),
+      linear-gradient(-45deg, #f1f3f3 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #f1f3f3 75%),
+      linear-gradient(-45deg, transparent 75%, #f1f3f3 75%);
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0;
+    background-size: 20px 20px;
+    background-color: white;
+    box-shadow: var(--shadow);
+  }
+
+  .hero-preview {
+    min-height: 320px;
+    padding: 2rem;
+  }
+
+  .hero-preview img,
+  .preview-wrap img {
+    width: 100%;
+    height: auto;
+  }
+
+  .centered {
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  .download-grid {
+    display: grid;
+    grid-template-columns: 1.35fr 0.85fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .download-card,
+  .embed-card,
+  .rules-card,
+  .featured-card,
+  .closing-card {
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    background: white;
+    box-shadow: var(--shadow);
+  }
+
+  .download-card {
+    display: grid;
+    gap: 1.4rem;
+    padding: 1.4rem;
+  }
+
+  .wide-preview {
+    min-height: 250px;
+    padding: 1.5rem;
+  }
+
+  .square-preview {
+    max-width: 430px;
+    padding: 1.5rem;
+    margin-inline: auto;
+  }
+
+  .format-label {
+    margin-bottom: 0.25rem;
+    color: #168390;
+    font-size: 0.82rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .download-card h3 {
+    margin-top: 0;
+    color: var(--navy);
+    font-size: 1.65rem;
+  }
+
+  .link-section {
+    background: #e9f3f2;
+  }
+
+  .link-grid {
+    align-items: start;
+  }
+
+  .steps {
+    padding-left: 1.3rem;
+  }
+
+  .steps li + li {
+    margin-top: 0.65rem;
+  }
+
+  .embed-card {
+    display: grid;
+    gap: 0.8rem;
+    padding: 1.6rem;
+  }
+
+  .embed-card label {
+    color: var(--navy);
+    font-weight: 850;
+  }
+
+  .embed-card input,
+  .embed-card textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.85rem 1rem;
+    border: 1px solid #aebbc1;
+    border-radius: 12px;
+    background: #fff;
+    color: #17252f;
+    font: inherit;
+  }
+
+  .embed-card textarea {
+    resize: vertical;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.82rem;
+  }
+
+  .copy-button {
+    justify-self: start;
+    padding: 0.7rem 1rem;
+    border: 1px solid var(--navy);
+    border-radius: 999px;
+    background: white;
+    color: var(--navy);
+    font-weight: 850;
+    cursor: pointer;
+  }
+
+  .embed-status {
+    min-height: 1.4em;
+    margin: 0;
+    color: #176f95;
+    font-weight: 800;
+  }
+
+  .rules-grid {
+    align-items: stretch;
+  }
+
+  .rules-card,
+  .featured-card {
+    padding: 2rem;
+  }
+
+  .rules-card ul {
+    margin-bottom: 0;
+  }
+
+  .rules-card li + li {
+    margin-top: 0.7rem;
+  }
+
+  .featured-card {
+    border-color: transparent;
+    background: linear-gradient(135deg, var(--navy), #176f95);
+    color: white;
+  }
+
+  .featured-card h2,
+  .featured-card p {
+    color: white;
+  }
+
+  .light {
+    color: #bfeaf0;
+  }
+
+  .gold-button {
+    background: #d97706;
+  }
+
+  .closing-section {
+    padding-top: 0;
+  }
+
+  .closing-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .closing-card h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .closing-card p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 900px) {
+    .hero-grid,
+    .link-grid,
+    .rules-grid,
+    .download-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-preview {
+      min-height: 220px;
+    }
+
+    .square-preview {
+      max-width: 360px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .badge-hero {
+      padding: 3rem 0;
+    }
+
+    .hero-preview,
+    .wide-preview,
+    .square-preview {
+      padding: 0.85rem;
+    }
+
+    .closing-card {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+</style>
