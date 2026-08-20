@@ -1,4 +1,9 @@
+import { readFile } from "node:fs/promises";
 import sharp from "sharp";
+
+const logoPath = "public/images/logo.jpg";
+const logoBase64 = (await readFile(logoPath)).toString("base64");
+const logoDataUri = `data:image/jpeg;base64,${logoBase64}`;
 
 const badges = [
   {
@@ -16,11 +21,21 @@ const badges = [
 ];
 
 for (const badge of badges) {
-  await sharp(badge.source)
+  const sourceSvg = await readFile(badge.source, "utf8");
+  const embeddedSvg = sourceSvg.replace(
+    /href="data:image\/jpeg;base64,[^"]+"/g,
+    `href="${logoDataUri}"`
+  );
+
+  if (embeddedSvg === sourceSvg) {
+    throw new Error(`Badge source is missing the embedded logo placeholder: ${badge.source}`);
+  }
+
+  await sharp(Buffer.from(embeddedSvg))
     .resize(badge.width, badge.height, { fit: "fill" })
     .ensureAlpha()
     .png({ palette: false, compressionLevel: 9, adaptiveFiltering: true })
     .toFile(badge.output);
 
-  console.log(`Generated badge PNG: ${badge.output}`);
+  console.log(`Generated badge PNG with TWG logo: ${badge.output}`);
 }
