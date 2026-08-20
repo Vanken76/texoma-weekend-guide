@@ -1,3 +1,4 @@
+# Trigger image generation after workflow registration.
 name: Generate Aug 20–23 roundup images
 
 on:
