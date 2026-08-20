@@ -25,6 +25,8 @@
   const pagination = document.querySelector('#pagination');
   const previousPage = document.querySelector('#previous-page');
   const nextPage = document.querySelector('#next-page');
+  const pageNumbers = document.querySelector('#page-numbers');
+  let weekendPage = 1;
 
   const chicagoDate = (date = new Date()) => new Intl.DateTimeFormat('en-CA', {
     timeZone: 'America/Chicago',
@@ -184,8 +186,32 @@
     });
   };
 
+  const renderWeekendPagination = (totalPages) => {
+    if (!(pagination instanceof HTMLElement) || !(pageNumbers instanceof HTMLElement)) return;
+
+    pagination.hidden = totalPages <= 1;
+    if (previousPage instanceof HTMLButtonElement) previousPage.disabled = weekendPage <= 1;
+    if (nextPage instanceof HTMLButtonElement) nextPage.disabled = weekendPage >= totalPages;
+
+    pageNumbers.innerHTML = '';
+    for (let page = 1; page <= totalPages; page += 1) {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.textContent = String(page);
+      button.className = 'page-number';
+      button.dataset.weekendPage = String(page);
+      button.setAttribute('aria-label', `Go to page ${page}`);
+      if (page === weekendPage) {
+        button.classList.add('active');
+        button.setAttribute('aria-current', 'page');
+      }
+      pageNumbers.appendChild(button);
+    }
+  };
+
   const applyWeekendFix = () => {
     if (dateFilter.value !== 'weekend') {
+      weekendPage = 1;
       restoreDefaultView();
       return;
     }
@@ -216,11 +242,9 @@
       if (label && originalLabels.has(card)) label.textContent = originalLabels.get(card);
     });
 
-    const activePageButton = document.querySelector('.page-number.active');
-    const requestedPage = activePageButton ? Number.parseInt(activePageButton.textContent || '1', 10) || 1 : 1;
     const totalPages = Math.max(1, Math.ceil(matches.length / PAGE_SIZE));
-    const page = Math.min(requestedPage, totalPages);
-    const sliceStart = (page - 1) * PAGE_SIZE;
+    weekendPage = Math.min(Math.max(1, weekendPage), totalPages);
+    const sliceStart = (weekendPage - 1) * PAGE_SIZE;
     const sliceEnd = sliceStart + PAGE_SIZE;
     const visibleSet = new Set(matchCards.slice(sliceStart, sliceEnd));
 
@@ -236,8 +260,7 @@
 
     if (noResults) noResults.hidden = matches.length !== 0;
     if (pagination) pagination.hidden = matches.length === 0 || totalPages <= 1;
-    if (previousPage instanceof HTMLButtonElement) previousPage.disabled = page <= 1;
-    if (nextPage instanceof HTMLButtonElement) nextPage.disabled = page >= totalPages;
+    renderWeekendPagination(totalPages);
   };
 
   let scheduled = false;
@@ -250,13 +273,50 @@
     });
   };
 
-  filters.addEventListener('input', scheduleFix);
-  filters.addEventListener('change', scheduleFix);
+  filters.addEventListener('input', () => {
+    if (dateFilter.value === 'weekend') weekendPage = 1;
+    scheduleFix();
+  });
+  filters.addEventListener('change', () => {
+    if (dateFilter.value === 'weekend') weekendPage = 1;
+    scheduleFix();
+  });
+
   document.addEventListener('click', (event) => {
     const target = event.target instanceof Element ? event.target : null;
     if (!target) return;
-    if (target.closest('[data-quick], #clear-filters, #clear-empty, #pagination button')) scheduleFix();
+    if (target.closest('[data-quick], #clear-filters, #clear-empty')) {
+      if (dateFilter.value === 'weekend') weekendPage = 1;
+      scheduleFix();
+    }
   });
+
+  if (pagination instanceof HTMLElement) {
+    pagination.addEventListener('click', (event) => {
+      if (dateFilter.value !== 'weekend') return;
+      const target = event.target instanceof Element ? event.target : null;
+      if (!target) return;
+
+      const pageButton = target.closest('[data-weekend-page]');
+      const isPrevious = Boolean(target.closest('#previous-page'));
+      const isNext = Boolean(target.closest('#next-page'));
+      if (!pageButton && !isPrevious && !isNext) return;
+
+      event.preventDefault();
+      event.stopPropagation();
+
+      if (pageButton instanceof HTMLElement) {
+        weekendPage = Number.parseInt(pageButton.dataset.weekendPage ?? '1', 10) || 1;
+      } else if (isPrevious) {
+        weekendPage = Math.max(1, weekendPage - 1);
+      } else if (isNext) {
+        weekendPage += 1;
+      }
+
+      applyWeekendFix();
+      filters.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, true);
+  }
 
   scheduleFix();
 })();
