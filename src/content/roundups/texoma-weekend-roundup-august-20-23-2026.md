@@ -3,7 +3,7 @@ title: "Texoma Weekend Roundup – August 20–23, 2026"
 description: "Explore 97 roundup entries happening across Texoma from Thursday, August 20 through Sunday, August 23, 2026, including live music, markets, workshops, family activities, trivia, karaoke, sports, art, dancing, brunch, nature programs, community events, nightlife, and more."
 startDate: 2026-08-20
 endDate: 2026-08-23
-image: "/images/texoma-weekend-roundup-august-20-23-2026.webp"
+image: "/images/1000041624.png"
 featured: true
 ---
 
@@ -44,7 +44,7 @@ Thursday runs from morning coffee and library programs through workshops, live m
 23. **Weekly Themed Trivia at 903 Brewers** — 7:00 PM — 903 Brewers, Sherman
 24. **Randy Sloan** — 6:00–9:00 PM — Stafford House Provisions, Denison
 
-![Texoma Weekend Guide Thursday, August 20, 2026 roundup](/images/texoma-thursday-roundup-august-20-2026.webp)
+![Texoma Weekend Guide Thursday Roundup — August 20, 2026](/images/1000041625.png)
 
 ## Friday, August 21 — 22 events
 
@@ -73,7 +73,7 @@ Friday mixes professional and cultural programs, outdoor activities, crafts, bin
 21. **Jon Stork Live at Gilley’s Durant** — 9:30 PM–1:30 AM — Gilley’s Durant, Durant
 22. **Joe Baker and the Brethren** — 10:00 PM–12:00 AM — Guy’s American Kitchen + Bar, Durant
 
-![Texoma Weekend Guide Friday, August 21, 2026 roundup](/images/texoma-friday-roundup-august-21-2026.webp)
+![Texoma Weekend Guide Friday Roundup — August 21, 2026](/images/1000041626.png)
 
 ## Saturday, August 22 — 41 events
 
@@ -121,7 +121,7 @@ Saturday is the biggest day of the weekend, with **41 roundup entries** stretchi
 40. **The Work Crew** — 12:00 PM — Hagerman National Wildlife Refuge Visitor Center, Sherman
 41. **Dustin De La Garza Live at Gilley’s Durant** — 9:30 PM–1:30 AM — Gilley’s Durant, Durant
 
-![Texoma Weekend Guide Saturday, August 22, 2026 roundup](/images/texoma-saturday-roundup-august-22-2026.webp)
+![Texoma Weekend Guide Saturday Roundup — August 22, 2026](/images/1000041627.png)
 
 ## Sunday, August 23 — 10 events
 
@@ -138,7 +138,7 @@ Sunday slows the pace with brunch, gardening, wildlife, art, dancing, and an eve
 9. **Country Line Dance Class** — 5:30 PM — The Dance Collective McKinney, McKinney
 10. **Sips + Sounds Sunday Nights** — 6:00–9:00 PM — HeyDay Entertainment Denison, Denison
 
-![Texoma Weekend Guide Sunday, August 23, 2026 roundup](/images/texoma-sunday-roundup-august-23-2026.webp)
+![Texoma Weekend Guide Sunday Roundup — August 23, 2026](/images/1000041630.png)
 
 Whether you want **live entertainment, markets, family activities, outdoor time, lake-area fun, dancing, nightlife, art, food, or something new to try**, there is plenty happening around Texoma this weekend.
 
