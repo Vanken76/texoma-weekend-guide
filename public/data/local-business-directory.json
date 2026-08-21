@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1074,
-  "publish_ready_count": 750,
+  "business_count": 1075,
+  "publish_ready_count": 751,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -113476,6 +113476,124 @@
         "Changing dealer inventory",
         "Texas Antique Trail member",
         "Historic downtown Whitesboro location"
+      ]
+    },
+    {
+      "slug": "cooks-main-stage",
+      "business_name": "Cook's Main Stage",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "142 E Main St, Whitesboro, TX 76273",
+      "category": [
+        "Live Music Venue",
+        "Event Venue",
+        "Performance Venue"
+      ],
+      "tags": [
+        "Live Music",
+        "Karaoke",
+        "Dancing",
+        "Private Events",
+        "Community Events",
+        "Meeting Space",
+        "Parties",
+        "Downtown Whitesboro",
+        "Music Hall",
+        "Whitesboro"
+      ],
+      "description": "Cook's Main Stage is a downtown Whitesboro music hall, performance space and event center located behind Cook's Main Street Mercantile. The venue hosts public entertainment including live bands, karaoke, dances and community activities while also providing space for private parties, meetings, weddings and other special gatherings.",
+      "why_visit": "Cook's Main Stage is one of downtown Whitesboro's recurring entertainment hubs, offering locally accessible live music, karaoke, dancing and special community events without requiring a trip to a larger city.",
+      "why_its_unique": "The venue combines an intimate downtown music-hall atmosphere with flexible private-event and meeting use, while regularly contributing live entertainment to Whitesboro's community calendar.",
+      "phone": "903-564-3075",
+      "email": null,
+      "website": "https://cooksmainstage.com/",
+      "facebook": "https://www.facebook.com/CMainStage/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Cook's Main Stage operates around scheduled public events and private rentals rather than regular drop-in business hours. Check the venue's current event announcements or contact the venue before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Indoor music and performance space",
+        "Private-event rental space",
+        "Meeting space",
+        "Live entertainment venue"
+      ],
+      "good_to_know": [
+        "Cook's Main Stage is located behind Cook's Main Street Mercantile in downtown Whitesboro.",
+        "The Main Stage and the Mercantile are distinct directory businesses and should remain separate records.",
+        "Public programming has included live bands, karaoke, dances, community gatherings and festival-related entertainment.",
+        "The venue is also available for private parties and meetings.",
+        "Wedding and rehearsal-dinner use has been documented.",
+        "Event admission, age policies, food and beverage arrangements and operating times vary by individual event, so check the specific event announcement before attending."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [
+        "Cook's Main Street Mercantile"
+      ],
+      "related_geography": [],
+      "verification_note": "Cook's Main Stage is an active downtown Whitesboro music hall and event center at 142 E Main St, located behind Cook's Main Street Mercantile. Its official social presence promotes private-party rentals, meeting space and community events, while current Whitesboro visitor materials identify the venue as a recurring source for live bands and karaoke. Its continued operation is independently confirmed by the April 21, 2026 Grayson County A&M Club Muster held at the venue. This is a high-priority recurring event-mining source.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Live music",
+        "Karaoke",
+        "Dances",
+        "Community events",
+        "Festival after-parties",
+        "Private parties",
+        "Meetings",
+        "Weddings",
+        "Rehearsal dinners",
+        "Veterans socials",
+        "Fundraisers",
+        "Organization gatherings"
+      ],
+      "event_sources": [
+        "Cook's Main Stage official Facebook",
+        "Cook's Main Stage official website",
+        "Whitesboro Visitors and Newcomers Guide",
+        "Whitesboro News-Record",
+        "Local organization event calendars"
+      ],
+      "features": [
+        "Downtown Whitesboro music hall",
+        "Live-band programming",
+        "Recurring karaoke",
+        "Community entertainment",
+        "Private-party rentals",
+        "Meeting-space rentals",
+        "Wedding and special-event use",
+        "Located behind Cook's Main Street Mercantile"
       ]
     }
   ]
