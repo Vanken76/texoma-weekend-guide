@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1061,
-  "publish_ready_count": 737,
+  "business_count": 1062,
+  "publish_ready_count": 738,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -111940,6 +111940,96 @@
         "On-site gathering and residential spaces",
         "Pet-friendly wedding-party policy",
         "Private scheduled tours"
+      ]
+    },
+    {
+      "slug": "west-side-youth-center",
+      "business_name": "West Side Youth Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "615 W Main St, Whitesboro, TX 76273",
+      "category": [
+        "Youth Center",
+        "Community Center"
+      ],
+      "tags": [
+        "Youth Programs",
+        "Children",
+        "Group Meetings",
+        "Community Programs",
+        "Parks and Recreation",
+        "Whitesboro"
+      ],
+      "description": "West Side Youth Center is a City of Whitesboro Parks and Recreation community facility serving youth and children's group activities. The smaller municipal community center occupies a repurposed barn and is primarily used for children's group meetings and related community programming.",
+      "why_visit": "West Side Youth Center provides dedicated indoor community space for youth-focused meetings and activities in Whitesboro.",
+      "why_its_unique": "The facility is a repurposed barn that now serves as Whitesboro's smaller municipal community center, with its use focused primarily on children's group meetings.",
+      "phone": "903-564-5964",
+      "email": null,
+      "website": "https://www.whitesboro.org/pard/page/west-side-youth-center",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Regular public or drop-in hours are not currently published for the West Side Youth Center. Contact Whitesboro Parks and Recreation for current access, programming and facility-use information.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Indoor youth and community meeting space"
+      ],
+      "good_to_know": [
+        "The facility is operated through the City of Whitesboro Parks and Recreation Department.",
+        "City planning materials describe it as a repurposed barn primarily used for children's group meetings.",
+        "It is Whitesboro's smaller community-center facility; the larger Jimmie O. Rector Community Center serves as the city's primary rental and events facility.",
+        "Contact Parks and Recreation before visiting because regular public access hours are not published."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Verified from the City of Whitesboro Parks and Recreation facility page and current municipal comprehensive-planning materials. Primarily used for children's group meetings. Monitor City of Whitesboro Parks and Recreation sources for publicly promoted youth programs and activities.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Youth group meetings",
+        "Children's activities",
+        "Community youth programs"
+      ],
+      "event_sources": [
+        "City of Whitesboro Parks and Recreation",
+        "City of Whitesboro community calendar"
+      ],
+      "features": [
+        "City-operated youth center",
+        "Repurposed barn facility",
+        "Indoor group meeting space",
+        "Primarily used for children's group meetings"
       ]
     }
   ]
