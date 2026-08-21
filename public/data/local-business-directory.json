@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1032,
-  "publish_ready_count": 707,
+  "business_count": 1033,
+  "publish_ready_count": 708,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -107917,6 +107917,122 @@
         "Family-oriented community gatherings",
         "Downtown-area location",
         "Community-supported park improvements"
+      ]
+    },
+    {
+      "slug": "tioga-community-center",
+      "business_name": "Tioga Community Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Downtown Tioga, TX 76271",
+      "category": [
+        "Community Center",
+        "Indoor Event Venue",
+        "Community Gathering Space",
+        "Municipal Facility"
+      ],
+      "tags": [
+        "Tioga",
+        "Grayson County",
+        "Community Center",
+        "Community Building",
+        "Event Venue",
+        "Facility Rental",
+        "4-H",
+        "Youth Programs",
+        "Community Meetings",
+        "Community Events",
+        "Private Events"
+      ],
+      "description": "Tioga Community Center is a longstanding community gathering facility in downtown Tioga. The City of Tioga refers to the facility in its ordinances as the community building, while Texas A&M AgriLife currently identifies it as Tioga Community Center. The facility remains actively used for recurring community programming, including monthly Tioga 4-H Club meetings.",
+      "why_visit": "Attend a recurring youth or community program, community gathering or other scheduled activity at one of Tioga's longstanding indoor gathering spaces.",
+      "why_its_unique": "The historic Tioga Community Center remains part of the city's small-town civic fabric and continues to host recurring local programming, including the Tioga 4-H Club.",
+      "phone": "940-437-2351",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No dependable regular public walk-in hours are currently published. Use is based on scheduled programs, community activities and facility reservations.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Indoor community gathering space",
+        "Youth-program meeting space",
+        "City-managed community facility"
+      ],
+      "good_to_know": [
+        "Texas A&M AgriLife currently lists Tioga Community Center as the meeting location for the Tioga 4-H Club.",
+        "Tioga 4-H currently meets on the second Monday of each month at 6:00 PM.",
+        "The City of Tioga uses the term 'community building' in its municipal ordinances.",
+        "The City's ordinance index continues to list Ordinance 233 governing use of the community building.",
+        "The City adopted an updated comprehensive fee schedule on January 12, 2026.",
+        "An older directly readable City fee schedule listed a $50 community-building rental fee plus a $100 cleaning deposit, but that amount is not being asserted as the current 2026 rate.",
+        "Current rental pricing and deposit requirements should be confirmed with Tioga City Hall at 940-437-2351.",
+        "A dependable current street number for the Community Center was not found in authoritative City material, so the listing uses Downtown Tioga rather than a guessed address.",
+        "Current property listings for 104 S Lamar St describe that property as being directly behind the historic Tioga Community Center, supporting the downtown location but not establishing the center's exact address."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Tioga",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Verified August 20, 2026 using current City of Tioga and Texas A&M AgriLife Grayson County sources. AgriLife currently identifies Tioga Community Center as the recurring meeting location of the Tioga 4-H Club on the second Monday at 6:00 PM. The City ordinance index continues to list Ordinance 233 governing use of the community building and shows Ordinance 2026-455, the comprehensive fee schedule adopted January 12, 2026. The last directly readable older City fee schedule identified a $50 rental fee and $100 cleaning deposit, but those figures are not treated as current without direct confirmation from the 2026 schedule. No reliable current City source supplied an exact street address for the Community Center; recent property listings identify it as a historic downtown Tioga landmark, so Downtown Tioga is retained rather than inventing a street number.",
+      "last_checked": "2026-08-20",
+      "event_types": [
+        "4-H meetings",
+        "Youth programs",
+        "Community meetings",
+        "Community gatherings",
+        "Private rentals",
+        "Civic activities"
+      ],
+      "event_sources": [
+        "City of Tioga official website",
+        "City of Tioga ordinances",
+        "City of Tioga calendar and announcements",
+        "Texas A&M AgriLife Grayson County 4-H",
+        "Tioga community announcements"
+      ],
+      "features": [
+        "Historic downtown community center",
+        "Recurring Tioga 4-H meeting site",
+        "Indoor community gathering space",
+        "City-regulated community building",
+        "Recurring youth-program venue",
+        "High-value local event-mining source"
       ]
     }
   ]
