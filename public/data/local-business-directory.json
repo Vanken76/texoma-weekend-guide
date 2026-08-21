@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1073,
-  "publish_ready_count": 749,
+  "business_count": 1074,
+  "publish_ready_count": 750,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -113363,6 +113363,119 @@
         "Takeout",
         "Outdoor seating",
         "Downtown Whitesboro location"
+      ]
+    },
+    {
+      "slug": "cooks-main-street-mercantile",
+      "business_name": "Cook's Main Street Mercantile",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "142 E Main St, Whitesboro, TX 76273",
+      "category": [
+        "Antique Store",
+        "Vintage Store",
+        "Gift Shop"
+      ],
+      "tags": [
+        "Antiques",
+        "Vintage",
+        "Collectibles",
+        "Furniture",
+        "Home Decor",
+        "Handcrafted Goods",
+        "Vendor Booths",
+        "Gifts",
+        "Downtown Shopping",
+        "Whitesboro"
+      ],
+      "description": "Cook's Main Street Mercantile is a multi-vendor antique and vintage shopping destination in historic downtown Whitesboro. The mercantile offers an eclectic mix of antiques, vintage decor, collectibles, furniture, textiles, kitchenware, handcrafted items, metalware and other one-of-a-kind finds displayed throughout individual dealer booths.",
+      "why_visit": "Cook's is built for treasure hunting. Its multi-vendor layout means shoppers can browse a wide variety of antiques, collectibles, home decor, furniture, gifts and unusual finds in a single downtown stop.",
+      "why_its_unique": "The mercantile combines numerous independent dealers and constantly changing inventory under one roof, making each visit different and adding another substantial antique-shopping stop to Whitesboro's walkable Main Street district.",
+      "phone": "903-564-3075",
+      "email": null,
+      "website": "https://cooksmercantile.antiquetrail.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "10:00 AM–5:00 PM",
+        "wednesday": "10:00 AM–5:00 PM",
+        "thursday": "10:00 AM–5:00 PM",
+        "friday": "10:00 AM–5:00 PM",
+        "saturday": "10:00 AM–5:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current official AntiqueTrail listing shows Tuesday through Saturday, 10:00 AM–5:00 PM, with Sunday and Monday closed. Holiday and festival hours may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Multi-vendor booth shopping",
+        "Antiques",
+        "Vintage decor",
+        "Collectibles",
+        "Furniture",
+        "Textiles",
+        "Kitchenware",
+        "Handcrafted items",
+        "Metalware",
+        "Gift items"
+      ],
+      "good_to_know": [
+        "The mercantile is located in downtown Whitesboro on East Main Street.",
+        "Inventory comes from multiple dealers and changes regularly.",
+        "The shop is a member of the Texas Antique Trail network.",
+        "Cook's Main Stage is a separate performance hall and event venue located behind the mercantile and should have its own Texoma Weekend Guide record.",
+        "The mercantile has participated in downtown and Peanut Festival activities, but public entertainment held at Cook's Main Stage should be attached to the Main Stage venue rather than this retail listing."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [
+        "Cook's Main Stage"
+      ],
+      "related_geography": [],
+      "verification_note": "Complete. Current address, phone, hours and merchandise categories verified from Cook's Main Street Mercantile's current AntiqueTrail listing, which was active in 2026. Current Texas Antique Trail records also list the business among Whitesboro antique shops. Cook's Main Stage is a distinct performance and event venue located behind the mercantile and should be maintained as a separate directory and event-mining record.",
+      "last_checked": "2026-08-21",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Multi-vendor antique mercantile",
+        "Antiques and vintage finds",
+        "Collectibles",
+        "Furniture and home decor",
+        "Textiles and kitchenware",
+        "Handcrafted items",
+        "Changing dealer inventory",
+        "Texas Antique Trail member",
+        "Historic downtown Whitesboro location"
       ]
     }
   ]
