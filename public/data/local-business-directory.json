@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-20",
+  "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1029,
-  "publish_ready_count": 704,
+  "business_count": 1030,
+  "publish_ready_count": 705,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -107542,6 +107542,118 @@
         "Civic and public-meeting venue",
         "Private-event rentals",
         "Municipal community facility"
+      ]
+    },
+    {
+      "slug": "whitewright-civic-center",
+      "business_name": "Whitewright Civic Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "206 W Grand Ave, Whitewright, TX 75491",
+      "category": [
+        "Civic Center",
+        "Indoor Event Venue",
+        "Community Gathering Space",
+        "Municipal Facility"
+      ],
+      "tags": [
+        "Whitewright",
+        "Grayson County",
+        "Civic Center",
+        "Event Venue",
+        "Facility Rental",
+        "Civic Functions",
+        "Community Events",
+        "Municipal Facility",
+        "Downtown Whitewright"
+      ],
+      "description": "Whitewright Civic Center is a City of Whitewright municipal gathering and rental facility at 206 W Grand Ave. The facility has historically served civic functions and remains maintained and funded by the City as an active municipal property. The City continues to publish a full-day Civic Center rental fee, making the facility a useful permanent indoor venue for eligible community and private uses.",
+      "why_visit": "Use the Civic Center for an eligible civic, community or private gathering in central Whitewright, or attend scheduled activities held at the municipal facility.",
+      "why_its_unique": "Whitewright Civic Center combines a downtown municipal location with an established history as a civic-function venue and an affordable City-published full-day rental option.",
+      "phone": "903-364-2219",
+      "email": null,
+      "website": "https://www.whitewright.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$100 full-day rental per the City's currently posted fee schedule",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public walk-in hours are published specifically for the Civic Center. Access depends on municipal operations, scheduled activities and facility reservations.",
+      "at_a_glance": {
+        "average_visit": "Full-day rental available",
+        "price_range": "$100 full-day rental per currently posted City fee schedule",
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Indoor civic gathering space",
+        "Full-day facility rental",
+        "Municipal event space"
+      ],
+      "good_to_know": [
+        "Whitewright Civic Center is located at 206 W Grand Ave in the City's municipal complex.",
+        "The City's current 2025-2026 budget continues to carry dedicated Civic Center building maintenance, electric, gas and internet expenses.",
+        "The City's proposed 2026-2027 budget also continues Civic Center-related operating expenses.",
+        "Whitewright Community Development Corporation identifies the Civic Center as a facility used for civic functions.",
+        "The City's currently posted official fee schedule lists Civic Center full-day rental at $100.",
+        "The posted fee schedule was last amended June 6, 2023, so renters should confirm the current charge and reservation requirements with City Hall before booking.",
+        "Call Whitewright City Hall at 903-364-2219 for current availability, rules and reservation procedures.",
+        "Current dependable information on capacity, kitchen facilities, tables and chairs, deposits, alcohol rules and other rental conditions was not found, so those details are not asserted."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Whitewright",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Verified August 20, 2026 using current City of Whitewright sources. Current City budget documents identify the Civic Center at 206 W Grand Ave and continue dedicated Civic Center building maintenance and utility expenses in the 2025-2026 fiscal year, with Civic Center-related costs also appearing in the proposed 2026-2027 budget. Whitewright Community Development Corporation describes the Civic Center as a refurbished facility used for civic functions. The official City Fee Schedule currently hosted by the City lists a $100 full-day Civic Center rental; because that fee schedule was last amended June 6, 2023, renters should confirm the rate and current reservation requirements with City Hall. No dependable current capacity, kitchen, deposit or detailed facility-rule information was asserted.",
+      "last_checked": "2026-08-20",
+      "event_types": [
+        "Civic functions",
+        "Community gatherings",
+        "Private rentals",
+        "Municipal activities",
+        "Community events"
+      ],
+      "event_sources": [
+        "City of Whitewright official website",
+        "City of Whitewright calendar",
+        "City of Whitewright public notices",
+        "Whitewright Community Development Corporation",
+        "City of Whitewright official fee schedule"
+      ],
+      "features": [
+        "City-owned civic center",
+        "Downtown Whitewright location",
+        "Indoor gathering space",
+        "Full-day rental availability",
+        "Established civic-function venue",
+        "Active municipal maintenance and funding"
       ]
     }
   ]
