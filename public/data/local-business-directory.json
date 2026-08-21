@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1051,
-  "publish_ready_count": 727,
+  "business_count": 1052,
+  "publish_ready_count": 728,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -110829,6 +110829,113 @@
         "Playground equipment",
         "Gaga ball pit",
         "Community event venue"
+      ]
+    },
+    {
+      "slug": "godwin-park",
+      "business_name": "Godwin Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "300 Wilson Street, Whitesboro, TX 76273",
+      "category": [
+        "Park",
+        "Event Venue"
+      ],
+      "tags": [
+        "City Park",
+        "Playground",
+        "Walking Trail",
+        "Sand Volleyball",
+        "Picnic Area",
+        "Pavilion",
+        "Family Friendly",
+        "Community Events",
+        "Outdoor Recreation"
+      ],
+      "description": "Godwin Park is a City of Whitesboro public park at North and Wilson Streets featuring the Whitesboro Community Playground, additional playground equipment, picnic areas, a half-mile walking trail, sand volleyball court, restroom facilities and a reservable pavilion. The park serves as a family recreation space and community gathering place near the Jimmie O. Rector Community Center and Whitesboro Swimming Pool.",
+      "why_visit": "Visit for an easy family outing with playgrounds, a half-mile walking trail, picnic space and sand volleyball all in one central Whitesboro park. The reservable pavilion also makes Godwin Park useful for birthday parties, family gatherings and group picnics.",
+      "why_its_unique": "Godwin Park combines Whitesboro's primary community playground with a walking trail, sand volleyball and a reservable pavilion in the same recreation area as the city's community center and swimming pool. It has also served as a gathering site for major city celebrations and community events.",
+      "phone": "903-564-5964",
+      "email": null,
+      "website": "https://www.whitesboro.org/pard/page/facilities",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Regular public park hours were not stated on the current City of Whitesboro facilities page. Check posted park signage or contact Whitesboro Parks and Recreation for current access information.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Whitesboro Community Playground",
+        "Additional playground equipment",
+        "Half-mile walking trail",
+        "Sand volleyball court",
+        "Picnic areas",
+        "Reservable pavilion",
+        "Restroom facilities"
+      ],
+      "good_to_know": [
+        "The park is located at North and Wilson Streets at 300 Wilson Street.",
+        "The pavilion may be reserved through Whitesboro RecDesk for picnics, family gatherings and birthday parties.",
+        "The City of Whitesboro's 2026 Parks and Recreation information lists park reservations as free.",
+        "Whitesboro Parks and Recreation is located nearby at the Jimmie O. Rector Community Center, 400 Wilson Street.",
+        "Contact Parks and Recreation at 903-564-5964 for current reservation or facility information."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from current City of Whitesboro Parks and Recreation facility information and the city's 2026 PARD brochure. Official sources confirm the 300 Wilson Street location, Whitesboro Community Playground, additional playground equipment, half-mile walking trail, sand volleyball court, picnic areas, restroom facilities, reservable pavilion, free park reservations through RecDesk and PARD contact information. Monitor city and PARD sources for public events, reservation changes and facility updates.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Community events",
+        "Family gatherings",
+        "Birthday parties",
+        "Picnics",
+        "Outdoor recreation"
+      ],
+      "event_sources": [
+        "City of Whitesboro Parks and Recreation",
+        "Whitesboro PARD announcements",
+        "Whitesboro RecDesk"
+      ],
+      "features": [
+        "City of Whitesboro park",
+        "Whitesboro Community Playground",
+        "Half-mile walking trail",
+        "Sand volleyball court",
+        "Reservable pavilion",
+        "Picnic areas",
+        "Restroom facilities",
+        "Community gathering venue"
       ]
     }
   ]
