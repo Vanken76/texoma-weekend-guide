@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1081,
-  "publish_ready_count": 757,
+  "business_count": 1082,
+  "publish_ready_count": 758,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -114346,6 +114346,121 @@
         "Family-friendly atmosphere",
         "2025 Whitesboro Chili Fest first-place winner",
         "Digital gift cards"
+      ]
+    },
+    {
+      "slug": "tangled-cotton-boutique",
+      "business_name": "Tangled Cotton Boutique",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "103 E Main St, Whitesboro, TX 76273",
+      "category": [
+        "Boutique",
+        "Women's Clothing Store",
+        "Children's Clothing Store"
+      ],
+      "tags": [
+        "Women's Fashion",
+        "Children's Clothing",
+        "Baby Clothing",
+        "Infant Apparel",
+        "Boutique Shopping",
+        "Clothing",
+        "Accessories",
+        "Downtown Whitesboro",
+        "Whitesboro"
+      ],
+      "description": "Tangled Cotton Boutique is a locally owned downtown Whitesboro boutique specializing in clothing and fashion for women, children and infants. The Main Street shop offers trendy women's styles alongside children's and baby apparel and regularly participates in community shopping and fashion activities.",
+      "why_visit": "Tangled Cotton is a convenient downtown stop for shoppers looking for women's fashion and children's or infant clothing in the same locally owned boutique.",
+      "why_its_unique": "The boutique stands out among Whitesboro's downtown shops by serving both women and children, including infant apparel, rather than focusing solely on adult fashion.",
+      "phone": "903-423-8255",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "10:00 AM–5:00 PM",
+        "thursday": "10:00 AM–5:00 PM",
+        "friday": "10:00 AM–5:00 PM",
+        "saturday": "10:00 AM–3:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current business listings show Wednesday through Friday 10:00 AM–5:00 PM and Saturday 10:00 AM–3:00 PM. Holiday and special-event hours may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Women's apparel",
+        "Children's apparel",
+        "Infant apparel",
+        "Boutique shopping"
+      ],
+      "good_to_know": [
+        "Tangled Cotton is located on East Main Street in downtown Whitesboro.",
+        "Current Whitesboro visitor materials identify it as a boutique for women and children.",
+        "Recent local reporting confirms Amanda Harper as the owner.",
+        "The boutique carries women's clothing as well as children's and infant apparel.",
+        "Tangled Cotton participates in local fashion and community-shopping activities.",
+        "Downtown holiday festivities have included activities directly outside Tangled Cotton."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Current address, phone and hours are corroborated by active business listings, and the 103 E Main St location appears in Grayson County's April 2026 records. Current Whitesboro visitor materials identify Tangled Cotton as a boutique for women and children. March 2025 local reporting confirms owner Amanda Harper and documents women's, children's and infant apparel. Monitor community calendars and boutique social activity for fashion shows, downtown shopping promotions, Peanut Festival activity and holiday events.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Fashion shows",
+        "Seasonal shopping events",
+        "Downtown shopping promotions",
+        "Holiday activities",
+        "Peanut Festival promotions",
+        "Community fundraisers"
+      ],
+      "event_sources": [
+        "Whitesboro community calendars",
+        "Whitesboro News-Record",
+        "Whitesboro Area Chamber of Commerce",
+        "Downtown Whitesboro event announcements"
+      ],
+      "features": [
+        "Locally owned boutique",
+        "Women's fashion",
+        "Children's clothing",
+        "Infant apparel",
+        "Downtown Whitesboro location",
+        "Community fashion-show participation",
+        "Seasonal community-event participation"
       ]
     }
   ]
