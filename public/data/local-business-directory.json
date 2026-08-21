@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1083,
-  "publish_ready_count": 759,
+  "business_count": 1084,
+  "publish_ready_count": 760,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -114593,6 +114593,128 @@
         "Repurposing and upcycling finds",
         "Special courtyard antique sales",
         "Downtown shopping-event participation"
+      ]
+    },
+    {
+      "slug": "butterfield-stage-stop-antique-emporium",
+      "business_name": "Butterfield Stage Stop Antique Emporium",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "123 E Main St, Whitesboro, TX 76273",
+      "category": [
+        "Antique Store",
+        "Vintage Store",
+        "Collectibles"
+      ],
+      "tags": [
+        "Antiques",
+        "Collectibles",
+        "Western Antiques",
+        "Primitive Antiques",
+        "Victorian Furniture",
+        "Glassware",
+        "Crystal",
+        "China",
+        "Cast Iron",
+        "Jewelry",
+        "Books",
+        "Art",
+        "Mountain Dulcimer",
+        "Downtown Whitesboro"
+      ],
+      "description": "Butterfield Stage Stop Antique Emporium is a longtime downtown Whitesboro antique shop offering an eclectic collection of Western and country antiques, primitives, Victorian furniture, glassware, crystal, china, cast iron, jewelry, books, art and other collectibles. The shop occupies a restored older downtown building and offers thousands of pieces for antique hunters and collectors to browse.",
+      "why_visit": "Butterfield Stage Stop is a substantial treasure-hunting stop for shoppers interested in everything from Western memorabilia and primitive pieces to furniture, books, jewelry, art and decorative antiques.",
+      "why_its_unique": "Along with its unusually broad antique inventory, the shop adds a bit of live local culture with a Mountain Dulcimer group that gathers on most Thursday afternoons for informal music and sing-alongs.",
+      "phone": "903-564-7788",
+      "email": null,
+      "website": "http://butterfieldstageantiques.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "10:00 AM–5:00 PM",
+        "tuesday": "10:00 AM–5:00 PM",
+        "wednesday": "10:00 AM–5:00 PM",
+        "thursday": "10:00 AM–5:00 PM",
+        "friday": "10:00 AM–5:00 PM",
+        "saturday": "10:00 AM–5:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current business listings consistently show Monday through Saturday, 10:00 AM–5:00 PM, with Sunday closed. Holiday or special-event hours may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": true,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Large antique and collectible inventory",
+        "Antique furniture",
+        "Western and country antiques",
+        "Primitive antiques",
+        "Glassware and crystal",
+        "China",
+        "Cast iron",
+        "Antique and vintage jewelry",
+        "Books",
+        "Artwork"
+      ],
+      "good_to_know": [
+        "The shop is located on East Main Street in downtown Whitesboro.",
+        "Current listings describe the inventory as numbering more than 10,000 antique and collectible items.",
+        "The merchandise mix includes Western, country, primitive and Victorian pieces along with furniture, glassware, china, jewelry, books and art.",
+        "The business buys and sells antiques.",
+        "A Mountain Dulcimer group plays on most Thursday afternoons, with visitors invited to listen and sing along.",
+        "The business traces its current Butterfield Stage Stop operation to the early 2000s."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Current address, phone, operating hours and antique categories are consistently corroborated by current business listings. Current showroom information also documents a Mountain Dulcimer group gathering on most Thursday afternoons, giving the shop recurring public-programming value. The butterfieldstageantiques.com domain continues to be associated with the business in current listings, although direct site availability should be periodically rechecked.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Mountain dulcimer gatherings",
+        "Informal live music",
+        "Downtown shopping activities"
+      ],
+      "event_sources": [
+        "Butterfield Stage Stop Antique Emporium listings",
+        "Downtown Whitesboro community announcements"
+      ],
+      "features": [
+        "Longtime downtown Whitesboro antique shop",
+        "Broad antique and collectible inventory",
+        "Western and country antiques",
+        "Primitive and Victorian pieces",
+        "Antique furniture",
+        "Glassware, crystal and china",
+        "Jewelry, books and artwork",
+        "Mountain Dulcimer group on most Thursday afternoons"
       ]
     }
   ]
