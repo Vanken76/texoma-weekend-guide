@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1071,
-  "publish_ready_count": 747,
+  "business_count": 1072,
+  "publish_ready_count": 748,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -113126,6 +113126,134 @@
         "Community volunteer projects",
         "Civic engagement",
         "Public community-event participation"
+      ]
+    },
+    {
+      "slug": "your-neighbors-house",
+      "business_name": "Your Neighbor's House Food Pantry & Thrift Store",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "109 Chestnut St, Whitesboro, TX 76273",
+      "category": [
+        "Thrift Store",
+        "Food Pantry",
+        "Nonprofit Organization",
+        "Community Organization"
+      ],
+      "tags": [
+        "Thrift Shopping",
+        "Food Assistance",
+        "Clothing",
+        "Furniture",
+        "Household Items",
+        "Donations",
+        "Volunteer Opportunities",
+        "Community Service",
+        "Food Security",
+        "Whitesboro"
+      ],
+      "description": "Your Neighbor's House is a nonprofit community food pantry and public thrift store serving Whitesboro and western Grayson County. The organization provides food and other assistance to neighbors in need while operating a donation-supported thrift shop offering gently used clothing, furniture and household goods. All proceeds from thrift-store sales directly support the food pantry.",
+      "why_visit": "Shoppers can find affordable secondhand clothing, furniture and household items while knowing their purchases directly help stock a local food pantry and support families in the surrounding community.",
+      "why_its_unique": "Your Neighbor's House combines a public thrift-shopping destination with a community food-assistance mission, directing all thrift-store proceeds back into its food pantry.",
+      "phone": "903-564-4400",
+      "email": "foodpantry@yourneighborshouse.org",
+      "website": "https://yourneighborshouse.org/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "9:00 AM–1:00 PM",
+        "wednesday": "Closed",
+        "thursday": "12:00 PM–3:00 PM",
+        "friday": "Closed",
+        "saturday": "9:00 AM–1:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "These are current thrift-store hours. Food pantry service is Tuesday 9:00 AM–12:00 PM, Thursday 12:00 PM–3:00 PM and Saturday 9:00 AM–12:00 PM. Holiday or weather closures may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Public thrift store",
+        "Gently used clothing",
+        "Furniture",
+        "Household goods",
+        "Food pantry",
+        "Donation drop-off",
+        "Volunteer opportunities"
+      ],
+      "good_to_know": [
+        "All proceeds from the thrift store directly support Your Neighbor's House Food Pantry.",
+        "The thrift store is open to the public.",
+        "Food pantry hours are shorter than thrift-store hours on Tuesday and Saturday.",
+        "Donations of new and gently used family clothing, furniture and household items are accepted subject to the organization's donation standards.",
+        "Certain items including mattresses, damaged furniture, hazardous chemicals, weapons and recalled children's products are not accepted.",
+        "The organization has served the Whitesboro area since 2005.",
+        "Your Neighbor's House also assists families affected by circumstances such as fires or natural disasters.",
+        "Volunteer help and food donations are regularly needed.",
+        "Older directories may still show 201 S Union St.; the current location is 109 Chestnut St."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Whitesboro",
+        "Western Grayson County"
+      ],
+      "verification_note": "Complete. Current location, phone, thrift-store hours, donation policies and thrift-store funding model verified from the official Your Neighbor's House website. The 109 Chestnut St location is additionally confirmed by current nonprofit records, local reporting and Grayson County's April 2026 establishment records. The Whitesboro Chamber directory still displays the former 201 S Union address and should not be used as the current physical location. Monitor the organization's website and social channels for donation drives, thrift-store sales, volunteer activities, fundraisers and other public community initiatives.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Thrift-store sales",
+        "Donation drives",
+        "Food drives",
+        "Fundraisers",
+        "Volunteer activities",
+        "Community-service projects",
+        "Anniversary events"
+      ],
+      "event_sources": [
+        "Your Neighbor's House official website",
+        "Your Neighbor's House social media",
+        "Whitesboro News-Record",
+        "Whitesboro community announcements"
+      ],
+      "features": [
+        "501(c)(3) nonprofit organization",
+        "Community food pantry",
+        "Public nonprofit thrift store",
+        "All thrift-store proceeds support the food pantry",
+        "Clothing, furniture and household-goods shopping",
+        "Community donation program",
+        "Volunteer opportunities",
+        "Serving the Whitesboro area since 2005"
       ]
     }
   ]
