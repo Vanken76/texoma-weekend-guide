@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1030,
-  "publish_ready_count": 705,
+  "business_count": 1031,
+  "publish_ready_count": 706,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -107654,6 +107654,142 @@
         "Full-day rental availability",
         "Established civic-function venue",
         "Active municipal maintenance and funding"
+      ]
+    },
+    {
+      "slug": "van-alstyne-community-center",
+      "business_name": "Van Alstyne Community Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "262 N Preston Ave, Van Alstyne, TX 75495",
+      "category": [
+        "Community Center",
+        "Indoor Event Venue",
+        "Civic Meeting Venue",
+        "Municipal Facility"
+      ],
+      "tags": [
+        "Van Alstyne",
+        "Grayson County",
+        "Community Center",
+        "Event Venue",
+        "Facility Rental",
+        "Private Events",
+        "Community Events",
+        "Municipal Court",
+        "Meeting Space",
+        "Kitchen",
+        "Indoor Venue"
+      ],
+      "description": "Van Alstyne Community Center is a City-operated indoor gathering and rental facility at 262 N Preston Ave. The center accommodates up to 150 people and includes restroom facilities and a small kitchen. It serves private and community gatherings and is also an active civic venue, including scheduled sessions of the Van Alstyne Municipal Court.",
+      "why_visit": "Reserve an affordable indoor space for a gathering, meeting or celebration, or attend one of the civic activities scheduled at the facility.",
+      "why_its_unique": "The center combines a 150-person municipal rental venue with an active civic role as the location for Van Alstyne Municipal Court sessions, positioned between the City's Police and Fire departments.",
+      "phone": "903-482-5426",
+      "email": "khessel@cityofvanalstyne.us",
+      "website": "https://vanalstyne.recdesk.com/Community/Facility/Detail?facilityId=29",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$100-$150 per 4-hour block plus $150 refundable deposit",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "8:00 AM - 5:00 PM",
+        "tuesday": "8:00 AM - 5:00 PM",
+        "wednesday": "8:00 AM - 5:00 PM",
+        "thursday": "8:00 AM - 5:00 PM",
+        "friday": "8:00 AM - 5:00 PM",
+        "saturday": "8:00 AM - 5:00 PM",
+        "sunday": "8:00 AM - 5:00 PM"
+      },
+      "hours_note": "These are the current facility-availability hours published in Van Alstyne RecDesk, not necessarily regular public walk-in hours. Use is primarily based on reservations and scheduled civic activities.",
+      "at_a_glance": {
+        "average_visit": "4-hour rental block",
+        "price_range": "$100-$150 per 4-hour block plus refundable deposit",
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Capacity for up to 150 people",
+        "Small kitchen area",
+        "Restroom facilities",
+        "Indoor gathering space",
+        "Private-event rentals",
+        "Civic meeting space"
+      ],
+      "good_to_know": [
+        "The Community Center is located at 262 N Preston Ave between the Van Alstyne Police and Fire departments.",
+        "The facility accommodates up to 150 people.",
+        "A small kitchen and restroom facilities are available.",
+        "The current refundable deposit is $150.",
+        "Current four-hour rental pricing is $100 for a Van Alstyne address and $150 for a non-Van Alstyne address.",
+        "Online reservations generally must be made at least eight days in advance.",
+        "For current-week reservations, Parks & Recreation directs customers to contact the department no later than Wednesday at 4:00 PM.",
+        "Cancellation notice must be provided at least three business days before the event under the current policy.",
+        "The facility must be left clean and undamaged for the deposit to be returned.",
+        "Deposit refunds may take two to four weeks.",
+        "Smoking is prohibited inside the building.",
+        "Confetti and glitter are prohibited inside and around the facility.",
+        "Nailing or attaching items to walls or surfaces in a way that damages or obstructs them is prohibited.",
+        "Alcoholic beverages are prohibited at City facilities and parks unless an approved special permit applies.",
+        "Van Alstyne Municipal Court currently holds scheduled court sessions at the Community Center.",
+        "The live RecDesk listing displays ZIP code 75494, but current City records and the City's court page use the correct Van Alstyne ZIP code 75495; 75495 is retained here."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Van Alstyne",
+        "Grayson County",
+        "Texas"
+      ],
+      "verification_note": "Verified August 20, 2026 using current City of Van Alstyne and Van Alstyne RecDesk sources. The live facility listing confirms Van Alstyne Community Center at 262 N Preston Ave, capacity for up to 150 people, restrooms, a small kitchen, current reservation procedures and facility rules. The current City Master Fee Schedule confirms a $150 refundable deposit and four-hour rental rates of $100 for a Van Alstyne address and $150 for a non-Van Alstyne address. The current Municipal Court page confirms court sessions are held at the Community Center. RecDesk currently displays ZIP 75494, while current City records use 75495; 75495 is treated as canonical.",
+      "last_checked": "2026-08-20",
+      "event_types": [
+        "Private gatherings",
+        "Community events",
+        "Meetings",
+        "Celebrations",
+        "Civic activities",
+        "Municipal Court sessions",
+        "Public meetings"
+      ],
+      "event_sources": [
+        "City of Van Alstyne official website",
+        "Van Alstyne RecDesk Community Center listing",
+        "City of Van Alstyne Municipal Court calendar",
+        "City of Van Alstyne announcements"
+      ],
+      "features": [
+        "City-operated community center",
+        "150-person capacity",
+        "Small kitchen",
+        "Restrooms",
+        "Reservable indoor event space",
+        "Municipal Court session location",
+        "Central civic location",
+        "Resident and nonresident rental rates"
       ]
     }
   ]
