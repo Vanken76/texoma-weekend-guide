@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1056,
-  "publish_ready_count": 732,
+  "business_count": 1057,
+  "publish_ready_count": 733,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -111376,6 +111376,111 @@
         "Concession stand",
         "Restroom facilities",
         "Organized field reservations"
+      ]
+    },
+    {
+      "slug": "tot-lot-park-whitesboro",
+      "business_name": "Tot Lot Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "500 W. South Street, Whitesboro, TX 76273",
+      "category": [
+        "Park",
+        "Sports Facility",
+        "Event Venue"
+      ],
+      "tags": [
+        "City Park",
+        "Youth Baseball",
+        "Soccer Practice",
+        "Basketball",
+        "Playground",
+        "Picnic Area",
+        "Family Friendly",
+        "Youth Sports",
+        "Outdoor Recreation"
+      ],
+      "description": "Tot Lot Park is a City of Whitesboro neighborhood recreation park at 500 W. South Street. The park provides a youth baseball practice field, practice soccer field, basketball court, playground and picnic areas. It serves both everyday family recreation and organized youth-sports practice, with the city continuing improvements to the park and its athletic-field capacity in 2026.",
+      "why_visit": "Visit for a neighborhood playground, basketball, picnicking and open-air recreation, or use the park as a practice location for youth baseball and soccer. Its combination of play space and athletic fields gives families and local sports programs several recreation options in one park.",
+      "why_its_unique": "Tot Lot Park combines a traditional neighborhood playground and picnic area with dedicated youth baseball and soccer practice space. The City of Whitesboro has also identified the park as a 2026 priority for cleanup, safety improvements and expanded organized-sports practice capacity.",
+      "phone": "903-564-5964",
+      "email": null,
+      "website": "https://www.whitesboro.org/pard/page/facilities",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Regular public park hours were not stated in current City of Whitesboro materials. Organized field use may depend on Parks and Recreation scheduling, maintenance and weather.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Youth baseball practice field",
+        "Practice soccer field",
+        "Basketball court",
+        "Playground",
+        "Picnic areas"
+      ],
+      "good_to_know": [
+        "The City of Whitesboro lists Tot Lot Park at 500 W. South Street.",
+        "The park is located in the Chestnut and Walnut Streets area.",
+        "The park includes dedicated youth baseball and soccer practice space.",
+        "Whitesboro identified Tot Lot Park cleanup, hazard correction and recurring maintenance as a 2026 city priority.",
+        "The city is also working to improve practice-field capacity and establish scheduling and maintenance standards with local league partners.",
+        "Contact Whitesboro Parks and Recreation at 903-564-5964 for current field-use and park information."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from current City of Whitesboro Parks and Recreation materials and the city's 2026 Council/CIP project plan. Official sources confirm the 500 W. South Street location, youth baseball practice field, practice soccer field, basketball court, playground and picnic areas. The 2026 city plan also confirms active park cleanup and practice-field improvements with planned scheduling coordination for organized sports. Monitor Whitesboro PARD for field schedules, park improvements and recreation activity.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Youth baseball practices",
+        "Youth soccer practices",
+        "Youth sports",
+        "Outdoor recreation",
+        "Community recreation"
+      ],
+      "event_sources": [
+        "City of Whitesboro Parks and Recreation",
+        "Whitesboro PARD announcements"
+      ],
+      "features": [
+        "City of Whitesboro park",
+        "Youth baseball practice field",
+        "Practice soccer field",
+        "Basketball court",
+        "Playground",
+        "Picnic areas",
+        "2026 park improvement priority"
       ]
     }
   ]
