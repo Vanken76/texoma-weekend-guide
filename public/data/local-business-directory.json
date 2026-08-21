@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1069,
-  "publish_ready_count": 745,
+  "business_count": 1070,
+  "publish_ready_count": 746,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -112911,6 +112911,111 @@
         "Corporate team-building activities",
         "Partner location for Equine Safe Haven",
         "Occasional family-oriented Open Ranch Days"
+      ]
+    },
+    {
+      "slug": "four-oaks-bed-and-breakfast",
+      "business_name": "Four Oaks Bed & Breakfast LLC",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "593 Chisum Trail Rd, Whitesboro, TX 76273",
+      "category": [
+        "Bed & Breakfast",
+        "Lodging"
+      ],
+      "tags": [
+        "Bed and Breakfast",
+        "Overnight Stay",
+        "Breakfast Included",
+        "Country Getaway",
+        "Free Wi-Fi",
+        "Free Parking",
+        "Lake Texoma Area",
+        "Whitesboro"
+      ],
+      "description": "Four Oaks Bed & Breakfast is a small countryside lodging property in Whitesboro offering a quieter alternative to traditional highway hotels. Guests receive complimentary breakfast and can enjoy practical stay amenities including free Wi-Fi, free parking and air-conditioned accommodations, with kitchenette conveniences available in some rooms.",
+      "why_visit": "Four Oaks is a good fit for travelers looking for a relaxed, locally operated stay near Whitesboro and the Lake Texoma area, with breakfast included and more of a country B&B atmosphere than a conventional hotel.",
+      "why_its_unique": "The property combines traditional bed-and-breakfast hospitality with a rural Whitesboro setting, complimentary breakfast and rooms that may include convenient kitchenette features.",
+      "phone": "903-421-8549",
+      "email": null,
+      "website": "https://fouroaksbedandbreakfast.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": true,
+      "dog_friendly": true,
+      "hours": {},
+      "hours_note": "Four Oaks operates as overnight lodging rather than a drop-in attraction. Current lodging information lists check-in at 5:00 PM and check-out at 11:00 AM. Contact the property directly for reservations, availability and arrival arrangements.",
+      "at_a_glance": {
+        "average_visit": "Overnight stay",
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": true,
+        "dog_friendly": true,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Complimentary breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Private bathrooms",
+        "Kitchenette conveniences in some rooms",
+        "Refrigerator",
+        "Microwave",
+        "Coffee maker",
+        "Garden",
+        "Terrace"
+      ],
+      "good_to_know": [
+        "Current Whitesboro Chamber records list the property at 593 Chisum Trail Rd.",
+        "Current lodging information lists check-in at 5:00 PM and check-out at 11:00 AM.",
+        "Breakfast is included with lodging.",
+        "Some rooms include kitchenette-style conveniences such as a refrigerator, microwave and coffee maker.",
+        "Current lodging information lists dogs as allowed with an additional pet charge; confirm the current pet policy directly when booking.",
+        "The property does not operate a swimming pool.",
+        "Guests with specific accessibility needs should confirm accommodations directly with the property before booking."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Whitesboro",
+        "Lake Texoma"
+      ],
+      "verification_note": "Four Oaks Bed & Breakfast is an active Whitesboro lodging property with a current Chamber listing, active property website and current lodging presence. Use the current 593 Chisum Trail Rd address when planning a stay. Contact the property directly for current rates, room availability, pet policies and any specific accessibility needs.",
+      "last_checked": "2026-08-21",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Countryside bed-and-breakfast lodging",
+        "Complimentary breakfast",
+        "Free Wi-Fi",
+        "Free on-site parking",
+        "Air-conditioned accommodations",
+        "Kitchenette conveniences in some rooms",
+        "Garden and terrace",
+        "Convenient base for the Whitesboro and Lake Texoma area"
       ]
     }
   ]
