@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1053,
-  "publish_ready_count": 729,
+  "business_count": 1054,
+  "publish_ready_count": 730,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -111037,6 +111037,120 @@
         "Sensory-friendly swim sessions",
         "Private pool rentals",
         "Recurring seasonal events"
+      ]
+    },
+    {
+      "slug": "whitesboro-riding-club-arena",
+      "business_name": "Whitesboro Riding Club Arena",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "35 Noland Road, Whitesboro, TX 76273",
+      "category": [
+        "Rodeo Arena",
+        "Equestrian Event Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Rodeo",
+        "Equestrian Events",
+        "Barrel Racing",
+        "Play Days",
+        "Family Friendly",
+        "Youth Programs",
+        "UPRA Rodeo",
+        "Horse Events",
+        "Community Events",
+        "Outdoor Venue"
+      ],
+      "description": "Whitesboro Riding Club Arena is an open-air rodeo and equestrian event venue operated by the nonprofit Whitesboro Riding Club. The arena is best known as the home of Whitesboro's annual Fourth of July UPRA Rodeo, a Texoma tradition dating to 1958, while also hosting play-day series, barrel races, horsemanship clinics, trail competitions, 4-H activities, club meetings, royalty programs and other community equestrian events throughout the year.",
+      "why_visit": "Visit for authentic North Texas rodeo and equestrian competition in a community-focused setting. The arena hosts everything from its major Fourth of July professional rodeo and fireworks celebration to affordable family-friendly play days, barrel races, youth programs and riding events throughout the year.",
+      "why_its_unique": "Whitesboro Riding Club Arena is home to one of the area's longest-running rodeo traditions. The club says its annual Fourth of July Rodeo has been part of Texoma culture since 1958, averages more than 2,500 spectators plus more than 400 contestants and their families, and has been recognized among the top five rodeos in the United Professional Rodeo Association.",
+      "phone": "903-651-1506",
+      "email": "whitesbororidingclub@gmail.com",
+      "website": "https://www.whitesbororidingclub.org/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The arena operates primarily around scheduled events, meetings and club activities rather than regular public business hours. Check the official event calendar before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Open-air rodeo arena",
+        "Spectator bleachers",
+        "Bucking chutes",
+        "On-site parking",
+        "Concessions during select major events"
+      ],
+      "good_to_know": [
+        "The arena is located at 35 Noland Road in Whitesboro, just off U.S. Highway 82.",
+        "The annual Fourth of July UPRA Rodeo has been part of the local Texoma rodeo tradition since 1958.",
+        "The Riding Club reports that its annual rodeo averages more than 2,500 spectators and more than 400 contestants plus their families and friends.",
+        "The club hosts low-cost play-day events designed for participants of multiple ages and skill levels.",
+        "Some events are open to non-members, although entry or nomination fees may apply.",
+        "Event changes and cancellations may be announced through the Riding Club's social-media channels.",
+        "Large rodeo nights offer free on-site parking, but parking can be limited and early arrival is recommended."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from the official Whitesboro Riding Club website, official 2026 event listings and current supporting venue information. Official sources confirm the 35 Noland Road address, phone, email, nonprofit Riding Club operation, annual Fourth of July UPRA Rodeo, recurring play days, barrel races, riding clinics, royalty competition, 4-H activities and other equestrian events. Monitor the official website and event channels for schedules, admission, cancellations and event-specific amenities.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "UPRA rodeo",
+        "Play days",
+        "Barrel races",
+        "Speed events",
+        "Horsemanship clinics",
+        "Trail course competitions",
+        "4-H events",
+        "Rodeo royalty competitions",
+        "Benefit events",
+        "Club meetings"
+      ],
+      "event_sources": [
+        "Official Whitesboro Riding Club website",
+        "Official Whitesboro Riding Club event calendar",
+        "Facebook event updates"
+      ],
+      "features": [
+        "Home of the annual Fourth of July UPRA Rodeo",
+        "Texoma rodeo tradition dating to 1958",
+        "Volunteer nonprofit Riding Club",
+        "Open-air rodeo arena",
+        "Year-round equestrian events",
+        "Youth and family programming",
+        "Barrel racing and play-day venue",
+        "Community fundraising events"
       ]
     }
   ]
