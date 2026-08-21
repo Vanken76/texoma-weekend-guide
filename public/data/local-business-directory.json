@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1084,
-  "publish_ready_count": 760,
+  "business_count": 1085,
+  "publish_ready_count": 761,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -114715,6 +114715,122 @@
         "Glassware, crystal and china",
         "Jewelry, books and artwork",
         "Mountain Dulcimer group on most Thursday afternoons"
+      ]
+    },
+    {
+      "slug": "las-haciendas-mexican-grill",
+      "business_name": "Las Haciendas Mexican Grill",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "2400 E US Hwy 82, Whitesboro, TX 76273",
+      "category": [
+        "Mexican Restaurant"
+      ],
+      "tags": [
+        "Mexican Food",
+        "Tex-Mex",
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Fajitas",
+        "Enchiladas",
+        "Family Dining",
+        "Group Dining",
+        "Whitesboro"
+      ],
+      "description": "Las Haciendas Mexican Grill is a longtime Whitesboro Mexican and Tex-Mex restaurant on US Highway 82 serving breakfast on weekends along with lunch and dinner throughout the week. The menu centers on familiar favorites such as fajitas, enchiladas, chimichangas, tacos, combination plates, chips and salsa, queso and other Mexican restaurant staples.",
+      "why_visit": "Las Haciendas is a dependable local option for a sit-down Mexican meal in Whitesboro, with broad lunch and dinner choices plus one of the area's less-common weekend Mexican breakfast offerings.",
+      "why_its_unique": "In addition to its established lunch and dinner service, Las Haciendas serves breakfast Friday through Sunday, adding morning options such as steak and eggs to its traditional Mexican and Tex-Mex menu.",
+      "phone": "903-564-6948",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM–8:30 PM",
+        "tuesday": "11:00 AM–8:30 PM",
+        "wednesday": "11:00 AM–8:30 PM",
+        "thursday": "11:00 AM–8:30 PM",
+        "friday": "7:00 AM–9:00 PM",
+        "saturday": "7:00 AM–9:00 PM",
+        "sunday": "7:00 AM–2:00 PM"
+      },
+      "hours_note": "Breakfast is currently offered Friday through Sunday beginning at 7:00 AM. Holiday and special-event hours may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Indoor dining",
+        "Breakfast service Friday through Sunday",
+        "Lunch",
+        "Dinner",
+        "Takeout",
+        "Group seating",
+        "Private dining room",
+        "Free parking",
+        "Wheelchair-accessible entrance and seating",
+        "Kids menu",
+        "High chairs"
+      ],
+      "good_to_know": [
+        "Breakfast is served Friday through Sunday beginning at 7:00 AM.",
+        "Sunday service currently ends at 2:00 PM.",
+        "Popular menu categories include fajitas, enchiladas, chimichangas, tacos and combination plates.",
+        "Current restaurant listings indicate a private dining room and accommodations for groups.",
+        "The current Grayson County food-establishment record lists 2400 East Hwy 82.",
+        "Some consumer map listings show 2500 US-82; use the county-verified 2400 E US Hwy 82 address as the canonical directory address.",
+        "The restaurant has served as the regular Tuesday meeting location for the Whitesboro Kiwanis Club."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Active operation and 2400 E US Hwy 82 address verified from Grayson County's April 2026 food-establishment records and current Whitesboro visitor materials. Current hours are corroborated by recent restaurant data, including Friday-Sunday breakfast service. Consumer mapping sources sometimes use 2500 US-82; retain 2400 as canonical unless the business or county formally updates it. The restaurant hosts recurring community group activity, including Whitesboro Kiwanis meetings, but is primarily a dining business rather than a dedicated public-event venue.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Civic organization meetings",
+        "Group dining"
+      ],
+      "event_sources": [
+        "Whitesboro Visitors and Newcomers Guide",
+        "Whitesboro community organization announcements"
+      ],
+      "features": [
+        "Longtime Whitesboro Mexican restaurant",
+        "Weekend breakfast",
+        "Mexican and Tex-Mex menu",
+        "Fajitas and combination plates",
+        "Family-friendly dining",
+        "Private dining and group capability",
+        "Recurring Whitesboro Kiwanis meeting location"
       ]
     }
   ]
