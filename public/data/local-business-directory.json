@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1080,
-  "publish_ready_count": 756,
+  "business_count": 1081,
+  "publish_ready_count": 757,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -114226,6 +114226,126 @@
         "Rustic lighting",
         "Indoor and outdoor home decor",
         "Longtime Whitesboro shopping destination"
+      ]
+    },
+    {
+      "slug": "beggers",
+      "business_name": "BEGGERS",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "125 E Main St, Whitesboro, TX 76273",
+      "category": [
+        "Restaurant",
+        "Sandwich Shop",
+        "Cafe"
+      ],
+      "tags": [
+        "Sandwiches",
+        "Salads",
+        "Soups",
+        "Lunch",
+        "Homemade Food",
+        "Fresh Ingredients",
+        "Desserts",
+        "Family Friendly",
+        "Downtown Whitesboro",
+        "Whitesboro"
+      ],
+      "description": "BEGGERS is a locally operated downtown Whitesboro restaurant specializing in homemade sandwiches, salads, seasonal soups, sides and desserts. The kitchen emphasizes fresh, never-frozen ingredients and creative sandwich combinations, with a casual family-friendly atmosphere and a menu designed primarily around lunch.",
+      "why_visit": "BEGGERS is a strong downtown lunch stop for fresh, made-to-order sandwiches and substantial salads that go well beyond basic deli combinations, with homemade sides and rotating specials adding variety.",
+      "why_its_unique": "The restaurant pairs creative sandwich combinations with a scratch-made approach and strong community roots, including a first-place finish in Whitesboro's 2025 Chili Fest cook-off.",
+      "phone": "903-914-2343",
+      "email": null,
+      "website": "https://beggerstexas.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "10:30 AM–3:00 PM",
+        "tuesday": "10:30 AM–3:00 PM",
+        "wednesday": "11:00 AM–2:00 PM",
+        "thursday": "10:30 AM–3:00 PM",
+        "friday": "10:30 AM–3:00 PM",
+        "saturday": "10:30 AM–3:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current hours are published directly by BEGGERS on its official website. Older delivery and directory listings may show outdated hours or the restaurant's former N Union Street location.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Indoor dining",
+        "Made-to-order sandwiches",
+        "Salads",
+        "Seasonal soups",
+        "Homemade sides",
+        "Desserts",
+        "Digital gift cards"
+      ],
+      "good_to_know": [
+        "BEGGERS is currently located at 125 E Main St in downtown Whitesboro.",
+        "Older online listings may still show 120 N Union St, which is the restaurant's former location.",
+        "The restaurant describes its food as homemade and its ingredients as fresh and never frozen.",
+        "Current menu offerings include smoked turkey and tri-tip sandwiches, salads, seasonal soups and homemade sides.",
+        "Popular sandwich combinations include the Birdie, Green Gobbler, Cowgirl Club, Good Boy and Blazin' Sandwich.",
+        "BEGGERS won first place in the 2025 Whitesboro Chili Fest cook-off.",
+        "Digital gift cards are available through the official website."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Current 125 E Main St address, 903-914-2343 phone number and operating hours verified from the live BEGGERS official website and independently corroborated by Grayson County's April 2026 food-establishment records. Older listings showing 120 N Union St and phone 209-217-4829 reflect earlier business information and should not override current official data. BEGGERS is primarily a restaurant rather than an event venue, but it has participated successfully in community events including the Whitesboro Chili Fest and is worth low-priority monitoring for festival participation and special food promotions.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Community festival participation",
+        "Food competitions",
+        "Restaurant specials"
+      ],
+      "event_sources": [
+        "BEGGERS official website",
+        "BEGGERS social media",
+        "Whitesboro Area Chamber of Commerce",
+        "Whitesboro community event calendars"
+      ],
+      "features": [
+        "Locally operated downtown restaurant",
+        "Fresh, never-frozen ingredients",
+        "Homemade food",
+        "Creative sandwiches",
+        "Fresh salads",
+        "Seasonal soups",
+        "Homemade sides and desserts",
+        "Family-friendly atmosphere",
+        "2025 Whitesboro Chili Fest first-place winner",
+        "Digital gift cards"
       ]
     }
   ]
