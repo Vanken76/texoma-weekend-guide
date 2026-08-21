@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1066,
-  "publish_ready_count": 742,
+  "business_count": 1067,
+  "publish_ready_count": 743,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -112544,6 +112544,97 @@
         "Private-event capability",
         "Occasional public vineyard events",
         "Parking for up to 100 vehicles"
+      ]
+    },
+    {
+      "slug": "whitesboro-masonic-lodge-263",
+      "business_name": "Whitesboro Masonic Lodge #263",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "122 N. Union St, Whitesboro, TX 76273",
+      "category": [
+        "Fraternal Organization",
+        "Community Organization"
+      ],
+      "tags": [
+        "Freemasonry",
+        "Masonic Lodge",
+        "Community Organization",
+        "Fraternal Organization",
+        "Community Events",
+        "Whitesboro"
+      ],
+      "description": "Whitesboro Masonic Lodge #263 is an active local Masonic lodge in Whitesboro operating under the Grand Lodge of Texas A.F. & A.M. The lodge provides a local home for Masonic meetings, programs, fellowship and sponsored activities and has a longstanding presence in the Whitesboro community.",
+      "why_visit": "The lodge is primarily a membership and meeting organization rather than a traditional visitor attraction, but it is a useful local source for Masonic programs, sponsored activities and community-facing events.",
+      "why_its_unique": "Whitesboro Lodge #263 is a longstanding local Masonic organization with a documented presence in the community dating back well into the 19th century.",
+      "phone": null,
+      "email": "armydawg4@msn.com",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No regular public operating hours are published. Whitesboro Lodge #263 currently meets the third Monday of each month at 7:30 PM. Access outside scheduled meetings or events should be confirmed with the lodge.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "The Grand Lodge of Texas currently lists Whitesboro Lodge #263 as active.",
+        "The lodge meets the third Monday of each month at 7:30 PM.",
+        "The physical lodge address is 122 N. Union St.",
+        "The lodge mailing address is P.O. Box 16, Whitesboro, TX 76273-0016.",
+        "Public access and individual event availability can vary; verify before attending."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Active status, physical address, mailing address and contact email verified through the Grand Lodge of Texas lodge locator. Current Whitesboro visitor materials confirm the third-Monday 7:30 PM meeting schedule and identify meetings, programs and sponsored events as lodge activities. Monitor local and lodge sources for community-facing events rather than assuming regular meetings are public.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Masonic meetings",
+        "Fraternal programs",
+        "Sponsored community events",
+        "Community activities"
+      ],
+      "event_sources": [
+        "Grand Lodge of Texas lodge locator",
+        "Whitesboro Visitors and Newcomers Guide",
+        "Local community announcements"
+      ],
+      "features": [
+        "Active Grand Lodge of Texas lodge",
+        "Monthly lodge meetings",
+        "Community and sponsored-event activity",
+        "Longstanding Whitesboro organization"
       ]
     }
   ]
