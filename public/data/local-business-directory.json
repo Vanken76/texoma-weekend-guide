@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1057,
-  "publish_ready_count": 733,
+  "business_count": 1058,
+  "publish_ready_count": 734,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -111481,6 +111481,93 @@
         "Playground",
         "Picnic areas",
         "2026 park improvement priority"
+      ]
+    },
+    {
+      "slug": "wilson-street-soccer-park",
+      "business_name": "Wilson Street Soccer Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "500 Wilson Street, Whitesboro, TX 76273",
+      "category": [
+        "City Park",
+        "Soccer Facility",
+        "Youth Sports",
+        "Event Venue"
+      ],
+      "tags": [
+        "Soccer",
+        "Youth Sports",
+        "Outdoor Recreation",
+        "Whitesboro",
+        "Parks and Recreation"
+      ],
+      "description": "Wilson Street Soccer Park is a City of Whitesboro Parks and Recreation facility located at the end of Wilson Street. The park has three soccer fields for players of all ages and supports Whitesboro PARD soccer programming and community recreation.",
+      "why_visit": "A dedicated local soccer destination with three fields in one location, especially useful for families participating in Whitesboro Parks and Recreation soccer programs.",
+      "why_its_unique": "Wilson Street Soccer Park is Whitesboro's dedicated municipal soccer park, with three soccer fields serving players of all ages.",
+      "phone": "903-564-5964",
+      "email": null,
+      "website": "https://www.whitesboro.org/479/Parks-Recreation",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Specific park and field-use hours are not published in current City of Whitesboro materials. Check with Parks and Recreation for current program and field availability.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Three soccer fields"
+      ],
+      "good_to_know": [
+        "The park is located at the end of Wilson Street.",
+        "Whitesboro Parks and Recreation handles soccer registration through RecDesk; check current program information before visiting for organized play."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from current City of Whitesboro Parks and Recreation materials. The city identifies Wilson Street Soccer Park at 500 Wilson Street with three soccer fields for all ages. Monitor PARD and RecDesk for soccer schedules and program changes.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Youth soccer",
+        "Parks and Recreation athletics"
+      ],
+      "event_sources": [
+        "City of Whitesboro Parks and Recreation",
+        "Whitesboro RecDesk"
+      ],
+      "features": [
+        "Three soccer fields",
+        "Fields for all ages",
+        "City of Whitesboro Parks and Recreation facility"
       ]
     }
   ]
