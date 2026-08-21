@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1052,
-  "publish_ready_count": 728,
+  "business_count": 1053,
+  "publish_ready_count": 729,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -110912,6 +110912,131 @@
         "Picnic areas",
         "Restroom facilities",
         "Community gathering venue"
+      ]
+    },
+    {
+      "slug": "whitesboro-swimming-pool",
+      "business_name": "Whitesboro Swimming Pool",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "400 Wilson Street, Whitesboro, TX 76273",
+      "category": [
+        "Public Swimming Pool",
+        "Event Venue"
+      ],
+      "tags": [
+        "Public Pool",
+        "Family Friendly",
+        "Swim Lessons",
+        "Lap Swim",
+        "Water Aerobics",
+        "Family Swim",
+        "Pool Rentals",
+        "Sensory Splash",
+        "Summer Recreation",
+        "Community Events"
+      ],
+      "description": "Whitesboro Swimming Pool is the City of Whitesboro's seasonal public swimming facility operated through the Parks and Recreation Department. The pool offers affordable open swimming, family swim nights, lap swimming, water aerobics, swim lessons, special programs and private pool rentals, along with seasonal community events for children, families and adults.",
+      "why_visit": "Visit for an affordable summer swim, family recreation, swimming instruction or aquatic fitness. The pool offers programming for a wide range of ages, including public swim, family-only evenings, lap swim, water aerobics, preschool activities and special sensory-friendly sessions.",
+      "why_its_unique": "Whitesboro's municipal pool combines regular public swimming with a notably broad seasonal program calendar. In addition to swim lessons and fitness programs, the city schedules Tiny Tot Time, Sensory Splash sessions for neurodivergent participants, family swim nights, Picnic at the Pool events and youth pool parties.",
+      "phone": "903-564-3039",
+      "email": null,
+      "website": "https://www.whitesboro.org/pard/page/swimming-pool-brochure",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "1:00 PM - 6:00 PM",
+        "tuesday": "1:00 PM - 6:00 PM; Family Swim 6:00 PM - 8:00 PM",
+        "wednesday": "2:00 PM - 6:00 PM",
+        "thursday": "1:00 PM - 6:00 PM",
+        "friday": "1:00 PM - 6:00 PM",
+        "saturday": "1:00 PM - 6:00 PM",
+        "sunday": "1:00 PM - 5:00 PM"
+      },
+      "hours_note": "Seasonal 2026 summer schedule. Tuesday evening from 6:00 PM to 8:00 PM is family-only swim. Check current Parks and Recreation information before visiting outside the summer season or around special events.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Public swimming",
+        "Swim lessons",
+        "Private swim lessons",
+        "Lap swimming",
+        "Water aerobics",
+        "Family swim sessions",
+        "Pool passes",
+        "Private pool rentals"
+      ],
+      "good_to_know": [
+        "2026 general admission is free for children age 2 and younger and $3 for ages 3 and older.",
+        "Tuesday Family Swim runs from 6:00 PM to 8:00 PM and is reserved for families rather than individual children.",
+        "Individual season passes are $75 for residents and $100 for non-residents.",
+        "Family passes for four are $150 for residents and $200 for non-residents, with an additional fee for family members over four.",
+        "Private pool rentals are available during designated evening periods for $200 for residents and $250 for non-residents.",
+        "Swim lessons are offered in two-week sessions, and the 2026 group-lesson fee is $50.",
+        "Registration for pool rentals and passes is handled through Whitesboro RecDesk."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from current City of Whitesboro Parks and Recreation sources and the official 2026 Whitesboro Swimming Pool brochure. Official sources confirm seasonal operating hours, admission prices, passes, swim lessons, lap swim, water aerobics, family swim, Tiny Tot Time, Sensory Splash, pool rentals and recurring special events. Pool phone and location were cross-checked against the current public facility listing. Monitor PARD and RecDesk for seasonal schedule, pricing and event changes.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Family swim",
+        "Sensory Splash",
+        "Tiny Tot Time",
+        "Water aerobics",
+        "Lap swim",
+        "Swim lessons",
+        "Pool parties",
+        "Picnic at the Pool",
+        "Youth events",
+        "Seasonal community events",
+        "Private pool rentals"
+      ],
+      "event_sources": [
+        "City of Whitesboro Parks and Recreation",
+        "Official Whitesboro Swimming Pool brochure",
+        "Whitesboro RecDesk"
+      ],
+      "features": [
+        "City-operated seasonal public pool",
+        "Affordable public admission",
+        "Family-only swim nights",
+        "Swim instruction",
+        "Aquatic fitness programs",
+        "Sensory-friendly swim sessions",
+        "Private pool rentals",
+        "Recurring seasonal events"
       ]
     }
   ]
