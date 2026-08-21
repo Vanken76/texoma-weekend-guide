@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1035,
-  "publish_ready_count": 710,
+  "business_count": 1036,
+  "publish_ready_count": 711,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -108324,6 +108324,132 @@
         "Wi-Fi",
         "Recurring civic-event venue",
         "Downtown Howe location"
+      ]
+    },
+    {
+      "slug": "era-community-center",
+      "business_name": "Era Community Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "102 Malone St, Era, TX 76238",
+      "category": [
+        "Community Center",
+        "Indoor Event Venue",
+        "Civic Meeting Venue",
+        "Community Gathering Space"
+      ],
+      "tags": [
+        "Era",
+        "Cooke County",
+        "Community Center",
+        "Event Venue",
+        "Community Events",
+        "Civic Events",
+        "Polling Location",
+        "4-H",
+        "Youth Programs",
+        "Arts and Crafts",
+        "Community Fundraisers",
+        "Reunions",
+        "Celebrations"
+      ],
+      "description": "Era Community Center is a longstanding community gathering facility at 102 Malone St in Era. The center continues to serve an important civic role as Cooke County Precinct 12's polling location and has a history of hosting youth organizations, community programs, arts-and-crafts activities, fundraisers, celebrations and other local gatherings.",
+      "why_visit": "Attend a community, civic or youth activity in the heart of Era at one of the community's longstanding indoor gathering spaces.",
+      "why_its_unique": "Era Community Center has served generations of the rural Era community and remains active today as both a civic polling location and community gathering facility.",
+      "phone": null,
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "No dependable regular public walk-in hours are currently published. Access is associated with scheduled civic, community and private activities.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Indoor community gathering space",
+        "Civic and election-use space",
+        "Youth-program meeting space"
+      ],
+      "good_to_know": [
+        "Era Community Center is located at 102 Malone St in Era.",
+        "Cooke County continues to use the center as the Precinct 12 polling location.",
+        "Cooke County paid Era Community Center $100 for polling-place use associated with the March 2026 primary election.",
+        "The facility has a longstanding history of community-event use.",
+        "Texas A&M AgriLife records have identified Era Community Center as a meeting location for Cooke County livestock 4-H programming.",
+        "Historical community programming at the center has included arts-and-crafts shows and sales.",
+        "Historical reporting also documents anniversary celebrations and other private or community gatherings at the facility.",
+        "Community fundraising associated with center activities has supported scholarships and improvements in Era.",
+        "No dependable current public rental fee, deposit, capacity or reservation policy was found.",
+        "No verified current direct phone number, email address or standalone website was found, so those fields are intentionally left blank."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Era",
+        "Cooke County",
+        "Texas"
+      ],
+      "verification_note": "Verified August 20, 2026 using current Cooke County financial and election records, current 2026 regional election reporting, Texas A&M AgriLife material and historical local reporting. Current 2026 records confirm Era Community Center at 102 Malone St as an active Cooke County polling facility. Cooke County's March 23, 2026 check register records a $100 payment directly to Era Community Center for the March Primary 2026, providing strong evidence that the facility remains active and is compensated for scheduled facility use. Historical sources document longstanding use for 4-H meetings, arts-and-crafts events, fundraisers, anniversaries and other community gatherings. No dependable current general rental prices, capacity, hours, direct contact information or detailed amenities were found, so those details were not invented.",
+      "last_checked": "2026-08-20",
+      "event_types": [
+        "Community gatherings",
+        "Civic events",
+        "Election activities",
+        "Polling",
+        "Youth programs",
+        "4-H meetings",
+        "Arts and crafts events",
+        "Fundraisers",
+        "Celebrations",
+        "Reunions",
+        "Private gatherings"
+      ],
+      "event_sources": [
+        "Cooke County election notices",
+        "Cooke County financial records",
+        "Texas A&M AgriLife Cooke County",
+        "Era community announcements",
+        "Local Cooke County news sources"
+      ],
+      "features": [
+        "Longstanding Era community center",
+        "Active 2026 Cooke County polling location",
+        "Indoor community gathering space",
+        "Youth-program history",
+        "Arts-and-crafts event history",
+        "Community-fundraising history",
+        "Private and community gathering history",
+        "High-value small-town event-mining venue"
       ]
     }
   ]
