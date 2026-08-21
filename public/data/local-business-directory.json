@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1064,
-  "publish_ready_count": 740,
+  "business_count": 1065,
+  "publish_ready_count": 741,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -112297,6 +112297,124 @@
         "Tables, chairs and linens included",
         "Outdoor fire pit",
         "ADA-compliant accessibility"
+      ]
+    },
+    {
+      "slug": "house-of-brews-whitesboro",
+      "business_name": "House of Brews",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "413 W Main St, Whitesboro, TX 76273",
+      "category": [
+        "Coffee Shop",
+        "Cafe",
+        "Breakfast Restaurant"
+      ],
+      "tags": [
+        "Coffee",
+        "Espresso",
+        "Cold Brew",
+        "Breakfast",
+        "Breakfast Burritos",
+        "Breakfast Tacos",
+        "Waffles",
+        "Pastries",
+        "Smoothies",
+        "Downtown Whitesboro",
+        "Community Gatherings",
+        "Book Clubs"
+      ],
+      "description": "House of Brews is a locally owned coffee shop and breakfast cafe in downtown Whitesboro serving specialty coffee, espresso drinks, cold brew and a variety of sweet and savory breakfast options. Its relaxed dining room features music-themed decor and provides a casual gathering place for locals, visitors and occasional community activities.",
+      "why_visit": "House of Brews combines strong specialty coffee with a substantial breakfast menu in a relaxed downtown setting where guests are encouraged to sit, eat and stay awhile.",
+      "why_its_unique": "The shop uses its own proprietary blend of Ethiopian and Brazilian coffee beans roasted nearby in Dallas and pairs its coffeehouse identity with a full selection of savory and sweet breakfast choices.",
+      "phone": "903-294-8091",
+      "email": null,
+      "website": "https://houseofbrewscoffee.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "7:00 AM–12:00 PM; 3:30 PM–6:00 PM",
+        "tuesday": "7:00 AM–12:00 PM; 3:30 PM–6:00 PM",
+        "wednesday": "7:00 AM–12:00 PM; 3:30 PM–6:00 PM",
+        "thursday": "7:00 AM–12:00 PM; 3:30 PM–6:00 PM",
+        "friday": "7:00 AM–12:00 PM; 3:30 PM–6:00 PM",
+        "saturday": "7:00 AM–2:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "The official website currently confirms morning service plus a 3:30–6:00 PM weekday opening. Current local listings show Saturday service through 2:00 PM and Sunday closed. Check current hours before making a special trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Indoor dining room",
+        "Specialty coffee",
+        "Espresso drinks",
+        "Drip coffee",
+        "Cold brew",
+        "Hot and iced drinks",
+        "Breakfast menu",
+        "Sweet breakfast options",
+        "Savory breakfast options"
+      ],
+      "good_to_know": [
+        "House of Brews uses a proprietary blend of Ethiopian and Brazilian coffee beans roasted in Dallas.",
+        "Breakfast offerings include both savory and sweet choices.",
+        "The dining room has music-themed artwork and seating designed for guests who want to stay awhile.",
+        "The business has hosted community book-club meetings, making it worth monitoring for future public gatherings.",
+        "Current Grayson County food-establishment records list the location as 413-B W Main St."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Core business information verified from the current official House of Brews website and current Grayson County food-establishment records on 2026-08-21. Public event listings from 2025 and 2026 document recurring book-club meetings at the coffee shop, supporting continued event mining. Monitor official/social community sources for future gatherings.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Book clubs",
+        "Community gatherings",
+        "Small group meetups"
+      ],
+      "event_sources": [
+        "House of Brews official website",
+        "Local community event listings"
+      ],
+      "features": [
+        "Locally owned coffee shop",
+        "Proprietary Ethiopian and Brazilian coffee blend",
+        "Coffee roasted in Dallas",
+        "Espresso, drip coffee and cold brew",
+        "Sweet and savory breakfast menu",
+        "Music-themed dining room",
+        "Downtown Whitesboro location",
+        "Community gathering space"
       ]
     }
   ]
