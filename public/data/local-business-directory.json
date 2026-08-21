@@ -5,8 +5,8 @@
   "generated_on": "2026-08-21",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1077,
-  "publish_ready_count": 753,
+  "business_count": 1078,
+  "publish_ready_count": 754,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -113861,6 +113861,125 @@
         "Private-event bookings",
         "Guided ranch experiences",
         "Late-2026 public winery launch"
+      ]
+    },
+    {
+      "slug": "crossfire-arena",
+      "business_name": "Crossfire Arena",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "13341 E US Highway 82, Whitesboro, TX 76273",
+      "category": [
+        "Equestrian Facility",
+        "Arena",
+        "Event Venue"
+      ],
+      "tags": [
+        "Horse Shows",
+        "Barrel Racing",
+        "Rodeo",
+        "Equestrian Events",
+        "Covered Arena",
+        "Horse Stalls",
+        "Warm-Up Arena",
+        "Whitesboro"
+      ],
+      "description": "Crossfire Arena is a multi-event equestrian facility on US Highway 82 west of Whitesboro. The property includes a large covered indoor arena, a separate warm-up arena, extensive horse-stall capacity and supporting equine facilities. Crossfire has historically hosted barrel races, rodeo and other horse-sport competitions and remains identified in current equestrian directories as a Whitesboro-area arena and event facility.",
+      "why_visit": "Crossfire Arena provides substantial covered equestrian infrastructure for competitors and spectators attending horse-sport events in the Whitesboro and western Grayson County area.",
+      "why_its_unique": "The facility combines a large covered competition arena with a separate warm-up arena and extensive stall infrastructure, allowing it to accommodate sizable equestrian competitions and multi-horse events.",
+      "phone": "918-319-0481",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Crossfire Arena operates around scheduled equestrian activities rather than regular public drop-in hours. Verify any event directly with its organizer before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Covered indoor arena",
+        "Separate warm-up arena",
+        "Horse stalls",
+        "Concession stand",
+        "Outdoor arena",
+        "Corrals",
+        "Holding pens",
+        "Hot walker",
+        "Tack room",
+        "Wash rack",
+        "Hay and equipment storage"
+      ],
+      "good_to_know": [
+        "The arena is located on US Highway 82 between Whitesboro and Gainesville.",
+        "Current equestrian-directory information lists a covered main arena, separate warm-up arena, stalls and concession service.",
+        "Property records describe approximately 50 stalls in the primary barn plus additional stall capacity.",
+        "Crossfire Arena has historically hosted barrel racing, rodeo and other equestrian competitions.",
+        "The property is currently offered for sale in 2026, although its present use remains equine.",
+        "Because ownership or operations could change during a sale, verify individual events with the promoter before publishing or attending.",
+        "Wi-Fi is not listed as available by the current arena directory."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Whitesboro",
+        "Cooke County",
+        "Grayson County"
+      ],
+      "verification_note": "Crossfire Arena is verified as an existing equestrian and event facility at 13341 E US Highway 82. Current Barrel Horse World records list the covered arena, warm-up arena, stalls and concession facilities, and Wild West Promotions continues to identify Crossfire among its North Texas venues. Current 2026 real-estate records show the property offered for sale while still identifying its present use as equine and retaining the Crossfire Arena name. Because a sale could affect future public operations, reverify ownership and event status before promoting newly discovered events.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Barrel races",
+        "Rodeo events",
+        "Horse shows",
+        "Equestrian competitions",
+        "Roping events",
+        "Horse clinics"
+      ],
+      "event_sources": [
+        "Barrel Horse World",
+        "Wild West Promotions",
+        "Regional barrel-racing and rodeo calendars",
+        "Equestrian event promoters"
+      ],
+      "features": [
+        "Large covered equestrian arena",
+        "Separate warm-up arena",
+        "Extensive horse-stall capacity",
+        "Outdoor arena",
+        "Equine barns and support facilities",
+        "Concession capability",
+        "Established history of competitive horse events",
+        "US Highway 82 location"
       ]
     }
   ]
