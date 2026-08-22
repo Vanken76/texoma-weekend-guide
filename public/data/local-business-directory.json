@@ -5,8 +5,8 @@
   "generated_on": "2026-08-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1097,
-  "publish_ready_count": 773,
+  "business_count": 1098,
+  "publish_ready_count": 774,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -116353,6 +116353,108 @@
         "Smoothies",
         "Free delivery within five miles",
         "Vintage neon signs and antique decor"
+      ]
+    },
+    {
+      "slug": "cloud-29-vintage-more",
+      "business_name": "Cloud 29 Vintage & More!",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "102 N Main St, Collinsville, TX 76233",
+      "category": [
+        "Antique Store",
+        "Collectibles Store",
+        "Vintage Shop"
+      ],
+      "tags": [
+        "Antiques",
+        "Collectibles",
+        "Vintage",
+        "Sports Memorabilia",
+        "Vinyl Records",
+        "Music Memorabilia",
+        "Uranium Glass",
+        "Downtown Collinsville",
+        "Shopping"
+      ],
+      "description": "Downtown Collinsville antique and collectibles shop filled with eclectic, nostalgic finds including vintage sports cards and memorabilia, vinyl records, antiques, vintage uranium glass, music merchandise, handcrafted Kantha quilt tees, candles and reproduction concert posters.",
+      "why_visit": "Browse a changing collection of vintage and collectible finds, especially if you enjoy sports memorabilia, vinyl records, music nostalgia, unusual antiques and one-of-a-kind discoveries.",
+      "why_its_unique": "Cloud 29 was founded in 2023 by Lindsey Wainscott to honor the life and legacy of her late husband, Grayson County Sheriff's Office Investigator Dusty Wainscott, giving the locally owned shop a deeply personal connection to the community.",
+      "phone": "903-821-2080",
+      "email": null,
+      "website": "https://cloud29vintage.antiquetrail.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "Closed",
+        "thursday": "11:00 AM - 6:00 PM",
+        "friday": "11:00 AM - 6:00 PM",
+        "saturday": "11:00 AM - 6:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current AntiqueTrail profile lists Thursday through Saturday from 11:00 AM to 6:00 PM. Holiday and special-event hours may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "In-store shopping"
+      ],
+      "good_to_know": [
+        "Located in downtown Collinsville at 102 N Main St.",
+        "Current posted hours are Thursday through Saturday, 11:00 AM to 6:00 PM.",
+        "The AntiqueTrail profile advertises an ongoing 50% off sales corner.",
+        "Vintage and collectible inventory changes as items are bought and added."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. City of Collinsville and Collinsville EDC listings confirm Cloud 29 at 102 N Main St with phone 903-821-2080. Current AntiqueTrail profile identifies Lindsey Wainscott, Thursday-Saturday hours, the 2023 founding story and the shop's antiques, collectibles, sports memorabilia, vinyl, music merchandise and other vintage inventory. Public-facing name variations include Cloud 29, Cloud 29 Vintage & More!, and Cloud 29 Antiques and Collectibles.",
+      "last_checked": "2026-08-21",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Locally owned",
+        "Founded in 2023",
+        "Vintage sports cards and sports memorabilia",
+        "Vintage vinyl records",
+        "Antiques and collectibles",
+        "Vintage uranium glass",
+        "Music and band merchandise",
+        "Reproduction 1960s and 1970s concert posters",
+        "Handcrafted Kantha quilt tees",
+        "Wax Apothecary candles",
+        "Downtown Collinsville location"
       ]
     }
   ]
