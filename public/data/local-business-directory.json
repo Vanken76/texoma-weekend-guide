@@ -5,8 +5,8 @@
   "generated_on": "2026-08-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1105,
-  "publish_ready_count": 781,
+  "business_count": 1106,
+  "publish_ready_count": 782,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -117200,6 +117200,107 @@
         "Personalized merchandise",
         "Collinsville Pirate gear",
         "Six-day weekly storefront hours"
+      ]
+    },
+    {
+      "slug": "old-town-bbq-collinsville",
+      "business_name": "Old Town BBQ",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "201 US-377, Collinsville, TX 76233",
+      "category": [
+        "Barbecue Restaurant"
+      ],
+      "tags": [
+        "Barbecue",
+        "Brisket",
+        "Pulled Pork",
+        "Sausage",
+        "BBQ Sandwiches",
+        "Brisket Tacos",
+        "Burgers",
+        "Outdoor Seating",
+        "Collinsville"
+      ],
+      "description": "Casual Collinsville barbecue spot serving smoked meats and hearty comfort food in a simple, laid-back setting. Old Town BBQ is known for brisket, sausage, pulled pork, barbecue sandwiches and brisket tacos, with burgers and traditional sides also appearing in its offerings.",
+      "why_visit": "Stop in for a straightforward local barbecue meal featuring smoked brisket and other Texas-style favorites without making the drive to a larger city.",
+      "why_its_unique": "Old Town BBQ is a small-format hometown barbecue operation with an informal outdoor-friendly setup and a menu that mixes traditional smoked meats with items such as brisket tacos and burgers.",
+      "phone": "903-357-1083",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM - 7:00 PM",
+        "tuesday": "11:00 AM - 7:00 PM",
+        "wednesday": "11:00 AM - 7:00 PM",
+        "thursday": "11:00 AM - 7:00 PM",
+        "friday": "11:00 AM - 7:00 PM",
+        "saturday": "11:00 AM - 7:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current public listings agree on Monday through Saturday from 11:00 AM to 7:00 PM. Small barbecue operations can change hours or sell out, so verify before making a special trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Outdoor seating",
+        "Takeout"
+      ],
+      "good_to_know": [
+        "Current customer-facing listings place Old Town BBQ at 201 US-377 in Collinsville.",
+        "Grayson County food-establishment records use 231 Hwy 377 for the business, creating an address discrepancy worth retaining in verification notes.",
+        "Current posted hours are Monday through Saturday from 11:00 AM to 7:00 PM.",
+        "Brisket is one of the most consistently mentioned menu highlights.",
+        "Because this is a small barbecue operation, hours and product availability may change or food may sell out."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete with address discrepancy noted. Current live business data and current travel-directory information identify Old Town BBQ at 201 US-377, Collinsville, phone 903-357-1083, with Monday-Saturday 11 AM-7 PM hours. Grayson County food-establishment records independently confirm Old Town BBQ as an active Collinsville food establishment but list 231 Hwy 377. Use 201 US-377 as the current customer-facing directory address unless stronger first-party evidence establishes 231 as canonical. No official business-owned website, email or reliably verified social-media URL was located.",
+      "last_checked": "2026-08-21",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Texas-style barbecue",
+        "Smoked brisket",
+        "Sausage",
+        "Pulled pork",
+        "BBQ sandwiches",
+        "Brisket tacos",
+        "Burgers",
+        "Traditional barbecue sides",
+        "Outdoor seating",
+        "Six-day weekly service"
       ]
     }
   ]
