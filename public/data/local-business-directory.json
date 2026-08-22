@@ -5,8 +5,8 @@
   "generated_on": "2026-08-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1101,
-  "publish_ready_count": 777,
+  "business_count": 1102,
+  "publish_ready_count": 778,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -116752,6 +116752,112 @@
         "Multiple business suites",
         "Home of Hello Darlin' Boutique",
         "Downtown Collinsville location"
+      ]
+    },
+    {
+      "slug": "home-sweet-bakery-collinsville",
+      "business_name": "Home Sweet Bakery",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Collinsville, TX 76233",
+      "category": [
+        "Bakery",
+        "Cottage Bakery"
+      ],
+      "tags": [
+        "Sourdough",
+        "Cinnamon Rolls",
+        "Cookies",
+        "Brownies",
+        "Cakes",
+        "Custom Cakes",
+        "Decorated Cookies",
+        "Local Markets",
+        "Pop-Ups",
+        "Preorder",
+        "Collinsville"
+      ],
+      "description": "Collinsville cottage bakery specializing in handcrafted sourdough breads and made-from-scratch sweets. Home Sweet Bakery offers rotating preorder drops featuring breads, cinnamon rolls, cookies, brownies, cakes and other treats, along with custom cakes and decorated cookies for special occasions.",
+      "why_visit": "Order locally made sourdough and fresh baked treats or watch for Home Sweet Bakery at community markets and seasonal pop-ups around the area.",
+      "why_its_unique": "Home Sweet Bakery combines naturally leavened, slow-fermented sourdough with a rotating selection of homemade sweets while operating as a small local cottage bakery serving Collinsville through preorders, custom baking and community pop-ups.",
+      "phone": "940-289-0292",
+      "email": null,
+      "website": "https://www.mycustombakes.com/joyhomesweetbakery/products",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Cottage bakery without regular walk-in storefront hours. Products are offered through preorder drops, custom orders, local markets and announced pop-ups.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Online preordering",
+        "Custom baking"
+      ],
+      "good_to_know": [
+        "Home Sweet Bakery is a Collinsville cottage bakery rather than a traditional walk-in bakery storefront.",
+        "Regular offerings include sourdough bread and rotating treat drops such as cinnamon rolls, cookies, brownies and cakes.",
+        "Custom cakes and decorated cookie orders are available.",
+        "The bakery participates in local community markets and seasonal or holiday pop-ups.",
+        "Order ahead for announced preorder drops and custom baking."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Collinsville EDC verifies Home Sweet Bakery as a Collinsville cottage bakery owned by Joy Guidera, phone 940-289-0292. Official local information confirms naturally leavened sourdough, baked sweets, monthly online preorders, custom baking, local market participation and holiday pop-ups. The linked MyCustomBakes storefront is active. No public walk-in storefront address, fixed retail hours, email or reliably verified social-media URLs were assigned.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Local markets",
+        "Holiday pop-ups",
+        "Community vendor events",
+        "Preorder drops"
+      ],
+      "event_sources": [
+        "Collinsville EDC business listing",
+        "Official MyCustomBakes ordering page"
+      ],
+      "features": [
+        "Locally owned cottage bakery",
+        "Naturally leavened sourdough",
+        "Slow-fermented breads",
+        "Cinnamon rolls",
+        "Cookies",
+        "Brownies",
+        "Cakes",
+        "Custom cakes",
+        "Decorated cookies",
+        "Online preorder drops",
+        "Local market participation",
+        "Holiday pop-ups"
       ]
     }
   ]
