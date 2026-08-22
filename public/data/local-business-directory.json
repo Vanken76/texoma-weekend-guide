@@ -5,8 +5,8 @@
   "generated_on": "2026-08-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1106,
-  "publish_ready_count": 782,
+  "business_count": 1107,
+  "publish_ready_count": 783,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -117301,6 +117301,118 @@
         "Traditional barbecue sides",
         "Outdoor seating",
         "Six-day weekly service"
+      ]
+    },
+    {
+      "slug": "spring-creek-nursery-collinsville",
+      "business_name": "Spring Creek Nursery",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "10140 US-377 BUS, Collinsville, TX 76233",
+      "category": [
+        "Garden Center",
+        "Plant Nursery",
+        "Landscaping Service"
+      ],
+      "tags": [
+        "Plants",
+        "Trees",
+        "Shrubs",
+        "Flowers",
+        "Vegetable Plants",
+        "Sod",
+        "Landscaping",
+        "Irrigation",
+        "Gardening",
+        "Collinsville",
+        "Locally Owned"
+      ],
+      "description": "Locally owned Collinsville garden center and plant nursery offering trees, shrubs, flowers, vegetable plants and other landscaping materials along with irrigation, sod and landscaping services.",
+      "why_visit": "Stop in for plants and landscaping supplies suited to the North Texas growing season, or get local help planning trees, shrubs, flower beds, vegetable gardens, sod and other outdoor projects.",
+      "why_its_unique": "Spring Creek Nursery combines a local retail plant nursery with hands-on landscaping and irrigation knowledge, giving Collinsville-area gardeners a nearby source for both plants and project guidance.",
+      "phone": "903-429-0320",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/springcreeknursery",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "9:00 AM - 5:00 PM",
+        "tuesday": "9:00 AM - 5:00 PM",
+        "wednesday": "9:00 AM - 5:00 PM",
+        "thursday": "9:00 AM - 5:00 PM",
+        "friday": "9:00 AM - 5:00 PM",
+        "saturday": "9:00 AM - 4:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current public listings agree on these in-season hours. Spring Creek Nursery operates seasonally and may close for part of the year, so check the official Facebook page before making a special trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Retail plant nursery",
+        "Greenhouse and outdoor plant areas",
+        "On-site gardening assistance",
+        "Wheelchair-accessible entrance",
+        "Wheelchair-accessible parking"
+      ],
+      "good_to_know": [
+        "The nursery is located along US-377 in Collinsville.",
+        "Inventory includes trees, shrubs, flowers and vegetable plants.",
+        "The business also works with sod, irrigation and landscaping needs.",
+        "If a requested plant is not stocked, the nursery says it may be able to order it or direct customers to another source.",
+        "This is a seasonal operation, so hours and open-season dates can change during the year."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Collinsville EDC verifies Spring Creek Nursery at 10140 US-377 BUS, phone 903-429-0320, its official Facebook page and its focus on landscaping, trees, vegetable gardens and flower gardens. Current Apple Maps, Waze and other live business listings agree on Monday-Friday 9 AM-5 PM and Saturday 9 AM-4 PM hours with Sunday closed. Nextdoor describes the locally owned retail nursery as specializing in irrigation, landscaping, sod, trees, shrubs, flowers and vegetables. The Collinsville EDC page also documents seasonal closure periods, so published weekly hours should not be assumed to apply year-round. Some public listings use the alternate consumer-facing name Spring Creek Flowers and Nursery.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Seasonal garden promotions",
+        "Plant sales"
+      ],
+      "event_sources": [
+        "Official Facebook page"
+      ],
+      "features": [
+        "Locally owned retail nursery",
+        "Trees and shrubs",
+        "Flowers",
+        "Vegetable plants",
+        "Sod",
+        "Irrigation services",
+        "Landscaping services",
+        "Gardening assistance",
+        "Seasonal operation"
       ]
     }
   ]
