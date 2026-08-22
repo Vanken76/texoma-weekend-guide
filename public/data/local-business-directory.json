@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-21",
+  "generated_on": "2026-08-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1087,
-  "publish_ready_count": 763,
+  "business_count": 1088,
+  "publish_ready_count": 764,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -115114,6 +115114,117 @@
         "Bluetooth speaker",
         "Online booking",
         "Weekday and weekend rentals"
+      ]
+    },
+    {
+      "slug": "dreamz-event-center",
+      "business_name": "Dreamz Event Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1277 Gunter Rd, Whitesboro, TX 76273",
+      "category": [
+        "Event Venue",
+        "Wedding Venue"
+      ],
+      "tags": [
+        "Weddings",
+        "Private Events",
+        "Birthday Parties",
+        "Anniversary Parties",
+        "Small Events",
+        "Outdoor Events",
+        "Whitesboro"
+      ],
+      "description": "Dreamz Event Center is a private event and wedding venue on Gunter Road in the Whitesboro countryside. The property provides indoor event space along with outdoor-friendly grounds and on-site parking for weddings, celebrations and other private gatherings.",
+      "why_visit": "Dreamz provides a smaller rural venue option for hosts looking to hold a wedding, party or private gathering outside the busier downtown setting.",
+      "why_its_unique": "The venue combines a countryside Whitesboro location with a multipurpose event facility and surrounding outdoor space on a former small ranch property.",
+      "phone": "678-697-9591",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "9:00 AM–5:00 PM",
+        "tuesday": "9:00 AM–5:00 PM",
+        "wednesday": "9:00 AM–5:00 PM",
+        "thursday": "9:00 AM–5:00 PM",
+        "friday": "9:00 AM–5:00 PM",
+        "saturday": "9:00 AM–5:00 PM",
+        "sunday": "9:00 AM–5:00 PM"
+      },
+      "hours_note": "Current business listings show 9:00 AM–5:00 PM daily. These should be treated as venue/contact hours rather than guaranteed public drop-in hours; confirm tours and event access directly with Dreamz.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Indoor event space",
+        "Outdoor event space",
+        "On-site parking",
+        "Wheelchair-accessible parking",
+        "Wheelchair-accessible entrance",
+        "Wheelchair-accessible restroom"
+      ],
+      "good_to_know": [
+        "Dreamz Event Center is located at 1277 Gunter Rd outside central Whitesboro.",
+        "The venue is currently categorized as both an event venue and wedding venue.",
+        "The property developed from an approximately five-acre ranch property whose barn was being converted for event-center use by 2022.",
+        "Current commercial-property listings are simultaneously marketing a 2,850-square-foot multipurpose facility at this address for lease.",
+        "Because the property is being marketed for lease, confirm current venue operations and management before booking or publishing a future event.",
+        "No independently verified current website, email address, capacity or rental pricing was found, so those details should not be inferred."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Dreamz Event Center is currently listed as an active event and wedding venue at 1277 Gunter Rd, Whitesboro, with phone 678-697-9591 and listed contact hours of 9:00 AM–5:00 PM daily. The same address is currently marketed in 2026 as a 2,850-square-foot multipurpose facility for lease, creating a potential ownership or operational transition. Retain the directory record while the active venue listing remains current, but reverify before promoting events, bookings or detailed venue claims. Capacity, pricing, alcohol policies and specific rental inclusions were not independently verified.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Weddings",
+        "Wedding receptions",
+        "Birthday parties",
+        "Anniversary parties",
+        "Private celebrations",
+        "Small private events"
+      ],
+      "event_sources": [
+        "Current Dreamz Event Center business listing",
+        "Local venue listings"
+      ],
+      "features": [
+        "Whitesboro countryside location",
+        "Event and wedding venue",
+        "Indoor event space",
+        "Outdoor-friendly property",
+        "On-site parking",
+        "Wheelchair-accessible entrance and restroom"
       ]
     }
   ]
