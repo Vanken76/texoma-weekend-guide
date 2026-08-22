@@ -5,8 +5,8 @@
   "generated_on": "2026-08-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1104,
-  "publish_ready_count": 780,
+  "business_count": 1105,
+  "publish_ready_count": 781,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -117101,6 +117101,105 @@
         "Community pottery events",
         "Pop-up classes around Texoma",
         "Handmade pottery sales"
+      ]
+    },
+    {
+      "slug": "twisted-roses-boutique",
+      "business_name": "Twisted Roses Boutique",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "9785 US-377, Collinsville, TX 76233",
+      "category": [
+        "Boutique",
+        "Women's Clothing Store",
+        "Custom Printing Shop"
+      ],
+      "tags": [
+        "Women's Clothing",
+        "Custom Apparel",
+        "Custom Printing",
+        "Custom Shirts",
+        "Custom Cups",
+        "Collinsville Pirate Gear",
+        "Local Shopping",
+        "Collinsville"
+      ],
+      "description": "Collinsville boutique offering clothing, seasonal fashion and custom-printed merchandise. Twisted Roses Boutique also creates personalized products including shirts and cups and carries Collinsville Pirate gear for local-school supporters.",
+      "why_visit": "Shop locally for clothing, seasonal finds and Collinsville Pirate gear, or order personalized shirts, cups and other custom-printed items.",
+      "why_its_unique": "Twisted Roses combines boutique shopping with in-house custom printing, giving customers a local source for both ready-to-shop clothing and personalized merchandise.",
+      "phone": "903-651-6056",
+      "email": null,
+      "website": "https://www.twistedrosesboutique.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "10:00 AM - 6:00 PM",
+        "tuesday": "10:00 AM - 6:00 PM",
+        "wednesday": "10:00 AM - 6:00 PM",
+        "thursday": "10:00 AM - 6:00 PM",
+        "friday": "10:00 AM - 6:00 PM",
+        "saturday": "10:00 AM - 6:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Collinsville EDC currently lists the boutique as open Monday through Saturday from 10:00 AM to 6:00 PM. Holiday and special-sale hours may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "In-store shopping",
+        "Custom printing"
+      ],
+      "good_to_know": [
+        "Custom printing includes shirts, cups and other personalized merchandise.",
+        "The boutique carries Collinsville Pirate gear.",
+        "Collinsville EDC currently publishes 9785 US-377 as the storefront address.",
+        "A current apparel-brand stockist locator lists 9875 S Hwy 377 Suite 103 instead, so confirm the exact storefront location if making a special trip."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Collinsville EDC verifies Twisted Roses Boutique at 9785 US-377, phone 903-651-6056, official website, clothing retail, custom printing, Collinsville Pirate gear and Monday-Saturday 10 AM-6 PM hours. A current Sterling Kreek retailer locator independently confirms Twisted Roses Boutique in Collinsville but lists 9875 S Hwy 377 Suite 103. The current City/EDC address is used as canonical pending stronger first-party evidence of a move or correction.",
+      "last_checked": "2026-08-21",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Local boutique shopping",
+        "Women's clothing",
+        "Seasonal apparel",
+        "Custom shirt printing",
+        "Custom cup printing",
+        "Personalized merchandise",
+        "Collinsville Pirate gear",
+        "Six-day weekly storefront hours"
       ]
     }
   ]
