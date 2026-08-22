@@ -5,8 +5,8 @@
   "generated_on": "2026-08-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1099,
-  "publish_ready_count": 775,
+  "business_count": 1100,
+  "publish_ready_count": 776,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -116566,6 +116566,98 @@
         "Sweet Grace products",
         "Online shopping",
         "Pop-up market participation"
+      ]
+    },
+    {
+      "slug": "donut-choice",
+      "business_name": "Donut Choice",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "100 E Hughes St, Collinsville, TX 76233",
+      "category": [
+        "Donut Shop"
+      ],
+      "tags": [
+        "Donuts",
+        "Kolaches",
+        "Breakfast Tacos",
+        "Coffee",
+        "Breakfast",
+        "Downtown Collinsville",
+        "Early Morning"
+      ],
+      "description": "Early-morning donut shop in Collinsville serving donuts, kolaches and breakfast tacos along with hot coffee, sodas and orange juice.",
+      "why_visit": "A straightforward early-morning stop for donuts, kolaches, breakfast tacos and coffee before work, school or a day around Texoma.",
+      "why_its_unique": "The Donut Choice building also features the Historic Collinsville mural, a downtown mural depicting scenes from the community's past.",
+      "phone": "903-429-3028",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "5:00 AM - 11:00 AM",
+        "tuesday": "5:00 AM - 11:00 AM",
+        "wednesday": "5:00 AM - 11:00 AM",
+        "thursday": "5:00 AM - 11:00 AM",
+        "friday": "5:00 AM - 11:00 AM",
+        "saturday": "5:00 AM - 12:00 PM",
+        "sunday": "5:30 AM - 11:00 AM"
+      },
+      "hours_note": "Current local listings checked Aug. 21, 2026 agree on these hours. Holiday hours may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Takeout"
+      ],
+      "good_to_know": [
+        "The shop opens at 5:00 AM Monday through Saturday and 5:30 AM Sunday.",
+        "Saturday currently has the longest posted morning hours, running until noon.",
+        "The Historic Collinsville mural is located on the side of the Donut Choice building."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Collinsville EDC verifies the business name, address, phone number and core breakfast offerings. Current local listings agree on operating hours, and Grayson County establishment records independently confirm Donut Choice at 100 E Hughes St. No official business-owned website or social-media account was reliably verified.",
+      "last_checked": "2026-08-21",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Early-morning hours",
+        "Donuts",
+        "Kolaches",
+        "Breakfast tacos",
+        "Hot coffee",
+        "Historic Collinsville mural on building"
       ]
     }
   ]
