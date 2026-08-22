@@ -5,8 +5,8 @@
   "generated_on": "2026-08-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1100,
-  "publish_ready_count": 776,
+  "business_count": 1101,
+  "publish_ready_count": 777,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -116658,6 +116658,100 @@
         "Breakfast tacos",
         "Hot coffee",
         "Historic Collinsville mural on building"
+      ]
+    },
+    {
+      "slug": "virginia-station",
+      "business_name": "Virginia Station",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "105 N Main St, Collinsville, TX 76233",
+      "category": [
+        "Beauty Salon",
+        "Business Center"
+      ],
+      "tags": [
+        "Downtown Collinsville",
+        "Historic Building",
+        "Salon Services",
+        "Boutique Shopping",
+        "Business Suites",
+        "Locally Owned"
+      ],
+      "description": "A renovated historic downtown Collinsville property combining salon and beauty services, boutique shopping and space for independent local businesses. Virginia Station is home to Hello Darlin' Boutique and additional commercial suites in the heart of downtown.",
+      "why_visit": "Virginia Station brings multiple locally operated businesses together under one downtown roof, making it an easy stop for boutique shopping and salon or beauty services while exploring Collinsville.",
+      "why_its_unique": "Virginia Station occupies a remodeled historic downtown building and takes its name from an earlier Collinsville building, connecting new small businesses with the community's downtown history.",
+      "phone": "940-372-2867",
+      "email": null,
+      "website": "https://collinsvilletxedc.com/index.asp?DE=504AAFCC-7530-4A52-94A5-8D22DEAC149D&SEC=77CB3F6F-FF56-42F2-94EF-C92838F0957F",
+      "facebook": "https://www.facebook.com/profile.php?id=61568194144717",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Hours vary by individual tenant and salon or beauty provider. Check the specific business or provider before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Boutique shopping",
+        "Salon and beauty services",
+        "Multiple independent businesses"
+      ],
+      "good_to_know": [
+        "Located in downtown Collinsville at 105 N Main St.",
+        "Hello Darlin' Boutique operates from within Virginia Station.",
+        "Individual businesses and service providers maintain their own schedules.",
+        "Collinsville EDC currently identifies additional commercial suite space within the property."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Collinsville EDC verifies Virginia Station at 105 N Main St, identifies Emily Beatty as owner and currently lists commercial suite space at the property. Collinsville EDC separately confirms Hello Darlin' Boutique is located within Virginia Station. Regional visitor information describes Virginia Station as a remodeled historic downtown building containing salon services and the boutique. Individual tenant hours and services vary.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Business openings",
+        "Downtown shopping events"
+      ],
+      "event_sources": [
+        "Official Virginia Station Facebook page",
+        "Collinsville EDC",
+        "Tenant business pages"
+      ],
+      "features": [
+        "Renovated historic downtown building",
+        "Salon and beauty services",
+        "Boutique shopping",
+        "Multiple business suites",
+        "Home of Hello Darlin' Boutique",
+        "Downtown Collinsville location"
       ]
     }
   ]
