@@ -5,8 +5,8 @@
   "generated_on": "2026-08-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1102,
-  "publish_ready_count": 778,
+  "business_count": 1103,
+  "publish_ready_count": 779,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -116858,6 +116858,126 @@
         "Online preorder drops",
         "Local market participation",
         "Holiday pop-ups"
+      ]
+    },
+    {
+      "slug": "whats-for-dinner-collinsville",
+      "business_name": "What's For Dinner?!!",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "201 N Main St, Collinsville, TX 76233",
+      "category": [
+        "Food Truck",
+        "Southern Restaurant"
+      ],
+      "tags": [
+        "Southern Comfort Food",
+        "BBQ",
+        "Breakfast",
+        "All-Day Breakfast",
+        "Burgers",
+        "Chicken",
+        "Brisket",
+        "Outdoor Dining",
+        "Delivery",
+        "DoorDash",
+        "Family Owned",
+        "Collinsville"
+      ],
+      "description": "Family-owned Collinsville food truck serving hearty Southern comfort food from morning through dinner. What's For Dinner?!! offers breakfast all day along with burgers, smoked BBQ, chicken, loaded potatoes, nachos, sandwiches, sweets, flavored drinks and rotating specials.",
+      "why_visit": "Come hungry for an unusually broad food-truck menu covering breakfast, lunch and dinner, with online ordering, outdoor seating and local delivery available.",
+      "why_its_unique": "What's For Dinner?!! brings more than 20 years of family cooking tradition to a community-focused food truck where breakfast is served all day alongside Southern comfort food, BBQ and frequently changing specials.",
+      "phone": "903-421-3489",
+      "email": "foodtruck.wfd@gmail.com",
+      "website": "https://whatsfordinner0639.s4shops.com/",
+      "facebook": "https://www.facebook.com/whatsfordinnercollinsville",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "7:00 AM - 2:00 PM; 4:00 PM - 7:00 PM",
+        "tuesday": "Closed",
+        "wednesday": "7:00 AM - 2:00 PM; 4:00 PM - 7:00 PM",
+        "thursday": "7:00 AM - 2:00 PM; 4:00 PM - 7:00 PM",
+        "friday": "7:00 AM - 2:00 PM; 4:00 PM - 7:00 PM",
+        "saturday": "Closed",
+        "sunday": "10:00 AM - 2:00 PM; 4:00 PM - 7:00 PM"
+      },
+      "hours_note": "Current hours are published on the official website. The truck closes between its daytime and evening service periods. Hours and menu specials may change, so check Facebook for same-day updates.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Outdoor tables",
+        "Online ordering",
+        "Call-ahead ordering",
+        "Takeout",
+        "Local delivery",
+        "DoorDash delivery"
+      ],
+      "good_to_know": [
+        "Breakfast is served all day.",
+        "The food truck has a regular location at 201 N Main St in Collinsville.",
+        "Call-ahead orders are accepted at 903-421-3489.",
+        "Online ordering is available through the official website.",
+        "Collinsville EDC currently advertises $5 delivery within Collinsville.",
+        "DoorDash delivery is also available.",
+        "The menu includes kids meals.",
+        "Facebook is the best source for new menu items, seasonal offerings and daily specials."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Official website and Collinsville EDC verify What's For Dinner?!! at 201 N Main St, phone 903-421-3489, owners Jay and Kimberly Wells, current menu focus, outdoor dining, local delivery, DoorDash participation and online ordering. The official website verifies foodtruck.wfd@gmail.com and the current split-service weekly hours. Grayson County's 2026 food-establishment records independently show a permitted food operation at the same address under a What's For Dinner naming variation. Current consumer-facing branding is What's For Dinner?!!.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Food truck appearances",
+        "Community food events"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Official website"
+      ],
+      "features": [
+        "Family owned",
+        "More than 20 years of family cooking tradition",
+        "Breakfast served all day",
+        "Southern comfort food",
+        "Smoked BBQ",
+        "Burgers and chicken",
+        "Rotating specials",
+        "Kids meals",
+        "Outdoor tables",
+        "Online ordering",
+        "Local delivery",
+        "DoorDash"
       ]
     }
   ]
