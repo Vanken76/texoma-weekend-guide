@@ -5,8 +5,8 @@
   "generated_on": "2026-08-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1092,
-  "publish_ready_count": 768,
+  "business_count": 1093,
+  "publish_ready_count": 769,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -115766,6 +115766,135 @@
         "Wheelchair-accessible covered drop-off",
         "Open vendor policy",
         "Extensive complimentary decor collection"
+      ]
+    },
+    {
+      "slug": "collinsville-city-park",
+      "business_name": "Collinsville City Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Hughes St area, Collinsville, TX 76233",
+      "category": [
+        "City Park",
+        "Playground",
+        "Youth Sports",
+        "Event Venue"
+      ],
+      "tags": [
+        "Parks",
+        "Playground",
+        "Baseball",
+        "Youth Sports",
+        "Walking",
+        "Outdoor Recreation",
+        "Community Events",
+        "Family Friendly",
+        "Dogs Allowed",
+        "Collinsville"
+      ],
+      "description": "Collinsville City Park is a municipal recreation space serving families, youth sports and community activities on the east side of Collinsville. The park includes baseball facilities, playground equipment, walking space and open recreation areas and is regularly involved in Collinsville Parks Association projects and community programming.",
+      "why_visit": "Collinsville City Park provides an easy everyday outdoor option for families, walkers and youth-sports participants while also serving as a gathering place for seasonal and community activities.",
+      "why_its_unique": "As Collinsville's primary city recreation park, it combines neighborhood playground and walking amenities with youth baseball facilities and community-event use.",
+      "phone": "903-429-6225",
+      "email": "parks@collinsvilletexas.org",
+      "website": "https://collinsvilletexas.org/parks_board",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": true,
+      "dog_friendly": true,
+      "hours": {
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours",
+        "sunday": "Open 24 hours"
+      },
+      "hours_note": "Current mapping data lists the park as open 24 hours. The City does not publish separate formal park hours on its Parks Association page, so organized-field and event access may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": true,
+        "dog_friendly": true,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Youth baseball fields",
+        "Playground",
+        "Slides",
+        "Swings",
+        "Walking trail",
+        "Open recreation space",
+        "Park benches",
+        "Parking",
+        "Wheelchair-accessible parking",
+        "Wheelchair-accessible entrance"
+      ],
+      "good_to_know": [
+        "The City of Collinsville's economic-development site identifies City Park as a recreation area with baseball and playground facilities.",
+        "Current local mapping places the park on the east side of Collinsville near Hughes Street.",
+        "The Collinsville Parks Association is actively involved in maintenance, improvements and programming at the park.",
+        "Recent Park Association work has included youth baseball-field improvements, benches and pavilion development.",
+        "The park has been used in connection with activities including kickball and community Halloween programming.",
+        "Dogs are currently listed as allowed; owners should follow applicable city leash and cleanup rules.",
+        "Contact Collinsville City Hall or the Parks Association for questions about organized activities or facility use."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Collinsville",
+        "Grayson County"
+      ],
+      "verification_note": "Complete. Current City of Collinsville Economic Development material identifies City Park as a municipal recreation area featuring baseball and playground facilities. Current mapping data corroborates the active public park and lists playground, baseball, accessibility and dog-friendly features. Collinsville Park Association agendas document ongoing work involving youth baseball fields, benches, pavilion improvements, kickball activities and community-event planning. No verified numbered street address is consistently published, so the record uses the Hughes Street area rather than inventing a street number.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Youth baseball",
+        "Kickball activities",
+        "Community celebrations",
+        "Trunk or Treat",
+        "Family recreation events",
+        "Park Association activities"
+      ],
+      "event_sources": [
+        "Collinsville Parks Association",
+        "City of Collinsville",
+        "Collinsville Texas EDC community calendar",
+        "Collinsville community announcements"
+      ],
+      "features": [
+        "Municipal public park",
+        "Youth baseball facilities",
+        "Playground",
+        "Walking trail",
+        "Open recreation space",
+        "Family-friendly outdoor recreation",
+        "Dog-friendly public park",
+        "Wheelchair-accessible parking and entrance",
+        "Community-event use"
       ]
     }
   ]
