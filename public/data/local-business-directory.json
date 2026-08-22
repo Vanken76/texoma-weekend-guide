@@ -5,8 +5,8 @@
   "generated_on": "2026-08-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1107,
-  "publish_ready_count": 783,
+  "business_count": 1108,
+  "publish_ready_count": 784,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -117413,6 +117413,110 @@
         "Landscaping services",
         "Gardening assistance",
         "Seasonal operation"
+      ]
+    },
+    {
+      "slug": "apologetics-coffee-and-coins",
+      "business_name": "Apologetics Coffee and Coins",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "100 N Main St, Collinsville, TX 76233",
+      "category": [
+        "Coin Dealer",
+        "Coffee Shop",
+        "Collectibles Store"
+      ],
+      "tags": [
+        "Rare Coins",
+        "Precious Metals",
+        "Numismatics",
+        "Coin Appraisals",
+        "Estate Appraisals",
+        "Coffee",
+        "Collectibles",
+        "Downtown Collinsville",
+        "Family Owned"
+      ],
+      "description": "Downtown Collinsville coffee and coin shop specializing in rare coins, precious metals and numismatics while also serving coffee and specialty drinks. Apologetics Coffee and Coins offers coin collecting and trading expertise along with private coin and estate evaluations by appointment.",
+      "why_visit": "Grab a coffee while browsing a distinctive collection of coins and collectibles, or schedule an appointment for help evaluating coins, precious metals or an estate collection.",
+      "why_its_unique": "Apologetics combines two unusually different experiences under one roof: a neighborhood coffee shop and a specialty rare-coin and precious-metals business in downtown Collinsville.",
+      "phone": "940-597-7706",
+      "email": null,
+      "website": "https://apologeticscoffeeandcoins.godaddysites.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "The official website currently publishes coffee-shop operating hours dynamically and states that the coin shop, coin assessments and estate appraisals are by appointment only. Call 940-597-7706 or check the official site for current coffee-shop hours before making a special trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Coffee service",
+        "Coin buying and selling",
+        "Precious-metals buying and selling",
+        "Private coin appraisals",
+        "Estate appraisals",
+        "In-store shopping"
+      ],
+      "good_to_know": [
+        "The business is located at 100 N Main St in downtown Collinsville.",
+        "The coin and estate-appraisal side operates by appointment.",
+        "Call 940-597-7706 to arrange an assessment or appraisal.",
+        "The business specializes in rare coins, precious metals and numismatics.",
+        "Collinsville EDC still lists the shorter name Apologetics Coins and an older phone number, while the current business-owned site uses Apologetics Coffee and Coins and 940-597-7706."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Collinsville EDC verifies Apologetics Coins at 100 N Main St and links directly to the current business website. The business-owned website uses the current branding Apologetics Coffee and Coins, phone 940-597-7706, and confirms rare coins, precious metals, coin collecting and trading, coffee service and appointment-only coin and estate appraisals. Collinsville EDC still publishes 214-869-2743; the current business-owned phone is used as canonical. Regional visitor guides also independently describe the business as family-owned and offering coffee alongside coins, precious metals and numismatics.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Downtown shopping events",
+        "Special promotions"
+      ],
+      "event_sources": [
+        "Official business website",
+        "Collinsville EDC"
+      ],
+      "features": [
+        "Family-owned downtown business",
+        "Rare coins",
+        "Precious metals",
+        "Numismatics",
+        "Coin buying and selling",
+        "Coin appraisals",
+        "Estate appraisals",
+        "Coffee and specialty beverages",
+        "Appointment-based collector services"
       ]
     }
   ]
