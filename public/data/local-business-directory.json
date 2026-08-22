@@ -5,8 +5,8 @@
   "generated_on": "2026-08-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1096,
-  "publish_ready_count": 772,
+  "business_count": 1097,
+  "publish_ready_count": 773,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -116247,6 +116247,112 @@
         "Local-history preservation",
         "Collinsville community heritage",
         "Downtown history museum"
+      ]
+    },
+    {
+      "slug": "the-collinsville-deli",
+      "business_name": "The Collinsville Deli",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "104 E Hughes St, Collinsville, TX 76233",
+      "category": [
+        "Restaurant",
+        "Deli"
+      ],
+      "tags": [
+        "Sandwiches",
+        "Salads",
+        "Soups",
+        "Bowls",
+        "Smoothies",
+        "Downtown Collinsville",
+        "Locally Owned"
+      ],
+      "description": "Family-owned and operated fast-casual deli in downtown Collinsville serving sandwiches, salads, bowls, smoothies and hot homemade soup. The Collinsville Deli opened in late 2025 and offers dine-in and takeout service in a distinctive downtown space decorated with vintage neon signs and antiques.",
+      "why_visit": "Stop in for a quick lunch or early dinner built around deli sandwiches, salads, bowls, smoothies and rotating homemade soup while enjoying the atmosphere of downtown Collinsville.",
+      "why_its_unique": "The locally owned deli combines a fast-casual menu with a distinctive collection of vintage neon signs and antiques, giving the small downtown restaurant a personality of its own.",
+      "phone": "903-429-0360",
+      "email": null,
+      "website": "https://collinsvilletxedc.com/index.asp?DE=F371D662-AE6D-434D-B99C-CFAEEC5D476A&SEC=47800EC4-6D00-4E87-9720-1113C348DC22",
+      "facebook": "https://www.facebook.com/profile.php?id=61584480775597",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "10:30 AM - 7:00 PM",
+        "tuesday": "10:30 AM - 7:00 PM",
+        "wednesday": "10:30 AM - 7:00 PM",
+        "thursday": "10:30 AM - 7:00 PM",
+        "friday": "10:30 AM - 7:00 PM",
+        "saturday": "10:30 AM - 3:00 PM",
+        "sunday": "10:30 AM - 3:00 PM"
+      },
+      "hours_note": "Open seven days a week and closed on major holidays. Holiday hours may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Dine-in seating",
+        "Takeout",
+        "Phone ordering",
+        "Local delivery"
+      ],
+      "good_to_know": [
+        "Phone orders are accepted at 903-429-0360.",
+        "The current Collinsville EDC listing states that payment for phone orders is by credit card.",
+        "Free delivery is offered within a five-mile radius during normal business hours.",
+        "Ask about the current soup of the day.",
+        "Closed on major holidays."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Current Collinsville sources verify the downtown location, seven-day operating schedule, phone ordering and local delivery. The deli has also participated in downtown special-event activity and hosted at least one vendor pop-up; check its Facebook page for current events, menu changes and holiday hours.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Vendor pop-ups",
+        "Downtown special events",
+        "Community events"
+      ],
+      "event_sources": [
+        "Official Facebook page",
+        "Collinsville EDC business listing"
+      ],
+      "features": [
+        "Family-owned and operated",
+        "Downtown Collinsville location",
+        "Sandwiches, salads and bowls",
+        "Hot homemade soup",
+        "Smoothies",
+        "Free delivery within five miles",
+        "Vintage neon signs and antique decor"
       ]
     }
   ]
