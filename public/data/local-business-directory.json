@@ -5,8 +5,8 @@
   "generated_on": "2026-08-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1095,
-  "publish_ready_count": 771,
+  "business_count": 1096,
+  "publish_ready_count": 772,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -116162,6 +116162,91 @@
         "Catering and reservations",
         "Family and group dining",
         "Wheelchair-accessible facilities"
+      ]
+    },
+    {
+      "slug": "celebrate-collinsville-history-museum",
+      "business_name": "celebrate! Collinsville History Museum",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "100 S Main St, Collinsville, TX 76233",
+      "category": [
+        "History Museum",
+        "Historical Society",
+        "Community Organization"
+      ],
+      "tags": [
+        "Local History",
+        "Collinsville History",
+        "Historic Downtown",
+        "Nonprofit"
+      ],
+      "description": "A community-focused local history museum connected with celebrate! Collinsville History Association, the nonprofit organization dedicated to preserving the history, stories and memories of Collinsville and its people.",
+      "why_visit": "Explore Collinsville's local heritage and learn more about the people, stories and history that shaped the community.",
+      "why_its_unique": "It is Collinsville's dedicated hometown-history organization and museum, focused specifically on preserving the community's own stories and memories for future generations.",
+      "phone": null,
+      "email": null,
+      "website": "https://collinsvilletxedc.com/collinsville-history",
+      "facebook": "https://www.facebook.com/groups/340693309600584/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Current public museum hours were not reliably verified. Check the organization's current Facebook activity before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "The museum is located in downtown Collinsville at 100 S Main St.",
+        "Public hours were not reliably published in the current sources checked, so verify access before making a special trip."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified Aug. 21, 2026. Collinsville EDC identifies celebrate! Collinsville History Association as an official 501(c)(3) nonprofit history association dedicated to preserving Collinsville history. Current local-business data identifies celebrate! Collinsville History Museum at 100 S Main St. No dependable current phone, email or public operating hours were verified.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Local history programs",
+        "Heritage activities",
+        "Community history events"
+      ],
+      "event_sources": [
+        "Official Collinsville EDC history page",
+        "Official-linked Facebook group"
+      ],
+      "features": [
+        "501(c)(3) nonprofit history organization",
+        "Local-history preservation",
+        "Collinsville community heritage",
+        "Downtown history museum"
       ]
     }
   ]
