@@ -5,8 +5,8 @@
   "generated_on": "2026-08-22",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1098,
-  "publish_ready_count": 774,
+  "business_count": 1099,
+  "publish_ready_count": 775,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -116455,6 +116455,117 @@
         "Handcrafted Kantha quilt tees",
         "Wax Apothecary candles",
         "Downtown Collinsville location"
+      ]
+    },
+    {
+      "slug": "hello-darlin-boutique",
+      "business_name": "Hello Darlin' Boutique",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "105 N Main St, Collinsville, TX 76233",
+      "category": [
+        "Boutique",
+        "Women's Clothing Store",
+        "Gift Shop"
+      ],
+      "tags": [
+        "Women's Fashion",
+        "Athleisure",
+        "Accessories",
+        "Specialty Gifts",
+        "Sweet Grace Products",
+        "Graphic Tees",
+        "Dresses",
+        "Downtown Collinsville",
+        "Online Shopping",
+        "Locally Owned"
+      ],
+      "description": "Locally owned women's boutique in downtown Collinsville offering apparel, athleisure, accessories and specialty gifts. Hello Darlin' carries a rotating mix of tops, graphic tees, bottoms, dresses, matching sets, twillies and accessories, with both storefront and online shopping.",
+      "why_visit": "Stop in for a locally owned boutique-shopping experience with women's clothing, accessories and gifts in downtown Collinsville, or browse the shop's current collections online.",
+      "why_its_unique": "Hello Darlin' grew from a home-based boutique operated for more than two years into its first storefront in August 2024. The shop is located within Virginia Station in downtown Collinsville and was created as a welcoming, community-oriented space for women.",
+      "phone": "940-372-2867",
+      "email": "hello.darlinboutiquee@gmail.com",
+      "website": "https://hellodarlinboutique.shop/",
+      "facebook": "https://www.facebook.com/profile.php?id=61577332366227",
+      "instagram": "https://www.instagram.com/hellodarlin.boutiquee/",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "10:00 AM - 5:30 PM",
+        "wednesday": "10:00 AM - 5:30 PM",
+        "thursday": "10:00 AM - 5:30 PM",
+        "friday": "10:00 AM - 5:30 PM",
+        "saturday": "10:00 AM - 3:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Collinsville EDC currently lists these storefront hours. Boutique hours may change for holidays, markets or special events, so check current social updates before making a special trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "In-store shopping",
+        "Online shopping"
+      ],
+      "good_to_know": [
+        "Located within Virginia Station in downtown Collinsville.",
+        "The first storefront opened in August 2024 after the boutique operated from home for more than two years.",
+        "The boutique participates in pop-up markets, so social-media updates may contain fresher schedule information than static directory listings.",
+        "The Collinsville EDC still links the older hellodarlinboutique.com domain; the active current online storefront verified Aug. 21, 2026 is hellodarlinboutique.shop."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Collinsville EDC verifies the physical storefront, phone, merchandise focus, storefront history and posted hours. Current official Shopify storefront verifies active online retail, current merchandise categories, contact email and linked social accounts. Website messaging also confirms pop-up-market activity. Do not assign Virginia Station as parent_business unless its exact published TWG slug is separately verified.",
+      "last_checked": "2026-08-21",
+      "event_types": [
+        "Pop-up markets",
+        "Special shopping events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Official Instagram account"
+      ],
+      "features": [
+        "Locally owned",
+        "Downtown Collinsville storefront",
+        "Women's clothing",
+        "Athleisure",
+        "Graphic tees",
+        "Dresses and matching sets",
+        "Accessories",
+        "Specialty gifts",
+        "Sweet Grace products",
+        "Online shopping",
+        "Pop-up market participation"
       ]
     }
   ]
