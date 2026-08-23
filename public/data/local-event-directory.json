@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 366,
-  "publish_ready_count": 366,
+  "event_count": 367,
+  "publish_ready_count": 367,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -24277,6 +24277,62 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified 2026-08-23 from The Celt's official recurring Open Mic Tuesday calendar. The official series lists Open Mic & Free Pool Tuesday on Aug. 25, 2026 from 8:30 PM until midnight and shows additional Tuesday occurrences at the same time through September. No admission price or age restriction was published.",
+      "last_checked": "2026-08-23",
+      "created_on": "2026-08-23",
+      "updated_on": "2026-08-23"
+    },
+    {
+      "event_slug": "karaoke-by-frank-vfw-post-7873-pottsboro",
+      "event_name": "Karaoke by Frank",
+      "description": "Friday night karaoke with Frank at VFW Post 7873 in Pottsboro. Karaoke runs from 7:30 PM to 11:00 PM.",
+      "start_datetime": "2026-08-28T19:30:00-05:00",
+      "end_datetime": "2026-08-28T23:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "vfw-post-7873"
+      ],
+      "venue_name": "VFW Post 7873",
+      "address": "250 VFW Drive",
+      "city": "Pottsboro",
+      "state": "TX",
+      "postal_code": "75076",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Karaoke",
+        "Nightlife",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "karaoke",
+        "Frank",
+        "Friday night",
+        "VFW Post 7873",
+        "Pottsboro",
+        "Lake Texoma"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": "vfw-post-7873",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/karaoke-by-frank-vfw-post-7873-pottsboro.png",
+      "image_alt": null,
+      "official_url": "https://vfw7873.org/events/karaoke-frank-phillips/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=FR",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-23 from the official VFW Post 7873 event calendar. Karaoke by Frank is listed repeatedly on Fridays from 7:30 PM to 11:00 PM, including Aug. 28, 2026, supporting weekly recurrence. The official event page confirms the venue at 250 VFW Drive, Pottsboro, TX 75076. No admission price or age restriction was published.",
       "last_checked": "2026-08-23",
       "created_on": "2026-08-23",
       "updated_on": "2026-08-23"
