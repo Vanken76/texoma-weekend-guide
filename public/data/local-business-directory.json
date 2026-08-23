@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1203,
-  "publish_ready_count": 879,
+  "business_count": 1204,
+  "publish_ready_count": 880,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -130365,6 +130365,130 @@
         "Live music",
         "Karaoke",
         "Recurring entertainment"
+      ]
+    },
+    {
+      "slug": "old-ice-house-durant",
+      "business_name": "Old Ice House Durant",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "215 N 3rd Ave, Durant, OK 74701",
+      "category": [
+        "Restaurant",
+        "Bar",
+        "Pub",
+        "Live Entertainment Venue"
+      ],
+      "tags": [
+        "Old Ice House Durant",
+        "Old Ice House",
+        "Durant",
+        "Downtown Durant",
+        "Bryan County",
+        "Restaurant",
+        "Bar",
+        "Pub",
+        "Historic Building",
+        "Cocktails",
+        "Full Bar",
+        "Outdoor Patio",
+        "Dog Friendly",
+        "Live Music",
+        "Karaoke",
+        "Nightlife"
+      ],
+      "description": "Old Ice House Durant is a full-service restaurant and bar in downtown Durant housed in the historic 1927 Crystal Ice Co. building. The multi-level restaurant preserves original ice-house features while serving lunch, dinner, cocktails and recurring entertainment.",
+      "why_visit": "Eat, drink and hang out in one of downtown Durant's most distinctive historic buildings, with a full bar, patio and recurring entertainment.",
+      "why_its_unique": "The restaurant occupies Durant's former Crystal Ice Co. building from 1927, retaining historic structural features including its original gantry crane and multi-level ice-storage layout.",
+      "phone": "580-931-9944",
+      "email": null,
+      "website": "https://oldicehousedurant.com/",
+      "facebook": "https://www.facebook.com/oldicehousedurant",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$",
+      "family_friendly": null,
+      "pet_friendly": true,
+      "dog_friendly": true,
+      "hours": {
+        "monday": "11:00 AM - 9:00 PM",
+        "tuesday": "11:00 AM - 9:00 PM",
+        "wednesday": "11:00 AM - 9:00 PM",
+        "thursday": "11:00 AM - 9:00 PM",
+        "friday": "11:00 AM - 9:00 PM",
+        "saturday": "10:00 AM - 9:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Hours reflect the venue's current official online-ordering system; entertainment or special-event hours may run differently.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$$",
+        "family_friendly": null,
+        "pet_friendly": true,
+        "dog_friendly": true,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Full-service restaurant",
+        "Full bar",
+        "Cocktails",
+        "Outdoor patio",
+        "Dog-friendly outdoor seating",
+        "Live entertainment",
+        "Historic interior"
+      ],
+      "good_to_know": [
+        "Located at 215 N 3rd Ave in downtown Durant.",
+        "The building was constructed in 1927 for the Crystal Ice Co.",
+        "Original ice-house features remain, including the gantry crane and multi-level interior.",
+        "Old Ice House offers outdoor seating and is pet friendly.",
+        "Current entertainment schedules should be checked before visiting specifically for karaoke or live music."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23 from the official Old Ice House website, current official online-ordering system, TravelOK and Discover Durant. Sources confirm Old Ice House Durant at 215 N 3rd Ave, Durant, OK 74701; phone 580-931-9944; full-service restaurant and bar operations; historic 1927 Crystal Ice Co. building; outdoor seating; pet-friendly amenities; full bar and recurring entertainment. Current 2026 listings also identify Friday-night karaoke as an active entertainment lead.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Karaoke",
+        "Live Music",
+        "Nightlife",
+        "Food & Drink Events"
+      ],
+      "event_sources": [
+        "Official Old Ice House website",
+        "Official Old Ice House Facebook page",
+        "TravelOK",
+        "Current 2026 local event listings"
+      ],
+      "features": [
+        "Historic 1927 ice-house building",
+        "Downtown Durant location",
+        "Full-service restaurant",
+        "Full bar",
+        "Outdoor patio",
+        "Dog friendly",
+        "Live entertainment",
+        "Karaoke"
       ]
     }
   ]
