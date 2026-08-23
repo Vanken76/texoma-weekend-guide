@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1201,
-  "publish_ready_count": 877,
+  "business_count": 1202,
+  "publish_ready_count": 878,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -130136,6 +130136,121 @@
         "Charcuterie",
         "Live music",
         "Karaoke",
+        "Recurring entertainment"
+      ]
+    },
+    {
+      "slug": "buffalo-joes-pub-paris",
+      "business_name": "Buffalo Joe's Pub",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "3338 NE Loop 286, Paris, TX 75460",
+      "category": [
+        "Pub",
+        "Bar & Grill",
+        "Restaurant",
+        "Live Music Venue"
+      ],
+      "tags": [
+        "Buffalo Joe's Pub",
+        "Buffalo Joe's Pub & Grill",
+        "Paris",
+        "Lamar County",
+        "Pub",
+        "Bar",
+        "Restaurant",
+        "Bar Food",
+        "Burgers",
+        "Wings",
+        "Beer",
+        "Patio",
+        "Outdoor Seating",
+        "Live Music",
+        "Nightlife"
+      ],
+      "description": "Buffalo Joe's Pub is a long-running Paris pub and bar-and-grill serving casual food and drinks with indoor and outdoor seating and an active live-music schedule.",
+      "why_visit": "A casual Paris hangout for pub food, drinks, a large outdoor patio and live entertainment.",
+      "why_its_unique": "Buffalo Joe's combines a neighborhood pub atmosphere with a sizable outdoor gathering space and regular live-music bookings.",
+      "phone": "430-228-6130",
+      "email": null,
+      "website": "http://buffalojoesparis.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$",
+      "family_friendly": null,
+      "pet_friendly": true,
+      "dog_friendly": true,
+      "hours": {
+        "monday": "4:00 PM - 11:00 PM",
+        "tuesday": "4:00 PM - 11:00 PM",
+        "wednesday": "4:00 PM - 11:00 PM",
+        "thursday": "4:00 PM - 12:00 AM",
+        "friday": "3:00 PM - 12:00 AM",
+        "saturday": "12:00 PM - 1:00 AM",
+        "sunday": "11:00 AM - 9:00 PM"
+      },
+      "hours_note": null,
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$$",
+        "family_friendly": null,
+        "pet_friendly": true,
+        "dog_friendly": true,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Pub food",
+        "Full bar",
+        "Beer",
+        "Outdoor patio",
+        "Outdoor seating",
+        "Live music"
+      ],
+      "good_to_know": [
+        "Located at 3338 NE Loop 286 in Paris.",
+        "The venue has a large outdoor patio and regularly hosts live entertainment.",
+        "Current public listings use 430-228-6130 as the main phone number.",
+        "Check current event listings before visiting specifically for entertainment."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23 from current local-business listings, Paris-area business sources and active 2026 concert listings. Current sources confirm Buffalo Joe's Pub at 3338 NE Loop 286, Paris, TX 75460; phone 430-228-6130; pub and restaurant service; outdoor seating; and ongoing live-music bookings.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Live Music",
+        "Concerts",
+        "Nightlife"
+      ],
+      "event_sources": [
+        "Buffalo Joe's Pub website",
+        "Current artist and concert listings"
+      ],
+      "features": [
+        "Neighborhood pub",
+        "Bar and grill",
+        "Large outdoor patio",
+        "Live music venue",
         "Recurring entertainment"
       ]
     }
