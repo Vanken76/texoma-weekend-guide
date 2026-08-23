@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-22",
+  "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1180,
-  "publish_ready_count": 856,
+  "business_count": 1181,
+  "publish_ready_count": 857,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -127669,6 +127669,100 @@
         "JOM/Indian Education",
         "New baseball and softball field construction",
         "Current Board of Education resources"
+      ]
+    },
+    {
+      "slug": "turner-public-schools",
+      "business_name": "Turner Public Schools",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "22069 State Hwy 32, Burneyville, OK 73430",
+      "category": [
+        "School District",
+        "Public Education"
+      ],
+      "tags": [
+        "Public Schools",
+        "Education",
+        "Athletics",
+        "FFA",
+        "FCCLA",
+        "Performing Arts",
+        "STEM",
+        "Community Events"
+      ],
+      "description": "Turner Public Schools is the public school district serving the Burneyville area of southern Oklahoma. The district includes Turner Elementary, Turner Middle and Turner High and supports academics, Falcon athletics, FFA, FCCLA, vocal music, performing arts, STEM, National Honor Society and other student programs.",
+      "why_visit": "Turner Public Schools is a useful source for school activities, athletics, performances, student programs, board meetings and other public-facing district events in the Burneyville area.",
+      "why_its_unique": "The district combines a small-community school system with a broad mix of athletics, agriculture, career and technical organizations, music, performing arts and STEM programming.",
+      "phone": "580-276-1307",
+      "email": null,
+      "website": "https://www.turnerisd.org/",
+      "facebook": "https://www.facebook.com/TurnerPublicSchool",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "District office and campus hours vary with the school calendar, holidays and scheduled activities. Verify current access before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "The district includes Turner Elementary, Turner Middle and Turner High.",
+        "Check the district calendar and individual event information for campus location, public access and schedule details.",
+        "Superintendent: Shari Pillow."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from current official Turner Public Schools sources on 2026-08-22. Treat the district as the canonical parent organization; individual schools and physical stadiums, gyms, fields, auditoriums or other facilities should be separate child/venue records when added. Verify that school-calendar activities are public-facing before TWG publication.",
+      "last_checked": "2026-08-22",
+      "event_types": [
+        "School and community events",
+        "Athletics",
+        "Performing arts",
+        "FFA and FCCLA events",
+        "Board meetings"
+      ],
+      "event_sources": [
+        "Official Turner Public Schools website",
+        "Turner District Calendar",
+        "Turner Athletics",
+        "Official Turner Public Schools Facebook page"
+      ],
+      "features": [
+        "Turner Elementary, Turner Middle and Turner High",
+        "Falcons athletics",
+        "FFA and FCCLA",
+        "Vocal music and performing arts",
+        "STEM and National Honor Society"
       ]
     }
   ]
