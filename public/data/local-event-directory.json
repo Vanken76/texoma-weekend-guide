@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 373,
-  "publish_ready_count": 373,
+  "event_count": 374,
+  "publish_ready_count": 374,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -24681,6 +24681,62 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified 2026-08-23 from the current Dallas Songwriters Association 2026 schedule. Cocktail Creamery McKinney Open Mic is listed every third Thursday from 7:30 PM to 9:30 PM. Songwriters perform in the round and may sign up with host Rickey Gene Wright. Dallas Songwriters Association states its open mics are open to the public. No admission price or age restriction was published.",
+      "last_checked": "2026-08-23",
+      "created_on": "2026-08-23",
+      "updated_on": "2026-08-23"
+    },
+    {
+      "event_slug": "friday-nights-karaoke-dj-the-scoreboard-denison",
+      "event_name": "Friday Nights = Karaoke + DJ",
+      "description": "Friday night karaoke and DJ entertainment at The Scoreboard in Denison. Start the night on the mic, then stay for the DJ and dancing.",
+      "start_datetime": "2026-08-28T19:00:00-05:00",
+      "end_datetime": "2026-08-28T22:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "the-scoreboard"
+      ],
+      "venue_name": "The Scoreboard",
+      "address": "1721 S Armstrong Ave",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Karaoke",
+        "DJ",
+        "Nightlife",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "karaoke",
+        "DJ",
+        "Friday night",
+        "The Scoreboard",
+        "Denison"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": "the-scoreboard",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/friday-nights-karaoke-dj-the-scoreboard-denison.png",
+      "image_alt": null,
+      "official_url": "https://thescoreboardtx.com/events",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=FR",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-23 from The Scoreboard's official event calendar. Friday Nights = Karaoke + DJ is listed every Friday from 7:00 PM to 10:00 PM at 1721 S Armstrong Ave, Denison, TX 75020. No admission price or age restriction was published.",
       "last_checked": "2026-08-23",
       "created_on": "2026-08-23",
       "updated_on": "2026-08-23"
