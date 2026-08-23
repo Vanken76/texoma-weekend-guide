@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 357,
-  "publish_ready_count": 357,
+  "event_count": 358,
+  "publish_ready_count": 358,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -23774,6 +23774,64 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified from current official City of Gainesville and Gainesville Area Chamber of Commerce sources. The City calendar confirms the Aug. 25, 2026 occurrence at 7:45 AM at the Civic Center. The Chamber confirms Rise & Shine is its second-and-fourth-Tuesday business networking series, with networking at 7:45 AM and the meeting beginning at 8:00 AM, and that Chamber membership is not required to attend. The organizer did not publish an ending time or admission price, so neither was invented. This record represents the specific Pecan Tree-hosted Aug. 25 occurrence rather than the recurring series as a whole.",
+      "last_checked": "2026-08-22",
+      "created_on": "2026-08-22",
+      "updated_on": "2026-08-23"
+    },
+    {
+      "event_slug": "public-hearing-proposed-2026-tax-rate-paris-2026-08-24",
+      "event_name": "Public Hearing on the Proposed 2026 Tax Rate",
+      "description": "The City of Paris will hold a public hearing on the proposed property tax rate for the 2026 tax year. The hearing gives members of the public an opportunity to attend the city's formal tax-rate hearing at Paris City Hall.",
+      "start_datetime": "2026-08-24T17:30:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "paris-city-hall"
+      ],
+      "venue_name": "Paris City Hall",
+      "address": "107 E. Kaufman St.",
+      "city": "Paris",
+      "state": "TX",
+      "postal_code": "75460",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Government",
+        "Community Event"
+      ],
+      "tags": [
+        "Paris",
+        "City of Paris",
+        "Public Hearing",
+        "Property Tax",
+        "Tax Rate",
+        "City Government",
+        "Lamar County"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "Public"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "City of Paris",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/public-hearing-proposed-2026-tax-rate-paris-2026-08-24.png",
+      "image_alt": null,
+      "official_url": "https://www.paristexas.gov/m/newsflash/home/detail/610",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from current official City of Paris sources. The city confirms a public hearing on the proposed tax rate for the 2026 tax year on Aug. 24, 2026 at 5:30 PM at Paris City Hall, 107 E. Kaufman St., Paris, TX 75460. Paris City Hall has now been separately verified and added to the TWG directory under the canonical venue slug paris-city-hall. No ending time or admission information was published, so neither was invented.",
       "last_checked": "2026-08-22",
       "created_on": "2026-08-22",
       "updated_on": "2026-08-23"
