@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1202,
-  "publish_ready_count": 878,
+  "business_count": 1203,
+  "publish_ready_count": 879,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -130251,6 +130251,119 @@
         "Bar and grill",
         "Large outdoor patio",
         "Live music venue",
+        "Recurring entertainment"
+      ]
+    },
+    {
+      "slug": "red-barn-saloon-durant",
+      "business_name": "Red Barn Saloon",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "3012 N 1st Ave, Durant, OK 74701",
+      "category": [
+        "Bar",
+        "Dive Bar",
+        "Live Music Venue"
+      ],
+      "tags": [
+        "Red Barn Saloon",
+        "Durant",
+        "Bryan County",
+        "Bar",
+        "Dive Bar",
+        "Beer",
+        "Mixed Drinks",
+        "Pool Table",
+        "Live Music",
+        "Karaoke",
+        "Nightlife",
+        "Live Entertainment"
+      ],
+      "description": "Red Barn Saloon is a longtime local dive bar in Durant serving cold beer and mixed drinks with a pool table, live music and other entertainment.",
+      "why_visit": "A longtime Durant watering hole for drinks, pool and live entertainment in a casual local-bar atmosphere.",
+      "why_its_unique": "Established in 1981, Red Barn Saloon has decades of history as a Durant neighborhood dive bar and entertainment spot.",
+      "phone": "580-920-9192",
+      "email": "redbarnsaloondurant@gmail.com",
+      "website": "https://www.durantredbarnsaloon.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "1:00 PM - 2:00 AM",
+        "tuesday": "1:00 PM - 2:00 AM",
+        "wednesday": "1:00 PM - 2:00 AM",
+        "thursday": "1:00 PM - 2:00 AM",
+        "friday": "1:00 PM - 2:00 AM",
+        "saturday": "1:00 PM - 2:00 AM",
+        "sunday": "5:00 PM - 2:00 AM"
+      },
+      "hours_note": "Current public map listings show these hours; verify directly before making a special trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Beer",
+        "Mixed drinks",
+        "Pool table",
+        "Live music",
+        "Karaoke",
+        "Live entertainment"
+      ],
+      "good_to_know": [
+        "Located at 3012 N 1st Ave in Durant.",
+        "Red Barn Saloon describes itself as a local dive bar established in 1981.",
+        "The venue serves cold beer and mixed drinks and has a pool table.",
+        "Its official website currently shows no upcoming events, so current entertainment dates should be confirmed before visiting."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23 from the current official Red Barn Saloon website and current public business listings. Official sources confirm Red Barn Saloon at 3012 N 1st Ave, Durant, OK 74701; phone 580-920-9192; email redbarnsaloondurant@gmail.com; establishment in 1981; beer, mixed drinks, live music and a pool table. Current 2026 public activity also references karaoke and ongoing entertainment, although the official website presently lists no upcoming events.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Karaoke",
+        "Live Music",
+        "Open Mic",
+        "Nightlife"
+      ],
+      "event_sources": [
+        "Official Red Barn Saloon website",
+        "Current Red Barn Saloon event listings"
+      ],
+      "features": [
+        "Longtime Durant dive bar",
+        "Established in 1981",
+        "Pool table",
+        "Live music",
+        "Karaoke",
         "Recurring entertainment"
       ]
     }
