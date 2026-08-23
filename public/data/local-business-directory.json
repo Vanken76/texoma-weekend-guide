@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1185,
-  "publish_ready_count": 861,
+  "business_count": 1186,
+  "publish_ready_count": 862,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -128247,6 +128247,112 @@
         "Bingo facilities",
         "Facility rentals",
         "Full-service kitchen"
+      ]
+    },
+    {
+      "slug": "the-post-sherman",
+      "business_name": "The Post",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "101 N Travis St, Sherman, TX 75090",
+      "category": [
+        "Restaurant",
+        "Bar",
+        "Event Venue"
+      ],
+      "tags": [
+        "The Post",
+        "Sherman",
+        "Downtown Sherman",
+        "Restaurant",
+        "Bar",
+        "American Food",
+        "Cocktails",
+        "Open Mic",
+        "Live Entertainment",
+        "Private Events"
+      ],
+      "description": "The Post is a downtown Sherman restaurant, bar and gathering place serving American pub-style food, cocktails and other drinks in a renovated historic building. The venue also hosts community entertainment including Tuesday open mic and offers space for private celebrations, meetings and other events.",
+      "why_visit": "Visit for American pub-style food, handcrafted drinks, downtown Sherman atmosphere, happy hour and recurring entertainment including open mic.",
+      "why_its_unique": "The Post combines a downtown restaurant and bar with recurring entertainment and private-event space inside a revitalized historic building dating to the 1800s.",
+      "phone": "903-703-7814",
+      "email": null,
+      "website": "https://thepostshermantx.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": null,
+      "hours_note": "Current ordering and website displays have shown conflicting daily-hour data, so exact regular hours are intentionally not encoded. The official website currently advertises weekday happy hour Monday through Friday from 3:00 PM to 6:00 PM.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full restaurant menu",
+        "Cocktails and bar service",
+        "Happy hour",
+        "Private-event bookings",
+        "Meeting and celebration space",
+        "Recurring entertainment"
+      ],
+      "good_to_know": [
+        "The Post is located at 101 N Travis St in downtown Sherman.",
+        "The official website promotes Open Mic on Tuesdays.",
+        "Happy hour is advertised Monday through Friday from 3:00 PM to 6:00 PM.",
+        "The venue accepts bookings for celebrations, business meetings and other private events.",
+        "Check the official website for current operating hours before visiting."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23 from The Post's official website and the City of Sherman downtown business directory. Official sources confirm the name, 101 N Travis St address, 903-703-7814 phone number, American pub-style food, bar service, private-event bookings and Tuesday Open Mic promotion. Exact regular operating hours are omitted because current official/order displays are inconsistent.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Open Mic",
+        "Live Entertainment",
+        "Community Events",
+        "Private Events",
+        "Business Meetings",
+        "Food & Drink Events"
+      ],
+      "event_sources": [
+        "Official The Post website",
+        "Official The Post promotional graphics"
+      ],
+      "features": [
+        "Downtown Sherman location",
+        "Historic building",
+        "American pub-style food",
+        "Cocktails",
+        "Recurring open mic",
+        "Private-event space"
       ]
     }
   ]
