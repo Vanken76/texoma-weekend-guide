@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1183,
-  "publish_ready_count": 859,
+  "business_count": 1184,
+  "publish_ready_count": 860,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -128026,6 +128026,114 @@
         "Public hearings",
         "City Council proceedings",
         "ADA-accessible meeting space"
+      ]
+    },
+    {
+      "slug": "denison-city-hall",
+      "business_name": "Denison City Hall",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "300 W. Main St., Denison, TX 75020",
+      "category": [
+        "Government",
+        "City Hall",
+        "Event Venue"
+      ],
+      "tags": [
+        "Denison",
+        "Grayson County",
+        "City Government",
+        "City Council",
+        "Planning and Zoning",
+        "Public Meetings",
+        "Public Hearings",
+        "Government Meetings",
+        "Boards and Commissions",
+        "Community Meetings"
+      ],
+      "description": "Denison City Hall is the municipal government center for the City of Denison, Texas. The building houses multiple city departments and its City Council Chambers regularly host City Council proceedings, Planning and Zoning Commission meetings, public hearings, boards, commissions and other public-facing municipal meetings.",
+      "why_visit": "Denison City Hall is a recurring source of civic events and public meetings where residents can follow local government, attend hearings and participate in city proceedings.",
+      "why_its_unique": "The building serves as Denison's primary municipal administration center and includes the City Council Chambers, making it one of the city's central locations for recurring public-government meetings.",
+      "phone": "903-465-2720",
+      "email": null,
+      "website": "https://www.cityofdenison.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Department hours and public meeting access vary. Check the official City of Denison calendar and individual meeting notices before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "City Council Chambers",
+        "Municipal offices"
+      ],
+      "good_to_know": [
+        "Denison City Hall is located at 300 W. Main St.",
+        "The building houses the City Manager, Accounting, City Clerk, Planning and Zoning, Public Works, Employee Services, Community Engagement, Code Compliance, Building, Utility Billing and Municipal Court offices.",
+        "City Council Chambers at Denison City Hall host recurring municipal meetings and proceedings.",
+        "The City of Denison posts public-meeting notices both online and on a public bulletin board at City Hall.",
+        "Agendas and minutes for city boards and commissions are available through the city's official public-meeting resources.",
+        "Old City Hall is a separate municipal facility at 500 W. Chestnut St.; it should not be confused with the current City Hall at 300 W. Main St."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Denison",
+        "Grayson County"
+      ],
+      "verification_note": "Complete. Verified from current official City of Denison sources. City Hall is located at 300 W. Main St., Denison, TX 75020, with the city's main phone number 903-465-2720. Official city resources identify Planning and Zoning and multiple municipal departments at this address. Current city calendar records identify the City Council Chambers at Denison City Hall as a public meeting location. City public-meeting notices, agendas and calendars make this a high-priority recurring TWG event source. Old City Hall at 500 W. Chestnut St. is a separate municipal facility and should not be merged with this record.",
+      "last_checked": "2026-08-22",
+      "event_types": [
+        "City Council meetings",
+        "Planning and Zoning Commission meetings",
+        "Public hearings",
+        "Board and commission meetings",
+        "Special called meetings",
+        "Government workshops",
+        "Community and civic meetings"
+      ],
+      "event_sources": [
+        "City of Denison official calendar",
+        "City of Denison Public Meetings and Notices",
+        "City of Denison Agenda Center",
+        "City of Denison Planning and Zoning Commission"
+      ],
+      "features": [
+        "City Council Chambers",
+        "Planning and Zoning offices",
+        "Recurring public meetings",
+        "Public hearings",
+        "Municipal administration center"
       ]
     }
   ]
