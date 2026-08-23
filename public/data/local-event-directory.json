@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 364,
-  "publish_ready_count": 364,
+  "event_count": 365,
+  "publish_ready_count": 365,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -24164,6 +24164,62 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified 2026-08-23 from the official Downtown Denison event calendar. The listing states that Nancy hosts karaoke at Kiotee Club every Friday beginning at 9:00 PM and continuing until 2:00 AM. The calendar event block displays 9:00 PM–10:00 PM, but the published event description explicitly states the event continues until 2:00 AM, so the descriptive schedule was used. No admission price or age restriction was published.",
+      "last_checked": "2026-08-23",
+      "created_on": "2026-08-23",
+      "updated_on": "2026-08-23"
+    },
+    {
+      "event_slug": "friday-night-karaoke-dj-erica-eagles-aerie-85-denison",
+      "event_name": "Friday Night Karaoke",
+      "description": "Friday night karaoke with DJ Erica at Fraternal Order of Eagles Aerie #85 in downtown Denison.",
+      "start_datetime": "2026-08-28T19:00:00-05:00",
+      "end_datetime": "2026-08-28T23:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "fraternal-order-of-eagles-aerie-85-denison"
+      ],
+      "venue_name": "Fraternal Order of Eagles Aerie #85",
+      "address": "211 W Main St",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Karaoke",
+        "Nightlife",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "karaoke",
+        "DJ Erica",
+        "Friday night",
+        "Eagles Aerie 85",
+        "Denison",
+        "Downtown Denison"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": "fraternal-order-of-eagles-aerie-85-denison",
+      "organizer_name": "DJ Erica",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/friday-night-karaoke-dj-erica-eagles-aerie-85-denison.png",
+      "image_alt": null,
+      "official_url": "https://denisonlive.com/music/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=FR",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-23 through current Downtown Denison event listings. Friday Night Karaoke is listed at Fraternal Order of Eagles Aerie #85, 211 W Main St, Denison, from 7:00 PM to 11:00 PM with DJ Erica. Multiple Friday occurrences support weekly recurrence. No admission price or age restriction was published.",
       "last_checked": "2026-08-23",
       "created_on": "2026-08-23",
       "updated_on": "2026-08-23"
