@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1192,
-  "publish_ready_count": 868,
+  "business_count": 1193,
+  "publish_ready_count": 869,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -129061,6 +129061,127 @@
         "Recurring karaoke",
         "Live music",
         "Weekly trivia"
+      ]
+    },
+    {
+      "slug": "the-garage-mckinney",
+      "business_name": "The Garage",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "100 E Louisiana St, McKinney, TX 75069",
+      "category": [
+        "Cocktail Bar",
+        "Bar",
+        "Live Music Venue",
+        "Karaoke Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "The Garage",
+        "McKinney",
+        "Historic Downtown McKinney",
+        "Cocktail Bar",
+        "Bar",
+        "Karaoke",
+        "Live Music",
+        "Private Events",
+        "Craft Cocktails",
+        "Nightlife",
+        "Spoons Cafe"
+      ],
+      "description": "The Garage is an 18+ cocktail bar and event venue in Historic Downtown McKinney, located behind Spoons Cafe. The restored space offers craft cocktails, food and recurring entertainment including Friday karaoke and Saturday live music, along with private-event bookings.",
+      "why_visit": "Visit for craft cocktails, food, Friday karaoke, Saturday live music and an intimate downtown McKinney nightlife setting.",
+      "why_its_unique": "The Garage combines an intimate restored downtown space with a full bar, recurring weekly entertainment and private-event capabilities directly behind Spoons Cafe.",
+      "phone": "972-548-6900",
+      "email": "info@spoonscafe.com",
+      "website": "https://thegaragemckinney.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": false,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM–2:00 PM",
+        "tuesday": "11:00 AM–2:00 PM",
+        "wednesday": "11:00 AM–2:00 PM",
+        "thursday": "11:00 AM–2:00 PM",
+        "friday": "11:00 AM–9:00 PM",
+        "saturday": "8:30 AM–9:00 PM",
+        "sunday": "8:30 AM–3:00 PM"
+      },
+      "hours_note": "Hours are the current hours published on the official The Garage website. Special events may operate on a different schedule.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": false,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full bar",
+        "Craft cocktails",
+        "Food service",
+        "Karaoke",
+        "Live music",
+        "Private-event bookings",
+        "Table reservations",
+        "Recurring entertainment"
+      ],
+      "good_to_know": [
+        "The Garage is located at 100 E Louisiana St behind Spoons Cafe.",
+        "The venue is 18 and older.",
+        "The official website currently advertises Karaoke on Kentucky St. every Friday.",
+        "Saturday programming includes Groovin' in the Garage live music.",
+        "The venue accepts bookings for rehearsal dinners, bridal showers, corporate gatherings, workshops, birthdays and other private events."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23 from the official The Garage website and Visit McKinney. Official sources confirm The Garage at 100 E Louisiana St, McKinney, TX 75069, behind Spoons Cafe; phone 972-548-6900; email info@spoonscafe.com; 18+ policy; full-bar and event-venue operations; food service; private-event bookings; Friday karaoke; and Saturday live music.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Karaoke",
+        "Live Music",
+        "Private Events",
+        "Nightlife Events",
+        "Food & Drink Events"
+      ],
+      "event_sources": [
+        "Official The Garage website",
+        "Official The Garage event calendar",
+        "Visit McKinney"
+      ],
+      "features": [
+        "Historic Downtown McKinney location",
+        "18+ venue",
+        "Full bar",
+        "Craft cocktails",
+        "Food service",
+        "Recurring Friday karaoke",
+        "Recurring Saturday live music",
+        "Private-event space"
       ]
     }
   ]
