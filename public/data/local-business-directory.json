@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1197,
-  "publish_ready_count": 873,
+  "business_count": 1198,
+  "publish_ready_count": 874,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -129671,6 +129671,109 @@
         "Darts",
         "Outdoor patio",
         "Late-night venue"
+      ]
+    },
+    {
+      "slug": "vfw-post-4852-bonham",
+      "business_name": "VFW Post 4852",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1610 Mitchell Dr, Bonham, TX 75418",
+      "category": [
+        "Veterans Organization",
+        "Community Organization",
+        "Event Venue"
+      ],
+      "tags": [
+        "VFW Post 4852",
+        "James E. Bragg Memorial Post",
+        "Bonham",
+        "Fannin County",
+        "Veterans",
+        "Veterans Organization",
+        "Community Organization",
+        "Event Venue",
+        "Hall Rental",
+        "Karaoke",
+        "Live Entertainment"
+      ],
+      "description": "VFW Post 4852, the James E. Bragg Memorial Post, is a Veterans of Foreign Wars post and community gathering place in Bonham. The post supports area veterans and hosts social and community activities, with its hall also available for private rentals.",
+      "why_visit": "A local gathering place for veterans, community activities, social events and entertainment in Bonham.",
+      "why_its_unique": "The James E. Bragg Memorial Post combines veteran and community service with an active gathering space and rentable event hall.",
+      "phone": "903-583-5733",
+      "email": null,
+      "website": "https://vfwpost4852.org/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": null,
+      "hours_note": "Published hours vary between pages on the official VFW Post 4852 website; verify current canteen hours directly with the post.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": true,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Event hall",
+        "Hall rental",
+        "Community gathering space",
+        "Social events",
+        "Karaoke"
+      ],
+      "good_to_know": [
+        "The official name is James E. Bragg Memorial Post 4852.",
+        "The post is located at 1610 Mitchell Dr in Bonham.",
+        "The hall is available for rental.",
+        "Published operating hours vary between pages of the official website, so current hours should be confirmed directly."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from the official VFW Post 4852 website. Official sources confirm James E. Bragg Memorial Post 4852 at 1610 Mitchell Dr, Bonham, TX 75418; phone 903-583-5733; and hall rental availability. Published operating hours conflict between official-site pages and were therefore not treated as verified.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Karaoke",
+        "Community Events",
+        "Veterans Events",
+        "Social Events",
+        "Private Events"
+      ],
+      "event_sources": [
+        "Official VFW Post 4852 website",
+        "Official VFW Post 4852 calendar"
+      ],
+      "features": [
+        "Veterans organization",
+        "Community gathering place",
+        "Event hall",
+        "Hall rental",
+        "Recurring entertainment"
       ]
     }
   ]
