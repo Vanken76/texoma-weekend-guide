@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1190,
-  "publish_ready_count": 866,
+  "business_count": 1191,
+  "publish_ready_count": 867,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -128817,6 +128817,126 @@
         "Darts",
         "Golden Tee",
         "Multiple TVs"
+      ]
+    },
+    {
+      "slug": "corner-street-pub-greenville",
+      "business_name": "Corner Street Pub",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "2702 Lee St, Greenville, TX 75401",
+      "category": [
+        "Pub",
+        "Bar",
+        "Restaurant",
+        "Karaoke Venue",
+        "Live Music Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Corner Street Pub",
+        "Greenville",
+        "Downtown Greenville",
+        "Pub",
+        "Bar",
+        "Craft Beer",
+        "Karaoke",
+        "Live Music",
+        "Indoor Stage",
+        "Outdoor Stage",
+        "Nightlife",
+        "Food"
+      ],
+      "description": "Corner Street Pub is a downtown Greenville pub, bar, restaurant and entertainment venue established in 2013. The pub serves food and a craft-beer selection and regularly features entertainment, including Friday-night karaoke. The City of Greenville also identifies Corner Street Pub as a downtown nightspot with both indoor and outdoor stages.",
+      "why_visit": "Visit for craft beer, pub food, Friday-night karaoke and live entertainment in downtown Greenville.",
+      "why_its_unique": "Corner Street Pub combines a downtown neighborhood-pub atmosphere with both indoor and outdoor performance spaces and recurring entertainment.",
+      "phone": "903-455-8881",
+      "email": null,
+      "website": "https://cornerstreetpub.wixsite.com/cornerstreetpub",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM–12:00 AM",
+        "tuesday": "11:00 AM–12:00 AM",
+        "wednesday": "11:00 AM–12:00 AM",
+        "thursday": "11:00 AM–12:00 AM",
+        "friday": "11:00 AM–12:00 AM",
+        "saturday": "11:00 AM–1:00 AM",
+        "sunday": "3:00 PM–12:00 AM"
+      },
+      "hours_note": "These are the hours currently published on the official Corner Street Pub website. Check the venue directly for holiday or special-event changes.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Food menu",
+        "Craft beer",
+        "Indoor stage",
+        "Outdoor stage",
+        "Live entertainment",
+        "Karaoke",
+        "Friday happy hour"
+      ],
+      "good_to_know": [
+        "Corner Street Pub is located at 2702 Lee St in downtown Greenville.",
+        "The official website advertises lively karaoke every Friday night.",
+        "Friday happy hour is currently advertised from 4:00 PM to 7:00 PM.",
+        "The City of Greenville identifies the venue as having both indoor and outdoor stages.",
+        "The pub was established in 2013."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23 through the official Corner Street Pub website and the City of Greenville tourism website. Official sources confirm the venue at 2702 Lee St, Greenville, TX 75401; phone 903-455-8881; food and craft-beer service; Friday-night karaoke; and indoor and outdoor stages. The official website currently publishes operating hours and Friday happy hour.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Karaoke",
+        "Live Music",
+        "Live Entertainment",
+        "Nightlife Events",
+        "Food & Drink Events"
+      ],
+      "event_sources": [
+        "Official Corner Street Pub website",
+        "Official Corner Street Pub events page",
+        "City of Greenville tourism listings"
+      ],
+      "features": [
+        "Downtown Greenville location",
+        "Craft beer",
+        "Pub food",
+        "Indoor stage",
+        "Outdoor stage",
+        "Recurring Friday karaoke"
       ]
     }
   ]
