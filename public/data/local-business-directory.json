@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1206,
-  "publish_ready_count": 882,
+  "business_count": 1207,
+  "publish_ready_count": 883,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -130746,6 +130746,128 @@
         "RV campground",
         "Recurring karaoke",
         "Community service"
+      ]
+    },
+    {
+      "slug": "caney-creek-beer-garden",
+      "business_name": "Caney Creek Beer Garden",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "8848 Soldier Creek Rd Ste B, Kingston, OK 73439",
+      "category": [
+        "Beer Garden",
+        "Bar",
+        "Live Music Venue",
+        "Nightlife Venue"
+      ],
+      "tags": [
+        "Caney Creek Beer Garden",
+        "Caney Creek Resort",
+        "Kingston",
+        "Marshall County",
+        "Lake Texoma",
+        "Beer Garden",
+        "Bar",
+        "Cocktails",
+        "Food",
+        "Patio",
+        "Live Music",
+        "Karaoke",
+        "Nightlife"
+      ],
+      "description": "Caney Creek Beer Garden is a Lake Texoma-area bar and entertainment venue located at Caney Creek Resort near Kingston. The beer garden offers drinks, food, outdoor space and recurring live entertainment, with karaoke also hosted on occasion.",
+      "why_visit": "A casual Lake Texoma nightlife stop for drinks, food, outdoor atmosphere and live entertainment.",
+      "why_its_unique": "Its resort setting near Lake Texoma combines a laid-back beer-garden atmosphere with recurring live music and other entertainment.",
+      "phone": "580-564-3223",
+      "email": null,
+      "website": "https://www.caneycreekresort.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "6:00 PM - 12:00 AM",
+        "thursday": "6:00 PM - 12:00 AM",
+        "friday": "6:00 PM - 2:00 AM",
+        "saturday": "6:00 PM - 2:00 AM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current business data lists evening hours Wednesday through Saturday. Hours may vary seasonally or for special events.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full-service bar",
+        "Food",
+        "Outdoor seating",
+        "Live music",
+        "Karaoke",
+        "Lake-area resort setting"
+      ],
+      "good_to_know": [
+        "Located on the grounds of Caney Creek Resort near Lake Texoma.",
+        "Current business and 2026 event sources use 8848 Soldier Creek Rd Ste B.",
+        "The Town of Kingston directory currently lists an alternate address of 1719 Soldier Creek Rd.",
+        "Live entertainment remains active in 2026.",
+        "Karaoke is hosted on occasion rather than on a presently verified fixed schedule."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Kingston",
+        "Lake Texoma"
+      ],
+      "verification_note": "Verified 2026-08-23 from current business data, the Town of Kingston directory, Texoma Connect and a May 2026 artist-hosted event listing. Current business data and the 2026 event listing support 8848 Soldier Creek Rd Ste B, Kingston, OK 73439 and phone 580-564-3223. The Town of Kingston currently lists 1719 Soldier Creek Rd, so the address discrepancy is documented. Current sources confirm bar service, food, outdoor space, live entertainment and occasional karaoke.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Karaoke",
+        "Live Music",
+        "Nightlife",
+        "Food & Drink Events"
+      ],
+      "event_sources": [
+        "Current Caney Creek Beer Garden business listing",
+        "Town of Kingston directory",
+        "Texoma Connect",
+        "Current artist-hosted event listings"
+      ],
+      "features": [
+        "Lake Texoma location",
+        "Beer garden",
+        "Full-service bar",
+        "Outdoor seating",
+        "Live music",
+        "Karaoke",
+        "Recurring entertainment"
       ]
     }
   ]
