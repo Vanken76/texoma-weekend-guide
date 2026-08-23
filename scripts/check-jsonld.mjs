@@ -64,7 +64,7 @@ const note = (code, type, id, message) => addIssue(notes, code, type, id, messag
 
 const validDate = (value) => Boolean(value) && !Number.isNaN(Date.parse(value));
 
-const parseSerializedNode = (node, entityType, entityId, label) => {
+const parseSerializedNode = (node, entityType, entityId, label, { allowEmpty = false } = {}) => {
   if (!node) return null;
   let serialized = "";
   try {
@@ -75,6 +75,7 @@ const parseSerializedNode = (node, entityType, entityId, label) => {
   }
 
   if (!serialized) {
+    if (allowEmpty) return null;
     error("jsonld_empty_serialization", entityType, entityId, `${label} produced an empty serialization.`);
     return null;
   }
@@ -161,7 +162,7 @@ for (const business of publishedBusinesses) {
     siteUrl: SITE_URL
   });
   if (relationshipNode) {
-    if (parseSerializedNode(relationshipNode, "business", id, "Business relationship JSON-LD")) {
+    if (parseSerializedNode(relationshipNode, "business", id, "Business relationship JSON-LD", { allowEmpty: true })) {
       stats.relationshipNodes += 1;
     }
   }
@@ -232,7 +233,7 @@ for (const event of publishedEvents) {
 
   const relationshipNode = buildEventRelationshipJsonLd({ event, hostBusiness, siteUrl: SITE_URL });
   if (relationshipNode) {
-    if (parseSerializedNode(relationshipNode, "event", id, "Event relationship JSON-LD")) {
+    if (parseSerializedNode(relationshipNode, "event", id, "Event relationship JSON-LD", { allowEmpty: true })) {
       stats.relationshipNodes += 1;
     }
   }
