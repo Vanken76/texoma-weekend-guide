@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1196,
-  "publish_ready_count": 872,
+  "business_count": 1197,
+  "publish_ready_count": 873,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -129552,6 +129552,125 @@
         "Recurring open mic",
         "Comedy training center",
         "Private-event space"
+      ]
+    },
+    {
+      "slug": "the-rabbit-hole-tavern-durant",
+      "business_name": "The Rabbit Hole Tavern",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "137 W Main St, Durant, OK 74701",
+      "category": [
+        "Tavern",
+        "Bar",
+        "Karaoke Venue",
+        "Live Entertainment Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "The Rabbit Hole Tavern",
+        "Durant",
+        "Downtown Durant",
+        "Tavern",
+        "Bar",
+        "Karaoke",
+        "Live Entertainment",
+        "Pool",
+        "Darts",
+        "Patio",
+        "Nightlife",
+        "Bryan County"
+      ],
+      "description": "The Rabbit Hole Tavern is a downtown Durant tavern and nightlife venue featuring drinks, pool, darts, karaoke and other entertainment in a casual late-night setting. The venue also offers outdoor patio space and regularly hosts social and entertainment programming.",
+      "why_visit": "Visit for a casual downtown Durant bar atmosphere with karaoke, pool, darts, drinks and late-night entertainment.",
+      "why_its_unique": "The Rabbit Hole combines a small downtown tavern atmosphere with bar games, patio space and recurring karaoke programming.",
+      "phone": "580-258-0639",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": false,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "2:00 PM–2:00 AM",
+        "tuesday": "2:00 PM–2:00 AM",
+        "wednesday": "2:00 PM–2:00 AM",
+        "thursday": "2:00 PM–2:00 AM",
+        "friday": "2:00 PM–2:00 AM",
+        "saturday": "2:00 PM–2:00 AM",
+        "sunday": "2:00 PM–2:00 AM"
+      },
+      "hours_note": "Current public business listings updated in 2026 publish 2:00 PM–2:00 AM daily. Check current venue information for holiday or special-event changes.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": false,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Bar service",
+        "Karaoke",
+        "Pool tables",
+        "Darts",
+        "Outdoor patio",
+        "Live entertainment",
+        "Late-night hours"
+      ],
+      "good_to_know": [
+        "The Rabbit Hole Tavern is located at 137 W Main St in downtown Durant.",
+        "Discover Durant currently lists the business among Durant bars and pubs.",
+        "Current 2026 business listings identify karaoke, pool, darts and outdoor seating as venue features.",
+        "The venue remains active, with a Bryan County establishment inspection recorded in July 2026.",
+        "Recurring Friday karaoke is an active event-mining target."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23 through Discover Durant, current 2026 business listings and current Bryan County establishment records. Sources confirm The Rabbit Hole Tavern at 137 W Main St, Durant, OK 74701; phone 580-258-0639; active tavern operations; karaoke; pool; darts; outdoor seating and late-night hours. No standalone official website or reliably verified official social-media URL was located during this check.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Karaoke",
+        "Live Music",
+        "Live Entertainment",
+        "Bar Events",
+        "Nightlife Events"
+      ],
+      "event_sources": [
+        "Discover Durant",
+        "Current venue-hosted event listings",
+        "Current business listings"
+      ],
+      "features": [
+        "Downtown Durant location",
+        "Karaoke",
+        "Pool tables",
+        "Darts",
+        "Outdoor patio",
+        "Late-night venue"
       ]
     }
   ]
