@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1194,
-  "publish_ready_count": 870,
+  "business_count": 1195,
+  "publish_ready_count": 871,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -129309,6 +129309,127 @@
         "Full bar",
         "Sports viewing",
         "Recurring entertainment"
+      ]
+    },
+    {
+      "slug": "cocktail-creamery-mckinney",
+      "business_name": "Cocktail Creamery",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "205 E Virginia St, McKinney, TX 75069",
+      "category": [
+        "Ice Cream Shop",
+        "Dessert Shop",
+        "Cocktail Bar",
+        "Bar",
+        "Live Music Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Cocktail Creamery",
+        "McKinney",
+        "Historic Downtown McKinney",
+        "Boozy Ice Cream",
+        "Ice Cream",
+        "Cocktails",
+        "Full Bar",
+        "Live Music",
+        "Open Mic",
+        "Dessert",
+        "Vegan Sorbet"
+      ],
+      "description": "Cocktail Creamery is a downtown McKinney dessert bar, cocktail lounge and entertainment venue specializing in house-made alcohol-infused ice cream, non-alcoholic ice cream, vegan sorbets and craft cocktails. Its expanded Virginia Street location includes a full bar and hosts recurring live music and songwriter open mic events.",
+      "why_visit": "Visit for a distinctive combination of house-made boozy ice cream, craft cocktails, traditional non-alcoholic desserts and recurring live entertainment near the Historic Downtown McKinney square.",
+      "why_its_unique": "Cocktail Creamery combines an artisan ice cream shop with a full cocktail bar, creating dozens of alcohol-infused frozen-dessert flavors while also maintaining non-boozy options and hosting local musicians and songwriters.",
+      "phone": "469-534-3403",
+      "email": null,
+      "website": "https://cocktailcreamery.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "12:00 PM–10:00 PM",
+        "tuesday": "12:00 PM–10:00 PM",
+        "wednesday": "12:00 PM–10:00 PM",
+        "thursday": "12:00 PM–10:00 PM",
+        "friday": "12:00 PM–11:00 PM",
+        "saturday": "12:00 PM–11:00 PM",
+        "sunday": "12:00 PM–8:00 PM"
+      },
+      "hours_note": "Current hours are published on the official Cocktail Creamery website.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full cocktail bar",
+        "House-made boozy ice cream",
+        "Non-alcoholic ice cream",
+        "Vegan sorbets",
+        "Snacks",
+        "Outdoor seating",
+        "Live music",
+        "Open mic events",
+        "Take-home pints"
+      ],
+      "good_to_know": [
+        "Cocktail Creamery is located at 205 E Virginia St near the Historic Downtown McKinney square.",
+        "The current location includes a full cocktail bar and lounge.",
+        "The official website advertises live music every Friday night at 8:00 PM.",
+        "Dallas Songwriters Association currently hosts a monthly songwriter open mic at Cocktail Creamery.",
+        "Alcohol-infused ice cream is approximately 4.0%–4.5% ABV, while non-alcoholic flavors are also available."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23 from the official Cocktail Creamery website and current Dallas Songwriters Association programming. Official sources confirm Cocktail Creamery at 205 E Virginia St, McKinney, TX 75069; phone 469-534-3403; full cocktail bar and lounge; boozy and non-boozy frozen desserts; current operating hours; Friday live music; and recurring Dallas Songwriters Association open mic programming.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Open Mic",
+        "Live Music",
+        "Songwriter Events",
+        "Food & Drink Events",
+        "Nightlife Events"
+      ],
+      "event_sources": [
+        "Official Cocktail Creamery website",
+        "Dallas Songwriters Association"
+      ],
+      "features": [
+        "Historic Downtown McKinney location",
+        "House-made boozy ice cream",
+        "Full cocktail bar",
+        "Vegan sorbets",
+        "Non-alcoholic dessert options",
+        "Recurring live music",
+        "Monthly songwriter open mic"
       ]
     }
   ]
