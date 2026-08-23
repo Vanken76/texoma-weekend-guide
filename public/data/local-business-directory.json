@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1182,
-  "publish_ready_count": 858,
+  "business_count": 1183,
+  "publish_ready_count": 859,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -127920,6 +127920,112 @@
         "Band",
         "Indian Education and JOM",
         "Public Upcoming Events system"
+      ]
+    },
+    {
+      "slug": "paris-city-hall",
+      "business_name": "Paris City Hall",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "107 E. Kaufman St., Paris, TX 75460",
+      "category": [
+        "Government",
+        "City Hall",
+        "Event Venue"
+      ],
+      "tags": [
+        "Paris",
+        "Lamar County",
+        "City Government",
+        "City Council",
+        "Public Meetings",
+        "Public Hearings",
+        "Government Meetings",
+        "Planning and Zoning",
+        "Community Meetings"
+      ],
+      "description": "Paris City Hall is a municipal government facility in downtown Paris, Texas, and home to the City Hall Council Chambers. The facility regularly hosts City Council meetings and workshops, public hearings, Planning and Zoning Commission meetings, Board of Adjustment proceedings and other public-facing municipal meetings.",
+      "why_visit": "Paris City Hall is a recurring source of public meetings, hearings, workshops and other civic events where residents can follow and participate in local government.",
+      "why_its_unique": "The City Hall Council Chambers serve as one of Paris's primary public-government meeting spaces, hosting recurring City Council proceedings as well as hearings, commissions and special municipal meetings.",
+      "phone": null,
+      "email": null,
+      "website": "https://www.paristexas.gov/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Public access and meeting times vary by city department and scheduled proceeding. Check the official City of Paris calendar and individual meeting notices before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "City Hall Council Chambers",
+        "ADA-accessible public meeting space"
+      ],
+      "good_to_know": [
+        "Paris City Hall and the City Hall Council Chambers are located at 107 E. Kaufman St.",
+        "City Council meetings are generally held on the second and fourth Mondays of each month beginning at 5:30 PM.",
+        "The facility also hosts City Council workshops, public hearings, Planning and Zoning Commission meetings, Board of Adjustment meetings and other municipal proceedings.",
+        "Meeting schedules can change, and special or cancelled meetings are posted through the official City of Paris calendar.",
+        "Check individual meeting notices for agendas, public-comment procedures and exact room information."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        "Paris",
+        "Lamar County"
+      ],
+      "verification_note": "Complete. Verified from current official City of Paris sources. The city identifies Paris City Hall and City Hall Council Chambers at 107 E. Kaufman St., Paris, TX 75460. Current official calendars document recurring City Council meetings and workshops as well as Planning and Zoning, Board of Adjustment, public hearings and other municipal proceedings at this location. Official calendar entries for the Council Chambers identify ADA accessibility. The City of Paris website footer lists a separate general city address at 135 SE 1st Street, so that address was not substituted for the event venue at 107 E. Kaufman. No building-specific public phone number was confidently verified, so the phone field remains null rather than assigning a department-specific number.",
+      "last_checked": "2026-08-22",
+      "event_types": [
+        "City Council meetings",
+        "City Council workshops",
+        "Public hearings",
+        "Planning and Zoning Commission meetings",
+        "Board of Adjustment meetings",
+        "Special City Council meetings",
+        "Government meetings",
+        "Community and civic meetings"
+      ],
+      "event_sources": [
+        "City of Paris official calendar",
+        "City of Paris City Clerk calendar",
+        "City of Paris official notices and news"
+      ],
+      "features": [
+        "City Hall Council Chambers",
+        "Recurring public government meetings",
+        "Public hearings",
+        "City Council proceedings",
+        "ADA-accessible meeting space"
       ]
     }
   ]
