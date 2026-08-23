@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1184,
-  "publish_ready_count": 860,
+  "business_count": 1185,
+  "publish_ready_count": 861,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -128134,6 +128134,119 @@
         "Recurring public meetings",
         "Public hearings",
         "Municipal administration center"
+      ]
+    },
+    {
+      "slug": "american-legion-post-62-denison",
+      "business_name": "American Legion Post 62",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "419 W Crawford St, Denison, TX 75020",
+      "category": [
+        "Veterans Organization",
+        "Community Hall",
+        "Event Venue"
+      ],
+      "tags": [
+        "Veterans",
+        "Community Events",
+        "Bingo",
+        "Pool",
+        "Darts",
+        "Karaoke",
+        "Facility Rental"
+      ],
+      "description": "American Legion Post 62, formally Fred W Wilson - Sam Pattillo Post 62, is a longtime veterans organization and community gathering place in Denison. Chartered in 1919, the post operates a social canteen and hosts recurring activities, tournaments, bingo, entertainment and community events. The facility also includes reservable event space and a full-service kitchen.",
+      "why_visit": "Visit for recurring community activities including bingo, pool and dart events, karaoke and other entertainment, or use the post's rentable gathering spaces for meetings, parties and celebrations.",
+      "why_its_unique": "A Denison veterans post dating to 1919 that combines its service mission with an active canteen, gaming and entertainment calendar, bingo facilities and reservable community-event space.",
+      "phone": "903-463-2748",
+      "email": "americanlegion62@gmail.com",
+      "website": "https://www.legiontx62.org/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "12:00 PM - 12:00 AM",
+        "tuesday": "12:00 PM - 12:00 AM",
+        "wednesday": "12:00 PM - 12:00 AM",
+        "thursday": "12:00 PM - 12:00 AM",
+        "friday": "12:00 PM - 12:00 AM",
+        "saturday": "12:00 PM - 12:00 AM",
+        "sunday": "12:00 PM - 12:00 AM"
+      },
+      "hours_note": "The American Legion Department of Texas currently lists the post as open noon to midnight daily. Event and holiday schedules may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": null,
+        "karaoke": true,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full-service canteen bar",
+        "Four pool tables",
+        "Internet jukebox",
+        "PA system",
+        "Full-service kitchen",
+        "Reservable event rooms",
+        "65-inch TV in non-smoking rental room",
+        "Smoking and non-smoking sections"
+      ],
+      "good_to_know": [
+        "The post's official rental information lists private event space in two connected bingo rooms.",
+        "Facility rental is currently listed at $50 per day.",
+        "Regular bingo is currently offered on Wednesdays and Fridays, with a special first-Saturday session each month.",
+        "Recurring entertainment and tournament schedules can change, so verify individual events before visiting."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23 from the official Fred W Wilson - Sam Pattillo Post 62 website, The American Legion Department of Texas and Discover Denison. Current sources disagree on the post's organizational meeting schedule, so the meeting schedule is intentionally omitted from the public profile pending resolution.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Karaoke",
+        "Bingo",
+        "Pool tournaments",
+        "Dart tournaments",
+        "Community events",
+        "Veterans programs",
+        "Private rentals"
+      ],
+      "event_sources": [
+        "Official Post 62 website and event calendar",
+        "Discover Denison event listings"
+      ],
+      "features": [
+        "Veterans organization chartered in 1919",
+        "Full-service canteen",
+        "Four pool tables",
+        "Bingo facilities",
+        "Facility rentals",
+        "Full-service kitchen"
       ]
     }
   ]
