@@ -18,6 +18,54 @@ const errors = [];
 const warnings = [];
 const push = (bucket, code, id, message) => bucket.push({ code, id, message });
 
+const partialTopLevelEvent = serializeJsonLd({
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "@id": "https://texomaweekendguide.com/events/schema-guard-test/#event",
+  organizer: { "@type": "Organization", name: "Schema Guard Test" }
+});
+if (partialTopLevelEvent) {
+  push(errors, "partial_event_serialized", "schema-guard-top-level", "Serializer must suppress Event nodes missing Google's required name, startDate, or location fields.");
+}
+
+const nestedPartialEventText = serializeJsonLd({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Schema Guard Test",
+  event: [{
+    "@type": "Event",
+    "@id": "https://texomaweekendguide.com/events/schema-guard-test/#event",
+    name: "Schema Guard Test Event",
+    url: "https://texomaweekendguide.com/events/schema-guard-test/"
+  }]
+});
+if (nestedPartialEventText) {
+  const nestedPartialEvent = JSON.parse(nestedPartialEventText);
+  if (nestedPartialEvent.event) {
+    push(errors, "nested_partial_event_serialized", "schema-guard-nested", "Serializer must remove partial Event relationship nodes without removing the surrounding valid entity.");
+  }
+}
+
+const completeEventText = serializeJsonLd({
+  "@context": "https://schema.org",
+  "@type": "Event",
+  name: "Schema Guard Complete Event",
+  startDate: "2026-08-23T12:00:00-05:00",
+  location: {
+    "@type": "Place",
+    name: "Schema Guard Venue",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Denison",
+      addressRegion: "TX",
+      addressCountry: "US"
+    }
+  }
+});
+if (!completeEventText) {
+  push(errors, "complete_event_suppressed", "schema-guard-complete", "Serializer must preserve complete Event nodes.");
+}
+
 for (const business of businesses.filter((item) => item?.publish_ready === true && item.slug)) {
   const node = buildBusinessJsonLd({ business, siteUrl: SITE_URL });
   if (!node) continue;
@@ -45,7 +93,12 @@ for (const event of events.filter((item) => item?.publish_ready === true && item
     push(errors, "event_generator_returned_null", event.event_slug, "Event passed eligibility but generator returned null.");
     continue;
   }
-  const parsed = JSON.parse(serializeJsonLd(node));
+  const serialized = serializeJsonLd(node);
+  if (!serialized) {
+    push(errors, "complete_event_failed_serialization", event.event_slug, "Eligible Event was unexpectedly suppressed during JSON-LD serialization.");
+    continue;
+  }
+  const parsed = JSON.parse(serialized);
 
   if (parsed["@type"] !== "Event") push(errors, "event_bad_type", event.event_slug, "Generated node is not Event.");
   if (!parsed.name) push(errors, "event_missing_name", event.event_slug, "Google Event requires name.");
