@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1200,
-  "publish_ready_count": 876,
+  "business_count": 1201,
+  "publish_ready_count": 877,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -130012,6 +130012,131 @@
         "Live music",
         "Recurring entertainment",
         "Community events"
+      ]
+    },
+    {
+      "slug": "rock-house-winery",
+      "business_name": "Rock House Winery",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "326 Katy St, Durant, OK 74701",
+      "category": [
+        "Winery",
+        "Wine Bar",
+        "Tasting Room",
+        "Restaurant",
+        "Event Venue"
+      ],
+      "tags": [
+        "Rock House Winery",
+        "Rock House Vineyard",
+        "Rock House Vineyard Winery",
+        "Durant",
+        "Bryan County",
+        "Downtown Durant",
+        "Winery",
+        "Wine Bar",
+        "Wine Tasting",
+        "Oklahoma Wine",
+        "Fruit Wine",
+        "Charcuterie",
+        "Live Music",
+        "Karaoke",
+        "Events"
+      ],
+      "description": "Rock House Winery is a small-batch winery, tasting room and gathering place in downtown Durant. Formerly based at the Rock House Vineyard property, the winery has relocated its operations to Durant, where guests can enjoy handcrafted Oklahoma wines, fruit wines, charcuterie and recurring entertainment.",
+      "why_visit": "Sample handcrafted Oklahoma wines and fruit wines in a cozy downtown Durant tasting room with charcuterie and recurring entertainment.",
+      "why_its_unique": "Rock House Winery carries forward the former Rock House Vineyard brand in a downtown Durant location where its wines are produced and served alongside food and community entertainment.",
+      "phone": "580-745-5746",
+      "email": "rockhousevineyard@gmail.com",
+      "website": "https://rockhousevineyard.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "Closed",
+        "thursday": "5:00 PM - 9:00 PM",
+        "friday": "5:00 PM - 9:00 PM",
+        "saturday": "2:00 PM - 9:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current public business listings show Thursday and Friday 5:00 PM-9:00 PM and Saturday 2:00 PM-9:00 PM; confirm directly before making a special trip.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Wine tasting",
+        "Handcrafted wines",
+        "Fruit wines",
+        "Charcuterie",
+        "Food",
+        "Live music",
+        "Karaoke",
+        "Private events"
+      ],
+      "good_to_know": [
+        "The current winery is located at 326 Katy St in downtown Durant.",
+        "Rock House Winery previously operated from the Rock House Vineyard property near Bennington.",
+        "The official website states that the former vineyard property has been closed and winery operations moved to Durant.",
+        "Current entertainment schedules should be checked before visiting."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23 from the current official Rock House Winery website, Oklahoma Agritourism and the 2026 Discover Durant guide. The official website confirms that Rock House Vineyard evolved into Rock House Winery and relocated from the former vineyard property to downtown Durant. Current sources confirm 326 Katy St, Durant, OK 74701; phone 580-745-5746; small-batch wines, wine tasting, charcuterie and food. The 2026 Discover Durant guide specifically identifies live music and karaoke at the downtown tasting room.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Karaoke",
+        "Live Music",
+        "Wine Events",
+        "Tastings",
+        "Community Events",
+        "Private Events"
+      ],
+      "event_sources": [
+        "Official Rock House Winery website",
+        "Oklahoma Agritourism",
+        "2026 Discover Durant guide"
+      ],
+      "features": [
+        "Downtown Durant winery",
+        "Small-batch Oklahoma wines",
+        "Fruit wines",
+        "Wine tasting",
+        "Charcuterie",
+        "Live music",
+        "Karaoke",
+        "Recurring entertainment"
       ]
     }
   ]
