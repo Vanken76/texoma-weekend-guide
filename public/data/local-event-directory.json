@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 372,
-  "publish_ready_count": 372,
+  "event_count": 373,
+  "publish_ready_count": 373,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -24617,6 +24617,70 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified 2026-08-23 from the official The Brass Tap McKinney event page. The venue explicitly publishes Karaoke (Every Friday) from 8:00 PM to midnight at 4030 W University Drive, Suite 100, McKinney, TX 75071. No admission price or age restriction was published.",
+      "last_checked": "2026-08-23",
+      "created_on": "2026-08-23",
+      "updated_on": "2026-08-23"
+    },
+    {
+      "event_slug": "cocktail-creamery-mckinney-open-mic",
+      "event_name": "Cocktail Creamery McKinney Open Mic",
+      "description": "Dallas Songwriters Association hosts its monthly McKinney open mic at Cocktail Creamery. Songwriters perform in the round, with performers invited to sign up with host Rickey Gene Wright.",
+      "start_datetime": "2026-09-17T19:30:00-05:00",
+      "end_datetime": "2026-09-17T21:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "cocktail-creamery-mckinney"
+      ],
+      "venue_name": "Cocktail Creamery",
+      "address": "205 E Virginia St",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Open Mic",
+        "Songwriters",
+        "Live Music",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "open mic",
+        "songwriters",
+        "Dallas Songwriters Association",
+        "Rickey Gene Wright",
+        "Cocktail Creamery",
+        "McKinney",
+        "third Thursday"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "General Public",
+        "Songwriters",
+        "Musicians"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "cocktail-creamery-mckinney",
+      "organizer_name": "Dallas Songwriters Association",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Rickey Gene Wright"
+      ],
+      "image_url": "/images/events/cocktail-creamery-mckinney-open-mic.png",
+      "image_alt": null,
+      "official_url": "https://dallassongwriters.blogspot.com/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=MONTHLY;BYDAY=TH;BYSETPOS=3",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-23 from the current Dallas Songwriters Association 2026 schedule. Cocktail Creamery McKinney Open Mic is listed every third Thursday from 7:30 PM to 9:30 PM. Songwriters perform in the round and may sign up with host Rickey Gene Wright. Dallas Songwriters Association states its open mics are open to the public. No admission price or age restriction was published.",
       "last_checked": "2026-08-23",
       "created_on": "2026-08-23",
       "updated_on": "2026-08-23"
