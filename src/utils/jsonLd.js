@@ -276,8 +276,48 @@ export const buildEventJsonLd = ({
   });
 };
 
+const schemaTypes = (node) => {
+  const value = node?.["@type"];
+  return Array.isArray(value) ? value : value ? [value] : [];
+};
+
+const hasRequiredGoogleEventFields = (node) => Boolean(
+  firstNonEmpty(node?.name)
+  && isValidDateValue(node?.startDate)
+  && node?.location
+);
+
+export const sanitizeGoogleJsonLd = (value) => {
+  if (value === undefined || value === null) return undefined;
+
+  if (Array.isArray(value)) {
+    const cleaned = value
+      .map((item) => sanitizeGoogleJsonLd(item))
+      .filter((item) => item !== undefined);
+    return cleaned.length ? cleaned : undefined;
+  }
+
+  if (!isPlainObject(value)) return value;
+
+  const entries = Object.entries(value)
+    .map(([key, item]) => [key, sanitizeGoogleJsonLd(item)])
+    .filter(([, item]) => item !== undefined);
+  const cleaned = entries.length ? Object.fromEntries(entries) : undefined;
+  if (!cleaned) return undefined;
+
+  // Google treats every JSON-LD node typed as Event as a candidate Event result,
+  // even when it was intended only as a lightweight relationship reference.
+  // Suppress partial Event nodes so relationship markup cannot create critical
+  // missing-name/startDate/location errors. Full Event nodes remain untouched.
+  if (schemaTypes(cleaned).includes("Event") && !hasRequiredGoogleEventFields(cleaned)) {
+    return undefined;
+  }
+
+  return cleaned;
+};
+
 export const serializeJsonLd = (value) => {
-  const cleaned = pruneJsonLd(value);
+  const cleaned = pruneJsonLd(sanitizeGoogleJsonLd(pruneJsonLd(value)));
   if (cleaned === undefined) return "";
 
   return JSON.stringify(cleaned)
