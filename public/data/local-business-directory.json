@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1191,
-  "publish_ready_count": 867,
+  "business_count": 1192,
+  "publish_ready_count": 868,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -128937,6 +128937,130 @@
         "Indoor stage",
         "Outdoor stage",
         "Recurring Friday karaoke"
+      ]
+    },
+    {
+      "slug": "muddy-jakes-sports-grill-pub",
+      "business_name": "Muddy Jake's Sports Grill & Pub",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "229 Main St, Sulphur Springs, TX 75482",
+      "category": [
+        "Sports Bar",
+        "Restaurant",
+        "Bar",
+        "Live Entertainment Venue",
+        "Karaoke Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Muddy Jake's",
+        "Sulphur Springs",
+        "Downtown Sulphur Springs",
+        "Sports Bar",
+        "Restaurant",
+        "Bar",
+        "Karaoke",
+        "Live Music",
+        "Trivia",
+        "Craft Beer",
+        "Cocktails",
+        "Sports",
+        "Nightlife"
+      ],
+      "description": "Muddy Jake's Sports Grill & Pub is a downtown Sulphur Springs sports bar, restaurant and entertainment venue serving burgers, wings, appetizers, craft beer, cocktails and other drinks. Multiple televisions carry major sporting events, while weekly programming includes karaoke, live music, trivia and other recurring entertainment.",
+      "why_visit": "Visit for sports on multiple screens, burgers and wings, cold drinks and a regular lineup of karaoke, live music, trivia and other entertainment.",
+      "why_its_unique": "Muddy Jake's combines a full sports-bar experience with a substantial food menu and an active weekly entertainment schedule in downtown Sulphur Springs.",
+      "phone": "903-885-6833",
+      "email": null,
+      "website": "https://muddy-jakes.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM–10:00 PM",
+        "tuesday": "11:00 AM–10:00 PM",
+        "wednesday": "11:00 AM–10:00 PM",
+        "thursday": "11:00 AM–10:00 PM",
+        "friday": "11:00 AM–12:00 AM",
+        "saturday": "11:00 AM–12:00 AM",
+        "sunday": "11:00 AM–10:00 PM"
+      },
+      "hours_note": "Hours are from the current official Muddy Jake's website. Check the official site or social media for holiday and special-event changes.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full food menu",
+        "Craft beer",
+        "Cocktails",
+        "Multiple sports televisions",
+        "Live music",
+        "Karaoke",
+        "Trivia",
+        "Recurring entertainment"
+      ],
+      "good_to_know": [
+        "Muddy Jake's is located at 229 Main St in Sulphur Springs.",
+        "The venue has been a local favorite since 2019.",
+        "The official site advertises karaoke, live music and trivia as recurring weekly entertainment.",
+        "Current Thursday programming includes live entertainment, and the venue specifically identifies Thursday karaoke as a current customer favorite.",
+        "The official site says event programming is updated weekly, so individual event details should be checked before traveling."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23 from the official Muddy Jake's Sports Grill & Pub website. The official site confirms the business at 229 Main St, Sulphur Springs, TX 75482; phone 903-885-6833; current operating hours; restaurant and full-bar service; sports viewing; and recurring weekly entertainment including karaoke, live music and trivia. Current site content specifically references Karaoke Thursday. Individual karaoke start and end times are not yet verified and should not be inferred.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Karaoke",
+        "Live Music",
+        "Trivia",
+        "Sports Watch Events",
+        "Food & Drink Events",
+        "Nightlife Events"
+      ],
+      "event_sources": [
+        "Official Muddy Jake's website",
+        "Official Muddy Jake's social-media updates"
+      ],
+      "features": [
+        "Downtown Sulphur Springs location",
+        "Sports bar",
+        "Restaurant",
+        "Full bar",
+        "Multiple sports screens",
+        "Recurring karaoke",
+        "Live music",
+        "Weekly trivia"
       ]
     }
   ]
