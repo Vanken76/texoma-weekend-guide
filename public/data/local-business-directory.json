@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1187,
-  "publish_ready_count": 863,
+  "business_count": 1188,
+  "publish_ready_count": 864,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -128455,6 +128455,129 @@
         "Community gathering place",
         "Recurring karaoke",
         "Food service"
+      ]
+    },
+    {
+      "slug": "the-celt-mckinney",
+      "business_name": "The Celt",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "100 N Tennessee St, McKinney, TX 75069",
+      "category": [
+        "Irish Pub",
+        "Restaurant",
+        "Bar",
+        "Live Music Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "The Celt",
+        "McKinney",
+        "Historic Downtown McKinney",
+        "Irish Pub",
+        "Restaurant",
+        "Bar",
+        "Live Music",
+        "Open Mic",
+        "Trivia",
+        "Traditional Irish Music",
+        "Pool",
+        "Nightlife"
+      ],
+      "description": "The Celt is an Irish pub, restaurant and live-entertainment venue in Historic Downtown McKinney. The pub serves food and drinks and maintains an active calendar of recurring entertainment including traditional Irish music sessions, trivia, open mic nights, free-pool nights and live music.",
+      "why_visit": "Visit for Irish-pub atmosphere, food and drinks, traditional Irish music, recurring open mic, trivia, pool and live entertainment in Historic Downtown McKinney.",
+      "why_its_unique": "The Celt combines a historic downtown setting with a strong Irish-pub identity and a dense weekly entertainment schedule. Its current location has documented history dating to the late 1800s, and traditional Irish music sessions have been part of its programming for years.",
+      "phone": "972-562-2929",
+      "email": "info@theceltmckinney.com",
+      "website": "https://www.theceltmckinney.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM–2:00 AM",
+        "tuesday": "11:00 AM–2:00 AM",
+        "wednesday": "11:00 AM–2:00 AM",
+        "thursday": "11:00 AM–2:00 AM",
+        "friday": "11:00 AM–2:00 AM",
+        "saturday": "10:00 AM–2:00 AM",
+        "sunday": "10:00 AM–2:00 AM"
+      },
+      "hours_note": null,
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Restaurant food service",
+        "Full bar",
+        "Live music",
+        "Open mic",
+        "Pool tables",
+        "Recurring entertainment",
+        "Event calendar"
+      ],
+      "good_to_know": [
+        "The Celt is located at 100 N Tennessee St in Historic Downtown McKinney.",
+        "The venue is open until 2:00 AM seven days a week.",
+        "Recurring programming includes Sunday Irish music sessions, Monday trivia, Tuesday open mic and free pool, Wednesday Irish music sessions and weekend live music.",
+        "Open mic performers can contact the venue directly to check for an available performance slot.",
+        "Individual event times should be checked against the current official calendar."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23 through The Celt's official website, recurring-events page, history page and current event calendar. Official sources confirm the business at 100 N Tennessee St, McKinney, TX 75069; phone 972-562-2929; email info@theceltmckinney.com; published daily hours; Irish-pub identity; food and drink service; and recurring live entertainment including open mic, trivia, traditional Irish music, free pool and live music.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Open Mic",
+        "Live Music",
+        "Traditional Irish Music",
+        "Trivia",
+        "Music Bingo",
+        "Pool Events",
+        "Food & Drink Events",
+        "Whiskey Classes and Tastings"
+      ],
+      "event_sources": [
+        "Official The Celt event calendar",
+        "Official The Celt recurring-events page",
+        "Official The Celt website"
+      ],
+      "features": [
+        "Historic Downtown McKinney location",
+        "Irish pub",
+        "Restaurant and bar",
+        "Live-music venue",
+        "Recurring weekly entertainment",
+        "Pool tables",
+        "Late-night hours"
       ]
     }
   ]
