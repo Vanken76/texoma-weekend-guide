@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 368,
-  "publish_ready_count": 368,
+  "event_count": 369,
+  "publish_ready_count": 369,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -24392,6 +24392,65 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified 2026-08-23 from the official TUPPS Brewery event page. The Night Shift: Karaoke is advertised every Friday from 9:00 PM to midnight in the TUPPS Beer Hall with no cover. TUPPS states that most Fridays feature live-band karaoke while other Fridays feature DJ karaoke; no specific format is assigned to the Aug. 28 occurrence without a dated announcement. No age restriction was published.",
+      "last_checked": "2026-08-23",
+      "created_on": "2026-08-23",
+      "updated_on": "2026-08-23"
+    },
+    {
+      "event_slug": "open-mic-night-tupps-brewery-mckinney",
+      "event_name": "Open Mic Night",
+      "description": "Weekly Thursday open mic night at TUPPS Brewery in McKinney. Singers, songwriters and musicians of all kinds are welcome to participate from 6:30 PM to 9:30 PM.",
+      "start_datetime": "2026-08-27T18:30:00-05:00",
+      "end_datetime": "2026-08-27T21:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "tupps-brewery-mckinney"
+      ],
+      "venue_name": "TUPPS Brewery",
+      "address": "402 E Louisiana St",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Open Mic",
+        "Live Music",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "open mic",
+        "singers",
+        "songwriters",
+        "musicians",
+        "Thursday night",
+        "TUPPS Brewery",
+        "McKinney"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "General Public"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "tupps-brewery-mckinney",
+      "organizer_name": "TUPPS Brewery",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/open-mic-night-tupps-brewery-mckinney.png",
+      "image_alt": null,
+      "official_url": "https://tuppsbrewery.com/event/open-mic-night/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=TH",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-23 from the official TUPPS Brewery event page and current events calendar. TUPPS states that Open Mic Night is held every Thursday from 6:30 PM to 9:30 PM and welcomes singers, songwriters and musicians of all kinds. The specific performance area may vary within the TUPPS property depending on other events. No admission price or age restriction was published.",
       "last_checked": "2026-08-23",
       "created_on": "2026-08-23",
       "updated_on": "2026-08-23"
