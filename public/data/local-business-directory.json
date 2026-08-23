@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1198,
-  "publish_ready_count": 874,
+  "business_count": 1199,
+  "publish_ready_count": 875,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -129773,6 +129773,122 @@
         "Community gathering place",
         "Event hall",
         "Hall rental",
+        "Recurring entertainment"
+      ]
+    },
+    {
+      "slug": "tishomingo-icehouse",
+      "business_name": "Tishomingo IceHouse",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "310 W Main St, Tishomingo, OK 73460",
+      "category": [
+        "Restaurant",
+        "Tavern",
+        "Bar",
+        "Live Entertainment Venue"
+      ],
+      "tags": [
+        "Tishomingo IceHouse",
+        "Tishomingo",
+        "Johnston County",
+        "Restaurant",
+        "Tavern",
+        "Bar",
+        "Food",
+        "Cocktails",
+        "Patio",
+        "Billiards",
+        "Pool Tables",
+        "Karaoke",
+        "Live Music",
+        "Nightlife"
+      ],
+      "description": "Tishomingo IceHouse is a restaurant and tavern on West Main Street in Tishomingo serving food and cocktails with a patio, billiard tables and recurring entertainment. The venue is also known for live music and karaoke.",
+      "why_visit": "A downtown Tishomingo stop for food, drinks, billiards and recurring live entertainment.",
+      "why_its_unique": "Tishomingo IceHouse combines a restaurant and tavern atmosphere with pool tables, a patio and recurring karaoke and live music in downtown Tishomingo.",
+      "phone": "580-387-5004",
+      "email": "tishomingoicehouse@gmail.com",
+      "website": "https://tishomingoicehouse.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "12:00 PM - 12:00 AM",
+        "tuesday": "12:00 PM - 12:00 AM",
+        "wednesday": "12:00 PM - 12:00 AM",
+        "thursday": "12:00 PM - 12:00 AM",
+        "friday": "12:00 PM - 2:00 AM",
+        "saturday": "12:00 PM - 2:00 AM",
+        "sunday": "12:00 PM - 12:00 AM"
+      },
+      "hours_note": null,
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Restaurant",
+        "Tavern",
+        "Cocktails",
+        "Patio",
+        "Billiard tables",
+        "Karaoke",
+        "Live music"
+      ],
+      "good_to_know": [
+        "Located at 310 W Main St in Tishomingo.",
+        "Open until midnight Sunday through Thursday and 2:00 AM Friday and Saturday.",
+        "The venue features billiard tables, a patio and recurring entertainment.",
+        "Current entertainment schedules should be checked before visiting."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23 from the official Tishomingo IceHouse website and current regional tourism sources. Official sources confirm the business at 310 W Main St, Tishomingo, OK 73460; phone 580-387-5004; email tishomingoicehouse@gmail.com; restaurant/tavern service, patio, cocktails and billiards. Current tourism sources identify live music and karaoke at the venue.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Karaoke",
+        "Live Music",
+        "Nightlife",
+        "Food & Drink Events"
+      ],
+      "event_sources": [
+        "Official Tishomingo IceHouse website"
+      ],
+      "features": [
+        "Restaurant and tavern",
+        "Patio",
+        "Billiard tables",
+        "Karaoke",
+        "Live music",
         "Recurring entertainment"
       ]
     }
