@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1199,
-  "publish_ready_count": 875,
+  "business_count": 1200,
+  "publish_ready_count": 876,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -129890,6 +129890,128 @@
         "Karaoke",
         "Live music",
         "Recurring entertainment"
+      ]
+    },
+    {
+      "slug": "blue-river-valley-winery",
+      "business_name": "Blue River Valley Winery",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "3565 Sawmill Rd, Caddo, OK 74729",
+      "category": [
+        "Winery",
+        "Cidery",
+        "Tasting Room",
+        "Event Venue"
+      ],
+      "tags": [
+        "Blue River Valley Winery",
+        "Blue River Valley Winery & Cidery",
+        "Caddo",
+        "Bryan County",
+        "Winery",
+        "Cidery",
+        "Wine Tasting",
+        "Oklahoma Wine",
+        "Craft Cider",
+        "Live Music",
+        "Karaoke",
+        "Events"
+      ],
+      "description": "Blue River Valley Winery is a family-owned winery and cidery in Caddo overlooking the Blue River Valley. The winery produces handcrafted wines, serves cider and select beer, offers food options and hosts recurring entertainment and community events.",
+      "why_visit": "Enjoy locally produced Oklahoma wines and cider, food and recurring entertainment in a scenic Blue River Valley setting.",
+      "why_its_unique": "A locally owned Caddo winery and cidery combining handcrafted wines with scenic views, live music and a varied calendar of community events.",
+      "phone": "580-775-4213",
+      "email": "bluerivervalleywinery@gmail.com",
+      "website": "https://www.bluerivervalleywinery.com/",
+      "facebook": "https://www.facebook.com/bluerivervalleywinery",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "Closed",
+        "thursday": "4:00 PM - 8:00 PM",
+        "friday": "4:00 PM - 9:00 PM",
+        "saturday": "11:00 AM - 9:00 PM",
+        "sunday": "11:00 AM - 4:00 PM"
+      },
+      "hours_note": null,
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Wine tasting",
+        "Handcrafted wines",
+        "Hard cider",
+        "Local and domestic beer",
+        "Charcuterie boards",
+        "Food options",
+        "Live music",
+        "Recurring events"
+      ],
+      "good_to_know": [
+        "Located at 3565 Sawmill Rd in Caddo.",
+        "The winery produces handcrafted wines and serves hard cider.",
+        "Wine tastings and wine purchases are restricted to guests age 21 and older.",
+        "The venue hosts recurring entertainment and community events.",
+        "Check the venue's current event calendar or Facebook page before visiting for entertainment."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23 from the current official Blue River Valley Winery website and supporting 2026 regional tourism sources. Official sources confirm the winery and cidery at 3565 Sawmill Rd, Caddo, OK 74729; phone 580-775-4213; email bluerivervalleywinery@gmail.com; current operating hours; wine tasting, cider, food options, live music and recurring events. The 2026 Discover Durant guide specifically identifies karaoke among the venue's ongoing events.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Karaoke",
+        "Live Music",
+        "Wine Events",
+        "Classes",
+        "Markets",
+        "Murder Mystery",
+        "Food & Drink Events"
+      ],
+      "event_sources": [
+        "Official Blue River Valley Winery website",
+        "Official Blue River Valley Winery Facebook events page",
+        "2026 Discover Durant guide"
+      ],
+      "features": [
+        "Family-owned winery and cidery",
+        "Handcrafted Oklahoma wines",
+        "Hard cider",
+        "Scenic Blue River Valley setting",
+        "Live music",
+        "Recurring entertainment",
+        "Community events"
       ]
     }
   ]
