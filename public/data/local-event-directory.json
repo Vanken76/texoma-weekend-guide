@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 376,
-  "publish_ready_count": 376,
+  "event_count": 377,
+  "publish_ready_count": 377,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -24851,6 +24851,62 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified 2026-08-23. Current 2026 venue listings identify karaoke as a Friday-night recurring activity at Tishomingo IceHouse. A 2026 event listing hosted under Tishomingo IceHouse identifies an 8:00 PM karaoke start. No reliable current ending time, admission price or age restriction was published, so those fields were not inferred. The previously published venue record confirms 310 W Main St, Tishomingo, OK 73460.",
+      "last_checked": "2026-08-23",
+      "created_on": "2026-08-23",
+      "updated_on": "2026-08-23"
+    },
+    {
+      "event_slug": "one-last-karaoke-night-blue-river-valley-winery-2026-08-28",
+      "event_name": "One Last Karaoke Night",
+      "description": "Blue River Valley Winery hosts its final karaoke night on Friday, August 28. Karaoke begins at 7:00 PM and continues until close at the Caddo winery.",
+      "start_datetime": "2026-08-28T19:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "blue-river-valley-winery"
+      ],
+      "venue_name": "Blue River Valley Winery",
+      "address": "3565 Sawmill Rd",
+      "city": "Caddo",
+      "state": "OK",
+      "postal_code": "74729",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Karaoke",
+        "Nightlife",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "karaoke",
+        "final karaoke night",
+        "Friday night",
+        "Blue River Valley Winery",
+        "Caddo",
+        "Bryan County"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": "blue-river-valley-winery",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/one-last-karaoke-night-blue-river-valley-winery-2026-08-28.jpg",
+      "image_alt": null,
+      "official_url": "https://www.bluerivervalleywinery.com/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-23 from current Blue River Valley Winery Facebook posts and event artwork supplied from the venue's official page. The winery explicitly describes the August 28 event as its 'ONE LAST KARAOKE NIGHT' and the 'LAST Karaoke Night at the winery.' Event artwork lists Friday at 7:00 PM until close at 3565 Sawmill Rd, Caddo, OK. Wine and beer are available for guests 21+, but no general event age restriction or admission price was published. No exact closing time was assigned to the event.",
       "last_checked": "2026-08-23",
       "created_on": "2026-08-23",
       "updated_on": "2026-08-23"
