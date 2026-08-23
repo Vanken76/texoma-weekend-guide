@@ -5,8 +5,8 @@
   "generated_on": "2026-08-23",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1186,
-  "publish_ready_count": 862,
+  "business_count": 1187,
+  "publish_ready_count": 863,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -128353,6 +128353,108 @@
         "Cocktails",
         "Recurring open mic",
         "Private-event space"
+      ]
+    },
+    {
+      "slug": "fraternal-order-of-eagles-aerie-85-denison",
+      "business_name": "Fraternal Order of Eagles Aerie #85",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "211 W Main St, Denison, TX 75020",
+      "category": [
+        "Fraternal Organization",
+        "Community Organization",
+        "Event Venue"
+      ],
+      "tags": [
+        "Fraternal Order of Eagles",
+        "Eagles Aerie 85",
+        "Denison",
+        "Downtown Denison",
+        "Community Organization",
+        "Karaoke",
+        "Pool",
+        "Live Entertainment",
+        "Community Events"
+      ],
+      "description": "Fraternal Order of Eagles Aerie #85 is a Denison fraternal and community organization located in downtown Denison. The aerie supports members, families and charitable causes while also serving as a gathering place for social activities and public entertainment including recurring karaoke.",
+      "why_visit": "A downtown Denison gathering place with recurring entertainment and community activities, including Friday-night karaoke.",
+      "why_its_unique": "A local chapter of the Fraternal Order of Eagles that combines its fraternal and charitable mission with an active downtown social and entertainment venue.",
+      "phone": "903-465-0774",
+      "email": null,
+      "website": "https://www.foe.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": null,
+      "hours_note": "Regular public hours have not been reliably verified. Check current event listings before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": true,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Community gathering space",
+        "Food service",
+        "Recurring entertainment",
+        "Karaoke",
+        "Pool"
+      ],
+      "good_to_know": [
+        "Located at 211 W Main St in downtown Denison.",
+        "Current Downtown Denison listings show recurring Friday-night karaoke at the venue.",
+        "Current event listings have also advertised free pool and state that those sessions are open to the public.",
+        "Membership requirements may vary by activity, so verify individual event access before visiting."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-23. Grayson County food-establishment records identify Fraternal Order of Eagles Lodge #85 at 211 W Main St, Denison, TX 75020. Current nonprofit records identify Fraternal Order of Eagles - 85 Aerie at the same address with phone 903-465-0774. Downtown Denison currently lists recurring public entertainment at the venue, including Friday Night Karaoke with DJ Erica. Exact regular operating hours and a local official social-media page were not reliably verified.",
+      "last_checked": "2026-08-23",
+      "event_types": [
+        "Karaoke",
+        "Pool Events",
+        "Community Events",
+        "Fundraisers",
+        "Social Events",
+        "Fraternal Events"
+      ],
+      "event_sources": [
+        "Downtown Denison event calendar",
+        "Fraternal Order of Eagles national website"
+      ],
+      "features": [
+        "Downtown Denison location",
+        "Fraternal organization",
+        "Community gathering place",
+        "Recurring karaoke",
+        "Food service"
       ]
     }
   ]
