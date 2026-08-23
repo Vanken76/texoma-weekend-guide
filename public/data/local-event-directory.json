@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 359,
-  "publish_ready_count": 359,
+  "event_count": 360,
+  "publish_ready_count": 360,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -23886,6 +23886,60 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Tuesday karaoke with Sonic is currently listed from 6:00 PM to 11:59 PM, with a 50% service-industry discount. Weekly entertainment schedules can change, so check the venue before heading out.",
+      "last_checked": "2026-08-23",
+      "created_on": "2026-08-23",
+      "updated_on": "2026-08-23"
+    },
+    {
+      "event_slug": "rhonda-b-karaoke-american-legion-post-62-denison",
+      "event_name": "Rhonda B Karaoke",
+      "description": "Rhonda B Karaoke is a recurring Saturday-night karaoke event at American Legion Post 62 in Denison. Discover Denison currently lists the series as running weekly from Aug. 22 through Sept. 5, 2026.",
+      "start_datetime": "2026-08-29T20:00:00-05:00",
+      "end_datetime": "2026-08-29T23:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "american-legion-post-62-denison"
+      ],
+      "venue_name": "American Legion Post 62",
+      "address": "419 W Crawford St",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Karaoke",
+        "Nightlife"
+      ],
+      "tags": [
+        "karaoke",
+        "Rhonda B",
+        "Saturday night",
+        "Denison nightlife",
+        "American Legion Post 62"
+      ],
+      "cost_type": "free",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "Rhonda B",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/rhonda-b-karaoke-american-legion-post-62-denison.png",
+      "image_alt": null,
+      "official_url": "https://discoverdenison.com/event/rhonda-b-karaoke/2419/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=SA",
+      "recurrence_start_date": "2026-08-22",
+      "recurrence_end_date": "2026-09-05",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-23 via Discover Denison. Listing currently shows Rhonda B Karaoke as a recurring weekly Saturday event from Aug. 22 through Sept. 5, 2026, from 8:00 PM to 11:00 PM at American Legion Post 62. Recurring entertainment schedules can change, so verify before visiting.",
       "last_checked": "2026-08-23",
       "created_on": "2026-08-23",
       "updated_on": "2026-08-23"
