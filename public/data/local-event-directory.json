@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 370,
-  "publish_ready_count": 370,
+  "event_count": 371,
+  "publish_ready_count": 371,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -24506,6 +24506,63 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified 2026-08-23. The Hopkins County Chamber of Commerce states that karaoke is held Fridays at Canteen 2.0 beginning at 8:00 PM. A current business listing continues to advertise Karaoke Friday nights, supporting the recurring series. No ending time, cover charge, or age restriction was published.",
+      "last_checked": "2026-08-23",
+      "created_on": "2026-08-23",
+      "updated_on": "2026-08-23"
+    },
+    {
+      "event_slug": "karaoke-on-kentucky-st-the-garage-mckinney",
+      "event_name": "Karaoke on Kentucky St.",
+      "description": "Friday night karaoke at The Garage in Historic Downtown McKinney. Karaoke begins at 7:00 PM every Friday at the 18+ cocktail bar and event venue.",
+      "start_datetime": "2026-08-28T19:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "the-garage-mckinney"
+      ],
+      "venue_name": "The Garage",
+      "address": "100 E Louisiana St",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Karaoke",
+        "Nightlife",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "karaoke",
+        "Friday night",
+        "The Garage",
+        "McKinney",
+        "Historic Downtown McKinney"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "Adults"
+      ],
+      "age_restriction": "18+",
+      "host_business_slug": "the-garage-mckinney",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": null,
+      "image_alt": null,
+      "official_url": "https://thegaragemckinney.com/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=FR",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-23 from The Garage's official website. The venue lists Karaoke on Kentucky St. every Friday at 7:00 PM and identifies The Garage as an 18+ bar and event venue at 100 E Louisiana St, McKinney, TX 75069. No ending time or admission price was published.",
       "last_checked": "2026-08-23",
       "created_on": "2026-08-23",
       "updated_on": "2026-08-23"
