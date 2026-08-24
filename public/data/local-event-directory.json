@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "project": "Texoma Weekend Guide",
   "document_type": "local_event_directory",
-  "generated_on": "2026-08-23",
+  "generated_on": "2026-08-24",
   "timezone_default": "America/Chicago",
   "publication_rule": "Only records with publish_ready=true should appear in the public event directory.",
   "active_event_rule": "status in [upcoming, recurring] and either end_datetime is in the future, or end_datetime is null and the local event date has not passed",
@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 378,
-  "publish_ready_count": 378,
+  "event_count": 379,
+  "publish_ready_count": 379,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -24967,6 +24967,63 @@
       "last_checked": "2026-08-23",
       "created_on": "2026-08-23",
       "updated_on": "2026-08-23"
+    },
+    {
+      "event_slug": "karaoke-at-ruby-rodeo-with-j-doubles-denton",
+      "event_name": "Karaoke at Ruby Rodeo with J Doubles",
+      "description": "Weekly Sunday night karaoke at Ruby Rodeo on the Denton Square with J Doubles. Karaoke runs from 9:00 PM to 1:00 AM.",
+      "start_datetime": "2026-08-23T21:00:00-05:00",
+      "end_datetime": "2026-08-24T01:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "ruby-rodeo-denton"
+      ],
+      "venue_name": "Ruby Rodeo",
+      "address": "122 N Locust St",
+      "city": "Denton",
+      "state": "TX",
+      "postal_code": "76201",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Karaoke",
+        "Nightlife",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "karaoke",
+        "Sunday karaoke",
+        "Sunday night",
+        "J Doubles",
+        "Ruby Rodeo",
+        "Denton Square",
+        "Denton"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": "ruby-rodeo-denton",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/karaoke-at-ruby-rodeo-with-j-doubles-denton.png",
+      "image_alt": null,
+      "official_url": "https://rubyrodeodenton.com/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=SU",
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-23 from the official Ruby Rodeo website, which lists Karaoke at Ruby Rodeo with J Doubles every Sunday from 9:00 PM to 1:00 AM. Ruby Rodeo's published business record confirms the canonical venue slug ruby-rodeo-denton and the Denton address. No admission price or event-specific age restriction was published, so those fields were not inferred.",
+      "last_checked": "2026-08-23",
+      "created_on": "2026-08-23",
+      "updated_on": "2026-08-24"
     }
   ]
 }
