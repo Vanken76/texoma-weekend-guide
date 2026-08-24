@@ -5,8 +5,8 @@
   "generated_on": "2026-08-24",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1214,
-  "publish_ready_count": 890,
+  "business_count": 1215,
+  "publish_ready_count": 891,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -131215,6 +131215,44 @@
       "mine_for_events": true,
       "event_mining_priority": "high",
       "verification_note": "Verified 2026-08-24 from current Discover Denton, current business listings and the active Toast ordering page. These sources confirm The Kava Bar Denton at 109 Industrial St, Denton, TX 76201, phone 940-320-6015, and recurring community and live-entertainment programming.",
+      "last_checked": "2026-08-24"
+    },
+    {
+      "slug": "nexus-game-lounge-denton",
+      "business_name": "Nexus Game Lounge - Denton",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "2201 S I-35, Suite L20, Denton, TX 76205",
+      "category": [
+        "Game Store",
+        "Game Lounge",
+        "Event Venue"
+      ],
+      "tags": [
+        "tabletop games",
+        "board games",
+        "Dungeons & Dragons",
+        "trading card games",
+        "Warhammer",
+        "tournaments",
+        "private gaming rooms",
+        "social events",
+        "Golden Triangle Mall",
+        "Denton"
+      ],
+      "description": "Nexus Game Lounge - Denton is a gaming store, community lounge and event venue inside Golden Triangle Mall featuring tabletop role-playing games, trading card games, war games, board games, private gaming rooms, tournaments and recurring social events.",
+      "address": "2201 S I-35, Suite L20",
+      "city": "Denton",
+      "state": "TX",
+      "postal_code": "76205",
+      "phone": "940-218-1006",
+      "website": "https://www.nexusgamelounge.com/",
+      "event_venue": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified 2026-08-24 from the official Nexus Game Lounge website and Golden Triangle Mall directory. Current sources confirm the Denton location at 2201 S I-35, Suite L20, Denton, TX 76205, phone 940-218-1006, and an active schedule of gaming tournaments, community programming and social events.",
       "last_checked": "2026-08-24"
     }
   ]
