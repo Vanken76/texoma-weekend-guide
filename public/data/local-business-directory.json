@@ -5,8 +5,8 @@
   "generated_on": "2026-08-24",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1212,
-  "publish_ready_count": 888,
+  "business_count": 1213,
+  "publish_ready_count": 889,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -131139,6 +131139,43 @@
       "mine_for_events": true,
       "event_mining_priority": "high",
       "verification_note": "Verified 2026-08-24 from current Discover Denton, Denton Chamber of Commerce and Toasty Bros. ordering information. Sources confirm Toasty Bros. Beer at 104 N Bell Ave, Denton, TX 76201, phone 940-390-1571, its small-batch brewery operation and its support of local artists and musicians through recurring events.",
+      "last_checked": "2026-08-24"
+    },
+    {
+      "slug": "denton-county-brewing-co",
+      "business_name": "Denton County Brewing Co.",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "200 E McKinney St, Denton, TX 76201",
+      "category": [
+        "Brewery",
+        "Bar",
+        "Taproom",
+        "Event Venue"
+      ],
+      "tags": [
+        "craft beer",
+        "karaoke",
+        "trivia",
+        "live music",
+        "community events",
+        "private events",
+        "Denton",
+        "Downtown Denton"
+      ],
+      "description": "Denton County Brewing Co. is an independent craft brewery and taproom in Downtown Denton offering locally brewed beer and other craft beverages along with recurring trivia, karaoke, live music, community gatherings and special events.",
+      "address": "200 E McKinney St",
+      "city": "Denton",
+      "state": "TX",
+      "postal_code": "76201",
+      "phone": "940-344-4016",
+      "website": "https://dentoncountybrewing.com/",
+      "event_venue": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified 2026-08-24 from the official Denton County Brewing Co. website. Current official information confirms the brewery and taproom at 200 E McKinney St, Denton, TX 76201, phone 940-344-4016, and recurring programming including trivia, karaoke, live music and community gatherings.",
       "last_checked": "2026-08-24"
     }
   ]
