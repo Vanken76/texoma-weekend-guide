@@ -5,8 +5,8 @@
   "generated_on": "2026-08-24",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1211,
-  "publish_ready_count": 887,
+  "business_count": 1212,
+  "publish_ready_count": 888,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -131102,6 +131102,44 @@
       "event_mining_priority": "high",
       "verification_note": "Verified 2026-08-23 from current Discover Denton and Denton Main Street listings. Current sources confirm Bramblitt's Yellow Dog Art Bar & Gallery at 219 E Hickory St, Denton, TX 76201, phone 940-380-8008, and active recurring entertainment programming including open mic nights. Denton Main Street identifies https://www.facebook.com/Bramblitt as the venue website.",
       "last_checked": "2026-08-23"
+    },
+    {
+      "slug": "toasty-bros-beer-denton",
+      "business_name": "Toasty Bros. Beer",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "104 N Bell Ave, Denton, TX 76201",
+      "category": [
+        "Brewery",
+        "Bar",
+        "Art Gallery",
+        "Live Music Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "craft beer",
+        "small-batch beer",
+        "open mic",
+        "live music",
+        "local art",
+        "community events",
+        "Denton",
+        "Downtown Denton"
+      ],
+      "description": "Toasty Bros. Beer is a small-batch Denton brewery and taproom with a strong local-art and music focus, featuring rotating beer, artwork from local artists and recurring live entertainment and community events.",
+      "address": "104 N Bell Ave",
+      "city": "Denton",
+      "state": "TX",
+      "postal_code": "76201",
+      "phone": "940-390-1571",
+      "website": "https://toastybros.com/",
+      "event_venue": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified 2026-08-24 from current Discover Denton, Denton Chamber of Commerce and Toasty Bros. ordering information. Sources confirm Toasty Bros. Beer at 104 N Bell Ave, Denton, TX 76201, phone 940-390-1571, its small-batch brewery operation and its support of local artists and musicians through recurring events.",
+      "last_checked": "2026-08-24"
     }
   ]
 }
