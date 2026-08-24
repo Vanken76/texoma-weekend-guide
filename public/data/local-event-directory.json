@@ -25537,7 +25537,7 @@
     {
       "event_slug": "open-mic-comedy-dustys-denton",
       "event_name": "Open Mic Comedy",
-      "description": "Weekly Sunday night stand-up comedy open mic at Dusty's Bar & Grill in Downtown Denton, hosted by Jacob Marshal. The open mic begins at 9:30 PM.",
+      "description": "Weekly Sunday night stand-up comedy open mic at Dusty's Bar & Grill in Downtown Denton, hosted by Jacob Marshal. The comedy begins at 9:30 PM.",
       "start_datetime": "2026-08-30T21:30:00-05:00",
       "end_datetime": null,
       "timezone": "America/Chicago",
@@ -25554,13 +25554,12 @@
       "longitude": null,
       "categories": [
         "Comedy",
-        "Open Mic",
+        "Stand-Up Comedy",
         "Live Entertainment"
       ],
       "tags": [
-        "comedy",
+        "comedy open mic",
         "stand-up comedy",
-        "open mic",
         "Sunday night",
         "Jacob Marshal",
         "Dusty's Bar & Grill",
@@ -25587,7 +25586,7 @@
       "featured": false,
       "publish_ready": true,
       "source_verified": true,
-      "verification_note": "Verified 2026-08-24 from current FireMics and BaseLocal listings. FireMics lists Open Mic Comedy at Dusty's Bar & Grill every Sunday at 9:30 PM, and BaseLocal identifies the Sunday comedy open mic as hosted by Jacob Marshal. Dusty's current venue information confirms 119 S Elm St, Denton, TX 76201. No reliable ending time, admission price or event-specific age restriction was published, so those fields were not inferred.",
+      "verification_note": "Verified 2026-08-24 from current FireMics and BaseLocal listings. Current sources identify a weekly Sunday stand-up comedy open mic at Dusty's Bar & Grill beginning at 9:30 PM and hosted by Jacob Marshal. This event is intentionally categorized under Comedy and Stand-Up Comedy rather than the generic Open Mic category so it is excluded from TWG music/general-performance open-mic counts. No reliable ending time, admission price or event-specific age restriction was published, so those fields were not inferred.",
       "last_checked": "2026-08-24",
       "created_on": "2026-08-24",
       "updated_on": "2026-08-24"
