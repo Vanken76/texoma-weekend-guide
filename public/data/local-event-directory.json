@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 389,
-  "publish_ready_count": 389,
+  "event_count": 390,
+  "publish_ready_count": 390,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -25587,6 +25587,62 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified 2026-08-24 from current FireMics and BaseLocal listings. Current sources identify a weekly Sunday stand-up comedy open mic at Dusty's Bar & Grill beginning at 9:30 PM and hosted by Jacob Marshal. This event is intentionally categorized under Comedy and Stand-Up Comedy rather than the generic Open Mic category so it is excluded from TWG music/general-performance open-mic counts. No reliable ending time, admission price or event-specific age restriction was published, so those fields were not inferred.",
+      "last_checked": "2026-08-24",
+      "created_on": "2026-08-24",
+      "updated_on": "2026-08-24"
+    },
+    {
+      "event_slug": "karaoke-with-jdoubles-bramblitts-yellow-dog-denton",
+      "event_name": "Karaoke with JDoubles",
+      "description": "Karaoke night at Bramblitt's Yellow Dog Art Bar & Gallery in Downtown Denton with JDoubles. Grab the mic, sing your favorites and cheer on other performers. Admission is free.",
+      "start_datetime": "2026-09-19T21:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "bramblitts-yellow-dog-art-bar-gallery-denton"
+      ],
+      "venue_name": "Bramblitt's Yellow Dog Art Bar & Gallery",
+      "address": "219 E Hickory St",
+      "city": "Denton",
+      "state": "TX",
+      "postal_code": "76201",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Karaoke",
+        "Nightlife",
+        "Live Entertainment"
+      ],
+      "tags": [
+        "karaoke",
+        "JDoubles",
+        "Bramblitt's Yellow Dog",
+        "Saturday night",
+        "Downtown Denton",
+        "Denton"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free",
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": "bramblitts-yellow-dog-art-bar-gallery-denton",
+      "organizer_name": "JDoubles",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/karaoke-with-jdoubles-bramblitts-yellow-dog-denton.png",
+      "image_alt": null,
+      "official_url": "https://www.discoverdenton.com/listing/bramblitts-yellow-dog-art-bar-%26-gallery/886/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": null,
+      "recurrence_start_date": "2026-07-11",
+      "recurrence_end_date": "2026-09-19",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-24 from current Discover Denton and current Denton event data. Discover Denton lists Karaoke with JDoubles at Bramblitt's Yellow Dog Art Bar & Gallery on varying dates between July 11 and September 19, 2026. Current Denton event data confirms a 9:00 PM start and free admission. Because the published schedule uses varying dates rather than a stated weekly cadence, no recurrence rule was inferred. No reliable event-specific ending time or age restriction was published.",
       "last_checked": "2026-08-24",
       "created_on": "2026-08-24",
       "updated_on": "2026-08-24"
