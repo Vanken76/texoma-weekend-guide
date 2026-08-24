@@ -5,8 +5,8 @@
   "generated_on": "2026-08-24",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1222,
-  "publish_ready_count": 898,
+  "business_count": 1223,
+  "publish_ready_count": 899,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -131981,6 +131981,132 @@
         "Recurring songwriter open mic",
         "Local and touring artists",
         "21+ venue"
+      ]
+    },
+    {
+      "slug": "glitchs-arcade",
+      "business_name": "Glitch's Arcade",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1950 N Grand Ave, Sherman, TX 75090",
+      "category": [
+        "Arcade",
+        "Entertainment Venue",
+        "Restaurant",
+        "Bar",
+        "Event Venue"
+      ],
+      "tags": [
+        "Retro Gaming",
+        "Arcade Games",
+        "Pinball",
+        "Karaoke",
+        "Live Music",
+        "Gaming",
+        "Full Bar",
+        "Food",
+        "Family Friendly",
+        "Party Rooms",
+        "Sherman",
+        "Grayson County",
+        "Texoma"
+      ],
+      "description": "Glitch's Arcade is a retro-themed arcade, restaurant, bar and entertainment venue in Sherman featuring classic and modern video games, pinball, console gaming, food and drinks, party rooms and recurring entertainment including karaoke, live music and gaming events.",
+      "why_visit": "Glitch's combines a large retro-gaming experience with food, a full-service bar and a steady schedule of entertainment, making it useful for everything from an afternoon arcade visit to an adults-only karaoke or live-music night.",
+      "why_its_unique": "The venue blends retro and modern arcade gaming, pinball, console titles, restaurant and bar service and recurring entertainment under one roof, with games rotating in and out of the lineup.",
+      "phone": "903-357-5484",
+      "email": "sales@glitchsarcade.com",
+      "website": "https://www.glitchsarcade.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "3:00 PM–10:00 PM",
+        "thursday": "3:00 PM–10:00 PM",
+        "friday": "3:00 PM–12:00 AM",
+        "saturday": "12:00 PM–12:00 AM",
+        "sunday": "1:00 PM–10:00 PM"
+      },
+      "hours_note": "Current hours are published on the official Glitch's Arcade website. Check official sources for holiday or special-event changes.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Arcade Games",
+        "Pinball",
+        "Console Gaming",
+        "Restaurant",
+        "Full Bar",
+        "Party Rooms",
+        "Karaoke",
+        "Live Music",
+        "Wheelchair Accessible"
+      ],
+      "good_to_know": [
+        "General admission is $12 for the day.",
+        "Children under age 5 are admitted free; guests age 5 and older pay admission.",
+        "Children under 15 must be accompanied by an adult.",
+        "Guests under 18 must leave after 9:00 PM.",
+        "No outside food or drinks are permitted, except cake or ice cream for groups with a booked party room.",
+        "Smoking and vaping are not permitted inside.",
+        "The venue states that it is fully ADA compliant."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete current research pass on 2026-08-24. The official Glitch's Arcade website confirms the business at 1950 N Grand Ave in Sherman, its current operating hours, sales@glitchsarcade.com, retro-themed arcade format, full-service bar and restaurant, day admission, age policies, party-room availability, no-smoking/no-vaping policy and ADA accessibility. The current official events page also publishes recurring karaoke, live-music, gaming and tournament programming. The phone number 903-357-5484 is corroborated by current mapping and arcade-directory sources; it is not presently displayed on the first-party website.",
+      "last_checked": "2026-08-24",
+      "event_types": [
+        "Karaoke",
+        "Live Music",
+        "Arcade Tournaments",
+        "Pinball Tournaments",
+        "Gaming Events",
+        "Themed Nights"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official events page"
+      ],
+      "features": [
+        "Retro-themed arcade",
+        "Classic and modern games",
+        "Pinball",
+        "Console gaming",
+        "Full-service bar",
+        "Restaurant",
+        "Party rooms",
+        "Recurring entertainment"
       ]
     }
   ]
