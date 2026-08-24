@@ -5,8 +5,8 @@
   "generated_on": "2026-08-24",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1217,
-  "publish_ready_count": 893,
+  "business_count": 1218,
+  "publish_ready_count": 894,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -131468,6 +131468,113 @@
         "Recurring karaoke",
         "Recurring trivia",
         "DJ programming"
+      ]
+    },
+    {
+      "slug": "dustys-bar-grill-denton",
+      "business_name": "Dusty's Bar & Grill",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "119 S Elm St, Denton, TX 76201",
+      "category": [
+        "Bar & Grill",
+        "Bar",
+        "Restaurant",
+        "Event Venue"
+      ],
+      "tags": [
+        "karaoke",
+        "burgers",
+        "cocktails",
+        "sports",
+        "late night",
+        "dive bar",
+        "Downtown Denton",
+        "Denton"
+      ],
+      "description": "Dusty's Bar & Grill is a downtown Denton bar and grill with an artsy dive-bar atmosphere, burgers, cocktails, sports and recurring late-night entertainment including karaoke.",
+      "why_visit": "Visit for burgers, cocktails, a relaxed downtown dive-bar atmosphere and recurring karaoke nights.",
+      "why_its_unique": "An artsy longtime Denton hangout combining classic bar food and cocktails with late-night entertainment just off the Square.",
+      "address": "119 S Elm St",
+      "city": "Denton",
+      "state": "TX",
+      "postal_code": "76201",
+      "phone": "940-243-7300",
+      "email": null,
+      "website": "https://www.dentonjunction.com/dustysbar",
+      "facebook": "https://www.facebook.com/DustysDenton",
+      "instagram": "https://www.instagram.com/dustysdenton",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM - 2:00 AM",
+        "tuesday": "11:00 AM - 2:00 AM",
+        "wednesday": "11:00 AM - 2:00 AM",
+        "thursday": "11:00 AM - 2:00 AM",
+        "friday": "11:00 AM - 2:00 AM",
+        "saturday": "11:00 AM - 2:00 AM",
+        "sunday": "11:00 AM - 2:00 AM"
+      },
+      "hours_note": "Current official Junction information lists daily hours from 11:00 AM to 2:00 AM.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": null,
+        "karaoke": true,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full bar",
+        "Late-night food",
+        "Sports viewing",
+        "Recurring karaoke"
+      ],
+      "good_to_know": [
+        "Located just off the Denton Square.",
+        "Current event listings show recurring Friday and Saturday karaoke programming."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": "The Junction off the Square",
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-24 from the official Junction off the Square and Dusty's pages plus current Denton event listings. Official sources confirm Dusty's Bar & Grill at 119 S Elm St, Denton, TX 76201, phone 940-243-7300, daily 11:00 AM-2:00 AM hours, bar-and-grill service and recurring karaoke programming.",
+      "last_checked": "2026-08-24",
+      "event_types": [
+        "Karaoke",
+        "Nightlife"
+      ],
+      "event_sources": [
+        "Official Junction website",
+        "Current event listings"
+      ],
+      "features": [
+        "Downtown Denton location",
+        "Late-night hours",
+        "Burgers and bar food",
+        "Full bar",
+        "Recurring karaoke"
       ]
     }
   ]
