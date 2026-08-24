@@ -5,8 +5,8 @@
   "generated_on": "2026-08-24",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1228,
-  "publish_ready_count": 904,
+  "business_count": 1229,
+  "publish_ready_count": 905,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -132726,6 +132726,127 @@
         "Youth ages 5-18",
         "Community fundraising events",
         "Accessible facility"
+      ]
+    },
+    {
+      "slug": "city-of-bonham-animal-shelter",
+      "business_name": "City of Bonham Animal Shelter",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "500 Industrial Avenue, Bonham, TX 75418",
+      "category": [
+        "Animal Shelter",
+        "Pet Adoption",
+        "Municipal Service",
+        "Community Organization",
+        "Event Venue"
+      ],
+      "tags": [
+        "Animal Shelter",
+        "Pet Adoption",
+        "Dogs",
+        "Cats",
+        "Animal Control",
+        "Volunteer Opportunities",
+        "Donations",
+        "Community Events",
+        "Adoption Events",
+        "Bonham",
+        "Fannin County",
+        "North Texas",
+        "Texoma"
+      ],
+      "description": "City of Bonham Animal Shelter is the municipal animal shelter serving Bonham and operating through Bonham Animal Control. The shelter provides animal adoption, stray and lost-animal services, animal housing, volunteer opportunities, donation support and community adoption events.",
+      "why_visit": "The shelter gives residents an opportunity to adopt local dogs and cats, reclaim lost pets, volunteer, donate needed pet supplies and support community events benefiting animals in need.",
+      "why_its_unique": "As Bonham's municipal animal shelter, the facility combines public animal-control services with pet adoption, volunteer and donation programs and periodic community-focused adoption events.",
+      "phone": "903-640-8245",
+      "email": null,
+      "website": "https://www.cityofbonham.org/226/Animal-Control",
+      "facebook": "https://www.facebook.com/profile.php?id=61561113224883",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "8:30 AM–4:30 PM",
+        "tuesday": "8:30 AM–4:30 PM",
+        "wednesday": "8:30 AM–4:30 PM",
+        "thursday": "8:30 AM–4:30 PM",
+        "friday": "8:30 AM–4:30 PM",
+        "saturday": "8:30 AM–4:30 PM",
+        "sunday": null
+      },
+      "hours_note": "The official City of Bonham staff directory lists shelter hours Monday through Saturday from 8:30 AM to 4:30 PM. The City's adoption page separately states that the shelter is open to the public for adoptions from 10:00 AM to 2:00 PM daily. Confirm current access before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Pet Adoption",
+        "Lost and Found Animal Services",
+        "Animal Reclaim Services",
+        "Volunteer Opportunities",
+        "Donation Drop-Off",
+        "Microchipping",
+        "Community Adoption Events"
+      ],
+      "good_to_know": [
+        "The shelter is located at 500 Industrial Avenue in Bonham.",
+        "The shelter phone number is 903-640-8245.",
+        "The City of Bonham lists standard shelter hours as Monday through Saturday, 8:30 AM to 4:30 PM.",
+        "The City's adoption page lists public adoption access from 10:00 AM to 2:00 PM.",
+        "Current standard adoption fees are $60 for dogs, puppies, cats and kittens.",
+        "The shelter accepts donations including collars, leashes, toys, treats, pet food, bowls, shampoo, towels and blankets.",
+        "Volunteer opportunities are available through the City of Bonham."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "medium",
+      "parent_business": "City of Bonham",
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Fully researched 2026-08-24 from current first-party City of Bonham sources. The official Animal Control page confirms the municipal shelter at 500 Industrial Avenue, Bonham, TX 75418; phone 903-640-8245; adoption, animal-control, volunteer and donation services; and current fee information. The City staff directory lists shelter hours Monday through Saturday from 8:30 AM to 4:30 PM. The City's adoption page separately lists public adoption hours from 10:00 AM to 2:00 PM. The City also links an official Animal Control Facebook page and currently promotes the shelter's Aug. 29 Tail End of Summer Supply Drive & Adoption Event.",
+      "last_checked": "2026-08-24",
+      "event_types": [
+        "Adoption Events",
+        "Supply Drives",
+        "Fundraisers",
+        "Community Events",
+        "Pet Events"
+      ],
+      "event_sources": [
+        "Official City of Bonham website",
+        "Official City calendar",
+        "Official Animal Control Facebook"
+      ],
+      "features": [
+        "Municipal animal shelter",
+        "Pet adoptions",
+        "Volunteer program",
+        "Donation program",
+        "Community adoption events"
       ]
     }
   ]
