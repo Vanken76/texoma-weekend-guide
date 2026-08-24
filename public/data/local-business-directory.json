@@ -5,8 +5,8 @@
   "generated_on": "2026-08-24",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1225,
-  "publish_ready_count": 901,
+  "business_count": 1226,
+  "publish_ready_count": 902,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -132354,6 +132354,127 @@
         "Full bar",
         "Outdoor seating",
         "Recurring karaoke"
+      ]
+    },
+    {
+      "slug": "tipsy-crawfish",
+      "business_name": "Tipsy Crawfish",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1910 N Stonebridge Dr Suite 100, McKinney, TX 75071",
+      "category": [
+        "Cajun Restaurant",
+        "Bar",
+        "Seafood Restaurant",
+        "Entertainment Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Cajun",
+        "Seafood",
+        "Louisiana Cuisine",
+        "Cocktails",
+        "Beer",
+        "Wine",
+        "Karaoke",
+        "Patio",
+        "Lawn Games",
+        "McKinney",
+        "Collin County",
+        "North Texas"
+      ],
+      "description": "Tipsy Crawfish is a Cajun restaurant and neighborhood bar in McKinney serving Louisiana-inspired seafood, po' boys, Cajun classics and American favorites alongside local beer, wine and handcrafted cocktails. The restaurant also features an outdoor patio with lawn games and recurring Saturday karaoke.",
+      "why_visit": "Tipsy Crawfish combines Cajun and seafood dining with a full neighborhood-bar atmosphere, patio space and recurring entertainment, making it a useful stop for dinner, drinks or a Saturday karaoke night.",
+      "why_its_unique": "The restaurant pairs Louisiana-inspired cooking and seafood with American comfort food, cocktails, frozen drinks, outdoor lawn games and recurring karaoke in one McKinney venue.",
+      "phone": "214-592-0145",
+      "email": "cajunmanager@gmail.com",
+      "website": "https://www.tipsycrawfish.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM–11:00 PM",
+        "tuesday": "11:00 AM–11:00 PM",
+        "wednesday": "11:00 AM–11:00 PM",
+        "thursday": "11:00 AM–11:00 PM",
+        "friday": "11:00 AM–12:00 AM",
+        "saturday": "11:00 AM–12:00 AM",
+        "sunday": "11:00 AM–11:00 PM"
+      },
+      "hours_note": "Current hours are published by Tipsy Crawfish on its official website. Check first-party sources for holiday or special-event changes.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": null,
+        "karaoke": true,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Cajun and Seafood Menu",
+        "Full Bar",
+        "Local Beer",
+        "Wine",
+        "Handcrafted Cocktails",
+        "Frozen Drinks",
+        "Outdoor Patio",
+        "Lawn Games",
+        "Karaoke",
+        "Event Space"
+      ],
+      "good_to_know": [
+        "Tipsy Crawfish is located at 1910 N Stonebridge Dr Suite 100 in McKinney.",
+        "The official website advertises Saturday karaoke.",
+        "The restaurant has an outdoor patio with lawn games.",
+        "The menu includes a children's section.",
+        "Friday and Saturday hours currently extend to midnight."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Fully researched 2026-08-24 from current first-party Tipsy Crawfish sources. The official website confirms the restaurant and bar at 1910 N Stonebridge Dr Suite 100 in McKinney, phone 214-592-0145, cajunmanager@gmail.com, current operating hours, Cajun and American food, local beer, wine, handcrafted cocktails, frozen drinks, an outdoor patio with lawn games, event-space availability and Saturday karaoke. The current Unmuted Entertainment schedule independently confirms recurring Unmuted Karaoke performances at Tipsy Crawfish.",
+      "last_checked": "2026-08-24",
+      "event_types": [
+        "Karaoke",
+        "Restaurant Events",
+        "Bar Events",
+        "Community Gatherings",
+        "Private Events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Unmuted Entertainment"
+      ],
+      "features": [
+        "Cajun and Louisiana-inspired cuisine",
+        "Seafood",
+        "Neighborhood bar",
+        "Patio",
+        "Lawn games",
+        "Recurring Saturday karaoke"
       ]
     }
   ]
