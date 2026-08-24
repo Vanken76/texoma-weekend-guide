@@ -5,8 +5,8 @@
   "generated_on": "2026-08-24",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1220,
-  "publish_ready_count": 896,
+  "business_count": 1221,
+  "publish_ready_count": 897,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -131781,6 +131781,108 @@
         "Late-night bar",
         "Recurring karaoke",
         "Fry Street / UNT area"
+      ]
+    },
+    {
+      "slug": "the-syndicate-university-union-denton",
+      "business_name": "The Syndicate at the University Union",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "service_area_or_location": "1155 Union Circle, Rooms 208/308, Denton, TX 76201",
+      "category": [
+        "Event Venue",
+        "Live Music Venue",
+        "Campus Venue"
+      ],
+      "tags": [
+        "live music",
+        "open mic",
+        "performances",
+        "jazz",
+        "campus events",
+        "student events",
+        "University of North Texas",
+        "University Union",
+        "UNT",
+        "Denton"
+      ],
+      "description": "The Syndicate is a two-floor event and hangout space inside the University of North Texas University Union. The venue hosts open mic nights, live bands, jazz performances, comedy and other student and public programming.",
+      "why_visit": "Visit for live music, open mic nights, UNT jazz performances and other entertainment inside the University Union.",
+      "address": "1155 Union Circle, Rooms 208/308",
+      "city": "Denton",
+      "state": "TX",
+      "postal_code": "76201",
+      "phone": null,
+      "email": null,
+      "website": "https://studentaffairs.unt.edu/university-union/visit/in-the-union.html",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Two-floor lounge",
+        "Performance stage",
+        "Live music",
+        "Open mic events",
+        "Televisions",
+        "University Union dining nearby"
+      ],
+      "good_to_know": [
+        "Located inside the UNT University Union in Rooms 208/308.",
+        "UNT describes The Syndicate as a two-floor hangout space with a sports lounge feel.",
+        "The space regularly hosts open mic nights, bands, stand-up comedy and UNT jazz performances."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": "University of North Texas University Union",
+      "related_businesses": [
+        "University of North Texas"
+      ],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-24 from official University of North Texas sources. UNT identifies The Syndicate as Rooms 208/308 inside the University Union at 1155 Union Circle in Denton and describes it as a two-floor sports-lounge-style space used for open mic nights, bands, stand-up comedy, watch parties and recurring jazz performances. No venue-specific phone number or email was published, so the University Union's general contact information was not assigned directly to this venue.",
+      "last_checked": "2026-08-24",
+      "event_types": [
+        "Open Mic",
+        "Live Music",
+        "Jazz",
+        "Karaoke",
+        "Comedy",
+        "Campus Events"
+      ],
+      "event_sources": [
+        "UNT Events Calendar",
+        "UNT University Union"
+      ],
+      "features": [
+        "Performance stage",
+        "Two-floor event space",
+        "Recurring live entertainment",
+        "UNT campus location"
       ]
     }
   ]
