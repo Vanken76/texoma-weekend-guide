@@ -5,8 +5,8 @@
   "generated_on": "2026-08-24",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1224,
-  "publish_ready_count": 900,
+  "business_count": 1225,
+  "publish_ready_count": 901,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -132230,6 +132230,130 @@
         "Wine and beer",
         "Active recurring event calendar",
         "Community-focused gathering place"
+      ]
+    },
+    {
+      "slug": "chop-sports-mckinney",
+      "business_name": "Chop Sports McKinney",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "7560 State Hwy 121 Suite 150, McKinney, TX 75070",
+      "category": [
+        "American Restaurant",
+        "Sports Bar",
+        "Bar & Grill",
+        "Entertainment Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Sports Bar",
+        "American Food",
+        "Burgers",
+        "Wings",
+        "Cocktails",
+        "Beer",
+        "Karaoke",
+        "Live Music",
+        "Sports Viewing",
+        "Outdoor Patio",
+        "HUB 121",
+        "McKinney",
+        "Collin County",
+        "North Texas"
+      ],
+      "description": "Chop Sports McKinney is an American restaurant and sports bar at HUB 121 in McKinney featuring burgers, wings, shareable bar food, cocktails, beer, extensive sports viewing, outdoor seating and recurring entertainment including Wednesday karaoke.",
+      "why_visit": "Chop Sports combines a full restaurant and bar with a high-energy sports-viewing environment and recurring nightlife programming, making it a useful stop for games, group outings, food, drinks and entertainment.",
+      "why_its_unique": "The venue blends a large sports-bar setup with indoor and outdoor gathering spaces and recurring interactive entertainment such as karaoke, giving it both game-day and nightlife appeal.",
+      "phone": "214-618-1004",
+      "email": null,
+      "website": "https://www.chopsportsmckinney.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM–2:00 AM",
+        "tuesday": "11:00 AM–2:00 AM",
+        "wednesday": "11:00 AM–2:00 AM",
+        "thursday": "11:00 AM–2:00 AM",
+        "friday": "11:00 AM–2:00 AM",
+        "saturday": "11:00 AM–2:00 AM",
+        "sunday": "11:00 AM–2:00 AM"
+      },
+      "hours_note": "Current business listings show daily service from 11:00 AM to 2:00 AM. Check the official website for holiday or special-event changes.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": true,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full Restaurant",
+        "Full Bar",
+        "Sports Viewing",
+        "Multiple TVs",
+        "Outdoor Patio",
+        "Karaoke",
+        "Live Entertainment",
+        "Late-Night Food",
+        "Wheelchair Accessible"
+      ],
+      "good_to_know": [
+        "Located at HUB 121 near the northwest corner of Alma Road and State Highway 121.",
+        "The venue serves American sports-bar food including burgers, wings and shareable appetizers.",
+        "The bar offers cocktails, draft beer and other alcoholic beverages.",
+        "The official website identifies Wednesday as karaoke night.",
+        "The venue has indoor and outdoor seating."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Fully researched 2026-08-24. The current first-party Chop Sports McKinney website confirms the business is an American restaurant and sports bar located at HUB 121 near Alma and State Highway 121, with sports viewing, food, cocktails, beer, outdoor seating and recurring entertainment. A current first-party article explicitly states that Wednesdays are karaoke nights. Current business-directory data corroborates 7560 State Hwy 121 Suite 150, McKinney, TX 75070, phone 214-618-1004 and daily 11:00 AM–2:00 AM hours.",
+      "last_checked": "2026-08-24",
+      "event_types": [
+        "Karaoke",
+        "Live Music",
+        "Watch Parties",
+        "Sports Events",
+        "DJ Nights",
+        "Community Gatherings"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official website posts"
+      ],
+      "features": [
+        "HUB 121 location",
+        "Sports-bar atmosphere",
+        "Extensive TV viewing",
+        "American restaurant",
+        "Full bar",
+        "Outdoor seating",
+        "Recurring karaoke"
       ]
     }
   ]
