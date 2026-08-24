@@ -5,8 +5,8 @@
   "generated_on": "2026-08-24",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1208,
-  "publish_ready_count": 884,
+  "business_count": 1209,
+  "publish_ready_count": 885,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -130990,6 +130990,42 @@
         "Karaoke",
         "Late-night hours"
       ]
+    },
+    {
+      "slug": "ruby-rodeo-denton",
+      "business_name": "Ruby Rodeo",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "122 N Locust St, Denton, TX 76201",
+      "category": [
+        "Bar",
+        "Cocktail Bar",
+        "Event Venue",
+        "Live Music Venue"
+      ],
+      "tags": [
+        "cocktails",
+        "karaoke",
+        "live music",
+        "DJ",
+        "nightlife",
+        "Denton",
+        "Denton Square"
+      ],
+      "description": "Ruby Rodeo is a cocktail bar on the Denton Square blending modern Western and disco-inspired style with cocktails, food, live music, DJs, karaoke and other nightlife programming.",
+      "address": "122 N Locust St",
+      "city": "Denton",
+      "state": "TX",
+      "postal_code": "76201",
+      "phone": "940-435-8394",
+      "website": "https://rubyrodeodenton.com/",
+      "event_venue": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Official Ruby Rodeo website confirms the Denton location, phone number and current recurring entertainment programming, including Sunday karaoke.",
+      "last_checked": "2026-08-23"
     }
   ]
 }
