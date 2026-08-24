@@ -26214,7 +26214,7 @@
       "timezone": "America/Chicago",
       "status": "recurring",
       "venue_slugs": [
-        "the-boat-yard"
+        "the-boat-yard-mead"
       ],
       "venue_name": "The Boat Yard",
       "address": "1116 Streetman Rd",
@@ -26245,7 +26245,7 @@
         "Karaoke Fans"
       ],
       "age_restriction": "21+",
-      "host_business_slug": "the-boat-yard",
+      "host_business_slug": "the-boat-yard-mead",
       "organizer_name": null,
       "partner_business_slugs": [],
       "partner_names": [],
