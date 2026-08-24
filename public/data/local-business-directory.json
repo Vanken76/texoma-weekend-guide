@@ -5,8 +5,8 @@
   "generated_on": "2026-08-24",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1221,
-  "publish_ready_count": 897,
+  "business_count": 1222,
+  "publish_ready_count": 898,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -131883,6 +131883,104 @@
         "Two-floor event space",
         "Recurring live entertainment",
         "UNT campus location"
+      ]
+    },
+    {
+      "slug": "dans-silverleaf-denton",
+      "business_name": "Dan's Silverleaf",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "service_area_or_location": "103 Industrial St, Denton, TX 76201",
+      "category": [
+        "Live Music Venue",
+        "Bar",
+        "Event Venue"
+      ],
+      "tags": [
+        "live music",
+        "songwriter open mic",
+        "original music",
+        "concerts",
+        "bar",
+        "cocktails",
+        "beer",
+        "21+",
+        "Downtown Denton",
+        "Denton"
+      ],
+      "description": "Dan's Silverleaf is a longtime Denton live music venue and bar featuring local, regional and touring artists across a wide range of genres along with recurring songwriter events and other live programming.",
+      "why_visit": "Visit for intimate live music, touring and local performers, songwriter events and one of Denton's best-known independent music venues.",
+      "address": "103 Industrial St",
+      "city": "Denton",
+      "state": "TX",
+      "postal_code": "76201",
+      "phone": "940-252-4369",
+      "email": "info@danssilverleaf.com",
+      "website": "https://danssilverleaf.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": false,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": false,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Live music",
+        "Beer and cocktails",
+        "Food available",
+        "ADA accessible",
+        "245-person capacity"
+      ],
+      "good_to_know": [
+        "Dan's Silverleaf is a 21-and-up establishment.",
+        "Sunday through Thursday hours are 3:00 PM to midnight.",
+        "Friday and Saturday hours are 3:00 PM to 2:00 AM.",
+        "Downtown Denton offers free and paid parking options nearby."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-24 from Dan's Silverleaf's official website and current event listings. Official venue information confirms 103 Industrial St, Denton, TX 76201, phone 940-252-4369, info@danssilverleaf.com, a 245-person capacity, food, beer and cocktails, ADA accessibility and a 21+ admission policy. Current Prekindle listings confirm active recurring live programming including Monday songwriter open mic events.",
+      "last_checked": "2026-08-24",
+      "event_types": [
+        "Live Music",
+        "Open Mic",
+        "Songwriter Events",
+        "Concerts"
+      ],
+      "event_sources": [
+        "Dan's Silverleaf",
+        "Prekindle"
+      ],
+      "features": [
+        "Independent live music venue",
+        "Recurring songwriter open mic",
+        "Local and touring artists",
+        "21+ venue"
       ]
     }
   ]
