@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 399,
-  "publish_ready_count": 399,
+  "event_count": 400,
+  "publish_ready_count": 400,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -26201,6 +26201,67 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified 2026-08-24 from the official City of Sherman calendar. Middle Meetup is scheduled Saturday, August 29, 2026 from 2:00 PM to 4:00 PM at Sherman Public Library, 421 N Travis St, Sherman, TX 75090. The official description states that kids ages 10-12 can craft, play games and meet friends. The event is come-and-go with no signups or tickets required. A separate August 14 occurrence exists, so this record is date-specific rather than assigned an unsupported recurrence rule.",
+      "last_checked": "2026-08-24",
+      "created_on": "2026-08-24",
+      "updated_on": "2026-08-24"
+    },
+    {
+      "event_slug": "friday-karaoke-contest-the-boat-yard",
+      "event_name": "Friday Karaoke Contest",
+      "description": "Friday night karaoke contest at The Boat Yard in Mead, featuring karaoke and cash prizes beginning at 9:00 PM.",
+      "start_datetime": "2026-08-28T21:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "the-boat-yard"
+      ],
+      "venue_name": "The Boat Yard",
+      "address": "1116 Streetman Rd",
+      "city": "Mead",
+      "state": "OK",
+      "postal_code": "73449",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Karaoke",
+        "Nightlife",
+        "Competition"
+      ],
+      "tags": [
+        "Friday Karaoke",
+        "Karaoke Contest",
+        "Cash Prizes",
+        "The Boat Yard",
+        "Mead",
+        "Bryan County",
+        "Lake Texoma",
+        "Southern Oklahoma"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "Adults",
+        "Karaoke Fans"
+      ],
+      "age_restriction": "21+",
+      "host_business_slug": "the-boat-yard",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/friday-karaoke-contest-the-boat-yard.png",
+      "image_alt": null,
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=FR",
+      "recurrence_start_date": "2026-08-28",
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-24. A current local participant responding directly to Texoma Weekend Guide confirmed that The Boat Yard holds its karaoke contest at 9:00 PM every Friday and previously identified the event as a Friday karaoke contest with cash prizes. The canonical TWG venue record confirms The Boat Yard at 1116 Streetman Rd, Mead, OK 73449, its 21+ policy, karaoke as a regular venue feature and Friday hours extending until 2:00 AM. Current customer reports also independently corroborate karaoke and cash-prize participation at the venue. No specific ending time, cover charge or prize amount was confirmed, so those details are not claimed.",
       "last_checked": "2026-08-24",
       "created_on": "2026-08-24",
       "updated_on": "2026-08-24"
