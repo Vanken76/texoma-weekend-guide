@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 394,
-  "publish_ready_count": 394,
+  "event_count": 395,
+  "publish_ready_count": 395,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -25894,6 +25894,69 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified 2026-08-24 from the official Pilot Point Coffee House event calendar. The calendar lists Sessions Night on Tuesday, August 25, 2026 from 6:00 PM to 10:00 PM at 110 W Main St in Pilot Point and describes it as a casual open-mic and jam night where participants may perform songs, poetry or standup. Consecutive Tuesday listings on August 18, August 25 and September 1 confirm the weekly Tuesday recurrence.",
+      "last_checked": "2026-08-24",
+      "created_on": "2026-08-24",
+      "updated_on": "2026-08-24"
+    },
+    {
+      "event_slug": "karaoke-night-pilot-point-coffee-house",
+      "event_name": "Karaoke Night",
+      "description": "Saturday karaoke night at Pilot Point Coffee House featuring an all-ages evening of singing from 7:00 PM to 10:00 PM. Explicit lyrics are allowed after 9:00 PM. There is no cover charge, and wine plus domestic and craft beer are available.",
+      "start_datetime": "2026-08-29T19:00:00-05:00",
+      "end_datetime": "2026-08-29T22:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "pilot-point-coffee-house"
+      ],
+      "venue_name": "Pilot Point Coffee House",
+      "address": "110 W Main St",
+      "city": "Pilot Point",
+      "state": "TX",
+      "postal_code": "76258",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Karaoke",
+        "Live Music",
+        "Community Event"
+      ],
+      "tags": [
+        "Karaoke Night",
+        "Saturday Karaoke",
+        "All Ages",
+        "Live Music",
+        "Singing",
+        "Pilot Point",
+        "Denton County",
+        "North Texas",
+        "Texoma"
+      ],
+      "cost_type": "free",
+      "cost_details": "No cover charge.",
+      "audience": [
+        "All Ages",
+        "Karaoke Fans",
+        "General Public"
+      ],
+      "age_restriction": "All ages; explicit lyrics are allowed after 9:00 PM.",
+      "host_business_slug": "pilot-point-coffee-house",
+      "organizer_name": "Jimerson Adkins",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/karaoke-night-pilot-point-coffee-house.png",
+      "image_alt": null,
+      "official_url": "https://pilotpointcoffeehouse.com/events/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=SA",
+      "recurrence_start_date": "2026-08-29",
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-24 from the current official Pilot Point Coffee House event calendar. The August 29 listing confirms Karaoke Night from 7:00 PM to 10:00 PM at 110 W Main St, Pilot Point, with no cover charge, all-ages admission, explicit lyrics allowed after 9:00 PM, and wine plus domestic and craft beer available. Current and historical first-party listings show Karaoke Night repeatedly on Saturdays, supporting the weekly recurrence. Jimerson Adkins is identified by the official event system as organizer for the recurring karaoke listings.",
       "last_checked": "2026-08-24",
       "created_on": "2026-08-24",
       "updated_on": "2026-08-24"
