@@ -5,8 +5,8 @@
   "generated_on": "2026-08-24",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1210,
-  "publish_ready_count": 886,
+  "business_count": 1211,
+  "publish_ready_count": 887,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -131063,6 +131063,44 @@
       "mine_for_events": true,
       "event_mining_priority": "high",
       "verification_note": "Verified 2026-08-23 from the official Harvest House website. Current official information confirms the Denton location, phone number, food and beverage service, open-air patio/yard, live-music stage and recurring weekly entertainment programming.",
+      "last_checked": "2026-08-23"
+    },
+    {
+      "slug": "bramblitts-yellow-dog-art-bar-gallery-denton",
+      "business_name": "Bramblitt's Yellow Dog Art Bar & Gallery",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "219 E Hickory St, Denton, TX 76201",
+      "category": [
+        "Bar",
+        "Art Gallery",
+        "Live Music Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "art",
+        "cocktails",
+        "open mic",
+        "live music",
+        "karaoke",
+        "spoken word",
+        "community events",
+        "Denton",
+        "Downtown Denton"
+      ],
+      "description": "Bramblitt's Yellow Dog Art Bar & Gallery is a downtown Denton art gallery and bar offering cocktails, creative activities and a recurring calendar of live music, open mic, karaoke, spoken-word and other community events.",
+      "address": "219 E Hickory St",
+      "city": "Denton",
+      "state": "TX",
+      "postal_code": "76201",
+      "phone": "940-380-8008",
+      "website": "https://www.facebook.com/Bramblitt",
+      "event_venue": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "verification_note": "Verified 2026-08-23 from current Discover Denton and Denton Main Street listings. Current sources confirm Bramblitt's Yellow Dog Art Bar & Gallery at 219 E Hickory St, Denton, TX 76201, phone 940-380-8008, and active recurring entertainment programming including open mic nights. Denton Main Street identifies https://www.facebook.com/Bramblitt as the venue website.",
       "last_checked": "2026-08-23"
     }
   ]
