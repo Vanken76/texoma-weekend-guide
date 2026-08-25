@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 405,
-  "publish_ready_count": 405,
+  "event_count": 406,
+  "publish_ready_count": 406,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -26601,6 +26601,60 @@
       "host_business_slug": null,
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_slug": "comedy-night-in-denison-john-brown-2026-08-28",
+      "event_name": "Comedy Night in Denison w/John Brown",
+      "description": "RedRock Saloon brings comedian John Brown to Denison for a live stand-up comedy show on Friday, Aug. 28. Limited seating is available, with general admission and VIP front-row seating options.",
+      "start_datetime": "2026-08-28T20:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "redrock-saloon"
+      ],
+      "venue_name": "RedRock Saloon",
+      "address": "123 W Woodard St",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75021",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Comedy",
+        "Nightlife"
+      ],
+      "tags": [
+        "John Brown",
+        "stand-up comedy",
+        "live comedy",
+        "RedRock Saloon",
+        "Denison"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$20 general admission; $30 VIP front-row seating.",
+      "audience": [],
+      "age_restriction": "21+",
+      "host_business_slug": "redrock-saloon",
+      "organizer_name": "RedRock Saloon",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/comedy-night-in-denison-john-brown-2026-08-28.png",
+      "image_alt": null,
+      "official_url": "https://events.massivetix.com/e/comedy-night-in-denison-w-john-brown",
+      "facebook_url": null,
+      "ticket_url": "https://events.massivetix.com/e/comedy-night-in-denison-w-john-brown/tickets",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Limited seating. General admission is $20 and VIP front-row seating is $30. Ticketing terms list a 21+ minimum.",
+      "last_checked": "2026-08-24",
+      "created_on": "2026-08-24",
+      "updated_on": "2026-08-25"
     }
   ]
 }
