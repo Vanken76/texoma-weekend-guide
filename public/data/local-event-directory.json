@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 421,
-  "publish_ready_count": 421,
+  "event_count": 422,
+  "publish_ready_count": 422,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -27561,6 +27561,70 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 25, 2026. Texoma Connect confirms the Thursday, Aug. 27 occurrence from 9:00 AM-1:00 PM at Frontier Village & Museum, with a cost of $25 per child and ages 6+ recommended. The program includes three mini lessons, crafts, food, hands-on gardening activities and planting in the new Children's Garden beds. A separate Aug. 26 class is also offered, but this record represents only the Aug. 27 occurrence. The event listing shows ZIP 75020, while Frontier Village's current official website and the canonical TWG business record use 75021; the canonical TWG/official venue address is used here.",
+      "last_checked": "2026-08-25",
+      "created_on": "2026-08-25",
+      "updated_on": "2026-08-25"
+    },
+    {
+      "event_slug": "night-hike-bat-chat-2026-08-29",
+      "event_name": "Night Hike: Bat Chat",
+      "description": "Learn about bats that live at the Heard during a guided night hike through the wildlife sanctuary. Participants will explore the sights, smells and sounds of the preserve after dark while sharpening their senses to spot signs of animal life and learn more about the Heard's nocturnal inhabitants.",
+      "start_datetime": "2026-08-29T19:00:00-05:00",
+      "end_datetime": "2026-08-29T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "heard-natural-science-museum-mckinney"
+      ],
+      "venue_name": "Heard Natural Science Museum & Wildlife Sanctuary",
+      "address": "1 Nature Place",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Outdoor Recreation",
+        "Nature",
+        "Educational",
+        "Kids & Family"
+      ],
+      "tags": [
+        "Night Hike",
+        "Bat Chat",
+        "bats",
+        "wildlife",
+        "nature",
+        "guided hike",
+        "Heard Museum",
+        "McKinney",
+        "outdoor education"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$12 Heard members; $14 non-members. Ages 2 and under are free.",
+      "audience": [
+        "Families",
+        "Children",
+        "Adults"
+      ],
+      "age_restriction": "Ages 3 through adult. Children 18 and under must be accompanied by an adult. Hike may not be suitable for children under 5.",
+      "host_business_slug": "heard-natural-science-museum-mckinney",
+      "organizer_name": "Heard Natural Science Museum & Wildlife Sanctuary",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/night-hike-bat-chat-2026-08-29.png",
+      "image_alt": null,
+      "official_url": "https://www.heardmuseum.org/event/night-hike-8-29-26-bat-chat/",
+      "facebook_url": null,
+      "ticket_url": "https://111457.blackbaudhosting.com/111457/tickets?tab=2&txobjid=fa13e347-5678-4102-80f6-8888b955b490",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 25, 2026 from the official Heard Natural Science Museum & Wildlife Sanctuary event page, Night Hikes program page and registration system. The event is Saturday, Aug. 29, 2026 from 7:00-9:00 PM. Members are $12 and non-members are $14. The official event page lists ages 3 through adult. General Night Hike rules state pre-registration is required, children 18 and under must be accompanied by an adult, toddlers and infants age 2 and under are free but must be carried, strollers are prohibited, and hikes may not be suitable for children under 5 because they last at least an hour over varied terrain.",
       "last_checked": "2026-08-25",
       "created_on": "2026-08-25",
       "updated_on": "2026-08-25"
