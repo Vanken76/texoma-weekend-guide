@@ -5,8 +5,8 @@
   "generated_on": "2026-08-25",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1232,
-  "publish_ready_count": 908,
+  "business_count": 1233,
+  "publish_ready_count": 909,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -133168,6 +133168,120 @@
         "Community event space",
         "Business programming",
         "Downtown Denton location"
+      ]
+    },
+    {
+      "slug": "denton-community-market",
+      "business_name": "Denton Community Market",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "317 W Mulberry St, Denton, TX 76201",
+      "category": [
+        "Farmers Market",
+        "Arts & Crafts",
+        "Community Market"
+      ],
+      "tags": [
+        "Farmers Market",
+        "Art Market",
+        "Local Vendors",
+        "Local Farms",
+        "Artists",
+        "Food Vendors",
+        "Live Music",
+        "Kids Activities",
+        "Shop Local",
+        "Downtown Denton"
+      ],
+      "description": "Denton Community Market is a producer-only art and farmers market in downtown Denton featuring local farms, artists, makers, food vendors, food trucks, live music, kids activities and other community programming.",
+      "why_visit": "Shop directly from local farmers, artists, makers and food vendors while enjoying live entertainment and a community-focused Saturday market near downtown Denton.",
+      "why_its_unique": "The market combines a producer-only farmers market and art market with recurring live music, family activities and local small-business vendors in one weekly community gathering.",
+      "phone": "940-268-4326",
+      "email": "vendorcoordinator@dentonmarket.org",
+      "website": "https://www.dentonmarket.org/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "Closed",
+        "wednesday": "Closed",
+        "thursday": "Closed",
+        "friday": "Closed",
+        "saturday": "9:00 AM–1:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "2026 seasonal market operates Saturdays from March through December. During extreme heat, Saturday hours may be shortened to 9:00 AM–12:00 PM. Winter-market dates and location differ.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": true,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Local farm vendors",
+        "Artists and makers",
+        "Food vendors",
+        "Food trucks",
+        "Live music",
+        "Kids activities",
+        "Community programming"
+      ],
+      "good_to_know": [
+        "The regular 2026 market location is 317 W Mulberry St in Denton.",
+        "The market is producer-only.",
+        "Summer heat can shorten market hours from 1:00 PM to noon.",
+        "The winter market uses a separate indoor location."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified Aug. 25, 2026 from the official Denton Community Market website. The market operates at 317 W Mulberry St, Denton, TX 76201 and describes itself as a producer-only art and farmers market featuring local farms, artists, food trucks, food vendors, live music and kids activities. The official site lists the 2026 seasonal schedule as Saturdays from 9:00 AM to 1:00 PM, with heat-adjusted hours sometimes ending at noon. Phone and vendor-coordinator email were also confirmed from the official site.",
+      "last_checked": "2026-08-25",
+      "event_types": [
+        "Farmers markets",
+        "Art markets",
+        "Live music",
+        "Community events",
+        "Family activities",
+        "Vendor markets"
+      ],
+      "event_sources": [
+        "Official Denton Community Market website",
+        "Official Denton Community Market event postings"
+      ],
+      "features": [
+        "Producer-only market",
+        "Local farms",
+        "Local artists and makers",
+        "Food vendors",
+        "Live music",
+        "Family activities"
       ]
     }
   ]
