@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 417,
-  "publish_ready_count": 417,
+  "event_count": 418,
+  "publish_ready_count": 418,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -27316,6 +27316,70 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 25, 2026 from the City of Gainesville official community calendar and Gainesville Area Chamber of Commerce. VIBE at 5 is scheduled Thursday, Aug. 27 from 5:00 PM to 7:00 PM inside the Gainesville ISD Administration Building at 900 N Grand Ave, Gainesville, TX 76240. The event is co-hosted by Communities in Schools of North Texas and Gainesville ISD and includes appetizers, networking and giveaways. The City listing states that everyone is invited. No admission price or age restriction was published, so neither was inferred. The event uses the newly added child venue slug gainesville-isd-administration-building, while Gainesville Independent School District remains its parent organization.",
+      "last_checked": "2026-08-25",
+      "created_on": "2026-08-25",
+      "updated_on": "2026-08-25"
+    },
+    {
+      "event_slug": "hops-shops-market-tupps-brewery",
+      "event_name": "Hops & Shops Market",
+      "description": "Hops & Shops Market brings local vendors to TUPPS Brewery for an evening of handmade crafts, artisanal goods, shopping, live music, craft beer and food from the TUPPS Grain Room Kitchen. The recurring market is family-friendly and takes place on the second and fourth Fridays of the month.",
+      "start_datetime": "2026-08-28T18:00:00-05:00",
+      "end_datetime": "2026-08-28T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "tupps-brewery-mckinney"
+      ],
+      "venue_name": "TUPPS Brewery",
+      "address": "402 E Louisiana St.",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Market",
+        "Shopping",
+        "Live Music",
+        "Food & Drink",
+        "Family Friendly"
+      ],
+      "tags": [
+        "Hops & Shops",
+        "TUPPS Brewery",
+        "McKinney",
+        "local vendors",
+        "handmade crafts",
+        "artisanal goods",
+        "shopping",
+        "live music",
+        "craft beer",
+        "local market"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "family-friendly"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "tupps-brewery-mckinney",
+      "organizer_name": "SBG Hospitality",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/hops-shops-market-tupps-brewery.png",
+      "image_alt": null,
+      "official_url": "https://tuppsbrewery.com/event/hops-shops-market-2/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=MONTHLY;BYDAY=2FR,4FR",
+      "recurrence_start_date": "2026-08-28",
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 25, 2026 from the official TUPPS Brewery Aug. 28 event page and SBG Hospitality's official Hops & Shops page. TUPPS confirms Aug. 28 from 6:00-9:00 PM at 402 E Louisiana St. and a second-and-fourth-Friday recurrence. SBG Hospitality confirms local handmade/artisanal vendors, live music, craft beer and a family-friendly format. No attendee admission price was published, so cost remains unknown. Canonical TUPPS Brewery slug verified as tupps-brewery-mckinney.",
       "last_checked": "2026-08-25",
       "created_on": "2026-08-25",
       "updated_on": "2026-08-25"
