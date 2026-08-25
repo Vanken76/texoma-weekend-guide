@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 404,
-  "publish_ready_count": 404,
+  "event_count": 405,
+  "publish_ready_count": 405,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -26539,6 +26539,68 @@
       "last_checked": "2026-08-24",
       "created_on": "2026-08-24",
       "updated_on": "2026-08-25"
+    },
+    {
+      "event_slug": "bctd-monthly-event-durant-2026-08-28",
+      "event_name": "BCTD Monthly Event",
+      "description": "Bryan County Trade Days returns to downtown Durant for a two-day vendor market featuring indoor and outdoor shopping from a rotating mix of makers, small businesses and specialty vendors. The event includes food vendors, hourly door prizes and a family-friendly atmosphere, with pet-friendly outdoor areas.",
+      "start_datetime": "2026-08-28T00:00:00-05:00",
+      "end_datetime": "2026-08-29T00:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "durant-main-street"
+      ],
+      "venue_name": "Durant Main Street",
+      "address": "314 W Main St",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Shopping",
+        "Community Events",
+        "Family Friendly"
+      ],
+      "tags": [
+        "Bryan County Trade Days",
+        "vendor market",
+        "shopping",
+        "local vendors",
+        "makers",
+        "food vendors",
+        "door prizes",
+        "downtown Durant"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "families",
+        "shoppers",
+        "visitors"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/bctd-monthly-event-durant-2026-08-28.png",
+      "official_url": "https://bryancountytradedays.com/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 24, 2026 from the official Bryan County Trade Days website. The official listing confirms Friday Aug. 28 through Saturday Aug. 29, 2026 at 314 W Main St in the heart of Downtown Durant, with indoor and outdoor vendors, food vendors, hourly door prizes, a family-friendly atmosphere and pet-friendly outdoor areas. No exact opening or closing times or admission price were published, so no time or price was invented. TWG's date-only 00:00 sentinel is used. Durant Main Street was verified in the live TWG Business Directory under canonical slug durant-main-street and is used as the existing downtown umbrella venue. Although Bryan County Trade Days describes this as a monthly event, no recurrence rule is encoded because each currently published occurrence has its own specific dates.",
+      "last_checked": "2026-08-24",
+      "created_on": "2026-08-24",
+      "updated_on": "2026-08-25",
+      "organizer_name": "Bryan County Trade Days",
+      "image_alt": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": null,
+      "partner_business_slugs": [],
+      "partner_names": []
     }
   ]
 }
