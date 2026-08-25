@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 412,
-  "publish_ready_count": 412,
+  "event_count": 413,
+  "publish_ready_count": 413,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -27011,6 +27011,65 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 25, 2026 from the official Denton Community Market website. The market's official event promotion lists Ashley Smith performing live with sounds by DJ Allusion on Saturday, Aug. 29 from 9:00 AM to 12:00 PM at 317 W Mulberry St, Denton, TX 76201. No admission price or age restriction was published, so neither was inferred. Venue was newly added to TWG under canonical slug denton-community-market.",
+      "last_checked": "2026-08-25",
+      "created_on": "2026-08-25",
+      "updated_on": "2026-08-25"
+    },
+    {
+      "event_slug": "live-on-the-lawn-the-grohl-models-2026-08-29",
+      "event_name": "Live on the Lawn: The Grohl Models",
+      "description": "The Grohl Models perform a free outdoor show at TUPPS Brewery's CUTX Stage, playing favorite alternative rock from the 1990s. Guests are encouraged to bring a chair or blanket for the family-friendly evening on the lawn.",
+      "start_datetime": "2026-08-29T19:00:00-05:00",
+      "end_datetime": "2026-08-29T22:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "tupps-brewery-mckinney"
+      ],
+      "venue_name": "TUPPS Outdoor Stage & Lawn",
+      "address": "402 E Louisiana St",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Family Friendly"
+      ],
+      "tags": [
+        "The Grohl Models",
+        "Live on the Lawn",
+        "90s alt rock",
+        "live music",
+        "outdoor concert",
+        "TUPPS Brewery",
+        "McKinney"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free to attend.",
+      "audience": [
+        "Families",
+        "Live music fans"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "tupps-brewery-mckinney",
+      "organizer_name": "TUPPS Brewery",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/live-on-the-lawn-the-grohl-models-2026-08-29.png",
+      "image_alt": null,
+      "official_url": "https://tuppsbrewery.com/event/live-on-the-lawn-jake-ryan/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 25, 2026 from the official TUPPS Brewery event listing. Live on the Lawn: The Grohl Models is scheduled Saturday, Aug. 29 from 7:00 PM to 10:00 PM at the TUPPS Outdoor Stage & Lawn, 402 E Louisiana St, McKinney, TX 75069. The show is free and family friendly. The official listing says The Grohl Models will perform 1990s alternative rock, guests may bring a chair or blanket, dogs are allowed in outdoor areas only, and outside food and beverages are not permitted. The event uses the existing TWG umbrella venue slug tupps-brewery-mckinney; the Outdoor Stage & Lawn does not require a separate business record.",
       "last_checked": "2026-08-25",
       "created_on": "2026-08-25",
       "updated_on": "2026-08-25"
