@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 411,
-  "publish_ready_count": 411,
+  "event_count": 412,
+  "publish_ready_count": 412,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -26952,6 +26952,67 @@
       "verification_note": "Verified Aug. 24, 2026 from Stoke Coworking's official event page. The 10 Year Birthday Bash is scheduled Saturday, Aug. 29 from 4:00 PM to 6:00 PM at Stoke Coworking, 608 E Hickory St, Suite 128, Denton, TX 76205. The event celebrates Stoke's members, partners, mentors and program participants and includes light refreshments. The official page links to an Eventbrite RSVP. No admission price or age restriction was verified, so neither was inferred.",
       "last_checked": "2026-08-24",
       "created_on": "2026-08-24",
+      "updated_on": "2026-08-25"
+    },
+    {
+      "event_slug": "ashley-smith-live-denton-community-market-2026-08-29",
+      "event_name": "Ashley Smith Live at Denton Community Market",
+      "description": "Ashley Smith performs live at the Denton Community Market during its Saturday morning market, with sounds by DJ Allusion. Visitors can also shop local vendors, find fresh products and food, and enjoy the community market atmosphere.",
+      "start_datetime": "2026-08-29T09:00:00-05:00",
+      "end_datetime": "2026-08-29T12:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "denton-community-market"
+      ],
+      "venue_name": "Denton Community Market",
+      "address": "317 W Mulberry St",
+      "city": "Denton",
+      "state": "TX",
+      "postal_code": "76201",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Farmers Market",
+        "Community Events"
+      ],
+      "tags": [
+        "Ashley Smith",
+        "DJ Allusion",
+        "live music",
+        "Denton Community Market",
+        "farmers market",
+        "local vendors",
+        "Denton"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "Families",
+        "Shoppers",
+        "Live music fans"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "denton-community-market",
+      "organizer_name": "Denton Community Market",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/ashley-smith-live-denton-community-market-2026-08-29.png",
+      "image_alt": null,
+      "official_url": "https://www.dentonmarket.org/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 25, 2026 from the official Denton Community Market website. The market's official event promotion lists Ashley Smith performing live with sounds by DJ Allusion on Saturday, Aug. 29 from 9:00 AM to 12:00 PM at 317 W Mulberry St, Denton, TX 76201. No admission price or age restriction was published, so neither was inferred. Venue was newly added to TWG under canonical slug denton-community-market.",
+      "last_checked": "2026-08-25",
+      "created_on": "2026-08-25",
       "updated_on": "2026-08-25"
     }
   ]
