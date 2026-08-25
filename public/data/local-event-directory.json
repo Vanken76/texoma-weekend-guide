@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 408,
-  "publish_ready_count": 408,
+  "event_count": 409,
+  "publish_ready_count": 409,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -26766,6 +26766,75 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 24, 2026 from the official VFW Post 7873 event page. Texoma Nights is listed for Aug. 29 from 7:00 PM to 10:00 PM at VFW Post 7873, with music by Love Handle and $10 admission. Food is available for purchase from 6:00 PM to 7:00 PM. Love Handle's official show calendar independently confirms its Aug. 29 performance at VFW Post 7873 from 7:00 PM to 10:00 PM. No age restriction or ticket URL was published.",
+      "last_checked": "2026-08-24",
+      "created_on": "2026-08-24",
+      "updated_on": "2026-08-25"
+    },
+    {
+      "event_slug": "millhouse-summer-artfest-2026",
+      "event_name": "2026 Summer ArtFest",
+      "description": "MillHouse Foundation presents its Summer ArtFest at the historic McKinney Cotton Mill, a two-day juried indoor fine art festival featuring fine artists, jewelers, potters, woodworkers, photographers and fiber artists. Food and drinks will be available for purchase, and The Retrofits perform Sunday from noon to 3:00 PM.",
+      "start_datetime": "2026-08-29T11:00:00-05:00",
+      "end_datetime": "2026-08-30T17:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "mckinney-cotton-mill"
+      ],
+      "venue_name": "The McKinney Cotton Mill",
+      "address": "610 Elm St",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Arts & Culture",
+        "Festival",
+        "Shopping",
+        "Family Friendly"
+      ],
+      "tags": [
+        "Summer ArtFest",
+        "MillHouse Foundation",
+        "fine art",
+        "art festival",
+        "artists",
+        "jewelry",
+        "pottery",
+        "woodworking",
+        "photography",
+        "fiber art",
+        "The Retrofits",
+        "McKinney"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free admission.",
+      "audience": [
+        "Families",
+        "Art lovers",
+        "Shoppers"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "MillHouse Foundation",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Cotton Mill Partners, Ltd."
+      ],
+      "image_url": "/images/events/millhouse-summer-artfest-2026.png",
+      "image_alt": null,
+      "official_url": "https://millhousefoundation.org/artfest",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 24, 2026 from the official MillHouse Foundation ArtFest page. Summer ArtFest is scheduled Aug. 29-30, 2026 from 11:00 AM to 5:00 PM each day at the McKinney Cotton Mill. Admission is free. The official listing describes a juried indoor fine art festival featuring fine artists, jewelers, potters, woodworkers, photographers and fiber artists. Food and beverages are available for purchase, and The Retrofits are scheduled Sunday from noon to 3:00 PM. Venue was newly added to TWG under canonical slug mckinney-cotton-mill.",
       "last_checked": "2026-08-24",
       "created_on": "2026-08-24",
       "updated_on": "2026-08-25"
