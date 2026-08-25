@@ -5,8 +5,8 @@
   "generated_on": "2026-08-25",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1233,
-  "publish_ready_count": 909,
+  "business_count": 1234,
+  "publish_ready_count": 910,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -133282,6 +133282,108 @@
         "Food vendors",
         "Live music",
         "Family activities"
+      ]
+    },
+    {
+      "slug": "instock-games-sherman",
+      "business_name": "InStock Games",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1010 La Salle Drive, Suite W2, Sherman, TX 75090",
+      "category": [
+        "Hobby Shop",
+        "Trading Card Games",
+        "Games & Entertainment"
+      ],
+      "tags": [
+        "Trading Card Games",
+        "Riftbound",
+        "Magic: The Gathering",
+        "Yu-Gi-Oh!",
+        "Card Games",
+        "Collectibles",
+        "Organized Play",
+        "Tournaments",
+        "Sherman"
+      ],
+      "description": "InStock Games is a Sherman tabletop and trading-card game store offering organized play, tournaments, card-game products and space for players to compete and connect. The store participates in official organized-play networks including Riftbound and Yu-Gi-Oh!.",
+      "why_visit": "Visit to shop trading-card products, play tabletop and card games, meet other players, and compete in recurring organized-play events and tournaments.",
+      "why_its_unique": "InStock Games combines a dedicated game-store retail operation with active organized play, including sanctioned and publisher-supported trading-card tournaments.",
+      "phone": "903-718-4046",
+      "email": "instockgames@yahoo.com",
+      "website": null,
+      "facebook": "https://www.facebook.com/InStockGamesFB/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Regular store hours were not entered because a current official hours source was not verified during this check.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Trading card game products",
+        "Organized play",
+        "Tournament space",
+        "Tabletop gaming",
+        "Player seating"
+      ],
+      "good_to_know": [
+        "The store is located in Suite W2 at 1010 La Salle Drive.",
+        "InStock Games is listed as a physical retailer and organized-play venue by Riftbound Gaming Network.",
+        "The store hosts competitive trading-card events including Riftbound tournaments.",
+        "Event entry fees and schedules vary by tournament."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified Aug. 25, 2026. Riftbound Gaming Network currently lists InStock Games as a Physical Retailer / Organized Play location at 1010 La Salle Drive, Suite W2, Sherman, TX 75090, with phone 903-718-4046, email instockgames@yahoo.com and Facebook page facebook.com/InStockGamesFB. Konami also identifies InStock Games as an official Yu-Gi-Oh! tournament store in Sherman. Regular hours were not populated because no current official hours source was established.",
+      "last_checked": "2026-08-25",
+      "event_types": [
+        "Trading card tournaments",
+        "Riftbound events",
+        "Yu-Gi-Oh! events",
+        "Magic: The Gathering events",
+        "Organized play",
+        "Competitive gaming"
+      ],
+      "event_sources": [
+        "Riftbound Gaming Network",
+        "Official publisher organized-play networks",
+        "Official InStock Games Facebook page"
+      ],
+      "features": [
+        "Trading card game store",
+        "Physical organized-play retailer",
+        "Tournament venue",
+        "Competitive gaming"
       ]
     }
   ]
