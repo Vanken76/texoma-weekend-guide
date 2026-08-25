@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 424,
-  "publish_ready_count": 424,
+  "event_count": 425,
+  "publish_ready_count": 425,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -27740,6 +27740,72 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 25, 2026 from Choctaw Casino & Resort–Durant's official live entertainment calendar. Tristan Roberson is listed at Gilley's Durant on Friday, Aug. 28 from 9:30 PM to 1:30 AM under the resort's Free Live Entertainment lineup. Third-party listings showing a 9:00 PM start were disregarded in favor of the official venue schedule. No event-specific age restriction is published, so none is inferred.",
+      "last_checked": "2026-08-25",
+      "created_on": "2026-08-25",
+      "updated_on": "2026-08-25"
+    },
+    {
+      "event_slug": "katy-trail-parkrun-denison-2026-08-29",
+      "event_name": "Katy Trail parkrun",
+      "description": "Katy Trail parkrun is a free, friendly weekly 5K community event at Denison Katy Trail. Participants may walk, jog or run the course, volunteer, or come out to spectate.",
+      "start_datetime": "2026-08-29T07:30:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "katy-trail"
+      ],
+      "venue_name": "Katy Trail",
+      "address": "1001 Waterloo Lake Drive",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75020",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Sports & Recreation",
+        "Running & Walking",
+        "Community Event"
+      ],
+      "tags": [
+        "Katy Trail parkrun",
+        "Katy Trail",
+        "Denison",
+        "5K",
+        "running",
+        "walking",
+        "jogging",
+        "free event",
+        "community event"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free. First-time participants should register with parkrun before attending and bring a scannable barcode to receive an official time.",
+      "audience": [
+        "Runners",
+        "Walkers",
+        "Joggers",
+        "Volunteers",
+        "Spectators",
+        "Community"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "katy-trail",
+      "organizer_name": "Katy Trail parkrun",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/katy-trail-parkrun-denison-2026-08-29.png",
+      "image_alt": null,
+      "official_url": "https://www.parkrun.us/katytrail/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 25, 2026 from the official Katy Trail parkrun page. The event takes place every Saturday at 7:30 AM from May through September and 9:00 AM from October through April. The Aug. 29, 2026 occurrence therefore starts at 7:30 AM. It is free and takes place at Denison Katy Trail, 1001 Waterloo Lake Drive, Denison, TX 75020. First-time participants should register before attending and bring a scannable barcode. No published end time or age restriction was found. Because the weekly start time changes seasonally, recurrence_rule is left null rather than encoding a misleading year-round fixed-time recurrence.",
       "last_checked": "2026-08-25",
       "created_on": "2026-08-25",
       "updated_on": "2026-08-25"
