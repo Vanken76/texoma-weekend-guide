@@ -5,8 +5,8 @@
   "generated_on": "2026-08-25",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1230,
-  "publish_ready_count": 906,
+  "business_count": 1231,
+  "publish_ready_count": 907,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -132949,6 +132949,107 @@
         "Arts & Design District",
         "Indoor and outdoor event spaces",
         "Event hosting"
+      ]
+    },
+    {
+      "slug": "mt-moon-collectibles-denison",
+      "business_name": "Mt. Moon Collectibles Denison",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "204 W Main St, Denison, TX 75020",
+      "category": [
+        "Hobby Shop",
+        "Collectibles",
+        "Games & Entertainment"
+      ],
+      "tags": [
+        "Trading Card Games",
+        "Magic: The Gathering",
+        "Pokémon",
+        "Riftbound",
+        "Card Shop",
+        "Tournaments",
+        "Tabletop Gaming",
+        "Downtown Denison"
+      ],
+      "description": "Mt. Moon Collectibles Denison is a locally operated trading card and collectibles shop in downtown Denison serving players and collectors with cards, sealed products, accessories and organized play. The shop supports games including Magic: The Gathering, Pokémon and Riftbound.",
+      "why_visit": "Stop in to shop trading cards and accessories, build or trade decks, meet other players, or take part in organized card-game events ranging from casual play to tournaments.",
+      "why_its_unique": "The Denison location combines a dedicated trading-card retail shop with an active organized-play calendar that includes weekly events, drafts, prereleases and competitive tournaments.",
+      "phone": "903-328-7681",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Current regular store hours were not established from a sufficiently reliable source during this verification.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Trading card game products",
+        "Singles and sealed products",
+        "Gaming accessories",
+        "Organized play",
+        "Tournament play"
+      ],
+      "good_to_know": [
+        "This is the Denison location at 204 W Main St, separate from Mt. Moon Collectibles locations in Sherman and McKinney.",
+        "The store hosts organized trading-card events including Riftbound competition.",
+        "Event schedules and entry fees vary by event."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified Aug. 24, 2026. Riftbound Gaming Network identifies Mt. Moon Collectibles Denison at 204 W Main St, Denison, TX 75020 as an organized-play venue. Current local business listings confirm the same address, phone number 903-328-7681, and the store's focus on Magic: The Gathering, Pokémon, Riftbound, card products and recurring organized play. No canonical official website, social URL or reliable regular-hours source was established, so those fields were not invented.",
+      "last_checked": "2026-08-24",
+      "event_types": [
+        "Trading card tournaments",
+        "Riftbound events",
+        "Magic: The Gathering events",
+        "Pokémon events",
+        "Drafts",
+        "Prereleases",
+        "Organized play"
+      ],
+      "event_sources": [
+        "Riftbound Gaming Network",
+        "Official trading-card organized-play networks",
+        "Store event listings"
+      ],
+      "features": [
+        "Trading card game shop",
+        "Organized competitive play",
+        "Tournament venue",
+        "Downtown Denison location"
       ]
     }
   ]
