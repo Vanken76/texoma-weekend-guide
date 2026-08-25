@@ -5,8 +5,8 @@
   "generated_on": "2026-08-25",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1234,
-  "publish_ready_count": 910,
+  "business_count": 1235,
+  "publish_ready_count": 911,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -133384,6 +133384,111 @@
         "Physical organized-play retailer",
         "Tournament venue",
         "Competitive gaming"
+      ]
+    },
+    {
+      "slug": "rubber-gloves-rehearsal-studios-denton",
+      "business_name": "Rubber Gloves Rehearsal Studios",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "411 E Sycamore St, Denton, TX 76205",
+      "category": [
+        "Live Music Venue",
+        "Arts & Entertainment",
+        "Event Venue"
+      ],
+      "tags": [
+        "Live Music",
+        "Concerts",
+        "Independent Music",
+        "Experimental Music",
+        "Rehearsal Studios",
+        "Showroom",
+        "Rubber Room",
+        "Patio",
+        "Denton"
+      ],
+      "description": "Rubber Gloves Rehearsal Studios is a long-running independent live music and arts venue in Denton featuring multiple performance spaces, including the Showroom, Rubber Room and Patio. Its calendar spans local and touring concerts, experimental music, benefit shows, screenings, community events and other independent arts programming.",
+      "why_visit": "Catch local and touring artists across a wide range of genres, discover experimental and underground music, or attend one of the venue's frequent community, arts and benefit events.",
+      "why_its_unique": "Rubber Gloves is one of Denton's most active independent music venues, with multiple indoor and outdoor performance spaces and an unusually broad calendar ranging from punk, indie and electronic music to film screenings, art events and community programming.",
+      "phone": "940-514-0675",
+      "email": "rgrsbooking@gmail.com",
+      "website": "https://rubberglovesdenton.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Hours vary by scheduled event. Check the official event calendar for doors, show times, admission and age restrictions.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Showroom",
+        "Rubber Room",
+        "Outdoor Patio",
+        "Indoor and outdoor stages",
+        "Bars",
+        "Rehearsal rooms"
+      ],
+      "good_to_know": [
+        "Age restrictions vary by event; the calendar includes both all-ages and 18+ shows.",
+        "Doors and show times vary by event.",
+        "The venue frequently hosts multiple events in different spaces on the same night.",
+        "Free parking is available adjacent to the venue, with additional street parking nearby."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified Aug. 25, 2026 from the official Rubber Gloves Rehearsal Studios website and current event calendar, which consistently identify the venue at 411 E Sycamore St in Denton and show active programming across the Showroom, Rubber Room and Patio. Discover Denton confirms ZIP 76205, phone 940-514-0675, booking email rgrsbooking@gmail.com, indoor and outdoor stages, bars and rehearsal-room facilities. The RGRS website's venue template displays ZIP 76209 on some pages, while Discover Denton lists 76205; 76205 is used here.",
+      "last_checked": "2026-08-25",
+      "event_types": [
+        "Live music",
+        "Concerts",
+        "Experimental music",
+        "Benefit shows",
+        "Film screenings",
+        "Community events",
+        "Arts events",
+        "Touring performances"
+      ],
+      "event_sources": [
+        "Official Rubber Gloves Rehearsal Studios event calendar",
+        "Official Rubber Gloves Rehearsal Studios website"
+      ],
+      "features": [
+        "Multiple performance spaces",
+        "Indoor and outdoor stages",
+        "Independent music venue",
+        "Rehearsal studios",
+        "Full event calendar"
       ]
     }
   ]
