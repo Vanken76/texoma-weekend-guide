@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 416,
-  "publish_ready_count": 416,
+  "event_count": 417,
+  "publish_ready_count": 417,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -27253,6 +27253,69 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 25, 2026 from the official Denton Maker Center Meetup listing. Three Tales: Folk Tales from Korea, China, and Japan by Crystal Garrett is scheduled Saturday, Aug. 29 at 12:00 PM at Denton Maker Center, 728 N Elm St, Denton, TX 76201. Admission is $10. The listing describes a seminar about three common motifs from Korea, China and Japan and their associated folklore, lasting approximately 45 minutes with 15 minutes for questions. The resulting 1:00 PM end time reflects that published one-hour program length. No age restriction was published.",
+      "last_checked": "2026-08-25",
+      "created_on": "2026-08-25",
+      "updated_on": "2026-08-25"
+    },
+    {
+      "event_slug": "vibe-at-5-gainesville-isd-2026-08-27",
+      "event_name": "VIBE at 5",
+      "description": "The Gainesville Area Chamber of Commerce presents its August VIBE at 5, co-hosted by Communities in Schools of North Texas and Gainesville ISD. Everyone is invited to the Gainesville ISD Administration Building for an evening of appetizers, networking and giveaways.",
+      "start_datetime": "2026-08-27T17:00:00-05:00",
+      "end_datetime": "2026-08-27T19:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "gainesville-isd-administration-building"
+      ],
+      "venue_name": "Gainesville ISD Administration Building",
+      "address": "900 N Grand Ave",
+      "city": "Gainesville",
+      "state": "TX",
+      "postal_code": "76240",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Business & Networking",
+        "Community Events"
+      ],
+      "tags": [
+        "VIBE at 5",
+        "Gainesville Area Chamber of Commerce",
+        "Communities in Schools of North Texas",
+        "Gainesville ISD",
+        "networking",
+        "business networking",
+        "community",
+        "giveaways",
+        "Gainesville"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "Public",
+        "Business community"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "gainesville-independent-school-district",
+      "organizer_name": "Gainesville Area Chamber of Commerce",
+      "partner_business_slugs": [],
+      "partner_names": [
+        "Communities in Schools of North Texas"
+      ],
+      "image_url": "/images/events/vibe-at-5-gainesville-isd-2026-08-27.png",
+      "image_alt": null,
+      "official_url": "https://www.gainesville.tx.us/Calendar.aspx?EID=3097&calType=0&day=27&month=8&year=2026",
+      "facebook_url": "https://www.facebook.com/events/5018969811718853",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 25, 2026 from the City of Gainesville official community calendar and Gainesville Area Chamber of Commerce. VIBE at 5 is scheduled Thursday, Aug. 27 from 5:00 PM to 7:00 PM inside the Gainesville ISD Administration Building at 900 N Grand Ave, Gainesville, TX 76240. The event is co-hosted by Communities in Schools of North Texas and Gainesville ISD and includes appetizers, networking and giveaways. The City listing states that everyone is invited. No admission price or age restriction was published, so neither was inferred. The event uses the newly added child venue slug gainesville-isd-administration-building, while Gainesville Independent School District remains its parent organization.",
       "last_checked": "2026-08-25",
       "created_on": "2026-08-25",
       "updated_on": "2026-08-25"
