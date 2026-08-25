@@ -5,8 +5,8 @@
   "generated_on": "2026-08-25",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1237,
-  "publish_ready_count": 913,
+  "business_count": 1238,
+  "publish_ready_count": 914,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -133710,6 +133710,124 @@
         "Board Room",
         "Professional development room",
         "Community meeting venue"
+      ]
+    },
+    {
+      "slug": "zin-zen-wine-bistro",
+      "business_name": "Zin Zen Wine Bistro",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "6841 Virginia Parkway, Suite 104, McKinney, TX 75071",
+      "category": [
+        "Wine Bar",
+        "Restaurant",
+        "Live Music Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Wine",
+        "Live Music",
+        "Outdoor Seating",
+        "Patio",
+        "Full Bar",
+        "Brunch",
+        "Private Events",
+        "Reservations",
+        "Wine Club",
+        "Date Night",
+        "Adriatica Village"
+      ],
+      "description": "Zin Zen Wine Bistro is a wine bar, restaurant and live-music destination in McKinney's Adriatica Village. Established in 2006, the bistro offers more than 80 wines from around the world, a full food menu, full bar, patio seating, weekly food and drink specials, Sunday brunch and live music Thursday through Saturday. Zin Zen also accommodates reservations, private parties and semi-private events.",
+      "why_visit": "Visit for a relaxed wine-and-dining experience with a broad international wine selection, full food menu, cocktails and recurring live music in the distinctive Adriatica Village setting.",
+      "why_its_unique": "Zin Zen combines more than 80 wines, full-service dining, a full bar, recurring Thursday-through-Saturday live music and private-event options inside McKinney's Croatian-inspired Adriatica Village.",
+      "phone": "972-547-4620",
+      "email": "Contact@zinzenwine.com",
+      "website": "https://www.zinzenwine.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM - 10:00 PM",
+        "tuesday": "11:00 AM - 10:00 PM",
+        "wednesday": "11:00 AM - 10:00 PM",
+        "thursday": "11:00 AM - 10:00 PM",
+        "friday": "11:00 AM - 11:59 PM",
+        "saturday": "11:00 AM - 11:59 PM",
+        "sunday": "11:00 AM - 9:00 PM"
+      },
+      "hours_note": "Current hours published by Zin Zen Wine Bistro; holiday and special-event hours may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full food menu",
+        "Full bar",
+        "Outdoor patio",
+        "Live music",
+        "Table reservations",
+        "Private and semi-private event hosting",
+        "Wine club",
+        "Sunday brunch"
+      ],
+      "good_to_know": [
+        "Live music is regularly offered Thursday through Saturday.",
+        "Open seating is available nightly on a first-come, first-served basis, with a limited number of reservations available.",
+        "Private and semi-private event options are available for groups of 15 or more by inquiry.",
+        "Zin Zen is located in Adriatica Village in McKinney."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Verified Aug. 25, 2026 from current official Zin Zen Wine Bistro website, About, Contact and Events pages. First-party sources confirm the Suite 104 McKinney location, phone, email, current hours, 80+ wines, full food menu, full bar, patio, Thursday-Saturday live music, Sunday brunch, reservations and private/semi-private event hosting. The current official contact page lists ZIP 75071; conflicting third-party ZIP listings were not used.",
+      "last_checked": "2026-08-25",
+      "event_types": [
+        "Live music",
+        "Private events",
+        "Special events"
+      ],
+      "event_sources": [
+        "Official Zin Zen Wine Bistro website",
+        "Official Zin Zen Wine Bistro event calendar",
+        "Visit McKinney event listings"
+      ],
+      "features": [
+        "80+ wines",
+        "Full food menu",
+        "Full bar",
+        "Live music Thursday-Saturday",
+        "Outdoor patio",
+        "Sunday brunch",
+        "Private and semi-private events",
+        "Wine club",
+        "Adriatica Village location"
       ]
     }
   ]
