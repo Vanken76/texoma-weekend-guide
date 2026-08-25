@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 426,
-  "publish_ready_count": 426,
+  "event_count": 427,
+  "publish_ready_count": 427,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -27863,6 +27863,59 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 25, 2026 from Choctaw Casino & Resort–Durant's official Free Live Entertainment calendar. Ronnie & The Redwoods is listed at Gilley's Durant on Saturday, Aug. 29 from 9:30 PM to 1:30 AM. The band's official website identifies them as a West Texas Americana/Rock band. No event-specific age restriction is published, so none is inferred.",
+      "last_checked": "2026-08-25",
+      "created_on": "2026-08-25",
+      "updated_on": "2026-08-25"
+    },
+    {
+      "event_slug": "jess-marcus-woolverton-guy-fieris-durant-2026-08-28",
+      "event_name": "Jess & Marcus Woolverton",
+      "description": "Jess & Marcus Woolverton perform live at Guy Fieri’s American Kitchen + Bar inside Choctaw Casino & Resort – Durant.",
+      "start_datetime": "2026-08-28T22:00:00-05:00",
+      "end_datetime": "2026-08-29T00:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "guy-fieris-american-kitchen-bar-durant"
+      ],
+      "venue_name": "Guy Fieri’s American Kitchen + Bar",
+      "address": "4216 S. Hwy 69/75",
+      "city": "Durant",
+      "state": "OK",
+      "postal_code": "74701",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music"
+      ],
+      "tags": [
+        "Jess & Marcus Woolverton",
+        "Guy Fieri’s American Kitchen + Bar",
+        "Choctaw Casino & Resort Durant",
+        "Durant",
+        "live music"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free live entertainment",
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": "guy-fieris-american-kitchen-bar-durant",
+      "organizer_name": "Choctaw Casino & Resort – Durant",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/jess-marcus-woolverton-guy-fieris-durant-2026-08-28.png",
+      "image_alt": null,
+      "official_url": "https://www.choctawcasinos.com/durant/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 25, 2026 from Choctaw Casino & Resort – Durant's official Free Live Entertainment calendar. Jess & Marcus Woolverton are listed at Guy Fieri’s American Kitchen + Bar on Friday, Aug. 28 from 10:00 PM to 12:00 AM. Admission is listed as free live entertainment. No event-specific age restriction is published, so none is inferred.",
       "last_checked": "2026-08-25",
       "created_on": "2026-08-25",
       "updated_on": "2026-08-25"
