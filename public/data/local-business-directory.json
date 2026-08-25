@@ -5,8 +5,8 @@
   "generated_on": "2026-08-25",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1231,
-  "publish_ready_count": 907,
+  "business_count": 1232,
+  "publish_ready_count": 908,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -133050,6 +133050,124 @@
         "Organized competitive play",
         "Tournament venue",
         "Downtown Denison location"
+      ]
+    },
+    {
+      "slug": "stoke-coworking-denton",
+      "business_name": "Stoke Coworking",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "608 E Hickory St, Suite 128, Denton, TX 76205",
+      "category": [
+        "Coworking Space",
+        "Business Services",
+        "Event Venue"
+      ],
+      "tags": [
+        "Coworking",
+        "Entrepreneurs",
+        "Remote Work",
+        "Meeting Rooms",
+        "Workshops",
+        "Networking",
+        "Business Events",
+        "Denton"
+      ],
+      "description": "Stoke Coworking is a Denton coworking space and entrepreneur hub serving startups, entrepreneurs, freelancers, remote workers, small businesses and creative professionals. The space offers shared workspace, private offices, meeting rooms and flexible spaces for workshops, meetings and community events.",
+      "why_visit": "Use Stoke for coworking, meetings, workshops, professional events, networking and entrepreneurship programming in a collaborative Denton workspace.",
+      "why_its_unique": "Stoke combines coworking and office space with an active entrepreneur-support and community-events program, including workshops, networking events, business programs and larger gatherings.",
+      "phone": null,
+      "email": null,
+      "website": "https://stokedenton.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "9:00 AM–5:00 PM",
+        "tuesday": "9:00 AM–5:00 PM",
+        "wednesday": "9:00 AM–5:00 PM",
+        "thursday": "9:00 AM–5:00 PM",
+        "friday": "9:00 AM–5:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      },
+      "hours_note": "Regular office access is Monday through Friday from 9:00 AM to 5:00 PM. Certain membership levels include 24/7 key-card access, and special events may occur outside regular office hours.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Coworking workspace",
+        "Private offices",
+        "Conference rooms",
+        "Community Room",
+        "Event space",
+        "WiFi",
+        "Coffee and tea",
+        "Kitchen",
+        "Printer, scanner and copier",
+        "Whiteboards",
+        "TV and monitor access",
+        "Patio",
+        "Parking"
+      ],
+      "good_to_know": [
+        "Stoke is located at the Railyard near downtown Denton.",
+        "The Community Room can accommodate approximately 20 to 30 people depending on layout.",
+        "The open coworking area can be used for parties, networking events and other gatherings.",
+        "Conference rooms and event spaces can be rented without a coworking membership."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified Aug. 24, 2026 from the official Stoke website and official Stoke member portal. Address confirmed as 608 E Hickory St, Suite 128, Denton, TX 76205. Regular hours are Monday-Friday 9:00 AM-5:00 PM, with 24/7 access available to qualifying members. Official pages confirm coworking, private offices, conference rooms, a Community Room and event-capable coworking space. Stoke actively hosts business, entrepreneurship and community programming. No phone number or canonical social-media URLs were established from the official sources reviewed, so those fields were not invented.",
+      "last_checked": "2026-08-24",
+      "event_types": [
+        "Networking events",
+        "Business workshops",
+        "Entrepreneurship programs",
+        "Community events",
+        "Meetups",
+        "Pitch competitions",
+        "Coworking events"
+      ],
+      "event_sources": [
+        "Official Stoke event calendar",
+        "Official Stoke website"
+      ],
+      "features": [
+        "Coworking and entrepreneur hub",
+        "Meeting and conference rooms",
+        "Community event space",
+        "Business programming",
+        "Downtown Denton location"
       ]
     }
   ]
