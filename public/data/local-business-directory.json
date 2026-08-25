@@ -5,8 +5,8 @@
   "generated_on": "2026-08-25",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1236,
-  "publish_ready_count": 912,
+  "business_count": 1237,
+  "publish_ready_count": 913,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -133613,6 +133613,103 @@
         "Local maker retail",
         "Event rental space",
         "Accessible facility"
+      ]
+    },
+    {
+      "slug": "gainesville-isd-administration-building",
+      "business_name": "Gainesville ISD Administration Building",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "900 N Grand Ave, Gainesville, TX 76240",
+      "category": [
+        "School District Facility",
+        "Government & Education",
+        "Event Venue"
+      ],
+      "tags": [
+        "Gainesville ISD",
+        "Administration Building",
+        "Board Room",
+        "Community Meetings",
+        "Public Meetings",
+        "Education",
+        "Gainesville"
+      ],
+      "description": "The Gainesville ISD Administration Building is the central administrative facility for Gainesville Independent School District. The building houses district administrative offices and meeting spaces used for school-district business, public meetings, training sessions and community events.",
+      "why_visit": "Visit for Gainesville ISD administrative services, public meetings, district programs, training sessions and community events scheduled at the facility.",
+      "why_its_unique": "This is Gainesville ISD's central administration facility and includes dedicated meeting spaces such as the Board Room and professional-development room used for district and community programming.",
+      "phone": "940-665-4362",
+      "email": null,
+      "website": "https://www.gainesvilleisd.org/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Administrative office and event access varies by department, meeting and scheduled program. Check Gainesville ISD information for the applicable office or event.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Board Room",
+        "Professional development room",
+        "Administrative offices",
+        "Meeting space"
+      ],
+      "good_to_know": [
+        "This venue is a child facility of Gainesville Independent School District.",
+        "The Board Room hosts district meetings and community events.",
+        "Event access and hours vary by scheduled program."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": "gainesville-independent-school-district",
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified Aug. 25, 2026 from official Gainesville ISD sources. GISD identifies its Administration Building at 900 N Grand Ave, Gainesville, TX 76240. The district facility calendar separately identifies the Board Room and PD Room at this address and lists scheduled meetings and events, including Gainesville Area Chamber of Commerce Vibe at 5 in the Board Room on Aug. 27, 2026. The existing Gainesville Independent School District record remains the parent business.",
+      "last_checked": "2026-08-25",
+      "event_types": [
+        "Community events",
+        "Public meetings",
+        "School district meetings",
+        "Training sessions",
+        "Professional development",
+        "Networking events"
+      ],
+      "event_sources": [
+        "Gainesville ISD facility calendar",
+        "Gainesville ISD official website"
+      ],
+      "features": [
+        "Central district administration facility",
+        "Board Room",
+        "Professional development room",
+        "Community meeting venue"
       ]
     }
   ]
