@@ -5,8 +5,8 @@
   "generated_on": "2026-08-25",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1235,
-  "publish_ready_count": 911,
+  "business_count": 1236,
+  "publish_ready_count": 912,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -133489,6 +133489,130 @@
         "Independent music venue",
         "Rehearsal studios",
         "Full event calendar"
+      ]
+    },
+    {
+      "slug": "denton-maker-center",
+      "business_name": "Denton Maker Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "728 N Elm St, Denton, TX 76201",
+      "category": [
+        "Makerspace",
+        "Arts & Culture",
+        "Event Venue"
+      ],
+      "tags": [
+        "Makerspace",
+        "Arts & Crafts",
+        "Workshops",
+        "Open Studio",
+        "Creative Classes",
+        "Community Events",
+        "Local Makers",
+        "Nonprofit",
+        "Denton"
+      ],
+      "description": "Denton Maker Center is a nonprofit makerspace and community arts hub serving the greater Denton area. The center provides shared creative space, tools and equipment, workshops, seminars, open studio time, memberships, special events and a retail area featuring handmade work from local makers.",
+      "why_visit": "Visit to learn a new creative skill, take a hands-on workshop, use shared maker resources, shop work from local artists and makers, or participate in community arts programming and special events.",
+      "why_its_unique": "Denton Maker Center combines hands-on creative education, shared maker resources, open studio access, locally made retail goods and community programming in one nonprofit creative hub just north of the Denton Square.",
+      "phone": "940-268-4096",
+      "email": "president@dentonmakercenter.com",
+      "website": "https://www.dentonmakercenter.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "4:00 PM–9:00 PM",
+        "tuesday": "4:00 PM–9:00 PM",
+        "wednesday": "4:00 PM–9:00 PM",
+        "thursday": "4:00 PM–9:00 PM",
+        "friday": "10:00 AM–5:00 PM",
+        "saturday": "10:00 AM–5:00 PM",
+        "sunday": "10:00 AM–5:00 PM"
+      },
+      "hours_note": "Monday through Thursday may close at 7:30 PM if no members are working.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Shared maker workspace",
+        "Workshop and classroom space",
+        "Tech resources",
+        "Textile equipment",
+        "Metals studio",
+        "Open studio access",
+        "Local maker retail area",
+        "Event rental space",
+        "TV screen",
+        "Bluetooth speaker",
+        "Accessible ramp",
+        "Accessible restroom",
+        "On-site parking"
+      ],
+      "good_to_know": [
+        "Denton Maker Center is a 501(c)(3) nonprofit organization.",
+        "Memberships provide varying levels of access to shared creative equipment and studio resources.",
+        "The center hosts workshops, seminars, open studio sessions and special events.",
+        "Private event rentals are available.",
+        "Parking is available on the north side of the building."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified Aug. 25, 2026 from the official Denton Maker Center website, official membership and rental information, and Discover Denton. Official sources confirm the nonprofit makerspace at 728 N Elm St, Denton, TX 76201; regular hours; workshops, seminars, open studio time, memberships, shared tools and creative resources, local-maker retail, accessibility features and event rentals. Discover Denton confirms phone 940-268-4096. The official Denton Maker Center site publishes president@dentonmakercenter.com as a contact address. No canonical social-media URLs were entered because they were not independently verified during this check.",
+      "last_checked": "2026-08-25",
+      "event_types": [
+        "Creative workshops",
+        "Arts classes",
+        "Community events",
+        "Lectures and seminars",
+        "Open studio events",
+        "Maker events",
+        "Cultural programs",
+        "Private events"
+      ],
+      "event_sources": [
+        "Official Denton Maker Center website",
+        "Official Denton Maker Center event calendar",
+        "Discover Denton"
+      ],
+      "features": [
+        "Nonprofit makerspace",
+        "Shared creative tools",
+        "Hands-on workshops",
+        "Multiple maker disciplines",
+        "Local maker retail",
+        "Event rental space",
+        "Accessible facility"
       ]
     }
   ]
