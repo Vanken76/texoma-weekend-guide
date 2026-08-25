@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 428,
-  "publish_ready_count": 428,
+  "event_count": 429,
+  "publish_ready_count": 429,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -27969,6 +27969,67 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 25, 2026 from Choctaw Casino & Resort – Durant's official Free Live Entertainment calendar. Jess & Marcus Woolverton are listed at Guy Fieri’s American Kitchen + Bar on Saturday, Aug. 29 from 10:00 PM to 12:00 AM. Admission is listed as free live entertainment. No event-specific age restriction is published, so none is inferred.",
+      "last_checked": "2026-08-25",
+      "created_on": "2026-08-25",
+      "updated_on": "2026-08-25"
+    },
+    {
+      "event_slug": "lineage-research-workshop-frontier-village-denison-2026-08-30",
+      "event_name": "Lineage Research Workshop",
+      "description": "Preston Trail Chapter, NSDAR hosts a public lineage research workshop at Frontier Village & Museum. Volunteer genealogists will help attendees begin or continue family-history research and search for patriot ancestors. Paperwork and laptops will be available, and participants are encouraged to bring any birth or death certificates, previous lineage research, and a laptop if available.",
+      "start_datetime": "2026-08-30T14:00:00-05:00",
+      "end_datetime": "2026-08-30T16:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "frontier-village-museum-denison"
+      ],
+      "venue_name": "Frontier Village & Museum",
+      "address": "111 RC Vaughan Dr",
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": "75021",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Workshop",
+        "Genealogy",
+        "History"
+      ],
+      "tags": [
+        "Lineage Research Workshop",
+        "genealogy",
+        "family history",
+        "patriot ancestors",
+        "Preston Trail Chapter NSDAR",
+        "DAR",
+        "Frontier Village & Museum",
+        "Denison"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "Public",
+        "Genealogy Researchers"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "frontier-village-museum-denison",
+      "organizer_name": "Preston Trail Chapter, NSDAR",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/lineage-research-workshop-frontier-village-denison-2026-08-30.png",
+      "image_alt": null,
+      "official_url": "https://ntxe-news.com/artman/publish/article_146576.shtml",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 25, 2026 from the event notice submitted by Preston Trail Chapter, NSDAR to North Texas e-News. The workshop is Sunday, Aug. 30 from 2:00 PM to 4:00 PM at Frontier Village & Museum in Denison. Volunteer genealogists will assist with family-history and patriot-ancestor research. No admission price or age restriction is stated, so neither is inferred. The event notice lists ZIP 75020; the official Frontier Village site and TWG's canonical venue record use 75021, so the canonical venue address is used here.",
       "last_checked": "2026-08-25",
       "created_on": "2026-08-25",
       "updated_on": "2026-08-25"
