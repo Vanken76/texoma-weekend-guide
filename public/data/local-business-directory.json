@@ -5,8 +5,8 @@
   "generated_on": "2026-08-25",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1241,
-  "publish_ready_count": 917,
+  "business_count": 1242,
+  "publish_ready_count": 918,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -134189,6 +134189,131 @@
         "Located inside The Link Casino",
         "Late-night weekend dining",
         "Recurring live music"
+      ]
+    },
+    {
+      "slug": "lakeview-golf-course-ardmore",
+      "business_name": "Lakeview Golf Course",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "3905 N Commerce, Ardmore, OK 73401",
+      "category": [
+        "Golf Course",
+        "Sports & Recreation",
+        "Event Venue"
+      ],
+      "tags": [
+        "Golf",
+        "Public Golf Course",
+        "Municipal Golf Course",
+        "Driving Range",
+        "Practice Green",
+        "Pro Shop",
+        "Golf Lessons",
+        "Golf Tournaments",
+        "Golf Scrambles",
+        "Club Rentals",
+        "Golf Cart Rentals",
+        "Restaurant",
+        "Ardmore"
+      ],
+      "description": "Lakeview Golf Course is a public municipal golf course in Ardmore featuring an 18-hole championship layout designed to challenge both beginning and experienced golfers. The course includes Bentgrass greens, Bermuda fairways, a driving range, practice putting green, full-service restaurant, fully stocked pro shop, golf cart and club rentals, lessons and daily tee times. Lakeview also hosts weekday scrambles, tournaments and other organized golf events.",
+      "why_visit": "Lakeview offers a complete public golf experience with an 18-hole course, practice facilities, rentals, instruction, food and a pro shop in one location. Its mix of a longer, more open front nine and a tighter back nine gives golfers two different styles of play in the same round.",
+      "why_its_unique": "The municipal course combines a 6,881-yard championship layout with distinctly different front and back nines, Bentgrass greens, Bermuda fairways and on-site tournament and scramble activity.",
+      "phone": "580-223-4260",
+      "email": null,
+      "website": "https://www.ardmorecity.org/133/Lakeview-Golf",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Dawn - Dusk",
+        "tuesday": "Dawn - Dusk",
+        "wednesday": "Dawn - Dusk",
+        "thursday": "Dawn - Dusk",
+        "friday": "Dawn - Dusk",
+        "saturday": "Dawn - Dusk",
+        "sunday": "Dawn - Dusk"
+      },
+      "hours_note": "The City of Ardmore lists the course as open dawn to dusk with tee times taken daily. The city page separately lists office hours Monday-Friday, 8:00 AM-5:00 PM. Call the pro shop for current tee-time availability.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "18-hole championship golf course",
+        "Bentgrass greens",
+        "Bermuda fairways",
+        "Driving range",
+        "Practice putting green",
+        "Full-service restaurant",
+        "Fully stocked pro shop",
+        "Golf cart rentals",
+        "Club rentals",
+        "Golf lessons",
+        "Daily tee times",
+        "Junior golfer rates",
+        "Senior discounts"
+      ],
+      "good_to_know": [
+        "Located about one mile east of I-35 Exit 33.",
+        "Tee times are taken daily.",
+        "Weekday scrambles are offered; call the pro shop for current information and registration.",
+        "The course hosts tournaments; call the pro shop for current tournament information and registration.",
+        "Course operating hours are described by the City of Ardmore as dawn to dusk."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from the official City of Ardmore Lakeview Golf Course page and City staff directory on 2026-08-25. Official sources confirm address, phone, course features, weekday scrambles, tournament use and daily tee times. Monitor the City of Ardmore and tournament organizers for upcoming events.",
+      "last_checked": "2026-08-25",
+      "event_types": [
+        "Golf tournaments",
+        "Charity golf tournaments",
+        "Golf scrambles",
+        "Community fundraisers",
+        "Sports events"
+      ],
+      "event_sources": [
+        "City of Ardmore Lakeview Golf Course page",
+        "City of Ardmore Parks & Recreation",
+        "Official tournament organizers"
+      ],
+      "features": [
+        "Public municipal golf course",
+        "18-hole championship layout",
+        "6,881 yards from championship tees",
+        "Par 71 for men",
+        "Par 72 for women",
+        "Front and back nines with distinct playing styles",
+        "Tournament and scramble host"
       ]
     }
   ]
