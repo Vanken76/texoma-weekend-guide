@@ -5,8 +5,8 @@
   "generated_on": "2026-08-25",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1240,
-  "publish_ready_count": 916,
+  "business_count": 1241,
+  "publish_ready_count": 917,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -134079,6 +134079,116 @@
         "Full bars",
         "Reserved and general-admission options",
         "Touring and regional music acts"
+      ]
+    },
+    {
+      "slug": "guy-fieris-american-kitchen-bar-durant",
+      "business_name": "Guy Fieri’s American Kitchen + Bar",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Inside The Link Casino at Choctaw Casino & Resort – Durant, 4216 S. Hwy 69/75, Durant, OK 74701",
+      "category": [
+        "American Restaurant",
+        "Bar",
+        "Live Music Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Guy Fieri",
+        "American food",
+        "Burgers",
+        "Sandwiches",
+        "Steak",
+        "BBQ",
+        "Craft Beer",
+        "Cocktails",
+        "Live Music",
+        "Choctaw Casino & Resort Durant",
+        "The Link Casino",
+        "Durant"
+      ],
+      "description": "Guy Fieri’s American Kitchen + Bar is an American restaurant, bar and recurring live-music venue located inside The Link Casino at Choctaw Casino & Resort – Durant. The restaurant serves appetizers, Big Bite Burgers, signature sandwiches and larger entrées including pasta, BBQ ribs, salmon and steak, along with craft beer and cocktails.",
+      "why_visit": "Stop in for Guy Fieri-inspired American food and drinks while visiting Choctaw Casino & Resort – Durant, with late-night dining and bar hours on Fridays and Saturdays and recurring live entertainment on select weekend nights.",
+      "why_its_unique": "The Durant location combines Guy Fieri’s restaurant concept with recurring live entertainment inside The Link Casino at Choctaw Casino & Resort – Durant.",
+      "phone": null,
+      "email": null,
+      "website": "https://www.choctawcasinos.com/durant/eat-drink/guy-fieris/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "11:00 AM - 10:00 PM",
+        "tuesday": "11:00 AM - 10:00 PM",
+        "wednesday": "11:00 AM - 10:00 PM",
+        "thursday": "11:00 AM - 10:00 PM",
+        "friday": "11:00 AM - 1:00 AM dining; bar until 2:00 AM",
+        "saturday": "11:00 AM - 1:00 AM dining; bar until 2:00 AM",
+        "sunday": "11:00 AM - 10:00 PM"
+      },
+      "hours_note": "Hours may vary. Friday and Saturday dining is available until 1:00 AM, with bar service until 2:00 AM.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full restaurant menu",
+        "Craft beer",
+        "Cocktails",
+        "Live entertainment"
+      ],
+      "good_to_know": [
+        "Located inside The Link Casino at Choctaw Casino & Resort – Durant.",
+        "Dining and bar hours differ on Friday and Saturday nights.",
+        "Live-entertainment schedules vary; check Choctaw's official entertainment calendar for current performers and times."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "choctaw-casino-resort-durant",
+        "business_name": "Choctaw Casino & Resort – Durant",
+        "relationship_note": "Guy Fieri’s American Kitchen + Bar is located inside The Link Casino at Choctaw Casino & Resort – Durant."
+      },
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified Aug. 25, 2026 from the official Choctaw Casino & Resort – Durant restaurant page, dining directory and entertainment calendar. Official restaurant name is Guy Fieri’s American Kitchen + Bar. Located in The Link Casino. Current hours are Sunday–Thursday 11:00 AM–10:00 PM and Friday–Saturday 11:00 AM–1:00 AM for dining, with the bar open until 2:00 AM Friday–Saturday. Choctaw's official entertainment calendar confirms recurring live entertainment at this venue.",
+      "last_checked": "2026-08-25",
+      "event_types": [
+        "Live music"
+      ],
+      "event_sources": [
+        "Official Choctaw Casino & Resort – Durant entertainment calendar",
+        "Official restaurant page"
+      ],
+      "features": [
+        "Guy Fieri restaurant concept",
+        "Located inside The Link Casino",
+        "Late-night weekend dining",
+        "Recurring live music"
       ]
     }
   ]
