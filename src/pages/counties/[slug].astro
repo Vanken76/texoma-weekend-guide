@@ -51,6 +51,30 @@ const formatEventDate = (value) => value
 const formatEventTime = (value) => value
   ? new Intl.DateTimeFormat("en-US", { timeZone: "America/Chicago", hour: "numeric", minute: "2-digit" }).format(new Date(value))
   : "";
+const todayCentral = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "America/Chicago",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit"
+}).format(new Date());
+const eventStartDate = (event = {}) => event.start_datetime?.slice(0, 10) || "";
+const eventEndDate = (event = {}) => event.end_datetime?.slice(0, 10) || "";
+const isOngoingEvent = (event = {}) => {
+  if (isRecurringEvent(event)) return false;
+  const startDate = eventStartDate(event);
+  const endDate = eventEndDate(event);
+  return Boolean(startDate && endDate && startDate < todayCentral && endDate >= todayCentral);
+};
+const eventDisplayDate = (event = {}) => {
+  if (isRecurringEvent(event)) return `Recurring · Next ${formatEventDate(event.next_occurrence_date)}`;
+  if (isOngoingEvent(event)) return `Ongoing · Through ${formatEventDate(event.end_datetime)}`;
+  return formatEventDate(event.start_datetime);
+};
+const eventSortDate = (event = {}) => {
+  if (isRecurringEvent(event)) return event.next_occurrence_date || "9999-12-31";
+  if (isOngoingEvent(event)) return todayCentral;
+  return eventStartDate(event) || "9999-12-31";
+};
 const titleCase = (value) => String(value || "")
   .replaceAll("_", " ")
   .replaceAll("-", " ")
@@ -137,9 +161,7 @@ const countyEvents = currentEvents
     return getEventVenueSlugs(event).some((slug) => countyBusinessSlugs.has(slug)) || countyBusinessSlugs.has(event.host_business_slug);
   })
   .sort((a, b) => {
-    const dateA = a.next_occurrence_date || a.start_datetime?.slice(0, 10) || "9999-12-31";
-    const dateB = b.next_occurrence_date || b.start_datetime?.slice(0, 10) || "9999-12-31";
-    const dateComparison = dateA.localeCompare(dateB);
+    const dateComparison = eventSortDate(a).localeCompare(eventSortDate(b));
     if (dateComparison !== 0) return dateComparison;
     return new Date(a.start_datetime || "9999-12-31").getTime() - new Date(b.start_datetime || "9999-12-31").getTime();
   });
@@ -326,20 +348,17 @@ const supportingMedia = [
             <p>These listings are pulled from the current TWG event directory.</p>
           </div>
           <div class="event-grid">
-            {upcomingEvents.map((event) => {
-              const recurring = isRecurringEvent(event);
-              return (
-                <a class="event-card card" href={`/events/${event.event_slug}/`}>
-                  {!recurring && event.image_url && <img src={event.image_url} alt={event.image_alt || `${event.event_name} event image`} loading="lazy" />}
-                  <div>
-                    <span class="event-date">{recurring ? `Recurring · Next ${formatEventDate(event.next_occurrence_date)}` : formatEventDate(event.start_datetime)}</span>
-                    <strong>{event.event_name}</strong>
-                    {(event.venue_name || event.city) && <p>{event.venue_name}{event.city ? `${event.venue_name ? " · " : ""}${event.city}` : ""}</p>}
-                    {event.start_datetime && <small>{formatEventTime(event.start_datetime)}{event.end_datetime ? `–${formatEventTime(event.end_datetime)}` : ""}</small>}
-                  </div>
-                </a>
-              );
-            })}
+            {upcomingEvents.map((event) => (
+              <a class="event-card card" href={`/events/${event.event_slug}/`}>
+                {event.image_url && <img src={event.image_url} alt={event.image_alt || `${event.event_name} event image`} loading="lazy" />}
+                <div>
+                  <span class="event-date">{eventDisplayDate(event)}</span>
+                  <strong>{event.event_name}</strong>
+                  {(event.venue_name || event.city) && <p>{event.venue_name}{event.city ? `${event.venue_name ? " · " : ""}${event.city}` : ""}</p>}
+                  {event.start_datetime && <small>{formatEventTime(event.start_datetime)}{event.end_datetime ? `–${formatEventTime(event.end_datetime)}` : ""}</small>}
+                </div>
+              </a>
+            ))}
           </div>
         </section>
       )}
