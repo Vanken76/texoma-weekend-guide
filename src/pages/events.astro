@@ -327,8 +327,19 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
     const urlParams = new URLSearchParams(window.location.search);
     const requestedState = normalizeState(urlParams.get("state") ?? "");
     const requestedCity = String(urlParams.get("city") ?? "").trim().toLowerCase();
+    let requestedCities = new Set(
+      String(urlParams.get("cities") ?? "")
+        .split("|")
+        .map((city) => city.trim().toLowerCase())
+        .filter(Boolean)
+    );
     if (stateFilter && ["tx", "ok"].includes(requestedState)) stateFilter.value = requestedState;
-    if (cityFilter && requestedCity && [...cityFilter.options].some((option) => option.value === requestedCity)) cityFilter.value = requestedCity;
+    if (cityFilter && requestedCities.size) {
+      [...cityFilter.options].forEach((option) => {
+        if (option.value !== "all" && !requestedCities.has(option.value)) option.disabled = true;
+      });
+    }
+    if (cityFilter && requestedCity && [...cityFilter.options].some((option) => option.value === requestedCity && !option.disabled)) cityFilter.value = requestedCity;
     let quickFilter = "all";
     let currentPage = 1;
 
@@ -435,6 +446,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
         const cityValues = (card.dataset.cities || card.dataset.city || "").split("|").filter(Boolean);
         return (!query || search.includes(query))
           && matchesDate(card, selectedDate)
+          && (requestedCities.size === 0 || cityValues.some((city) => requestedCities.has(city)))
           && (selectedCity === "all" || cityValues.includes(selectedCity))
           && (selectedState === "all" || normalizeState(card.dataset.state ?? "") === selectedState)
           && (selectedCategory === "all" || categories.split("|").includes(selectedCategory))
@@ -482,9 +494,13 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
     const clearFilters = () => {
       if (searchInput) searchInput.value = "";
       if (dateFilter) dateFilter.value = "all";
-      if (cityFilter) cityFilter.value = "all";
+      if (cityFilter) {
+        cityFilter.value = "all";
+        [...cityFilter.options].forEach((option) => { option.disabled = false; });
+      }
       if (stateFilter) stateFilter.value = "all";
       if (categoryFilter) categoryFilter.value = "all";
+      requestedCities = new Set();
       quickFilter = "all";
       quickButtons.forEach((item) => item.classList.toggle("active", item.dataset.quick === "all"));
       history.replaceState({}, "", window.location.pathname);
