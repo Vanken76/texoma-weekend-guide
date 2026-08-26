@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.1",
-  "generated_on": "2026-08-09",
-  "entity_count": 3,
-  "publish_ready_count": 3,
+  "generated_on": "2026-08-26",
+  "entity_count": 4,
+  "publish_ready_count": 4,
   "entities": [
     {
       "entity_type": "state",
@@ -518,6 +518,174 @@
           "usage_status": "owned",
           "usage_notes": "Existing TWG branded regional artwork already used on the site homepage.",
           "last_verified": "2026-08-09"
+        }
+      }
+    },
+    {
+      "entity_type": "county",
+      "name": "Grayson County",
+      "official_name": "Grayson County",
+      "slug": "grayson-county-tx",
+      "status": "active",
+      "publish_ready": true,
+      "country_slug": "united-states",
+      "parent_slug": "texas",
+      "state_slug": "texas",
+      "region_slugs": [
+        "texoma"
+      ],
+      "related_geography_slugs": [
+        "lake-texoma"
+      ],
+      "coverage_level": "core",
+      "within_twg_service_area": true,
+      "coverage_notes": "Grayson County is a core Texoma Weekend Guide coverage area. TWG covers events, businesses, venues, attractions, parks, recreation and communities throughout the county, including Sherman, Denison, Pottsboro, Whitesboro, Howe, Van Alstyne, Gunter, Bells, Collinsville, Tioga, Tom Bean, Whitewright and surrounding areas.",
+      "short_description": "Lake Texoma, historic communities, local events and North Texas destinations at the heart of the Texas side of Texoma.",
+      "description": "Grayson County sits along the Texas-Oklahoma border in North Texas, with the Red River and Lake Texoma forming much of its northern edge. Sherman serves as the county seat, while Sherman and Denison form the county's principal urban centers. The county combines Lake Texoma recreation, historic downtowns, parks, cultural attractions, restaurants, live entertainment, rural communities and rapidly growing North Texas cities. Texoma Weekend Guide uses this county guide to connect visitors and residents with current events, businesses, venues, attractions and city guides throughout Grayson County.",
+      "history_summary": "Grayson County was created by the Texas Legislature on March 17, 1846, from territory previously included in Fannin County. It was named for Peter Wagener Grayson, an attorney general of the Republic of Texas and prominent figure in the Texas independence era. The act creating the county also provided for a county seat named Sherman. Agriculture shaped much of the county's early economy before railroad development accelerated growth in the 1870s. The creation of Lake Texoma in the 1940s added a major recreation, tourism and water resource along the county's northern boundary.",
+      "visitor_summary": "Explore Grayson County events, businesses, venues, restaurants, parks, Lake Texoma destinations and communities through Texoma Weekend Guide.",
+      "county_seat_name": "Sherman",
+      "established_date": "1846-03-17",
+      "fips_code": "48181",
+      "population": {
+        "value": 153613,
+        "year": 2025,
+        "type": "estimate",
+        "source_url": "https://www.census.gov/quickfacts/fact/table/graysoncountytexas/PST045225"
+      },
+      "area_land_sq_mi": 932.84,
+      "time_zones": [
+        "America/Chicago"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "coordinate_source": null,
+      "coordinate_status": "missing",
+      "coordinate_verified_at": null,
+      "coordinate_verified_by": null,
+      "coordinate_note": "No representative county coordinate has been verified for public map use yet.",
+      "boundary_source_url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html",
+      "boundary_reference": "U.S. Census FIPS 48181",
+      "government_organization_slug": null,
+      "official_website_url": "https://www.co.grayson.tx.us/",
+      "featured": true,
+      "display_order": 1,
+      "seo_title": "Grayson County, TX Events & Things to Do | Texoma Weekend Guide",
+      "seo_description": "Explore Grayson County, Texas events, businesses, venues, parks, Lake Texoma destinations and city guides for Sherman, Denison and more.",
+      "last_verified": "2026-08-26",
+      "sources": [
+        {
+          "source_type": "census",
+          "source_name": "U.S. Census Bureau — Grayson County QuickFacts",
+          "source_url": "https://www.census.gov/quickfacts/fact/table/graysoncountytexas/PST045225",
+          "supports": [
+            "population",
+            "area_land_sq_mi",
+            "fips_code"
+          ],
+          "last_checked": "2026-08-26",
+          "notes": "2025 population estimate, land-area measurement and county identification."
+        },
+        {
+          "source_type": "official",
+          "source_name": "Grayson County, Texas — Historical Information",
+          "source_url": "https://www.co.grayson.tx.us/page/hist.home",
+          "supports": [
+            "history",
+            "creation",
+            "parent_county",
+            "geography",
+            "red_river",
+            "lake_texoma"
+          ],
+          "last_checked": "2026-08-26",
+          "notes": "Official county historical reference covering the county's 1846 creation from Fannin County, physical geography, Red River, Lake Texoma and historical development."
+        },
+        {
+          "source_type": "government-archive",
+          "source_name": "Grayson County — Act Creating the County",
+          "source_url": "https://www.co.grayson.tx.us/upload/page/0240/docs/An_Act.pdf",
+          "supports": [
+            "established_date",
+            "county_seat"
+          ],
+          "last_checked": "2026-08-26",
+          "notes": "Legislative act approved March 17, 1846 establishing Grayson County and providing that its county seat be named Sherman."
+        },
+        {
+          "source_type": "official",
+          "source_name": "Grayson County, Texas — Peter W. Grayson Historical Marker",
+          "source_url": "https://www.co.grayson.tx.us/upload/common/Historical/Markers/Mark104-2.htm",
+          "supports": [
+            "namesake",
+            "history"
+          ],
+          "last_checked": "2026-08-26",
+          "notes": "County historical-marker record identifying Peter Wagener Grayson as the county's namesake."
+        },
+        {
+          "source_type": "official",
+          "source_name": "Grayson County, Texas",
+          "source_url": "https://www.co.grayson.tx.us/",
+          "supports": [
+            "official_website"
+          ],
+          "last_checked": "2026-08-26",
+          "notes": "Official Grayson County government website."
+        },
+        {
+          "source_type": "gis",
+          "source_name": "U.S. Census Bureau — TIGER/Line Shapefiles",
+          "source_url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html",
+          "supports": [
+            "boundary_reference"
+          ],
+          "last_checked": "2026-08-26",
+          "notes": "Official Census geographic boundary source. Grayson County is identified by FIPS 48181."
+        }
+      ],
+      "media": {
+        "gallery": [
+          {
+            "url": "/images/geography/grayson-county-tx-gallery-1787741837662-3.png",
+            "alt_text": "AI-generated depiction of a historic house at Frontier Village & Museum in Grayson County, Texas.",
+            "source_name": "Texoma Weekend Guide",
+            "source_url": "",
+            "credit": "AI-generated for Texoma Weekend Guide",
+            "usage_status": "owned",
+            "usage_notes": "Original AI-generated editorial image created for Texoma Weekend Guide using Frontier Village reference imagery for general architectural and visual direction. Not a documentary photograph of the property.",
+            "last_verified": "2026-08-26"
+          }
+        ],
+        "hero_primary": {
+          "url": "/images/geography/grayson-county-tx-hero-primary.png",
+          "alt_text": "AI-generated scenic depiction of Lake Texoma at sunset with a motorboat crossing the water.",
+          "source_name": "Texoma Weekend Guide",
+          "source_url": "",
+          "credit": "AI-generated for Texoma Weekend Guide",
+          "usage_status": "owned",
+          "usage_notes": "Original AI-generated editorial image created for Texoma Weekend Guide using Lake Texoma reference imagery for general visual direction. Not a documentary photograph of a specific moment.",
+          "last_verified": "2026-08-26"
+        },
+        "hero_secondary": {
+          "url": "/images/geography/grayson-county-tx-hero-secondary.png",
+          "alt_text": "AI-generated civic depiction of the Grayson County Courthouse in Sherman, Texas.",
+          "source_name": "Texoma Weekend Guide",
+          "source_url": "",
+          "credit": "AI-generated for Texoma Weekend Guide",
+          "usage_status": "owned",
+          "usage_notes": "Original AI-generated editorial image created for Texoma Weekend Guide using courthouse reference imagery for general visual direction. Not a documentary photograph of the courthouse.",
+          "last_verified": "2026-08-26"
+        },
+        "outline": {
+          "url": "/images/geography/grayson-county-tx-outline.png",
+          "alt_text": "AI-generated map of Texas highlighting Grayson County along the Oklahoma border in North Texas.",
+          "source_name": "Texoma Weekend Guide",
+          "source_url": "",
+          "credit": "AI-generated for Texoma Weekend Guide",
+          "usage_status": "owned",
+          "usage_notes": "Original AI-generated locator map created for Texoma Weekend Guide to show the approximate location of Grayson County within Texas. Intended for geographic orientation rather than precise boundary or GIS use.",
+          "last_verified": "2026-08-26"
         }
       }
     }
