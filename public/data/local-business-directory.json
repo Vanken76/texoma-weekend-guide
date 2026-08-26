@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-25",
+  "generated_on": "2026-08-26",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1242,
-  "publish_ready_count": 918,
+  "business_count": 1243,
+  "publish_ready_count": 919,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -134314,6 +134314,123 @@
         "Par 72 for women",
         "Front and back nines with distinct playing styles",
         "Tournament and scramble host"
+      ]
+    },
+    {
+      "slug": "cadillac-pizza-pub",
+      "business_name": "Cadillac Pizza Pub",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "112 S Kentucky St, McKinney, TX 75069",
+      "category": [
+        "Pizza Restaurant",
+        "Bar / Pub / Nightlife",
+        "Live Music Venue",
+        "Event Venue"
+      ],
+      "tags": [
+        "Wood-Fired Pizza",
+        "Live Music",
+        "Cocktails",
+        "Beer",
+        "Wine",
+        "Happy Hour",
+        "Late Night",
+        "Family Friendly",
+        "Kids Menu",
+        "Historic Downtown McKinney"
+      ],
+      "description": "Cadillac Pizza Pub is a downtown McKinney restaurant, bar and live music venue centered around wood-fired pizza and a neighborhood-pub atmosphere. The menu includes specialty and build-your-own pizzas, starters, salads, baked pastas, sandwiches and desserts, alongside cocktails, draft and bottled beer and wine. Live music is regularly scheduled on Friday and Saturday nights.",
+      "why_visit": "Cadillac Pizza Pub combines dinner, drinks and live entertainment in one stop in Historic Downtown McKinney, with a broad wood-fired pizza menu, full drink selection and regularly scheduled weekend music.",
+      "why_its_unique": "The venue pairs a dedicated wood-fired pizza menu with an established Friday-and-Saturday live music schedule, giving it a strong restaurant-and-music identity in downtown McKinney.",
+      "phone": "972-547-3833",
+      "email": null,
+      "website": "https://www.cadillacpizzapub.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "11:00 AM - 10:00 PM",
+        "wednesday": "11:00 AM - 10:00 PM",
+        "thursday": "11:00 AM - 10:00 PM",
+        "friday": "11:00 AM - 11:30 PM",
+        "saturday": "11:00 AM - 11:30 PM",
+        "sunday": "11:00 AM - 10:00 PM"
+      },
+      "hours_note": "Live music is regularly scheduled Friday and Saturday from 9:00 PM to 11:30 PM. Happy hour and late-night social-hour schedules vary by day.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Wood-fired pizza",
+        "Full food menu",
+        "Cocktails",
+        "Draft beer",
+        "Bottled and canned beer",
+        "Wine",
+        "Kids menu",
+        "Live music",
+        "Happy hour",
+        "Late-night social hour",
+        "Gift cards"
+      ],
+      "good_to_know": [
+        "Located in Historic Downtown McKinney.",
+        "Live music is regularly scheduled Friday and Saturday from 9:00 PM to 11:30 PM.",
+        "The restaurant has a dedicated kids menu.",
+        "A parking lot is located just south of the restaurant, with additional parking available around Historic Downtown McKinney."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified 2026-08-25 from Cadillac Pizza Pub's official website, current food and drink menus, hours/location page and official live music calendar. Official sources confirm the address, phone, hours, wood-fired pizza, cocktails/beer/wine, family and kids-menu positioning, Friday/Saturday live music schedule and upcoming performances. Monitor the official live music calendar for new events.",
+      "last_checked": "2026-08-25",
+      "event_types": [
+        "Live music",
+        "Acoustic music",
+        "Band performances"
+      ],
+      "event_sources": [
+        "Cadillac Pizza Pub official live music calendar",
+        "Cadillac Pizza Pub official website"
+      ],
+      "features": [
+        "Wood-fired pizza",
+        "Friday and Saturday live music",
+        "Cocktails, beer and wine",
+        "Kids menu",
+        "Happy hour",
+        "Late-night social hour",
+        "Historic Downtown McKinney location"
       ]
     }
   ]
