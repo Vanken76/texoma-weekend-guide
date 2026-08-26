@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 433,
-  "publish_ready_count": 433,
+  "event_count": 434,
+  "publish_ready_count": 434,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -28277,6 +28277,69 @@
       "recurrence_start_date": null,
       "recurrence_end_date": null,
       "host_business_slug": null,
+      "partner_business_slugs": [],
+      "partner_names": []
+    },
+    {
+      "event_slug": "kids-night-out-art-movie-night-2026-08-29",
+      "event_name": "Kids Night Out: Art & Movie Night",
+      "description": "Jump Into Art Studios hosts a Kids Night Out featuring age-appropriate arts and crafts, games, cheese pizza and a movie. The evening is designed as a drop-off activity for kids while parents enjoy time in downtown McKinney.",
+      "start_datetime": "2026-08-29T18:00:00-05:00",
+      "end_datetime": "2026-08-29T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "jump-into-art-studios"
+      ],
+      "venue_name": "Jump Into Art Studios",
+      "address": "404 N Church Street",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Kids Activities",
+        "Arts & Crafts",
+        "Family"
+      ],
+      "tags": [
+        "Kids Night Out",
+        "Art and Movie Night",
+        "Jump Into Art Studios",
+        "arts and crafts",
+        "movie night",
+        "games",
+        "pizza",
+        "kids activities",
+        "drop-off event",
+        "Historic Downtown McKinney",
+        "McKinney"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$40 for the first child in a family and $22 for each additional child.",
+      "audience": [
+        "Kids ages 5-15"
+      ],
+      "age_restriction": "Ages 5-15",
+      "image_url": "/images/events/kids-night-out-art-movie-night-2026-08-29.png",
+      "official_url": "https://www.visitmckinney.com/event/kids-night-out%3A-art-and-movie-night/12661/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-25 from Visit McKinney's official event listing. Source confirms the Aug. 29, 2026 occurrence from 6:00-9:00 PM at Jump Into Art Studios, with early care available beginning at 5:00 PM, arts and crafts, games, cheese pizza and a movie. Event listing specifies ages 5-15 and pricing of $40 for the first child in a family and $22 for each additional child. Venue slug jump-into-art-studios was user-confirmed published this session.",
+      "last_checked": "2026-08-25",
+      "created_on": "2026-08-25",
+      "updated_on": "2026-08-26",
+      "organizer_name": "Jump Into Art Studios",
+      "image_alt": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": "jump-into-art-studios",
       "partner_business_slugs": [],
       "partner_names": []
     }
