@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.1",
   "generated_on": "2026-08-26",
-  "entity_count": 4,
-  "publish_ready_count": 4,
+  "entity_count": 5,
+  "publish_ready_count": 5,
   "entities": [
     {
       "entity_type": "state",
@@ -685,6 +685,125 @@
           "credit": "AI-generated for Texoma Weekend Guide",
           "usage_status": "owned",
           "usage_notes": "Original AI-generated locator map created for Texoma Weekend Guide to show the approximate location of Grayson County within Texas. Intended for geographic orientation rather than precise boundary or GIS use.",
+          "last_verified": "2026-08-26"
+        }
+      }
+    },
+    {
+      "entity_type": "city",
+      "name": "Sherman",
+      "official_name": "Sherman",
+      "slug": "sherman-tx",
+      "status": "active",
+      "publish_ready": true,
+      "country_slug": "united-states",
+      "parent_slug": "grayson-county-tx",
+      "state_slug": "texas",
+      "county_slug": "grayson-county-tx",
+      "region_slugs": [
+        "texoma"
+      ],
+      "related_geography_slugs": [
+        "texoma"
+      ],
+      "coverage_level": "core",
+      "within_twg_service_area": true,
+      "coverage_notes": "Sherman is a core Texoma Weekend Guide community and the county seat of Grayson County. TWG coverage includes Sherman events, businesses, venues, restaurants, attractions, parks, arts, entertainment, shopping and other local destinations.",
+      "description": "Sherman is the county seat of Grayson County and one of the principal communities of North Texas and the Texoma region. The city combines a historic downtown, Austin College, parks, arts and entertainment, restaurants, shopping, community events and growing commercial development. Texoma Weekend Guide connects visitors and residents with current Sherman events, venues, attractions, businesses and places to explore.",
+      "short_description": "The Grayson County seat and a major North Texas and Texoma center for events, dining, culture, education and local attractions.",
+      "history_summary": "Sherman was founded in 1846 by the Grayson County commissioners and named for General Sidney Sherman, a hero of the Texas Revolution. The original townsite was approximately four miles west of the present city, but a lack of wood and water led to Sherman's relocation to its present site in 1848. Sherman was incorporated in 1858. The city developed as an important commercial, governmental, educational and transportation center, with Austin College moving to Sherman in 1876 and numerous other educational institutions helping establish the city's historic reputation as an educational center.",
+      "visitor_summary": "Explore Sherman events, live music, restaurants, historic sites, parks, family activities, arts and entertainment, shopping and other things to do. Sherman also provides convenient access to Denison, Lake Texoma and destinations throughout Grayson County.",
+      "founded_year": 1846,
+      "moved_to_present_site_year": 1848,
+      "incorporated_date": "1858-12-07",
+      "county_seat_of_slug": "grayson-county-tx",
+      "population": {
+        "value": 52417,
+        "year": 2025,
+        "type": "estimate",
+        "source_url": "https://www.census.gov/quickfacts/fact/table/shermancitytexas/PST045225"
+      },
+      "area_land_sq_mi": 46.15,
+      "fips_code": "4867496",
+      "time_zones": [
+        "America/Chicago"
+      ],
+      "official_website_url": "https://www.ci.sherman.tx.us/",
+      "featured": true,
+      "display_order": 1,
+      "seo_title": "Sherman TX Events, Things to Do & Weekend Guide | Texoma Weekend Guide",
+      "seo_description": "Find Sherman, Texas events, restaurants, live music, venues, parks, attractions, businesses and things to do with Texoma Weekend Guide.",
+      "last_verified": "2026-08-26",
+      "sources": [
+        {
+          "source_type": "official",
+          "source_name": "City of Sherman — History of Sherman",
+          "source_url": "https://www.ci.sherman.tx.us/314/History-of-Sherman",
+          "supports": [
+            "history",
+            "founded",
+            "relocation",
+            "county_seat",
+            "name_origin",
+            "incorporation",
+            "Austin College"
+          ],
+          "last_checked": "2026-08-26",
+          "notes": "Official City of Sherman history covering the city's founding, relocation, naming, incorporation and development."
+        },
+        {
+          "source_type": "census",
+          "source_name": "U.S. Census Bureau — Sherman QuickFacts",
+          "source_url": "https://www.census.gov/quickfacts/fact/table/shermancitytexas/PST045225",
+          "supports": [
+            "population",
+            "area_land",
+            "fips_code"
+          ],
+          "last_checked": "2026-08-26",
+          "notes": "2025 population estimate, 2020 land area and Sherman city FIPS code."
+        },
+        {
+          "source_type": "official",
+          "source_name": "City of Sherman",
+          "source_url": "https://www.ci.sherman.tx.us/",
+          "supports": [
+            "official_website"
+          ],
+          "last_checked": "2026-08-26",
+          "notes": "Official municipal website for Sherman, Texas."
+        }
+      ],
+      "media": {
+        "gallery": [],
+        "hero_primary": {
+          "url": "/images/geography/sherman-tx-hero-primary.png",
+          "alt_text": "AI-generated editorial depiction of the Municipal Building and Kidd-Key Auditorium in Sherman, Texas.",
+          "source_name": "Texoma Weekend Guide",
+          "source_url": "",
+          "credit": "AI-generated for Texoma Weekend Guide",
+          "usage_status": "owned",
+          "usage_notes": "Original AI-generated editorial image created for Texoma Weekend Guide using reference imagery of the Municipal Building and Kidd-Key Auditorium for architectural and visual direction. Not a documentary photograph of the property.",
+          "last_verified": "2026-08-26"
+        },
+        "outline": {
+          "url": "/images/geography/sherman-tx-outline.png",
+          "alt_text": "AI-generated stylized locator map showing Sherman in Grayson County, Texas, including Downtown Sherman, US 75, US 82, Texoma Parkway, and Pecan Grove Park.",
+          "source_name": "Texoma Weekend Guide",
+          "source_url": "",
+          "credit": "AI-generated for Texoma Weekend Guide",
+          "usage_status": "owned",
+          "usage_notes": "Original stylized orientation graphic created for Texoma Weekend Guide to show Sherman's general location and major geographic relationships. Not intended for navigation, surveying, or GIS use.",
+          "last_verified": "2026-08-26"
+        },
+        "hero_secondary": {
+          "url": "/images/geography/sherman-tx-hero-secondary.png",
+          "alt_text": "AI-generated editorial depiction of Caruth Administration Building on the Austin College campus in Sherman, Texas.",
+          "source_name": "Texoma Weekend Guide",
+          "source_url": "",
+          "credit": "AI-generated for Texoma Weekend Guide",
+          "usage_status": "owned",
+          "usage_notes": "Original AI-generated editorial image created for Texoma Weekend Guide using reference imagery of Austin College's Caruth Administration Building for architectural and visual direction. Not a documentary photograph of the property.",
           "last_verified": "2026-08-26"
         }
       }
