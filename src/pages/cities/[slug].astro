@@ -188,6 +188,10 @@ const cityJsonLdText = serializeJsonLd({
   ...(entity.official_website_url ? { sameAs: [entity.official_website_url] } : {})
 });
 
+const cityFilterValue = encodeURIComponent(normalizeCity(entity.name || entity.slug));
+const stateFilterValue = stateCode ? encodeURIComponent(String(stateCode).toLowerCase()) : "";
+const eventDirectoryHref = `/events/?city=${cityFilterValue}${stateFilterValue ? `&state=${stateFilterValue}` : ""}`;
+const businessDirectoryHref = `/businesses/?city=${cityFilterValue}${stateFilterValue ? `&state=${stateFilterValue}` : ""}`;
 const featuredBusinesses = cityBusinesses.slice(0, 6);
 const upcomingEvents = cityEvents.slice(0, 8);
 const supportingMedia = [
@@ -216,7 +220,7 @@ const supportingMedia = [
         {entity.short_description && <p class="hero-summary">{entity.short_description}</p>}
         <div class="hero-actions">
           <a class="button primary" href="#explore">Explore {entity.name}</a>
-          <a class="button ghost" href="#upcoming-events">Upcoming events</a>
+          <a class="button ghost" href={eventDirectoryHref}>Upcoming events</a>
         </div>
       </div>
     </header>
@@ -278,8 +282,8 @@ const supportingMedia = [
           <p>{entity.visitor_summary || `Use Texoma Weekend Guide to find current events, restaurants, venues, parks, attractions and local businesses in ${entity.name}.`}</p>
         </div>
         <div class="stat-grid">
-          <a class="stat-card" href="#upcoming-events"><strong>{formatNumber(cityEvents.length) || "0"}</strong><span>current events</span></a>
-          <a class="stat-card" href="#featured-places"><strong>{formatNumber(cityBusinesses.length) || "0"}</strong><span>businesses and venues</span></a>
+          <a class="stat-card" href={eventDirectoryHref}><strong>{formatNumber(cityEvents.length) || "0"}</strong><span>current events</span></a>
+          <a class="stat-card" href={businessDirectoryHref}><strong>{formatNumber(cityBusinesses.length) || "0"}</strong><span>businesses and venues</span></a>
           {county ? <a class="stat-card geography-stat" href={`/counties/${county.slug}/`}><strong>{county.name}</strong><span>county guide</span></a> : <div class="stat-card geography-stat"><strong>{state?.name || "Texoma"}</strong><span>region</span></div>}
           <div class="stat-card geography-stat"><strong>{entity.population?.value ? formatNumber(entity.population.value) : state?.abbreviation || "TX"}</strong><span>{entity.population?.value ? `${entity.population.year} population` : "state"}</span></div>
         </div>
