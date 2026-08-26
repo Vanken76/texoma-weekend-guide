@@ -788,12 +788,12 @@
         },
         "outline": {
           "url": "/images/geography/sherman-tx-outline.png",
-          "alt_text": "AI-generated stylized locator map showing Sherman in Grayson County, Texas, including Downtown Sherman, US 75, US 82, Texoma Parkway, and Pecan Grove Park.",
+          "alt_text": "TWG-branded locator map showing Sherman in North Texas, with Lake Texoma northwest of Sherman, US 75 and US 82, Denison, and nearby regional cities.",
           "source_name": "Texoma Weekend Guide",
           "source_url": "",
-          "credit": "AI-generated for Texoma Weekend Guide",
+          "credit": "Created for Texoma Weekend Guide",
           "usage_status": "owned",
-          "usage_notes": "Original stylized orientation graphic created for Texoma Weekend Guide to show Sherman's general location and major geographic relationships. Not intended for navigation, surveying, or GIS use.",
+          "usage_notes": "Original Texoma Weekend Guide locator graphic created using regional mapping references, including a Sherman Economic Development Corporation locator map, for general geographic and visual guidance. The final artwork is TWG-owned editorial material and is intended for orientation only, not navigation, surveying, or GIS use.",
           "last_verified": "2026-08-26"
         },
         "hero_secondary": {
