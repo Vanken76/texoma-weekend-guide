@@ -9,6 +9,7 @@ import {
   buildBusinessIndex,
   getCurrentEvents,
   getEventVenueSlugs,
+  getNextOccurrenceDate,
   isRecurringEvent,
   withResolvedEventLocation
 } from "../../utils/eventDirectory.js";
@@ -33,6 +34,10 @@ const gallery = Array.isArray(media.gallery) ? media.gallery.filter((asset) => a
 const sourceEntries = Array.isArray(entity.sources) ? entity.sources.filter((source) => source?.source_name) : [];
 
 const normalize = (value) => String(value ?? "").trim().toLowerCase();
+const normalizeCity = (value) => normalize(value)
+  .replace(/,\s*(?:tx|texas|ok|oklahoma)\b.*$/i, "")
+  .replace(/-(?:tx|ok)$/i, "")
+  .trim();
 const toArray = (value) => Array.isArray(value) ? value : value ? [value] : [];
 const formatNumber = (value) => Number.isFinite(Number(value))
   ? new Intl.NumberFormat("en-US").format(Number(value))
@@ -41,7 +46,7 @@ const formatDate = (value) => value
   ? new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "long", day: "numeric", year: "numeric" }).format(new Date(`${value}T12:00:00Z`))
   : null;
 const formatEventDate = (value) => value
-  ? new Intl.DateTimeFormat("en-US", { timeZone: "America/Chicago", weekday: "short", month: "short", day: "numeric" }).format(new Date(value))
+  ? new Intl.DateTimeFormat("en-US", { timeZone: "America/Chicago", weekday: "short", month: "short", day: "numeric" }).format(new Date(`${String(value).slice(0, 10)}T12:00:00Z`))
   : "";
 const formatEventTime = (value) => value
   ? new Intl.DateTimeFormat("en-US", { timeZone: "America/Chicago", hour: "numeric", minute: "2-digit" }).format(new Date(value))
@@ -64,8 +69,6 @@ const childCities = allGeography
     const seatB = b.slug === entity.county_seat_city_slug ? 0 : 1;
     return seatA - seatB || (a.display_order ?? 999) - (b.display_order ?? 999) || a.name.localeCompare(b.name);
   });
-const childCityNames = new Set(childCities.map((city) => normalize(city.name)).filter(Boolean));
-const childCitySlugs = new Set(childCities.map((city) => normalize(city.slug)).filter(Boolean));
 const countyNames = new Set([entity.name, entity.official_name, entity.slug].map(normalize).filter(Boolean));
 
 const cityFromLocationText = (value) => {
@@ -73,7 +76,16 @@ const cityFromLocationText = (value) => {
   return match?.[1]?.trim() || "";
 };
 
-const recordReferencesCounty = (record = {}) => {
+const cityValuesForRecord = (record = {}, includeServiceArea = true) => [
+  record.city_slug,
+  record.city,
+  cityFromLocationText(record.address),
+  cityFromLocationText(record.full_address),
+  cityFromLocationText(record.formatted_address),
+  ...(includeServiceArea ? [cityFromLocationText(record.service_area_or_location)] : [])
+].map(normalizeCity).filter(Boolean);
+
+const recordDirectlyReferencesCounty = (record = {}) => {
   const directCountyValues = [record.county_slug, record.county, record.county_name, record.countyName]
     .map(normalize)
     .filter(Boolean);
@@ -84,17 +96,29 @@ const recordReferencesCounty = (record = {}) => {
     ...toArray(record.geography_slugs),
     ...toArray(record.tags)
   ].map(normalize);
-  if (related.some((value) => countyNames.has(value))) return true;
+  return related.some((value) => countyNames.has(value));
+};
 
-  const cityValues = [
-    record.city_slug,
-    record.city,
-    cityFromLocationText(record.service_area_or_location),
-    cityFromLocationText(record.full_address),
-    cityFromLocationText(record.formatted_address)
-  ].map(normalize).filter(Boolean);
+const seedCountyBusinesses = allBusinesses
+  .filter((business) => business.publish_ready === true)
+  .filter((business) => !stateCode || businessStateCode(business) === stateCode)
+  .filter(recordDirectlyReferencesCounty);
 
-  return cityValues.some((value) => childCityNames.has(value) || childCitySlugs.has(value));
+const declaredCountyCities = [
+  ...toArray(entity.city_names),
+  ...toArray(entity.community_names),
+  ...toArray(entity.covered_cities),
+  ...toArray(entity.member_cities)
+];
+const countyCityNames = new Set([
+  ...declaredCountyCities.map(normalizeCity),
+  ...childCities.flatMap((city) => [normalizeCity(city.name), normalizeCity(city.slug)]),
+  ...seedCountyBusinesses.flatMap((business) => cityValuesForRecord(business, false))
+].filter(Boolean));
+
+const recordReferencesCounty = (record = {}) => {
+  if (recordDirectlyReferencesCounty(record)) return true;
+  return cityValuesForRecord(record).some((value) => countyCityNames.has(value));
 };
 
 const countyBusinesses = allBusinesses
@@ -105,13 +129,20 @@ const countyBusinesses = allBusinesses
 const countyBusinessSlugs = new Set(countyBusinesses.map((business) => business.slug).filter(Boolean));
 
 const currentEvents = getCurrentEvents(allEvents)
-  .map((event) => withResolvedEventLocation(event, businessIndex));
+  .map((event) => withResolvedEventLocation(event, businessIndex))
+  .map((event) => ({ ...event, next_occurrence_date: getNextOccurrenceDate(event) }));
 const countyEvents = currentEvents
   .filter((event) => {
     if (recordReferencesCounty(event)) return true;
     return getEventVenueSlugs(event).some((slug) => countyBusinessSlugs.has(slug)) || countyBusinessSlugs.has(event.host_business_slug);
   })
-  .sort((a, b) => new Date(a.start_datetime || "9999-12-31").getTime() - new Date(b.start_datetime || "9999-12-31").getTime());
+  .sort((a, b) => {
+    const dateA = a.next_occurrence_date || a.start_datetime?.slice(0, 10) || "9999-12-31";
+    const dateB = b.next_occurrence_date || b.start_datetime?.slice(0, 10) || "9999-12-31";
+    const dateComparison = dateA.localeCompare(dateB);
+    if (dateComparison !== 0) return dateComparison;
+    return new Date(a.start_datetime || "9999-12-31").getTime() - new Date(b.start_datetime || "9999-12-31").getTime();
+  });
 
 const countySeat = childCities.find((city) => city.slug === entity.county_seat_city_slug) ?? null;
 const countySeatName = entity.county_seat_name
@@ -295,17 +326,20 @@ const supportingMedia = [
             <p>These listings are pulled from the current TWG event directory.</p>
           </div>
           <div class="event-grid">
-            {upcomingEvents.map((event) => (
-              <a class="event-card card" href={`/events/${event.event_slug}/`}>
-                {event.image_url && <img src={event.image_url} alt={event.image_alt || `${event.event_name} event image`} loading="lazy" />}
-                <div>
-                  <span class="event-date">{isRecurringEvent(event) ? "Recurring" : formatEventDate(event.start_datetime)}</span>
-                  <strong>{event.event_name}</strong>
-                  {(event.venue_name || event.city) && <p>{event.venue_name}{event.city ? `${event.venue_name ? " · " : ""}${event.city}` : ""}</p>}
-                  {event.start_datetime && <small>{formatEventTime(event.start_datetime)}{event.end_datetime ? `–${formatEventTime(event.end_datetime)}` : ""}</small>}
-                </div>
-              </a>
-            ))}
+            {upcomingEvents.map((event) => {
+              const recurring = isRecurringEvent(event);
+              return (
+                <a class="event-card card" href={`/events/${event.event_slug}/`}>
+                  {!recurring && event.image_url && <img src={event.image_url} alt={event.image_alt || `${event.event_name} event image`} loading="lazy" />}
+                  <div>
+                    <span class="event-date">{recurring ? `Recurring · Next ${formatEventDate(event.next_occurrence_date)}` : formatEventDate(event.start_datetime)}</span>
+                    <strong>{event.event_name}</strong>
+                    {(event.venue_name || event.city) && <p>{event.venue_name}{event.city ? `${event.venue_name ? " · " : ""}${event.city}` : ""}</p>}
+                    {event.start_datetime && <small>{formatEventTime(event.start_datetime)}{event.end_datetime ? `–${formatEventTime(event.end_datetime)}` : ""}</small>}
+                  </div>
+                </a>
+              );
+            })}
           </div>
         </section>
       )}
