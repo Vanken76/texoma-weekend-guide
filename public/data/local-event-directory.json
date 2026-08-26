@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 434,
-  "publish_ready_count": 434,
+  "event_count": 435,
+  "publish_ready_count": 435,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -28342,6 +28342,83 @@
       "host_business_slug": "jump-into-art-studios",
       "partner_business_slugs": [],
       "partner_names": []
+    },
+    {
+      "event_slug": "98th-annual-north-texas-fair-rodeo-2026",
+      "event_name": "98th Annual North Texas Fair & Rodeo",
+      "description": "The 98th Annual North Texas Fair & Rodeo brings 10 days of rodeo action, live country music, livestock shows, carnival rides, kid and fun zones, food, games, vendors and agricultural activities to the North Texas Fairgrounds in Denton. The final weekend features Bull Blowout and freestyle bullfighting events along with headline concerts from William Clark Green and Josh Meloy, Aaron Watson, Diamond Rio and Los Pescadores Del Rio Conchos.",
+      "start_datetime": "2026-08-21T17:30:00-05:00",
+      "end_datetime": "2026-08-30T23:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "north-texas-fairgrounds"
+      ],
+      "venue_name": "North Texas Fairgrounds",
+      "address": "2217 N Carroll Blvd",
+      "city": "Denton",
+      "state": "TX",
+      "postal_code": "76201",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Fairs & Festivals",
+        "Rodeo",
+        "Live Music",
+        "Family Friendly",
+        "Agriculture"
+      ],
+      "tags": [
+        "North Texas Fair & Rodeo",
+        "North Texas Fairgrounds",
+        "Denton",
+        "Rodeo",
+        "Bull Blowout",
+        "Freestyle Bullfights",
+        "Livestock Shows",
+        "Carnival",
+        "Live Music",
+        "Country Music",
+        "William Clark Green",
+        "Josh Meloy",
+        "Aaron Watson",
+        "Diamond Rio",
+        "Los Pescadores Del Rio Conchos",
+        "Family Friendly",
+        "Agriculture",
+        "Fair"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Gate admission includes the fair, rodeo events, livestock shows and concerts. Monday-Wednesday adult admission is $20; Thursday is $30; Friday-Sunday is $25. Children ages 7-12 are $5 and children 6 and under are free. Seniors 62+, military, first responders, City of Denton employees and teachers receive a $5 discount with valid ID. Parking is $15 per day. Carnival rides and armbands are separate.",
+      "audience": [
+        "families",
+        "rodeo fans",
+        "country music fans",
+        "fairgoers",
+        "agriculture and livestock enthusiasts",
+        "all ages"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "north-texas-fairgrounds",
+      "organizer_name": "North Texas State Fair Association",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/98th-annual-north-texas-fair-rodeo-2026.png",
+      "image_alt": null,
+      "official_url": "https://ntfair.com/",
+      "facebook_url": null,
+      "ticket_url": "https://northtexasrodeo.magicmoneyllc.com/MagicMoney_Web_NorthTexasRodeo/ETicket/UpcomingEvents",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": true,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 26, 2026 from the official North Texas Fair & Rodeo website, official gate-hours page, official ticket page, official live-music schedule and official daily-schedule materials. The organizer lists the 98th Annual North Texas Fair & Rodeo for Aug. 21-30, 2026 at 2217 N Carroll Blvd, Denton, TX 76201. Official gate hours begin Friday, Aug. 21 at 5:30 PM and conclude Sunday, Aug. 30 at 11:00 PM. Gate admission includes the fair, rodeo events, livestock shows and concerts. Official pricing is $20 Monday-Wednesday, $30 Thursday, and $25 Friday-Sunday for adults; children 7-12 are $5 and children 6 and under are free, with specified $5 discounts for qualifying groups. Parking is $15 daily. The Magic Money ticketing platform labels the event package Aug. 20-30, but the organizer's public fair dates and gate schedule identify Aug. 21 as opening day, so Aug. 21 is used as the event start date.",
+      "last_checked": "2026-08-26",
+      "created_on": "2026-08-26",
+      "updated_on": "2026-08-26"
     }
   ]
 }
