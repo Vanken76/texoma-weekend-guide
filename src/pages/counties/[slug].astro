@@ -165,6 +165,12 @@ const countyEvents = currentEvents
     if (dateComparison !== 0) return dateComparison;
     return new Date(a.start_datetime || "9999-12-31").getTime() - new Date(b.start_datetime || "9999-12-31").getTime();
   });
+const countyFilterCities = [...new Set([
+  ...countyCityNames,
+  ...countyBusinesses.flatMap((business) => cityValuesForRecord(business, false)),
+  ...countyEvents.flatMap((event) => cityValuesForRecord(event, false))
+])].filter(Boolean).sort();
+const countyEventDirectoryHref = `/events/?cities=${encodeURIComponent(countyFilterCities.join("|"))}${stateCode ? `&state=${encodeURIComponent(String(stateCode).toLowerCase())}` : ""}`;
 
 const countySeat = childCities.find((city) => city.slug === entity.county_seat_city_slug) ?? null;
 const countySeatName = entity.county_seat_name
@@ -249,7 +255,7 @@ const supportingMedia = [
         {entity.short_description && <p class="hero-summary">{entity.short_description}</p>}
         <div class="hero-actions">
           <a class="button primary" href="#explore">Explore {entity.name}</a>
-          <a class="button ghost" href="#upcoming-events">Upcoming events</a>
+          <a class="button ghost" href={countyEventDirectoryHref}>Upcoming events</a>
         </div>
       </div>
     </header>
@@ -310,7 +316,7 @@ const supportingMedia = [
           <p>{entity.visitor_summary || `Use Texoma Weekend Guide to find current events, businesses, venues and communities across ${entity.name}.`}</p>
         </div>
         <div class="stat-grid">
-          <a class="stat-card" href="#upcoming-events"><strong>{formatNumber(countyEvents.length) || "0"}</strong><span>current events</span></a>
+          <a class="stat-card" href={countyEventDirectoryHref}><strong>{formatNumber(countyEvents.length) || "0"}</strong><span>current events</span></a>
           <a class="stat-card" href="#featured-places"><strong>{formatNumber(countyBusinesses.length) || "0"}</strong><span>businesses and venues</span></a>
           <a class="stat-card" href="#communities"><strong>{formatNumber(childCities.length) || "0"}</strong><span>published city guides</span></a>
           <div class="stat-card geography-stat"><strong>{state?.abbreviation || state?.name || "Texoma"}</strong><span>state / region</span></div>
