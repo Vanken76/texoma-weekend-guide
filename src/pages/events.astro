@@ -167,7 +167,11 @@ const occursOn = (eventDate, targetDate, recurrenceRule, recurrenceEnd) => {
 const nextOccurrenceDate = (event, fromDate = today) => {
   const eventDate = event.start_datetime?.slice(0, 10) ?? "";
   if (!eventDate) return null;
-  if (!isRecurring(event)) return eventDate >= fromDate ? eventDate : null;
+  if (!isRecurring(event)) {
+    const endDate = event.end_datetime?.slice(0, 10) ?? eventDate;
+    if (endDate < fromDate) return null;
+    return eventDate >= fromDate ? eventDate : fromDate;
+  }
 
   const endDate = recurrenceEndDate(event);
   const scanEnd = endDate && endDate < addDays(fromDate, 730) ? endDate : addDays(fromDate, 730);
@@ -197,6 +201,13 @@ const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
   hour: "numeric",
   minute: "2-digit"
 }).format(new Date(value));
+
+const formatEventDate = (event) => {
+  const startDate = event.start_datetime?.slice(0, 10) ?? "";
+  const endDate = event.end_datetime?.slice(0, 10) ?? "";
+  if (startDate && endDate && endDate !== startDate) return `${formatDate(startDate)}–${formatDate(endDate)}`;
+  return startDate ? formatDate(startDate) : "";
+};
 
 const events = (directory.events ?? [])
   .map(withVenueFallbacks)
@@ -257,6 +268,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
                 data-event-card
                 data-search={searchable}
                 data-date={event.start_datetime?.slice(0, 10) ?? ""}
+                data-end-date={event.end_datetime?.slice(0, 10) ?? event.start_datetime?.slice(0, 10) ?? ""}
                 data-next-date={event.next_occurrence_date ?? ""}
                 data-city={(event.city ?? "").toLowerCase()}
                 data-cities={(event.city_values ?? []).join("|")}
@@ -269,7 +281,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
               >
                 {event.image_url && <a class="flyer-link" href={event.image_url} target="_blank" rel="noreferrer"><img class="event-flyer" src={event.image_url} alt={event.image_alt || `${event.event_name} flyer`} loading="lazy" /></a>}
                 <div class="event-card-body">
-                  <div class="event-date"><strong>{recurring ? `Recurring · Next ${formatDate(event.next_occurrence_date)}` : formatDate(event.start_datetime)}</strong><span>{event.start_datetime ? formatTime(event.start_datetime) : ""}{event.end_datetime ? `–${formatTime(event.end_datetime)}` : ""}</span></div>
+                  <div class="event-date"><strong>{recurring ? `Recurring · Next ${formatDate(event.next_occurrence_date)}` : formatEventDate(event)}</strong><span>{event.start_datetime ? formatTime(event.start_datetime) : ""}{event.end_datetime ? `–${formatTime(event.end_datetime)}` : ""}</span></div>
                   <h2>{event.event_name}</h2>
                   {(event.venue_name || event.city) && <p class="venue">{event.venue_name}{event.city ? `${event.venue_name ? " · " : ""}${event.city}, ${event.state}` : ""}</p>}
                   {event.description && <p>{event.description}</p>}
@@ -411,7 +423,8 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
 
     const rangeContainsOccurrence = (card, rangeStart, rangeEnd) => {
       const eventDate = card.dataset.date ?? "";
-      if (card.dataset.recurring !== "true") return eventDate >= rangeStart && eventDate <= rangeEnd;
+      const eventEndDate = card.dataset.endDate || eventDate;
+      if (card.dataset.recurring !== "true") return eventDate <= rangeEnd && eventEndDate >= rangeStart;
       for (let date = rangeStart; date <= rangeEnd; date = addDays(date, 1)) {
         if (occursOn(eventDate, date, card.dataset.recurrenceRule ?? "", card.dataset.recurrenceEnd ?? "")) return true;
       }
@@ -428,7 +441,9 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
       if (selected === "seven-days") return rangeContainsOccurrence(card, current, addDays(current, 6));
       if (selected === "weekend") {
         const base = new Date(`${current}T12:00:00`);
-        const friday = addDays(current, (5 - base.getDay() + 7) % 7);
+        const day = base.getDay();
+        const fridayOffset = day === 0 ? -2 : day === 6 ? -1 : 5 - day;
+        const friday = addDays(current, fridayOffset);
         return rangeContainsOccurrence(card, friday, addDays(friday, 2));
       }
       return true;
