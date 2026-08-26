@@ -15,12 +15,50 @@ const today = chicagoDate(now);
 const businesses = businessDirectory.businesses ?? [];
 const businessBySlug = new Map(businesses.map((business) => [business.slug, business]));
 const toArray = (value) => Array.isArray(value) ? value : value ? [value] : [];
-
-const getPrimaryVenueSlug = (event) => [
+const normalizeCity = (value) => String(value ?? "").trim().toLowerCase()
+  .replace(/,\s*(?:tx|texas|ok|oklahoma)\b.*$/i, "")
+  .replace(/-(?:tx|ok)$/i, "")
+  .trim();
+const cityFromLocationText = (value) => {
+  const match = String(value ?? "").match(/,\s*([^,]+),\s*(?:TX|Texas|OK|Oklahoma)\b/i);
+  if (match?.[1]) return match[1].trim();
+  const serviceAreaMatch = String(value ?? "").match(/^([^,]+),\s*(?:TX|Texas|OK|Oklahoma)\b/i);
+  return serviceAreaMatch?.[1]?.trim() || "";
+};
+const getVenueSlugs = (event = {}) => [
   ...toArray(event.venue_slugs),
   ...toArray(event.venue_slug),
+  ...toArray(event.primary_venue_slug),
   ...toArray(event.host_business_slug)
-].find(Boolean) ?? null;
+].filter(Boolean);
+const getPrimaryVenueSlug = (event) => getVenueSlugs(event)[0] ?? null;
+const businessCityValues = (business = {}) => [
+  business.city_slug,
+  business.city,
+  cityFromLocationText(business.address),
+  cityFromLocationText(business.full_address),
+  cityFromLocationText(business.formatted_address),
+  cityFromLocationText(business.service_area_or_location),
+  ...toArray(business.related_geography_slugs),
+  ...toArray(business.geography_slugs),
+  ...toArray(business.tags)
+].map(normalizeCity).filter(Boolean);
+const eventCityValues = (event = {}) => {
+  const directValues = [
+    event.city_slug,
+    event.city,
+    cityFromLocationText(event.address),
+    cityFromLocationText(event.full_address),
+    cityFromLocationText(event.formatted_address),
+    cityFromLocationText(event.location),
+    ...toArray(event.related_geography_slugs),
+    ...toArray(event.geography_slugs),
+    ...toArray(event.tags)
+  ].map(normalizeCity).filter(Boolean);
+  const venueValues = getVenueSlugs(event)
+    .flatMap((slug) => businessCityValues(businessBySlug.get(slug) ?? {}));
+  return [...new Set([...directValues, ...venueValues])];
+};
 
 const withVenueFallbacks = (event) => {
   const venueSlug = getPrimaryVenueSlug(event);
@@ -162,6 +200,7 @@ const formatTime = (value) => new Intl.DateTimeFormat("en-US", {
 
 const events = (directory.events ?? [])
   .map(withVenueFallbacks)
+  .map((event) => ({ ...event, city_values: eventCityValues(event) }))
   .filter((event) => event.publish_ready === true)
   .filter((event) => ["upcoming", "recurring"].includes(event.status))
   .filter(isCurrent)
@@ -220,6 +259,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
                 data-date={event.start_datetime?.slice(0, 10) ?? ""}
                 data-next-date={event.next_occurrence_date ?? ""}
                 data-city={(event.city ?? "").toLowerCase()}
+                data-cities={(event.city_values ?? []).join("|")}
                 data-state={(event.state ?? "").toLowerCase()}
                 data-categories={(event.categories ?? []).join("|").toLowerCase()}
                 data-cost={event.cost_type ?? "unknown"}
@@ -392,9 +432,10 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
       return cards.filter((card) => {
         const search = card.dataset.search ?? "";
         const categories = card.dataset.categories ?? "";
+        const cityValues = (card.dataset.cities || card.dataset.city || "").split("|").filter(Boolean);
         return (!query || search.includes(query))
           && matchesDate(card, selectedDate)
-          && (selectedCity === "all" || card.dataset.city === selectedCity)
+          && (selectedCity === "all" || cityValues.includes(selectedCity))
           && (selectedState === "all" || normalizeState(card.dataset.state ?? "") === selectedState)
           && (selectedCategory === "all" || categories.split("|").includes(selectedCategory))
           && (quickFilter === "all" || (quickFilter === "free" && card.dataset.cost === "free") || categories.includes(quickFilter) || search.includes(quickFilter));
