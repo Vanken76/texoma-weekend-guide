@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 430,
-  "publish_ready_count": 430,
+  "event_count": 431,
+  "publish_ready_count": 431,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -28094,6 +28094,69 @@
       "recurrence_start_date": null,
       "recurrence_end_date": null,
       "host_business_slug": null,
+      "partner_business_slugs": [],
+      "partner_names": []
+    },
+    {
+      "event_slug": "river-driver-the-celt-2026-08-29",
+      "event_name": "River Driver",
+      "description": "River Driver brings an energetic mix of acoustic Celtic and folk-rock music to The Celt in Historic Downtown McKinney, blending traditional Irish fiddle tunes, pub songs, folk and classic rock.",
+      "start_datetime": "2026-08-29T20:00:00-05:00",
+      "end_datetime": "2026-08-29T23:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-celt-mckinney"
+      ],
+      "venue_name": "The Celt",
+      "address": "100 N Tennessee St",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Celtic Music",
+        "Nightlife"
+      ],
+      "tags": [
+        "River Driver",
+        "live music",
+        "Celtic music",
+        "folk rock",
+        "Irish music",
+        "Irish fiddle",
+        "pub songs",
+        "classic rock",
+        "The Celt",
+        "Historic Downtown McKinney",
+        "McKinney"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "Live music fans"
+      ],
+      "age_restriction": null,
+      "image_url": null,
+      "official_url": "https://www.theceltmckinney.com/event/river-driver-2022-10-15/2026-08-29/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified 2026-08-25 from The Celt's official event page and River Driver's official website. The Celt confirms the Aug. 29, 2026 occurrence from 8:00-11:00 PM at 100 N Tennessee St, McKinney, TX 75069 and describes River Driver's mix of traditional Irish fiddle tunes, pub songs, folk and classic rock. River Driver's official site confirms the band's folk-rock identity. The Celt event is presented as part of a River Driver series, but this canonical record represents only the Aug. 29 occurrence because no dependable recurrence rule was published. The official venue page does not publish an admission price, so cost remains unknown rather than inferred. Canonical venue slug the-celt-mckinney was copied from the user-confirmed published TWG venue record. No TWG-local /images/events/ asset has been uploaded, so image_url and image_alt remain null.",
+      "last_checked": "2026-08-25",
+      "created_on": "2026-08-25",
+      "updated_on": "2026-08-26",
+      "organizer_name": "The Celt",
+      "image_alt": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": "the-celt-mckinney",
       "partner_business_slugs": [],
       "partner_names": []
     }
