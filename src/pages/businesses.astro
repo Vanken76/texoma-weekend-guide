@@ -12,6 +12,7 @@ const toCategoryArray = (category) => {
   if (typeof category === "string" && category.trim()) return [category.trim()];
   return [];
 };
+const toArray = (value) => Array.isArray(value) ? value : value ? [value] : [];
 
 const normalizeCity = (value) => String(value ?? "").trim().toLowerCase()
   .replace(/,\s*(?:tx|texas|ok|oklahoma)\b.*$/i, "")
@@ -23,8 +24,20 @@ const cityFromLocationText = (value) => {
   const serviceAreaMatch = String(value ?? "").match(/^([^,]+),\s*(?:TX|Texas|OK|Oklahoma)\b/i);
   return serviceAreaMatch?.[1]?.trim() || "";
 };
+const cityValuesForBusiness = (business = {}) => [
+  business.city_slug,
+  business.city,
+  cityFromLocationText(business.address),
+  cityFromLocationText(business.full_address),
+  cityFromLocationText(business.formatted_address),
+  cityFromLocationText(business.service_area_or_location),
+  ...toArray(business.related_geography_slugs),
+  ...toArray(business.geography_slugs),
+  ...toArray(business.tags)
+].map(normalizeCity).filter(Boolean);
 const businessCity = (business) => normalizeCity(
   business.city ||
+  business.city_slug ||
   cityFromLocationText(business.address) ||
   cityFromLocationText(business.full_address) ||
   cityFromLocationText(business.formatted_address) ||
@@ -39,7 +52,8 @@ const businesses = directory.businesses
     card_image: business.image || business.image_url || business.logo || business.logo_url || null,
     card_image_alt: business.image_alt || business.logo_alt || `${business.business_name} logo`,
     card_state: businessStateCode(business),
-    card_city: businessCity(business)
+    card_city: businessCity(business),
+    card_city_values: cityValuesForBusiness(business)
   }))
   .sort((a, b) => a.business_name.localeCompare(b.business_name));
 
@@ -82,6 +96,7 @@ const states = [["tx", "Texas"], ["ok", "Oklahoma"]];
           data-name={business.business_name.toLowerCase()}
           data-location={(business.service_area_or_location ?? "").toLowerCase()}
           data-city={business.card_city}
+          data-cities={business.card_city_values.join("|")}
           data-state={business.card_state}
           data-categories={business.category.join("|").toLowerCase()}
           data-search={[business.business_name, business.service_area_or_location, business.city, business.description, ...business.category].filter(Boolean).join(" ").toLowerCase()}
@@ -154,10 +169,11 @@ const states = [["tx", "Texas"], ["ok", "Oklahoma"]];
       const stateValue = stateFilter?.value ?? "";
       const sortValue = sortFilter.value;
       const visibleCards = cards.filter((card) => {
+        const cityValues = (card.dataset.cities ?? "").split("|").filter(Boolean);
         const visible = (!searchValue || card.dataset.search.includes(searchValue)) &&
           (!categoryValue || card.dataset.categories.split("|").includes(categoryValue)) &&
           (!locationValue || card.dataset.location === locationValue) &&
-          (!cityValue || card.dataset.city === cityValue) &&
+          (!cityValue || cityValues.includes(cityValue)) &&
           (!stateValue || normalizeState(card.dataset.state ?? "") === stateValue);
         card.hidden = !visible;
         return visible;
