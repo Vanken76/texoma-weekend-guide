@@ -86,7 +86,9 @@ const stateCode = businessStateCode({ state: state?.abbreviation || state?.name 
 
 const cityFromLocationText = (value) => {
   const match = String(value ?? "").match(/,\s*([^,]+),\s*(?:TX|Texas|OK|Oklahoma)\b/i);
-  return match?.[1]?.trim() || "";
+  if (match?.[1]) return match[1].trim();
+  const serviceAreaMatch = String(value ?? "").match(/^([^,]+),\s*(?:TX|Texas|OK|Oklahoma)\b/i);
+  return serviceAreaMatch?.[1]?.trim() || "";
 };
 const cityNames = new Set([entity.name, entity.official_name, entity.slug].map(normalizeCity).filter(Boolean));
 const cityValuesForRecord = (record = {}) => [
