@@ -7,7 +7,6 @@ import { businessStateCode } from "../../utils/businessState.js";
 import { buildBreadcrumbJsonLd } from "../../utils/breadcrumbJsonLd.js";
 import {
   buildBusinessIndex,
-  getCurrentEvents,
   getEventVenueSlugs,
   getNextOccurrenceDate,
   isRecurringEvent,
@@ -51,12 +50,13 @@ const formatEventDate = (value) => value
 const formatEventTime = (value) => value
   ? new Intl.DateTimeFormat("en-US", { timeZone: "America/Chicago", hour: "numeric", minute: "2-digit" }).format(new Date(value))
   : "";
+const now = new Date();
 const todayCentral = new Intl.DateTimeFormat("en-CA", {
   timeZone: "America/Chicago",
   year: "numeric",
   month: "2-digit",
   day: "2-digit"
-}).format(new Date());
+}).format(now);
 const eventStartDate = (event = {}) => event.start_datetime?.slice(0, 10) || "";
 const eventEndDate = (event = {}) => event.end_datetime?.slice(0, 10) || "";
 const isOngoingEvent = (event = {}) => {
@@ -154,9 +154,38 @@ const countyBusinesses = allBusinesses
   .sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)) || String(a.business_name || "").localeCompare(String(b.business_name || "")));
 const countyBusinessSlugs = new Set(countyBusinesses.map((business) => business.slug).filter(Boolean));
 
-const currentEvents = getCurrentEvents(allEvents)
+// Keep the county page's event universe in lockstep with src/pages/events.astro.
+// The public directory treats only recurring=true as recurring and keeps an
+// ongoing multi-day event current by assigning today's date as its next date.
+const directoryIsRecurring = (event = {}) => event.recurring === true;
+const directoryNextOccurrenceDate = (event = {}) => {
+  const eventDate = eventStartDate(event);
+  if (!eventDate) return null;
+  if (!directoryIsRecurring(event)) {
+    const endDate = eventEndDate(event) || eventDate;
+    if (endDate < todayCentral) return null;
+    return eventDate >= todayCentral ? eventDate : todayCentral;
+  }
+  return getNextOccurrenceDate(event, { fromDate: todayCentral });
+};
+const directoryIsCurrent = (event = {}) => {
+  if (event.active === false) return false;
+  if (directoryIsRecurring(event)) return Boolean(directoryNextOccurrenceDate(event));
+  if (event.end_datetime) {
+    const end = new Date(event.end_datetime);
+    return !Number.isNaN(end.getTime()) && end >= now;
+  }
+  return Boolean(eventStartDate(event) && eventStartDate(event) >= todayCentral);
+};
+
+const currentEvents = allEvents
+  .filter((event) => event.publish_ready === true)
+  .filter((event) => ["upcoming", "recurring"].includes(event.status))
+  .filter(directoryIsCurrent)
   .map((event) => withResolvedEventLocation(event, businessIndex))
-  .map((event) => ({ ...event, next_occurrence_date: getNextOccurrenceDate(event) }));
+  .map((event) => ({ ...event, next_occurrence_date: directoryNextOccurrenceDate(event) }))
+  .filter((event) => Boolean(event.next_occurrence_date));
+
 const countyEvents = currentEvents
   .filter((event) => {
     if (recordReferencesCounty(event)) return true;
@@ -215,7 +244,9 @@ const directoryStateForEvent = (event = {}) => {
   }
   return "";
 };
-const directoryCountyEvents = countyEvents.filter((event) =>
+// Count from the exact event universe and exact city/state predicates used by
+// the click-through URL. Do not pre-filter this list by county membership.
+const directoryCountyEvents = currentEvents.filter((event) =>
   eventCityValuesForDirectory(event).some((city) => countyFilterCitySet.has(city))
   && (!stateCode || directoryStateForEvent(event) === stateCode)
 );
