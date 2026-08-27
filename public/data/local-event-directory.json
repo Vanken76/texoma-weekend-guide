@@ -24694,7 +24694,7 @@
       "timezone": "America/Chicago",
       "status": "recurring",
       "venue_slugs": [
-        "the-scoreboard"
+        "the-scoreboard-denison"
       ],
       "venue_name": "The Scoreboard",
       "address": "1721 S Armstrong Ave",
@@ -24720,7 +24720,7 @@
       "cost_details": null,
       "audience": [],
       "age_restriction": null,
-      "host_business_slug": "the-scoreboard",
+      "host_business_slug": "the-scoreboard-denison",
       "organizer_name": null,
       "partner_business_slugs": [],
       "partner_names": [],
