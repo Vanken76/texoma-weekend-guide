@@ -27,7 +27,13 @@ jobs:
         run: npm ci
 
       - name: Run Grayson event count diagnostic
-        run: node scripts/debug-grayson-event-count.mjs
+        run: node scripts/debug-grayson-event-count.mjs | tee grayson-diagnostic.txt
+
+      - name: Upload Grayson diagnostic
+        uses: actions/upload-artifact@v4
+        with:
+          name: grayson-diagnostic
+          path: grayson-diagnostic.txt
 
       - name: Run production build
         run: npm run build
