@@ -10,7 +10,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <header>
       <p class="eyebrow">TWG Admin</p>
       <h1>Single-Business Publisher</h1>
-      <p>Paste one business record, optionally attach its official logo, then validate and publish. The publisher adds or replaces the matching slug in the directory and stores the logo with the website files.</p>
+      <p>Load an existing business by slug or paste one business record, optionally attach its official logo, then validate and publish. The publisher adds or replaces the matching slug in the directory and stores the logo with the website files.</p>
     </header>
 
     <section class="panel auth-panel">
@@ -20,6 +20,13 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </section>
 
     <section class="panel tool-panel">
+      <label for="existing-business-slug">Load existing business by slug</label>
+      <div class="load-row">
+        <input id="existing-business-slug" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="Example: the-post-sherman" />
+        <button id="load-existing" class="secondary-action" type="button">Load Business</button>
+      </div>
+      <p class="helper">Loads the complete current business object into the editor so you can update a logo, photos, details, or other fields without rebuilding the JSON.</p>
+
       <label for="business-json">Business JSON</label>
       <textarea id="business-json" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder='Paste one business object here, beginning with { and ending with }'></textarea>
 
@@ -53,6 +60,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
   <script>
     const adminKey = document.querySelector("#admin-key");
+    const existingBusinessSlugInput = document.querySelector("#existing-business-slug");
+    const loadExistingButton = document.querySelector("#load-existing");
     const businessInput = document.querySelector("#business-json");
     const logoInput = document.querySelector("#business-logo");
     const logoPreviewWrap = document.querySelector("#logo-preview-wrap");
@@ -67,6 +76,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
     if (
       !(adminKey instanceof HTMLInputElement) ||
+      !(existingBusinessSlugInput instanceof HTMLInputElement) ||
+      !(loadExistingButton instanceof HTMLButtonElement) ||
       !(businessInput instanceof HTMLTextAreaElement) ||
       !(logoInput instanceof HTMLInputElement) ||
       !(logoPreviewWrap instanceof HTMLElement) ||
@@ -94,6 +105,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     let validatedBusiness = null;
     let selectedLogo = null;
     let previewUrl = null;
+    let businessDirectoryCache = null;
 
     const setResult = (message, items = [], valid = false) => {
       status.textContent = message;
@@ -206,6 +218,55 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       }
     };
 
+    const loadExistingBusiness = async () => {
+      const slug = existingBusinessSlugInput.value.trim().toLowerCase();
+      if (!slug) {
+        setResult("Enter a business slug to load.", [], false);
+        existingBusinessSlugInput.focus();
+        return;
+      }
+
+      loadExistingButton.disabled = true;
+      loadExistingButton.textContent = "Loading…";
+      setResult(`Loading ${slug}…`, [], true);
+
+      try {
+        if (!businessDirectoryCache) {
+          const response = await fetch(`/data/local-business-directory.json?admin_load=${Date.now()}`, { cache: "no-store" });
+          if (!response.ok) throw new Error(`The business directory could not be loaded (${response.status}).`);
+          const directory = await response.json();
+          if (!directory || !Array.isArray(directory.businesses)) throw new Error("The business directory response is missing its businesses array.");
+          businessDirectoryCache = directory.businesses;
+        }
+
+        const business = businessDirectoryCache.find((record) => record?.slug === slug);
+        if (!business) {
+          setResult(`No business found with slug: ${slug}`, ["Check the slug and try again. Newly published records may need to finish deploying before they can be loaded here."], false);
+          return;
+        }
+
+        if (selectedLogo) clearLogo();
+        removeSlugsInput.value = "";
+        businessInput.value = JSON.stringify(business, null, 2);
+        const valid = validateBusiness();
+        if (valid) status.textContent = `Loaded ${business.business_name}. The complete current object is ready to edit.`;
+      } catch (error) {
+        const message = error instanceof Error ? error.message : "Unknown loading error.";
+        setResult(`Could not load the business: ${message}`, [], false);
+      } finally {
+        loadExistingButton.disabled = false;
+        loadExistingButton.textContent = "Load Business";
+      }
+    };
+
+    loadExistingButton.addEventListener("click", loadExistingBusiness);
+    existingBusinessSlugInput.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        loadExistingBusiness();
+      }
+    });
+
     businessInput.addEventListener("input", invalidate);
     removeSlugsInput.addEventListener("input", () => {
       if (validatedBusiness) validateBusiness();
@@ -282,6 +343,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   code { font-size: 0.86em; }
   .helper { margin: 0.5rem 0 0; font-size: 0.9rem; opacity: 0.78; }
   .optional { font-weight: 400; opacity: 0.7; }
+  .load-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.75rem; align-items: stretch; }
+  .load-row button { white-space: nowrap; }
   .logo-preview-wrap { display: flex; gap: 1rem; align-items: center; margin-top: 0.85rem; padding: 0.8rem; border: 1px solid rgba(255,255,255,.16); border-radius: .75rem; }
   .logo-preview-wrap[hidden] { display: none; }
   .logo-preview-wrap img { width: 112px; height: 112px; object-fit: contain; border-radius: .5rem; background: white; }
@@ -298,7 +361,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     .publisher { padding-top: 1.5rem; }
     .panel { padding: 0.85rem; }
     textarea { min-height: 58vh; }
-    .actions button { flex: 1 1 100%; }
+    .load-row { grid-template-columns: 1fr; }
+    .load-row button, .actions button { flex: 1 1 100%; width: 100%; }
     .logo-preview-wrap { align-items: flex-start; }
     .logo-preview-wrap img { width: 88px; height: 88px; }
   }
