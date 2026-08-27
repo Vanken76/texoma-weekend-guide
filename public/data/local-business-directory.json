@@ -15985,7 +15985,9 @@
       ],
       "verification_note": "Verified through the official The Milieu Wine Bar Facebook page. The venue is active at 218 W Houston St, Suite 100, Sherman, TX 75090. The official page confirms the phone number, email address, Instagram handle, current hours, outdoor seating, and recurring Facebook Events. The official website currently displays a hosting-account suspension notice, so visitors should use Facebook for current hours, event schedules, and updates.",
       "last_checked": "2026-07-24",
-      "slug_locked": true
+      "slug_locked": true,
+      "logo_url": "/images/businesses/the-milieu-wine-bar-logo.jpg",
+      "logo_alt": "The Milieu Wine Bar logo"
     },
     {
       "slug": "the-owen-academy",
