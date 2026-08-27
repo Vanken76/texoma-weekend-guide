@@ -217,15 +217,25 @@ const directoryEventCityValues = (event = {}) => {
     .flatMap((slug) => directoryBusinessCityValues(directoryBusinessesBySlug.get(slug) ?? {}));
   return [...new Set([...directValues, ...venueValues])];
 };
+const directoryEventStateCode = (event = {}) => {
+  const directState = businessStateCode(event);
+  if (directState) return directState;
+  for (const slug of directoryGetVenueSlugs(event)) {
+    const venueState = businessStateCode(directoryBusinessesBySlug.get(slug) ?? {});
+    if (venueState) return venueState;
+  }
+  return "";
+};
 const directoryWithVenueFallbacks = (event) => {
   const venueSlug = directoryPrimaryVenueSlug(event);
   const business = venueSlug ? directoryBusinessesBySlug.get(venueSlug) : null;
+  const resolvedState = directoryEventStateCode(event);
   return {
     ...event,
     venue_name: event.venue_name || event.location_name || business?.business_name || "",
     address: event.address || business?.address || null,
     city: event.city || business?.city || "",
-    state: event.state || business?.state || "",
+    state: event.state || business?.state || (resolvedState ? resolvedState.toUpperCase() : ""),
     postal_code: event.postal_code || business?.postal_code || null
   };
 };
