@@ -184,6 +184,12 @@ const businessCityValuesForDirectory = (business = {}) => [
   ...toArray(business.geography_slugs),
   ...toArray(business.tags)
 ].map(normalizeCity).filter(Boolean);
+const directoryVenueSlugs = (event = {}) => [
+  ...toArray(event.venue_slugs),
+  ...toArray(event.venue_slug),
+  ...toArray(event.primary_venue_slug),
+  ...toArray(event.host_business_slug)
+].filter(Boolean);
 const eventCityValuesForDirectory = (event = {}) => {
   const directValues = [
     event.city_slug,
@@ -196,14 +202,22 @@ const eventCityValuesForDirectory = (event = {}) => {
     ...toArray(event.geography_slugs),
     ...toArray(event.tags)
   ].map(normalizeCity).filter(Boolean);
-  const venueValues = [
-    ...getEventVenueSlugs(event),
-    event.host_business_slug
-  ].filter(Boolean).flatMap((slug) => businessCityValuesForDirectory(businessIndex.get(slug) ?? {}));
+  const venueValues = directoryVenueSlugs(event)
+    .flatMap((slug) => businessCityValuesForDirectory(businessIndex.get(slug) ?? {}));
   return [...new Set([...directValues, ...venueValues])];
+};
+const directoryStateForEvent = (event = {}) => {
+  const directState = businessStateCode(event);
+  if (directState) return directState;
+  for (const slug of directoryVenueSlugs(event)) {
+    const venueState = businessStateCode(businessIndex.get(slug) ?? {});
+    if (venueState) return venueState;
+  }
+  return "";
 };
 const directoryCountyEvents = countyEvents.filter((event) =>
   eventCityValuesForDirectory(event).some((city) => countyFilterCitySet.has(city))
+  && (!stateCode || directoryStateForEvent(event) === stateCode)
 );
 const countyEventDirectoryHref = `/events/?cities=${encodeURIComponent(countyFilterCities.join("|"))}${stateCode ? `&state=${encodeURIComponent(String(stateCode).toLowerCase())}` : ""}`;
 
