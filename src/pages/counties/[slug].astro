@@ -97,7 +97,9 @@ const countyNames = new Set([entity.name, entity.official_name, entity.slug].map
 
 const cityFromLocationText = (value) => {
   const match = String(value ?? "").match(/,\s*([^,]+),\s*(?:TX|Texas|OK|Oklahoma)\b/i);
-  return match?.[1]?.trim() || "";
+  if (match?.[1]) return match[1].trim();
+  const serviceAreaMatch = String(value ?? "").match(/^([^,]+),\s*(?:TX|Texas|OK|Oklahoma)\b/i);
+  return serviceAreaMatch?.[1]?.trim() || "";
 };
 
 const cityValuesForRecord = (record = {}, includeServiceArea = true) => [
@@ -170,6 +172,39 @@ const countyFilterCities = [...new Set([
   ...countyBusinesses.flatMap((business) => cityValuesForRecord(business, false)),
   ...countyEvents.flatMap((event) => cityValuesForRecord(event, false))
 ])].filter(Boolean).sort();
+const countyFilterCitySet = new Set(countyFilterCities);
+const businessCityValuesForDirectory = (business = {}) => [
+  business.city_slug,
+  business.city,
+  cityFromLocationText(business.address),
+  cityFromLocationText(business.full_address),
+  cityFromLocationText(business.formatted_address),
+  cityFromLocationText(business.service_area_or_location),
+  ...toArray(business.related_geography_slugs),
+  ...toArray(business.geography_slugs),
+  ...toArray(business.tags)
+].map(normalizeCity).filter(Boolean);
+const eventCityValuesForDirectory = (event = {}) => {
+  const directValues = [
+    event.city_slug,
+    event.city,
+    cityFromLocationText(event.address),
+    cityFromLocationText(event.full_address),
+    cityFromLocationText(event.formatted_address),
+    cityFromLocationText(event.location),
+    ...toArray(event.related_geography_slugs),
+    ...toArray(event.geography_slugs),
+    ...toArray(event.tags)
+  ].map(normalizeCity).filter(Boolean);
+  const venueValues = [
+    ...getEventVenueSlugs(event),
+    event.host_business_slug
+  ].filter(Boolean).flatMap((slug) => businessCityValuesForDirectory(businessIndex.get(slug) ?? {}));
+  return [...new Set([...directValues, ...venueValues])];
+};
+const directoryCountyEvents = countyEvents.filter((event) =>
+  eventCityValuesForDirectory(event).some((city) => countyFilterCitySet.has(city))
+);
 const countyEventDirectoryHref = `/events/?cities=${encodeURIComponent(countyFilterCities.join("|"))}${stateCode ? `&state=${encodeURIComponent(String(stateCode).toLowerCase())}` : ""}`;
 
 const countySeat = childCities.find((city) => city.slug === entity.county_seat_city_slug) ?? null;
@@ -229,7 +264,7 @@ const countyJsonLdText = serializeJsonLd({
 });
 
 const featuredBusinesses = countyBusinesses.slice(0, 6);
-const upcomingEvents = countyEvents.slice(0, 8);
+const upcomingEvents = directoryCountyEvents.slice(0, 8);
 const supportingMedia = [
   ...(heroSecondary?.url ? [{ ...heroSecondary, label: "County landmark" }] : []),
   ...gallery.map((asset) => ({ ...asset, label: "Around the county" }))
@@ -316,7 +351,7 @@ const supportingMedia = [
           <p>{entity.visitor_summary || `Use Texoma Weekend Guide to find current events, businesses, venues and communities across ${entity.name}.`}</p>
         </div>
         <div class="stat-grid">
-          <a class="stat-card" href={countyEventDirectoryHref}><strong>{formatNumber(countyEvents.length) || "0"}</strong><span>current events</span></a>
+          <a class="stat-card" href={countyEventDirectoryHref}><strong>{formatNumber(directoryCountyEvents.length) || "0"}</strong><span>current events</span></a>
           <a class="stat-card" href="#featured-places"><strong>{formatNumber(countyBusinesses.length) || "0"}</strong><span>businesses and venues</span></a>
           <a class="stat-card" href="#communities"><strong>{formatNumber(childCities.length) || "0"}</strong><span>published city guides</span></a>
           <div class="stat-card geography-stat"><strong>{state?.abbreviation || state?.name || "Texoma"}</strong><span>state / region</span></div>
