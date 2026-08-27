@@ -103,6 +103,38 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </div>
   </section>
 
+  <section class="section payment-section" id="pay">
+    <div class="container payment-wrap">
+      <div>
+        <p class="eyebrow">Ready to get started?</p>
+        <h2>Send payment and tell us what you want promoted</h2>
+        <p>
+          Choose the package you want, send payment through Cash App or Venmo, then message us — or reply to your payment — with the details of what you want promoted.
+        </p>
+      </div>
+
+      <div class="payment-card">
+        <p class="payment-label">Send payment via:</p>
+        <div class="payment-links">
+          <a class="payment-link" href="https://cash.app/$TexomaWeekendGuide" target="_blank" rel="noopener noreferrer">
+            <span>Cash App</span>
+            <strong>$TexomaWeekendGuide</strong>
+          </a>
+          <a class="payment-link" href="https://venmo.com/u/TexomaWeekendGuide" target="_blank" rel="noopener noreferrer">
+            <span>Venmo</span>
+            <strong>@TexomaWeekendGuide</strong>
+          </a>
+        </div>
+        <div class="payment-packages">
+          <p><strong>Flyer + Social</strong><span>$20</span></p>
+          <p><strong>Single Event Boost</strong><span>$25</span></p>
+          <p><strong>Featured Business Spotlight</strong><span>$45/month</span></p>
+        </div>
+        <a class="button payment-contact" href="#contact">Message Us About Your Promotion</a>
+      </div>
+    </div>
+  </section>
+
   <section class="section placement-section">
     <div class="container">
       <div class="section-heading centered">
@@ -270,7 +302,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <style>
   .advertise-hero { padding: 5rem 0; background: linear-gradient(120deg, var(--navy), #176f95); color: white; }
-  .hero-grid, .example-grid, .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+  .hero-grid, .example-grid, .contact-grid, .payment-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
   .advertise-hero h1 { margin-bottom: 1rem; color: white; font-size: clamp(3rem, 8vw, 6rem); letter-spacing: -0.04em; text-transform: uppercase; }
   .hero-copy { color: white; font-size: clamp(1.2rem, 2.5vw, 1.65rem); font-weight: 800; }
   .promise { padding-left: 1rem; border-left: 5px solid var(--gold); color: white; font-weight: 700; }
@@ -298,6 +330,19 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   .package-card li { margin-bottom: .45rem; }
   .package-note { margin-top: auto; padding-top: .7rem; }
   .package-cta { margin-top: .5rem; text-align: center; }
+  .payment-section { background: #f7fbfa; }
+  .payment-wrap { align-items: start; }
+  .payment-card { padding: 1.6rem; border: 1px solid var(--border); border-radius: 22px; background: white; box-shadow: var(--shadow); }
+  .payment-label { margin-top: 0; color: var(--navy); font-weight: 900; text-transform: uppercase; }
+  .payment-links { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
+  .payment-link { display: grid; gap: .2rem; padding: 1rem; border: 2px solid var(--navy); border-radius: 14px; background: white; color: var(--navy); text-decoration: none; }
+  .payment-link:hover { background: #eef6f5; }
+  .payment-link span { font-size: .82rem; font-weight: 800; text-transform: uppercase; }
+  .payment-link strong { font-size: 1.05rem; overflow-wrap: anywhere; }
+  .payment-packages { display: grid; gap: .5rem; margin: 1rem 0; }
+  .payment-packages p { display: flex; justify-content: space-between; gap: 1rem; margin: 0; padding: .7rem .85rem; border-radius: 10px; background: #eef6f5; }
+  .payment-packages span { font-weight: 900; white-space: nowrap; }
+  .payment-contact { display: block; text-align: center; }
   .placement-section { background: #eef6f5; }
   .limits-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
   .limit-card, .example-card { padding: 1.6rem; border: 1px solid var(--border); border-radius: 20px; background: white; box-shadow: var(--shadow); }
@@ -326,6 +371,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   .submit-button { border: 0; cursor: pointer; }
   .sent-message { padding: .9rem; border-radius: 10px; background: #dff6e4; color: #145b27; font-weight: 800; }
   @media (max-width: 980px) { .package-grid { grid-template-columns: 1fr; } }
-  @media (max-width: 900px) { .hero-grid, .example-grid, .contact-grid, .limits-grid { grid-template-columns: 1fr; } }
-  @media (max-width: 560px) { .advertise-hero { padding: 3.5rem 0; } .summary-price, .contact-prices p { align-items: flex-start; flex-direction: column; } .summary-price > span { text-align: left; } }
+  @media (max-width: 900px) { .hero-grid, .example-grid, .contact-grid, .limits-grid, .payment-wrap { grid-template-columns: 1fr; } }
+  @media (max-width: 560px) { .advertise-hero { padding: 3.5rem 0; } .summary-price, .contact-prices p, .payment-packages p { align-items: flex-start; flex-direction: column; } .summary-price > span { text-align: left; } .payment-links { grid-template-columns: 1fr; } }
 </style>
