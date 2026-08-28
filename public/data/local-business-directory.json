@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-27",
+  "generated_on": "2026-08-28",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
   "business_count": 1247,
@@ -448,7 +448,9 @@
         "Explore Ardmore"
       ],
       "verification_note": "Complete. Permanent event-mining source.",
-      "last_checked": "2026-07-19"
+      "last_checked": "2026-07-19",
+      "logo_url": "/images/businesses/mad-jacks-blackroom-logo.jpg",
+      "logo_alt": "Mad Jack's Blackroom logo"
     },
     {
       "slug": "aloha-shaved-ice-co",
