@@ -5,8 +5,8 @@
   "generated_on": "2026-08-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1257,
-  "publish_ready_count": 933,
+  "business_count": 1258,
+  "publish_ready_count": 934,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -135889,6 +135889,116 @@
         "Weekend brunch",
         "Craft cocktails",
         "Private event hosting"
+      ]
+    },
+    {
+      "slug": "john-judy-gay-library-mckinney",
+      "business_name": "John & Judy Gay Library",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "6861 W. Eldorado Pkwy., McKinney, TX 75070",
+      "category": [
+        "Public Library",
+        "Community Resource",
+        "Family Activities",
+        "Event Venue"
+      ],
+      "tags": [
+        "McKinney Public Library",
+        "Library Programs",
+        "Family Programs",
+        "Children's Programs",
+        "Community Events",
+        "Study Rooms",
+        "Meeting Rooms",
+        "Free Wi-Fi"
+      ],
+      "description": "John & Judy Gay Library is the west-side branch of the McKinney Public Library System in McKinney, Texas. The expanded public library provides books and digital resources, computers and Wi-Fi, study and meeting rooms, and a busy calendar of educational, family and community programs.",
+      "why_visit": "A strong year-round stop for families, readers and learners, with library resources, public technology, study space and frequent free programs for multiple age groups.",
+      "why_its_unique": "The John & Judy Gay Library opened in 2009 and was later expanded to roughly double its original size, reopening in 2020 as a major west-side McKinney community library.",
+      "phone": "972-547-7323",
+      "email": "contact-library@mckinneytexas.org",
+      "website": "https://www.mckinneytexas.org/528/Locations-Holidays-Hours",
+      "facebook": "https://www.facebook.com/mckinneylibrary/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "10:00 AM - 9:00 PM",
+        "tuesday": "10:00 AM - 9:00 PM",
+        "wednesday": "10:00 AM - 9:00 PM",
+        "thursday": "10:00 AM - 9:00 PM",
+        "friday": "10:00 AM - 6:00 PM",
+        "saturday": "10:00 AM - 6:00 PM",
+        "sunday": "10:00 AM - 6:00 PM"
+      },
+      "hours_note": "Hours may change for City holidays and special closures; verify the official library schedule before time-sensitive visits.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Public computers",
+        "Free Wi-Fi",
+        "Printing and scanning",
+        "Study rooms",
+        "Meeting room",
+        "Curbside pickup",
+        "Exterior book drop"
+      ],
+      "good_to_know": [
+        "Study rooms may be reserved through the library booking system.",
+        "Meeting-room reservations are available to eligible nonprofit and local neighborhood organizations.",
+        "Check the official library calendar for current programs and registration requirements."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Verified Aug. 29, 2026 from official City of McKinney and McKinney Public Library sources. Active recurring source for family, children's, educational and community programming.",
+      "last_checked": "2026-08-29",
+      "event_types": [
+        "Family programs",
+        "Children's programs",
+        "Educational programs",
+        "Library programs",
+        "Community events"
+      ],
+      "event_sources": [
+        "City of McKinney Library calendar",
+        "McKinney Public Library website",
+        "Facebook @mckinneylibrary"
+      ],
+      "features": [
+        "Expanded public library branch",
+        "Recurring family and children's programming",
+        "Study and meeting rooms",
+        "Public computers and Wi-Fi"
       ]
     }
   ]
