@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-28",
+  "generated_on": "2026-08-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1247,
-  "publish_ready_count": 923,
+  "business_count": 1248,
+  "publish_ready_count": 924,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -134764,6 +134764,57 @@
       ],
       "logo_url": "/images/businesses/rendezvous-bar-and-grill-logo.png",
       "logo_alt": "Rendezvous Bar & Grill logo"
+    },
+    {
+      "business_name": "The Sanctuary Music & Events Center",
+      "slug": "the-sanctuary-music-events-center",
+      "description": "The Sanctuary Music & Events Center is a distinctive multi-level event and live-music venue in McKinney's Adriatica Village. Inspired by Croatian architecture, the venue features stained-glass windows, hand-painted walls, a ballroom, stage and second-level balcony overlooking the main floor. The Sanctuary hosts concerts and other live performances as well as weddings, receptions, corporate events, meetings, banquets, proms, nonprofit events, graduation parties and private celebrations. The venue offers on-site parking, event furnishings, audiovisual capabilities, a bar area, catering-prep space and bridal and groom suites.",
+      "category": [
+        "Event Venue",
+        "Live Music Venue",
+        "Wedding Venue"
+      ],
+      "tags": [
+        "Live Music",
+        "Concerts",
+        "Weddings",
+        "Wedding Receptions",
+        "Private Events",
+        "Corporate Events",
+        "Meetings",
+        "Banquets",
+        "Stage",
+        "Ballroom",
+        "Adriatica Village",
+        "McKinney"
+      ],
+      "street_address": "6633 Virginia Parkway, Suite 102",
+      "city": "McKinney",
+      "state": "TX",
+      "zip_code": "75071",
+      "service_area_or_location": "6633 Virginia Parkway, Suite 102, McKinney, TX 75071",
+      "phone": "972-540-9293",
+      "email": "Sales@TheSanctuaryMcKinney.com",
+      "website": "https://www.thesanctuarymckinney.com/",
+      "facebook_url": null,
+      "instagram_url": null,
+      "youtube_url": null,
+      "tiktok_url": null,
+      "latitude": null,
+      "longitude": null,
+      "event_venue": true,
+      "price_range": null,
+      "hours_note": "The Sanctuary is primarily a private-event and performance venue rather than a regular walk-in attraction. Access varies by booked event, concert or scheduled venue tour. Contact the venue directly for tours, availability and event access.",
+      "parent_business": [],
+      "child_businesses": [],
+      "related_businesses": [],
+      "image_url": null,
+      "logo_url": null,
+      "featured": false,
+      "directory_status": "complete",
+      "publish_ready": true,
+      "last_checked": "2026-08-28",
+      "last_verified": "2026-08-28"
     }
   ]
 }
