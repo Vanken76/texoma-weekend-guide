@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 438,
-  "publish_ready_count": 438,
+  "event_count": 439,
+  "publish_ready_count": 439,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -28591,6 +28591,67 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 28, 2026 from the Visit McKinney event listing and official Zin Zen Wine Bistro website. The listing confirms Eric Erickson performs Sept. 3, Oct. 1, Nov. 5 and Dec. 3, 2026 from 7:00-10:00 PM with complimentary live music. Zin Zen's official site confirms 6841 Virginia Parkway, Suite 104, McKinney, TX 75071. No age restriction or ticket requirement was published.",
+      "last_checked": "2026-08-28",
+      "created_on": "2026-08-28",
+      "updated_on": "2026-08-29"
+    },
+    {
+      "event_slug": "texas-flood-maylee-thomas-band-2026-09-04",
+      "event_name": "Texas Flood & The Maylee Thomas Band Live at The Sanctuary",
+      "description": "The Guitar Sanctuary presents a special double bill featuring Tommy Katona and Texas Flood alongside The Maylee Thomas Band at The Sanctuary Music & Events Center in McKinney. Texas Flood brings its Stevie Ray Vaughan-inspired blues-rock sound, while the McKinney-based Maylee Thomas Band blends rock, blues and soul. Doors open at 7:00 PM for the 8:00 PM show. Full bar and food service will be available from Zin Zen Wine Bistro.",
+      "start_datetime": "2026-09-04T20:00:00-05:00",
+      "end_datetime": "2026-09-04T23:15:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "the-sanctuary-music-events-center"
+      ],
+      "venue_name": "The Sanctuary Music & Events Center",
+      "address": "6633 Virginia Parkway, Suite 102",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75071",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music"
+      ],
+      "tags": [
+        "Texas Flood",
+        "Tommy Katona",
+        "Maylee Thomas Band",
+        "Blues",
+        "Blues Rock",
+        "Rock",
+        "Soul",
+        "Stevie Ray Vaughan Tribute",
+        "Live Music",
+        "McKinney",
+        "Adriatica Village"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Standing admission on the upstairs balcony is $20. Individual seats at shared tables on the main floor are $40. Tables on the main floor or upstairs balcony include admission and seating for four people for $175. Seating configuration is subject to change.",
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "The Guitar Sanctuary",
+      "partner_business_slugs": [
+        "zin-zen-wine-bistro"
+      ],
+      "partner_names": [],
+      "image_url": "/images/events/texas-flood-maylee-thomas-band-2026-09-04.png",
+      "image_alt": null,
+      "official_url": "https://www.visitmckinney.com/event/texas-flood-%26-the-maylee-thomas-band-live-at-the-sanctuary/12109/",
+      "facebook_url": null,
+      "ticket_url": "https://events.leapevents.com/events/18007",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 28, 2026 from Visit McKinney, Bandsintown and The Guitar Sanctuary's Leap ticketing listing. Friday Sept. 4 at 8:00 PM with doors at 7:00 PM confirmed. Ticket options are $20 standing, $40 individual shared-table seating and $175 tables for four. Ticket listing shows an 11:15 PM end time. Zin Zen Wine Bistro is providing full bar and food service.",
       "last_checked": "2026-08-28",
       "created_on": "2026-08-28",
       "updated_on": "2026-08-29"
