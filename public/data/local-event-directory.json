@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 451,
-  "publish_ready_count": 451,
+  "event_count": 452,
+  "publish_ready_count": 452,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -29428,6 +29428,54 @@
       "last_checked": "2026-08-29",
       "created_on": "2026-08-29",
       "updated_on": "2026-08-29"
+    },
+    {
+      "event_slug": "murder-in-downtown-mckinney-sugarbacon-2026-09-06",
+      "event_name": "Murder in Downtown McKinney",
+      "description": "An immersive murder mystery dinner at Sugarbacon Proper Kitchen featuring professional actors, audience participation, clues, comedy and a three-course dinner.",
+      "start_datetime": "2026-09-06T18:00:00-05:00",
+      "end_datetime": "2026-09-06T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "sugarbacon-proper-kitchen-mckinney"
+      ],
+      "venue_name": "Sugarbacon Proper Kitchen",
+      "address": "216 W Virginia St #101",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "categories": [
+        "Food & Drink",
+        "Theater & Performing Arts",
+        "Special Events"
+      ],
+      "tags": [
+        "McKinney",
+        "Murder Mystery",
+        "Dinner",
+        "Interactive Theater",
+        "Downtown McKinney"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$70 plus tax per person. Includes hors d'oeuvres reception, three-course dinner, gratuities, professional actors and team prizes. Alcoholic beverages are available separately from a cash bar.",
+      "audience": [
+        "Adults"
+      ],
+      "age_restriction": null,
+      "organizer_name": "Keith & Margo's Murder Mystery Texas",
+      "official_url": "https://sugarbacon.com/murder-mystery/",
+      "recurring": false,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from Sugarbacon Proper Kitchen's official Murder Mystery page and Visit McKinney on 2026-08-29.",
+      "last_checked": "2026-08-29",
+      "created_on": "2026-08-29",
+      "updated_on": "2026-08-29",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/murder-in-downtown-mckinney-sugarbacon-2026-09-06.png"
     }
   ]
 }
