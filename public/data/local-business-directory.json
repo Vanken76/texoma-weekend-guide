@@ -5,8 +5,8 @@
   "generated_on": "2026-08-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1252,
-  "publish_ready_count": 928,
+  "business_count": 1253,
+  "publish_ready_count": 929,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -135276,6 +135276,131 @@
         "Wave pool",
         "Children's water play",
         "Cabanas and party rentals"
+      ]
+    },
+    {
+      "slug": "leonard-park-gainesville",
+      "business_name": "Leonard Park",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1000 W. California St., Gainesville, TX 76240",
+      "street_address": "1000 W. California St.",
+      "city": "Gainesville",
+      "state": "TX",
+      "zip_code": "76240",
+      "category": [
+        "Park",
+        "Community Park",
+        "Event Venue",
+        "Family Attraction"
+      ],
+      "tags": [
+        "Gainesville",
+        "Community Park",
+        "Playground",
+        "Picnic",
+        "Pavilions",
+        "Baseball",
+        "Softball",
+        "Stage",
+        "Train Rides",
+        "Family Fun",
+        "Outdoor Events"
+      ],
+      "description": "Leonard Park is a 30.05-acre community park and major recreation hub in Gainesville. The park includes picnic areas, grills, playgrounds, rentable pavilions, a stage, lighted baseball and softball fields, restrooms, water fountains and a miniature passenger train that circles the park. The larger Leonard Park complex also includes additional family recreation attractions and regularly serves as a site for festivals, community gatherings, sporting activities and special events.",
+      "why_visit": "Leonard Park offers a wide range of family recreation in one location, from playgrounds and picnics to sports fields, train rides and community events.",
+      "why_its_unique": "One of Gainesville's busiest gathering places, Leonard Park combines a large public park, sports facilities, event infrastructure and several family attractions in a single recreation complex.",
+      "phone": "940-668-4530",
+      "email": null,
+      "website": "https://www.gainesville.tx.us/facilities/facility/details/Leonard-Park-1",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Leonard Park is a public outdoor park. Individual attractions, sports facilities, rentals and special events within the park may operate on separate schedules.",
+      "at_a_glance": {
+        "average_visit": "1-4 hours",
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Playgrounds",
+        "Picnic tables",
+        "Grills and smokers",
+        "Two rentable pavilions",
+        "Large pavilion with stage",
+        "Baseball fields",
+        "Softball fields",
+        "Restrooms",
+        "Water fountains",
+        "Miniature passenger train",
+        "ADA-accessible playground features"
+      ],
+      "good_to_know": [
+        "The park is part of a larger recreation complex with several separate attractions.",
+        "Weekend pavilion rentals are available through Gainesville Parks & Recreation.",
+        "Special or group events may require additional City paperwork or permitting.",
+        "Individual attractions inside the park may charge separate admission."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "child_businesses": [
+        {
+          "slug": "leonard-park-aquatic-center-gainesville"
+        }
+      ],
+      "related_businesses": [],
+      "related_geography": [
+        "Gainesville",
+        "Cooke County"
+      ],
+      "verification_note": "Verified Aug. 29, 2026 from official City of Gainesville Parks & Recreation sources. The City confirms Leonard Park at 1000 W. California St., Gainesville, TX 76240 and describes it as a 30.05-acre community park with playgrounds, picnic facilities, grills, pavilions, stage, baseball and softball fields, restrooms, water fountains, miniature train, swimming facilities and zoo access. Pavilion information and Parks & Recreation contact number 940-668-4530 were also confirmed.",
+      "last_checked": "2026-08-29",
+      "event_types": [
+        "Car Shows",
+        "Festivals",
+        "Community Events",
+        "Family Events",
+        "Outdoor Events",
+        "Sports Events",
+        "Fundraisers"
+      ],
+      "event_sources": [
+        "City of Gainesville Calendar",
+        "Gainesville Parks & Recreation"
+      ],
+      "features": [
+        "30.05-acre community park",
+        "Multiple recreation attractions",
+        "Rentable event pavilions",
+        "Outdoor stage",
+        "Lighted sports fields",
+        "Large accessible playground"
       ]
     }
   ]
