@@ -5,8 +5,8 @@
   "generated_on": "2026-08-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1255,
-  "publish_ready_count": 931,
+  "business_count": 1256,
+  "publish_ready_count": 932,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -135654,6 +135654,137 @@
         "Study and meeting rooms",
         "Year-round educational programming",
         "Free community resources"
+      ]
+    },
+    {
+      "slug": "wildflower-art-studio-denton",
+      "business_name": "Wildflower Art Studio",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "715 N. Locust St., Denton, TX 76201",
+      "street_address": "715 N. Locust St.",
+      "city": "Denton",
+      "state": "TX",
+      "zip_code": "76201",
+      "category": [
+        "Art Studio",
+        "Classes & Workshops",
+        "Event Venue",
+        "Arts & Culture"
+      ],
+      "tags": [
+        "Denton",
+        "Art Classes",
+        "Watercolor",
+        "Pottery",
+        "Stained Glass",
+        "Drawing",
+        "Calligraphy",
+        "Hand Lettering",
+        "Kids Classes",
+        "Art Camps",
+        "Private Events",
+        "Team Building",
+        "Creative Workshops"
+      ],
+      "description": "Wildflower Art Studio is a creative workshop and event studio near the Denton Square offering beginner-friendly art experiences for adults, teens and children. Programming includes watercolor, clay pottery, stained glass, drawing, calligraphy and hand lettering, along with kids classes, art camps, private parties, celebrations, retreats and team-building events. Scheduled workshops typically include supplies, a coffee bar and light refreshments.",
+      "why_visit": "Wildflower Art Studio offers hands-on creative experiences for beginners and experienced makers, with a frequently changing calendar of art workshops and special events.",
+      "why_its_unique": "The studio combines structured art instruction with a social workshop atmosphere and offers a broad mix of media including watercolor, pottery, stained glass, drawing and lettering.",
+      "phone": "940-435-0041",
+      "email": "wildflowerartstudio@gmail.com",
+      "website": "https://www.wildflowerartstudio.net/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "thursday": "3:00 PM - 6:00 PM",
+        "friday": "9:00 AM - 1:00 PM"
+      },
+      "hours_note": "Regular studio hours are Thursday 3:00-6:00 PM and Friday 9:00 AM-1:00 PM. The studio also opens on weekdays and weekends for scheduled events and workshops.",
+      "at_a_glance": {
+        "average_visit": "1.5-3 hours",
+        "price_range": "$$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": "Light refreshments at many workshops",
+        "full_bar": false,
+        "live_music": false,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": true
+      },
+      "amenities": [
+        "Art workshop studio",
+        "Watercolor workshops",
+        "Clay pottery workshops",
+        "Stained glass workshops",
+        "Drawing classes",
+        "Calligraphy and hand lettering",
+        "Kids classes",
+        "Art camps",
+        "Private events",
+        "Parties and celebrations",
+        "Team-building events",
+        "Coffee bar and light refreshments at workshops"
+      ],
+      "good_to_know": [
+        "Most workshops are designed to be beginner-friendly.",
+        "Workshop supplies, coffee and light refreshments are typically included.",
+        "BYOB is welcome at adult workshops for guests age 21 and older.",
+        "Students under age 16 may attend adult workshops when registered with an adult.",
+        "The studio opens outside regular public hours for scheduled workshops and private events."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        "Denton",
+        "Downtown Denton"
+      ],
+      "verification_note": "Verified Aug. 29, 2026 from the official Wildflower Art Studio website. The studio is located at 715 N. Locust St., Denton, TX 76201, phone 940-435-0041. Official pages confirm workshops in watercolor, pottery, stained glass, drawing and lettering; kids classes and camps; private events and team-building; beginner-friendly instruction; included supplies, coffee and light refreshments; BYOB for guests 21+; and scheduled-event access outside regular studio hours.",
+      "last_checked": "2026-08-29",
+      "event_types": [
+        "Art Workshops",
+        "Watercolor Classes",
+        "Pottery Workshops",
+        "Stained Glass Workshops",
+        "Drawing Classes",
+        "Calligraphy",
+        "Hand Lettering",
+        "Kids Classes",
+        "Art Camps",
+        "Private Events",
+        "Date Nights"
+      ],
+      "event_sources": [
+        "Wildflower Art Studio Adult Events",
+        "Wildflower Art Studio"
+      ],
+      "features": [
+        "Beginner-friendly creative workshops",
+        "Multiple art mediums",
+        "Kids and adult programming",
+        "Private event rentals",
+        "Near the Denton Square"
       ]
     }
   ]
