@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 460,
-  "publish_ready_count": 460,
+  "event_count": 461,
+  "publish_ready_count": 461,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -29910,6 +29910,63 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 29, 2026 from the official Heard Museum Sept. 5 event page, Heard Guided Trails program page and current Heard general-admission ticket page. Official event time is 9:30–11:30 AM; the guided hike is described as 45–60 minutes. Guided Trails are included with general admission and free for Heard Museum members. The Heard publishes a dedicated Sept. 5 occurrence page, so this record is treated as a one-time occurrence rather than a recurring-series page.",
+      "last_checked": "2026-08-29",
+      "created_on": "2026-08-29",
+      "updated_on": "2026-08-29"
+    },
+    {
+      "event_slug": "family-storytime-mckinney-2026-09-05",
+      "event_name": "Family Storytime (All Ages)",
+      "description": "Free all-ages Family Storytime presented by McKinney Public Library at John & Judy Gay Library.",
+      "start_datetime": "2026-09-05T10:30:00-05:00",
+      "end_datetime": "2026-09-05T11:15:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "john-judy-gay-library-mckinney"
+      ],
+      "venue_name": "John & Judy Gay Library",
+      "address": "6861 W. Eldorado Pkwy.",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75070",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Family",
+        "Library Program",
+        "Storytime"
+      ],
+      "tags": [
+        "Family Storytime",
+        "all ages",
+        "McKinney Public Library",
+        "John & Judy Gay Library",
+        "McKinney"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free.",
+      "audience": [
+        "All Ages"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "john-judy-gay-library-mckinney",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/family-storytime-mckinney-2026-09-05.jpg",
+      "image_alt": null,
+      "official_url": "https://www.mckinneytexas.org/calendar.aspx?EID=36748",
+      "facebook_url": null,
+      "ticket_url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_FamilyStorytime",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 29, 2026 from the official City of McKinney calendar. Event is Saturday, Sept. 5, 2026, 10:30–11:15 AM, free, and listed at John and Judy Gay Library. The event calendar currently displays 1201 E. Louisiana St., which conflicts with the City's official library location listing; the canonical John & Judy Gay Library address of 6861 W. Eldorado Pkwy., McKinney, TX 75070 is used here. Registration link is the McKinney Public Library LibCal Family Storytime page.",
       "last_checked": "2026-08-29",
       "created_on": "2026-08-29",
       "updated_on": "2026-08-29"
