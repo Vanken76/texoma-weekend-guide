@@ -5,8 +5,8 @@
   "generated_on": "2026-08-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1248,
-  "publish_ready_count": 924,
+  "business_count": 1249,
+  "publish_ready_count": 925,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -134815,6 +134815,115 @@
       "publish_ready": true,
       "last_checked": "2026-08-28",
       "last_verified": "2026-08-28"
+    },
+    {
+      "slug": "university-of-north-texas",
+      "business_name": "University of North Texas",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1155 Union Circle, Denton, TX 76203-5017",
+      "category": [
+        "Public University",
+        "Higher Education",
+        "Event Venue",
+        "Arts & Culture"
+      ],
+      "tags": [
+        "University",
+        "College Campus",
+        "Denton",
+        "Live Music",
+        "Concerts",
+        "Performing Arts",
+        "Art Exhibitions",
+        "Athletics",
+        "Lectures",
+        "Community Events",
+        "Campus Events"
+      ],
+      "description": "The University of North Texas is a major public research university in Denton established in 1890. The Denton campus includes academic, arts, athletics, student-life and community-facing facilities that host concerts, recitals, theatrical productions, art exhibitions, lectures, athletic competitions, ceremonies, conferences and other public events throughout the year. UNT's nationally recognized College of Music alone presents more than 1,000 concerts annually, many of them free.",
+      "why_visit": "UNT is one of Denton's largest sources of public cultural and community programming, with a year-round calendar of concerts, performances, exhibitions, athletics, lectures and special campus events.",
+      "why_its_unique": "The Denton campus combines a major public research university with nationally recognized music and arts programs, including a College of Music that presents more than 1,000 concerts each year.",
+      "phone": "940-565-2000",
+      "email": null,
+      "website": "https://www.unt.edu/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "UNT is a large university campus whose buildings, offices, attractions and event venues operate on separate schedules. Check the specific facility or event listing before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Public concerts and performances",
+        "Art exhibitions",
+        "Athletic events",
+        "Campus tours",
+        "University event calendar"
+      ],
+      "good_to_know": [
+        "Individual campus buildings and venues maintain their own schedules and access rules.",
+        "Parking requirements vary by location, day and event.",
+        "Many College of Music performances are free and open to the public."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified Aug. 28, 2026 from official University of North Texas sources. Denton campus address and main phone confirmed. UNT identifies itself as a major public research university, and its official About UNT page states that the College of Music presents more than 1,000 concerts annually, most free.",
+      "last_checked": "2026-08-28",
+      "event_types": [
+        "Concerts",
+        "Recitals",
+        "Performing arts",
+        "Art exhibitions",
+        "Athletic events",
+        "Lectures",
+        "Academic events",
+        "Community events",
+        "Ceremonies",
+        "Conferences"
+      ],
+      "event_sources": [
+        "UNT Events Calendar",
+        "UNT College of Music",
+        "Official UNT website"
+      ],
+      "features": [
+        "Public research university",
+        "Major Denton campus",
+        "Nationally recognized College of Music",
+        "Extensive public arts programming",
+        "Year-round campus events"
+      ]
     }
   ]
 }
