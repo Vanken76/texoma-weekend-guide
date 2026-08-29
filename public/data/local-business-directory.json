@@ -5,8 +5,8 @@
   "generated_on": "2026-08-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1249,
-  "publish_ready_count": 925,
+  "business_count": 1250,
+  "publish_ready_count": 926,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -134923,6 +134923,121 @@
         "Nationally recognized College of Music",
         "Extensive public arts programming",
         "Year-round campus events"
+      ]
+    },
+    {
+      "slug": "unt-music-building",
+      "business_name": "UNT Music Building",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "415 Avenue C, Denton, TX 76201",
+      "street_address": "415 Avenue C",
+      "city": "Denton",
+      "state": "TX",
+      "zip_code": "76201",
+      "category": [
+        "Performing Arts Venue",
+        "University Facility",
+        "Live Music Venue"
+      ],
+      "tags": [
+        "UNT",
+        "UNT College of Music",
+        "Paul Voertman Concert Hall",
+        "Recital Hall",
+        "Live Music",
+        "Concerts",
+        "Recitals",
+        "Classical Music",
+        "Denton",
+        "University of North Texas"
+      ],
+      "description": "The UNT Music Building is a major performance and instructional facility for the University of North Texas College of Music in Denton. Performance spaces inside the building include Paul Voertman Concert Hall, Recital Hall, Lab West and the Merrill Ellis Intermedia Theater, along with rehearsal, instructional and music facilities. The building hosts frequent student, faculty and guest-artist concerts and recitals throughout the academic year.",
+      "why_visit": "The UNT Music Building hosts a dense calendar of concerts, recitals and guest-artist performances, with many College of Music events free and open to the public.",
+      "why_its_unique": "It is one of the central performance hubs of UNT's nationally recognized College of Music and contains several distinct concert and recital spaces under one roof.",
+      "phone": "940-565-2791",
+      "email": "music.information@unt.edu",
+      "website": "https://music.unt.edu/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Building access and performance schedules vary with the academic calendar and individual events. Check the UNT College of Music calendar before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": true,
+        "karaoke": false,
+        "outdoor_seating": false,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Paul Voertman Concert Hall",
+        "Recital Hall",
+        "Lab West",
+        "Merrill Ellis Intermedia Theater",
+        "Concert and recital spaces",
+        "Nearby event parking"
+      ],
+      "good_to_know": [
+        "Paul Voertman Concert Hall is located inside the UNT Music Building.",
+        "Free event parking is available in Lot 26 after 5:30 PM daily.",
+        "Paid hourly visitor parking is available nearby in Lots 5 and 25 and on West Highland Street.",
+        "Many UNT College of Music performances are free and open to the public."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": [
+        {
+          "slug": "university-of-north-texas",
+          "name": "University of North Texas"
+        }
+      ],
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified Aug. 28, 2026 from official UNT College of Music sources. The Music Building is at 415 Avenue C, Denton, TX 76201. UNT identifies Paul Voertman Concert Hall, Recital Hall, Lab West and Merrill Ellis Intermedia Theater as venues inside the Music Building. College of Music contact information is 940-565-2791 and music.information@unt.edu.",
+      "last_checked": "2026-08-28",
+      "event_types": [
+        "Concerts",
+        "Recitals",
+        "Guest Artist Performances",
+        "Classical Music",
+        "Jazz",
+        "Contemporary Music",
+        "Student Performances",
+        "Faculty Performances"
+      ],
+      "event_sources": [
+        "UNT Events Calendar",
+        "UNT College of Music"
+      ],
+      "features": [
+        "Multiple indoor performance venues",
+        "Home of Paul Voertman Concert Hall",
+        "UNT College of Music facility",
+        "Frequent free public performances"
       ]
     }
   ]
