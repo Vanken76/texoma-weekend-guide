@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 436,
-  "publish_ready_count": 436,
+  "event_count": 437,
+  "publish_ready_count": 437,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -28476,6 +28476,64 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 28, 2026 from the official TUPPS Brewery event listing. Official listing confirms Sept. 5, 2026, 7:00-10:00 PM, free admission, CUTX Outdoor Stage & Lawn, family-friendly and dog-friendly.",
+      "last_checked": "2026-08-28",
+      "created_on": "2026-08-28",
+      "updated_on": "2026-08-29"
+    },
+    {
+      "event_slug": "los-tigres-del-norte-2026-09-04",
+      "event_name": "Los Tigres del Norte",
+      "description": "Los Tigres del Norte return to WinStar World Casino & Resort for a live performance at Lucas Oil Live in Thackerville. The influential norteño group is known worldwide for its corridos, romantic songs and decades-long career in Latin music. Doors open at 6:30 PM, 90 minutes before the 8:00 PM show.",
+      "start_datetime": "2026-09-04T20:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "lucas-oil-live"
+      ],
+      "venue_name": "Lucas Oil Live",
+      "address": "777 Casino Ave",
+      "city": "Thackerville",
+      "state": "OK",
+      "postal_code": "73459",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music"
+      ],
+      "tags": [
+        "Los Tigres del Norte",
+        "Latin Music",
+        "Norteño",
+        "Corridos",
+        "Mexican Music",
+        "Concert",
+        "Thackerville",
+        "WinStar"
+      ],
+      "cost_type": "paid",
+      "cost_details": "Ticketed concert. Ticket prices vary by seating selection and availability.",
+      "audience": [
+        "All Ages"
+      ],
+      "age_restriction": "Open to all ages unless otherwise specified. Children over age 2 require a ticket. Guests under 18 must be accompanied by a parent or legal guardian.",
+      "host_business_slug": "winstar-world-casino-resort",
+      "organizer_name": "WinStar World Casino & Resort",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/los-tigres-del-norte-2026-09-04.png",
+      "image_alt": "Los Tigres del Norte live at Lucas Oil Live at WinStar World Casino & Resort on September 4, 2026",
+      "official_url": "https://www.winstar.com/event/los-tigres-del-norte-2026/",
+      "facebook_url": null,
+      "ticket_url": "https://seatgeek.com/los-tigres-del-norte-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-09-04-8-pm/concert/18167713",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 28, 2026 from the official WinStar event listing. Sept. 4 at 8:00 PM at Lucas Oil Live confirmed; doors open 90 minutes before showtime. Official page links to SeatGeek. No official end time or fixed ticket price was published.",
       "last_checked": "2026-08-28",
       "created_on": "2026-08-28",
       "updated_on": "2026-08-29"
