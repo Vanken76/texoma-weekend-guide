@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 443,
-  "publish_ready_count": 443,
+  "event_count": 444,
+  "publish_ready_count": 444,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -28930,6 +28930,69 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 28, 2026 from the official Texas Historical Commission event listing. Ike's History Fest runs Friday Sept. 4 and Saturday Sept. 5, 2026 from 10:00 AM-3:30 PM each day at Eisenhower Birthplace State Historic Site, 609 S. Lamar Ave., Denison, TX 75021. Admission is $3 per person with children 5 and under free and includes a regularly scheduled Birthplace tour subject to availability. The official listing also confirms the participating historic and nature organizations.",
+      "last_checked": "2026-08-28",
+      "created_on": "2026-08-28",
+      "updated_on": "2026-08-29"
+    },
+    {
+      "event_slug": "summerween-at-water-works-park-2026-09-05",
+      "event_name": "SummerWeen at Water Works Park",
+      "description": "Water Works Park kicks off Denton's Halloween season with SummerWeen, a late-summer day of swimming surrounded by Halloween decorations, spooky seasonal sales and specialty concessions. Guests can enjoy the water park while getting an early taste of spooky season as Water Works Park winds down its 2026 summer season.",
+      "start_datetime": "2026-09-05T11:00:00-05:00",
+      "end_datetime": "2026-09-05T19:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "water-works-park-denton"
+      ],
+      "venue_name": "Water Works Park",
+      "address": "2400 Long Rd.",
+      "city": "Denton",
+      "state": "TX",
+      "postal_code": "76207",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Family Entertainment",
+        "Seasonal & Holiday",
+        "Water Recreation"
+      ],
+      "tags": [
+        "SummerWeen",
+        "Halloween",
+        "Water Park",
+        "Swimming",
+        "Family Fun",
+        "Halloween Decorations",
+        "Specialty Concessions",
+        "Seasonal Event",
+        "Denton",
+        "Water Works Park"
+      ],
+      "cost_type": "unknown",
+      "cost_details": "No event-specific admission price is published. Regular 2026 Water Works Park daily admission is $19 for guests 48 inches and taller, $14 for guests under 48 inches, and $6 for non-swimmers. Season passes may also apply.",
+      "audience": [
+        "All Ages",
+        "Families"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "water-works-park-denton",
+      "organizer_name": "City of Denton Parks & Recreation",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/summerween-at-water-works-park-2026-09-05.png",
+      "image_alt": null,
+      "official_url": "https://www.cityofdenton.com/Calendar.aspx?EID=1778&calType=0&day=3&month=8&year=2026",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 28, 2026 from the official City of Denton event calendar and Water Works Park website. Saturday Sept. 5, 2026 runs 11:00 AM-7:00 PM at Water Works Park, 2400 Long Rd., Denton, TX 76207. The City confirms Halloween decorations, spooky sales and specialty concessions. No event-specific admission price is published; regular 2026 Water Works Park admission rates are listed separately on the official park website.",
       "last_checked": "2026-08-28",
       "created_on": "2026-08-28",
       "updated_on": "2026-08-29"
