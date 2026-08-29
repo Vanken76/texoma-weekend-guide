@@ -5,8 +5,8 @@
   "generated_on": "2026-08-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1256,
-  "publish_ready_count": 932,
+  "business_count": 1257,
+  "publish_ready_count": 933,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -135785,6 +135785,110 @@
         "Kids and adult programming",
         "Private event rentals",
         "Near the Denton Square"
+      ]
+    },
+    {
+      "slug": "sugarbacon-proper-kitchen-mckinney",
+      "business_name": "Sugarbacon Proper Kitchen",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "216 W Virginia St #101, McKinney, TX 75069",
+      "category": [
+        "Restaurant",
+        "Event Venue"
+      ],
+      "tags": [
+        "Historic Downtown McKinney",
+        "Modern American",
+        "Weekend Brunch",
+        "Cocktails",
+        "Patio",
+        "Private Events"
+      ],
+      "description": "Sugarbacon Proper Kitchen is a modern American restaurant in Historic Downtown McKinney serving shareable plates, steaks, comfort-forward entrees, handcrafted cocktails and weekend brunch. The restaurant occupies a former service station with more than 80 years of local history and also hosts private parties and special events.",
+      "why_visit": "Visit for modern American dining, weekend brunch, cocktails and a distinctive Historic Downtown McKinney setting, with both regular restaurant service and occasional special events.",
+      "why_its_unique": "The restaurant operates inside a former service station that stood for more than 80 years, blending that historic setting with modern American food and hospitality.",
+      "phone": "469-631-0075",
+      "email": null,
+      "website": "https://sugarbacon.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": true,
+      "dog_friendly": true,
+      "hours": {
+        "monday": "4:00 PM - 9:00 PM",
+        "tuesday": "4:00 PM - 9:00 PM",
+        "wednesday": "4:00 PM - 9:00 PM",
+        "thursday": "4:00 PM - 9:00 PM",
+        "friday": "4:00 PM - 10:00 PM",
+        "saturday": "10:00 AM - 10:00 PM",
+        "sunday": "10:00 AM - 9:00 PM"
+      },
+      "hours_note": "Weekend brunch is served Saturday and Sunday from 10:00 AM to 3:00 PM. Holiday and special-event hours may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": true,
+        "dog_friendly": true,
+        "food_available": true,
+        "full_bar": true,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Full restaurant",
+        "Full bar",
+        "Weekend brunch",
+        "Patio seating",
+        "Private event space",
+        "Reservations"
+      ],
+      "good_to_know": [
+        "The patio is dog-friendly; dogs must be leashed.",
+        "A parking lot is available directly across from the restaurant, with additional street parking.",
+        "Private-event space comfortably seats up to 40 people."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified from Sugarbacon Proper Kitchen's official website, including About, Contact, Private Party and Events pages on 2026-08-29.",
+      "last_checked": "2026-08-29",
+      "event_types": [
+        "Murder mystery dinners",
+        "Dining events",
+        "Private events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official events page"
+      ],
+      "features": [
+        "Historic Downtown McKinney location",
+        "Former service station setting",
+        "Modern American cuisine",
+        "Weekend brunch",
+        "Craft cocktails",
+        "Private event hosting"
       ]
     }
   ]
