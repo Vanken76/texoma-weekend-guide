@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 448,
-  "publish_ready_count": 448,
+  "event_count": 449,
+  "publish_ready_count": 449,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -29242,6 +29242,69 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 29, 2026 from the official City of Denton calendar. Hydroponic Gardening is scheduled Saturday Sept. 5, 2026 from 10:00-11:00 AM at Emily Fowler Central Library, 502 Oakland St., Denton, TX 76201. The City describes the program as an expert-led introduction to setting up and maintaining soil-free gardens of different sizes. No admission price or registration requirement is published.",
+      "last_checked": "2026-08-29",
+      "created_on": "2026-08-29",
+      "updated_on": "2026-08-29"
+    },
+    {
+      "event_slug": "autumn-watercolor-ink-2026-09-05",
+      "event_name": "Autumn Watercolor + Ink",
+      "description": "Explore watercolor and ink in this beginner-friendly workshop at Wildflower Art Studio in Denton. Participants will create layered paintings while learning a variety of expressive watercolor and ink techniques. All studio supplies are included, along with snacks and coffee.",
+      "start_datetime": "2026-09-05T12:00:00-05:00",
+      "end_datetime": "2026-09-05T13:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "wildflower-art-studio-denton"
+      ],
+      "venue_name": "Wildflower Art Studio",
+      "address": "715 N. Locust St.",
+      "city": "Denton",
+      "state": "TX",
+      "postal_code": "76201",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Classes & Workshops",
+        "Arts & Culture"
+      ],
+      "tags": [
+        "Autumn Watercolor",
+        "Watercolor",
+        "Ink",
+        "Painting",
+        "Art Workshop",
+        "Beginner Friendly",
+        "Creative Workshop",
+        "Wildflower Art Studio",
+        "Denton"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$65 for the workshop using studio supplies. Workshop plus a take-home supply kit is $120. The take-home kit includes an ink bottle with dropper, ink cup, watercolor paint set, two watercolor brushes and a Strathmore watercolor paper pad.",
+      "audience": [
+        "Adults",
+        "Teens",
+        "Artists",
+        "Beginners"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "wildflower-art-studio-denton",
+      "organizer_name": "Wildflower Art Studio",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/autumn-watercolor-ink-2026-09-05.png",
+      "image_alt": null,
+      "official_url": "https://www.wildflowerartstudio.net/workshops/watercolor-ink-sept26",
+      "facebook_url": null,
+      "ticket_url": "https://www.wildflowerartstudio.net/workshops/watercolor-ink-sept26",
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 29, 2026 from the official Wildflower Art Studio workshop page. Autumn Watercolor + Ink is scheduled Saturday Sept. 5, 2026 from 12:00-1:30 PM at 715 N. Locust St., Denton, TX 76201. Workshop registration is $65 using studio supplies or $120 with a take-home supply kit. All supplies are included, along with snacks and coffee.",
       "last_checked": "2026-08-29",
       "created_on": "2026-08-29",
       "updated_on": "2026-08-29"
