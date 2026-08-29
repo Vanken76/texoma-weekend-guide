@@ -5,8 +5,8 @@
   "generated_on": "2026-08-29",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1254,
-  "publish_ready_count": 930,
+  "business_count": 1255,
+  "publish_ready_count": 931,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -135520,6 +135520,140 @@
         "Year-round community programming",
         "Free public learning resources",
         "Programs for children, teens and adults"
+      ]
+    },
+    {
+      "slug": "emily-fowler-central-library",
+      "business_name": "Emily Fowler Central Library",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "502 Oakland St., Denton, TX 76201",
+      "street_address": "502 Oakland St.",
+      "city": "Denton",
+      "state": "TX",
+      "zip_code": "76201",
+      "category": [
+        "Public Library",
+        "Community Resource",
+        "Educational Venue"
+      ],
+      "tags": [
+        "Denton",
+        "Public Library",
+        "Emily Fowler Central Library",
+        "Books",
+        "Classes",
+        "Workshops",
+        "Story Times",
+        "Family Programs",
+        "Adult Programs",
+        "Children's Programs",
+        "Technology",
+        "Research",
+        "Community Events"
+      ],
+      "description": "Emily Fowler Central Library is the central branch of Denton Public Library, offering books and digital materials, learning resources, public computers and Wi-Fi, study and meeting spaces, printing and scanning services, and recurring educational and community programs. The branch hosts classes, workshops, children's activities, lectures and other public events throughout the year.",
+      "why_visit": "Emily Fowler Central Library combines traditional library resources with frequent free educational and community programming for children, families and adults.",
+      "why_its_unique": "As Denton Public Library's central branch, Emily Fowler serves as both a major public learning resource and an active venue for workshops, classes and community programs near downtown Denton.",
+      "phone": "940-349-8752",
+      "email": null,
+      "website": "https://www.cityofdenton.com/Facilities/Facility/Details/Emily-Fowler-Central-Library-84",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Free",
+      "family_friendly": true,
+      "pet_friendly": false,
+      "dog_friendly": false,
+      "hours": {
+        "monday": "9:00 AM - 6:00 PM",
+        "tuesday": "9:00 AM - 9:00 PM",
+        "wednesday": "9:00 AM - 6:00 PM",
+        "thursday": "9:00 AM - 9:00 PM",
+        "friday": "9:00 AM - 6:00 PM",
+        "saturday": "9:00 AM - 6:00 PM",
+        "sunday": "1:00 PM - 5:00 PM"
+      },
+      "hours_note": "Hours may change for City holidays, emergencies or temporary closures. Check the City of Denton before visiting.",
+      "at_a_glance": {
+        "average_visit": "1-3 hours",
+        "price_range": "Free",
+        "family_friendly": true,
+        "pet_friendly": false,
+        "dog_friendly": false,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": false,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Books and digital materials",
+        "Public computers",
+        "Wi-Fi",
+        "Study spaces",
+        "Meeting rooms",
+        "Printing",
+        "Scanning",
+        "Classes and workshops",
+        "Children's programming",
+        "Community events"
+      ],
+      "good_to_know": [
+        "Emily Fowler Central Library is a branch of Denton Public Library.",
+        "Many programs are free, but individual events may require registration or have limited capacity.",
+        "Program schedules vary throughout the year.",
+        "Library hours may change for City holidays or temporary closures."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": [
+        {
+          "slug": "denton-public-library",
+          "name": "Denton Public Library"
+        }
+      ],
+      "child_businesses": [],
+      "related_businesses": [],
+      "related_geography": [
+        "Denton",
+        "Downtown Denton"
+      ],
+      "verification_note": "Verified Aug. 29, 2026 from official City of Denton sources. The City confirms Emily Fowler Central Library at 502 Oakland St., Denton, TX 76201, phone 940-349-8752. Current facility information confirms classes, learning resources, public computers and Wi-Fi, study and meeting rooms, printing and scanning services. Current published hours are Monday, Wednesday, Friday and Saturday 9:00 AM-6:00 PM; Tuesday and Thursday 9:00 AM-9:00 PM; Sunday 1:00-5:00 PM.",
+      "last_checked": "2026-08-29",
+      "event_types": [
+        "Classes",
+        "Workshops",
+        "Educational Programs",
+        "Family Events",
+        "Children's Programs",
+        "Adult Programs",
+        "Lectures",
+        "Community Events"
+      ],
+      "event_sources": [
+        "City of Denton Calendar",
+        "Denton Public Library"
+      ],
+      "features": [
+        "Central Denton Public Library branch",
+        "Public computers and Wi-Fi",
+        "Study and meeting rooms",
+        "Year-round educational programming",
+        "Free community resources"
       ]
     }
   ]
