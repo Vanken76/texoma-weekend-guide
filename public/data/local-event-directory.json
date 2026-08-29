@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 464,
-  "publish_ready_count": 464,
+  "event_count": 465,
+  "publish_ready_count": 465,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -30150,6 +30150,70 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 29, 2026 from the official City of McKinney September 2026 library calendar and McKinney Public Library program guides. September occurrences are Sept. 1, 8, 15, 22 and 29 from 11:30 AM-12:15 PM at John & Judy Gay Library. Official program materials describe the ages 3-5 storytime as using books, music and movement. Official 2026 City event pages for the same recurring program list admission as free. Canonical venue address uses ZIP 75070.",
+      "last_checked": "2026-08-29",
+      "created_on": "2026-08-29",
+      "updated_on": "2026-08-29"
+    },
+    {
+      "event_slug": "mad-science-mckinney-september-2026",
+      "event_name": "Mad Science (K-5th Grade)",
+      "description": "A weekly McKinney Public Library program for children in kindergarten through 5th grade exploring Science, Technology, Engineering, Art and Math through fascinating topics that encourage curiosity and problem-solving.",
+      "start_datetime": "2026-09-01T16:30:00-05:00",
+      "end_datetime": "2026-09-01T17:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "john-judy-gay-library-mckinney"
+      ],
+      "venue_name": "John & Judy Gay Library",
+      "address": "6861 W. Eldorado Pkwy.",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75070",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Science",
+        "STEM & STEAM",
+        "Kids",
+        "Library Program"
+      ],
+      "tags": [
+        "Mad Science",
+        "K-5th Grade",
+        "STEAM",
+        "science",
+        "technology",
+        "engineering",
+        "art",
+        "math",
+        "McKinney Public Library",
+        "John & Judy Gay Library",
+        "McKinney"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free.",
+      "audience": [
+        "Kindergarten-5th Grade"
+      ],
+      "age_restriction": "Designed for children in kindergarten through 5th grade.",
+      "host_business_slug": "john-judy-gay-library-mckinney",
+      "organizer_name": "McKinney Public Library",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/mad-science-mckinney-september-2026.png",
+      "image_alt": null,
+      "official_url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_MadScience",
+      "facebook_url": null,
+      "ticket_url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_MadScience",
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=TU;COUNT=5",
+      "recurrence_start_date": "2026-09-01",
+      "recurrence_end_date": "2026-09-29",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 29, 2026 from the official City of McKinney September 2026 library calendar and McKinney Public Library program guide. September occurrences are Sept. 1, 8, 15, 22 and 29 from 4:30-5:30 PM at John & Judy Gay Library. Official program materials describe Mad Science as a K-5th Grade program exploring Science, Technology, Engineering, Art and Math and encouraging curiosity and problem-solving. Official 2026 City Mad Science event pages list admission as free. Canonical venue address uses ZIP 75070.",
       "last_checked": "2026-08-29",
       "created_on": "2026-08-29",
       "updated_on": "2026-08-29"
