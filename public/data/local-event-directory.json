@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 476,
-  "publish_ready_count": 476,
+  "event_count": 477,
+  "publish_ready_count": 477,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -30872,6 +30872,58 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 30, 2026 using the official City of McKinney Parks & Recreation calendar and Tabletop RPG Nights event listing. The calendar confirms Thursday, September 3, 2026 from 5:00 PM to 8:00 PM at Old Settler's Recreation Center, with additional September occurrences on Sept. 10, 17 and 24. The official series detail lists admission at $2 for residents and $3 for non-residents and describes a campaign experience for players of all skill levels involving character building, imaginative exploration, challenges and collaborative storytelling.",
+      "last_checked": "2026-08-30",
+      "created_on": "2026-08-30",
+      "updated_on": "2026-08-30"
+    },
+    {
+      "event_slug": "nerf-warzone-nights-osrc-september-2026",
+      "event_name": "Nerf Warzone Nights - OSRC",
+      "description": "City of McKinney Parks & Recreation hosts Nerf Warzone Nights at Old Settler's Recreation Center on Friday afternoons in September.",
+      "start_datetime": "2026-09-04T16:00:00-05:00",
+      "end_datetime": "2026-09-04T17:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "old-settlers-recreation-center"
+      ],
+      "venue_name": "Old Settler's Recreation Center",
+      "address": "1201 E. Louisiana St.",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "games",
+        "recreation"
+      ],
+      "tags": [
+        "nerf",
+        "warzone",
+        "parks-and-recreation"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": "old-settlers-recreation-center",
+      "organizer_name": "City of McKinney Parks & Recreation",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/nerf-warzone-nights-osrc-september-2026.png",
+      "image_alt": null,
+      "official_url": "https://www.mckinneytexas.org/Calendar.aspx?EID=36855&calType=0&day=4&month=9&year=2026",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=FR;COUNT=4",
+      "recurrence_start_date": "2026-09-04",
+      "recurrence_end_date": "2026-09-25",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 30, 2026 using the official City of McKinney Parks & Recreation calendar. The calendar confirms Nerf Warzone Nights - OSRC on Friday, September 4, 2026 from 4:00 PM to 5:00 PM at Old Settler's Recreation Center, with additional September occurrences on Sept. 11, 18 and 25. A verified price, age restriction and detailed program description were not available in the accessible official listing, so those fields remain unset.",
       "last_checked": "2026-08-30",
       "created_on": "2026-08-30",
       "updated_on": "2026-08-30"
