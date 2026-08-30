@@ -5,8 +5,8 @@
   "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1286,
-  "publish_ready_count": 962,
+  "business_count": 1287,
+  "publish_ready_count": 963,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -139249,6 +139249,122 @@
         "Fish cleaning and bagging",
         "Catch guarantee",
         "Cardinal Cove departures"
+      ]
+    },
+    {
+      "slug": "ron-dobbs-texoma-guide-service",
+      "business_name": "Ron Dobbs Texoma Guide Service",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Lake Texoma; trips depart from Cedar Mills Marina, 500 Harbour View Rd, Gordonville, TX 76245",
+      "category": [
+        "Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Striper Fishing",
+        "Striped Bass",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Guided Fishing",
+        "Ron Dobbs",
+        "Kingston OK",
+        "Gordonville TX",
+        "Cedar Mills Marina",
+        "Live Bait",
+        "Fishing Gear Provided",
+        "Fish Cleaning",
+        "Large Groups"
+      ],
+      "description": "Ron Dobbs Texoma Guide Service offers guided striped-bass fishing trips on Lake Texoma with licensed professional guide Captain Ron Dobbs. Ron brings more than 30 years of Lake Texoma fishing experience, with trips departing from Cedar Mills Marina near Gordonville, Texas.",
+      "why_visit": "Guests receive a straightforward full-service Lake Texoma fishing trip with fresh live bait, rods, fuel and fish cleaning included. The 27-foot guide boat comfortably accommodates six to seven people, and additional boats can be arranged for larger groups.",
+      "why_its_unique": "Captain Ron combines more than three decades of Lake Texoma experience with a larger 27-foot guide boat and the ability to accommodate bigger parties using additional boats when needed.",
+      "phone": "580-564-0448",
+      "email": "rondobbs29@gmail.com",
+      "website": "https://www.rondobbstexomaguide.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$150 per person; 3-person minimum",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Trips are scheduled by reservation. Early-morning departures are recommended, although afternoon trips may be accommodated.",
+      "at_a_glance": {
+        "average_visit": "About 4-5 hours",
+        "price_range": "$150 per person; 3-person minimum",
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "27-foot guide boat",
+        "Comfortable seating",
+        "Fresh live bait provided",
+        "Rods provided",
+        "Fuel included",
+        "Catch cleaning and bagging",
+        "Life jackets available",
+        "Additional boats available for large groups"
+      ],
+      "good_to_know": [
+        "Current published rate is $150 per person with a three-person minimum.",
+        "Standard trips include approximately 4-5 hours of fishing.",
+        "Fresh live bait, rods and fuel are included.",
+        "The day's catch is cleaned and bagged.",
+        "The 27-foot boat comfortably accommodates approximately 6-7 guests.",
+        "Additional boats can be arranged for larger groups.",
+        "All trips currently depart from Cedar Mills Marina at 500 Harbour View Rd, Gordonville, TX 76245.",
+        "Guests age 16 and older need the appropriate Lake Texoma fishing license.",
+        "Guests are encouraged to bring an ice chest with drinks and snacks, sunscreen and a hat.",
+        "The official site currently has conflicting cached/indexed deposit information: one current rendering shows a $100 deposit while a newer indexed version shows $150. Confirm the deposit amount when booking."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [
+        "lake-texoma"
+      ],
+      "related_geography": [
+        "texas",
+        "oklahoma"
+      ],
+      "verification_note": "Complete. Verified Aug. 30, 2026 from the current Ron Dobbs Texoma Guide Service website and Oklahoma Department of Wildlife Conservation fishing-guide directory. First-party information confirms Captain Ron Dobbs, 580-564-0448, rondobbs29@gmail.com, more than 30 years of Lake Texoma fishing experience, Cedar Mills Marina departures at 500 Harbour View Rd in Gordonville, $150-per-person pricing with a three-person minimum, approximately 4-5 hour trips, fresh live bait and rods provided, fuel included, cleaned and bagged catch, and a 27-foot boat accommodating approximately 6-7 guests with additional boats available for larger groups. ODWC independently lists Ron Dobbs Lake Texoma Fishing Guide Service at 580-564-0448 for Lake Texoma. The business mailing/contact address shown on the official site is 6072 S Hwy 377, Kingston, OK 73439, while the actual trip departure point is Cedar Mills Marina in Gordonville. The official site's current rendered rates page and its newer indexed copy conflict on whether the booking deposit is $100 or $150, so the deposit should be confirmed directly rather than asserted as settled. Cedar Mills Marina was not assigned as parent_business because an exact canonical TWG slug was not found during this pass.",
+      "last_checked": "2026-08-30",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Captain Ron Dobbs",
+        "30+ years of Lake Texoma experience",
+        "Lake Texoma striped-bass fishing",
+        "Live-bait fishing",
+        "Fishing gear provided",
+        "Catch cleaning and bagging",
+        "27-foot guide boat",
+        "Six-to-seven-person capacity",
+        "Additional boats for large groups",
+        "Cedar Mills Marina departures"
       ]
     }
   ]
