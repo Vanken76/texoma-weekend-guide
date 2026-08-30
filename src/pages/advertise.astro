@@ -4,32 +4,89 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <BaseLayout
   title="Advertise With Texoma Weekend Guide"
-  description="Simple local advertising packages from Texoma Weekend Guide: Featured Business Spotlight for $45/month, Single Event Boost for $25, and Flyer + Social for $20. Basic business and event listings stay free."
+  description="Reach Texoma with growing Google Search visibility, local website placement, custom event graphics, and social promotion. Current early-growth advertising rates start at $20."
 >
   <section class="advertise-hero">
     <div class="container hero-grid">
       <div>
-        <p class="eyebrow light">Simple local advertising</p>
-        <h1>Advertise With TWG</h1>
+        <p class="eyebrow light">Local advertising built for Texoma</p>
+        <h1>Reach Texoma when they’re looking for something to do.</h1>
         <p class="hero-copy">
-          Real prices. Flexible promotion. No long-term advertising contract required.
+          Texoma Weekend Guide combines growing Google Search visibility with targeted local promotion
+          to help businesses, venues, performers, and event organizers get discovered.
         </p>
         <p class="promise">
           Basic business listings and qualifying local event listings are free — and they stay free.
-          Paid promotion is for businesses, performers, venues, organizations, and event hosts that want additional visibility.
+          Paid advertising buys additional visibility and promotional effort, not permission to be listed.
         </p>
         <div class="hero-actions">
-          <a class="button" href="#packages">See Packages & Prices</a>
-          <a class="button secondary" href="#contact">Start Your Promotion</a>
+          <a class="button" href="#packages">See Current Rates</a>
+          <a class="button secondary" href="#contact">Tell Us What You’re Promoting</a>
         </div>
       </div>
 
-      <div class="price-summary" aria-label="Texoma Weekend Guide advertising prices">
-        <p class="stats-label">Starting packages</p>
-        <div class="summary-price"><strong>$20</strong><span>Flyer + Social</span></div>
+      <aside class="price-summary" aria-label="Texoma Weekend Guide current early-growth advertising rates">
+        <p class="stats-label">Current early-growth rates</p>
+        <div class="summary-price"><strong>$45<span>/mo</span></strong><span>Featured Business</span></div>
         <div class="summary-price"><strong>$25</strong><span>Single Event Boost</span></div>
-        <div class="summary-price"><strong>$45<span>/mo</span></strong><span>Featured Business Spotlight</span></div>
-        <p class="stats-note">Need something larger? Custom campaigns are also available.</p>
+        <div class="summary-price"><strong>$20</strong><span>Flyer + Social</span></div>
+        <p class="stats-note">No fake countdowns. No long-term advertising contract. Straightforward local promotion at today’s rates.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section growth-section" aria-labelledby="growth-heading">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">The audience is growing</p>
+        <h2 id="growth-heading">TWG search visibility is accelerating.</h2>
+        <p>
+          People are increasingly finding Texoma Weekend Guide through Google while searching for local events,
+          live music, weekend plans, businesses, and places to go around the region.
+        </p>
+      </div>
+
+      <div class="growth-grid" aria-label="Recent Google Search visibility">
+        <article class="growth-stat">
+          <strong>12,000+</strong>
+          <span>Google Search impressions in the last 3 months</span>
+        </article>
+        <article class="growth-stat featured-stat">
+          <strong>4,580</strong>
+          <span>Google Search impressions in the most recent 7 days</span>
+        </article>
+        <article class="growth-stat">
+          <strong>693</strong>
+          <span>Google Search impressions in the most recent 24 hours</span>
+        </article>
+      </div>
+
+      <div class="growth-callout">
+        <strong>Nearly 40% of TWG’s three-month Google Search visibility came in the most recent seven days.</strong>
+        <p>
+          TWG’s search footprint is expanding alongside a rapidly growing event database, business directory,
+          and geographic coverage across Texoma.
+        </p>
+        <small>Google Search impression figures from Google Search Console, current as of August 30, 2026.</small>
+      </div>
+    </div>
+  </section>
+
+  <section class="section rate-section" aria-labelledby="rates-heading">
+    <div class="container rate-wrap">
+      <div>
+        <p class="eyebrow light">Advertise early while TWG grows</p>
+        <h2 id="rates-heading">Today’s rates reflect where TWG is today.</h2>
+      </div>
+      <div>
+        <p>
+          The prices shown here are our <strong>current early-growth advertising rates</strong>.
+          As TWG’s audience, search visibility, and promotional reach continue to grow, advertising rates may increase.
+        </p>
+        <p>
+          There is no artificial deadline and no fake scarcity. The opportunity is simple:
+          advertise now while TWG is still offering early-stage pricing.
+        </p>
       </div>
     </div>
   </section>
@@ -37,21 +94,20 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   <section class="section" id="packages">
     <div class="container">
       <div class="section-heading centered">
-        <p class="eyebrow">Pick what fits</p>
-        <h2>Three straightforward ways to get more visibility</h2>
-        <p>
-          Choose a one-time promotion or stay featured month to month. Standard packages stay available at the posted prices.
-        </p>
+        <p class="eyebrow">Choose your promotion</p>
+        <h2>Three simple ways to get more visibility</h2>
+        <p>Keep your business visible over time, give one event an extra push, or get a clean graphic with a dedicated social post.</p>
       </div>
 
       <div class="package-grid">
         <article class="package-card featured-package">
           <div class="package-topline">
-            <span class="package-tag">Monthly spotlight</span>
+            <span class="package-tag">Best for ongoing visibility</span>
             <span class="package-price">$45<span>/month</span></span>
           </div>
-          <h3>Featured Business Spotlight</h3>
-          <p class="package-lead">Stay visible where local customers are actually looking.</p>
+          <h3>Featured Business</h3>
+          <p class="package-lead">Keep your business visible all month — not just for one post.</p>
+          <p>Built for local businesses that want an ongoing TWG presence combining website placement, an enhanced profile, and dedicated social promotion.</p>
           <ul>
             <li>Featured placement on relevant city, county, and/or state pages</li>
             <li>Eligibility for rotating homepage featured placement</li>
@@ -61,13 +117,13 @@ import BaseLayout from "../layouts/BaseLayout.astro";
             <li>Priority listing updates</li>
             <li>Up to 2 active upcoming events featured at one time, when applicable</li>
           </ul>
-          <p class="package-note"><strong>$45 per month.</strong> No long-term contract required.</p>
-          <a class="button package-cta" href="#contact" data-package="Featured Business Spotlight — $45/month">Get Featured — $45/Month</a>
+          <p class="package-note"><strong>$45 per month.</strong> No long-term advertising contract required.</p>
+          <a class="button package-cta" href="#contact" data-package="Featured Business — $45/month">Keep My Business Visible</a>
         </article>
 
         <article class="package-card">
           <div class="package-topline">
-            <span class="package-tag">One event</span>
+            <span class="package-tag">For one event</span>
             <span class="package-price">$25</span>
           </div>
           <h3>Single Event Boost</h3>
@@ -81,7 +137,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
             <li>Reminder Story before the event</li>
           </ul>
           <p class="package-note"><strong>$25 per event.</strong> No contract.</p>
-          <a class="button package-cta" href="#contact" data-package="Single Event Boost — $25">Boost My Event — $25</a>
+          <a class="button package-cta" href="#contact" data-package="Single Event Boost — $25">Boost My Event</a>
         </article>
 
         <article class="package-card">
@@ -90,77 +146,112 @@ import BaseLayout from "../layouts/BaseLayout.astro";
             <span class="package-price">$20</span>
           </div>
           <h3>Flyer + Social</h3>
-          <p class="package-lead">Need a polished graphic and a post without a larger campaign?</p>
+          <p class="package-lead">Need a clean graphic and a dedicated social push without a larger campaign?</p>
           <ul>
             <li>1 custom promotional flyer or social graphic</li>
             <li>1 dedicated Facebook post</li>
             <li>TWG promotional presentation appropriate to your business or event</li>
           </ul>
           <p class="package-note"><strong>$20 one time.</strong> No subscription or advertising contract.</p>
-          <a class="button package-cta" href="#contact" data-package="Flyer + Social — $20">Get Flyer + Social — $20</a>
+          <a class="button package-cta" href="#contact" data-package="Flyer + Social — $20">Get Flyer + Social</a>
         </article>
       </div>
     </div>
   </section>
 
-  <section class="section payment-section" id="pay">
-    <div class="container payment-wrap">
-      <div>
-        <p class="eyebrow">Ready to get started?</p>
-        <h2>Send payment and tell us what you want promoted</h2>
-        <p>
-          Choose the package you want, send payment through Cash App or Venmo, then message us — or reply to your payment — with the details of what you want promoted.
-        </p>
+  <section class="section examples-section" aria-labelledby="examples-heading">
+    <div class="container">
+      <div class="section-heading centered">
+        <p class="eyebrow">Real TWG examples</p>
+        <h2 id="examples-heading">See what TWG presentation looks like</h2>
+        <p>These are real examples already published by Texoma Weekend Guide — not generic mockups made for this sales page.</p>
       </div>
 
-      <div class="payment-card">
-        <p class="payment-label">Send payment via:</p>
-        <div class="payment-links">
-          <a class="payment-link" href="https://cash.app/$TexomaWeekendGuide" target="_blank" rel="noopener noreferrer">
-            <span>Cash App</span>
-            <strong>$TexomaWeekendGuide</strong>
+      <div class="example-grid">
+        <article class="example-card">
+          <a class="example-image business-example" href="/businesses/calhouns-2-0/">
+            <img src="/images/businesses/calhouns-2-0-logo.png" alt="Calhoun's 2.0 logo used on its Texoma Weekend Guide business listing" loading="lazy" />
           </a>
-          <a class="payment-link" href="https://venmo.com/u/TexomaWeekendGuide" target="_blank" rel="noopener noreferrer">
-            <span>Venmo</span>
-            <strong>@TexomaWeekendGuide</strong>
+          <div class="example-copy">
+            <span class="proof-type">Editorial Business Spotlight example</span>
+            <h3>Calhoun’s 2.0</h3>
+            <p>A real TWG business presentation showing strong branding, useful local information, and event connections.</p>
+            <a href="/businesses/calhouns-2-0/">View the business page →</a>
+          </div>
+        </article>
+
+        <article class="example-card">
+          <a class="example-image business-example" href="/businesses/the-salty-heifer-cafe-denison/">
+            <img src="/images/businesses/the-salty-heifer-cafe-denison-logo.jpg" alt="The Salty Heifer Cafe logo used on its Texoma Weekend Guide business listing" loading="lazy" />
           </a>
-        </div>
-        <div class="payment-packages">
-          <p><strong>Flyer + Social</strong><span>$20</span></p>
-          <p><strong>Single Event Boost</strong><span>$25</span></p>
-          <p><strong>Featured Business Spotlight</strong><span>$45/month</span></p>
-        </div>
-        <a class="button payment-contact" href="#contact">Message Us About Your Promotion</a>
+          <div class="example-copy">
+            <span class="proof-type">Editorial Business Spotlight example</span>
+            <h3>The Salty Heifer Cafe</h3>
+            <p>TWG’s first editorial Business Spotlight and a real example of the local-business presentation already built into the guide.</p>
+            <a href="/businesses/the-salty-heifer-cafe-denison/">View the business page →</a>
+          </div>
+        </article>
+
+        <article class="example-card">
+          <div class="example-image flyer-example">
+            <img src="/images/1000042734.png" alt="Texoma Weekend Guide Sunday events graphic for August 30, 2026" loading="lazy" />
+          </div>
+          <div class="example-copy">
+            <span class="proof-type">Social roundup example</span>
+            <h3>Sunday in Texoma — August 30</h3>
+            <p>A real TWG social graphic showing the clean, readable style used to package multiple local events for quick discovery.</p>
+            <a href="/events/">Browse TWG events →</a>
+          </div>
+        </article>
       </div>
+
+      <p class="editorial-note">
+        <strong>Transparency note:</strong> TWG Business Spotlights are editorial selections and are not paid advertising.
+        They are shown here as examples of TWG’s business presentation style. Paid advertisers receive Featured Business
+        placement and the specific promotional benefits included in the package they purchase.
+      </p>
     </div>
   </section>
 
-  <section class="section placement-section">
+  <section class="section process-section" aria-labelledby="process-heading">
+    <div class="container">
+      <div class="section-heading centered">
+        <p class="eyebrow">Simple from the start</p>
+        <h2 id="process-heading">How it works</h2>
+      </div>
+      <div class="process-grid">
+        <article class="process-step"><span>1</span><h3>Choose a package</h3><p>Pick the option that fits your business, event, or campaign.</p></article>
+        <article class="process-step"><span>2</span><h3>Tell us what you’re promoting</h3><p>Send the details, dates, links, and any existing images or branding you want TWG to use.</p></article>
+        <article class="process-step"><span>3</span><h3>Confirm and get started</h3><p>TWG confirms the details and available placement, then sends payment instructions so promotion can begin.</p></article>
+      </div>
+      <p class="payment-note">Cash App and Venmo are accepted after campaign details are confirmed.</p>
+    </div>
+  </section>
+
+  <section class="section placement-section" aria-labelledby="placement-heading">
     <div class="container">
       <div class="section-heading centered">
         <p class="eyebrow">Featured should mean featured</p>
-        <h2>High-visibility placement stays intentionally limited</h2>
-        <p>
-          Featured placement is geographic and rotational rather than homepage-only. That keeps featured areas useful and gives businesses visibility where their local audience is most likely to find them.
-        </p>
+        <h2 id="placement-heading">High-visibility inventory stays intentionally limited</h2>
+        <p>TWG does not want every page to become a wall of ads. Paid featured placement is kept limited, geographic, and rotational so it remains useful to advertisers and readers.</p>
       </div>
 
       <div class="limits-grid">
         <article class="limit-card">
           <h3>Featured businesses</h3>
-          <p>Texoma Weekend Guide generally keeps featured business inventory around:</p>
+          <p>Current operating targets are approximately:</p>
           <ul>
             <li><strong>4</strong> businesses on the homepage</li>
             <li><strong>3</strong> businesses per city page</li>
             <li><strong>4</strong> businesses per county page</li>
             <li><strong>6</strong> businesses per state page</li>
           </ul>
-          <p>Homepage positions rotate among eligible Featured Business Spotlight clients. Continuous homepage placement is not guaranteed.</p>
+          <p>Homepage positions rotate among eligible Featured Business clients. Continuous homepage placement is not guaranteed.</p>
         </article>
 
         <article class="limit-card">
           <h3>Featured events</h3>
-          <p>Texoma Weekend Guide generally keeps featured event inventory around:</p>
+          <p>Current operating targets are approximately:</p>
           <ul>
             <li><strong>6</strong> events on the homepage</li>
             <li><strong>4</strong> events per city page</li>
@@ -171,27 +262,21 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </article>
       </div>
 
-      <p class="clarification">
-        These are operating targets rather than permanent guarantees. Placement depends on geography, relevance, available inventory, campaign timing, and the audience most likely to be interested in the promotion.
-      </p>
+      <p class="clarification">These are operating targets rather than permanent guarantees or artificial scarcity claims. Placement depends on geography, relevance, available inventory, campaign timing, and the audience most likely to be interested in the promotion.</p>
     </div>
   </section>
 
-  <section class="section compare-section">
+  <section class="section compare-section" aria-labelledby="compare-heading">
     <div class="container">
       <div class="section-heading centered">
         <p class="eyebrow">Free means free</p>
-        <h2>Pay for extra promotion — not for permission to be listed</h2>
-        <p>
-          A legitimate local business can receive a basic business listing for free. A qualifying local event can receive an event listing for free.
-        </p>
+        <h2 id="compare-heading">Pay for extra promotion — not for permission to be listed</h2>
+        <p>A legitimate local business can receive a basic business listing for free. A qualifying local event can receive an event listing for free.</p>
       </div>
 
       <div class="comparison-wrap">
         <table>
-          <thead>
-            <tr><th>Feature</th><th>Basic listing</th><th>Paid promotion</th></tr>
-          </thead>
+          <thead><tr><th>Feature</th><th>Basic listing</th><th>Paid promotion</th></tr></thead>
           <tbody>
             <tr><td>Business directory listing</td><td>Included</td><td>Included</td></tr>
             <tr><td>Qualifying local event listing</td><td>Included</td><td>Included</td></tr>
@@ -200,30 +285,28 @@ import BaseLayout from "../layouts/BaseLayout.astro";
             <tr><td>Dedicated social promotion</td><td>Occasional editorial coverage</td><td>Included by package</td></tr>
             <tr><td>Story reminders</td><td>Not guaranteed</td><td>Included by package</td></tr>
             <tr><td>Custom promotional graphics</td><td>Not guaranteed</td><td>Included by package</td></tr>
-            <tr><td>Priority listing updates</td><td>Standard queue</td><td>Featured Spotlight benefit</td></tr>
+            <tr><td>Priority listing updates</td><td>Standard queue</td><td>Featured Business benefit</td></tr>
           </tbody>
         </table>
       </div>
 
-      <p class="clarification">
-        Free inclusion is never conditioned on purchasing advertising. Paid promotion affects visibility and promotional effort — not whether a legitimate local business or qualifying event can be listed.
-      </p>
+      <p class="clarification">Free inclusion is never conditioned on purchasing advertising. Paid promotion affects visibility and promotional effort — not whether a legitimate local business or qualifying event can be listed.</p>
+      <div class="spotlight-note">
+        <strong>TWG Business Spotlight is editorial, not an ad product.</strong>
+        <p>Business Spotlights are selected by Texoma Weekend Guide and cannot be purchased. Paid business promotion is identified separately as Featured Business placement.</p>
+      </div>
     </div>
   </section>
 
-  <section class="section custom-section">
-    <div class="container example-grid">
+  <section class="section custom-section" aria-labelledby="custom-heading">
+    <div class="container custom-grid">
       <div>
         <p class="eyebrow light">Need something bigger?</p>
-        <h2>Custom campaigns are available too</h2>
-        <p>
-          Running a festival, grand opening, concert series, major promotion, sponsorship, or multi-event campaign? Texoma Weekend Guide can build a larger campaign around what you actually need.
-        </p>
-        <p>
-          The standard <strong>$20, $25, and $45</strong> packages remain available at the posted prices. Larger campaigns can be quoted separately without replacing the simple options above.
-        </p>
+        <h2 id="custom-heading">Custom campaigns are available too</h2>
+        <p>Running a festival, grand opening, concert series, major promotion, sponsorship, or multi-event campaign? TWG can build a larger campaign around what you actually need.</p>
+        <p>Custom campaigns are quoted separately and do not replace the standard advertising options shown above.</p>
       </div>
-      <div class="example-card">
+      <div class="custom-card">
         <strong>Custom campaigns may include</strong>
         <ul>
           <li>Multi-event promotion</li>
@@ -238,20 +321,19 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </div>
   </section>
 
-  <section class="section" id="contact">
+  <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
     <div class="container contact-grid">
       <div>
         <p class="eyebrow">Ready to promote something?</p>
-        <h2>Choose a package and tell us what you’re promoting</h2>
-        <p>
-          Send your business or organization name, upcoming dates, links, and the package you want. Texoma Weekend Guide will follow up about the information and materials needed to get started.
-        </p>
+        <h2 id="contact-heading">Tell TWG what you want to promote.</h2>
+        <p>Choose a package and send the basic details. TWG will review the request, confirm the campaign details and available placement, and then send payment instructions.</p>
         <div class="contact-prices">
-          <p><strong>Featured Business Spotlight</strong><span>$45/month</span></p>
+          <p><strong>Featured Business</strong><span>$45/month</span></p>
           <p><strong>Single Event Boost</strong><span>$25</span></p>
           <p><strong>Flyer + Social</strong><span>$20</span></p>
           <p><strong>Custom Campaign</strong><span>Request a quote</span></p>
         </div>
+        <p class="contact-reassurance"><strong>No long-term advertising contract.</strong><br />Basic listings remain free whether you advertise or not.</p>
       </div>
 
       <form class="contact-form" action="https://formsubmit.co/texomaweekendguide@gmail.com" method="POST">
@@ -268,14 +350,15 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           Which package are you interested in?
           <select name="package" id="package-select" required>
             <option value="">Choose a package</option>
-            <option>Featured Business Spotlight — $45/month</option>
+            <option>Featured Business — $45/month</option>
             <option>Single Event Boost — $25</option>
             <option>Flyer + Social — $20</option>
             <option>Custom Campaign — Request a Quote</option>
           </select>
         </label>
-        <label>What would you like to promote?<textarea name="message" rows="6" required></textarea></label>
-        <button class="button submit-button" type="submit">Start My Promotion</button>
+        <label>What would you like to promote?<textarea name="message" rows="6" placeholder="Tell us what you’re promoting, important dates, links, and anything else TWG should know." required></textarea></label>
+        <button class="button submit-button" type="submit">Send My Promotion Request</button>
+        <p class="form-note">No payment is required before TWG reviews and confirms your campaign details.</p>
       </form>
     </div>
   </section>
@@ -286,7 +369,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   if (params.get("sent") === "true") {
     const message = document.createElement("div");
     message.className = "sent-message";
-    message.textContent = "Thank you — your advertising inquiry was sent successfully.";
+    message.textContent = "Thank you — your advertising inquiry was sent successfully. TWG will follow up about the next step.";
     document.querySelector(".contact-form")?.prepend(message);
   }
 
@@ -302,75 +385,106 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <style>
   .advertise-hero { padding: 5rem 0; background: linear-gradient(120deg, var(--navy), #176f95); color: white; }
-  .hero-grid, .example-grid, .contact-grid, .payment-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
-  .advertise-hero h1 { margin-bottom: 1rem; color: white; font-size: clamp(3rem, 8vw, 6rem); letter-spacing: -0.04em; text-transform: uppercase; }
-  .hero-copy { color: white; font-size: clamp(1.2rem, 2.5vw, 1.65rem); font-weight: 800; }
-  .promise { padding-left: 1rem; border-left: 5px solid var(--gold); color: white; font-weight: 700; }
+  .hero-grid, .rate-wrap, .custom-grid, .contact-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(300px, .8fr); gap: 3rem; align-items: center; }
+  .advertise-hero h1 { max-width: 13ch; margin: 0 0 1.2rem; color: white; font-size: clamp(2.7rem, 7vw, 5.7rem); line-height: .97; letter-spacing: -.045em; }
+  .hero-copy { max-width: 760px; color: white; font-size: clamp(1.15rem, 2.2vw, 1.5rem); font-weight: 800; line-height: 1.45; }
+  .promise { max-width: 760px; padding-left: 1rem; border-left: 5px solid var(--gold); color: white; font-weight: 700; line-height: 1.55; }
   .light { color: #bfeaf0; }
-  .hero-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.5rem; }
-  .hero-actions .secondary { border-color: white; background: transparent; color: white; }
-  .price-summary { display: grid; gap: .8rem; padding: 2rem; border: 1px solid rgba(255,255,255,.3); border-radius: 28px; background: rgba(255,255,255,.12); backdrop-filter: blur(8px); }
-  .stats-label { margin: 0; color: #d7f4f7; font-weight: 900; text-transform: uppercase; }
-  .summary-price { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 1.15rem; border-radius: 16px; background: white; color: var(--navy); }
-  .summary-price strong { font-size: 2rem; line-height: 1; }
-  .summary-price strong span { font-size: .85rem; }
-  .summary-price > span { text-align: right; font-weight: 800; }
-  .stats-note { margin: .3rem 0 0; color: white; font-size: .9rem; }
-  .centered { margin-inline: auto; text-align: center; }
-  .package-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; align-items: stretch; }
-  .package-card { display: flex; flex-direction: column; padding: 1.6rem; border: 1px solid var(--border); border-radius: 22px; background: white; box-shadow: var(--shadow); }
-  .featured-package { border: 2px solid var(--navy); }
-  .package-topline { display: flex; align-items: center; justify-content: space-between; gap: .75rem; }
-  .package-tag { display: inline-block; padding: .35rem .6rem; border-radius: 999px; background: #e9f3f2; color: var(--navy); font-size: .78rem; font-weight: 900; text-transform: uppercase; }
-  .package-price { color: var(--navy); font-size: 2.2rem; font-weight: 950; line-height: 1; }
-  .package-price span { font-size: .8rem; font-weight: 800; }
-  .package-card h3 { margin-bottom: .35rem; color: var(--navy); font-size: 1.45rem; }
-  .package-lead { margin-top: 0; font-weight: 750; }
-  .package-card ul { padding-left: 1.25rem; }
-  .package-card li { margin-bottom: .45rem; }
-  .package-note { margin-top: auto; padding-top: .7rem; }
-  .package-cta { margin-top: .5rem; text-align: center; }
-  .payment-section { background: #f7fbfa; }
-  .payment-wrap { align-items: start; }
-  .payment-card { padding: 1.6rem; border: 1px solid var(--border); border-radius: 22px; background: white; box-shadow: var(--shadow); }
-  .payment-label { margin-top: 0; color: var(--navy); font-weight: 900; text-transform: uppercase; }
-  .payment-links { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
-  .payment-link { display: grid; gap: .2rem; padding: 1rem; border: 2px solid var(--navy); border-radius: 14px; background: white; color: var(--navy); text-decoration: none; }
-  .payment-link:hover { background: #eef6f5; }
-  .payment-link span { font-size: .82rem; font-weight: 800; text-transform: uppercase; }
-  .payment-link strong { font-size: 1.05rem; overflow-wrap: anywhere; }
-  .payment-packages { display: grid; gap: .5rem; margin: 1rem 0; }
-  .payment-packages p { display: flex; justify-content: space-between; gap: 1rem; margin: 0; padding: .7rem .85rem; border-radius: 10px; background: #eef6f5; }
-  .payment-packages span { font-weight: 900; white-space: nowrap; }
-  .payment-contact { display: block; text-align: center; }
-  .placement-section { background: #eef6f5; }
-  .limits-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
-  .limit-card, .example-card { padding: 1.6rem; border: 1px solid var(--border); border-radius: 20px; background: white; box-shadow: var(--shadow); }
-  .limit-card h3 { color: var(--navy); }
-  .limit-card li { margin-bottom: .4rem; }
-  .clarification, .contact-note { margin-top: 1.25rem; padding: 1rem; border-left: 5px solid var(--gold); background: white; font-weight: 700; }
-  .compare-section { background: #e9f3f2; }
-  .comparison-wrap { overflow-x: auto; border-radius: 20px; box-shadow: var(--shadow); }
-  table { width: 100%; min-width: 680px; border-collapse: collapse; background: white; }
-  th, td { padding: 1rem; border-bottom: 1px solid var(--border); text-align: left; }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.6rem; }
+  .hero-actions .secondary { border: 2px solid rgba(255,255,255,.75); background: transparent; color: white; }
+  .price-summary { padding: 1.5rem; border: 1px solid rgba(255,255,255,.2); border-radius: 20px; background: rgba(7,24,43,.42); box-shadow: 0 24px 60px rgba(0,0,0,.18); }
+  .stats-label { margin: 0 0 .75rem; color: white; font-size: .85rem; font-weight: 900; letter-spacing: .09em; text-transform: uppercase; }
+  .summary-price { display: flex; justify-content: space-between; gap: 1rem; padding: .9rem 0; border-bottom: 1px solid rgba(255,255,255,.16); }
+  .summary-price strong { color: white; font-size: 1.65rem; line-height: 1; }
+  .summary-price strong span { font-size: .8rem; }
+  .summary-price > span { max-width: 180px; color: white; font-weight: 800; text-align: right; }
+  .stats-note { margin: 1rem 0 0; color: #d9eef5; font-size: .92rem; line-height: 1.5; }
+  .section { padding: 4.5rem 0; }
+  .section-heading { max-width: 780px; margin-bottom: 2.2rem; }
+  .section-heading.centered { margin-right: auto; margin-left: auto; text-align: center; }
+  .section-heading h2, .rate-wrap h2, .custom-grid h2, .contact-grid h2 { margin: .35rem 0 .9rem; font-size: clamp(2rem, 4.5vw, 3.4rem); line-height: 1.02; letter-spacing: -.035em; }
+  .section-heading p:last-child, .rate-wrap p, .custom-grid p, .contact-grid p { line-height: 1.6; }
+  .eyebrow { margin: 0; font-size: .82rem; font-weight: 900; letter-spacing: .11em; text-transform: uppercase; }
+  .growth-section, .examples-section, .placement-section { background: #f5f8fa; }
+  .growth-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 1rem; margin: 2rem 0; }
+  .growth-stat { padding: 1.6rem; border: 1px solid #dbe4e8; border-radius: 16px; background: white; }
+  .growth-stat strong { display: block; margin-bottom: .45rem; color: var(--navy); font-size: clamp(2.4rem, 6vw, 4.1rem); line-height: 1; letter-spacing: -.055em; }
+  .growth-stat span { display: block; font-weight: 800; line-height: 1.45; }
+  .featured-stat { border: 2px solid var(--gold); }
+  .growth-callout { padding: 1.35rem 1.5rem; border-left: 5px solid var(--gold); background: white; box-shadow: 0 12px 34px rgba(17,44,64,.06); }
+  .growth-callout strong { color: var(--navy); font-size: 1.15rem; }
+  .growth-callout p { margin: .5rem 0; line-height: 1.55; }
+  .growth-callout small { color: #59646c; }
+  .rate-section { background: var(--navy); color: white; }
+  .rate-wrap h2, .rate-wrap p { color: white; }
+  .package-grid, .example-grid, .process-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 1.25rem; align-items: stretch; }
+  .package-card, .example-card { overflow: hidden; border: 1px solid #dbe4e8; border-radius: 16px; background: white; box-shadow: 0 12px 34px rgba(17,44,64,.06); }
+  .package-card { display: flex; flex-direction: column; padding: 1.6rem; }
+  .featured-package { border: 2px solid var(--gold); box-shadow: 0 18px 44px rgba(17,44,64,.11); }
+  .package-topline { display: flex; justify-content: space-between; gap: 1rem; align-items: flex-start; }
+  .package-tag, .proof-type { color: #176f95; font-size: .76rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
+  .package-price { color: var(--navy); font-size: 1.8rem; font-weight: 900; line-height: 1; white-space: nowrap; }
+  .package-price span { font-size: .75rem; }
+  .package-card h3 { margin: 1rem 0 .4rem; font-size: 1.45rem; }
+  .package-card p, .package-card li { line-height: 1.55; }
+  .package-lead { font-size: 1.05rem; font-weight: 800; }
+  .package-card ul { padding-left: 1.2rem; }
+  .package-card li + li { margin-top: .45rem; }
+  .package-note { margin-top: auto; padding-top: 1rem; }
+  .package-cta { width: 100%; margin-top: .8rem; text-align: center; }
+  .example-image { display: grid; min-height: 270px; place-items: center; overflow: hidden; background: #102c3d; }
+  .business-example { padding: 1.25rem; }
+  .business-example img { width: 100%; max-height: 250px; object-fit: contain; border-radius: 12px; }
+  .flyer-example img { width: 100%; height: 360px; object-fit: contain; }
+  .example-copy { padding: 1.3rem; }
+  .example-copy h3 { margin: .45rem 0 .6rem; }
+  .example-copy p { line-height: 1.55; }
+  .example-copy a { font-weight: 900; }
+  .editorial-note, .clarification { max-width: 900px; margin: 1.5rem auto 0; padding: 1rem 1.2rem; border-radius: 13px; background: #eef3f5; line-height: 1.55; }
+  .process-step { padding: 1.4rem; border-top: 4px solid var(--gold); background: #f6f8f9; }
+  .process-step > span { display: inline-grid; width: 2rem; height: 2rem; place-items: center; border-radius: 50%; background: var(--navy); color: white; font-weight: 900; }
+  .process-step h3 { margin: .85rem 0 .4rem; }
+  .process-step p { margin-bottom: 0; line-height: 1.55; }
+  .payment-note { margin: 1.25rem 0 0; text-align: center; font-weight: 800; }
+  .limits-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1.25rem; }
+  .limit-card { padding: 1.5rem; border-radius: 16px; background: white; box-shadow: 0 12px 34px rgba(17,44,64,.06); }
+  .limit-card h3 { margin-top: 0; }
+  .limit-card p, .limit-card li { line-height: 1.55; }
+  .comparison-wrap { overflow-x: auto; border: 1px solid #dbe4e8; border-radius: 16px; }
+  table { width: 100%; border-collapse: collapse; background: white; }
+  th, td { padding: .9rem 1rem; border-bottom: 1px solid #e4eaed; text-align: left; }
   th { background: var(--navy); color: white; }
-  th:not(:first-child), td:not(:first-child) { text-align: center; }
-  .custom-section { background: var(--navy); color: white; }
-  .custom-section h2, .custom-section p { color: white; }
-  .custom-section .example-card { color: var(--ink); }
-  .custom-section .example-card ul { margin-bottom: 1rem; }
+  .spotlight-note { max-width: 900px; margin: 1rem auto 0; padding: 1.15rem 1.25rem; border: 2px solid var(--gold); border-radius: 14px; }
+  .spotlight-note p { margin-bottom: 0; }
+  .custom-section { background: linear-gradient(120deg, var(--navy), #176f95); color: white; }
+  .custom-grid h2, .custom-grid p { color: white; }
+  .custom-card { padding: 1.5rem; border: 1px solid rgba(255,255,255,.2); border-radius: 16px; background: rgba(7,24,43,.4); }
+  .custom-card ul { padding-left: 1.2rem; }
   .contact-grid { align-items: start; }
-  .contact-prices { display: grid; gap: .6rem; margin-top: 1.5rem; }
-  .contact-prices p { display: flex; justify-content: space-between; gap: 1rem; margin: 0; padding: .85rem 1rem; border-radius: 12px; background: #eef6f5; }
-  .contact-prices span { font-weight: 900; white-space: nowrap; }
-  .contact-form { display: grid; gap: 1rem; padding: 1.6rem; border-radius: 22px; background: white; box-shadow: var(--shadow); }
-  .contact-form label { display: grid; gap: .35rem; color: var(--navy); font-weight: 800; }
-  .contact-form label span { color: var(--muted); font-size: .9rem; font-weight: 500; }
-  .contact-form input, .contact-form textarea, .contact-form select { width: 100%; padding: .8rem; border: 1px solid #aebdc5; border-radius: 10px; background: white; color: var(--ink); font: inherit; }
+  .contact-prices { margin-top: 1.5rem; border-top: 1px solid #dbe4e8; }
+  .contact-prices p { display: flex; justify-content: space-between; gap: 1rem; margin: 0; padding: .8rem 0; border-bottom: 1px solid #dbe4e8; }
+  .contact-reassurance { margin-top: 1.2rem; }
+  .contact-form { display: grid; gap: 1rem; padding: 1.5rem; border: 1px solid #dbe4e8; border-radius: 16px; background: #f7f9fa; box-shadow: 0 12px 34px rgba(17,44,64,.06); }
+  .contact-form label { display: grid; gap: .4rem; font-weight: 800; }
+  .contact-form label > span { font-weight: 500; }
+  .contact-form input, .contact-form select, .contact-form textarea { width: 100%; box-sizing: border-box; padding: .85rem .9rem; border: 1px solid #b9c5cb; border-radius: 9px; background: white; font: inherit; }
   .contact-form textarea { resize: vertical; }
-  .submit-button { border: 0; cursor: pointer; }
-  .sent-message { padding: .9rem; border-radius: 10px; background: #dff6e4; color: #145b27; font-weight: 800; }
-  @media (max-width: 980px) { .package-grid { grid-template-columns: 1fr; } }
-  @media (max-width: 900px) { .hero-grid, .example-grid, .contact-grid, .limits-grid, .payment-wrap { grid-template-columns: 1fr; } }
-  @media (max-width: 560px) { .advertise-hero { padding: 3.5rem 0; } .summary-price, .contact-prices p, .payment-packages p { align-items: flex-start; flex-direction: column; } .summary-price > span { text-align: left; } .payment-links { grid-template-columns: 1fr; } }
+  .submit-button { width: 100%; }
+  .form-note { margin: 0; color: #59646c; font-size: .9rem; text-align: center; }
+  .sent-message { padding: 1rem; border-left: 5px solid var(--gold); background: white; font-weight: 800; }
+
+  @media (max-width: 900px) {
+    .hero-grid, .rate-wrap, .custom-grid, .contact-grid, .package-grid, .example-grid, .process-grid, .growth-grid, .limits-grid { grid-template-columns: 1fr; }
+    .advertise-hero { padding: 3.5rem 0; }
+    .advertise-hero h1 { max-width: none; }
+    .price-summary { max-width: 620px; }
+    .flyer-example img { height: auto; max-height: 540px; }
+  }
+
+  @media (max-width: 560px) {
+    .section { padding: 3.4rem 0; }
+    .summary-price { align-items: center; }
+    .package-topline { flex-direction: column; }
+    th, td { min-width: 150px; padding: .8rem; font-size: .9rem; }
+  }
 </style>
