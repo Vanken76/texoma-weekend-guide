@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-08-29",
+  "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1258,
-  "publish_ready_count": 934,
+  "business_count": 1259,
+  "publish_ready_count": 935,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -135999,6 +135999,91 @@
         "Recurring family and children's programming",
         "Study and meeting rooms",
         "Public computers and Wi-Fi"
+      ]
+    },
+    {
+      "slug": "sherman-medical-center-sherman",
+      "business_name": "Sherman Medical Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "500 N. Highland, Sherman, TX 75092",
+      "category": [
+        "Hospital",
+        "Medical Center",
+        "Healthcare",
+        "Community Event Venue"
+      ],
+      "tags": [
+        "Sherman",
+        "Grayson County",
+        "Healthcare",
+        "Hospital",
+        "Emergency Care",
+        "Community Health"
+      ],
+      "description": "Regional medical center in Sherman providing hospital and specialty care to communities in North Texas and Southern Oklahoma. Sherman Medical Center has 214 licensed beds and offers services including cardiology, emergency care, imaging, orthopaedics, pediatrics, robotic-assisted surgery, stroke care and therapy services.",
+      "why_visit": "Sherman Medical Center provides hospital, emergency and specialty medical services for Sherman and the surrounding Texoma region.",
+      "why_its_unique": "The 214-bed regional medical center has served the area for more than a century and provides care to communities across North Texas and Southern Oklahoma.",
+      "phone": "903-870-4611",
+      "email": null,
+      "website": "https://ahssmc.org/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Department and visitor hours vary. Check the official Sherman Medical Center website or call the hospital for current information.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified Aug. 29, 2026 from the official Sherman Medical Center website. Current public-facing name, Sherman address, main phone number, 214-bed facility description and medical services were confirmed. Sherman Medical Center is hosting the 4th Annual Grayson County Health Fair on Sept. 4, 2026, making it a continuing community-event mining source.",
+      "last_checked": "2026-08-29",
+      "event_types": [
+        "Health fairs",
+        "Community health events",
+        "Health screenings",
+        "Healthcare outreach"
+      ],
+      "event_sources": [
+        "Official Sherman Medical Center website",
+        "Sherman Medical Center event announcements"
+      ],
+      "features": [
+        "214 licensed beds",
+        "Regional medical center",
+        "Serves North Texas and Southern Oklahoma"
       ]
     }
   ]
