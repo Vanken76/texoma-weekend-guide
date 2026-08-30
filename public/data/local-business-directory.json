@@ -5,8 +5,8 @@
   "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1284,
-  "publish_ready_count": 960,
+  "business_count": 1285,
+  "publish_ready_count": 961,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -139015,6 +139015,107 @@
         "Seven-guest guide boat",
         "Catfish Bay Marina departures",
         "Bald eagle sightseeing tours"
+      ]
+    },
+    {
+      "slug": "red-beard-guide-service",
+      "business_name": "Red Beard Guide Service",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Lake Texoma; 13357 Meadowlark Ln, Kingston, OK 73439",
+      "category": [
+        "Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Guided Fishing",
+        "Jerry McCarty",
+        "Kingston OK",
+        "Year-Round Fishing"
+      ],
+      "description": "Red Beard Guide Service offers guided fishing trips on Lake Texoma with guide Jerry McCarty. Based in Kingston, Oklahoma, the service operates year-round on one of the region's best-known fishing destinations.",
+      "why_visit": "Red Beard Guide Service provides a dedicated guided Lake Texoma fishing experience from the Oklahoma side of the lake, with trips scheduled throughout the year.",
+      "why_its_unique": "Current Oklahoma tourism information identifies Jerry McCarty as the guide and lists trips lasting six hours or until guests reach their legal fish limit.",
+      "phone": "580-624-0473",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "Daylight hours",
+        "tuesday": "Daylight hours",
+        "wednesday": "Daylight hours",
+        "thursday": "Daylight hours",
+        "friday": "Daylight hours",
+        "saturday": "Daylight hours",
+        "sunday": "Daylight hours"
+      },
+      "hours_note": "TravelOK lists the service as open seven days a week during daylight hours. Trips run six hours or until the legal fish limit is reached.",
+      "at_a_glance": {
+        "average_visit": "Up to 6 hours or until a legal limit is reached",
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Current contact number is 580-624-0473.",
+        "Current Oklahoma tourism information identifies Jerry McCarty as the guide.",
+        "The listed business address is 13357 Meadowlark Ln, Kingston, OK 73439.",
+        "Trips operate on Lake Texoma.",
+        "TravelOK lists the operation as available seven days a week during daylight hours.",
+        "Trips run six hours or until the legal fish limit is reached.",
+        "Current pricing, boat specifications, equipment inclusions and exact departure marina should be confirmed directly before booking.",
+        "An unrelated Red Beard Guide Service operates in Michigan; its website and contact information do not belong to this Lake Texoma business."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [
+        "lake-texoma"
+      ],
+      "related_geography": [
+        "oklahoma",
+        "texas"
+      ],
+      "verification_note": "Complete with limited-public-information caveat. Verified Aug. 30, 2026 from Oklahoma Tourism's current TravelOK listing and the Oklahoma Department of Wildlife Conservation fishing-guide directory. TravelOK lists Red Beard Guide Service at 13357 Meadowlark Ln, Kingston, OK 73439, identifies Jerry McCarty as the guide, gives 580-624-0473 as the phone number, and states that the service operates seven days a week during daylight hours with trips lasting six hours or until the legal fish limit is reached. ODWC independently lists Redbeard Guide Service at the same 580-624-0473 number for Texoma; ODWC currently contains spelling errors in the business-name entry, so TravelOK's 'Red Beard Guide Service' styling controls. Search results also surface redbeardguideservice.com, but that website belongs to a completely different Michigan guide operated by Josh Vandenberg and must not be associated with this Kingston business. No verified current Lake Texoma website, public email, social account, published pricing, boat specifications, equipment list or fixed departure marina was located during this pass, so those fields remain null.",
+      "last_checked": "2026-08-30",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Jerry McCarty",
+        "Lake Texoma fishing guide",
+        "Kingston-based guide service",
+        "Year-round fishing",
+        "Six-hour guided trips"
       ]
     }
   ]
