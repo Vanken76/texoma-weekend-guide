@@ -5,8 +5,8 @@
   "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1280,
-  "publish_ready_count": 956,
+  "business_count": 1281,
+  "publish_ready_count": 957,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -138508,6 +138508,108 @@
         "Fishing equipment provided",
         "Catch cleaning and bagging",
         "Seven-guest guide boat"
+      ]
+    },
+    {
+      "slug": "get-n-spooled-guide-service",
+      "business_name": "Get'n Spooled Guide Service",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Lake Texoma; Ardmore, Oklahoma-based guide service",
+      "category": [
+        "Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Catfish",
+        "Blue Catfish",
+        "Trophy Catfish",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Guided Fishing",
+        "Jason Phelps",
+        "Ardmore OK",
+        "Drift Fishing",
+        "Night Fishing",
+        "Planer Boards"
+      ],
+      "description": "Get'n Spooled Guide Service is an Ardmore-based Lake Texoma fishing guide operation owned and operated by Jason Phelps. Phelps is particularly known for targeting blue catfish on Texoma, including trophy-class fish, and has shared specialized techniques for locating and catching cats throughout changing seasonal conditions.",
+      "why_visit": "Get'n Spooled is a strong option for anglers specifically interested in Lake Texoma catfishing rather than the striper-focused trips that dominate many local guide services. Captain Jason Phelps has documented experience targeting large blue catfish and adapting trips to water temperature, depth and seasonal fish movement.",
+      "why_its_unique": "Jason Phelps has been featured as a Lake Texoma catfish specialist, including detailed instruction on trophy blue-cat tactics. His summer approach includes fishing cooler low-light periods, shallow water, controlled drifting and planer-board presentations.",
+      "phone": "580-222-8252",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Trips are scheduled by reservation. Contact Jason Phelps directly for current availability, departure point, trip length and pricing.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Current contact number is 580-222-8252.",
+        "Oklahoma Department of Wildlife Conservation currently lists Get'n Spooled Guide Service for Lake Texoma.",
+        "Jason Phelps has been identified as the owner/operator of Get'n Spooled Guide Service.",
+        "The business is based in Ardmore, Oklahoma.",
+        "Phelps is particularly experienced with Lake Texoma blue catfish and trophy-cat fishing.",
+        "Documented techniques include drift fishing and planer-board presentations.",
+        "During hot-weather periods, Phelps has recommended fishing early morning, evening and nighttime periods when conditions favor active blue catfish.",
+        "Current rates, boat specifications, included equipment and a fixed departure marina could not be independently verified during this pass and should be confirmed directly."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [
+        "lake-texoma"
+      ],
+      "related_geography": [
+        "oklahoma",
+        "texas"
+      ],
+      "verification_note": "Complete with limited-current-public-information caveat. Verified Aug. 30, 2026. Oklahoma Department of Wildlife Conservation currently lists Get'n Spooled Guide Service at 580-222-8252 for Texoma. BBB currently lists Get'n Spooled guide service in Ardmore, Oklahoma with the same 580-222-8252 phone number. Catfish Now identifies Jason Phelps as owner/operator of Get'n Spooled Guide Service out of Ardmore and documents his Lake Texoma blue-catfish expertise, including drift fishing, planer-board presentations, low-light and nighttime fishing and trophy-class fish. The matching current state phone number strongly corroborates continuity of the operation. No independently verified current standalone website, public email, social URL, published pricing, fixed departure marina, boat specifications or included-equipment list was located during this pass, so those details are intentionally left null rather than inferred.",
+      "last_checked": "2026-08-30",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Jason Phelps",
+        "Lake Texoma catfish guide",
+        "Blue catfish",
+        "Trophy catfish",
+        "Drift fishing",
+        "Planer-board fishing",
+        "Night fishing",
+        "Seasonal catfish tactics",
+        "Ardmore-based guide service"
       ]
     }
   ]
