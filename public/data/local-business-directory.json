@@ -5,8 +5,8 @@
   "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1270,
-  "publish_ready_count": 946,
+  "business_count": 1271,
+  "publish_ready_count": 947,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -137372,6 +137372,120 @@
         "Hands-on fishing instruction",
         "Fish cleaning, filleting and bagging",
         "Additional boats available for larger groups"
+      ]
+    },
+    {
+      "slug": "mickey-rose-guide-service",
+      "business_name": "Mickey Rose Guide Service",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Lake Texoma; guided trips depart from Soldier Creek Marina, 7022 Marina Drive, Kingston, OK 73439",
+      "category": [
+        "Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Striper Fishing",
+        "Striped Bass",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Guided Fishing",
+        "Mickey Rose",
+        "Kingston OK",
+        "Soldier Creek Marina",
+        "Blue Catfish",
+        "Channel Catfish",
+        "Largemouth Bass",
+        "Spotted Bass",
+        "Bluegill",
+        "Year-Round Fishing",
+        "Texas Licensed Guide",
+        "Oklahoma Licensed Guide",
+        "Group Fishing Trips",
+        "Fishing and Lodging Packages"
+      ],
+      "description": "Mickey Rose Guide Service offers year-round guided fishing on Lake Texoma with longtime guide Mickey Rose. A licensed striper guide since 1991, Rose is licensed in both Oklahoma and Texas, allowing him to fish throughout Lake Texoma. The lake also offers opportunities for blue and channel catfish, largemouth bass, spotted bass and bluegill.",
+      "why_visit": "Mickey Rose brings decades of Lake Texoma experience and an easygoing approach to guided fishing. Guests can book fishing-only trips or combine a guide trip with lodging at Honeyhole Lodge for a convenient Lake Texoma fishing getaway.",
+      "why_its_unique": "Mickey Rose has been a licensed Lake Texoma striper guide since 1991 and is licensed in both Texas and Oklahoma. His large custom guide boat seats up to 10 comfortably, making the service particularly useful for families and groups that want to fish together.",
+      "phone": "580-564-9345",
+      "email": null,
+      "website": "https://mickeyroseguideservice.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$150-$250 per person depending on group size; fishing-and-lodging packages available",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Guided fishing trips are scheduled by reservation. Mickey Rose fishes Lake Texoma year-round.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$150-$250 per person depending on group size; fishing-and-lodging packages available",
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Large custom guide boat",
+        "Boat seats up to 10 comfortably",
+        "GPS and fishing electronics",
+        "Fishing-and-lodging packages available through Honeyhole Lodge"
+      ],
+      "good_to_know": [
+        "Current guide rate is $250 per person for two anglers.",
+        "Current guide rate is $200 per person for three anglers.",
+        "Groups of four or more are currently $150 per person.",
+        "A package for groups of 4, 6 or 8 is currently $175 per person and includes a guided fishing trip plus one night at Honeyhole Lodge based on double occupancy.",
+        "All guided trips currently depart from Soldier Creek Marina at 7022 Marina Drive in Kingston.",
+        "Mickey Rose is licensed to guide in both Oklahoma and Texas.",
+        "The official site lists a Kingston mailing address of PO Box 1338, Kingston, OK 73439."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [
+        "lake-texoma"
+      ],
+      "related_geography": [
+        "oklahoma",
+        "texas"
+      ],
+      "verification_note": "Complete. Verified Aug. 30, 2026 from the current official Mickey Rose Guide Service website, including the main guide page, boat page and Honeyhole Lodge/departure information, with independent corroboration from the Oklahoma Department of Wildlife Conservation and TravelOK. First-party sources confirm Mickey Rose has been a licensed striper guide since 1991, is currently licensed in both Oklahoma and Texas, fishes Lake Texoma year-round, uses 580-564-9345, offers current guide rates of $250 per person for two anglers, $200 per person for three and $150 per person for groups of four or more, and offers fishing-and-lodging packages through Honeyhole Lodge. The official site states that all guided trips depart from Soldier Creek Marina, 7022 Marina Drive, Kingston. Soldier Creek Marina and Honeyhole Lodge are not assigned as parent_business because neither was verified as a current canonical TWG parent record during this pass and a departure point does not by itself establish physical containment.",
+      "last_checked": "2026-08-30",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Mickey Rose — licensed striper guide since 1991",
+        "Year-round Lake Texoma fishing",
+        "Licensed in Oklahoma and Texas",
+        "Striped bass fishing",
+        "Catfish and bass opportunities",
+        "Large custom guide boat",
+        "Seats up to 10 comfortably",
+        "Group fishing trips",
+        "Fishing-and-lodging packages",
+        "Soldier Creek Marina departures"
       ]
     }
   ]
