@@ -5,8 +5,8 @@
   "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1260,
-  "publish_ready_count": 936,
+  "business_count": 1261,
+  "publish_ready_count": 937,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -136180,6 +136180,119 @@
         "Active 55+ community",
         "On-site event spaces",
         "Recurring community and ministry programming"
+      ]
+    },
+    {
+      "slug": "old-settlers-recreation-center",
+      "business_name": "Old Settler's Recreation Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1201 E. Louisiana St., McKinney, TX 75069",
+      "category": [
+        "Recreation Center",
+        "Community Center",
+        "Event Venue"
+      ],
+      "tags": [
+        "Parks and Recreation",
+        "Fitness",
+        "Youth Programs",
+        "Adult Programs",
+        "Classes",
+        "Community Events"
+      ],
+      "description": "Old Settler's Recreation Center is a City of McKinney Parks & Recreation facility offering fitness, recreation, classes and community programming. Amenities include a gymnasium, fitness center, game room, multipurpose and banquet rooms, kitchen, locker rooms with showers, and a pavilion or patio area.",
+      "why_visit": "Visit for affordable recreation and fitness access, organized classes, youth and adult programs, open-gym activities, and recurring community events.",
+      "why_its_unique": "Old Settler's Recreation Center combines gym and fitness facilities with flexible community spaces and a busy City of McKinney program calendar serving a wide range of ages and interests.",
+      "phone": "972-542-5014",
+      "email": null,
+      "website": "https://www.mckinneytexas.org/619/Old-Settlers-Recreation-Center",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$3+",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "8:00 AM-8:00 PM",
+        "tuesday": "8:00 AM-8:00 PM",
+        "wednesday": "8:00 AM-8:00 PM",
+        "thursday": "8:00 AM-8:00 PM",
+        "friday": "8:00 AM-5:00 PM",
+        "saturday": "8:00 AM-5:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Official City of McKinney facility hours. Holiday and special-event schedules may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$3+",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Gymnasium",
+        "Weight and fitness center",
+        "Game room",
+        "Multipurpose room",
+        "Banquet room",
+        "Kitchen",
+        "Locker rooms with showers",
+        "Pavilion or patio",
+        "Facility rentals"
+      ],
+      "good_to_know": [
+        "OSRC day passes start at $3 for general facility access and $5 for fitness-area access.",
+        "Fitness-area access is limited to ages 16 and older.",
+        "The facility hosts a substantial schedule of City of McKinney recreation classes and special programs.",
+        "Rooms and other facility spaces are available for rental."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified August 30, 2026 using official City of McKinney Parks & Recreation sources. Official pages confirm the facility name, 1201 E. Louisiana St. address, 972-542-5014 phone number, operating hours, memberships and day passes, facility rentals, recreation amenities and an active calendar of recurring classes and community programs.",
+      "last_checked": "2026-08-30",
+      "event_types": [
+        "Recreation classes",
+        "Youth programs",
+        "Adult programs",
+        "Fitness programs",
+        "Sports and games",
+        "Community events"
+      ],
+      "event_sources": [
+        "City of McKinney Parks & Recreation calendar",
+        "Old Settler's Recreation Center official facility page"
+      ],
+      "features": [
+        "City recreation center",
+        "Gymnasium",
+        "Fitness center",
+        "Game room",
+        "Community rooms",
+        "Facility rentals",
+        "Recurring classes and events"
       ]
     }
   ]
