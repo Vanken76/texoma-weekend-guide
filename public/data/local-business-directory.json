@@ -5,8 +5,8 @@
   "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1273,
-  "publish_ready_count": 949,
+  "business_count": 1274,
+  "publish_ready_count": 950,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -137721,6 +137721,101 @@
         "Fishing equipment provided",
         "Fish cleaning and bagging",
         "Published charter guarantee"
+      ]
+    },
+    {
+      "slug": "blue-water-striper-guide-service",
+      "business_name": "Blue Water Striper Guide Service",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Catfish Bay Marina / Lake Texoma, Kingston, OK",
+      "category": [
+        "Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Striper Fishing",
+        "Striped Bass",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Guided Fishing",
+        "Tyler Cates",
+        "Gator Cates",
+        "Kingston OK",
+        "Catfish Bay Marina",
+        "Year-Round Fishing"
+      ],
+      "description": "Blue Water Striper Guide Service is a full-time, year-round Lake Texoma fishing guide service currently operated by Tyler \"Gator\" Cates. The service specializes in guided striped bass fishing and operates from the Kingston and Catfish Bay area on the Oklahoma side of Lake Texoma.",
+      "why_visit": "Blue Water is focused specifically on Lake Texoma and striped bass fishing, with year-round guide availability for visitors looking for a dedicated local fishing trip rather than a general marina or recreational service.",
+      "why_its_unique": "Blue Water is a longstanding Lake Texoma guide-service name. Current regional fishing directories identify Tyler \"Gator\" Cates as the owner and guide, while older Blue Water material documents the service's earlier operation under longtime Lake Texoma guide James Allen.",
+      "phone": "620-741-4034",
+      "email": null,
+      "website": "https://www.texomastriperguidefishing.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Full-time, year-round Lake Texoma guide service. Trips are scheduled by reservation.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Current regional sources identify Tyler \"Gator\" Cates as the owner of Blue Water Striper Guide Service.",
+        "Current contact number is 620-741-4034.",
+        "The service operates year-round on Lake Texoma.",
+        "Current Oklahoma tourism material places Blue Water at Catfish Bay Marina.",
+        "Published current pricing could not be independently verified during this pass, so no rate is asserted."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [
+        "lake-texoma"
+      ],
+      "related_geography": [
+        "oklahoma",
+        "texas"
+      ],
+      "verification_note": "Complete with ownership-history caveat. Verified Aug. 30, 2026 from current Oklahoma tourism material and current Texoma-area fishing directories. Current Oklahoma travel material lists Blue Water Striper Guide Service at Catfish Bay Marina with 620-741-4034 and texomastriperguidefishing.com. Texoma Connect currently identifies Tyler Cates as owner and describes Blue Water as a full-time, year-round Lake Texoma guide service. Additional current Kingston-area guide listings also associate Tyler Cates with 620-741-4034. Older Blue Water sources identify James Allen as owner and use older phone/email information, so those historical contacts were not carried forward. Tyler Cates also currently operates Gator's Guide Service using the same 620-741-4034 number; the relationship between the two brands is documented in source material but is not merged or guessed here. No current published Blue Water pricing or current verified email was located, so those fields remain null. Catfish Bay Marina was not assigned as parent_business because its exact canonical TWG slug was not independently verified during this pass.",
+      "last_checked": "2026-08-30",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Tyler \"Gator\" Cates",
+        "Full-time Lake Texoma fishing guide",
+        "Year-round guided fishing",
+        "Striped bass fishing",
+        "Catfish Bay Marina area",
+        "Longstanding Lake Texoma guide-service name"
       ]
     }
   ]
