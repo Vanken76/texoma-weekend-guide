@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 477,
-  "publish_ready_count": 477,
+  "event_count": 478,
+  "publish_ready_count": 478,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -30924,6 +30924,63 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified August 30, 2026 using the official City of McKinney Parks & Recreation calendar. The calendar confirms Nerf Warzone Nights - OSRC on Friday, September 4, 2026 from 4:00 PM to 5:00 PM at Old Settler's Recreation Center, with additional September occurrences on Sept. 11, 18 and 25. A verified price, age restriction and detailed program description were not available in the accessible official listing, so those fields remain unset.",
+      "last_checked": "2026-08-30",
+      "created_on": "2026-08-30",
+      "updated_on": "2026-08-30"
+    },
+    {
+      "event_slug": "friday-evening-dance-src-september-2026",
+      "event_name": "Friday Evening Dance - SRC",
+      "description": "Enjoy live music, light refreshments, and country and western dancing at the McKinney Senior Recreation Center. Rough Riders are the featured performers. Non-members must complete a visitor application before attending the dance.",
+      "start_datetime": "2026-09-04T19:00:00-05:00",
+      "end_datetime": "2026-09-04T21:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "mckinney-senior-recreation-center"
+      ],
+      "venue_name": "McKinney Senior Recreation Center",
+      "address": "1400 S. College St.",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "dance",
+        "live-music",
+        "community"
+      ],
+      "tags": [
+        "friday-evening-dance",
+        "rough-riders",
+        "country-and-western",
+        "senior-recreation",
+        "live-music"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$5 member / $7 non-member.",
+      "audience": [
+        "adults"
+      ],
+      "age_restriction": "50+",
+      "host_business_slug": "mckinney-senior-recreation-center",
+      "organizer_name": "City of McKinney Parks & Recreation",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/friday-evening-dance-src-september-2026.png",
+      "image_alt": null,
+      "official_url": "https://www.mckinneytexas.org/Calendar.aspx?EID=36499",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified August 30, 2026 using the official City of McKinney Parks & Recreation event listing. The listing confirms Friday, September 4, 2026 from 7:00 PM to 9:30 PM at the Senior Recreation Center, admission of $5 for members and $7 for non-members, live music, light refreshments, country and western dancing, Rough Riders as the performing act, and a visitor application requirement for non-members before the dance. The Senior Recreation Center serves adults age 50+.",
       "last_checked": "2026-08-30",
       "created_on": "2026-08-30",
       "updated_on": "2026-08-30"
