@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 481,
-  "publish_ready_count": 481,
+  "event_count": 482,
+  "publish_ready_count": 482,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -31162,6 +31162,66 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 30, 2026 from the official City of McKinney calendar and Senior Recreation Center page. The Sept. 3 occurrence runs 7:00-8:00 PM. The same class is also listed Sept. 17 and follows the verified first-and-third-Thursday pattern seen in prior 2026 listings. The class is listed as free, but Senior Recreation Center membership or a day pass is required, along with registration. The facility serves adults age 50+. Canonical TWG venue slug verified as mckinney-senior-recreation-center.",
+      "last_checked": "2026-08-30",
+      "created_on": "2026-08-30",
+      "updated_on": "2026-08-30"
+    },
+    {
+      "event_slug": "another-level-dance-hip-hop-osrc-september-2026",
+      "event_name": "Another Level Dance: Hip-Hop - OSRC",
+      "description": "Experience a fast-paced, high-energy hip-hop dance class that emphasizes personal style over formal technique at Old Settler's Recreation Center. The September session is for ages 5-12 and meets Saturdays from 11:30 AM to 12:30 PM.",
+      "start_datetime": "2026-09-05T11:30:00-05:00",
+      "end_datetime": "2026-09-05T12:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "old-settlers-recreation-center"
+      ],
+      "venue_name": "Old Settler's Recreation Center",
+      "address": "1201 E. Louisiana St.",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Classes & Workshops",
+        "Dance",
+        "Youth Activities"
+      ],
+      "tags": [
+        "Another Level Dance",
+        "Hip-Hop",
+        "dance class",
+        "youth dance",
+        "ages 5-12",
+        "McKinney",
+        "Old Settler's Recreation Center"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$25 Resident / $35 Non-Resident. Registration required.",
+      "audience": [
+        "Kids",
+        "Ages 5-12"
+      ],
+      "age_restriction": "Ages 5-12",
+      "host_business_slug": "old-settlers-recreation-center",
+      "organizer_name": "McKinney Parks & Recreation",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/another-level-dance-hip-hop-osrc-september-2026.png",
+      "image_alt": null,
+      "official_url": "https://www.mckinneytexas.org/Calendar.aspx?EID=36602&calType=0&day=5&month=9&year=2026",
+      "facebook_url": null,
+      "ticket_url": "https://txmckinneyweb.myvscloud.com/webtrac/web/iteminfo.html?FMID=34057551&Module=AR",
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=SA;COUNT=4",
+      "recurrence_start_date": "2026-09-05",
+      "recurrence_end_date": "2026-09-26",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 30, 2026 from the official City of McKinney calendar and McKinney Parks & Recreation registration system. The Sept. 5 occurrence is 11:30 AM-12:30 PM at Old Settler's Recreation Center, 1201 E. Louisiana St., McKinney, TX 75069. The official September registration listing confirms ages 5-12, Saturday meetings, $25 resident / $35 non-resident pricing, and the description emphasizing personal style over formal technique. City calendar listings confirm Sept. 5, 12, 19 and 26 occurrences. Canonical TWG venue slug: old-settlers-recreation-center.",
       "last_checked": "2026-08-30",
       "created_on": "2026-08-30",
       "updated_on": "2026-08-30"
