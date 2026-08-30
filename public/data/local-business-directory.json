@@ -5,8 +5,8 @@
   "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1272,
-  "publish_ready_count": 948,
+  "business_count": 1273,
+  "publish_ready_count": 949,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -137605,6 +137605,122 @@
         "Fishing gear provided",
         "Catch cleaning and filleting",
         "Soldier Creek / Marina Del Rey departures"
+      ]
+    },
+    {
+      "slug": "texoma-trips-guide-service",
+      "business_name": "Texoma Trips Guide Service",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Lake Texoma; official site lists 290 Tanglewood Circle, Pottsboro, TX 75076",
+      "category": [
+        "Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Striper Fishing",
+        "Striped Bass",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Guided Fishing",
+        "Colt Brust",
+        "Pottsboro TX",
+        "Corporate Groups",
+        "Group Fishing Trips",
+        "Small Groups",
+        "Custom Guide Boats",
+        "Fishing Gear Provided",
+        "Fish Cleaning"
+      ],
+      "description": "Texoma Trips Guide Service offers guided fishing trips on Lake Texoma with owner and guide Colt Brust. The service specializes in group and corporate outings while also taking smaller parties, with custom guide boats accommodating up to six anglers per boat.",
+      "why_visit": "Texoma Trips handles much of the equipment and cleanup for a Lake Texoma fishing day. Rods, reels and tackle are furnished, and the day's catch is cleaned and bagged. Guests primarily need their Lake Texoma fishing license, food and drinks, weather-appropriate gear and a cooler for the catch.",
+      "why_its_unique": "Texoma Trips is particularly geared toward group and corporate fishing outings, with custom-built guide boats and capacity for up to six anglers per boat. The service also publishes a fishing-charter guarantee and offers smaller-group trips.",
+      "phone": "940-465-4450",
+      "email": null,
+      "website": "https://www.texomatrips.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$500-$800 per boat depending on group size",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Trips are scheduled by reservation. Call or text 940-465-4450 to schedule.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$500-$800 per boat depending on group size",
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Custom-built guide boats",
+        "Rods, reels and tackle provided",
+        "Fish cleaning and bagging",
+        "Up to six anglers per boat",
+        "Group and corporate trip accommodations"
+      ],
+      "good_to_know": [
+        "Current rate is $500 for 1-2 people.",
+        "Current rate is $550 for 3 people.",
+        "Current rate is $600 for 4 people.",
+        "Current rate is $700 for 5 people.",
+        "Current rate is $800 for 6 people.",
+        "A $150 deposit per boat is required when booking and is included in the published trip price.",
+        "The remaining balance is due on the day of the trip.",
+        "Refunds are available when canceled at least 14 days before the scheduled fishing date.",
+        "Guests need a valid Lake Texoma fishing license.",
+        "Guests should bring food and drinks if desired, weather-appropriate clothing, sun protection and a cooler for their catch.",
+        "The official site recommends Tanglewood Resort for lodging and advertises a Texoma Trips guest discount."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Texoma Trips is Texas-based and the current official site lists a Pottsboro address."
+        }
+      ],
+      "verification_note": "Complete. Verified Aug. 30, 2026 from the current official Texoma Trips Guide Service website, the Oklahoma Department of Wildlife Conservation licensed fishing-guide directory and current KXII reporting. First-party sources confirm Colt Brust, 940-465-4450, Lake Texoma fishing charters, custom guide boats, up to six anglers per boat, group and corporate trips, provided rods/reels/tackle, fish cleaning, current $500-$800 pricing and $150 deposit policy. ODWC independently lists Texoma Trips at 940-465-4450 for Lake Texoma. KXII identified Colt Brust in February 2026 as the owner of Texoma Trips and a Lake Texoma striper guide. The official site currently lists 290 Tanglewood Circle, Pottsboro, TX 75076, while a current business listing gives 1075 Walnut Creek Rd, Gordonville, TX 76245; the current first-party address controls here and the discrepancy is preserved rather than guessed away.",
+      "last_checked": "2026-08-30",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Owner and guide Colt Brust",
+        "Lake Texoma striper fishing",
+        "Group fishing trips",
+        "Corporate fishing outings",
+        "Smaller private groups welcome",
+        "Custom-built guide boats",
+        "Up to six anglers per boat",
+        "Fishing equipment provided",
+        "Fish cleaning and bagging",
+        "Published charter guarantee"
       ]
     }
   ]
