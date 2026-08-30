@@ -5,8 +5,8 @@
   "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1262,
-  "publish_ready_count": 938,
+  "business_count": 1263,
+  "publish_ready_count": 939,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -136410,6 +136410,121 @@
         "Trip program",
         "Recurring social events",
         "City of McKinney facility"
+      ]
+    },
+    {
+      "slug": "circle-b-fishing-guide",
+      "business_name": "Circle B Fishing Guide",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Lake Texoma; based in Kingston, OK",
+      "category": [
+        "Fishing Guide",
+        "Fishing Charter",
+        "Hunting Guide"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Striper Fishing",
+        "Striped Bass",
+        "Catfish",
+        "Crappie",
+        "Bass Fishing",
+        "Guided Fishing",
+        "Fishing Charter",
+        "Family Friendly",
+        "Kid Friendly",
+        "Large Groups",
+        "Fishing Gear Included",
+        "Fish Cleaning",
+        "Kingston OK",
+        "Mead OK",
+        "Outdoor Recreation",
+        "Hunting Trips"
+      ],
+      "description": "Circle B Fishing Guide is a locally owned, family-run Lake Texoma guide service operated by Captain Brad McGahey. The service offers guided fishing for striped bass, catfish, crappie, largemouth bass and smallmouth bass, with equipment, bait and catch cleaning available as part of its fishing trips. Circle B also offers guided hunting trips in Oklahoma.",
+      "why_visit": "Circle B offers a turnkey Lake Texoma fishing experience for beginners, experienced anglers, families and groups. Standard fishing trips include rods, reels, tackle and bait, along with catch cleaning and bagging, so visitors can focus on fishing instead of hauling their own equipment.",
+      "why_its_unique": "Captain Brad McGahey's guide service combines multi-species Lake Texoma fishing with a family- and kid-friendly approach, can arrange additional boats and licensed guides for larger groups, and operates a boat that the official site describes as handicapped accessible.",
+      "phone": "580-565-0120",
+      "email": "bradleymcgahey@yandex.com",
+      "website": "https://www.circlebguide.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "Fishing charters start at $450",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Trips are scheduled by reservation. The official online booking calendar is maintained with current availability.",
+      "at_a_glance": {
+        "average_visit": "About 5 hours for standard fishing charters",
+        "price_range": "Fishing charters start at $450",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Rods, reels and tackle provided",
+        "Live bait and lures",
+        "Catch cleaning and bagging",
+        "Private bathroom aboard guide boat",
+        "Accessible guide boat",
+        "Additional boats and guides available for larger groups"
+      ],
+      "good_to_know": [
+        "Fishing license is required.",
+        "Bring snacks and drinks.",
+        "Wear weather-appropriate clothing and bring sun protection.",
+        "A deposit is required when booking.",
+        "The remaining balance is due on the trip date by credit or cash.",
+        "The official FAQ lists the guest meeting point as Lake Texoma Boat Launch, 3991 Streetman Rd, Mead, OK 73449."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [
+        "lake-texoma"
+      ],
+      "related_geography": [
+        "oklahoma"
+      ],
+      "verification_note": "Complete. Verified Aug. 30, 2026 from the current official Circle B Fishing Guide website, including the home, guide profile, FAQ, contact and trip/rates pages. Official sources confirm Captain Brad McGahey, Lake Texoma fishing, Kingston base, Mead guest meeting point, phone, email, family/kid/group suitability, provided gear, fish cleaning, fishing-license requirement, booking policies and current fishing charters starting at $450. Social URLs were not reliably exposed by the current first-party pages, so they remain null.",
+      "last_checked": "2026-08-30",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Locally owned and family run",
+        "Captain-guided Lake Texoma fishing",
+        "Striped bass fishing",
+        "Catfish fishing",
+        "Crappie fishing",
+        "Largemouth and smallmouth bass fishing",
+        "Beginner-friendly instruction",
+        "Family and kid friendly",
+        "Large-group arrangements",
+        "Gear and bait provided",
+        "Catch cleaning and bagging",
+        "Online booking",
+        "Guided Oklahoma hunting trips"
       ]
     }
   ]
