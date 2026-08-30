@@ -5,8 +5,8 @@
   "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1278,
-  "publish_ready_count": 954,
+  "business_count": 1279,
+  "publish_ready_count": 955,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -138298,6 +138298,96 @@
         "Fishing gear provided",
         "Catch cleaning and filleting",
         "Five-passenger guide boat"
+      ]
+    },
+    {
+      "slug": "air-force-one-fishing-guide-service",
+      "business_name": "Air Force One Fishing Guide Service",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Lake Texoma",
+      "category": [
+        "Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Guided Fishing",
+        "Striper Fishing",
+        "Striped Bass",
+        "Jesse Dean",
+        "Jay Dean"
+      ],
+      "description": "Air Force One Fishing Guide Service offers guided fishing trips on Lake Texoma with owner and operator Jesse \"Jay\" Dean. The service is currently listed by the Oklahoma Department of Wildlife Conservation among known licensed fishing guides for Lake Texoma.",
+      "why_visit": "A licensed Lake Texoma guide option for anglers looking for a dedicated guided fishing trip with an owner-operated local service.",
+      "why_its_unique": "Air Force One Fishing is operated by Jesse \"Jay\" Dean, whose fishing activity has been documented on Lake Texoma under the Air Force One Fishing identity and associated social handles.",
+      "phone": "405-226-5863",
+      "email": null,
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Trips are scheduled by reservation. Contact the guide directly for current availability, departure point, trip length and pricing.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Current contact number is 405-226-5863.",
+        "Oklahoma Department of Wildlife Conservation currently lists Air Force One Fishing for Lake Texoma.",
+        "Jesse \"Jay\" Dean is identified publicly as the owner/operator of Air Force One Fishing Guide Service.",
+        "Published Lake Texoma fishing-report material associates Jesse Dean with striped-bass fishing.",
+        "Current rates, boat specifications, included equipment and fixed departure marina could not be independently verified during this pass and should be confirmed directly when booking."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [
+        "lake-texoma"
+      ],
+      "related_geography": [
+        "oklahoma",
+        "texas"
+      ],
+      "verification_note": "Complete with limited-public-information caveat. Verified Aug. 30, 2026. Oklahoma Department of Wildlife Conservation currently lists Air Force One Fishing at 405-226-5863 for Lake Texoma. Publicly indexed social-profile information identifies Jesse \"Jay\" Dean as owner/operator of Air Force One Fishing Guide Service, and historical Lake Texoma fishing-report material links Jesse Dean's fish_with_af1 identity with striped-bass catches on Lake Texoma. No independently verified current standalone website, public email, Facebook page, active Instagram URL, published pricing, fixed departure marina, boat specifications or included-equipment list was located during this pass, so those details are intentionally not invented.",
+      "last_checked": "2026-08-30",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Jesse \"Jay\" Dean",
+        "Owner-operated guide service",
+        "Lake Texoma fishing",
+        "Striped-bass fishing"
       ]
     }
   ]
