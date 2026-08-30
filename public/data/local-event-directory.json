@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 480,
-  "publish_ready_count": 480,
+  "event_count": 481,
+  "publish_ready_count": 481,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -31102,6 +31102,66 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 30, 2026 from current official City of Denison and Denison Public Library sources. The event is Thursday, Sept. 3 from 5:00-6:00 PM and is the library's first Teen Night, featuring board games and pizza for students in grades 7-12. The full venue address was verified from the official library page. No admission price, ticket requirement or direct Facebook event link was published, so those fields remain unknown or null. Canonical TWG venue slug verified as denison-public-library.",
+      "last_checked": "2026-08-30",
+      "created_on": "2026-08-30",
+      "updated_on": "2026-08-30"
+    },
+    {
+      "event_slug": "beginner-computer-class-src",
+      "event_name": "Beginner Computer Class - SRC",
+      "description": "Become more comfortable with general computer use and learn the basics of several applications at McKinney Senior Recreation Center. Registration is required, and participants must have a Senior Recreation Center membership or day pass.",
+      "start_datetime": "2026-09-03T19:00:00-05:00",
+      "end_datetime": "2026-09-03T20:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "mckinney-senior-recreation-center"
+      ],
+      "venue_name": "McKinney Senior Recreation Center",
+      "address": "1400 S. College St.",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Classes & Workshops",
+        "Senior Activities"
+      ],
+      "tags": [
+        "Beginner Computer Class",
+        "computer skills",
+        "technology",
+        "digital skills",
+        "adult education",
+        "seniors",
+        "Adults 50+",
+        "McKinney",
+        "McKinney Senior Recreation Center"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free class. Senior Recreation Center membership or day pass required. Registration is required.",
+      "audience": [
+        "Adults 50+"
+      ],
+      "age_restriction": "50+",
+      "host_business_slug": "mckinney-senior-recreation-center",
+      "organizer_name": "McKinney Parks & Recreation",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/beginner-computer-class-src.png",
+      "image_alt": null,
+      "official_url": "https://www.mckinneytexas.org/Calendar.aspx?EID=36528&calType=0&day=3&month=9&year=2026",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=MONTHLY;BYDAY=TH;BYSETPOS=1,3",
+      "recurrence_start_date": "2026-09-03",
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 30, 2026 from the official City of McKinney calendar and Senior Recreation Center page. The Sept. 3 occurrence runs 7:00-8:00 PM. The same class is also listed Sept. 17 and follows the verified first-and-third-Thursday pattern seen in prior 2026 listings. The class is listed as free, but Senior Recreation Center membership or a day pass is required, along with registration. The facility serves adults age 50+. Canonical TWG venue slug verified as mckinney-senior-recreation-center.",
       "last_checked": "2026-08-30",
       "created_on": "2026-08-30",
       "updated_on": "2026-08-30"
