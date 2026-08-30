@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 467,
-  "publish_ready_count": 467,
+  "event_count": 468,
+  "publish_ready_count": 468,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -30341,6 +30341,65 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 29, 2026 from the official City of McKinney September 2026 library calendar and McKinney Public Library program guides. September occurrences are Sept. 3, 10, 17 and 24 from 11:30 AM-12:15 PM at John & Judy Gay Library. Official program materials describe Little Explorers as a STEAM storytime for ages 3-5 using stories, songs and hands-on elements to explore Science, Technology, Engineering, Art and Math. Official 2026 City Little Explorers event pages list admission as free.",
+      "last_checked": "2026-08-29",
+      "created_on": "2026-08-29",
+      "updated_on": "2026-08-30"
+    },
+    {
+      "event_slug": "art-challenge-mckinney-2026-09-03",
+      "event_name": "Art Challenge (6th-12th Grade)",
+      "description": "A McKinney Public Library art program for students in grades 6-12 featuring a creative art challenge and a project participants can take home.",
+      "start_datetime": "2026-09-03T16:30:00-05:00",
+      "end_datetime": "2026-09-03T17:30:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "john-judy-gay-library-mckinney"
+      ],
+      "venue_name": "John & Judy Gay Library",
+      "address": "6861 W. Eldorado Pkwy.",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75070",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Art",
+        "Teens",
+        "Library Program"
+      ],
+      "tags": [
+        "Art Challenge",
+        "6th-12th Grade",
+        "teen art",
+        "creative arts",
+        "McKinney Public Library",
+        "John & Judy Gay Library",
+        "McKinney"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free.",
+      "audience": [
+        "6th-12th Grade"
+      ],
+      "age_restriction": "Designed for students in grades 6-12.",
+      "host_business_slug": "john-judy-gay-library-mckinney",
+      "organizer_name": "McKinney Public Library",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/art-challenge-mckinney-2026-09-03.png",
+      "image_alt": null,
+      "official_url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall2026_ArtChallenge",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 29, 2026 from the official City of McKinney September 2026 library calendar and official McKinney Public Library program materials. Art Challenge (6th-12th Grade) is listed Thursday, Sept. 3, 2026, from 4:30-5:30 PM at John & Judy Gay Library. Official program guides describe Art Challenge as a recurring teen creative-art program with a different challenge and take-home project. Official 2026 Art Challenge event pages list the program as free. Later Fall 2026 occurrences were not directly verified, so this record represents only the Sept. 3 occurrence.",
       "last_checked": "2026-08-29",
       "created_on": "2026-08-29",
       "updated_on": "2026-08-30"
