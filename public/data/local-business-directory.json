@@ -5,8 +5,8 @@
   "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1259,
-  "publish_ready_count": 935,
+  "business_count": 1260,
+  "publish_ready_count": 936,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -136084,6 +136084,102 @@
         "214 licensed beds",
         "Regional medical center",
         "Serves North Texas and Southern Oklahoma"
+      ]
+    },
+    {
+      "slug": "first-denton",
+      "business_name": "First Denton",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1100 Malone Street, Denton, TX 76201",
+      "category": [
+        "Church",
+        "Community Organization",
+        "Event Venue"
+      ],
+      "tags": [
+        "Baptist Church",
+        "Community Events",
+        "Senior Adults",
+        "Family Ministry"
+      ],
+      "description": "First Denton is a Baptist church in Denton offering Sunday worship services, Life Groups and ministry programs for children, students, adults and senior adults. The church also hosts community and ministry events throughout the year in spaces including its Fellowship Hall.",
+      "why_visit": "Visit for Sunday worship, Life Groups, age-specific ministries and a variety of church and community gatherings offered throughout the year.",
+      "why_its_unique": "First Denton supports a broad range of age-specific ministries, including an active 55+ Senior Adult Ministry, while also maintaining on-site spaces used for recurring programs and special events.",
+      "phone": "(940) 382-2577",
+      "email": null,
+      "website": "https://www.firstdenton.org/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "General administrative or public-access hours were not confirmed. Sunday worship services are held at 9:30 AM and 11:00 AM.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Sunday worship services",
+        "Life Groups",
+        "Children's ministry",
+        "Student ministry",
+        "Adult ministry",
+        "Senior Adult Ministry",
+        "Fellowship Hall"
+      ],
+      "good_to_know": [
+        "Sunday worship services are held at 9:30 AM and 11:00 AM.",
+        "The Senior Adult Ministry serves adults age 55 and older.",
+        "Special programs and ministry events are regularly listed on the official First Denton website."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified August 30, 2026 from the official First Denton website and ministry pages. Official sources confirm the Denton address, phone number, Sunday worship schedule, Life Groups, children's, student, adult and senior-adult ministries, and recurring special-event programming. General administrative hours and official social-media URLs were not confidently verified and remain unset.",
+      "last_checked": "2026-08-30",
+      "event_types": [
+        "Church and ministry events",
+        "Community events",
+        "Senior adult events",
+        "Family events"
+      ],
+      "event_sources": [
+        "Official First Denton website",
+        "Official First Denton ministry pages"
+      ],
+      "features": [
+        "Baptist church",
+        "Multiple age-specific ministries",
+        "Active 55+ community",
+        "On-site event spaces",
+        "Recurring community and ministry programming"
       ]
     }
   ]
