@@ -5,8 +5,8 @@
   "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1266,
-  "publish_ready_count": 942,
+  "business_count": 1267,
+  "publish_ready_count": 943,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -136878,6 +136878,128 @@
         "Live-shad fishing",
         "Gear and bait provided",
         "Fish cleaning and bagging"
+      ]
+    },
+    {
+      "slug": "jerrys-guide-service",
+      "business_name": "Jerry's Guide Service",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "10846 Texoma Park Rd, Kingston, OK 73439; guided fishing on Lake Texoma",
+      "category": [
+        "Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Striper Fishing",
+        "Striped Bass",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Guided Fishing",
+        "Kingston OK",
+        "Family Friendly",
+        "Kid Friendly",
+        "Beginner Friendly",
+        "Large Groups",
+        "Corporate Groups",
+        "Fishing Gear Provided",
+        "Bait Provided",
+        "Fish Cleaning",
+        "Year-Round Fishing"
+      ],
+      "description": "Jerry's Guide Service offers fully furnished guided striper fishing trips on Lake Texoma from Kingston, Oklahoma. The licensed and insured guide service focuses on creating a relaxed, memorable day on the water for families, friends and groups rather than rushing guests back to the dock.",
+      "why_visit": "Jerry's Guide Service makes Lake Texoma fishing easy for visitors by providing rods, reels, tackle, bait and life jackets, then filleting, cleaning and bagging the catch afterward. The service welcomes families and groups and operates seven days a week.",
+      "why_its_unique": "The service emphasizes an experience-first approach with no rush back to the dock. Multiple boats can be arranged for larger parties and corporate outings, making Jerry's an option for everything from small family trips to larger group fishing days.",
+      "phone": "580-564-6591",
+      "email": null,
+      "website": "https://jerrysguide-service.base44.app/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$450-$900 for standard trips",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "5:00 AM - 10:00 PM",
+        "tuesday": "5:00 AM - 10:00 PM",
+        "wednesday": "5:00 AM - 10:00 PM",
+        "thursday": "5:00 AM - 10:00 PM",
+        "friday": "5:00 AM - 10:00 PM",
+        "saturday": "5:00 AM - 10:00 PM",
+        "sunday": "5:00 AM - 10:00 PM"
+      },
+      "hours_note": "The official site states availability seven days a week. Current business listings publish hours of 5:00 AM-10:00 PM daily. Trips are booked in advance.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$450-$900 for standard trips",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Rods and reels provided",
+        "Bait and tackle provided",
+        "Life jackets provided",
+        "Fish cleaning, filleting and bagging",
+        "Multiple boats available for larger groups",
+        "Licensed and insured guide service"
+      ],
+      "good_to_know": [
+        "Current published trip price is $450 for 1-3 people.",
+        "Current published trip price is $600 for 4 people.",
+        "Current published trip price is $750 for 5 people.",
+        "Current published trip price is $900 for 6 people.",
+        "Contact the guide directly for large-group and corporate pricing.",
+        "Guests should bring a cooler with drinks and snacks.",
+        "Bring sunscreen, sunglasses, a hat and weather-appropriate clothing.",
+        "Anglers should obtain the appropriate Lake Texoma fishing license before the trip."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [
+        "lake-texoma"
+      ],
+      "related_geography": [
+        "oklahoma",
+        "texas"
+      ],
+      "verification_note": "Complete. Verified Aug. 30, 2026 from the current official Jerry's Guide Service website, current local business listing and Oklahoma Department of Wildlife Conservation guide directory. The official site confirms Lake Texoma striper fishing, 580-564-6591, seven-day availability, licensed and insured status, supplied rods, reels, bait, tackle and life jackets, fish cleaning, large-group arrangements and current prices of $450 for 1-3 people, $600 for 4, $750 for 5 and $900 for 6. Current business records place the service at 10846 Texoma Park Rd, Kingston, OK 73439. ODWC independently lists Jerry's Guide Service for Lake Texoma but currently displays 580-564-6491, which conflicts by one digit with the official site and current business listing; the official current booking number 580-564-6591 is therefore used here.",
+      "last_checked": "2026-08-30",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Lake Texoma striper fishing",
+        "Licensed and insured guide service",
+        "Family-friendly fishing trips",
+        "Beginner-friendly setup",
+        "Large-group and corporate arrangements",
+        "Multiple boats available",
+        "Fishing equipment provided",
+        "Bait and tackle provided",
+        "Fish cleaning and bagging",
+        "Seven-day availability"
       ]
     }
   ]
