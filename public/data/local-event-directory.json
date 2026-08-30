@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 470,
-  "publish_ready_count": 470,
+  "event_count": 471,
+  "publish_ready_count": 471,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -30522,6 +30522,71 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified Aug. 29, 2026 from the official City of McKinney September 2026 library calendar and official McKinney Public Library 2026 program materials. September occurrences are Sept. 3, 4, 10, 11, 17, 18, 24 and 25 from 10:30-11:15 AM at John & Judy Gay Library. Official program materials describe Toddler Time as storytime with songs and rhymes, and official 2026 Toddler Time event pages list the program as free. Canonical venue address retained from the TWG business record.",
+      "last_checked": "2026-08-29",
+      "created_on": "2026-08-29",
+      "updated_on": "2026-08-30"
+    },
+    {
+      "event_slug": "4th-annual-grayson-county-health-fair-sherman-2026",
+      "event_name": "4th Annual Grayson County Health Fair",
+      "description": "Community health fair at Sherman Medical Center featuring free health screenings, healthcare providers and community organizations, wellness education and resources, giveaways, family-friendly activities, and food trucks and refreshments available for purchase.",
+      "start_datetime": "2026-09-04T10:00:00-05:00",
+      "end_datetime": "2026-09-04T14:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "sherman-medical-center-sherman"
+      ],
+      "venue_name": "Sherman Medical Center",
+      "address": "500 N. Highland Ave.",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75092",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Health & Wellness",
+        "Community",
+        "Family"
+      ],
+      "tags": [
+        "Grayson County Health Fair",
+        "health fair",
+        "free health screenings",
+        "wellness",
+        "healthcare",
+        "community resources",
+        "family friendly",
+        "food trucks",
+        "Sherman Medical Center",
+        "Sherman",
+        "Grayson County"
+      ],
+      "cost_type": "free",
+      "cost_details": "Free admission. Food trucks and refreshments will be available for purchase.",
+      "audience": [
+        "All Ages",
+        "Families",
+        "Community"
+      ],
+      "age_restriction": null,
+      "host_business_slug": "sherman-medical-center-sherman",
+      "organizer_name": "Sherman Medical Center",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/4th-annual-grayson-county-health-fair-sherman-2026.png",
+      "image_alt": null,
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified Aug. 29, 2026 from current event listings attributed to Sherman Medical Center and an independent Sherman-Denison local event calendar. The event is scheduled for Friday, Sept. 4, 2026 from 10:00 AM-2:00 PM at Sherman Medical Center, 500 N. Highland Ave., Sherman. Free admission, free health screenings, healthcare and community organizations, wellness education and resources, giveaways, family-friendly activities, and food trucks and refreshments available for purchase were specifically listed. No standalone official Sherman Medical Center event webpage was located, so official_url remains null.",
       "last_checked": "2026-08-29",
       "created_on": "2026-08-29",
       "updated_on": "2026-08-30"
