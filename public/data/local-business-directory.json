@@ -5,8 +5,8 @@
   "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1264,
-  "publish_ready_count": 940,
+  "business_count": 1265,
+  "publish_ready_count": 941,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -136639,6 +136639,127 @@
         "Catch cleaning and bagging",
         "Large-group boat arrangements",
         "Seven-day charter availability"
+      ]
+    },
+    {
+      "slug": "bearded-dog-striper-guide-service",
+      "business_name": "Bearded Dog Striper Guide Service",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "7000 Enos Road, Kingston, OK 73439; Lake Texoma trips normally depart from Marina del Ray at Soldier's Creek",
+      "category": [
+        "Fishing Guide",
+        "Fishing Charter"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Striper Fishing",
+        "Striped Bass",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Guided Fishing",
+        "Kingston OK",
+        "Soldier's Creek",
+        "Family Friendly",
+        "Kid Friendly",
+        "Beginner Friendly",
+        "Large Groups",
+        "Veteran Owned",
+        "Fishing Gear Provided",
+        "Live Bait",
+        "Fish Cleaning",
+        "Bass Fishing"
+      ],
+      "description": "Bearded Dog Striper Guide Service offers guided Lake Texoma fishing trips with Captains Chuck and Justin Shannon. The veteran-owned Kingston guide service specializes in striped bass and welcomes anglers of all experience levels, with bait, tackle and on-the-water instruction provided.",
+      "why_visit": "Bearded Dog provides a straightforward Lake Texoma charter experience for families, beginners and experienced anglers. Trips typically run four to six hours, all necessary bait and tackle are supplied, and the guides clean, fillet and package the day's catch at the end of the trip.",
+      "why_its_unique": "Bearded Dog is a veteran-owned father-and-son guide operation focused on giving guests an unhurried day on Lake Texoma. The service can access multiple boats for larger groups and may also target largemouth or smallmouth bass after a striper limit when conditions and season allow.",
+      "phone": "443-841-8599",
+      "email": "beardeddogfishing@gmail.com",
+      "website": "https://www.beardeddogstriperguides.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": "$175 per person; $500 minimum",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "5:00 AM - 5:00 PM",
+        "tuesday": "5:00 AM - 5:00 PM",
+        "wednesday": "5:00 AM - 5:00 PM",
+        "thursday": "5:00 AM - 5:00 PM",
+        "friday": "5:00 AM - 5:00 PM",
+        "saturday": "5:00 AM - 5:00 PM",
+        "sunday": "5:00 AM - 5:00 PM"
+      },
+      "hours_note": "Fishing trips normally begin at daylight and are booked by reservation. Published business hours are 5:00 AM-5:00 PM daily.",
+      "at_a_glance": {
+        "average_visit": "About 4-6 hours",
+        "price_range": "$175 per person; $500 minimum",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Bait and tackle provided",
+        "Beginner fishing instruction",
+        "Fish cleaning, filleting and packaging",
+        "24-foot guide boat",
+        "Fishing electronics",
+        "Safety equipment",
+        "Additional boats available for larger groups"
+      ],
+      "good_to_know": [
+        "A fishing license is required; the guide recommends a Lake Texoma fishing license because trips may fish both Texas and Oklahoma waters.",
+        "Trips normally depart from Marina del Ray at Soldier's Creek in Kingston.",
+        "Trips generally last four to six hours or until a limit is caught.",
+        "Current published rate is $175 per person with a $500 minimum.",
+        "Military members, first responders and children under 16 are currently listed at $150 per person, subject to the $500 minimum.",
+        "Cash, MasterCard, Visa and American Express are accepted.",
+        "Unsafe weather conditions may cause a trip to be canceled, with the guide stating that deposits are fully refunded when the guide cancels for safety reasons."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [
+        "lake-texoma"
+      ],
+      "related_geography": [
+        "oklahoma"
+      ],
+      "verification_note": "Complete. Verified Aug. 30, 2026 from the current official Bearded Dog Striper Guide Service website, including its home, guide profile, fishing, rates and contact pages, with additional corroboration from TravelOK and the Oklahoma Department of Wildlife Conservation guide directory. Official sources confirm Captains Chuck and Justin Shannon, veteran-owned operation, Kingston base, Soldier's Creek/Marina del Ray departure, family-friendly trips, four-to-six-hour trip length, bait and tackle, beginner instruction, fish cleaning and current $175-per-person / $500-minimum pricing. The site's primary booking call-to-action uses 443-841-8599 and beardeddogfishing@gmail.com; its footer separately lists 580-740-1877 and beardeddogstriperguides@gmail.com, while ODWC lists another Bearded Dog phone number. The explicit current booking contact was used for the canonical phone/email fields and the source discrepancy is preserved here rather than guessed away. Marina del Ray is not currently a published TWG parent record, so parent_business remains null.",
+      "last_checked": "2026-08-30",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Veteran owned and operated",
+        "Captains Chuck and Justin Shannon",
+        "Lake Texoma striper fishing",
+        "Family-friendly fishing charters",
+        "Beginner-friendly instruction",
+        "Large-group arrangements",
+        "Multiple guide boats available",
+        "Bait and tackle provided",
+        "Fish cleaning and packaging",
+        "Seasonal opportunity for largemouth and smallmouth bass"
       ]
     }
   ]
