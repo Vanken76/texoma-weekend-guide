@@ -5,8 +5,8 @@
   "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1261,
-  "publish_ready_count": 937,
+  "business_count": 1262,
+  "publish_ready_count": 938,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -136293,6 +136293,123 @@
         "Community rooms",
         "Facility rentals",
         "Recurring classes and events"
+      ]
+    },
+    {
+      "slug": "mckinney-senior-recreation-center",
+      "business_name": "McKinney Senior Recreation Center",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1400 S. College St., McKinney, TX 75069",
+      "category": [
+        "Senior Center",
+        "Recreation Center",
+        "Event Venue"
+      ],
+      "tags": [
+        "Adults 50+",
+        "Fitness",
+        "Wellness",
+        "Games",
+        "Sports",
+        "Trips",
+        "Community Events"
+      ],
+      "description": "McKinney Senior Recreation Center is a City of McKinney Parks & Recreation facility serving adults age 50 and older. The center offers fitness and wellness activities, group programs, board games, sports, trips, recreation opportunities and recurring social events.",
+      "why_visit": "Visit for adult 50+ recreation, fitness, wellness programs, games, trips and recurring social activities in a dedicated community setting.",
+      "why_its_unique": "The center is specifically designed around recreation and community programming for adults 50+, with both active fitness opportunities and social programs under one City of McKinney facility.",
+      "phone": "972-547-7491",
+      "email": null,
+      "website": "https://www.mckinneytexas.org/621/Senior-Recreation-Center",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": "/images/businesses/mckinney-senior-recreation-center-logo.png",
+      "logo_alt": "McKinney Senior Recreation Center logo",
+      "price_range": "$5+",
+      "family_friendly": false,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "8:00 AM-8:30 PM",
+        "tuesday": "8:00 AM-8:30 PM",
+        "wednesday": "8:00 AM-8:30 PM",
+        "thursday": "8:00 AM-8:30 PM",
+        "friday": "8:00 AM-3:00 PM",
+        "saturday": "8:00 AM-12:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Official City of McKinney facility hours. Special events may occur outside normal public facility hours.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$5+",
+        "family_friendly": false,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": false,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Fitness room",
+        "Group exercise programs",
+        "Senior Exercise Pass programs",
+        "Board games",
+        "Sports",
+        "Trip program",
+        "Wellness and support services",
+        "Secured Wi-Fi",
+        "Hot coffee",
+        "Parking lot golf cart shuttle service"
+      ],
+      "good_to_know": [
+        "Programs are designed for adults age 50 and older.",
+        "Resident and non-resident memberships are available, along with daily visits.",
+        "Registration requires documentation including proof of age, residency status and a current government-issued photo ID.",
+        "Membership pricing varies by age and residency.",
+        "The facility hosts recurring social and recreation events, including Friday evening dances."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified August 30, 2026 using official City of McKinney Parks & Recreation sources. Official sources confirm the McKinney Senior Recreation Center at 1400 S. College St., phone 972-547-7491, programs for adults 50+, current operating hours, membership and daily-visit pricing, fitness and wellness benefits, board games, sports, trips and recurring community programming.",
+      "last_checked": "2026-08-30",
+      "event_types": [
+        "Senior recreation programs",
+        "Fitness and wellness programs",
+        "Social dances",
+        "Games and sports",
+        "Classes",
+        "Trips",
+        "Community events"
+      ],
+      "event_sources": [
+        "City of McKinney Parks & Recreation calendar",
+        "McKinney Senior Recreation Center official facility page"
+      ],
+      "features": [
+        "Adults 50+ recreation center",
+        "Fitness room",
+        "Wellness programming",
+        "Board games and sports",
+        "Trip program",
+        "Recurring social events",
+        "City of McKinney facility"
       ]
     }
   ]
