@@ -5,8 +5,8 @@
   "generated_on": "2026-08-30",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1275,
-  "publish_ready_count": 951,
+  "business_count": 1276,
+  "publish_ready_count": 952,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -137946,6 +137946,97 @@
         "Fishing equipment provided",
         "Catch cleaning and filleting",
         "Six-passenger guide boat"
+      ]
+    },
+    {
+      "slug": "brandos-guide-service",
+      "business_name": "Brando's Guide Service",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Lake Texoma; Kingston, Oklahoma",
+      "category": [
+        "Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Striper Fishing",
+        "Striped Bass",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Guided Fishing",
+        "Brandon Conner",
+        "Brandon Conner Fishing",
+        "Kingston OK"
+      ],
+      "description": "Brando's Guide Service is a Lake Texoma fishing guide operation based in Kingston, Oklahoma and operated by Brandon Conner. The service is currently listed by the Oklahoma Department of Wildlife Conservation for Lake Texoma and is also promoted regionally as Brandon Conner Fishing.",
+      "why_visit": "A locally based guide option for anglers looking to fish Lake Texoma from the Kingston side of the lake with an Oklahoma-licensed guide.",
+      "why_its_unique": "The business appears in current state guide records as Brando's Guide Service while regional and business listings also use the name Brandon Conner Fishing, both tied to Brandon Conner and the same 580-565-2433 contact number.",
+      "phone": "580-565-2433",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/profile.php?id=61553126544089",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Fishing trips are scheduled by reservation. Contact the guide directly for current availability, departure location and trip times.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Current contact number is 580-565-2433.",
+        "Oklahoma Department of Wildlife Conservation currently lists Brando's Guide Service for Lake Texoma.",
+        "Regional listings also identify the operation as Brandon Conner Fishing.",
+        "A commonly published Kingston address is 4566 Shay Road, Kingston, OK 73439.",
+        "Current trip pricing and exact departure marina should be confirmed directly before booking."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [
+        "lake-texoma"
+      ],
+      "related_geography": [
+        "oklahoma",
+        "texas"
+      ],
+      "verification_note": "Complete with naming and business-age caveats. Verified Aug. 30, 2026. Oklahoma Department of Wildlife Conservation currently lists Brandos Guide Service at 580-565-2433 for Lake Texoma. The Lodges at Fossil Creek lists Brandon Conner Fishing at 4566 Shay Road, Kingston, OK with the same 580-565-2433 number in its Lake Texoma fishing-guide directory. BBB identifies Brandon Conner as the owner of Brandon Conner Fishing charter, confirms the same phone number and links to the business Facebook profile. BBB reports the current sole proprietorship started Oct. 31, 2023, while older commercial directory listings claim a much longer operating history; no longevity claim is therefore made here. No independently verified standalone website, public email, current pricing, fixed departure marina or detailed equipment list was located during this pass.",
+      "last_checked": "2026-08-30",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Brandon Conner",
+        "Lake Texoma fishing guide",
+        "Kingston-based guide service",
+        "Striped bass fishing"
       ]
     }
   ]
