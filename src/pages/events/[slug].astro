@@ -6,6 +6,7 @@ import {
   buildBusinessIndex,
   getEventVenueSlugs,
   getEventsAtVenue,
+  isArchivedEvent,
   isRecurringEvent,
   parseRecurrenceRule,
   resolveEventLocation,
@@ -139,7 +140,13 @@ const statusLabels = {
   ended: "Past event"
 };
 
-const statusLabel = statusLabels[event.status] || event.status;
+const explicitStatus = event.status;
+const effectiveStatus = ["canceled", "postponed"].includes(explicitStatus)
+  ? explicitStatus
+  : isArchivedEvent(event)
+    ? "ended"
+    : explicitStatus;
+const statusLabel = statusLabels[effectiveStatus] || effectiveStatus;
 const location = resolvedLocation.locationText;
 const mapUrl = resolvedLocation.mapUrl;
 const officialUrl = event.facebook_url || event.official_url;
@@ -164,7 +171,7 @@ const eventJsonLdText = serializeJsonLd(eventJsonLd);
     <header class="event-hero">
       <div class="hero-copy">
         <div class="status-row">
-          <span class:list={["status", `status-${event.status}`]}>{statusLabel}</span>
+          <span class:list={["status", `status-${effectiveStatus}`]}>{statusLabel}</span>
           {event.featured && <span class="featured">Featured event</span>}
         </div>
         <h1>{event.event_name}</h1>
