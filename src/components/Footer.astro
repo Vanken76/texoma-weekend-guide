@@ -27,6 +27,15 @@
     </section>
 
     <section>
+      <strong>For businesses</strong>
+      <p>
+        <a href="/advertise/">Texoma advertising</a>
+        <br />
+        <a href="/directory/">Business directory</a>
+      </p>
+    </section>
+
+    <section>
       <strong>Event submissions</strong>
       <p>
         <a href="mailto:texomaweekendguide@gmail.com">
@@ -58,7 +67,7 @@
 
   .footer-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
   }
 
@@ -67,6 +76,12 @@
     padding-top: 1.2rem;
     border-top: 1px solid rgba(255, 255, 255, 0.25);
     font-size: 0.9rem;
+  }
+
+  @media (max-width: 900px) {
+    .footer-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   @media (max-width: 700px) {
