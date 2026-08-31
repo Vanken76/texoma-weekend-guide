@@ -17886,7 +17886,9 @@
         "Group-friendly",
         "Wheelchair-accessible entrance",
         "Free street parking"
-      ]
+      ],
+      "logo_url": "/images/businesses/redrock-saloon-logo.jpg",
+      "logo_alt": "RedRock Saloon logo"
     },
     {
       "slug": "the-venue-on-main-denison",
