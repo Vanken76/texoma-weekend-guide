@@ -1,19 +1,42 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+const advertisingServiceJsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Texoma Advertising and Local Promotion",
+  serviceType: "Local advertising, business promotion, and event promotion",
+  url: "https://texomaweekendguide.com/advertise/",
+  description: "Texoma advertising for local businesses, venues, performers, events, festivals, and organizations through Texoma Weekend Guide.",
+  provider: {
+    "@type": "Organization",
+    "@id": "https://texomaweekendguide.com/#organization",
+    name: "Texoma Weekend Guide",
+    url: "https://texomaweekendguide.com/"
+  },
+  areaServed: [
+    { "@type": "Place", name: "Texoma" },
+    { "@type": "Place", name: "Lake Texoma" },
+    { "@type": "City", name: "Sherman", containedInPlace: { "@type": "State", name: "Texas" } },
+    { "@type": "City", name: "Denison", containedInPlace: { "@type": "State", name: "Texas" } }
+  ]
+});
 ---
 
 <BaseLayout
-  title="Advertise With Texoma Weekend Guide"
-  description="Reach Texoma with growing Google Search visibility, local website placement, custom event graphics, and social promotion. Current early-growth advertising rates start at $20."
+  title="Texoma Advertising | Advertise With Texoma Weekend Guide"
+  description="Texoma advertising for local businesses, events, venues, performers, festivals, and organizations. Reach people across Texoma with website placement, event promotion, custom graphics, and social promotion."
 >
+  <script type="application/ld+json" set:html={advertisingServiceJsonLd} />
+
   <section class="advertise-hero">
     <div class="container hero-grid">
       <div>
-        <p class="eyebrow light">Local advertising built for Texoma</p>
-        <h1>Reach Texoma when they’re looking for something to do.</h1>
+        <p class="eyebrow light">Texoma advertising for local businesses & events</p>
+        <h1>Texoma Advertising for Local Businesses & Events</h1>
         <p class="hero-copy">
-          Texoma Weekend Guide combines growing Google Search visibility with targeted local promotion
-          to help businesses, venues, performers, and event organizers get discovered.
+          Texoma Weekend Guide offers local advertising across Texoma to help businesses, venues,
+          performers, events, festivals, and organizations get discovered by people looking for things to do.
         </p>
         <p class="promise">
           Basic business listings and qualifying local event listings are free — and they stay free.
@@ -32,6 +55,35 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <div class="summary-price"><strong>$20</strong><span>Flyer + Social</span></div>
         <p class="stats-note">No fake countdowns. No long-term advertising contract. Straightforward local promotion at today’s rates.</p>
       </aside>
+    </div>
+  </section>
+
+  <section class="section seo-target-section" aria-labelledby="texoma-advertising-heading">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Advertising in Texoma</p>
+        <h2 id="texoma-advertising-heading">Local advertising built around how people discover Texoma</h2>
+        <p>
+          Texoma Weekend Guide connects local advertisers with people actively searching for events, restaurants,
+          attractions, live music, lake activities, businesses, and weekend plans throughout the region.
+          Advertising can be targeted around geography, a specific event, or ongoing business visibility.
+        </p>
+      </div>
+
+      <div class="seo-grid">
+        <article class="seo-card">
+          <h3>Lake Texoma Advertising</h3>
+          <p>Promote marinas, fishing guides, lodging, restaurants, recreation, lake events, and other businesses serving visitors around Lake Texoma.</p>
+        </article>
+        <article class="seo-card">
+          <h3>Sherman & Denison Advertising</h3>
+          <p>Reach local audiences in the Sherman-Denison area with business promotion, event visibility, geographic placement, and dedicated social support.</p>
+        </article>
+        <article class="seo-card">
+          <h3>Texoma Event Advertising</h3>
+          <p>Give concerts, festivals, fundraisers, grand openings, community events, and other qualifying events extra visibility beyond their free TWG listing.</p>
+        </article>
+      </div>
     </div>
   </section>
 
@@ -386,7 +438,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 <style>
   .advertise-hero { padding: 5rem 0; background: linear-gradient(120deg, var(--navy), #176f95); color: white; }
   .hero-grid, .rate-wrap, .custom-grid, .contact-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(300px, .8fr); gap: 3rem; align-items: center; }
-  .advertise-hero h1 { max-width: 13ch; margin: 0 0 1.2rem; color: white; font-size: clamp(2.7rem, 7vw, 5.7rem); line-height: .97; letter-spacing: -.045em; }
+  .advertise-hero h1 { max-width: 14ch; margin: 0 0 1.2rem; color: white; font-size: clamp(2.7rem, 7vw, 5.4rem); line-height: .97; letter-spacing: -.045em; }
   .hero-copy { max-width: 760px; color: white; font-size: clamp(1.15rem, 2.2vw, 1.5rem); font-weight: 800; line-height: 1.45; }
   .promise { max-width: 760px; padding-left: 1rem; border-left: 5px solid var(--gold); color: white; font-weight: 700; line-height: 1.55; }
   .light { color: #bfeaf0; }
@@ -405,6 +457,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   .section-heading h2, .rate-wrap h2, .custom-grid h2, .contact-grid h2 { margin: .35rem 0 .9rem; font-size: clamp(2rem, 4.5vw, 3.4rem); line-height: 1.02; letter-spacing: -.035em; }
   .section-heading p:last-child, .rate-wrap p, .custom-grid p, .contact-grid p { line-height: 1.6; }
   .eyebrow { margin: 0; font-size: .82rem; font-weight: 900; letter-spacing: .11em; text-transform: uppercase; }
+  .seo-target-section { background: white; }
+  .seo-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 1rem; }
+  .seo-card { padding: 1.4rem; border: 1px solid #dbe4e8; border-radius: 16px; background: #f7f9fa; }
+  .seo-card h3 { margin-top: 0; color: var(--navy); }
+  .seo-card p { margin-bottom: 0; line-height: 1.55; }
   .growth-section, .examples-section, .placement-section { background: #f5f8fa; }
   .growth-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 1rem; margin: 2rem 0; }
   .growth-stat { padding: 1.6rem; border: 1px solid #dbe4e8; border-radius: 16px; background: white; }
@@ -474,7 +531,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   .sent-message { padding: 1rem; border-left: 5px solid var(--gold); background: white; font-weight: 800; }
 
   @media (max-width: 900px) {
-    .hero-grid, .rate-wrap, .custom-grid, .contact-grid, .package-grid, .example-grid, .process-grid, .growth-grid, .limits-grid { grid-template-columns: 1fr; }
+    .hero-grid, .rate-wrap, .custom-grid, .contact-grid, .package-grid, .example-grid, .process-grid, .growth-grid, .limits-grid, .seo-grid { grid-template-columns: 1fr; }
     .advertise-hero { padding: 3.5rem 0; }
     .advertise-hero h1 { max-width: none; }
     .price-summary { max-width: 620px; }
