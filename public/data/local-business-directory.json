@@ -5,8 +5,8 @@
   "generated_on": "2026-08-31",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1289,
-  "publish_ready_count": 965,
+  "business_count": 1290,
+  "publish_ready_count": 966,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -139643,6 +139643,98 @@
         "Fish cleaning and bagging",
         "Six-person boat capacity",
         "Satisfaction promise"
+      ]
+    },
+    {
+      "slug": "texoma-striper-snipers-guide-service",
+      "business_name": "Texoma Striper Snipers Guide Service",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Lake Texoma; Denison, Texas area",
+      "category": [
+        "Fishing Guide",
+        "Fishing Charter",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Striper Fishing",
+        "Striped Bass",
+        "Fishing Guide",
+        "Fishing Charter",
+        "Guided Fishing",
+        "Texoma Striper Snipers",
+        "Douglas Woodard",
+        "Woodard",
+        "Denison TX",
+        "Family Owned"
+      ],
+      "description": "Texoma Striper Snipers Guide Service is a locally family-owned fishing charter serving Lake Texoma. The guide service focuses on taking anglers out for guided fishing trips on the lake and is currently listed in Oklahoma's fishing-guide directory.",
+      "why_visit": "Texoma Striper Snipers is a local Lake Texoma guide option for visitors who want a dedicated guided fishing trip with a family-run charter operation.",
+      "why_its_unique": "The business presents itself as a locally family-owned Lake Texoma fishing charter and operates under the distinctive Texoma Striper Snipers name, with striped bass as the clear focus of the guide-service brand.",
+      "phone": "903-647-6623",
+      "email": "texomastripersnipers@yahoo.com",
+      "website": null,
+      "facebook": "https://www.facebook.com/texomastripersnipers/",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Trips are scheduled by reservation. Contact the guide service directly for current availability, trip length, departure location and pricing.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Current Oklahoma guide records list Texoma Striper Snipers Guide Service at 903-647-6623.",
+        "The business's current Facebook presence describes it as a local family-owned fishing charter operating on Lake Texoma.",
+        "An affiliated Woodard social profile publishes texomastripersnipers@yahoo.com as the business email and identifies the operation with Denison, Texas.",
+        "Current pricing, trip duration, boat specifications, included equipment and a fixed departure marina could not be independently verified during this pass and should be confirmed directly."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "parent_business": null,
+      "related_businesses": [
+        "lake-texoma"
+      ],
+      "related_geography": [
+        "texas",
+        "oklahoma"
+      ],
+      "verification_note": "Complete with limited-public-information caveat. Verified Aug. 30, 2026. Oklahoma Department of Wildlife Conservation currently lists Texoma Striper Snipers Guide Service at 903-647-6623 and associates the listing with Douglas Woodard. The business's current Facebook page describes Texoma Striper Snipers as a local family-owned fishing charter operating on Lake Texoma. A publicly indexed Kyle Woodard profile explicitly identifies Texoma Striper Snipers Guide Service, publishes texomastripersnipers@yahoo.com and lists Denison, Texas; because that profile does not establish Kyle as the sole owner or captain, no ownership claim is made from it. No independently verified current standalone website, published rates, exact departure marina, boat specifications, equipment list or trip-length information was located during this pass, so those fields are intentionally left null rather than guessed.",
+      "last_checked": "2026-08-30",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Lake Texoma fishing guide",
+        "Striped-bass guide service",
+        "Family-owned charter operation",
+        "Denison-area guide service"
       ]
     }
   ]
