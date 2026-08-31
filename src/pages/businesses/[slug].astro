@@ -144,7 +144,12 @@ const hasRelationships = parentBusinesses.length > 0 || childBusinesses.length >
             <h2>Events at {business.business_name}</h2>
             <div class="event-list">
               {venueEvents.map((event) => (
-                <article class="event-card">
+                <article
+                  class="event-card"
+                  data-event-recurring={isRecurringEvent(event) ? "true" : "false"}
+                  data-event-start={event.start_datetime || ""}
+                  data-event-end={event.end_datetime || ""}
+                >
                   <div>
                     <p class="event-status">{isRecurringEvent(event) ? "Recurring event" : "Upcoming event"}</p>
                     <h3><a href={`/events/${event.event_slug}/`}>{event.event_name}</a></h3>
@@ -194,6 +199,37 @@ const hasRelationships = parentBusinesses.length > 0 || childBusinesses.length >
       try { await navigator.clipboard.writeText(window.location.href); if (copyStatus) copyStatus.textContent = "Link copied."; }
       catch { if (copyStatus) copyStatus.textContent = "Select the address bar to copy this page link."; }
     });
+
+    const eventSection = document.querySelector(".events-section");
+    const eventCards = Array.from(eventSection?.querySelectorAll(".event-card") ?? []);
+    const now = new Date();
+    const chicagoParts = Object.fromEntries(
+      new Intl.DateTimeFormat("en-US", {
+        timeZone: "America/Chicago",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+      }).formatToParts(now).map((part) => [part.type, part.value])
+    );
+    const todayChicago = `${chicagoParts.year}-${chicagoParts.month}-${chicagoParts.day}`;
+
+    for (const card of eventCards) {
+      if (!(card instanceof HTMLElement) || card.dataset.eventRecurring === "true") continue;
+      const startValue = card.dataset.eventStart || "";
+      const endValue = card.dataset.eventEnd || "";
+      let expired = false;
+
+      if (endValue) {
+        const end = new Date(endValue);
+        expired = !Number.isNaN(end.getTime()) && end < now;
+      } else if (startValue) {
+        expired = startValue.slice(0, 10) < todayChicago;
+      }
+
+      if (expired) card.remove();
+    }
+
+    if (eventSection && !eventSection.querySelector(".event-card")) eventSection.remove();
   </script>
 </BaseLayout>
 
