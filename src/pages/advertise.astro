@@ -43,8 +43,8 @@ const advertisingServiceJsonLd = JSON.stringify({
           Paid advertising buys additional visibility and promotional effort, not permission to be listed.
         </p>
         <div class="hero-actions">
-          <a class="button" href="#packages">See Current Rates</a>
-          <a class="button secondary" href="#contact">Tell Us What You’re Promoting</a>
+          <a class="button" href="https://buy.stripe.com/cNi8wPgdH6ez9d181O2kw00">Start Featured Business — $45/mo</a>
+          <a class="button secondary" href="#packages">See All Promotion Options</a>
         </div>
       </div>
 
@@ -169,8 +169,9 @@ const advertisingServiceJsonLd = JSON.stringify({
             <li>Priority listing updates</li>
             <li>Up to 2 active upcoming events featured at one time, when applicable</li>
           </ul>
-          <p class="package-note"><strong>$45 per month.</strong> No long-term advertising contract required.</p>
-          <a class="button package-cta" href="#contact" data-package="Featured Business — $45/month">Keep My Business Visible</a>
+          <p class="package-note"><strong>$45 per month.</strong> Secure recurring card billing through Stripe. Cancel anytime; service continues through the end of the current billing period.</p>
+          <a class="button package-cta" href="https://buy.stripe.com/cNi8wPgdH6ez9d181O2kw00">Start Featured Business — $45/month</a>
+          <a class="manage-link" href="https://billing.stripe.com/p/login/cNi8wPgdH6ez9d181O2kw00">Already subscribed? Manage billing →</a>
         </article>
 
         <article class="package-card">
@@ -273,10 +274,10 @@ const advertisingServiceJsonLd = JSON.stringify({
       </div>
       <div class="process-grid">
         <article class="process-step"><span>1</span><h3>Choose a package</h3><p>Pick the option that fits your business, event, or campaign.</p></article>
-        <article class="process-step"><span>2</span><h3>Tell us what you’re promoting</h3><p>Send the details, dates, links, and any existing images or branding you want TWG to use.</p></article>
-        <article class="process-step"><span>3</span><h3>Confirm and get started</h3><p>TWG confirms the details and available placement, then sends payment instructions so promotion can begin.</p></article>
+        <article class="process-step"><span>2</span><h3>Tell us what you’re promoting</h3><p>Featured Business can start immediately. For one-time and custom campaigns, send the details, dates, links, and any existing images or branding you want TWG to use.</p></article>
+        <article class="process-step"><span>3</span><h3>Pay securely and get started</h3><p>Featured Business uses secure recurring Stripe checkout. Other campaigns are confirmed first, then TWG sends a secure payment link so promotion can begin.</p></article>
       </div>
-      <p class="payment-note">Cash App and Venmo are accepted after campaign details are confirmed.</p>
+      <p class="payment-note">Secure payments are processed through Stripe. Featured Business renews at $45/month until canceled. <a href="https://billing.stripe.com/p/login/cNi8wPgdH6ez9d181O2kw00">Existing advertisers can manage billing, invoices, payment methods, and cancellation here.</a></p>
     </div>
   </section>
 
@@ -378,7 +379,7 @@ const advertisingServiceJsonLd = JSON.stringify({
       <div>
         <p class="eyebrow">Ready to promote something?</p>
         <h2 id="contact-heading">Tell TWG what you want to promote.</h2>
-        <p>Choose a package and send the basic details. TWG will review the request, confirm the campaign details and available placement, and then send payment instructions.</p>
+        <p>Featured Business can start immediately with secure Stripe checkout. For a Single Event Boost, Flyer + Social package, or Custom Campaign, send the basic details below. TWG will review the request, confirm campaign details and available placement, and then send a secure payment link.</p>
         <div class="contact-prices">
           <p><strong>Featured Business</strong><span>$45/month</span></p>
           <p><strong>Single Event Boost</strong><span>$25</span></p>
@@ -410,7 +411,7 @@ const advertisingServiceJsonLd = JSON.stringify({
         </label>
         <label>What would you like to promote?<textarea name="message" rows="6" placeholder="Tell us what you’re promoting, important dates, links, and anything else TWG should know." required></textarea></label>
         <button class="button submit-button" type="submit">Send My Promotion Request</button>
-        <p class="form-note">No payment is required before TWG reviews and confirms your campaign details.</p>
+        <p class="form-note">Featured Business subscribers can use the secure checkout above. No payment is required before TWG reviews and confirms one-time or custom campaign requests.</p>
       </form>
     </div>
   </section>
@@ -489,6 +490,7 @@ const advertisingServiceJsonLd = JSON.stringify({
   .package-card li + li { margin-top: .45rem; }
   .package-note { margin-top: auto; padding-top: 1rem; }
   .package-cta { width: 100%; margin-top: .8rem; text-align: center; }
+  .manage-link { display: block; margin-top: .75rem; font-weight: 900; text-align: center; }
   .example-image { display: grid; min-height: 270px; place-items: center; overflow: hidden; background: #102c3d; }
   .business-example { padding: 1.25rem; }
   .business-example img { width: 100%; max-height: 250px; object-fit: contain; border-radius: 12px; }
@@ -503,6 +505,7 @@ const advertisingServiceJsonLd = JSON.stringify({
   .process-step h3 { margin: .85rem 0 .4rem; }
   .process-step p { margin-bottom: 0; line-height: 1.55; }
   .payment-note { margin: 1.25rem 0 0; text-align: center; font-weight: 800; }
+  .payment-note a { font-weight: 900; }
   .limits-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1.25rem; }
   .limit-card { padding: 1.5rem; border-radius: 16px; background: white; box-shadow: 0 12px 34px rgba(17,44,64,.06); }
   .limit-card h3 { margin-top: 0; }
