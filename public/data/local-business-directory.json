@@ -15730,7 +15730,9 @@
         "Outdoor seating",
         "Built-in stage",
         "Downtown Denison"
-      ]
+      ],
+      "logo_url": "/images/businesses/the-george-tavern-logo.jpg",
+      "logo_alt": "The George Tavern logo"
     },
     {
       "slug": "the-hearing-and-balance-clinic",
