@@ -139794,7 +139794,18 @@
       "logo": null,
       "logo_url": "/images/businesses/jbs-bowfishing-guide-services-logo.jpg",
       "logo_alt": "JB’s Bowfishing Guide Services logo",
-      "gallery": [],
+      "gallery": [
+        {
+          "url": "/images/businesses/jbs-bowfishing-guide-services/gallery-1788229144809-1.jpg",
+          "alt": "JB’s Bowfishing Guide Services photo 1",
+          "caption": "JB’s Bowfishing Guide Services on Lake Texoma."
+        },
+        {
+          "url": "/images/businesses/jbs-bowfishing-guide-services/gallery-1788229144809-2.jpg",
+          "alt": "JB’s Bowfishing Guide Services photo 2",
+          "caption": "A trophy gar from a nighttime bowfishing trip on Lake Texoma with JB’s Bowfishing Guide Services."
+        }
+      ],
       "hours": null,
       "hours_note": "Facebook lists the business as always open. Contact directly for trip availability.",
       "event_venue": false,
@@ -139805,7 +139816,7 @@
         "lake-texoma"
       ],
       "verification_note": "Business information confirmed directly by John Brown on August 31, 2026. Phone, email, Facebook page, business images and Lake Texoma service area were provided or confirmed directly.",
-      "last_checked": "2026-08-31",
+      "last_checked": "2026-09-01",
       "last_verified": "2026-08-31"
     }
   ]
