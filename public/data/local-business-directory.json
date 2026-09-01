@@ -5,8 +5,8 @@
   "generated_on": "2026-09-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1291,
-  "publish_ready_count": 967,
+  "business_count": 1292,
+  "publish_ready_count": 968,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -139828,6 +139828,60 @@
       "verification_note": "Business information confirmed directly by John Brown on August 31, 2026. Phone, email, Facebook page, business images and Lake Texoma service area were provided or confirmed directly.",
       "last_checked": "2026-09-01",
       "last_verified": "2026-08-31"
+    },
+    {
+      "slug": "reelin-them-in-guide-service",
+      "business_name": "Reelin' Them In Guide Service",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Mead, OK 73449",
+      "city": "Mead",
+      "state": "OK",
+      "postal_code": "73449",
+      "category": [
+        "Fishing Guide",
+        "Outdoor Recreation"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Fishing Guide",
+        "Crappie Fishing",
+        "LiveScope",
+        "Hugo Lake",
+        "Atoka Lake",
+        "Lake Eufaula",
+        "Mead Oklahoma"
+      ],
+      "description": "Reelin' Them In Guide Service is a Mead, Oklahoma-based fishing guide service operated by Kayle Ward. The service guides anglers on Lake Texoma, Hugo Lake, Atoka Lake and Lake Eufaula, with a strong focus on crappie fishing and LiveScope techniques.",
+      "why_visit": "Book a guided fishing trip with an experienced southern Oklahoma and North Texas crappie guide who fishes Lake Texoma and several other regional lakes.",
+      "why_its_unique": "Reelin' Them In Guide Service combines guided crappie fishing with hands-on LiveScope experience and serves multiple lakes across southern Oklahoma and North Texas.",
+      "phone": "580-579-0124",
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/ReelEmInGuide",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "image": null,
+      "image_url": null,
+      "image_alt": null,
+      "logo": null,
+      "logo_url": "/images/businesses/reelin-them-in-guide-service-logo.jpg",
+      "logo_alt": "Reelin' Them In Guide Service logo",
+      "gallery": [],
+      "hours": null,
+      "hours_note": "Call or text for trip availability and booking.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": null,
+      "related_geography": [
+        "lake-texoma"
+      ],
+      "last_checked": "2026-09-01",
+      "last_verified": "2026-09-01"
     }
   ]
 }
