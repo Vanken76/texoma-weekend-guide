@@ -5,8 +5,8 @@
   "generated_on": "2026-09-01",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1290,
-  "publish_ready_count": 966,
+  "business_count": 1291,
+  "publish_ready_count": 967,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -139754,6 +139754,59 @@
         "Family-owned charter operation",
         "Denison-area guide service"
       ]
+    },
+    {
+      "slug": "jbs-bowfishing-guide-services",
+      "business_name": "JB’s Bowfishing Guide Services",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Lake Texoma",
+      "category": [
+        "Bowfishing Guide",
+        "Fishing Guide"
+      ],
+      "tags": [
+        "Lake Texoma",
+        "Bowfishing",
+        "Fishing Guide",
+        "Guided Fishing",
+        "Outdoor Recreation"
+      ],
+      "description": "JB’s Bowfishing Guide Services offers guided bowfishing trips on Lake Texoma. Contact the guide service directly for current trip availability, scheduling and additional details.",
+      "why_visit": "A specialized option for visitors looking to experience bowfishing on Lake Texoma with a local guide service.",
+      "why_its_unique": "JB’s focuses specifically on guided bowfishing experiences on Lake Texoma.",
+      "good_to_know": [
+        "Contact JB’s Bowfishing Guide Services directly for current trip availability and scheduling.",
+        "Facebook currently lists the business as always open."
+      ],
+      "phone": "580-230-0331",
+      "email": "sooner_fan_jb55@yahoo.com",
+      "website": null,
+      "facebook": "https://www.facebook.com/profile.php?id=100090314417923",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "image": null,
+      "image_url": null,
+      "image_alt": "Bowfishing angler holding a large gar on a boat at night",
+      "logo": null,
+      "logo_url": "/images/businesses/jbs-bowfishing-guide-services-logo.jpg",
+      "logo_alt": "JB’s Bowfishing Guide Services logo",
+      "gallery": [],
+      "hours": null,
+      "hours_note": "Facebook lists the business as always open. Contact directly for trip availability.",
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "none",
+      "related_geography": [
+        "lake-texoma"
+      ],
+      "verification_note": "Business information confirmed directly by John Brown on August 31, 2026. Phone, email, Facebook page, business images and Lake Texoma service area were provided or confirmed directly.",
+      "last_checked": "2026-08-31",
+      "last_verified": "2026-08-31"
     }
   ]
 }
