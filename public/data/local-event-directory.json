@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 487,
-  "publish_ready_count": 487,
+  "event_count": 488,
+  "publish_ready_count": 488,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -31511,6 +31511,62 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified September 2, 2026. City of Tishomingo states the Johnston County Fair runs September 2–4 at 1301 S Airport Rd and that different events take place throughout the day. Exact daily opening and closing times were not provided. Midnight boundaries are used only to represent the verified multi-day date span and should not be interpreted as public operating hours.",
+      "last_checked": "2026-09-02",
+      "created_on": "2026-09-02",
+      "updated_on": "2026-09-02"
+    },
+    {
+      "event_slug": "fools-gold-band-at-calhouns-2-0-2026-09-04",
+      "event_name": "Fools Gold Band at Calhoun's 2.0",
+      "description": "Fools Gold Band makes its first appearance at Calhoun's 2.0 for a Friday night of live country music and two-stepping. Doors open at 7 PM.",
+      "start_datetime": "2026-09-04T19:00:00-05:00",
+      "end_datetime": null,
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "calhouns-2-0"
+      ],
+      "venue_name": "Calhoun's 2.0",
+      "address": null,
+      "city": "Denison",
+      "state": "TX",
+      "postal_code": null,
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Live Music",
+        "Nightlife"
+      ],
+      "tags": [
+        "Fools Gold Band",
+        "Country Music",
+        "Live Music",
+        "Two-Stepping",
+        "Denison"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$10 for ages 21+; $20 for ages 18–20.",
+      "audience": [
+        "Adults"
+      ],
+      "age_restriction": "18+ with valid ID",
+      "host_business_slug": "calhouns-2-0",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/fools-gold-band-at-calhouns-2-0-2026-09-04.png",
+      "image_alt": null,
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified September 2, 2026 from Calhoun's 2.0 current weekly Facebook post. Friday, September 4 features Fools Gold Band. Doors open at 7 PM. The post does not state a separate performance start time. Ages 18+ are welcome with valid ID. Friday cover is $10 for ages 21+ and $20 for ages 18–20.",
       "last_checked": "2026-09-02",
       "created_on": "2026-09-02",
       "updated_on": "2026-09-02"
