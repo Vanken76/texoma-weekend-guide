@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 486,
-  "publish_ready_count": 486,
+  "event_count": 487,
+  "publish_ready_count": 487,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -31454,6 +31454,63 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified September 2, 2026 from the current official Downtown Denison TX weekly event graphic. Published time is Sunday, September 6 from 2:00 PM to 7:00 PM at American Legion Post 62. Entry fee or tournament format was not published.",
+      "last_checked": "2026-09-02",
+      "created_on": "2026-09-02",
+      "updated_on": "2026-09-02"
+    },
+    {
+      "event_slug": "johnston-county-fair-2026",
+      "event_name": "Johnston County Fair 2026",
+      "description": "The Johnston County Fair returns to Tishomingo September 2–4, 2026, at the Johnston County Fair Barn. Fair activities and events take place throughout the day during the three-day event.",
+      "start_datetime": "2026-09-02T00:00:00-05:00",
+      "end_datetime": "2026-09-04T23:59:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "johnston-county-fair-barn"
+      ],
+      "venue_name": "Johnston County Fair Barn",
+      "address": "1301 S Airport Rd",
+      "city": "Tishomingo",
+      "state": "OK",
+      "postal_code": "73460",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Fairs & Festivals",
+        "Community Events",
+        "Family"
+      ],
+      "tags": [
+        "Johnston County Fair",
+        "County Fair",
+        "Tishomingo",
+        "Johnston County",
+        "Southern Oklahoma"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [
+        "All Ages"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/johnston-county-fair-2026.jpg",
+      "image_alt": null,
+      "official_url": null,
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified September 2, 2026. City of Tishomingo states the Johnston County Fair runs September 2–4 at 1301 S Airport Rd and that different events take place throughout the day. Exact daily opening and closing times were not provided. Midnight boundaries are used only to represent the verified multi-day date span and should not be interpreted as public operating hours.",
       "last_checked": "2026-09-02",
       "created_on": "2026-09-02",
       "updated_on": "2026-09-02"
