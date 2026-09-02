@@ -5,8 +5,8 @@
   "generated_on": "2026-09-02",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1293,
-  "publish_ready_count": 969,
+  "business_count": 1294,
+  "publish_ready_count": 970,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -139918,6 +139918,97 @@
       ],
       "verification_note": "Added September 2, 2026 as the canonical district-wide venue for Downtown Denison events that take place across multiple downtown businesses or public spaces rather than at one individual venue. Current Downtown Denison TX event listings confirm recurring district-wide programming.",
       "last_checked": "2026-09-02"
+    },
+    {
+      "slug": "johnston-county-fair-barn",
+      "business_name": "Johnston County Fair Barn",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1301 S Airport Rd, Tishomingo, OK 73460",
+      "category": [
+        "Fairgrounds",
+        "Event Venue",
+        "Community Venue",
+        "Agricultural Venue"
+      ],
+      "tags": [
+        "Johnston County Fair",
+        "County Fair",
+        "4-H",
+        "Agriculture",
+        "Community Events",
+        "Tishomingo",
+        "Johnston County",
+        "Southern Oklahoma"
+      ],
+      "description": "Johnston County Fair Barn is a county-owned public event facility at 1301 S Airport Rd in Tishomingo, Oklahoma. The facility serves as the Tishomingo home of the annual Johnston County Fair and hosts agricultural, 4-H, community and other scheduled events. Johnston County OSU Extension operates from the same address and serves as a public contact point for local fair and 4-H programming.",
+      "why_visit": "The Fair Barn is a central Johnston County gathering place for the annual county fair, agricultural activities, 4-H programming and other scheduled community events.",
+      "why_its_unique": "It is Johnston County's dedicated fair facility and the Tishomingo home of the annual Johnston County Fair.",
+      "phone": "580-371-9533",
+      "email": "johnston_oces@okstate.edu",
+      "website": "https://extension.okstate.edu/county/johnston",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": null,
+      "logo_alt": null,
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Public access hours vary by scheduled event. Johnston County OSU Extension, which operates from the same address and serves as a public contact for fair and 4-H programming, maintains separate weekday administrative hours.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Public hours depend on the event taking place.",
+        "Johnston County OSU Extension shares the 1301 S Airport Rd address and is a public contact for local fair and 4-H information."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Verified September 2, 2026 from current Johnston County OSU Extension, Johnston County and current local fair sources. The Fair Barn property is at 1301 S Airport Rd in Tishomingo. Phone, email and website are Johnston County OSU Extension contacts at the same address and are used for fair and 4-H programming. No dedicated Fair Barn public hours or official social-media account were verified, so those details were not invented.",
+      "last_checked": "2026-09-02",
+      "event_types": [
+        "County fairs",
+        "4-H events",
+        "Agricultural events",
+        "Community events"
+      ],
+      "event_sources": [
+        "Johnston County OSU Extension",
+        "City of Tishomingo Facebook",
+        "Johnston County Chamber of Commerce"
+      ],
+      "features": [
+        "County-owned public event facility",
+        "Annual Johnston County Fair venue",
+        "Agricultural and 4-H programming"
+      ]
     }
   ]
 }
