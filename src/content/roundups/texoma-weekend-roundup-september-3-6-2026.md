@@ -138,6 +138,10 @@ Saturday is the biggest day of the weekend, beginning with sunrise birding and f
 
 ![Texoma Weekend Guide Saturday events for September 5, 2026 featuring Goat Yoga, T.V. Munson Wine Walk, Denton Comic Art Expo, SummerWeen, Saturday Chess Meetup and the Senior Adult Tailgate Party](/images/1000043696.png)
 
+![Texoma Weekend Guide Saturday 8 and 9 PM events for September 5, 2026 featuring Derryl Perry at Calhoun's 2.0](/images/1000043984.png)
+
+![Texoma Weekend Guide Saturday 9 PM and later events for September 5, 2026](/images/1000043983.png)
+
 ## Sunday, September 6 — 16 events
 
 Sunday wraps up the weekend with brunch, SummerWeen, books, art, dancing, live entertainment, dinner theater, independent music, karaoke and comedy.
