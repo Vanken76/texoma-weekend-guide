@@ -5,7 +5,7 @@ const advertisingServiceJsonLd = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Texoma Advertising and Local Promotion",
-  serviceType: "Local advertising, business promotion, and event promotion",
+  serviceType: "Local advertising, business promotion, event promotion, and weekend roundup promotion",
   url: "https://texomaweekendguide.com/advertise/",
   description: "Texoma advertising for local businesses, venues, performers, events, festivals, and organizations through Texoma Weekend Guide.",
   provider: {
@@ -25,7 +25,7 @@ const advertisingServiceJsonLd = JSON.stringify({
 
 <BaseLayout
   title="Texoma Advertising | Advertise With Texoma Weekend Guide"
-  description="Texoma advertising for local businesses, events, venues, performers, festivals, and organizations. Reach people across Texoma with website placement, event promotion, custom graphics, and social promotion."
+  description="Texoma advertising for local businesses, events, venues, performers, festivals, and organizations. Reach people across Texoma with website placement, weekend roundup promotion, event graphics, and social promotion."
 >
   <script type="application/ld+json" set:html={advertisingServiceJsonLd} />
 
@@ -51,6 +51,7 @@ const advertisingServiceJsonLd = JSON.stringify({
       <aside class="price-summary" aria-label="Texoma Weekend Guide current early-growth advertising rates">
         <p class="stats-label">Current early-growth rates</p>
         <div class="summary-price"><strong>$45<span>/mo</span></strong><span>Featured Business</span></div>
+        <div class="summary-price"><strong>$20</strong><span>Weekend Roundup Event Upgrade</span></div>
         <div class="summary-price"><strong>$25</strong><span>Single Event Boost</span></div>
         <div class="summary-price"><strong>$20</strong><span>Flyer + Social</span></div>
         <p class="stats-note">No fake countdowns. No long-term advertising contract. Straightforward local promotion at today’s rates.</p>
@@ -66,7 +67,7 @@ const advertisingServiceJsonLd = JSON.stringify({
         <p>
           Texoma Weekend Guide connects local advertisers with people actively searching for events, restaurants,
           attractions, live music, lake activities, businesses, and weekend plans throughout the region.
-          Advertising can be targeted around geography, a specific event, or ongoing business visibility.
+          Advertising can be targeted around geography, a specific event, a weekend roundup, or ongoing business visibility.
         </p>
       </div>
 
@@ -172,8 +173,8 @@ const advertisingServiceJsonLd = JSON.stringify({
     <div class="container">
       <div class="section-heading centered">
         <p class="eyebrow">Choose your promotion</p>
-        <h2>Three simple ways to get more visibility</h2>
-        <p>Keep your business visible over time, give one event an extra push, or get a clean graphic with a dedicated social post.</p>
+        <h2>Four simple ways to get more visibility</h2>
+        <p>Keep your business visible over time, make one roundup listing impossible to miss, give an event a broader push, or get a clean graphic with a dedicated social post.</p>
       </div>
 
       <div class="package-grid">
@@ -197,6 +198,25 @@ const advertisingServiceJsonLd = JSON.stringify({
           <p class="package-note"><strong>$45 per month.</strong> Secure recurring card billing through Stripe. Cancel anytime; service continues through the end of the current billing period.</p>
           <a class="button package-cta" href="https://buy.stripe.com/cNi8wPgdH6ez9d181O2kw00">Start Featured Business — $45/month</a>
           <a class="manage-link" href="https://billing.stripe.com/p/login/cNi8wPgdH6ez9d181O2kw00">Already subscribed? Manage billing →</a>
+        </article>
+
+        <article class="package-card roundup-package">
+          <div class="package-topline">
+            <span class="package-tag">Stand out in the roundup</span>
+            <span class="package-price">$20</span>
+          </div>
+          <h3>Weekend Roundup Event Upgrade</h3>
+          <p class="package-lead">Turn one standard roundup listing into a bold visual event inset.</p>
+          <p>Your qualifying event still receives its normal free TWG listing. This upgrade adds a custom landscape promotional inset directly inside the appropriate Weekend Roundup page.</p>
+          <ul>
+            <li>1 custom landscape event inset designed by Texoma Weekend Guide</li>
+            <li>Prominent visual placement inside the appropriate Weekend Roundup page</li>
+            <li>Event name, date, time, venue, and location displayed in the graphic</li>
+            <li>Additional verified event details when available</li>
+            <li>Your event remains included in the full TWG event directory</li>
+          </ul>
+          <p class="package-note"><strong>$20 per event.</strong> One-time secure payment. Roundup placement depends on event timing and available space.</p>
+          <a class="button package-cta" href="https://buy.stripe.com/7sYaEXd1vfP960Peqc2kw04">Upgrade My Roundup Event — $20</a>
         </article>
 
         <article class="package-card">
@@ -246,6 +266,18 @@ const advertisingServiceJsonLd = JSON.stringify({
       </div>
 
       <div class="example-grid">
+        <article class="example-card roundup-example-card">
+          <a class="example-image flyer-example" href="/roundups/texoma-weekend-roundup-september-3-6-2026/">
+            <img src="/images/1000043984.png" alt="Texoma Weekend Guide Saturday roundup example featuring a Derryl Perry at Calhoun's 2.0 promotional inset" loading="lazy" />
+          </a>
+          <div class="example-copy">
+            <span class="proof-type">Weekend Roundup Event Upgrade example</span>
+            <h3>Derryl Perry at Calhoun’s 2.0</h3>
+            <p>A live TWG roundup page showing exactly how an upgraded event can break out of the standard text list with a bold visual inset.</p>
+            <a href="/roundups/texoma-weekend-roundup-september-3-6-2026/">View the live roundup →</a>
+          </div>
+        </article>
+
         <article class="example-card">
           <a class="example-image business-example" href="/businesses/calhouns-2-0/">
             <img src="/images/businesses/calhouns-2-0-logo.png" alt="Calhoun's 2.0 logo used on its Texoma Weekend Guide business listing" loading="lazy" />
@@ -285,8 +317,7 @@ const advertisingServiceJsonLd = JSON.stringify({
 
       <p class="editorial-note">
         <strong>Transparency note:</strong> TWG Business Spotlights are editorial selections and are not paid advertising.
-        Business Spotlights are shown here as examples of TWG’s business presentation style. Featured Business clients
-        receive paid Featured Business placement and the promotional benefits included with that package.
+        The Derryl Perry roundup inset shown above was created as a complimentary demonstration of the new Weekend Roundup Event Upgrade format; Calhoun’s 2.0 did not purchase that placement.
       </p>
     </div>
   </section>
@@ -299,7 +330,7 @@ const advertisingServiceJsonLd = JSON.stringify({
       </div>
       <div class="process-grid">
         <article class="process-step"><span>1</span><h3>Choose a package</h3><p>Pick the option that fits your business, event, or campaign.</p></article>
-        <article class="process-step"><span>2</span><h3>Pay securely</h3><p>Featured Business, Single Event Boost, and Flyer + Social can be purchased directly through secure Stripe checkout. Custom campaigns start with an inquiry.</p></article>
+        <article class="process-step"><span>2</span><h3>Pay securely</h3><p>Featured Business, Weekend Roundup Event Upgrade, Single Event Boost, and Flyer + Social can be purchased directly through secure Stripe checkout. Custom campaigns start with an inquiry.</p></article>
         <article class="process-step"><span>3</span><h3>Send the details and get started</h3><p>After checkout, TWG follows up for the business or event details, links, images, and branding needed for promotion. Custom campaigns are confirmed and quoted first.</p></article>
       </div>
       <p class="payment-note">Secure payments are processed through Stripe. Featured Business renews at $45/month until canceled. <a href="https://billing.stripe.com/p/login/cNi8wPgdH6ez9d181O2kw00">Existing advertisers can manage billing, invoices, payment methods, and cancellation here.</a></p>
@@ -358,6 +389,7 @@ const advertisingServiceJsonLd = JSON.stringify({
           <tbody>
             <tr><td>Business directory listing</td><td>Included</td><td>Included</td></tr>
             <tr><td>Qualifying local event listing</td><td>Included</td><td>Included</td></tr>
+            <tr><td>Expanded visual inset inside Weekend Roundup</td><td>Not included</td><td>Included with Roundup Event Upgrade</td></tr>
             <tr><td>Featured geographic placement</td><td>Not guaranteed</td><td>Included when applicable</td></tr>
             <tr><td>Rotating homepage eligibility</td><td>Not guaranteed</td><td>Included with featured packages</td></tr>
             <tr><td>Dedicated social promotion</td><td>Occasional editorial coverage</td><td>Included by package</td></tr>
@@ -404,9 +436,10 @@ const advertisingServiceJsonLd = JSON.stringify({
       <div>
         <p class="eyebrow">Need help or something custom?</p>
         <h2 id="contact-heading">Tell TWG what you want to promote.</h2>
-        <p>Featured Business, Single Event Boost, and Flyer + Social can be purchased directly above through secure Stripe checkout. For a Custom Campaign — or if you have questions before purchasing — send the basic details below.</p>
+        <p>Featured Business, Weekend Roundup Event Upgrade, Single Event Boost, and Flyer + Social can be purchased directly above through secure Stripe checkout. For a Custom Campaign — or if you have questions before purchasing — send the basic details below.</p>
         <div class="contact-prices">
           <p><strong>Featured Business</strong><span>$45/month</span></p>
+          <p><strong>Weekend Roundup Event Upgrade</strong><span>$20</span></p>
           <p><strong>Single Event Boost</strong><span>$25</span></p>
           <p><strong>Flyer + Social</strong><span>$20</span></p>
           <p><strong>Custom Campaign</strong><span>Request a quote</span></p>
@@ -429,6 +462,7 @@ const advertisingServiceJsonLd = JSON.stringify({
           <select name="package" id="package-select" required>
             <option value="">Choose a package</option>
             <option>Featured Business — $45/month</option>
+            <option>Weekend Roundup Event Upgrade — $20</option>
             <option>Single Event Boost — $25</option>
             <option>Flyer + Social — $20</option>
             <option>Custom Campaign — Request a Quote</option>
@@ -500,10 +534,13 @@ const advertisingServiceJsonLd = JSON.stringify({
   .growth-callout small { color: #59646c; }
   .rate-section { background: var(--navy); color: white; }
   .rate-wrap h2, .rate-wrap p { color: white; }
-  .package-grid, .example-grid, .process-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 1.25rem; align-items: stretch; }
+  .package-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1.25rem; align-items: stretch; }
+  .example-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1.25rem; align-items: stretch; }
+  .process-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 1.25rem; align-items: stretch; }
   .package-card, .example-card { overflow: hidden; border: 1px solid #dbe4e8; border-radius: 16px; background: white; box-shadow: 0 12px 34px rgba(17,44,64,.06); }
   .package-card { display: flex; flex-direction: column; padding: 1.6rem; }
   .featured-package { border: 2px solid var(--gold); box-shadow: 0 18px 44px rgba(17,44,64,.11); }
+  .roundup-package { border: 2px solid #176f95; box-shadow: 0 18px 44px rgba(17,44,64,.1); }
   .package-topline { display: flex; justify-content: space-between; gap: 1rem; align-items: flex-start; }
   .package-tag, .proof-type { color: #176f95; font-size: .76rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
   .package-price { color: var(--navy); font-size: 1.8rem; font-weight: 900; line-height: 1; white-space: nowrap; }
@@ -520,6 +557,7 @@ const advertisingServiceJsonLd = JSON.stringify({
   .business-example { padding: 1.25rem; }
   .business-example img { width: 100%; max-height: 250px; object-fit: contain; border-radius: 12px; }
   .flyer-example img { width: 100%; height: 360px; object-fit: contain; }
+  .roundup-example-card .flyer-example img { height: 420px; }
   .example-copy { padding: 1.3rem; }
   .example-copy h3 { margin: .45rem 0 .6rem; }
   .example-copy p { line-height: 1.55; }
@@ -563,7 +601,7 @@ const advertisingServiceJsonLd = JSON.stringify({
     .advertise-hero { padding: 3.5rem 0; }
     .advertise-hero h1 { max-width: none; }
     .price-summary { max-width: 620px; }
-    .flyer-example img { height: auto; max-height: 540px; }
+    .flyer-example img, .roundup-example-card .flyer-example img { height: auto; max-height: 540px; }
   }
 
   @media (max-width: 560px) {
