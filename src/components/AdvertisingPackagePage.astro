@@ -3,10 +3,16 @@ interface Proof {
   label: string;
   title: string;
   description: string;
-  image: string;
-  alt: string;
+  image?: string;
+  alt?: string;
   href?: string;
   linkLabel?: string;
+  compareBefore?: string;
+  compareAfter?: string;
+  beforeAlt?: string;
+  afterAlt?: string;
+  beforeLabel?: string;
+  afterLabel?: string;
 }
 
 interface Props {
@@ -110,14 +116,31 @@ const otherPackages = packages.filter((item) => item.slug !== currentSlug);
         </div>
         <div class:list={["proof-grid", proofs.length === 1 && "single-proof"]}>
           {proofs.map((proof) => (
-            <article class="proof-card">
-              {proof.href ? (
+            <article class:list={["proof-card", proof.compareBefore && proof.compareAfter && "comparison-proof-card"]}>
+              {proof.compareBefore && proof.compareAfter ? (
+                <div class="comparison-proof" aria-label={proof.title}>
+                  <div class="comparison-heading">
+                    <strong>Weekend Roundup Event Upgrade</strong>
+                    <span>See the difference between a standard free listing and an upgraded visual placement.</span>
+                  </div>
+                  <div class="comparison-images">
+                    <figure class="comparison-panel before-panel">
+                      <figcaption>{proof.beforeLabel ?? "Standard Free Listing"}</figcaption>
+                      <img src={proof.compareBefore} alt={proof.beforeAlt ?? "Standard free Texoma Weekend Guide roundup listing"} loading="lazy" />
+                    </figure>
+                    <figure class="comparison-panel after-panel">
+                      <figcaption>{proof.afterLabel ?? "Paid Roundup Upgrade — $20"}</figcaption>
+                      <img src={proof.compareAfter} alt={proof.afterAlt ?? "Paid Texoma Weekend Guide Weekend Roundup Event Upgrade"} loading="lazy" />
+                    </figure>
+                  </div>
+                </div>
+              ) : proof.href && proof.image ? (
                 <a class="proof-image" href={proof.href}>
-                  <img src={proof.image} alt={proof.alt} loading="lazy" />
+                  <img src={proof.image} alt={proof.alt ?? proof.title} loading="lazy" />
                 </a>
-              ) : (
-                <div class="proof-image"><img src={proof.image} alt={proof.alt} loading="lazy" /></div>
-              )}
+              ) : proof.image ? (
+                <div class="proof-image"><img src={proof.image} alt={proof.alt ?? proof.title} loading="lazy" /></div>
+              ) : null}
               <div class="proof-copy">
                 <span>{proof.label}</span>
                 <h3>{proof.title}</h3>
@@ -196,8 +219,19 @@ const otherPackages = packages.filter((item) => item.slug !== currentSlug);
   .proof-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1.25rem; }
   .proof-grid.single-proof { grid-template-columns: minmax(0,1000px); justify-content: center; }
   .proof-card { overflow: hidden; border: 1px solid #dbe4e8; border-radius: 16px; background: white; box-shadow: 0 12px 34px rgba(17,44,64,.07); }
+  .comparison-proof-card { grid-column: 1 / -1; }
   .proof-image { display: grid; min-height: 270px; place-items: center; overflow: hidden; background: #102c3d; }
   .proof-image img { width: 100%; max-height: 620px; object-fit: contain; }
+  .comparison-proof { padding: 1rem; background: #fbfaf6; }
+  .comparison-heading { padding: .25rem .5rem 1rem; text-align: center; }
+  .comparison-heading strong { display: block; color: var(--navy); font-size: clamp(1.7rem, 4vw, 2.8rem); line-height: 1.05; text-transform: uppercase; }
+  .comparison-heading span { display: block; margin-top: .35rem; font-weight: 700; }
+  .comparison-images { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; }
+  .comparison-panel { margin: 0; overflow: hidden; border: 1px solid #cdd9df; border-radius: 14px; background: white; box-shadow: 0 8px 24px rgba(17,44,64,.08); }
+  .comparison-panel figcaption { padding: .75rem 1rem; color: white; font-size: clamp(1rem, 2.2vw, 1.45rem); font-weight: 900; text-align: center; text-transform: uppercase; }
+  .before-panel figcaption { background: var(--navy); }
+  .after-panel figcaption { background: #0d6d69; }
+  .comparison-panel img { display: block; width: 100%; height: auto; }
   .proof-copy { padding: 1.3rem; }
   .proof-copy > span { color: #176f95; font-size: .75rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
   .proof-copy h3 { margin: .45rem 0 .55rem; }
@@ -220,7 +254,7 @@ const otherPackages = packages.filter((item) => item.slug !== currentSlug);
   .all-options { margin-top: 1.4rem; font-weight: 900; }
 
   @media (max-width: 900px) {
-    .hero-grid, .detail-grid, .conversion-card, .proof-grid, .other-grid { grid-template-columns: 1fr; }
+    .hero-grid, .detail-grid, .conversion-card, .proof-grid, .other-grid, .comparison-images { grid-template-columns: 1fr; }
     .package-hero { padding: 3.5rem 0; }
     h1 { max-width: none; }
     .price-card { max-width: 620px; }
