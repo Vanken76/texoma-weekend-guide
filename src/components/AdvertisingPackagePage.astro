@@ -7,12 +7,6 @@ interface Proof {
   alt?: string;
   href?: string;
   linkLabel?: string;
-  compareBefore?: string;
-  compareAfter?: string;
-  beforeAlt?: string;
-  afterAlt?: string;
-  beforeLabel?: string;
-  afterLabel?: string;
 }
 
 interface Props {
@@ -54,12 +48,15 @@ const {
 } = Astro.props;
 
 const packages = [
-  { slug: "weekend-roundup-event-upgrade", name: "Weekend Roundup Event Upgrade", price: "$20", blurb: "Turn one standard roundup listing into a custom visual inset." },
-  { slug: "single-event-boost", name: "Single Event Boost", price: "$25", blurb: "Broader one-event promotion across TWG web and social channels." },
-  { slug: "flyer-social", name: "Flyer + Social", price: "$20", blurb: "A custom promotional graphic plus a dedicated Facebook post." },
-  { slug: "featured-business", name: "Featured Business", price: "$45/mo", blurb: "Ongoing business visibility, profile enhancements, and recurring promotion." },
-  { slug: "custom-campaigns", name: "Custom Campaign", price: "Quote", blurb: "Build a larger campaign for launches, festivals, series, and major promotions." }
+  { slug: "custom-flyer", name: "Custom Flyer", price: "$10", blurb: "One custom promotional graphic. Creative production only." },
+  { slug: "flyer-social", name: "Flyer + TWG Social Promotion", price: "$20", blurb: "A custom graphic plus one dedicated TWG social post." },
+  { slug: "weekend-roundup-promotion", name: "Weekend Roundup Promotion", price: "$20", blurb: "One paid visual placement inside a Weekend Roundup." },
+  { slug: "single-event-boost", name: "Single Event Boost", price: "$30", blurb: "Flyer + social promotion + roundup promotion for one event." },
+  { slug: "featured-business", name: "Featured Business", price: "$45/mo", blurb: "Ongoing website-only featured business visibility." },
+  { slug: "weekend-roundup-sponsor", name: "Weekend Roundup Sponsor", price: "$100", blurb: "Exclusive title sponsorship of one Weekend Roundup." },
+  { slug: "custom-campaigns", name: "Custom Campaign", price: "Quote", blurb: "Larger or multi-channel campaigns built around your needs." }
 ];
+
 const otherPackages = packages.filter((item) => item.slug !== currentSlug);
 ---
 
@@ -111,30 +108,13 @@ const otherPackages = packages.filter((item) => item.slug !== currentSlug);
       <div class="container">
         <div class="section-heading centered">
           <p class="eyebrow">Real TWG examples</p>
-          <h2>See what the promotion looks like</h2>
-          <p>These examples use work already published by Texoma Weekend Guide so you can see the presentation before purchasing.</p>
+          <h2>See the presentation</h2>
+          <p>These examples use work already published by Texoma Weekend Guide so you can see the style before purchasing.</p>
         </div>
         <div class:list={["proof-grid", proofs.length === 1 && "single-proof"]}>
           {proofs.map((proof) => (
-            <article class:list={["proof-card", proof.compareBefore && proof.compareAfter && "comparison-proof-card"]}>
-              {proof.compareBefore && proof.compareAfter ? (
-                <div class="comparison-proof" aria-label={proof.title}>
-                  <div class="comparison-heading">
-                    <strong>Weekend Roundup Event Upgrade</strong>
-                    <span>See the difference between a standard free listing and an upgraded visual placement.</span>
-                  </div>
-                  <div class="comparison-images">
-                    <figure class="comparison-panel before-panel">
-                      <figcaption>{proof.beforeLabel ?? "Standard Free Listing"}</figcaption>
-                      <img src={proof.compareBefore} alt={proof.beforeAlt ?? "Standard free Texoma Weekend Guide roundup listing"} loading="lazy" />
-                    </figure>
-                    <figure class="comparison-panel after-panel">
-                      <figcaption>{proof.afterLabel ?? "Paid Roundup Upgrade — $20"}</figcaption>
-                      <img src={proof.compareAfter} alt={proof.afterAlt ?? "Paid Texoma Weekend Guide Weekend Roundup Event Upgrade"} loading="lazy" />
-                    </figure>
-                  </div>
-                </div>
-              ) : proof.href && proof.image ? (
+            <article class="proof-card">
+              {proof.href && proof.image ? (
                 <a class="proof-image" href={proof.href}>
                   <img src={proof.image} alt={proof.alt ?? proof.title} loading="lazy" />
                 </a>
@@ -173,9 +153,9 @@ const otherPackages = packages.filter((item) => item.slug !== currentSlug);
   <section class="section other-section">
     <div class="container">
       <div class="section-heading">
-        <p class="eyebrow">Other ways to promote with TWG</p>
-        <h2>Not quite what you need?</h2>
-        <p>Compare the other Texoma Weekend Guide promotion options.</p>
+        <p class="eyebrow">Other ways to advertise with TWG</p>
+        <h2>Need a different kind of promotion?</h2>
+        <p>Choose the channel and level of exposure that fits what you are trying to accomplish.</p>
       </div>
       <div class="other-grid">
         {otherPackages.map((item) => (
@@ -196,7 +176,7 @@ const otherPackages = packages.filter((item) => item.slug !== currentSlug);
   .back-link { display: inline-block; margin-bottom: 1.5rem; color: #d9eef5; font-weight: 800; }
   .eyebrow { margin: 0; font-size: .8rem; font-weight: 900; letter-spacing: .11em; text-transform: uppercase; }
   .light { color: #bfeaf0; }
-  h1 { max-width: 13ch; margin: .4rem 0 1rem; color: white; font-size: clamp(2.6rem, 7vw, 5rem); line-height: .98; letter-spacing: -.045em; }
+  h1 { max-width: 14ch; margin: .4rem 0 1rem; color: white; font-size: clamp(2.6rem, 7vw, 5rem); line-height: .98; letter-spacing: -.045em; }
   .hero-lead { max-width: 760px; margin: 0 0 .7rem; color: white; font-size: clamp(1.2rem, 2.3vw, 1.5rem); font-weight: 900; line-height: 1.4; }
   .hero-copy { max-width: 760px; color: white; line-height: 1.65; }
   .hero-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.5rem; }
@@ -219,19 +199,8 @@ const otherPackages = packages.filter((item) => item.slug !== currentSlug);
   .proof-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1.25rem; }
   .proof-grid.single-proof { grid-template-columns: minmax(0,1000px); justify-content: center; }
   .proof-card { overflow: hidden; border: 1px solid #dbe4e8; border-radius: 16px; background: white; box-shadow: 0 12px 34px rgba(17,44,64,.07); }
-  .comparison-proof-card { grid-column: 1 / -1; }
   .proof-image { display: grid; min-height: 270px; place-items: center; overflow: hidden; background: #102c3d; }
-  .proof-image img { width: 100%; max-height: 620px; object-fit: contain; }
-  .comparison-proof { padding: 1rem; background: #fbfaf6; }
-  .comparison-heading { padding: .25rem .5rem 1rem; text-align: center; }
-  .comparison-heading strong { display: block; color: var(--navy); font-size: clamp(1.7rem, 4vw, 2.8rem); line-height: 1.05; text-transform: uppercase; }
-  .comparison-heading span { display: block; margin-top: .35rem; font-weight: 700; }
-  .comparison-images { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; }
-  .comparison-panel { margin: 0; overflow: hidden; border: 1px solid #cdd9df; border-radius: 14px; background: white; box-shadow: 0 8px 24px rgba(17,44,64,.08); }
-  .comparison-panel figcaption { padding: .75rem 1rem; color: white; font-size: clamp(1rem, 2.2vw, 1.45rem); font-weight: 900; text-align: center; text-transform: uppercase; }
-  .before-panel figcaption { background: var(--navy); }
-  .after-panel figcaption { background: #0d6d69; }
-  .comparison-panel img { display: block; width: 100%; height: auto; }
+  .proof-image img { width: 100%; max-height: 680px; object-fit: contain; }
   .proof-copy { padding: 1.3rem; }
   .proof-copy > span { color: #176f95; font-size: .75rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
   .proof-copy h3 { margin: .45rem 0 .55rem; }
@@ -252,12 +221,9 @@ const otherPackages = packages.filter((item) => item.slug !== currentSlug);
   .other-card p { margin: .4rem 0 0; line-height: 1.45; }
   .other-card > span { color: #176f95; font-weight: 900; white-space: nowrap; }
   .all-options { margin-top: 1.4rem; font-weight: 900; }
-
-  @media (max-width: 900px) {
-    .hero-grid, .detail-grid, .conversion-card, .proof-grid, .other-grid, .comparison-images { grid-template-columns: 1fr; }
-    .package-hero { padding: 3.5rem 0; }
-    h1 { max-width: none; }
-    .price-card { max-width: 620px; }
-    .proof-image img { max-height: none; }
+  @media (max-width: 820px) {
+    .hero-grid, .detail-grid, .conversion-card { grid-template-columns: 1fr; }
+    .proof-grid, .other-grid { grid-template-columns: 1fr; }
+    .package-hero { padding: 3.6rem 0; }
   }
 </style>
