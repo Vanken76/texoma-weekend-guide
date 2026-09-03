@@ -1,0 +1,54 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AdvertisingPackagePage from "../../components/AdvertisingPackagePage.astro";
+
+const proofs = [
+  {
+    label: "TWG promotional presentation example",
+    title: "Published TWG event graphics",
+    description: "TWG uses clean, readable custom graphics and social presentation to help local events stand out beyond a basic directory listing.",
+    image: "/images/1000042734.png",
+    alt: "Texoma Weekend Guide published event roundup graphic showing the visual presentation style used for local event promotion",
+    href: "/events/",
+    linkLabel: "Browse TWG events →"
+  }
+];
+---
+
+<BaseLayout
+  title="Single Event Boost | Texoma Weekend Guide"
+  description="Give one qualifying Texoma event broader promotion with featured placement, a custom graphic, Facebook promotion, and Story reminders for $25."
+  image="/images/1000042734.png"
+>
+  <AdvertisingPackagePage
+    currentSlug="single-event-boost"
+    eyebrow="One-event promotion"
+    title="Single Event Boost"
+    price="$25"
+    priceNote="One-time payment for one event. No contract."
+    lead="Give one event a broader promotional push beyond its free TWG directory listing."
+    description="The Single Event Boost is for organizers who want more than one roundup visual. It combines featured-event website placement with a custom promotional graphic and dedicated Facebook support around one qualifying event."
+    includes={[
+      "Featured-event placement on an appropriate TWG geographic page",
+      "Eligibility for rotating homepage event placement",
+      "1 custom promotional flyer or event graphic",
+      "1 dedicated Facebook post",
+      "Facebook Story promotion",
+      "Reminder Story before the event"
+    ]}
+    bestFor={[
+      "Concerts and ticketed performances",
+      "Festivals and fundraisers",
+      "Grand openings and special promotions",
+      "Events that need both website and social visibility",
+      "Organizers who want a broader push than a roundup-only upgrade"
+    ]}
+    ctaLabel="Boost My Event — $25"
+    ctaHref="https://buy.stripe.com/aFa14n9PjgTd1Kz95S2kw01"
+    secondaryCtaLabel="Compare all promotion options"
+    secondaryCtaHref="/advertise/"
+    timingNote="Featured placement, social scheduling, and reminders depend on event timing and available promotional inventory. Earlier purchase gives TWG more room to schedule the full package effectively."
+    transparencyNote="The published graphic shown here is an example of TWG’s event-promotion presentation style and is not represented as a paid Single Event Boost purchase."
+    proofs={proofs}
+  />
+</BaseLayout>

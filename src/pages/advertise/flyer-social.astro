@@ -1,0 +1,48 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AdvertisingPackagePage from "../../components/AdvertisingPackagePage.astro";
+
+const proofs = [
+  {
+    label: "TWG graphic example",
+    title: "Clean event graphics built for quick discovery",
+    description: "A published TWG graphic showing the readable, branded presentation style used for event and social promotion.",
+    image: "/images/1000042734.png",
+    alt: "Texoma Weekend Guide published Sunday events graphic showing the presentation style used for event promotion"
+  }
+];
+---
+
+<BaseLayout
+  title="Flyer + Social | Texoma Weekend Guide"
+  description="Get one custom Texoma promotional flyer or social graphic plus one dedicated Facebook post for $20 through Texoma Weekend Guide."
+  image="/images/1000042734.png"
+>
+  <AdvertisingPackagePage
+    currentSlug="flyer-social"
+    eyebrow="Quick visual promotion"
+    title="Flyer + Social"
+    price="$20"
+    priceNote="One-time payment. No subscription or advertising contract."
+    lead="Get a clean promotional graphic and a dedicated Facebook push without buying a larger campaign."
+    description="Flyer + Social is the simple visual package: TWG creates one custom promotional graphic appropriate to your business or event and pairs it with one dedicated Facebook post."
+    includes={[
+      "1 custom promotional flyer or social graphic",
+      "1 dedicated Facebook post",
+      "TWG promotional presentation appropriate to your business or event"
+    ]}
+    bestFor={[
+      "One-off announcements",
+      "Upcoming events that already have the rest of their promotion covered",
+      "Business specials and launches",
+      "Organizations that mainly need a clean visual and a social post"
+    ]}
+    ctaLabel="Get Flyer + Social — $20"
+    ctaHref="https://buy.stripe.com/14A4gz2mRcCX4WL1Dq2kw02"
+    secondaryCtaLabel="Compare all promotion options"
+    secondaryCtaHref="/advertise/"
+    timingNote="Turnaround depends on the information and assets provided and TWG’s current production schedule. Time-sensitive requests should be purchased with enough lead time for design and posting."
+    transparencyNote="The published graphic shown here is a TWG presentation example and is not represented as a paid Flyer + Social purchase."
+    proofs={proofs}
+  />
+</BaseLayout>

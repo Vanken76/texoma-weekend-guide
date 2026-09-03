@@ -1,0 +1,60 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AdvertisingPackagePage from "../../components/AdvertisingPackagePage.astro";
+
+const proofs = [
+  {
+    label: "Before-and-after comparison",
+    title: "Standard listing vs. paid roundup upgrade",
+    description: "The same event goes from a normal free text listing to a custom visual inset that stands out inside the roundup.",
+    image: "/images/roundup-upgrade-comparison.webp",
+    alt: "Side-by-side Texoma Weekend Guide comparison showing a standard free event listing and a paid Weekend Roundup Event Upgrade"
+  },
+  {
+    label: "Live TWG example",
+    title: "Derryl Perry at Calhoun’s 2.0",
+    description: "A published Weekend Roundup page showing the upgraded visual inset in the actual roundup format.",
+    image: "/images/1000043984.png",
+    alt: "Texoma Weekend Guide Saturday roundup featuring a Derryl Perry at Calhoun's 2.0 visual event inset",
+    href: "/roundups/texoma-weekend-roundup-september-3-6-2026/",
+    linkLabel: "View the live roundup →"
+  }
+];
+---
+
+<BaseLayout
+  title="Weekend Roundup Event Upgrade | Texoma Weekend Guide"
+  description="Upgrade one qualifying Texoma event from a standard free roundup listing to a custom visual inset inside the Texoma Weekend Guide Weekend Roundup for $20."
+  image="/images/roundup-upgrade-comparison.webp"
+>
+  <AdvertisingPackagePage
+    currentSlug="weekend-roundup-event-upgrade"
+    eyebrow="Weekend Roundup promotion"
+    title="Weekend Roundup Event Upgrade"
+    price="$20"
+    priceNote="One-time payment for one qualifying event. No subscription."
+    lead="Turn one standard free roundup listing into a bold custom visual event inset."
+    description="Qualifying local events can still receive their normal TWG listing at no cost. The $20 upgrade adds a custom landscape promotional inset directly inside the appropriate Weekend Roundup so your event has substantially more visual presence."
+    includes={[
+      "1 custom landscape event inset designed by Texoma Weekend Guide",
+      "Prominent visual placement inside the appropriate Weekend Roundup page",
+      "Event name, date, time, venue, and location displayed directly in the graphic",
+      "Additional verified event details when available and appropriate",
+      "Your event remains included in the full TWG event directory"
+    ]}
+    bestFor={[
+      "Live music and one-night performances",
+      "Tournaments and special events",
+      "Festivals and community events",
+      "Grand openings",
+      "Events that need extra visibility in the upcoming weekend roundup"
+    ]}
+    ctaLabel="Upgrade My Event — $20"
+    ctaHref="https://buy.stripe.com/7sYaEXd1vfP960Peqc2kw04"
+    secondaryCtaLabel="View the live example"
+    secondaryCtaHref="/roundups/texoma-weekend-roundup-september-3-6-2026/"
+    timingNote="Roundup placement depends on event timing, available space, and purchase timing. Events purchased too late for the next roundup may need to be scheduled for another eligible roundup or refunded if TWG cannot fulfill the placement."
+    transparencyNote="The Derryl Perry at Calhoun’s 2.0 example was created as a complimentary demonstration of this format. Calhoun’s 2.0 did not purchase that placement."
+    proofs={proofs}
+  />
+</BaseLayout>

@@ -1,0 +1,64 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AdvertisingPackagePage from "../../components/AdvertisingPackagePage.astro";
+
+const proofs = [
+  {
+    label: "Editorial business presentation example",
+    title: "Calhoun’s 2.0",
+    description: "A real TWG business page showing how strong branding, useful local information, and event connections can be presented inside the guide.",
+    image: "/images/businesses/calhouns-2-0-logo.png",
+    alt: "Calhoun's 2.0 logo used on its Texoma Weekend Guide business page",
+    href: "/businesses/calhouns-2-0/",
+    linkLabel: "View the business page →"
+  },
+  {
+    label: "Editorial business presentation example",
+    title: "The Salty Heifer Cafe",
+    description: "A real TWG local-business presentation showing the type of branded directory presence already built into the guide.",
+    image: "/images/businesses/the-salty-heifer-cafe-denison-logo.jpg",
+    alt: "The Salty Heifer Cafe logo used on its Texoma Weekend Guide business page",
+    href: "/businesses/the-salty-heifer-cafe-denison/",
+    linkLabel: "View the business page →"
+  }
+];
+---
+
+<BaseLayout
+  title="Featured Business Advertising | Texoma Weekend Guide"
+  description="Get ongoing Featured Business visibility across Texoma Weekend Guide with enhanced profile presentation, geographic placement, social posts, Stories, and priority updates for $45 per month."
+  image="/images/businesses/calhouns-2-0-logo-facebook-20260807.png"
+>
+  <AdvertisingPackagePage
+    currentSlug="featured-business"
+    eyebrow="Ongoing business visibility"
+    title="Featured Business"
+    price="$45/mo"
+    priceNote="Recurring monthly billing through Stripe. Cancel anytime."
+    lead="Keep your business visible throughout the month instead of relying on one post or one event."
+    description="Featured Business is TWG’s ongoing promotion package for local businesses that want enhanced presentation, recurring social support, and higher-visibility placement across relevant parts of the guide."
+    includes={[
+      "Featured placement on relevant city, county, and/or state pages",
+      "Eligibility for rotating homepage featured placement",
+      "Enhanced business profile with logo and expanded photo/gallery presentation",
+      "2 dedicated social media posts per month",
+      "Facebook Story promotion and reminders",
+      "Priority listing updates",
+      "Up to 2 active upcoming events featured at one time, when applicable"
+    ]}
+    bestFor={[
+      "Restaurants, bars, and entertainment venues",
+      "Lake businesses and tourism operators",
+      "Retailers and service businesses",
+      "Businesses with recurring events or promotions",
+      "Organizations that want ongoing visibility rather than a one-time push"
+    ]}
+    ctaLabel="Start Featured Business — $45/month"
+    ctaHref="https://buy.stripe.com/cNi8wPgdH6ez9d181O2kw00"
+    secondaryCtaLabel="Questions before subscribing?"
+    secondaryCtaHref="/advertise/#contact"
+    timingNote="Homepage and geographic positions rotate among eligible advertisers and depend on geography, relevance, available inventory, and campaign timing. Continuous homepage placement is not guaranteed."
+    transparencyNote="Calhoun’s 2.0 and The Salty Heifer Cafe examples shown here are editorial business presentations, not paid Featured Business placements. They demonstrate TWG’s business presentation style without implying those businesses purchased advertising."
+    proofs={proofs}
+  />
+</BaseLayout>

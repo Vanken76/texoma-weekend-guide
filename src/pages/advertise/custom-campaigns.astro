@@ -1,0 +1,61 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AdvertisingPackagePage from "../../components/AdvertisingPackagePage.astro";
+
+const proofs = [
+  {
+    label: "TWG event-promotion example",
+    title: "Published event graphics",
+    description: "Custom campaigns can combine the same visual event-promotion work TWG already uses with expanded scheduling, placement, and social support.",
+    image: "/images/1000042734.png",
+    alt: "Texoma Weekend Guide published event graphic showing TWG event-promotion presentation"
+  },
+  {
+    label: "TWG business-presentation example",
+    title: "Local business presentation",
+    description: "Larger campaigns can also build around business pages, event connections, launches, and other TWG placements when appropriate.",
+    image: "/images/businesses/calhouns-2-0-logo.png",
+    alt: "Calhoun's 2.0 logo used on its Texoma Weekend Guide business page",
+    href: "/businesses/calhouns-2-0/",
+    linkLabel: "View a TWG business page →"
+  }
+];
+---
+
+<BaseLayout
+  title="Custom Texoma Advertising Campaigns | Texoma Weekend Guide"
+  description="Request a custom Texoma Weekend Guide advertising campaign for festivals, grand openings, concert series, launches, sponsorships, and multi-event promotions."
+  image="/images/1000042734.png"
+>
+  <AdvertisingPackagePage
+    currentSlug="custom-campaigns"
+    eyebrow="Larger and custom promotion"
+    title="Custom Campaign"
+    price="Custom quote"
+    priceNote="Scope and pricing are confirmed before work begins."
+    lead="Need more than a standard package? Build a campaign around the promotion you actually need."
+    description="Custom Campaigns are for festivals, grand openings, concert series, sponsorships, multi-event promotions, launches, and other projects that need a larger combination of TWG website, graphic, and social support."
+    includes={[
+      "Multi-event promotion when needed",
+      "Launch or grand-opening campaign planning",
+      "Festival or concert-series promotion",
+      "Additional social posts and reminders",
+      "Expanded featured placement when appropriate",
+      "Custom combinations based on campaign goals, geography, timing, and available inventory"
+    ]}
+    bestFor={[
+      "Festivals and multi-day events",
+      "Grand openings and launches",
+      "Concert or event series",
+      "Sponsorships and larger promotions",
+      "Campaigns that do not fit neatly into a standard TWG package"
+    ]}
+    ctaLabel="Request a Custom Campaign"
+    ctaHref="/advertise/#contact"
+    secondaryCtaLabel="Compare standard packages"
+    secondaryCtaHref="/advertise/"
+    timingNote="TWG reviews custom campaign requests before confirming scope, availability, deliverables, and price. No custom campaign payment is required before those details are agreed upon."
+    transparencyNote="The examples on this page show real TWG presentation work and components that may be used in a custom campaign; they are not represented as paid custom-campaign purchases."
+    proofs={proofs}
+  />
+</BaseLayout>

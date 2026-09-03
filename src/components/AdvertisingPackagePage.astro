@@ -1,0 +1,229 @@
+---
+interface Proof {
+  label: string;
+  title: string;
+  description: string;
+  image: string;
+  alt: string;
+  href?: string;
+  linkLabel?: string;
+}
+
+interface Props {
+  currentSlug: string;
+  eyebrow: string;
+  title: string;
+  price: string;
+  priceNote: string;
+  lead: string;
+  description: string;
+  includes: string[];
+  bestFor?: string[];
+  ctaLabel: string;
+  ctaHref: string;
+  secondaryCtaLabel?: string;
+  secondaryCtaHref?: string;
+  timingNote?: string;
+  transparencyNote?: string;
+  proofs?: Proof[];
+}
+
+const {
+  currentSlug,
+  eyebrow,
+  title,
+  price,
+  priceNote,
+  lead,
+  description,
+  includes,
+  bestFor = [],
+  ctaLabel,
+  ctaHref,
+  secondaryCtaLabel,
+  secondaryCtaHref,
+  timingNote,
+  transparencyNote,
+  proofs = []
+} = Astro.props;
+
+const packages = [
+  { slug: "weekend-roundup-event-upgrade", name: "Weekend Roundup Event Upgrade", price: "$20", blurb: "Turn one standard roundup listing into a custom visual inset." },
+  { slug: "single-event-boost", name: "Single Event Boost", price: "$25", blurb: "Broader one-event promotion across TWG web and social channels." },
+  { slug: "flyer-social", name: "Flyer + Social", price: "$20", blurb: "A custom promotional graphic plus a dedicated Facebook post." },
+  { slug: "featured-business", name: "Featured Business", price: "$45/mo", blurb: "Ongoing business visibility, profile enhancements, and recurring promotion." },
+  { slug: "custom-campaigns", name: "Custom Campaign", price: "Quote", blurb: "Build a larger campaign for launches, festivals, series, and major promotions." }
+];
+const otherPackages = packages.filter((item) => item.slug !== currentSlug);
+---
+
+<div class="package-page">
+  <section class="package-hero">
+    <div class="container hero-grid">
+      <div>
+        <a class="back-link" href="/advertise/">← All advertising options</a>
+        <p class="eyebrow light">{eyebrow}</p>
+        <h1>{title}</h1>
+        <p class="hero-lead">{lead}</p>
+        <p class="hero-copy">{description}</p>
+        <div class="hero-actions">
+          <a class="button" href={ctaHref}>{ctaLabel}</a>
+          {secondaryCtaHref && secondaryCtaLabel && <a class="button secondary" href={secondaryCtaHref}>{secondaryCtaLabel}</a>}
+        </div>
+      </div>
+      <aside class="price-card">
+        <span>Current early-growth rate</span>
+        <strong>{price}</strong>
+        <p>{priceNote}</p>
+        <a class="button price-button" href={ctaHref}>{ctaLabel}</a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section details-section">
+    <div class="container detail-grid">
+      <div>
+        <p class="eyebrow">What you get</p>
+        <h2>What’s included</h2>
+        <ul class="included-list">
+          {includes.map((item) => <li>{item}</li>)}
+        </ul>
+      </div>
+      {bestFor.length > 0 && (
+        <aside class="best-for">
+          <p class="eyebrow">Best for</p>
+          <ul>
+            {bestFor.map((item) => <li>{item}</li>)}
+          </ul>
+        </aside>
+      )}
+    </div>
+  </section>
+
+  {proofs.length > 0 && (
+    <section class="section proof-section">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">Real TWG examples</p>
+          <h2>See what the promotion looks like</h2>
+          <p>These examples use work already published by Texoma Weekend Guide so you can see the presentation before purchasing.</p>
+        </div>
+        <div class:list={["proof-grid", proofs.length === 1 && "single-proof"]}>
+          {proofs.map((proof) => (
+            <article class="proof-card">
+              {proof.href ? (
+                <a class="proof-image" href={proof.href}>
+                  <img src={proof.image} alt={proof.alt} loading="lazy" />
+                </a>
+              ) : (
+                <div class="proof-image"><img src={proof.image} alt={proof.alt} loading="lazy" /></div>
+              )}
+              <div class="proof-copy">
+                <span>{proof.label}</span>
+                <h3>{proof.title}</h3>
+                <p>{proof.description}</p>
+                {proof.href && <a href={proof.href}>{proof.linkLabel ?? "View example →"}</a>}
+              </div>
+            </article>
+          ))}
+        </div>
+        {transparencyNote && <p class="note"><strong>Transparency:</strong> {transparencyNote}</p>}
+      </div>
+    </section>
+  )}
+
+  <section class="section conversion-section">
+    <div class="container conversion-card">
+      <div>
+        <p class="eyebrow light">Ready to promote?</p>
+        <h2>{title}</h2>
+        {timingNote && <p>{timingNote}</p>}
+        <p class="conversion-price">{price} <span>{priceNote}</span></p>
+      </div>
+      <div class="conversion-actions">
+        <a class="button" href={ctaHref}>{ctaLabel}</a>
+        {secondaryCtaHref && secondaryCtaLabel && <a class="text-link" href={secondaryCtaHref}>{secondaryCtaLabel} →</a>}
+      </div>
+    </div>
+  </section>
+
+  <section class="section other-section">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Other ways to promote with TWG</p>
+        <h2>Not quite what you need?</h2>
+        <p>Compare the other Texoma Weekend Guide promotion options.</p>
+      </div>
+      <div class="other-grid">
+        {otherPackages.map((item) => (
+          <a class="other-card" href={`/advertise/${item.slug}/`}>
+            <div><strong>{item.name}</strong><p>{item.blurb}</p></div>
+            <span>{item.price} →</span>
+          </a>
+        ))}
+      </div>
+      <p class="all-options"><a href="/advertise/">View the full advertising overview →</a></p>
+    </div>
+  </section>
+</div>
+
+<style>
+  .package-hero { padding: 4.8rem 0; background: linear-gradient(120deg, var(--navy), #176f95); color: white; }
+  .hero-grid { display: grid; grid-template-columns: minmax(0,1.25fr) minmax(280px,.75fr); gap: 3rem; align-items: center; }
+  .back-link { display: inline-block; margin-bottom: 1.5rem; color: #d9eef5; font-weight: 800; }
+  .eyebrow { margin: 0; font-size: .8rem; font-weight: 900; letter-spacing: .11em; text-transform: uppercase; }
+  .light { color: #bfeaf0; }
+  h1 { max-width: 13ch; margin: .4rem 0 1rem; color: white; font-size: clamp(2.6rem, 7vw, 5rem); line-height: .98; letter-spacing: -.045em; }
+  .hero-lead { max-width: 760px; margin: 0 0 .7rem; color: white; font-size: clamp(1.2rem, 2.3vw, 1.5rem); font-weight: 900; line-height: 1.4; }
+  .hero-copy { max-width: 760px; color: white; line-height: 1.65; }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.5rem; }
+  .hero-actions .secondary { border: 2px solid rgba(255,255,255,.7); background: transparent; color: white; }
+  .price-card { padding: 1.6rem; border: 1px solid rgba(255,255,255,.2); border-radius: 20px; background: rgba(7,24,43,.45); box-shadow: 0 24px 60px rgba(0,0,0,.18); }
+  .price-card > span { color: #bfeaf0; font-size: .78rem; font-weight: 900; letter-spacing: .09em; text-transform: uppercase; }
+  .price-card strong { display: block; margin: .55rem 0; color: white; font-size: clamp(3rem, 7vw, 4.6rem); line-height: 1; letter-spacing: -.05em; }
+  .price-card p { color: white; line-height: 1.5; }
+  .price-button { width: 100%; text-align: center; }
+  .section { padding: 4.5rem 0; }
+  .detail-grid { display: grid; grid-template-columns: minmax(0,1.2fr) minmax(280px,.8fr); gap: 2.5rem; align-items: start; }
+  h2 { margin: .35rem 0 1.2rem; font-size: clamp(2rem, 4.5vw, 3.3rem); line-height: 1.02; letter-spacing: -.035em; }
+  .included-list, .best-for ul { padding-left: 1.25rem; }
+  .included-list li, .best-for li { margin: .55rem 0; line-height: 1.55; }
+  .best-for { padding: 1.5rem; border: 2px solid var(--gold); border-radius: 16px; background: #f7f9fa; }
+  .proof-section, .other-section { background: #f5f8fa; }
+  .section-heading { max-width: 780px; margin-bottom: 2rem; }
+  .section-heading.centered { margin-right: auto; margin-left: auto; text-align: center; }
+  .section-heading p:last-child { line-height: 1.6; }
+  .proof-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1.25rem; }
+  .proof-grid.single-proof { grid-template-columns: minmax(0,1000px); justify-content: center; }
+  .proof-card { overflow: hidden; border: 1px solid #dbe4e8; border-radius: 16px; background: white; box-shadow: 0 12px 34px rgba(17,44,64,.07); }
+  .proof-image { display: grid; min-height: 270px; place-items: center; overflow: hidden; background: #102c3d; }
+  .proof-image img { width: 100%; max-height: 620px; object-fit: contain; }
+  .proof-copy { padding: 1.3rem; }
+  .proof-copy > span { color: #176f95; font-size: .75rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
+  .proof-copy h3 { margin: .45rem 0 .55rem; }
+  .proof-copy p { line-height: 1.55; }
+  .proof-copy a { font-weight: 900; }
+  .note { max-width: 900px; margin: 1.5rem auto 0; padding: 1rem 1.2rem; border-radius: 13px; background: #e8eef1; line-height: 1.55; }
+  .conversion-section { padding-top: 3rem; padding-bottom: 3rem; }
+  .conversion-card { display: grid; grid-template-columns: minmax(0,1.25fr) minmax(260px,.75fr); gap: 2rem; align-items: center; padding: 2rem; border-radius: 20px; background: linear-gradient(120deg, var(--navy), #176f95); color: white; }
+  .conversion-card h2, .conversion-card p { color: white; }
+  .conversion-price { margin-bottom: 0; font-size: 2rem; font-weight: 900; }
+  .conversion-price span { display: block; margin-top: .35rem; font-size: .95rem; font-weight: 600; }
+  .conversion-actions { display: grid; gap: .85rem; }
+  .conversion-actions .button { width: 100%; text-align: center; }
+  .text-link { color: white; font-weight: 900; text-align: center; }
+  .other-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; }
+  .other-card { display: flex; justify-content: space-between; gap: 1rem; padding: 1.25rem; border: 1px solid #dbe4e8; border-radius: 14px; background: white; color: inherit; text-decoration: none; box-shadow: 0 8px 24px rgba(17,44,64,.05); }
+  .other-card strong { color: var(--navy); }
+  .other-card p { margin: .4rem 0 0; line-height: 1.45; }
+  .other-card > span { color: #176f95; font-weight: 900; white-space: nowrap; }
+  .all-options { margin-top: 1.4rem; font-weight: 900; }
+
+  @media (max-width: 900px) {
+    .hero-grid, .detail-grid, .conversion-card, .proof-grid, .other-grid { grid-template-columns: 1fr; }
+    .package-hero { padding: 3.5rem 0; }
+    h1 { max-width: none; }
+    .price-card { max-width: 620px; }
+    .proof-image img { max-height: none; }
+  }
+</style>
