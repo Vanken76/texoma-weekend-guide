@@ -1,0 +1,50 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AdvertisingPackagePage from "../../components/AdvertisingPackagePage.astro";
+
+const proofs = [
+  {
+    label: "TWG graphic example",
+    title: "Custom promotional graphics",
+    description: "A published TWG graphic showing the clean, readable visual style used for promotional design work.",
+    image: "/images/1000042734.png",
+    alt: "Texoma Weekend Guide published promotional graphic example"
+  }
+];
+---
+
+<BaseLayout
+  title="Custom Flyer | Texoma Weekend Guide"
+  description="Get one custom digital promotional flyer or social graphic from Texoma Weekend Guide for $10. Creative production only; posting is not included."
+  image="/images/1000042734.png"
+>
+  <AdvertisingPackagePage
+    currentSlug="custom-flyer"
+    eyebrow="Creative production only"
+    title="Custom Flyer"
+    price="$10"
+    priceNote="One-time payment for one custom digital graphic. No TWG posting is included."
+    lead="Need the graphic without paying for distribution? Keep it simple."
+    description="TWG creates one custom digital flyer or social graphic from the information, branding, and source material you provide. This is a design service only: the $10 package does not include a TWG social post, Weekend Roundup placement, or other audience distribution."
+    includes={[
+      "1 custom digital promotional flyer or social graphic",
+      "Design based on supplied or verified information",
+      "Business, event, service, or announcement creative",
+      "1 minor correction round",
+      "Finished graphic for your own digital use"
+    ]}
+    bestFor={[
+      "Businesses that already have their own audience",
+      "Events that just need a clean flyer",
+      "Social posts on your own pages",
+      "Simple announcements, specials, and promotions"
+    ]}
+    ctaLabel="Order Custom Flyer — $10"
+    ctaHref="https://buy.stripe.com/14A00j4uZcCX1Kz3Ly2kw05"
+    secondaryCtaLabel="Want TWG to post it too?"
+    secondaryCtaHref="/advertise/flyer-social/"
+    timingNote="Turnaround depends on the information supplied and TWG’s production schedule. Major redesigns, multiple sizes, or additional versions may require a larger package or custom quote."
+    transparencyNote="The published graphic shown here is a TWG design example and is not represented as a paid Custom Flyer purchase."
+    proofs={proofs}
+  />
+</BaseLayout>
