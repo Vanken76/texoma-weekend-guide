@@ -71,7 +71,7 @@ if (isBusinessDetail) {
   if (business?.publish_ready === true) {
     breadcrumbJsonLdText = serializeJsonLd(buildBreadcrumbJsonLd({
       items: [
-        { name: "Business Directory", url: "/directory/" },
+        { name: "Business Directory", url: "/businesses/" },
         { name: business.business_name, url: `/businesses/${business.slug}/` }
       ],
       siteUrl: siteURL
