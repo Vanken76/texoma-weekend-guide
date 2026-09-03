@@ -4,16 +4,16 @@ import AdvertisingPackagePage from "../../components/AdvertisingPackagePage.astr
 
 const proofs = [
   {
-    label: "Before-and-after comparison",
-    title: "Standard listing vs. paid roundup upgrade",
-    description: "The same event goes from a normal free text listing to a custom visual inset that stands out inside the roundup.",
+    label: "Event promotion example",
+    title: "Standard listing vs. paid roundup placement",
+    description: "This real before-and-after example shows one way a paid Weekend Roundup Promotion can turn an event from a standard text listing into a much stronger visual placement.",
     image: "/images/roundup-upgrade-comparison.webp",
-    alt: "Side-by-side Texoma Weekend Guide comparison showing a Standard Free Listing and a Paid Roundup Upgrade for $20"
+    alt: "Side-by-side Texoma Weekend Guide comparison showing a standard free event listing and a paid $20 roundup promotion"
   },
   {
     label: "Live TWG example",
     title: "Derryl Perry at Calhoun’s 2.0",
-    description: "A published Weekend Roundup page showing the upgraded visual inset in the actual roundup format.",
+    description: "A published Weekend Roundup showing the promotional event inset in the actual roundup format.",
     image: "/images/1000043984.png",
     alt: "Texoma Weekend Guide Saturday roundup featuring a Derryl Perry at Calhoun's 2.0 visual event inset",
     href: "/roundups/texoma-weekend-roundup-september-3-6-2026/",
@@ -23,38 +23,39 @@ const proofs = [
 ---
 
 <BaseLayout
-  title="Weekend Roundup Event Upgrade | Texoma Weekend Guide"
-  description="Upgrade one qualifying Texoma event from a standard free roundup listing to a custom visual inset inside the Texoma Weekend Guide Weekend Roundup for $20."
+  title="Weekend Roundup Promotion | Texoma Weekend Guide"
+  description="Advertise an event, business, restaurant, service, attraction, entertainer, or local offering inside one Texoma Weekend Guide Weekend Roundup for $20."
   image="/images/1000043984.png"
 >
   <AdvertisingPackagePage
-    currentSlug="weekend-roundup-event-upgrade"
-    eyebrow="Weekend Roundup promotion"
-    title="Weekend Roundup Event Upgrade"
+    currentSlug="weekend-roundup-promotion"
+    eyebrow="Weekend Roundup advertising"
+    title="Weekend Roundup Promotion"
     price="$20"
-    priceNote="One-time payment for one qualifying event. No subscription."
-    lead="Turn one standard free roundup listing into a bold custom visual event inset."
-    description="Qualifying local events can still receive their normal TWG listing at no cost. The $20 upgrade adds a custom landscape promotional inset directly inside the appropriate Weekend Roundup so your event has substantially more visual presence."
+    priceNote="One-time payment for one placement in one eligible Weekend Roundup."
+    lead="Put your event, business, service, restaurant, attraction, or message directly inside the Weekend Roundup."
+    description="The Weekend Roundup is editorial content people already use to plan their weekend. A $20 paid promotion gives your business or event a custom visual placement inside that roundup instead of relying only on a standard listing or outside ad. Event promotions can use an upgraded event-style inset. General business advertising is clearly labeled Sponsored or Advertisement so readers always know what is paid."
     includes={[
-      "1 custom landscape event inset designed by Texoma Weekend Guide",
-      "Prominent visual placement inside the appropriate Weekend Roundup page",
-      "Event name, date, time, venue, and location displayed directly in the graphic",
-      "Additional verified event details when available and appropriate",
-      "Your event remains included in the full TWG event directory"
+      "1 custom visual promotion designed for the Weekend Roundup",
+      "Placement inside one eligible Weekend Roundup",
+      "Event promotion or general local advertising — you do not need to be hosting an event",
+      "Business name, offer, message, location, and verified details included as appropriate",
+      "Non-event advertising clearly labeled Sponsored or Advertisement",
+      "Qualifying event listings remain free whether you advertise or not"
     ]}
     bestFor={[
-      "Live music and one-night performances",
-      "Tournaments and special events",
-      "Festivals and community events",
-      "Grand openings",
-      "Events that need extra visibility in the upcoming weekend roundup"
+      "Restaurants, bars, and local businesses wanting weekend traffic",
+      "Live music, tournaments, festivals, and one-night events",
+      "Fishing guides, attractions, lodging, and lake businesses",
+      "Retailers and service businesses with a weekend message",
+      "Anyone who wants one direct placement inside TWG’s Weekend Roundup"
     ]}
-    ctaLabel="Upgrade My Event — $20"
+    ctaLabel="Buy Roundup Promotion — $20"
     ctaHref="https://buy.stripe.com/7sYaEXd1vfP960Peqc2kw04"
-    secondaryCtaLabel="View the live example"
-    secondaryCtaHref="/roundups/texoma-weekend-roundup-september-3-6-2026/"
-    timingNote="Roundup placement depends on event timing, available space, and purchase timing. Events purchased too late for the next roundup may need to be scheduled for another eligible roundup or refunded if TWG cannot fulfill the placement."
-    transparencyNote="The Derryl Perry at Calhoun’s 2.0 example was created as a complimentary demonstration of this format. Calhoun’s 2.0 did not purchase that placement."
+    secondaryCtaLabel="View the current package page"
+    secondaryCtaHref="/advertise/weekend-roundup-promotion/"
+    timingNote="Placement depends on roundup timing, available space, and purchase timing. TWG will confirm the appropriate roundup before fulfillment."
+    transparencyNote="The Derryl Perry at Calhoun’s 2.0 example was created as a complimentary demonstration. Calhoun’s 2.0 did not purchase that placement. The example shows the event format; general business ads can use a different sponsored treatment."
     proofs={proofs}
   />
 </BaseLayout>
