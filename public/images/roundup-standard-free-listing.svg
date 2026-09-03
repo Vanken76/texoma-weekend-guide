@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1260" role="img" aria-labelledby="title desc">
+  <title id="title">Texoma Weekend Guide standard free roundup listing</title>
+  <desc id="desc">Saturday September 5 roundup showing Derryl Perry as a standard free text listing among other events.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf6e8"/>
+      <stop offset="0.75" stop-color="#f4ead4"/>
+      <stop offset="1" stop-color="#e5d6b8"/>
+    </linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fb2c6"/>
+      <stop offset="1" stop-color="#2e738c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="1260" fill="url(#sky)"/>
+  <rect x="18" y="18" width="864" height="1224" rx="24" fill="none" stroke="#123f60" stroke-width="4"/>
+  <rect x="28" y="28" width="844" height="1204" rx="20" fill="none" stroke="#8ba8b6" stroke-width="1.5"/>
+
+  <text x="450" y="95" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="800" letter-spacing="4" fill="#174b68">EVENTS  ★  FUN  ★  COMMUNITY</text>
+  <text x="450" y="180" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="900" letter-spacing="3" fill="#0f3557">TEXOMA</text>
+  <text x="450" y="230" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="800" letter-spacing="3" fill="#167d82">WEEKEND GUIDE</text>
+  <line x1="225" y1="248" x2="675" y2="248" stroke="#123f60" stroke-width="4"/>
+
+  <text x="450" y="320" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="900" fill="#111">SATURDAY SEPTEMBER 5TH</text>
+  <text x="450" y="370" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="800" fill="#111">AROUND TEXOMA</text>
+  <text x="450" y="410" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="800" fill="#111">8 &amp; 9 PM EVENTS</text>
+
+  <g font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="#111" text-anchor="middle">
+    <text x="450" y="495">8 PM • Jamey Johnson — Stage 271 at Choctaw Casino &amp; Resort, Grant</text>
+    <text x="450" y="550">8 PM • Rhonda B Karaoke — American Legion Post 62, Denison</text>
+    <text x="450" y="605">9 PM • Karaoke Saturday Night — The Red Star, Hugo</text>
+    <text x="450" y="660">9 PM • Derryl Perry — Calhoun’s 2.0, Denison</text>
+    <text x="450" y="715">9 PM • Saturday Karaoke — The Vintage Hangout, Paris</text>
+    <text x="450" y="770">9 PM • Karaoke with Richard Underwood — Dusty’s Bar &amp; Grill, Denton</text>
+  </g>
+
+  <circle cx="450" cy="935" r="54" fill="#f1c567" opacity="0.9"/>
+  <path d="M0 945 C120 885 210 920 315 900 C430 880 520 905 610 895 C735 880 800 900 900 860 L900 1260 L0 1260 Z" fill="#447c62"/>
+  <path d="M0 980 C120 940 235 960 340 945 C460 930 570 965 690 942 C785 925 835 940 900 920 L900 1260 L0 1260 Z" fill="#245a4d"/>
+  <path d="M110 1000 C275 965 375 985 505 980 C650 975 760 985 900 960 L900 1260 L90 1260 Z" fill="url(#lake)"/>
+  <path d="M385 1260 C405 1180 420 1120 458 1065 C490 1020 530 1000 560 985 L615 995 C575 1015 535 1045 505 1090 C470 1145 455 1200 448 1260 Z" fill="#30363b"/>
+  <path d="M430 1260 C442 1184 456 1128 487 1080" fill="none" stroke="#e5bd52" stroke-width="6" stroke-dasharray="20 16"/>
+  <path d="M690 1040 l34 0 -8 28 -18 0 z" fill="#f7f5e8"/>
+  <path d="M705 995 l0 45" stroke="#253849" stroke-width="4"/>
+  <path d="M705 997 l32 33 -32 0 z" fill="#f6f0df"/>
+
+  <rect x="245" y="1192" width="410" height="44" rx="8" fill="#123f60"/>
+  <text x="450" y="1222" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="800" letter-spacing="3" fill="#fff">TEXOMAWEEKENDGUIDE.COM</text>
+</svg>
