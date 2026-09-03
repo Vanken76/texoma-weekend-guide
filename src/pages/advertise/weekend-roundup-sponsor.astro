@@ -1,0 +1,39 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AdvertisingPackagePage from "../../components/AdvertisingPackagePage.astro";
+---
+
+<BaseLayout
+  title="Weekend Roundup Sponsor | Texoma Weekend Guide"
+  description="Sponsor one Texoma Weekend Guide Weekend Roundup for $100 with exclusive title-level sponsor recognition and a dedicated sponsor placement inside the roundup."
+>
+  <AdvertisingPackagePage
+    currentSlug="weekend-roundup-sponsor"
+    eyebrow="Premium Weekend Roundup sponsorship"
+    title="Weekend Roundup Sponsor"
+    price="$100"
+    priceNote="One-time sponsorship of one eligible Weekend Roundup."
+    lead="Don’t just buy a spot in the roundup. Put your business name on the roundup."
+    description="Weekend Roundup Sponsorship is a separate premium product from normal $20 roundup advertising. One sponsor receives the title-level sponsor position for that roundup, with clear sponsor recognition near the top and a dedicated sponsor placement inside the content."
+    includes={[
+      "Exclusive title sponsor position for one Weekend Roundup",
+      "‘Sponsored by’ or ‘Presented by’ recognition near the top of the roundup",
+      "1 dedicated sponsor placement inside the roundup",
+      "Sponsor name and branding tied directly to that roundup",
+      "No second title sponsor for the same roundup",
+      "One weekend only"
+    ]}
+    bestFor={[
+      "Restaurants, bars, and entertainment venues",
+      "Lake businesses and tourism operators",
+      "Major local businesses that want broad weekend visibility",
+      "Businesses launching a new location or major promotion",
+      "Advertisers who want association with the entire Weekend Roundup rather than one individual placement"
+    ]}
+    ctaLabel="Sponsor a Roundup — $100"
+    ctaHref="https://buy.stripe.com/aFaeVde5zbyT88X1Dq2kw07"
+    secondaryCtaLabel="Need one $20 placement instead?"
+    secondaryCtaHref="/advertise/weekend-roundup-promotion/"
+    timingNote="Sponsorship is subject to roundup availability and scheduling. TWG will confirm the requested weekend and sponsor treatment before fulfillment."
+  />
+</BaseLayout>
