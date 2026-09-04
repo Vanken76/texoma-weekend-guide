@@ -5184,116 +5184,92 @@
       "business_name": "CJ's Coffee Cafe",
       "directory_status": "complete",
       "publish_ready": true,
-      "service_area_or_location": "Three locations: 5101 Gateway Blvd Suite 111A, Denison, TX 75020; 514 W Main St, Denison, TX 75020; 818 N Travis St, Sherman, TX 75090",
-      "locations": [
-        {
-          "name": "CJ's on the BLVD",
-          "address": "5101 Gateway Blvd Suite 111A, Denison, TX 75020",
-          "phone": "903-337-1964",
-          "hours": {
-            "monday": "5:30 AM–8:00 PM",
-            "tuesday": "5:30 AM–8:00 PM",
-            "wednesday": "5:30 AM–8:00 PM",
-            "thursday": "5:30 AM–8:00 PM",
-            "friday": "5:30 AM–8:00 PM",
-            "saturday": "5:30 AM–8:00 PM",
-            "sunday": "Not listed"
-          }
-        },
-        {
-          "name": "CJ's on Main",
-          "address": "514 W Main St, Denison, TX 75020",
-          "phone": "903-327-8984",
-          "hours": {
-            "monday": "6:00 AM–3:00 PM",
-            "tuesday": "6:00 AM–3:00 PM",
-            "wednesday": "6:00 AM–3:00 PM",
-            "thursday": "6:00 AM–3:00 PM",
-            "friday": "6:00 AM–5:00 PM",
-            "saturday": "6:00 AM–5:00 PM",
-            "sunday": "Closed"
-          }
-        },
-        {
-          "name": "CJ's on Travis",
-          "address": "818 N Travis St, Sherman, TX 75090",
-          "phone": "903-487-2400",
-          "hours": {
-            "monday": "6:00 AM–6:00 PM",
-            "tuesday": "6:00 AM–6:00 PM",
-            "wednesday": "6:00 AM–6:00 PM",
-            "thursday": "6:00 AM–6:00 PM",
-            "friday": "6:00 AM–6:00 PM",
-            "saturday": "6:00 AM–6:00 PM",
-            "sunday": "Not listed"
-          }
-        }
-      ],
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "Multiple locations in Denison and Sherman, TX",
       "category": [
         "Coffee Shop",
         "Coffee Roaster",
-        "Café",
+        "Cafe",
         "Breakfast & Lunch"
       ],
-      "description": "A locally operated Texoma coffee company with three cafés in Denison and Sherman, serving in-house roasted coffee, handcrafted espresso drinks, breakfast and lunch. CJ's also sells freshly roasted beans for home and wholesale and supports local community organizations.",
-      "phone": "BLVD 903-337-1964 | Main 903-327-8984 | Travis 903-487-2400",
+      "tags": [
+        "Locally Roasted Coffee",
+        "Espresso",
+        "Breakfast",
+        "Lunch",
+        "Wholesale Coffee",
+        "Multiple Locations",
+        "Locally Operated"
+      ],
+      "description": "CJ's Coffee Cafe is a locally operated Texoma coffee company with cafe locations in Denison and Sherman. CJ's roasts coffee in-house and serves handcrafted espresso drinks, brewed coffee, breakfast and lunch while also offering freshly roasted beans for home and wholesale customers. Individual CJ's locations have their own addresses, hours, amenities and event activity.",
+      "why_visit": "CJ's Coffee Cafe combines locally roasted coffee with a full cafe menu, making it a convenient choice for breakfast, lunch, espresso drinks or a casual coffee stop. With multiple locations across Denison and Sherman, visitors can choose the cafe that best fits where they are exploring in Texoma.",
+      "why_its_unique": "CJ's stands out as a locally operated Texoma coffee company that roasts its own coffee while also operating multiple full-service cafes serving breakfast, lunch and handcrafted espresso drinks.",
+      "phone": null,
       "email": null,
-      "website": "https://cjscoffeecafe.com",
-      "contact_form": "https://cjscoffeecafe.com/contact/",
+      "website": "https://cjscoffeecafe.com/",
       "facebook": "https://www.facebook.com/cjscoffeecafe/",
       "instagram": "https://www.instagram.com/cjscoffeecafe/",
-      "hours": {
-        "blvd": {
-          "monday": "5:30 AM–8:00 PM",
-          "tuesday": "5:30 AM–8:00 PM",
-          "wednesday": "5:30 AM–8:00 PM",
-          "thursday": "5:30 AM–8:00 PM",
-          "friday": "5:30 AM–8:00 PM",
-          "saturday": "5:30 AM–8:00 PM",
-          "sunday": "Not listed"
-        },
-        "main": {
-          "monday": "6:00 AM–3:00 PM",
-          "tuesday": "6:00 AM–3:00 PM",
-          "wednesday": "6:00 AM–3:00 PM",
-          "thursday": "6:00 AM–3:00 PM",
-          "friday": "6:00 AM–5:00 PM",
-          "saturday": "6:00 AM–5:00 PM",
-          "sunday": "Closed"
-        },
-        "travis": {
-          "monday": "6:00 AM–6:00 PM",
-          "tuesday": "6:00 AM–6:00 PM",
-          "wednesday": "6:00 AM–6:00 PM",
-          "thursday": "6:00 AM–6:00 PM",
-          "friday": "6:00 AM–6:00 PM",
-          "saturday": "6:00 AM–6:00 PM",
-          "sunday": "Not listed"
-        }
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": "/images/businesses/cjs-coffee-cafe-logo.webp",
+      "logo_alt": "CJ's Coffee Cafe logo",
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "CJ's Coffee Cafe operates multiple physical locations with different schedules. See the individual location profile for current address-specific hours.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
       },
-      "hours_note": "Location hours differ. Sunday hours are not listed on the official BLVD and Travis pages; verify before publishing a Sunday schedule. Use the official website contact form for general inquiries.",
-      "event_venue": true,
-      "recurring_events": true,
-      "mine_for_events": true,
-      "event_mining_priority": "high",
-      "event_types": [
-        "Seasonal drink releases",
-        "Community promotions",
-        "Charitable partnerships",
-        "Downtown events",
-        "Coffee Fest participation",
-        "Menu announcements",
-        "Holiday specials"
+      "amenities": [
+        "Locally roasted coffee",
+        "Handcrafted espresso drinks",
+        "Breakfast and lunch",
+        "Freshly roasted coffee beans",
+        "Wholesale coffee"
       ],
-      "event_sources": [
-        "Official website",
-        "Official Facebook",
-        "Official Instagram",
-        "Downtown Denison announcements",
-        "North Texas Coffee Fest announcements"
+      "good_to_know": [
+        "CJ's Coffee Cafe operates multiple locations in Denison and Sherman.",
+        "Addresses, hours and location-specific amenities vary by cafe.",
+        "Use the individual location profiles for venue-specific information and event listings."
       ],
-      "verification_note": "Complete. No public email address is listed; use the official website contact form. Hours: BLVD Mon–Sat 5:30 AM–8:00 PM; Main Mon–Thu 6:00 AM–3:00 PM, Fri–Sat 6:00 AM–5:00 PM, Sun closed; Travis Mon–Sat 6:00 AM–6:00 PM. The official Travis page does not list Sunday hours, so treat Sunday as unconfirmed rather than assuming closed. Keep on the permanent event-mining list for seasonal menus, community promotions, donation partnerships, downtown activities and Coffee Fest participation.",
-      "last_checked": "2026-07-19"
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete parent-brand record. CJ's Coffee Cafe operates multiple physical cafe locations in Denison and Sherman. Physical addresses, hours, amenities and event relationships belong on separate location-specific child records rather than this umbrella profile.",
+      "last_checked": "2026-09-04",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Locally operated Texoma coffee company",
+        "In-house roasted coffee",
+        "Handcrafted espresso drinks",
+        "Breakfast and lunch",
+        "Freshly roasted coffee beans",
+        "Wholesale coffee",
+        "Multiple cafe locations"
+      ]
     },
     {
       "slug": "classic-chevrolet-and-cadillac",
