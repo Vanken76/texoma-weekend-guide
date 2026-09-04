@@ -5,8 +5,8 @@
   "generated_on": "2026-09-04",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1294,
-  "publish_ready_count": 970,
+  "business_count": 1295,
+  "publish_ready_count": 971,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -140017,6 +140017,115 @@
         "Annual Johnston County Fair venue",
         "Agricultural and 4-H programming"
       ]
+    },
+    {
+      "slug": "downtown-denison-inc",
+      "business_name": "Downtown Denison, Inc.",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "service_area_or_location": "Historic Downtown Denison, Denison, TX 75020",
+      "city": "Denison",
+      "state": "TX",
+      "zip_code": "75020",
+      "category": [
+        "Downtown Business Association",
+        "Nonprofit Organization",
+        "Community Organization",
+        "Event Organizer"
+      ],
+      "tags": [
+        "Downtown Denison",
+        "Historic Downtown Denison",
+        "Denison TX",
+        "Grayson County",
+        "Texoma",
+        "Downtown Business Association",
+        "Small Business",
+        "Shop Local",
+        "Community Events",
+        "Downtown Events",
+        "Festivals",
+        "Shopping Events",
+        "Seasonal Events",
+        "Pub Crawls",
+        "Retail Promotions",
+        "Event Organizer",
+        "Nonprofit Organization",
+        "Main Street",
+        "Harvest Sweets & Styles",
+        "Zombie Crawl",
+        "Boo-tique Sale",
+        "Small Town Christmas",
+        "Shamrock Stroll",
+        "Tax-Free Weekend",
+        "Mom-Mosas on Main"
+      ],
+      "amenities": [],
+      "description": "Downtown Denison, Inc. is a nonprofit organization made up of local small-business owners working together to support, promote and activate Historic Downtown Denison. The organization partners with the City of Denison Main Street program and other community groups while producing and supporting shopping promotions, seasonal celebrations, pub crawls, downtown festivals and other events designed to bring residents and visitors into the Main Street district. Its recurring programming has included Harvest Sweets & Styles, the Downtown Denison Zombie Crawl and Boo-tique Sale, Small Town Christmas, St. Patrick's Day Pub Crawl and Shamrock Stroll, Tax-Free Weekend promotions, Mom-Mosas on Main and other merchant-driven events throughout the year.",
+      "why_visit": "Downtown Denison, Inc. is one of the organizations behind many of the shopping events, seasonal celebrations and nightlife activities that give Historic Downtown Denison its active year-round event calendar.",
+      "why_its_unique": "Rather than operating as a single venue, Downtown Denison, Inc. brings together local downtown business owners to create district-wide events and promotions involving multiple shops, restaurants, bars and gathering spaces throughout Historic Downtown Denison.",
+      "good_to_know": [
+        "Downtown Denison, Inc. is an event organizer and downtown business organization rather than a single public storefront or event venue.",
+        "DDI works alongside the City of Denison Main Street program and other community partners but is a separate nonprofit organization.",
+        "DDI events may take place at Heritage Park, participating businesses or multiple locations throughout Historic Downtown Denison, so the specific venue should be verified for each event.",
+        "No dependable public office hours, direct phone number or direct email address were confirmed during the current research pass."
+      ],
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "phone": null,
+      "email": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/DowntownDenisonInc",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "image": null,
+      "image_url": null,
+      "image_alt": null,
+      "logo": null,
+      "logo_url": "/images/businesses/downtown-denison-inc-logo.jpg",
+      "logo_alt": "Downtown Denison, Inc. logo",
+      "gallery": [],
+      "hours": null,
+      "hours_note": "Downtown Denison, Inc. does not operate as a conventional public storefront with regular visitor hours. Event dates, participating businesses and locations vary throughout the year.",
+      "event_venue": false,
+      "recurring_events": [
+        "Harvest Sweets & Styles",
+        "Downtown Denison Zombie Crawl and Boo-tique Sale",
+        "Small Town Christmas",
+        "St. Patrick's Day Pub Crawl and Shamrock Stroll",
+        "Tax-Free Weekend shopping promotions",
+        "Mom-Mosas on Main",
+        "Seasonal downtown shopping and merchant events"
+      ],
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": [],
+      "child_businesses": [],
+      "related_businesses": [
+        {
+          "slug": "heritage-park-denison",
+          "business_name": "Heritage Park",
+          "relationship_note": "Downtown Denison event venue used for DDI and other community programming."
+        }
+      ],
+      "related_geography": [
+        "texas",
+        "texoma"
+      ],
+      "related_events": [
+        {
+          "slug": "tax-free-weekend-downtown-denison-2026-08-08",
+          "event_name": "Tax Free Weekend in Downtown Denison",
+          "relationship_note": "Downtown Denison, Inc. organizer."
+        }
+      ],
+      "last_checked": "2026-09-04",
+      "last_verified": "2026-09-04"
     }
   ]
 }
