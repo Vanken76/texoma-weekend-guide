@@ -382,7 +382,9 @@
         "Community calendars"
       ],
       "verification_note": "Complete. Permanent monthly event-mining source; monitor for dates, vendor calls, themes, and schedule changes.",
-      "last_checked": "2026-07-19"
+      "last_checked": "2026-07-19",
+      "logo_url": "/images/businesses/texoma-trade-days-logo.png",
+      "logo_alt": "Texoma Trade Days logo"
     },
     {
       "slug": "jaiden-rs-trash-can-cleaning",
