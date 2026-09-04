@@ -5,8 +5,8 @@
   "generated_on": "2026-09-04",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1298,
-  "publish_ready_count": 974,
+  "business_count": 1299,
+  "publish_ready_count": 975,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -140485,6 +140485,126 @@
         "Free Wi-Fi",
         "Downtown Denison location",
         "Event participation"
+      ]
+    },
+    {
+      "slug": "cjs-coffee-cafe-on-the-blvd",
+      "business_name": "CJ's Coffee Cafe on the BLVD",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": true,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "5101 Gateway Blvd Suite 111A, Denison, TX 75020",
+      "category": [
+        "Coffee Shop",
+        "Coffee Roaster",
+        "Cafe",
+        "Breakfast & Lunch"
+      ],
+      "tags": [
+        "Locally Roasted Coffee",
+        "Espresso",
+        "Breakfast",
+        "Lunch",
+        "Coffee Roastery",
+        "Flagship Location",
+        "Gateway Village",
+        "Family Friendly"
+      ],
+      "description": "CJ's Coffee Cafe on the BLVD is the flagship CJ's location in Gateway Village in Denison. The cafe serves locally roasted coffee, handcrafted espresso drinks, breakfast and lunch while also serving as a key roasting location for CJ's coffee program. It offers a convenient stop near Texoma Medical Center for coffee, food, meetings or a casual break.",
+      "why_visit": "CJ's on the BLVD offers the full CJ's cafe experience with locally roasted coffee, espresso drinks, breakfast and lunch in a convenient Gateway Village location. It is a strong option for commuters, medical-district visitors, meetings and anyone wanting a locally roasted coffee stop in north Denison.",
+      "why_its_unique": "This is CJ's flagship Gateway Village location and a central part of the company's coffee-roasting operation, combining a full cafe with the locally roasted coffee program behind the CJ's brand.",
+      "phone": "903-337-1964",
+      "email": null,
+      "website": "https://cjscoffeecafe.com/order/blvd/",
+      "facebook": "https://www.facebook.com/cjscoffeecafe/",
+      "instagram": "https://www.instagram.com/cjscoffeecafe/",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": "/images/businesses/cjs-coffee-cafe-on-the-blvd-logo.webp",
+      "logo_alt": "CJ's Coffee Cafe on the BLVD logo",
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "5:30 AM - 8:00 PM",
+        "tuesday": "5:30 AM - 8:00 PM",
+        "wednesday": "5:30 AM - 8:00 PM",
+        "thursday": "5:30 AM - 8:00 PM",
+        "friday": "5:30 AM - 8:00 PM",
+        "saturday": "5:30 AM - 8:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current location-specific hours published by CJ's Coffee Cafe. Holiday hours may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Locally roasted coffee",
+        "Handcrafted espresso drinks",
+        "Breakfast and lunch",
+        "Online ordering",
+        "Takeout",
+        "Coffee roasting"
+      ],
+      "good_to_know": [
+        "This is CJ's flagship Gateway Village location.",
+        "CJ's roasts coffee in-house, and current ordering information identifies the Gateway Village location with the roasting operation.",
+        "This location is just west of Texoma Medical Center on Highway 691.",
+        "Hours and amenities differ from the Main Street and Sherman locations."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": {
+        "slug": "cjs-coffee-cafe",
+        "business_name": "CJ's Coffee Cafe",
+        "relationship_note": "Flagship Gateway Village location of CJ's Coffee Cafe."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "grayson-county-tx",
+          "name": "Grayson County",
+          "entity_type": "county",
+          "relationship_note": "Located in Grayson County, Texas."
+        },
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Texas business location."
+        }
+      ],
+      "verification_note": "Complete. Flagship status, Gateway Village location, address, phone, current hours and roasting role were verified from the current official CJ's Coffee Cafe website.",
+      "last_checked": "2026-09-04",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "CJ's flagship location",
+        "Locally roasted coffee",
+        "Coffee roasting operation",
+        "Handcrafted espresso drinks",
+        "Breakfast and lunch",
+        "Gateway Village location",
+        "Near Texoma Medical Center"
       ]
     }
   ]
