@@ -5,8 +5,8 @@
   "generated_on": "2026-09-04",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1301,
-  "publish_ready_count": 977,
+  "business_count": 1302,
+  "publish_ready_count": 978,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -140821,6 +140821,95 @@
         "Recurring programs and gatherings",
         "Event and meeting spaces",
         "Faith-based ministry"
+      ]
+    },
+    {
+      "slug": "kingdom-dawgz",
+      "business_name": "Kingdom Dawgz LLC",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "27121 OK 76, Blanchard, OK 73010; mobile food vendor serving scheduled locations throughout Oklahoma and Lake Texoma",
+      "category": [
+        "Food Truck",
+        "Hot Dog Stand",
+        "Mobile Food Vendor"
+      ],
+      "tags": [
+        "Gourmet Hot Dogs",
+        "Stuffed Spudz",
+        "Food Truck",
+        "Mobile Food",
+        "Oklahoma",
+        "Lake Texoma"
+      ],
+      "description": "Kingdom Dawgz LLC is a Blanchard-based mobile food business serving gourmet hot dogs, stuffed spudz and other food-truck fare at scheduled stops, events and destination locations throughout Oklahoma, including Lake Texoma.",
+      "why_visit": "Kingdom Dawgz offers a mobile menu centered on gourmet hot dogs and stuffed spudz, with rotating stops that bring the truck to events, workplaces and destination locations around Oklahoma.",
+      "why_its_unique": "The business combines gourmet hot dogs and stuffed spudz with a mobile schedule, allowing it to serve customers at changing locations instead of operating only from a traditional restaurant.",
+      "phone": "580-399-8185",
+      "email": "kingdomdawgz25@gmail.com",
+      "website": null,
+      "facebook": "https://www.facebook.com/profile.php?id=61589175326061",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": "/images/businesses/kingdom-dawgz-logo.jpg",
+      "logo_alt": "Kingdom Dawgz LLC logo",
+      "price_range": "$$",
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Kingdom Dawgz LLC is a mobile food vendor. Service locations and operating hours vary by scheduled appearance.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$$",
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [],
+      "good_to_know": [
+        "Kingdom Dawgz LLC is a mobile food vendor, so locations and hours change by scheduled appearance.",
+        "Its listed business base is 27121 OK 76 in Blanchard, Oklahoma.",
+        "Current scheduling includes Lake Texoma appearances in the Kingston and Buncombe Creek area."
+      ],
+      "event_venue": false,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Current Facebook information verifies the business name Kingdom Dawgz LLC, Blanchard base address at 27121 OK 76, phone 580-399-8185, email kingdomdawgz25@gmail.com, price range $$, and a food focus described as Gourmet Hot Dogs and Stuffed Spudz. Current schedule information also verifies mobile appearances at Lake Texoma.",
+      "last_checked": "2026-09-04",
+      "event_types": [
+        "Food truck appearances",
+        "Community events",
+        "Festivals",
+        "Pop-up food service"
+      ],
+      "event_sources": [
+        "Facebook",
+        "Current public food-truck schedule"
+      ],
+      "features": [
+        "Mobile food vendor",
+        "Gourmet hot dogs",
+        "Stuffed spudz",
+        "Travels to scheduled event locations"
       ]
     }
   ]
