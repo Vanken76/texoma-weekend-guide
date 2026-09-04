@@ -5,8 +5,8 @@
   "generated_on": "2026-09-04",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1296,
-  "publish_ready_count": 972,
+  "business_count": 1297,
+  "publish_ready_count": 973,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -140239,6 +140239,140 @@
         "Food truck park",
         "Covered performance stage",
         "Outdoor gathering space",
+        "Downtown Denison location"
+      ]
+    },
+    {
+      "slug": "black-sheep-lounge",
+      "business_name": "Black Sheep Lounge",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "127 W Main St, Denison, TX 75020",
+      "category": [
+        "Cigar Lounge",
+        "Cocktail Bar",
+        "Live Music Venue"
+      ],
+      "tags": [
+        "Cigars",
+        "Craft Cocktails",
+        "Full Bar",
+        "Indoor Smoking",
+        "Live Music",
+        "Downtown Denison",
+        "21+",
+        "VIP Memberships"
+      ],
+      "description": "Black Sheep Lounge is a cigar lounge and cocktail bar in Downtown Denison offering premium cigars, handcrafted cocktails, indoor cigar smoking, live entertainment, and a relaxed upscale atmosphere designed for conversation and an unhurried night out.",
+      "why_visit": "Black Sheep Lounge is a strong choice for adults looking for a relaxed Downtown Denison night out built around premium cigars, handcrafted cocktails, live entertainment, and conversation rather than a typical loud bar atmosphere.",
+      "why_its_unique": "Black Sheep Lounge combines premium cigar retail, indoor cigar smoking, a full cocktail bar, dedicated humidor space, live entertainment, and specialty air filtration in one Downtown Denison venue.",
+      "phone": "903-647-0575",
+      "email": "fajersonconsulting@gmail.com",
+      "website": "https://www.blacksheeplounge.biz/",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/blacksheeplounge_denison",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": "/images/businesses/black-sheep-lounge-logo.jpg",
+      "logo_alt": "Black Sheep Lounge logo",
+      "price_range": "$$",
+      "family_friendly": false,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "12:00 PM-8:00 PM",
+        "tuesday": "12:00 PM-8:00 PM",
+        "wednesday": "10:00 AM-10:00 PM",
+        "thursday": "10:00 AM-10:00 PM",
+        "friday": "10:00 AM-12:00 AM",
+        "saturday": "10:00 AM-12:00 AM",
+        "sunday": "12:00 PM-8:00 PM"
+      },
+      "hours_note": "Hours are based on the current official Black Sheep Lounge website and may change for holidays or special events.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$$",
+        "family_friendly": false,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": true,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Premium cigar selection",
+        "Walk-in humidor",
+        "Full cocktail bar",
+        "Indoor cigar smoking",
+        "Live entertainment",
+        "VIP memberships",
+        "Air filtration and ventilation system"
+      ],
+      "good_to_know": [
+        "Black Sheep Lounge is an adult-oriented cigar and cocktail lounge.",
+        "Indoor cigar smoking is part of the venue experience.",
+        "The business operates under the current public name Black Sheep Lounge; some earlier records refer to it as Black Sheep Cigar Lounge.",
+        "Food availability was not clearly confirmed through current first-party information.",
+        "A clean canonical Facebook page URL has not yet been verified."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "denison-tx",
+          "name": "Denison",
+          "entity_type": "city",
+          "relationship_note": "Located in Denison, Texas."
+        },
+        {
+          "slug": "grayson-county-tx",
+          "name": "Grayson County",
+          "entity_type": "county",
+          "relationship_note": "Located in Grayson County, Texas."
+        },
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Texas business location."
+        }
+      ],
+      "verification_note": "Complete. Business name, address, phone, email, website, Instagram, current hours, cigar-lounge concept, cocktail service, indoor smoking, ownership context, and event-hosting activity were cross-checked against current first-party and Denison-area sources. Facebook remains unset pending verification of a clean canonical page URL.",
+      "last_checked": "2026-09-04",
+      "event_types": [
+        "Live music",
+        "Cigar events",
+        "Cocktail events",
+        "Downtown community events"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official social media",
+        "Downtown Denison event listings",
+        "Discover Denison event listings"
+      ],
+      "features": [
+        "Premium cigar lounge",
+        "Craft cocktails",
+        "Full bar",
+        "Indoor cigar smoking",
+        "Walk-in humidor",
+        "Live entertainment",
+        "VIP memberships",
         "Downtown Denison location"
       ]
     }
