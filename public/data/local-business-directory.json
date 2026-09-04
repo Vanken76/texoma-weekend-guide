@@ -5,8 +5,8 @@
   "generated_on": "2026-09-04",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1297,
-  "publish_ready_count": 973,
+  "business_count": 1298,
+  "publish_ready_count": 974,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -140350,6 +140350,141 @@
         "Live entertainment",
         "VIP memberships",
         "Downtown Denison location"
+      ]
+    },
+    {
+      "slug": "cjs-coffee-cafe-on-main",
+      "business_name": "CJ's Coffee Cafe on Main",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "514 W Main St, Denison, TX 75020",
+      "category": [
+        "Coffee Shop",
+        "Cafe",
+        "Breakfast & Lunch",
+        "Event Venue"
+      ],
+      "tags": [
+        "Locally Roasted Coffee",
+        "Espresso",
+        "Breakfast",
+        "Lunch",
+        "Outdoor Seating",
+        "Live Music",
+        "Free Wi-Fi",
+        "Family Friendly",
+        "Downtown Denison"
+      ],
+      "description": "CJ's Coffee Cafe on Main is the original CJ's Coffee Cafe location in historic Downtown Denison. The cafe serves locally roasted coffee, handcrafted espresso drinks, breakfast and lunch along with baked goods, sandwiches, salads and other cafe favorites. The Main Street location offers indoor and outdoor seating, online ordering and a relaxed downtown setting that also participates in local live-music and community events.",
+      "why_visit": "CJ's on Main works equally well for an early coffee, breakfast, lunch, a casual meeting or a break while exploring Downtown Denison. Visitors can pair locally roasted coffee and specialty drinks with a broader cafe menu in a comfortable Main Street setting.",
+      "why_its_unique": "This is the original CJ's Coffee Cafe location and combines the company's locally roasted coffee program with a full breakfast-and-lunch cafe experience in historic Downtown Denison.",
+      "phone": "903-327-8984",
+      "email": null,
+      "website": "https://cjscoffeecafe.com/order/order-at-cjs-on-main/",
+      "facebook": "https://www.facebook.com/cjscoffeecafe/",
+      "instagram": "https://www.instagram.com/cjscoffeecafe/",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": "/images/businesses/cjs-coffee-cafe-on-main-logo.webp",
+      "logo_alt": "CJ's Coffee Cafe on Main logo",
+      "price_range": "$",
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": true,
+      "hours": {
+        "monday": "6:00 AM - 3:00 PM",
+        "tuesday": "6:00 AM - 3:00 PM",
+        "wednesday": "6:00 AM - 3:00 PM",
+        "thursday": "6:00 AM - 3:00 PM",
+        "friday": "6:00 AM - 5:00 PM",
+        "saturday": "6:00 AM - 5:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current location-specific hours published by CJ's Coffee Cafe. Holiday and special-event hours may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": "$",
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": true,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Indoor seating",
+        "Outdoor seating",
+        "Free Wi-Fi",
+        "Drive-through",
+        "Online ordering",
+        "Takeout",
+        "Delivery",
+        "Wheelchair-accessible entrance and seating",
+        "High chairs"
+      ],
+      "good_to_know": [
+        "This is CJ's original Downtown Denison location.",
+        "The Main Street location is closed on Sundays.",
+        "Dogs are permitted in the outdoor seating area.",
+        "Location-specific hours differ from the other CJ's Coffee Cafe locations.",
+        "The cafe participates in Downtown Denison events and occasional live entertainment."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": {
+        "slug": "cjs-coffee-cafe",
+        "business_name": "CJ's Coffee Cafe",
+        "relationship_note": "Original Downtown Denison location of CJ's Coffee Cafe."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "grayson-county-tx",
+          "name": "Grayson County",
+          "entity_type": "county",
+          "relationship_note": "Located in Grayson County, Texas."
+        },
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Texas business location."
+        }
+      ],
+      "verification_note": "Complete. Location name, address, phone, current hours, website, parent-brand relationship and official social accounts were verified from current CJ's Coffee Cafe and TWG sources. Main Street is the original Denison location and is separately modeled from the Gateway Village and Sherman locations.",
+      "last_checked": "2026-09-04",
+      "event_types": [
+        "Live music",
+        "Downtown community events",
+        "Festivals"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official Facebook page",
+        "Official Instagram",
+        "Downtown Denison event listings"
+      ],
+      "features": [
+        "Original CJ's Coffee Cafe location",
+        "Locally roasted coffee",
+        "Handcrafted espresso drinks",
+        "Breakfast and lunch",
+        "Outdoor seating",
+        "Free Wi-Fi",
+        "Downtown Denison location",
+        "Event participation"
       ]
     }
   ]
