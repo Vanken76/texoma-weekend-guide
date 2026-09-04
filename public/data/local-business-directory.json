@@ -69,7 +69,9 @@
         "Community events"
       ],
       "verification_note": "Monitor the official calendar and social pages for upcoming events.",
-      "last_checked": "2026-07-19"
+      "last_checked": "2026-07-19",
+      "logo_url": "/images/businesses/pen-and-page-weathered-books-logo.jpg",
+      "logo_alt": "Pen & Page Weathered Books logo"
     },
     {
       "slug": "tnt-bar-b-que",
