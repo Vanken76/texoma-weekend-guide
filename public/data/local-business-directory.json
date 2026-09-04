@@ -5,8 +5,8 @@
   "generated_on": "2026-09-04",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1299,
-  "publish_ready_count": 975,
+  "business_count": 1300,
+  "publish_ready_count": 976,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -140605,6 +140605,120 @@
         "Breakfast and lunch",
         "Gateway Village location",
         "Near Texoma Medical Center"
+      ]
+    },
+    {
+      "slug": "cjs-coffee-cafe-on-travis",
+      "business_name": "CJ's Coffee Cafe on Travis",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "818 N Travis St, Sherman, TX 75090",
+      "category": [
+        "Coffee Shop",
+        "Cafe",
+        "Breakfast & Lunch"
+      ],
+      "tags": [
+        "Locally Roasted Coffee",
+        "Espresso",
+        "Breakfast",
+        "Lunch",
+        "Online Ordering",
+        "Sherman"
+      ],
+      "description": "CJ's Coffee Cafe on Travis is the Sherman location of the locally operated CJ's Coffee Cafe brand. The shop serves locally roasted coffee, handcrafted espresso drinks, breakfast and lunch from its North Travis Street location just west of Downtown Sherman.",
+      "why_visit": "CJ's on Travis is a convenient Sherman stop for locally roasted coffee, espresso drinks, breakfast or lunch. Online ordering makes it especially useful for commuters, quick pickups and casual coffee breaks.",
+      "why_its_unique": "CJ's on Travis brings the Texoma-based CJ's locally roasted coffee program and full cafe menu to Sherman, giving the brand a dedicated location west of downtown.",
+      "phone": "903-487-2400",
+      "email": null,
+      "website": "https://cjscoffeecafe.com/order/order-at-cjs-on-travis/",
+      "facebook": "https://www.facebook.com/cjscoffeecafe/",
+      "instagram": "https://www.instagram.com/cjscoffeecafe/",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": "/images/businesses/cjs-coffee-cafe-on-travis-logo.webp",
+      "logo_alt": "CJ's Coffee Cafe on Travis logo",
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "6:00 AM - 6:00 PM",
+        "tuesday": "6:00 AM - 6:00 PM",
+        "wednesday": "6:00 AM - 6:00 PM",
+        "thursday": "6:00 AM - 6:00 PM",
+        "friday": "6:00 AM - 6:00 PM",
+        "saturday": "6:00 AM - 6:00 PM",
+        "sunday": "Closed"
+      },
+      "hours_note": "Current location-specific hours published by CJ's Coffee Cafe. Holiday hours may vary.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Locally roasted coffee",
+        "Handcrafted espresso drinks",
+        "Breakfast and lunch",
+        "Online ordering",
+        "Takeout"
+      ],
+      "good_to_know": [
+        "This is CJ's Sherman location.",
+        "The shop is located on Travis Street just west of Downtown Sherman.",
+        "Online ordering is available for pickup.",
+        "Location-specific hours differ from the Denison CJ's locations."
+      ],
+      "event_venue": false,
+      "recurring_events": false,
+      "mine_for_events": false,
+      "event_mining_priority": "low",
+      "parent_business": {
+        "slug": "cjs-coffee-cafe",
+        "business_name": "CJ's Coffee Cafe",
+        "relationship_note": "Sherman location of CJ's Coffee Cafe."
+      },
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "grayson-county-tx",
+          "name": "Grayson County",
+          "entity_type": "county",
+          "relationship_note": "Located in Grayson County, Texas."
+        },
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Texas business location."
+        }
+      ],
+      "verification_note": "Complete. Location name, Sherman address, phone, current hours, online ordering and parent-brand relationship were verified from the current official CJ's Coffee Cafe website.",
+      "last_checked": "2026-09-04",
+      "event_types": [],
+      "event_sources": [],
+      "features": [
+        "Locally roasted coffee",
+        "Handcrafted espresso drinks",
+        "Breakfast and lunch",
+        "Online ordering",
+        "Sherman location"
       ]
     }
   ]
