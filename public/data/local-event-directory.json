@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 490,
-  "publish_ready_count": 490,
+  "event_count": 491,
+  "publish_ready_count": 491,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -31672,6 +31672,73 @@
       "last_checked": "2026-09-03",
       "created_on": "2026-09-03",
       "updated_on": "2026-09-03"
+    },
+    {
+      "event_name": "Harvest Sweets & Styles 2026 | Downtown Denison",
+      "event_slug": "harvest-sweets-styles-downtown-denison-2026-09-12",
+      "status": "upcoming",
+      "publish_ready": true,
+      "featured": false,
+      "start_datetime": "2026-09-12T11:00:00-05:00",
+      "end_datetime": "2026-09-12T16:00:00-05:00",
+      "timezone": "America/Chicago",
+      "venue_slugs": [
+        "downtown-denison"
+      ],
+      "venue_name": "Downtown Denison",
+      "city": "Denison",
+      "state": "TX",
+      "host_business_slug": "downtown-denison-inc",
+      "organizer_name": "Downtown Denison, Inc.",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "categories": [
+        "Shopping",
+        "Fall",
+        "Seasonal",
+        "Family Friendly",
+        "Community Event"
+      ],
+      "tags": [
+        "Harvest Sweets & Styles",
+        "Downtown Denison",
+        "Historic Downtown Denison",
+        "Denison TX",
+        "Fall Shopping",
+        "Fall Fashion",
+        "Seasonal Treats",
+        "Festive Drinks",
+        "Shop Local",
+        "Small Business",
+        "Boutiques",
+        "Restaurants",
+        "Cafes",
+        "Harvest Word Scramble",
+        "$200 Downtown Denison Gift Card",
+        "Family Friendly",
+        "Main Street",
+        "Texoma"
+      ],
+      "description": "Shop, snack and enjoy fall during Harvest Sweets & Styles 2026 in Historic Downtown Denison. This relaxed fall shopping event brings visitors to local boutiques, restaurants, cafes and small businesses throughout Main Street from 11 AM to 4 PM on Saturday, September 12. Explore fall fashion, seasonal treats and festive drinks while supporting locally owned Downtown Denison businesses. Shoppers can also participate in the Harvest Word Scramble by visiting participating businesses, collecting clues and entering for a chance to win a $200 Downtown Denison gift card. The event is family friendly and designed as a day of shopping, dining and celebrating the fall season throughout downtown. An event map and official starting location are expected to be announced closer to the event.",
+      "cost_type": "unknown",
+      "cost_details": "No admission charge was stated in the current event information. Shopping, dining and other purchases are priced individually by participating businesses.",
+      "age_restriction": null,
+      "audience": [
+        "Families",
+        "Adults",
+        "Shoppers",
+        "Visitors",
+        "All Ages"
+      ],
+      "ticket_url": null,
+      "facebook_url": "https://www.facebook.com/events/1995008614781498/",
+      "official_url": "https://www.facebook.com/events/1995008614781498/",
+      "image_url": "/images/events/harvest-sweets-styles-downtown-denison-2026-09-12.jpg",
+      "image_alt": "Harvest Sweets & Styles 2026 in Downtown Denison",
+      "last_checked": "2026-09-04",
+      "last_verified": "2026-09-04",
+      "created_on": "2026-09-04",
+      "updated_on": "2026-09-04"
     }
   ]
 }
