@@ -5,8 +5,8 @@
   "generated_on": "2026-09-04",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1300,
-  "publish_ready_count": 976,
+  "business_count": 1301,
+  "publish_ready_count": 977,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -140719,6 +140719,108 @@
         "Breakfast and lunch",
         "Online ordering",
         "Sherman location"
+      ]
+    },
+    {
+      "slug": "heart-of-a-matter-ministries",
+      "business_name": "Heart of A Matter Ministries",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "1602 E Lamar St, Sherman, TX 75090",
+      "category": [
+        "Nonprofit Organization",
+        "Community Services",
+        "Religious Organization",
+        "Event Venue"
+      ],
+      "tags": [
+        "Community Support",
+        "Faith Based",
+        "Workshops",
+        "Support Groups",
+        "Community Events",
+        "Mentoring",
+        "Education",
+        "Grayson County"
+      ],
+      "description": "Heart of A Matter Ministries is a Sherman-based nonprofit focused on cultivating Christ-centered communities and helping individuals thrive with purpose. The organization provides community support, mentoring, educational programs, workshops, fellowship gatherings and other faith-centered services from its East Lamar Street location.",
+      "why_visit": "Heart of A Matter Ministries hosts a variety of community-focused programs, workshops, support activities and fellowship gatherings designed to connect, encourage and equip people in the Sherman area.",
+      "why_its_unique": "The organization combines Christian ministry with practical community support, mentoring, education and recurring programs intended to create meaningful local impact.",
+      "phone": "903-914-0732",
+      "email": "admin@aheartmatter.org",
+      "website": "https://aheartmatter.org/",
+      "facebook": "https://www.facebook.com/Heartofamatter",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": "/images/businesses/heart-of-a-matter-ministries-logo.jpg",
+      "logo_alt": "Heart of A Matter Ministries logo",
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Programs and gatherings operate on individual schedules. Check the official calendar before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Events room",
+        "Conference room",
+        "Kitchen",
+        "Creator's Studio"
+      ],
+      "good_to_know": [
+        "Programs and gatherings follow individual schedules rather than standard public operating hours.",
+        "Current location is 1602 E Lamar St in Sherman."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Current official website and Facebook presence verify Heart of A Matter Ministries at 1602 E Lamar St, Sherman, TX 75090, phone 903-914-0732, email admin@aheartmatter.org, and recurring community and faith-based programming.",
+      "last_checked": "2026-09-04",
+      "event_types": [
+        "Community gatherings",
+        "Faith-based gatherings",
+        "Support groups",
+        "Workshops",
+        "Classes",
+        "Training",
+        "Mentoring programs",
+        "Community outreach"
+      ],
+      "event_sources": [
+        "Official website",
+        "Official calendar",
+        "Facebook"
+      ],
+      "features": [
+        "Nonprofit organization",
+        "Community support programs",
+        "Recurring programs and gatherings",
+        "Event and meeting spaces",
+        "Faith-based ministry"
       ]
     }
   ]
