@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "project": "Texoma Weekend Guide",
   "document_type": "local_event_directory",
-  "generated_on": "2026-09-03",
+  "generated_on": "2026-09-04",
   "timezone_default": "America/Chicago",
   "publication_rule": "Only records with publish_ready=true should appear in the public event directory.",
   "active_event_rule": "status in [upcoming, recurring] and either end_datetime is in the future, or end_datetime is null and the local event date has not passed",
@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 491,
-  "publish_ready_count": 491,
+  "event_count": 490,
+  "publish_ready_count": 490,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -25767,66 +25767,6 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified 2026-08-24 from the current Dan's Silverleaf Prekindle calendar and official Dan's Silverleaf venue information. Prekindle lists Songwriter's Open Mic Hosted By Justin Collins every Monday at 8:00 PM with no cover, with currently published dates through December 28, 2026. Dan's Silverleaf identifies the venue as a 21+ establishment. No reliable event ending time was published, so none was inferred.",
-      "last_checked": "2026-08-24",
-      "created_on": "2026-08-24",
-      "updated_on": "2026-08-24"
-    },
-    {
-      "event_slug": "glitch-after-dark-karaoke",
-      "event_name": "Glitch After Dark Karaoke",
-      "description": "Glitch After Dark Karaoke is an adults-only karaoke night at Glitch's Arcade in Sherman, held on the first and third Saturday of each month from 9:00 PM to midnight.",
-      "start_datetime": "2026-09-05T21:00:00-05:00",
-      "end_datetime": "2026-09-06T00:00:00-05:00",
-      "timezone": "America/Chicago",
-      "status": "recurring",
-      "venue_slugs": [
-        "glitchs-arcade"
-      ],
-      "venue_name": "Glitch's Arcade",
-      "address": "1950 N Grand Ave",
-      "city": "Sherman",
-      "state": "TX",
-      "postal_code": "75090",
-      "latitude": null,
-      "longitude": null,
-      "categories": [
-        "Karaoke",
-        "Nightlife"
-      ],
-      "tags": [
-        "Karaoke",
-        "Glitch After Dark",
-        "Adults Only",
-        "Arcade",
-        "Nightlife",
-        "Sherman",
-        "Grayson County",
-        "Texoma"
-      ],
-      "cost_type": "varies",
-      "cost_details": "Glitch's standard arcade admission is $12. The venue also advertises free admission for women beginning at 9:00 PM every Saturday as part of Ladies Night.",
-      "audience": [
-        "Adults",
-        "Karaoke Fans"
-      ],
-      "age_restriction": "18+ only",
-      "host_business_slug": "glitchs-arcade",
-      "organizer_name": null,
-      "partner_business_slugs": [],
-      "partner_names": [],
-      "image_url": "/images/events/glitch-after-dark-karaoke.png",
-      "image_alt": null,
-      "official_url": "https://www.glitchsarcade.com/events",
-      "facebook_url": null,
-      "ticket_url": null,
-      "recurring": true,
-      "recurrence_rule": "FREQ=MONTHLY;BYDAY=SA;BYSETPOS=1,3",
-      "recurrence_start_date": "2026-09-05",
-      "recurrence_end_date": null,
-      "featured": false,
-      "publish_ready": true,
-      "source_verified": true,
-      "verification_note": "Verified 2026-08-24 from the official Glitch's Arcade events page and current official karaoke flyer. The flyer identifies the event as Glitch After Dark Karaoke and states every 1st and 3rd Saturday from 9 PM until 12 AM, 18+ only, at 1950 N. Grand Ave in Sherman. The official events page separately confirms the venue's Saturday Ladies Night promotion with free admission for women beginning at 9 PM.",
       "last_checked": "2026-08-24",
       "created_on": "2026-08-24",
       "updated_on": "2026-08-24"
