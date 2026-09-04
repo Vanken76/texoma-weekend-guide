@@ -5,8 +5,8 @@
   "generated_on": "2026-09-04",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1295,
-  "publish_ready_count": 971,
+  "business_count": 1296,
+  "publish_ready_count": 972,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -140128,6 +140128,119 @@
       ],
       "last_checked": "2026-09-04",
       "last_verified": "2026-09-04"
+    },
+    {
+      "slug": "yum-yard",
+      "business_name": "Yum Yard",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "225 W Crawford St, Denison, TX 75020",
+      "category": [
+        "Food Truck Park",
+        "Outdoor Event Venue",
+        "Live Music Venue"
+      ],
+      "tags": [
+        "Veteran Owned",
+        "Food Trucks",
+        "Outdoor Seating",
+        "Live Music",
+        "Downtown Denison"
+      ],
+      "description": "Yum Yard is a veteran-owned food truck park and outdoor gathering venue at 225 W Crawford St in Denison. The property brings food trucks together around open-air seating and an event-friendly setup with a covered performance stage used for live music and community gatherings.",
+      "why_visit": "Yum Yard is a casual downtown stop for people who want food-truck choices and an open-air place to gather. The venue can pair a meal with live entertainment or community events without the feel of a traditional single-restaurant experience.",
+      "why_its_unique": "Yum Yard combines a food truck park with a dedicated outdoor event setup, including a covered performance stage, in the heart of Downtown Denison.",
+      "phone": "623-313-2296",
+      "email": null,
+      "website": "https://yumyardpark.com/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": "/images/businesses/yum-yard-logo.png",
+      "logo_alt": "Yum Yard logo",
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Food-truck availability and operating hours may vary by vendor, season, and event schedule. Check current Yum Yard information before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": true,
+        "full_bar": null,
+        "live_music": true,
+        "karaoke": null,
+        "outdoor_seating": true,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Food truck spaces",
+        "Outdoor seating",
+        "Covered performance stage",
+        "Restrooms"
+      ],
+      "good_to_know": [
+        "Food-truck lineup and hours can vary by day.",
+        "The venue is also referenced in older sources as Denison Food Truck Park.",
+        "Yum Yard identifies itself as veteran owned and operated."
+      ],
+      "event_venue": true,
+      "recurring_events": false,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [
+        {
+          "slug": "denison-tx",
+          "name": "Denison",
+          "entity_type": "city",
+          "relationship_note": "Located in Denison, Texas."
+        },
+        {
+          "slug": "grayson-county-tx",
+          "name": "Grayson County",
+          "entity_type": "county",
+          "relationship_note": "Located in Grayson County, Texas."
+        },
+        {
+          "slug": "texas",
+          "name": "Texas",
+          "entity_type": "state",
+          "relationship_note": "Texas business location."
+        }
+      ],
+      "verification_note": "Complete. Current Yum Yard branding confirms the veteran-owned operation, website and phone number. Address and event-venue use were cross-checked against current Denison-area sources. Hours remain variable because food-truck availability and schedules can change.",
+      "last_checked": "2026-09-04",
+      "event_types": [
+        "Live music",
+        "Community events",
+        "Food truck gatherings"
+      ],
+      "event_sources": [
+        "Official website",
+        "Downtown Denison event listings",
+        "Discover Denison event listings"
+      ],
+      "features": [
+        "Veteran owned and operated",
+        "Food truck park",
+        "Covered performance stage",
+        "Outdoor gathering space",
+        "Downtown Denison location"
+      ]
     }
   ]
 }
