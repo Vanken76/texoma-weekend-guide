@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 494,
-  "publish_ready_count": 494,
+  "event_count": 495,
+  "publish_ready_count": 495,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -31923,6 +31923,57 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified September 4, 2026 against the official Heart of A Matter Ministries September 2026 calendar. ACTS 2: Fellowship of Believers Gathering is listed for September 7, 14, 21 and 28 from 6:00 PM to 8:00 PM in the Events Room at 1602 E Lamar St, Sherman, TX 75090. No admission cost is stated on the official calendar.",
+      "last_checked": "2026-09-04",
+      "created_on": "2026-09-04",
+      "updated_on": "2026-09-04"
+    },
+    {
+      "event_slug": "creating-shalom-group",
+      "event_name": "Creating Shalom Group",
+      "description": "Creating Shalom Group meets Monday evenings in September at Heart of A Matter Ministries in Sherman. The group meets in the Grace Suite at the ministry's East Lamar Street location.",
+      "start_datetime": "2026-09-07T18:00:00-05:00",
+      "end_datetime": "2026-09-07T20:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "recurring",
+      "venue_slugs": [
+        "heart-of-a-matter-ministries"
+      ],
+      "venue_name": "Heart of A Matter Ministries",
+      "address": "1602 E Lamar St",
+      "city": "Sherman",
+      "state": "TX",
+      "postal_code": "75090",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Community"
+      ],
+      "tags": [
+        "Creating Shalom Group",
+        "Sherman",
+        "Community Group"
+      ],
+      "cost_type": "unknown",
+      "cost_details": null,
+      "audience": [],
+      "age_restriction": null,
+      "host_business_slug": "heart-of-a-matter-ministries",
+      "organizer_name": null,
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/creating-shalom-group.png",
+      "image_alt": null,
+      "official_url": "https://aheartmatter.org/calendar/hoamm-events/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": true,
+      "recurrence_rule": "FREQ=WEEKLY;BYDAY=MO;UNTIL=20260928T235959",
+      "recurrence_start_date": "2026-09-07",
+      "recurrence_end_date": "2026-09-28",
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified September 4, 2026 against the official Heart of A Matter Ministries calendar. Creating Shalom Group is listed September 7, 14, 21 and 28 from 6:00 PM to 8:00 PM. The calendar identifies the location as the Grace Suite at 1602 E Lamar St, Sherman, TX 75090 and lists Claudia at info@aheartmatter.org as the contact. No admission cost or additional program details are stated.",
       "last_checked": "2026-09-04",
       "created_on": "2026-09-04",
       "updated_on": "2026-09-04"
