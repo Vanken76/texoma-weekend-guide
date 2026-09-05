@@ -2517,7 +2517,9 @@
         "Community event listings"
       ],
       "verification_note": "Complete. Replaces the unresolved BarnHill Vineyards Best of Texoma candidate. Official business information confirms the Anna address, phone, email, website, family ownership, vineyard and winery operation, concert and wine-tasting programming, vendor markets, and private-event services. Owners are Steven and Corey Neuner. Keep on the permanent high-priority weekly event-mining list for concerts, tastings, markets, private events, vendor calls, food-truck opportunities, holiday programming, and seasonal announcements.",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-20",
+      "logo_url": "/images/businesses/barnhill-vineyards-logo.jpg",
+      "logo_alt": "BarnHill Vineyards logo"
     },
     {
       "slug": "baylor-scott-white-surgical-hospital-at-sherman",
