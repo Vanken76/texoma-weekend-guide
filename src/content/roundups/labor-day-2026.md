@@ -3,7 +3,7 @@ title: "Texoma Labor Day Roundup – September 7, 2026"
 description: "Special Labor Day Edition featuring 23 events happening across Texoma on Monday, September 7, 2026, including family activities, zoo encounters, swimming, skating, lake-area fun, live entertainment, workshops, karaoke, nightlife and more."
 startDate: 2026-09-07
 endDate: 2026-09-07
-image: "/images/1000044390.jpg"
+image: "/images/1000044385.png"
 featured: true
 ---
 
@@ -15,7 +15,7 @@ We rounded up **23 events happening around Texoma on Labor Day**, with family ac
 
 [Browse the full Texoma event directory](/events/) for individual event pages and the latest details.
 
-![Texoma Weekend Guide Special Labor Day Edition for September 7, 2026 featuring 23 events around Texoma](/images/1000044390.jpg)
+![Texoma Weekend Guide Special Labor Day Edition for September 7, 2026 featuring 23 events around Texoma](/images/1000044385.png)
 
 ## Daytime Events — 5 events
 
@@ -27,7 +27,7 @@ Start Labor Day with zoo encounters, swimming and bowling around Texoma.
 4. **Frank Buck Zoo Capybara Encounter** — 11:30 AM — Frank Buck Zoo, Gainesville
 5. **Frank Buck Zoo Mini Horse Encounter** — 1:30 PM — Frank Buck Zoo, Gainesville
 
-![Texoma Labor Day daytime events for September 7, 2026 featuring Frank Buck Zoo encounters, Gilda Garcia Garza Aquatic Center and Kids Bowl Free](/images/1000044392.jpg)
+![Texoma Labor Day daytime events for September 7, 2026 featuring Frank Buck Zoo encounters, Gilda Garcia Garza Aquatic Center and Kids Bowl Free](/images/1000044386.png)
 
 ## Late Morning & Early Afternoon Events — 6 events
 
@@ -40,7 +40,7 @@ Late morning and early afternoon bring another zoo encounter, lake-area food, br
 5. **Last Day of 2026 Operations** — 11:00 AM–7:00 PM — Water Works Park, Denton
 6. **Home School and Family Skate** — 12:30 PM–3:00 PM — Skatelands of America, Denison
 
-![Texoma Labor Day late morning and early afternoon events for September 7, 2026](/images/1000044394.jpg)
+![Texoma Labor Day late morning and early afternoon events for September 7, 2026](/images/1000044387.png)
 
 ## Afternoon & Early Evening Events — 6 events
 
@@ -53,7 +53,7 @@ The afternoon rolls into lake entertainment, free pool, mahjong, theater, kids' 
 5. **Tanglewood Kids' Night** — 5:00 PM–8:00 PM — Tanglewood Bar & Grill at Tanglewood Resort, Pottsboro
 6. **TCG Mondays** — 5:00 PM–10:00 PM — d20 Tavern, Denton
 
-![Texoma Labor Day afternoon and early evening events for September 7, 2026](/images/1000044396.jpg)
+![Texoma Labor Day afternoon and early evening events for September 7, 2026](/images/1000044388.png)
 
 ## Evening Events — 6 events
 
@@ -66,7 +66,7 @@ Finish Labor Day with community gatherings, auditions, painting, an open mic and
 5. **Songwriter's Open Mic Hosted by Justin Collins** — 8:00 PM — Dan's Silverleaf, Denton
 6. **Monday Karaoke** — 9:00 PM — Dirty Dick's Bar, Denton
 
-![Texoma Labor Day evening events for September 7, 2026 featuring community gatherings, auditions, painting, open mic and karaoke](/images/1000044398.jpg)
+![Texoma Labor Day evening events for September 7, 2026 featuring community gatherings, auditions, painting, open mic and karaoke](/images/1000044389.png)
 
 Whether you're looking for **family activities, swimming, skating, lake-area fun, food, live entertainment, workshops, games, karaoke or something different to do**, there are plenty of ways to spend Labor Day around Texoma.
 
