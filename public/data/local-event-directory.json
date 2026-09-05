@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 502,
-  "publish_ready_count": 502,
+  "event_count": 503,
+  "publish_ready_count": 503,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -32385,6 +32385,67 @@
       "recurrence_start_date": null,
       "recurrence_end_date": null,
       "host_business_slug": "painting-with-a-twist-mckinney",
+      "partner_business_slugs": [],
+      "partner_names": []
+    },
+    {
+      "event_slug": "labor-day-weekend-wayback-barn-2026-09-07",
+      "event_name": "Labor Day Weekend at Wayback Barn (Extended Hours!)",
+      "description": "Spend Labor Day at Wayback Barn with extended Monday hours, yard games, mini golf, axe throwing and holiday weekend food and drink specials. Mini golf is BOGO for the holiday weekend, with $6 hot dogs and $6 margaritas available, plus whiskey tastings for guests age 21 and older.",
+      "start_datetime": "2026-09-07T11:00:00-05:00",
+      "end_datetime": "2026-09-07T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "wayback-barn-mckinney"
+      ],
+      "venue_name": "Wayback Barn",
+      "address": "3964 County Road 168",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75071",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Family Friendly",
+        "Outdoor Activities",
+        "Holiday Events"
+      ],
+      "tags": [
+        "Labor Day",
+        "Wayback Barn",
+        "McKinney",
+        "Mini Golf",
+        "BOGO Mini Golf",
+        "Axe Throwing",
+        "Yard Games",
+        "Family Friendly",
+        "Whiskey Tastings"
+      ],
+      "cost_type": "varies",
+      "cost_details": "$6 general admission. Mini golf costs extra and is BOGO for the holiday weekend. Axe throwing costs extra. $6 hot dogs and $6 margaritas are available all weekend. Whiskey tastings are 21+.",
+      "audience": [
+        "family-friendly"
+      ],
+      "age_restriction": null,
+      "image_url": "/images/events/labor-day-weekend-wayback-barn-2026-09-07.png",
+      "official_url": "https://www.visitmckinney.com/event/labor-day-weekend-at-wayback-barn-%28extended-hours%21%29/12703/",
+      "facebook_url": null,
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the Visit McKinney listing presented by Wayback Barn and Wayback Barn's official website. The Labor Day event includes Monday, September 7, 2026, with extended hours from 11:00 AM–9:00 PM at Wayback Barn, 3964 County Road 168, McKinney, TX 75071. General admission is $6. Mini golf costs extra and is BOGO for the holiday weekend; axe throwing costs extra. Weekend specials include $6 hot dogs, $6 margaritas and whiskey tastings for guests age 21+. Live music is listed for Saturday and Sunday only and is not included in this Monday occurrence.",
+      "last_checked": "2026-09-05",
+      "created_on": "2026-09-05",
+      "updated_on": "2026-09-05",
+      "organizer_name": "Wayback Barn",
+      "image_alt": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": "wayback-barn-mckinney",
       "partner_business_slugs": [],
       "partner_names": []
     }
