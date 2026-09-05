@@ -5,8 +5,8 @@
   "generated_on": "2026-09-05",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1304,
-  "publish_ready_count": 980,
+  "business_count": 1305,
+  "publish_ready_count": 981,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -141147,6 +141147,129 @@
         "Private Game Master sessions",
         "BYOF",
         "Dog friendly"
+      ]
+    },
+    {
+      "slug": "painting-with-a-twist-mckinney",
+      "business_name": "Painting with a Twist - McKinney",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "3201 S Hardin Blvd, Ste 204, McKinney, TX 75070",
+      "category": [
+        "Art Studio",
+        "Paint & Sip Studio",
+        "DIY Studio",
+        "Event Venue"
+      ],
+      "tags": [
+        "Painting",
+        "Paint and Sip",
+        "BYOB",
+        "Art Classes",
+        "DIY",
+        "Family Activities",
+        "Kids Events",
+        "Private Parties",
+        "Team Building",
+        "McKinney"
+      ],
+      "description": "Painting with a Twist - McKinney is a social art studio offering artist-led painting events, self-guided Pop In & DIY projects, private parties, family and kids activities, team-building events and at-home art kits. The McKinney studio is BYOB and is designed for casual, beginner-friendly creative experiences.",
+      "why_visit": "Painting with a Twist - McKinney offers a relaxed way to create art with guided events, walk-in DIY projects and themed experiences for friends, families, couples and groups.",
+      "why_its_unique": "The studio combines step-by-step painting experiences with BYOB social events, self-guided DIY projects, private parties and recurring themed art programming.",
+      "phone": "972-542-1883",
+      "email": "mckinney@paintingwithatwist.com",
+      "website": "https://www.paintingwithatwist.com/studio/mckinney/",
+      "facebook": "https://www.facebook.com/PaintingWithATwistMcKinney",
+      "instagram": "https://www.instagram.com/paintingwithatwistmckinney/",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": "/images/businesses/painting-with-a-twist-mckinney-logo.jpg",
+      "logo_alt": "Painting with a Twist - McKinney logo",
+      "price_range": null,
+      "family_friendly": true,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {
+        "monday": "1:00 PM–6:00 PM",
+        "tuesday": "1:00 PM–6:00 PM",
+        "wednesday": "1:00 PM–6:00 PM",
+        "thursday": "1:00 PM–6:00 PM",
+        "friday": "1:00 PM–6:00 PM",
+        "saturday": "10:00 AM–6:00 PM",
+        "sunday": "12:00 PM–4:00 PM"
+      },
+      "hours_note": "These are the studio's official office hours. Scheduled event times may differ from office hours.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": true,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": false,
+        "full_bar": false,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Artist-led painting events",
+        "Pop In & DIY",
+        "Private parties",
+        "Team-building events",
+        "Kids events",
+        "Family events",
+        "At-home paint kits",
+        "BYOB",
+        "Canvas and wood projects",
+        "Candle projects"
+      ],
+      "good_to_know": [
+        "The studio is located at the southeast corner of Hardin and Eldorado near Papa Murphy's.",
+        "Painting with a Twist - McKinney is BYOB.",
+        "Scheduled event times may differ from the published office hours.",
+        "Pop In & DIY offers self-led creative projects during designated walk-in availability.",
+        "Many scheduled events have their own age requirements, pricing and reservation rules."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Painting with a Twist's official McKinney studio pages verify 3201 South Hardin Blvd, Ste 204, McKinney, TX 75070, phone 972-542-1883, email mckinney@paintingwithatwist.com, BYOB, artist-led events, private parties, Pop In & DIY, at-home kits, family and kids programming, and current office hours. The official McKinney contact page links to Facebook at PaintingWithATwistMcKinney and Instagram at paintingwithatwistmckinney. The general Painting with a Twist Facebook page shown separately is the corporate brand page and is not being used as the McKinney listing's local social link.",
+      "last_checked": "2026-09-05",
+      "event_types": [
+        "Painting events",
+        "Paint and sip events",
+        "Family art events",
+        "Kids art events",
+        "DIY workshops",
+        "Private parties",
+        "Team-building events",
+        "Specialty art workshops"
+      ],
+      "event_sources": [
+        "Painting with a Twist McKinney official website",
+        "Painting with a Twist McKinney official event calendar"
+      ],
+      "features": [
+        "Beginner-friendly painting experiences",
+        "BYOB",
+        "Artist-led events",
+        "Self-guided DIY",
+        "Private parties",
+        "Family programming",
+        "Kids programming",
+        "Team building"
       ]
     }
   ]
