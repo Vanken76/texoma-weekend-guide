@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 504,
-  "publish_ready_count": 504,
+  "event_count": 505,
+  "publish_ready_count": 505,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -32505,6 +32505,67 @@
       "publish_ready": true,
       "source_verified": true,
       "verification_note": "Verified from official Water Works Park and City of Denton sources. Monday, September 7, 2026 is the last day of the 2026 Water Works Park season. Normal Monday hours are 11:00 AM–7:00 PM at 2400 Long Rd, Denton, TX 76207. Special Labor Day admission is $5 for guests under 18, $10 for adults 18 and older, and free for children ages 2 and under. Civic Center Pool memberships are also honored at Water Works Park that day.",
+      "last_checked": "2026-09-05",
+      "created_on": "2026-09-05",
+      "updated_on": "2026-09-05"
+    },
+    {
+      "event_slug": "last-day-of-2026-season-gilda-garcia-garza-aquatic-center-2026-09-07",
+      "event_name": "Last Day of the 2026 Season",
+      "description": "Gilda Garcia Garza Aquatic Center closes out its 2026 season on Labor Day, Monday, September 7. The City of McKinney facility is scheduled to be open from 10:00 AM to 8:00 PM for its final operating day of the year. Drop-in admission is $3 for adults ages 18 and older, $2 for ages 3–17, and free for children under age 3.",
+      "start_datetime": "2026-09-07T10:00:00-05:00",
+      "end_datetime": "2026-09-07T20:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "gilda-garcia-garza-aquatic-center-mckinney"
+      ],
+      "venue_name": "Gilda Garcia Garza Aquatic Center",
+      "address": "1101 E Louisiana St",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75069",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Family Friendly",
+        "Outdoor Recreation",
+        "Swimming"
+      ],
+      "tags": [
+        "Labor Day",
+        "McKinney",
+        "aquatic center",
+        "swimming",
+        "outdoor pool",
+        "family recreation",
+        "season closing",
+        "final day"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$3 adults 18+; $2 ages 3–17; children under 3 free.",
+      "audience": [
+        "family-friendly",
+        "all-ages"
+      ],
+      "age_restriction": null,
+      "host_business_slug": null,
+      "organizer_name": "McKinney Parks & Recreation",
+      "partner_business_slugs": [],
+      "partner_names": [],
+      "image_url": "/images/events/last-day-of-2026-season-gilda-garcia-garza-aquatic-center-2026-09-07.png",
+      "image_alt": "Last Day of the 2026 Season at Gilda Garcia Garza Aquatic Center",
+      "official_url": "https://www.mckinneytexas.org/609/Gilda-Garcia-Garza-Aquatic-Center",
+      "facebook_url": "https://www.facebook.com/McKinneyTxParks",
+      "ticket_url": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Confirmed from official City of McKinney sources. The 2026 aquatic-center schedule lists September 7 as the final operating day of the season and gives Labor Day weekend hours of 10:00 AM–8:00 PM. Official drop-in admission is $3 for adults ages 18+, $2 for ages 3–17, and free for children under age 3.",
       "last_checked": "2026-09-05",
       "created_on": "2026-09-05",
       "updated_on": "2026-09-05"
