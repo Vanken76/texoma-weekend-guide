@@ -63,8 +63,8 @@
     "created_on": "",
     "updated_on": ""
   },
-  "event_count": 501,
-  "publish_ready_count": 501,
+  "event_count": 502,
+  "publish_ready_count": 502,
   "schema_notes": {
     "end_datetime_policy": "end_datetime may be null when the organizer has not published an ending time. Such records require manual review after the event date and must not be assigned an invented ending time.",
     "source_integrity_rule": "Do not infer a street address, ending time, ticket link, or organizer URL that was not supported by the supplied source."
@@ -32328,6 +32328,65 @@
       "last_checked": "2026-09-05",
       "created_on": "2026-09-05",
       "updated_on": "2026-09-05"
+    },
+    {
+      "event_slug": "labor-day-bogo-free-painting-with-a-twist-mckinney-2026-09-07",
+      "event_name": "Labor Day BOGO Free",
+      "description": "Celebrate Labor Day with a family-friendly painting event at Painting with a Twist - McKinney. The event is open to painters ages 12 and up. Reserve two seats and receive the second seat free.",
+      "start_datetime": "2026-09-07T19:00:00-05:00",
+      "end_datetime": "2026-09-07T21:00:00-05:00",
+      "timezone": "America/Chicago",
+      "status": "upcoming",
+      "venue_slugs": [
+        "painting-with-a-twist-mckinney"
+      ],
+      "venue_name": "Painting with a Twist - McKinney",
+      "address": "3201 S Hardin Blvd, Ste 204",
+      "city": "McKinney",
+      "state": "TX",
+      "postal_code": "75070",
+      "latitude": null,
+      "longitude": null,
+      "categories": [
+        "Arts & Crafts",
+        "Family Friendly",
+        "Holiday Events"
+      ],
+      "tags": [
+        "Labor Day",
+        "Painting",
+        "Paint and Sip",
+        "Family Friendly",
+        "Ages 12+",
+        "BOGO",
+        "McKinney"
+      ],
+      "cost_type": "paid",
+      "cost_details": "$29 per person. Reserve 2 seats and get the 2nd seat free. Complimentary credits and discount codes are not accepted for this event.",
+      "audience": [
+        "family-friendly"
+      ],
+      "age_restriction": "12+",
+      "image_url": "/images/events/labor-day-bogo-free-painting-with-a-twist-mckinney-2026-09-07.png",
+      "official_url": "https://www.paintingwithatwist.com/studio/mckinney/event/4363626/",
+      "facebook_url": null,
+      "ticket_url": "https://www.paintingwithatwist.com/studio/mckinney/event/4363626/",
+      "recurring": false,
+      "recurrence_rule": null,
+      "featured": false,
+      "publish_ready": true,
+      "source_verified": true,
+      "verification_note": "Verified from the official Painting with a Twist McKinney event page. Monday, September 7, 2026 from 7:00–9:00 PM at 3201 South Hardin Blvd, Ste 204, McKinney, TX 75070. Admission is $29 per person. Reserve 2 seats and get the second seat free. Event is ages 12 and up and designated as a Family Day / family-friendly painting event. Guests age 21+ may bring alcohol. Complimentary credits and discount codes are not accepted for this event.",
+      "last_checked": "2026-09-05",
+      "created_on": "2026-09-05",
+      "updated_on": "2026-09-05",
+      "organizer_name": "Painting with a Twist - McKinney",
+      "image_alt": null,
+      "recurrence_start_date": null,
+      "recurrence_end_date": null,
+      "host_business_slug": "painting-with-a-twist-mckinney",
+      "partner_business_slugs": [],
+      "partner_names": []
     }
   ]
 }
