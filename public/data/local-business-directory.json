@@ -343,7 +343,9 @@
         "Vendor announcements"
       ],
       "verification_note": "Complete. Monitor monthly market appearances and current inventory through official sources.",
-      "last_checked": "2026-07-19"
+      "last_checked": "2026-07-19",
+      "logo_url": "/images/businesses/nifty-collectibles-logo.jpg",
+      "logo_alt": "Nifty Collectibles logo"
     },
     {
       "slug": "texoma-trade-days",
