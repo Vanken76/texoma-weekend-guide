@@ -20545,7 +20545,9 @@
         "friday": "8:00 AM–9:00 PM",
         "saturday": "8:00 AM–9:00 PM"
       },
-      "last_checked": "2026-07-28"
+      "last_checked": "2026-07-28",
+      "logo_url": "/images/businesses/wheeler-barbecue-logo.jpg",
+      "logo_alt": "Wheeler Barbecue logo"
     },
     {
       "slug": "pen-page-weathered-books",
