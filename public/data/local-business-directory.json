@@ -5,8 +5,8 @@
   "generated_on": "2026-09-05",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1303,
-  "publish_ready_count": 979,
+  "business_count": 1304,
+  "publish_ready_count": 980,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -141023,6 +141023,130 @@
         "Community theatre",
         "Auditions",
         "Performing arts venue"
+      ]
+    },
+    {
+      "slug": "d20-tavern-denton",
+      "business_name": "d20 Tavern",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "112 W Oak St, Denton, TX 76201",
+      "category": [
+        "Board Game Venue",
+        "Beer Bar",
+        "Game Store",
+        "Event Venue"
+      ],
+      "tags": [
+        "Board Games",
+        "Tabletop Games",
+        "Craft Beer",
+        "Dungeons & Dragons",
+        "Trading Card Games",
+        "RPG",
+        "Denton Square",
+        "BYOF",
+        "Dog Friendly"
+      ],
+      "description": "d20 Tavern is a craft beer and tabletop gaming venue on the historic Denton Square featuring 20 local craft beers on tap and more than 400 tabletop games. Guests can play board games in house, attend recurring gaming events, enjoy beer, wine, hard seltzer and craft soda, or bring in food from nearby restaurants.",
+      "why_visit": "d20 Tavern combines a large tabletop game library with local craft beer and a busy calendar of board games, trading card games, RPG sessions and community gaming events.",
+      "why_its_unique": "The venue pairs more than 400 tabletop games with 20 local craft beers on tap in a relaxed pub setting directly on the historic Denton Square.",
+      "phone": "940-323-9577",
+      "email": "dungeonfam@d20tavern.com",
+      "website": "https://d20tavern.com/",
+      "facebook": "https://www.facebook.com/d20Tavern",
+      "instagram": "https://www.instagram.com/d20_tavern/",
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": "/images/businesses/d20-tavern-denton-logo.jpg",
+      "logo_alt": "d20 Tavern logo",
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": true,
+      "dog_friendly": true,
+      "hours": {
+        "monday": "2:00 PM–10:00 PM",
+        "tuesday": "2:00 PM–10:00 PM",
+        "wednesday": "2:00 PM–10:00 PM",
+        "thursday": "2:00 PM–12:00 AM",
+        "friday": "12:00 PM–12:00 AM",
+        "saturday": "12:00 PM–12:00 AM",
+        "sunday": "12:00 PM–9:00 PM"
+      },
+      "hours_note": "Hours verified from the official d20 Tavern website. Event times may vary from general operating hours.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": true,
+        "dog_friendly": true,
+        "food_available": false,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": null,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "400+ tabletop games",
+        "20 local craft beers on tap",
+        "Wine",
+        "Hard seltzer",
+        "Craft soda",
+        "Growler fills",
+        "16 oz cans to go",
+        "Private gaming rooms",
+        "Private Game Master sessions",
+        "Bring your own food",
+        "Dog friendly"
+      ],
+      "good_to_know": [
+        "A standard game pass is $5 per person.",
+        "Happy Hour game passes are $2.50 Monday through Thursday from 2:00–5:00 PM.",
+        "Guests may bring outside food, but outside drinks are not permitted.",
+        "Well-behaved leashed dogs are welcome.",
+        "d20 Tavern maintains a recurring calendar of tabletop, RPG, trading card and community gaming events."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Official d20 Tavern sources verify the venue at 112 W Oak St, Denton, TX 76201, phone 940-323-9577, email dungeonfam@d20tavern.com, website d20tavern.com, Facebook page /d20Tavern and Instagram @d20_tavern. Official sources also verify current operating hours, 20 local craft beers on tap, 400+ tabletop games, BYOF policy, $5 game pass, private gaming options and dog-friendly policy. The official September 2026 calendar confirms recurring events including TCG Mondays.",
+      "last_checked": "2026-09-05",
+      "event_types": [
+        "Board game events",
+        "Trading card games",
+        "RPG sessions",
+        "Dungeons & Dragons",
+        "Chess",
+        "Tabletop gaming",
+        "Community gaming events"
+      ],
+      "event_sources": [
+        "d20 Tavern official website",
+        "d20 Tavern official event calendar",
+        "d20 Tavern official Facebook page",
+        "d20 Tavern official Instagram account"
+      ],
+      "features": [
+        "Historic Denton Square location",
+        "Large tabletop game library",
+        "Local craft beer",
+        "Recurring gaming events",
+        "Private gaming rooms",
+        "Private Game Master sessions",
+        "BYOF",
+        "Dog friendly"
       ]
     }
   ]
