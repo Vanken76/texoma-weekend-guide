@@ -138,7 +138,9 @@
       "event_sources": [
         "Facebook posts",
         "Downtown Sherman event coverage"
-      ]
+      ],
+      "logo_url": "/images/businesses/crankys-ice-cream-logo.jpg",
+      "logo_alt": "Cranky's Ice Cream logo"
     },
     {
       "slug": "say-when-brewing-company",
