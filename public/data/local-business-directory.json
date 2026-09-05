@@ -187,7 +187,9 @@
         "Google Business updates"
       ],
       "verification_note": "Permanent weekly event-mining source.",
-      "last_checked": "2026-07-19"
+      "last_checked": "2026-07-19",
+      "logo_url": "/images/businesses/say-when-brewing-company-logo.png",
+      "logo_alt": "Say When Brewing Company logo"
     },
     {
       "slug": "loft-tavern",
