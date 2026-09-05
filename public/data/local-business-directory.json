@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "project": "Texoma Weekend Guide",
   "document_type": "local_business_directory_bridge",
-  "generated_on": "2026-09-04",
+  "generated_on": "2026-09-05",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
   "business_count": 1302,
@@ -18297,7 +18297,9 @@
         "Fundraising events"
       ],
       "verification_note": "Business information, address, phone number, email, website, Facebook page, Instagram account, and public skating hours were verified from the business's official Facebook page, website, and Instagram. Skatelands of America regularly hosts themed events and community activities, making it a high-priority event source for the Texoma Weekend Guide.",
-      "last_checked": "2026-07-26"
+      "last_checked": "2026-07-26",
+      "logo_url": "/images/businesses/skatelands-of-america-logo.jpg",
+      "logo_alt": "Skatelands of America logo"
     },
     {
       "slug": "fannin-county-multipurpose-complex",
