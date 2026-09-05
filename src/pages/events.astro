@@ -255,6 +255,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
           <div class="filter-grid">
             <label class="search-field">Search events<input id="event-search" type="search" placeholder="Music, venue, city, performer…" autocomplete="off" /></label>
             <label>When<select id="date-filter"><option value="all">All upcoming dates</option><option value="today">Today</option><option value="tomorrow">Tomorrow</option><option value="weekend">This weekend</option><option value="seven-days">Next 7 days</option><option value="recurring">Recurring events</option></select></label>
+            <label>Choose date<input id="exact-date-filter" type="date" min={today} /></label>
             <label>City<select id="city-filter"><option value="all">All cities</option>{cities.map((city) => <option value={city.toLowerCase()}>{city}</option>)}</select></label>
             <label>State<select id="state-filter"><option value="all">All states</option><option value="tx">Texas</option><option value="ok">Oklahoma</option></select></label>
             <label>Category<select id="category-filter"><option value="all">All categories</option>{categories.map((category) => <option value={category.toLowerCase()}>{category}</option>)}</select></label>
@@ -266,6 +267,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
             <button type="button" class="quick-filter" data-quick="family">Family</button>
             <button type="button" class="quick-filter" data-quick="nightlife">Nightlife</button>
           </div>
+          <p id="selected-date-summary" class="selected-date-summary" aria-live="polite" hidden></p>
           <div class="filter-summary"><strong id="result-count">{events.length} events</strong><button id="clear-filters" type="button" class="clear-filters">Clear filters</button></div>
         </section>
 
@@ -330,10 +332,12 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
     const PAGE_SIZE = 20;
     const searchInput = document.querySelector("#event-search");
     const dateFilter = document.querySelector("#date-filter");
+    const exactDateFilter = document.querySelector("#exact-date-filter");
     const cityFilter = document.querySelector("#city-filter");
     const stateFilter = document.querySelector("#state-filter");
     const categoryFilter = document.querySelector("#category-filter");
     const resultCount = document.querySelector("#result-count");
+    const selectedDateSummary = document.querySelector("#selected-date-summary");
     const noResults = document.querySelector("#no-results");
     const pagination = document.querySelector("#pagination");
     const previousPage = document.querySelector("#previous-page");
@@ -368,6 +372,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
 
     const chicagoDate = (date = new Date()) => new Intl.DateTimeFormat("en-CA", { timeZone: "America/Chicago", year: "numeric", month: "2-digit", day: "2-digit" }).format(date);
     const addDays = (dateString, days) => { const date = new Date(`${dateString}T12:00:00`); date.setDate(date.getDate() + days); return chicagoDate(date); };
+    const formatSelectedDate = (dateString) => new Intl.DateTimeFormat("en-US", { timeZone: "America/Chicago", weekday: "long", month: "long", day: "numeric", year: "numeric" }).format(new Date(`${dateString}T12:00:00`));
     const normalizeRule = (rule = "") => String(rule ?? "").trim().replace(/^RRULE:/i, "");
     const parseRule = (rule = "") => Object.fromEntries(normalizeRule(rule).split(";").map((part) => part.split("=")).filter(([key, value]) => key && value));
     const dayCode = (dateString) => ["SU", "MO", "TU", "WE", "TH", "FR", "SA"][new Date(`${dateString}T12:00:00`).getDay()];
@@ -463,6 +468,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
     const filteredCards = () => {
       const query = searchInput?.value.trim().toLowerCase() ?? "";
       const selectedDate = dateFilter?.value ?? "all";
+      const exactDate = exactDateFilter?.value ?? "";
       const selectedCity = cityFilter?.value ?? "all";
       const selectedState = stateFilter?.value ?? "all";
       const selectedCategory = categoryFilter?.value ?? "all";
@@ -471,7 +477,7 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
         const categories = card.dataset.categories ?? "";
         const cityValues = (card.dataset.cities || card.dataset.city || "").split("|").filter(Boolean);
         return (!query || search.includes(query))
-          && matchesDate(card, selectedDate)
+          && (exactDate ? rangeContainsOccurrence(card, exactDate, exactDate) : matchesDate(card, selectedDate))
           && (requestedCities.size === 0 || cityValues.some((city) => requestedCities.has(city)))
           && (selectedCity === "all" || cityValues.includes(selectedCity))
           && (selectedState === "all" || normalizeState(card.dataset.state ?? "") === selectedState)
@@ -507,19 +513,33 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
       const end = start + PAGE_SIZE;
       const visibleSet = new Set(matches.slice(start, end));
       cards.forEach((card) => { card.hidden = !visibleSet.has(card); });
+      const exactDate = exactDateFilter?.value ?? "";
+      if (selectedDateSummary) {
+        selectedDateSummary.hidden = !exactDate;
+        selectedDateSummary.textContent = exactDate ? `Events on ${formatSelectedDate(exactDate)}` : "";
+      }
       if (resultCount) resultCount.textContent = matches.length ? `Showing ${start + 1}–${Math.min(end, matches.length)} of ${matches.length} events` : "0 events";
       if (noResults) noResults.hidden = matches.length !== 0;
       if (pagination) pagination.hidden = matches.length === 0 || totalPages <= 1;
       renderPagination(totalPages);
     };
 
-    [searchInput, dateFilter, cityFilter, stateFilter, categoryFilter].forEach((control) => control?.addEventListener(control === searchInput ? "input" : "change", () => applyFilters(true)));
+    [searchInput, cityFilter, stateFilter, categoryFilter].forEach((control) => control?.addEventListener(control === searchInput ? "input" : "change", () => applyFilters(true)));
+    dateFilter?.addEventListener("change", () => {
+      if (exactDateFilter) exactDateFilter.value = "";
+      applyFilters(true);
+    });
+    exactDateFilter?.addEventListener("change", () => {
+      if (dateFilter) dateFilter.value = "all";
+      applyFilters(true);
+    });
     quickButtons.forEach((button) => button.addEventListener("click", () => { quickFilter = button.dataset.quick ?? "all"; quickButtons.forEach((item) => item.classList.toggle("active", item === button)); applyFilters(true); }));
     previousPage?.addEventListener("click", () => { if (currentPage > 1) { currentPage -= 1; applyFilters(false); document.querySelector(".event-filters")?.scrollIntoView({ behavior: "smooth", block: "start" }); } });
     nextPage?.addEventListener("click", () => { const totalPages = Math.ceil(filteredCards().length / PAGE_SIZE); if (currentPage < totalPages) { currentPage += 1; applyFilters(false); document.querySelector(".event-filters")?.scrollIntoView({ behavior: "smooth", block: "start" }); } });
     const clearFilters = () => {
       if (searchInput) searchInput.value = "";
       if (dateFilter) dateFilter.value = "all";
+      if (exactDateFilter) exactDateFilter.value = "";
       if (cityFilter) {
         cityFilter.value = "all";
         [...cityFilter.options].forEach((option) => { option.disabled = false; });
@@ -544,12 +564,13 @@ const categories = [...new Set(events.flatMap((event) => event.categories ?? [])
   .eyebrow { margin: 0 0 .4rem; color: #176f95; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; }
   h1 { margin: 0 0 .75rem; color: #103a58; font-size: clamp(2.2rem, 7vw, 4.5rem); }
   .event-filters { margin-bottom: 1.5rem; padding: 1rem; border: 1px solid #d7e0e4; border-radius: 1rem; background: #fffdf8; }
-  .filter-grid { display: grid; grid-template-columns: minmax(220px,2fr) repeat(4,minmax(140px,1fr)); gap: .85rem; align-items: end; }
+  .filter-grid { display: grid; grid-template-columns: minmax(220px,2fr) repeat(5,minmax(140px,1fr)); gap: .85rem; align-items: end; }
   .event-filters label { display: grid; gap: .35rem; color: #103a58; font-weight: 800; }
   .event-filters input,.event-filters select { width: 100%; min-height: 46px; padding: .7rem .8rem; border: 1px solid #bfcdd4; border-radius: .65rem; background: white; color: #1f2933; font: inherit; }
   .quick-filters,.event-actions { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: 1rem; }
   .quick-filter,.clear-filters,.empty-state button,.pagination button { min-height: 42px; padding: .6rem .9rem; border: 1px solid #176f95; border-radius: 999px; background: white; color: #176f95; font: inherit; font-weight: 850; cursor: pointer; }
   .quick-filter.active,.page-number.active { background: #176f95; color: white; }
+  .selected-date-summary { margin: 1rem 0 0; color: #103a58; font-size: 1.05rem; font-weight: 900; }
   .filter-summary { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1rem; }
   .event-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.25rem; align-items: start; }
   .event-card { overflow: hidden; border: 1px solid #d7e0e4; border-radius: 1rem; background: #fffdf8; box-shadow: 0 12px 30px rgba(16,58,88,.08); }
