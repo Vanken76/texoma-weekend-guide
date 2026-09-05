@@ -2,6 +2,7 @@
   const grid = document.querySelector('#event-grid');
   const filters = document.querySelector('.event-filters');
   const dateFilter = document.querySelector('#date-filter');
+  const exactDateFilter = document.querySelector('#exact-date-filter');
   if (!(grid instanceof HTMLElement) || !(filters instanceof HTMLElement) || !(dateFilter instanceof HTMLSelectElement)) return;
 
   const cards = [...grid.querySelectorAll('[data-event-card]')];
@@ -227,9 +228,9 @@
   };
 
   const applyWeekendFix = () => {
-    if (dateFilter.value !== 'weekend') {
+    const exactDateActive = exactDateFilter instanceof HTMLInputElement && Boolean(exactDateFilter.value);
+    if (dateFilter.value !== 'weekend' || exactDateActive) {
       weekendPage = 1;
-      restoreDefaultView();
       return;
     }
 
@@ -310,7 +311,8 @@
 
   if (pagination instanceof HTMLElement) {
     pagination.addEventListener('click', (event) => {
-      if (dateFilter.value !== 'weekend') return;
+      const exactDateActive = exactDateFilter instanceof HTMLInputElement && Boolean(exactDateFilter.value);
+      if (dateFilter.value !== 'weekend' || exactDateActive) return;
       const target = event.target instanceof Element ? event.target : null;
       if (!target) return;
 
