@@ -5,8 +5,8 @@
   "generated_on": "2026-09-05",
   "source_workbook": "CommandCenter_Jul22_TexomaDrivingSchool_UPDATED.xlsx",
   "publication_rule": "Only records with publish_ready=true should be imported into the public directory.",
-  "business_count": 1302,
-  "publish_ready_count": 978,
+  "business_count": 1303,
+  "publish_ready_count": 979,
   "businesses": [
     {
       "slug": "boomers-bar",
@@ -140926,6 +140926,103 @@
         "Gourmet hot dogs",
         "Stuffed spudz",
         "Travels to scheduled event locations"
+      ]
+    },
+    {
+      "slug": "campus-theatre-denton",
+      "business_name": "Campus Theatre",
+      "directory_status": "complete",
+      "publish_ready": true,
+      "featured": false,
+      "flagship": false,
+      "profile_level": "standard",
+      "spotlight_reason": null,
+      "promotion_start_date": null,
+      "promotion_end_date": null,
+      "service_area_or_location": "214 W Hickory St, Denton, TX 76201",
+      "category": [
+        "Performing Arts Venue",
+        "Theater",
+        "Event Venue"
+      ],
+      "tags": [
+        "Historic Theater",
+        "Live Theatre",
+        "Musicals",
+        "Plays",
+        "Auditions",
+        "Downtown Denton",
+        "Performing Arts"
+      ],
+      "description": "Campus Theatre is a historic performing arts venue in downtown Denton and a primary home for Theatre Denton productions, auditions and community performances. The former movie theater now hosts plays, musicals and other live arts programming at 214 W Hickory Street.",
+      "why_visit": "Campus Theatre gives visitors a chance to experience live community theatre and performing arts in a historic downtown Denton setting.",
+      "why_its_unique": "The venue combines its history as a former movie house with an active role as a modern community performing arts theater hosting Theatre Denton productions and auditions.",
+      "phone": "940-382-1915",
+      "email": "tdoffice@theatredenton.com",
+      "website": "https://theatredenton.com/dentons-historic-campus-theatre/",
+      "facebook": "https://www.facebook.com/theatredenton",
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null,
+      "logo_url": "/images/businesses/campus-theatre-denton-logo.jpg",
+      "logo_alt": "Campus Theatre logo",
+      "price_range": null,
+      "family_friendly": null,
+      "pet_friendly": null,
+      "dog_friendly": null,
+      "hours": {},
+      "hours_note": "Public access and box-office hours vary by production, audition and scheduled event. Check Theatre Denton's current calendar before visiting.",
+      "at_a_glance": {
+        "average_visit": null,
+        "price_range": null,
+        "family_friendly": null,
+        "pet_friendly": null,
+        "dog_friendly": null,
+        "food_available": null,
+        "full_bar": null,
+        "live_music": null,
+        "karaoke": null,
+        "outdoor_seating": null,
+        "wheelchair_accessible": true,
+        "great_photo_spot": null
+      },
+      "amenities": [
+        "Wheelchair-accessible entrance",
+        "Wheelchair-accessible restroom"
+      ],
+      "good_to_know": [
+        "Event and admission details vary by production.",
+        "Campus Theatre is located in downtown Denton at 214 W Hickory St.",
+        "Theatre Denton uses the venue for productions, auditions and other performing arts programming.",
+        "Theatre Denton's general office number is 940-382-7014; the official Campus Theatre venue listing uses 940-382-1915."
+      ],
+      "event_venue": true,
+      "recurring_events": true,
+      "mine_for_events": true,
+      "event_mining_priority": "high",
+      "parent_business": null,
+      "related_businesses": [],
+      "related_geography": [],
+      "verification_note": "Complete. Theatre Denton's official event listings verify Campus Theatre at 214 W Hickory St, Denton, TX 76201 and venue phone 940-382-1915. Theatre Denton's current Facebook page at /theatredenton lists the same 214 W Hickory address, general office phone 940-382-7014, email tdoffice@theatredenton.com and website theatredenton.com. Campus Theatre hosts Theatre Denton productions and auditions, including the September 7-8, 2026 A Christmas Carol musical auditions.",
+      "last_checked": "2026-09-04",
+      "event_types": [
+        "Plays",
+        "Musicals",
+        "Auditions",
+        "Performing arts events",
+        "Community theatre"
+      ],
+      "event_sources": [
+        "Theatre Denton official website",
+        "Theatre Denton event calendar",
+        "Theatre Denton official Facebook page"
+      ],
+      "features": [
+        "Historic downtown theater",
+        "Live performances",
+        "Community theatre",
+        "Auditions",
+        "Performing arts venue"
       ]
     }
   ]
